@@ -1,0 +1,9 @@
+# Whitelist: mặc định bỏ hết, chỉ mở đúng ly_thuyet + mo_rong
+/*
+!/.gitignore
+!/simplychain/
+/simplychain/*
+!/simplychain/ly_thuyet/
+!/simplychain/mo_rong/
+
+.DS_Store
