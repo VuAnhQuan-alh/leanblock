@@ -1,9 +1,18 @@
-# Whitelist: mặc định bỏ hết, chỉ mở đúng ly_thuyet + mo_rong
+# Whitelist: mặc định bỏ hết, chỉ mở đúng ly_thuyet + mo_rong ở mỗi môn
 /*
 !/.gitignore
 !/simplychain/
+!/houedu/
+
 /simplychain/*
 !/simplychain/ly_thuyet/
 !/simplychain/mo_rong/
+
+# houedu có thêm một tầng (mỗi môn một thư mục) nên phải mở tầng đó trước
+/houedu/*
+!/houedu/*/
+/houedu/*/*
+!/houedu/*/ly_thuyet/
+!/houedu/*/mo_rong/
 
 .DS_Store
