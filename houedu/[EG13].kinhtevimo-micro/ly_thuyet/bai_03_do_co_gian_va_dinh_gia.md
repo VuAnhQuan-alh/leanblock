@@ -1363,10 +1363,10 @@ quét 300 dpi. Lỗi sắp chữ, không đổi nội dung.
 | **3** | **Độ co giãn và định giá** ← *bạn đang ở đây* | ch. 5 | 🎯⭐ |
 | 4 | [Thặng dư và chi phí của thuế](bai_04_thang_du_va_chi_phi_cua_thue.md) | ch. 7–8 | 🔸 |
 | 5 | [Chi phí sản xuất](bai_05_chi_phi_san_xuat.md) | ch. 13 | 🎯 |
-| 6 | Doanh nghiệp trên thị trường cạnh tranh *(chưa viết)* | ch. 14 | 🎯 |
-| 7 | Độc quyền và phân biệt giá *(chưa viết)* | ch. 15 | 🎯 |
-| 8 | Cạnh tranh độc quyền và thương hiệu *(chưa viết)* | ch. 16 | 🎯 |
-| 9 | Độc quyền nhóm và lý thuyết trò chơi *(chưa viết)* | ch. 17 | 🎯 |
+| 6 | [Doanh nghiệp trên thị trường cạnh tranh](bai_06_thi_truong_canh_tranh.md) | ch. 14 | 🎯 |
+| 7 | [Độc quyền và phân biệt giá](bai_07_doc_quyen_va_phan_biet_gia.md) | ch. 15 | 🎯 |
+| 8 | [Cạnh tranh độc quyền và thương hiệu](bai_08_canh_tranh_doc_quyen.md) | ch. 16 | 🎯 |
+| 9 | [Độc quyền nhóm và lý thuyết trò chơi](bai_09_doc_quyen_nhom_va_ly_thuyet_tro_choi.md) | ch. 17 | 🎯 |
 | 10 | Lựa chọn của người tiêu dùng *(chưa viết)* | ch. 21 | 🎯 |
 | 11 | Thông tin bất cân xứng và hành vi *(chưa viết)* | ch. 22 | 🎯 |
 | 12 | Lao động, tiền lương, bất bình đẳng *(chưa viết)* | ch. 18–20 | 🔸 |

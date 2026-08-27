@@ -54,10 +54,10 @@ Sách mở chương bằng bốn hiện tượng tưởng chẳng liên quan (tr
 
 Điều quan trọng trong định nghĩa này là nó **rất rộng**. Sách nêu hai đầu của quang phổ (tr. 78):
 
-| Kiểu thị trường | Ví dụ của sách | Đặc điểm |
-| --- | --- | --- |
-| Tổ chức **chặt chẽ** | thị trường nhiều loại nông sản | người mua và người bán gặp nhau ở **một thời gian và địa điểm cụ thể**, có **người xướng giá** |
-| Tổ chức **kém chặt chẽ** (phổ biến hơn) | thị trường kem ở một thị trấn | không ai xướng giá; mỗi người bán **tự niêm yết giá**, mỗi người mua tự quyết định mua ở đâu |
+| Kiểu thị trường                         | Ví dụ của sách                 | Đặc điểm                                                                                       |
+| --------------------------------------- | ------------------------------ | ---------------------------------------------------------------------------------------------- |
+| Tổ chức **chặt chẽ**                    | thị trường nhiều loại nông sản | người mua và người bán gặp nhau ở **một thời gian và địa điểm cụ thể**, có **người xướng giá** |
+| Tổ chức **kém chặt chẽ** (phổ biến hơn) | thị trường kem ở một thị trấn  | không ai xướng giá; mỗi người bán **tự niêm yết giá**, mỗi người mua tự quyết định mua ở đâu   |
 
 Và câu kết luận đáng nhớ về thị trường kem: *"Ngay cả khi không được tổ chức, nhóm người mua và bán kem cũng hình thành một thị trường."*
 
@@ -67,11 +67,11 @@ Và câu kết luận đáng nhớ về thị trường kem: *"Ngay cả khi kh�
 
 Câu hỏi *"thị trường của ta là gì"* quyết định mọi con số sau đó — thị phần, đối thủ, quy mô tăng trưởng.
 
-| Cách định nghĩa | Thị phần của một quán cà phê | Kết luận rút ra |
-| --- | --- | --- |
-| "thị trường cà phê pha máy trong bán kính 500 m" | 40% | *"ta đang thống lĩnh"* |
-| "thị trường đồ uống mang đi trong quận" | 3% | *"ta là người chơi nhỏ"* |
-| "thị trường mọi thứ khách có thể uống buổi sáng" | 0,2% | *"ta gần như không tồn tại"* |
+| Cách định nghĩa                                  | Thị phần của một quán cà phê | Kết luận rút ra              |
+| ------------------------------------------------ | ---------------------------- | ---------------------------- |
+| "thị trường cà phê pha máy trong bán kính 500 m" | 40%                          | *"ta đang thống lĩnh"*       |
+| "thị trường đồ uống mang đi trong quận"          | 3%                           | *"ta là người chơi nhỏ"*     |
+| "thị trường mọi thứ khách có thể uống buổi sáng" | 0,2%                         | *"ta gần như không tồn tại"* |
 
 Không có định nghĩa nào **đúng tuyệt đối**. Cái đúng là cái bao gồm **những thứ khách hàng thật sự cân nhắc thay cho sản phẩm của bạn** — tức là những **hàng hoá thay thế**, khái niệm sẽ gặp ở mục 5.
 
@@ -96,11 +96,11 @@ CẠNH TRANH HOÀN HẢO
 
 Ba loại thị trường mà sách phân biệt:
 
-| Loại | Ví dụ của sách | tr. |
-| --- | --- | --- |
-| **Cạnh tranh hoàn hảo** | lúa mì — hàng ngàn nông dân, hàng triệu người tiêu dùng | 79 |
-| **Độc quyền** — duy nhất một người bán, **người này quyết định giá** | công ty truyền hình cáp ở thị trấn của bạn | 79 |
-| Nằm **giữa hai thái cực** | phần lớn thị trường thực tế | 79 |
+| Loại                                                                 | Ví dụ của sách                                          | tr. |
+| -------------------------------------------------------------------- | ------------------------------------------------------- | --- |
+| **Cạnh tranh hoàn hảo**                                              | lúa mì — hàng ngàn nông dân, hàng triệu người tiêu dùng | 79  |
+| **Độc quyền** — duy nhất một người bán, **người này quyết định giá** | công ty truyền hình cáp ở thị trấn của bạn              | 79  |
+| Nằm **giữa hai thái cực**                                            | phần lớn thị trường thực tế                             | 79  |
 
 Và sách nói thẳng vì sao vẫn giả định cạnh tranh hoàn hảo trong chương này: nó là *"một sự giản lược hữu ích và vì vậy là một điểm mấu chốt để bắt đầu"* — vì các thành viên **chấp nhận mức giá được cho trước**, đây là loại thị trường **dễ phân tích nhất** (tr. 79). Đúng tinh thần "vai trò của giả định" ở bài 1.
 
@@ -124,14 +124,14 @@ Sách minh hoạ bằng chính bạn: nếu kem tăng lên 20 đô la một que,
 > **Đường cầu** (*demand curve*): đồ thị biểu diễn mối quan hệ giữa mức giá và lượng cầu của một hàng hoá. — chú thích tr. 80
 
 | Giá kem | Lượng cầu của Catherine |
-| ---: | ---: |
-| $0,00 | 12 cây |
-| $0,50 | 10 |
-| $1,00 | 8 |
-| $1,50 | 6 |
-| $2,00 | 4 |
-| $2,50 | 2 |
-| $3,00 | **0** |
+| ------: | ----------------------: |
+|   $0,00 |                  12 cây |
+|   $0,50 |                      10 |
+|   $1,00 |                       8 |
+|   $1,50 |                       6 |
+|   $2,00 |                       4 |
+|   $2,50 |                       2 |
+|   $3,00 |                   **0** |
 
 Hai điều rút ra:
 
@@ -150,15 +150,15 @@ Trong toán, biến độc lập thường nằm trục hoành. Ở đây **giá
 
 Hình 2, tr. 81 — Catherine và Nicholas là hai người mua duy nhất trên thị trường:
 
-| Giá mỗi que | Catherine | + | Nicholas | = | **Thị trường** |
-| ---: | ---: | :---: | ---: | :---: | ---: |
-| $0,00 | 12 | + | 7 | = | **19** que |
-| $0,50 | 10 | + | 6 | = | **16** |
-| $1,00 | 8 | + | 5 | = | **13** |
-| $1,50 | 6 | + | 4 | = | **10** |
-| **$2,00** | **4** | + | **3** | = | **7** |
-| $2,50 | 2 | + | 2 | = | **4** |
-| $3,00 | 0 | + | 1 | = | **1** |
+| Giá mỗi que | Catherine |   +   | Nicholas |   =   | **Thị trường** |
+| ----------: | --------: | :---: | -------: | :---: | -------------: |
+|       $0,00 |        12 |   +   |        7 |   =   |     **19** que |
+|       $0,50 |        10 |   +   |        6 |   =   |         **16** |
+|       $1,00 |         8 |   +   |        5 |   =   |         **13** |
+|       $1,50 |         6 |   +   |        4 |   =   |         **10** |
+|   **$2,00** |     **4** |   +   |    **3** |   =   |          **7** |
+|       $2,50 |         2 |   +   |        2 |   =   |          **4** |
+|       $3,00 |         0 |   +   |        1 |   =   |          **1** |
 
 ⚠️ **Cộng theo chiều NGANG, không phải chiều dọc.** Sách nhấn mạnh riêng điểm này (tr. 81):
 
@@ -191,14 +191,14 @@ Và hệ quả thực tế: **hai phân khúc có độ nhạy giá khác nhau t
 
 **Bảng 1, tr. 83** liệt kê các biến ảnh hưởng đến người mua:
 
-| Biến số | Thay đổi biến này dẫn đến |
-| --- | --- |
-| **Giá của hàng hoá** | **di chuyển dọc theo** đường cầu |
-| Thu nhập | **dịch chuyển** đường cầu |
-| Giá hàng hoá liên quan | **dịch chuyển** đường cầu |
-| Thị hiếu | **dịch chuyển** đường cầu |
-| Kỳ vọng | **dịch chuyển** đường cầu |
-| Số lượng người mua | **dịch chuyển** đường cầu |
+| Biến số                | Thay đổi biến này dẫn đến        |
+| ---------------------- | -------------------------------- |
+| **Giá của hàng hoá**   | **di chuyển dọc theo** đường cầu |
+| Thu nhập               | **dịch chuyển** đường cầu        |
+| Giá hàng hoá liên quan | **dịch chuyển** đường cầu        |
+| Thị hiếu               | **dịch chuyển** đường cầu        |
+| Kỳ vọng                | **dịch chuyển** đường cầu        |
+| Số lượng người mua     | **dịch chuyển** đường cầu        |
 
 ### ① Thu nhập — hàng hoá thông thường và hàng hoá thứ cấp
 
@@ -214,10 +214,10 @@ Ví dụ của sách cho hàng thứ cấp: **xe buýt**. *"Khi thu nhập của
 > **Hàng hoá thay thế** (*substitutes*): hai hàng hoá mà khi giá của hàng hoá này tăng sẽ làm **tăng** cầu của hàng hoá kia. — chú thích tr. 82
 > **Hàng hoá bổ sung** (*complements*): hai hàng hoá mà khi giá hàng hoá này tăng thì cầu của hàng hoá kia **giảm**. — chú thích tr. 83
 
-| Quan hệ | Ví dụ của sách | tr. |
-| --- | --- | --- |
-| **Thay thế** | kem ↔ sữa chua; xúc xích ↔ bánh mì kẹp thịt; áo len ↔ áo nỉ; vé xem phim rạp ↔ đĩa DVD | 82 |
-| **Bổ sung** | kem ↔ chocolate dạng lỏng; xăng ↔ ô tô; máy tính ↔ phần mềm; bơ đậu phộng ↔ sữa ong chúa | 83 |
+| Quan hệ      | Ví dụ của sách                                                                           | tr. |
+| ------------ | ---------------------------------------------------------------------------------------- | --- |
+| **Thay thế** | kem ↔ sữa chua; xúc xích ↔ bánh mì kẹp thịt; áo len ↔ áo nỉ; vé xem phim rạp ↔ đĩa DVD   | 82  |
+| **Bổ sung**  | kem ↔ chocolate dạng lỏng; xăng ↔ ô tô; máy tính ↔ phần mềm; bơ đậu phộng ↔ sữa ong chúa | 83  |
 
 Cách nhớ dứt điểm: **thay thế = dùng thay cho nhau; bổ sung = dùng cùng nhau.**
 
@@ -237,14 +237,14 @@ Nếu Peter tham gia cùng Catherine và Nicholas, lượng cầu thị trườn
 
 Khi doanh số giảm, câu hỏi đầu tiên phải là: **giá của ta có đổi không?** Vì hai nguyên nhân đó cần hai cách xử lý hoàn toàn khác nhau.
 
-| Doanh số giảm vì | Bản chất | Việc phải làm |
-| --- | --- | --- |
-| ta vừa tăng giá | **di chuyển dọc** đường cầu | tính lại: doanh thu tăng hay giảm? (bài 3) |
-| đối thủ giảm giá | dịch trái — giá **hàng thay thế** giảm | so sánh giá trị, không nhất thiết chạy đua giảm giá |
-| kinh tế khó khăn, khách thắt chi | dịch trái — **thu nhập** giảm | nếu hàng thông thường: ra dòng phổ thông |
-| xu hướng tiêu dùng đổi | dịch trái — **thị hiếu** | đổi sản phẩm, không phải đổi giá |
-| khách chờ đợt sale cuối tháng | dịch trái — **kỳ vọng** | ⚠️ chính chính sách khuyến mãi của bạn tạo ra nó |
-| cửa hàng mới mở gần đó hút khách | **số người mua** ở khu vực bạn giảm | mở rộng vùng phục vụ |
+| Doanh số giảm vì                 | Bản chất                               | Việc phải làm                                       |
+| -------------------------------- | -------------------------------------- | --------------------------------------------------- |
+| ta vừa tăng giá                  | **di chuyển dọc** đường cầu            | tính lại: doanh thu tăng hay giảm? (bài 3)          |
+| đối thủ giảm giá                 | dịch trái — giá **hàng thay thế** giảm | so sánh giá trị, không nhất thiết chạy đua giảm giá |
+| kinh tế khó khăn, khách thắt chi | dịch trái — **thu nhập** giảm          | nếu hàng thông thường: ra dòng phổ thông            |
+| xu hướng tiêu dùng đổi           | dịch trái — **thị hiếu**               | đổi sản phẩm, không phải đổi giá                    |
+| khách chờ đợt sale cuối tháng    | dịch trái — **kỳ vọng**                | ⚠️ chính chính sách khuyến mãi của bạn tạo ra nó     |
+| cửa hàng mới mở gần đó hút khách | **số người mua** ở khu vực bạn giảm    | mở rộng vùng phục vụ                                |
 
 Dòng **kỳ vọng** đáng suy nghĩ nhất: khuyến mãi định kỳ **dạy khách hàng chờ**. Kỳ vọng giá sẽ giảm làm cầu hiện tại dịch trái — bạn tự tay bóp doanh số của chính những tuần không giảm giá.
 
@@ -266,11 +266,11 @@ Quy tắc rút gọn để dùng khi làm bài:
 
 Và **cặp thuật ngữ đi kèm** mà sách chốt lại ở tr. 93 — đề thi rất hay hỏi đúng chỗ này:
 
-| Hiện tượng | Gọi là |
-| --- | --- |
-| **cả đường cầu** dịch chuyển | "sự thay đổi của **cầu**" |
-| **di chuyển dọc** theo đường cầu | "sự thay đổi của **lượng cầu**" |
-| **cả đường cung** dịch chuyển | "sự thay đổi của **cung**" |
+| Hiện tượng                        | Gọi là                           |
+| --------------------------------- | -------------------------------- |
+| **cả đường cầu** dịch chuyển      | "sự thay đổi của **cầu**"        |
+| **di chuyển dọc** theo đường cầu  | "sự thay đổi của **lượng cầu**"  |
+| **cả đường cung** dịch chuyển     | "sự thay đổi của **cung**"       |
 | **di chuyển dọc** theo đường cung | "sự thay đổi của **lượng cung**" |
 
 Nói gọn: **"cầu" là vị trí của cả đường; "lượng cầu" là một điểm trên đường đó.**
@@ -300,9 +300,9 @@ Thanh thiếu niên **nhạy cảm với giá gấp ba lần** người trưởn
 
 Một tranh luận mà sách thuật lại và kết bằng **dữ liệu**, không bằng suy luận (tr. 85):
 
-| Lập luận | Dự đoán | Kết quả thực nghiệm |
-| --- | --- | --- |
-| Thuốc lá và cần sa là **hàng thay thế** | giá thuốc lá cao → dùng **nhiều** cần sa hơn | ❌ |
+| Lập luận                                              | Dự đoán                                           | Kết quả thực nghiệm                                             |
+| ----------------------------------------------------- | ------------------------------------------------- | --------------------------------------------------------------- |
+| Thuốc lá và cần sa là **hàng thay thế**               | giá thuốc lá cao → dùng **nhiều** cần sa hơn      | ❌                                                               |
 | Thuốc lá là **"cửa ngõ ma tuý"**, hai thứ **bổ sung** | giá thuốc lá **thấp** → dùng **nhiều** cần sa hơn | ✅ *"Các dữ liệu nghiên cứu cũng phù hợp với quan điểm thứ hai"* |
 
 Kết luận nguyên văn của sách: *"Nói cách khác, thuốc lá và cần sa là những hàng hoá **bổ sung** chứ không phải là những hàng hoá thay thế nhau."*
@@ -323,14 +323,14 @@ Cơ chế mà sách mô tả (tr. 85): giá kem cao → bán kem có lợi nhu�
 ### Biểu cung của Ben — Hình 5, tr. 86
 
 | Giá kem | Lượng cung của Ben |
-| ---: | ---: |
-| $0,00 | 0 |
-| $0,50 | 0 |
-| $1,00 | 1 |
-| $1,50 | 2 |
-| $2,00 | 3 |
-| $2,50 | 4 |
-| $3,00 | 5 |
+| ------: | -----------------: |
+|   $0,00 |                  0 |
+|   $0,50 |                  0 |
+|   $1,00 |                  1 |
+|   $1,50 |                  2 |
+|   $2,00 |                  3 |
+|   $2,50 |                  4 |
+|   $3,00 |                  5 |
 
 ⚠️ **Chú ý hai dòng đầu bằng 0.** Ở mức giá dưới 1 đô la, *"Ben sẽ không cung cấp kem nữa"* (tr. 85). Đường cung **không** bắt đầu từ gốc toạ độ — có một **ngưỡng giá tối thiểu** để người bán chịu bán. Ngưỡng này sẽ có tên chính thức ở bài 6: **quyết định đóng cửa**.
 
@@ -338,15 +338,15 @@ Cơ chế mà sách mô tả (tr. 85): giá kem cao → bán kem có lợi nhu�
 
 Cộng **theo chiều ngang**, giống hệt bên cầu:
 
-| Giá kem | Ben | + | Jerry | = | **Thị trường** |
-| ---: | ---: | :---: | ---: | :---: | ---: |
-| $0,00 | 0 | + | 0 | = | **0** |
-| $0,50 | 0 | + | 0 | = | **0** |
-| $1,00 | 1 | + | 0 | = | **1** |
-| $1,50 | 2 | + | 2 | = | **4** |
-| **$2,00** | **3** | + | **4** | = | **7** |
-| $2,50 | 4 | + | 6 | = | **10** |
-| $3,00 | 5 | + | 8 | = | **13** |
+|   Giá kem |   Ben |   +   | Jerry |   =   | **Thị trường** |
+| --------: | ----: | :---: | ----: | :---: | -------------: |
+|     $0,00 |     0 |   +   |     0 |   =   |          **0** |
+|     $0,50 |     0 |   +   |     0 |   =   |          **0** |
+|     $1,00 |     1 |   +   |     0 |   =   |          **1** |
+|     $1,50 |     2 |   +   |     2 |   =   |          **4** |
+| **$2,00** | **3** |   +   | **4** |   =   |          **7** |
+|     $2,50 |     4 |   +   |     6 |   =   |         **10** |
+|     $3,00 |     5 |   +   |     8 |   =   |         **13** |
 
 ---
 
@@ -354,13 +354,13 @@ Cộng **theo chiều ngang**, giống hệt bên cầu:
 
 **Bảng 2, tr. 88:**
 
-| Biến số | Thay đổi biến này sẽ làm |
-| --- | --- |
+| Biến số              | Thay đổi biến này sẽ làm          |
+| -------------------- | --------------------------------- |
 | **Giá của hàng hoá** | **di chuyển dọc** theo đường cung |
-| Giá các đầu vào | **dịch chuyển** đường cung |
-| Công nghệ | **dịch chuyển** đường cung |
-| Kỳ vọng | **dịch chuyển** đường cung |
-| Số lượng người bán | **dịch chuyển** đường cung |
+| Giá các đầu vào      | **dịch chuyển** đường cung        |
+| Công nghệ            | **dịch chuyển** đường cung        |
+| Kỳ vọng              | **dịch chuyển** đường cung        |
+| Số lượng người bán   | **dịch chuyển** đường cung        |
 
 **① Giá đầu vào** (tr. 88). Đầu vào của kem: *"kem, đường, hương liệu, máy kem, nhà xưởng sản xuất kem và lao động"*. Giá đầu vào tăng → lợi nhuận giảm → cung ít đi; nếu tăng đáng kể, *"doanh nghiệp có thể đóng cửa và không bán kem nữa"*. Quan hệ: **cung nghịch biến với giá đầu vào**.
 
@@ -384,12 +384,12 @@ Phần in đậm là **mảnh văn bản của đoạn "Giá đầu vào" phía 
 
 ### 💼 Góc QTKD — bốn yếu tố này chính là bốn đòn bẩy chi phí của bạn
 
-| Yếu tố | Đòn bẩy trong doanh nghiệp |
-| --- | --- |
-| Giá đầu vào | đàm phán nhà cung cấp, hợp đồng dài hạn, đa dạng nguồn cung |
-| Công nghệ | tự động hoá — **dịch cả đường cung sang phải**, tức là ở **mọi** mức giá đều bán được nhiều hơn có lãi |
-| Kỳ vọng | chính sách tồn kho: giữ hàng chờ giá lên là một quyết định **cung**, không phải quyết định kho vận |
-| Số người bán | đối thủ mới gia nhập → đường cung ngành dịch phải → **giá thị trường giảm** (bài 6) |
+| Yếu tố       | Đòn bẩy trong doanh nghiệp                                                                             |
+| ------------ | ------------------------------------------------------------------------------------------------------ |
+| Giá đầu vào  | đàm phán nhà cung cấp, hợp đồng dài hạn, đa dạng nguồn cung                                            |
+| Công nghệ    | tự động hoá — **dịch cả đường cung sang phải**, tức là ở **mọi** mức giá đều bán được nhiều hơn có lãi |
+| Kỳ vọng      | chính sách tồn kho: giữ hàng chờ giá lên là một quyết định **cung**, không phải quyết định kho vận     |
+| Số người bán | đối thủ mới gia nhập → đường cung ngành dịch phải → **giá thị trường giảm** (bài 6)                    |
 
 Dòng **công nghệ** là dòng đáng đầu tư nhất: giảm giá bán chỉ **trượt dọc** đường cung, còn giảm chi phí **dịch cả đường** — nó cải thiện vị thế của bạn ở mọi mức giá cùng lúc.
 
@@ -447,10 +447,10 @@ Và một nhận xét thực tế mà sách thêm vào (tr. 90): *"Việc thị 
 
 Hai tình trạng này có tên khác trong doanh nghiệp, và chúng là **tín hiệu định giá**, không phải chỉ là chuyện vận hành:
 
-| Hiện tượng | Kinh tế học gọi | Tín hiệu thật |
-| --- | --- | --- |
-| hàng tồn chất kho, phải xả lỗ cuối mùa | **thặng dư** | giá đang **cao hơn** mức thị trường chịu |
-| hết hàng liên tục, khách phải đặt trước, chợ đen bán lại | **thiếu hụt** | giá đang **thấp hơn** mức thị trường chịu |
+| Hiện tượng                                               | Kinh tế học gọi | Tín hiệu thật                             |
+| -------------------------------------------------------- | --------------- | ----------------------------------------- |
+| hàng tồn chất kho, phải xả lỗ cuối mùa                   | **thặng dư**    | giá đang **cao hơn** mức thị trường chịu  |
+| hết hàng liên tục, khách phải đặt trước, chợ đen bán lại | **thiếu hụt**   | giá đang **thấp hơn** mức thị trường chịu |
 
 ⚠️ Vé xem ca nhạc "cháy trong 3 phút" rồi bán lại gấp 5 lần ngoài chợ đen **không phải** thành công marketing — đó là bằng chứng bạn **định giá thấp**, và toàn bộ phần chênh lệch đó rơi vào túi người bán lại chứ không phải bạn.
 
@@ -468,19 +468,19 @@ Hai tình trạng này có tên khác trong doanh nghiệp, và chúng là **tí
 
 ### Ví dụ 1 — cầu dịch chuyển: mùa hè nóng bất thường (tr. 92)
 
-| Bước | Lập luận |
-| --- | --- |
-| ① | Thời tiết nóng tác động vào **cầu** (thay đổi **sở thích**). **Cung không đổi** — *"thời tiết không ảnh hưởng trực tiếp đến doanh nghiệp bán kem"* |
-| ② | Muốn dùng nhiều kem hơn → cầu dịch **sang phải**, $D_1 \to D_2$ |
-| ③ | Ở giá cũ 2 đô la xuất hiện **thiếu hụt** → giá bị đẩy lên. Cân bằng mới: **giá 2 → 2,5 đô la**, **lượng 7 → 10 que** |
+| Bước | Lập luận                                                                                                                                           |
+| ---- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ①    | Thời tiết nóng tác động vào **cầu** (thay đổi **sở thích**). **Cung không đổi** — *"thời tiết không ảnh hưởng trực tiếp đến doanh nghiệp bán kem"* |
+| ②    | Muốn dùng nhiều kem hơn → cầu dịch **sang phải**, $D_1 \to D_2$                                                                                    |
+| ③    | Ở giá cũ 2 đô la xuất hiện **thiếu hụt** → giá bị đẩy lên. Cân bằng mới: **giá 2 → 2,5 đô la**, **lượng 7 → 10 que**                               |
 
 ### Ví dụ 2 — cung dịch chuyển: bão phá vụ mía, giá đường tăng (tr. 93)
 
-| Bước | Lập luận |
-| --- | --- |
-| ① | Giá đường là **giá đầu vào** → tác động **đường cung**. **Cầu không đổi** — *"chi phí đầu vào cao không trực tiếp ảnh hưởng đến sở thích dùng kem"* |
-| ② | Chi phí cao hơn → bán ít hơn ở mọi mức giá → cung dịch **sang trái**, $S_1 \to S_2$ |
-| ③ | Ở giá cũ 2 đô la xuất hiện **thiếu hụt** → giá tăng. Cân bằng mới: **giá 2 → 2,5 đô la**, **lượng 7 → 4 que** |
+| Bước | Lập luận                                                                                                                                            |
+| ---- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ①    | Giá đường là **giá đầu vào** → tác động **đường cung**. **Cầu không đổi** — *"chi phí đầu vào cao không trực tiếp ảnh hưởng đến sở thích dùng kem"* |
+| ②    | Chi phí cao hơn → bán ít hơn ở mọi mức giá → cung dịch **sang trái**, $S_1 \to S_2$                                                                 |
+| ③    | Ở giá cũ 2 đô la xuất hiện **thiếu hụt** → giá tăng. Cân bằng mới: **giá 2 → 2,5 đô la**, **lượng 7 → 4 que**                                       |
 
 ⚠️ **So sánh hai ví dụ này cạnh nhau — đây là ý quan trọng nhất mục 12.** Cả hai đều làm **giá tăng lên 2,5 đô la**. Nhưng lượng thì **ngược nhau**: nóng làm lượng **tăng lên 10**, bão làm lượng **giảm xuống 4**.
 
@@ -490,10 +490,10 @@ Nghĩa là: **nhìn giá tăng thôi thì không biết chuyện gì đã xảy 
 
 Cầu dịch **phải**, cung dịch **trái**. Cả hai đều đẩy **giá lên** → giá chắc chắn tăng. Nhưng lượng thì:
 
-| Hình 12 | Tình huống | Lượng cân bằng |
-| --- | --- | --- |
-| (a) | cầu tăng **đáng kể**, cung giảm **một ít** | **tăng** |
-| (b) | cung giảm **đáng kể**, cầu tăng **một ít** | **giảm** |
+| Hình 12 | Tình huống                                 | Lượng cân bằng |
+| ------- | ------------------------------------------ | -------------- |
+| (a)     | cầu tăng **đáng kể**, cung giảm **một ít** | **tăng**       |
+| (b)     | cung giảm **đáng kể**, cầu tăng **một ít** | **giảm**       |
 
 Kết luận nguyên văn: *"những sự kiện này chắc chắn làm giá kem tăng lên, nhưng tác động của số lượng kem bán ra là **không rõ ràng**"* (tr. 94).
 
@@ -503,11 +503,11 @@ Kết luận nguyên văn: *"những sự kiện này chắc chắn làm giá ke
 
 **Bảng 4, tr. 95:**
 
-| | **Cung không đổi** | **Cung tăng** | **Cung giảm** |
-| --- | --- | --- | --- |
-| **Cầu không đổi** | P không đổi<br>Q không đổi | P **giảm**<br>Q **tăng** | P **tăng**<br>Q **giảm** |
-| **Cầu tăng** | P **tăng**<br>Q **tăng** | P **không rõ**<br>Q **tăng** | P **tăng**<br>Q **không rõ** |
-| **Cầu giảm** | P **giảm**<br>Q **giảm** | P **giảm**<br>Q **không rõ** | P **không rõ**<br>Q **giảm** |
+|                   | **Cung không đổi**         | **Cung tăng**                | **Cung giảm**                |
+| ----------------- | -------------------------- | ---------------------------- | ---------------------------- |
+| **Cầu không đổi** | P không đổi<br>Q không đổi | P **giảm**<br>Q **tăng**     | P **tăng**<br>Q **giảm**     |
+| **Cầu tăng**      | P **tăng**<br>Q **tăng**   | P **không rõ**<br>Q **tăng** | P **tăng**<br>Q **không rõ** |
+| **Cầu giảm**      | P **giảm**<br>Q **giảm**   | P **giảm**<br>Q **không rõ** | P **không rõ**<br>Q **giảm** |
 
 📚 **Đừng học thuộc bảng này.** Nó có quy luật, và quy luật ấy chỉ có một dòng:
 
@@ -545,19 +545,19 @@ Ví dụ **ai làm nông** (tr. 97): trong một xã hội tự do *"không có 
 
 Bài báo của **Jeff Jacoby**, bối cảnh: **năm 2010**, đường ống nước chính ở Great Boston vỡ, nhiều thị trấn không có nước máy sạch → cầu nước đóng chai tăng vọt.
 
-| Bên | Hành động |
-| --- | --- |
+| Bên                               | Hành động                                                                                                                                       |
+| --------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
 | Tổng chưởng lý **Martha Coakley** | cảnh báo doanh nghiệp không được "chặt chém"; phái thanh tra kiểm tra theo từng điểm; lập đường dây nóng nhận tố giác "những kẻ bán giá cắt cổ" |
-| Thống đốc **Deval Patrick** | ra lệnh "giám sát chặt chẽ giá nước đóng chai" |
-| Tác giả bài báo | **phản đối** kiểm soát giá |
+| Thống đốc **Deval Patrick**       | ra lệnh "giám sát chặt chẽ giá nước đóng chai"                                                                                                  |
+| Tác giả bài báo                   | **phản đối** kiểm soát giá                                                                                                                      |
 
 Phép thử giả định mà tác giả dựng lên — đáng đọc kỹ vì nó là toàn bộ chương 4 gói trong một đoạn:
 
-| | Người bán A | Người bán B |
-| --- | --- | --- |
-| Phản ứng | giữ giá **69 xu** một chai | tăng hơn **4 lần**, lên **2,99 đô la** |
-| Điều xảy ra | *"Trong vòng vài giờ toàn bộ hàng đã được bán sạch"*, khách tới sau **về tay không** | bán chậm hơn, **nhiều lời phàn nàn** |
-| Nhưng | | *"ngay cả khách hàng đến trễ cũng có thể mua được lượng nước họ cần, và gần như không ai mua nhiều hơn mức họ thực sự cần"* |
+|             | Người bán A                                                                          | Người bán B                                                                                                                 |
+| ----------- | ------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------- |
+| Phản ứng    | giữ giá **69 xu** một chai                                                           | tăng hơn **4 lần**, lên **2,99 đô la**                                                                                      |
+| Điều xảy ra | *"Trong vòng vài giờ toàn bộ hàng đã được bán sạch"*, khách tới sau **về tay không** | bán chậm hơn, **nhiều lời phàn nàn**                                                                                        |
+| Nhưng       |                                                                                      | *"ngay cả khách hàng đến trễ cũng có thể mua được lượng nước họ cần, và gần như không ai mua nhiều hơn mức họ thực sự cần"* |
 
 Hai chức năng của việc giá tăng, theo lập luận của bài báo:
 
@@ -939,29 +939,29 @@ Sửa tham số rồi chạy lại. Không có lời giải kèm theo.
 
 Cột tiếng Anh lấy từ mục **Khái niệm then chốt** của sách (tr. 98–99).
 
-| Tiếng Việt | Tiếng Anh | Ghi chú |
-| --- | --- | --- |
-| Thị trường | Market | tr. 77 — một **quan hệ**, không phải một địa điểm |
-| Thị trường cạnh tranh | Competitive market | tr. 78 — nhiều người mua và bán, không ai ảnh hưởng được giá |
-| Người chấp nhận giá | Price taker | tr. 78 |
-| Lượng cầu | Quantity demanded | tr. 79 — sẵn lòng **và có khả năng** mua |
-| Quy luật cầu | Law of demand | tr. 79 |
-| Biểu cầu | Demand schedule | tr. 80 — cái **bảng** |
-| Đường cầu | Demand curve | tr. 80 — cái **đồ thị** |
-| Hàng hoá thông thường | Normal good | tr. 82 — thu nhập tăng ⟹ cầu tăng |
-| Hàng hoá thứ cấp | Inferior good | tr. 82 — thu nhập tăng ⟹ cầu **giảm** |
-| Hàng hoá thay thế | Substitutes | tr. 82 — dùng **thay cho** nhau |
-| Hàng hoá bổ sung | Complements | tr. 83 — dùng **cùng** nhau |
-| Lượng cung | Quantity supplied | tr. 85 |
-| Quy luật cung | Law of supply | tr. 85 |
-| Biểu cung | Supply schedule | tr. 86 |
-| Đường cung | Supply curve | tr. 86 |
-| Trạng thái cân bằng | Equilibrium | tr. 89 |
-| Giá cân bằng | Equilibrium price | tr. 89 |
-| Lượng cân bằng | Equilibrium quantity | tr. 89 |
-| Thặng dư | Surplus | tr. 90 — cung > cầu, giá **quá cao** |
-| Thiếu hụt | Shortage | tr. 90 — cầu > cung, giá **quá thấp** |
-| Quy luật cung và cầu | Law of supply and demand | tr. 91 |
+| Tiếng Việt            | Tiếng Anh                | Ghi chú                                                      |
+| --------------------- | ------------------------ | ------------------------------------------------------------ |
+| Thị trường            | Market                   | tr. 77 — một **quan hệ**, không phải một địa điểm            |
+| Thị trường cạnh tranh | Competitive market       | tr. 78 — nhiều người mua và bán, không ai ảnh hưởng được giá |
+| Người chấp nhận giá   | Price taker              | tr. 78                                                       |
+| Lượng cầu             | Quantity demanded        | tr. 79 — sẵn lòng **và có khả năng** mua                     |
+| Quy luật cầu          | Law of demand            | tr. 79                                                       |
+| Biểu cầu              | Demand schedule          | tr. 80 — cái **bảng**                                        |
+| Đường cầu             | Demand curve             | tr. 80 — cái **đồ thị**                                      |
+| Hàng hoá thông thường | Normal good              | tr. 82 — thu nhập tăng ⟹ cầu tăng                            |
+| Hàng hoá thứ cấp      | Inferior good            | tr. 82 — thu nhập tăng ⟹ cầu **giảm**                        |
+| Hàng hoá thay thế     | Substitutes              | tr. 82 — dùng **thay cho** nhau                              |
+| Hàng hoá bổ sung      | Complements              | tr. 83 — dùng **cùng** nhau                                  |
+| Lượng cung            | Quantity supplied        | tr. 85                                                       |
+| Quy luật cung         | Law of supply            | tr. 85                                                       |
+| Biểu cung             | Supply schedule          | tr. 86                                                       |
+| Đường cung            | Supply curve             | tr. 86                                                       |
+| Trạng thái cân bằng   | Equilibrium              | tr. 89                                                       |
+| Giá cân bằng          | Equilibrium price        | tr. 89                                                       |
+| Lượng cân bằng        | Equilibrium quantity     | tr. 89                                                       |
+| Thặng dư              | Surplus                  | tr. 90 — cung > cầu, giá **quá cao**                         |
+| Thiếu hụt             | Shortage                 | tr. 90 — cầu > cung, giá **quá thấp**                        |
+| Quy luật cung và cầu  | Law of supply and demand | tr. 91                                                       |
 
 ⚠️ **Đính chính — tr. 98.** Trong bảng *Khái niệm then chốt*, dòng "Lượng cầu" được dịch sang tiếng
 Anh là **"quantitive demanded"**. Đúng phải là **"quantity demanded"** — so với chính chú thích ở
@@ -1094,10 +1094,10 @@ Google cụm sai đó sẽ không ra gì.
 | 3 | [Độ co giãn và định giá](bai_03_do_co_gian_va_dinh_gia.md) | ch. 5 | 🎯⭐ |
 | 4 | [Thặng dư và chi phí của thuế](bai_04_thang_du_va_chi_phi_cua_thue.md) | ch. 7–8 | 🔸 |
 | 5 | [Chi phí sản xuất](bai_05_chi_phi_san_xuat.md) | ch. 13 | 🎯 |
-| 6 | Doanh nghiệp trên thị trường cạnh tranh *(chưa viết)* | ch. 14 | 🎯 |
-| 7 | Độc quyền và phân biệt giá *(chưa viết)* | ch. 15 | 🎯 |
-| 8 | Cạnh tranh độc quyền và thương hiệu *(chưa viết)* | ch. 16 | 🎯 |
-| 9 | Độc quyền nhóm và lý thuyết trò chơi *(chưa viết)* | ch. 17 | 🎯 |
+| 6 | [Doanh nghiệp trên thị trường cạnh tranh](bai_06_thi_truong_canh_tranh.md) | ch. 14 | 🎯 |
+| 7 | [Độc quyền và phân biệt giá](bai_07_doc_quyen_va_phan_biet_gia.md) | ch. 15 | 🎯 |
+| 8 | [Cạnh tranh độc quyền và thương hiệu](bai_08_canh_tranh_doc_quyen.md) | ch. 16 | 🎯 |
+| 9 | [Độc quyền nhóm và lý thuyết trò chơi](bai_09_doc_quyen_nhom_va_ly_thuyet_tro_choi.md) | ch. 17 | 🎯 |
 | 10 | Lựa chọn của người tiêu dùng *(chưa viết)* | ch. 21 | 🎯 |
 | 11 | Thông tin bất cân xứng và hành vi *(chưa viết)* | ch. 22 | 🎯 |
 | 12 | Lao động, tiền lương, bất bình đẳng *(chưa viết)* | ch. 18–20 | 🔸 |
