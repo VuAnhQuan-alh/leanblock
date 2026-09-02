@@ -1258,7 +1258,7 @@ quét 300 dpi. Lỗi sắp chữ, không đổi nội dung.
 ║  BÀI 3 — ĐỘ CO GIÃN VÀ ĐỊNH GIÁ                 (Ch. 5, tr. 103–126)      ║
 ╠═══════════════════════════════════════════════════════════════════════════╣
 ║  Ch.4 nói XU HƯỚNG (giá lên, lượng xuống)                                 ║
-║  Ch.5 nói MỨC ĐỘ    ⟹ một CON SỐ dùng được để định giá                   ║
+║  Ch.5 nói MỨC ĐỘ    ⟹ một CON SỐ dùng được để định giá                    ║
 ║                                                                           ║
 ║  ── CÔNG THỨC ──────────────────────────────────────────────────────      ║
 ║      e = %Δ lượng cầu / %Δ giá        (bỏ dấu trừ, lấy trị tuyệt đối)     ║
@@ -1267,12 +1267,12 @@ quét 300 dpi. Lỗi sắp chữ, không đổi nội dung.
 ║      (0,66 vs 1,5 → cùng bằng 1,0)                                        ║
 ║                                                                           ║
 ║  ── BỐN YẾU TỐ QUYẾT ĐỊNH e CỦA CẦU ────────────────────────────────      ║
-║      ① nhiều hàng THAY THẾ  → co giãn hơn                                ║
-║      ② XA XỈ co giãn, THIẾT YẾU không — nhưng tuỳ NGƯỜI MUA, không       ║
+║      ① nhiều hàng THAY THẾ  → co giãn hơn                                 ║
+║      ② XA XỈ co giãn, THIẾT YẾU không — nhưng tuỳ NGƯỜI MUA, không        ║
 ║         phải tính chất món hàng                                           ║
-║      ③ thị trường định nghĩa càng HẸP → càng co giãn                     ║
+║      ③ thị trường định nghĩa càng HẸP → càng co giãn                      ║
 ║         thực phẩm 〈 kem 〈 kem vani                                      ║
-║      ④ DÀI HẠN co giãn hơn NGẮN HẠN                                      ║
+║      ④ DÀI HẠN co giãn hơn NGẮN HẠN                                       ║
 ║                                                                           ║
 ║  ── NĂM DẠNG ───────────────────────────────────────────────────────      ║
 ║      e=0 thẳng đứng | e<1 dốc | e=1 | e>1 thoải | e=∞ nằm ngang           ║
@@ -1280,7 +1280,7 @@ quét 300 dpi. Lỗi sắp chữ, không đổi nội dung.
 ║      thực tế: trứng 0,1 · y tế 0,2 · gạo 0,5 · thịt bò 1,6 ·              ║
 ║               nhà hàng 2,3 · Mountain Dew 4,4                             ║
 ║                                                                           ║
-║  ⭐⭐ BA QUY TẮC DOANH THU — thuộc lòng                                    ║
+║  ⭐⭐ BA QUY TẮC DOANH THU — thuộc lòng                                   ║
 ║      e < 1 (không co giãn): giá và doanh thu CÙNG hướng                   ║
 ║      e > 1 (co giãn)      : giá và doanh thu NGƯỢC hướng                  ║
 ║      e = 1                 : doanh thu KHÔNG ĐỔI                          ║
@@ -1289,7 +1289,7 @@ quét 300 dpi. Lỗi sắp chữ, không đổi nội dung.
 ║  ⚠ ĐỘ DỐC KHÔNG ĐỔI ≠ ĐỘ CO GIÃN KHÔNG ĐỔI                                ║
 ║      trên một đường cầu THẲNG: giá cao lượng thấp → CO GIÃN               ║
 ║                                giá thấp lượng cao → KHÔNG co giãn         ║
-║      ⟹ "e của ta bằng 1,8" là câu THIẾU: phải hỏi Ở VÙNG GIÁ NÀO         ║
+║      ⟹ "e của ta bằng 1,8" là câu THIẾU: phải hỏi Ở VÙNG GIÁ NÀO          ║
 ║                                                                           ║
 ║  ── HAI ĐỘ CO GIÃN KHÁC ────────────────────────────────────────────      ║
 ║      THU NHẬP  dấu ÂM = hàng thứ cấp | dương lớn = xa xỉ, theo chu kỳ     ║
@@ -1301,22 +1301,22 @@ quét 300 dpi. Lỗi sắp chữ, không đổi nội dung.
 ║      e của cung GIẢM khi đụng TRẦN CÔNG SUẤT (Hình 6)                     ║
 ║                                                                           ║
 ║  ── BA ỨNG DỤNG ────────────────────────────────────────────────────      ║
-║  ① NÔNG DÂN  giống mới → cung↑ → giá rơi mạnh, lượng tăng nhẹ            ║
+║  ① NÔNG DÂN  giống mới → cung↑ → giá rơi mạnh, lượng tăng nhẹ             ║
 ║      300 → 220 đô la. Năng suất TĂNG mà thu nhập GIẢM                     ║
 ║      từng người vẫn phải dùng → tiến thoái lưỡng nan (bài 9)              ║
 ║      1950: 10 tr nông dân = 17% LLLĐ | nay: <3 tr = 2%, sản lượng GẤP ĐÔI ║
-║  ② OPEC  ngắn hạn hai đường DỐC → cắt cung, giá vọt → thắng              ║
+║  ② OPEC  ngắn hạn hai đường DỐC → cắt cung, giá vọt → thắng               ║
 ║      dài hạn hai đường THOẢI → cùng mức cắt, giá nhích → thua             ║
 ║      💼 đo tác động tăng giá bằng số liệu 1 tháng là SAI PHƯƠNG PHÁP      ║
-║  ③ MA TUÝ  cấm → cung↓ → giá↑ → cầu không co giãn → TỔNG CHI TĂNG        ║
+║  ③ MA TUÝ  cấm → cung↓ → giá↑ → cầu không co giãn → TỔNG CHI TĂNG         ║
 ║             giáo dục → cầu↓ → giá↓ → TỔNG CHI GIẢM                        ║
-║      ⟹ kết luận chính sách xoay quanh MỘT CON SỐ, không phải quan điểm   ║
+║      ⟹ kết luận chính sách xoay quanh MỘT CON SỐ, không phải quan điểm    ║
 ║                                                                           ║
 ║  💼 ĐO e TỪ DỮ LIỆU THẬT                                                  ║
-║      hồi quy ln(Q) theo ln(P)  ⟹  hệ số góc CHÍNH LÀ −e                  ║
+║      hồi quy ln(Q) theo ln(P)  ⟹  hệ số góc CHÍNH LÀ −e                   ║
 ║      (đúng công thức Sxy/Sxx ở bài 14 môn Xác suất Thống kê)              ║
 ║      ⚠ bỏ sót biến · nhân quả ngược · ngoại suy ngoài vùng dữ liệu        ║
-║      ⟹ chắc chắn nhất vẫn là A/B TEST có đối chứng                       ║
+║      ⟹ chắc chắn nhất vẫn là A/B TEST có đối chứng                        ║
 ║      ⭐ giảm giá là cách cạnh tranh của người có e LỚN.                   ║
 ║         Việc của quản trị là làm cho e NHỎ ĐI (bài 7, 8)                  ║
 ╚═══════════════════════════════════════════════════════════════════════════╝
@@ -1370,8 +1370,8 @@ quét 300 dpi. Lỗi sắp chữ, không đổi nội dung.
 |    10 | [Lựa chọn của người tiêu dùng](bai_10_lua_chon_cua_nguoi_tieu_dung.md)                 | ch. 21      |    🎯    |
 |    11 | [Thông tin bất cân xứng và hành vi](bai_11_thong_tin_bat_can_xung.md)                  | ch. 22      |    🎯    |
 |    12 | [Lao động, tiền lương, bất bình đẳng](bai_12_thi_truong_lao_dong.md)                   | ch. 18–20   |    🔸    |
-|    13 | Chính phủ can thiệp thị trường *(chưa viết)*                                           | ch. 6, 12   |    🔸    |
-|    14 | Thương mại, ngoại tác, hàng hoá công *(chưa viết)*                                     | ch. 3, 9–11 |    🔸    |
+|    13 | [Chính phủ can thiệp thị trường](bai_13_chinh_phu_can_thiep_thi_truong.md)             | ch. 6, 12   |    🔸    |
+|    14 | [Thương mại, ngoại tác, hàng hoá công](bai_14_thuong_mai_ngoai_tac_hang_hoa_cong.md)   | ch. 3, 9–11 |    🔸    |
 
 🎯 vòng 1 — học kỹ · 🔸 vòng 2 — đọc hiểu · ⭐ chương quan trọng nhất với QTKD
 

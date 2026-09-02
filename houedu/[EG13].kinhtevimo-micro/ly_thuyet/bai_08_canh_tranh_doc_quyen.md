@@ -1195,33 +1195,33 @@ $$\frac{P - MC}{P} = \frac{1}{|e|}$$
 ║                                                 (Ch. 16, tr. 370–390)    ║
 ╠══════════════════════════════════════════════════════════════════════════╣
 ║  BỐN CẤU TRÚC THỊ TRƯỜNG — hai câu hỏi, đúng thứ tự                      ║
-║      ① BAO NHIÊU doanh nghiệp?  một → ĐỘC QUYỀN | vài → ĐỘC QUYỀN NHÓM  ║
-║      ② nếu NHIỀU: sản phẩm KHÁC → cạnh tranh độc quyền                  ║
+║      ① BAO NHIÊU doanh nghiệp?  một → ĐỘC QUYỀN | vài → ĐỘC QUYỀN NHÓM   ║
+║      ② nếu NHIỀU: sản phẩm KHÁC → cạnh tranh độc quyền                   ║
 ║                              GIỐNG → cạnh tranh hoàn hảo                 ║
 ║      tỷ lệ tập trung 4 DN: thuốc lá 95% · ngũ cốc 78%                    ║
 ║      ⚠ hầu hết ngành Hoa Kỳ DƯỚI 50% — năm ngành trên là ngoại lệ        ║
 ║                                                                          ║
 ║  BA ĐẶC ĐIỂM CẠNH TRANH ĐỘC QUYỀN                                        ║
-║      ① nhiều người bán                                                  ║
-║      ② SẢN PHẨM KHÁC BIỆT → cầu DỐC XUỐNG → giống ĐỘC QUYỀN (bài 7)     ║
-║      ③ TỰ DO GIA NHẬP     → lợi nhuận → 0  → giống CẠNH TRANH (bài 6)   ║
+║      ① nhiều người bán                                                   ║
+║      ② SẢN PHẨM KHÁC BIỆT → cầu DỐC XUỐNG → giống ĐỘC QUYỀN (bài 7)      ║
+║      ③ TỰ DO GIA NHẬP     → lợi nhuận → 0  → giống CẠNH TRANH (bài 6)    ║
 ║                                                                          ║
 ║  NGẮN HẠN: y hệt nhà độc quyền — MR = MC tìm Q, lên CẦU tìm P            ║
 ║      có thể LÃI hoặc LỖ                                                  ║
 ║                                                                          ║
-║  ⭐⭐ CÂN BẰNG DÀI HẠN                                                    ║
+║  ⭐⭐ CÂN BẰNG DÀI HẠN                                                   ║
 ║      lãi → DN mới vào → cầu RIÊNG dịch TRÁI → lãi giảm                   ║
 ║      lỗ → DN rời đi   → cầu RIÊNG dịch PHẢI → lỗ giảm                    ║
-║      ⟹ dừng khi ĐƯỜNG CẦU TIẾP TUYẾN VỚI ATC (chạm, không cắt)          ║
-║      HAI ĐẶC ĐIỂM:  ① P > MC  (như độc quyền)                           ║
-║                     ② P = ATC (như cạnh tranh)                          ║
+║      ⟹ dừng khi ĐƯỜNG CẦU TIẾP TUYẾN VỚI ATC (chạm, không cắt)           ║
+║      HAI ĐẶC ĐIỂM:  ① P > MC  (như độc quyền)                            ║
+║                     ② P = ATC (như cạnh tranh)                           ║
 ║                                                                          ║
 ║  ── HAI KHÁC BIỆT VỚI CẠNH TRANH HOÀN HẢO ─────────────────────────      ║
-║  ① DƯ THỪA NĂNG LỰC SẢN XUẤT                                            ║
+║  ① DƯ THỪA NĂNG LỰC SẢN XUẤT                                             ║
 ║      sản xuất trên ĐOẠN DỐC XUỐNG của ATC, KHÔNG ở đáy chữ U             ║
 ║      biết có thể hạ ATC bằng cách làm nhiều hơn, nhưng phải HẠ GIÁ       ║
-║  ② P > MC                                                               ║
-║      ⟹ LUÔN muốn thêm một khách nữa ở giá niêm yết                      ║
+║  ② P > MC                                                                ║
+║      ⟹ LUÔN muốn thêm một khách nữa ở giá niêm yết                       ║
 ║      ⭐ "thị trường mà NGƯỜI BÁN GỬI THIẾP GIÁNG SINH CHO NGƯỜI MUA"     ║
 ║                                                                          ║
 ║  📚 (P − MC)/P = 1/|e|                                                   ║
@@ -1230,13 +1230,13 @@ $$\frac{P - MC}{P} = \frac{1}{|e|}$$
 ║      ⭐ đây là CON SỐ mà khác biệt hoá nhắm vào                          ║
 ║                                                                          ║
 ║  PHÚC LỢI — hai nguồn thiếu hiệu quả                                     ║
-║      ① P > MC ⟹ tổn thất vô ích (như độc quyền)                         ║
+║      ① P > MC ⟹ tổn thất vô ích (như độc quyền)                          ║
 ║         ⚠ khó sửa: phải quản mọi DN có sản phẩm khác biệt, và ép         ║
 ║           P = MC sẽ làm họ LỖ vì lợi nhuận đã bằng 0                     ║
-║      ② số DN có thể quá nhiều/quá ít — HAI NGOẠI TÁC khi gia nhập:      ║
+║      ② số DN có thể quá nhiều/quá ít — HAI NGOẠI TÁC khi gia nhập:       ║
 ║         ➕ ĐA DẠNG SẢN PHẨM (khách được lợi)                             ║
 ║         ➖ ĐÁNH CẮP THỊ PHẦN (DN cũ mất khách)                           ║
-║      ⟹ sách gần như khuyên ĐỂ YÊN                                       ║
+║      ⟹ sách gần như khuyên ĐỂ YÊN                                        ║
 ║                                                                          ║
 ║  ── QUẢNG CÁO ──────────────────────────────────────────────────────     ║
 ║      hàng khác biệt lớn chi 10–20% doanh thu | hàng đồng nhất chi 0%     ║
@@ -1244,8 +1244,8 @@ $$\frac{P - MC}{P} = \frac{1}{|e|}$$
 ║      PHÊ PHÁN: tạo nhu cầu giả, cầu ÍT co giãn hơn → giá CAO hơn         ║
 ║      BẢO VỆ  : cung cấp thông tin, cầu CO GIÃN hơn → giá THẤP hơn        ║
 ║      ⭐ BENHAM 1972: bang CẤM quảng cáo kính $33 | KHÔNG cấm $26         ║
-║         ⟹ quảng cáo làm giá GIẢM ~20%                                   ║
-║      ⭐⭐ QUẢNG CÁO LÀ TÍN HIỆU CHẤT LƯỢNG                                ║
+║         ⟹ quảng cáo làm giá GIẢM ~20%                                    ║
+║      ⭐⭐ QUẢNG CÁO LÀ TÍN HIỆU CHẤT LƯỢNG                               ║
 ║         Post (ngũ cốc thường, mua 1 lần)  → $3tr  < $10tr → KHÔNG QC     ║
 ║         Kellogg (thượng hạng, mua 12 lần) → $36tr > $10tr → CÓ QC        ║
 ║         ⚠ NỘI DUNG không quan trọng — THÔNG TIN NẰM Ở CHI PHÍ            ║
@@ -1253,13 +1253,13 @@ $$\frac{P - MC}{P} = \frac{1}{|e|}$$
 ║           tín hiệu MẤT tác dụng, khách học cách LỜ ĐI                    ║
 ║                                                                          ║
 ║  THƯƠNG HIỆU  phê phán (Chamberlin): khác biệt KHÔNG CÓ THỰC             ║
-║      bảo vệ: ① THÔNG TIN khi không đánh giá được trước khi mua          ║
-║              ② ĐỘNG CƠ giữ chất lượng — McDonald mất nhiều hơn quán lẻ  ║
+║      bảo vệ: ① THÔNG TIN khi không đánh giá được trước khi mua           ║
+║              ② ĐỘNG CƠ giữ chất lượng — McDonald mất nhiều hơn quán lẻ   ║
 ║                                                                          ║
 ║  💼 QTKD  |e| 40 → 3 làm markup nhảy 2,5% → 33,3% (gấp 13 lần)           ║
 ║      bốn đòn bẩy: bớt hàng thay thế · thành thiết yếu · thu hẹp thị      ║
 ║      trường · kéo dài thời gian chuyển đổi                               ║
-║      ⚠ CÁI GIÁ: chạy 50% quy mô hiệu quả ⟹ ATC đắt hơn 23%              ║
+║      ⚠ CÁI GIÁ: chạy 50% quy mô hiệu quả ⟹ ATC đắt hơn 23%               ║
 ║        nhà hàng nửa bàn trống, gym vắng giờ trưa, xe chạy non tải        ║
 ║        ⭐ KHÔNG thể vừa khác biệt hoá vừa chạy hết công suất             ║
 ╚══════════════════════════════════════════════════════════════════════════╝
@@ -1310,8 +1310,8 @@ $$\frac{P - MC}{P} = \frac{1}{|e|}$$
 |    10 | [Lựa chọn của người tiêu dùng](bai_10_lua_chon_cua_nguoi_tieu_dung.md)                 | ch. 21      |    🎯    |
 |    11 | [Thông tin bất cân xứng và hành vi](bai_11_thong_tin_bat_can_xung.md)                  | ch. 22      |    🎯    |
 |    12 | [Lao động, tiền lương, bất bình đẳng](bai_12_thi_truong_lao_dong.md)                   | ch. 18–20   |    🔸    |
-|    13 | Chính phủ can thiệp thị trường *(chưa viết)*                                           | ch. 6, 12   |    🔸    |
-|    14 | Thương mại, ngoại tác, hàng hoá công *(chưa viết)*                                     | ch. 3, 9–11 |    🔸    |
+|    13 | [Chính phủ can thiệp thị trường](bai_13_chinh_phu_can_thiep_thi_truong.md)             | ch. 6, 12   |    🔸    |
+|    14 | [Thương mại, ngoại tác, hàng hoá công](bai_14_thuong_mai_ngoai_tac_hang_hoa_cong.md)   | ch. 3, 9–11 |    🔸    |
 
 🎯 vòng 1 — học kỹ · 🔸 vòng 2 — đọc hiểu · ⭐ chương quan trọng nhất với QTKD
 

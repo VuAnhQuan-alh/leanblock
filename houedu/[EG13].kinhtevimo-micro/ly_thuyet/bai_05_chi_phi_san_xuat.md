@@ -1114,47 +1114,47 @@ Cột tiếng Anh lấy từ mục **Khái niệm then chốt** của sách (tr.
 ║  ── NGUỒN GỐC CỦA MỌI ĐƯỜNG CHI PHÍ ────────────────────────────────     ║
 ║      SẢN LƯỢNG BIÊN GIẢM DẦN  50→40→30→20→10→5                           ║
 ║        (nhà bếp chật, công nhân chia nhau thiết bị)                      ║
-║      ⟹ hàm sản xuất BẰNG PHẲNG dần ⟺ tổng chi phí DỐC dần              ║
+║      ⟹ hàm sản xuất BẰNG PHẲNG dần ⟺ tổng chi phí DỐC dần                ║
 ║                                                                          ║
 ║  ── BỐN THƯỚC ĐO ───────────────────────────────────────────────────     ║
 ║      TC = FC + VC                                                        ║
 ║      AFC = FC/Q   giảm mãi, không bao giờ chạm 0                         ║
 ║      AVC = VC/Q   tăng dần                                               ║
-║      ATC = TC/Q = AFC + AVC   ⟹  hình chữ U                             ║
+║      ATC = TC/Q = AFC + AVC   ⟹  hình chữ U                              ║
 ║      MC  = ΔTC/ΔQ   nằm GIỮA hai dòng, thuộc về BƯỚC ĐI                  ║
 ║                                                                          ║
-║  ⭐⭐ BA ĐẶC ĐIỂM CỦA MỌI ĐƯỜNG CHI PHÍ                                   ║
+║  ⭐⭐ BA ĐẶC ĐIỂM CỦA MỌI ĐƯỜNG CHI PHÍ                                  ║
 ║      ① MC sớm muộn cũng TĂNG                                             ║
 ║      ② ATC hình chữ U — đáy gọi là QUY MÔ HIỆU QUẢ                       ║
 ║      ③ MC cắt ATC ĐÚNG TẠI ĐÁY chữ U                                     ║
-║      MC < ATC ⟹ ATC đang GIẢM  |  MC > ATC ⟹ ATC đang TĂNG              ║
-║      💡 ATC = điểm trung bình tích luỹ; MC = điểm môn học kế tiếp         ║
-║                                                                           ║
-║  ── NGẮN HẠN vs DÀI HẠN ────────────────────────────────────────────      ║
-║      ranh giới cố định/biến đổi là ranh giới THỜI GIAN                    ║
-║      MỌI đường ngắn hạn NẰM TRÊN hoặc CHẠM đường dài hạn                  ║
-║      Ford: 1.000→1.200 xe, ngắn hạn ATC $10.000→$12.000                   ║
-║            dài hạn xây nhà máy đúng cỡ → về lại $10.000                   ║
-║      ⚠ ĐÍNH CHÍNH tr. 298: sách in "2.000", đúng là "1.200"               ║
-║                                                                           ║
-║  ── KINH TẾ THEO QUY MÔ ────────────────────────────────────────────      ║
-║      LỢI THẾ (ATC dài hạn giảm)  ← CHUYÊN MÔN HOÁ (Adam Smith, đinh ghim) ║
-║      BẤT LỢI (ATC dài hạn tăng)  ← VẤN ĐỀ PHỐI HỢP                        ║
-║      KHÔNG ĐỔI ở khoảng giữa                                              ║
-║                                                                           ║
-║  💼 QTKD  BA CON SỐ, BA CÂU HỎI KHÁC NHAU                                 ║
-║      MC   → giá SÀN tuyệt đối, dưới mức này không bao giờ bán             ║
-║      ATC  → giá HOÀ VỐN tại một sản lượng cụ thể                          ║
-║      quy mô hiệu quả → sản lượng nên nhắm tới                             ║
-║      ⚠ KHÔNG con nào trả lời "nên bán giá bao nhiêu"                      ║
-║        cần thêm ĐƯỜNG CẦU (bài 3) và MR = MC (bài 6, 7)                   ║
-║      ⚠ COST-PLUS LÀ LẬP LUẬN VÒNG TRÒN: ATC phụ thuộc sản lượng,          ║
-║        sản lượng phụ thuộc giá, giá lại đặt từ ATC                        ║
-║        cầu yếu → bán ít → ATC cao → tăng giá → bán ít hơn nữa             ║
-║      ĐIỂM HOÀ VỐN = chi phí cố định / (giá − biến phí)                    ║
+║      MC < ATC ⟹ ATC đang GIẢM  |  MC > ATC ⟹ ATC đang TĂNG               ║
+║      💡 ATC = điểm trung bình tích luỹ; MC = điểm môn học kế tiếp        ║
+║                                                                          ║
+║  ── NGẮN HẠN vs DÀI HẠN ────────────────────────────────────────────     ║
+║      ranh giới cố định/biến đổi là ranh giới THỜI GIAN                   ║
+║      MỌI đường ngắn hạn NẰM TRÊN hoặc CHẠM đường dài hạn                 ║
+║      Ford: 1.000→1.200 xe, ngắn hạn ATC $10.000→$12.000                  ║
+║            dài hạn xây nhà máy đúng cỡ → về lại $10.000                  ║
+║      ⚠ ĐÍNH CHÍNH tr. 298: sách in "2.000", đúng là "1.200"              ║
+║                                                                          ║
+║  ── KINH TẾ THEO QUY MÔ ────────────────────────────────────────────     ║
+║      LỢI THẾ (ATC dài hạn giảm)  ← CHUYÊN MÔN HOÁ (Adam Smith, đinh ghim)║
+║      BẤT LỢI (ATC dài hạn tăng)  ← VẤN ĐỀ PHỐI HỢP                       ║
+║      KHÔNG ĐỔI ở khoảng giữa                                             ║
+║                                                                          ║
+║  💼 QTKD  BA CON SỐ, BA CÂU HỎI KHÁC NHAU                                ║
+║      MC   → giá SÀN tuyệt đối, dưới mức này không bao giờ bán            ║
+║      ATC  → giá HOÀ VỐN tại một sản lượng cụ thể                         ║
+║      quy mô hiệu quả → sản lượng nên nhắm tới                            ║
+║      ⚠ KHÔNG con nào trả lời "nên bán giá bao nhiêu"                     ║
+║        cần thêm ĐƯỜNG CẦU (bài 3) và MR = MC (bài 6, 7)                  ║
+║      ⚠ COST-PLUS LÀ LẬP LUẬN VÒNG TRÒN: ATC phụ thuộc sản lượng,         ║
+║        sản lượng phụ thuộc giá, giá lại đặt từ ATC                       ║
+║        cầu yếu → bán ít → ATC cao → tăng giá → bán ít hơn nữa            ║
+║      ĐIỂM HOÀ VỐN = chi phí cố định / (giá − biến phí)                   ║
 ║        chi phí cố định gấp đôi ⟹ điểm hoà vốn gấp đôi                    ║
 ║        ⟹ mô hình nặng chi phí cố định rất nguy hiểm khi cầu sụt          ║
-╚═══════════════════════════════════════════════════════════════════════════╝
+╚══════════════════════════════════════════════════════════════════════════╝
 ```
 
 ---
@@ -1206,8 +1206,8 @@ Cột tiếng Anh lấy từ mục **Khái niệm then chốt** của sách (tr.
 |    10 | [Lựa chọn của người tiêu dùng](bai_10_lua_chon_cua_nguoi_tieu_dung.md)                 | ch. 21      |    🎯    |
 |    11 | [Thông tin bất cân xứng và hành vi](bai_11_thong_tin_bat_can_xung.md)                  | ch. 22      |    🎯    |
 |    12 | [Lao động, tiền lương, bất bình đẳng](bai_12_thi_truong_lao_dong.md)                   | ch. 18–20   |    🔸    |
-|    13 | Chính phủ can thiệp thị trường *(chưa viết)*                                           | ch. 6, 12   |    🔸    |
-|    14 | Thương mại, ngoại tác, hàng hoá công *(chưa viết)*                                     | ch. 3, 9–11 |    🔸    |
+|    13 | [Chính phủ can thiệp thị trường](bai_13_chinh_phu_can_thiep_thi_truong.md)             | ch. 6, 12   |    🔸    |
+|    14 | [Thương mại, ngoại tác, hàng hoá công](bai_14_thuong_mai_ngoai_tac_hang_hoa_cong.md)   | ch. 3, 9–11 |    🔸    |
 
 🎯 vòng 1 — học kỹ · 🔸 vòng 2 — đọc hiểu · ⭐ chương quan trọng nhất với QTKD
 

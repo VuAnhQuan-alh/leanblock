@@ -1004,11 +1004,11 @@ Google cụm sai đó sẽ không ra gì.
 ╠══════════════════════════════════════════════════════════════════════════╣
 ║  THỊ TRƯỜNG  nhóm người mua + người bán một hàng hoá — là QUAN HỆ,       ║
 ║              không phải địa điểm                                         ║
-║  CẠNH TRANH HOÀN HẢO  ① sản phẩm giống hệt  ② quá nhiều người           ║
-║              ⟹ ai cũng là NGƯỜI CHẤP NHẬN GIÁ                           ║
+║  CẠNH TRANH HOÀN HẢO  ① sản phẩm giống hệt  ② quá nhiều người            ║
+║              ⟹ ai cũng là NGƯỜI CHẤP NHẬN GIÁ                            ║
 ║                                                                          ║
 ║  ── CẦU ────────────────────────────────────────────────────────────     ║
-║  QUY LUẬT CẦU   giá ↑ ⟹ lượng cầu ↓        đường cầu DỐC XUỐNG          ║
+║  QUY LUẬT CẦU   giá ↑ ⟹ lượng cầu ↓        đường cầu DỐC XUỐNG           ║
 ║      ⚠ lượng cầu = sẵn lòng VÀ CÓ KHẢ NĂNG mua                           ║
 ║  CẦU THỊ TRƯỜNG = cộng cầu cá nhân theo CHIỀU NGANG                      ║
 ║      (giữ nguyên GIÁ, cộng LƯỢNG)                                        ║
@@ -1018,7 +1018,7 @@ Google cụm sai đó sẽ không ra gì.
 ║      thị hiếu · kỳ vọng · số người mua                                   ║
 ║                                                                          ║
 ║  ── CUNG ───────────────────────────────────────────────────────────     ║
-║  QUY LUẬT CUNG  giá ↑ ⟹ lượng cung ↑       đường cung DỐC LÊN           ║
+║  QUY LUẬT CUNG  giá ↑ ⟹ lượng cung ↑       đường cung DỐC LÊN            ║
 ║  BỐN YẾU TỐ: giá đầu vào · công nghệ · kỳ vọng · số người bán            ║
 ║      💼 giảm giá bán = TRƯỢT DỌC | giảm chi phí = DỊCH CẢ ĐƯỜNG          ║
 ║                                                                          ║
@@ -1033,10 +1033,10 @@ Google cụm sai đó sẽ không ra gì.
 ║      ⚠ cả hai đều là DI CHUYỂN DỌC, không đường nào dịch chuyển          ║
 ║                                                                          ║
 ║  ── BA BƯỚC PHÂN TÍCH ──────────────────────────────────────────────     ║
-║  ① đường nào dịch  ② trái hay phải  ③ so cân bằng cũ với mới           ║
+║  ① đường nào dịch  ② trái hay phải  ③ so cân bằng cũ với mới             ║
 ║      nóng (cầu→phải):  $2,00→$2,50   Q 7→10                              ║
 ║      bão  (cung→trái): $2,00→$2,50   Q 7→ 4                              ║
-║      ⭐ GIÁ GIỐNG NHAU, LƯỢNG NGƯỢC NHAU                                  ║
+║      ⭐ GIÁ GIỐNG NHAU, LƯỢNG NGƯỢC NHAU                                 ║
 ║         ⟹ nhìn giá KHÔNG đủ, phải nhìn LƯỢNG mới biết cú sốc nào         ║
 ║                                                                          ║
 ║  BẢNG 4 — đừng học thuộc, chỉ một dòng:                                  ║
@@ -1101,8 +1101,8 @@ Google cụm sai đó sẽ không ra gì.
 |    10 | [Lựa chọn của người tiêu dùng](bai_10_lua_chon_cua_nguoi_tieu_dung.md)                 | ch. 21      |    🎯    |
 |    11 | [Thông tin bất cân xứng và hành vi](bai_11_thong_tin_bat_can_xung.md)                  | ch. 22      |    🎯    |
 |    12 | [Lao động, tiền lương, bất bình đẳng](bai_12_thi_truong_lao_dong.md)                   | ch. 18–20   |    🔸    |
-|    13 | Chính phủ can thiệp thị trường *(chưa viết)*                                           | ch. 6, 12   |    🔸    |
-|    14 | Thương mại, ngoại tác, hàng hoá công *(chưa viết)*                                     | ch. 3, 9–11 |    🔸    |
+|    13 | [Chính phủ can thiệp thị trường](bai_13_chinh_phu_can_thiep_thi_truong.md)             | ch. 6, 12   |    🔸    |
+|    14 | [Thương mại, ngoại tác, hàng hoá công](bai_14_thuong_mai_ngoai_tac_hang_hoa_cong.md)   | ch. 3, 9–11 |    🔸    |
 
 🎯 vòng 1 — học kỹ · 🔸 vòng 2 — đọc hiểu · ⭐ chương quan trọng nhất với QTKD
 

@@ -1145,26 +1145,26 @@ $$\text{Chi phí xã hội} = \text{TAM GIÁC tổn thất vô ích}, \text{ KH�
 ╠══════════════════════════════════════════════════════════════════════════╣
 ║  ĐỘC QUYỀN = người bán DUY NHẤT + KHÔNG có thay thế gần gũi              ║
 ║      nguyên nhân gốc: RÀO CẢN GIA NHẬP                                   ║
-║      ① nguồn lực (DeBeers ~80% kim cương) — hiếm gặp thực tế            ║
-║      ② chính phủ (bằng sáng chế 20 năm, bản quyền)                      ║
-║      ③ ĐỘC QUYỀN TỰ NHIÊN — ATC giảm dần trên cả thị trường             ║
+║      ① nguồn lực (DeBeers ~80% kim cương) — hiếm gặp thực tế             ║
+║      ② chính phủ (bằng sáng chế 20 năm, bản quyền)                       ║
+║      ③ ĐỘC QUYỀN TỰ NHIÊN — ATC giảm dần trên cả thị trường              ║
 ║        (chi phí cố định LỚN, chi phí biên NHỎ: nước, điện, đường ống)    ║
 ║                                                                          ║
-║  ⭐⭐ KHÁC BIỆT GỐC RỄ: HÌNH DẠNG ĐƯỜNG CẦU                               ║
+║  ⭐⭐ KHÁC BIỆT GỐC RỄ: HÌNH DẠNG ĐƯỜNG CẦU                              ║
 ║      cạnh tranh: cầu NẰM NGANG → bán thêm không phải hạ giá → MR = P     ║
 ║      độc quyền : cầu DỐC XUỐNG → bán thêm PHẢI hạ giá      → MR < P      ║
 ║                                                                          ║
 ║  HAI HIỆU ỨNG khi bán thêm một đơn vị:                                   ║
-║      ① SẢN LƯỢNG  +P     (bán thêm 1 đơn vị)                            ║
-║      ② GIÁ        −(Q−1) (hạ giá trên MỌI đơn vị cũ)                    ║
-║      ⚠ MR có thể ÂM khi hiệu ứng ② thắng ①                             ║
-║        MR > 0 ⟺ cầu CO GIÃN | MR < 0 ⟺ cầu KHÔNG co giãn (bài 3)       ║
+║      ① SẢN LƯỢNG  +P     (bán thêm 1 đơn vị)                             ║
+║      ② GIÁ        −(Q−1) (hạ giá trên MỌI đơn vị cũ)                     ║
+║      ⚠ MR có thể ÂM khi hiệu ứng ② thắng ①                               ║
+║        MR > 0 ⟺ cầu CO GIÃN | MR < 0 ⟺ cầu KHÔNG co giãn (bài 3)         ║
 ║                                                                          ║
 ║  📚 NHÀ ĐỘC QUYỀN KHÔNG CÓ ĐƯỜNG CUNG — họ tự chọn CẢ giá lẫn lượng      ║
 ║                                                                          ║
 ║  ── TỐI ĐA HOÁ LỢI NHUẬN: HAI BƯỚC, ĐÚNG THỨ TỰ ───────────────────      ║
-║      ① MR cắt MC        → SẢN LƯỢNG Q_max   (điểm A)                    ║
-║      ② lên đường CẦU    → GIÁ P             (điểm B)                    ║
+║      ① MR cắt MC        → SẢN LƯỢNG Q_max   (điểm A)                     ║
+║      ② lên đường CẦU    → GIÁ P             (điểm B)                     ║
 ║      ⚠ ĐỪNG đọc giá ở điểm A                                             ║
 ║      ⭐ cạnh tranh: P = MR = MC   |   độc quyền: P > MR = MC             ║
 ║      lợi nhuận = (P − ATC) × Q, và rào cản giữ nó DƯƠNG mãi mãi          ║
@@ -1172,43 +1172,43 @@ $$\text{Chi phí xã hội} = \text{TAM GIÁC tổn thất vô ích}, \text{ KH�
 ║  ── CHI PHÍ PHÚC LỢI ───────────────────────────────────────────────     ║
 ║      sản lượng HIỆU QUẢ tại  cầu = MC  (tức P = MC)                      ║
 ║      độc quyền sản xuất ÍT HƠN mức đó, bán ĐẮT HƠN                       ║
-║      ⟹ TAM GIÁC TỔN THẤT VÔ ÍCH giữa đường cầu và đường MC              ║
+║      ⟹ TAM GIÁC TỔN THẤT VÔ ÍCH giữa đường cầu và đường MC               ║
 ║      "độc quyền giống NHÀ THU THUẾ TƯ NHÂN"                              ║
 ║  ⚠⚠ LỢI NHUẬN ĐỘC QUYỀN KHÔNG PHẢI CHI PHÍ XÃ HỘI                        ║
-║      hình chữ nhật = CHUYỂN GIAO (người mua → chủ) ⟹ vấn đề BÌNH ĐẲNG   ║
-║      tam giác      = BIẾN MẤT, không ai nhận      ⟹ vấn đề HIỆU QUẢ     ║
+║      hình chữ nhật = CHUYỂN GIAO (người mua → chủ) ⟹ vấn đề BÌNH ĐẲNG    ║
+║      tam giác      = BIẾN MẤT, không ai nhận      ⟹ vấn đề HIỆU QUẢ      ║
 ║      (nhưng chi phí VẬN ĐỘNG để giành độc quyền thì LÀ tổn thất thật)    ║
 ║                                                                          ║
 ║  ── PHÂN BIỆT GIÁ ──────────────────────────────────────────────────     ║
 ║      READALOT: 100k người trả $30, 400k người trả $5, nhuận bút $2tr     ║
 ║        một giá $30 → lãi $1tr | một giá $5 → $500k | PBG → $3tr          ║
 ║      BA BÀI HỌC                                                          ║
-║      ① làm TĂNG LỢI NHUẬN cho nhà độc quyền                             ║
-║      ② đòi hỏi PHÂN LOẠI được khách theo mức sẵn lòng trả               ║
-║      ③ có thể LÀM TĂNG PHÚC LỢI — xoá tổn thất vô ích                   ║
+║      ① làm TĂNG LỢI NHUẬN cho nhà độc quyền                              ║
+║      ② đòi hỏi PHÂN LOẠI được khách theo mức sẵn lòng trả                ║
+║      ③ có thể LÀM TĂNG PHÚC LỢI — xoá tổn thất vô ích                    ║
 ║      ⚠ nhưng phần tăng là THẶNG DƯ NHÀ SẢN XUẤT; khách trả ĐÚNG BẰNG     ║
-║        giá trị họ gắn cho hàng ⟹ thặng dư tiêu dùng = 0                 ║
+║        giá trị họ gắn cho hàng ⟹ thặng dư tiêu dùng = 0                  ║
 ║      ⚠ ARBITRAGE (mua rẻ bán lại) PHÁ VỠ phân biệt giá                   ║
 ║      PBG HOÀN HẢO: DWL → 0, lợi nhuận → tối đa, CS → 0                   ║
-║        ⟹ hiệu quả TĂNG, công bằng thì KHÔNG                             ║
+║        ⟹ hiệu quả TĂNG, công bằng thì KHÔNG                              ║
 ║      HÀNG RÀO thực tế: tuổi (vé phim) · ở qua đêm thứ 7 (vé bay) ·       ║
 ║        phiếu giảm giá (ai chịu bỏ thời gian) · học bổng · bìa cứng/mềm   ║
 ║                                                                          ║
 ║  ── CHÍNH SÁCH CÔNG: BỐN CÁCH, KHÔNG CÁCH NÀO HOÀN HẢO ────────────      ║
-║      ① LUẬT CHỐNG ĐỘC QUYỀN  Sherman 1890, Clayton 1914                 ║
+║      ① LUẬT CHỐNG ĐỘC QUYỀN  Sherman 1890, Clayton 1914                  ║
 ║         (AT&T bị tách thành 8 công ty, 1984)                             ║
 ║         ⚠ sáp nhập đôi khi tạo SỨC MẠNH TỔNG HỢP, không phải hại         ║
-║      ② ĐIỀU TIẾT GIÁ  ⚠ P = MC làm độc quyền tự nhiên LỖ                ║
+║      ② ĐIỀU TIẾT GIÁ  ⚠ P = MC làm độc quyền tự nhiên LỖ                 ║
 ║         ⚠ và triệt tiêu động cơ CẮT GIẢM CHI PHÍ                         ║
-║      ③ SỞ HỮU NHÀ NƯỚC  ⚠ "phiếu bầu kém tin cậy hơn động cơ lợi nhuận" ║
-║      ④ KHÔNG LÀM GÌ CẢ (Stigler: thất bại CHÍNH TRỊ có thể lớn hơn      ║
+║      ③ SỞ HỮU NHÀ NƯỚC  ⚠ "phiếu bầu kém tin cậy hơn động cơ lợi nhuận"  ║
+║      ④ KHÔNG LÀM GÌ CẢ (Stigler: thất bại CHÍNH TRỊ có thể lớn hơn       ║
 ║         thất bại THỊ TRƯỜNG)                                             ║
 ║                                                                          ║
 ║  💼 QTKD  bằng sáng chế hết hạn ⟹ thứ giữ biên lợi nhuận là THƯƠNG HIỆU  ║
 ║          phân biệt giá cần ĐỦ BA: quyền lực thị trường + phân loại       ║
 ║          được khách + NGĂN được bán lại                                  ║
 ║          ⭐ rò rỉ 100% kéo doanh thu về ĐÚNG mức một giá                 ║
-║             ⟹ HÀNG RÀO chính là toàn bộ giá trị của phân biệt giá       ║
+║             ⟹ HÀNG RÀO chính là toàn bộ giá trị của phân biệt giá        ║
 ╚══════════════════════════════════════════════════════════════════════════╝
 ```
 
@@ -1264,8 +1264,8 @@ $$\text{Chi phí xã hội} = \text{TAM GIÁC tổn thất vô ích}, \text{ KH�
 |    10 | [Lựa chọn của người tiêu dùng](bai_10_lua_chon_cua_nguoi_tieu_dung.md)                 | ch. 21      |    🎯    |
 |    11 | [Thông tin bất cân xứng và hành vi](bai_11_thong_tin_bat_can_xung.md)                  | ch. 22      |    🎯    |
 |    12 | [Lao động, tiền lương, bất bình đẳng](bai_12_thi_truong_lao_dong.md)                   | ch. 18–20   |    🔸    |
-|    13 | Chính phủ can thiệp thị trường *(chưa viết)*                                           | ch. 6, 12   |    🔸    |
-|    14 | Thương mại, ngoại tác, hàng hoá công *(chưa viết)*                                     | ch. 3, 9–11 |    🔸    |
+|    13 | [Chính phủ can thiệp thị trường](bai_13_chinh_phu_can_thiep_thi_truong.md)             | ch. 6, 12   |    🔸    |
+|    14 | [Thương mại, ngoại tác, hàng hoá công](bai_14_thuong_mai_ngoai_tac_hang_hoa_cong.md)   | ch. 3, 9–11 |    🔸    |
 
 🎯 vòng 1 — học kỹ · 🔸 vòng 2 — đọc hiểu · ⭐ chương quan trọng nhất với QTKD
 

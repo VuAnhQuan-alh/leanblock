@@ -1055,22 +1055,22 @@ $$\text{Rời bỏ nếu } P < ATC \qquad \text{(dài hạn)}$$
 ╔══════════════════════════════════════════════════════════════════════════╗
 ║  BÀI 6 — DOANH NGHIỆP TRÊN THỊ TRƯỜNG CẠNH TRANH  (Ch. 14, tr. 308–333)  ║
 ╠══════════════════════════════════════════════════════════════════════════╣
-║  BA ĐIỀU KIỆN  ① nhiều người mua/bán  ② hàng hoá NHƯ NHAU               ║
+║  BA ĐIỀU KIỆN  ① nhiều người mua/bán  ② hàng hoá NHƯ NHAU                ║
 ║                ③ TỰ DO gia nhập / rời bỏ                                 ║
-║      ①② quyết định hành vi NGẮN HẠN | ③ quyết định kết cục DÀI HẠN     ║
+║      ①② quyết định hành vi NGẮN HẠN | ③ quyết định kết cục DÀI HẠN       ║
 ║                                                                          ║
 ║  ── DOANH THU ──────────────────────────────────────────────────────     ║
-║      AR = TR/Q = P    ⟹ đúng với MỌI doanh nghiệp                       ║
-║      MR = P           ⟹ CHỈ đúng với doanh nghiệp CẠNH TRANH            ║
-║      (độc quyền: bán thêm phải hạ giá cho MỌI đơn vị ⟹ MR < P, bài 7)   ║
+║      AR = TR/Q = P    ⟹ đúng với MỌI doanh nghiệp                        ║
+║      MR = P           ⟹ CHỈ đúng với doanh nghiệp CẠNH TRANH             ║
+║      (độc quyền: bán thêm phải hạ giá cho MỌI đơn vị ⟹ MR < P, bài 7)    ║
 ║                                                                          ║
-║  ⭐⭐ SẢN XUẤT BAO NHIÊU?  →  tại MR = MC                                 ║
-║      doanh nghiệp cạnh tranh có MR = P  ⟹  sản xuất tại  P = MC         ║
+║  ⭐⭐ SẢN XUẤT BAO NHIÊU?  →  tại MR = MC                                ║
+║      doanh nghiệp cạnh tranh có MR = P  ⟹  sản xuất tại  P = MC          ║
 ║      MR > MC → làm thêm | MR < MC → làm ít lại | MR = MC → DỪNG          ║
 ║      ⚠ KHÔNG phải "bán càng nhiều càng tốt"                              ║
 ║                                                                          ║
 ║  ⭐ ĐƯỜNG MC CHÍNH LÀ ĐƯỜNG CUNG của doanh nghiệp                        ║
-║      ⟹ trả lời câu hỏi bỏ ngỏ từ bài 2: đường cung từ đâu ra            ║
+║      ⟹ trả lời câu hỏi bỏ ngỏ từ bài 2: đường cung từ đâu ra             ║
 ║      quy luật cung dốc lên = quy luật CHI PHÍ BIÊN TĂNG DẦN (bài 5)      ║
 ║                                                                          ║
 ║  ── BA NGƯỠNG GIÁ ──────────────────────────────────────────────────     ║
@@ -1091,38 +1091,38 @@ $$\text{Rời bỏ nếu } P < ATC \qquad \text{(dài hạn)}$$
 ║                                                                          ║
 ║  ⭐ LỢI NHUẬN = (P − ATC) × Q  ⟹ một HÌNH CHỮ NHẬT trên đồ thị           ║
 ║      đang LỖ vẫn sản xuất tại P = MC ⟹ "tối đa hoá lợi nhuận"            ║
-║      lúc này nghĩa là TỐI THIỂU HOÁ KHOẢN LỖ                              ║
-║                                                                           ║
-║  ⭐⭐ CÂN BẰNG DÀI HẠN                                                     ║
-║      lãi → GIA NHẬP → cung tăng → giá giảm                                ║
-║      lỗ → RỜI BỎ    → cung giảm → giá tăng                                ║
+║      lúc này nghĩa là TỐI THIỂU HOÁ KHOẢN LỖ                             ║
+║                                                                          ║
+║  ⭐⭐ CÂN BẰNG DÀI HẠN                                                   ║
+║      lãi → GIA NHẬP → cung tăng → giá giảm                               ║
+║      lỗ → RỜI BỎ    → cung giảm → giá tăng                               ║
 ║      ⟹ dừng khi lợi nhuận kinh tế = 0, tức  P = MC = ATC                 ║
 ║      mà MC = ATC chỉ tại ĐÁY chữ U  ⟹  QUY MÔ HIỆU QUẢ                   ║
 ║      ⟹ đường cung DÀI HẠN của thị trường NẰM NGANG tại min ATC           ║
-║                                                                           ║
-║  ⚠ "LỢI NHUẬN = 0" KHÔNG phải làm không công                              ║
-║      nông trại $1 triệu: lãi ngân hàng $50k + lương bỏ qua $30k           ║
+║                                                                          ║
+║  ⚠ "LỢI NHUẬN = 0" KHÔNG phải làm không công                             ║
+║      nông trại $1 triệu: lãi ngân hàng $50k + lương bỏ qua $30k          ║
 ║      = chi phí cơ hội $80k/năm. Lợi nhuận kinh tế 0 ⟹ vẫn kiếm $80k      ║
-║                                                                           ║
-║  CẦU TĂNG:  ngắn hạn GIÁ LÊN, có lãi                                      ║
-║             dài hạn  SỐ DOANH NGHIỆP lên, giá VỀ CHỖ CŨ                   ║
-║             ($4,00 → $4,67 → $4,00; Q 900 → 1.100 → 1.200)                ║
-║                                                                           ║
-║  📚 VÌ SAO CUNG DÀI HẠN VẪN DỐC LÊN                                       ║
+║                                                                          ║
+║  CẦU TĂNG:  ngắn hạn GIÁ LÊN, có lãi                                     ║
+║             dài hạn  SỐ DOANH NGHIỆP lên, giá VỀ CHỖ CŨ                  ║
+║             ($4,00 → $4,67 → $4,00; Q 900 → 1.100 → 1.200)               ║
+║                                                                          ║
+║  📚 VÌ SAO CUNG DÀI HẠN VẪN DỐC LÊN                                      ║
 ║      ① nguồn lực có giới hạn (đất đai) → chi phí tăng khi ngành lớn lên  ║
 ║      ② doanh nghiệp có CHI PHÍ KHÁC NHAU → cần giá cao hơn để kéo        ║
-║         người chi phí cao vào                                             ║
-║      ⭐ giá phản ánh ATC của DOANH NGHIỆP BIÊN                            ║
+║         người chi phí cao vào                                            ║
+║      ⭐ giá phản ánh ATC của DOANH NGHIỆP BIÊN                           ║
 ║         ⟹ doanh nghiệp CHI PHÍ THẤP HƠN vẫn LÃI DƯƠNG dài hạn            ║
 ║         ⟹ đây là nền kinh tế học của "LỢI THẾ CẠNH TRANH"                ║
-║                                                                           ║
-║  💼 QTKD  bảng quyết định ba vùng:                                        ║
-║      giá < AVC  → ngừng bán NGAY, bán nhiều lỗ nặng thêm                  ║
-║      AVC ≤ giá < ATC → bán tiếp ngắn hạn, dài hạn phải thoát              ║
+║                                                                          ║
+║  💼 QTKD  bảng quyết định ba vùng:                                       ║
+║      giá < AVC  → ngừng bán NGAY, bán nhiều lỗ nặng thêm                 ║
+║      AVC ≤ giá < ATC → bán tiếp ngắn hạn, dài hạn phải thoát             ║
 ║      giá ≥ ATC  → có lãi; lãi LỚN ⟹ chuẩn bị đối thủ gia nhập            ║
-║      ⚠ ngành DỄ GIA NHẬP thì lãi cao KHÔNG BỀN — cần RÀO CẢN              ║
-║        (thương hiệu, chi phí chuyển đổi, quy mô) → bài 7, bài 8           ║
-╚═══════════════════════════════════════════════════════════════════════════╝
+║      ⚠ ngành DỄ GIA NHẬP thì lãi cao KHÔNG BỀN — cần RÀO CẢN             ║
+║        (thương hiệu, chi phí chuyển đổi, quy mô) → bài 7, bài 8          ║
+╚══════════════════════════════════════════════════════════════════════════╝
 ```
 
 ---
@@ -1158,22 +1158,22 @@ $$\text{Rời bỏ nếu } P < ATC \qquad \text{(dài hạn)}$$
 
 **Bản đồ khoá học**
 
-| # | Bài | Chương sách | Ưu tiên |
-| ---: | --- | --- | :---: |
-| 1 | [Mười nguyên lý và tư duy kinh tế](bai_01_muoi_nguyen_ly_va_tu_duy_kinh_te.md) | ch. 1–2 | 🎯 |
-| 2 | [Cung và cầu](bai_02_cung_va_cau.md) | ch. 4 | 🎯 |
-| 3 | [Độ co giãn và định giá](bai_03_do_co_gian_va_dinh_gia.md) | ch. 5 | 🎯⭐ |
-| 4 | [Thặng dư và chi phí của thuế](bai_04_thang_du_va_chi_phi_cua_thue.md) | ch. 7–8 | 🔸 |
-| 5 | [Chi phí sản xuất](bai_05_chi_phi_san_xuat.md) | ch. 13 | 🎯 |
-| **6** | **Doanh nghiệp trên thị trường cạnh tranh** ← *bạn đang ở đây* | ch. 14 | 🎯 |
-| 7 | [Độc quyền và phân biệt giá](bai_07_doc_quyen_va_phan_biet_gia.md) | ch. 15 | 🎯 |
-| 8 | [Cạnh tranh độc quyền và thương hiệu](bai_08_canh_tranh_doc_quyen.md) | ch. 16 | 🎯 |
-| 9 | [Độc quyền nhóm và lý thuyết trò chơi](bai_09_doc_quyen_nhom_va_ly_thuyet_tro_choi.md) | ch. 17 | 🎯 |
-| 10 | [Lựa chọn của người tiêu dùng](bai_10_lua_chon_cua_nguoi_tieu_dung.md) | ch. 21 | 🎯 |
-| 11 | [Thông tin bất cân xứng và hành vi](bai_11_thong_tin_bat_can_xung.md) | ch. 22 | 🎯 |
-| 12 | [Lao động, tiền lương, bất bình đẳng](bai_12_thi_truong_lao_dong.md) | ch. 18–20 | 🔸 |
-| 13 | Chính phủ can thiệp thị trường *(chưa viết)* | ch. 6, 12 | 🔸 |
-| 14 | Thương mại, ngoại tác, hàng hoá công *(chưa viết)* | ch. 3, 9–11 | 🔸 |
+|     # | Bài                                                                                    | Chương sách | Ưu tiên |
+| ----: | -------------------------------------------------------------------------------------- | ----------- | :-----: |
+|     1 | [Mười nguyên lý và tư duy kinh tế](bai_01_muoi_nguyen_ly_va_tu_duy_kinh_te.md)         | ch. 1–2     |    🎯    |
+|     2 | [Cung và cầu](bai_02_cung_va_cau.md)                                                   | ch. 4       |    🎯    |
+|     3 | [Độ co giãn và định giá](bai_03_do_co_gian_va_dinh_gia.md)                             | ch. 5       |   🎯⭐    |
+|     4 | [Thặng dư và chi phí của thuế](bai_04_thang_du_va_chi_phi_cua_thue.md)                 | ch. 7–8     |    🔸    |
+|     5 | [Chi phí sản xuất](bai_05_chi_phi_san_xuat.md)                                         | ch. 13      |    🎯    |
+| **6** | **Doanh nghiệp trên thị trường cạnh tranh** ← *bạn đang ở đây*                         | ch. 14      |    🎯    |
+|     7 | [Độc quyền và phân biệt giá](bai_07_doc_quyen_va_phan_biet_gia.md)                     | ch. 15      |    🎯    |
+|     8 | [Cạnh tranh độc quyền và thương hiệu](bai_08_canh_tranh_doc_quyen.md)                  | ch. 16      |    🎯    |
+|     9 | [Độc quyền nhóm và lý thuyết trò chơi](bai_09_doc_quyen_nhom_va_ly_thuyet_tro_choi.md) | ch. 17      |    🎯    |
+|    10 | [Lựa chọn của người tiêu dùng](bai_10_lua_chon_cua_nguoi_tieu_dung.md)                 | ch. 21      |    🎯    |
+|    11 | [Thông tin bất cân xứng và hành vi](bai_11_thong_tin_bat_can_xung.md)                  | ch. 22      |    🎯    |
+|    12 | [Lao động, tiền lương, bất bình đẳng](bai_12_thi_truong_lao_dong.md)                   | ch. 18–20   |    🔸    |
+|    13 | [Chính phủ can thiệp thị trường](bai_13_chinh_phu_can_thiep_thi_truong.md)             | ch. 6, 12   |    🔸    |
+|    14 | [Thương mại, ngoại tác, hàng hoá công](bai_14_thuong_mai_ngoai_tac_hang_hoa_cong.md)   | ch. 3, 9–11 |    🔸    |
 
 🎯 vòng 1 — học kỹ · 🔸 vòng 2 — đọc hiểu · ⭐ chương quan trọng nhất với QTKD
 

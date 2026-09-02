@@ -1236,7 +1236,7 @@ Cột tiếng Anh lấy từ mục **Khái niệm then chốt** của chương 7
 ║      = giá SẴN LÒNG TRẢ − giá THỰC TRẢ                                    ║
 ║      = diện tích DƯỚI đường cầu, TRÊN mức giá                             ║
 ║      chiều cao đường cầu tại Q = giá sẵn lòng trả của NGƯỜI MUA CẬN BIÊN  ║
-║      giá giảm ⟹ tăng 2 mảnh: ① khách CŨ trả ít hơn ② khách MỚI vào      ║
+║      giá giảm ⟹ tăng 2 mảnh: ① khách CŨ trả ít hơn ② khách MỚI vào        ║
 ║      ⚠ chỉ là thước đo tốt NẾU người mua duy lý (ma tuý = phản ví dụ)     ║
 ║                                                                           ║
 ║  ── THẶNG DƯ SẢN XUẤT ──────────────────────────────────────────────      ║
@@ -1244,18 +1244,18 @@ Cột tiếng Anh lấy từ mục **Khái niệm then chốt** của chương 7
 ║      = diện tích DƯỚI mức giá, TRÊN đường cung                            ║
 ║                                                                           ║
 ║  ⭐ TỔNG THẶNG DƯ = giá trị người mua nhận − chi phí người bán chịu       ║
-║      (tiền trả và tiền nhận TRIỆT TIÊU nhau ⟹ chuyển tiền KHÔNG tạo      ║
+║      (tiền trả và tiền nhận TRIỆT TIÊU nhau ⟹ chuyển tiền KHÔNG tạo       ║
 ║       ra cũng không phá huỷ phúc lợi)                                     ║
 ║                                                                           ║
 ║  ── BA HÀM Ý VỀ THỊ TRƯỜNG TỰ DO ───────────────────────────────────      ║
-║      ① hàng đến người ĐỊNH GIÁ CAO NHẤT                                  ║
-║      ② sản xuất bởi người CHI PHÍ THẤP NHẤT                              ║
-║      ③ sản lượng TỐI ĐA HOÁ tổng thặng dư                                ║
-║      Q < Q*: giá trị > chi phí ⟹ nên làm thêm                            ║
-║      Q > Q*: giá trị < chi phí ⟹ nên làm ít lại                          ║
+║      ① hàng đến người ĐỊNH GIÁ CAO NHẤT                                   ║
+║      ② sản xuất bởi người CHI PHÍ THẤP NHẤT                               ║
+║      ③ sản lượng TỐI ĐA HOÁ tổng thặng dư                                 ║
+║      Q < Q*: giá trị > chi phí ⟹ nên làm thêm                             ║
+║      Q > Q*: giá trị < chi phí ⟹ nên làm ít lại                           ║
 ║  ⚠⚠ ĐỨNG TRÊN HAI GIẢ ĐỊNH                                                ║
-║      ① cạnh tranh hoàn hảo — vi phạm ⟹ QUYỀN LỰC THỊ TRƯỜNG (bài 7-9)   ║
-║      ② không tác động người ngoài — vi phạm ⟹ NGOẠI TÁC (bài 14)        ║
+║      ① cạnh tranh hoàn hảo — vi phạm ⟹ QUYỀN LỰC THỊ TRƯỜNG (bài 7-9)     ║
+║      ② không tác động người ngoài — vi phạm ⟹ NGOẠI TÁC (bài 14)          ║
 ║      hai thứ này = THẤT BẠI THỊ TRƯỜNG                                    ║
 ║                                                                           ║
 ║  ── THUẾ ───────────────────────────────────────────────────────────      ║
@@ -1263,15 +1263,15 @@ Cột tiếng Anh lấy từ mục **Khái niệm then chốt** của chương 7
 ║      đánh lên người mua hay người bán đều NHƯ NHAU                        ║
 ║      doanh thu thuế = T × Q  (hình chữ nhật)                              ║
 ║      người mua mất B+C, người bán mất D+E, chính phủ thu B+D              ║
-║      ⟹ TỔN THẤT VÔ ÍCH = C + E = ½ × T × (sụt giảm sản lượng)            ║
+║      ⟹ TỔN THẤT VÔ ÍCH = C + E = ½ × T × (sụt giảm sản lượng)             ║
 ║                                                                           ║
 ║  ⭐ JOE & JANE  thuế $50 xoá sạch $40 thặng dư, chính phủ thu $0          ║
-║      ⟹ tổn thất vô ích KHÔNG phải tiền bị lấy, mà là GIAO DỊCH KHÔNG     ║
+║      ⟹ tổn thất vô ích KHÔNG phải tiền bị lấy, mà là GIAO DỊCH KHÔNG      ║
 ║        XẢY RA. Thuế làm hai bên không nhận thấy LỢI ÍCH TỪ THƯƠNG MẠI     ║
 ║                                                                           ║
 ║  ⭐ ĐỘ CO GIÃN CÀNG LỚN ⟹ TỔN THẤT VÔ ÍCH CÀNG LỚN                        ║
 ║      vì co giãn = đổi hành vi nhiều, mà đổi hành vi mới là nguồn tổn thất ║
-║      ⟹ thuế thuốc lá, rượu, xăng phổ biến vì cầu KHÔNG co giãn           ║
+║      ⟹ thuế thuốc lá, rượu, xăng phổ biến vì cầu KHÔNG co giãn            ║
 ║                                                                           ║
 ║  ⭐ THUẾ GẤP ĐÔI ⟹ TỔN THẤT GẤP BỐN  (diện tích tam giác, ∝ T²)           ║
 ║      doanh thu thuế TĂNG rồi GIẢM = ĐƯỜNG CONG LAFFER                     ║
@@ -1283,7 +1283,7 @@ Cột tiếng Anh lấy từ mục **Khái niệm then chốt** của chương 7
 ║          trong đó phần từ nhóm TRƯỚC KHÔNG MUA NỔI = xoá tổn thất vô ích  ║
 ║          mọi KHOẢN PHÍ nội bộ đều gây tổn thất vô ích như thuế:           ║
 ║          hỏi "bao nhiêu giao dịch ĐÁNG LẼ CÓ LỢI đã không xảy ra?"        ║
-║          phí gấp đôi ⟹ thiệt hại gấp bốn                                 ║
+║          phí gấp đôi ⟹ thiệt hại gấp bốn                                  ║
 ╚═══════════════════════════════════════════════════════════════════════════╝
 ```
 
@@ -1340,8 +1340,8 @@ Cột tiếng Anh lấy từ mục **Khái niệm then chốt** của chương 7
 |    10 | [Lựa chọn của người tiêu dùng](bai_10_lua_chon_cua_nguoi_tieu_dung.md)                 | ch. 21      |    🎯    |
 |    11 | [Thông tin bất cân xứng và hành vi](bai_11_thong_tin_bat_can_xung.md)                  | ch. 22      |    🎯    |
 |    12 | [Lao động, tiền lương, bất bình đẳng](bai_12_thi_truong_lao_dong.md)                   | ch. 18–20   |    🔸    |
-|    13 | Chính phủ can thiệp thị trường *(chưa viết)*                                           | ch. 6, 12   |    🔸    |
-|    14 | Thương mại, ngoại tác, hàng hoá công *(chưa viết)*                                     | ch. 3, 9–11 |    🔸    |
+|    13 | [Chính phủ can thiệp thị trường](bai_13_chinh_phu_can_thiep_thi_truong.md)             | ch. 6, 12   |    🔸    |
+|    14 | [Thương mại, ngoại tác, hàng hoá công](bai_14_thuong_mai_ngoai_tac_hang_hoa_cong.md)   | ch. 3, 9–11 |    🔸    |
 
 🎯 vòng 1 — học kỹ · 🔸 vòng 2 — đọc hiểu · ⭐ chương quan trọng nhất với QTKD
 
