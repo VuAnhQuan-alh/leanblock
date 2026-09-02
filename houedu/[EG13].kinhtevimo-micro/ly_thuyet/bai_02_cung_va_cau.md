@@ -1004,11 +1004,11 @@ Google cụm sai đó sẽ không ra gì.
 ╠══════════════════════════════════════════════════════════════════════════╣
 ║  THỊ TRƯỜNG  nhóm người mua + người bán một hàng hoá — là QUAN HỆ,       ║
 ║              không phải địa điểm                                         ║
-║  CẠNH TRANH HOÀN HẢO  ① sản phẩm giống hệt  ② quá nhiều người            ║
-║              ⟹ ai cũng là NGƯỜI CHẤP NHẬN GIÁ                            ║
+║  CẠNH TRANH HOÀN HẢO  ① sản phẩm giống hệt  ② quá nhiều người           ║
+║              ⟹ ai cũng là NGƯỜI CHẤP NHẬN GIÁ                           ║
 ║                                                                          ║
 ║  ── CẦU ────────────────────────────────────────────────────────────     ║
-║  QUY LUẬT CẦU   giá ↑ ⟹ lượng cầu ↓        đường cầu DỐC XUỐNG           ║
+║  QUY LUẬT CẦU   giá ↑ ⟹ lượng cầu ↓        đường cầu DỐC XUỐNG          ║
 ║      ⚠ lượng cầu = sẵn lòng VÀ CÓ KHẢ NĂNG mua                           ║
 ║  CẦU THỊ TRƯỜNG = cộng cầu cá nhân theo CHIỀU NGANG                      ║
 ║      (giữ nguyên GIÁ, cộng LƯỢNG)                                        ║
@@ -1018,7 +1018,7 @@ Google cụm sai đó sẽ không ra gì.
 ║      thị hiếu · kỳ vọng · số người mua                                   ║
 ║                                                                          ║
 ║  ── CUNG ───────────────────────────────────────────────────────────     ║
-║  QUY LUẬT CUNG  giá ↑ ⟹ lượng cung ↑       đường cung DỐC LÊN            ║
+║  QUY LUẬT CUNG  giá ↑ ⟹ lượng cung ↑       đường cung DỐC LÊN           ║
 ║  BỐN YẾU TỐ: giá đầu vào · công nghệ · kỳ vọng · số người bán            ║
 ║      💼 giảm giá bán = TRƯỢT DỌC | giảm chi phí = DỊCH CẢ ĐƯỜNG          ║
 ║                                                                          ║
@@ -1033,7 +1033,7 @@ Google cụm sai đó sẽ không ra gì.
 ║      ⚠ cả hai đều là DI CHUYỂN DỌC, không đường nào dịch chuyển          ║
 ║                                                                          ║
 ║  ── BA BƯỚC PHÂN TÍCH ──────────────────────────────────────────────     ║
-║  ① đường nào dịch  ② trái hay phải  ③ so cân bằng cũ với mới             ║
+║  ① đường nào dịch  ② trái hay phải  ③ so cân bằng cũ với mới           ║
 ║      nóng (cầu→phải):  $2,00→$2,50   Q 7→10                              ║
 ║      bão  (cung→trái): $2,00→$2,50   Q 7→ 4                              ║
 ║      ⭐ GIÁ GIỐNG NHAU, LƯỢNG NGƯỢC NHAU                                  ║
@@ -1087,22 +1087,22 @@ Google cụm sai đó sẽ không ra gì.
 
 **Bản đồ khoá học**
 
-| # | Bài | Chương sách | Ưu tiên |
-| ---: | --- | --- | :---: |
-| 1 | [Mười nguyên lý và tư duy kinh tế](bai_01_muoi_nguyen_ly_va_tu_duy_kinh_te.md) | ch. 1–2 | 🎯 |
-| **2** | **Cung và cầu** ← *bạn đang ở đây* | ch. 4 | 🎯 |
-| 3 | [Độ co giãn và định giá](bai_03_do_co_gian_va_dinh_gia.md) | ch. 5 | 🎯⭐ |
-| 4 | [Thặng dư và chi phí của thuế](bai_04_thang_du_va_chi_phi_cua_thue.md) | ch. 7–8 | 🔸 |
-| 5 | [Chi phí sản xuất](bai_05_chi_phi_san_xuat.md) | ch. 13 | 🎯 |
-| 6 | [Doanh nghiệp trên thị trường cạnh tranh](bai_06_thi_truong_canh_tranh.md) | ch. 14 | 🎯 |
-| 7 | [Độc quyền và phân biệt giá](bai_07_doc_quyen_va_phan_biet_gia.md) | ch. 15 | 🎯 |
-| 8 | [Cạnh tranh độc quyền và thương hiệu](bai_08_canh_tranh_doc_quyen.md) | ch. 16 | 🎯 |
-| 9 | [Độc quyền nhóm và lý thuyết trò chơi](bai_09_doc_quyen_nhom_va_ly_thuyet_tro_choi.md) | ch. 17 | 🎯 |
-| 10 | Lựa chọn của người tiêu dùng *(chưa viết)* | ch. 21 | 🎯 |
-| 11 | Thông tin bất cân xứng và hành vi *(chưa viết)* | ch. 22 | 🎯 |
-| 12 | Lao động, tiền lương, bất bình đẳng *(chưa viết)* | ch. 18–20 | 🔸 |
-| 13 | Chính phủ can thiệp thị trường *(chưa viết)* | ch. 6, 12 | 🔸 |
-| 14 | Thương mại, ngoại tác, hàng hoá công *(chưa viết)* | ch. 3, 9–11 | 🔸 |
+|     # | Bài                                                                                    | Chương sách | Ưu tiên |
+| ----: | -------------------------------------------------------------------------------------- | ----------- | :-----: |
+|     1 | [Mười nguyên lý và tư duy kinh tế](bai_01_muoi_nguyen_ly_va_tu_duy_kinh_te.md)         | ch. 1–2     |    🎯    |
+| **2** | **Cung và cầu** ← *bạn đang ở đây*                                                     | ch. 4       |    🎯    |
+|     3 | [Độ co giãn và định giá](bai_03_do_co_gian_va_dinh_gia.md)                             | ch. 5       |   🎯⭐    |
+|     4 | [Thặng dư và chi phí của thuế](bai_04_thang_du_va_chi_phi_cua_thue.md)                 | ch. 7–8     |    🔸    |
+|     5 | [Chi phí sản xuất](bai_05_chi_phi_san_xuat.md)                                         | ch. 13      |    🎯    |
+|     6 | [Doanh nghiệp trên thị trường cạnh tranh](bai_06_thi_truong_canh_tranh.md)             | ch. 14      |    🎯    |
+|     7 | [Độc quyền và phân biệt giá](bai_07_doc_quyen_va_phan_biet_gia.md)                     | ch. 15      |    🎯    |
+|     8 | [Cạnh tranh độc quyền và thương hiệu](bai_08_canh_tranh_doc_quyen.md)                  | ch. 16      |    🎯    |
+|     9 | [Độc quyền nhóm và lý thuyết trò chơi](bai_09_doc_quyen_nhom_va_ly_thuyet_tro_choi.md) | ch. 17      |    🎯    |
+|    10 | [Lựa chọn của người tiêu dùng](bai_10_lua_chon_cua_nguoi_tieu_dung.md)                 | ch. 21      |    🎯    |
+|    11 | [Thông tin bất cân xứng và hành vi](bai_11_thong_tin_bat_can_xung.md)                  | ch. 22      |    🎯    |
+|    12 | [Lao động, tiền lương, bất bình đẳng](bai_12_thi_truong_lao_dong.md)                   | ch. 18–20   |    🔸    |
+|    13 | Chính phủ can thiệp thị trường *(chưa viết)*                                           | ch. 6, 12   |    🔸    |
+|    14 | Thương mại, ngoại tác, hàng hoá công *(chưa viết)*                                     | ch. 3, 9–11 |    🔸    |
 
 🎯 vòng 1 — học kỹ · 🔸 vòng 2 — đọc hiểu · ⭐ chương quan trọng nhất với QTKD
 

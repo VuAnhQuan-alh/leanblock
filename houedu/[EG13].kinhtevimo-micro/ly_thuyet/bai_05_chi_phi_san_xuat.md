@@ -79,17 +79,17 @@ tế nói **chi phí sản xuất**, họ **đã tính luôn chi phí cơ hội*
 > **Chi phí ẩn** (*implicit costs*): những chi phí đầu vào không đòi hỏi doanh nghiệp phải chi tiền ra
 > để trả. — chú thích tr. 285
 
-| Loại | Ví dụ của sách | Có dòng tiền đi ra? |
-| --- | --- | --- |
-| **Sổ sách** | 1.000 đô la mua bột; tiền công trả công nhân | ✅ có |
-| **Ẩn** | Caroline giỏi máy tính, có thể kiếm **100 đô la mỗi giờ** làm lập trình viên — mỗi giờ làm bánh là **100 đô la thu nhập từ bỏ** | ❌ không |
+| Loại        | Ví dụ của sách                                                                                                                  | Có dòng tiền đi ra? |
+| ----------- | ------------------------------------------------------------------------------------------------------------------------------- | ------------------- |
+| **Sổ sách** | 1.000 đô la mua bột; tiền công trả công nhân                                                                                    | ✅ có                |
+| **Ẩn**      | Caroline giỏi máy tính, có thể kiếm **100 đô la mỗi giờ** làm lập trình viên — mỗi giờ làm bánh là **100 đô la thu nhập từ bỏ** | ❌ không             |
 
 Và sách rút ra sự khác biệt nghề nghiệp rất rõ (tr. 285):
 
-| | Nhà kinh tế | Nhân viên kế toán |
-| --- | --- | --- |
+|                     | Nhà kinh tế                                   | Nhân viên kế toán            |
+| ------------------- | --------------------------------------------- | ---------------------------- |
 | Nghiên cứu / làm gì | doanh nghiệp **sản xuất và định giá** thế nào | quản lý **dòng tiền** ra vào |
-| Tính chi phí nào | **cả** sổ sách **và** ẩn | **chỉ** sổ sách |
+| Tính chi phí nào    | **cả** sổ sách **và** ẩn                      | **chỉ** sổ sách              |
 
 Ví dụ mà sách dùng để cho thấy chi phí ẩn **thật sự ảnh hưởng quyết định** (tr. 286): nếu tiền công
 lập trình viên của Caroline tăng từ **100 lên 500 đô la một giờ**, cô có thể quyết định *"chi phí vận
@@ -111,9 +111,9 @@ gửi ngân hàng lãi **5%**, cô sẽ có **15.000 đô la tiền lãi mỗi n
 
 **Tình huống B — vay một phần.** Caroline chỉ có **100.000**, vay ngân hàng **200.000** lãi **5%**:
 
-| | Cách tính | Kết quả |
-| --- | --- | ---: |
-| **Kế toán** | chỉ lãi vay trả ngân hàng (có dòng tiền ra) | **10.000** |
+|                 | Cách tính                                                         |    Kết quả |
+| --------------- | ----------------------------------------------------------------- | ---------: |
+| **Kế toán**     | chỉ lãi vay trả ngân hàng (có dòng tiền ra)                       | **10.000** |
 | **Nhà kinh tế** | lãi vay 10.000 (**sổ sách**) + lãi tiết kiệm từ bỏ 5.000 (**ẩn**) | **15.000** |
 
 ⭐ **Điểm đáng nhớ nhất mục này:** chi phí cơ hội của vốn **vẫn là 15.000 đô la** trong cả hai tình
@@ -150,9 +150,9 @@ toán, không đổi chi phí thật của việc dùng 300.000 đô la vào ti�
 
 Và ý nghĩa của lợi nhuận kinh tế, theo sách (tr. 287):
 
-| Lợi nhuận kinh tế | Nghĩa là | Chủ doanh nghiệp sẽ |
-| --- | --- | --- |
-| **dương** | doanh thu bù được **mọi** chi phí cơ hội, còn dư | **tiếp tục** kinh doanh |
+| Lợi nhuận kinh tế   | Nghĩa là                                                               | Chủ doanh nghiệp sẽ                                        |
+| ------------------- | ---------------------------------------------------------------------- | ---------------------------------------------------------- |
+| **dương**           | doanh thu bù được **mọi** chi phí cơ hội, còn dư                       | **tiếp tục** kinh doanh                                    |
 | **âm** (lỗ kinh tế) | *"chủ sở hữu doanh nghiệp sẽ thu không đủ để bù đắp chi phí sản xuất"* | *"chắc chắn sẽ **đóng cửa** kinh doanh và rời khỏi ngành"* |
 
 📌 Câu cuối cùng ấy — *"rời khỏi ngành"* — là hạt giống của toàn bộ **bài 6** (chương 14): trong thị
@@ -167,11 +167,11 @@ mọi chi phí cơ hội — tức chủ doanh nghiệp đang kiếm **đúng b�
 
 Mục 12 tính đầy đủ một bảng lãi–lỗ hai cách. Ba khoản thường bị bỏ sót nhất:
 
-| Khoản ẩn | Cách ước lượng |
-| --- | --- |
-| **Vốn chủ sở hữu** | vốn × lợi suất phương án an toàn (gửi ngân hàng, trái phiếu) |
-| **Mặt bằng tự có** | giá thuê thị trường của chính mặt bằng đó |
-| **Công sức người sáng lập** | mức lương bạn nhận được nếu đi làm thuê cùng vị trí |
+| Khoản ẩn                    | Cách ước lượng                                               |
+| --------------------------- | ------------------------------------------------------------ |
+| **Vốn chủ sở hữu**          | vốn × lợi suất phương án an toàn (gửi ngân hàng, trái phiếu) |
+| **Mặt bằng tự có**          | giá thuê thị trường của chính mặt bằng đó                    |
+| **Công sức người sáng lập** | mức lương bạn nhận được nếu đi làm thuê cùng vị trí          |
 
 ⭐ **Bài kiểm tra nhanh:** nếu bạn cộng ba khoản trên vào và lợi nhuận thành **âm**, doanh nghiệp của
 bạn đang **phá huỷ giá trị** — dù báo cáo tài chính vẫn màu xanh. Bạn đang bù lỗ bằng chính tài sản và
@@ -196,20 +196,20 @@ Caroline có thể thay đổi sản lượng… bằng cách duy nhất là tha
 **Bảng 1, tr. 288** — nhà máy 30 đô la/giờ, mỗi công nhân 10 đô la/giờ:
 
 | Số công nhân | Sản lượng | Sản lượng biên | CP nhà máy | CP nhân công | **Tổng chi phí** |
-| ---: | ---: | ---: | ---: | ---: | ---: |
-| 0 | 0 | | $30 | $0 | **$30** |
-| | | **50** | | | |
-| 1 | 50 | | 30 | 10 | **40** |
-| | | **40** | | | |
-| 2 | 90 | | 30 | 20 | **50** |
-| | | **30** | | | |
-| 3 | 120 | | 30 | 30 | **60** |
-| | | **20** | | | |
-| 4 | 140 | | 30 | 40 | **70** |
-| | | **10** | | | |
-| 5 | 150 | | 30 | 50 | **80** |
-| | | **5** | | | |
-| 6 | 155 | | 30 | 60 | **90** |
+| -----------: | --------: | -------------: | ---------: | -----------: | ---------------: |
+|            0 |         0 |                |        $30 |           $0 |          **$30** |
+|              |           |         **50** |            |              |                  |
+|            1 |        50 |                |         30 |           10 |           **40** |
+|              |           |         **40** |            |              |                  |
+|            2 |        90 |                |         30 |           20 |           **50** |
+|              |           |         **30** |            |              |                  |
+|            3 |       120 |                |         30 |           30 |           **60** |
+|              |           |         **20** |            |              |                  |
+|            4 |       140 |                |         30 |           40 |           **70** |
+|              |           |         **10** |            |              |                  |
+|            5 |       150 |                |         30 |           50 |           **80** |
+|              |           |          **5** |            |              |                  |
+|            6 |       155 |                |         30 |           60 |           **90** |
 
 Sản lượng biên đi **50 → 40 → 30 → 20 → 10 → 5**. Lý do sách đưa ra rất cụ thể (tr. 290):
 
@@ -256,29 +256,29 @@ Cùng với hai thước đo phụ: $AFC = FC/Q$ và $AVC = VC/Q$, và $ATC = AF
 
 **Bảng 2 — Tiệm Café của Conrad (tr. 292):**
 
-| Q (ly/giờ) | Tổng CP | CP cố định | CP biến đổi | AFC | AVC | **ATC** | *Chi phí biên* |
-| ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| 0 | $3,00 | $3,00 | $0,00 | — | — | — | |
-| | | | | | | | *$0,30* |
-| 1 | 3,30 | 3,00 | 0,30 | $3,00 | $0,30 | **$3,30** | |
-| | | | | | | | *0,50* |
-| 2 | 3,80 | 3,00 | 0,80 | 1,50 | 0,40 | **1,90** | |
-| | | | | | | | *0,70* |
-| 3 | 4,50 | 3,00 | 1,50 | 1,00 | 0,50 | **1,50** | |
-| | | | | | | | *0,90* |
-| 4 | 5,40 | 3,00 | 2,40 | 0,75 | 0,60 | **1,35** | |
-| | | | | | | | *1,10* |
-| **5** | 6,50 | 3,00 | 3,50 | 0,60 | 0,70 | **1,30** ⭐ | |
-| | | | | | | | *1,30* |
-| **6** | 7,80 | 3,00 | 4,80 | 0,50 | 0,80 | **1,30** ⭐ | |
-| | | | | | | | *1,50* |
-| 7 | 9,30 | 3,00 | 6,30 | 0,43 | 0,90 | **1,33** | |
-| | | | | | | | *1,70* |
-| 8 | 11,00 | 3,00 | 8,00 | 0,38 | 1,00 | **1,38** | |
-| | | | | | | | *1,90* |
-| 9 | 12,90 | 3,00 | 9,90 | 0,33 | 1,10 | **1,43** | |
-| | | | | | | | *2,10* |
-| 10 | 15,00 | 3,00 | 12,00 | 0,30 | 1,20 | **1,50** | |
+| Q (ly/giờ) | Tổng CP | CP cố định | CP biến đổi |   AFC |   AVC |    **ATC** | *Chi phí biên* |
+| ---------: | ------: | ---------: | ----------: | ----: | ----: | ---------: | -------------: |
+|          0 |   $3,00 |      $3,00 |       $0,00 |     — |     — |          — |                |
+|            |         |            |             |       |       |            |        *$0,30* |
+|          1 |    3,30 |       3,00 |        0,30 | $3,00 | $0,30 |  **$3,30** |                |
+|            |         |            |             |       |       |            |         *0,50* |
+|          2 |    3,80 |       3,00 |        0,80 |  1,50 |  0,40 |   **1,90** |                |
+|            |         |            |             |       |       |            |         *0,70* |
+|          3 |    4,50 |       3,00 |        1,50 |  1,00 |  0,50 |   **1,50** |                |
+|            |         |            |             |       |       |            |         *0,90* |
+|          4 |    5,40 |       3,00 |        2,40 |  0,75 |  0,60 |   **1,35** |                |
+|            |         |            |             |       |       |            |         *1,10* |
+|      **5** |    6,50 |       3,00 |        3,50 |  0,60 |  0,70 | **1,30** ⭐ |                |
+|            |         |            |             |       |       |            |         *1,30* |
+|      **6** |    7,80 |       3,00 |        4,80 |  0,50 |  0,80 | **1,30** ⭐ |                |
+|            |         |            |             |       |       |            |         *1,50* |
+|          7 |    9,30 |       3,00 |        6,30 |  0,43 |  0,90 |   **1,33** |                |
+|            |         |            |             |       |       |            |         *1,70* |
+|          8 |   11,00 |       3,00 |        8,00 |  0,38 |  1,00 |   **1,38** |                |
+|            |         |            |             |       |       |            |         *1,90* |
+|          9 |   12,90 |       3,00 |        9,90 |  0,33 |  1,10 |   **1,43** |                |
+|            |         |            |             |       |       |            |         *2,10* |
+|         10 |   15,00 |       3,00 |       12,00 |  0,30 |  1,20 |   **1,50** |                |
 
 📚 **Một quan sát không có trong sách nhưng rất hữu ích:** bảng này không phải số ngẫu nhiên. Chi phí
 biên tăng **đều đúng 0,20 đô la** mỗi ly, tức $MC(q) = 0{,}10 + 0{,}20q$. Từ đó suy ra công thức đóng
@@ -375,10 +375,10 @@ vậy. Nhưng **ba đặc điểm ở trên vẫn đúng**.
 
 Ví dụ **Ford Motor** của sách (tr. 297–298):
 
-| Khoảng thời gian | Ford làm được gì | Nhà máy là chi phí |
-| --- | --- | --- |
-| **Vài tháng** (ngắn hạn) | *"không thể điều chỉnh số lượng hay quy mô nhà máy"* — chỉ thuê thêm nhân công | **cố định** |
-| **Vài năm** (dài hạn) | *"mở rộng quy mô nhà máy, xây dựng thêm nhà máy mới hay đóng cửa những nhà máy cũ"* | **biến đổi** |
+| Khoảng thời gian         | Ford làm được gì                                                                    | Nhà máy là chi phí |
+| ------------------------ | ----------------------------------------------------------------------------------- | ------------------ |
+| **Vài tháng** (ngắn hạn) | *"không thể điều chỉnh số lượng hay quy mô nhà máy"* — chỉ thuê thêm nhân công      | **cố định**        |
+| **Vài năm** (dài hạn)    | *"mở rộng quy mô nhà máy, xây dựng thêm nhà máy mới hay đóng cửa những nhà máy cũ"* | **biến đổi**       |
 
 **Hình 6, tr. 298** vẽ ba đường ATC ngắn hạn (nhà máy nhỏ, trung bình, lớn) cùng một đường **ATC dài
 hạn**. Hai tính chất:
@@ -395,11 +395,11 @@ trước đó."*
 
 ### Câu chuyện Ford — con số cụ thể
 
-| | Sản lượng | ATC |
-| --- | ---: | ---: |
-| Hiện tại (nhà máy trung bình) | 1.000 xe/ngày | **10.000 đô la** |
+|                                                     |     Sản lượng |              ATC |
+| --------------------------------------------------- | ------------: | ---------------: |
+| Hiện tại (nhà máy trung bình)                       | 1.000 xe/ngày | **10.000 đô la** |
 | **Ngắn hạn** — chỉ thuê thêm công nhân ở nhà máy cũ | 1.200 xe/ngày | **12.000 đô la** |
-| **Dài hạn** — mở rộng cả nhà máy lẫn nhân công | 1.200 xe/ngày | **10.000 đô la** |
+| **Dài hạn** — mở rộng cả nhà máy lẫn nhân công      | 1.200 xe/ngày | **10.000 đô la** |
 
 ⚠️ **Đính chính — tr. 298.** Sách viết:
 
@@ -439,10 +439,10 @@ Ba định nghĩa (chú thích tr. 299):
 
 Và **nguyên nhân** — đây mới là phần đáng nhớ:
 
-| Hiện tượng | Nguyên nhân theo sách (tr. 299) |
-| --- | --- |
-| **Lợi thế** theo quy mô | **chuyên môn hoá** — *"mức sản lượng cao hơn cho phép sự chuyên môn hoá trong những người công nhân lao động, cho phép mỗi công nhân làm việc tốt hơn với mỗi nhiệm vụ cụ thể được giao"* |
-| **Bất lợi thế** theo quy mô | **vấn đề phối hợp** — *"Càng sản xuất thêm nhiều xe hơi, đội ngũ quản lý càng bị kéo giãn hơn, và các nhà quản lý sẽ khó mà kìm giữ được chi phí ở mức thấp"* |
+| Hiện tượng                  | Nguyên nhân theo sách (tr. 299)                                                                                                                                                           |
+| --------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Lợi thế** theo quy mô     | **chuyên môn hoá** — *"mức sản lượng cao hơn cho phép sự chuyên môn hoá trong những người công nhân lao động, cho phép mỗi công nhân làm việc tốt hơn với mỗi nhiệm vụ cụ thể được giao"* |
+| **Bất lợi thế** theo quy mô | **vấn đề phối hợp** — *"Càng sản xuất thêm nhiều xe hơi, đội ngũ quản lý càng bị kéo giãn hơn, và các nhà quản lý sẽ khó mà kìm giữ được chi phí ở mức thấp"*                             |
 
 Đó cũng là lý do đường dài hạn có **dạng chữ U**: ở sản lượng thấp, chuyên môn hoá thắng; ở sản lượng
 cao, vấn đề phối hợp thắng.
@@ -474,11 +474,11 @@ thuê thợ mộc, thợ ống nước, thợ điện, thợ sơn"* — chuyên 
 Chương này cho bạn **ba con số**, và chúng trả lời **ba câu hỏi khác nhau**. Nhầm lẫn giữa chúng là
 sai lầm định giá phổ biến nhất trong thực tế.
 
-| Con số | Trả lời câu hỏi | Học ở |
-| --- | --- | --- |
-| **Chi phí biên (MC)** | *"Giá sàn tuyệt đối của tôi là bao nhiêu?"* — dưới mức này thì không bao giờ bán | [bài 1, mục 4](bai_01_muoi_nguyen_ly_va_tu_duy_kinh_te.md#4-nguyên-lý-3--con-người-duy-lý-suy-nghĩ-tại-điểm-cận-biên) |
-| **ATC tại sản lượng kế hoạch** | *"Bán giá nào thì hoà vốn ở sản lượng đó?"* | mục 6 |
-| **Quy mô hiệu quả** | *"Nếu chọn được, tôi nên nhắm sản lượng nào?"* | mục 7 |
+| Con số                         | Trả lời câu hỏi                                                                  | Học ở                                                                                                                 |
+| ------------------------------ | -------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| **Chi phí biên (MC)**          | *"Giá sàn tuyệt đối của tôi là bao nhiêu?"* — dưới mức này thì không bao giờ bán | [bài 1, mục 4](bai_01_muoi_nguyen_ly_va_tu_duy_kinh_te.md#4-nguyên-lý-3--con-người-duy-lý-suy-nghĩ-tại-điểm-cận-biên) |
+| **ATC tại sản lượng kế hoạch** | *"Bán giá nào thì hoà vốn ở sản lượng đó?"*                                      | mục 6                                                                                                                 |
+| **Quy mô hiệu quả**            | *"Nếu chọn được, tôi nên nhắm sản lượng nào?"*                                   | mục 7                                                                                                                 |
 
 ⚠️ **Không con nào trong ba con số trên trả lời câu hỏi "nên bán giá bao nhiêu".** Câu đó cần thêm
 **đường cầu** ([bài 3](bai_03_do_co_gian_va_dinh_gia.md)) và quy tắc **MR = MC** (bài 6, bài 7).
@@ -518,17 +518,17 @@ riêng, đội ngũ biên chế đông) có **đòn bẩy hoạt động cao** �
 
 ## 11. Bảng 3 — tóm tắt toàn bộ từ vựng chi phí
 
-| Thuật ngữ | Định nghĩa | Công thức |
-| --- | --- | --- |
-| Chi phí sổ sách | chi phí đòi hỏi chi tiền ra | — |
-| Chi phí ẩn | chi phí **không** đòi hỏi chi tiền ra | — |
-| Chi phí cố định (FC) | không đổi theo sản lượng | — |
-| Chi phí biến đổi (VC) | thay đổi theo sản lượng | — |
-| Tổng chi phí (TC) | giá trị thị trường mọi đầu vào | $TC = FC + VC$ |
-| Chi phí cố định bình quân (AFC) | chi phí cố định trên mỗi đơn vị | $AFC = FC/Q$ |
-| Chi phí biến đổi bình quân (AVC) | chi phí biến đổi trên mỗi đơn vị | $AVC = VC/Q$ |
-| Tổng chi phí bình quân (ATC) | tổng chi phí trên mỗi đơn vị | $ATC = TC/Q = AFC + AVC$ |
-| **Chi phí biên (MC)** | chi phí tăng thêm khi làm thêm một đơn vị | $MC = \Delta TC / \Delta Q$ |
+| Thuật ngữ                        | Định nghĩa                                | Công thức                   |
+| -------------------------------- | ----------------------------------------- | --------------------------- |
+| Chi phí sổ sách                  | chi phí đòi hỏi chi tiền ra               | —                           |
+| Chi phí ẩn                       | chi phí **không** đòi hỏi chi tiền ra     | —                           |
+| Chi phí cố định (FC)             | không đổi theo sản lượng                  | —                           |
+| Chi phí biến đổi (VC)            | thay đổi theo sản lượng                   | —                           |
+| Tổng chi phí (TC)                | giá trị thị trường mọi đầu vào            | $TC = FC + VC$              |
+| Chi phí cố định bình quân (AFC)  | chi phí cố định trên mỗi đơn vị           | $AFC = FC/Q$                |
+| Chi phí biến đổi bình quân (AVC) | chi phí biến đổi trên mỗi đơn vị          | $AVC = VC/Q$                |
+| Tổng chi phí bình quân (ATC)     | tổng chi phí trên mỗi đơn vị              | $ATC = TC/Q = AFC + AVC$    |
+| **Chi phí biên (MC)**            | chi phí tăng thêm khi làm thêm một đơn vị | $MC = \Delta TC / \Delta Q$ |
 
 ---
 
@@ -1046,28 +1046,28 @@ Sửa tham số rồi chạy lại. Không có lời giải kèm theo.
 
 Cột tiếng Anh lấy từ mục **Khái niệm then chốt** của sách (tr. 302).
 
-| Tiếng Việt | Tiếng Anh | Ghi chú |
-| --- | --- | --- |
-| Tổng doanh thu | Total revenue | tr. 284 |
-| Tổng chi phí | Total cost | tr. 284 |
-| Lợi nhuận | Profit | tr. 284 — doanh thu trừ chi phí |
-| Chi phí sổ sách | Explicit costs | tr. 285 — **có** dòng tiền ra |
-| Chi phí ẩn | Implicit costs | tr. 285 — **không** có dòng tiền ra |
-| Lợi nhuận kinh tế | Economic profit | tr. 286 — trừ **cả** chi phí ẩn |
-| Lợi nhuận kế toán | Accounting profit | tr. 287 — **luôn lớn hơn** lợi nhuận kinh tế |
-| Hàm sản xuất | Production function | tr. 288 |
-| Sản lượng biên | Marginal product | tr. 289 |
-| Sản lượng biên giảm dần | Diminishing marginal product | tr. 290 — nguồn gốc của mọi hình dạng đường chi phí |
-| Chi phí cố định | Fixed costs | tr. 292 |
-| Chi phí biến đổi | Variable costs | tr. 292 |
-| Tổng chi phí bình quân | Average total cost | tr. 293 — $TC/Q$ |
-| Chi phí cố định bình quân | Average fixed cost | tr. 293 — giảm mãi |
-| Chi phí biến đổi bình quân | Average variable cost | tr. 293 |
-| Chi phí biên | Marginal cost | tr. 293 — $\Delta TC/\Delta Q$ |
-| Quy mô hiệu quả | Efficient scale | tr. 295 — đáy chữ U |
-| Lợi thế kinh tế theo quy mô | Economies of scale | tr. 299 — do **chuyên môn hoá** |
-| Bất lợi thế kinh tế theo quy mô | Diseconomies of scale | tr. 299 — do **vấn đề phối hợp** |
-| Lợi thế không đổi theo quy mô | Constant returns to scale | tr. 299 |
+| Tiếng Việt                      | Tiếng Anh                    | Ghi chú                                             |
+| ------------------------------- | ---------------------------- | --------------------------------------------------- |
+| Tổng doanh thu                  | Total revenue                | tr. 284                                             |
+| Tổng chi phí                    | Total cost                   | tr. 284                                             |
+| Lợi nhuận                       | Profit                       | tr. 284 — doanh thu trừ chi phí                     |
+| Chi phí sổ sách                 | Explicit costs               | tr. 285 — **có** dòng tiền ra                       |
+| Chi phí ẩn                      | Implicit costs               | tr. 285 — **không** có dòng tiền ra                 |
+| Lợi nhuận kinh tế               | Economic profit              | tr. 286 — trừ **cả** chi phí ẩn                     |
+| Lợi nhuận kế toán               | Accounting profit            | tr. 287 — **luôn lớn hơn** lợi nhuận kinh tế        |
+| Hàm sản xuất                    | Production function          | tr. 288                                             |
+| Sản lượng biên                  | Marginal product             | tr. 289                                             |
+| Sản lượng biên giảm dần         | Diminishing marginal product | tr. 290 — nguồn gốc của mọi hình dạng đường chi phí |
+| Chi phí cố định                 | Fixed costs                  | tr. 292                                             |
+| Chi phí biến đổi                | Variable costs               | tr. 292                                             |
+| Tổng chi phí bình quân          | Average total cost           | tr. 293 — $TC/Q$                                    |
+| Chi phí cố định bình quân       | Average fixed cost           | tr. 293 — giảm mãi                                  |
+| Chi phí biến đổi bình quân      | Average variable cost        | tr. 293                                             |
+| Chi phí biên                    | Marginal cost                | tr. 293 — $\Delta TC/\Delta Q$                      |
+| Quy mô hiệu quả                 | Efficient scale              | tr. 295 — đáy chữ U                                 |
+| Lợi thế kinh tế theo quy mô     | Economies of scale           | tr. 299 — do **chuyên môn hoá**                     |
+| Bất lợi thế kinh tế theo quy mô | Diseconomies of scale        | tr. 299 — do **vấn đề phối hợp**                    |
+| Lợi thế không đổi theo quy mô   | Constant returns to scale    | tr. 299                                             |
 
 ---
 
@@ -1105,56 +1105,56 @@ Cột tiếng Anh lấy từ mục **Khái niệm then chốt** của sách (tr.
 ║      SỔ SÁCH  có dòng tiền ra    | ẨN  không có dòng tiền ra             ║
 ║      LỢI NHUẬN KẾ TOÁN = DT − chi phí SỔ SÁCH                            ║
 ║      LỢI NHUẬN KINH TẾ = DT − chi phí SỔ SÁCH − chi phí ẨN               ║
-║      ⭐ kế toán LUÔN lớn hơn kinh tế                                      ║
+║      ⭐ kế toán LUÔN lớn hơn kinh tế                                     ║
 ║      ⚠ "lợi nhuận kinh tế = 0" KHÔNG phải làm không công — mà là         ║
 ║        kiếm ĐÚNG BẰNG phương án tốt nhất kế tiếp                         ║
-║      ⭐ chi phí cơ hội của VỐN không đổi theo cơ cấu vốn                  ║
+║      ⭐ chi phí cơ hội của VỐN không đổi theo cơ cấu vốn                 ║
 ║        ($300k tự có hay vay 200k: vẫn là $15.000)                        ║
 ║                                                                          ║
 ║  ── NGUỒN GỐC CỦA MỌI ĐƯỜNG CHI PHÍ ────────────────────────────────     ║
 ║      SẢN LƯỢNG BIÊN GIẢM DẦN  50→40→30→20→10→5                           ║
 ║        (nhà bếp chật, công nhân chia nhau thiết bị)                      ║
-║      ⟹ hàm sản xuất BẰNG PHẲNG dần ⟺ tổng chi phí DỐC dần                ║
+║      ⟹ hàm sản xuất BẰNG PHẲNG dần ⟺ tổng chi phí DỐC dần              ║
 ║                                                                          ║
 ║  ── BỐN THƯỚC ĐO ───────────────────────────────────────────────────     ║
 ║      TC = FC + VC                                                        ║
 ║      AFC = FC/Q   giảm mãi, không bao giờ chạm 0                         ║
 ║      AVC = VC/Q   tăng dần                                               ║
-║      ATC = TC/Q = AFC + AVC   ⟹  hình chữ U                              ║
+║      ATC = TC/Q = AFC + AVC   ⟹  hình chữ U                             ║
 ║      MC  = ΔTC/ΔQ   nằm GIỮA hai dòng, thuộc về BƯỚC ĐI                  ║
 ║                                                                          ║
-║  ⭐⭐ BA ĐẶC ĐIỂM CỦA MỌI ĐƯỜNG CHI PHÍ                                    ║
+║  ⭐⭐ BA ĐẶC ĐIỂM CỦA MỌI ĐƯỜNG CHI PHÍ                                   ║
 ║      ① MC sớm muộn cũng TĂNG                                             ║
 ║      ② ATC hình chữ U — đáy gọi là QUY MÔ HIỆU QUẢ                       ║
 ║      ③ MC cắt ATC ĐÚNG TẠI ĐÁY chữ U                                     ║
-║      MC < ATC ⟹ ATC đang GIẢM  |  MC > ATC ⟹ ATC đang TĂNG               ║
-║      💡 ATC = điểm trung bình tích luỹ; MC = điểm môn học kế tiếp        ║
-║                                                                          ║
-║  ── NGẮN HẠN vs DÀI HẠN ────────────────────────────────────────────     ║
-║      ranh giới cố định/biến đổi là ranh giới THỜI GIAN                   ║
-║      MỌI đường ngắn hạn NẰM TRÊN hoặc CHẠM đường dài hạn                 ║
-║      Ford: 1.000→1.200 xe, ngắn hạn ATC $10.000→$12.000                  ║
-║            dài hạn xây nhà máy đúng cỡ → về lại $10.000                  ║
-║      ⚠ ĐÍNH CHÍNH tr. 298: sách in "2.000", đúng là "1.200"              ║
-║                                                                          ║
-║  ── KINH TẾ THEO QUY MÔ ────────────────────────────────────────────     ║
-║      LỢI THẾ (ATC dài hạn giảm)  ← CHUYÊN MÔN HOÁ (Adam Smith, đinh ghim)║
-║      BẤT LỢI (ATC dài hạn tăng)  ← VẤN ĐỀ PHỐI HỢP                       ║
-║      KHÔNG ĐỔI ở khoảng giữa                                             ║
-║                                                                          ║
-║  💼 QTKD  BA CON SỐ, BA CÂU HỎI KHÁC NHAU                                ║
-║      MC   → giá SÀN tuyệt đối, dưới mức này không bao giờ bán            ║
-║      ATC  → giá HOÀ VỐN tại một sản lượng cụ thể                         ║
-║      quy mô hiệu quả → sản lượng nên nhắm tới                            ║
-║      ⚠ KHÔNG con nào trả lời "nên bán giá bao nhiêu"                     ║
-║        cần thêm ĐƯỜNG CẦU (bài 3) và MR = MC (bài 6, 7)                  ║
-║      ⚠ COST-PLUS LÀ LẬP LUẬN VÒNG TRÒN: ATC phụ thuộc sản lượng,         ║
-║        sản lượng phụ thuộc giá, giá lại đặt từ ATC                       ║
-║        cầu yếu → bán ít → ATC cao → tăng giá → bán ít hơn nữa            ║
-║      ĐIỂM HOÀ VỐN = chi phí cố định / (giá − biến phí)                   ║
+║      MC < ATC ⟹ ATC đang GIẢM  |  MC > ATC ⟹ ATC đang TĂNG              ║
+║      💡 ATC = điểm trung bình tích luỹ; MC = điểm môn học kế tiếp         ║
+║                                                                           ║
+║  ── NGẮN HẠN vs DÀI HẠN ────────────────────────────────────────────      ║
+║      ranh giới cố định/biến đổi là ranh giới THỜI GIAN                    ║
+║      MỌI đường ngắn hạn NẰM TRÊN hoặc CHẠM đường dài hạn                  ║
+║      Ford: 1.000→1.200 xe, ngắn hạn ATC $10.000→$12.000                   ║
+║            dài hạn xây nhà máy đúng cỡ → về lại $10.000                   ║
+║      ⚠ ĐÍNH CHÍNH tr. 298: sách in "2.000", đúng là "1.200"               ║
+║                                                                           ║
+║  ── KINH TẾ THEO QUY MÔ ────────────────────────────────────────────      ║
+║      LỢI THẾ (ATC dài hạn giảm)  ← CHUYÊN MÔN HOÁ (Adam Smith, đinh ghim) ║
+║      BẤT LỢI (ATC dài hạn tăng)  ← VẤN ĐỀ PHỐI HỢP                        ║
+║      KHÔNG ĐỔI ở khoảng giữa                                              ║
+║                                                                           ║
+║  💼 QTKD  BA CON SỐ, BA CÂU HỎI KHÁC NHAU                                 ║
+║      MC   → giá SÀN tuyệt đối, dưới mức này không bao giờ bán             ║
+║      ATC  → giá HOÀ VỐN tại một sản lượng cụ thể                          ║
+║      quy mô hiệu quả → sản lượng nên nhắm tới                             ║
+║      ⚠ KHÔNG con nào trả lời "nên bán giá bao nhiêu"                      ║
+║        cần thêm ĐƯỜNG CẦU (bài 3) và MR = MC (bài 6, 7)                   ║
+║      ⚠ COST-PLUS LÀ LẬP LUẬN VÒNG TRÒN: ATC phụ thuộc sản lượng,          ║
+║        sản lượng phụ thuộc giá, giá lại đặt từ ATC                        ║
+║        cầu yếu → bán ít → ATC cao → tăng giá → bán ít hơn nữa             ║
+║      ĐIỂM HOÀ VỐN = chi phí cố định / (giá − biến phí)                    ║
 ║        chi phí cố định gấp đôi ⟹ điểm hoà vốn gấp đôi                    ║
 ║        ⟹ mô hình nặng chi phí cố định rất nguy hiểm khi cầu sụt          ║
-╚══════════════════════════════════════════════════════════════════════════╝
+╚═══════════════════════════════════════════════════════════════════════════╝
 ```
 
 ---
@@ -1192,22 +1192,22 @@ Cột tiếng Anh lấy từ mục **Khái niệm then chốt** của sách (tr.
 
 **Bản đồ khoá học**
 
-| # | Bài | Chương sách | Ưu tiên |
-| ---: | --- | --- | :---: |
-| 1 | [Mười nguyên lý và tư duy kinh tế](bai_01_muoi_nguyen_ly_va_tu_duy_kinh_te.md) | ch. 1–2 | 🎯 |
-| 2 | [Cung và cầu](bai_02_cung_va_cau.md) | ch. 4 | 🎯 |
-| 3 | [Độ co giãn và định giá](bai_03_do_co_gian_va_dinh_gia.md) | ch. 5 | 🎯⭐ |
-| 4 | [Thặng dư và chi phí của thuế](bai_04_thang_du_va_chi_phi_cua_thue.md) | ch. 7–8 | 🔸 |
-| **5** | **Chi phí sản xuất** ← *bạn đang ở đây* | ch. 13 | 🎯 |
-| 6 | [Doanh nghiệp trên thị trường cạnh tranh](bai_06_thi_truong_canh_tranh.md) | ch. 14 | 🎯 |
-| 7 | [Độc quyền và phân biệt giá](bai_07_doc_quyen_va_phan_biet_gia.md) | ch. 15 | 🎯 |
-| 8 | [Cạnh tranh độc quyền và thương hiệu](bai_08_canh_tranh_doc_quyen.md) | ch. 16 | 🎯 |
-| 9 | [Độc quyền nhóm và lý thuyết trò chơi](bai_09_doc_quyen_nhom_va_ly_thuyet_tro_choi.md) | ch. 17 | 🎯 |
-| 10 | Lựa chọn của người tiêu dùng *(chưa viết)* | ch. 21 | 🎯 |
-| 11 | Thông tin bất cân xứng và hành vi *(chưa viết)* | ch. 22 | 🎯 |
-| 12 | Lao động, tiền lương, bất bình đẳng *(chưa viết)* | ch. 18–20 | 🔸 |
-| 13 | Chính phủ can thiệp thị trường *(chưa viết)* | ch. 6, 12 | 🔸 |
-| 14 | Thương mại, ngoại tác, hàng hoá công *(chưa viết)* | ch. 3, 9–11 | 🔸 |
+|     # | Bài                                                                                    | Chương sách | Ưu tiên |
+| ----: | -------------------------------------------------------------------------------------- | ----------- | :-----: |
+|     1 | [Mười nguyên lý và tư duy kinh tế](bai_01_muoi_nguyen_ly_va_tu_duy_kinh_te.md)         | ch. 1–2     |    🎯    |
+|     2 | [Cung và cầu](bai_02_cung_va_cau.md)                                                   | ch. 4       |    🎯    |
+|     3 | [Độ co giãn và định giá](bai_03_do_co_gian_va_dinh_gia.md)                             | ch. 5       |   🎯⭐    |
+|     4 | [Thặng dư và chi phí của thuế](bai_04_thang_du_va_chi_phi_cua_thue.md)                 | ch. 7–8     |    🔸    |
+| **5** | **Chi phí sản xuất** ← *bạn đang ở đây*                                                | ch. 13      |    🎯    |
+|     6 | [Doanh nghiệp trên thị trường cạnh tranh](bai_06_thi_truong_canh_tranh.md)             | ch. 14      |    🎯    |
+|     7 | [Độc quyền và phân biệt giá](bai_07_doc_quyen_va_phan_biet_gia.md)                     | ch. 15      |    🎯    |
+|     8 | [Cạnh tranh độc quyền và thương hiệu](bai_08_canh_tranh_doc_quyen.md)                  | ch. 16      |    🎯    |
+|     9 | [Độc quyền nhóm và lý thuyết trò chơi](bai_09_doc_quyen_nhom_va_ly_thuyet_tro_choi.md) | ch. 17      |    🎯    |
+|    10 | [Lựa chọn của người tiêu dùng](bai_10_lua_chon_cua_nguoi_tieu_dung.md)                 | ch. 21      |    🎯    |
+|    11 | [Thông tin bất cân xứng và hành vi](bai_11_thong_tin_bat_can_xung.md)                  | ch. 22      |    🎯    |
+|    12 | [Lao động, tiền lương, bất bình đẳng](bai_12_thi_truong_lao_dong.md)                   | ch. 18–20   |    🔸    |
+|    13 | Chính phủ can thiệp thị trường *(chưa viết)*                                           | ch. 6, 12   |    🔸    |
+|    14 | Thương mại, ngoại tác, hàng hoá công *(chưa viết)*                                     | ch. 3, 9–11 |    🔸    |
 
 🎯 vòng 1 — học kỹ · 🔸 vòng 2 — đọc hiểu · ⭐ chương quan trọng nhất với QTKD
 

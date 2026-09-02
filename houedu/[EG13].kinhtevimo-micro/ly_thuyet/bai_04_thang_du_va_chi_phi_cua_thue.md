@@ -72,11 +72,11 @@ Sách bắt đầu bằng một câu chuyện rất cụ thể (tr. 154): bạn 
 **Bảng 1, tr. 154:**
 
 | Người mua | Giá sẵn lòng trả |
-| --- | ---: |
-| **John** | **$100** |
-| Paul | 80 |
-| George | 70 |
-| Ringo | 50 |
+| --------- | ---------------: |
+| **John**  |         **$100** |
+| Paul      |               80 |
+| George    |               70 |
+| Ringo     |               50 |
 
 Ý nghĩa của con số này, theo cách sách diễn đạt: *"nó được đo lường bằng giá trị người mua định giá
 cho hàng hoá"*. Và tại đúng mức giá bằng mức sẵn lòng trả, người mua **bàng quan**:
@@ -107,11 +107,11 @@ John sẵn lòng trả 100, chỉ phải trả 80 → **thặng dư 20 đô la**
 Giả sử bạn có **hai** tập đĩa giống hệt, cùng bán một giá, mỗi người chỉ mua một. Đấu giá dừng ở
 **70 đô la** (George và Ringo bỏ cuộc).
 
-| Người thắng | Sẵn lòng trả | Trả | Thặng dư |
-| --- | ---: | ---: | ---: |
-| John | 100 | 70 | **$30** |
-| Paul | 80 | 70 | **$10** |
-| | | **Tổng** | **$40** |
+| Người thắng | Sẵn lòng trả |      Trả | Thặng dư |
+| ----------- | -----------: | -------: | -------: |
+| John        |          100 |       70 |  **$30** |
+| Paul        |           80 |       70 |  **$10** |
+|             |              | **Tổng** |  **$40** |
 
 ⭐ **Điều đáng chú ý:** thặng dư của John **tăng từ 20 lên 30**, dù anh vẫn mua đúng một tập đĩa.
 Nguyên nhân là **giá giảm**. Sách nói rõ: *"Thặng dư tiêu dùng của John lúc này cao hơn so với ví dụ
@@ -123,13 +123,13 @@ trước vì anh ta nhận được một tập đĩa giống hệt như vậy n
 
 Từ Bảng 1, ta dựng được **biểu cầu** (Hình 1, tr. 156):
 
-| Giá | Người mua | Lượng cầu |
-| --- | --- | ---: |
-| Nhiều hơn $100 | không ai | 0 |
-| $80 đến $100 | John | 1 |
-| $70 đến $80 | John, Paul | 2 |
-| $50 đến $70 | John, Paul, George | 3 |
-| $50 hoặc ít hơn | John, Paul, George, Ringo | 4 |
+| Giá             | Người mua                 | Lượng cầu |
+| --------------- | ------------------------- | --------: |
+| Nhiều hơn $100  | không ai                  |         0 |
+| $80 đến $100    | John                      |         1 |
+| $70 đến $80     | John, Paul                |         2 |
+| $50 đến $70     | John, Paul, George        |         3 |
+| $50 hoặc ít hơn | John, Paul, George, Ringo |         4 |
 
 ⭐ **Ý quan trọng nhất mục này** (tr. 156):
 
@@ -146,10 +146,10 @@ chiều cao là **70 đô la** — mức George sẵn lòng trả.
 
 Kiểm lại bằng Hình 2 (tr. 157):
 
-| | Giá | Diện tích trên giá, dưới đường cầu | Khớp với tính tay ở mục 3? |
-| --- | ---: | ---: | --- |
-| Hình 2(a) | $80 | $20 | ✅ |
-| Hình 2(b) | $70 | $30 + $10 = $40 | ✅ |
+|           |  Giá | Diện tích trên giá, dưới đường cầu | Khớp với tính tay ở mục 3? |
+| --------- | ---: | ---------------------------------: | -------------------------- |
+| Hình 2(a) |  $80 |                                $20 | ✅                          |
+| Hình 2(b) |  $70 |                    $30 + $10 = $40 | ✅                          |
 
 Với thị trường thật có **nhiều người mua**, các bậc thang nhỏ đến mức *"thật sự tạo nên một đường liên
 tục"* (tr. 157) — nên đường cầu trơn, và thặng dư là một **tam giác**.
@@ -205,20 +205,20 @@ cọ… *"cũng như giá trị của thời gian mà người sơn nhà phải 
 
 **Bảng 2, tr. 159:**
 
-| Người bán | Chi phí |
-| --- | ---: |
-| Mary | $900 |
-| Frida | 800 |
-| Georgia | 600 |
+| Người bán   |  Chi phí |
+| ----------- | -------: |
+| Mary        |     $900 |
+| Frida       |      800 |
+| Georgia     |      600 |
 | **Grandma** | **$500** |
 
 > **Thặng dư sản xuất** (*producer surplus*): số tiền nhà sản xuất được trả cho việc cung cấp một hàng
 > hoá trừ cho tổng chi phí sản xuất ra hàng hoá đó. — chú thích tr. 160
 
-| Số nhà cần sơn | Giá dừng ở | Người thắng | Thặng dư sản xuất |
-| ---: | ---: | --- | ---: |
-| **1** | $600 | Grandma | $600 − $500 = **$100** |
-| **2** | $800 | Grandma, Georgia | ($800−500) + ($800−600) = **$500** |
+| Số nhà cần sơn | Giá dừng ở | Người thắng      |                  Thặng dư sản xuất |
+| -------------: | ---------: | ---------------- | ---------------------------------: |
+|          **1** |       $600 | Grandma          |             $600 − $500 = **$100** |
+|          **2** |       $800 | Grandma, Georgia | ($800−500) + ($800−600) = **$500** |
 
 Và đối xứng với phần cầu:
 
@@ -231,12 +231,12 @@ Cũng như bên cầu, **chiều cao đường cung tại lượng Q là chi ph�
 
 Hai khái niệm nghe hàn lâm, nhưng chúng là hai bảng tính rất cụ thể trong công việc:
 
-| Kinh tế học gọi | Trong doanh nghiệp gọi là | Bạn dùng nó để |
-| --- | --- | --- |
-| **Giá sẵn lòng trả** | *willingness to pay*, "giá trần cảm nhận" | đặt giá niêm yết, thiết kế gói sản phẩm |
-| **Chi phí (cơ hội)** | giá sàn thật, chi phí biên | biết mức thấp nhất còn nhận đơn ([bài 1, mục 4](bai_01_muoi_nguyen_ly_va_tu_duy_kinh_te.md#4-nguyên-lý-3--con-người-duy-lý-suy-nghĩ-tại-điểm-cận-biên)) |
-| **Thặng dư tiêu dùng** | phần giá trị **bạn để lại trên bàn** | ước lượng dư địa tăng giá / phân biệt giá |
-| **Thặng dư sản xuất** | phần đóng góp (contribution margin) | biết đơn hàng nào thật sự sinh lời |
+| Kinh tế học gọi        | Trong doanh nghiệp gọi là                 | Bạn dùng nó để                                                                                                                                          |
+| ---------------------- | ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Giá sẵn lòng trả**   | *willingness to pay*, "giá trần cảm nhận" | đặt giá niêm yết, thiết kế gói sản phẩm                                                                                                                 |
+| **Chi phí (cơ hội)**   | giá sàn thật, chi phí biên                | biết mức thấp nhất còn nhận đơn ([bài 1, mục 4](bai_01_muoi_nguyen_ly_va_tu_duy_kinh_te.md#4-nguyên-lý-3--con-người-duy-lý-suy-nghĩ-tại-điểm-cận-biên)) |
+| **Thặng dư tiêu dùng** | phần giá trị **bạn để lại trên bàn**      | ước lượng dư địa tăng giá / phân biệt giá                                                                                                               |
+| **Thặng dư sản xuất**  | phần đóng góp (contribution margin)       | biết đơn hàng nào thật sự sinh lời                                                                                                                      |
 
 ⭐ Dòng thứ ba là dòng đắt nhất. **Thặng dư tiêu dùng là tiền mà khách hàng đáng lẽ đã trả cho bạn
 nhưng không phải trả** — vì bạn niêm yết một giá duy nhất. Mục 12 tính con số đó bằng một ví dụ cụ thể.
@@ -272,10 +272,10 @@ và cũng không phá huỷ phúc lợi**. Chỉ có **giá trị tạo ra** và
 
 Sách nêu **hai kiểu không hiệu quả** (tr. 164), cùng một logic:
 
-| Không hiệu quả khi | Sửa bằng cách |
-| --- | --- |
+| Không hiệu quả khi                                                         | Sửa bằng cách                                             |
+| -------------------------------------------------------------------------- | --------------------------------------------------------- |
 | hàng hoá **không** được sản xuất bởi nhà cung cấp có **chi phí thấp nhất** | chuyển sản xuất sang nhà chi phí thấp → giảm tổng chi phí |
-| hàng hoá **không** được tiêu thụ bởi người **định giá cao nhất** | chuyển hàng sang người định giá cao → tăng tổng giá trị |
+| hàng hoá **không** được tiêu thụ bởi người **định giá cao nhất**           | chuyển hàng sang người định giá cao → tăng tổng giá trị   |
 
 Và nhắc lại ẩn dụ chiếc bánh từ [bài 1](bai_01_muoi_nguyen_ly_va_tu_duy_kinh_te.md#2-nguyên-lý-1--con-người-đối-mặt-với-sự-đánh-đổi):
 hiệu quả hỏi *"chiếc bánh có to hết mức không"*, bình đẳng hỏi *"chiếc bánh được cắt ra như thế nào"*.
@@ -337,10 +337,10 @@ không khí hay uống phải nguồn nước bị ô nhiễm"*. Đó là **ngo�
 
 📌 Hai thất bại này chính là **lộ trình của cả phần còn lại của môn học**:
 
-| Thất bại | Học ở | Chương sách |
-| --- | --- | --- |
-| **Quyền lực thị trường** | bài 7 (độc quyền), bài 8, bài 9 | 15, 16, 17 |
-| **Ngoại tác** | bài 14 | 10 |
+| Thất bại                 | Học ở                           | Chương sách |
+| ------------------------ | ------------------------------- | ----------- |
+| **Quyền lực thị trường** | bài 7 (độc quyền), bài 8, bài 9 | 15, 16, 17  |
+| **Ngoại tác**            | bài 14                          | 10          |
 
 ⚠️ Nhưng sách cũng cân bằng lại ngay: *"Dù có những khả năng tồn tại thất bại thị trường nhưng **bàn
 tay vô hình của thị trường vẫn cực kỳ quan trọng**. Ở nhiều thị trường, những giả định chúng ta đưa ra
@@ -362,12 +362,12 @@ Ai nộp thuế về mặt pháp lý **không quan trọng**; cái quyết đị
 
 ### Ký hiệu (Hình 1–2, tr. 175–176)
 
-| | |
-| --- | --- |
-| $P_B$ | giá người mua **phải trả** |
-| $P_S$ | giá người bán **nhận được** |
-| $T = P_B - P_S$ | độ lớn của thuế |
-| $Q$ | sản lượng bán ra **khi có thuế** |
+|                    |                                             |
+| ------------------ | ------------------------------------------- |
+| $P_B$              | giá người mua **phải trả**                  |
+| $P_S$              | giá người bán **nhận được**                 |
+| $T = P_B - P_S$    | độ lớn của thuế                             |
+| $Q$                | sản lượng bán ra **khi có thuế**            |
 | **Doanh thu thuế** | $T \times Q$ — hình chữ nhật giữa hai đường |
 
 ⚠️ Sách lưu ý một điểm dễ hiểu nhầm về doanh thu thuế (tr. 176): phần lợi ích này *"thật sự không chỉ
@@ -378,12 +378,12 @@ dành cho chính phủ mà còn cho **những người được hưởng các l�
 
 Sáu vùng diện tích A → F:
 
-| | **Không có thuế** | **Có thuế** | **Thay đổi** |
-| --- | --- | --- | --- |
-| Thặng dư tiêu dùng | $A+B+C$ | $A$ | $-(B+C)$ |
-| Thặng dư sản xuất | $D+E+F$ | $F$ | $-(D+E)$ |
-| Doanh thu thuế | không | $B+D$ | $+(B+D)$ |
-| **Tổng thặng dư** | $A+B+C+D+E+F$ | $A+B+D+F$ | $\mathbf{-(C+E)}$ |
+|                    | **Không có thuế** | **Có thuế** | **Thay đổi**      |
+| ------------------ | ----------------- | ----------- | ----------------- |
+| Thặng dư tiêu dùng | $A+B+C$           | $A$         | $-(B+C)$          |
+| Thặng dư sản xuất  | $D+E+F$           | $F$         | $-(D+E)$          |
+| Doanh thu thuế     | không             | $B+D$       | $+(B+D)$          |
+| **Tổng thặng dư**  | $A+B+C+D+E+F$     | $A+B+D+F$   | $\mathbf{-(C+E)}$ |
 
 > **Tổn thất vô ích** (*deadweight loss*): phần giảm sút trong tổng thặng dư gây ra bởi những biến dạng
 > thị trường, chẳng hạn như thuế. — chú thích tr. 178
@@ -402,14 +402,14 @@ mà là **giao dịch không xảy ra** (tr. 178).
 
 **Khi chưa có thuế:**
 
-| | |
-| --- | --- |
-| Joe quét dọn nhà cho Jane, giá | $100/tuần |
-| Chi phí cơ hội thời gian của Joe | $80 |
-| Giá trị một ngôi nhà sạch với Jane | $120 |
-| **Joe lợi** | $100 − $80 = **$20** |
-| **Jane lợi** | $120 − $100 = **$20** |
-| **Tổng thặng dư** | **$40** |
+|                                    |                       |
+| ---------------------------------- | --------------------- |
+| Joe quét dọn nhà cho Jane, giá     | $100/tuần             |
+| Chi phí cơ hội thời gian của Joe   | $80                   |
+| Giá trị một ngôi nhà sạch với Jane | $120                  |
+| **Joe lợi**                        | $100 − $80 = **$20**  |
+| **Jane lợi**                       | $120 − $100 = **$20** |
+| **Tổng thặng dư**                  | **$40**               |
 
 **Bây giờ đánh thuế $50 lên dịch vụ vệ sinh.** Sách chỉ ra **không tồn tại mức giá nào** làm cả hai
 cùng chấp nhận:
@@ -439,12 +439,12 @@ tiền nộp.
 
 Trong đúng một trang, người thuê Joe được gọi lần lượt là:
 
-| Vị trí | Sách in |
-| --- | --- |
-| Câu mở đầu ví dụ | *"Joe quét dọn nhà cho **Jeal**"* |
-| Câu tiếp theo | *"giá trị một ngôi nhà sạch đẹp đối với **Jean**"* |
-| Các câu sau | *"**Jane** sẵn lòng trả…"*, *"**Jane** và Joe huỷ bỏ thoả thuận"* |
-| Đoạn kết | *"Thuế gây tổn thất cho Joe và **Jean** là 40 đô la"* |
+| Vị trí           | Sách in                                                           |
+| ---------------- | ----------------------------------------------------------------- |
+| Câu mở đầu ví dụ | *"Joe quét dọn nhà cho **Jeal**"*                                 |
+| Câu tiếp theo    | *"giá trị một ngôi nhà sạch đẹp đối với **Jean**"*                |
+| Các câu sau      | *"**Jane** sẵn lòng trả…"*, *"**Jane** và Joe huỷ bỏ thoả thuận"* |
+| Đoạn kết         | *"Thuế gây tổn thất cho Joe và **Jean** là 40 đô la"*             |
 
 Bản gốc tiếng Anh dùng **Jane** xuyên suốt. **"Jeal"** là lỗi đánh máy, **"Jean"** là lỗi chuyển tự.
 Đã đối chiếu bản quét 300 dpi. Không đổi nội dung, nhưng đọc lần đầu rất dễ tưởng là **hai người khác
@@ -458,12 +458,12 @@ Câu trả lời rất gọn (tr. 179): **độ co giãn của cung và cầu**.
 
 **Hình 5, tr. 180** — bốn khung, mỗi khung cùng một mức thuế:
 
-| Khung | Đường thay đổi | Tổn thất vô ích |
-| --- | --- | --- |
-| (a) | cung **ít co giãn** | **nhỏ** |
-| (b) | cung **co giãn** | **lớn** |
-| (c) | cầu **ít co giãn** | **nhỏ** |
-| (d) | cầu **co giãn** | **lớn** |
+| Khung | Đường thay đổi      | Tổn thất vô ích |
+| ----- | ------------------- | --------------- |
+| (a)   | cung **ít co giãn** | **nhỏ**         |
+| (b)   | cung **co giãn**    | **lớn**         |
+| (c)   | cầu **ít co giãn**  | **nhỏ**         |
+| (d)   | cầu **co giãn**     | **lớn**         |
 
 Kết luận in nghiêng trong sách:
 
@@ -486,10 +486,10 @@ Sách chỉ ra rằng tranh cãi *"quy mô của chính phủ nên ở mức nà
 Ví dụ được dùng: **thuế đánh lên lao động** ở Hoa Kỳ — thuế Bảo hiểm Xã hội, thuế Dịch vụ Y tế, thuế
 thu nhập liên bang và của bang cộng lại cho **mức thuế suất biên khoảng 40%** trên thu nhập lao động.
 
-| Nhóm | Tin rằng | Suy ra |
-| --- | --- | --- |
-| Cho rằng thuế lao động **ít bóp méo** | cung lao động **rất ít co giãn** — *"hầu hết mọi người sẽ làm việc toàn thời gian bất kể là ở mức lương nào"* | đường cung lao động gần **thẳng đứng** → tổn thất vô ích **nhỏ** |
-| Cho rằng thuế lao động **bóp méo nhiều** | cung lao động **co giãn nhiều** hơn | tổn thất vô ích **lớn** |
+| Nhóm                                     | Tin rằng                                                                                                      | Suy ra                                                           |
+| ---------------------------------------- | ------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- |
+| Cho rằng thuế lao động **ít bóp méo**    | cung lao động **rất ít co giãn** — *"hầu hết mọi người sẽ làm việc toàn thời gian bất kể là ở mức lương nào"* | đường cung lao động gần **thẳng đứng** → tổn thất vô ích **nhỏ** |
+| Cho rằng thuế lao động **bóp méo nhiều** | cung lao động **co giãn nhiều** hơn                                                                           | tổn thất vô ích **lớn**                                          |
 
 📌 Lại đúng cấu trúc đã gặp ở [bài 3, mục 14](bai_03_do_co_gian_va_dinh_gia.md#14-ứng-dụng-3--cấm-ma-tuý-làm-tăng-hay-giảm-tội-phạm):
 một tranh cãi **chuẩn tắc** ("chính phủ nên to hay nhỏ") mà điểm bất đồng thật sự lại là một **câu hỏi
@@ -515,12 +515,12 @@ $$\text{Tổn thất vô ích} \propto T^2$$
 
 ### ② Doanh thu thuế tăng RỒI GIẢM — đường cong Laffer
 
-| Mức thuế | Doanh thu | Vì |
-| --- | --- | --- |
-| (a) thấp | thấp | $T$ nhỏ |
-| (b) vừa | **tăng lên** | $T$ tăng nhanh hơn $Q$ giảm |
-| (c) cao | **giảm xuống** | *"mức thuế cao hơn này làm giảm đáng kể quy mô của thị trường"* |
-| rất cao | về 0 | *"người ta sẽ cùng nhau ngừng mua và bán hàng hoá"* |
+| Mức thuế | Doanh thu      | Vì                                                              |
+| -------- | -------------- | --------------------------------------------------------------- |
+| (a) thấp | thấp           | $T$ nhỏ                                                         |
+| (b) vừa  | **tăng lên**   | $T$ tăng nhanh hơn $Q$ giảm                                     |
+| (c) cao  | **giảm xuống** | *"mức thuế cao hơn này làm giảm đáng kể quy mô của thị trường"* |
+| rất cao  | về 0           | *"người ta sẽ cùng nhau ngừng mua và bán hàng hoá"*             |
 
 Đồ thị hình chuông ấy là **đường cong Laffer** (Hình 6e). Mục 14 vẽ lại nó bằng ký tự.
 
@@ -596,12 +596,12 @@ Nhưng phân biệt giá đòi **hai điều kiện** mà mô hình không nói:
 Cơ chế của thuế là: **tạo chênh lệch giữa cái người mua trả và cái người bán nhận** → một số giao dịch
 đáng lẽ có lợi **không xảy ra**. Bất cứ thứ gì tạo ra chênh lệch đó đều gây tổn thất vô ích:
 
-| Trong doanh nghiệp | Chênh lệch nó tạo ra | Giao dịch bị mất |
-| --- | --- | --- |
+| Trong doanh nghiệp                      | Chênh lệch nó tạo ra                          | Giao dịch bị mất                            |
+| --------------------------------------- | --------------------------------------------- | ------------------------------------------- |
 | Phí nội bộ tính chéo giữa các phòng ban | phòng dùng trả X, phòng cung cấp nhận X − phí | phòng ban tự đi thuê ngoài dù nội bộ rẻ hơn |
-| Quy trình duyệt chi rườm rà | chi phí thời gian không ai nhận được | khoản chi đáng lẽ có lợi bị bỏ qua |
-| Hoa hồng quá cao cho kênh trung gian | khách trả nhiều, hãng nhận ít | đơn hàng biên không thành |
-| Chính sách chiết khấu cứng nhắc | không khớp được giá sẵn lòng trả | phân khúc nhạy giá bị mất trắng |
+| Quy trình duyệt chi rườm rà             | chi phí thời gian không ai nhận được          | khoản chi đáng lẽ có lợi bị bỏ qua          |
+| Hoa hồng quá cao cho kênh trung gian    | khách trả nhiều, hãng nhận ít                 | đơn hàng biên không thành                   |
+| Chính sách chiết khấu cứng nhắc         | không khớp được giá sẵn lòng trả              | phân khúc nhạy giá bị mất trắng             |
 
 ⭐ **Câu hỏi đúng khi rà soát một khoản phí nội bộ** không phải *"phí bao nhiêu"* mà là:
 **"có bao nhiêu giao dịch đáng lẽ có lợi đã không xảy ra vì khoản phí này?"** — đúng câu hỏi mà tam
@@ -1116,21 +1116,21 @@ cảnh báo: thặng dư của John nhảy từ 20 lên **30** dù anh vẫn mua
 
 **③ Cân bằng là hiệu quả (mục 5).** Bảng quét $Q = 0 \to 60$:
 
-| $Q$ | 0 | 10 | 20 | 30 | **40** | 50 | 60 |
-| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| Tổng thặng dư | 0 | 350 | 600 | 750 | **800** | 750 | 600 |
+| $Q$           |    0 |   10 |   20 |   30 |  **40** |   50 |   60 |
+| ------------- | ---: | ---: | ---: | ---: | ------: | ---: | ---: |
+| Tổng thặng dư |    0 |  350 |  600 |  750 | **800** |  750 |  600 |
 
 Đỉnh đúng tại $Q = 40$ — sản lượng cân bằng. Đây là hàm ý thứ ba ở mục 8, được kiểm bằng số.
 
 **④ Bảng phúc lợi khi có thuế (mục 6).** Thuế \$10: giá người mua trả lên **\$45**, giá người bán
 nhận xuống **\$35**, lượng từ 40 còn **30**.
 
-| | Không thuế | Có thuế | Thay đổi |
-| --- | ---: | ---: | ---: |
-| Thặng dư tiêu dùng | 400 | 225 | **−175** |
-| Thặng dư sản xuất | 400 | 225 | **−175** |
-| Doanh thu thuế | 0 | 300 | **+300** |
-| **Tổng** | **800** | **750** | **−50** |
+|                    | Không thuế | Có thuế | Thay đổi |
+| ------------------ | ---------: | ------: | -------: |
+| Thặng dư tiêu dùng |        400 |     225 | **−175** |
+| Thặng dư sản xuất  |        400 |     225 | **−175** |
+| Doanh thu thuế     |          0 |     300 | **+300** |
+| **Tổng**           |    **800** | **750** |  **−50** |
 
 Người mua và người bán mất tổng cộng **350**; chính phủ chỉ thu **300**. Chênh **50** là tổn thất vô
 ích, và nó khớp đúng $\frac{1}{2} \times 10 \times 10$.
@@ -1179,22 +1179,22 @@ Sửa tham số rồi chạy lại. Không có lời giải kèm theo.
 
 Cột tiếng Anh lấy từ mục **Khái niệm then chốt** của chương 7 (tr. 170) và chương 8 (tr. 186).
 
-| Tiếng Việt | Tiếng Anh | Ghi chú |
-| --- | --- | --- |
-| Kinh tế học phúc lợi | Welfare economics | ch. 7 — phân bổ nguồn lực tác động phúc lợi thế nào |
-| Giá sẵn lòng trả | Willingness to pay | tr. 154 — nền của phân biệt giá (bài 7) |
-| Thặng dư tiêu dùng | Consumer surplus | tr. 155 — diện tích **dưới đường cầu, trên giá** |
-| Người mua cận biên | Marginal buyer | tr. 156 — người đầu tiên rời thị trường khi giá tăng |
-| Chi phí | Cost | tr. 159 — là chi phí **cơ hội** |
-| Thặng dư sản xuất | Producer surplus | tr. 160 — diện tích **dưới giá, trên đường cung** |
-| Người bán cận biên | Marginal seller | tr. 161 |
-| Tổng thặng dư | Total surplus | tr. 164 — giá trị người mua nhận − chi phí người bán chịu |
-| Hiệu quả | Efficiency | tr. 164 — **quy mô** chiếc bánh |
-| Bình đẳng | Equality | tr. 164 — **cách chia** chiếc bánh |
-| Thất bại thị trường | Market failure | tr. 169 — quyền lực thị trường, ngoại tác |
-| Tổn thất vô ích | Deadweight loss | tr. 178 — diện tích $C + E$ |
-| Đường cong Laffer | Laffer curve | tr. 183 — doanh thu thuế tăng rồi giảm |
-| Kinh tế học trọng cung | Supply-side economics | tr. 184 |
+| Tiếng Việt             | Tiếng Anh             | Ghi chú                                                   |
+| ---------------------- | --------------------- | --------------------------------------------------------- |
+| Kinh tế học phúc lợi   | Welfare economics     | ch. 7 — phân bổ nguồn lực tác động phúc lợi thế nào       |
+| Giá sẵn lòng trả       | Willingness to pay    | tr. 154 — nền của phân biệt giá (bài 7)                   |
+| Thặng dư tiêu dùng     | Consumer surplus      | tr. 155 — diện tích **dưới đường cầu, trên giá**          |
+| Người mua cận biên     | Marginal buyer        | tr. 156 — người đầu tiên rời thị trường khi giá tăng      |
+| Chi phí                | Cost                  | tr. 159 — là chi phí **cơ hội**                           |
+| Thặng dư sản xuất      | Producer surplus      | tr. 160 — diện tích **dưới giá, trên đường cung**         |
+| Người bán cận biên     | Marginal seller       | tr. 161                                                   |
+| Tổng thặng dư          | Total surplus         | tr. 164 — giá trị người mua nhận − chi phí người bán chịu |
+| Hiệu quả               | Efficiency            | tr. 164 — **quy mô** chiếc bánh                           |
+| Bình đẳng              | Equality              | tr. 164 — **cách chia** chiếc bánh                        |
+| Thất bại thị trường    | Market failure        | tr. 169 — quyền lực thị trường, ngoại tác                 |
+| Tổn thất vô ích        | Deadweight loss       | tr. 178 — diện tích $C + E$                               |
+| Đường cong Laffer      | Laffer curve          | tr. 183 — doanh thu thuế tăng rồi giảm                    |
+| Kinh tế học trọng cung | Supply-side economics | tr. 184                                                   |
 
 ---
 
@@ -1227,64 +1227,64 @@ Cột tiếng Anh lấy từ mục **Khái niệm then chốt** của chương 7
 ## Tóm tắt một trang
 
 ```
-╔══════════════════════════════════════════════════════════════════════════╗
-║  BÀI 4 — THẶNG DƯ VÀ CHI PHÍ CỦA THUẾ      (Ch. 7–8, tr. 153–189)        ║
-╠══════════════════════════════════════════════════════════════════════════╣
-║  Ch.4 mô hình · Ch.5 đo phản ứng · Ch.7-8 đo PHÚC LỢI                    ║
-║                                                                          ║
-║  ── THẶNG DƯ TIÊU DÙNG ─────────────────────────────────────────────     ║
-║      = giá SẴN LÒNG TRẢ − giá THỰC TRẢ                                   ║
-║      = diện tích DƯỚI đường cầu, TRÊN mức giá                            ║
-║      chiều cao đường cầu tại Q = giá sẵn lòng trả của NGƯỜI MUA CẬN BIÊN ║
-║      giá giảm ⟹ tăng 2 mảnh: ① khách CŨ trả ít hơn ② khách MỚI vào       ║
-║      ⚠ chỉ là thước đo tốt NẾU người mua duy lý (ma tuý = phản ví dụ)    ║
-║                                                                          ║
-║  ── THẶNG DƯ SẢN XUẤT ──────────────────────────────────────────────     ║
-║      = tiền NHẬN ĐƯỢC − CHI PHÍ (là chi phí CƠ HỘI)                      ║
-║      = diện tích DƯỚI mức giá, TRÊN đường cung                           ║
-║                                                                          ║
+╔═══════════════════════════════════════════════════════════════════════════╗
+║  BÀI 4 — THẶNG DƯ VÀ CHI PHÍ CỦA THUẾ      (Ch. 7–8, tr. 153–189)         ║
+╠═══════════════════════════════════════════════════════════════════════════╣
+║  Ch.4 mô hình · Ch.5 đo phản ứng · Ch.7-8 đo PHÚC LỢI                     ║
+║                                                                           ║
+║  ── THẶNG DƯ TIÊU DÙNG ─────────────────────────────────────────────      ║
+║      = giá SẴN LÒNG TRẢ − giá THỰC TRẢ                                    ║
+║      = diện tích DƯỚI đường cầu, TRÊN mức giá                             ║
+║      chiều cao đường cầu tại Q = giá sẵn lòng trả của NGƯỜI MUA CẬN BIÊN  ║
+║      giá giảm ⟹ tăng 2 mảnh: ① khách CŨ trả ít hơn ② khách MỚI vào      ║
+║      ⚠ chỉ là thước đo tốt NẾU người mua duy lý (ma tuý = phản ví dụ)     ║
+║                                                                           ║
+║  ── THẶNG DƯ SẢN XUẤT ──────────────────────────────────────────────      ║
+║      = tiền NHẬN ĐƯỢC − CHI PHÍ (là chi phí CƠ HỘI)                       ║
+║      = diện tích DƯỚI mức giá, TRÊN đường cung                            ║
+║                                                                           ║
 ║  ⭐ TỔNG THẶNG DƯ = giá trị người mua nhận − chi phí người bán chịu       ║
 ║      (tiền trả và tiền nhận TRIỆT TIÊU nhau ⟹ chuyển tiền KHÔNG tạo      ║
-║       ra cũng không phá huỷ phúc lợi)                                    ║
-║                                                                          ║
-║  ── BA HÀM Ý VỀ THỊ TRƯỜNG TỰ DO ───────────────────────────────────     ║
+║       ra cũng không phá huỷ phúc lợi)                                     ║
+║                                                                           ║
+║  ── BA HÀM Ý VỀ THỊ TRƯỜNG TỰ DO ───────────────────────────────────      ║
 ║      ① hàng đến người ĐỊNH GIÁ CAO NHẤT                                  ║
 ║      ② sản xuất bởi người CHI PHÍ THẤP NHẤT                              ║
 ║      ③ sản lượng TỐI ĐA HOÁ tổng thặng dư                                ║
 ║      Q < Q*: giá trị > chi phí ⟹ nên làm thêm                            ║
 ║      Q > Q*: giá trị < chi phí ⟹ nên làm ít lại                          ║
-║  ⚠⚠ ĐỨNG TRÊN HAI GIẢ ĐỊNH                                               ║
-║      ① cạnh tranh hoàn hảo — vi phạm ⟹ QUYỀN LỰC THỊ TRƯỜNG (bài 7-9)    ║
-║      ② không tác động người ngoài — vi phạm ⟹ NGOẠI TÁC (bài 14)         ║
-║      hai thứ này = THẤT BẠI THỊ TRƯỜNG                                   ║
-║                                                                          ║
-║  ── THUẾ ───────────────────────────────────────────────────────────     ║
-║      tạo khoảng cách P_B − P_S = T, làm sản lượng GIẢM                   ║
-║      đánh lên người mua hay người bán đều NHƯ NHAU                       ║
-║      doanh thu thuế = T × Q  (hình chữ nhật)                             ║
-║      người mua mất B+C, người bán mất D+E, chính phủ thu B+D             ║
+║  ⚠⚠ ĐỨNG TRÊN HAI GIẢ ĐỊNH                                                ║
+║      ① cạnh tranh hoàn hảo — vi phạm ⟹ QUYỀN LỰC THỊ TRƯỜNG (bài 7-9)   ║
+║      ② không tác động người ngoài — vi phạm ⟹ NGOẠI TÁC (bài 14)        ║
+║      hai thứ này = THẤT BẠI THỊ TRƯỜNG                                    ║
+║                                                                           ║
+║  ── THUẾ ───────────────────────────────────────────────────────────      ║
+║      tạo khoảng cách P_B − P_S = T, làm sản lượng GIẢM                    ║
+║      đánh lên người mua hay người bán đều NHƯ NHAU                        ║
+║      doanh thu thuế = T × Q  (hình chữ nhật)                              ║
+║      người mua mất B+C, người bán mất D+E, chính phủ thu B+D              ║
 ║      ⟹ TỔN THẤT VÔ ÍCH = C + E = ½ × T × (sụt giảm sản lượng)            ║
-║                                                                          ║
+║                                                                           ║
 ║  ⭐ JOE & JANE  thuế $50 xoá sạch $40 thặng dư, chính phủ thu $0          ║
 ║      ⟹ tổn thất vô ích KHÔNG phải tiền bị lấy, mà là GIAO DỊCH KHÔNG     ║
-║        XẢY RA. Thuế làm hai bên không nhận thấy LỢI ÍCH TỪ THƯƠNG MẠI    ║
-║                                                                          ║
+║        XẢY RA. Thuế làm hai bên không nhận thấy LỢI ÍCH TỪ THƯƠNG MẠI     ║
+║                                                                           ║
 ║  ⭐ ĐỘ CO GIÃN CÀNG LỚN ⟹ TỔN THẤT VÔ ÍCH CÀNG LỚN                        ║
-║      vì co giãn = đổi hành vi nhiều, mà đổi hành vi mới là nguồn tổn thất║
+║      vì co giãn = đổi hành vi nhiều, mà đổi hành vi mới là nguồn tổn thất ║
 ║      ⟹ thuế thuốc lá, rượu, xăng phổ biến vì cầu KHÔNG co giãn           ║
-║                                                                          ║
+║                                                                           ║
 ║  ⭐ THUẾ GẤP ĐÔI ⟹ TỔN THẤT GẤP BỐN  (diện tích tam giác, ∝ T²)           ║
-║      doanh thu thuế TĂNG rồi GIẢM = ĐƯỜNG CONG LAFFER                    ║
-║      ⚠ đường cong TỒN TẠI ≠ đang ở nửa bên phải của nó                   ║
-║        "hầu hết nhà kinh tế hoài nghi đề xuất của Laffer" (tr. 184)      ║
-║                                                                          ║
-║  💼 QTKD  thặng dư tiêu dùng = TIỀN BẠN ĐỂ LẠI TRÊN BÀN                  ║
-║          một giá 48.000 → phân biệt giá 86.000 (+79%)                    ║
-║          trong đó phần từ nhóm TRƯỚC KHÔNG MUA NỔI = xoá tổn thất vô ích ║
-║          mọi KHOẢN PHÍ nội bộ đều gây tổn thất vô ích như thuế:          ║
-║          hỏi "bao nhiêu giao dịch ĐÁNG LẼ CÓ LỢI đã không xảy ra?"       ║
+║      doanh thu thuế TĂNG rồi GIẢM = ĐƯỜNG CONG LAFFER                     ║
+║      ⚠ đường cong TỒN TẠI ≠ đang ở nửa bên phải của nó                    ║
+║        "hầu hết nhà kinh tế hoài nghi đề xuất của Laffer" (tr. 184)       ║
+║                                                                           ║
+║  💼 QTKD  thặng dư tiêu dùng = TIỀN BẠN ĐỂ LẠI TRÊN BÀN                   ║
+║          một giá 48.000 → phân biệt giá 86.000 (+79%)                     ║
+║          trong đó phần từ nhóm TRƯỚC KHÔNG MUA NỔI = xoá tổn thất vô ích  ║
+║          mọi KHOẢN PHÍ nội bộ đều gây tổn thất vô ích như thuế:           ║
+║          hỏi "bao nhiêu giao dịch ĐÁNG LẼ CÓ LỢI đã không xảy ra?"        ║
 ║          phí gấp đôi ⟹ thiệt hại gấp bốn                                 ║
-╚══════════════════════════════════════════════════════════════════════════╝
+╚═══════════════════════════════════════════════════════════════════════════╝
 ```
 
 ---
@@ -1326,22 +1326,22 @@ Cột tiếng Anh lấy từ mục **Khái niệm then chốt** của chương 7
 
 **Bản đồ khoá học**
 
-| # | Bài | Chương sách | Ưu tiên |
-| ---: | --- | --- | :---: |
-| 1 | [Mười nguyên lý và tư duy kinh tế](bai_01_muoi_nguyen_ly_va_tu_duy_kinh_te.md) | ch. 1–2 | 🎯 |
-| 2 | [Cung và cầu](bai_02_cung_va_cau.md) | ch. 4 | 🎯 |
-| 3 | [Độ co giãn và định giá](bai_03_do_co_gian_va_dinh_gia.md) | ch. 5 | 🎯⭐ |
-| **4** | **Thặng dư và chi phí của thuế** ← *bạn đang ở đây* | ch. 7–8 | 🔸 |
-| 5 | [Chi phí sản xuất](bai_05_chi_phi_san_xuat.md) | ch. 13 | 🎯 |
-| 6 | [Doanh nghiệp trên thị trường cạnh tranh](bai_06_thi_truong_canh_tranh.md) | ch. 14 | 🎯 |
-| 7 | [Độc quyền và phân biệt giá](bai_07_doc_quyen_va_phan_biet_gia.md) | ch. 15 | 🎯 |
-| 8 | [Cạnh tranh độc quyền và thương hiệu](bai_08_canh_tranh_doc_quyen.md) | ch. 16 | 🎯 |
-| 9 | [Độc quyền nhóm và lý thuyết trò chơi](bai_09_doc_quyen_nhom_va_ly_thuyet_tro_choi.md) | ch. 17 | 🎯 |
-| 10 | Lựa chọn của người tiêu dùng *(chưa viết)* | ch. 21 | 🎯 |
-| 11 | Thông tin bất cân xứng và hành vi *(chưa viết)* | ch. 22 | 🎯 |
-| 12 | Lao động, tiền lương, bất bình đẳng *(chưa viết)* | ch. 18–20 | 🔸 |
-| 13 | Chính phủ can thiệp thị trường *(chưa viết)* | ch. 6, 12 | 🔸 |
-| 14 | Thương mại, ngoại tác, hàng hoá công *(chưa viết)* | ch. 3, 9–11 | 🔸 |
+|     # | Bài                                                                                    | Chương sách | Ưu tiên |
+| ----: | -------------------------------------------------------------------------------------- | ----------- | :-----: |
+|     1 | [Mười nguyên lý và tư duy kinh tế](bai_01_muoi_nguyen_ly_va_tu_duy_kinh_te.md)         | ch. 1–2     |    🎯    |
+|     2 | [Cung và cầu](bai_02_cung_va_cau.md)                                                   | ch. 4       |    🎯    |
+|     3 | [Độ co giãn và định giá](bai_03_do_co_gian_va_dinh_gia.md)                             | ch. 5       |   🎯⭐    |
+| **4** | **Thặng dư và chi phí của thuế** ← *bạn đang ở đây*                                    | ch. 7–8     |    🔸    |
+|     5 | [Chi phí sản xuất](bai_05_chi_phi_san_xuat.md)                                         | ch. 13      |    🎯    |
+|     6 | [Doanh nghiệp trên thị trường cạnh tranh](bai_06_thi_truong_canh_tranh.md)             | ch. 14      |    🎯    |
+|     7 | [Độc quyền và phân biệt giá](bai_07_doc_quyen_va_phan_biet_gia.md)                     | ch. 15      |    🎯    |
+|     8 | [Cạnh tranh độc quyền và thương hiệu](bai_08_canh_tranh_doc_quyen.md)                  | ch. 16      |    🎯    |
+|     9 | [Độc quyền nhóm và lý thuyết trò chơi](bai_09_doc_quyen_nhom_va_ly_thuyet_tro_choi.md) | ch. 17      |    🎯    |
+|    10 | [Lựa chọn của người tiêu dùng](bai_10_lua_chon_cua_nguoi_tieu_dung.md)                 | ch. 21      |    🎯    |
+|    11 | [Thông tin bất cân xứng và hành vi](bai_11_thong_tin_bat_can_xung.md)                  | ch. 22      |    🎯    |
+|    12 | [Lao động, tiền lương, bất bình đẳng](bai_12_thi_truong_lao_dong.md)                   | ch. 18–20   |    🔸    |
+|    13 | Chính phủ can thiệp thị trường *(chưa viết)*                                           | ch. 6, 12   |    🔸    |
+|    14 | Thương mại, ngoại tác, hàng hoá công *(chưa viết)*                                     | ch. 3, 9–11 |    🔸    |
 
 🎯 vòng 1 — học kỹ · 🔸 vòng 2 — đọc hiểu · ⭐ chương quan trọng nhất với QTKD
 

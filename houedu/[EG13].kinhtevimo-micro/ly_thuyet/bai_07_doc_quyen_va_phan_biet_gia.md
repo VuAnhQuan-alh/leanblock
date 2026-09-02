@@ -58,11 +58,11 @@ càng ít hàng thay thế thì cầu càng **không co giãn**, và người b�
 
 Sách nêu **ba dạng chính** (tr. 335–336):
 
-| Rào cản | Nội dung | Ví dụ của sách |
-| --- | --- | --- |
-| ① **Nguồn lực** | một nguồn lực quan trọng do **một doanh nghiệp duy nhất sở hữu** | giếng nước duy nhất của thị trấn; **DeBeers** kiểm soát tới **80%** sản lượng kim cương thế giới |
-| ② **Quy định của chính phủ** | chính phủ trao **quyền độc quyền sản xuất** | **bằng sáng chế** (20 năm), **bản quyền tác phẩm** |
-| ③ **Quy trình sản xuất** | một doanh nghiệp sản xuất **với chi phí thấp hơn** phần lớn nhà sản xuất khác | độc quyền **tự nhiên** — mục 2 |
+| Rào cản                      | Nội dung                                                                      | Ví dụ của sách                                                                                   |
+| ---------------------------- | ----------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
+| ① **Nguồn lực**              | một nguồn lực quan trọng do **một doanh nghiệp duy nhất sở hữu**              | giếng nước duy nhất của thị trấn; **DeBeers** kiểm soát tới **80%** sản lượng kim cương thế giới |
+| ② **Quy định của chính phủ** | chính phủ trao **quyền độc quyền sản xuất**                                   | **bằng sáng chế** (20 năm), **bản quyền tác phẩm**                                               |
+| ③ **Quy trình sản xuất**     | một doanh nghiệp sản xuất **với chi phí thấp hơn** phần lớn nhà sản xuất khác | độc quyền **tự nhiên** — mục 2                                                                   |
 
 ⚠️ Sách lưu ý riêng về dạng ① (tr. 336): trên thực tế **rất hiếm gặp**. *"Các nền kinh tế rất rộng lớn,
 và các nguồn lực thường được sở hữu bởi nhiều người… nhiều loại hàng hoá được mua bán trên khắp thế
@@ -106,10 +106,10 @@ cùng một thành phố là lãng phí thuần tuý.
 
 Đây là **một khác biệt duy nhất**, và mọi kết luận còn lại của chương đều chảy ra từ nó (**Hình 2, tr. 340**):
 
-| | Doanh nghiệp **cạnh tranh** | Doanh nghiệp **độc quyền** |
-| --- | --- | --- |
+|                                   | Doanh nghiệp **cạnh tranh**      | Doanh nghiệp **độc quyền**                    |
+| --------------------------------- | -------------------------------- | --------------------------------------------- |
 | Đường cầu mà doanh nghiệp đối mặt | **nằm ngang** tại giá thị trường | **dốc xuống** — chính là đường cầu thị trường |
-| Muốn bán thêm | bán bao nhiêu cũng được ở giá cũ | **phải hạ giá** |
+| Muốn bán thêm                     | bán bao nhiêu cũng được ở giá cũ | **phải hạ giá**                               |
 
 Và giới hạn quyền lực của nhà độc quyền, theo sách (tr. 335–340):
 
@@ -129,25 +129,25 @@ sang dùng một hệ điều hành khác, hay dùng các bản sao chép không
 
 **Bảng 1, tr. 341** — nhà máy nước độc quyền của một thị trấn:
 
-| Q | Giá | Tổng doanh thu | Doanh thu bình quân | *Doanh thu biên* |
-| ---: | ---: | ---: | ---: | ---: |
-| 0 | $11 | $0 | — | |
-| | | | | *$10* |
-| 1 | 10 | 10 | $10 | |
-| | | | | *8* |
-| 2 | 9 | 18 | 9 | |
-| | | | | *6* |
-| 3 | 8 | 24 | 8 | |
-| | | | | *4* |
-| 4 | 7 | 28 | 7 | |
-| | | | | *2* |
-| 5 | 6 | 30 | 6 | |
-| | | | | *0* |
-| 6 | 5 | 30 | 5 | |
-| | | | | *−2* |
-| 7 | 4 | 28 | 4 | |
-| | | | | *−4* |
-| 8 | 3 | 24 | 3 | |
+|    Q |  Giá | Tổng doanh thu | Doanh thu bình quân | *Doanh thu biên* |
+| ---: | ---: | -------------: | ------------------: | ---------------: |
+|    0 |  $11 |             $0 |                   — |                  |
+|      |      |                |                     |            *$10* |
+|    1 |   10 |             10 |                 $10 |                  |
+|      |      |                |                     |              *8* |
+|    2 |    9 |             18 |                   9 |                  |
+|      |      |                |                     |              *6* |
+|    3 |    8 |             24 |                   8 |                  |
+|      |      |                |                     |              *4* |
+|    4 |    7 |             28 |                   7 |                  |
+|      |      |                |                     |              *2* |
+|    5 |    6 |             30 |                   6 |                  |
+|      |      |                |                     |              *0* |
+|    6 |    5 |             30 |                   5 |                  |
+|      |      |                |                     |             *−2* |
+|    7 |    4 |             28 |                   4 |                  |
+|      |      |                |                     |             *−4* |
+|    8 |    3 |             24 |                   3 |                  |
 
 📚 Biểu cầu này cũng có công thức đóng: **$P = 11 - Q$**, và từ đó $MR = 12 - 2Q$. Mục 16 sinh lại toàn
 bộ cột tổng doanh thu — khớp 9/9 dòng.
@@ -212,10 +212,10 @@ Quy tắc **không đổi** so với bài 6 (**Hình 4, tr. 343**):
 
 Nhưng nhà độc quyền cần **hai bước, đúng thứ tự**:
 
-| Bước | Làm gì | Trên Hình 4 |
-| --- | --- | --- |
-| **1** | Giao điểm **MR và MC** → xác định **SẢN LƯỢNG** $Q_{\max}$ | điểm **A** |
-| **2** | Từ $Q_{\max}$ đi **lên đường CẦU** → xác định **GIÁ** | điểm **B** |
+| Bước  | Làm gì                                                     | Trên Hình 4 |
+| ----- | ---------------------------------------------------------- | ----------- |
+| **1** | Giao điểm **MR và MC** → xác định **SẢN LƯỢNG** $Q_{\max}$ | điểm **A**  |
+| **2** | Từ $Q_{\max}$ đi **lên đường CẦU** → xác định **GIÁ**      | điểm **B**  |
 
 ⚠️ **Đừng đọc giá ở điểm A.** Điểm A nằm trên đường MR, không phải đường cầu. Giá là **mức cao nhất mà
 khách hàng chịu trả cho $Q_{\max}$ đơn vị** — và điều đó nằm trên đường cầu.
@@ -254,10 +254,10 @@ giữ lợi nhuận dương **vô thời hạn**.
 **Hình 6, tr. 346** là ví dụ đẹp nhất chương, vì nó cho thấy **cùng một thị trường** chuyển từ độc quyền
 sang cạnh tranh và ta quan sát được cả hai kết cục.
 
-| Giai đoạn | Cấu trúc thị trường | Giá | Sản lượng |
-| --- | --- | --- | --- |
-| **Còn bằng sáng chế** | độc quyền | cao hơn chi phí biên nhiều | thấp |
-| **Hết bằng sáng chế** | cạnh tranh (thuốc gốc tràn vào) | **giảm xuống bằng chi phí biên** | cao |
+| Giai đoạn             | Cấu trúc thị trường             | Giá                              | Sản lượng |
+| --------------------- | ------------------------------- | -------------------------------- | --------- |
+| **Còn bằng sáng chế** | độc quyền                       | cao hơn chi phí biên nhiều       | thấp      |
+| **Hết bằng sáng chế** | cạnh tranh (thuốc gốc tràn vào) | **giảm xuống bằng chi phí biên** | cao       |
 
 > *"Khi bằng sáng chế của một loại dược phẩm hết hạn, các công ty khác ngay lập tức nhảy vào và bắt đầu
 > bán các loại sản phẩm với các thành phần hoá học tương tự như loại dược phẩm mang nhãn hiệu của nhà
@@ -292,10 +292,10 @@ Dùng lại bộ công cụ **thặng dư** ở [bài 4](bai_04_thang_du_va_chi_
 
 **Hình 8, tr. 349** — so hai mức sản lượng:
 
-| | Chọn sản lượng tại | Kết quả |
-| --- | --- | --- |
-| **Nhà độc quyền** | $MR = MC$ | sản lượng **thấp**, giá **cao** |
-| **Xã hội** | $\text{Cầu} = MC$, tức $P = MC$ | sản lượng **hiệu quả** |
+|                   | Chọn sản lượng tại              | Kết quả                         |
+| ----------------- | ------------------------------- | ------------------------------- |
+| **Nhà độc quyền** | $MR = MC$                       | sản lượng **thấp**, giá **cao** |
+| **Xã hội**        | $\text{Cầu} = MC$, tức $P = MC$ | sản lượng **hiệu quả**          |
 
 > ⭐ *"**Doanh nghiệp độc quyền sản xuất ở mức sản lượng thấp hơn mức sản lượng hiệu quả xã hội.**"* (tr. 349)
 
@@ -365,15 +365,15 @@ khách bị đòi giá cao sẽ **đi mua chỗ khác**.
 Bạn là giám đốc nhà xuất bản **Readalot**. Trả tác giả **2 triệu đô la** trọn gói; giả định **phí in
 bằng không** (nên chi phí biên = 0). Bộ phận marketing cho biết:
 
-| Nhóm độc giả | Số người | Sẵn lòng trả |
-| --- | ---: | ---: |
-| Rất hâm mộ | 100.000 | **$30** |
-| Ít hâm mộ hơn | 400.000 | **$5** |
+| Nhóm độc giả  | Số người | Sẵn lòng trả |
+| ------------- | -------: | -----------: |
+| Rất hâm mộ    |  100.000 |      **$30** |
+| Ít hâm mộ hơn |  400.000 |       **$5** |
 
-| Chiến lược | Số bán | Doanh thu | **Lợi nhuận** |
-| --- | ---: | ---: | ---: |
-| Một giá **$30** | 100.000 | $3.000.000 | **$1.000.000** |
-| Một giá **$5** | 500.000 | $2.500.000 | **$500.000** |
+| Chiến lược                                            |  Số bán |  Doanh thu |  **Lợi nhuận** |
+| ----------------------------------------------------- | ------: | ---------: | -------------: |
+| Một giá **$30**                                       | 100.000 | $3.000.000 | **$1.000.000** |
+| Một giá **$5**                                        | 500.000 | $2.500.000 |   **$500.000** |
 | **Phân biệt giá** ($30 cho nhóm đầu, $5 cho nhóm sau) | 500.000 | $5.000.000 | **$3.000.000** |
 
 Với **một giá**, Readalot chọn \$30 và **bỏ lại 400.000 độc giả**. Vì chi phí biên bằng 0, mỗi cuốn
@@ -419,10 +419,10 @@ mức giá cao hơn**"* (tr. 353).
 > **Phân biệt giá hoàn hảo**: doanh nghiệp biết **chính xác** mức sẵn lòng chi trả của từng khách hàng
 > và đưa ra mức giá đúng bằng mức đó.
 
-| | Thặng dư tiêu dùng | Lợi nhuận | Tổng thặng dư | Tổn thất vô ích |
-| --- | ---: | ---: | ---: | ---: |
-| Độc quyền **một giá** | dương | dương | thấp hơn | **dương** |
-| Phân biệt giá **hoàn hảo** | **bằng 0** | **toàn bộ** | **tối đa** | **bằng 0** |
+|                            | Thặng dư tiêu dùng |   Lợi nhuận | Tổng thặng dư | Tổn thất vô ích |
+| -------------------------- | -----------------: | ----------: | ------------: | --------------: |
+| Độc quyền **một giá**      |              dương |       dương |      thấp hơn |       **dương** |
+| Phân biệt giá **hoàn hảo** |         **bằng 0** | **toàn bộ** |    **tối đa** |      **bằng 0** |
 
 Mục 16 tính cụ thể: lợi nhuận **20 → 40,50 đô la (+102%)**, tổn thất vô ích **8 → 0**, thặng dư tiêu
 dùng **12,50 → 0**.
@@ -442,13 +442,13 @@ hay thậm chí không đổi"* — chỉ có **một điều chắc chắn**: n
 Tất cả đều theo cùng một khuôn: **tìm một dấu hiệu quan sát được có tương quan với mức sẵn lòng trả**
 (tr. 355–357).
 
-| Ví dụ | Dấu hiệu dùng để phân loại |
-| --- | --- |
-| **Vé rạp chiếu phim** rẻ hơn cho trẻ em và người cao tuổi | **tuổi tác** |
-| **Vé máy bay** rẻ hơn nếu ở qua đêm thứ Bảy | tách khách **công tác** (sẵn lòng trả cao, không ở qua cuối tuần) với khách **du lịch** |
-| **Phiếu giảm giá** cắt từ báo | ai chịu **bỏ thời gian** cắt phiếu thì nhạy giá hơn — *"một doanh nhân giàu có và bận rộn thường sẽ không bỏ thời gian ra ngồi cắt những phiếu giảm giá"* |
-| **Học bổng** theo hoàn cảnh tài chính | **thu nhập** |
-| **Sách bìa cứng trước, bìa mềm sau** | **độ kiên nhẫn** |
+| Ví dụ                                                     | Dấu hiệu dùng để phân loại                                                                                                                                |
+| --------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Vé rạp chiếu phim** rẻ hơn cho trẻ em và người cao tuổi | **tuổi tác**                                                                                                                                              |
+| **Vé máy bay** rẻ hơn nếu ở qua đêm thứ Bảy               | tách khách **công tác** (sẵn lòng trả cao, không ở qua cuối tuần) với khách **du lịch**                                                                   |
+| **Phiếu giảm giá** cắt từ báo                             | ai chịu **bỏ thời gian** cắt phiếu thì nhạy giá hơn — *"một doanh nhân giàu có và bận rộn thường sẽ không bỏ thời gian ra ngồi cắt những phiếu giảm giá"* |
+| **Học bổng** theo hoàn cảnh tài chính                     | **thu nhập**                                                                                                                                              |
+| **Sách bìa cứng trước, bìa mềm sau**                      | **độ kiên nhẫn**                                                                                                                                          |
 
 💡 Ví dụ **phiếu giảm giá** là ví dụ tinh vi nhất: công ty **cố ý tạo ra một rào chắn tốn công** để khách
 **tự phân loại chính mình**.
@@ -461,9 +461,9 @@ Sách trình bày **bốn** hướng (tr. 357–361), và **nêu nhược điể
 
 ### ① Luật chống độc quyền
 
-| Luật | Năm | Nội dung |
-| --- | ---: | --- |
-| **Sherman** | **1890** | giảm quyền lực thị trường của các tập đoàn độc quyền |
+| Luật        |      Năm | Nội dung                                                           |
+| ----------- | -------: | ------------------------------------------------------------------ |
+| **Sherman** | **1890** | giảm quyền lực thị trường của các tập đoàn độc quyền               |
 | **Clayton** | **1914** | tăng quyền cho chính phủ, **hợp pháp hoá quyền khởi kiện tư nhân** |
 
 Công cụ: **ngăn sáp nhập**, **chia nhỏ công ty** (ví dụ **AT&T bị tách thành tám công ty năm 1984**),
@@ -526,20 +526,20 @@ Vì cả ba cách trên đều có khuyết điểm, một số nhà kinh tế c
 
 **Bảng 2, tr. 360:**
 
-| | **Cạnh tranh** | **Độc quyền** |
-| --- | --- | --- |
-| **GIỐNG NHAU** | | |
-| Mục tiêu của doanh nghiệp | tối đa hoá lợi nhuận | tối đa hoá lợi nhuận |
-| Nguyên tắc để tối đa hoá lợi nhuận | $MR = MC$ | $MR = MC$ |
-| Lợi nhuận kinh tế trong **ngắn hạn**? | Có | Có |
-| **KHÁC BIỆT** | | |
-| Số lượng doanh nghiệp | rất nhiều | **một** |
-| Doanh thu biên | $MR = P$ | $MR < P$ |
-| Giá | $P = MC$ | $P > MC$ |
-| Sản xuất ở mức tối đa hoá phúc lợi? | **Có** | **Không** |
-| Khả năng xuất nhập ngành trong dài hạn | Có | **Không** |
-| Lợi nhuận kinh tế trong **dài hạn** | **Không** | **Có** |
-| Khả năng phân biệt giá | Không | **Có** |
+|                                        | **Cạnh tranh**       | **Độc quyền**        |
+| -------------------------------------- | -------------------- | -------------------- |
+| **GIỐNG NHAU**                         |                      |                      |
+| Mục tiêu của doanh nghiệp              | tối đa hoá lợi nhuận | tối đa hoá lợi nhuận |
+| Nguyên tắc để tối đa hoá lợi nhuận     | $MR = MC$            | $MR = MC$            |
+| Lợi nhuận kinh tế trong **ngắn hạn**?  | Có                   | Có                   |
+| **KHÁC BIỆT**                          |                      |                      |
+| Số lượng doanh nghiệp                  | rất nhiều            | **một**              |
+| Doanh thu biên                         | $MR = P$             | $MR < P$             |
+| Giá                                    | $P = MC$             | $P > MC$             |
+| Sản xuất ở mức tối đa hoá phúc lợi?    | **Có**               | **Không**            |
+| Khả năng xuất nhập ngành trong dài hạn | Có                   | **Không**            |
+| Lợi nhuận kinh tế trong **dài hạn**    | **Không**            | **Có**               |
+| Khả năng phân biệt giá                 | Không                | **Có**               |
 
 ⭐ **Ba dòng đáng nhớ nhất:** $MR$ so với $P$ (nguồn gốc), $P$ so với $MC$ (hệ quả về hiệu quả), và
 lợi nhuận dài hạn (hệ quả về rào cản gia nhập).
@@ -1022,10 +1022,10 @@ print("      nghi gi khi phat hien nguoi ben canh tra it hon cho cung mot thu.")
 
 **① Bảng 1 (mục 1).** `khop cot TR ban in: 9/9 dong`. Phần tách hiệu ứng là chỗ đáng nhìn:
 
-| Bước | Hiệu ứng sản lượng | Hiệu ứng giá | $MR$ |
-| --- | ---: | ---: | ---: |
+| Bước         |          Hiệu ứng sản lượng |                   Hiệu ứng giá | $MR$ |
+| ------------ | --------------------------: | -----------------------------: | ---: |
 | $Q: 3 \to 4$ | $+7$ (bán thêm 1 ở giá \$7) | $-3$ (hạ \$1 trên 3 đơn vị cũ) | $+4$ |
-| $Q: 5 \to 6$ | $+5$ | $-5$ | $0$ |
+| $Q: 5 \to 6$ |                        $+5$ |                           $-5$ |  $0$ |
 
 Ở $Q = 6$ hai hiệu ứng **triệt tiêu nhau đúng khít** — đó là đỉnh doanh thu. Sau đó $MR$ âm.
 
@@ -1037,11 +1037,11 @@ phải \$2. Lợi nhuận \$14, kiểm hai cách: $(P - ATC) \times Q = (6 - 3{,
 
 **④ Phúc lợi (mục 4).**
 
-| | Thặng dư tiêu dùng | Thặng dư sản xuất | Tổng |
-| --- | ---: | ---: | ---: |
-| Độc quyền ($Q=5$, $P=\$6$) | \$12,50 | \$20,00 | \$32,50 |
-| Hiệu quả ($Q=9$, $P=\$2$) | \$40,50 | \$0,00 | \$40,50 |
-| **Tổn thất vô ích** | | | **\$8,00** |
+|                            | Thặng dư tiêu dùng | Thặng dư sản xuất |       Tổng |
+| -------------------------- | -----------------: | ----------------: | ---------: |
+| Độc quyền ($Q=5$, $P=\$6$) |            \$12,50 |           \$20,00 |    \$32,50 |
+| Hiệu quả ($Q=9$, $P=\$2$)  |            \$40,50 |            \$0,00 |    \$40,50 |
+| **Tổn thất vô ích**        |                    |                   | **\$8,00** |
 
 Và $\frac{1}{2} \times (9-5) \times (6-2) = 8$ — hai cách tính độc lập, cùng một số.
 
@@ -1055,12 +1055,12 @@ nhưng thặng dư tiêu dùng cũng **12,50 → 0**. Chiếc bánh to nhất c�
 
 **⑧ Rò rỉ (mục 8).** Bảng cuối là phần tôi thấy hữu ích nhất cho công việc:
 
-| Tỷ lệ rò rỉ | Doanh thu | Giữ được bao nhiêu phần tăng thêm |
-| ---: | ---: | ---: |
-| 0% | \$435.000 | 100% |
-| 25% | \$387.250 | 75% |
-| 50% | \$339.500 | 50% |
-| 100% | **\$244.000** | **0%** |
+| Tỷ lệ rò rỉ |     Doanh thu | Giữ được bao nhiêu phần tăng thêm |
+| ----------: | ------------: | --------------------------------: |
+|          0% |     \$435.000 |                              100% |
+|         25% |     \$387.250 |                               75% |
+|         50% |     \$339.500 |                               50% |
+|        100% | **\$244.000** |                            **0%** |
 
 Dòng cuối là một **phép tự kiểm**: rò rỉ hoàn toàn kéo doanh thu về **đúng** mức của chiến lược một giá
 tốt nhất. Nghĩa là **hàng rào chính là toàn bộ giá trị của phân biệt giá** — không có hàng rào thì không
@@ -1090,21 +1090,21 @@ Sửa tham số rồi chạy lại. Không có lời giải kèm theo.
 
 Cột tiếng Anh lấy từ mục **Khái niệm then chốt** của sách (tr. 362).
 
-| Tiếng Việt | Tiếng Anh | Ghi chú |
-| --- | --- | --- |
-| Doanh nghiệp độc quyền | Monopoly | tr. 335 — bán duy nhất, **không có thay thế gần gũi** |
-| Rào cản gia nhập | Barriers to entry | tr. 335 — nguyên nhân gốc của độc quyền |
-| Độc quyền tự nhiên | Natural monopoly | tr. 337 — do lợi thế kinh tế theo quy mô |
-| Bằng sáng chế | Patent | tr. 337 — độc quyền **20 năm** |
-| Doanh thu biên | Marginal revenue | tr. 341 — với độc quyền thì $MR < P$ |
-| Hiệu ứng sản lượng | Output effect | tr. 341 — bán thêm ⟹ TR tăng |
-| Hiệu ứng giá | Price effect | tr. 342 — phải hạ giá cho **mọi** đơn vị ⟹ TR giảm |
-| Tổn thất vô ích | Deadweight loss | tr. 349 — tam giác giữa cầu và MC |
-| Phân biệt giá | Price discrimination | tr. 351 |
-| Phân biệt giá hoàn hảo | Perfect price discrimination | tr. 353 — CS về 0, DWL về 0 |
-| Kinh doanh chênh lệch giá | Arbitrage | tr. 353 — thứ phá vỡ phân biệt giá |
-| Luật chống độc quyền | Antitrust laws | tr. 357 — Sherman 1890, Clayton 1914 |
-| Sức mạnh tổng hợp | Synergies | tr. 357 — lý do sáp nhập có thể **có lợi** |
+| Tiếng Việt                | Tiếng Anh                    | Ghi chú                                               |
+| ------------------------- | ---------------------------- | ----------------------------------------------------- |
+| Doanh nghiệp độc quyền    | Monopoly                     | tr. 335 — bán duy nhất, **không có thay thế gần gũi** |
+| Rào cản gia nhập          | Barriers to entry            | tr. 335 — nguyên nhân gốc của độc quyền               |
+| Độc quyền tự nhiên        | Natural monopoly             | tr. 337 — do lợi thế kinh tế theo quy mô              |
+| Bằng sáng chế             | Patent                       | tr. 337 — độc quyền **20 năm**                        |
+| Doanh thu biên            | Marginal revenue             | tr. 341 — với độc quyền thì $MR < P$                  |
+| Hiệu ứng sản lượng        | Output effect                | tr. 341 — bán thêm ⟹ TR tăng                          |
+| Hiệu ứng giá              | Price effect                 | tr. 342 — phải hạ giá cho **mọi** đơn vị ⟹ TR giảm    |
+| Tổn thất vô ích           | Deadweight loss              | tr. 349 — tam giác giữa cầu và MC                     |
+| Phân biệt giá             | Price discrimination         | tr. 351                                               |
+| Phân biệt giá hoàn hảo    | Perfect price discrimination | tr. 353 — CS về 0, DWL về 0                           |
+| Kinh doanh chênh lệch giá | Arbitrage                    | tr. 353 — thứ phá vỡ phân biệt giá                    |
+| Luật chống độc quyền      | Antitrust laws               | tr. 357 — Sherman 1890, Clayton 1914                  |
+| Sức mạnh tổng hợp         | Synergies                    | tr. 357 — lý do sáp nhập có thể **có lợi**            |
 
 ### Ba dòng phải thuộc
 
@@ -1145,70 +1145,70 @@ $$\text{Chi phí xã hội} = \text{TAM GIÁC tổn thất vô ích}, \text{ KH�
 ╠══════════════════════════════════════════════════════════════════════════╣
 ║  ĐỘC QUYỀN = người bán DUY NHẤT + KHÔNG có thay thế gần gũi              ║
 ║      nguyên nhân gốc: RÀO CẢN GIA NHẬP                                   ║
-║      ① nguồn lực (DeBeers ~80% kim cương) — hiếm gặp thực tế             ║
-║      ② chính phủ (bằng sáng chế 20 năm, bản quyền)                       ║
-║      ③ ĐỘC QUYỀN TỰ NHIÊN — ATC giảm dần trên cả thị trường              ║
+║      ① nguồn lực (DeBeers ~80% kim cương) — hiếm gặp thực tế            ║
+║      ② chính phủ (bằng sáng chế 20 năm, bản quyền)                      ║
+║      ③ ĐỘC QUYỀN TỰ NHIÊN — ATC giảm dần trên cả thị trường             ║
 ║        (chi phí cố định LỚN, chi phí biên NHỎ: nước, điện, đường ống)    ║
 ║                                                                          ║
-║  ⭐⭐ KHÁC BIỆT GỐC RỄ: HÌNH DẠNG ĐƯỜNG CẦU                                ║
+║  ⭐⭐ KHÁC BIỆT GỐC RỄ: HÌNH DẠNG ĐƯỜNG CẦU                               ║
 ║      cạnh tranh: cầu NẰM NGANG → bán thêm không phải hạ giá → MR = P     ║
 ║      độc quyền : cầu DỐC XUỐNG → bán thêm PHẢI hạ giá      → MR < P      ║
 ║                                                                          ║
 ║  HAI HIỆU ỨNG khi bán thêm một đơn vị:                                   ║
-║      ① SẢN LƯỢNG  +P     (bán thêm 1 đơn vị)                             ║
-║      ② GIÁ        −(Q−1) (hạ giá trên MỌI đơn vị cũ)                     ║
-║      ⚠ MR có thể ÂM khi hiệu ứng ② thắng ①                               ║
-║        MR > 0 ⟺ cầu CO GIÃN | MR < 0 ⟺ cầu KHÔNG co giãn (bài 3)         ║
+║      ① SẢN LƯỢNG  +P     (bán thêm 1 đơn vị)                            ║
+║      ② GIÁ        −(Q−1) (hạ giá trên MỌI đơn vị cũ)                    ║
+║      ⚠ MR có thể ÂM khi hiệu ứng ② thắng ①                             ║
+║        MR > 0 ⟺ cầu CO GIÃN | MR < 0 ⟺ cầu KHÔNG co giãn (bài 3)       ║
 ║                                                                          ║
 ║  📚 NHÀ ĐỘC QUYỀN KHÔNG CÓ ĐƯỜNG CUNG — họ tự chọn CẢ giá lẫn lượng      ║
 ║                                                                          ║
 ║  ── TỐI ĐA HOÁ LỢI NHUẬN: HAI BƯỚC, ĐÚNG THỨ TỰ ───────────────────      ║
-║      ① MR cắt MC        → SẢN LƯỢNG Q_max   (điểm A)                     ║
-║      ② lên đường CẦU    → GIÁ P             (điểm B)                     ║
+║      ① MR cắt MC        → SẢN LƯỢNG Q_max   (điểm A)                    ║
+║      ② lên đường CẦU    → GIÁ P             (điểm B)                    ║
 ║      ⚠ ĐỪNG đọc giá ở điểm A                                             ║
-║      ⭐ cạnh tranh: P = MR = MC   |   độc quyền: P > MR = MC              ║
+║      ⭐ cạnh tranh: P = MR = MC   |   độc quyền: P > MR = MC             ║
 ║      lợi nhuận = (P − ATC) × Q, và rào cản giữ nó DƯƠNG mãi mãi          ║
 ║                                                                          ║
 ║  ── CHI PHÍ PHÚC LỢI ───────────────────────────────────────────────     ║
 ║      sản lượng HIỆU QUẢ tại  cầu = MC  (tức P = MC)                      ║
 ║      độc quyền sản xuất ÍT HƠN mức đó, bán ĐẮT HƠN                       ║
-║      ⟹ TAM GIÁC TỔN THẤT VÔ ÍCH giữa đường cầu và đường MC               ║
+║      ⟹ TAM GIÁC TỔN THẤT VÔ ÍCH giữa đường cầu và đường MC              ║
 ║      "độc quyền giống NHÀ THU THUẾ TƯ NHÂN"                              ║
 ║  ⚠⚠ LỢI NHUẬN ĐỘC QUYỀN KHÔNG PHẢI CHI PHÍ XÃ HỘI                        ║
-║      hình chữ nhật = CHUYỂN GIAO (người mua → chủ) ⟹ vấn đề BÌNH ĐẲNG    ║
-║      tam giác      = BIẾN MẤT, không ai nhận      ⟹ vấn đề HIỆU QUẢ      ║
+║      hình chữ nhật = CHUYỂN GIAO (người mua → chủ) ⟹ vấn đề BÌNH ĐẲNG   ║
+║      tam giác      = BIẾN MẤT, không ai nhận      ⟹ vấn đề HIỆU QUẢ     ║
 ║      (nhưng chi phí VẬN ĐỘNG để giành độc quyền thì LÀ tổn thất thật)    ║
 ║                                                                          ║
 ║  ── PHÂN BIỆT GIÁ ──────────────────────────────────────────────────     ║
 ║      READALOT: 100k người trả $30, 400k người trả $5, nhuận bút $2tr     ║
 ║        một giá $30 → lãi $1tr | một giá $5 → $500k | PBG → $3tr          ║
 ║      BA BÀI HỌC                                                          ║
-║      ① làm TĂNG LỢI NHUẬN cho nhà độc quyền                              ║
-║      ② đòi hỏi PHÂN LOẠI được khách theo mức sẵn lòng trả                ║
-║      ③ có thể LÀM TĂNG PHÚC LỢI — xoá tổn thất vô ích                    ║
+║      ① làm TĂNG LỢI NHUẬN cho nhà độc quyền                             ║
+║      ② đòi hỏi PHÂN LOẠI được khách theo mức sẵn lòng trả               ║
+║      ③ có thể LÀM TĂNG PHÚC LỢI — xoá tổn thất vô ích                   ║
 ║      ⚠ nhưng phần tăng là THẶNG DƯ NHÀ SẢN XUẤT; khách trả ĐÚNG BẰNG     ║
-║        giá trị họ gắn cho hàng ⟹ thặng dư tiêu dùng = 0                  ║
+║        giá trị họ gắn cho hàng ⟹ thặng dư tiêu dùng = 0                 ║
 ║      ⚠ ARBITRAGE (mua rẻ bán lại) PHÁ VỠ phân biệt giá                   ║
 ║      PBG HOÀN HẢO: DWL → 0, lợi nhuận → tối đa, CS → 0                   ║
-║        ⟹ hiệu quả TĂNG, công bằng thì KHÔNG                              ║
+║        ⟹ hiệu quả TĂNG, công bằng thì KHÔNG                             ║
 ║      HÀNG RÀO thực tế: tuổi (vé phim) · ở qua đêm thứ 7 (vé bay) ·       ║
 ║        phiếu giảm giá (ai chịu bỏ thời gian) · học bổng · bìa cứng/mềm   ║
 ║                                                                          ║
 ║  ── CHÍNH SÁCH CÔNG: BỐN CÁCH, KHÔNG CÁCH NÀO HOÀN HẢO ────────────      ║
-║      ① LUẬT CHỐNG ĐỘC QUYỀN  Sherman 1890, Clayton 1914                  ║
+║      ① LUẬT CHỐNG ĐỘC QUYỀN  Sherman 1890, Clayton 1914                 ║
 ║         (AT&T bị tách thành 8 công ty, 1984)                             ║
 ║         ⚠ sáp nhập đôi khi tạo SỨC MẠNH TỔNG HỢP, không phải hại         ║
-║      ② ĐIỀU TIẾT GIÁ  ⚠ P = MC làm độc quyền tự nhiên LỖ                 ║
+║      ② ĐIỀU TIẾT GIÁ  ⚠ P = MC làm độc quyền tự nhiên LỖ                ║
 ║         ⚠ và triệt tiêu động cơ CẮT GIẢM CHI PHÍ                         ║
-║      ③ SỞ HỮU NHÀ NƯỚC  ⚠ "phiếu bầu kém tin cậy hơn động cơ lợi nhuận"  ║
-║      ④ KHÔNG LÀM GÌ CẢ (Stigler: thất bại CHÍNH TRỊ có thể lớn hơn       ║
+║      ③ SỞ HỮU NHÀ NƯỚC  ⚠ "phiếu bầu kém tin cậy hơn động cơ lợi nhuận" ║
+║      ④ KHÔNG LÀM GÌ CẢ (Stigler: thất bại CHÍNH TRỊ có thể lớn hơn      ║
 ║         thất bại THỊ TRƯỜNG)                                             ║
 ║                                                                          ║
 ║  💼 QTKD  bằng sáng chế hết hạn ⟹ thứ giữ biên lợi nhuận là THƯƠNG HIỆU  ║
 ║          phân biệt giá cần ĐỦ BA: quyền lực thị trường + phân loại       ║
 ║          được khách + NGĂN được bán lại                                  ║
-║          ⭐ rò rỉ 100% kéo doanh thu về ĐÚNG mức một giá                  ║
-║             ⟹ HÀNG RÀO chính là toàn bộ giá trị của phân biệt giá        ║
+║          ⭐ rò rỉ 100% kéo doanh thu về ĐÚNG mức một giá                 ║
+║             ⟹ HÀNG RÀO chính là toàn bộ giá trị của phân biệt giá       ║
 ╚══════════════════════════════════════════════════════════════════════════╝
 ```
 
@@ -1250,22 +1250,22 @@ $$\text{Chi phí xã hội} = \text{TAM GIÁC tổn thất vô ích}, \text{ KH�
 
 **Bản đồ khoá học**
 
-| # | Bài | Chương sách | Ưu tiên |
-| ---: | --- | --- | :---: |
-| 1 | [Mười nguyên lý và tư duy kinh tế](bai_01_muoi_nguyen_ly_va_tu_duy_kinh_te.md) | ch. 1–2 | 🎯 |
-| 2 | [Cung và cầu](bai_02_cung_va_cau.md) | ch. 4 | 🎯 |
-| 3 | [Độ co giãn và định giá](bai_03_do_co_gian_va_dinh_gia.md) | ch. 5 | 🎯⭐ |
-| 4 | [Thặng dư và chi phí của thuế](bai_04_thang_du_va_chi_phi_cua_thue.md) | ch. 7–8 | 🔸 |
-| 5 | [Chi phí sản xuất](bai_05_chi_phi_san_xuat.md) | ch. 13 | 🎯 |
-| 6 | [Doanh nghiệp trên thị trường cạnh tranh](bai_06_thi_truong_canh_tranh.md) | ch. 14 | 🎯 |
-| **7** | **Độc quyền và phân biệt giá** ← *bạn đang ở đây* | ch. 15 | 🎯 |
-| 8 | [Cạnh tranh độc quyền và thương hiệu](bai_08_canh_tranh_doc_quyen.md) | ch. 16 | 🎯 |
-| 9 | [Độc quyền nhóm và lý thuyết trò chơi](bai_09_doc_quyen_nhom_va_ly_thuyet_tro_choi.md) | ch. 17 | 🎯 |
-| 10 | Lựa chọn của người tiêu dùng *(chưa viết)* | ch. 21 | 🎯 |
-| 11 | Thông tin bất cân xứng và hành vi *(chưa viết)* | ch. 22 | 🎯 |
-| 12 | Lao động, tiền lương, bất bình đẳng *(chưa viết)* | ch. 18–20 | 🔸 |
-| 13 | Chính phủ can thiệp thị trường *(chưa viết)* | ch. 6, 12 | 🔸 |
-| 14 | Thương mại, ngoại tác, hàng hoá công *(chưa viết)* | ch. 3, 9–11 | 🔸 |
+|     # | Bài                                                                                    | Chương sách | Ưu tiên |
+| ----: | -------------------------------------------------------------------------------------- | ----------- | :-----: |
+|     1 | [Mười nguyên lý và tư duy kinh tế](bai_01_muoi_nguyen_ly_va_tu_duy_kinh_te.md)         | ch. 1–2     |    🎯    |
+|     2 | [Cung và cầu](bai_02_cung_va_cau.md)                                                   | ch. 4       |    🎯    |
+|     3 | [Độ co giãn và định giá](bai_03_do_co_gian_va_dinh_gia.md)                             | ch. 5       |   🎯⭐    |
+|     4 | [Thặng dư và chi phí của thuế](bai_04_thang_du_va_chi_phi_cua_thue.md)                 | ch. 7–8     |    🔸    |
+|     5 | [Chi phí sản xuất](bai_05_chi_phi_san_xuat.md)                                         | ch. 13      |    🎯    |
+|     6 | [Doanh nghiệp trên thị trường cạnh tranh](bai_06_thi_truong_canh_tranh.md)             | ch. 14      |    🎯    |
+| **7** | **Độc quyền và phân biệt giá** ← *bạn đang ở đây*                                      | ch. 15      |    🎯    |
+|     8 | [Cạnh tranh độc quyền và thương hiệu](bai_08_canh_tranh_doc_quyen.md)                  | ch. 16      |    🎯    |
+|     9 | [Độc quyền nhóm và lý thuyết trò chơi](bai_09_doc_quyen_nhom_va_ly_thuyet_tro_choi.md) | ch. 17      |    🎯    |
+|    10 | [Lựa chọn của người tiêu dùng](bai_10_lua_chon_cua_nguoi_tieu_dung.md)                 | ch. 21      |    🎯    |
+|    11 | [Thông tin bất cân xứng và hành vi](bai_11_thong_tin_bat_can_xung.md)                  | ch. 22      |    🎯    |
+|    12 | [Lao động, tiền lương, bất bình đẳng](bai_12_thi_truong_lao_dong.md)                   | ch. 18–20   |    🔸    |
+|    13 | Chính phủ can thiệp thị trường *(chưa viết)*                                           | ch. 6, 12   |    🔸    |
+|    14 | Thương mại, ngoại tác, hàng hoá công *(chưa viết)*                                     | ch. 3, 9–11 |    🔸    |
 
 🎯 vòng 1 — học kỹ · 🔸 vòng 2 — đọc hiểu · ⭐ chương quan trọng nhất với QTKD
 

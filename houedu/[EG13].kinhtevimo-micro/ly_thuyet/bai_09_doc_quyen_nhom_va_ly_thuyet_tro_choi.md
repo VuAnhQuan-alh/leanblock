@@ -2027,95 +2027,95 @@ Trả lời rồi mới quay lại đối chiếu. Số trong ngoặc là mục 
 ## Tóm tắt một trang
 
 ```
-╔══════════════════════════════════════════════════════════════════════════╗
-║  BÀI 9 — ĐỘC QUYỀN NHÓM VÀ LÝ THUYẾT TRÒ CHƠI     (Mankiw ch.17, 391-420)║
-╠══════════════════════════════════════════════════════════════════════════╣
-║                                                                          ║
-║  ĐỘC QUYỀN NHÓM = ít người bán, và HÀNH ĐỘNG CỦA MỖI NGƯỜI ẢNH HƯỞNG     ║
-║  LỢI NHUẬN CỦA NGƯỜI KHÁC. Đây là lý do cần một bộ công cụ mới.          ║
-║                                                                          ║
-║  ── BA KẾT CỤC, CÙNG MỘT BIỂU CẦU (P = 120 - Q, MC = 0) ────────────     ║
-║                                                                          ║
-║     Cạnh tranh hoàn hảo      120 gal    $0      lợi nhuận ngành  $0      ║
-║     Cartel / độc quyền        60 gal   $60                    $3.600     ║
-║     Nhị quyền (Nash)          80 gal   $40                    $3.200     ║
-║                                                                          ║
-║     Độc quyền nhóm luôn nằm GIỮA: sản lượng cao hơn độc quyền nhưng      ║
-║     thấp hơn cạnh tranh; giá thấp hơn độc quyền nhưng cao hơn MC.        ║
-║                                                                          ║
-║  ── HAI ĐỊNH NGHĨA KHÔNG ĐƯỢC LẪN ─────────────────────────────────      ║
-║                                                                          ║
-║     CHIẾN LƯỢC THỐNG SOÁI  thuộc tính của MỘT người chơi                 ║
-║                            "tốt nhất bất kể đối phương làm gì"           ║
-║     CÂN BẰNG NASH          thuộc tính của MỘT CẶP lựa chọn               ║
-║                            "không ai muốn đổi ý một mình"                ║
-║     Thống soái hai bên  =>  Nash.   Nash  =/=>  thống soái.              ║
-║                                                                          ║
-║  ── CÔNG THỨC COURNOT (sách không đưa, suy ra được) ───────────────      ║
-║                                                                          ║
-║     n doanh nghiệp,  P = a - Q,  MC = 0:                                 ║
-║        mỗi bên bơm  a/(n+1)      giá  a/(n+1)      tổng  n.a/(n+1)       ║
-║     n = 1 -> độc quyền.   n -> vô cùng -> cạnh tranh hoàn hảo.           ║
-║     Giá tụt RẤT NHANH ở đầu rồi phẳng dần: đối thủ ĐẦU TIÊN đắt nhất.    ║
-║                                                                          ║
-║  ── TIẾN THOÁI LƯỠNG NAN: BỐN HOÀN CẢNH, MỘT CẤU TRÚC ─────────────      ║
-║                                                                          ║
-║     Bonnie & Clyde     cùng thú tội 8 năm   <  cùng im lặng 1 năm        ║
-║     Jack & Jill        cùng 40 gal $1.600   <  cùng 30 gal $1.800        ║
-║     Exxon & Texaco     cùng 2 giếng $4tr    <  cùng 1 giếng $5tr         ║
-║     Mỹ & Mexico        cùng thuế cao $20tỷ  <  cùng thuế thấp $25tỷ      ║
-║                                                                          ║
-║     Cân bằng Nash KHÔNG PHẢI kết cục tốt nhất. Đó là định nghĩa.         ║
-║                                                                          ║
-║  ── THIẾU HỢP TÁC TỐT HAY XẤU? CÒN TÙY BẠN ĐỨNG Ở ĐÂU ─────────────      ║
-║                                                                          ║
-║     XẤU: chạy đua vũ trang, giếng dầu chung (lãng phí thuần)             ║
-║     TỐT: Bonnie & Clyde (cảnh sát thắng), độc quyền nhóm (khách thắng)   ║
-║                                                                          ║
-║     "Bàn tay vô hình chỉ giúp thị trường phân bổ nguồn lực hiệu quả      ║
-║      khi thị trường cạnh tranh, và thị trường chỉ mang tính cạnh tranh   ║
-║      khi các doanh nghiệp KHÔNG THỂ hợp tác với nhau."   (tr. 403)       ║
-║                                                                          ║
-║  ── TRÒ CHƠI LẶP: HỢP TÁC BỀN KHI NÀO ─────────────────────────────      ║
-║                                                                          ║
-║               món lợi từ bội ước                2000 - 1800        1     ║
-║     d  >=  ───────────────────────────────  =  ─────────────  =  ───     ║
-║            món lợi + thiệt hại mỗi kỳ sau       2000 - 1600        2     ║
-║                                                                          ║
-║     d gần 1 = quan hệ còn dài.  d gần 0 = "chỉ còn lần này".             ║
-║     => HỢP TÁC SỤP ĐỔ KHI TƯƠNG LAI NGẮN LẠI.                            ║
-║                                                                          ║
-║  ── MỘT LẦN LỠ TAY (tuần 5), TỔNG LỢI NHUẬN 10 TUẦN ───────────────      ║
-║                                                                          ║
-║     Ăn miếng trả miếng          35.400    mất   600                      ║
-║     Trừng phạt vĩnh viễn        34.200    mất 1.800  <- tệ gấp 3         ║
-║     Ăn miếng trả miếng độ lượng 35.900    mất   100  <- có CỬA QUAY LẠI  ║
-║                                                                          ║
-║  ── LUẬT CHỐNG ĐỘC QUYỀN ──────────────────────────────────────────      ║
-║                                                                          ║
-║     Sherman 1890   cấu kết = âm mưu phạm pháp, không chỉ hợp đồng vô hiệu║
-║     Clayton 1914   tư nhân được kiện, bồi thường GẤP BA                  ║
-║                                                                          ║
-║     RANH GIỚI: tự mình giữ giá cao = HỢP PHÁP.                           ║
-║                Gọi điện rủ đối thủ cùng giữ giá cao = PHẠM PHÁP.         ║
-║                (Crandall, American Airlines, 1983)                       ║
-║                                                                          ║
-║     Nhưng cẩn thận: cố định giá bán lẻ, bán kèm, giảm giá mạnh có thể    ║
-║     có MỤC ĐÍCH CHÍNH ĐÁNG. Bán kèm sinh lời khi khách XẾP HẠNG NGƯỢC    ║
-║     nhau ($30.000 -> $40.000); vô dụng khi ai cũng thích cùng một món.   ║
-║                                                                          ║
-║  ── 💼 GÓC QTKD ───────────────────────────────────────────────────      ║
-║                                                                          ║
-║     Cuộc chiến giảm giá TỰ SINH RA cấu trúc lưỡng nan từ số liệu thật:   ║
-║     cả hai cùng giảm -> mỗi bên mất 3.500, THỊ PHẦN KHÔNG ĐỔI.           ║
-║                                                                          ║
-║     Ba cách thoát:  (1) kéo dài tương lai — hợp đồng khung nhiều năm     ║
-║                     (2) bỏ qua một lần lỡ — đừng phạt vĩnh viễn          ║
-║                     (3) làm cầu bớt co giãn — khác biệt hoá  <- BỀN NHẤT ║
-║                                                                          ║
-║     (3) bền nhất vì nó KHÔNG CẦN ĐỐI THỦ ĐỒNG Ý ĐIỀU GÌ.                 ║
-║                                                                          ║
-╚══════════════════════════════════════════════════════════════════════════╝
+╔═══════════════════════════════════════════════════════════════════════════╗
+║  BÀI 9 — ĐỘC QUYỀN NHÓM VÀ LÝ THUYẾT TRÒ CHƠI     (Mankiw ch.17, 391-420) ║
+╠═══════════════════════════════════════════════════════════════════════════╣
+║                                                                           ║
+║  ĐỘC QUYỀN NHÓM = ít người bán, và HÀNH ĐỘNG CỦA MỖI NGƯỜI ẢNH HƯỞNG      ║
+║  LỢI NHUẬN CỦA NGƯỜI KHÁC. Đây là lý do cần một bộ công cụ mới.           ║
+║                                                                           ║
+║  ── BA KẾT CỤC, CÙNG MỘT BIỂU CẦU (P = 120 - Q, MC = 0) ────────────      ║
+║                                                                           ║
+║     Cạnh tranh hoàn hảo      120 gal    $0      lợi nhuận ngành  $0       ║
+║     Cartel / độc quyền        60 gal   $60                    $3.600      ║
+║     Nhị quyền (Nash)          80 gal   $40                    $3.200      ║
+║                                                                           ║
+║     Độc quyền nhóm luôn nằm GIỮA: sản lượng cao hơn độc quyền nhưng       ║
+║     thấp hơn cạnh tranh; giá thấp hơn độc quyền nhưng cao hơn MC.         ║
+║                                                                           ║
+║  ── HAI ĐỊNH NGHĨA KHÔNG ĐƯỢC LẪN ─────────────────────────────────       ║
+║                                                                           ║
+║     CHIẾN LƯỢC THỐNG SOÁI  thuộc tính của MỘT người chơi                  ║
+║                            "tốt nhất bất kể đối phương làm gì"            ║
+║     CÂN BẰNG NASH          thuộc tính của MỘT CẶP lựa chọn                ║
+║                            "không ai muốn đổi ý một mình"                 ║
+║     Thống soái hai bên  =>  Nash.   Nash  =/=>  thống soái.               ║
+║                                                                           ║
+║  ── CÔNG THỨC COURNOT (sách không đưa, suy ra được) ───────────────       ║
+║                                                                           ║
+║     n doanh nghiệp,  P = a - Q,  MC = 0:                                  ║
+║        mỗi bên bơm  a/(n+1)      giá  a/(n+1)      tổng  n.a/(n+1)        ║
+║     n = 1 -> độc quyền.   n -> vô cùng -> cạnh tranh hoàn hảo.            ║
+║     Giá tụt RẤT NHANH ở đầu rồi phẳng dần: đối thủ ĐẦU TIÊN đắt nhất.     ║
+║                                                                           ║
+║  ── TIẾN THOÁI LƯỠNG NAN: BỐN HOÀN CẢNH, MỘT CẤU TRÚC ─────────────       ║
+║                                                                           ║
+║     Bonnie & Clyde     cùng thú tội 8 năm   <  cùng im lặng 1 năm         ║
+║     Jack & Jill        cùng 40 gal $1.600   <  cùng 30 gal $1.800         ║
+║     Exxon & Texaco     cùng 2 giếng $4tr    <  cùng 1 giếng $5tr          ║
+║     Mỹ & Mexico        cùng thuế cao $20tỷ  <  cùng thuế thấp $25tỷ       ║
+║                                                                           ║
+║     Cân bằng Nash KHÔNG PHẢI kết cục tốt nhất. Đó là định nghĩa.          ║
+║                                                                           ║
+║  ── THIẾU HỢP TÁC TỐT HAY XẤU? CÒN TÙY BẠN ĐỨNG Ở ĐÂU ─────────────       ║
+║                                                                           ║
+║     XẤU: chạy đua vũ trang, giếng dầu chung (lãng phí thuần)              ║
+║     TỐT: Bonnie & Clyde (cảnh sát thắng), độc quyền nhóm (khách thắng)    ║
+║                                                                           ║
+║     "Bàn tay vô hình chỉ giúp thị trường phân bổ nguồn lực hiệu quả       ║
+║      khi thị trường cạnh tranh, và thị trường chỉ mang tính cạnh tranh    ║
+║      khi các doanh nghiệp KHÔNG THỂ hợp tác với nhau."   (tr. 403)        ║
+║                                                                           ║
+║  ── TRÒ CHƠI LẶP: HỢP TÁC BỀN KHI NÀO ─────────────────────────────       ║
+║                                                                           ║
+║               món lợi từ bội ước                2000 - 1800        1      ║
+║     d  >=  ───────────────────────────────  =  ─────────────  =  ───      ║
+║            món lợi + thiệt hại mỗi kỳ sau       2000 - 1600        2      ║
+║                                                                           ║
+║     d gần 1 = quan hệ còn dài.  d gần 0 = "chỉ còn lần này".              ║
+║     => HỢP TÁC SỤP ĐỔ KHI TƯƠNG LAI NGẮN LẠI.                             ║
+║                                                                           ║
+║  ── MỘT LẦN LỠ TAY (tuần 5), TỔNG LỢI NHUẬN 10 TUẦN ───────────────       ║
+║                                                                           ║
+║     Ăn miếng trả miếng          35.400    mất   600                       ║
+║     Trừng phạt vĩnh viễn        34.200    mất 1.800  <- tệ gấp 3          ║
+║     Ăn miếng trả miếng độ lượng 35.900    mất   100  <- có CỬA QUAY LẠI   ║
+║                                                                           ║
+║  ── LUẬT CHỐNG ĐỘC QUYỀN ──────────────────────────────────────────       ║
+║                                                                           ║
+║     Sherman 1890   cấu kết = âm mưu phạm pháp, không chỉ hợp đồng vô hiệu ║
+║     Clayton 1914   tư nhân được kiện, bồi thường GẤP BA                   ║
+║                                                                           ║
+║     RANH GIỚI: tự mình giữ giá cao = HỢP PHÁP.                            ║
+║                Gọi điện rủ đối thủ cùng giữ giá cao = PHẠM PHÁP.          ║
+║                (Crandall, American Airlines, 1983)                        ║
+║                                                                           ║
+║     Nhưng cẩn thận: cố định giá bán lẻ, bán kèm, giảm giá mạnh có thể     ║
+║     có MỤC ĐÍCH CHÍNH ĐÁNG. Bán kèm sinh lời khi khách XẾP HẠNG NGƯỢC     ║
+║     nhau ($30.000 -> $40.000); vô dụng khi ai cũng thích cùng một món.    ║
+║                                                                           ║
+║  ── 💼 GÓC QTKD ───────────────────────────────────────────────────        ║
+║                                                                           ║
+║     Cuộc chiến giảm giá TỰ SINH RA cấu trúc lưỡng nan từ số liệu thật:    ║
+║     cả hai cùng giảm -> mỗi bên mất 3.500, THỊ PHẦN KHÔNG ĐỔI.            ║
+║                                                                           ║
+║     Ba cách thoát:  (1) kéo dài tương lai — hợp đồng khung nhiều năm      ║
+║                     (2) bỏ qua một lần lỡ — đừng phạt vĩnh viễn           ║
+║                     (3) làm cầu bớt co giãn — khác biệt hoá  <- BỀN NHẤT  ║
+║                                                                           ║
+║     (3) bền nhất vì nó KHÔNG CẦN ĐỐI THỦ ĐỒNG Ý ĐIỀU GÌ.                  ║
+║                                                                           ║
+╚═══════════════════════════════════════════════════════════════════════════╝
 ```
 
 ---
@@ -2169,3 +2169,30 @@ Trả lời rồi mới quay lại đối chiếu. Số trong ngoặc là mục 
   - [Bài 8](bai_08_canh_tranh_doc_quyen.md) — khác biệt hoá, cách thoát bền nhất khỏi chiến tranh giá.
   - [Bài 3](bai_03_do_co_gian_va_dinh_gia.md) — độ co giãn, thứ quyết định cuộc chiến giá đau tới đâu.
   - **Bài 10** (chương 21) — bỏ phía doanh nghiệp, quay sang **người tiêu dùng** quyết định thế nào.
+
+<!-- BAN-DO -->
+
+**Bản đồ khoá học**
+
+| # | Bài | Chương sách | Ưu tiên |
+| ---: | --- | --- | :---: |
+| 1 | [Mười nguyên lý và tư duy kinh tế](bai_01_muoi_nguyen_ly_va_tu_duy_kinh_te.md) | ch. 1–2 | 🎯 |
+| 2 | [Cung và cầu](bai_02_cung_va_cau.md) | ch. 4 | 🎯 |
+| 3 | [Độ co giãn và định giá](bai_03_do_co_gian_va_dinh_gia.md) | ch. 5 | 🎯⭐ |
+| 4 | [Thặng dư và chi phí của thuế](bai_04_thang_du_va_chi_phi_cua_thue.md) | ch. 7–8 | 🔸 |
+| 5 | [Chi phí sản xuất](bai_05_chi_phi_san_xuat.md) | ch. 13 | 🎯 |
+| 6 | [Doanh nghiệp trên thị trường cạnh tranh](bai_06_thi_truong_canh_tranh.md) | ch. 14 | 🎯 |
+| 7 | [Độc quyền và phân biệt giá](bai_07_doc_quyen_va_phan_biet_gia.md) | ch. 15 | 🎯 |
+| 8 | [Cạnh tranh độc quyền và thương hiệu](bai_08_canh_tranh_doc_quyen.md) | ch. 16 | 🎯 |
+| **9** | **Độc quyền nhóm và lý thuyết trò chơi** ← *bạn đang ở đây* | ch. 17 | 🎯 |
+| 10 | [Lựa chọn của người tiêu dùng](bai_10_lua_chon_cua_nguoi_tieu_dung.md) | ch. 21 | 🎯 |
+| 11 | [Thông tin bất cân xứng và hành vi](bai_11_thong_tin_bat_can_xung.md) | ch. 22 | 🎯 |
+| 12 | [Lao động, tiền lương, bất bình đẳng](bai_12_thi_truong_lao_dong.md) | ch. 18–20 | 🔸 |
+| 13 | Chính phủ can thiệp thị trường *(chưa viết)* | ch. 6, 12 | 🔸 |
+| 14 | Thương mại, ngoại tác, hàng hoá công *(chưa viết)* | ch. 3, 9–11 | 🔸 |
+
+🎯 vòng 1 — học kỹ · 🔸 vòng 2 — đọc hiểu · ⭐ chương quan trọng nhất với QTKD
+
+Chỉ mục môn học: [README.md](../README.md)
+
+<!-- /BAN-DO -->

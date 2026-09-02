@@ -83,13 +83,13 @@ Hai định nghĩa mới (chú thích tr. 371):
 
 > **Tỷ lệ tập trung**: tỷ lệ tổng sản lượng được cung cấp bởi **bốn doanh nghiệp lớn nhất** trên thị trường.
 
-| Ngành (Hoa Kỳ) | Tỷ lệ tập trung 4 doanh nghiệp |
-| --- | ---: |
-| Thuốc lá | **95%** |
-| Thiết bị giặt gia dụng | 93% |
-| Bóng đèn điện | 89% |
-| Sản xuất máy bay | 81% |
-| Ngũ cốc | 78% |
+| Ngành (Hoa Kỳ)         | Tỷ lệ tập trung 4 doanh nghiệp |
+| ---------------------- | -----------------------------: |
+| Thuốc lá               |                        **95%** |
+| Thiết bị giặt gia dụng |                            93% |
+| Bóng đèn điện          |                            89% |
+| Sản xuất máy bay       |                            81% |
+| Ngũ cốc                |                            78% |
 
 ⚠️ Nhưng sách nói rõ (tr. 371): *"hầu hết các ngành đều có tỷ lệ tập trung bốn doanh nghiệp **dưới 50
 phần trăm**"*. Năm ngành trên là **ngoại lệ**, không phải điển hình.
@@ -106,11 +106,11 @@ lần nữa, là không rõ ràng."*
 
 **Tr. 372:**
 
-| Đặc điểm | Nội dung | Hệ quả |
-| --- | --- | --- |
-| ① **Nhiều người bán** | nhiều doanh nghiệp cạnh tranh cùng một nhóm khách hàng | mỗi doanh nghiệp **nhỏ bé** so với thị trường → không cần tính đến phản ứng của từng đối thủ |
-| ② **Sản phẩm khác biệt** | mỗi doanh nghiệp làm ra sản phẩm **ít nhất cũng khác đôi chút** | ⭐ **đường cầu DỐC XUỐNG** — không phải người chấp nhận giá |
-| ③ **Tự do gia nhập và rời bỏ** | không bị hạn chế gì | số doanh nghiệp thay đổi tới khi **lợi nhuận kinh tế = 0** |
+| Đặc điểm                       | Nội dung                                                        | Hệ quả                                                                                       |
+| ------------------------------ | --------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
+| ① **Nhiều người bán**          | nhiều doanh nghiệp cạnh tranh cùng một nhóm khách hàng          | mỗi doanh nghiệp **nhỏ bé** so với thị trường → không cần tính đến phản ứng của từng đối thủ |
+| ② **Sản phẩm khác biệt**       | mỗi doanh nghiệp làm ra sản phẩm **ít nhất cũng khác đôi chút** | ⭐ **đường cầu DỐC XUỐNG** — không phải người chấp nhận giá                                   |
+| ③ **Tự do gia nhập và rời bỏ** | không bị hạn chế gì                                             | số doanh nghiệp thay đổi tới khi **lợi nhuận kinh tế = 0**                                   |
 
 Danh sách thị trường mà sách đưa ra: *"thị trường sách, DVD, trò chơi điện tử, nhà hàng, lớp học piano,
 bánh, quần áo…"*
@@ -141,9 +141,9 @@ Vì đường cầu dốc xuống, doanh nghiệp cạnh tranh độc quyền d�
 
 **Hình 2, tr. 374** cho hai kết cục ngắn hạn:
 
-| | Quan hệ | Kết quả |
-| --- | --- | --- |
-| Hình 2(a) | $P > ATC$ | **có lợi nhuận** |
+|           | Quan hệ   | Kết quả                                                      |
+| --------- | --------- | ------------------------------------------------------------ |
+| Hình 2(a) | $P > ATC$ | **có lợi nhuận**                                             |
 | Hình 2(b) | $P < ATC$ | **thua lỗ** — điều tốt nhất làm được là **tối thiểu hoá lỗ** |
 
 > *"Doanh nghiệp cạnh tranh độc quyền chọn mức sản lượng và mức giá giống như một doanh nghiệp độc
@@ -214,11 +214,11 @@ $-3$), và $MR = MC$ cũng xảy ra đúng tại đó.
 Vì điểm tiếp tuyến nằm trên **đoạn dốc xuống** của đường ATC, sản lượng cân bằng **nhỏ hơn quy mô hiệu
 quả**:
 
-| | Cạnh tranh độc quyền | Cạnh tranh hoàn hảo |
-| --- | --- | --- |
-| Sản xuất tại | **đoạn dốc xuống** của ATC | **đáy** của ATC |
-| So với quy mô hiệu quả | **thấp hơn** | **đúng bằng** |
-| Gọi là | **dư thừa năng lực sản xuất** | — |
+|                        | Cạnh tranh độc quyền          | Cạnh tranh hoàn hảo |
+| ---------------------- | ----------------------------- | ------------------- |
+| Sản xuất tại           | **đoạn dốc xuống** của ATC    | **đáy** của ATC     |
+| So với quy mô hiệu quả | **thấp hơn**                  | **đúng bằng**       |
+| Gọi là                 | **dư thừa năng lực sản xuất** | —                   |
 
 > *"khác với doanh nghiệp cạnh tranh hoàn hảo, doanh nghiệp cạnh tranh độc quyền **có khả năng tăng mức
 > sản lượng và giảm mức tổng chi phí bình quân**. Các doanh nghiệp bỏ qua cơ hội này vì họ **cần phải
@@ -268,11 +268,11 @@ $$\boxed{\frac{P - MC}{P} = \frac{1}{|e|}}$$
 
 Đọc công thức này:
 
-| Loại thị trường | $\lvert e \rvert$ | Chênh lệch $(P-MC)/P$ |
-| --- | ---: | ---: |
-| Cạnh tranh hoàn hảo | $\infty$ | **0** — nên $P = MC$ |
-| Cạnh tranh độc quyền, khác biệt yếu | lớn | nhỏ |
-| Cạnh tranh độc quyền, khác biệt mạnh | nhỏ | **lớn** |
+| Loại thị trường                      | $\lvert e \rvert$ | Chênh lệch $(P-MC)/P$ |
+| ------------------------------------ | ----------------: | --------------------: |
+| Cạnh tranh hoàn hảo                  |          $\infty$ |  **0** — nên $P = MC$ |
+| Cạnh tranh độc quyền, khác biệt yếu  |               lớn |                   nhỏ |
+| Cạnh tranh độc quyền, khác biệt mạnh |               nhỏ |               **lớn** |
 
 ⭐ **Đây chính là con số mà toàn bộ công việc khác biệt hoá nhắm vào.** Bạn không tăng biên lợi nhuận
 bằng cách "tăng giá"; bạn tăng nó bằng cách **làm cầu bớt co giãn**, và giá cao hơn là **hệ quả**.
@@ -304,10 +304,10 @@ hơn giá bán) sẽ **không mua** hàng hoá đó"* → **tổn thất vô íc
 Đây là phần tinh tế và ít gặp ở nơi khác. Khi một doanh nghiệp mới cân nhắc gia nhập, họ **chỉ quan tâm
 tới lợi nhuận của mình** — nhưng sự gia nhập tạo ra **hai ngoại tác** (tr. 378):
 
-| Ngoại tác | Dấu | Nội dung |
-| --- | :---: | --- |
+| Ngoại tác                      |      Dấu       | Nội dung                                                                  |
+| ------------------------------ | :------------: | ------------------------------------------------------------------------- |
 | **Do sự đa dạng của sản phẩm** | **➕ tích cực** | người tiêu dùng nhận được **thặng dư** từ việc xuất hiện một sản phẩm mới |
-| **Do đánh cắp thị phần** | **➖ tiêu cực** | các doanh nghiệp khác **mất khách và giảm lợi nhuận** |
+| **Do đánh cắp thị phần**       | **➖ tiêu cực** | các doanh nghiệp khác **mất khách và giảm lợi nhuận**                     |
 
 > *"Việc thị trường cạnh tranh độc quyền có quá ít hay quá nhiều sản phẩm sẽ **phụ thuộc vào việc loại
 > ngoại tác nào lớn hơn**."*
@@ -334,21 +334,21 @@ hàng."*
 
 ### Con số
 
-| Loại sản phẩm | Chi quảng cáo / doanh thu |
-| --- | ---: |
-| Hàng tiêu dùng khác biệt lớn — dược phẩm không kê đơn, nước hoa, nước giải khát, lưỡi dao cạo, ngũ cốc, thực phẩm cho chó | **10–20%** |
-| Sản phẩm công nghiệp — máy khoan, thiết bị viễn thông | rất ít |
-| Sản phẩm đồng nhất — bột mì, đậu phộng, dầu thô | **không chi** |
-| **Toàn bộ nền kinh tế** | **khoảng 2%** tổng doanh thu |
+| Loại sản phẩm                                                                                                             |    Chi quảng cáo / doanh thu |
+| ------------------------------------------------------------------------------------------------------------------------- | ---------------------------: |
+| Hàng tiêu dùng khác biệt lớn — dược phẩm không kê đơn, nước hoa, nước giải khát, lưỡi dao cạo, ngũ cốc, thực phẩm cho chó |                   **10–20%** |
+| Sản phẩm công nghiệp — máy khoan, thiết bị viễn thông                                                                     |                       rất ít |
+| Sản phẩm đồng nhất — bột mì, đậu phộng, dầu thô                                                                           |                **không chi** |
+| **Toàn bộ nền kinh tế**                                                                                                   | **khoảng 2%** tổng doanh thu |
 
 ⭐ Bảng này **tự nó là một bằng chứng cho lý thuyết**: chi quảng cáo tăng theo mức độ khác biệt hoá sản
 phẩm. Sản phẩm đồng nhất → không ai quảng cáo.
 
 ### Hai phía của cuộc tranh luận (tr. 379–381)
 
-| | **Phê phán** | **Bảo vệ** |
-| --- | --- | --- |
-| Quảng cáo làm gì | *"tác động tới thị hiếu"*, tạo ham muốn **không có sẵn** | cung cấp **thông tin** — sản phẩm nào tồn tại, cửa hàng nào, giá bao nhiêu |
+|                         | **Phê phán**                                                                     | **Bảo vệ**                                                                    |
+| ----------------------- | -------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
+| Quảng cáo làm gì        | *"tác động tới thị hiếu"*, tạo ham muốn **không có sẵn**                         | cung cấp **thông tin** — sản phẩm nào tồn tại, cửa hàng nào, giá bao nhiêu    |
 | Tác động lên cạnh tranh | làm thị trường **kém cạnh tranh hơn** — cầu **ít co giãn hơn** → giá **cao hơn** | giúp khách **tìm được giá tốt nhất** → cầu **co giãn hơn** → giá **thấp hơn** |
 
 ⚠️ Chú ý: hai phía dự đoán **hai hướng ngược nhau** cho cùng một đại lượng — **độ co giãn của cầu**. Đó
@@ -373,11 +373,11 @@ này đối với quảng cáo."* — Ai được lợi từ việc cấm quản
 
 **Kết quả:**
 
-| | Giá bình quân một cặp mắt kính |
-| --- | ---: |
-| Bang **CẤM** quảng cáo | **$33** |
-| Bang **KHÔNG cấm** quảng cáo | **$26** |
-| **Chênh lệch** | quảng cáo làm giá giảm **khoảng 20%** |
+|                              |        Giá bình quân một cặp mắt kính |
+| ---------------------------- | ------------------------------------: |
+| Bang **CẤM** quảng cáo       |                               **$33** |
+| Bang **KHÔNG cấm** quảng cáo |                               **$26** |
+| **Chênh lệch**               | quảng cáo làm giá giảm **khoảng 20%** |
 
 > *"Trong thị trường mắt kính, và có lẽ là trong nhiều thị trường khác nữa, **quảng cáo thúc đẩy cạnh
 > tranh và làm cho giá trở nên rẻ hơn cho người tiêu dùng**."*
@@ -396,13 +396,13 @@ các bang — thay vì so sánh dữ liệu quan sát thuần tuý. Đúng cách
 Hộp *"Bạn có biết"* (tr. 382) đặt hai nhà kinh tế lớn thế kỷ 20 đối diện nhau — và cuộc tranh luận này
 vượt xa chuyện quảng cáo.
 
-| | **John Kenneth Galbraith** | **Friedrich Hayek** |
-| --- | --- | --- |
-| Tác phẩm | ***Xã hội khá giả*** (*The Affluent Society*), **1958** | ***Con đường dẫn tới chế độ nông nô*** (*The Road to Serfdom*), **1944** |
-| Về quảng cáo | các tập đoàn dùng quảng cáo **tạo ra nhu cầu** cho những sản phẩm *"mọi người thực ra không cần hoặc không muốn"* | quảng cáo chỉ là **một ví dụ của hiện tượng lớn hơn**: môi trường xã hội tạo ra **mọi** sở thích của chúng ta |
-| Lập luận | không nên đề cao việc thoả mãn mong muốn **vì bản thân hệ thống tạo ra chúng**; kết quả là *"tư sang trọng, công bần thỉu"* | *"Nhu cầu nghe hoà nhạc Mozart của một người có thể được hình thành trong một lớp âm nhạc, nhưng điều này **không làm cho mong muốn này trở nên kém chính đáng hơn**"* |
-| Gợi ý chính sách | **tăng quy mô chính phủ** | chính phủ bành trướng **đánh đổi tự do cá nhân** |
-| Vinh danh | Huân chương Tự do Quốc gia (Clinton trao, **2000**) | **Nobel Kinh tế 1974** |
+|                  | **John Kenneth Galbraith**                                                                                                  | **Friedrich Hayek**                                                                                                                                                    |
+| ---------------- | --------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Tác phẩm         | ***Xã hội khá giả*** (*The Affluent Society*), **1958**                                                                     | ***Con đường dẫn tới chế độ nông nô*** (*The Road to Serfdom*), **1944**                                                                                               |
+| Về quảng cáo     | các tập đoàn dùng quảng cáo **tạo ra nhu cầu** cho những sản phẩm *"mọi người thực ra không cần hoặc không muốn"*           | quảng cáo chỉ là **một ví dụ của hiện tượng lớn hơn**: môi trường xã hội tạo ra **mọi** sở thích của chúng ta                                                          |
+| Lập luận         | không nên đề cao việc thoả mãn mong muốn **vì bản thân hệ thống tạo ra chúng**; kết quả là *"tư sang trọng, công bần thỉu"* | *"Nhu cầu nghe hoà nhạc Mozart của một người có thể được hình thành trong một lớp âm nhạc, nhưng điều này **không làm cho mong muốn này trở nên kém chính đáng hơn**"* |
+| Gợi ý chính sách | **tăng quy mô chính phủ**                                                                                                   | chính phủ bành trướng **đánh đổi tự do cá nhân**                                                                                                                       |
+| Vinh danh        | Huân chương Tự do Quốc gia (Clinton trao, **2000**)                                                                         | **Nobel Kinh tế 1974**                                                                                                                                                 |
 
 Câu kết luận của Hayek mà sách trích:
 
@@ -420,17 +420,17 @@ kém mà chẳng chứa thông tin gì**.
 
 **Ví dụ của sách (tr. 382–383)** — hai công ty ngũ cốc, mỗi công ty vừa có công thức mới:
 
-| | |
-| --- | --- |
-| Giá bán | **$3** một hộp |
-| Chi phí biên | giả định **bằng 0** → cả \$3 là lợi nhuận |
-| Chi quảng cáo | **$10 triệu** |
-| Kết quả quảng cáo | **1 triệu khách** thử sản phẩm |
+|                   |                                           |
+| ----------------- | ----------------------------------------- |
+| Giá bán           | **$3** một hộp                            |
+| Chi phí biên      | giả định **bằng 0** → cả \$3 là lợi nhuận |
+| Chi quảng cáo     | **$10 triệu**                             |
+| Kết quả quảng cáo | **1 triệu khách** thử sản phẩm            |
 
-| Công ty | Chất lượng | Khách mua lại? | Doanh thu | Quyết định |
-| --- | --- | --- | ---: | --- |
-| **Post** | loại thường | mua **1 lần** rồi thôi | $3 triệu | ❌ **không quảng cáo** — \$3tr < \$10tr |
-| **Kellogg** | thượng hạng | mua **mỗi tháng một hộp trong năm tới** (12 hộp) | **$36 triệu** | ✅ **quảng cáo** — \$36tr > \$10tr |
+| Công ty     | Chất lượng  | Khách mua lại?                                   |     Doanh thu | Quyết định                             |
+| ----------- | ----------- | ------------------------------------------------ | ------------: | -------------------------------------- |
+| **Post**    | loại thường | mua **1 lần** rồi thôi                           |      $3 triệu | ❌ **không quảng cáo** — \$3tr < \$10tr |
+| **Kellogg** | thượng hạng | mua **mỗi tháng một hộp trong năm tới** (12 hộp) | **$36 triệu** | ✅ **quảng cáo** — \$36tr > \$10tr      |
 
 Người tiêu dùng suy luận rất hợp lý:
 
@@ -471,10 +471,10 @@ chính phủ **hạn chế** thương hiệu bằng cách **từ chối đảm b
 
 ### Bảo vệ — hai lý do
 
-| Lý do | Nội dung |
-| --- | --- |
-| ① **Thông tin** | nhãn hiệu cung cấp thông tin về chất lượng **khi chất lượng không thể đánh giá dễ dàng trước khi mua** |
-| ② **Động cơ** | thương hiệu tạo cho doanh nghiệp **động cơ để duy trì chất lượng**, vì danh tiếng mang lại lợi ích tài chính |
+| Lý do           | Nội dung                                                                                                     |
+| --------------- | ------------------------------------------------------------------------------------------------------------ |
+| ① **Thông tin** | nhãn hiệu cung cấp thông tin về chất lượng **khi chất lượng không thể đánh giá dễ dàng trước khi mua**       |
+| ② **Động cơ**   | thương hiệu tạo cho doanh nghiệp **động cơ để duy trì chất lượng**, vì danh tiếng mang lại lợi ích tài chính |
 
 **Ví dụ McDonald's (tr. 384)** — minh hoạ cả hai lý do:
 
@@ -506,13 +506,13 @@ sản phẩm thay thế tương tự hay không"* — và ghi rằng đây vẫn
 Dùng công thức ở mục 6, ta tính ngược được: **muốn biên lợi nhuận bao nhiêu thì cầu phải kém co giãn
 tới mức nào**.
 
-| $\lvert e \rvert$ | Chênh lệch $(P-MC)/P$ | Kiểu thị trường |
-| ---: | ---: | --- |
-| 40 | **2,5%** | hàng hoá thuần tuý — gạo, thép, xăng |
-| 10 | 10,0% | sản phẩm ít khác biệt — nước đóng chai |
-| 5 | 20,0% | thương hiệu yếu — chuỗi cửa hàng nhỏ |
-| 3 | **33,3%** | thương hiệu mạnh — chuỗi F&B có tiếng |
-| 2 | **50,0%** | có chi phí chuyển đổi — phần mềm doanh nghiệp |
+| $\lvert e \rvert$ | Chênh lệch $(P-MC)/P$ | Kiểu thị trường                               |
+| ----------------: | --------------------: | --------------------------------------------- |
+|                40 |              **2,5%** | hàng hoá thuần tuý — gạo, thép, xăng          |
+|                10 |                 10,0% | sản phẩm ít khác biệt — nước đóng chai        |
+|                 5 |                 20,0% | thương hiệu yếu — chuỗi cửa hàng nhỏ          |
+|                 3 |             **33,3%** | thương hiệu mạnh — chuỗi F&B có tiếng         |
+|                 2 |             **50,0%** | có chi phí chuyển đổi — phần mềm doanh nghiệp |
 
 ⭐ Đi từ $\lvert e \rvert = 40$ xuống $\lvert e \rvert = 3$ làm biên lợi nhuận nhảy từ **2,5% lên 33,3%**
 — **gấp hơn 13 lần**, mà chưa cần tăng giá thêm đồng nào ở bước đầu. Giá cao hơn là **hệ quả**, không
@@ -520,12 +520,12 @@ phải hành động.
 
 ### Bốn đòn bẩy — chính là bốn yếu tố ở [bài 3, mục 2](bai_03_do_co_gian_va_dinh_gia.md#2-bốn-yếu-tố-quyết-định-độ-co-giãn-của-cầu-theo-giá)
 
-| Yếu tố quyết định độ co giãn | Đòn bẩy quản trị |
-| --- | --- |
-| **Số hàng thay thế gần gũi** | tính năng độc quyền, thiết kế riêng, công thức riêng |
-| **Thiết yếu ↔ xa xỉ** | gắn sản phẩm vào **một quy trình công việc** của khách |
-| **Định nghĩa thị trường** | bán "giải pháp trọn gói" thay vì một món hàng rời |
-| **Thời gian** | hợp đồng nhiều năm, dữ liệu bị khoá, đào tạo chuyên biệt |
+| Yếu tố quyết định độ co giãn | Đòn bẩy quản trị                                         |
+| ---------------------------- | -------------------------------------------------------- |
+| **Số hàng thay thế gần gũi** | tính năng độc quyền, thiết kế riêng, công thức riêng     |
+| **Thiết yếu ↔ xa xỉ**        | gắn sản phẩm vào **một quy trình công việc** của khách   |
+| **Định nghĩa thị trường**    | bán "giải pháp trọn gói" thay vì một món hàng rời        |
+| **Thời gian**                | hợp đồng nhiều năm, dữ liệu bị khoá, đào tạo chuyên biệt |
 
 ### ⚠️ Nhưng dư thừa năng lực là cái giá phải trả
 
@@ -568,11 +568,11 @@ Từ mục 8–11, ba câu hỏi có cơ sở lý thuyết:
 Mười mục. Dùng `Fraction` nên mọi kết quả **chính xác tuyệt đối** — nhờ vậy có được **ba phép tự kiểm**
 mà bình thường chỉ nói được bằng lời:
 
-| Phép kiểm | In ra |
-| --- | --- |
-| Tại quy mô hiệu quả thì $MC = ATC$ | `True` |
+| Phép kiểm                                                            | In ra  |
+| -------------------------------------------------------------------- | ------ |
+| Tại quy mô hiệu quả thì $MC = ATC$                                   | `True` |
 | Tại cân bằng dài hạn, **độ dốc đường cầu = độ dốc ATC** (tiếp tuyến) | `True` |
-| $(P-MC)/P = 1/\lvert e \rvert$ | `True` |
+| $(P-MC)/P = 1/\lvert e \rvert$                                       | `True` |
 
 Mô hình: chi phí $TC(q) = 100 + 2q + q^2$ (nên $MC = 2 + 2q$, $ATC = 100/q + 2 + q$, quy mô hiệu quả
 $q = 10$), cầu riêng $P = a - 3q$ với $a = 90 - N/5$. Số được chọn để cân bằng dài hạn rơi vào
@@ -1092,13 +1092,13 @@ Hai đường **chạm nhau mà không cắt nhau** — đó là điều kiện 
 
 **⑤ So sánh (mục 5).** Bảng đối chiếu:
 
-| | Cạnh tranh độc quyền | Cạnh tranh hoàn hảo |
-| --- | ---: | ---: |
-| Sản lượng | **5** | 10 |
-| Quy mô hiệu quả | 10 | 10 |
-| Giá | \$27 | \$22 |
-| Chi phí biên | **\$12** | \$22 |
-| Lợi nhuận dài hạn | \$0 | \$0 |
+|                   | Cạnh tranh độc quyền | Cạnh tranh hoàn hảo |
+| ----------------- | -------------------: | ------------------: |
+| Sản lượng         |                **5** |                  10 |
+| Quy mô hiệu quả   |                   10 |                  10 |
+| Giá               |                 \$27 |                \$22 |
+| Chi phí biên      |             **\$12** |                \$22 |
+| Lợi nhuận dài hạn |                  \$0 |                 \$0 |
 
 Hai khác biệt hiện ra thành số: **dư thừa 5 đơn vị (50%)** và **$P - MC = \$15$**.
 
@@ -1140,18 +1140,18 @@ Sửa tham số rồi chạy lại. Không có lời giải kèm theo.
 
 Cột tiếng Anh lấy từ mục **Khái niệm then chốt** của sách (tr. 386).
 
-| Tiếng Việt | Tiếng Anh | Ghi chú |
-| --- | --- | --- |
-| Cạnh tranh không hoàn hảo | Imperfect competition | tr. 371 — vùng giữa hai thái cực |
-| Độc quyền nhóm | Oligopoly | tr. 371 — **một vài** người bán → bài 9 |
-| Cạnh tranh độc quyền | Monopolistic competition | tr. 371 — **nhiều** người bán, sản phẩm **khác biệt** |
-| Tỷ lệ tập trung | Concentration ratio | tr. 371 — thị phần 4 doanh nghiệp lớn nhất |
-| Sản phẩm khác biệt | Differentiated products | tr. 372 — nguồn của đường cầu dốc xuống |
-| Dư thừa năng lực sản xuất | Excess capacity | tr. 376 — sản xuất **dưới** quy mô hiệu quả |
-| Ngoại tác do đa dạng sản phẩm | Product-variety externality | tr. 378 — **tích cực** |
-| Ngoại tác do đánh cắp thị phần | Business-stealing externality | tr. 378 — **tiêu cực** |
-| Quảng cáo như tín hiệu | Advertising as a signal | tr. 381 — thông tin nằm ở **chi phí**, không ở nội dung |
-| Thương hiệu | Brand names | tr. 383 |
+| Tiếng Việt                     | Tiếng Anh                     | Ghi chú                                                 |
+| ------------------------------ | ----------------------------- | ------------------------------------------------------- |
+| Cạnh tranh không hoàn hảo      | Imperfect competition         | tr. 371 — vùng giữa hai thái cực                        |
+| Độc quyền nhóm                 | Oligopoly                     | tr. 371 — **một vài** người bán → bài 9                 |
+| Cạnh tranh độc quyền           | Monopolistic competition      | tr. 371 — **nhiều** người bán, sản phẩm **khác biệt**   |
+| Tỷ lệ tập trung                | Concentration ratio           | tr. 371 — thị phần 4 doanh nghiệp lớn nhất              |
+| Sản phẩm khác biệt             | Differentiated products       | tr. 372 — nguồn của đường cầu dốc xuống                 |
+| Dư thừa năng lực sản xuất      | Excess capacity               | tr. 376 — sản xuất **dưới** quy mô hiệu quả             |
+| Ngoại tác do đa dạng sản phẩm  | Product-variety externality   | tr. 378 — **tích cực**                                  |
+| Ngoại tác do đánh cắp thị phần | Business-stealing externality | tr. 378 — **tiêu cực**                                  |
+| Quảng cáo như tín hiệu         | Advertising as a signal       | tr. 381 — thông tin nằm ở **chi phí**, không ở nội dung |
+| Thương hiệu                    | Brand names                   | tr. 383                                                 |
 
 ### Ba dòng phải thuộc
 
@@ -1195,57 +1195,57 @@ $$\frac{P - MC}{P} = \frac{1}{|e|}$$
 ║                                                 (Ch. 16, tr. 370–390)    ║
 ╠══════════════════════════════════════════════════════════════════════════╣
 ║  BỐN CẤU TRÚC THỊ TRƯỜNG — hai câu hỏi, đúng thứ tự                      ║
-║      ① BAO NHIÊU doanh nghiệp?  một → ĐỘC QUYỀN | vài → ĐỘC QUYỀN NHÓM   ║
-║      ② nếu NHIỀU: sản phẩm KHÁC → cạnh tranh độc quyền                   ║
+║      ① BAO NHIÊU doanh nghiệp?  một → ĐỘC QUYỀN | vài → ĐỘC QUYỀN NHÓM  ║
+║      ② nếu NHIỀU: sản phẩm KHÁC → cạnh tranh độc quyền                  ║
 ║                              GIỐNG → cạnh tranh hoàn hảo                 ║
 ║      tỷ lệ tập trung 4 DN: thuốc lá 95% · ngũ cốc 78%                    ║
 ║      ⚠ hầu hết ngành Hoa Kỳ DƯỚI 50% — năm ngành trên là ngoại lệ        ║
 ║                                                                          ║
 ║  BA ĐẶC ĐIỂM CẠNH TRANH ĐỘC QUYỀN                                        ║
-║      ① nhiều người bán                                                   ║
-║      ② SẢN PHẨM KHÁC BIỆT → cầu DỐC XUỐNG → giống ĐỘC QUYỀN (bài 7)      ║
-║      ③ TỰ DO GIA NHẬP     → lợi nhuận → 0  → giống CẠNH TRANH (bài 6)    ║
+║      ① nhiều người bán                                                  ║
+║      ② SẢN PHẨM KHÁC BIỆT → cầu DỐC XUỐNG → giống ĐỘC QUYỀN (bài 7)     ║
+║      ③ TỰ DO GIA NHẬP     → lợi nhuận → 0  → giống CẠNH TRANH (bài 6)   ║
 ║                                                                          ║
 ║  NGẮN HẠN: y hệt nhà độc quyền — MR = MC tìm Q, lên CẦU tìm P            ║
 ║      có thể LÃI hoặc LỖ                                                  ║
 ║                                                                          ║
-║  ⭐⭐ CÂN BẰNG DÀI HẠN                                                     ║
+║  ⭐⭐ CÂN BẰNG DÀI HẠN                                                    ║
 ║      lãi → DN mới vào → cầu RIÊNG dịch TRÁI → lãi giảm                   ║
 ║      lỗ → DN rời đi   → cầu RIÊNG dịch PHẢI → lỗ giảm                    ║
-║      ⟹ dừng khi ĐƯỜNG CẦU TIẾP TUYẾN VỚI ATC (chạm, không cắt)           ║
-║      HAI ĐẶC ĐIỂM:  ① P > MC  (như độc quyền)                            ║
-║                     ② P = ATC (như cạnh tranh)                           ║
+║      ⟹ dừng khi ĐƯỜNG CẦU TIẾP TUYẾN VỚI ATC (chạm, không cắt)          ║
+║      HAI ĐẶC ĐIỂM:  ① P > MC  (như độc quyền)                           ║
+║                     ② P = ATC (như cạnh tranh)                          ║
 ║                                                                          ║
 ║  ── HAI KHÁC BIỆT VỚI CẠNH TRANH HOÀN HẢO ─────────────────────────      ║
-║  ① DƯ THỪA NĂNG LỰC SẢN XUẤT                                             ║
+║  ① DƯ THỪA NĂNG LỰC SẢN XUẤT                                            ║
 ║      sản xuất trên ĐOẠN DỐC XUỐNG của ATC, KHÔNG ở đáy chữ U             ║
 ║      biết có thể hạ ATC bằng cách làm nhiều hơn, nhưng phải HẠ GIÁ       ║
-║  ② P > MC                                                                ║
-║      ⟹ LUÔN muốn thêm một khách nữa ở giá niêm yết                       ║
-║      ⭐ "thị trường mà NGƯỜI BÁN GỬI THIẾP GIÁNG SINH CHO NGƯỜI MUA"      ║
+║  ② P > MC                                                               ║
+║      ⟹ LUÔN muốn thêm một khách nữa ở giá niêm yết                      ║
+║      ⭐ "thị trường mà NGƯỜI BÁN GỬI THIẾP GIÁNG SINH CHO NGƯỜI MUA"     ║
 ║                                                                          ║
 ║  📚 (P − MC)/P = 1/|e|                                                   ║
 ║      cầu càng ÍT co giãn → biên lợi nhuận càng DÀY                       ║
 ║      cạnh tranh hoàn hảo: |e| = ∞ → P = MC                               ║
-║      ⭐ đây là CON SỐ mà khác biệt hoá nhắm vào                           ║
+║      ⭐ đây là CON SỐ mà khác biệt hoá nhắm vào                          ║
 ║                                                                          ║
 ║  PHÚC LỢI — hai nguồn thiếu hiệu quả                                     ║
-║      ① P > MC ⟹ tổn thất vô ích (như độc quyền)                          ║
+║      ① P > MC ⟹ tổn thất vô ích (như độc quyền)                         ║
 ║         ⚠ khó sửa: phải quản mọi DN có sản phẩm khác biệt, và ép         ║
 ║           P = MC sẽ làm họ LỖ vì lợi nhuận đã bằng 0                     ║
-║      ② số DN có thể quá nhiều/quá ít — HAI NGOẠI TÁC khi gia nhập:       ║
-║         ➕ ĐA DẠNG SẢN PHẨM (khách được lợi)                              ║
-║         ➖ ĐÁNH CẮP THỊ PHẦN (DN cũ mất khách)                            ║
-║      ⟹ sách gần như khuyên ĐỂ YÊN                                        ║
+║      ② số DN có thể quá nhiều/quá ít — HAI NGOẠI TÁC khi gia nhập:      ║
+║         ➕ ĐA DẠNG SẢN PHẨM (khách được lợi)                             ║
+║         ➖ ĐÁNH CẮP THỊ PHẦN (DN cũ mất khách)                           ║
+║      ⟹ sách gần như khuyên ĐỂ YÊN                                       ║
 ║                                                                          ║
 ║  ── QUẢNG CÁO ──────────────────────────────────────────────────────     ║
 ║      hàng khác biệt lớn chi 10–20% doanh thu | hàng đồng nhất chi 0%     ║
 ║      toàn nền kinh tế ~2%                                                ║
 ║      PHÊ PHÁN: tạo nhu cầu giả, cầu ÍT co giãn hơn → giá CAO hơn         ║
 ║      BẢO VỆ  : cung cấp thông tin, cầu CO GIÃN hơn → giá THẤP hơn        ║
-║      ⭐ BENHAM 1972: bang CẤM quảng cáo kính $33 | KHÔNG cấm $26          ║
-║         ⟹ quảng cáo làm giá GIẢM ~20%                                    ║
-║      ⭐⭐ QUẢNG CÁO LÀ TÍN HIỆU CHẤT LƯỢNG                                 ║
+║      ⭐ BENHAM 1972: bang CẤM quảng cáo kính $33 | KHÔNG cấm $26         ║
+║         ⟹ quảng cáo làm giá GIẢM ~20%                                   ║
+║      ⭐⭐ QUẢNG CÁO LÀ TÍN HIỆU CHẤT LƯỢNG                                ║
 ║         Post (ngũ cốc thường, mua 1 lần)  → $3tr  < $10tr → KHÔNG QC     ║
 ║         Kellogg (thượng hạng, mua 12 lần) → $36tr > $10tr → CÓ QC        ║
 ║         ⚠ NỘI DUNG không quan trọng — THÔNG TIN NẰM Ở CHI PHÍ            ║
@@ -1253,15 +1253,15 @@ $$\frac{P - MC}{P} = \frac{1}{|e|}$$
 ║           tín hiệu MẤT tác dụng, khách học cách LỜ ĐI                    ║
 ║                                                                          ║
 ║  THƯƠNG HIỆU  phê phán (Chamberlin): khác biệt KHÔNG CÓ THỰC             ║
-║      bảo vệ: ① THÔNG TIN khi không đánh giá được trước khi mua           ║
-║              ② ĐỘNG CƠ giữ chất lượng — McDonald mất nhiều hơn quán lẻ   ║
+║      bảo vệ: ① THÔNG TIN khi không đánh giá được trước khi mua          ║
+║              ② ĐỘNG CƠ giữ chất lượng — McDonald mất nhiều hơn quán lẻ  ║
 ║                                                                          ║
 ║  💼 QTKD  |e| 40 → 3 làm markup nhảy 2,5% → 33,3% (gấp 13 lần)           ║
 ║      bốn đòn bẩy: bớt hàng thay thế · thành thiết yếu · thu hẹp thị      ║
 ║      trường · kéo dài thời gian chuyển đổi                               ║
-║      ⚠ CÁI GIÁ: chạy 50% quy mô hiệu quả ⟹ ATC đắt hơn 23%               ║
+║      ⚠ CÁI GIÁ: chạy 50% quy mô hiệu quả ⟹ ATC đắt hơn 23%              ║
 ║        nhà hàng nửa bàn trống, gym vắng giờ trưa, xe chạy non tải        ║
-║        ⭐ KHÔNG thể vừa khác biệt hoá vừa chạy hết công suất              ║
+║        ⭐ KHÔNG thể vừa khác biệt hoá vừa chạy hết công suất             ║
 ╚══════════════════════════════════════════════════════════════════════════╝
 ```
 
@@ -1296,22 +1296,22 @@ $$\frac{P - MC}{P} = \frac{1}{|e|}$$
 
 **Bản đồ khoá học**
 
-| # | Bài | Chương sách | Ưu tiên |
-| ---: | --- | --- | :---: |
-| 1 | [Mười nguyên lý và tư duy kinh tế](bai_01_muoi_nguyen_ly_va_tu_duy_kinh_te.md) | ch. 1–2 | 🎯 |
-| 2 | [Cung và cầu](bai_02_cung_va_cau.md) | ch. 4 | 🎯 |
-| 3 | [Độ co giãn và định giá](bai_03_do_co_gian_va_dinh_gia.md) | ch. 5 | 🎯⭐ |
-| 4 | [Thặng dư và chi phí của thuế](bai_04_thang_du_va_chi_phi_cua_thue.md) | ch. 7–8 | 🔸 |
-| 5 | [Chi phí sản xuất](bai_05_chi_phi_san_xuat.md) | ch. 13 | 🎯 |
-| 6 | [Doanh nghiệp trên thị trường cạnh tranh](bai_06_thi_truong_canh_tranh.md) | ch. 14 | 🎯 |
-| 7 | [Độc quyền và phân biệt giá](bai_07_doc_quyen_va_phan_biet_gia.md) | ch. 15 | 🎯 |
-| **8** | **Cạnh tranh độc quyền và thương hiệu** ← *bạn đang ở đây* | ch. 16 | 🎯 |
-| 9 | [Độc quyền nhóm và lý thuyết trò chơi](bai_09_doc_quyen_nhom_va_ly_thuyet_tro_choi.md) | ch. 17 | 🎯 |
-| 10 | Lựa chọn của người tiêu dùng *(chưa viết)* | ch. 21 | 🎯 |
-| 11 | Thông tin bất cân xứng và hành vi *(chưa viết)* | ch. 22 | 🎯 |
-| 12 | Lao động, tiền lương, bất bình đẳng *(chưa viết)* | ch. 18–20 | 🔸 |
-| 13 | Chính phủ can thiệp thị trường *(chưa viết)* | ch. 6, 12 | 🔸 |
-| 14 | Thương mại, ngoại tác, hàng hoá công *(chưa viết)* | ch. 3, 9–11 | 🔸 |
+|     # | Bài                                                                                    | Chương sách | Ưu tiên |
+| ----: | -------------------------------------------------------------------------------------- | ----------- | :-----: |
+|     1 | [Mười nguyên lý và tư duy kinh tế](bai_01_muoi_nguyen_ly_va_tu_duy_kinh_te.md)         | ch. 1–2     |    🎯    |
+|     2 | [Cung và cầu](bai_02_cung_va_cau.md)                                                   | ch. 4       |    🎯    |
+|     3 | [Độ co giãn và định giá](bai_03_do_co_gian_va_dinh_gia.md)                             | ch. 5       |   🎯⭐    |
+|     4 | [Thặng dư và chi phí của thuế](bai_04_thang_du_va_chi_phi_cua_thue.md)                 | ch. 7–8     |    🔸    |
+|     5 | [Chi phí sản xuất](bai_05_chi_phi_san_xuat.md)                                         | ch. 13      |    🎯    |
+|     6 | [Doanh nghiệp trên thị trường cạnh tranh](bai_06_thi_truong_canh_tranh.md)             | ch. 14      |    🎯    |
+|     7 | [Độc quyền và phân biệt giá](bai_07_doc_quyen_va_phan_biet_gia.md)                     | ch. 15      |    🎯    |
+| **8** | **Cạnh tranh độc quyền và thương hiệu** ← *bạn đang ở đây*                             | ch. 16      |    🎯    |
+|     9 | [Độc quyền nhóm và lý thuyết trò chơi](bai_09_doc_quyen_nhom_va_ly_thuyet_tro_choi.md) | ch. 17      |    🎯    |
+|    10 | [Lựa chọn của người tiêu dùng](bai_10_lua_chon_cua_nguoi_tieu_dung.md)                 | ch. 21      |    🎯    |
+|    11 | [Thông tin bất cân xứng và hành vi](bai_11_thong_tin_bat_can_xung.md)                  | ch. 22      |    🎯    |
+|    12 | [Lao động, tiền lương, bất bình đẳng](bai_12_thi_truong_lao_dong.md)                   | ch. 18–20   |    🔸    |
+|    13 | Chính phủ can thiệp thị trường *(chưa viết)*                                           | ch. 6, 12   |    🔸    |
+|    14 | Thương mại, ngoại tác, hàng hoá công *(chưa viết)*                                     | ch. 3, 9–11 |    🔸    |
 
 🎯 vòng 1 — học kỹ · 🔸 vòng 2 — đọc hiểu · ⭐ chương quan trọng nhất với QTKD
 

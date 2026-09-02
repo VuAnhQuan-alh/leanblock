@@ -84,10 +84,10 @@ Hai định nghĩa (chú thích tr. 310–311):
 **Bảng 1, tr. 311** cho thấy cả hai đều bằng **6 đô la** ở mọi mức sản lượng. Sách rút ra hai kết luận
 với **phạm vi áp dụng khác nhau** — chỗ này rất dễ nhầm:
 
-| Kết luận | Áp dụng cho |
-| --- | --- |
+| Kết luận                                         | Áp dụng cho                             |
+| ------------------------------------------------ | --------------------------------------- |
 | $AR = \dfrac{TR}{Q} = \dfrac{P \times Q}{Q} = P$ | ⭐ **MỌI doanh nghiệp**, kể cả độc quyền |
-| $MR = P$ | ⭐ **CHỈ doanh nghiệp cạnh tranh** |
+| $MR = P$                                         | ⭐ **CHỈ doanh nghiệp cạnh tranh**       |
 
 Lý do khác biệt, theo sách (tr. 311): *"Tổng doanh thu bằng $P \times Q$, và $P$ là **không đổi** đối
 với một doanh nghiệp cạnh tranh. Do đó, khi $Q$ tăng thêm một đơn vị, tổng doanh thu tăng thêm $P$ đô la."*
@@ -101,25 +101,25 @@ $MR < P$. Đó là toàn bộ khác biệt giữa bài này và **bài 7**.
 
 **Bảng 2, tr. 312** — chi phí cố định 3 đô la:
 
-| Q | TR | TC | **Lợi nhuận** | *MR* | *MC* | *ΔLợi nhuận* |
-| ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| 0 | $0 | $3 | **−$3** | | | |
-| | | | | *$6* | *$2* | *+$4* |
-| 1 | 6 | 5 | **1** | | | |
-| | | | | *6* | *3* | *+3* |
-| 2 | 12 | 8 | **4** | | | |
-| | | | | *6* | *4* | *+2* |
-| 3 | 18 | 12 | **6** | | | |
-| | | | | *6* | *5* | *+1* |
-| **4** | 24 | 17 | **$7** ⭐ | | | |
-| | | | | *6* | *6* | *0* |
-| **5** | 30 | 23 | **$7** ⭐ | | | |
-| | | | | *6* | *7* | *−1* |
-| 6 | 36 | 30 | **6** | | | |
-| | | | | *6* | *8* | *−2* |
-| 7 | 42 | 38 | **4** | | | |
-| | | | | *6* | *9* | *−3* |
-| 8 | 48 | 47 | **1** | | | |
+|     Q |   TR |   TC | **Lợi nhuận** | *MR* | *MC* | *ΔLợi nhuận* |
+| ----: | ---: | ---: | ------------: | ---: | ---: | -----------: |
+|     0 |   $0 |   $3 |       **−$3** |      |      |              |
+|       |      |      |               | *$6* | *$2* |        *+$4* |
+|     1 |    6 |    5 |         **1** |      |      |              |
+|       |      |      |               |  *6* |  *3* |         *+3* |
+|     2 |   12 |    8 |         **4** |      |      |              |
+|       |      |      |               |  *6* |  *4* |         *+2* |
+|     3 |   18 |   12 |         **6** |      |      |              |
+|       |      |      |               |  *6* |  *5* |         *+1* |
+| **4** |   24 |   17 |      **$7** ⭐ |      |      |              |
+|       |      |      |               |  *6* |  *6* |          *0* |
+| **5** |   30 |   23 |      **$7** ⭐ |      |      |              |
+|       |      |      |               |  *6* |  *7* |         *−1* |
+|     6 |   36 |   30 |         **6** |      |      |              |
+|       |      |      |               |  *6* |  *8* |         *−2* |
+|     7 |   42 |   38 |         **4** |      |      |              |
+|       |      |      |               |  *6* |  *9* |         *−3* |
+|     8 |   48 |   47 |         **1** |      |      |              |
 
 📚 Như ở bài 5, bảng này cũng có công thức đóng: chi phí biên tăng đúng 1 đô la mỗi bước, tức
 $MC(q) = q + 1$, nên
@@ -183,11 +183,11 @@ chúng ta nghiên cứu trong phần tiếp theo"* (tr. 315) — đó là các n
 
 Sách phân biệt rất kỹ hai từ, và **đề thi rất hay hỏi đúng chỗ này** (tr. 315):
 
-| | **Đóng cửa** (*shut down*) | **Rời bỏ** (*exit*) |
-| --- | --- | --- |
-| Khoảng thời gian | **ngắn hạn** | **dài hạn** |
-| Nghĩa là | không sản xuất gì trong một khoảng thời gian, do điều kiện thị trường hiện tại | rời khỏi thị trường |
-| Còn phải trả chi phí cố định? | ✅ **CÓ** — vẫn phải trả | ❌ **KHÔNG** — không phải trả khoản nào |
+|                               | **Đóng cửa** (*shut down*)                                                     | **Rời bỏ** (*exit*)                    |
+| ----------------------------- | ------------------------------------------------------------------------------ | -------------------------------------- |
+| Khoảng thời gian              | **ngắn hạn**                                                                   | **dài hạn**                            |
+| Nghĩa là                      | không sản xuất gì trong một khoảng thời gian, do điều kiện thị trường hiện tại | rời khỏi thị trường                    |
+| Còn phải trả chi phí cố định? | ✅ **CÓ** — vẫn phải trả                                                        | ❌ **KHÔNG** — không phải trả khoản nào |
 
 Ví dụ đất đai của người nông dân (tr. 315): nếu **không trồng gì một vụ mùa**, đất bỏ hoang và tiền đất
 **không thu hồi được** → là **chi phí chìm**. Nhưng nếu **rời bỏ hoàn toàn**, anh ta **bán được miếng
@@ -227,12 +227,12 @@ nó** khi ra các quyết định"* (tr. 316).
 
 **Ví dụ vé xem phim (tr. 317)** — đáng nhớ vì nó rất đời thường:
 
-| | |
-| --- | --- |
-| Giá trị bộ phim với bạn | $15 |
-| Bạn đã mua vé | $10 |
-| Bạn **làm mất vé** trước khi vào rạp | |
-| **Có nên mua vé khác không?** | **CÓ** |
+|                                      |        |
+| ------------------------------------ | ------ |
+| Giá trị bộ phim với bạn              | $15    |
+| Bạn đã mua vé                        | $10    |
+| Bạn **làm mất vé** trước khi vào rạp |        |
+| **Có nên mua vé khác không?**        | **CÓ** |
 
 Lập luận: lợi ích của việc xem phim (**15 đô la**) vẫn cao hơn chi phí cơ hội (**10 đô la** cho chiếc
 vé thứ hai). Mười đô la đã trả cho chiếc vé bị mất là **chi phí chìm**. *"Cũng giống như bình sữa đã đổ
@@ -245,10 +245,10 @@ hẳn là bạn sẽ tự hỏi, tại sao cửa hàng này vẫn tiếp tục m
 
 Câu trả lời là quy tắc $P < AVC$:
 
-| Khoản | Loại | Có tính vào quyết định mở bữa trưa không? |
-| --- | --- | --- |
-| Tiền thuê mặt bằng, dụng cụ nhà bếp, bàn ghế, chén dĩa, đồ bạc | **cố định** | ❌ *"đóng cửa nhà hàng vào buổi trưa không làm giảm các khoản chi phí này"* |
-| Giá thức ăn chuẩn bị thêm, lương nhân viên phục vụ bữa trưa | **biến đổi** | ✅ **chỉ có khoản này** |
+| Khoản                                                          | Loại         | Có tính vào quyết định mở bữa trưa không?                                  |
+| -------------------------------------------------------------- | ------------ | -------------------------------------------------------------------------- |
+| Tiền thuê mặt bằng, dụng cụ nhà bếp, bàn ghế, chén dĩa, đồ bạc | **cố định**  | ❌ *"đóng cửa nhà hàng vào buổi trưa không làm giảm các khoản chi phí này"* |
+| Giá thức ăn chuẩn bị thêm, lương nhân viên phục vụ bữa trưa    | **biến đổi** | ✅ **chỉ có khoản này**                                                     |
 
 > *"Người chủ nhà hàng sẽ ngừng phục vụ bữa trưa nếu như doanh thu từ vài ba người khách ăn trưa không
 > thể bù đắp nổi chi phí biến đổi của nhà hàng."*
@@ -308,10 +308,10 @@ $$\text{Lợi nhuận} = TR - TC = \left(\frac{TR}{Q} - \frac{TC}{Q}\right) \tim
    diện tích  =  LỢI NHUẬN
 ```
 
-| Hình 5 | Tình huống | Hình chữ nhật |
-| --- | --- | --- |
-| (a) | $P > ATC$ | nằm **trên** đường ATC → **lợi nhuận dương** |
-| (b) | $P < ATC$ | nằm **dưới** đường ATC → **thua lỗ**, diện tích $= (ATC - P) \times Q$ |
+| Hình 5 | Tình huống | Hình chữ nhật                                                          |
+| ------ | ---------- | ---------------------------------------------------------------------- |
+| (a)    | $P > ATC$  | nằm **trên** đường ATC → **lợi nhuận dương**                           |
+| (b)    | $P < ATC$  | nằm **dưới** đường ATC → **thua lỗ**, diện tích $= (ATC - P) \times Q$ |
 
 ⚠️ **Trong cả hai trường hợp, doanh nghiệp vẫn sản xuất tại $P = MC$.** Sách nói rõ ở trường hợp lỗ
 (tr. 320): *"tối đa hoá lợi nhuận hàm ý là **tối thiểu hoá khoản lỗ** bằng cách sản xuất ở mức sản lượng
@@ -384,12 +384,12 @@ Câu trả lời nằm ở chỗ **tổng chi phí trong kinh tế học bao g�
 
 **Ví dụ nông trại của sách (tr. 323):**
 
-| Khoản | Giá trị |
-| --- | ---: |
-| Vốn đầu tư xây nông trại | 1.000.000 đô la |
-| Nếu gửi ngân hàng thì được | **50.000 đô la/năm** |
+| Khoản                       |              Giá trị |
+| --------------------------- | -------------------: |
+| Vốn đầu tư xây nông trại    |      1.000.000 đô la |
+| Nếu gửi ngân hàng thì được  | **50.000 đô la/năm** |
 | Công việc khác phải hy sinh | **30.000 đô la/năm** |
-| **Tổng chi phí cơ hội** | **80.000 đô la/năm** |
+| **Tổng chi phí cơ hội**     | **80.000 đô la/năm** |
 
 > *"Thậm chí nếu như lợi nhuận của anh ta tiến về 0, doanh thu từ nông trại có thể bù đắp những khoản
 > chi phí cơ hội này."*
@@ -406,11 +406,11 @@ phương án tốt nhất kế tiếp của mình** — không hơn, không kém
 
 **Hình 8, tr. 325** kể một câu chuyện ba hồi. Đây là **mẫu phân tích** dùng lại được cho mọi cú sốc cầu:
 
-| Giai đoạn | Chuyện gì xảy ra | Giá | Lợi nhuận |
-| --- | --- | --- | --- |
-| **A** — cân bằng dài hạn ban đầu | mọi doanh nghiệp ở quy mô hiệu quả | $P_1 = \min ATC$ | **0** |
-| **B** — ngắn hạn | cầu tăng, **số doanh nghiệp chưa kịp đổi** → chỉ có thể tăng sản lượng trên nhà máy hiện có | $P_2 > P_1$ | **dương** |
-| **C** — dài hạn | lợi nhuận dương hút doanh nghiệp mới → cung dịch phải → giá bị kéo xuống | $P_1$ trở lại | **0** |
+| Giai đoạn                        | Chuyện gì xảy ra                                                                            | Giá              | Lợi nhuận |
+| -------------------------------- | ------------------------------------------------------------------------------------------- | ---------------- | --------- |
+| **A** — cân bằng dài hạn ban đầu | mọi doanh nghiệp ở quy mô hiệu quả                                                          | $P_1 = \min ATC$ | **0**     |
+| **B** — ngắn hạn                 | cầu tăng, **số doanh nghiệp chưa kịp đổi** → chỉ có thể tăng sản lượng trên nhà máy hiện có | $P_2 > P_1$      | **dương** |
+| **C** — dài hạn                  | lợi nhuận dương hút doanh nghiệp mới → cung dịch phải → giá bị kéo xuống                    | $P_1$ trở lại    | **0**     |
 
 ⭐ **Kết luận đắt nhất:**
 
@@ -953,13 +953,13 @@ tại $Q = 5$**, nơi $MC = MR = 6$.
 
 **③ Ba ngưỡng (mục 3).** Bảng này là phần dùng được nhất cả bài:
 
-| Giá | $Q^*$ | AVC | ATC | Lợi nhuận | Quyết định |
-| ---: | ---: | ---: | ---: | ---: | --- |
-| \$1 | 0 | — | — | −\$3 | **đóng cửa** |
-| \$2 | 1 | \$2,00 | \$5,00 | −\$3 | ngưỡng — **bàng quan** |
-| \$3 | 2 | \$2,50 | \$4,00 | −\$2 | lỗ nhưng **vẫn sản xuất** |
-| \$4 | 3 | \$3,00 | \$4,00 | \$0 | **cân bằng dài hạn** |
-| \$6 | 5 | \$4,00 | \$4,60 | \$7 | có lãi |
+|  Giá | $Q^*$ |    AVC |    ATC | Lợi nhuận | Quyết định                |
+| ---: | ----: | -----: | -----: | --------: | ------------------------- |
+|  \$1 |     0 |      — |      — |      −\$3 | **đóng cửa**              |
+|  \$2 |     1 | \$2,00 | \$5,00 |      −\$3 | ngưỡng — **bàng quan**    |
+|  \$3 |     2 | \$2,50 | \$4,00 |      −\$2 | lỗ nhưng **vẫn sản xuất** |
+|  \$4 |     3 | \$3,00 | \$4,00 |       \$0 | **cân bằng dài hạn**      |
+|  \$6 |     5 | \$4,00 | \$4,60 |       \$7 | có lãi                    |
 
 Chú ý dòng \$2: sản xuất hay đóng cửa **đều lỗ đúng \$3** = chi phí cố định. Đó chính là định nghĩa của
 ngưỡng đóng cửa.
@@ -1005,17 +1005,17 @@ Sửa tham số rồi chạy lại. Không có lời giải kèm theo.
 
 Cột tiếng Anh lấy từ mục **Khái niệm then chốt** của sách (tr. 328).
 
-| Tiếng Việt | Tiếng Anh | Ghi chú |
-| --- | --- | --- |
-| Thị trường cạnh tranh | Competitive market | tr. 309 — ba điều kiện |
-| Người chấp nhận giá | Price taker | tr. 309 |
-| Doanh thu bình quân | Average revenue | tr. 310 — $AR = P$ cho **mọi** doanh nghiệp |
-| Doanh thu biên | Marginal revenue | tr. 311 — $MR = P$ **chỉ** cho doanh nghiệp cạnh tranh |
-| Đóng cửa | Shut down | tr. 315 — **ngắn hạn**, vẫn trả chi phí cố định |
-| Rời bỏ | Exit | tr. 315 — **dài hạn**, không trả khoản nào |
-| Chi phí chìm | Sunk cost | tr. 316 — phớt lờ khi ra quyết định |
-| Gia nhập | Entry | tr. 318 — khi $P > ATC$ |
-| Doanh nghiệp biên | Marginal firm | tr. 326 — doanh nghiệp sẽ rời đi nếu giá thấp hơn |
+| Tiếng Việt            | Tiếng Anh          | Ghi chú                                                |
+| --------------------- | ------------------ | ------------------------------------------------------ |
+| Thị trường cạnh tranh | Competitive market | tr. 309 — ba điều kiện                                 |
+| Người chấp nhận giá   | Price taker        | tr. 309                                                |
+| Doanh thu bình quân   | Average revenue    | tr. 310 — $AR = P$ cho **mọi** doanh nghiệp            |
+| Doanh thu biên        | Marginal revenue   | tr. 311 — $MR = P$ **chỉ** cho doanh nghiệp cạnh tranh |
+| Đóng cửa              | Shut down          | tr. 315 — **ngắn hạn**, vẫn trả chi phí cố định        |
+| Rời bỏ                | Exit               | tr. 315 — **dài hạn**, không trả khoản nào             |
+| Chi phí chìm          | Sunk cost          | tr. 316 — phớt lờ khi ra quyết định                    |
+| Gia nhập              | Entry              | tr. 318 — khi $P > ATC$                                |
+| Doanh nghiệp biên     | Marginal firm      | tr. 326 — doanh nghiệp sẽ rời đi nếu giá thấp hơn      |
 
 ### Ba công thức phải thuộc
 
@@ -1055,22 +1055,22 @@ $$\text{Rời bỏ nếu } P < ATC \qquad \text{(dài hạn)}$$
 ╔══════════════════════════════════════════════════════════════════════════╗
 ║  BÀI 6 — DOANH NGHIỆP TRÊN THỊ TRƯỜNG CẠNH TRANH  (Ch. 14, tr. 308–333)  ║
 ╠══════════════════════════════════════════════════════════════════════════╣
-║  BA ĐIỀU KIỆN  ① nhiều người mua/bán  ② hàng hoá NHƯ NHAU                ║
+║  BA ĐIỀU KIỆN  ① nhiều người mua/bán  ② hàng hoá NHƯ NHAU               ║
 ║                ③ TỰ DO gia nhập / rời bỏ                                 ║
-║      ①② quyết định hành vi NGẮN HẠN | ③ quyết định kết cục DÀI HẠN       ║
+║      ①② quyết định hành vi NGẮN HẠN | ③ quyết định kết cục DÀI HẠN     ║
 ║                                                                          ║
 ║  ── DOANH THU ──────────────────────────────────────────────────────     ║
-║      AR = TR/Q = P    ⟹ đúng với MỌI doanh nghiệp                        ║
-║      MR = P           ⟹ CHỈ đúng với doanh nghiệp CẠNH TRANH             ║
-║      (độc quyền: bán thêm phải hạ giá cho MỌI đơn vị ⟹ MR < P, bài 7)    ║
+║      AR = TR/Q = P    ⟹ đúng với MỌI doanh nghiệp                       ║
+║      MR = P           ⟹ CHỈ đúng với doanh nghiệp CẠNH TRANH            ║
+║      (độc quyền: bán thêm phải hạ giá cho MỌI đơn vị ⟹ MR < P, bài 7)   ║
 ║                                                                          ║
-║  ⭐⭐ SẢN XUẤT BAO NHIÊU?  →  tại MR = MC                                  ║
-║      doanh nghiệp cạnh tranh có MR = P  ⟹  sản xuất tại  P = MC          ║
+║  ⭐⭐ SẢN XUẤT BAO NHIÊU?  →  tại MR = MC                                 ║
+║      doanh nghiệp cạnh tranh có MR = P  ⟹  sản xuất tại  P = MC         ║
 ║      MR > MC → làm thêm | MR < MC → làm ít lại | MR = MC → DỪNG          ║
 ║      ⚠ KHÔNG phải "bán càng nhiều càng tốt"                              ║
 ║                                                                          ║
-║  ⭐ ĐƯỜNG MC CHÍNH LÀ ĐƯỜNG CUNG của doanh nghiệp                         ║
-║      ⟹ trả lời câu hỏi bỏ ngỏ từ bài 2: đường cung từ đâu ra             ║
+║  ⭐ ĐƯỜNG MC CHÍNH LÀ ĐƯỜNG CUNG của doanh nghiệp                        ║
+║      ⟹ trả lời câu hỏi bỏ ngỏ từ bài 2: đường cung từ đâu ra            ║
 ║      quy luật cung dốc lên = quy luật CHI PHÍ BIÊN TĂNG DẦN (bài 5)      ║
 ║                                                                          ║
 ║  ── BA NGƯỠNG GIÁ ──────────────────────────────────────────────────     ║
@@ -1089,40 +1089,40 @@ $$\text{Rời bỏ nếu } P < ATC \qquad \text{(dài hạn)}$$
 ║      → VẪN NÊN MUA. "Bình sữa đã đổ, khóc than chẳng ích gì"             ║
 ║      nhà hàng ế trưa vẫn mở nếu doanh thu > BIẾN PHÍ (tiền thuê đã chìm) ║
 ║                                                                          ║
-║  ⭐ LỢI NHUẬN = (P − ATC) × Q  ⟹ một HÌNH CHỮ NHẬT trên đồ thị            ║
+║  ⭐ LỢI NHUẬN = (P − ATC) × Q  ⟹ một HÌNH CHỮ NHẬT trên đồ thị           ║
 ║      đang LỖ vẫn sản xuất tại P = MC ⟹ "tối đa hoá lợi nhuận"            ║
-║      lúc này nghĩa là TỐI THIỂU HOÁ KHOẢN LỖ                             ║
-║                                                                          ║
+║      lúc này nghĩa là TỐI THIỂU HOÁ KHOẢN LỖ                              ║
+║                                                                           ║
 ║  ⭐⭐ CÂN BẰNG DÀI HẠN                                                     ║
-║      lãi → GIA NHẬP → cung tăng → giá giảm                               ║
-║      lỗ → RỜI BỎ    → cung giảm → giá tăng                               ║
+║      lãi → GIA NHẬP → cung tăng → giá giảm                                ║
+║      lỗ → RỜI BỎ    → cung giảm → giá tăng                                ║
 ║      ⟹ dừng khi lợi nhuận kinh tế = 0, tức  P = MC = ATC                 ║
 ║      mà MC = ATC chỉ tại ĐÁY chữ U  ⟹  QUY MÔ HIỆU QUẢ                   ║
 ║      ⟹ đường cung DÀI HẠN của thị trường NẰM NGANG tại min ATC           ║
-║                                                                          ║
-║  ⚠ "LỢI NHUẬN = 0" KHÔNG phải làm không công                             ║
-║      nông trại $1 triệu: lãi ngân hàng $50k + lương bỏ qua $30k          ║
+║                                                                           ║
+║  ⚠ "LỢI NHUẬN = 0" KHÔNG phải làm không công                              ║
+║      nông trại $1 triệu: lãi ngân hàng $50k + lương bỏ qua $30k           ║
 ║      = chi phí cơ hội $80k/năm. Lợi nhuận kinh tế 0 ⟹ vẫn kiếm $80k      ║
-║                                                                          ║
-║  CẦU TĂNG:  ngắn hạn GIÁ LÊN, có lãi                                     ║
-║             dài hạn  SỐ DOANH NGHIỆP lên, giá VỀ CHỖ CŨ                  ║
-║             ($4,00 → $4,67 → $4,00; Q 900 → 1.100 → 1.200)               ║
-║                                                                          ║
-║  📚 VÌ SAO CUNG DÀI HẠN VẪN DỐC LÊN                                      ║
+║                                                                           ║
+║  CẦU TĂNG:  ngắn hạn GIÁ LÊN, có lãi                                      ║
+║             dài hạn  SỐ DOANH NGHIỆP lên, giá VỀ CHỖ CŨ                   ║
+║             ($4,00 → $4,67 → $4,00; Q 900 → 1.100 → 1.200)                ║
+║                                                                           ║
+║  📚 VÌ SAO CUNG DÀI HẠN VẪN DỐC LÊN                                       ║
 ║      ① nguồn lực có giới hạn (đất đai) → chi phí tăng khi ngành lớn lên  ║
 ║      ② doanh nghiệp có CHI PHÍ KHÁC NHAU → cần giá cao hơn để kéo        ║
-║         người chi phí cao vào                                            ║
+║         người chi phí cao vào                                             ║
 ║      ⭐ giá phản ánh ATC của DOANH NGHIỆP BIÊN                            ║
 ║         ⟹ doanh nghiệp CHI PHÍ THẤP HƠN vẫn LÃI DƯƠNG dài hạn            ║
 ║         ⟹ đây là nền kinh tế học của "LỢI THẾ CẠNH TRANH"                ║
-║                                                                          ║
-║  💼 QTKD  bảng quyết định ba vùng:                                       ║
-║      giá < AVC  → ngừng bán NGAY, bán nhiều lỗ nặng thêm                 ║
-║      AVC ≤ giá < ATC → bán tiếp ngắn hạn, dài hạn phải thoát             ║
+║                                                                           ║
+║  💼 QTKD  bảng quyết định ba vùng:                                        ║
+║      giá < AVC  → ngừng bán NGAY, bán nhiều lỗ nặng thêm                  ║
+║      AVC ≤ giá < ATC → bán tiếp ngắn hạn, dài hạn phải thoát              ║
 ║      giá ≥ ATC  → có lãi; lãi LỚN ⟹ chuẩn bị đối thủ gia nhập            ║
-║      ⚠ ngành DỄ GIA NHẬP thì lãi cao KHÔNG BỀN — cần RÀO CẢN             ║
-║        (thương hiệu, chi phí chuyển đổi, quy mô) → bài 7, bài 8          ║
-╚══════════════════════════════════════════════════════════════════════════╝
+║      ⚠ ngành DỄ GIA NHẬP thì lãi cao KHÔNG BỀN — cần RÀO CẢN              ║
+║        (thương hiệu, chi phí chuyển đổi, quy mô) → bài 7, bài 8           ║
+╚═══════════════════════════════════════════════════════════════════════════╝
 ```
 
 ---
@@ -1169,9 +1169,9 @@ $$\text{Rời bỏ nếu } P < ATC \qquad \text{(dài hạn)}$$
 | 7 | [Độc quyền và phân biệt giá](bai_07_doc_quyen_va_phan_biet_gia.md) | ch. 15 | 🎯 |
 | 8 | [Cạnh tranh độc quyền và thương hiệu](bai_08_canh_tranh_doc_quyen.md) | ch. 16 | 🎯 |
 | 9 | [Độc quyền nhóm và lý thuyết trò chơi](bai_09_doc_quyen_nhom_va_ly_thuyet_tro_choi.md) | ch. 17 | 🎯 |
-| 10 | Lựa chọn của người tiêu dùng *(chưa viết)* | ch. 21 | 🎯 |
-| 11 | Thông tin bất cân xứng và hành vi *(chưa viết)* | ch. 22 | 🎯 |
-| 12 | Lao động, tiền lương, bất bình đẳng *(chưa viết)* | ch. 18–20 | 🔸 |
+| 10 | [Lựa chọn của người tiêu dùng](bai_10_lua_chon_cua_nguoi_tieu_dung.md) | ch. 21 | 🎯 |
+| 11 | [Thông tin bất cân xứng và hành vi](bai_11_thong_tin_bat_can_xung.md) | ch. 22 | 🎯 |
+| 12 | [Lao động, tiền lương, bất bình đẳng](bai_12_thi_truong_lao_dong.md) | ch. 18–20 | 🔸 |
 | 13 | Chính phủ can thiệp thị trường *(chưa viết)* | ch. 6, 12 | 🔸 |
 | 14 | Thương mại, ngoại tác, hàng hoá công *(chưa viết)* | ch. 3, 9–11 | 🔸 |
 
