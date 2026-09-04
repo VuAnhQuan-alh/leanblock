@@ -105,6 +105,8 @@ nên mọi phép tính về sau chỉ còn một phép nhân.
 
 **Bảng 1, tr. 392** — biểu cầu nước sinh hoạt:
 
+![Bảng 1 — tr. 392, bản chụp giáo trình](../tai_lieu/hinh/ch17-bang-01-tr392.png)
+
 ```
  Sản lượng     Giá   Tổng doanh thu (và tổng lợi nhuận)
    0 gallon   $120                $0
@@ -341,6 +343,8 @@ một lời (tr. 398):
 
 **Hình 1, tr. 398** — số trong ô là **số năm tù, càng ít càng tốt**:
 
+![Hình 1 — tr. 398, bản chụp giáo trình](../tai_lieu/hinh/ch17-hinh-01-tr398.png)
+
 ```
                           QUYẾT ĐỊNH CỦA BONNIE
                      thú tội            giữ im lặng
@@ -398,17 +402,23 @@ quan gì tới nhau:
 | d   | Exxon và Texaco khoan chung mỏ  | Hình 4, tr. 402    | cùng 2 giếng — $4 tr           | cùng 1 giếng — $5 tr         |
 | e   | Chiến tranh thuế quan Mỹ–Mexico | bài tập 4, tr. 414 | cùng thuế cao — $20 tỷ         | cùng thuế thấp — $25 tỷ      |
 
+![Hình 2 — tr. 399, bản chụp giáo trình](../tai_lieu/hinh/ch17-hinh-02-tr399.png)
+
 Trong cả năm, cân bằng Nash **không phải** kết cục tốt nhất. Đó là định nghĩa của tiến thoái lưỡng nan.
 
 ⚠️ **Hình 3 (chạy đua vũ trang) không có số trong sách** — các ô chỉ ghi *"bị nguy hiểm"*, *"được an
 toàn và mạnh"*. Vì thế code chỉ giải bốn trò chơi có số. Nếu bạn thấy ở đâu đó một bảng số cho Hình 3,
 đó là số ai đó tự thêm vào, không phải của Mankiw.
 
+![Hình 3 — tr. 401, bản chụp giáo trình](../tai_lieu/hinh/ch17-hinh-03-tr401.png)
+
 ### 📚 Ba ví dụ đáng dừng lại
 
 **Chạy đua vũ trang** (tr. 401–402). Với mỗi nước, trang bị thêm vũ khí là chiến lược thống soái: nếu
 đối phương trang bị, mình phải theo để không mất thế; nếu đối phương giải trừ, mình trang bị để mạnh
 hơn. Kết quả là cả hai cùng nguy hiểm. Sách rút ra một câu rất sắc (tr. 402):
+
+![Hình 4 — tr. 402, bản chụp giáo trình](../tai_lieu/hinh/ch17-hinh-04-tr402.png)
 
 > *"Cũng giống như các cartel gặp phải các vấn đề trong việc thực hiện các mức sản lượng, Hoa Kỳ và
 > Liên Xô đều **sợ rằng đối thủ sẽ không thực hiện các cam kết**."*
@@ -2174,22 +2184,22 @@ Trả lời rồi mới quay lại đối chiếu. Số trong ngoặc là mục 
 
 **Bản đồ khoá học**
 
-|     # | Bài                                                                                  | Chương sách | Ưu tiên |
-| ----: | ------------------------------------------------------------------------------------ | ----------- | :-----: |
-|     1 | [Mười nguyên lý và tư duy kinh tế](bai_01_muoi_nguyen_ly_va_tu_duy_kinh_te.md)       | ch. 1–2     |    🎯    |
-|     2 | [Cung và cầu](bai_02_cung_va_cau.md)                                                 | ch. 4       |    🎯    |
-|     3 | [Độ co giãn và định giá](bai_03_do_co_gian_va_dinh_gia.md)                           | ch. 5       |   🎯⭐    |
-|     4 | [Thặng dư và chi phí của thuế](bai_04_thang_du_va_chi_phi_cua_thue.md)               | ch. 7–8     |    🔸    |
-|     5 | [Chi phí sản xuất](bai_05_chi_phi_san_xuat.md)                                       | ch. 13      |    🎯    |
-|     6 | [Doanh nghiệp trên thị trường cạnh tranh](bai_06_thi_truong_canh_tranh.md)           | ch. 14      |    🎯    |
-|     7 | [Độc quyền và phân biệt giá](bai_07_doc_quyen_va_phan_biet_gia.md)                   | ch. 15      |    🎯    |
-|     8 | [Cạnh tranh độc quyền và thương hiệu](bai_08_canh_tranh_doc_quyen.md)                | ch. 16      |    🎯    |
-| **9** | **Độc quyền nhóm và lý thuyết trò chơi** ← *bạn đang ở đây*                          | ch. 17      |    🎯    |
-|    10 | [Lựa chọn của người tiêu dùng](bai_10_lua_chon_cua_nguoi_tieu_dung.md)               | ch. 21      |    🎯    |
-|    11 | [Thông tin bất cân xứng và hành vi](bai_11_thong_tin_bat_can_xung.md)                | ch. 22      |    🎯    |
-|    12 | [Lao động, tiền lương, bất bình đẳng](bai_12_thi_truong_lao_dong.md)                 | ch. 18–20   |    🔸    |
-|    13 | [Chính phủ can thiệp thị trường](bai_13_chinh_phu_can_thiep_thi_truong.md)           | ch. 6, 12   |    🔸    |
-|    14 | [Thương mại, ngoại tác, hàng hoá công](bai_14_thuong_mai_ngoai_tac_hang_hoa_cong.md) | ch. 3, 9–11 |    🔸    |
+| # | Bài | Chương sách | Ưu tiên |
+| ---: | --- | --- | :---: |
+| 1 | [Mười nguyên lý và tư duy kinh tế](bai_01_muoi_nguyen_ly_va_tu_duy_kinh_te.md) | ch. 1–2 | 🎯 |
+| 2 | [Cung và cầu](bai_02_cung_va_cau.md) | ch. 4 | 🎯 |
+| 3 | [Độ co giãn và định giá](bai_03_do_co_gian_va_dinh_gia.md) | ch. 5 | 🎯⭐ |
+| 4 | [Thặng dư và chi phí của thuế](bai_04_thang_du_va_chi_phi_cua_thue.md) | ch. 7–8 | 🔸 |
+| 5 | [Chi phí sản xuất](bai_05_chi_phi_san_xuat.md) | ch. 13 | 🎯 |
+| 6 | [Doanh nghiệp trên thị trường cạnh tranh](bai_06_thi_truong_canh_tranh.md) | ch. 14 | 🎯 |
+| 7 | [Độc quyền và phân biệt giá](bai_07_doc_quyen_va_phan_biet_gia.md) | ch. 15 | 🎯 |
+| 8 | [Cạnh tranh độc quyền và thương hiệu](bai_08_canh_tranh_doc_quyen.md) | ch. 16 | 🎯 |
+| **9** | **Độc quyền nhóm và lý thuyết trò chơi** ← *bạn đang ở đây* | ch. 17 | 🎯 |
+| 10 | [Lựa chọn của người tiêu dùng](bai_10_lua_chon_cua_nguoi_tieu_dung.md) | ch. 21 | 🎯 |
+| 11 | [Thông tin bất cân xứng và hành vi](bai_11_thong_tin_bat_can_xung.md) | ch. 22 | 🎯 |
+| 12 | [Lao động, tiền lương, bất bình đẳng](bai_12_thi_truong_lao_dong.md) | ch. 18–20 | 🔸 |
+| 13 | [Chính phủ can thiệp thị trường](bai_13_chinh_phu_can_thiep_thi_truong.md) | ch. 6, 12 | 🔸 |
+| 14 | [Thương mại, ngoại tác, hàng hoá công](bai_14_thuong_mai_ngoai_tac_hang_hoa_cong.md) | ch. 3, 9–11 | 🔸 |
 
 🎯 vòng 1 — học kỹ · 🔸 vòng 2 — đọc hiểu · ⭐ chương quan trọng nhất với QTKD
 

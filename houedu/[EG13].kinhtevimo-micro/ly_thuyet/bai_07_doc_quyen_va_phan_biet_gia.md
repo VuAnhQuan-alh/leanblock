@@ -113,6 +113,8 @@ cùng một thành phố là lãng phí thuần tuý.
 
 Và giới hạn quyền lực của nhà độc quyền, theo sách (tr. 335–340):
 
+![Hình 1 — tr. 338, bản chụp giáo trình](../tai_lieu/hinh/ch15-hinh-01-tr338.png)
+
 > *"Một doanh nghiệp độc quyền có thể kiểm soát giá của mặt hàng mà họ bán, nhưng bởi vì mức giá cao sẽ
 > làm giảm số lượng hàng hoá mà khách hàng muốn mua, do đó **lợi nhuận độc quyền không phải là vô hạn**."*
 
@@ -123,11 +125,17 @@ sang dùng một hệ điều hành khác, hay dùng các bản sao chép không
 > ⭐ Nhà độc quyền **có thể chọn bất cứ điểm nào TRÊN đường cầu**, nhưng **không thể chọn điểm nào NẰM
 > NGOÀI** nó (tr. 340).
 
+![Hình 2 — tr. 340, bản chụp giáo trình](../tai_lieu/hinh/ch15-hinh-02-tr340.png)
+
 ---
 
 ## 4. Doanh thu của nhà độc quyền — vì sao MR < P
 
+![Hình 3 — tr. 342, bản chụp giáo trình](../tai_lieu/hinh/ch15-hinh-03-tr342.png)
+
 **Bảng 1, tr. 341** — nhà máy nước độc quyền của một thị trấn:
+
+![Bảng 1 — tr. 341, bản chụp giáo trình](../tai_lieu/hinh/ch15-bang-01-tr341.png)
 
 |    Q |  Giá | Tổng doanh thu | Doanh thu bình quân | *Doanh thu biên* |
 | ---: | ---: | -------------: | ------------------: | ---------------: |
@@ -204,6 +212,8 @@ không tồn tại.
 
 Quy tắc **không đổi** so với bài 6 (**Hình 4, tr. 343**):
 
+![Hình 4 — tr. 343, bản chụp giáo trình](../tai_lieu/hinh/ch15-hinh-04-tr343.png)
+
 ```
    MC < MR  →  tăng sản lượng làm TĂNG lợi nhuận
    MC > MR  →  giảm sản lượng làm TĂNG lợi nhuận
@@ -240,6 +250,8 @@ $$\text{Lợi nhuận} = (P - ATC) \times Q$$
 **Hình 5, tr. 345**: hình chữ nhật **BCDE** — chiều cao $BC = P - ATC$ (lợi nhuận bình quân mỗi sản
 phẩm), chiều rộng $DC = Q_{\max}$.
 
+![Hình 5 — tr. 345, bản chụp giáo trình](../tai_lieu/hinh/ch15-hinh-05-tr345.png)
+
 ⚠️ **Nhưng có một khác biệt lớn so với bài 6:** trong thị trường cạnh tranh, lợi nhuận dương **thu hút
 doanh nghiệp mới** và bị ép về 0. Ở đây **rào cản gia nhập chặn điều đó lại**, nên nhà độc quyền có thể
 giữ lợi nhuận dương **vô thời hạn**.
@@ -253,6 +265,8 @@ giữ lợi nhuận dương **vô thời hạn**.
 
 **Hình 6, tr. 346** là ví dụ đẹp nhất chương, vì nó cho thấy **cùng một thị trường** chuyển từ độc quyền
 sang cạnh tranh và ta quan sát được cả hai kết cục.
+
+![Hình 6 — tr. 346, bản chụp giáo trình](../tai_lieu/hinh/ch15-hinh-06-tr346.png)
 
 | Giai đoạn             | Cấu trúc thị trường             | Giá                              | Sản lượng |
 | --------------------- | ------------------------------- | -------------------------------- | --------- |
@@ -284,6 +298,8 @@ Dùng lại bộ công cụ **thặng dư** ở [bài 4](bai_04_thang_du_va_chi_
 
 **Hình 7, tr. 348** — nhà hoạch định xã hội tốt bụng sẽ chọn sản lượng nào?
 
+![Hình 7 — tr. 348, bản chụp giáo trình](../tai_lieu/hinh/ch15-hinh-07-tr348.png)
+
 > *"Mức sản lượng có hiệu quả xã hội được xác định tại **điểm giao nhau giữa đường cầu và đường chi phí
 > biên**."* (tr. 348)
 
@@ -291,6 +307,8 @@ Dùng lại bộ công cụ **thặng dư** ở [bài 4](bai_04_thang_du_va_chi_
 - Trên mức đó: giá trị **nhỏ hơn** chi phí → nên sản xuất ít lại.
 
 **Hình 8, tr. 349** — so hai mức sản lượng:
+
+![Hình 8 — tr. 349, bản chụp giáo trình](../tai_lieu/hinh/ch15-hinh-08-tr349.png)
 
 |                   | Chọn sản lượng tại              | Kết quả                         |
 | ----------------- | ------------------------------- | ------------------------------- |
@@ -416,6 +434,8 @@ mức giá cao hơn**"* (tr. 353).
 
 ### Phân biệt giá hoàn hảo — Hình 9, tr. 354
 
+![Hình 9 — tr. 354, bản chụp giáo trình](../tai_lieu/hinh/ch15-hinh-09-tr354.png)
+
 > **Phân biệt giá hoàn hảo**: doanh nghiệp biết **chính xác** mức sẵn lòng chi trả của từng khách hàng
 > và đưa ra mức giá đúng bằng mức đó.
 
@@ -482,6 +502,8 @@ khả năng chính phủ có thể thực hiện chính xác những phân tích
 nhiên có ATC **giảm dần**, nên $MC < ATC$ luôn. Ép $P = MC$ nghĩa là $P < ATC$ → lỗ → *"doanh nghiệp độc
 quyền sẽ rời khỏi ngành"*.
 
+![Hình 10 — tr. 358, bản chụp giáo trình](../tai_lieu/hinh/ch15-hinh-10-tr358.png)
+
 Hai cách xử lý, **đều không hoàn hảo**:
 
 - **Trợ cấp** — nhưng để có tiền trợ cấp, chính phủ phải **đánh thuế**, mà *"thuế bản thân nó cũng gây ra
@@ -523,6 +545,8 @@ Vì cả ba cách trên đều có khuyết điểm, một số nhà kinh tế c
 ---
 
 ## 15. Bảng 2 — cạnh tranh và độc quyền cạnh nhau
+
+![Bảng 2 — tr. 360, bản chụp giáo trình](../tai_lieu/hinh/ch15-bang-02-tr360.png)
 
 **Bảng 2, tr. 360:**
 
@@ -1250,22 +1274,22 @@ $$\text{Chi phí xã hội} = \text{TAM GIÁC tổn thất vô ích}, \text{ KH�
 
 **Bản đồ khoá học**
 
-|     # | Bài                                                                                    | Chương sách | Ưu tiên |
-| ----: | -------------------------------------------------------------------------------------- | ----------- | :-----: |
-|     1 | [Mười nguyên lý và tư duy kinh tế](bai_01_muoi_nguyen_ly_va_tu_duy_kinh_te.md)         | ch. 1–2     |    🎯    |
-|     2 | [Cung và cầu](bai_02_cung_va_cau.md)                                                   | ch. 4       |    🎯    |
-|     3 | [Độ co giãn và định giá](bai_03_do_co_gian_va_dinh_gia.md)                             | ch. 5       |   🎯⭐    |
-|     4 | [Thặng dư và chi phí của thuế](bai_04_thang_du_va_chi_phi_cua_thue.md)                 | ch. 7–8     |    🔸    |
-|     5 | [Chi phí sản xuất](bai_05_chi_phi_san_xuat.md)                                         | ch. 13      |    🎯    |
-|     6 | [Doanh nghiệp trên thị trường cạnh tranh](bai_06_thi_truong_canh_tranh.md)             | ch. 14      |    🎯    |
-| **7** | **Độc quyền và phân biệt giá** ← *bạn đang ở đây*                                      | ch. 15      |    🎯    |
-|     8 | [Cạnh tranh độc quyền và thương hiệu](bai_08_canh_tranh_doc_quyen.md)                  | ch. 16      |    🎯    |
-|     9 | [Độc quyền nhóm và lý thuyết trò chơi](bai_09_doc_quyen_nhom_va_ly_thuyet_tro_choi.md) | ch. 17      |    🎯    |
-|    10 | [Lựa chọn của người tiêu dùng](bai_10_lua_chon_cua_nguoi_tieu_dung.md)                 | ch. 21      |    🎯    |
-|    11 | [Thông tin bất cân xứng và hành vi](bai_11_thong_tin_bat_can_xung.md)                  | ch. 22      |    🎯    |
-|    12 | [Lao động, tiền lương, bất bình đẳng](bai_12_thi_truong_lao_dong.md)                   | ch. 18–20   |    🔸    |
-|    13 | [Chính phủ can thiệp thị trường](bai_13_chinh_phu_can_thiep_thi_truong.md)             | ch. 6, 12   |    🔸    |
-|    14 | [Thương mại, ngoại tác, hàng hoá công](bai_14_thuong_mai_ngoai_tac_hang_hoa_cong.md)   | ch. 3, 9–11 |    🔸    |
+| # | Bài | Chương sách | Ưu tiên |
+| ---: | --- | --- | :---: |
+| 1 | [Mười nguyên lý và tư duy kinh tế](bai_01_muoi_nguyen_ly_va_tu_duy_kinh_te.md) | ch. 1–2 | 🎯 |
+| 2 | [Cung và cầu](bai_02_cung_va_cau.md) | ch. 4 | 🎯 |
+| 3 | [Độ co giãn và định giá](bai_03_do_co_gian_va_dinh_gia.md) | ch. 5 | 🎯⭐ |
+| 4 | [Thặng dư và chi phí của thuế](bai_04_thang_du_va_chi_phi_cua_thue.md) | ch. 7–8 | 🔸 |
+| 5 | [Chi phí sản xuất](bai_05_chi_phi_san_xuat.md) | ch. 13 | 🎯 |
+| 6 | [Doanh nghiệp trên thị trường cạnh tranh](bai_06_thi_truong_canh_tranh.md) | ch. 14 | 🎯 |
+| **7** | **Độc quyền và phân biệt giá** ← *bạn đang ở đây* | ch. 15 | 🎯 |
+| 8 | [Cạnh tranh độc quyền và thương hiệu](bai_08_canh_tranh_doc_quyen.md) | ch. 16 | 🎯 |
+| 9 | [Độc quyền nhóm và lý thuyết trò chơi](bai_09_doc_quyen_nhom_va_ly_thuyet_tro_choi.md) | ch. 17 | 🎯 |
+| 10 | [Lựa chọn của người tiêu dùng](bai_10_lua_chon_cua_nguoi_tieu_dung.md) | ch. 21 | 🎯 |
+| 11 | [Thông tin bất cân xứng và hành vi](bai_11_thong_tin_bat_can_xung.md) | ch. 22 | 🎯 |
+| 12 | [Lao động, tiền lương, bất bình đẳng](bai_12_thi_truong_lao_dong.md) | ch. 18–20 | 🔸 |
+| 13 | [Chính phủ can thiệp thị trường](bai_13_chinh_phu_can_thiep_thi_truong.md) | ch. 6, 12 | 🔸 |
+| 14 | [Thương mại, ngoại tác, hàng hoá công](bai_14_thuong_mai_ngoai_tac_hang_hoa_cong.md) | ch. 3, 9–11 | 🔸 |
 
 🎯 vòng 1 — học kỹ · 🔸 vòng 2 — đọc hiểu · ⭐ chương quan trọng nhất với QTKD
 

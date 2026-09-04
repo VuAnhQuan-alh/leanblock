@@ -89,6 +89,8 @@ và quyết định doanh nghiệp đẩy được bao nhiêu chi phí sang khá
 **Hình 1, tr. 129** — thị trường kem, cân bằng ở **$3 và 100 que**. Suy ngược từ chính các con số
 trong hình: $Q_d = 175 - 25P$ và $Q_s = 25 + 25P$.
 
+![Hình 1 — tr. 129, bản chụp giáo trình](../tai_lieu/hinh/ch06-hinh-01-tr129.png)
+
 | Giá trần | Lượng cầu | Lượng cung | Giá thực tế | Thiếu hụt |                       |
 | -------: | --------: | ---------: | ----------: | --------: | --------------------- |
 |       $4 |       100 |        100 |          $3 |         0 | **không có hiệu lực** |
@@ -137,6 +139,8 @@ Cơ chế, theo **Hình 2, tr. 130**: trước cú sốc, giá trần nằm **tr
 đẩy đường cung sang trái → giá cân bằng lẽ ra tăng. Nhưng giá trần **chặn** nó lại → thiếu hụt xuất
 hiện.
 
+![Hình 2 — tr. 130, bản chụp giáo trình](../tai_lieu/hinh/ch06-hinh-02-tr130.png)
+
 📌 Bài học phương pháp rất đáng nhớ: **một chính sách vô hại trong nhiều năm có thể trở nên tai hại
 mà không ai sửa gì cả** — chỉ vì điều kiện thị trường đổi. Giá trần không thay đổi; cái thay đổi là
 giá cân bằng đã vượt qua nó.
@@ -151,6 +155,8 @@ Sách trích một câu của một nhà kinh tế mà không nêu tên: kiểm 
 huỷ một thành phố mà không cần phải đánh bom"*.
 
 **Hình 3** cho thấy sự khác biệt hoàn toàn nằm ở **độ co giãn theo thời gian**:
+
+![Hình 3 — tr. 131, bản chụp giáo trình](../tai_lieu/hinh/ch06-hinh-03-tr131.png)
 
 |           | Ngắn hạn                                              | Dài hạn                                                                                    |
 | --------- | ----------------------------------------------------- | ------------------------------------------------------------------------------------------ |
@@ -179,6 +185,8 @@ Rồi chất lượng nhà ở tụt theo, và lý do là **Nguyên lý thứ t�
 **Hình 4, tr. 133** — giá sàn $2 (dưới cân bằng $3) không có hiệu lực; giá sàn $4 tạo **dư thừa 40 que**
 (cung 120, cầu 80).
 
+![Hình 4 — tr. 133, bản chụp giáo trình](../tai_lieu/hinh/ch06-hinh-04-tr133.png)
+
 Đối xứng hoàn toàn với giá trần: giá sàn có hiệu lực gây **dư thừa**, và người bán phải cạnh tranh bằng
 cơ chế phi giá — với hệ quả sàng lọc tương tự.
 
@@ -189,6 +197,8 @@ cơ chế phi giá — với hệ quả sàng lọc tương tự.
 
 Bối cảnh của sách (tr. 134): Hoa Kỳ thông qua lương tối thiểu năm **1938** theo Đạo luật Tiêu chuẩn
 Lao động Công bằng; năm **2009** mức liên bang là **$7,25/giờ**.
+
+![Hình 5 — tr. 134, bản chụp giáo trình](../tai_lieu/hinh/ch06-hinh-05-tr134.png)
 
 ⚠️ **Điểm mấu chốt mà sách nhấn mạnh: nền kinh tế không có một thị trường lao động duy nhất** (tr. 135).
 
@@ -242,12 +252,16 @@ Suy ngược độ dốc từ chính các con số in trong từng hình:
 | Hình 4 (giá sàn)  |         20 |          20 | giá sàn $4 → cầu 80, cung 120           |
 | Hình 6/7 (thuế)   |      100/3 |          50 | thuế $0,50 → giá 3,30 và 2,80, lượng 90 |
 
+![Hình 6 — tr. 139, bản chụp giáo trình](../tai_lieu/hinh/ch06-hinh-06-tr139.png)
+
 **Ba hình, ba cặp độ dốc khác nhau.** Đây **không phải lỗi in** — chúng là ba hình minh hoạ độc lập,
 mỗi hình vẽ cho một ý riêng, và không hình nào tuyên bố mình dùng cùng số liệu với hình kia.
 
 Nhưng cần biết điều đó, vì: **lấy số của hình này áp vào hình kia sẽ ra kết quả sai.** Ví dụ, nếu bạn
 dùng độ dốc của Hình 1 (25/25) để tính thuế $0,50 thì ra giá $3,25 và $2,75 — không phải $3,30 và
 $2,80 như Hình 7 in.
+
+![Hình 7 — tr. 140, bản chụp giáo trình](../tai_lieu/hinh/ch06-hinh-07-tr140.png)
 
 📌 Và [mục 7](#7--công-thức-chia-gánh-nặng-thuế) sẽ cho thấy độ dốc của Hình 6/7 **không hề tuỳ tiện**:
 nó chính là thứ tạo ra tỷ lệ 0,30/0,20 in trong hình. Hình minh hoạ của sách tự nó nhất quán.
@@ -344,6 +358,8 @@ Nhưng theo quy tắc ở mục 7 (tr. 144):
 viết thẳng ở tr. 143: *"Các nhà lập pháp có thể quyết định một mức thuế xuất phát từ túi của người mua
 hoặc người bán, nhưng **họ không thể áp đặt gánh nặng thực sự của thuế**."*
 
+![Hình 9 — tr. 143, bản chụp giáo trình](../tai_lieu/hinh/ch06-hinh-09-tr143.png)
+
 ### Thuế hàng hoá xa xỉ 1990 (tr. 144–145)
 
 Đây là ví dụ hay nhất của cả chương, vì nó là một chính sách **thất bại đúng theo dự đoán của lý thuyết**.
@@ -385,6 +401,10 @@ nhập của một người Mỹ.
 **Bảng 1, tr. 257** — tổng doanh thu thuế theo % GDP: Thuỵ Điển 49%, Pháp 44, Anh 37, Đức 36, Canada 33,
 Nga 32, Brazil 30, **Hoa Kỳ 28**, Nhật 28, Mexico 21, Chile 20, Trung Quốc 15, Ấn Độ 14.
 
+![Bảng 2 — tr. 257, bản chụp giáo trình](../tai_lieu/hinh/ch12-bang-02-tr257.png)
+
+![Bảng 1 — tr. 257, bản chụp giáo trình](../tai_lieu/hinh/ch12-bang-01-tr257.png)
+
 ### Ngân sách liên bang 2009
 
 | DOANH THU                  |  Tỷ đô la |     % |
@@ -420,9 +440,15 @@ là một **công ty bảo hiểm có quân đội đi kèm**.
 📌 Ba loại chi lớn nhất đều là **chi chuyển nhượng** *(transfer payment)* — định nghĩa ở tr. 259:
 *"các khoản chi trả của chính phủ mà không đòi hỏi trao đổi hàng hoá và dịch vụ."*
 
+![Bảng 4 — tr. 259, bản chụp giáo trình](../tai_lieu/hinh/ch12-bang-04-tr259.png)
+
 Chính quyền bang và địa phương thì khác hẳn (Bảng 5 và 6, tr. 263): thu chủ yếu từ **thuế doanh thu**
 (439 tỷ) và **thuế tài sản** (383 tỷ) — hơn một phần ba tổng thu; chi chủ yếu cho **giáo dục** (777 tỷ,
 34% chi tiêu).
+
+![Bảng 6 — tr. 263, bản chụp giáo trình](../tai_lieu/hinh/ch12-bang-06-tr263.png)
+
+![Bảng 5 — tr. 263, bản chụp giáo trình](../tai_lieu/hinh/ch12-bang-05-tr263.png)
 
 ---
 
@@ -613,6 +639,8 @@ lớn, một gia đình có hai con đi học — **có công bằng không nế
 
 **Bảng 7, tr. 270** — ba cách để "người giàu đóng nhiều hơn":
 
+![Bảng 7 — tr. 270, bản chụp giáo trình](../tai_lieu/hinh/ch12-bang-07-tr270.png)
+
 | Thu nhập | Tỷ lệ không đổi |        Luỹ thoái |         Luỹ tiến |
 | -------: | --------------: | ---------------: | ---------------: |
 |  $50.000 |    12.500 (25%) | 15.000 (**30%**) | 10.000 (**20%**) |
@@ -637,6 +665,8 @@ Và sách thừa nhận rất thẳng (tr. 270):
 ### Hệ thống liên bang Hoa Kỳ thực tế thuộc loại nào
 
 **Bảng 8, tr. 271** — dữ liệu năm 2006:
+
+![Bảng 8 — tr. 271, bản chụp giáo trình](../tai_lieu/hinh/ch12-bang-08-tr271.png)
 
 | Phân vị     | Thu nhập TB | Thuế/thu nhập | % tổng thu nhập | % tổng thuế |
 | ----------- | ----------: | ------------: | --------------: | ----------: |
@@ -2084,22 +2114,22 @@ Trả lời rồi mới quay lại đối chiếu. Số trong ngoặc là mục 
 
 **Bản đồ khoá học**
 
-|      # | Bài                                                                                    | Chương sách | Ưu tiên |
-| -----: | -------------------------------------------------------------------------------------- | ----------- | :-----: |
-|      1 | [Mười nguyên lý và tư duy kinh tế](bai_01_muoi_nguyen_ly_va_tu_duy_kinh_te.md)         | ch. 1–2     |    🎯    |
-|      2 | [Cung và cầu](bai_02_cung_va_cau.md)                                                   | ch. 4       |    🎯    |
-|      3 | [Độ co giãn và định giá](bai_03_do_co_gian_va_dinh_gia.md)                             | ch. 5       |   🎯⭐    |
-|      4 | [Thặng dư và chi phí của thuế](bai_04_thang_du_va_chi_phi_cua_thue.md)                 | ch. 7–8     |    🔸    |
-|      5 | [Chi phí sản xuất](bai_05_chi_phi_san_xuat.md)                                         | ch. 13      |    🎯    |
-|      6 | [Doanh nghiệp trên thị trường cạnh tranh](bai_06_thi_truong_canh_tranh.md)             | ch. 14      |    🎯    |
-|      7 | [Độc quyền và phân biệt giá](bai_07_doc_quyen_va_phan_biet_gia.md)                     | ch. 15      |    🎯    |
-|      8 | [Cạnh tranh độc quyền và thương hiệu](bai_08_canh_tranh_doc_quyen.md)                  | ch. 16      |    🎯    |
-|      9 | [Độc quyền nhóm và lý thuyết trò chơi](bai_09_doc_quyen_nhom_va_ly_thuyet_tro_choi.md) | ch. 17      |    🎯    |
-|     10 | [Lựa chọn của người tiêu dùng](bai_10_lua_chon_cua_nguoi_tieu_dung.md)                 | ch. 21      |    🎯    |
-|     11 | [Thông tin bất cân xứng và hành vi](bai_11_thong_tin_bat_can_xung.md)                  | ch. 22      |    🎯    |
-|     12 | [Lao động, tiền lương, bất bình đẳng](bai_12_thi_truong_lao_dong.md)                   | ch. 18–20   |    🔸    |
-| **13** | **Chính phủ can thiệp thị trường** ← *bạn đang ở đây*                                  | ch. 6, 12   |    🔸    |
-|     14 | [Thương mại, ngoại tác, hàng hoá công](bai_14_thuong_mai_ngoai_tac_hang_hoa_cong.md)   | ch. 3, 9–11 |    🔸    |
+| # | Bài | Chương sách | Ưu tiên |
+| ---: | --- | --- | :---: |
+| 1 | [Mười nguyên lý và tư duy kinh tế](bai_01_muoi_nguyen_ly_va_tu_duy_kinh_te.md) | ch. 1–2 | 🎯 |
+| 2 | [Cung và cầu](bai_02_cung_va_cau.md) | ch. 4 | 🎯 |
+| 3 | [Độ co giãn và định giá](bai_03_do_co_gian_va_dinh_gia.md) | ch. 5 | 🎯⭐ |
+| 4 | [Thặng dư và chi phí của thuế](bai_04_thang_du_va_chi_phi_cua_thue.md) | ch. 7–8 | 🔸 |
+| 5 | [Chi phí sản xuất](bai_05_chi_phi_san_xuat.md) | ch. 13 | 🎯 |
+| 6 | [Doanh nghiệp trên thị trường cạnh tranh](bai_06_thi_truong_canh_tranh.md) | ch. 14 | 🎯 |
+| 7 | [Độc quyền và phân biệt giá](bai_07_doc_quyen_va_phan_biet_gia.md) | ch. 15 | 🎯 |
+| 8 | [Cạnh tranh độc quyền và thương hiệu](bai_08_canh_tranh_doc_quyen.md) | ch. 16 | 🎯 |
+| 9 | [Độc quyền nhóm và lý thuyết trò chơi](bai_09_doc_quyen_nhom_va_ly_thuyet_tro_choi.md) | ch. 17 | 🎯 |
+| 10 | [Lựa chọn của người tiêu dùng](bai_10_lua_chon_cua_nguoi_tieu_dung.md) | ch. 21 | 🎯 |
+| 11 | [Thông tin bất cân xứng và hành vi](bai_11_thong_tin_bat_can_xung.md) | ch. 22 | 🎯 |
+| 12 | [Lao động, tiền lương, bất bình đẳng](bai_12_thi_truong_lao_dong.md) | ch. 18–20 | 🔸 |
+| **13** | **Chính phủ can thiệp thị trường** ← *bạn đang ở đây* | ch. 6, 12 | 🔸 |
+| 14 | [Thương mại, ngoại tác, hàng hoá công](bai_14_thuong_mai_ngoai_tac_hang_hoa_cong.md) | ch. 3, 9–11 | 🔸 |
 
 🎯 vòng 1 — học kỹ · 🔸 vòng 2 — đọc hiểu · ⭐ chương quan trọng nhất với QTKD
 

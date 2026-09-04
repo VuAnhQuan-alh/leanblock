@@ -67,6 +67,8 @@ về **thị trường**.
 
 Mười nguyên lý được chia làm ba nhóm, và sách tóm lại ở **Bảng 1, tr. 21**:
 
+![Bảng 1 — tr. 21, bản chụp giáo trình](../tai_lieu/hinh/ch01-bang-01-tr21.png)
+
 ```
 ┌──────────────────────────────────────────────────────────────────────┐
 │  CON NGƯỜI RA QUYẾT ĐỊNH NHƯ THẾ NÀO          (nguyên lý 1–4)        │
@@ -586,6 +588,8 @@ thực tế và do đó vô dụng. Mô hình tốt là mô hình **bỏ đi đ�
 
 Mô hình đơn giản hoá nền kinh tế xuống còn **hai nhóm ra quyết định** và **hai thị trường** (Hình 1, tr. 30):
 
+![Hình 1 — tr. 30, bản chụp giáo trình](../tai_lieu/hinh/ch02-hinh-01-tr30.png)
+
 ```
                     ┌──────────────────────────────────┐
           doanh thu │   THỊ TRƯỜNG HÀNG HOÁ, DỊCH VỤ   │ chi tiêu
@@ -635,6 +639,8 @@ trong hình (tr. 31). Đó là chủ ý — xem lại mục 9 về vai trò củ
 
 Nền kinh tế giả định chỉ có **hai hàng hoá: ô tô và máy tính**. Số liệu **Hình 2, tr. 32**:
 
+![Hình 2 — tr. 32, bản chụp giáo trình](../tai_lieu/hinh/ch02-hinh-02-tr32.png)
+
 | Điểm  |    Ô tô |  Máy tính | Ý nghĩa                                               |
 | ----- | ------: | --------: | ----------------------------------------------------- |
 | F     |       0 |     3.000 | dồn hết nguồn lực cho máy tính                        |
@@ -671,6 +677,8 @@ Lập luận của sách (tr. 33):
 Nói gọn: **nguồn lực không hoán đổi hoàn hảo giữa hai ngành.** Đó là toàn bộ lý do đường cong lồi.
 
 ### Tăng trưởng kinh tế — đường dịch ra ngoài (Hình 3, tr. 34)
+
+![Hình 3 — tr. 34, bản chụp giáo trình](../tai_lieu/hinh/ch02-hinh-03-tr34.png)
 
 Tiến bộ công nghệ trong ngành máy tính đẩy đường giới hạn **ra ngoài**: trục máy tính từ 3.000 lên
 **4.000**, còn điểm cực đại ô tô **giữ nguyên 1.000** (vì tiến bộ chỉ xảy ra ở ngành máy tính). Xã hội
@@ -823,6 +831,8 @@ hay do sẵn lòng làm thêm giờ?* Và kết luận:
 
 Sách cảnh báo **không nên cường điệu số lượng các bất đồng** và đưa ra **Bảng 1, tr. 43** — 20 phát
 biểu cùng **tỷ lệ nhà kinh tế đồng tình** trong các khảo sát chuyên gia. Vài dòng đáng chú ý:
+
+![Bảng 1 — tr. 43, bản chụp giáo trình](../tai_lieu/hinh/ch02-bang-01-tr43.png)
 
 |    # | Phát biểu                                                                                                     | Đồng tình |
 | ---: | ------------------------------------------------------------------------------------------------------------- | --------: |
@@ -1406,22 +1416,22 @@ Cột tiếng Anh lấy nguyên từ mục **Khái niệm then chốt** của s�
 
 **Bản đồ khoá học**
 
-|     # | Bài                                                                                    | Chương sách | Ưu tiên |
-| ----: | -------------------------------------------------------------------------------------- | ----------- | :-----: |
-| **1** | **Mười nguyên lý và tư duy kinh tế** ← *bạn đang ở đây*                                | ch. 1–2     |    🎯    |
-|     2 | [Cung và cầu](bai_02_cung_va_cau.md)                                                   | ch. 4       |    🎯    |
-|     3 | [Độ co giãn và định giá](bai_03_do_co_gian_va_dinh_gia.md)                             | ch. 5       |   🎯⭐    |
-|     4 | [Thặng dư và chi phí của thuế](bai_04_thang_du_va_chi_phi_cua_thue.md)                 | ch. 7–8     |    🔸    |
-|     5 | [Chi phí sản xuất](bai_05_chi_phi_san_xuat.md)                                         | ch. 13      |    🎯    |
-|     6 | [Doanh nghiệp trên thị trường cạnh tranh](bai_06_thi_truong_canh_tranh.md)             | ch. 14      |    🎯    |
-|     7 | [Độc quyền và phân biệt giá](bai_07_doc_quyen_va_phan_biet_gia.md)                     | ch. 15      |    🎯    |
-|     8 | [Cạnh tranh độc quyền và thương hiệu](bai_08_canh_tranh_doc_quyen.md)                  | ch. 16      |    🎯    |
-|     9 | [Độc quyền nhóm và lý thuyết trò chơi](bai_09_doc_quyen_nhom_va_ly_thuyet_tro_choi.md) | ch. 17      |    🎯    |
-|    10 | [Lựa chọn của người tiêu dùng](bai_10_lua_chon_cua_nguoi_tieu_dung.md)                 | ch. 21      |    🎯    |
-|    11 | [Thông tin bất cân xứng và hành vi](bai_11_thong_tin_bat_can_xung.md)                  | ch. 22      |    🎯    |
-|    12 | [Lao động, tiền lương, bất bình đẳng](bai_12_thi_truong_lao_dong.md)                   | ch. 18–20   |    🔸    |
-|    13 | [Chính phủ can thiệp thị trường](bai_13_chinh_phu_can_thiep_thi_truong.md)             | ch. 6, 12   |    🔸    |
-|    14 | [Thương mại, ngoại tác, hàng hoá công](bai_14_thuong_mai_ngoai_tac_hang_hoa_cong.md)   | ch. 3, 9–11 |    🔸    |
+| # | Bài | Chương sách | Ưu tiên |
+| ---: | --- | --- | :---: |
+| **1** | **Mười nguyên lý và tư duy kinh tế** ← *bạn đang ở đây* | ch. 1–2 | 🎯 |
+| 2 | [Cung và cầu](bai_02_cung_va_cau.md) | ch. 4 | 🎯 |
+| 3 | [Độ co giãn và định giá](bai_03_do_co_gian_va_dinh_gia.md) | ch. 5 | 🎯⭐ |
+| 4 | [Thặng dư và chi phí của thuế](bai_04_thang_du_va_chi_phi_cua_thue.md) | ch. 7–8 | 🔸 |
+| 5 | [Chi phí sản xuất](bai_05_chi_phi_san_xuat.md) | ch. 13 | 🎯 |
+| 6 | [Doanh nghiệp trên thị trường cạnh tranh](bai_06_thi_truong_canh_tranh.md) | ch. 14 | 🎯 |
+| 7 | [Độc quyền và phân biệt giá](bai_07_doc_quyen_va_phan_biet_gia.md) | ch. 15 | 🎯 |
+| 8 | [Cạnh tranh độc quyền và thương hiệu](bai_08_canh_tranh_doc_quyen.md) | ch. 16 | 🎯 |
+| 9 | [Độc quyền nhóm và lý thuyết trò chơi](bai_09_doc_quyen_nhom_va_ly_thuyet_tro_choi.md) | ch. 17 | 🎯 |
+| 10 | [Lựa chọn của người tiêu dùng](bai_10_lua_chon_cua_nguoi_tieu_dung.md) | ch. 21 | 🎯 |
+| 11 | [Thông tin bất cân xứng và hành vi](bai_11_thong_tin_bat_can_xung.md) | ch. 22 | 🎯 |
+| 12 | [Lao động, tiền lương, bất bình đẳng](bai_12_thi_truong_lao_dong.md) | ch. 18–20 | 🔸 |
+| 13 | [Chính phủ can thiệp thị trường](bai_13_chinh_phu_can_thiep_thi_truong.md) | ch. 6, 12 | 🔸 |
+| 14 | [Thương mại, ngoại tác, hàng hoá công](bai_14_thuong_mai_ngoai_tac_hang_hoa_cong.md) | ch. 3, 9–11 | 🔸 |
 
 🎯 vòng 1 — học kỹ · 🔸 vòng 2 — đọc hiểu · ⭐ chương quan trọng nhất với QTKD
 

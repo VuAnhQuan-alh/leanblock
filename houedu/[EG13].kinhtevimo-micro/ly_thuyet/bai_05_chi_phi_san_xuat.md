@@ -130,6 +130,8 @@ toán, không đổi chi phí thật của việc dùng 300.000 đô la vào ti�
 
 **Hình 1, tr. 287** trình bày hai cột song song:
 
+![Hình 1 — tr. 287, bản chụp giáo trình](../tai_lieu/hinh/ch13-hinh-01-tr287.png)
+
 ```
         ĐỐI VỚI NHÀ KINH TẾ              ĐỐI VỚI NHÂN VIÊN KẾ TOÁN
    ┌──────────────────────────┐      ┌──────────────────────────┐
@@ -195,6 +197,8 @@ Caroline có thể thay đổi sản lượng… bằng cách duy nhất là tha
 
 **Bảng 1, tr. 288** — nhà máy 30 đô la/giờ, mỗi công nhân 10 đô la/giờ:
 
+![Bảng 1 — tr. 288, bản chụp giáo trình](../tai_lieu/hinh/ch13-bang-01-tr288.png)
+
 | Số công nhân | Sản lượng | Sản lượng biên | CP nhà máy | CP nhân công | **Tổng chi phí** |
 | -----------: | --------: | -------------: | ---------: | -----------: | ---------------: |
 |            0 |         0 |                |        $30 |           $0 |          **$30** |
@@ -223,6 +227,10 @@ Sản lượng biên đi **50 → 40 → 30 → 20 → 10 → 5**. Lý do sách 
 **Hình 2, tr. 289** đặt cạnh nhau hàm sản xuất (a) và đường tổng chi phí (b). Sách nói rõ chúng là
 *"hai mặt của một đồng xu"* (tr. 290):
 
+![Hình 2 — tr. 289, bản chụp giáo trình](../tai_lieu/hinh/ch13-hinh-02-tr289.png)
+
+![Hình 3 — tr. 291, bản chụp giáo trình](../tai_lieu/hinh/ch13-hinh-03-tr291.png)
+
 ```
    SẢN LƯỢNG BIÊN GIẢM DẦN
         │
@@ -242,6 +250,8 @@ lao động và do đó rất là tốn kém"* (tr. 290).
 
 Nhân vật mới: **Conrad**, hàng xóm của Caroline, chủ tiệm cà phê. **Bảng 2, tr. 292** là bảng quan
 trọng nhất chương.
+
+![Bảng 2 — tr. 292, bản chụp giáo trình](../tai_lieu/hinh/ch13-bang-02-tr292.png)
 
 Bốn định nghĩa (chú thích tr. 292–293):
 
@@ -300,6 +310,8 @@ sản lượng**.
 
 **Hình 4, tr. 294** vẽ bốn đường ATC, AFC, AVC, MC. Sách rút ra **ba đặc điểm chung của mọi doanh
 nghiệp** (tr. 297):
+
+![Hình 4 — tr. 294, bản chụp giáo trình](../tai_lieu/hinh/ch13-hinh-04-tr294.png)
 
 > - Sớm muộn gì thì **chi phí biên cũng sẽ tăng** khi sản lượng đầu ra tăng.
 > - **Đường tổng chi phí bình quân có dạng hình chữ U.**
@@ -366,6 +378,8 @@ Nên **Hình 5 (tr. 297)** vẽ đường chi phí điển hình hơn: MC **gi�
 vậy. Nhưng **ba đặc điểm ở trên vẫn đúng**.
 ---
 
+![Hình 5 — tr. 297, bản chụp giáo trình](../tai_lieu/hinh/ch13-hinh-05-tr297.png)
+
 ## 8. Ngắn hạn và dài hạn — ranh giới cố định/biến đổi là ranh giới THỜI GIAN
 
 Đây là ý mà sinh viên hay bỏ qua, nhưng nó quyết định cách đọc mọi con số chi phí:
@@ -382,6 +396,8 @@ Ví dụ **Ford Motor** của sách (tr. 297–298):
 
 **Hình 6, tr. 298** vẽ ba đường ATC ngắn hạn (nhà máy nhỏ, trung bình, lớn) cùng một đường **ATC dài
 hạn**. Hai tính chất:
+
+![Hình 6 — tr. 298, bản chụp giáo trình](../tai_lieu/hinh/ch13-hinh-06-tr298.png)
 
 ```
    ① ATC DÀI HẠN có dạng chữ U PHẲNG HƠN NHIỀU so với ngắn hạn
@@ -517,6 +533,8 @@ riêng, đội ngũ biên chế đông) có **đòn bẩy hoạt động cao** �
 ---
 
 ## 11. Bảng 3 — tóm tắt toàn bộ từ vựng chi phí
+
+![Bảng 3 — tr. 301, bản chụp giáo trình](../tai_lieu/hinh/ch13-bang-03-tr301.png)
 
 | Thuật ngữ                        | Định nghĩa                                | Công thức                   |
 | -------------------------------- | ----------------------------------------- | --------------------------- |
@@ -1192,22 +1210,22 @@ Cột tiếng Anh lấy từ mục **Khái niệm then chốt** của sách (tr.
 
 **Bản đồ khoá học**
 
-|     # | Bài                                                                                    | Chương sách | Ưu tiên |
-| ----: | -------------------------------------------------------------------------------------- | ----------- | :-----: |
-|     1 | [Mười nguyên lý và tư duy kinh tế](bai_01_muoi_nguyen_ly_va_tu_duy_kinh_te.md)         | ch. 1–2     |    🎯    |
-|     2 | [Cung và cầu](bai_02_cung_va_cau.md)                                                   | ch. 4       |    🎯    |
-|     3 | [Độ co giãn và định giá](bai_03_do_co_gian_va_dinh_gia.md)                             | ch. 5       |   🎯⭐    |
-|     4 | [Thặng dư và chi phí của thuế](bai_04_thang_du_va_chi_phi_cua_thue.md)                 | ch. 7–8     |    🔸    |
-| **5** | **Chi phí sản xuất** ← *bạn đang ở đây*                                                | ch. 13      |    🎯    |
-|     6 | [Doanh nghiệp trên thị trường cạnh tranh](bai_06_thi_truong_canh_tranh.md)             | ch. 14      |    🎯    |
-|     7 | [Độc quyền và phân biệt giá](bai_07_doc_quyen_va_phan_biet_gia.md)                     | ch. 15      |    🎯    |
-|     8 | [Cạnh tranh độc quyền và thương hiệu](bai_08_canh_tranh_doc_quyen.md)                  | ch. 16      |    🎯    |
-|     9 | [Độc quyền nhóm và lý thuyết trò chơi](bai_09_doc_quyen_nhom_va_ly_thuyet_tro_choi.md) | ch. 17      |    🎯    |
-|    10 | [Lựa chọn của người tiêu dùng](bai_10_lua_chon_cua_nguoi_tieu_dung.md)                 | ch. 21      |    🎯    |
-|    11 | [Thông tin bất cân xứng và hành vi](bai_11_thong_tin_bat_can_xung.md)                  | ch. 22      |    🎯    |
-|    12 | [Lao động, tiền lương, bất bình đẳng](bai_12_thi_truong_lao_dong.md)                   | ch. 18–20   |    🔸    |
-|    13 | [Chính phủ can thiệp thị trường](bai_13_chinh_phu_can_thiep_thi_truong.md)             | ch. 6, 12   |    🔸    |
-|    14 | [Thương mại, ngoại tác, hàng hoá công](bai_14_thuong_mai_ngoai_tac_hang_hoa_cong.md)   | ch. 3, 9–11 |    🔸    |
+| # | Bài | Chương sách | Ưu tiên |
+| ---: | --- | --- | :---: |
+| 1 | [Mười nguyên lý và tư duy kinh tế](bai_01_muoi_nguyen_ly_va_tu_duy_kinh_te.md) | ch. 1–2 | 🎯 |
+| 2 | [Cung và cầu](bai_02_cung_va_cau.md) | ch. 4 | 🎯 |
+| 3 | [Độ co giãn và định giá](bai_03_do_co_gian_va_dinh_gia.md) | ch. 5 | 🎯⭐ |
+| 4 | [Thặng dư và chi phí của thuế](bai_04_thang_du_va_chi_phi_cua_thue.md) | ch. 7–8 | 🔸 |
+| **5** | **Chi phí sản xuất** ← *bạn đang ở đây* | ch. 13 | 🎯 |
+| 6 | [Doanh nghiệp trên thị trường cạnh tranh](bai_06_thi_truong_canh_tranh.md) | ch. 14 | 🎯 |
+| 7 | [Độc quyền và phân biệt giá](bai_07_doc_quyen_va_phan_biet_gia.md) | ch. 15 | 🎯 |
+| 8 | [Cạnh tranh độc quyền và thương hiệu](bai_08_canh_tranh_doc_quyen.md) | ch. 16 | 🎯 |
+| 9 | [Độc quyền nhóm và lý thuyết trò chơi](bai_09_doc_quyen_nhom_va_ly_thuyet_tro_choi.md) | ch. 17 | 🎯 |
+| 10 | [Lựa chọn của người tiêu dùng](bai_10_lua_chon_cua_nguoi_tieu_dung.md) | ch. 21 | 🎯 |
+| 11 | [Thông tin bất cân xứng và hành vi](bai_11_thong_tin_bat_can_xung.md) | ch. 22 | 🎯 |
+| 12 | [Lao động, tiền lương, bất bình đẳng](bai_12_thi_truong_lao_dong.md) | ch. 18–20 | 🔸 |
+| 13 | [Chính phủ can thiệp thị trường](bai_13_chinh_phu_can_thiep_thi_truong.md) | ch. 6, 12 | 🔸 |
+| 14 | [Thương mại, ngoại tác, hàng hoá công](bai_14_thuong_mai_ngoai_tac_hang_hoa_cong.md) | ch. 3, 9–11 | 🔸 |
 
 🎯 vòng 1 — học kỹ · 🔸 vòng 2 — đọc hiểu · ⭐ chương quan trọng nhất với QTKD
 

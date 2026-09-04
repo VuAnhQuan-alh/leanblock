@@ -84,6 +84,8 @@ Hai định nghĩa (chú thích tr. 310–311):
 **Bảng 1, tr. 311** cho thấy cả hai đều bằng **6 đô la** ở mọi mức sản lượng. Sách rút ra hai kết luận
 với **phạm vi áp dụng khác nhau** — chỗ này rất dễ nhầm:
 
+![Bảng 1 — tr. 311, bản chụp giáo trình](../tai_lieu/hinh/ch14-bang-01-tr311.png)
+
 | Kết luận                                         | Áp dụng cho                             |
 | ------------------------------------------------ | --------------------------------------- |
 | $AR = \dfrac{TR}{Q} = \dfrac{P \times Q}{Q} = P$ | ⭐ **MỌI doanh nghiệp**, kể cả độc quyền |
@@ -99,7 +101,11 @@ $MR < P$. Đó là toàn bộ khác biệt giữa bài này và **bài 7**.
 
 ## 3. Tối đa hoá lợi nhuận — hai cách nhìn, một đáp án
 
+![Hình 1 — tr. 313, bản chụp giáo trình](../tai_lieu/hinh/ch14-hinh-01-tr313.png)
+
 **Bảng 2, tr. 312** — chi phí cố định 3 đô la:
+
+![Bảng 2 — tr. 312, bản chụp giáo trình](../tai_lieu/hinh/ch14-bang-02-tr312.png)
 
 |     Q |   TR |   TC | **Lợi nhuận** | *MR* | *MC* | *ΔLợi nhuận* |
 | ----: | ---: | ---: | ------------: | ---: | ---: | -----------: |
@@ -164,6 +170,8 @@ qua nó thì lợi nhuận **giảm**. Đây là ứng dụng trực tiếp củ
 **Hình 2, tr. 314**: giá thị trường tăng từ $P_1$ lên $P_2$. Doanh nghiệp đang ở $Q_1$ (nơi $MC = P_1$)
 nhận thấy giờ $MR > MC$, nên **tăng sản lượng** tới $Q_2$ (nơi $MC = P_2$).
 
+![Hình 2 — tr. 314, bản chụp giáo trình](../tai_lieu/hinh/ch14-hinh-02-tr314.png)
+
 Sách phát biểu kết luận bằng câu in nghiêng (tr. 315):
 
 > *"Về bản chất, bởi vì **đường chi phí biên xác định mức sản lượng của hàng hoá mà doanh nghiệp sẵn
@@ -214,6 +222,8 @@ tục sản xuất mà lỗ nặng hơn"* (tr. 316).
 
 > ⭐ *"**Đường cung ngắn hạn của doanh nghiệp cạnh tranh là một phần của đường chi phí biên, phần nằm
 > trên đường chi phí biến đổi bình quân.**"* (tr. 316, Hình 3 tr. 317)
+
+![Hình 3 — tr. 317, bản chụp giáo trình](../tai_lieu/hinh/ch14-hinh-03-tr317.png)
 
 ---
 
@@ -277,6 +287,8 @@ $$\boxed{\text{Gia nhập nếu } P > ATC}$$
 > ⭐ *"**Đường cung của doanh nghiệp cạnh tranh trong dài hạn là một phần của đường chi phí biên, phần
 > nằm trên đường tổng chi phí bình quân.**"* (tr. 319, Hình 4)
 
+![Hình 4 — tr. 319, bản chụp giáo trình](../tai_lieu/hinh/ch14-hinh-04-tr319.png)
+
 ### Ba ngưỡng, tóm lại
 
 ```
@@ -301,6 +313,8 @@ Biến đổi đơn giản nhưng rất hữu dụng (tr. 319):
 $$\text{Lợi nhuận} = TR - TC = \left(\frac{TR}{Q} - \frac{TC}{Q}\right) \times Q = \boxed{(P - ATC) \times Q}$$
 
 **Hình 5, tr. 320:**
+
+![Hình 5 — tr. 320, bản chụp giáo trình](../tai_lieu/hinh/ch14-hinh-05-tr320.png)
 
 ```
    chiều cao  =  P − ATC     (chênh lệch giữa giá và chi phí bình quân)
@@ -337,6 +351,8 @@ Nếu $P > AVC$, cắt sản lượng chỉ làm **lỗ nặng hơn**.
 ```
 
 Sách phát biểu bằng câu in nghiêng (tr. 322):
+
+![Hình 7 — tr. 322, bản chụp giáo trình](../tai_lieu/hinh/ch14-hinh-07-tr322.png)
 
 > *"**Kết thúc quá trình gia nhập hay rời khỏi thị trường này, những doanh nghiệp vẫn còn ở trên thị
 > trường sẽ có mức lợi nhuận kinh tế bằng 0.**"*
@@ -405,6 +421,8 @@ phương án tốt nhất kế tiếp của mình** — không hơn, không kém
 ## 11. Cầu tăng: ngắn hạn giá lên, dài hạn số doanh nghiệp lên
 
 **Hình 8, tr. 325** kể một câu chuyện ba hồi. Đây là **mẫu phân tích** dùng lại được cho mọi cú sốc cầu:
+
+![Hình 8 — tr. 325, bản chụp giáo trình](../tai_lieu/hinh/ch14-hinh-08-tr325.png)
 
 | Giai đoạn                        | Chuyện gì xảy ra                                                                            | Giá              | Lợi nhuận |
 | -------------------------------- | ------------------------------------------------------------------------------------------- | ---------------- | --------- |
@@ -1158,22 +1176,22 @@ $$\text{Rời bỏ nếu } P < ATC \qquad \text{(dài hạn)}$$
 
 **Bản đồ khoá học**
 
-|     # | Bài                                                                                    | Chương sách | Ưu tiên |
-| ----: | -------------------------------------------------------------------------------------- | ----------- | :-----: |
-|     1 | [Mười nguyên lý và tư duy kinh tế](bai_01_muoi_nguyen_ly_va_tu_duy_kinh_te.md)         | ch. 1–2     |    🎯    |
-|     2 | [Cung và cầu](bai_02_cung_va_cau.md)                                                   | ch. 4       |    🎯    |
-|     3 | [Độ co giãn và định giá](bai_03_do_co_gian_va_dinh_gia.md)                             | ch. 5       |   🎯⭐    |
-|     4 | [Thặng dư và chi phí của thuế](bai_04_thang_du_va_chi_phi_cua_thue.md)                 | ch. 7–8     |    🔸    |
-|     5 | [Chi phí sản xuất](bai_05_chi_phi_san_xuat.md)                                         | ch. 13      |    🎯    |
-| **6** | **Doanh nghiệp trên thị trường cạnh tranh** ← *bạn đang ở đây*                         | ch. 14      |    🎯    |
-|     7 | [Độc quyền và phân biệt giá](bai_07_doc_quyen_va_phan_biet_gia.md)                     | ch. 15      |    🎯    |
-|     8 | [Cạnh tranh độc quyền và thương hiệu](bai_08_canh_tranh_doc_quyen.md)                  | ch. 16      |    🎯    |
-|     9 | [Độc quyền nhóm và lý thuyết trò chơi](bai_09_doc_quyen_nhom_va_ly_thuyet_tro_choi.md) | ch. 17      |    🎯    |
-|    10 | [Lựa chọn của người tiêu dùng](bai_10_lua_chon_cua_nguoi_tieu_dung.md)                 | ch. 21      |    🎯    |
-|    11 | [Thông tin bất cân xứng và hành vi](bai_11_thong_tin_bat_can_xung.md)                  | ch. 22      |    🎯    |
-|    12 | [Lao động, tiền lương, bất bình đẳng](bai_12_thi_truong_lao_dong.md)                   | ch. 18–20   |    🔸    |
-|    13 | [Chính phủ can thiệp thị trường](bai_13_chinh_phu_can_thiep_thi_truong.md)             | ch. 6, 12   |    🔸    |
-|    14 | [Thương mại, ngoại tác, hàng hoá công](bai_14_thuong_mai_ngoai_tac_hang_hoa_cong.md)   | ch. 3, 9–11 |    🔸    |
+| # | Bài | Chương sách | Ưu tiên |
+| ---: | --- | --- | :---: |
+| 1 | [Mười nguyên lý và tư duy kinh tế](bai_01_muoi_nguyen_ly_va_tu_duy_kinh_te.md) | ch. 1–2 | 🎯 |
+| 2 | [Cung và cầu](bai_02_cung_va_cau.md) | ch. 4 | 🎯 |
+| 3 | [Độ co giãn và định giá](bai_03_do_co_gian_va_dinh_gia.md) | ch. 5 | 🎯⭐ |
+| 4 | [Thặng dư và chi phí của thuế](bai_04_thang_du_va_chi_phi_cua_thue.md) | ch. 7–8 | 🔸 |
+| 5 | [Chi phí sản xuất](bai_05_chi_phi_san_xuat.md) | ch. 13 | 🎯 |
+| **6** | **Doanh nghiệp trên thị trường cạnh tranh** ← *bạn đang ở đây* | ch. 14 | 🎯 |
+| 7 | [Độc quyền và phân biệt giá](bai_07_doc_quyen_va_phan_biet_gia.md) | ch. 15 | 🎯 |
+| 8 | [Cạnh tranh độc quyền và thương hiệu](bai_08_canh_tranh_doc_quyen.md) | ch. 16 | 🎯 |
+| 9 | [Độc quyền nhóm và lý thuyết trò chơi](bai_09_doc_quyen_nhom_va_ly_thuyet_tro_choi.md) | ch. 17 | 🎯 |
+| 10 | [Lựa chọn của người tiêu dùng](bai_10_lua_chon_cua_nguoi_tieu_dung.md) | ch. 21 | 🎯 |
+| 11 | [Thông tin bất cân xứng và hành vi](bai_11_thong_tin_bat_can_xung.md) | ch. 22 | 🎯 |
+| 12 | [Lao động, tiền lương, bất bình đẳng](bai_12_thi_truong_lao_dong.md) | ch. 18–20 | 🔸 |
+| 13 | [Chính phủ can thiệp thị trường](bai_13_chinh_phu_can_thiep_thi_truong.md) | ch. 6, 12 | 🔸 |
+| 14 | [Thương mại, ngoại tác, hàng hoá công](bai_14_thuong_mai_ngoai_tac_hang_hoa_cong.md) | ch. 3, 9–11 | 🔸 |
 
 🎯 vòng 1 — học kỹ · 🔸 vòng 2 — đọc hiểu · ⭐ chương quan trọng nhất với QTKD
 

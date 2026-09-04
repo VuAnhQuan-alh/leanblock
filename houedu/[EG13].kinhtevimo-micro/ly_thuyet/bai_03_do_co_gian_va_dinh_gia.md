@@ -204,6 +204,8 @@ Quy tắc liên hệ với hình dạng (tr. 107):
 **Hình 1, tr. 107** minh hoạ cả năm, tất cả đều dùng cùng một cú tăng giá từ **4 lên 5 đô la** (tăng
 **22%** theo phương pháp trung điểm):
 
+![Hình 1 — tr. 107, bản chụp giáo trình](../tai_lieu/hinh/ch05-hinh-01-tr107.png)
+
 | Hình | Trường hợp              | Lượng                                                                                             | %Δ lượng |
 | ---- | ----------------------- | ------------------------------------------------------------------------------------------------- | -------: |
 | (a)  | hoàn toàn không co giãn | 100 → 100                                                                                         |       0% |
@@ -261,6 +263,8 @@ $$TR = P \times Q$$
 Trên đồ thị, đó là **diện tích hình chữ nhật** dưới đường cầu: chiều cao $P$, chiều rộng $Q$
 (Hình 2, tr. 109 — với $P = 4$ và $Q = 100$ thì $TR = 400$ đô la).
 
+![Hình 2 — tr. 109, bản chụp giáo trình](../tai_lieu/hinh/ch05-hinh-02-tr109.png)
+
 Khi giá tăng, **hai lực đối nghịch nhau** tác động lên doanh thu:
 
 ```
@@ -272,6 +276,8 @@ Khi giá tăng, **hai lực đối nghịch nhau** tác động lên doanh thu:
 ```
 
 **Hình 3, tr. 109** so hai trường hợp, cùng cú tăng giá từ 4 lên 5 đô la:
+
+![Hình 3 — tr. 109, bản chụp giáo trình](../tai_lieu/hinh/ch05-hinh-03-tr109.png)
 
 |                       | Lượng        | Tổng doanh thu      | Kết quả                    |
 | --------------------- | ------------ | ------------------- | -------------------------- |
@@ -312,6 +318,8 @@ Sách giải thích vì sao (tr. 111):
 > là tỷ lệ phần trăm thay đổi** (hay tỷ lệ thay đổi tương đối) giữa hai biến."*
 
 **Hình 4, tr. 110** — đường cầu $Q = 14 - 2P$ (mỗi 1 đô la giảm giá làm lượng cầu tăng 2 đơn vị):
+
+![Hình 4 — tr. 110, bản chụp giáo trình](../tai_lieu/hinh/ch05-hinh-04-tr110.png)
 
 |  Giá | Lượng | Tổng doanh thu | %Δ giá | %Δ lượng | Độ co giãn | Mô tả              |
 | ---: | ----: | -------------: | -----: | -------: | ---------: | ------------------ |
@@ -435,6 +443,8 @@ $$\text{Độ co giãn của cung} = \frac{20\%}{10\%} = \mathbf{2{,}0}$$
 
 **Hình 5, tr. 114** — cùng cấu trúc với Hình 1, cùng cú tăng giá 4 → 5 đô la (**22%**):
 
+![Hình 5 — tr. 114, bản chụp giáo trình](../tai_lieu/hinh/ch05-hinh-05-tr114.png)
+
 | Hình | Trường hợp                         | Lượng                                                                                        | %Δ lượng |
 | ---- | ---------------------------------- | -------------------------------------------------------------------------------------------- | -------: |
 | (a)  | hoàn toàn không co giãn ($e = 0$)  | 100 → 100                                                                                    |       0% |
@@ -447,6 +457,8 @@ $$\text{Độ co giãn của cung} = \frac{20\%}{10\%} = \mathbf{2{,}0}$$
 
 **Hình 6, tr. 115** cho một trường hợp *"điển hình cho một ngành, trong đó các công ty có nhà máy với
 công suất sản xuất hạn chế"* — và đây là phần rất sát thực tế sản xuất:
+
+![Hình 6 — tr. 115, bản chụp giáo trình](../tai_lieu/hinh/ch05-hinh-06-tr115.png)
 
 ```
    SẢN LƯỢNG THẤP  (còn nhà máy, thiết bị nhàn rỗi)
@@ -484,6 +496,8 @@ Dùng ba bước của [bài 2](bai_02_cung_va_cau.md#12-ba-bước-phân-tích-
 | ①    | Giống lai tác động vào **đường cung**. Cầu **không đổi** — *"nhu cầu về lúa mì của người tiêu dùng ở bất cứ mức giá nào được cho là không bị ảnh hưởng bởi sự ra đời của một giống lai mới"* |
 | ②    | Sản xuất được nhiều hơn trên mỗi acre → cung dịch **sang phải**, $S_1 \to S_2$                                                                                                               |
 | ③    | **Hình 7, tr. 116**: lượng bán tăng từ **100 lên 110**, giá giảm từ **3 xuống 2 đô la**                                                                                                      |
+
+![Hình 7 — tr. 116, bản chụp giáo trình](../tai_lieu/hinh/ch05-hinh-07-tr116.png)
 
 Bây giờ tính tổng doanh thu của nông dân:
 
@@ -569,6 +583,8 @@ toàn bộ nội dung **bài 8**.
 Vì sao thành công trong ngắn hạn mà thất bại trong dài hạn? Toàn bộ nằm ở **độ co giãn thay đổi theo
 thời gian** (Hình 8, tr. 119):
 
+![Hình 8 — tr. 119, bản chụp giáo trình](../tai_lieu/hinh/ch05-hinh-08-tr119.png)
+
 ```
    NGẮN HẠN — cả cung và cầu đều ÍT CO GIÃN (hai đường đều RẤT DỐC)
       cung không co giãn: dự trữ và khả năng khai thác không đổi nhanh được
@@ -610,6 +626,8 @@ số phận doanh nghiệp là cái thứ hai.
 
 Bối cảnh (tr. 119–121): người nghiện thường phạm tội (trộm cắp) để có tiền mua ma tuý. So sánh **hai
 chính sách** cùng nhằm giảm sử dụng ma tuý (**Hình 9, tr. 121**):
+
+![Hình 9 — tr. 121, bản chụp giáo trình](../tai_lieu/hinh/ch05-hinh-09-tr121.png)
 
 |                                        | (a) **Ngăn cấm** — tăng cường tuần tra, bắt giữ | (b) **Giáo dục** về tác hại   |
 | -------------------------------------- | ----------------------------------------------- | ----------------------------- |
@@ -1356,22 +1374,22 @@ quét 300 dpi. Lỗi sắp chữ, không đổi nội dung.
 
 **Bản đồ khoá học**
 
-|     # | Bài                                                                                    | Chương sách | Ưu tiên |
-| ----: | -------------------------------------------------------------------------------------- | ----------- | :-----: |
-|     1 | [Mười nguyên lý và tư duy kinh tế](bai_01_muoi_nguyen_ly_va_tu_duy_kinh_te.md)         | ch. 1–2     |    🎯    |
-|     2 | [Cung và cầu](bai_02_cung_va_cau.md)                                                   | ch. 4       |    🎯    |
-| **3** | **Độ co giãn và định giá** ← *bạn đang ở đây*                                          | ch. 5       |   🎯⭐    |
-|     4 | [Thặng dư và chi phí của thuế](bai_04_thang_du_va_chi_phi_cua_thue.md)                 | ch. 7–8     |    🔸    |
-|     5 | [Chi phí sản xuất](bai_05_chi_phi_san_xuat.md)                                         | ch. 13      |    🎯    |
-|     6 | [Doanh nghiệp trên thị trường cạnh tranh](bai_06_thi_truong_canh_tranh.md)             | ch. 14      |    🎯    |
-|     7 | [Độc quyền và phân biệt giá](bai_07_doc_quyen_va_phan_biet_gia.md)                     | ch. 15      |    🎯    |
-|     8 | [Cạnh tranh độc quyền và thương hiệu](bai_08_canh_tranh_doc_quyen.md)                  | ch. 16      |    🎯    |
-|     9 | [Độc quyền nhóm và lý thuyết trò chơi](bai_09_doc_quyen_nhom_va_ly_thuyet_tro_choi.md) | ch. 17      |    🎯    |
-|    10 | [Lựa chọn của người tiêu dùng](bai_10_lua_chon_cua_nguoi_tieu_dung.md)                 | ch. 21      |    🎯    |
-|    11 | [Thông tin bất cân xứng và hành vi](bai_11_thong_tin_bat_can_xung.md)                  | ch. 22      |    🎯    |
-|    12 | [Lao động, tiền lương, bất bình đẳng](bai_12_thi_truong_lao_dong.md)                   | ch. 18–20   |    🔸    |
-|    13 | [Chính phủ can thiệp thị trường](bai_13_chinh_phu_can_thiep_thi_truong.md)             | ch. 6, 12   |    🔸    |
-|    14 | [Thương mại, ngoại tác, hàng hoá công](bai_14_thuong_mai_ngoai_tac_hang_hoa_cong.md)   | ch. 3, 9–11 |    🔸    |
+| # | Bài | Chương sách | Ưu tiên |
+| ---: | --- | --- | :---: |
+| 1 | [Mười nguyên lý và tư duy kinh tế](bai_01_muoi_nguyen_ly_va_tu_duy_kinh_te.md) | ch. 1–2 | 🎯 |
+| 2 | [Cung và cầu](bai_02_cung_va_cau.md) | ch. 4 | 🎯 |
+| **3** | **Độ co giãn và định giá** ← *bạn đang ở đây* | ch. 5 | 🎯⭐ |
+| 4 | [Thặng dư và chi phí của thuế](bai_04_thang_du_va_chi_phi_cua_thue.md) | ch. 7–8 | 🔸 |
+| 5 | [Chi phí sản xuất](bai_05_chi_phi_san_xuat.md) | ch. 13 | 🎯 |
+| 6 | [Doanh nghiệp trên thị trường cạnh tranh](bai_06_thi_truong_canh_tranh.md) | ch. 14 | 🎯 |
+| 7 | [Độc quyền và phân biệt giá](bai_07_doc_quyen_va_phan_biet_gia.md) | ch. 15 | 🎯 |
+| 8 | [Cạnh tranh độc quyền và thương hiệu](bai_08_canh_tranh_doc_quyen.md) | ch. 16 | 🎯 |
+| 9 | [Độc quyền nhóm và lý thuyết trò chơi](bai_09_doc_quyen_nhom_va_ly_thuyet_tro_choi.md) | ch. 17 | 🎯 |
+| 10 | [Lựa chọn của người tiêu dùng](bai_10_lua_chon_cua_nguoi_tieu_dung.md) | ch. 21 | 🎯 |
+| 11 | [Thông tin bất cân xứng và hành vi](bai_11_thong_tin_bat_can_xung.md) | ch. 22 | 🎯 |
+| 12 | [Lao động, tiền lương, bất bình đẳng](bai_12_thi_truong_lao_dong.md) | ch. 18–20 | 🔸 |
+| 13 | [Chính phủ can thiệp thị trường](bai_13_chinh_phu_can_thiep_thi_truong.md) | ch. 6, 12 | 🔸 |
+| 14 | [Thương mại, ngoại tác, hàng hoá công](bai_14_thuong_mai_ngoai_tac_hang_hoa_cong.md) | ch. 3, 9–11 | 🔸 |
 
 🎯 vòng 1 — học kỹ · 🔸 vòng 2 — đọc hiểu · ⭐ chương quan trọng nhất với QTKD
 

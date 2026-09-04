@@ -55,6 +55,8 @@ Sách mở chương bằng lời thừa nhận rằng hai chương trước là 
 
 **Hình 1, tr. 372** — cây quyết định hai câu hỏi:
 
+![Hình 1 — tr. 372, bản chụp giáo trình](../tai_lieu/hinh/ch16-hinh-01-tr372.png)
+
 ```
                     Số lượng doanh nghiệp?
                               │
@@ -141,6 +143,8 @@ Vì đường cầu dốc xuống, doanh nghiệp cạnh tranh độc quyền d�
 
 **Hình 2, tr. 374** cho hai kết cục ngắn hạn:
 
+![Hình 2 — tr. 374, bản chụp giáo trình](../tai_lieu/hinh/ch16-hinh-02-tr374.png)
+
 |           | Quan hệ   | Kết quả                                                      |
 | --------- | --------- | ------------------------------------------------------------ |
 | Hình 2(a) | $P > ATC$ | **có lợi nhuận**                                             |
@@ -179,6 +183,8 @@ ra cho nhiều lựa chọn hơn.
 **Hình 3, tr. 375**: ở cân bằng dài hạn, đường cầu **vừa chạm** đường ATC. Sách giải thích vì sao **bắt
 buộc** phải như vậy:
 
+![Hình 3 — tr. 375, bản chụp giáo trình](../tai_lieu/hinh/ch16-hinh-03-tr375.png)
+
 > *"Do lợi nhuận trên mỗi đơn vị sản phẩm bán được chính là phần chênh lệch giữa giá bán (được xác định
 > trên đường cầu) và tổng chi phí bình quân, lợi nhuận tối đa bằng 0 chỉ khi hai đường này **chạm nhau
 > nhưng không cắt nhau**."*
@@ -208,6 +214,8 @@ $-3$), và $MR = MC$ cũng xảy ra đúng tại đó.
 ## 5. So với cạnh tranh hoàn hảo — hai khác biệt
 
 **Hình 4, tr. 376** đặt hai cân bằng dài hạn cạnh nhau.
+
+![Hình 4 — tr. 376, bản chụp giáo trình](../tai_lieu/hinh/ch16-hinh-04-tr376.png)
 
 ### ⭐ Khác biệt ① — Dư thừa năng lực sản xuất
 
@@ -1296,22 +1304,22 @@ $$\frac{P - MC}{P} = \frac{1}{|e|}$$
 
 **Bản đồ khoá học**
 
-|     # | Bài                                                                                    | Chương sách | Ưu tiên |
-| ----: | -------------------------------------------------------------------------------------- | ----------- | :-----: |
-|     1 | [Mười nguyên lý và tư duy kinh tế](bai_01_muoi_nguyen_ly_va_tu_duy_kinh_te.md)         | ch. 1–2     |    🎯    |
-|     2 | [Cung và cầu](bai_02_cung_va_cau.md)                                                   | ch. 4       |    🎯    |
-|     3 | [Độ co giãn và định giá](bai_03_do_co_gian_va_dinh_gia.md)                             | ch. 5       |   🎯⭐    |
-|     4 | [Thặng dư và chi phí của thuế](bai_04_thang_du_va_chi_phi_cua_thue.md)                 | ch. 7–8     |    🔸    |
-|     5 | [Chi phí sản xuất](bai_05_chi_phi_san_xuat.md)                                         | ch. 13      |    🎯    |
-|     6 | [Doanh nghiệp trên thị trường cạnh tranh](bai_06_thi_truong_canh_tranh.md)             | ch. 14      |    🎯    |
-|     7 | [Độc quyền và phân biệt giá](bai_07_doc_quyen_va_phan_biet_gia.md)                     | ch. 15      |    🎯    |
-| **8** | **Cạnh tranh độc quyền và thương hiệu** ← *bạn đang ở đây*                             | ch. 16      |    🎯    |
-|     9 | [Độc quyền nhóm và lý thuyết trò chơi](bai_09_doc_quyen_nhom_va_ly_thuyet_tro_choi.md) | ch. 17      |    🎯    |
-|    10 | [Lựa chọn của người tiêu dùng](bai_10_lua_chon_cua_nguoi_tieu_dung.md)                 | ch. 21      |    🎯    |
-|    11 | [Thông tin bất cân xứng và hành vi](bai_11_thong_tin_bat_can_xung.md)                  | ch. 22      |    🎯    |
-|    12 | [Lao động, tiền lương, bất bình đẳng](bai_12_thi_truong_lao_dong.md)                   | ch. 18–20   |    🔸    |
-|    13 | [Chính phủ can thiệp thị trường](bai_13_chinh_phu_can_thiep_thi_truong.md)             | ch. 6, 12   |    🔸    |
-|    14 | [Thương mại, ngoại tác, hàng hoá công](bai_14_thuong_mai_ngoai_tac_hang_hoa_cong.md)   | ch. 3, 9–11 |    🔸    |
+| # | Bài | Chương sách | Ưu tiên |
+| ---: | --- | --- | :---: |
+| 1 | [Mười nguyên lý và tư duy kinh tế](bai_01_muoi_nguyen_ly_va_tu_duy_kinh_te.md) | ch. 1–2 | 🎯 |
+| 2 | [Cung và cầu](bai_02_cung_va_cau.md) | ch. 4 | 🎯 |
+| 3 | [Độ co giãn và định giá](bai_03_do_co_gian_va_dinh_gia.md) | ch. 5 | 🎯⭐ |
+| 4 | [Thặng dư và chi phí của thuế](bai_04_thang_du_va_chi_phi_cua_thue.md) | ch. 7–8 | 🔸 |
+| 5 | [Chi phí sản xuất](bai_05_chi_phi_san_xuat.md) | ch. 13 | 🎯 |
+| 6 | [Doanh nghiệp trên thị trường cạnh tranh](bai_06_thi_truong_canh_tranh.md) | ch. 14 | 🎯 |
+| 7 | [Độc quyền và phân biệt giá](bai_07_doc_quyen_va_phan_biet_gia.md) | ch. 15 | 🎯 |
+| **8** | **Cạnh tranh độc quyền và thương hiệu** ← *bạn đang ở đây* | ch. 16 | 🎯 |
+| 9 | [Độc quyền nhóm và lý thuyết trò chơi](bai_09_doc_quyen_nhom_va_ly_thuyet_tro_choi.md) | ch. 17 | 🎯 |
+| 10 | [Lựa chọn của người tiêu dùng](bai_10_lua_chon_cua_nguoi_tieu_dung.md) | ch. 21 | 🎯 |
+| 11 | [Thông tin bất cân xứng và hành vi](bai_11_thong_tin_bat_can_xung.md) | ch. 22 | 🎯 |
+| 12 | [Lao động, tiền lương, bất bình đẳng](bai_12_thi_truong_lao_dong.md) | ch. 18–20 | 🔸 |
+| 13 | [Chính phủ can thiệp thị trường](bai_13_chinh_phu_can_thiep_thi_truong.md) | ch. 6, 12 | 🔸 |
+| 14 | [Thương mại, ngoại tác, hàng hoá công](bai_14_thuong_mai_ngoai_tac_hang_hoa_cong.md) | ch. 3, 9–11 | 🔸 |
 
 🎯 vòng 1 — học kỹ · 🔸 vòng 2 — đọc hiểu · ⭐ chương quan trọng nhất với QTKD
 

@@ -78,6 +78,8 @@ Và định nghĩa cái mà cả ba chương xoay quanh (tr. 422):
 toàn **bắt nguồn** từ cầu về táo. Sách viết ở tr. 423: *"Cầu của một doanh nghiệp đối với các yếu tố
 sản xuất bắt nguồn từ quyết định cung ứng hàng hoá của doanh nghiệp đó ra thị trường."*
 
+![Hình 1 — tr. 423, bản chụp giáo trình](../tai_lieu/hinh/ch18-hinh-01-tr423.png)
+
 ---
 
 **PHẦN A — LƯƠNG TỪ ĐÂU RA** *(chương 18, tr. 421–443)*
@@ -98,6 +100,8 @@ Ba định nghĩa nối tiếp nhau (tr. 425–426):
 > với giá thị trường của đầu ra**.
 
 **Bảng 1, tr. 424** in năm dòng số. Nhìn cột sản lượng là thấy ngay hàm sản xuất đứng sau nó:
+
+![Bảng 1 — tr. 424, bản chụp giáo trình](../tai_lieu/hinh/ch18-bang-01-tr424.png)
 
 $$Q(L) = 110L - 10L^2 \qquad\Longrightarrow\qquad MPL = 120 - 20L$$
 
@@ -178,6 +182,8 @@ Chương 18 nói ngắn về cung lao động vì nó đã được dựng đầ
 Ở cân bằng, mức lương làm **hai việc cùng lúc** — và sách thừa nhận ban đầu điều này nghe khó tin
 (tr. 431):
 
+![Hình 4 — tr. 431, bản chụp giáo trình](../tai_lieu/hinh/ch18-hinh-04-tr431.png)
+
 > - Mức lương thay đổi để cân bằng giữa cung và cầu lao động.
 > - Mức lương bằng với giá trị sản lượng biên của lao động.
 >
@@ -215,6 +221,8 @@ Nottingham năm 1813. Đó là khoảng cách giữa một mệnh đề kinh t�
 Đây là mục quan trọng nhất của chương 18 với người muốn hiểu vì sao mình được trả bao nhiêu.
 
 **Bảng 2, tr. 434:**
+
+![Bảng 2 — tr. 434, bản chụp giáo trình](../tai_lieu/hinh/ch18-bang-02-tr434.png)
 
 | Giai đoạn     | Tăng năng suất | Tăng lương thực | Chênh lệch |
 | ------------- | -------------: | --------------: | ---------: |
@@ -261,6 +269,8 @@ Sách phân biệt hai loại giá cho cùng một yếu tố (tr. 435):
 
 Và áp thẳng quy tắc của mục 2 sang đất và vốn (tr. 436): *"đối với cả đất và vốn, doanh nghiệp tăng số
 lượng thuê mướn cho đến khi giá trị sản lượng biên của một yếu tố bằng với giá của yếu tố đó."*
+
+![Hình 7 — tr. 436, bản chụp giáo trình](../tai_lieu/hinh/ch18-hinh-07-tr436.png)
 
 Câu in nghiêng ở tr. 436 là kết luận của cả chương 18:
 
@@ -318,6 +328,8 @@ người ta vẫn còn phải trả lương cho các giáo sư kinh tế học!)
 > qua công việc.
 
 **Bảng 1, tr. 448** — thu nhập bình quân theo trình độ, quy về đô la 2008:
+
+![Bảng 1 — tr. 448, bản chụp giáo trình](../tai_lieu/hinh/ch19-bang-01-tr448.png)
 
 | Nhóm     |  Năm | Hết phổ thông | Tốt nghiệp ĐH |    Chênh |
 | -------- | ---: | ------------: | ------------: | -------: |
@@ -450,6 +462,8 @@ cũng trả nợ cho một câu bỏ ngỏ ở [bài 11](bai_11_thong_tin_bat_ca
 
 **Bảng 2, tr. 454** — thu nhập trung vị hàng năm, 2008:
 
+![Bảng 2 — tr. 454, bản chụp giáo trình](../tai_lieu/hinh/ch19-bang-02-tr454.png)
+
 |          | Da trắng |  Da đen | Da đen thấp hơn |
 | -------- | -------: | ------: | --------------: |
 | Nam giới |  $47.370 | $37.253 |       **21,4%** |
@@ -575,6 +589,8 @@ Sách rút ra bài học ở tr. 460, và đây là câu nên nhớ:
 
 **PHẦN C — CHÊNH LỆCH DỒN LẠI THÀNH GÌ** *(chương 20, tr. 466–494)*
 
+![Bảng 1 — tr. 467, bản chụp giáo trình](../tai_lieu/hinh/ch20-bang-01-tr467.png)
+
 ---
 
 ## 15. Đo bất bình đẳng — bảng ngũ phân vị
@@ -586,6 +602,8 @@ Cách đo chuẩn: xếp mọi hộ gia đình theo thu nhập rồi chia thành
 và xem mỗi nhóm nhận bao nhiêu phần trăm tổng thu nhập.
 
 **Bảng 2, tr. 468** — tỷ trọng thu nhập, Hoa Kỳ:
+
+![Bảng 2 — tr. 468, bản chụp giáo trình](../tai_lieu/hinh/ch20-bang-02-tr468.png)
 
 |      Năm | Nghèo nhất | Thứ hai | Trung bình | Thứ tư | Giàu nhất | 5% giàu nhất |
 | -------: | ---------: | ------: | ---------: | -----: | --------: | -----------: |
@@ -663,7 +681,11 @@ vì thu nhập trung bình tăng hơn 50% trong giai đoạn đó. Sách dẫn K
 mọi con tàu cùng lên cao."* Nhưng từ 1970 tới nay tỷ lệ nghèo **không giảm thêm** dù thu nhập bình quân
 vẫn tăng — *"làn sóng nhô cao của nền kinh tế đã để lại một số con tàu phía sau."*
 
+![Hình 2 — tr. 470, bản chụp giáo trình](../tai_lieu/hinh/ch20-hinh-02-tr470.png)
+
 **Bảng 3, tr. 471** — nghèo không rơi đều:
+
+![Bảng 3 — tr. 471, bản chụp giáo trình](../tai_lieu/hinh/ch20-bang-03-tr471.png)
 
 | Nhóm                             | Tỷ lệ nghèo |
 | -------------------------------- | ----------: |
@@ -2434,22 +2456,22 @@ Trả lời rồi mới quay lại đối chiếu. Số trong ngoặc là mục 
 
 **Bản đồ khoá học**
 
-|      # | Bài                                                                                    | Chương sách | Ưu tiên |
-| -----: | -------------------------------------------------------------------------------------- | ----------- | :-----: |
-|      1 | [Mười nguyên lý và tư duy kinh tế](bai_01_muoi_nguyen_ly_va_tu_duy_kinh_te.md)         | ch. 1–2     |    🎯    |
-|      2 | [Cung và cầu](bai_02_cung_va_cau.md)                                                   | ch. 4       |    🎯    |
-|      3 | [Độ co giãn và định giá](bai_03_do_co_gian_va_dinh_gia.md)                             | ch. 5       |   🎯⭐    |
-|      4 | [Thặng dư và chi phí của thuế](bai_04_thang_du_va_chi_phi_cua_thue.md)                 | ch. 7–8     |    🔸    |
-|      5 | [Chi phí sản xuất](bai_05_chi_phi_san_xuat.md)                                         | ch. 13      |    🎯    |
-|      6 | [Doanh nghiệp trên thị trường cạnh tranh](bai_06_thi_truong_canh_tranh.md)             | ch. 14      |    🎯    |
-|      7 | [Độc quyền và phân biệt giá](bai_07_doc_quyen_va_phan_biet_gia.md)                     | ch. 15      |    🎯    |
-|      8 | [Cạnh tranh độc quyền và thương hiệu](bai_08_canh_tranh_doc_quyen.md)                  | ch. 16      |    🎯    |
-|      9 | [Độc quyền nhóm và lý thuyết trò chơi](bai_09_doc_quyen_nhom_va_ly_thuyet_tro_choi.md) | ch. 17      |    🎯    |
-|     10 | [Lựa chọn của người tiêu dùng](bai_10_lua_chon_cua_nguoi_tieu_dung.md)                 | ch. 21      |    🎯    |
-|     11 | [Thông tin bất cân xứng và hành vi](bai_11_thong_tin_bat_can_xung.md)                  | ch. 22      |    🎯    |
-| **12** | **Lao động, tiền lương, bất bình đẳng** ← *bạn đang ở đây*                             | ch. 18–20   |    🔸    |
-|     13 | [Chính phủ can thiệp thị trường](bai_13_chinh_phu_can_thiep_thi_truong.md)             | ch. 6, 12   |    🔸    |
-|     14 | [Thương mại, ngoại tác, hàng hoá công](bai_14_thuong_mai_ngoai_tac_hang_hoa_cong.md)   | ch. 3, 9–11 |    🔸    |
+| # | Bài | Chương sách | Ưu tiên |
+| ---: | --- | --- | :---: |
+| 1 | [Mười nguyên lý và tư duy kinh tế](bai_01_muoi_nguyen_ly_va_tu_duy_kinh_te.md) | ch. 1–2 | 🎯 |
+| 2 | [Cung và cầu](bai_02_cung_va_cau.md) | ch. 4 | 🎯 |
+| 3 | [Độ co giãn và định giá](bai_03_do_co_gian_va_dinh_gia.md) | ch. 5 | 🎯⭐ |
+| 4 | [Thặng dư và chi phí của thuế](bai_04_thang_du_va_chi_phi_cua_thue.md) | ch. 7–8 | 🔸 |
+| 5 | [Chi phí sản xuất](bai_05_chi_phi_san_xuat.md) | ch. 13 | 🎯 |
+| 6 | [Doanh nghiệp trên thị trường cạnh tranh](bai_06_thi_truong_canh_tranh.md) | ch. 14 | 🎯 |
+| 7 | [Độc quyền và phân biệt giá](bai_07_doc_quyen_va_phan_biet_gia.md) | ch. 15 | 🎯 |
+| 8 | [Cạnh tranh độc quyền và thương hiệu](bai_08_canh_tranh_doc_quyen.md) | ch. 16 | 🎯 |
+| 9 | [Độc quyền nhóm và lý thuyết trò chơi](bai_09_doc_quyen_nhom_va_ly_thuyet_tro_choi.md) | ch. 17 | 🎯 |
+| 10 | [Lựa chọn của người tiêu dùng](bai_10_lua_chon_cua_nguoi_tieu_dung.md) | ch. 21 | 🎯 |
+| 11 | [Thông tin bất cân xứng và hành vi](bai_11_thong_tin_bat_can_xung.md) | ch. 22 | 🎯 |
+| **12** | **Lao động, tiền lương, bất bình đẳng** ← *bạn đang ở đây* | ch. 18–20 | 🔸 |
+| 13 | [Chính phủ can thiệp thị trường](bai_13_chinh_phu_can_thiep_thi_truong.md) | ch. 6, 12 | 🔸 |
+| 14 | [Thương mại, ngoại tác, hàng hoá công](bai_14_thuong_mai_ngoai_tac_hang_hoa_cong.md) | ch. 3, 9–11 | 🔸 |
 
 🎯 vòng 1 — học kỹ · 🔸 vòng 2 — đọc hiểu · ⭐ chương quan trọng nhất với QTKD
 

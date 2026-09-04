@@ -96,6 +96,8 @@ Sách giữ mọi thứ ở mức nhỏ nhất có thể: **hai** hàng hoá, pi
 
 **Hình 1, tr. 497** in 11 dòng. Nhưng nhìn hai cột đầu là thấy ngay nó chỉ là một **phương trình bậc nhất**:
 
+![Hình 1 — tr. 497, bản chụp giáo trình](../tai_lieu/hinh/ch21-hinh-01-tr497.png)
+
 $$10 \times \text{pizza} + 2 \times \text{Pepsi} = 1000$$
 
 Code ở [mục 19](#19-code-minh-hoạ) dựng lại cả bảng và kiểm **11/11 dòng khớp**. Cột "Tổng" bằng đúng
@@ -128,6 +130,8 @@ bài toán. Nửa còn lại ở mục sau.
 > mức độ thoả mãn**.
 
 Và độ dốc của nó có tên riêng (tr. 498–499):
+
+![Hình 2 — tr. 498, bản chụp giáo trình](../tai_lieu/hinh/ch21-hinh-02-tr498.png)
 
 > **Tỷ lệ thay thế biên** *(marginal rate of substitution, MRS)*: tỷ lệ mà theo đó người tiêu dùng
 > sẵn lòng đánh đổi một hàng hoá để lấy một hàng hoá khác.
@@ -186,6 +190,8 @@ Sách liệt kê bốn (tr. 499–500). Kiểm từng cái bằng số, với $U
 
 Tính chất 3 đáng dừng lại, vì lập luận của sách là một phép **phản chứng** rất sạch (tr. 500, Hình 3):
 
+![Hình 3 — tr. 500, bản chụp giáo trình](../tai_lieu/hinh/ch21-hinh-03-tr500.png)
+
 > *"vì điểm A nằm cùng đường bàng quan với điểm B, hai điểm này khiến người tiêu dùng thỏa mãn như
 > nhau. Bên cạnh đó, vì điểm B nằm trên cùng đường bàng quan với điểm C, hai điểm này cũng làm người
 > tiêu dùng thỏa mãn như nhau. Hai kết luận trên dẫn tới việc các điểm A và C làm người tiêu dùng thỏa
@@ -201,6 +207,8 @@ Nói gọn: **nếu bàng quan là bắc cầu, và nhiều hơn thì tốt hơn
 
 Sách đưa hai thái cực (tr. 501–502) — và chúng quan trọng hơn vẻ ngoài, vì [mục 11](#11--độ-cong-của-đường-bàng-quan-quyết-định-mọi-thứ-còn-lại)
 sẽ cho thấy **mọi trường hợp thực tế nằm giữa hai cái này**, và vị trí đó quyết định gần như tất cả.
+
+![Hình 4 — tr. 501, bản chụp giáo trình](../tai_lieu/hinh/ch21-hinh-04-tr501.png)
 
 ### (a) Thay thế hoàn hảo — đồng 5 cent và đồng 10 cent
 
@@ -257,6 +265,8 @@ Và rút ra một hệ quả rất đẹp, nối thẳng về [bài 4](bai_04_th
 
 Hai điểm sách vẽ để đối chiếu ở Hình 6:
 
+![Hình 6 — tr. 503, bản chụp giáo trình](../tai_lieu/hinh/ch21-hinh-06-tr503.png)
+
 - Một điểm **thích hơn nhưng không với tới** — nằm trên đường ngân sách.
 - Một điểm **đủ tiền nhưng thoả dụng thấp hơn** — nằm dưới đường ngân sách.
 
@@ -308,6 +318,8 @@ Sách đóng hộp bằng một nhận xét về phương pháp mà đáng nhớ
 Thu nhập tăng đẩy đường ngân sách **song song ra ngoài** — giá không đổi nên độ dốc vẫn là 5 (Hình 7,
 tr. 505):
 
+![Hình 7 — tr. 505, bản chụp giáo trình](../tai_lieu/hinh/ch21-hinh-07-tr505.png)
+
 | Thu nhập | Pizza | Pepsi |
 | -------: | ----: | ----: |
 |   $1.000 |    50 |   250 |
@@ -328,6 +340,8 @@ tạo ra hàng hoá thứ cấp — nó luôn cho cả hai tăng theo thu nhập
 lại, và để dựng được nó thì phải đổi sang một dạng sở thích khác. [Mục 12](#12-có-phải-mọi-đường-cầu-đều-dốc-xuống)
 dùng đúng một dạng như vậy.
 
+![Hình 8 — tr. 506, bản chụp giáo trình](../tai_lieu/hinh/ch21-hinh-08-tr506.png)
+
 Đây không phải khiếm khuyết cần giấu — nó là thông tin: **hàng hoá thứ cấp đòi hỏi một cấu trúc sở
 thích đặc biệt hơn hàng hoá thông thường.** Trường hợp chung là thông thường.
 
@@ -340,6 +354,8 @@ phía pizza không đổi (nếu tiêu hết vào pizza thì giá Pepsi không l
 đi từ 500 lên 1.000 chai.
 
 Sách cho người tiêu dùng nói hai câu, và cả hai đều có lý (tr. 507):
+
+![Hình 9 — tr. 507, bản chụp giáo trình](../tai_lieu/hinh/ch21-hinh-09-tr507.png)
 
 > - *"Tin tốt lành! Giờ thì Pepsi đã rẻ hơn, thu nhập của tôi có sức mua lớn hơn. Tôi thực sự đã giàu
 >   hơn trước. Vì thế, tôi có thể mua nhiều pizza hơn và cả nhiều Pepsi hơn."* → **tác động thu nhập**
@@ -372,6 +388,10 @@ gần nhau và **luôn cùng dấu**, nên mọi kết luận định tính củ
 
 Đối chiếu với **Bảng 1, tr. 508** — sách kết luận bằng lời, đây là bảng số:
 
+![Hình 10 — tr. 508, bản chụp giáo trình](../tai_lieu/hinh/ch21-hinh-10-tr508.png)
+
+![Bảng 1 — tr. 508, bản chụp giáo trình](../tai_lieu/hinh/ch21-bang-01-tr508.png)
+
 | Hàng hoá  | Thay thế | Thu nhập |     Tổng | Sách viết                                                                         |
 | --------- | -------: | -------: | -------: | --------------------------------------------------------------------------------- |
 | **Pepsi** |     +125 |     +125 | **+250** | *"xảy ra theo cùng chiều hướng, vì vậy người tiêu dùng sẽ mua nhiều Pepsi hơn"* ✓ |
@@ -386,6 +406,8 @@ và [mục 11](#11--độ-cong-của-đường-bàng-quan-quyết-định-mọi-
 
 Đây là chỗ trả nợ cho [bài 2](bai_02_cung_va_cau.md). Đường cầu **không phải một giả định** — nó là
 **tập hợp các điểm tối ưu** khi cho giá chạy (Hình 11, tr. 509):
+
+![Hình 11 — tr. 509, bản chụp giáo trình](../tai_lieu/hinh/ch21-hinh-11-tr509.png)
 
 | Giá Pepsi | Pizza | Pepsi | Chi cho Pepsi |
 | --------: | ----: | ----: | ------------: |
@@ -434,6 +456,8 @@ tên: **độ co giãn thay thế**, ký hiệu $\sigma$.
 |        1 | vừa phải        | $U = xy$, hàm dùng ở các mục trên |
 |  2, 3, … | thẳng dần       | càng dễ thay thế                  |
 | $\infty$ | thẳng           | thay thế hoàn hảo — Hình 5(a)     |
+
+![Hình 5 — tr. 502, bản chụp giáo trình](../tai_lieu/hinh/ch21-hinh-05-tr502.png)
 
 Hiệu chỉnh mỗi trường hợp sao cho **điểm xuất phát vẫn đúng là (50 pizza, 250 Pepsi)** — chỉ đổi độ
 cong, không đổi gì khác — rồi cho giá Pepsi giảm từ $2 xuống $1:
@@ -486,6 +510,8 @@ khi $\sigma = 1$, tác động thay thế và tác động thu nhập lên **piz
 ## 12. Có phải mọi đường cầu đều dốc xuống?
 
 Câu hỏi thứ nhất trong ba câu hỏi mở chương. Câu trả lời của sách: **không, nhưng rất hiếm** (tr. 510).
+
+![Hình 12 — tr. 510, bản chụp giáo trình](../tai_lieu/hinh/ch21-hinh-12-tr510.png)
 
 > **Hàng hoá Giffen** *(Giffen good)*: một hàng hoá mà **giá tăng làm tăng lượng cầu**.
 
@@ -557,6 +583,8 @@ giá: nghèo thì Giffen, đủ ăn thì không. Đó chính là điều Jensen 
 
 Câu hỏi thứ hai. Sách dùng lại **đúng bộ máy cũ**, chỉ đổi tên hai trục (tr. 512):
 
+![Hình 13 — tr. 512, bản chụp giáo trình](../tai_lieu/hinh/ch21-hinh-13-tr512.png)
+
 > *"Con người dành một lượng thời gian để giải trí và phần còn lại để lao động nhằm giúp họ đáp ứng
 > các nhu cầu chi tiêu."*
 
@@ -572,6 +600,8 @@ Sally thức **100 giờ** một tuần, lương **$50/giờ** (tr. 512). Ba con
 | Làm 40 giờ (nghỉ 60) | **$2.000** |
 
 Cho lương tăng $50 → $60 (tr. 513), với ba độ cong khác nhau — vẫn là một núm $\sigma$ như mục 11:
+
+![Hình 14 — tr. 513, bản chụp giáo trình](../tai_lieu/hinh/ch21-hinh-14-tr513.png)
 
 | $\sigma$ | Nhàn rỗi và tiền là        | Nghỉ (giờ) | Làm (giờ) | Tiêu dùng |
 | -------: | -------------------------- | ---------: | --------: | --------: |
@@ -643,6 +673,8 @@ Câu hỏi thứ ba, và lại vẫn là bộ máy cũ với hai trục mới: *
 
 Sam kiếm **$100.000** lúc trẻ, không kiếm gì lúc già. Lãi suất **10%**. Ba con số của sách (tr. 516):
 
+![Hình 15 — tr. 516, bản chụp giáo trình](../tai_lieu/hinh/ch21-hinh-15-tr516.png)
+
 |                    |     Lúc trẻ |     Lúc già |
 | ------------------ | ----------: | ----------: |
 | Không tiết kiệm gì |    $100.000 |          $0 |
@@ -669,6 +701,8 @@ gì tới nhau — hoá ra là **một câu hỏi duy nhất** về độ cong c
 ### Vì sao chuyện này không chỉ là chuyện lý thuyết
 
 Sách rút ra một hệ quả chính sách rất thật (tr. 517–518):
+
+![Hình 16 — tr. 517, bản chụp giáo trình](../tai_lieu/hinh/ch21-hinh-16-tr517.png)
 
 > *"Một số nhà kinh tế đã kêu gọi giảm thuế đánh vào tiền lãi và thu nhập trên vốn. Họ lập luận rằng
 > một chính sách giảm thuế sẽ làm tăng mức lãi suất sau thuế mà những người tiết kiệm có thể có được và
@@ -2221,22 +2255,22 @@ Trả lời rồi mới quay lại đối chiếu. Số trong ngoặc là mục 
 
 **Bản đồ khoá học**
 
-|      # | Bài                                                                                    | Chương sách | Ưu tiên |
-| -----: | -------------------------------------------------------------------------------------- | ----------- | :-----: |
-|      1 | [Mười nguyên lý và tư duy kinh tế](bai_01_muoi_nguyen_ly_va_tu_duy_kinh_te.md)         | ch. 1–2     |    🎯    |
-|      2 | [Cung và cầu](bai_02_cung_va_cau.md)                                                   | ch. 4       |    🎯    |
-|      3 | [Độ co giãn và định giá](bai_03_do_co_gian_va_dinh_gia.md)                             | ch. 5       |   🎯⭐    |
-|      4 | [Thặng dư và chi phí của thuế](bai_04_thang_du_va_chi_phi_cua_thue.md)                 | ch. 7–8     |    🔸    |
-|      5 | [Chi phí sản xuất](bai_05_chi_phi_san_xuat.md)                                         | ch. 13      |    🎯    |
-|      6 | [Doanh nghiệp trên thị trường cạnh tranh](bai_06_thi_truong_canh_tranh.md)             | ch. 14      |    🎯    |
-|      7 | [Độc quyền và phân biệt giá](bai_07_doc_quyen_va_phan_biet_gia.md)                     | ch. 15      |    🎯    |
-|      8 | [Cạnh tranh độc quyền và thương hiệu](bai_08_canh_tranh_doc_quyen.md)                  | ch. 16      |    🎯    |
-|      9 | [Độc quyền nhóm và lý thuyết trò chơi](bai_09_doc_quyen_nhom_va_ly_thuyet_tro_choi.md) | ch. 17      |    🎯    |
-| **10** | **Lựa chọn của người tiêu dùng** ← *bạn đang ở đây*                                    | ch. 21      |    🎯    |
-|     11 | [Thông tin bất cân xứng và hành vi](bai_11_thong_tin_bat_can_xung.md)                  | ch. 22      |    🎯    |
-|     12 | [Lao động, tiền lương, bất bình đẳng](bai_12_thi_truong_lao_dong.md)                   | ch. 18–20   |    🔸    |
-|     13 | [Chính phủ can thiệp thị trường](bai_13_chinh_phu_can_thiep_thi_truong.md)             | ch. 6, 12   |    🔸    |
-|     14 | [Thương mại, ngoại tác, hàng hoá công](bai_14_thuong_mai_ngoai_tac_hang_hoa_cong.md)   | ch. 3, 9–11 |    🔸    |
+| # | Bài | Chương sách | Ưu tiên |
+| ---: | --- | --- | :---: |
+| 1 | [Mười nguyên lý và tư duy kinh tế](bai_01_muoi_nguyen_ly_va_tu_duy_kinh_te.md) | ch. 1–2 | 🎯 |
+| 2 | [Cung và cầu](bai_02_cung_va_cau.md) | ch. 4 | 🎯 |
+| 3 | [Độ co giãn và định giá](bai_03_do_co_gian_va_dinh_gia.md) | ch. 5 | 🎯⭐ |
+| 4 | [Thặng dư và chi phí của thuế](bai_04_thang_du_va_chi_phi_cua_thue.md) | ch. 7–8 | 🔸 |
+| 5 | [Chi phí sản xuất](bai_05_chi_phi_san_xuat.md) | ch. 13 | 🎯 |
+| 6 | [Doanh nghiệp trên thị trường cạnh tranh](bai_06_thi_truong_canh_tranh.md) | ch. 14 | 🎯 |
+| 7 | [Độc quyền và phân biệt giá](bai_07_doc_quyen_va_phan_biet_gia.md) | ch. 15 | 🎯 |
+| 8 | [Cạnh tranh độc quyền và thương hiệu](bai_08_canh_tranh_doc_quyen.md) | ch. 16 | 🎯 |
+| 9 | [Độc quyền nhóm và lý thuyết trò chơi](bai_09_doc_quyen_nhom_va_ly_thuyet_tro_choi.md) | ch. 17 | 🎯 |
+| **10** | **Lựa chọn của người tiêu dùng** ← *bạn đang ở đây* | ch. 21 | 🎯 |
+| 11 | [Thông tin bất cân xứng và hành vi](bai_11_thong_tin_bat_can_xung.md) | ch. 22 | 🎯 |
+| 12 | [Lao động, tiền lương, bất bình đẳng](bai_12_thi_truong_lao_dong.md) | ch. 18–20 | 🔸 |
+| 13 | [Chính phủ can thiệp thị trường](bai_13_chinh_phu_can_thiep_thi_truong.md) | ch. 6, 12 | 🔸 |
+| 14 | [Thương mại, ngoại tác, hàng hoá công](bai_14_thuong_mai_ngoai_tac_hang_hoa_cong.md) | ch. 3, 9–11 | 🔸 |
 
 🎯 vòng 1 — học kỹ · 🔸 vòng 2 — đọc hiểu · ⭐ chương quan trọng nhất với QTKD
 

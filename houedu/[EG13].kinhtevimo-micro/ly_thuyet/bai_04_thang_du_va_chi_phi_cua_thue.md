@@ -71,6 +71,8 @@ Sách bắt đầu bằng một câu chuyện rất cụ thể (tr. 154): bạn 
 
 **Bảng 1, tr. 154:**
 
+![Bảng 1 — tr. 154, bản chụp giáo trình](../tai_lieu/hinh/ch07-bang-01-tr154.png)
+
 | Người mua | Giá sẵn lòng trả |
 | --------- | ---------------: |
 | **John**  |         **$100** |
@@ -123,6 +125,8 @@ trước vì anh ta nhận được một tập đĩa giống hệt như vậy n
 
 Từ Bảng 1, ta dựng được **biểu cầu** (Hình 1, tr. 156):
 
+![Hình 1 — tr. 156, bản chụp giáo trình](../tai_lieu/hinh/ch07-hinh-01-tr156.png)
+
 | Giá             | Người mua                 | Lượng cầu |
 | --------------- | ------------------------- | --------: |
 | Nhiều hơn $100  | không ai                  |         0 |
@@ -146,6 +150,8 @@ chiều cao là **70 đô la** — mức George sẵn lòng trả.
 
 Kiểm lại bằng Hình 2 (tr. 157):
 
+![Hình 2 — tr. 157, bản chụp giáo trình](../tai_lieu/hinh/ch07-hinh-02-tr157.png)
+
 |           |  Giá | Diện tích trên giá, dưới đường cầu | Khớp với tính tay ở mục 3? |
 | --------- | ---: | ---------------------------------: | -------------------------- |
 | Hình 2(a) |  $80 |                                $20 | ✅                          |
@@ -158,6 +164,8 @@ tục"* (tr. 157) — nên đường cầu trơn, và thặng dư là một **ta
 
 **Hình 3, tr. 158.** Khi giá giảm từ $P_1$ xuống $P_2$, phần thặng dư tăng thêm (diện tích BCFD) gồm
 **hai mảnh có bản chất khác nhau**:
+
+![Hình 3 — tr. 158, bản chụp giáo trình](../tai_lieu/hinh/ch07-hinh-03-tr158.png)
 
 ```
    ① Hình chữ nhật BCED  —  KHÁCH CŨ, vẫn mua Q₁ như trước, nhưng nay TRẢ ÍT HƠN
@@ -205,6 +213,8 @@ cọ… *"cũng như giá trị của thời gian mà người sơn nhà phải 
 
 **Bảng 2, tr. 159:**
 
+![Bảng 2 — tr. 159, bản chụp giáo trình](../tai_lieu/hinh/ch07-bang-02-tr159.png)
+
 | Người bán   |  Chi phí |
 | ----------- | -------: |
 | Mary        |     $900 |
@@ -214,6 +224,8 @@ cọ… *"cũng như giá trị của thời gian mà người sơn nhà phải 
 
 > **Thặng dư sản xuất** (*producer surplus*): số tiền nhà sản xuất được trả cho việc cung cấp một hàng
 > hoá trừ cho tổng chi phí sản xuất ra hàng hoá đó. — chú thích tr. 160
+
+![Hình 4 — tr. 160, bản chụp giáo trình](../tai_lieu/hinh/ch07-hinh-04-tr160.png)
 
 | Số nhà cần sơn | Giá dừng ở | Người thắng      |                  Thặng dư sản xuất |
 | -------------: | ---------: | ---------------- | ---------------------------------: |
@@ -244,6 +256,8 @@ nhưng không phải trả** — vì bạn niêm yết một giá duy nhất. M�
 ---
 
 ## 7. Tổng thặng dư — thước đo phúc lợi
+
+![Hình 7 — tr. 165, bản chụp giáo trình](../tai_lieu/hinh/ch07-hinh-07-tr165.png)
 
 Sách đưa vào một nhân vật giả tưởng để đặt câu hỏi cho gọn (tr. 163): **nhà hoạch định xã hội tốt bụng**
 — *"một nhà độc tài hiểu biết mọi thứ, quyền lực toàn năng và có mục đích tốt"*, muốn tối đa hoá phúc
@@ -298,6 +312,8 @@ Sách rút ra **ba hàm ý** (tr. 165–166):
 
 Hai hàm ý đầu là về **phân phối cho ai**; hàm ý thứ ba là về **sản xuất bao nhiêu**, và **Hình 8
 (tr. 166)** giải thích nó:
+
+![Hình 8 — tr. 166, bản chụp giáo trình](../tai_lieu/hinh/ch07-hinh-08-tr166.png)
 
 ```
    Q < Q*  →  giá trị hàng hoá với người mua cận biên  >  chi phí của người bán cận biên
@@ -362,6 +378,8 @@ Ai nộp thuế về mặt pháp lý **không quan trọng**; cái quyết đị
 
 ### Ký hiệu (Hình 1–2, tr. 175–176)
 
+![Hình 1 — tr. 175, bản chụp giáo trình](../tai_lieu/hinh/ch08-hinh-01-tr175.png)
+
 |                    |                                             |
 | ------------------ | ------------------------------------------- |
 | $P_B$              | giá người mua **phải trả**                  |
@@ -374,7 +392,11 @@ Ai nộp thuế về mặt pháp lý **không quan trọng**; cái quyết đị
 dành cho chính phủ mà còn cho **những người được hưởng các lợi ích được chi trả bởi doanh thu thuế**"*
 — đường sá, cảnh sát, giáo dục. Nên nó **được tính vào** tổng phúc lợi, không bị coi là mất đi.
 
+![Hình 2 — tr. 176, bản chụp giáo trình](../tai_lieu/hinh/ch08-hinh-02-tr176.png)
+
 ### Bảng phúc lợi — Hình 3, tr. 177
+
+![Hình 3 — tr. 177, bản chụp giáo trình](../tai_lieu/hinh/ch08-hinh-03-tr177.png)
 
 Sáu vùng diện tích A → F:
 
@@ -431,6 +453,8 @@ Và nguồn gốc, in nghiêng trong sách:
 > ⭐ *"**Thuế gây ra tổn thất vô ích vì chúng làm người bán và người mua không nhận thấy được những lợi
 > ích từ thương mại.**"* (tr. 179)
 
+![Hình 4 — tr. 179, bản chụp giáo trình](../tai_lieu/hinh/ch08-hinh-04-tr179.png)
+
 📌 Liên hệ về **nguyên lý 4** ở bài 1: thuế làm **biến dạng động cơ**. Người mua tiêu ít đi, người bán
 sản xuất ít đi — và chính sự thay đổi hành vi ấy mới là nguồn gốc của tổn thất, chứ không phải khoản
 tiền nộp.
@@ -457,6 +481,10 @@ nhau** và mất mạch. Khoá học này dùng thống nhất **Jane**.
 Câu trả lời rất gọn (tr. 179): **độ co giãn của cung và cầu**.
 
 **Hình 5, tr. 180** — bốn khung, mỗi khung cùng một mức thuế:
+
+![Hình 5 — tr. 180, bản chụp giáo trình](../tai_lieu/hinh/ch08-hinh-05-tr180.png)
+
+![Hình 5 — tr. 161, bản chụp giáo trình](../tai_lieu/hinh/ch07-hinh-05-tr161.png)
 
 | Khung | Đường thay đổi      | Tổn thất vô ích |
 | ----- | ------------------- | --------------- |
@@ -500,6 +528,8 @@ thực chứng** ("độ co giãn của cung lao động bằng bao nhiêu").
 ## 13. Thuế tăng thì chuyện gì xảy ra — và đường cong Laffer
 
 **Hình 6, tr. 183** theo dõi hai đại lượng khi mức thuế tăng dần:
+
+![Hình 6 — tr. 183, bản chụp giáo trình](../tai_lieu/hinh/ch08-hinh-06-tr183.png)
 
 ### ① Tổn thất vô ích tăng theo BÌNH PHƯƠNG
 
@@ -1326,22 +1356,22 @@ Cột tiếng Anh lấy từ mục **Khái niệm then chốt** của chương 7
 
 **Bản đồ khoá học**
 
-|     # | Bài                                                                                    | Chương sách | Ưu tiên |
-| ----: | -------------------------------------------------------------------------------------- | ----------- | :-----: |
-|     1 | [Mười nguyên lý và tư duy kinh tế](bai_01_muoi_nguyen_ly_va_tu_duy_kinh_te.md)         | ch. 1–2     |    🎯    |
-|     2 | [Cung và cầu](bai_02_cung_va_cau.md)                                                   | ch. 4       |    🎯    |
-|     3 | [Độ co giãn và định giá](bai_03_do_co_gian_va_dinh_gia.md)                             | ch. 5       |   🎯⭐    |
-| **4** | **Thặng dư và chi phí của thuế** ← *bạn đang ở đây*                                    | ch. 7–8     |    🔸    |
-|     5 | [Chi phí sản xuất](bai_05_chi_phi_san_xuat.md)                                         | ch. 13      |    🎯    |
-|     6 | [Doanh nghiệp trên thị trường cạnh tranh](bai_06_thi_truong_canh_tranh.md)             | ch. 14      |    🎯    |
-|     7 | [Độc quyền và phân biệt giá](bai_07_doc_quyen_va_phan_biet_gia.md)                     | ch. 15      |    🎯    |
-|     8 | [Cạnh tranh độc quyền và thương hiệu](bai_08_canh_tranh_doc_quyen.md)                  | ch. 16      |    🎯    |
-|     9 | [Độc quyền nhóm và lý thuyết trò chơi](bai_09_doc_quyen_nhom_va_ly_thuyet_tro_choi.md) | ch. 17      |    🎯    |
-|    10 | [Lựa chọn của người tiêu dùng](bai_10_lua_chon_cua_nguoi_tieu_dung.md)                 | ch. 21      |    🎯    |
-|    11 | [Thông tin bất cân xứng và hành vi](bai_11_thong_tin_bat_can_xung.md)                  | ch. 22      |    🎯    |
-|    12 | [Lao động, tiền lương, bất bình đẳng](bai_12_thi_truong_lao_dong.md)                   | ch. 18–20   |    🔸    |
-|    13 | [Chính phủ can thiệp thị trường](bai_13_chinh_phu_can_thiep_thi_truong.md)             | ch. 6, 12   |    🔸    |
-|    14 | [Thương mại, ngoại tác, hàng hoá công](bai_14_thuong_mai_ngoai_tac_hang_hoa_cong.md)   | ch. 3, 9–11 |    🔸    |
+| # | Bài | Chương sách | Ưu tiên |
+| ---: | --- | --- | :---: |
+| 1 | [Mười nguyên lý và tư duy kinh tế](bai_01_muoi_nguyen_ly_va_tu_duy_kinh_te.md) | ch. 1–2 | 🎯 |
+| 2 | [Cung và cầu](bai_02_cung_va_cau.md) | ch. 4 | 🎯 |
+| 3 | [Độ co giãn và định giá](bai_03_do_co_gian_va_dinh_gia.md) | ch. 5 | 🎯⭐ |
+| **4** | **Thặng dư và chi phí của thuế** ← *bạn đang ở đây* | ch. 7–8 | 🔸 |
+| 5 | [Chi phí sản xuất](bai_05_chi_phi_san_xuat.md) | ch. 13 | 🎯 |
+| 6 | [Doanh nghiệp trên thị trường cạnh tranh](bai_06_thi_truong_canh_tranh.md) | ch. 14 | 🎯 |
+| 7 | [Độc quyền và phân biệt giá](bai_07_doc_quyen_va_phan_biet_gia.md) | ch. 15 | 🎯 |
+| 8 | [Cạnh tranh độc quyền và thương hiệu](bai_08_canh_tranh_doc_quyen.md) | ch. 16 | 🎯 |
+| 9 | [Độc quyền nhóm và lý thuyết trò chơi](bai_09_doc_quyen_nhom_va_ly_thuyet_tro_choi.md) | ch. 17 | 🎯 |
+| 10 | [Lựa chọn của người tiêu dùng](bai_10_lua_chon_cua_nguoi_tieu_dung.md) | ch. 21 | 🎯 |
+| 11 | [Thông tin bất cân xứng và hành vi](bai_11_thong_tin_bat_can_xung.md) | ch. 22 | 🎯 |
+| 12 | [Lao động, tiền lương, bất bình đẳng](bai_12_thi_truong_lao_dong.md) | ch. 18–20 | 🔸 |
+| 13 | [Chính phủ can thiệp thị trường](bai_13_chinh_phu_can_thiep_thi_truong.md) | ch. 6, 12 | 🔸 |
+| 14 | [Thương mại, ngoại tác, hàng hoá công](bai_14_thuong_mai_ngoai_tac_hang_hoa_cong.md) | ch. 3, 9–11 | 🔸 |
 
 🎯 vòng 1 — học kỹ · 🔸 vòng 2 — đọc hiểu · ⭐ chương quan trọng nhất với QTKD
 

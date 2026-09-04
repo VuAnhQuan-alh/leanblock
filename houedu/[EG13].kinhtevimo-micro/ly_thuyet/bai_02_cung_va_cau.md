@@ -120,6 +120,8 @@ Sách minh hoạ bằng chính bạn: nếu kem tăng lên 20 đô la một que,
 
 ### Biểu cầu của Catherine — Hình 1, tr. 80
 
+![Hình 1 — tr. 80, bản chụp giáo trình](../tai_lieu/hinh/ch04-hinh-01-tr80.png)
+
 > **Biểu cầu** (*demand schedule*): một bảng thể hiện mối quan hệ giữa giá bán và lượng cầu của một hàng hoá. — chú thích tr. 80
 > **Đường cầu** (*demand curve*): đồ thị biểu diễn mối quan hệ giữa mức giá và lượng cầu của một hàng hoá. — chú thích tr. 80
 
@@ -149,6 +151,8 @@ Trong toán, biến độc lập thường nằm trục hoành. Ở đây **giá
 ## 4. Cầu thị trường là tổng của cầu cá nhân — cộng theo chiều NGANG
 
 Hình 2, tr. 81 — Catherine và Nicholas là hai người mua duy nhất trên thị trường:
+
+![Hình 2 — tr. 81, bản chụp giáo trình](../tai_lieu/hinh/ch04-hinh-02-tr81.png)
 
 | Giá mỗi que | Catherine |   +   | Nicholas |   =   | **Thị trường** |
 | ----------: | --------: | :---: | -------: | :---: | -------------: |
@@ -186,10 +190,14 @@ Và hệ quả thực tế: **hai phân khúc có độ nhạy giá khác nhau t
 
 Đường cầu thị trường **giữ mọi yếu tố khác không đổi**. Khi một trong các yếu tố đó đổi, **cả đường dịch chuyển** (Hình 3, tr. 82):
 
+![Hình 3 — tr. 82, bản chụp giáo trình](../tai_lieu/hinh/ch04-hinh-03-tr82.png)
+
 - dịch **sang phải** = **cầu tăng** (ở mọi mức giá đều muốn mua nhiều hơn)
 - dịch **sang trái** = **cầu giảm**
 
 **Bảng 1, tr. 83** liệt kê các biến ảnh hưởng đến người mua:
+
+![Bảng 1 — tr. 83, bản chụp giáo trình](../tai_lieu/hinh/ch04-bang-01-tr83.png)
 
 | Biến số                | Thay đổi biến này dẫn đến        |
 | ---------------------- | -------------------------------- |
@@ -281,6 +289,8 @@ Nói gọn: **"cầu" là vị trí của cả đường; "lượng cầu" là m
 
 Đây là ví dụ hay nhất chương để phân biệt hai loại thay đổi, vì **hai chính sách khác nhau cho ra hai loại dịch chuyển khác nhau** (tr. 84).
 
+![Hình 4 — tr. 84, bản chụp giáo trình](../tai_lieu/hinh/ch04-hinh-04-tr84.png)
+
 **Cách 1 — làm dịch chuyển cả đường cầu** (Hình 4a): thông báo công cộng, cảnh báo sức khoẻ bắt buộc trên bao bì, cấm quảng cáo thuốc lá trên tivi. Những chính sách này cắt giảm lượng cầu **tại bất cứ mức giá nào** → đường cầu dịch **sang trái**, từ $D_1$ đến $D_2$.
 
 > Ở mức giá **2 đô la một gói**, lượng cầu giảm từ **20 xuống còn 10 điếu mỗi ngày** (điểm A → điểm B).
@@ -322,6 +332,8 @@ Cơ chế mà sách mô tả (tr. 85): giá kem cao → bán kem có lợi nhu�
 
 ### Biểu cung của Ben — Hình 5, tr. 86
 
+![Hình 5 — tr. 86, bản chụp giáo trình](../tai_lieu/hinh/ch04-hinh-05-tr86.png)
+
 | Giá kem | Lượng cung của Ben |
 | ------: | -----------------: |
 |   $0,00 |                  0 |
@@ -335,6 +347,10 @@ Cơ chế mà sách mô tả (tr. 85): giá kem cao → bán kem có lợi nhu�
 ⚠️ **Chú ý hai dòng đầu bằng 0.** Ở mức giá dưới 1 đô la, *"Ben sẽ không cung cấp kem nữa"* (tr. 85). Đường cung **không** bắt đầu từ gốc toạ độ — có một **ngưỡng giá tối thiểu** để người bán chịu bán. Ngưỡng này sẽ có tên chính thức ở bài 6: **quyết định đóng cửa**.
 
 ### Cung thị trường — Hình 6, tr. 87
+
+![Hình 7 — tr. 87, bản chụp giáo trình](../tai_lieu/hinh/ch04-hinh-07-tr87.png)
+
+![Hình 6 — tr. 87, bản chụp giáo trình](../tai_lieu/hinh/ch04-hinh-06-tr87.png)
 
 Cộng **theo chiều ngang**, giống hệt bên cầu:
 
@@ -353,6 +369,8 @@ Cộng **theo chiều ngang**, giống hệt bên cầu:
 ## 9. Bốn yếu tố làm dịch chuyển đường cung
 
 **Bảng 2, tr. 88:**
+
+![Bảng 2 — tr. 88, bản chụp giáo trình](../tai_lieu/hinh/ch04-bang-02-tr88.png)
 
 | Biến số              | Thay đổi biến này sẽ làm          |
 | -------------------- | --------------------------------- |
@@ -403,6 +421,8 @@ Dòng **công nghệ** là dòng đáng đầu tư nhất: giảm giá bán ch�
 
 Với hai biểu số ở mục 4 và mục 8, giao điểm nằm ở **giá 2 đô la, lượng 7 que kem** (Hình 8, tr. 90).
 
+![Hình 8 — tr. 90, bản chụp giáo trình](../tai_lieu/hinh/ch04-hinh-08-tr90.png)
+
 Định nghĩa bằng lời của sách, đáng thuộc (tr. 89):
 
 > *"Tại mức giá cân bằng, lượng hàng mà người mua sẵn lòng và có thể mua **chính xác bằng** lượng hàng mà người bán sẵn lòng và có thể bán."*
@@ -419,6 +439,8 @@ Và vì sao gọi là **giá thị trường**: *"ở mức giá này, tất c�
 > **Thiếu hụt** (*shortage*): tình huống mà trong đó lượng cầu cao hơn lượng cung. — chú thích tr. 90
 
 **Hình 9(a) — giá quá cao ($2,50):**
+
+![Hình 9 — tr. 91, bản chụp giáo trình](../tai_lieu/hinh/ch04-hinh-09-tr91.png)
 
 ```
    lượng cung 10  >  lượng cầu 4        →  THẶNG DƯ 6 que  (thừa cung)
@@ -460,6 +482,8 @@ Hai tình trạng này có tên khác trong doanh nghiệp, và chúng là **tí
 
 **Bảng 3, tr. 92** — quy trình dùng cho **mọi** bài tập cung cầu từ giờ tới hết môn:
 
+![Bảng 3 — tr. 92, bản chụp giáo trình](../tai_lieu/hinh/ch04-bang-03-tr92.png)
+
 ```
    ① Xác định sự kiện làm dịch chuyển đường CUNG, đường CẦU, hay CẢ HAI
    ② Xác định các đường dịch chuyển sang TRÁI hay PHẢI
@@ -467,6 +491,8 @@ Hai tình trạng này có tên khác trong doanh nghiệp, và chúng là **tí
 ```
 
 ### Ví dụ 1 — cầu dịch chuyển: mùa hè nóng bất thường (tr. 92)
+
+![Hình 10 — tr. 92, bản chụp giáo trình](../tai_lieu/hinh/ch04-hinh-10-tr92.png)
 
 | Bước | Lập luận                                                                                                                                           |
 | ---- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -500,6 +526,8 @@ Kết luận nguyên văn: *"những sự kiện này chắc chắn làm giá ke
 ---
 
 ## 13. Bảng 4 — chín ô, và vì sao hai ô ghi "không rõ"
+
+![Bảng 4 — tr. 95, bản chụp giáo trình](../tai_lieu/hinh/ch04-bang-04-tr95.png)
 
 **Bảng 4, tr. 95:**
 
@@ -1087,22 +1115,22 @@ Google cụm sai đó sẽ không ra gì.
 
 **Bản đồ khoá học**
 
-|     # | Bài                                                                                    | Chương sách | Ưu tiên |
-| ----: | -------------------------------------------------------------------------------------- | ----------- | :-----: |
-|     1 | [Mười nguyên lý và tư duy kinh tế](bai_01_muoi_nguyen_ly_va_tu_duy_kinh_te.md)         | ch. 1–2     |    🎯    |
-| **2** | **Cung và cầu** ← *bạn đang ở đây*                                                     | ch. 4       |    🎯    |
-|     3 | [Độ co giãn và định giá](bai_03_do_co_gian_va_dinh_gia.md)                             | ch. 5       |   🎯⭐    |
-|     4 | [Thặng dư và chi phí của thuế](bai_04_thang_du_va_chi_phi_cua_thue.md)                 | ch. 7–8     |    🔸    |
-|     5 | [Chi phí sản xuất](bai_05_chi_phi_san_xuat.md)                                         | ch. 13      |    🎯    |
-|     6 | [Doanh nghiệp trên thị trường cạnh tranh](bai_06_thi_truong_canh_tranh.md)             | ch. 14      |    🎯    |
-|     7 | [Độc quyền và phân biệt giá](bai_07_doc_quyen_va_phan_biet_gia.md)                     | ch. 15      |    🎯    |
-|     8 | [Cạnh tranh độc quyền và thương hiệu](bai_08_canh_tranh_doc_quyen.md)                  | ch. 16      |    🎯    |
-|     9 | [Độc quyền nhóm và lý thuyết trò chơi](bai_09_doc_quyen_nhom_va_ly_thuyet_tro_choi.md) | ch. 17      |    🎯    |
-|    10 | [Lựa chọn của người tiêu dùng](bai_10_lua_chon_cua_nguoi_tieu_dung.md)                 | ch. 21      |    🎯    |
-|    11 | [Thông tin bất cân xứng và hành vi](bai_11_thong_tin_bat_can_xung.md)                  | ch. 22      |    🎯    |
-|    12 | [Lao động, tiền lương, bất bình đẳng](bai_12_thi_truong_lao_dong.md)                   | ch. 18–20   |    🔸    |
-|    13 | [Chính phủ can thiệp thị trường](bai_13_chinh_phu_can_thiep_thi_truong.md)             | ch. 6, 12   |    🔸    |
-|    14 | [Thương mại, ngoại tác, hàng hoá công](bai_14_thuong_mai_ngoai_tac_hang_hoa_cong.md)   | ch. 3, 9–11 |    🔸    |
+| # | Bài | Chương sách | Ưu tiên |
+| ---: | --- | --- | :---: |
+| 1 | [Mười nguyên lý và tư duy kinh tế](bai_01_muoi_nguyen_ly_va_tu_duy_kinh_te.md) | ch. 1–2 | 🎯 |
+| **2** | **Cung và cầu** ← *bạn đang ở đây* | ch. 4 | 🎯 |
+| 3 | [Độ co giãn và định giá](bai_03_do_co_gian_va_dinh_gia.md) | ch. 5 | 🎯⭐ |
+| 4 | [Thặng dư và chi phí của thuế](bai_04_thang_du_va_chi_phi_cua_thue.md) | ch. 7–8 | 🔸 |
+| 5 | [Chi phí sản xuất](bai_05_chi_phi_san_xuat.md) | ch. 13 | 🎯 |
+| 6 | [Doanh nghiệp trên thị trường cạnh tranh](bai_06_thi_truong_canh_tranh.md) | ch. 14 | 🎯 |
+| 7 | [Độc quyền và phân biệt giá](bai_07_doc_quyen_va_phan_biet_gia.md) | ch. 15 | 🎯 |
+| 8 | [Cạnh tranh độc quyền và thương hiệu](bai_08_canh_tranh_doc_quyen.md) | ch. 16 | 🎯 |
+| 9 | [Độc quyền nhóm và lý thuyết trò chơi](bai_09_doc_quyen_nhom_va_ly_thuyet_tro_choi.md) | ch. 17 | 🎯 |
+| 10 | [Lựa chọn của người tiêu dùng](bai_10_lua_chon_cua_nguoi_tieu_dung.md) | ch. 21 | 🎯 |
+| 11 | [Thông tin bất cân xứng và hành vi](bai_11_thong_tin_bat_can_xung.md) | ch. 22 | 🎯 |
+| 12 | [Lao động, tiền lương, bất bình đẳng](bai_12_thi_truong_lao_dong.md) | ch. 18–20 | 🔸 |
+| 13 | [Chính phủ can thiệp thị trường](bai_13_chinh_phu_can_thiep_thi_truong.md) | ch. 6, 12 | 🔸 |
+| 14 | [Thương mại, ngoại tác, hàng hoá công](bai_14_thuong_mai_ngoai_tac_hang_hoa_cong.md) | ch. 3, 9–11 | 🔸 |
 
 🎯 vòng 1 — học kỹ · 🔸 vòng 2 — đọc hiểu · ⭐ chương quan trọng nhất với QTKD
 
