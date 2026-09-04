@@ -15,4 +15,11 @@
 !/houedu/*/ly_thuyet/
 !/houedu/*/mo_rong/
 
+# Ảnh hình/bảng cắt từ PDF giáo trình. Mở RIÊNG tai_lieu/hinh/ — phải mở tầng
+# tai_lieu/ trước, rồi chặn lại nội dung của nó, rồi mới mở hinh/. Nhờ vậy PDF
+# gốc (60 MB mỗi cuốn) vẫn nằm ngoài git.
+!/houedu/*/tai_lieu/
+/houedu/*/tai_lieu/*
+!/houedu/*/tai_lieu/hinh/
+
 .DS_Store

@@ -1,0 +1,844 @@
+{
+ "anh": {
+  "Bảng 1|21": "ch01-bang-01-tr21.png",
+  "Hình 1|30": "ch02-hinh-01-tr30.png",
+  "Hình 2|32": "ch02-hinh-02-tr32.png",
+  "Hình 3|34": "ch02-hinh-03-tr34.png",
+  "Bảng 1|43": "ch02-bang-01-tr43.png",
+  "Hình 1|59": "ch03-hinh-01-tr59.png",
+  "Hình 2|61": "ch03-hinh-02-tr61.png",
+  "Bảng 1|62": "ch03-bang-01-tr63.png",
+  "Hình 1|80": "ch04-hinh-01-tr80.png",
+  "Hình 2|81": "ch04-hinh-02-tr81.png",
+  "Hình 3|82": "ch04-hinh-03-tr82.png",
+  "Bảng 1|83": "ch04-bang-01-tr83.png",
+  "Hình 4|84": "ch04-hinh-04-tr84.png",
+  "Hình 5|86": "ch04-hinh-05-tr86.png",
+  "Hình 6|87": "ch04-hinh-06-tr87.png",
+  "Hình 7|87": "ch04-hinh-07-tr87.png",
+  "Bảng 2|88": "ch04-bang-02-tr88.png",
+  "Hình 8|90": "ch04-hinh-08-tr90.png",
+  "Hình 9|91": "ch04-hinh-09-tr91.png",
+  "Bảng 3|92": "ch04-bang-03-tr92.png",
+  "Hình 10|92": "ch04-hinh-10-tr92.png",
+  "Bảng 4|95": "ch04-bang-04-tr95.png",
+  "Hình 1|107": "ch05-hinh-01-tr107.png",
+  "Hình 3|109": "ch05-hinh-03-tr109.png",
+  "Hình 2|109": "ch05-hinh-02-tr109.png",
+  "Hình 4|110": "ch05-hinh-04-tr110.png",
+  "Hình 5|114": "ch05-hinh-05-tr114.png",
+  "Hình 6|115": "ch05-hinh-06-tr115.png",
+  "Hình 7|116": "ch05-hinh-07-tr116.png",
+  "Hình 8|119": "ch05-hinh-08-tr119.png",
+  "Hình 9|121": "ch05-hinh-09-tr121.png",
+  "Hình 1|129": "ch06-hinh-01-tr129.png",
+  "Hình 2|130": "ch06-hinh-02-tr130.png",
+  "Hình 3|131": "ch06-hinh-03-tr131.png",
+  "Hình 4|133": "ch06-hinh-04-tr133.png",
+  "Hình 5|134": "ch06-hinh-05-tr134.png",
+  "Hình 6|139": "ch06-hinh-06-tr139.png",
+  "Hình 7|140": "ch06-hinh-07-tr140.png",
+  "Hình 9|143": "ch06-hinh-09-tr143.png",
+  "Bảng 1|154": "ch07-bang-01-tr154.png",
+  "Hình 1|156": "ch07-hinh-01-tr156.png",
+  "Hình 2|157": "ch07-hinh-02-tr157.png",
+  "Hình 3|158": "ch07-hinh-03-tr158.png",
+  "Bảng 2|159": "ch07-bang-02-tr159.png",
+  "Hình 4|160": "ch07-hinh-04-tr160.png",
+  "Hình 5|161": "ch07-hinh-05-tr161.png",
+  "Hình 7|165": "ch07-hinh-07-tr165.png",
+  "Hình 8|166": "ch07-hinh-08-tr166.png",
+  "Hình 1|175": "ch08-hinh-01-tr175.png",
+  "Hình 2|176": "ch08-hinh-02-tr176.png",
+  "Hình 3|177": "ch08-hinh-03-tr177.png",
+  "Hình 4|179": "ch08-hinh-04-tr179.png",
+  "Hình 5|180": "ch08-hinh-05-tr180.png",
+  "Hình 6|183": "ch08-hinh-06-tr183.png",
+  "Hình 4|198": "ch09-hinh-04-tr198.png",
+  "Hình 2|218": "ch10-hinh-02-tr218.png",
+  "Hình 3|220": "ch10-hinh-03-tr220.png",
+  "Hình 4|226": "ch10-hinh-04-tr226.png",
+  "Hình 1|239": "ch11-hinh-01-tr239.png",
+  "Bảng 1|257": "ch12-bang-01-tr257.png",
+  "Bảng 2|257": "ch12-bang-02-tr257.png",
+  "Bảng 4|259": "ch12-bang-04-tr259.png",
+  "Bảng 5|263": "ch12-bang-05-tr263.png",
+  "Bảng 6|263": "ch12-bang-06-tr263.png",
+  "Bảng 7|270": "ch12-bang-07-tr270.png",
+  "Bảng 8|271": "ch12-bang-08-tr271.png",
+  "Hình 1|287": "ch13-hinh-01-tr287.png",
+  "Bảng 1|288": "ch13-bang-01-tr288.png",
+  "Hình 2|289": "ch13-hinh-02-tr289.png",
+  "Hình 3|291": "ch13-hinh-03-tr291.png",
+  "Bảng 2|292": "ch13-bang-02-tr292.png",
+  "Hình 4|294": "ch13-hinh-04-tr294.png",
+  "Hình 5|297": "ch13-hinh-05-tr297.png",
+  "Hình 6|298": "ch13-hinh-06-tr298.png",
+  "Bảng 3|301": "ch13-bang-03-tr301.png",
+  "Bảng 1|311": "ch14-bang-01-tr311.png",
+  "Bảng 2|312": "ch14-bang-02-tr312.png",
+  "Hình 1|313": "ch14-hinh-01-tr313.png",
+  "Hình 2|314": "ch14-hinh-02-tr314.png",
+  "Hình 3|317": "ch14-hinh-03-tr317.png",
+  "Hình 4|319": "ch14-hinh-04-tr319.png",
+  "Hình 5|320": "ch14-hinh-05-tr320.png",
+  "Hình 7|322": "ch14-hinh-07-tr322.png",
+  "Hình 8|325": "ch14-hinh-08-tr325.png",
+  "Hình 1|337": "ch15-hinh-01-tr338.png",
+  "Hình 2|340": "ch15-hinh-02-tr340.png",
+  "Bảng 1|341": "ch15-bang-01-tr341.png",
+  "Hình 3|342": "ch15-hinh-03-tr342.png",
+  "Hình 4|343": "ch15-hinh-04-tr343.png",
+  "Hình 5|345": "ch15-hinh-05-tr345.png",
+  "Hình 6|346": "ch15-hinh-06-tr346.png",
+  "Hình 7|348": "ch15-hinh-07-tr348.png",
+  "Hình 8|349": "ch15-hinh-08-tr349.png",
+  "Hình 9|354": "ch15-hinh-09-tr354.png",
+  "Hình 10|358": "ch15-hinh-10-tr358.png",
+  "Bảng 2|360": "ch15-bang-02-tr360.png",
+  "Hình 1|372": "ch16-hinh-01-tr372.png",
+  "Hình 2|374": "ch16-hinh-02-tr374.png",
+  "Hình 3|375": "ch16-hinh-03-tr375.png",
+  "Hình 4|376": "ch16-hinh-04-tr376.png",
+  "Bảng 1|392": "ch17-bang-01-tr392.png",
+  "Hình 1|398": "ch17-hinh-01-tr398.png",
+  "Hình 2|399": "ch17-hinh-02-tr399.png",
+  "Hình 3|401": "ch17-hinh-03-tr401.png",
+  "Hình 4|402": "ch17-hinh-04-tr402.png",
+  "Hình 1|422": "ch18-hinh-01-tr423.png",
+  "Bảng 1|424": "ch18-bang-01-tr424.png",
+  "Hình 4|431": "ch18-hinh-04-tr431.png",
+  "Bảng 2|434": "ch18-bang-02-tr434.png",
+  "Hình 7|436": "ch18-hinh-07-tr436.png",
+  "Bảng 1|448": "ch19-bang-01-tr448.png",
+  "Bảng 2|454": "ch19-bang-02-tr454.png",
+  "Bảng 1|466": "ch20-bang-01-tr467.png",
+  "Bảng 2|468": "ch20-bang-02-tr468.png",
+  "Hình 2|470": "ch20-hinh-02-tr470.png",
+  "Bảng 3|471": "ch20-bang-03-tr471.png",
+  "Hình 1|496": "ch21-hinh-01-tr497.png",
+  "Hình 2|498": "ch21-hinh-02-tr498.png",
+  "Hình 3|500": "ch21-hinh-03-tr500.png",
+  "Hình 4|501": "ch21-hinh-04-tr501.png",
+  "Hình 5|502": "ch21-hinh-05-tr502.png",
+  "Hình 6|503": "ch21-hinh-06-tr503.png",
+  "Hình 7|505": "ch21-hinh-07-tr505.png",
+  "Hình 8|506": "ch21-hinh-08-tr506.png",
+  "Hình 9|507": "ch21-hinh-09-tr507.png",
+  "Hình 10|508": "ch21-hinh-10-tr508.png",
+  "Bảng 1|508": "ch21-bang-01-tr508.png",
+  "Hình 11|509": "ch21-hinh-11-tr509.png",
+  "Hình 12|510": "ch21-hinh-12-tr510.png",
+  "Hình 13|512": "ch21-hinh-13-tr512.png",
+  "Hình 14|513": "ch21-hinh-14-tr513.png",
+  "Hình 15|516": "ch21-hinh-15-tr516.png",
+  "Hình 16|517": "ch21-hinh-16-tr517.png",
+  "Bảng 1|533": "ch22-bang-01-tr534.png",
+  "Hình 1|536": "ch22-hinh-01-tr536.png"
+ },
+ "theo_bai": {
+  "bai_01_muoi_nguyen_ly_va_tu_duy_kinh_te.md": [
+   [
+    "Bảng",
+    1,
+    21
+   ],
+   [
+    "Hình",
+    1,
+    30
+   ],
+   [
+    "Hình",
+    2,
+    32
+   ],
+   [
+    "Hình",
+    3,
+    34
+   ],
+   [
+    "Bảng",
+    1,
+    43
+   ]
+  ],
+  "bai_02_cung_va_cau.md": [
+   [
+    "Hình",
+    1,
+    80
+   ],
+   [
+    "Hình",
+    2,
+    81
+   ],
+   [
+    "Hình",
+    3,
+    82
+   ],
+   [
+    "Bảng",
+    1,
+    83
+   ],
+   [
+    "Hình",
+    4,
+    84
+   ],
+   [
+    "Hình",
+    5,
+    86
+   ],
+   [
+    "Hình",
+    6,
+    87
+   ],
+   [
+    "Hình",
+    7,
+    87
+   ],
+   [
+    "Bảng",
+    2,
+    88
+   ],
+   [
+    "Hình",
+    8,
+    90
+   ],
+   [
+    "Hình",
+    9,
+    91
+   ],
+   [
+    "Bảng",
+    3,
+    92
+   ],
+   [
+    "Hình",
+    10,
+    92
+   ],
+   [
+    "Bảng",
+    4,
+    95
+   ]
+  ],
+  "bai_03_do_co_gian_va_dinh_gia.md": [
+   [
+    "Hình",
+    1,
+    107
+   ],
+   [
+    "Hình",
+    2,
+    109
+   ],
+   [
+    "Hình",
+    3,
+    109
+   ],
+   [
+    "Hình",
+    4,
+    110
+   ],
+   [
+    "Hình",
+    5,
+    114
+   ],
+   [
+    "Hình",
+    6,
+    115
+   ],
+   [
+    "Hình",
+    7,
+    116
+   ],
+   [
+    "Hình",
+    8,
+    119
+   ],
+   [
+    "Hình",
+    9,
+    121
+   ]
+  ],
+  "bai_04_thang_du_va_chi_phi_cua_thue.md": [
+   [
+    "Bảng",
+    1,
+    154
+   ],
+   [
+    "Hình",
+    1,
+    156
+   ],
+   [
+    "Hình",
+    2,
+    157
+   ],
+   [
+    "Hình",
+    3,
+    158
+   ],
+   [
+    "Bảng",
+    2,
+    159
+   ],
+   [
+    "Hình",
+    4,
+    160
+   ],
+   [
+    "Hình",
+    5,
+    161
+   ],
+   [
+    "Hình",
+    7,
+    165
+   ],
+   [
+    "Hình",
+    8,
+    166
+   ],
+   [
+    "Hình",
+    1,
+    175
+   ],
+   [
+    "Hình",
+    2,
+    176
+   ],
+   [
+    "Hình",
+    3,
+    177
+   ],
+   [
+    "Hình",
+    4,
+    179
+   ],
+   [
+    "Hình",
+    5,
+    180
+   ],
+   [
+    "Hình",
+    6,
+    183
+   ]
+  ],
+  "bai_05_chi_phi_san_xuat.md": [
+   [
+    "Hình",
+    1,
+    287
+   ],
+   [
+    "Bảng",
+    1,
+    288
+   ],
+   [
+    "Hình",
+    2,
+    289
+   ],
+   [
+    "Hình",
+    3,
+    291
+   ],
+   [
+    "Bảng",
+    2,
+    292
+   ],
+   [
+    "Hình",
+    4,
+    294
+   ],
+   [
+    "Hình",
+    5,
+    297
+   ],
+   [
+    "Hình",
+    6,
+    298
+   ],
+   [
+    "Bảng",
+    3,
+    301
+   ]
+  ],
+  "bai_06_thi_truong_canh_tranh.md": [
+   [
+    "Bảng",
+    1,
+    311
+   ],
+   [
+    "Bảng",
+    2,
+    312
+   ],
+   [
+    "Hình",
+    1,
+    313
+   ],
+   [
+    "Hình",
+    2,
+    314
+   ],
+   [
+    "Hình",
+    3,
+    317
+   ],
+   [
+    "Hình",
+    4,
+    319
+   ],
+   [
+    "Hình",
+    5,
+    320
+   ],
+   [
+    "Hình",
+    7,
+    322
+   ],
+   [
+    "Hình",
+    8,
+    325
+   ]
+  ],
+  "bai_07_doc_quyen_va_phan_biet_gia.md": [
+   [
+    "Hình",
+    1,
+    337
+   ],
+   [
+    "Hình",
+    2,
+    340
+   ],
+   [
+    "Bảng",
+    1,
+    341
+   ],
+   [
+    "Hình",
+    3,
+    342
+   ],
+   [
+    "Hình",
+    4,
+    343
+   ],
+   [
+    "Hình",
+    5,
+    345
+   ],
+   [
+    "Hình",
+    6,
+    346
+   ],
+   [
+    "Hình",
+    7,
+    348
+   ],
+   [
+    "Hình",
+    8,
+    349
+   ],
+   [
+    "Hình",
+    9,
+    354
+   ],
+   [
+    "Hình",
+    10,
+    358
+   ],
+   [
+    "Bảng",
+    2,
+    360
+   ]
+  ],
+  "bai_08_canh_tranh_doc_quyen.md": [
+   [
+    "Hình",
+    1,
+    372
+   ],
+   [
+    "Hình",
+    2,
+    374
+   ],
+   [
+    "Hình",
+    3,
+    375
+   ],
+   [
+    "Hình",
+    4,
+    376
+   ]
+  ],
+  "bai_09_doc_quyen_nhom_va_ly_thuyet_tro_choi.md": [
+   [
+    "Bảng",
+    1,
+    392
+   ],
+   [
+    "Hình",
+    1,
+    398
+   ],
+   [
+    "Hình",
+    2,
+    399
+   ],
+   [
+    "Hình",
+    3,
+    401
+   ],
+   [
+    "Hình",
+    4,
+    402
+   ]
+  ],
+  "bai_10_lua_chon_cua_nguoi_tieu_dung.md": [
+   [
+    "Hình",
+    1,
+    496
+   ],
+   [
+    "Hình",
+    2,
+    498
+   ],
+   [
+    "Hình",
+    3,
+    500
+   ],
+   [
+    "Hình",
+    4,
+    501
+   ],
+   [
+    "Hình",
+    5,
+    502
+   ],
+   [
+    "Hình",
+    6,
+    503
+   ],
+   [
+    "Hình",
+    7,
+    505
+   ],
+   [
+    "Hình",
+    8,
+    506
+   ],
+   [
+    "Hình",
+    9,
+    507
+   ],
+   [
+    "Bảng",
+    1,
+    508
+   ],
+   [
+    "Hình",
+    10,
+    508
+   ],
+   [
+    "Hình",
+    11,
+    509
+   ],
+   [
+    "Hình",
+    12,
+    510
+   ],
+   [
+    "Hình",
+    13,
+    512
+   ],
+   [
+    "Hình",
+    14,
+    513
+   ],
+   [
+    "Hình",
+    15,
+    516
+   ],
+   [
+    "Hình",
+    16,
+    517
+   ]
+  ],
+  "bai_11_thong_tin_bat_can_xung.md": [
+   [
+    "Bảng",
+    1,
+    533
+   ],
+   [
+    "Hình",
+    1,
+    536
+   ]
+  ],
+  "bai_12_thi_truong_lao_dong.md": [
+   [
+    "Hình",
+    1,
+    422
+   ],
+   [
+    "Bảng",
+    1,
+    424
+   ],
+   [
+    "Hình",
+    4,
+    431
+   ],
+   [
+    "Bảng",
+    2,
+    434
+   ],
+   [
+    "Hình",
+    7,
+    436
+   ],
+   [
+    "Bảng",
+    1,
+    448
+   ],
+   [
+    "Bảng",
+    2,
+    454
+   ],
+   [
+    "Bảng",
+    1,
+    466
+   ],
+   [
+    "Bảng",
+    2,
+    468
+   ],
+   [
+    "Hình",
+    2,
+    470
+   ],
+   [
+    "Bảng",
+    3,
+    471
+   ]
+  ],
+  "bai_13_chinh_phu_can_thiep_thi_truong.md": [
+   [
+    "Hình",
+    1,
+    129
+   ],
+   [
+    "Hình",
+    2,
+    130
+   ],
+   [
+    "Hình",
+    3,
+    131
+   ],
+   [
+    "Hình",
+    4,
+    133
+   ],
+   [
+    "Hình",
+    5,
+    134
+   ],
+   [
+    "Hình",
+    6,
+    139
+   ],
+   [
+    "Hình",
+    7,
+    140
+   ],
+   [
+    "Hình",
+    9,
+    143
+   ],
+   [
+    "Bảng",
+    1,
+    257
+   ],
+   [
+    "Bảng",
+    2,
+    257
+   ],
+   [
+    "Bảng",
+    4,
+    259
+   ],
+   [
+    "Bảng",
+    5,
+    263
+   ],
+   [
+    "Bảng",
+    6,
+    263
+   ],
+   [
+    "Bảng",
+    7,
+    270
+   ],
+   [
+    "Bảng",
+    8,
+    271
+   ]
+  ],
+  "bai_14_thuong_mai_ngoai_tac_hang_hoa_cong.md": [
+   [
+    "Hình",
+    1,
+    59
+   ],
+   [
+    "Hình",
+    2,
+    61
+   ],
+   [
+    "Bảng",
+    1,
+    62
+   ],
+   [
+    "Hình",
+    4,
+    198
+   ],
+   [
+    "Hình",
+    2,
+    218
+   ],
+   [
+    "Hình",
+    3,
+    220
+   ],
+   [
+    "Hình",
+    4,
+    226
+   ],
+   [
+    "Hình",
+    1,
+    239
+   ]
+  ]
+ }
+}
