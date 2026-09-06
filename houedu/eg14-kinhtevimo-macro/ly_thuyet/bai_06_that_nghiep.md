@@ -9,7 +9,7 @@
 > ⚠️ — chỗ dễ hiểu sai, hoặc chỗ sách in sai.
 > 📌 **Cần đọc trước:** [Bài 0](bai_00_tu_vi_mo_sang_vi_mo.md) mục 5 (điểm D bên trong đường giới hạn),
 > [Bài 3](bai_03_san_xuat_va_tang_truong.md) mục 5 (năng suất). Mục 7–9 dùng lại **giá sàn** của
-> [EG13 bài 13](../../%5BEG13%5D.kinhtevimo-micro/ly_thuyet/bai_13_chinh_phu_can_thiep_thi_truong.md).
+> [EG13 bài 13](../../eg13-kinhtevimo-micro/ly_thuyet/bai_13_chinh_phu_can_thiep_thi_truong.md).
 
 ---
 
@@ -391,7 +391,7 @@ Cơ chế — đây là **Nguyên lý 4** (con người phản ứng với độ
 ```
 
 ⭐ Đây là một **thí nghiệm có đối chứng ngẫu nhiên** thật, đúng phương pháp bạn đã học ở
-[EG11 bài 12–13](../../%5BEG11%5D.xacxuatthongke/ly_thuyet/bai_12_kiem_dinh_gia_thuyet_mot_mau.md).
+[EG11 bài 12–13](../../eg11-xacxuatthongke/ly_thuyet/bai_12_kiem_dinh_gia_thuyet_mot_mau.md).
 Nó cho thấy chính sách thay đổi **hành vi**, không chỉ thay đổi thu nhập.
 
 Một bằng chứng khác (tr. 342): khi người thất nghiệp **hết tiêu chuẩn** nhận trợ cấp (sau 6 tháng hoặc
@@ -419,7 +419,7 @@ Thất nghiệp không phải biến duy nhất cần tối ưu.
 ## 8. Nguyên nhân 2 — luật lương tối thiểu
 
 Đây là **giá sàn** áp cho thị trường lao động — đúng công cụ của
-[EG13 bài 13](../../%5BEG13%5D.kinhtevimo-micro/ly_thuyet/bai_13_chinh_phu_can_thiep_thi_truong.md).
+[EG13 bài 13](../../eg13-kinhtevimo-micro/ly_thuyet/bai_13_chinh_phu_can_thiep_thi_truong.md).
 
 ### Hình 4, tr. 343
 
@@ -1925,9 +1925,9 @@ Kết quả chạy thật:
   - [Bài 0 mục 5](bai_00_tu_vi_mo_sang_vi_mo.md#5-đường-giới-hạn-khả-năng-sản-xuất--nền-móng-của-ngắn-hạn--dài-hạn) — thất nghiệp là điểm D bên trong đường giới hạn.
   - [Bài 3 mục 5](bai_03_san_xuat_va_tang_truong.md#5-năng-suất--lời-giải-trong-một-từ) — năng suất, biến trung tâm của tiền lương hiệu quả.
   - [Bài 2 mục 12](bai_02_do_luong_chi_phi_sinh_hoat.md#12-lãi-suất-danh-nghĩa-và-lãi-suất-thực) — Henry Ford 5 USD/ngày quy đổi ra 109 USD giá 2010.
-  - Giá sàn và tác động của nó: [EG13 bài 13](../../%5BEG13%5D.kinhtevimo-micro/ly_thuyet/bai_13_chinh_phu_can_thiep_thi_truong.md).
-  - Thị trường lao động vi mô: [EG13 bài 12](../../%5BEG13%5D.kinhtevimo-micro/ly_thuyet/bai_12_thi_truong_lao_dong.md).
-  - Thí nghiệm có đối chứng ngẫu nhiên (Illinois 1985): [EG11 bài 12](../../%5BEG11%5D.xacxuatthongke/ly_thuyet/bai_12_kiem_dinh_gia_thuyet_mot_mau.md).
+  - Giá sàn và tác động của nó: [EG13 bài 13](../../eg13-kinhtevimo-micro/ly_thuyet/bai_13_chinh_phu_can_thiep_thi_truong.md).
+  - Thị trường lao động vi mô: [EG13 bài 12](../../eg13-kinhtevimo-micro/ly_thuyet/bai_12_thi_truong_lao_dong.md).
+  - Thí nghiệm có đối chứng ngẫu nhiên (Illinois 1985): [EG11 bài 12](../../eg11-xacxuatthongke/ly_thuyet/bai_12_kiem_dinh_gia_thuyet_mot_mau.md).
 
 <!-- BAN-DO -->
 

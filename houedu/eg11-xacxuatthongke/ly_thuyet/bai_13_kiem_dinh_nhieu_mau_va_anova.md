@@ -612,7 +612,7 @@ kiểm định bỏ sót: nhóm có hai đỉnh, giá trị nhập sai, xu hư�
 ## 9. Code minh hoạ
 
 > ⚙️ **Chạy:** cần **Python 3.10+**. Chỉ dùng thư viện chuẩn — **không cần cài gói nào**.
-> Chạy từ thư mục gốc khoá học: `cd houedu/xacxuatthongke && python3 bai-13-nhieu-mau.py`.
+> Chạy từ thư mục gốc khoá học: `cd houedu/eg11-xacxuatthongke && python3 bai-13-nhieu-mau.py`.
 > Dùng module [thuc_hanh/bang_tra.py](../thuc_hanh/bang_tra.py) (bảng $t$, $\chi^2$, $F$).
 
 Hai tệp dữ liệu mới:

@@ -689,7 +689,7 @@ trống đó.
 > ⚙️ **Chạy:** cần **Python 3.10+**. Chỉ dùng thư viện chuẩn — **không cần cài gói nào**.
 > Code đọc dữ liệu từ `thuc_hanh/du_lieu/`, nên phải chạy **từ thư mục gốc của khoá học**:
 > ```bash
-> cd houedu/xacxuatthongke
+> cd houedu/eg11-xacxuatthongke
 > python3 bai-10-mau.py
 > ```
 

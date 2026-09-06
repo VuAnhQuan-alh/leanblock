@@ -260,7 +260,7 @@ Vì sao ví dụ Crusoe lại hợp lệ cho cả một quốc gia? Vì đồng 
 ```
 
 Và điều này nối thẳng về **Nguyên lý 8** trong Mười Nguyên lý (chương 1, bạn đã học ở
-[EG13 bài 1](../../%5BEG13%5D.kinhtevimo-micro/ly_thuyet/bai_01_muoi_nguyen_ly_va_tu_duy_kinh_te.md)):
+[EG13 bài 1](../../eg13-kinhtevimo-micro/ly_thuyet/bai_01_muoi_nguyen_ly_va_tu_duy_kinh_te.md)):
 *mức sống của một quốc gia phụ thuộc vào khả năng sản xuất hàng hóa và dịch vụ của quốc gia đó.*
 
 ⚠️ **Đừng nhầm "năng suất" với "làm việc chăm chỉ".** Năng suất là **sản lượng trên mỗi giờ lao động**,
@@ -420,7 +420,7 @@ Câu đắt nhất (tr. 269): *"Sự tiến bộ công nghệ làm cho các lo�
 ### ② Bằng chứng từ giá thị trường
 
 Đây là lập luận tinh tế nhất của cả mục, và nó là **một ứng dụng trực tiếp của cung–cầu** bạn đã học ở
-[EG13 bài 2](../../%5BEG13%5D.kinhtevimo-micro/ly_thuyet/bai_02_cung_va_cau.md):
+[EG13 bài 2](../../eg13-kinhtevimo-micro/ly_thuyet/bai_02_cung_va_cau.md):
 
 ```
    NẾU thế giới sắp cạn kiệt một tài nguyên
@@ -666,7 +666,7 @@ tưởng này là lợi ích ngoại tác của giáo dục."*
 📌 Đây là cầu nối giữa yếu tố ② (vốn nhân lực) và yếu tố ④ (công nghệ) ở mục 6: **giáo dục là cách xã hội
 sản xuất ra $A$**. Và vì đó là ngoại tác, thị trường tự do sẽ đầu tư **dưới mức tối ưu** — đây là lập luận
 kinh tế học chuẩn mực cho **trợ cấp giáo dục công**. (Ngoại tác bạn đã học ở
-[EG13 bài 14](../../%5BEG13%5D.kinhtevimo-micro/ly_thuyet/bai_14_thuong_mai_ngoai_tac_hang_hoa_cong.md).)
+[EG13 bài 14](../../eg13-kinhtevimo-micro/ly_thuyet/bai_14_thuong_mai_ngoai_tac_hang_hoa_cong.md).)
 
 ### ⚠️ Chảy máu chất xám — thế tiến thoái lưỡng nan
 
@@ -791,7 +791,7 @@ là một **lợi thế đã có sẵn** — điều còn lại phụ thuộc v�
 > ý tưởng đó được đưa vào kiến thức chung của nhân loại và những người khác được sử dụng **miễn phí**."* — tr. 278
 
 Đây là lập luận cho vai trò của chính phủ, y hệt lập luận về quốc phòng (bạn đã học hàng hoá công ở
-[EG13 bài 14](../../%5BEG13%5D.kinhtevimo-micro/ly_thuyet/bai_14_thuong_mai_ngoai_tac_hang_hoa_cong.md)).
+[EG13 bài 14](../../eg13-kinhtevimo-micro/ly_thuyet/bai_14_thuong_mai_ngoai_tac_hang_hoa_cong.md)).
 Ba công cụ mà sách kể (tr. 278):
 
 | Công cụ                            | Ví dụ của sách                                                    |
@@ -2001,9 +2001,9 @@ Kết quả chạy thật:
   - [Bài 1 — Đo lường thu nhập quốc gia](bai_01_do_luong_thu_nhap_quoc_gia.md), mục 8 — GDP so với GNP, dùng lại ở mục 12.
   - [Bài 2 — Đo lường chi phí sinh hoạt](bai_02_do_luong_chi_phi_sinh_hoat.md), mục 6 — vấn đề hàng hoá mới của CPI, nối vào mục 4.
   - [Bài 4 — Tiết kiệm, đầu tư và hệ thống tài chính](bai_04_tiet_kiem_dau_tu_he_thong_tai_chinh.md) — thị trường vốn vay biến tiết kiệm thành đầu tư như thế nào.
-  - Mười nguyên lý (nguyên lý 1 và 8): [EG13 bài 1](../../%5BEG13%5D.kinhtevimo-micro/ly_thuyet/bai_01_muoi_nguyen_ly_va_tu_duy_kinh_te.md).
-  - Ngoại tác và hàng hoá công: [EG13 bài 14](../../%5BEG13%5D.kinhtevimo-micro/ly_thuyet/bai_14_thuong_mai_ngoai_tac_hang_hoa_cong.md).
-  - Cung–cầu (dùng ở mục 8 để đọc giá tài nguyên): [EG13 bài 2](../../%5BEG13%5D.kinhtevimo-micro/ly_thuyet/bai_02_cung_va_cau.md).
+  - Mười nguyên lý (nguyên lý 1 và 8): [EG13 bài 1](../../eg13-kinhtevimo-micro/ly_thuyet/bai_01_muoi_nguyen_ly_va_tu_duy_kinh_te.md).
+  - Ngoại tác và hàng hoá công: [EG13 bài 14](../../eg13-kinhtevimo-micro/ly_thuyet/bai_14_thuong_mai_ngoai_tac_hang_hoa_cong.md).
+  - Cung–cầu (dùng ở mục 8 để đọc giá tài nguyên): [EG13 bài 2](../../eg13-kinhtevimo-micro/ly_thuyet/bai_02_cung_va_cau.md).
 
 <!-- BAN-DO -->
 

@@ -1409,7 +1409,7 @@ Cột tiếng Anh lấy nguyên từ mục **Khái niệm then chốt** của s�
 - **Đính chính đã ghi trong bài:** tr. 34 in "2.000", đúng phải là **2.200** — đối chiếu với Hình 2
   (tr. 32) và với chính Hình 3 trên cùng trang, bản quét 300 dpi.
 - **Nghiên cứu được sách dẫn:** Sam Peltzman (1975) về tác động của luật an toàn ô tô, tr. 9.
-- **Liên hệ chéo:** [Bài 14 — Tương quan và hồi quy](../../%5BEG11%5D.xacxuatthongke/ly_thuyet/bai_14_tuong_quan_va_hoi_quy.md)
+- **Liên hệ chéo:** [Bài 14 — Tương quan và hồi quy](../../eg11-xacxuatthongke/ly_thuyet/bai_14_tuong_quan_va_hoi_quy.md)
   của môn *Xác suất Thống kê* — cùng cảnh báo về tương quan và nhân quả, ở đó có công thức tính $r$.
 
 <!-- BAN-DO -->

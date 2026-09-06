@@ -4,7 +4,7 @@
 > **Chương 2 — Suy nghĩ như một nhà kinh tế học** (tr. 27–57)
 > của *N. Gregory Mankiw — **Kinh tế học vĩ mô***, bản dịch của Khoa Kinh tế, **ĐH Kinh tế TP.HCM** (Cengage Learning Asia).
 > 🔸 **Vòng 2 — đọc hiểu, không cần học thuộc.** Chín chương đầu của sách vĩ mô **trùng nội dung**
-> với sách vi mô mà bạn đã học ở môn [EG13](../../%5BEG13%5D.kinhtevimo-micro/README.md). Bài này
+> với sách vi mô mà bạn đã học ở môn [EG13](../../eg13-kinhtevimo-micro/README.md). Bài này
 > **không dạy lại** chúng — nó chỉ lấy ra đúng những mảnh sẽ dùng tiếp, và chỉ chỗ tra lại phần còn lại.
 > 💼 **Góc QTKD** — ví dụ thêm cho ngành quản trị kinh doanh, **không có trong sách**.
 > ⚠️ — chỗ dễ hiểu sai, hoặc chỗ sách in sai.
@@ -63,15 +63,15 @@ Nếu bạn còn nhớ rõ EG13, đọc mục 2 rồi nhảy thẳng xuống m�
 
 |  Ch. | Tên chương (sách vĩ mô)                        |  tr. | Đã học ở EG13                                                                                      | Vĩ mô dùng lại ở đâu                     |
 | ---: | ---------------------------------------------- | ---: | -------------------------------------------------------------------------------------------------- | ---------------------------------------- |
-|    1 | Mười nguyên lý của kinh tế học                 |    3 | [bài 1](../../%5BEG13%5D.kinhtevimo-micro/ly_thuyet/bai_01_muoi_nguyen_ly_va_tu_duy_kinh_te.md)    | **nguyên lý 8–9–10 là vĩ mô** → mục 8–10 |
-|    2 | Suy nghĩ như một nhà kinh tế học               |   27 | [bài 1](../../%5BEG13%5D.kinhtevimo-micro/ly_thuyet/bai_01_muoi_nguyen_ly_va_tu_duy_kinh_te.md)    | sơ đồ chu chuyển + PPF → mục 4–6         |
-|    3 | Sự phụ thuộc lẫn nhau và lợi ích từ thương mại |   58 | [bài 14](../../%5BEG13%5D.kinhtevimo-micro/ly_thuyet/bai_14_thuong_mai_ngoai_tac_hang_hoa_cong.md) | nền của bài 9–10 (kinh tế mở)            |
-|    4 | Các lực lượng cung và cầu trên thị trường      |   77 | [bài 2](../../%5BEG13%5D.kinhtevimo-micro/ly_thuyet/bai_02_cung_va_cau.md)                         | **mọi** thị trường vĩ mô                 |
-|    5 | Độ co giãn và ứng dụng                         |  102 | [bài 3](../../%5BEG13%5D.kinhtevimo-micro/ly_thuyet/bai_03_do_co_gian_va_dinh_gia.md)              | ít dùng lại ở phần vĩ mô                 |
-|    6 | Cung, cầu và chính sách chính phủ              |  126 | [bài 13](../../%5BEG13%5D.kinhtevimo-micro/ly_thuyet/bai_13_chinh_phu_can_thiep_thi_truong.md)     | giá sàn → tiền lương tối thiểu, bài 6    |
-|    7 | Người tiêu dùng, nhà sản xuất và hiệu quả      |  150 | [bài 4](../../%5BEG13%5D.kinhtevimo-micro/ly_thuyet/bai_04_thang_du_va_chi_phi_cua_thue.md)        | thặng dư → bài 4 (thị trường vốn vay)    |
-|    8 | Ứng dụng: chi phí của thuế                     |  174 | [bài 4](../../%5BEG13%5D.kinhtevimo-micro/ly_thuyet/bai_04_thang_du_va_chi_phi_cua_thue.md)        | tổn thất vô ích                          |
-|    9 | Ứng dụng: thương mại quốc tế                   |  190 | [bài 14](../../%5BEG13%5D.kinhtevimo-micro/ly_thuyet/bai_14_thuong_mai_ngoai_tac_hang_hoa_cong.md) | nền của bài 9–10                         |
+|    1 | Mười nguyên lý của kinh tế học                 |    3 | [bài 1](../../eg13-kinhtevimo-micro/ly_thuyet/bai_01_muoi_nguyen_ly_va_tu_duy_kinh_te.md)    | **nguyên lý 8–9–10 là vĩ mô** → mục 8–10 |
+|    2 | Suy nghĩ như một nhà kinh tế học               |   27 | [bài 1](../../eg13-kinhtevimo-micro/ly_thuyet/bai_01_muoi_nguyen_ly_va_tu_duy_kinh_te.md)    | sơ đồ chu chuyển + PPF → mục 4–6         |
+|    3 | Sự phụ thuộc lẫn nhau và lợi ích từ thương mại |   58 | [bài 14](../../eg13-kinhtevimo-micro/ly_thuyet/bai_14_thuong_mai_ngoai_tac_hang_hoa_cong.md) | nền của bài 9–10 (kinh tế mở)            |
+|    4 | Các lực lượng cung và cầu trên thị trường      |   77 | [bài 2](../../eg13-kinhtevimo-micro/ly_thuyet/bai_02_cung_va_cau.md)                         | **mọi** thị trường vĩ mô                 |
+|    5 | Độ co giãn và ứng dụng                         |  102 | [bài 3](../../eg13-kinhtevimo-micro/ly_thuyet/bai_03_do_co_gian_va_dinh_gia.md)              | ít dùng lại ở phần vĩ mô                 |
+|    6 | Cung, cầu và chính sách chính phủ              |  126 | [bài 13](../../eg13-kinhtevimo-micro/ly_thuyet/bai_13_chinh_phu_can_thiep_thi_truong.md)     | giá sàn → tiền lương tối thiểu, bài 6    |
+|    7 | Người tiêu dùng, nhà sản xuất và hiệu quả      |  150 | [bài 4](../../eg13-kinhtevimo-micro/ly_thuyet/bai_04_thang_du_va_chi_phi_cua_thue.md)        | thặng dư → bài 4 (thị trường vốn vay)    |
+|    8 | Ứng dụng: chi phí của thuế                     |  174 | [bài 4](../../eg13-kinhtevimo-micro/ly_thuyet/bai_04_thang_du_va_chi_phi_cua_thue.md)        | tổn thất vô ích                          |
+|    9 | Ứng dụng: thương mại quốc tế                   |  190 | [bài 14](../../eg13-kinhtevimo-micro/ly_thuyet/bai_14_thuong_mai_ngoai_tac_hang_hoa_cong.md) | nền của bài 9–10                         |
 
 ### ⚠️ Số trang hai cuốn **lệch nhau** — đừng tra nhầm
 
@@ -1284,7 +1284,7 @@ Kết quả chạy thật:
   - Phần **PPF cho doanh nghiệp** ở [mục 12](#12--góc-qtkd--đường-giới-hạn-khả-năng-sản-xuất-của-một-doanh-nghiệp)
     — mở rộng cho ngành QTKD, sách chỉ bàn ở cấp quốc gia.
 - **Liên hệ chéo:**
-  - Toàn bộ chương 1–9: xem môn [Kinh tế vi mô — EG13](../../%5BEG13%5D.kinhtevimo-micro/README.md).
+  - Toàn bộ chương 1–9: xem môn [Kinh tế vi mô — EG13](../../eg13-kinhtevimo-micro/README.md).
   - [Bài 1 — Đo lường thu nhập quốc gia](bai_01_do_luong_thu_nhap_quoc_gia.md) — sơ đồ chu chuyển thành $Y = C + I + G + NX$.
   - [Bài 3 — Sản xuất và tăng trưởng](bai_03_san_xuat_va_tang_truong.md) — cái gì làm đường giới hạn dịch ra ngoài.
   - [Bài 8 — Tăng trưởng tiền và lạm phát](bai_08_tang_truong_tien_va_lam_phat.md) — cơ chế của nguyên lý 9.

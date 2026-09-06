@@ -581,7 +581,7 @@ Ba nguyên nhân thường gặp:
 ## 10. Code minh hoạ
 
 > ⚙️ **Chạy:** cần **Python 3.10+**. Chỉ dùng thư viện chuẩn — **không cần cài gói nào**.
-> Chạy từ thư mục gốc khoá học: `cd houedu/xacxuatthongke && python3 bai-14-hoi-quy.py`.
+> Chạy từ thư mục gốc khoá học: `cd houedu/eg11-xacxuatthongke && python3 bai-14-hoi-quy.py`.
 > Dùng module [thuc_hanh/bang_tra.py](../thuc_hanh/bang_tra.py).
 
 Ba tệp dữ liệu:

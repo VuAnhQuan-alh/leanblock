@@ -350,7 +350,7 @@ về mặt **đồ họa** tính phân đôi cổ điển và tính trung lập 
 thương mại quốc tế có những tác động tương tự như phát minh ra một quy trình sản xuất mới vì nó cho phép
 một quốc gia chuyên môn hóa vào những ngành có năng suất cao hơn."*
 
-📌 Đó là [EG13 bài 14](../../%5BEG13%5D.kinhtevimo-micro/ly_thuyet/bai_14_thuong_mai_ngoai_tac_hang_hoa_cong.md)
+📌 Đó là [EG13 bài 14](../../eg13-kinhtevimo-micro/ly_thuyet/bai_14_thuong_mai_ngoai_tac_hang_hoa_cong.md)
 gặp lại chương này. Và ngược lại, sách cũng nêu (tr. 483): quy định mới cản trở doanh nghiệp *"chẳng hạn
 để giải quyết vấn đề an toàn lao động hay quan ngại môi trường"* thì đẩy LRAS sang **trái**.
 
@@ -697,7 +697,7 @@ tấm huy chương: nếu AD có thể đẩy sản lượng **xuống dưới**
 trà của chính phủ nhằm hạn chế sự gia tăng giá cả"*. **Kiểm soát giá không ngăn được lạm phát khi tổng
 cầu bùng nổ — nó chỉ đổi hình thức của lạm phát** (từ giá cao thành xếp hàng, thiếu hàng, chợ đen). Đó là
 đúng kết luận về giá trần của
-[EG13 bài 13](../../%5BEG13%5D.kinhtevimo-micro/ly_thuyet/bai_13_chinh_phu_can_thiep_thi_truong.md), ở
+[EG13 bài 13](../../eg13-kinhtevimo-micro/ly_thuyet/bai_13_chinh_phu_can_thiep_thi_truong.md), ở
 quy mô cả nền kinh tế.
 
 ---
@@ -2919,7 +2919,7 @@ Trả lời rồi mới kéo lên đối chiếu. Câu có ⭐ là câu đáng d
   - [Bài 7 mục 13](bai_07_he_thong_tien_te.md#13-đổ-xô-rút-tiền-và-đại-khủng-hoảng) — cùng con số cung
     tiền giảm 28%, nhìn từ phía hệ thống ngân hàng.
   - Giá trần và kiểm soát giá:
-    [EG13 bài 13](../../%5BEG13%5D.kinhtevimo-micro/ly_thuyet/bai_13_chinh_phu_can_thiep_thi_truong.md).
+    [EG13 bài 13](../../eg13-kinhtevimo-micro/ly_thuyet/bai_13_chinh_phu_can_thiep_thi_truong.md).
   - **Bài 12** sẽ mở kỹ **cơ chế** mà chính sách tiền tệ và tài khoá dịch chuyển đường tổng cầu — tức
     chương này chỉ nói "AD dịch", bài 12 nói "dịch bằng cách nào và bao nhiêu".
   - [Bài 13](bai_13_lam_phat_va_that_nghiep.md) sẽ đặt tên cho đánh đổi ở [mục 10](#10-cú-sốc-tổng-cung-đình-lạm) và khai thác đầy đủ bài

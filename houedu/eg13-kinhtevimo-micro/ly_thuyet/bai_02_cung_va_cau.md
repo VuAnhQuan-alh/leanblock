@@ -1109,7 +1109,7 @@ Google cụm sai đó sẽ không ra gì.
   - Cả hai đã đối chiếu bản quét 300 dpi.
 - **Liên hệ chéo:**
   - [Bài 1 — Mười nguyên lý và tư duy kinh tế](bai_01_muoi_nguyen_ly_va_tu_duy_kinh_te.md), mục 15 — dịch chuyển đường ↔ di chuyển dọc.
-  - Ước lượng đường cầu từ dữ liệu bán hàng thật: [Bài 14 — Tương quan và hồi quy](../../%5BEG11%5D.xacxuatthongke/ly_thuyet/bai_14_tuong_quan_va_hoi_quy.md) của môn *Xác suất Thống kê*.
+  - Ước lượng đường cầu từ dữ liệu bán hàng thật: [Bài 14 — Tương quan và hồi quy](../../eg11-xacxuatthongke/ly_thuyet/bai_14_tuong_quan_va_hoi_quy.md) của môn *Xác suất Thống kê*.
 
 <!-- BAN-DO -->
 

@@ -629,7 +629,7 @@ Khảo sát sai đối tượng thì $p = 0{,}0001$ cũng vô nghĩa.
 ## 10. Code minh hoạ
 
 > ⚙️ **Chạy:** cần **Python 3.10+**. Chỉ dùng thư viện chuẩn — **không cần cài gói nào**.
-> Chạy từ thư mục gốc khoá học: `cd houedu/xacxuatthongke && python3 bai-12-kiem-dinh.py`.
+> Chạy từ thư mục gốc khoá học: `cd houedu/eg11-xacxuatthongke && python3 bai-12-kiem-dinh.py`.
 
 Code dùng lại module bảng tra ở [thuc_hanh/bang_tra.py](../thuc_hanh/bang_tra.py) — chính là các hàm
 đã viết ở bài 11, giờ tách ra thành thư viện dùng chung cho bài 12, 13, 14.

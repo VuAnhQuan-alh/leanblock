@@ -617,7 +617,7 @@ hai giá gặp nhau. Cơ hội TỰ NÓ biến mất.
 ```
 
 📌 Đây là **cùng một cơ chế** với việc thị trường tự về cân bằng ở
-[EG13 bài 2](../../%5BEG13%5D.kinhtevimo-micro/ly_thuyet/bai_02_cung_va_cau.md). Không có gì mới ngoài
+[EG13 bài 2](../../eg13-kinhtevimo-micro/ly_thuyet/bai_02_cung_va_cau.md). Không có gì mới ngoài
 việc hai "địa điểm" giờ ở hai nước.
 
 ### Ba dòng đại số (tr. 434)
@@ -2805,7 +2805,7 @@ Trả lời rồi mới kéo lên đối chiếu. Câu có ⭐ là câu đáng d
     Hình 4 của bài 8 thêm một đường tỷ giá.
   - [Bài 5 mục 3](bai_05_cong_cu_co_ban_cua_tai_chinh.md#3--ma-thuật-của-lãi-kép-và-quy-tắc-70--hộp-bạn-có-biết-tr-316) —
     quy tắc 70, dùng lần thứ tư ở mục 14.
-  - Cung cầu và cơ chế về cân bằng: [EG13 bài 2](../../%5BEG13%5D.kinhtevimo-micro/ly_thuyet/bai_02_cung_va_cau.md).
+  - Cung cầu và cơ chế về cân bằng: [EG13 bài 2](../../eg13-kinhtevimo-micro/ly_thuyet/bai_02_cung_va_cau.md).
   - **Bài 10** sẽ dựng mô hình: hai thị trường (vốn vay và ngoại hối) xác định lãi suất thực, tỷ giá
     thực, $NCO$ và $NX$ — và cho biết chính sách tác động vào chúng thế nào.
 

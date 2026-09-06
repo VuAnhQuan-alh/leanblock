@@ -9,7 +9,7 @@
 > ⚠️ — chỗ dễ hiểu sai, hoặc chỗ sách in sai.
 > 📌 **Cần đọc trước:** [Bài 1](bai_01_do_luong_thu_nhap_quoc_gia.md) mục 5 ($Y = C+I+G+NX$),
 > [Bài 2](bai_02_do_luong_chi_phi_sinh_hoat.md) mục 12 (lãi suất thực), [Bài 3](bai_03_san_xuat_va_tang_truong.md) mục 9–11 (sinh lợi giảm dần).
-> Mô hình ở mục 10 dùng lại **ba bước phân tích cung–cầu** của [EG13 bài 2](../../%5BEG13%5D.kinhtevimo-micro/ly_thuyet/bai_02_cung_va_cau.md).
+> Mô hình ở mục 10 dùng lại **ba bước phân tích cung–cầu** của [EG13 bài 2](../../eg13-kinhtevimo-micro/ly_thuyet/bai_02_cung_va_cau.md).
 
 ---
 
@@ -484,7 +484,7 @@ Vì sao hai đường dốc đúng chiều đó (tr. 299):
 ```
 
 Cơ chế điều chỉnh giống hệt mọi thị trường bạn đã học ở
-[EG13 bài 2](../../%5BEG13%5D.kinhtevimo-micro/ly_thuyet/bai_02_cung_va_cau.md#11-thặng-dư-và-thiếu-hụt--cơ-chế-đưa-thị-trường-về-cân-bằng):
+[EG13 bài 2](../../eg13-kinhtevimo-micro/ly_thuyet/bai_02_cung_va_cau.md#11-thặng-dư-và-thiếu-hụt--cơ-chế-đưa-thị-trường-về-cân-bằng):
 
 ```
    lãi suất THẤP hơn cân bằng  →  THIẾU HỤT vốn vay  →  người cho vay NÂNG lãi suất
@@ -632,7 +632,7 @@ dọc theo đường cung"* do lãi suất cao hơn.
 | người **đầu tư**    | CẦU  | **tăng** |
 
 Đây đúng là câu hỏi ①  trong ba bước phân tích của
-[EG13 bài 2](../../%5BEG13%5D.kinhtevimo-micro/ly_thuyet/bai_02_cung_va_cau.md), chỉ áp cho thị trường mới.
+[EG13 bài 2](../../eg13-kinhtevimo-micro/ly_thuyet/bai_02_cung_va_cau.md), chỉ áp cho thị trường mới.
 
 ---
 
@@ -1521,7 +1521,7 @@ Kết quả chạy thật:
 
 4. **Hai chính sách cùng lúc.** Gọi `can_bang(dich_cung=600, dich_cau=600)` — tức làm **cả** chính sách 1
    và 2. Lãi suất đổi thế nào? So với từng chính sách riêng lẻ, kết quả nào là **chắc chắn** và kết quả
-   nào là **không rõ**? (Nhớ Bảng 4 của [EG13 bài 2](../../%5BEG13%5D.kinhtevimo-micro/ly_thuyet/bai_02_cung_va_cau.md).)
+   nào là **không rõ**? (Nhớ Bảng 4 của [EG13 bài 2](../../eg13-kinhtevimo-micro/ly_thuyet/bai_02_cung_va_cau.md).)
 
 5. **Thuế và lãi kép.** Ở mục 5, đổi `SO_NAM = 45` (tiết kiệm từ 20 đến 65 tuổi). Thuế 33% giờ lấy đi bao
    nhiêu phần trăm số tiền cuối? Con số đó có làm bạn đổi ý về việc mở tài khoản hưu trí miễn thuế không?
@@ -1715,7 +1715,7 @@ Kết quả chạy thật:
   - [Bài 5 — Các công cụ cơ bản của tài chính](bai_05_cong_cu_co_ban_cua_tai_chinh.md) — giá trị hiện tại, rủi ro, định giá tài sản.
   - [Bài 7 — Hệ thống tiền tệ](bai_07_he_thong_tien_te.md) — chức năng thứ hai của ngân hàng.
   - [Bài 10 — Lý thuyết kinh tế mở](bai_10_ly_thuyet_kinh_te_mo.md) — bỏ giả định nền kinh tế đóng.
-  - Ba bước phân tích cung–cầu: [EG13 bài 2](../../%5BEG13%5D.kinhtevimo-micro/ly_thuyet/bai_02_cung_va_cau.md).
+  - Ba bước phân tích cung–cầu: [EG13 bài 2](../../eg13-kinhtevimo-micro/ly_thuyet/bai_02_cung_va_cau.md).
 
 <!-- BAN-DO -->
 

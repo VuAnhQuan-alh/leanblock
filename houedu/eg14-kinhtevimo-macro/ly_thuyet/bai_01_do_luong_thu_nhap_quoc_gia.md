@@ -8,7 +8,7 @@
 > 📚 **Mở rộng** — thứ sách nói lướt hoặc để trong hộp phụ.
 > ⚠️ — chỗ dễ hiểu sai, hoặc chỗ sách in sai.
 > 📌 **Cần đọc trước:** [Bài 0 — Từ vi mô sang vĩ mô](bai_00_tu_vi_mo_sang_vi_mo.md), mục sơ đồ chu chuyển.
-> Mục 13 dùng lại hệ số tương quan ở [bài 14 môn Xác suất Thống kê](../../%5BEG11%5D.xacxuatthongke/ly_thuyet/bai_14_tuong_quan_va_hoi_quy.md).
+> Mục 13 dùng lại hệ số tương quan ở [bài 14 môn Xác suất Thống kê](../../eg11-xacxuatthongke/ly_thuyet/bai_14_tuong_quan_va_hoi_quy.md).
 
 ---
 
@@ -183,7 +183,7 @@ Sách mở đầu bằng câu châm ngôn *"Bạn không thể so sánh những 
 > cho nên chúng phản ánh giá trị của những hàng hoá đó. Nếu giá của một quả táo gấp đôi giá của một
 > quả cam, thì một quả táo đóng góp nhiều gấp đôi vào GDP."* — tr. 218
 
-💼 Đây chính là khái niệm **giá sẵn lòng trả** của [bài 4 môn vi mô](../../%5BEG13%5D.kinhtevimo-micro/ly_thuyet/bai_04_thang_du_va_chi_phi_cua_thue.md).
+💼 Đây chính là khái niệm **giá sẵn lòng trả** của [bài 4 môn vi mô](../../eg13-kinhtevimo-micro/ly_thuyet/bai_04_thang_du_va_chi_phi_cua_thue.md).
 Vĩ mô không phát minh ra gì mới — nó chỉ lấy giá thị trường làm **tỷ giá quy đổi giữa các loại hàng
 hoá**, để cộng được mọi thứ vào một con số.
 
@@ -794,7 +794,7 @@ một nửa đến hai phần ba dùng Internet. Ở nước nghèo, người d�
 một phần lớn dân số không biết chữ, và việc sử dụng Internet là hiếm hoi"*.
 
 Mục 11 của [code minh hoạ](#17-code-minh-hoạ) tính hệ số tương quan Pearson cho ba cột — công cụ của
-[bài 14 môn Xác suất Thống kê](../../%5BEG11%5D.xacxuatthongke/ly_thuyet/bai_14_tuong_quan_va_hoi_quy.md).
+[bài 14 môn Xác suất Thống kê](../../eg11-xacxuatthongke/ly_thuyet/bai_14_tuong_quan_va_hoi_quy.md).
 Cả ba đều dương và mạnh, đúng như kết luận của sách (tr. 234):
 
 > *"Số liệu quốc tế xác nhận rằng GDP bình quân đầu người của một quốc gia có mối tương quan chặt chẽ
@@ -1712,8 +1712,8 @@ Trả lời **không nhìn bài**, rồi mới dò lại theo mục ghi trong ng
   - [Bài 2 — Đo lường chi phí sinh hoạt](bai_02_do_luong_chi_phi_sinh_hoat.md) — CPI, và vì sao nó khác chỉ số giảm phát GDP.
   - [Bài 3 — Sản xuất và tăng trưởng](bai_03_san_xuat_va_tang_truong.md) — cái gì làm GDP thực tăng trong dài hạn.
   - [Bài 4 — Tiết kiệm, đầu tư và hệ thống tài chính](bai_04_tiet_kiem_dau_tu_he_thong_tai_chinh.md) — đồng nhất thức S = I dựng trên chính Y = C + I + G + NX.
-  - Giá sẵn lòng trả: [bài 4 môn Kinh tế vi mô](../../%5BEG13%5D.kinhtevimo-micro/ly_thuyet/bai_04_thang_du_va_chi_phi_cua_thue.md).
-  - Hệ số tương quan ở mục 13: [bài 14 môn Xác suất Thống kê](../../%5BEG11%5D.xacxuatthongke/ly_thuyet/bai_14_tuong_quan_va_hoi_quy.md).
+  - Giá sẵn lòng trả: [bài 4 môn Kinh tế vi mô](../../eg13-kinhtevimo-micro/ly_thuyet/bai_04_thang_du_va_chi_phi_cua_thue.md).
+  - Hệ số tương quan ở mục 13: [bài 14 môn Xác suất Thống kê](../../eg11-xacxuatthongke/ly_thuyet/bai_14_tuong_quan_va_hoi_quy.md).
 
 <!-- BAN-DO -->
 

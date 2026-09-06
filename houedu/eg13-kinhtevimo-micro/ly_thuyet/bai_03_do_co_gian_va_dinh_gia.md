@@ -8,7 +8,7 @@
 > 📚 **Mở rộng** — thứ sách nói lướt hoặc để trong hộp phụ.
 > ⚠️ — chỗ dễ hiểu sai, hoặc chỗ sách in sai.
 > 📌 **Cần đọc trước:** [Bài 2 — Cung và cầu](bai_02_cung_va_cau.md).
-> Mục 15 dùng lại hồi quy ở [bài 14 môn Xác suất Thống kê](../../%5BEG11%5D.xacxuatthongke/ly_thuyet/bai_14_tuong_quan_va_hoi_quy.md).
+> Mục 15 dùng lại hồi quy ở [bài 14 môn Xác suất Thống kê](../../eg11-xacxuatthongke/ly_thuyet/bai_14_tuong_quan_va_hoi_quy.md).
 
 ---
 
@@ -693,7 +693,7 @@ Chứng minh một dòng: $\dfrac{d\ln Q}{d\ln P} = \dfrac{dQ/Q}{dP/P} = \dfrac{
 đúng định nghĩa độ co giãn ở mục 3.
 
 Nghĩa là bạn **đã có sẵn công cụ** rồi: đó chính là công thức hệ số góc ở
-[bài 14 môn Xác suất Thống kê](../../%5BEG11%5D.xacxuatthongke/ly_thuyet/bai_14_tuong_quan_va_hoi_quy.md):
+[bài 14 môn Xác suất Thống kê](../../eg11-xacxuatthongke/ly_thuyet/bai_14_tuong_quan_va_hoi_quy.md):
 
 $$b = \frac{S_{xy}}{S_{xx}} = \frac{\sum (x_i - \bar{x})(y_i - \bar{y})}{\sum (x_i - \bar{x})^2}
 \qquad \text{với } x = \ln P,\ y = \ln Q$$
@@ -717,7 +717,7 @@ như chắc chắn sai.
 
 > **Cách chắc chắn nhất vẫn là A/B test có đối chứng**: chia ngẫu nhiên khách hàng (hoặc cửa hàng, hoặc
 > tuần) thành hai nhóm giá, rồi so sánh. Đó là
-> [bài 12–13 môn Xác suất Thống kê](../../%5BEG11%5D.xacxuatthongke/ly_thuyet/bai_13_kiem_dinh_nhieu_mau_va_anova.md).
+> [bài 12–13 môn Xác suất Thống kê](../../eg11-xacxuatthongke/ly_thuyet/bai_13_kiem_dinh_nhieu_mau_va_anova.md).
 > Chỉ thí nghiệm mới cho phép kết luận nhân quả; dữ liệu quan sát thì không.
 
 ### 💼 Làm sao để cầu BỚT co giãn — bảng hành động
@@ -1367,8 +1367,8 @@ quét 300 dpi. Lỗi sắp chữ, không đổi nội dung.
 - **Liên hệ chéo:**
   - [Bài 2 — Cung và cầu](bai_02_cung_va_cau.md) — mô hình mà chương này đo lường.
   - [Bài 1 — mục 15](bai_01_muoi_nguyen_ly_va_tu_duy_kinh_te.md#15--đọc-đồ-thị-độ-dốc-bỏ-sót-biến-nhân-quả-ngược) — bỏ sót biến, nhân quả ngược.
-  - [Bài 14 môn Xác suất Thống kê](../../%5BEG11%5D.xacxuatthongke/ly_thuyet/bai_14_tuong_quan_va_hoi_quy.md) — công thức hồi quy dùng ở mục 15.
-  - [Bài 13 môn Xác suất Thống kê](../../%5BEG11%5D.xacxuatthongke/ly_thuyet/bai_13_kiem_dinh_nhieu_mau_va_anova.md) — A/B test có đối chứng.
+  - [Bài 14 môn Xác suất Thống kê](../../eg11-xacxuatthongke/ly_thuyet/bai_14_tuong_quan_va_hoi_quy.md) — công thức hồi quy dùng ở mục 15.
+  - [Bài 13 môn Xác suất Thống kê](../../eg11-xacxuatthongke/ly_thuyet/bai_13_kiem_dinh_nhieu_mau_va_anova.md) — A/B test có đối chứng.
 
 <!-- BAN-DO -->
 

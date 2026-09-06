@@ -10,7 +10,7 @@
 > ⚠️ — chỗ dễ hiểu sai, hoặc chỗ sách in sai.
 > 📌 **Cần đọc trước:** [Bài 4](bai_04_tiet_kiem_dau_tu_he_thong_tai_chinh.md) — cổ phiếu, trái phiếu,
 > thị trường vốn vay. Mục 5 dùng lại **độ lệch chuẩn** của
-> [bài 6 môn Xác suất Thống kê](../../%5BEG11%5D.xacxuatthongke/ly_thuyet/bai_06_ky_vong_phuong_sai_va_cac_so_dac_trung.md).
+> [bài 6 môn Xác suất Thống kê](../../eg11-xacxuatthongke/ly_thuyet/bai_06_ky_vong_phuong_sai_va_cac_so_dac_trung.md).
 
 ---
 
@@ -319,7 +319,7 @@ toàn được khách rủi ro cao/thấp, và không giám sát được hành 
 
 Tức là: hai vấn đề trên đẩy giá lên, giá cao đẩy người ít rủi ro ra khỏi thị trường, và điều đó làm cơ cấu
 khách còn lại **rủi ro hơn nữa**. (Bạn đã gặp vòng xoáy này ở
-[EG13 bài 11](../../%5BEG13%5D.kinhtevimo-micro/ly_thuyet/bai_11_thong_tin_bat_can_xung.md) dưới tên
+[EG13 bài 11](../../eg13-kinhtevimo-micro/ly_thuyet/bai_11_thong_tin_bat_can_xung.md) dưới tên
 *thị trường chanh*.)
 
 ---
@@ -355,7 +355,7 @@ Sách mở mục này bằng một câu chuyện thật (tr. 319). Enron phá s�
 ### Con số của Hình 2
 
 Rủi ro đo bằng **độ lệch chuẩn** của sinh lợi danh mục (công cụ của
-[bài 6 môn Xác suất Thống kê](../../%5BEG11%5D.xacxuatthongke/ly_thuyet/bai_06_ky_vong_phuong_sai_va_cac_so_dac_trung.md)):
+[bài 6 môn Xác suất Thống kê](../../eg11-xacxuatthongke/ly_thuyet/bai_06_ky_vong_phuong_sai_va_cac_so_dac_trung.md)):
 
 | Sách viết (tr. 320) | |
 | ------------------- | - |
@@ -1827,9 +1827,9 @@ Kết quả chạy thật:
   - [Bài 4](bai_04_tiet_kiem_dau_tu_he_thong_tai_chinh.md) — cổ phiếu, trái phiếu, quỹ tương hỗ, thị trường vốn vay.
   - [Bài 3 mục 3](bai_03_san_xuat_va_tang_truong.md#3--quy-tắc-70--vì-sao-2năm-không-hề-nhỏ) — quy tắc 70 áp cho tăng trưởng quốc gia.
   - [Bài 2 mục 12](bai_02_do_luong_chi_phi_sinh_hoat.md#12-lãi-suất-danh-nghĩa-và-lãi-suất-thực) — lãi suất thực, biến dùng để chiết khấu.
-  - Thông tin bất cân xứng (lựa chọn ngược, rủi ro đạo đức): [EG13 bài 11](../../%5BEG13%5D.kinhtevimo-micro/ly_thuyet/bai_11_thong_tin_bat_can_xung.md).
-  - Độ lệch chuẩn: [bài 6 môn Xác suất Thống kê](../../%5BEG11%5D.xacxuatthongke/ly_thuyet/bai_06_ky_vong_phuong_sai_va_cac_so_dac_trung.md).
-  - Phân phối chuẩn và quy tắc hai độ lệch chuẩn (dùng ở mục 7): [bài 7 môn Xác suất Thống kê](../../%5BEG11%5D.xacxuatthongke/ly_thuyet/bai_07_cac_phan_phoi_thong_dung.md).
+  - Thông tin bất cân xứng (lựa chọn ngược, rủi ro đạo đức): [EG13 bài 11](../../eg13-kinhtevimo-micro/ly_thuyet/bai_11_thong_tin_bat_can_xung.md).
+  - Độ lệch chuẩn: [bài 6 môn Xác suất Thống kê](../../eg11-xacxuatthongke/ly_thuyet/bai_06_ky_vong_phuong_sai_va_cac_so_dac_trung.md).
+  - Phân phối chuẩn và quy tắc hai độ lệch chuẩn (dùng ở mục 7): [bài 7 môn Xác suất Thống kê](../../eg11-xacxuatthongke/ly_thuyet/bai_07_cac_phan_phoi_thong_dung.md).
 
 <!-- BAN-DO -->
 

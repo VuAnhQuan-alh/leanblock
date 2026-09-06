@@ -211,7 +211,7 @@ và hiện ra ở tỷ giá; một cú sốc vào thị trường ngoại hối 
 2. Xác định các đường này dịch chuyển theo **hướng** nào
 3. Dùng sơ đồ cung–cầu xem cân bằng đổi thế nào
 
-📌 Đúng ba bước của [EG13 bài 2](../../%5BEG13%5D.kinhtevimo-micro/ly_thuyet/bai_02_cung_va_cau.md),
+📌 Đúng ba bước của [EG13 bài 2](../../eg13-kinhtevimo-micro/ly_thuyet/bai_02_cung_va_cau.md),
 không sửa một chữ. Cái khó ở chương này không phải phương pháp — mà là việc có **ba** đồ thị nối với
 nhau, nên bước 3 phải chạy ba lần theo đúng thứ tự (a) → (b) → (c).
 
@@ -2432,9 +2432,9 @@ Trả lời rồi mới kéo lên đối chiếu. Câu có ⭐ là câu đáng d
   - [Bài 7 mục 13](bai_07_he_thong_tien_te.md#13-đổ-xô-rút-tiền-và-đại-khủng-hoảng) — tháo chạy vốn là
     "đổ xô rút tiền" ở quy mô quốc gia.
   - Ba bước phân tích cung–cầu:
-    [EG13 bài 2](../../%5BEG13%5D.kinhtevimo-micro/ly_thuyet/bai_02_cung_va_cau.md).
+    [EG13 bài 2](../../eg13-kinhtevimo-micro/ly_thuyet/bai_02_cung_va_cau.md).
   - Lợi ích của thương mại tự do:
-    [EG13 bài 14](../../%5BEG13%5D.kinhtevimo-micro/ly_thuyet/bai_14_thuong_mai_ngoai_tac_hang_hoa_cong.md).
+    [EG13 bài 14](../../eg13-kinhtevimo-micro/ly_thuyet/bai_14_thuong_mai_ngoai_tac_hang_hoa_cong.md).
   - **Bài 11** bỏ giả định "sản lượng cho trước" — đó là chỗ khoá học rẽ sang **ngắn hạn**, và là chỗ mọi
     kết luận của tám bài vừa qua cần được đọc lại với một khung thời gian khác.
 

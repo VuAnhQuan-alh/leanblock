@@ -705,7 +705,7 @@ Giáo trình chỉ dạy trường phái tần suất.
 ## 10. Code minh hoạ
 
 > ⚙️ **Chạy:** cần **Python 3.10+**. Chỉ dùng thư viện chuẩn — **không cần cài gói nào**.
-> Chạy từ thư mục gốc khoá học: `cd houedu/xacxuatthongke && python3 bai-11-khoang-tin-cay.py`.
+> Chạy từ thư mục gốc khoá học: `cd houedu/eg11-xacxuatthongke && python3 bai-11-khoang-tin-cay.py`.
 > Chạy khoảng 0,5 giây.
 
 **Điểm đặc biệt của code này: nó tự dựng lại bảng 3 và bảng 4 của phụ lục giáo trình.**
