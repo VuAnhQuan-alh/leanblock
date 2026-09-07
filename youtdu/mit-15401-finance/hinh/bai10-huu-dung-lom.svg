@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="480" viewBox="0 0 760 480" role="img">
+<rect width="760" height="480" fill="#fdfdfb"/>
+<text x="380.0" y="26.0" font-size="16" fill="#111" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-weight="600">Hàm hữu dụng bậc hai: nền của trung bình–phương sai, và khuyết tật của nó</text>
+<line x1="74.0" y1="46" x2="74.0" y2="384" stroke="#e8e8e4" stroke-width="1"/>
+<text x="74.0" y="402.0" font-size="11" fill="#666" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">0</text>
+<line x1="196.7" y1="46" x2="196.7" y2="384" stroke="#e8e8e4" stroke-width="1"/>
+<text x="196.7" y="402.0" font-size="11" fill="#666" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">50</text>
+<line x1="319.4" y1="46" x2="319.4" y2="384" stroke="#e8e8e4" stroke-width="1"/>
+<text x="319.4" y="402.0" font-size="11" fill="#666" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">100</text>
+<line x1="442.1" y1="46" x2="442.1" y2="384" stroke="#e8e8e4" stroke-width="1"/>
+<text x="442.1" y="402.0" font-size="11" fill="#666" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">150</text>
+<line x1="564.8" y1="46" x2="564.8" y2="384" stroke="#e8e8e4" stroke-width="1"/>
+<text x="564.8" y="402.0" font-size="11" fill="#666" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">200</text>
+<line x1="687.5" y1="46" x2="687.5" y2="384" stroke="#e8e8e4" stroke-width="1"/>
+<text x="687.5" y="402.0" font-size="11" fill="#666" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">250</text>
+<line x1="74" y1="384.0" x2="712" y2="384.0" stroke="#e8e8e4" stroke-width="1"/>
+<text x="65" y="384.0" dy="4" font-size="11" text-anchor="end" fill="#666" font-family="Helvetica,Arial,sans-serif">0</text>
+<line x1="74" y1="325.2" x2="712" y2="325.2" stroke="#e8e8e4" stroke-width="1"/>
+<text x="65" y="325.2" dy="4" font-size="11" text-anchor="end" fill="#666" font-family="Helvetica,Arial,sans-serif">20</text>
+<line x1="74" y1="266.4" x2="712" y2="266.4" stroke="#e8e8e4" stroke-width="1"/>
+<text x="65" y="266.4" dy="4" font-size="11" text-anchor="end" fill="#666" font-family="Helvetica,Arial,sans-serif">40</text>
+<line x1="74" y1="207.7" x2="712" y2="207.7" stroke="#e8e8e4" stroke-width="1"/>
+<text x="65" y="207.7" dy="4" font-size="11" text-anchor="end" fill="#666" font-family="Helvetica,Arial,sans-serif">60</text>
+<line x1="74" y1="148.9" x2="712" y2="148.9" stroke="#e8e8e4" stroke-width="1"/>
+<text x="65" y="148.9" dy="4" font-size="11" text-anchor="end" fill="#666" font-family="Helvetica,Arial,sans-serif">80</text>
+<line x1="74" y1="90.1" x2="712" y2="90.1" stroke="#e8e8e4" stroke-width="1"/>
+<text x="65" y="90.1" dy="4" font-size="11" text-anchor="end" fill="#666" font-family="Helvetica,Arial,sans-serif">100</text>
+<text x="380.0" y="418.0" font-size="12" fill="#333" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">Số tiền nhận được</text>
+<text x="15" y="215.0" font-size="12" fill="#333" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" transform="rotate(-90 15 215.0)">Hữu dụng</text>
+<path d="M74.0,384.0 L78.9,378.2 L83.8,372.4 L88.7,366.6 L93.6,361.0 L98.5,355.3 L103.4,349.8 L108.4,344.3 L113.3,338.9 L118.2,333.5 L123.1,328.2 L128.0,322.9 L132.9,317.7 L137.8,312.5 L142.7,307.5 L147.6,302.4 L152.5,297.5 L157.4,292.6 L162.3,287.7 L167.2,282.9 L172.2,278.2 L177.1,273.5 L182.0,268.9 L186.9,264.3 L191.8,259.9 L196.7,255.4 L201.6,251.0 L206.5,246.7 L211.4,242.5 L216.3,238.2 L221.2,234.1 L226.1,230.0 L231.0,226.0 L236.0,222.0 L240.9,218.1 L245.8,214.3 L250.7,210.5 L255.6,206.7 L260.5,203.1 L265.4,199.5 L270.3,195.9 L275.2,192.4 L280.1,189.0 L285.0,185.6 L289.9,182.3 L294.8,179.0 L299.8,175.8 L304.7,172.6 L309.6,169.6 L314.5,166.5 L319.4,163.6 L324.3,160.7 L329.2,157.8 L334.1,155.0 L339.0,152.3 L343.9,149.6 L348.8,147.0 L353.7,144.4 L358.6,141.9 L363.6,139.5 L368.5,137.1 L373.4,134.8 L378.3,132.5 L383.2,130.3 L388.1,128.2 L393.0,126.1 L397.9,124.1 L402.8,122.1 L407.7,120.2 L412.6,118.3 L417.5,116.5 L422.4,114.8 L427.4,113.1 L432.3,111.5 L437.2,110.0 L442.1,108.5 L447.0,107.0 L451.9,105.6 L456.8,104.3 L461.7,103.0 L466.6,101.8 L471.5,100.7 L476.4,99.6 L481.3,98.6 L486.2,97.6 L491.2,96.7 L496.1,95.8 L501.0,95.1 L505.9,94.3 L510.8,93.6 L515.7,93.0 L520.6,92.5 L525.5,92.0 L530.4,91.5 L535.3,91.1 L540.2,90.8 L545.1,90.6 L550.0,90.4 L555.0,90.2 L559.9,90.1 L564.8,90.1 L569.7,90.1 L574.6,90.2 L579.5,90.4 L584.4,90.6 L589.3,90.8 L594.2,91.1 L599.1,91.5 L604.0,92.0 L608.9,92.5 L613.8,93.0 L618.8,93.6 L623.7,94.3 L628.6,95.1 L633.5,95.8 L638.4,96.7 L643.3,97.6 L648.2,98.6 L653.1,99.6 L658.0,100.7 L662.9,101.8 L667.8,103.0 L672.7,104.3 L677.6,105.6 L682.6,107.0 L687.5,108.5 L692.4,110.0 L697.3,111.5 L702.2,113.1 L707.1,114.8 L712.0,116.5" fill="none" stroke="#1a6fb5" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round" opacity="1.0"/>
+<path d="M196.7,255.4 L442.1,108.5" fill="none" stroke="#c0392b" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round" opacity="1.0" stroke-dasharray="6 4"/>
+<circle cx="319.4" cy="181.9" r="6" fill="#c0392b" stroke="#fff" stroke-width="1.6"/>
+<circle cx="290.4" cy="181.9" r="6" fill="#1f8a4c" stroke="#fff" stroke-width="1.6"/>
+<circle cx="319.4" cy="163.6" r="6" fill="#1a6fb5" stroke="#fff" stroke-width="1.6"/>
+<path d="M290.4,384.0 L290.4,181.9" fill="none" stroke="#1f8a4c" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round" opacity="1.0" stroke-dasharray="3 3"/>
+<path d="M319.4,384.0 L319.4,163.6" fill="none" stroke="#bbb" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="1.0" stroke-dasharray="3 3"/>
+<text x="282.4" y="169.9" font-size="11" fill="#1f8a4c" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-weight="600">tương đương chắc chắn 88.2</text>
+<text x="329.4" y="197.9" font-size="11" fill="#c0392b" text-anchor="start" font-family="Helvetica,Arial,sans-serif">kỳ vọng 100</text>
+<line x1="564.8" y1="46" x2="564.8" y2="384" stroke="#c0392b" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="555.2" y="40.0" font-size="11" fill="#666" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">ngưỡng bão hoà 200 — quá đây thêm tiền LÀM GIẢM hữu dụng</text>
+<line x1="90" y1="52" x2="114" y2="52" stroke="#1a6fb5" stroke-width="2.6"/>
+<text x="121.0" y="56.0" font-size="12" fill="#111" text-anchor="start" font-family="Helvetica,Arial,sans-serif">U(x) = x − ½·0.0050·x²</text>
+<line x1="90" y1="71" x2="114" y2="71" stroke="#c0392b" stroke-width="2.6" stroke-dasharray="5 4"/>
+<text x="121.0" y="75.0" font-size="12" fill="#111" text-anchor="start" font-family="Helvetica,Arial,sans-serif">dây cung: canh bạc 50/50</text>
+<text x="20.0" y="442.0" font-size="11" fill="#888" text-anchor="start" font-family="Helvetica,Arial,sans-serif">Hàm lõm nên dây cung nằm DƯỚI đường cong: canh bạc 50/50 giữa 50 và 150 chỉ đáng bằng 88.2 chắc chắn, tức người ta trả 11.8</text>
+<text x="20.0" y="458.0" font-size="11" fill="#888" text-anchor="start" font-family="Helvetica,Arial,sans-serif">để thoát rủi ro. Đó là phí rủi ro. Nhưng chính hàm này quay đầu ở 200 — ví dụ của Geanakoplos chạy tới 180, tức 90% ngưỡng.</text>
+</svg>

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="480" viewBox="0 0 760 480" role="img">
+<rect width="760" height="480" fill="#fdfdfb"/>
+<text x="380.0" y="26.0" font-size="16" fill="#111" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-weight="600">Khi tỷ trọng nợ thay đổi, WACC không còn một con số đúng</text>
+<line x1="74.0" y1="46" x2="74.0" y2="384" stroke="#e8e8e4" stroke-width="1"/>
+<text x="74.0" y="402.0" font-size="11" fill="#666" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">0</text>
+<line x1="165.1" y1="46" x2="165.1" y2="384" stroke="#e8e8e4" stroke-width="1"/>
+<text x="165.1" y="402.0" font-size="11" fill="#666" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">1</text>
+<line x1="256.3" y1="46" x2="256.3" y2="384" stroke="#e8e8e4" stroke-width="1"/>
+<text x="256.3" y="402.0" font-size="11" fill="#666" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">2</text>
+<line x1="347.4" y1="46" x2="347.4" y2="384" stroke="#e8e8e4" stroke-width="1"/>
+<text x="347.4" y="402.0" font-size="11" fill="#666" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">3</text>
+<line x1="438.6" y1="46" x2="438.6" y2="384" stroke="#e8e8e4" stroke-width="1"/>
+<text x="438.6" y="402.0" font-size="11" fill="#666" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">4</text>
+<line x1="529.7" y1="46" x2="529.7" y2="384" stroke="#e8e8e4" stroke-width="1"/>
+<text x="529.7" y="402.0" font-size="11" fill="#666" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">5</text>
+<line x1="620.9" y1="46" x2="620.9" y2="384" stroke="#e8e8e4" stroke-width="1"/>
+<text x="620.9" y="402.0" font-size="11" fill="#666" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">6</text>
+<line x1="712.0" y1="46" x2="712.0" y2="384" stroke="#e8e8e4" stroke-width="1"/>
+<text x="712.0" y="402.0" font-size="11" fill="#666" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">7</text>
+<line x1="74" y1="384.0" x2="712" y2="384.0" stroke="#e8e8e4" stroke-width="1"/>
+<text x="65" y="384.0" dy="4" font-size="11" text-anchor="end" fill="#666" font-family="Helvetica,Arial,sans-serif">0%</text>
+<line x1="74" y1="299.5" x2="712" y2="299.5" stroke="#e8e8e4" stroke-width="1"/>
+<text x="65" y="299.5" dy="4" font-size="11" text-anchor="end" fill="#666" font-family="Helvetica,Arial,sans-serif">20%</text>
+<line x1="74" y1="215.0" x2="712" y2="215.0" stroke="#e8e8e4" stroke-width="1"/>
+<text x="65" y="215.0" dy="4" font-size="11" text-anchor="end" fill="#666" font-family="Helvetica,Arial,sans-serif">40%</text>
+<line x1="74" y1="130.5" x2="712" y2="130.5" stroke="#e8e8e4" stroke-width="1"/>
+<text x="65" y="130.5" dy="4" font-size="11" text-anchor="end" fill="#666" font-family="Helvetica,Arial,sans-serif">60%</text>
+<line x1="74" y1="46.0" x2="712" y2="46.0" stroke="#e8e8e4" stroke-width="1"/>
+<text x="65" y="46.0" dy="4" font-size="11" text-anchor="end" fill="#666" font-family="Helvetica,Arial,sans-serif">80%</text>
+<text x="380.0" y="418.0" font-size="12" fill="#333" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">Năm</text>
+<text x="15" y="215.0" font-size="12" fill="#333" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" transform="rotate(-90 15 215.0)">Dư nợ / giá trị (%)</text>
+<path d="M74.0,96.4 L165.1,137.5 L256.3,178.6 L347.4,219.7 L438.6,260.7 L529.7,301.8 L620.9,342.9 L712.0,384.0" fill="none" stroke="#c0392b" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round" opacity="1.0"/>
+<path d="M74.0,96.4 L712.0,96.4" fill="none" stroke="#1a6fb5" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round" opacity="1.0" stroke-dasharray="6 4"/>
+<path d="M74.0,219.7 L712.0,219.7" fill="none" stroke="#d98c00" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round" opacity="1.0" stroke-dasharray="6 4"/>
+<path d="M74.0,342.9 L712.0,342.9" fill="none" stroke="#1f8a4c" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round" opacity="1.0" stroke-dasharray="6 4"/>
+<text x="20.0" y="442.0" font-size="11" fill="#888" text-anchor="start" font-family="Helvetica,Arial,sans-serif">Công thức WACC cần MỘT tỷ trọng nợ không đổi. Thương vụ này không có cái đó — nợ đi từ 68% xuống 0 trong 7 năm. Ba cách</text>
+<text x="20.0" y="458.0" font-size="11" fill="#888" text-anchor="start" font-family="Helvetica,Arial,sans-serif">chọn cho ba kết quả khác nhau và không cách nào đúng. APV không cần biết tỷ trọng: nó chỉ cần dư nợ từng năm, thứ nằm ngay</text>
+<text x="20.0" y="474.0" font-size="11" fill="#888" text-anchor="start" font-family="Helvetica,Arial,sans-serif">trong hợp đồng.</text>
+</svg>

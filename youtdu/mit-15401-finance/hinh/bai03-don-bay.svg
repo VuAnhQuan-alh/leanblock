@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="480" viewBox="0 0 760 480" role="img">
+<rect width="760" height="480" fill="#fdfdfb"/>
+<text x="380.0" y="26.0" font-size="16" fill="#111" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-weight="600">Cùng một cú giảm 10% giá nhà — đòn bẩy quyết định ai còn sống</text>
+<line x1="104.4" y1="46" x2="104.4" y2="384" stroke="#e8e8e4" stroke-width="1"/>
+<text x="104.4" y="402.0" font-size="11" fill="#666" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">1:1</text>
+<line x1="134.8" y1="46" x2="134.8" y2="384" stroke="#e8e8e4" stroke-width="1"/>
+<text x="134.8" y="402.0" font-size="11" fill="#666" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">2:1</text>
+<line x1="225.9" y1="46" x2="225.9" y2="384" stroke="#e8e8e4" stroke-width="1"/>
+<text x="225.9" y="402.0" font-size="11" fill="#666" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">5:1</text>
+<line x1="377.8" y1="46" x2="377.8" y2="384" stroke="#e8e8e4" stroke-width="1"/>
+<text x="377.8" y="402.0" font-size="11" fill="#666" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">10:1</text>
+<line x1="681.6" y1="46" x2="681.6" y2="384" stroke="#e8e8e4" stroke-width="1"/>
+<text x="681.6" y="402.0" font-size="11" fill="#666" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">20:1</text>
+<line x1="74" y1="384.0" x2="712" y2="384.0" stroke="#e8e8e4" stroke-width="1"/>
+<text x="65" y="384.0" dy="4" font-size="11" text-anchor="end" fill="#666" font-family="Helvetica,Arial,sans-serif">-100%</text>
+<line x1="74" y1="303.5" x2="712" y2="303.5" stroke="#e8e8e4" stroke-width="1"/>
+<text x="65" y="303.5" dy="4" font-size="11" text-anchor="end" fill="#666" font-family="Helvetica,Arial,sans-serif">-50%</text>
+<line x1="74" y1="223.0" x2="712" y2="223.0" stroke="#e8e8e4" stroke-width="1"/>
+<text x="65" y="223.0" dy="4" font-size="11" text-anchor="end" fill="#666" font-family="Helvetica,Arial,sans-serif">0%</text>
+<line x1="74" y1="142.6" x2="712" y2="142.6" stroke="#e8e8e4" stroke-width="1"/>
+<text x="65" y="142.6" dy="4" font-size="11" text-anchor="end" fill="#666" font-family="Helvetica,Arial,sans-serif">50%</text>
+<line x1="74" y1="62.1" x2="712" y2="62.1" stroke="#e8e8e4" stroke-width="1"/>
+<text x="65" y="62.1" dy="4" font-size="11" text-anchor="end" fill="#666" font-family="Helvetica,Arial,sans-serif">100%</text>
+<line x1="74" y1="223.0" x2="712" y2="223.0" stroke="#999" stroke-width="1.5"/>
+<text x="380.0" y="418.0" font-size="12" fill="#333" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">Đòn bẩy (tài sản / vốn chủ sở hữu)</text>
+<text x="15" y="215.0" font-size="12" fill="#333" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" transform="rotate(-90 15 215.0)">Vốn chủ sở hữu còn lại (% ban đầu)</text>
+<path d="M104.4,78.2 L134.8,94.3 L225.9,142.6 L377.8,223.0 L681.6,384.0" fill="none" stroke="#1a6fb5" stroke-width="2.8" stroke-linejoin="round" stroke-linecap="round" opacity="1.0"/>
+<circle cx="104.4" cy="78.2" r="6" fill="#1a6fb5" stroke="#fff" stroke-width="1.6"/>
+<text x="104.4" y="64.2" font-size="12" fill="#111" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-weight="600">+90%</text>
+<circle cx="134.8" cy="94.3" r="6" fill="#1a6fb5" stroke="#fff" stroke-width="1.6"/>
+<text x="134.8" y="80.3" font-size="12" fill="#111" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-weight="600">+80%</text>
+<circle cx="225.9" cy="142.6" r="6" fill="#1a6fb5" stroke="#fff" stroke-width="1.6"/>
+<text x="225.9" y="128.6" font-size="12" fill="#111" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-weight="600">+50%</text>
+<circle cx="377.8" cy="223.0" r="6" fill="#1a6fb5" stroke="#fff" stroke-width="1.6"/>
+<text x="377.8" y="209.0" font-size="12" fill="#111" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-weight="600">+0%</text>
+<circle cx="681.6" cy="384.0" r="6" fill="#c0392b" stroke="#fff" stroke-width="1.6"/>
+<text x="681.6" y="370.0" font-size="12" fill="#111" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-weight="600">-100%</text>
+<line x1="74" y1="223.0" x2="712" y2="223.0" stroke="#c0392b" stroke-width="1.5" stroke-dasharray="5 4"/>
+<text x="708.0" y="217.0" font-size="11" fill="#666" text-anchor="end" font-family="Helvetica,Arial,sans-serif">vốn chủ = 0  →  VỠ NỢ</text>
+<text x="529.7" y="319.6" font-size="14" fill="#c0392b" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-weight="600">vùng phá sản</text>
+<text x="20.0" y="442.0" font-size="11" fill="#888" text-anchor="start" font-family="Helvetica,Arial,sans-serif">Đòn bẩy 1:1 mất 10%. Đòn bẩy 20:1 mất TOÀN BỘ vốn và còn âm. Bảng cân đối không hét lên con số này — bạn phải tự chia.</text>
+</svg>

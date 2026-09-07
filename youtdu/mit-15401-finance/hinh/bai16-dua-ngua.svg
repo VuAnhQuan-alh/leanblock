@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="480" viewBox="0 0 760 480" role="img">
+<rect width="760" height="480" fill="#fdfdfb"/>
+<text x="380.0" y="26.0" font-size="16" fill="#111" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-weight="600">Cuộc đua ngựa: doanh nghiệp lãi nhiều thì vay NHIỀU hay ÍT?</text>
+<line x1="74.0" y1="46" x2="74.0" y2="384" stroke="#e8e8e4" stroke-width="1"/>
+<text x="74.0" y="402.0" font-size="11" fill="#666" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">0%</text>
+<line x1="201.6" y1="46" x2="201.6" y2="384" stroke="#e8e8e4" stroke-width="1"/>
+<text x="201.6" y="402.0" font-size="11" fill="#666" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">10%</text>
+<line x1="329.2" y1="46" x2="329.2" y2="384" stroke="#e8e8e4" stroke-width="1"/>
+<text x="329.2" y="402.0" font-size="11" fill="#666" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">20%</text>
+<line x1="456.8" y1="46" x2="456.8" y2="384" stroke="#e8e8e4" stroke-width="1"/>
+<text x="456.8" y="402.0" font-size="11" fill="#666" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">30%</text>
+<line x1="584.4" y1="46" x2="584.4" y2="384" stroke="#e8e8e4" stroke-width="1"/>
+<text x="584.4" y="402.0" font-size="11" fill="#666" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">40%</text>
+<line x1="712.0" y1="46" x2="712.0" y2="384" stroke="#e8e8e4" stroke-width="1"/>
+<text x="712.0" y="402.0" font-size="11" fill="#666" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">50%</text>
+<line x1="74" y1="384.0" x2="712" y2="384.0" stroke="#e8e8e4" stroke-width="1"/>
+<text x="65" y="384.0" dy="4" font-size="11" text-anchor="end" fill="#666" font-family="Helvetica,Arial,sans-serif">0%</text>
+<line x1="74" y1="299.5" x2="712" y2="299.5" stroke="#e8e8e4" stroke-width="1"/>
+<text x="65" y="299.5" dy="4" font-size="11" text-anchor="end" fill="#666" font-family="Helvetica,Arial,sans-serif">20%</text>
+<line x1="74" y1="215.0" x2="712" y2="215.0" stroke="#e8e8e4" stroke-width="1"/>
+<text x="65" y="215.0" dy="4" font-size="11" text-anchor="end" fill="#666" font-family="Helvetica,Arial,sans-serif">40%</text>
+<line x1="74" y1="130.5" x2="712" y2="130.5" stroke="#e8e8e4" stroke-width="1"/>
+<text x="65" y="130.5" dy="4" font-size="11" text-anchor="end" fill="#666" font-family="Helvetica,Arial,sans-serif">60%</text>
+<line x1="74" y1="46.0" x2="712" y2="46.0" stroke="#e8e8e4" stroke-width="1"/>
+<text x="65" y="46.0" dy="4" font-size="11" text-anchor="end" fill="#666" font-family="Helvetica,Arial,sans-serif">80%</text>
+<text x="380.0" y="418.0" font-size="12" fill="#333" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">Sinh lời: EBIT / tổng tài sản</text>
+<text x="15" y="215.0" font-size="12" fill="#333" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" transform="rotate(-90 15 215.0)">Tỷ trọng nợ D/(D+E)</text>
+<circle cx="227.6" cy="183.6" r="5" fill="#1a6fb5" stroke="#fff" stroke-width="1.6"/>
+<text x="234.6" y="177.6" font-size="9.5" fill="#666" text-anchor="start" font-family="Helvetica,Arial,sans-serif">MWG</text>
+<circle cx="360.6" cy="293.1" r="5" fill="#1a6fb5" stroke="#fff" stroke-width="1.6"/>
+<text x="367.6" y="287.1" font-size="9.5" fill="#666" text-anchor="start" font-family="Helvetica,Arial,sans-serif">VNM</text>
+<circle cx="274.6" cy="246.6" r="5" fill="#1a6fb5" stroke="#fff" stroke-width="1.6"/>
+<text x="281.6" y="240.6" font-size="9.5" fill="#666" text-anchor="start" font-family="Helvetica,Arial,sans-serif">FPT</text>
+<circle cx="178.7" cy="209.7" r="5" fill="#1a6fb5" stroke="#fff" stroke-width="1.6"/>
+<text x="185.7" y="203.7" font-size="9.5" fill="#666" text-anchor="start" font-family="Helvetica,Arial,sans-serif">HPG</text>
+<circle cx="306.1" cy="282.0" r="5" fill="#1a6fb5" stroke="#fff" stroke-width="1.6"/>
+<text x="313.1" y="276.0" font-size="9.5" fill="#666" text-anchor="start" font-family="Helvetica,Arial,sans-serif">PNJ</text>
+<circle cx="216.4" cy="232.8" r="5" fill="#1a6fb5" stroke="#fff" stroke-width="1.6"/>
+<text x="223.4" y="226.8" font-size="9.5" fill="#666" text-anchor="start" font-family="Helvetica,Arial,sans-serif">HAG</text>
+<circle cx="231.0" cy="104.9" r="5" fill="#1a6fb5" stroke="#fff" stroke-width="1.6"/>
+<text x="238.0" y="98.9" font-size="9.5" fill="#666" text-anchor="start" font-family="Helvetica,Arial,sans-serif">HVN</text>
+<circle cx="90.2" cy="158.5" r="5" fill="#1a6fb5" stroke="#fff" stroke-width="1.6"/>
+<text x="97.2" y="152.5" font-size="9.5" fill="#666" text-anchor="start" font-family="Helvetica,Arial,sans-serif">NVL</text>
+<circle cx="116.2" cy="232.6" r="5" fill="#1a6fb5" stroke="#fff" stroke-width="1.6"/>
+<text x="123.2" y="226.6" font-size="9.5" fill="#666" text-anchor="start" font-family="Helvetica,Arial,sans-serif">CTD</text>
+<circle cx="137.4" cy="92.9" r="5" fill="#1a6fb5" stroke="#fff" stroke-width="1.6"/>
+<text x="144.4" y="86.9" font-size="9.5" fill="#666" text-anchor="start" font-family="Helvetica,Arial,sans-serif">VIC</text>
+<circle cx="176.8" cy="227.7" r="5" fill="#1a6fb5" stroke="#fff" stroke-width="1.6"/>
+<text x="183.8" y="221.7" font-size="9.5" fill="#666" text-anchor="start" font-family="Helvetica,Arial,sans-serif">VHM</text>
+<circle cx="150.4" cy="247.1" r="5" fill="#1a6fb5" stroke="#fff" stroke-width="1.6"/>
+<text x="157.4" y="241.1" font-size="9.5" fill="#666" text-anchor="start" font-family="Helvetica,Arial,sans-serif">KDH</text>
+<circle cx="208.0" cy="255.4" r="5" fill="#1a6fb5" stroke="#fff" stroke-width="1.6"/>
+<text x="215.0" y="249.4" font-size="9.5" fill="#666" text-anchor="start" font-family="Helvetica,Arial,sans-serif">REE</text>
+<circle cx="130.0" cy="199.4" r="5" fill="#1a6fb5" stroke="#fff" stroke-width="1.6"/>
+<text x="137.0" y="193.4" font-size="9.5" fill="#666" text-anchor="start" font-family="Helvetica,Arial,sans-serif">POW</text>
+<circle cx="296.6" cy="376.1" r="5" fill="#1a6fb5" stroke="#fff" stroke-width="1.6"/>
+<text x="303.6" y="370.1" font-size="9.5" fill="#666" text-anchor="start" font-family="Helvetica,Arial,sans-serif">SAB</text>
+<circle cx="205.7" cy="134.7" r="5" fill="#1a6fb5" stroke="#fff" stroke-width="1.6"/>
+<text x="212.7" y="128.7" font-size="9.5" fill="#666" text-anchor="start" font-family="Helvetica,Arial,sans-serif">MSN</text>
+<circle cx="129.5" cy="235.9" r="5" fill="#1a6fb5" stroke="#fff" stroke-width="1.6"/>
+<text x="136.5" y="229.9" font-size="9.5" fill="#666" text-anchor="start" font-family="Helvetica,Arial,sans-serif">HSG</text>
+<circle cx="109.6" cy="183.9" r="5" fill="#1a6fb5" stroke="#fff" stroke-width="1.6"/>
+<text x="116.6" y="177.9" font-size="9.5" fill="#666" text-anchor="start" font-family="Helvetica,Arial,sans-serif">NKG</text>
+<circle cx="272.8" cy="366.2" r="5" fill="#1a6fb5" stroke="#fff" stroke-width="1.6"/>
+<text x="279.8" y="360.2" font-size="9.5" fill="#666" text-anchor="start" font-family="Helvetica,Arial,sans-serif">GAS</text>
+<circle cx="140.0" cy="220.3" r="5" fill="#1a6fb5" stroke="#fff" stroke-width="1.6"/>
+<text x="147.0" y="214.3" font-size="9.5" fill="#666" text-anchor="start" font-family="Helvetica,Arial,sans-serif">PLX</text>
+<circle cx="243.5" cy="325.7" r="5" fill="#1a6fb5" stroke="#fff" stroke-width="1.6"/>
+<text x="250.5" y="319.7" font-size="9.5" fill="#666" text-anchor="start" font-family="Helvetica,Arial,sans-serif">GMD</text>
+<circle cx="131.2" cy="73.2" r="5" fill="#1a6fb5" stroke="#fff" stroke-width="1.6"/>
+<text x="138.2" y="67.2" font-size="9.5" fill="#666" text-anchor="start" font-family="Helvetica,Arial,sans-serif">VJC</text>
+<circle cx="160.5" cy="104.4" r="5" fill="#1a6fb5" stroke="#fff" stroke-width="1.6"/>
+<text x="167.5" y="98.4" font-size="9.5" fill="#666" text-anchor="start" font-family="Helvetica,Arial,sans-serif">FRT</text>
+<circle cx="167.8" cy="191.8" r="5" fill="#1a6fb5" stroke="#fff" stroke-width="1.6"/>
+<text x="174.8" y="185.8" font-size="9.5" fill="#666" text-anchor="start" font-family="Helvetica,Arial,sans-serif">DGW</text>
+<circle cx="162.4" cy="184.4" r="5" fill="#1a6fb5" stroke="#fff" stroke-width="1.6"/>
+<text x="169.4" y="178.4" font-size="9.5" fill="#666" text-anchor="start" font-family="Helvetica,Arial,sans-serif">CMG</text>
+<circle cx="323.6" cy="384.0" r="5" fill="#1a6fb5" stroke="#fff" stroke-width="1.6"/>
+<text x="330.6" y="378.0" font-size="9.5" fill="#666" text-anchor="start" font-family="Helvetica,Arial,sans-serif">DHG</text>
+<circle cx="655.2" cy="376.1" r="5" fill="#1a6fb5" stroke="#fff" stroke-width="1.6"/>
+<text x="662.2" y="370.1" font-size="9.5" fill="#666" text-anchor="start" font-family="Helvetica,Arial,sans-serif">BMP</text>
+<circle cx="269.0" cy="358.2" r="5" fill="#1a6fb5" stroke="#fff" stroke-width="1.6"/>
+<text x="276.0" y="352.2" font-size="9.5" fill="#666" text-anchor="start" font-family="Helvetica,Arial,sans-serif">VCS</text>
+<path d="M74.0,157.7 L712.0,487.4" fill="none" stroke="#c0392b" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round" opacity="1.0"/>
+<text x="374.0" y="76.0" font-size="12" fill="#666" text-anchor="start" font-family="Helvetica,Arial,sans-serif">đánh đổi dự đoán dốc LÊN</text>
+<text x="374.0" y="94.0" font-size="12" fill="#111" text-anchor="start" font-family="Helvetica,Arial,sans-serif" font-weight="600">trật tự ưu tiên dự đoán dốc XUỐNG</text>
+<line x1="374" y1="108" x2="398" y2="108" stroke="#c0392b" stroke-width="2.6"/>
+<text x="405.0" y="112.0" font-size="12" fill="#111" text-anchor="start" font-family="Helvetica,Arial,sans-serif">đường hồi quy: r = -0.645, t = -4.30</text>
+<text x="20.0" y="442.0" font-size="11" fill="#888" text-anchor="start" font-family="Helvetica,Arial,sans-serif">Đường dốc xuống rõ rệt: càng lãi nhiều càng vay ít. Đó là dự đoán của trật tự ưu tiên, và ngược với lý thuyết đánh đổi.</text>
+<text x="20.0" y="458.0" font-size="11" fill="#888" text-anchor="start" font-family="Helvetica,Arial,sans-serif">Cùng bộ dữ liệu, tài sản hữu hình không giải thích được gì (r = −0,03).</text>
+</svg>

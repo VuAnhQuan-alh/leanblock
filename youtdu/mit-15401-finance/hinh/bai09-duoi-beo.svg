@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="480" viewBox="0 0 760 480" role="img">
+<rect width="760" height="480" fill="#fdfdfb"/>
+<text x="380.0" y="26.0" font-size="16" fill="#111" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-weight="600">Đuôi béo: phân phối chuẩn là xấp xỉ, không phải sự thật  (S&amp;P 500, 1185 tháng)</text>
+<line x1="147.6" y1="46" x2="147.6" y2="384" stroke="#e8e8e4" stroke-width="1"/>
+<text x="147.6" y="402.0" font-size="11" fill="#666" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">-20%</text>
+<line x1="270.3" y1="46" x2="270.3" y2="384" stroke="#e8e8e4" stroke-width="1"/>
+<text x="270.3" y="402.0" font-size="11" fill="#666" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">-10%</text>
+<line x1="393.0" y1="46" x2="393.0" y2="384" stroke="#e8e8e4" stroke-width="1"/>
+<text x="393.0" y="402.0" font-size="11" fill="#666" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">+0%</text>
+<line x1="515.7" y1="46" x2="515.7" y2="384" stroke="#e8e8e4" stroke-width="1"/>
+<text x="515.7" y="402.0" font-size="11" fill="#666" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">+10%</text>
+<line x1="638.4" y1="46" x2="638.4" y2="384" stroke="#e8e8e4" stroke-width="1"/>
+<text x="638.4" y="402.0" font-size="11" fill="#666" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">+20%</text>
+<line x1="74" y1="384.0" x2="712" y2="384.0" stroke="#e8e8e4" stroke-width="1"/>
+<text x="65" y="384.0" dy="4" font-size="11" text-anchor="end" fill="#666" font-family="Helvetica,Arial,sans-serif">0</text>
+<line x1="74" y1="292.5" x2="712" y2="292.5" stroke="#e8e8e4" stroke-width="1"/>
+<text x="65" y="292.5" dy="4" font-size="11" text-anchor="end" fill="#666" font-family="Helvetica,Arial,sans-serif">20</text>
+<line x1="74" y1="201.1" x2="712" y2="201.1" stroke="#e8e8e4" stroke-width="1"/>
+<text x="65" y="201.1" dy="4" font-size="11" text-anchor="end" fill="#666" font-family="Helvetica,Arial,sans-serif">40</text>
+<line x1="74" y1="109.6" x2="712" y2="109.6" stroke="#e8e8e4" stroke-width="1"/>
+<text x="65" y="109.6" dy="4" font-size="11" text-anchor="end" fill="#666" font-family="Helvetica,Arial,sans-serif">60</text>
+<text x="380.0" y="418.0" font-size="12" fill="#333" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">Lợi suất tháng (%)</text>
+<text x="15" y="215.0" font-size="12" fill="#333" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" transform="rotate(-90 15 215.0)">Số tháng</text>
+<rect x="25.2" y="379.4" width="5.6" height="4.6" fill="#1a6fb5" opacity="0.75"/>
+<rect x="80.4" y="379.4" width="5.6" height="4.6" fill="#1a6fb5" opacity="0.75"/>
+<rect x="98.8" y="379.4" width="5.6" height="4.6" fill="#1a6fb5" opacity="0.75"/>
+<rect x="104.9" y="379.4" width="5.6" height="4.6" fill="#1a6fb5" opacity="0.75"/>
+<rect x="123.3" y="379.4" width="5.6" height="4.6" fill="#1a6fb5" opacity="0.75"/>
+<rect x="141.7" y="379.4" width="5.6" height="4.6" fill="#1a6fb5" opacity="0.75"/>
+<rect x="147.9" y="379.4" width="5.6" height="4.6" fill="#1a6fb5" opacity="0.75"/>
+<rect x="166.3" y="379.4" width="5.6" height="4.6" fill="#1a6fb5" opacity="0.75"/>
+<rect x="184.7" y="379.4" width="5.6" height="4.6" fill="#1a6fb5" opacity="0.75"/>
+<rect x="190.8" y="379.4" width="5.6" height="4.6" fill="#1a6fb5" opacity="0.75"/>
+<rect x="209.2" y="374.9" width="5.6" height="9.1" fill="#1a6fb5" opacity="0.75"/>
+<rect x="215.3" y="379.4" width="5.6" height="4.6" fill="#1a6fb5" opacity="0.75"/>
+<rect x="221.5" y="370.3" width="5.6" height="13.7" fill="#1a6fb5" opacity="0.75"/>
+<rect x="227.6" y="374.9" width="5.6" height="9.1" fill="#1a6fb5" opacity="0.75"/>
+<rect x="233.7" y="379.4" width="5.6" height="4.6" fill="#1a6fb5" opacity="0.75"/>
+<rect x="239.9" y="379.4" width="5.6" height="4.6" fill="#1a6fb5" opacity="0.75"/>
+<rect x="246.0" y="370.3" width="5.6" height="13.7" fill="#1a6fb5" opacity="0.75"/>
+<rect x="252.1" y="374.9" width="5.6" height="9.1" fill="#1a6fb5" opacity="0.75"/>
+<rect x="258.3" y="374.9" width="5.6" height="9.1" fill="#1a6fb5" opacity="0.75"/>
+<rect x="264.4" y="365.7" width="5.6" height="18.3" fill="#1a6fb5" opacity="0.75"/>
+<rect x="270.6" y="379.4" width="5.6" height="4.6" fill="#1a6fb5" opacity="0.75"/>
+<rect x="276.7" y="347.4" width="5.6" height="36.6" fill="#1a6fb5" opacity="0.75"/>
+<rect x="282.8" y="342.8" width="5.6" height="41.2" fill="#1a6fb5" opacity="0.75"/>
+<rect x="289.0" y="347.4" width="5.6" height="36.6" fill="#1a6fb5" opacity="0.75"/>
+<rect x="295.1" y="356.6" width="5.6" height="27.4" fill="#1a6fb5" opacity="0.75"/>
+<rect x="301.2" y="342.8" width="5.6" height="41.2" fill="#1a6fb5" opacity="0.75"/>
+<rect x="307.4" y="338.3" width="5.6" height="45.7" fill="#1a6fb5" opacity="0.75"/>
+<rect x="313.5" y="301.7" width="5.6" height="82.3" fill="#1a6fb5" opacity="0.75"/>
+<rect x="319.6" y="333.7" width="5.6" height="50.3" fill="#1a6fb5" opacity="0.75"/>
+<rect x="325.8" y="301.7" width="5.6" height="82.3" fill="#1a6fb5" opacity="0.75"/>
+<rect x="331.9" y="301.7" width="5.6" height="82.3" fill="#1a6fb5" opacity="0.75"/>
+<rect x="338.0" y="278.8" width="5.6" height="105.2" fill="#1a6fb5" opacity="0.75"/>
+<rect x="344.2" y="274.3" width="5.6" height="109.7" fill="#1a6fb5" opacity="0.75"/>
+<rect x="350.3" y="242.3" width="5.6" height="141.7" fill="#1a6fb5" opacity="0.75"/>
+<rect x="356.4" y="265.1" width="5.6" height="118.9" fill="#1a6fb5" opacity="0.75"/>
+<rect x="362.6" y="224.0" width="5.6" height="160.0" fill="#1a6fb5" opacity="0.75"/>
+<rect x="368.7" y="169.1" width="5.6" height="214.9" fill="#1a6fb5" opacity="0.75"/>
+<rect x="374.8" y="182.8" width="5.6" height="201.2" fill="#1a6fb5" opacity="0.75"/>
+<rect x="381.0" y="164.5" width="5.6" height="219.5" fill="#1a6fb5" opacity="0.75"/>
+<rect x="387.1" y="146.2" width="5.6" height="237.8" fill="#1a6fb5" opacity="0.75"/>
+<rect x="393.2" y="86.8" width="5.6" height="297.2" fill="#1a6fb5" opacity="0.75"/>
+<rect x="399.4" y="114.2" width="5.6" height="269.8" fill="#1a6fb5" opacity="0.75"/>
+<rect x="405.5" y="114.2" width="5.6" height="269.8" fill="#1a6fb5" opacity="0.75"/>
+<rect x="411.6" y="82.2" width="5.6" height="301.8" fill="#1a6fb5" opacity="0.75"/>
+<rect x="417.8" y="132.5" width="5.6" height="251.5" fill="#1a6fb5" opacity="0.75"/>
+<rect x="423.9" y="192.0" width="5.6" height="192.0" fill="#1a6fb5" opacity="0.75"/>
+<rect x="430.1" y="137.1" width="5.6" height="246.9" fill="#1a6fb5" opacity="0.75"/>
+<rect x="436.2" y="100.5" width="5.6" height="283.5" fill="#1a6fb5" opacity="0.75"/>
+<rect x="442.3" y="205.7" width="5.6" height="178.3" fill="#1a6fb5" opacity="0.75"/>
+<rect x="448.5" y="242.3" width="5.6" height="141.7" fill="#1a6fb5" opacity="0.75"/>
+<rect x="454.6" y="224.0" width="5.6" height="160.0" fill="#1a6fb5" opacity="0.75"/>
+<rect x="460.7" y="269.7" width="5.6" height="114.3" fill="#1a6fb5" opacity="0.75"/>
+<rect x="466.9" y="301.7" width="5.6" height="82.3" fill="#1a6fb5" opacity="0.75"/>
+<rect x="473.0" y="306.3" width="5.6" height="77.7" fill="#1a6fb5" opacity="0.75"/>
+<rect x="479.1" y="320.0" width="5.6" height="64.0" fill="#1a6fb5" opacity="0.75"/>
+<rect x="485.3" y="333.7" width="5.6" height="50.3" fill="#1a6fb5" opacity="0.75"/>
+<rect x="491.4" y="338.3" width="5.6" height="45.7" fill="#1a6fb5" opacity="0.75"/>
+<rect x="497.5" y="347.4" width="5.6" height="36.6" fill="#1a6fb5" opacity="0.75"/>
+<rect x="503.7" y="365.7" width="5.6" height="18.3" fill="#1a6fb5" opacity="0.75"/>
+<rect x="509.8" y="370.3" width="5.6" height="13.7" fill="#1a6fb5" opacity="0.75"/>
+<rect x="515.9" y="361.1" width="5.6" height="22.9" fill="#1a6fb5" opacity="0.75"/>
+<rect x="522.1" y="365.7" width="5.6" height="18.3" fill="#1a6fb5" opacity="0.75"/>
+<rect x="528.2" y="365.7" width="5.6" height="18.3" fill="#1a6fb5" opacity="0.75"/>
+<rect x="534.3" y="365.7" width="5.6" height="18.3" fill="#1a6fb5" opacity="0.75"/>
+<rect x="540.5" y="374.9" width="5.6" height="9.1" fill="#1a6fb5" opacity="0.75"/>
+<rect x="546.6" y="379.4" width="5.6" height="4.6" fill="#1a6fb5" opacity="0.75"/>
+<rect x="552.7" y="374.9" width="5.6" height="9.1" fill="#1a6fb5" opacity="0.75"/>
+<rect x="558.9" y="379.4" width="5.6" height="4.6" fill="#1a6fb5" opacity="0.75"/>
+<rect x="565.0" y="379.4" width="5.6" height="4.6" fill="#1a6fb5" opacity="0.75"/>
+<rect x="577.3" y="379.4" width="5.6" height="4.6" fill="#1a6fb5" opacity="0.75"/>
+<rect x="589.6" y="379.4" width="5.6" height="4.6" fill="#1a6fb5" opacity="0.75"/>
+<rect x="675.4" y="379.4" width="5.6" height="4.6" fill="#1a6fb5" opacity="0.75"/>
+<rect x="693.8" y="379.4" width="5.6" height="4.6" fill="#1a6fb5" opacity="0.75"/>
+<rect x="804.3" y="379.4" width="5.6" height="4.6" fill="#1a6fb5" opacity="0.75"/>
+<rect x="834.9" y="379.4" width="5.6" height="4.6" fill="#1a6fb5" opacity="0.75"/>
+<rect x="871.7" y="379.4" width="5.6" height="4.6" fill="#1a6fb5" opacity="0.75"/>
+<path d="M74.0,384.0 L77.1,384.0 L80.1,384.0 L83.2,384.0 L86.3,384.0 L89.3,384.0 L92.4,384.0 L95.5,384.0 L98.5,384.0 L101.6,384.0 L104.7,384.0 L107.7,384.0 L110.8,384.0 L113.9,384.0 L116.9,384.0 L120.0,384.0 L123.1,384.0 L126.1,384.0 L129.2,384.0 L132.3,384.0 L135.3,383.9 L138.4,383.9 L141.5,383.9 L144.5,383.9 L147.6,383.9 L150.7,383.9 L153.8,383.8 L156.8,383.8 L159.9,383.8 L163.0,383.7 L166.0,383.7 L169.1,383.6 L172.2,383.6 L175.2,383.5 L178.3,383.4 L181.4,383.3 L184.4,383.2 L187.5,383.0 L190.6,382.9 L193.6,382.7 L196.7,382.5 L199.8,382.2 L202.8,382.0 L205.9,381.6 L209.0,381.3 L212.0,380.9 L215.1,380.5 L218.2,380.0 L221.2,379.4 L224.3,378.8 L227.4,378.1 L230.4,377.3 L233.5,376.4 L236.6,375.5 L239.6,374.4 L242.7,373.2 L245.8,371.9 L248.8,370.5 L251.9,369.0 L255.0,367.3 L258.0,365.5 L261.1,363.5 L264.2,361.4 L267.2,359.1 L270.3,356.6 L273.4,353.9 L276.4,351.0 L279.5,348.0 L282.6,344.8 L285.6,341.3 L288.7,337.7 L291.8,333.9 L294.8,329.8 L297.9,325.6 L301.0,321.2 L304.0,316.6 L307.1,311.8 L310.2,306.8 L313.2,301.7 L316.3,296.5 L319.4,291.1 L322.5,285.6 L325.5,280.0 L328.6,274.3 L331.7,268.5 L334.7,262.8 L337.8,257.0 L340.9,251.2 L343.9,245.5 L347.0,239.9 L350.1,234.4 L353.1,228.9 L356.2,223.7 L359.3,218.6 L362.3,213.8 L365.4,209.2 L368.5,204.8 L371.5,200.8 L374.6,197.1 L377.7,193.7 L380.7,190.7 L383.8,188.1 L386.9,185.8 L389.9,184.0 L393.0,182.6 L396.1,181.7 L399.1,181.2 L402.2,181.1 L405.3,181.5 L408.3,182.4 L411.4,183.6 L414.5,185.3 L417.5,187.5 L420.6,190.0 L423.7,192.9 L426.7,196.2 L429.8,199.8 L432.9,203.8 L435.9,208.0 L439.0,212.6 L442.1,217.4 L445.1,222.4 L448.2,227.6 L451.3,233.0 L454.3,238.5 L457.4,244.1 L460.5,249.8 L463.5,255.5 L466.6,261.3 L469.7,267.1 L472.8,272.8 L475.8,278.5 L478.9,284.1 L482.0,289.7 L485.0,295.1 L488.1,300.4 L491.2,305.5 L494.2,310.5 L497.3,315.4 L500.4,320.0 L503.4,324.5 L506.5,328.8 L509.6,332.8 L512.6,336.7 L515.7,340.4 L518.8,343.9 L521.8,347.2 L524.9,350.3 L528.0,353.2 L531.0,355.9 L534.1,358.4 L537.2,360.8 L540.2,363.0 L543.3,365.0 L546.4,366.9 L549.4,368.6 L552.5,370.2 L555.6,371.6 L558.6,372.9 L561.7,374.1 L564.8,375.2 L567.8,376.2 L570.9,377.1 L574.0,377.9 L577.0,378.6 L580.1,379.2 L583.2,379.8 L586.2,380.3 L589.3,380.8 L592.4,381.2 L595.4,381.6 L598.5,381.9 L601.6,382.2 L604.6,382.4 L607.7,382.6 L610.8,382.8 L613.8,383.0 L616.9,383.1 L620.0,383.3 L623.0,383.4 L626.1,383.5 L629.2,383.5 L632.2,383.6 L635.3,383.7 L638.4,383.7 L641.5,383.8 L644.5,383.8 L647.6,383.8 L650.7,383.9 L653.7,383.9 L656.8,383.9 L659.9,383.9 L662.9,383.9 L666.0,383.9 L669.1,384.0 L672.1,384.0 L675.2,384.0 L678.3,384.0 L681.3,384.0 L684.4,384.0 L687.5,384.0 L690.5,384.0 L693.6,384.0 L696.7,384.0 L699.7,384.0 L702.8,384.0 L705.9,384.0 L708.9,384.0 L712.0,384.0" fill="none" stroke="#c0392b" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round" opacity="1.0"/>
+<text x="503.4" y="184.8" font-size="12" fill="#c0392b" text-anchor="start" font-family="Helvetica,Arial,sans-serif" font-weight="600">phân phối chuẩn</text>
+<text x="503.4" y="199.8" font-size="12" fill="#c0392b" text-anchor="start" font-family="Helvetica,Arial,sans-serif" font-weight="600">cùng μ = 0.66%, σ = 5.33%</text>
+<line x1="205.0" y1="46" x2="205.0" y2="384" stroke="#ccc" stroke-width="1.5" stroke-dasharray="3 3"/>
+<line x1="597.1" y1="46" x2="597.1" y2="384" stroke="#ccc" stroke-width="1.5" stroke-dasharray="3 3"/>
+<text x="98.5" y="124.5" font-size="12" fill="#c0392b" text-anchor="start" font-family="Helvetica,Arial,sans-serif" font-weight="600">|lệch| &gt; 3σ</text>
+<text x="98.5" y="139.5" font-size="12" fill="#c0392b" text-anchor="start" font-family="Helvetica,Arial,sans-serif" font-weight="600">thực tế: 15 tháng</text>
+<text x="98.5" y="154.5" font-size="12" fill="#c0392b" text-anchor="start" font-family="Helvetica,Arial,sans-serif" font-weight="600">chuẩn dự đoán: 3.2</text>
+<text x="20.0" y="442.0" font-size="11" fill="#888" text-anchor="start" font-family="Helvetica,Arial,sans-serif">Phân phối chuẩn dự đoán 3.2 tháng vượt 3σ. Thực tế có 15 — nhiều gấp 5 lần. Mọi mô hình rủi ro dựa vào phân phối chuẩn đều</text>
+<text x="20.0" y="458.0" font-size="11" fill="#888" text-anchor="start" font-family="Helvetica,Arial,sans-serif">đánh giá THẤP thảm hoạ.</text>
+</svg>

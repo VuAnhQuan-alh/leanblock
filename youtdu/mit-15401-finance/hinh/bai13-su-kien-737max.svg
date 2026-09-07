@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="480" viewBox="0 0 760 480" role="img">
+<rect width="760" height="480" fill="#fdfdfb"/>
+<text x="380.0" y="26.0" font-size="16" fill="#111" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-weight="600">Challenger phiên bản 2019: thị trường chỉ đúng thủ phạm trong MỘT phiên</text>
+<line x1="74.0" y1="62" x2="74.0" y2="384" stroke="#e8e8e4" stroke-width="1"/>
+<text x="74.0" y="402.0" font-size="11" fill="#666" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">03/08</text>
+<line x1="185.3" y1="62" x2="185.3" y2="384" stroke="#e8e8e4" stroke-width="1"/>
+<text x="185.3" y="402.0" font-size="11" fill="#666" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">03/12</text>
+<line x1="296.5" y1="62" x2="296.5" y2="384" stroke="#e8e8e4" stroke-width="1"/>
+<text x="296.5" y="402.0" font-size="11" fill="#666" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">03/14</text>
+<line x1="407.8" y1="62" x2="407.8" y2="384" stroke="#e8e8e4" stroke-width="1"/>
+<text x="407.8" y="402.0" font-size="11" fill="#666" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">03/18</text>
+<line x1="519.1" y1="62" x2="519.1" y2="384" stroke="#e8e8e4" stroke-width="1"/>
+<text x="519.1" y="402.0" font-size="11" fill="#666" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">03/20</text>
+<line x1="630.4" y1="62" x2="630.4" y2="384" stroke="#e8e8e4" stroke-width="1"/>
+<text x="630.4" y="402.0" font-size="11" fill="#666" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">03/22</text>
+<line x1="74" y1="343.8" x2="686" y2="343.8" stroke="#e8e8e4" stroke-width="1"/>
+<text x="65" y="343.8" dy="4" font-size="11" text-anchor="end" fill="#666" font-family="Helvetica,Arial,sans-serif">0.85</text>
+<line x1="74" y1="276.7" x2="686" y2="276.7" stroke="#e8e8e4" stroke-width="1"/>
+<text x="65" y="276.7" dy="4" font-size="11" text-anchor="end" fill="#666" font-family="Helvetica,Arial,sans-serif">0.90</text>
+<line x1="74" y1="209.6" x2="686" y2="209.6" stroke="#e8e8e4" stroke-width="1"/>
+<text x="65" y="209.6" dy="4" font-size="11" text-anchor="end" fill="#666" font-family="Helvetica,Arial,sans-serif">0.95</text>
+<line x1="74" y1="142.5" x2="686" y2="142.5" stroke="#e8e8e4" stroke-width="1"/>
+<text x="65" y="142.5" dy="4" font-size="11" text-anchor="end" fill="#666" font-family="Helvetica,Arial,sans-serif">1.00</text>
+<line x1="74" y1="75.4" x2="686" y2="75.4" stroke="#e8e8e4" stroke-width="1"/>
+<text x="65" y="75.4" dy="4" font-size="11" text-anchor="end" fill="#666" font-family="Helvetica,Arial,sans-serif">1.05</text>
+<text x="380.0" y="418.0" font-size="12" fill="#333" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">Phiên giao dịch quanh tai nạn ET302 (10/3/2019)</text>
+<text x="15" y="223.0" font-size="12" fill="#333" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" transform="rotate(-90 15 223.0)">Giá chuẩn hoá về 1,00 tại phiên 8/3/2019</text>
+<path d="M74.0,142.5 L129.6,214.0 L185.3,292.1 L240.9,286.7 L296.5,298.8 L352.2,280.8 L407.8,302.1 L463.5,298.4 L519.1,289.8 L574.7,300.8 L630.4,334.2 L686.0,307.9" fill="none" stroke="#1a6fb5" stroke-width="3.2" stroke-linejoin="round" stroke-linecap="round" opacity="1.0"/>
+<text x="693.0" y="311.9" font-size="11" fill="#1a6fb5" text-anchor="start" font-family="Helvetica,Arial,sans-serif" font-weight="600">BA</text>
+<path d="M74.0,142.5 L129.6,97.7 L185.3,117.3 L240.9,80.9 L296.5,41.7 L352.2,89.3 L407.8,55.7 L463.5,57.1 L519.1,52.9 L574.7,45.9 L630.4,86.5 L686.0,100.5" fill="none" stroke="#c0392b" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round" opacity="0.75"/>
+<text x="693.0" y="104.5" font-size="11" fill="#c0392b" text-anchor="start" font-family="Helvetica,Arial,sans-serif" font-weight="600">GE</text>
+<path d="M74.0,142.5 L129.6,146.3 L185.3,138.7 L240.9,153.7 L296.5,162.9 L352.2,154.0 L407.8,140.6 L463.5,148.7 L519.1,159.8 L574.7,157.3 L630.4,186.7 L686.0,187.3" fill="none" stroke="#1f8a4c" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round" opacity="0.75"/>
+<text x="693.0" y="191.3" font-size="11" fill="#1f8a4c" text-anchor="start" font-family="Helvetica,Arial,sans-serif" font-weight="600">HXL</text>
+<path d="M74.0,142.5 L129.6,126.2 L185.3,113.9 L240.9,104.0 L296.5,95.7 L352.2,104.2 L407.8,75.4 L463.5,76.2 L519.1,86.2 L574.7,60.7 L630.4,89.0 L686.0,81.8" fill="none" stroke="#d98c00" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round" opacity="0.75"/>
+<text x="693.0" y="85.8" font-size="11" fill="#d98c00" text-anchor="start" font-family="Helvetica,Arial,sans-serif" font-weight="600">TDG</text>
+<path d="M74.0,142.5 L129.6,146.6 L185.3,178.0 L240.9,172.6 L296.5,158.3 L352.2,152.9 L407.8,160.4 L463.5,169.2 L519.1,196.1 L574.7,169.2 L630.4,206.0 L686.0,222.3" fill="none" stroke="#7a4fa3" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round" opacity="0.75"/>
+<text x="693.0" y="226.3" font-size="11" fill="#7a4fa3" text-anchor="start" font-family="Helvetica,Arial,sans-serif" font-weight="600">LUV</text>
+<line x1="74" y1="142.5" x2="686" y2="142.5" stroke="#bbb" stroke-width="1.5" stroke-dasharray="4 4"/>
+<line x1="129.6" y1="62" x2="129.6" y2="384" stroke="#c0392b" stroke-width="1.5" stroke-dasharray="4 4"/>
+<text x="137.6" y="54.0" font-size="11" fill="#c0392b" text-anchor="start" font-family="Helvetica,Arial,sans-serif" font-weight="600">11/3: FAA tuyên bố MÁY BAY ĐỦ ĐIỀU KIỆN BAY</text>
+<line x1="240.9" y1="62" x2="240.9" y2="384" stroke="#1f8a4c" stroke-width="1.5" stroke-dasharray="4 4"/>
+<text x="248.9" y="74.0" font-size="11" fill="#1f8a4c" text-anchor="start" font-family="Helvetica,Arial,sans-serif" font-weight="600">13/3: FAA cấm bay</text>
+<text x="20.0" y="442.0" font-size="11" fill="#888" text-anchor="start" font-family="Helvetica,Arial,sans-serif">Cùng một ngày, cơ quan quản lý nói an toàn và thị trường nói không. Hai ngày sau FAA đổi ý — và giá Boeing TĂNG, vì tin đã</text>
+<text x="20.0" y="458.0" font-size="11" fill="#888" text-anchor="start" font-family="Helvetica,Arial,sans-serif">nằm trọn trong giá.</text>
+</svg>

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="430" viewBox="0 0 760 430" role="img">
+<rect width="760" height="430" fill="#fdfdfb"/>
+<text x="380.0" y="26.0" font-size="16" fill="#111" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-weight="600">Đường thời gian: chiết khấu là ĐỔI TIỀN giữa hai thời điểm</text>
+<text x="380.0" y="56.0" font-size="13" fill="#111" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-weight="600">Năm tờ 100 đô la ở năm thời điểm khác nhau là NĂM LOẠI TIỀN TỆ khác nhau.</text>
+<text x="380.0" y="78.0" font-size="12" fill="#444" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">Muốn cộng chúng lại, phải đổi hết về cùng một loại — đó là chiết khấu.</text>
+<line x1="86" y1="210" x2="710" y2="210" stroke="#444" stroke-width="2"/>
+<line x1="110" y1="203" x2="110" y2="217" stroke="#444" stroke-width="2"/>
+<text x="110.0" y="236.0" font-size="12" fill="#666" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">t = 0</text>
+<line x1="228" y1="203" x2="228" y2="217" stroke="#444" stroke-width="2"/>
+<text x="228.0" y="236.0" font-size="12" fill="#666" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">t = 1</text>
+<line x1="346" y1="203" x2="346" y2="217" stroke="#444" stroke-width="2"/>
+<text x="346.0" y="236.0" font-size="12" fill="#666" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">t = 2</text>
+<line x1="464" y1="203" x2="464" y2="217" stroke="#444" stroke-width="2"/>
+<text x="464.0" y="236.0" font-size="12" fill="#666" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">t = 3</text>
+<line x1="582" y1="203" x2="582" y2="217" stroke="#444" stroke-width="2"/>
+<text x="582.0" y="236.0" font-size="12" fill="#666" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">t = 4</text>
+<line x1="700" y1="203" x2="700" y2="217" stroke="#444" stroke-width="2"/>
+<text x="700.0" y="236.0" font-size="12" fill="#666" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">t = 5</text>
+<line x1="228" y1="200" x2="228" y2="152" stroke="#1a6fb5" stroke-width="2.6"/>
+<polygon points="228,144 222,158 234,158" fill="#1a6fb5"/>
+<text x="228.0" y="136.0" font-size="14" fill="#1a6fb5" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-weight="600">$100</text>
+<line x1="346" y1="200" x2="346" y2="152" stroke="#1a6fb5" stroke-width="2.6"/>
+<polygon points="346,144 340,158 352,158" fill="#1a6fb5"/>
+<text x="346.0" y="136.0" font-size="14" fill="#1a6fb5" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-weight="600">$100</text>
+<line x1="464" y1="200" x2="464" y2="152" stroke="#1a6fb5" stroke-width="2.6"/>
+<polygon points="464,144 458,158 470,158" fill="#1a6fb5"/>
+<text x="464.0" y="136.0" font-size="14" fill="#1a6fb5" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-weight="600">$100</text>
+<line x1="582" y1="200" x2="582" y2="152" stroke="#1a6fb5" stroke-width="2.6"/>
+<polygon points="582,144 576,158 588,158" fill="#1a6fb5"/>
+<text x="582.0" y="136.0" font-size="14" fill="#1a6fb5" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-weight="600">$100</text>
+<line x1="700" y1="200" x2="700" y2="152" stroke="#1a6fb5" stroke-width="2.6"/>
+<polygon points="700,144 694,158 706,158" fill="#1a6fb5"/>
+<text x="700.0" y="136.0" font-size="14" fill="#1a6fb5" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-weight="600">$100</text>
+<text x="380.0" y="110.0" font-size="11" fill="#888" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">dòng tiền danh nghĩa</text>
+<text x="228.0" y="268.0" font-size="11" fill="#666" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">÷ 1,1^1</text>
+<text x="228.0" y="290.0" font-size="13" fill="#c0392b" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-weight="600">$90.91</text>
+<text x="346.0" y="268.0" font-size="11" fill="#666" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">÷ 1,1^2</text>
+<text x="346.0" y="290.0" font-size="13" fill="#c0392b" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-weight="600">$82.64</text>
+<text x="464.0" y="268.0" font-size="11" fill="#666" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">÷ 1,1^3</text>
+<text x="464.0" y="290.0" font-size="13" fill="#c0392b" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-weight="600">$75.13</text>
+<text x="582.0" y="268.0" font-size="11" fill="#666" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">÷ 1,1^4</text>
+<text x="582.0" y="290.0" font-size="13" fill="#c0392b" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-weight="600">$68.30</text>
+<text x="700.0" y="268.0" font-size="11" fill="#666" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">÷ 1,1^5</text>
+<text x="700.0" y="290.0" font-size="13" fill="#c0392b" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-weight="600">$62.09</text>
+<line x1="188" y1="304" x2="740" y2="304" stroke="#c0392b" stroke-width="1.4"/>
+<line x1="110" y1="304" x2="110" y2="336" stroke="#c0392b" stroke-width="2.4"/>
+<line x1="188" y1="304" x2="110" y2="304" stroke="#c0392b" stroke-width="1.4"/>
+<polygon points="110,344 103,329 117,329" fill="#c0392b"/>
+<text x="110.0" y="364.0" font-size="15" fill="#c0392b" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-weight="600">PV = $379.08</text>
+<text x="380.0" y="328.0" font-size="12" fill="#444" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">cộng lại được, vì giờ tất cả đã cùng một loại tiền</text>
+<text x="380.0" y="414.0" font-size="11" fill="#888" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">Tỷ giá ở đây là r = 10%/năm. $500 danh nghĩa → $379.08 hôm nay; chênh $120.92 là giá của thời gian.</text>
+</svg>

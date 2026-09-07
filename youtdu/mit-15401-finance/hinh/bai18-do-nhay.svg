@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="480" viewBox="0 0 760 480" role="img">
+<rect width="760" height="480" fill="#fdfdfb"/>
+<text x="380.0" y="26.0" font-size="16" fill="#111" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-weight="600">Một ô vuông giả định, một khoảng giá trị gấp nhiều lần</text>
+<line x1="144.9" y1="46" x2="144.9" y2="384" stroke="#e8e8e4" stroke-width="1"/>
+<text x="144.9" y="402.0" font-size="11" fill="#666" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">1%</text>
+<line x1="286.7" y1="46" x2="286.7" y2="384" stroke="#e8e8e4" stroke-width="1"/>
+<text x="286.7" y="402.0" font-size="11" fill="#666" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">2%</text>
+<line x1="428.4" y1="46" x2="428.4" y2="384" stroke="#e8e8e4" stroke-width="1"/>
+<text x="428.4" y="402.0" font-size="11" fill="#666" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">3%</text>
+<line x1="570.2" y1="46" x2="570.2" y2="384" stroke="#e8e8e4" stroke-width="1"/>
+<text x="570.2" y="402.0" font-size="11" fill="#666" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">4%</text>
+<line x1="712.0" y1="46" x2="712.0" y2="384" stroke="#e8e8e4" stroke-width="1"/>
+<text x="712.0" y="402.0" font-size="11" fill="#666" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">5%</text>
+<line x1="74" y1="384.0" x2="712" y2="384.0" stroke="#e8e8e4" stroke-width="1"/>
+<text x="65" y="384.0" dy="4" font-size="11" text-anchor="end" fill="#666" font-family="Helvetica,Arial,sans-serif">0</text>
+<line x1="74" y1="278.4" x2="712" y2="278.4" stroke="#e8e8e4" stroke-width="1"/>
+<text x="65" y="278.4" dy="4" font-size="11" text-anchor="end" fill="#666" font-family="Helvetica,Arial,sans-serif">100</text>
+<line x1="74" y1="172.8" x2="712" y2="172.8" stroke="#e8e8e4" stroke-width="1"/>
+<text x="65" y="172.8" dy="4" font-size="11" text-anchor="end" fill="#666" font-family="Helvetica,Arial,sans-serif">200</text>
+<line x1="74" y1="67.1" x2="712" y2="67.1" stroke="#e8e8e4" stroke-width="1"/>
+<text x="65" y="67.1" dy="4" font-size="11" text-anchor="end" fill="#666" font-family="Helvetica,Arial,sans-serif">300</text>
+<text x="380.0" y="418.0" font-size="12" fill="#333" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">Tăng trưởng vĩnh viễn g</text>
+<text x="15" y="215.0" font-size="12" fill="#333" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" transform="rotate(-90 15 215.0)">Giá trị VNM (nghìn đồng/cổ phiếu)</text>
+<path d="M74.0,256.9 L88.2,255.1 L102.4,253.3 L116.5,251.4 L130.7,249.4 L144.9,247.3 L159.1,245.1 L173.2,242.8 L187.4,240.4 L201.6,237.9 L215.8,235.2 L230.0,232.4 L244.1,229.5 L258.3,226.4 L272.5,223.1 L286.7,219.7 L300.8,216.0 L315.0,212.1 L329.2,207.9 L343.4,203.5 L357.6,198.8 L371.7,193.7 L385.9,188.3 L400.1,182.4 L414.3,176.1 L428.4,169.3 L442.6,161.9 L456.8,153.8 L471.0,145.0 L485.2,135.3" fill="none" stroke="#1a6fb5" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round" opacity="1.0"/>
+<path d="M74.0,278.6 L88.2,277.5 L102.4,276.4 L116.5,275.2 L130.7,273.9 L144.9,272.6 L159.1,271.3 L173.2,269.9 L187.4,268.5 L201.6,267.0 L215.8,265.4 L230.0,263.8 L244.1,262.1 L258.3,260.4 L272.5,258.5 L286.7,256.6 L300.8,254.6 L315.0,252.5 L329.2,250.3 L343.4,248.0 L357.6,245.5 L371.7,243.0 L385.9,240.3 L400.1,237.4 L414.3,234.4 L428.4,231.2 L442.6,227.9 L456.8,224.3 L471.0,220.5 L485.2,216.4 L499.3,212.1 L513.5,207.4 L527.7,202.4 L541.9,197.1 L556.0,191.3 L570.2,185.0 L584.4,178.2 L598.6,170.8 L612.8,162.7 L626.9,153.8" fill="none" stroke="#c0392b" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round" opacity="1.0"/>
+<path d="M74.0,294.0 L88.2,293.3 L102.4,292.5 L116.5,291.7 L130.7,290.9 L144.9,290.1 L159.1,289.2 L173.2,288.3 L187.4,287.4 L201.6,286.4 L215.8,285.4 L230.0,284.4 L244.1,283.3 L258.3,282.2 L272.5,281.1 L286.7,279.9 L300.8,278.7 L315.0,277.4 L329.2,276.1 L343.4,274.7 L357.6,273.3 L371.7,271.8 L385.9,270.2 L400.1,268.6 L414.3,266.9 L428.4,265.2 L442.6,263.3 L456.8,261.4 L471.0,259.3 L485.2,257.2 L499.3,255.0 L513.5,252.6 L527.7,250.1 L541.9,247.5 L556.0,244.8 L570.2,241.8 L584.4,238.7 L598.6,235.4 L612.8,231.9 L626.9,228.2 L641.1,224.2 L655.3,219.9 L669.5,215.3 L683.6,210.4 L697.8,205.1 L712.0,199.3" fill="none" stroke="#1f8a4c" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round" opacity="1.0"/>
+<path d="M74.0,305.5 L88.2,305.0 L102.4,304.4 L116.5,303.9 L130.7,303.3 L144.9,302.7 L159.1,302.1 L173.2,301.5 L187.4,300.9 L201.6,300.2 L215.8,299.5 L230.0,298.8 L244.1,298.1 L258.3,297.4 L272.5,296.7 L286.7,295.9 L300.8,295.1 L315.0,294.2 L329.2,293.4 L343.4,292.5 L357.6,291.6 L371.7,290.7 L385.9,289.7 L400.1,288.7 L414.3,287.6 L428.4,286.5 L442.6,285.4 L456.8,284.2 L471.0,283.0 L485.2,281.8 L499.3,280.4 L513.5,279.1 L527.7,277.6 L541.9,276.1 L556.0,274.6 L570.2,273.0 L584.4,271.3 L598.6,269.5 L612.8,267.6 L626.9,265.7 L641.1,263.6 L655.3,261.4 L669.5,259.2 L683.6,256.7 L697.8,254.2 L712.0,251.5" fill="none" stroke="#d98c00" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round" opacity="1.0"/>
+<path d="M74.0,314.3 L88.2,313.9 L102.4,313.5 L116.5,313.1 L130.7,312.7 L144.9,312.3 L159.1,311.9 L173.2,311.4 L187.4,311.0 L201.6,310.5 L215.8,310.1 L230.0,309.6 L244.1,309.1 L258.3,308.6 L272.5,308.0 L286.7,307.5 L300.8,307.0 L315.0,306.4 L329.2,305.8 L343.4,305.2 L357.6,304.6 L371.7,304.0 L385.9,303.3 L400.1,302.6 L414.3,301.9 L428.4,301.2 L442.6,300.5 L456.8,299.7 L471.0,298.9 L485.2,298.1 L499.3,297.3 L513.5,296.4 L527.7,295.5 L541.9,294.6 L556.0,293.6 L570.2,292.6 L584.4,291.6 L598.6,290.5 L612.8,289.4 L626.9,288.2 L641.1,287.0 L655.3,285.7 L669.5,284.4 L683.6,283.1 L697.8,281.6 L712.0,280.1" fill="none" stroke="#7a4fa3" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round" opacity="1.0"/>
+<line x1="74" y1="318.6" x2="712" y2="318.6" stroke="#c0392b" stroke-width="1.5" stroke-dasharray="5 4"/>
+<text x="708.0" y="312.6" font-size="11" fill="#666" text-anchor="end" font-family="Helvetica,Arial,sans-serif">giá thị trường 61.9</text>
+<line x1="92" y1="52" x2="116" y2="52" stroke="#1a6fb5" stroke-width="2.6"/>
+<text x="123.0" y="56.0" font-size="12" fill="#111" text-anchor="start" font-family="Helvetica,Arial,sans-serif">WACC 5.43%</text>
+<line x1="92" y1="71" x2="116" y2="71" stroke="#c0392b" stroke-width="2.6"/>
+<text x="123.0" y="75.0" font-size="12" fill="#111" text-anchor="start" font-family="Helvetica,Arial,sans-serif">WACC 6.43%</text>
+<line x1="92" y1="90" x2="116" y2="90" stroke="#1f8a4c" stroke-width="2.6"/>
+<text x="123.0" y="94.0" font-size="12" fill="#111" text-anchor="start" font-family="Helvetica,Arial,sans-serif">WACC 7.43% (đang dùng)</text>
+<line x1="92" y1="109" x2="116" y2="109" stroke="#d98c00" stroke-width="2.6"/>
+<text x="123.0" y="113.0" font-size="12" fill="#111" text-anchor="start" font-family="Helvetica,Arial,sans-serif">WACC 8.43%</text>
+<line x1="92" y1="128" x2="116" y2="128" stroke="#7a4fa3" stroke-width="2.6"/>
+<text x="123.0" y="132.0" font-size="12" fill="#111" text-anchor="start" font-family="Helvetica,Arial,sans-serif">WACC 9.43%</text>
+<text x="20.0" y="442.0" font-size="11" fill="#888" text-anchor="start" font-family="Helvetica,Arial,sans-serif">Mỗi đường là một giả định WACC; mỗi điểm trên đường là một giả định tăng trưởng. Không đường nào sai. Đó là lý do DCF sinh</text>
+<text x="20.0" y="458.0" font-size="11" fill="#888" text-anchor="start" font-family="Helvetica,Arial,sans-serif">ra một bảng chứ không sinh ra một con số.</text>
+</svg>

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="480" viewBox="0 0 760 480" role="img">
+<rect width="760" height="480" fill="#fdfdfb"/>
+<text x="380.0" y="26.0" font-size="16" fill="#111" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-weight="600">Mô hình Gordon: bong bóng công nghệ nằm trong một phép chia</text>
+<line x1="74.0" y1="46" x2="74.0" y2="384" stroke="#e8e8e4" stroke-width="1"/>
+<text x="74.0" y="402.0" font-size="11" fill="#666" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">0%</text>
+<line x1="204.2" y1="46" x2="204.2" y2="384" stroke="#e8e8e4" stroke-width="1"/>
+<text x="204.2" y="402.0" font-size="11" fill="#666" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">2%</text>
+<line x1="334.4" y1="46" x2="334.4" y2="384" stroke="#e8e8e4" stroke-width="1"/>
+<text x="334.4" y="402.0" font-size="11" fill="#666" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">4%</text>
+<line x1="464.6" y1="46" x2="464.6" y2="384" stroke="#e8e8e4" stroke-width="1"/>
+<text x="464.6" y="402.0" font-size="11" fill="#666" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">6%</text>
+<line x1="594.8" y1="46" x2="594.8" y2="384" stroke="#e8e8e4" stroke-width="1"/>
+<text x="594.8" y="402.0" font-size="11" fill="#666" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">8%</text>
+<line x1="74" y1="384.0" x2="712" y2="384.0" stroke="#e8e8e4" stroke-width="1"/>
+<text x="65" y="384.0" dy="4" font-size="11" text-anchor="end" fill="#666" font-family="Helvetica,Arial,sans-serif">0</text>
+<line x1="74" y1="307.2" x2="712" y2="307.2" stroke="#e8e8e4" stroke-width="1"/>
+<text x="65" y="307.2" dy="4" font-size="11" text-anchor="end" fill="#666" font-family="Helvetica,Arial,sans-serif">5,000</text>
+<line x1="74" y1="230.4" x2="712" y2="230.4" stroke="#e8e8e4" stroke-width="1"/>
+<text x="65" y="230.4" dy="4" font-size="11" text-anchor="end" fill="#666" font-family="Helvetica,Arial,sans-serif">10,000</text>
+<line x1="74" y1="153.5" x2="712" y2="153.5" stroke="#e8e8e4" stroke-width="1"/>
+<text x="65" y="153.5" dy="4" font-size="11" text-anchor="end" fill="#666" font-family="Helvetica,Arial,sans-serif">15,000</text>
+<line x1="74" y1="76.7" x2="712" y2="76.7" stroke="#e8e8e4" stroke-width="1"/>
+<text x="65" y="76.7" dy="4" font-size="11" text-anchor="end" fill="#666" font-family="Helvetica,Arial,sans-serif">20,000</text>
+<text x="380.0" y="418.0" font-size="12" fill="#333" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">Tốc độ tăng trưởng cổ tức g</text>
+<text x="15" y="215.0" font-size="12" fill="#333" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" transform="rotate(-90 15 215.0)">Giá cổ phiếu  P = D₁ / (r − g)</text>
+<path d="M74.0,353.3 L77.3,353.1 L80.5,353.0 L83.8,352.8 L87.0,352.6 L90.3,352.5 L93.5,352.3 L96.8,352.2 L100.0,352.0 L103.3,351.8 L106.6,351.7 L109.8,351.5 L113.1,351.3 L116.3,351.1 L119.6,351.0 L122.8,350.8 L126.1,350.6 L129.3,350.4 L132.6,350.2 L135.8,350.0 L139.1,349.9 L142.4,349.7 L145.6,349.5 L148.9,349.3 L152.1,349.1 L155.4,348.9 L158.6,348.7 L161.9,348.5 L165.1,348.3 L168.4,348.1 L171.7,347.9 L174.9,347.6 L178.2,347.4 L181.4,347.2 L184.7,347.0 L187.9,346.8 L191.2,346.5 L194.4,346.3 L197.7,346.1 L200.9,345.8 L204.2,345.6 L207.5,345.3 L210.7,345.1 L214.0,344.9 L217.2,344.6 L220.5,344.4 L223.7,344.1 L227.0,343.8 L230.2,343.6 L233.5,343.3 L236.8,343.0 L240.0,342.8 L243.3,342.5 L246.5,342.2 L249.8,341.9 L253.0,341.6 L256.3,341.3 L259.5,341.0 L262.8,340.7 L266.1,340.4 L269.3,340.1 L272.6,339.8 L275.8,339.5 L279.1,339.1 L282.3,338.8 L285.6,338.5 L288.8,338.1 L292.1,337.8 L295.3,337.4 L298.6,337.1 L301.9,336.7 L305.1,336.4 L308.4,336.0 L311.6,335.6 L314.9,335.2 L318.1,334.8 L321.4,334.4 L324.6,334.0 L327.9,333.6 L331.2,333.2 L334.4,332.8 L337.7,332.4 L340.9,331.9 L344.2,331.5 L347.4,331.0 L350.7,330.6 L353.9,330.1 L357.2,329.6 L360.4,329.1 L363.7,328.6 L367.0,328.1 L370.2,327.6 L373.5,327.1 L376.7,326.6 L380.0,326.0 L383.2,325.5 L386.5,324.9 L389.7,324.3 L393.0,323.8 L396.3,323.2 L399.5,322.5 L402.8,321.9 L406.0,321.3 L409.3,320.6 L412.5,320.0 L415.8,319.3 L419.0,318.6 L422.3,317.9 L425.6,317.2 L428.8,316.5 L432.1,315.7 L435.3,314.9 L438.6,314.2 L441.8,313.4 L445.1,312.5 L448.3,311.7 L451.6,310.8 L454.8,310.0 L458.1,309.1 L461.4,308.1 L464.6,307.2 L467.9,306.2 L471.1,305.2 L474.4,304.2 L477.6,303.1 L480.9,302.1 L484.1,301.0 L487.4,299.8 L490.7,298.6 L493.9,297.4 L497.2,296.2 L500.4,294.9 L503.7,293.6 L506.9,292.3 L510.2,290.9 L513.4,289.5 L516.7,288.0 L519.9,286.5 L523.2,284.9 L526.5,283.3 L529.7,281.6 L533.0,279.8 L536.2,278.0 L539.5,276.2 L542.7,274.3 L546.0,272.3 L549.2,270.2 L552.5,268.0 L555.8,265.8 L559.0,263.5 L562.3,261.1 L565.5,258.6 L568.8,256.0 L572.0,253.2 L575.3,250.4 L578.5,247.4 L581.8,244.3 L585.1,241.1 L588.3,237.7 L591.6,234.1 L594.8,230.4 L598.1,226.4 L601.3,222.3 L604.6,217.9 L607.8,213.3 L611.1,208.4 L614.3,203.3 L617.6,197.8 L620.9,192.0 L624.1,185.8 L627.4,179.2 L630.6,172.1 L633.9,164.5 L637.1,156.4 L640.4,147.6 L643.6,138.2 L646.9,127.9 L650.2,116.8 L653.4,104.7 L656.7,91.4 L659.9,76.7 L663.2,60.6 L666.4,42.6 L669.7,22.5 L672.9,-0.1 L676.2,-25.7 L679.4,-55.0 L682.7,-88.7 L686.0,-128.1 L689.2,-174.7 L692.5,-230.5" fill="none" stroke="#1a6fb5" stroke-width="2.8" stroke-linejoin="round" stroke-linecap="round" opacity="1.0"/>
+<line x1="725.0" y1="46" x2="725.0" y2="384" stroke="#c0392b" stroke-width="1.5" stroke-dasharray="6 4"/>
+<text x="681.2" y="40.0" font-size="11" fill="#666" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">g = r = 10%</text>
+<circle cx="74.0" cy="353.3" r="5" fill="#1a6fb5" stroke="#fff" stroke-width="1.6"/>
+<text x="82.0" y="343.3" font-size="11" fill="#111" text-anchor="start" font-family="Helvetica,Arial,sans-serif">g=0% → 2,000</text>
+<circle cx="334.4" cy="332.8" r="5" fill="#1a6fb5" stroke="#fff" stroke-width="1.6"/>
+<text x="342.4" y="322.8" font-size="11" fill="#111" text-anchor="start" font-family="Helvetica,Arial,sans-serif">g=4% → 3,333</text>
+<circle cx="529.7" cy="281.6" r="5" fill="#1a6fb5" stroke="#fff" stroke-width="1.6"/>
+<text x="537.7" y="271.6" font-size="11" fill="#111" text-anchor="start" font-family="Helvetica,Arial,sans-serif">g=7% → 6,667</text>
+<circle cx="659.9" cy="76.7" r="5" fill="#1a6fb5" stroke="#fff" stroke-width="1.6"/>
+<text x="667.9" y="66.7" font-size="11" fill="#111" text-anchor="start" font-family="Helvetica,Arial,sans-serif">g=9% → 20,000</text>
+<text x="627.4" y="122.8" font-size="13" fill="#c0392b" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-weight="600">TIỆM CẬN ĐỨNG</text>
+<text x="20.0" y="442.0" font-size="11" fill="#888" text-anchor="start" font-family="Helvetica,Arial,sans-serif">g từ 0% lên 4%: giá tăng +67%. Từ 7% lên 9%: giá tăng +200%. Cùng một bước 2 điểm — hệ quả khác nhau hoàn toàn.</text>
+</svg>

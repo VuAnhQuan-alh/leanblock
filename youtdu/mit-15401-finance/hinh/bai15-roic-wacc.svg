@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="480" viewBox="0 0 760 480" role="img">
+<rect width="760" height="480" fill="#fdfdfb"/>
+<text x="380.0" y="26.0" font-size="16" fill="#111" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-weight="600">ROIC trừ WACC — thước đo cuối cùng của phần E</text>
+<line x1="147.6" y1="46" x2="147.6" y2="384" stroke="#e8e8e4" stroke-width="1"/>
+<text x="147.6" y="402.0" font-size="11" fill="#666" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">VNM</text>
+<line x1="270.3" y1="46" x2="270.3" y2="384" stroke="#e8e8e4" stroke-width="1"/>
+<text x="270.3" y="402.0" font-size="11" fill="#666" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">FPT</text>
+<line x1="393.0" y1="46" x2="393.0" y2="384" stroke="#e8e8e4" stroke-width="1"/>
+<text x="393.0" y="402.0" font-size="11" fill="#666" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">PNJ</text>
+<line x1="515.7" y1="46" x2="515.7" y2="384" stroke="#e8e8e4" stroke-width="1"/>
+<text x="515.7" y="402.0" font-size="11" fill="#666" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">MWG</text>
+<line x1="638.4" y1="46" x2="638.4" y2="384" stroke="#e8e8e4" stroke-width="1"/>
+<text x="638.4" y="402.0" font-size="11" fill="#666" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">HPG</text>
+<line x1="74" y1="384.0" x2="712" y2="384.0" stroke="#e8e8e4" stroke-width="1"/>
+<text x="65" y="384.0" dy="4" font-size="11" text-anchor="end" fill="#666" font-family="Helvetica,Arial,sans-serif">0%</text>
+<line x1="74" y1="316.4" x2="712" y2="316.4" stroke="#e8e8e4" stroke-width="1"/>
+<text x="65" y="316.4" dy="4" font-size="11" text-anchor="end" fill="#666" font-family="Helvetica,Arial,sans-serif">5%</text>
+<line x1="74" y1="248.8" x2="712" y2="248.8" stroke="#e8e8e4" stroke-width="1"/>
+<text x="65" y="248.8" dy="4" font-size="11" text-anchor="end" fill="#666" font-family="Helvetica,Arial,sans-serif">10%</text>
+<line x1="74" y1="181.2" x2="712" y2="181.2" stroke="#e8e8e4" stroke-width="1"/>
+<text x="65" y="181.2" dy="4" font-size="11" text-anchor="end" fill="#666" font-family="Helvetica,Arial,sans-serif">15%</text>
+<line x1="74" y1="113.6" x2="712" y2="113.6" stroke="#e8e8e4" stroke-width="1"/>
+<text x="65" y="113.6" dy="4" font-size="11" text-anchor="end" fill="#666" font-family="Helvetica,Arial,sans-serif">20%</text>
+<line x1="74" y1="46.0" x2="712" y2="46.0" stroke="#e8e8e4" stroke-width="1"/>
+<text x="65" y="46.0" dy="4" font-size="11" text-anchor="end" fill="#666" font-family="Helvetica,Arial,sans-serif">25%</text>
+<text x="15" y="215.0" font-size="12" fill="#333" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" transform="rotate(-90 15 215.0)">Suất sinh lời trên vốn (%/năm)</text>
+<rect x="131.6" y="91.3" width="32" height="193.3" fill="#1f8a4c" opacity="0.28"/>
+<line x1="117.6" y1="284.6" x2="177.6" y2="284.6" stroke="#d98c00" stroke-width="3"/>
+<circle cx="147.6" cy="91.3" r="7" fill="#1a6fb5" stroke="#fff" stroke-width="1.6"/>
+<text x="147.6" y="78.3" font-size="12" fill="#1a6fb5" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-weight="600">21.7%</text>
+<text x="147.6" y="305.6" font-size="11" fill="#d98c00" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">7.35%</text>
+<text x="169.6" y="191.9" font-size="13" fill="#1f8a4c" text-anchor="start" font-family="Helvetica,Arial,sans-serif" font-weight="600">+14.3đ</text>
+<rect x="254.3" y="104.7" width="32" height="162.8" fill="#1f8a4c" opacity="0.28"/>
+<line x1="240.3" y1="267.5" x2="300.3" y2="267.5" stroke="#d98c00" stroke-width="3"/>
+<circle cx="270.3" cy="104.7" r="7" fill="#1a6fb5" stroke="#fff" stroke-width="1.6"/>
+<text x="270.3" y="91.7" font-size="12" fill="#1a6fb5" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-weight="600">20.7%</text>
+<text x="270.3" y="288.5" font-size="11" fill="#d98c00" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">8.62%</text>
+<text x="292.3" y="190.1" font-size="13" fill="#1f8a4c" text-anchor="start" font-family="Helvetica,Arial,sans-serif" font-weight="600">+12.0đ</text>
+<rect x="377.0" y="137.7" width="32" height="135.3" fill="#1f8a4c" opacity="0.28"/>
+<line x1="363.0" y1="273.0" x2="423.0" y2="273.0" stroke="#d98c00" stroke-width="3"/>
+<circle cx="393.0" cy="137.7" r="7" fill="#1a6fb5" stroke="#fff" stroke-width="1.6"/>
+<text x="393.0" y="124.7" font-size="12" fill="#1a6fb5" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-weight="600">18.2%</text>
+<text x="393.0" y="294.0" font-size="11" fill="#d98c00" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">8.21%</text>
+<text x="415.0" y="209.3" font-size="13" fill="#1f8a4c" text-anchor="start" font-family="Helvetica,Arial,sans-serif" font-weight="600">+10.0đ</text>
+<rect x="499.7" y="195.2" width="32" height="53.1" fill="#1f8a4c" opacity="0.28"/>
+<line x1="485.7" y1="248.3" x2="545.7" y2="248.3" stroke="#d98c00" stroke-width="3"/>
+<circle cx="515.7" cy="195.2" r="7" fill="#1a6fb5" stroke="#fff" stroke-width="1.6"/>
+<text x="515.7" y="182.2" font-size="12" fill="#1a6fb5" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-weight="600">14.0%</text>
+<text x="515.7" y="269.3" font-size="11" fill="#d98c00" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">10.04%</text>
+<text x="537.7" y="225.7" font-size="13" fill="#1f8a4c" text-anchor="start" font-family="Helvetica,Arial,sans-serif" font-weight="600">+3.9đ</text>
+<rect x="622.4" y="262.4" width="32" height="4.7" fill="#c0392b" opacity="0.28"/>
+<line x1="608.4" y1="262.4" x2="668.4" y2="262.4" stroke="#d98c00" stroke-width="3"/>
+<circle cx="638.4" cy="267.1" r="7" fill="#1a6fb5" stroke="#fff" stroke-width="1.6"/>
+<text x="638.4" y="254.1" font-size="12" fill="#1a6fb5" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-weight="600">8.6%</text>
+<text x="638.4" y="283.4" font-size="11" fill="#d98c00" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">8.99%</text>
+<text x="660.4" y="268.8" font-size="13" fill="#c0392b" text-anchor="start" font-family="Helvetica,Arial,sans-serif" font-weight="600">-0.3đ</text>
+<circle cx="394" cy="319.16" r="6" fill="#1a6fb5"/>
+<text x="406.0" y="323.2" font-size="12" fill="#111" text-anchor="start" font-family="Helvetica,Arial,sans-serif">ROIC — suất sinh lời thực tế trên vốn</text>
+<line x1="386" y1="341.16" x2="404" y2="341.16" stroke="#d98c00" stroke-width="3"/>
+<text x="412.0" y="345.2" font-size="12" fill="#111" text-anchor="start" font-family="Helvetica,Arial,sans-serif">WACC — chi phí cơ hội của vốn đó</text>
+<text x="20.0" y="442.0" font-size="11" fill="#888" text-anchor="start" font-family="Helvetica,Arial,sans-serif">Bốn doanh nghiệp đầu tạo giá trị rõ rệt. HPG chênh −0,3 điểm — nhỏ hơn sai số của chính WACC, nên kết luận trung thực là</text>
+<text x="20.0" y="458.0" font-size="11" fill="#888" text-anchor="start" font-family="Helvetica,Arial,sans-serif">“không phân biệt được với hoà vốn”, chứ không phải “phá giá trị”.</text>
+</svg>

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="480" viewBox="0 0 760 480" role="img">
+<rect width="760" height="480" fill="#fdfdfb"/>
+<text x="380.0" y="26.0" font-size="16" fill="#111" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-weight="600">ROIC nhiều năm — thước đo bỏ qua cách tài trợ, nên ổn định hơn ROE</text>
+<line x1="74.0" y1="46" x2="74.0" y2="384" stroke="#e8e8e4" stroke-width="1"/>
+<text x="74.0" y="402.0" font-size="11" fill="#666" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">2016</text>
+<line x1="215.8" y1="46" x2="215.8" y2="384" stroke="#e8e8e4" stroke-width="1"/>
+<text x="215.8" y="402.0" font-size="11" fill="#666" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">2018</text>
+<line x1="357.6" y1="46" x2="357.6" y2="384" stroke="#e8e8e4" stroke-width="1"/>
+<text x="357.6" y="402.0" font-size="11" fill="#666" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">2020</text>
+<line x1="499.3" y1="46" x2="499.3" y2="384" stroke="#e8e8e4" stroke-width="1"/>
+<text x="499.3" y="402.0" font-size="11" fill="#666" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">2022</text>
+<line x1="641.1" y1="46" x2="641.1" y2="384" stroke="#e8e8e4" stroke-width="1"/>
+<text x="641.1" y="402.0" font-size="11" fill="#666" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">2024</text>
+<line x1="74" y1="366.2" x2="712" y2="366.2" stroke="#e8e8e4" stroke-width="1"/>
+<text x="65" y="366.2" dy="4" font-size="11" text-anchor="end" fill="#666" font-family="Helvetica,Arial,sans-serif">0%</text>
+<line x1="74" y1="277.3" x2="712" y2="277.3" stroke="#e8e8e4" stroke-width="1"/>
+<text x="65" y="277.3" dy="4" font-size="11" text-anchor="end" fill="#666" font-family="Helvetica,Arial,sans-serif">10%</text>
+<line x1="74" y1="188.3" x2="712" y2="188.3" stroke="#e8e8e4" stroke-width="1"/>
+<text x="65" y="188.3" dy="4" font-size="11" text-anchor="end" fill="#666" font-family="Helvetica,Arial,sans-serif">20%</text>
+<line x1="74" y1="99.4" x2="712" y2="99.4" stroke="#e8e8e4" stroke-width="1"/>
+<text x="65" y="99.4" dy="4" font-size="11" text-anchor="end" fill="#666" font-family="Helvetica,Arial,sans-serif">30%</text>
+<line x1="74" y1="366.2" x2="712" y2="366.2" stroke="#999" stroke-width="1.5"/>
+<text x="380.0" y="418.0" font-size="12" fill="#333" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">Năm</text>
+<text x="15" y="215.0" font-size="12" fill="#333" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" transform="rotate(-90 15 215.0)">ROIC = NOPAT / vốn đầu tư bình quân</text>
+<path d="M74.0,140.3 L144.9,167.0 L215.8,167.4 L286.7,186.8 L357.6,234.0 L428.4,241.6 L499.3,261.7 L570.2,355.8 L641.1,287.2 L712.0,242.0" fill="none" stroke="#1a6fb5" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round" opacity="1.0"/>
+<text x="720.0" y="246.0" font-size="12" fill="#1a6fb5" text-anchor="start" font-family="Helvetica,Arial,sans-serif" font-weight="600">MWG</text>
+<path d="M74.0,238.6 L144.9,192.7 L215.8,212.2 L286.7,204.7 L357.6,215.4 L428.4,225.6 L499.3,208.2 L570.2,181.3 L641.1,180.2 L712.0,182.5" fill="none" stroke="#c0392b" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round" opacity="1.0"/>
+<text x="720.0" y="186.5" font-size="12" fill="#c0392b" text-anchor="start" font-family="Helvetica,Arial,sans-serif" font-weight="600">FPT</text>
+<path d="M74.0,9.1 L144.9,-11.8 L215.8,15.3 L286.7,64.5 L357.6,101.6 L428.4,145.9 L499.3,179.6 L570.2,162.3 L641.1,172.6 L712.0,173.6" fill="none" stroke="#1f8a4c" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round" opacity="1.0"/>
+<text x="720.0" y="177.6" font-size="12" fill="#1f8a4c" text-anchor="start" font-family="Helvetica,Arial,sans-serif" font-weight="600">VNM</text>
+<path d="M74.0,110.5 L144.9,157.1 L215.8,220.1 L286.7,266.7 L357.6,227.4 L428.4,115.2 L499.3,301.0 L570.2,311.4 L641.1,298.0 L712.0,289.3" fill="none" stroke="#d98c00" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round" opacity="1.0"/>
+<text x="720.0" y="293.3" font-size="12" fill="#d98c00" text-anchor="start" font-family="Helvetica,Arial,sans-serif" font-weight="600">HPG</text>
+<line x1="94" y1="62" x2="118" y2="62" stroke="#1a6fb5" stroke-width="2.6"/>
+<text x="125.0" y="66.0" font-size="12" fill="#111" text-anchor="start" font-family="Helvetica,Arial,sans-serif">MWG</text>
+<line x1="94" y1="81" x2="118" y2="81" stroke="#c0392b" stroke-width="2.6"/>
+<text x="125.0" y="85.0" font-size="12" fill="#111" text-anchor="start" font-family="Helvetica,Arial,sans-serif">FPT</text>
+<line x1="94" y1="100" x2="118" y2="100" stroke="#1f8a4c" stroke-width="2.6"/>
+<text x="125.0" y="104.0" font-size="12" fill="#111" text-anchor="start" font-family="Helvetica,Arial,sans-serif">VNM</text>
+<line x1="94" y1="119" x2="118" y2="119" stroke="#d98c00" stroke-width="2.6"/>
+<text x="125.0" y="123.0" font-size="12" fill="#111" text-anchor="start" font-family="Helvetica,Arial,sans-serif">HPG</text>
+<text x="20.0" y="442.0" font-size="11" fill="#888" text-anchor="start" font-family="Helvetica,Arial,sans-serif">Hoà Phát đi từ 28% năm 2021 xuống 6% năm 2023 — đó là chu kỳ thép, không phải quản trị kém. Vinamilk gần như phẳng. Cùng</text>
+<text x="20.0" y="458.0" font-size="11" fill="#888" text-anchor="start" font-family="Helvetica,Arial,sans-serif">một thước đo, hai câu chuyện ngành hoàn toàn khác nhau.</text>
+</svg>

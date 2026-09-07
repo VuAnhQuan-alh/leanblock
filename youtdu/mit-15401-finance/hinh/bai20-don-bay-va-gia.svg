@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="480" viewBox="0 0 760 480" role="img">
+<rect width="760" height="480" fill="#fdfdfb"/>
+<text x="380.0" y="26.0" font-size="16" fill="#111" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-weight="600">Dòng tiền không đổi, xác suất không đổi — chỉ đòn bẩy đổi</text>
+<line x1="74.0" y1="46" x2="74.0" y2="384" stroke="#e8e8e4" stroke-width="1"/>
+<text x="74.0" y="402.0" font-size="11" fill="#666" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">0.00</text>
+<line x1="229.6" y1="46" x2="229.6" y2="384" stroke="#e8e8e4" stroke-width="1"/>
+<text x="229.6" y="402.0" font-size="11" fill="#666" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">0.05</text>
+<line x1="385.2" y1="46" x2="385.2" y2="384" stroke="#e8e8e4" stroke-width="1"/>
+<text x="385.2" y="402.0" font-size="11" fill="#666" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">0.10</text>
+<line x1="540.8" y1="46" x2="540.8" y2="384" stroke="#e8e8e4" stroke-width="1"/>
+<text x="540.8" y="402.0" font-size="11" fill="#666" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">0.15</text>
+<line x1="696.4" y1="46" x2="696.4" y2="384" stroke="#e8e8e4" stroke-width="1"/>
+<text x="696.4" y="402.0" font-size="11" fill="#666" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">0.20</text>
+<line x1="74" y1="359.9" x2="712" y2="359.9" stroke="#e8e8e4" stroke-width="1"/>
+<text x="65" y="359.9" dy="4" font-size="11" text-anchor="end" fill="#666" font-family="Helvetica,Arial,sans-serif">0.65</text>
+<line x1="74" y1="299.5" x2="712" y2="299.5" stroke="#e8e8e4" stroke-width="1"/>
+<text x="65" y="299.5" dy="4" font-size="11" text-anchor="end" fill="#666" font-family="Helvetica,Arial,sans-serif">0.68</text>
+<line x1="74" y1="239.1" x2="712" y2="239.1" stroke="#e8e8e4" stroke-width="1"/>
+<text x="65" y="239.1" dy="4" font-size="11" text-anchor="end" fill="#666" font-family="Helvetica,Arial,sans-serif">0.70</text>
+<line x1="74" y1="178.8" x2="712" y2="178.8" stroke="#e8e8e4" stroke-width="1"/>
+<text x="65" y="178.8" dy="4" font-size="11" text-anchor="end" fill="#666" font-family="Helvetica,Arial,sans-serif">0.72</text>
+<line x1="74" y1="118.4" x2="712" y2="118.4" stroke="#e8e8e4" stroke-width="1"/>
+<text x="65" y="118.4" dy="4" font-size="11" text-anchor="end" fill="#666" font-family="Helvetica,Arial,sans-serif">0.75</text>
+<line x1="74" y1="58.1" x2="712" y2="58.1" stroke="#e8e8e4" stroke-width="1"/>
+<text x="65" y="58.1" dy="4" font-size="11" text-anchor="end" fill="#666" font-family="Helvetica,Arial,sans-serif">0.78</text>
+<text x="380.0" y="418.0" font-size="12" fill="#333" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">Vay được trên mỗi đơn vị tài sản</text>
+<text x="15" y="215.0" font-size="12" fill="#333" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" transform="rotate(-90 15 215.0)">Giá tài sản</text>
+<path d="M74.0,294.6 L81.8,292.4 L89.6,290.1 L97.3,287.9 L105.1,285.6 L112.9,283.4 L120.7,281.2 L128.5,278.9 L136.2,276.7 L144.0,274.5 L151.8,272.3 L159.6,270.0 L167.4,267.8 L175.1,265.6 L182.9,263.4 L190.7,261.2 L198.5,259.0 L206.3,256.8 L214.0,254.6 L221.8,252.3 L229.6,250.1 L237.4,247.9 L245.2,245.7 L253.0,243.5 L260.7,241.3 L268.5,239.1 L276.3,236.9 L284.1,234.8 L291.9,232.6 L299.6,230.4 L307.4,228.2 L315.2,226.0 L323.0,223.8 L330.8,221.6 L338.5,219.5 L346.3,217.3 L354.1,215.1 L361.9,212.9 L369.7,210.8 L377.4,208.6 L385.2,206.4 L393.0,204.3 L400.8,202.1 L408.6,199.9 L416.3,197.8 L424.1,195.6 L431.9,193.4 L439.7,191.3 L447.5,189.1 L455.2,187.0 L463.0,184.8 L470.8,182.7 L478.6,180.5 L486.4,178.4 L494.1,176.2 L501.9,174.1 L509.7,172.0 L517.5,169.8 L525.3,167.7 L533.0,165.5 L540.8,163.4 L548.6,161.3 L556.4,159.1 L564.2,157.0 L572.0,154.9 L579.7,152.8 L587.5,150.6 L595.3,148.5 L603.1,146.4 L610.9,144.3 L618.6,142.1 L626.4,140.0 L634.2,137.9 L642.0,135.8 L649.8,133.7 L657.5,131.6 L665.3,129.5 L673.1,127.4 L680.9,125.3 L688.7,123.2 L696.4,121.1" fill="none" stroke="#1a6fb5" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round" opacity="1.0"/>
+<circle cx="74.0" cy="294.6" r="6" fill="#c0392b" stroke="#fff" stroke-width="1.6"/>
+<circle cx="696.4" cy="121.1" r="6" fill="#c0392b" stroke="#fff" stroke-width="1.6"/>
+<text x="84.0" y="308.6" font-size="12" fill="#c0392b" text-anchor="start" font-family="Helvetica,Arial,sans-serif" font-weight="600">0.6770</text>
+<text x="686.4" y="111.1" font-size="12" fill="#c0392b" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-weight="600">0.7489</text>
+<line x1="74" y1="294.6" x2="712" y2="294.6" stroke="#bbb" stroke-width="1.5" stroke-dasharray="3 3"/>
+<line x1="90" y1="52" x2="114" y2="52" stroke="#1a6fb5" stroke-width="2.6"/>
+<text x="121.0" y="56.0" font-size="12" fill="#111" text-anchor="start" font-family="Helvetica,Arial,sans-serif">giá cân bằng</text>
+<text x="20.0" y="442.0" font-size="11" fill="#888" text-anchor="start" font-family="Helvetica,Arial,sans-serif">Tài sản trả đúng 1,0 nếu tốt và 0.2 nếu xấu, ở cả hai đầu của trục. Cái duy nhất thay đổi là nhóm lạc quan nhất vay được</text>
+<text x="20.0" y="458.0" font-size="11" fill="#888" text-anchor="start" font-family="Helvetica,Arial,sans-serif">bao nhiêu — và giá tăng 10.6%. Không công thức chiết khấu nào trong bài 1–19 có biến này.</text>
+</svg>

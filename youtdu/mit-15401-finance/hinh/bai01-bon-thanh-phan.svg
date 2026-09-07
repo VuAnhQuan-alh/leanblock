@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="430" viewBox="0 0 760 430" role="img">
+<rect width="760" height="430" fill="#fdfdfb"/>
+<text x="380.0" y="26.0" font-size="16" fill="#111" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-weight="600">Bốn thành phần của hệ thống tài chính  (Ses 1, `36:24`)</text>
+<rect x="60" y="70" width="210" height="74" rx="5" fill="#eef5fb" stroke="#1a6fb5" stroke-width="2"/>
+<text x="165.0" y="103.5" font-size="12" fill="#1a6fb5" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-weight="600">HỘ GIA ĐÌNH</text>
+<text x="165.0" y="118.5" font-size="12" fill="#1a6fb5" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">có tiền, thiếu cơ hội</text>
+<rect x="490" y="70" width="210" height="74" rx="5" fill="#fdeeec" stroke="#c0392b" stroke-width="2"/>
+<text x="595.0" y="103.5" font-size="12" fill="#c0392b" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-weight="600">DOANH NGHIỆP</text>
+<text x="595.0" y="118.5" font-size="12" fill="#c0392b" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">có cơ hội, thiếu tiền</text>
+<rect x="60" y="285" width="210" height="74" rx="5" fill="#eef7f1" stroke="#1f8a4c" stroke-width="2"/>
+<text x="165.0" y="318.5" font-size="12" fill="#1f8a4c" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-weight="600">TRUNG GIAN TÀI CHÍNH</text>
+<text x="165.0" y="333.5" font-size="12" fill="#1f8a4c" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">ngân hàng, quỹ, bảo hiểm</text>
+<rect x="490" y="285" width="210" height="74" rx="5" fill="#fdf5e6" stroke="#d98c00" stroke-width="2"/>
+<text x="595.0" y="318.5" font-size="12" fill="#d98c00" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-weight="600">THỊ TRƯỜNG VỐN</text>
+<text x="595.0" y="333.5" font-size="12" fill="#d98c00" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">nơi giá được khám phá</text>
+<line x1="275" y1="95" x2="485" y2="95" stroke="#777" stroke-width="2"/>
+<polygon points="485,95 475.8,98.9 475.8,91.1" fill="#777"/>
+<text x="380.0" y="86.0" font-size="11" fill="#666" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">vốn  →</text>
+<line x1="485" y1="122" x2="275" y2="122" stroke="#777" stroke-width="2"/>
+<polygon points="275,122 284.2,118.1 284.2,125.9" fill="#777"/>
+<text x="380.0" y="139.0" font-size="11" fill="#666" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">←  lợi suất</text>
+<line x1="165" y1="150" x2="165" y2="280" stroke="#777" stroke-width="2"/>
+<polygon points="165,280 161.1,270.8 168.9,270.8" fill="#777"/>
+<text x="165.0" y="156.6" font-size="11" fill="#666" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">gửi / mua chứng chỉ quỹ</text>
+<line x1="600" y1="280" x2="600" y2="150" stroke="#777" stroke-width="2"/>
+<polygon points="600,150 603.9,159.2 596.1,159.2" fill="#777"/>
+<text x="600.0" y="159.2" font-size="11" fill="#666" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">phát hành cổ phiếu, trái phiếu</text>
+<line x1="275" y1="322" x2="485" y2="322" stroke="#777" stroke-width="2"/>
+<polygon points="485,322 475.8,325.9 475.8,318.1" fill="#777"/>
+<text x="380.0" y="313.0" font-size="11" fill="#666" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">định giá</text>
+<text x="380.0" y="200.0" font-size="13" fill="#111" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-weight="600">Toàn bộ ngành tài chính chỉ làm MỘT việc:</text>
+<text x="380.0" y="222.0" font-size="12" fill="#444" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">chuyển tiền từ nơi thừa sang nơi thiếu — qua thời gian và qua rủi ro.</text>
+<text x="380.0" y="415.0" font-size="11" fill="#888" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">⚠️ Sơ đồ này là của năm 2008. Xem bài 1 §3 để biết ba ô đã đổi thế nào.</text>
+</svg>

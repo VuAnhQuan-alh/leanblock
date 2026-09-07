@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="480" viewBox="0 0 760 480" role="img">
+<rect width="760" height="480" fill="#fdfdfb"/>
+<text x="380.0" y="26.0" font-size="16" fill="#111" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-weight="600">Ngang giá put–call: hai danh mục khác nhau, cùng một payoff</text>
+<line x1="137.8" y1="46" x2="137.8" y2="384" stroke="#e8e8e4" stroke-width="1"/>
+<text x="137.8" y="402.0" font-size="11" fill="#666" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">60</text>
+<line x1="265.4" y1="46" x2="265.4" y2="384" stroke="#e8e8e4" stroke-width="1"/>
+<text x="265.4" y="402.0" font-size="11" fill="#666" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">80</text>
+<line x1="393.0" y1="46" x2="393.0" y2="384" stroke="#e8e8e4" stroke-width="1"/>
+<text x="393.0" y="402.0" font-size="11" fill="#666" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">100</text>
+<line x1="520.6" y1="46" x2="520.6" y2="384" stroke="#e8e8e4" stroke-width="1"/>
+<text x="520.6" y="402.0" font-size="11" fill="#666" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">120</text>
+<line x1="648.2" y1="46" x2="648.2" y2="384" stroke="#e8e8e4" stroke-width="1"/>
+<text x="648.2" y="402.0" font-size="11" fill="#666" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">140</text>
+<line x1="74" y1="384.0" x2="712" y2="384.0" stroke="#e8e8e4" stroke-width="1"/>
+<text x="65" y="384.0" dy="4" font-size="11" text-anchor="end" fill="#666" font-family="Helvetica,Arial,sans-serif">0</text>
+<line x1="74" y1="275.0" x2="712" y2="275.0" stroke="#e8e8e4" stroke-width="1"/>
+<text x="65" y="275.0" dy="4" font-size="11" text-anchor="end" fill="#666" font-family="Helvetica,Arial,sans-serif">50</text>
+<line x1="74" y1="165.9" x2="712" y2="165.9" stroke="#e8e8e4" stroke-width="1"/>
+<text x="65" y="165.9" dy="4" font-size="11" text-anchor="end" fill="#666" font-family="Helvetica,Arial,sans-serif">100</text>
+<line x1="74" y1="56.9" x2="712" y2="56.9" stroke="#e8e8e4" stroke-width="1"/>
+<text x="65" y="56.9" dy="4" font-size="11" text-anchor="end" fill="#666" font-family="Helvetica,Arial,sans-serif">150</text>
+<text x="380.0" y="418.0" font-size="12" fill="#333" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">Giá cổ phiếu lúc đáo hạn  S(T)</text>
+<text x="15" y="215.0" font-size="12" fill="#333" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" transform="rotate(-90 15 215.0)">Giá trị danh mục</text>
+<path d="M74.0,165.9 L80.4,165.9 L86.8,165.9 L93.1,165.9 L99.5,165.9 L105.9,165.9 L112.3,165.9 L118.7,165.9 L125.0,165.9 L131.4,165.9 L137.8,165.9 L144.2,165.9 L150.6,165.9 L156.9,165.9 L163.3,165.9 L169.7,165.9 L176.1,165.9 L182.5,165.9 L188.8,165.9 L195.2,165.9 L201.6,165.9 L208.0,165.9 L214.4,165.9 L220.7,165.9 L227.1,165.9 L233.5,165.9 L239.9,165.9 L246.3,165.9 L252.6,165.9 L259.0,165.9 L265.4,165.9 L271.8,165.9 L278.2,165.9 L284.5,165.9 L290.9,165.9 L297.3,165.9 L303.7,165.9 L310.1,165.9 L316.4,165.9 L322.8,165.9 L329.2,165.9 L335.6,165.9 L342.0,165.9 L348.3,165.9 L354.7,165.9 L361.1,165.9 L367.5,165.9 L373.9,165.9 L380.2,165.9 L386.6,165.9 L393.0,165.9 L399.4,163.8 L405.8,161.6 L412.1,159.4 L418.5,157.2 L424.9,155.0 L431.3,152.9 L437.7,150.7 L444.0,148.5 L450.4,146.3 L456.8,144.1 L463.2,141.9 L469.6,139.8 L475.9,137.6 L482.3,135.4 L488.7,133.2 L495.1,131.0 L501.5,128.9 L507.8,126.7 L514.2,124.5 L520.6,122.3 L527.0,120.1 L533.4,118.0 L539.7,115.8 L546.1,113.6 L552.5,111.4 L558.9,109.2 L565.3,107.1 L571.6,104.9 L578.0,102.7 L584.4,100.5 L590.8,98.3 L597.2,96.2 L603.5,94.0 L609.9,91.8 L616.3,89.6 L622.7,87.4 L629.1,85.3 L635.4,83.1 L641.8,80.9 L648.2,78.7 L654.6,76.5 L661.0,74.3 L667.3,72.2 L673.7,70.0 L680.1,67.8 L686.5,65.6 L692.9,63.4 L699.2,61.3 L705.6,59.1 L712.0,56.9" fill="none" stroke="#1a6fb5" stroke-width="4.2" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
+<path d="M74.0,165.9 L80.4,165.9 L86.8,165.9 L93.1,165.9 L99.5,165.9 L105.9,165.9 L112.3,165.9 L118.7,165.9 L125.0,165.9 L131.4,165.9 L137.8,165.9 L144.2,165.9 L150.6,165.9 L156.9,165.9 L163.3,165.9 L169.7,165.9 L176.1,165.9 L182.5,165.9 L188.8,165.9 L195.2,165.9 L201.6,165.9 L208.0,165.9 L214.4,165.9 L220.7,165.9 L227.1,165.9 L233.5,165.9 L239.9,165.9 L246.3,165.9 L252.6,165.9 L259.0,165.9 L265.4,165.9 L271.8,165.9 L278.2,165.9 L284.5,165.9 L290.9,165.9 L297.3,165.9 L303.7,165.9 L310.1,165.9 L316.4,165.9 L322.8,165.9 L329.2,165.9 L335.6,165.9 L342.0,165.9 L348.3,165.9 L354.7,165.9 L361.1,165.9 L367.5,165.9 L373.9,165.9 L380.2,165.9 L386.6,165.9 L393.0,165.9 L399.4,163.8 L405.8,161.6 L412.1,159.4 L418.5,157.2 L424.9,155.0 L431.3,152.9 L437.7,150.7 L444.0,148.5 L450.4,146.3 L456.8,144.1 L463.2,141.9 L469.6,139.8 L475.9,137.6 L482.3,135.4 L488.7,133.2 L495.1,131.0 L501.5,128.9 L507.8,126.7 L514.2,124.5 L520.6,122.3 L527.0,120.1 L533.4,118.0 L539.7,115.8 L546.1,113.6 L552.5,111.4 L558.9,109.2 L565.3,107.1 L571.6,104.9 L578.0,102.7 L584.4,100.5 L590.8,98.3 L597.2,96.2 L603.5,94.0 L609.9,91.8 L616.3,89.6 L622.7,87.4 L629.1,85.3 L635.4,83.1 L641.8,80.9 L648.2,78.7 L654.6,76.5 L661.0,74.3 L667.3,72.2 L673.7,70.0 L680.1,67.8 L686.5,65.6 L692.9,63.4 L699.2,61.3 L705.6,59.1 L712.0,56.9" fill="none" stroke="#c0392b" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round" opacity="1.0" stroke-dasharray="7 5"/>
+<line x1="393.0" y1="46" x2="393.0" y2="384" stroke="#bbb" stroke-width="1.5" stroke-dasharray="4 4"/>
+<text x="393.0" y="40.0" font-size="11" fill="#666" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">K = 100</text>
+<line x1="90" y1="62" x2="114" y2="62" stroke="#1a6fb5" stroke-width="2.6"/>
+<text x="121.0" y="66.0" font-size="12" fill="#111" text-anchor="start" font-family="Helvetica,Arial,sans-serif">Danh mục A:  mua call  +  tiền mặt K</text>
+<line x1="90" y1="81" x2="114" y2="81" stroke="#c0392b" stroke-width="2.6" stroke-dasharray="5 4"/>
+<text x="121.0" y="85.0" font-size="12" fill="#111" text-anchor="start" font-family="Helvetica,Arial,sans-serif">Danh mục B:  mua put  +  cổ phiếu</text>
+<text x="520.6" y="285.9" font-size="16" fill="#111" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-weight="600">C + K/(1+r)ᵀ  =  P + S</text>
+<text x="20.0" y="442.0" font-size="11" fill="#888" text-anchor="start" font-family="Helvetica,Arial,sans-serif">Hai đường trùng khít ở MỌI trạng thái. Theo luật một giá của bài 5, chúng buộc phải có cùng giá hôm nay — không cần mô hình</text>
+<text x="20.0" y="458.0" font-size="11" fill="#888" text-anchor="start" font-family="Helvetica,Arial,sans-serif">nào.</text>
+</svg>

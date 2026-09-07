@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="480" viewBox="0 0 760 480" role="img">
+<rect width="760" height="480" fill="#fdfdfb"/>
+<text x="380.0" y="26.0" font-size="16" fill="#111" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-weight="600">Apple: ROE tăng gấp bốn trong mười năm — bao nhiêu là do kinh doanh?</text>
+<line x1="74.0" y1="46" x2="74.0" y2="384" stroke="#e8e8e4" stroke-width="1"/>
+<text x="74.0" y="402.0" font-size="11" fill="#666" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">2016</text>
+<line x1="144.9" y1="46" x2="144.9" y2="384" stroke="#e8e8e4" stroke-width="1"/>
+<text x="144.9" y="402.0" font-size="11" fill="#666" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">2017</text>
+<line x1="215.8" y1="46" x2="215.8" y2="384" stroke="#e8e8e4" stroke-width="1"/>
+<text x="215.8" y="402.0" font-size="11" fill="#666" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">2018</text>
+<line x1="286.7" y1="46" x2="286.7" y2="384" stroke="#e8e8e4" stroke-width="1"/>
+<text x="286.7" y="402.0" font-size="11" fill="#666" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">2019</text>
+<line x1="357.6" y1="46" x2="357.6" y2="384" stroke="#e8e8e4" stroke-width="1"/>
+<text x="357.6" y="402.0" font-size="11" fill="#666" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">2020</text>
+<line x1="428.4" y1="46" x2="428.4" y2="384" stroke="#e8e8e4" stroke-width="1"/>
+<text x="428.4" y="402.0" font-size="11" fill="#666" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">2021</text>
+<line x1="499.3" y1="46" x2="499.3" y2="384" stroke="#e8e8e4" stroke-width="1"/>
+<text x="499.3" y="402.0" font-size="11" fill="#666" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">2022</text>
+<line x1="570.2" y1="46" x2="570.2" y2="384" stroke="#e8e8e4" stroke-width="1"/>
+<text x="570.2" y="402.0" font-size="11" fill="#666" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">2023</text>
+<line x1="641.1" y1="46" x2="641.1" y2="384" stroke="#e8e8e4" stroke-width="1"/>
+<text x="641.1" y="402.0" font-size="11" fill="#666" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">2024</text>
+<line x1="712.0" y1="46" x2="712.0" y2="384" stroke="#e8e8e4" stroke-width="1"/>
+<text x="712.0" y="402.0" font-size="11" fill="#666" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">2025</text>
+<line x1="74" y1="342.8" x2="712" y2="342.8" stroke="#e8e8e4" stroke-width="1"/>
+<text x="65" y="342.8" dy="4" font-size="11" text-anchor="end" fill="#666" font-family="Helvetica,Arial,sans-serif">1.0</text>
+<line x1="74" y1="260.3" x2="712" y2="260.3" stroke="#e8e8e4" stroke-width="1"/>
+<text x="65" y="260.3" dy="4" font-size="11" text-anchor="end" fill="#666" font-family="Helvetica,Arial,sans-serif">2.0</text>
+<line x1="74" y1="177.9" x2="712" y2="177.9" stroke="#e8e8e4" stroke-width="1"/>
+<text x="65" y="177.9" dy="4" font-size="11" text-anchor="end" fill="#666" font-family="Helvetica,Arial,sans-serif">3.0</text>
+<line x1="74" y1="95.5" x2="712" y2="95.5" stroke="#e8e8e4" stroke-width="1"/>
+<text x="65" y="95.5" dy="4" font-size="11" text-anchor="end" fill="#666" font-family="Helvetica,Arial,sans-serif">4.0</text>
+<text x="380.0" y="418.0" font-size="12" fill="#333" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">Năm tài chính kết thúc</text>
+<text x="15" y="215.0" font-size="12" fill="#333" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" transform="rotate(-90 15 215.0)">Chỉ số, năm đầu = 1,00</text>
+<path d="M74.0,342.8 L144.9,343.1 L215.8,338.0 L286.7,342.6 L357.6,343.8 L428.4,324.5 L499.3,326.7 L570.2,326.8 L641.1,331.9 L712.0,320.5" fill="none" stroke="#1f8a4c" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round" opacity="1.0"/>
+<path d="M74.0,342.8 L144.9,350.1 L215.8,335.9 L286.7,330.7 L357.6,321.0 L428.4,297.0 L499.3,287.7 L570.2,291.5 L641.1,293.5 L712.0,282.8" fill="none" stroke="#1a6fb5" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round" opacity="1.0"/>
+<path d="M74.0,342.8 L144.9,333.2 L215.8,313.0 L286.7,302.3 L357.6,262.3 L428.4,242.4 L499.3,196.4 L570.2,238.8 L641.1,214.6 L712.0,265.1" fill="none" stroke="#c0392b" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round" opacity="1.0"/>
+<path d="M74.0,342.8 L144.9,341.7 L215.8,296.6 L286.7,283.9 L357.6,221.9 L428.4,77.9 L499.3,-30.6 L570.2,64.0 L641.1,44.3 L712.0,73.7" fill="none" stroke="#d98c00" stroke-width="3.4" stroke-linejoin="round" stroke-linecap="round" opacity="1.0"/>
+<line x1="74" y1="342.8" x2="712" y2="342.8" stroke="#bbb" stroke-width="1.5" stroke-dasharray="4 4"/>
+<line x1="94" y1="62" x2="118" y2="62" stroke="#1f8a4c" stroke-width="2.6"/>
+<text x="125.0" y="66.0" font-size="12" fill="#111" text-anchor="start" font-family="Helvetica,Arial,sans-serif">biên lợi nhuận</text>
+<line x1="94" y1="81" x2="118" y2="81" stroke="#1a6fb5" stroke-width="2.6"/>
+<text x="125.0" y="85.0" font-size="12" fill="#111" text-anchor="start" font-family="Helvetica,Arial,sans-serif">vòng quay tài sản</text>
+<line x1="94" y1="100" x2="118" y2="100" stroke="#c0392b" stroke-width="2.6"/>
+<text x="125.0" y="104.0" font-size="12" fill="#111" text-anchor="start" font-family="Helvetica,Arial,sans-serif">ĐÒN BẨY (tổng TS / vốn chủ)</text>
+<line x1="94" y1="119" x2="118" y2="119" stroke="#d98c00" stroke-width="2.6"/>
+<text x="125.0" y="123.0" font-size="12" fill="#111" text-anchor="start" font-family="Helvetica,Arial,sans-serif">ROE</text>
+<text x="20.0" y="442.0" font-size="11" fill="#888" text-anchor="start" font-family="Helvetica,Arial,sans-serif">Vốn chủ sở hữu đi từ 128 tỷ đô xuống 51 tỷ đô rồi lên 74 — do mua lại cổ phiếu quỹ. Đòn bẩy là thành phần đóng góp nhiều</text>
+<text x="20.0" y="458.0" font-size="11" fill="#888" text-anchor="start" font-family="Helvetica,Arial,sans-serif">nhất vào mức tăng ROE, chứ không phải biên lợi nhuận.</text>
+</svg>

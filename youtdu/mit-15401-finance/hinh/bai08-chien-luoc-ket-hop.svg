@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="370" viewBox="0 0 780 370" role="img">
+<rect width="780" height="370" fill="#fdfdfb"/>
+<text x="390.0" y="26.0" font-size="16" fill="#111" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-weight="600">Ghép quyền chọn lại: ba chiến lược kinh điển</text>
+<rect x="20" y="60" width="239" height="244" fill="#fff" stroke="#e4e4e0"/>
+<line x1="46.0" y1="186.4" x2="246.7" y2="186.4" stroke="#aaa" stroke-width="1.2"/>
+<path d="M46.0,90.7 L48.5,94.4 L51.0,98.1 L53.5,101.8 L56.0,105.4 L58.5,109.1 L61.0,112.8 L63.6,116.5 L66.1,120.2 L68.6,123.8 L71.1,127.5 L73.6,131.2 L76.1,134.9 L78.6,138.6 L81.1,142.2 L83.6,145.9 L86.1,149.6 L88.6,153.3 L91.2,157.0 L93.7,160.6 L96.2,164.3 L98.7,168.0 L101.2,171.7 L103.7,175.4 L106.2,179.0 L108.7,182.7 L111.2,186.4 L113.7,190.1 L116.2,193.8 L118.7,197.4 L121.2,201.1 L123.8,204.8 L126.3,208.5 L128.8,212.2 L131.3,215.8 L133.8,219.5 L136.3,223.2 L138.8,226.9 L141.3,230.6 L143.8,234.2 L146.3,237.9 L148.8,234.2 L151.3,230.6 L153.9,226.9 L156.4,223.2 L158.9,219.5 L161.4,215.8 L163.9,212.2 L166.4,208.5 L168.9,204.8 L171.4,201.1 L173.9,197.4 L176.4,193.8 L178.9,190.1 L181.4,186.4 L184.0,182.7 L186.5,179.0 L189.0,175.4 L191.5,171.7 L194.0,168.0 L196.5,164.3 L199.0,160.6 L201.5,157.0 L204.0,153.3 L206.5,149.6 L209.0,145.9 L211.5,142.2 L214.1,138.6 L216.6,134.9 L219.1,131.2 L221.6,127.5 L224.1,123.8 L226.6,120.2 L229.1,116.5 L231.6,112.8 L234.1,109.1 L236.6,105.4 L239.1,101.8 L241.6,98.1 L244.2,94.4 L246.7,90.7" fill="none" stroke="#1a6fb5" stroke-width="2.6" stroke-linejoin="round"/>
+<line x1="121.2" y1="70" x2="121.2" y2="258" stroke="#eee" stroke-width="1"/>
+<line x1="146.3" y1="70" x2="146.3" y2="258" stroke="#eee" stroke-width="1"/>
+<line x1="171.4" y1="70" x2="171.4" y2="258" stroke="#eee" stroke-width="1"/>
+<text x="139.3" y="82.0" font-size="13" fill="#1a6fb5" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-weight="600">Straddle</text>
+<text x="139.3" y="100.0" font-size="10" fill="#777" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">(mua 1 call + 1 put cùng K)</text>
+<text x="139.3" y="306.0" font-size="10" fill="#666" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">60          100          140</text>
+<rect x="267" y="60" width="239" height="244" fill="#fff" stroke="#e4e4e0"/>
+<line x1="292.7" y1="186.4" x2="493.3" y2="186.4" stroke="#aaa" stroke-width="1.2"/>
+<path d="M292.7,215.8 L295.2,215.8 L297.7,215.8 L300.2,215.8 L302.7,215.8 L305.2,215.8 L307.7,215.8 L310.2,215.8 L312.7,215.8 L315.2,215.8 L317.7,215.8 L320.3,215.8 L322.8,215.8 L325.3,215.8 L327.8,215.8 L330.3,215.8 L332.8,215.8 L335.3,215.8 L337.8,215.8 L340.3,215.8 L342.8,215.8 L345.3,215.8 L347.8,215.8 L350.4,215.8 L352.9,215.8 L355.4,215.8 L357.9,215.8 L360.4,215.8 L362.9,215.8 L365.4,215.8 L367.9,215.8 L370.4,212.2 L372.9,208.5 L375.4,204.8 L377.9,201.1 L380.5,197.4 L383.0,193.8 L385.5,190.1 L388.0,186.4 L390.5,182.7 L393.0,179.0 L395.5,175.4 L398.0,171.7 L400.5,168.0 L403.0,164.3 L405.5,160.6 L408.0,157.0 L410.6,153.3 L413.1,149.6 L415.6,145.9 L418.1,142.2 L420.6,142.2 L423.1,142.2 L425.6,142.2 L428.1,142.2 L430.6,142.2 L433.1,142.2 L435.6,142.2 L438.1,142.2 L440.7,142.2 L443.2,142.2 L445.7,142.2 L448.2,142.2 L450.7,142.2 L453.2,142.2 L455.7,142.2 L458.2,142.2 L460.7,142.2 L463.2,142.2 L465.7,142.2 L468.2,142.2 L470.8,142.2 L473.3,142.2 L475.8,142.2 L478.3,142.2 L480.8,142.2 L483.3,142.2 L485.8,142.2 L488.3,142.2 L490.8,142.2 L493.3,142.2" fill="none" stroke="#1f8a4c" stroke-width="2.6" stroke-linejoin="round"/>
+<line x1="367.9" y1="70" x2="367.9" y2="258" stroke="#eee" stroke-width="1"/>
+<line x1="393.0" y1="70" x2="393.0" y2="258" stroke="#eee" stroke-width="1"/>
+<line x1="418.1" y1="70" x2="418.1" y2="258" stroke="#eee" stroke-width="1"/>
+<text x="386.0" y="82.0" font-size="13" fill="#1f8a4c" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-weight="600">Bull spread</text>
+<text x="386.0" y="100.0" font-size="10" fill="#777" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">(mua call K=90, bán call K=110)</text>
+<text x="386.0" y="306.0" font-size="10" fill="#666" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">60          100          140</text>
+<rect x="513" y="60" width="239" height="244" fill="#fff" stroke="#e4e4e0"/>
+<line x1="539.3" y1="186.4" x2="740.0" y2="186.4" stroke="#aaa" stroke-width="1.2"/>
+<path d="M539.3,197.4 L541.8,197.4 L544.3,197.4 L546.9,197.4 L549.4,197.4 L551.9,197.4 L554.4,197.4 L556.9,197.4 L559.4,197.4 L561.9,197.4 L564.4,197.4 L566.9,197.4 L569.4,197.4 L571.9,197.4 L574.4,197.4 L577.0,197.4 L579.5,197.4 L582.0,197.4 L584.5,197.4 L587.0,197.4 L589.5,197.4 L592.0,197.4 L594.5,197.4 L597.0,197.4 L599.5,197.4 L602.0,197.4 L604.5,197.4 L607.1,197.4 L609.6,197.4 L612.1,197.4 L614.6,197.4 L617.1,193.8 L619.6,190.1 L622.1,186.4 L624.6,182.7 L627.1,179.0 L629.6,175.4 L632.1,171.7 L634.6,168.0 L637.2,164.3 L639.7,160.6 L642.2,164.3 L644.7,168.0 L647.2,171.7 L649.7,175.4 L652.2,179.0 L654.7,182.7 L657.2,186.4 L659.7,190.1 L662.2,193.8 L664.7,197.4 L667.3,197.4 L669.8,197.4 L672.3,197.4 L674.8,197.4 L677.3,197.4 L679.8,197.4 L682.3,197.4 L684.8,197.4 L687.3,197.4 L689.8,197.4 L692.3,197.4 L694.8,197.4 L697.4,197.4 L699.9,197.4 L702.4,197.4 L704.9,197.4 L707.4,197.4 L709.9,197.4 L712.4,197.4 L714.9,197.4 L717.4,197.4 L719.9,197.4 L722.4,197.4 L724.9,197.4 L727.5,197.4 L730.0,197.4 L732.5,197.4 L735.0,197.4 L737.5,197.4 L740.0,197.4" fill="none" stroke="#d98c00" stroke-width="2.6" stroke-linejoin="round"/>
+<line x1="614.6" y1="70" x2="614.6" y2="258" stroke="#eee" stroke-width="1"/>
+<line x1="639.7" y1="70" x2="639.7" y2="258" stroke="#eee" stroke-width="1"/>
+<line x1="664.7" y1="70" x2="664.7" y2="258" stroke="#eee" stroke-width="1"/>
+<text x="632.7" y="82.0" font-size="13" fill="#d98c00" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-weight="600">Butterfly</text>
+<text x="632.7" y="100.0" font-size="10" fill="#777" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">(mua 90 &amp; 110, bán hai lần 100)</text>
+<text x="632.7" y="306.0" font-size="10" fill="#666" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">60          100          140</text>
+<text x="390.0" y="338.0" font-size="11" fill="#444" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">Trục ngang: giá tài sản cơ sở lúc đáo hạn. Trục dọc: lãi/lỗ ròng sau khi trừ phí.</text>
+<text x="390.0" y="358.0" font-size="11" fill="#888" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">Straddle cược THỊ TRƯỜNG SẼ ĐIÊN — thắng ở cả hai đầu, thua nếu không có gì xảy ra.</text>
+</svg>
