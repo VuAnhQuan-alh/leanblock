@@ -95,14 +95,26 @@ hai tập **trùng nhau** chứ không nối tiếp nhau — tài sản ròng d�
 - **Bài 10 đứng trước bài 11.** Thiên kiến giải thích vì sao người có tiền vẫn lao vào Ponzi — đúng
   điều mà chính bài blog cuối C2 tr. 52–53 mò ra được nhưng không có khung để gọi tên.
 
-**Trạng thái:** đang dựng. **Đã xong bài 0–6.** Tám bài còn lại chưa viết.
+**Trạng thái:** **đã xong toàn bộ 15 bài lý thuyết (0–14).**
 [0](ly_thuyet/bai_00_bat_dau_tu_dau.md) ·
 [1](ly_thuyet/bai_01_tai_chinh_ca_nhan_la_gi.md) ·
 [2](ly_thuyet/bai_02_do_hien_trang.md) ·
 [3](ly_thuyet/bai_03_ghi_chep_chi_tieu.md) ·
 [4](ly_thuyet/bai_04_tai_san_tieu_san_thap_tai_san.md) ·
 [5](ly_thuyet/bai_05_kiem_tien.md) ·
-[6](ly_thuyet/bai_06_thue_thu_nhap_ca_nhan.md).
+[6](ly_thuyet/bai_06_thue_thu_nhap_ca_nhan.md) ·
+[7](ly_thuyet/bai_07_phan_bo_thu_nhap.md) ·
+[8](ly_thuyet/bai_08_vay_va_tra_no.md) ·
+[9](ly_thuyet/bai_09_bao_ve.md) ·
+[10](ly_thuyet/bai_10_tai_chinh_hanh_vi.md) ·
+[11](ly_thuyet/bai_11_nhan_dien_lua_dao.md) ·
+[12](ly_thuyet/bai_12_rui_ro_khau_vi_phan_bo.md) ·
+[13](ly_thuyet/bai_13_kenh_dau_tu.md) ·
+[14](ly_thuyet/bai_14_muc_tieu_smart.md).
+
+> **Còn mở:** thư mục `thuc_hanh/` (code Python cho từng bài) mô tả ở dưới hiện chưa có trong bản
+> làm việc này — các bài lý thuyết đã trỏ sẵn tới tệp code theo quy ước, cần bổ sung code cho bài
+> 07–14. Mọi con số trong bài đều kèm công thức một dòng để tự kiểm bằng tay trong lúc chờ.
 
 ---
 
