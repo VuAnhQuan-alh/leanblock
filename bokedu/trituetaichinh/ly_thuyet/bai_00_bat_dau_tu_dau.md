@@ -7,7 +7,7 @@
 > 🇻🇳 **Đối chiếu Việt Nam** — sách viết theo US GAAP, mục này nối sang thực tế Việt Nam.
 > ⚠️ — chỗ dễ hiểu sai, hoặc chỗ sách in sai.
 > 📌 **Cần đọc trước:** không có. Đây là bài đầu tiên.
-> Nếu đã học [Kinh tế vĩ mô EG14](../../eg14-kinhtevimo-macro/README.md) thì mục 5 sẽ quen tay.
+> Nếu đã học [Kinh tế vĩ mô EG14](../../../houedu/eg14-kinhtevimo-macro/README.md) thì mục 5 sẽ quen tay.
 > ⚙️ **Code:** [`thuc_hanh/bai-00-bat-dau-tu-dau.py`](../thuc_hanh/bai-00-bat-dau-tu-dau.py)
 > — **máy dò lỗi** của mục 6: cộng lại từng cột phụ lục, tính lại từng tỷ lệ, rồi đối chiếu với con số
 > sách in. Chưa tới 200 dòng, chỉ dùng thư viện chuẩn.
@@ -67,7 +67,7 @@ Hay nói ngắn hơn: **lợi nhuận là một ý kiến, tiền mặt mới l�
 
 ## 2. Quy ước trích dẫn — vì sao không có số trang giấy
 
-[EG13](../../eg13-kinhtevimo-micro/README.md) và [EG14](../../eg14-kinhtevimo-macro/README.md)
+[EG13](../../../houedu/eg13-kinhtevimo-micro/README.md) và [EG14](../../../houedu/eg14-kinhtevimo-macro/README.md)
 trích được `tr. 315` vì giáo trình Mankiw là **bản quét** của sách in, giữ nguyên số trang.
 
 Cuốn này thì không. Tệp PDF trong `tai_lieu/` là **ebook do calibre dàn lại**: 227 trang PDF,
@@ -393,9 +393,9 @@ sản thấp hơn hẳn**. Hai con đường rất khác nhau dẫn tới hai m�
     từ nguồn gốc. Hai bài báo đã cho hai con số khác nhau — đúng kiểu sai lầm mà chương 1 cảnh báo.
 - **Liên hệ chéo:**
   - Giá trị hiện tại, chiết khấu, NPV và IRR:
-    [EG14 bài 5](../../eg14-kinhtevimo-macro/ly_thuyet/bai_05_cong_cu_co_ban_cua_tai_chinh.md).
+    [EG14 bài 5](../../../houedu/eg14-kinhtevimo-macro/ly_thuyet/bai_05_cong_cu_co_ban_cua_tai_chinh.md).
   - Chi phí cơ hội:
-    [EG13 bài 1](../../eg13-kinhtevimo-micro/ly_thuyet/bai_01_muoi_nguyen_ly_va_tu_duy_kinh_te.md).
+    [EG13 bài 1](../../../houedu/eg13-kinhtevimo-micro/ly_thuyet/bai_01_muoi_nguyen_ly_va_tu_duy_kinh_te.md).
 
 <!-- BAN-DO -->
 

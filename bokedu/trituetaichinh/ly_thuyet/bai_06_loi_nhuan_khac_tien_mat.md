@@ -563,7 +563,7 @@ rồi chạy lại. Không có lời giải.
   - [Bài 7](bai_07_bao_cao_luu_chuyen_tien_te.md) — đọc báo cáo lưu chuyển tiền tệ, và tính **thu nhập chủ sở hữu**.
   - Bài 11 — DSO, DPO và chu kỳ chuyển đổi tiền mặt, làm nghiêm túc.
   - Giá trị hiện tại và lãi kép (dùng ở mục 2):
-    [EG14 bài 5](../../eg14-kinhtevimo-macro/ly_thuyet/bai_05_cong_cu_co_ban_cua_tai_chinh.md).
+    [EG14 bài 5](../../../houedu/eg14-kinhtevimo-macro/ly_thuyet/bai_05_cong_cu_co_ban_cua_tai_chinh.md).
 
 <!-- BAN-DO -->
 

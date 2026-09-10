@@ -3,6 +3,7 @@
 !/.gitignore
 !/simplychain/
 !/houedu/
+!/bokedu/
 !/youtdu/
 
 /simplychain/*
@@ -23,6 +24,17 @@
 !/houedu/*/tai_lieu/
 /houedu/*/tai_lieu/*
 !/houedu/*/tai_lieu/hinh/
+
+# bokedu: cùng luật với houedu
+/bokedu/*
+!/bokedu/*/
+/bokedu/*/*
+!/bokedu/*/ly_thuyet/
+!/bokedu/*/mo_rong/
+!/bokedu/*/README.md
+!/bokedu/*/tai_lieu/
+/bokedu/*/tai_lieu/*
+!/bokedu/*/tai_lieu/hinh/
 
 /youtdu/*
 !/youtdu/*/

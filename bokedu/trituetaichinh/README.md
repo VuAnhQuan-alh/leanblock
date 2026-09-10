@@ -10,8 +10,8 @@ Tệp: `tai_lieu/Tri Tue Tai Chinh - Karen Berman & Joe Knight.pdf`.
 > ⚠️ **Không có số trang giấy để trích.** Tệp PDF là **ebook do calibre dàn lại**, 227 trang,
 > không mang số trang của bản in 350 trang. Vì vậy mọi trích dẫn trong bài dùng dạng
 > **`ch. 23 · PDF tr. 162`** — số chương là mốc bền, số trang PDF là mốc tra được.
-> Đây là khác biệt so với [EG13](../eg13-kinhtevimo-micro/README.md) và
-> [EG14](../eg14-kinhtevimo-macro/README.md), nơi giáo trình có số trang in.
+> Đây là khác biệt so với [EG13](../../houedu/eg13-kinhtevimo-micro/README.md) và
+> [EG14](../../houedu/eg14-kinhtevimo-macro/README.md), nơi giáo trình có số trang in.
 
 > ⚠️ **Bản dịch đánh nhầm số phần.** Có **hai phần cùng mang số VI** (ch. 24–25 và ch. 26–28),
 > phần cuối ghi VII. Bản gốc có **8 phần**. Bài học đánh lại theo bản gốc.
@@ -59,12 +59,12 @@ Nhóm ② là ruột của cuốn sách, không phải nhóm ①. Luận điểm
 
 ### Nối với hai môn đã học
 
-- **Với [Kinh tế vĩ mô — EG14](../eg14-kinhtevimo-macro/README.md):** giá trị hiện tại, chiết khấu,
-  NPV và IRR đã dạy kỹ ở [bài 5](../eg14-kinhtevimo-macro/ly_thuyet/bai_05_cong_cu_co_ban_cua_tai_chinh.md).
+- **Với [Kinh tế vĩ mô — EG14](../../houedu/eg14-kinhtevimo-macro/README.md):** giá trị hiện tại, chiết khấu,
+  NPV và IRR đã dạy kỹ ở [bài 5](../../houedu/eg14-kinhtevimo-macro/ly_thuyet/bai_05_cong_cu_co_ban_cua_tai_chinh.md).
   **Bài 10 của môn này cố tình làm mỏng** và trỏ ngược sang đó, chỉ giữ phần mới:
   thời gian hoàn vốn, ngưỡng thu hồi vốn, chi phí sử dụng vốn, phân tích độ nhạy.
-- **Với [Kinh tế vi mô — EG13](../eg13-kinhtevimo-micro/README.md):** khái niệm **chi phí cơ hội**
-  ở ch. 24 chính là nguyên lý 2 của [bài 1 EG13](../eg13-kinhtevimo-micro/ly_thuyet/bai_01_muoi_nguyen_ly_va_tu_duy_kinh_te.md).
+- **Với [Kinh tế vi mô — EG13](../../houedu/eg13-kinhtevimo-micro/README.md):** khái niệm **chi phí cơ hội**
+  ở ch. 24 chính là nguyên lý 2 của [bài 1 EG13](../../houedu/eg13-kinhtevimo-micro/ly_thuyet/bai_01_muoi_nguyen_ly_va_tu_duy_kinh_te.md).
 - **Chưa môn nào chạm tới:** báo cáo kết quả kinh doanh, giá vốn hàng bán, bảng cân đối kế toán
   theo nghĩa kế toán, và toàn bộ hệ tỷ lệ tài chính. Đó là phần ruột thật của môn này.
 
@@ -140,7 +140,7 @@ nguyên theo sách thì **bảng cân đối không cân** — xem đính chính
 ## Chạy code
 
 > ⚠️ **Quy ước của môn này: bài lý thuyết KHÔNG nhúng code.**
-> Khác với [EG13](../eg13-kinhtevimo-micro/README.md) và [EG14](../eg14-kinhtevimo-macro/README.md),
+> Khác với [EG13](../../houedu/eg13-kinhtevimo-micro/README.md) và [EG14](../../houedu/eg14-kinhtevimo-macro/README.md),
 > nơi mỗi bài có mục *"Code minh hoạ"* chứa nguyên một khối `python` kèm khối *"Kết quả chạy thật"*.
 > Ở đây `ly_thuyet/` chỉ có chữ, bảng và sơ đồ; code nằm trọn trong `thuc_hanh/`, bài học **trỏ tới
 > tệp** chứ không dán lại. Lý do: cả khoá dùng chung một bộ số liệu (`cong_ty_mau.py`), nên dán code

@@ -4,7 +4,7 @@
 > chương 24 *Những khối đá làm nên tỷ lệ hoàn vốn đầu tư* (PDF tr. 172–178), chương 25 *Tính tỷ lệ hoàn
 > vốn đầu tư* (PDF tr. 179–189), và hộp công cụ Phần VI (PDF tr. 189–191).
 > 🔸 **Vòng 2 — và bài này CỐ TÌNH MỎNG.** Giá trị hiện tại, chiết khấu, NPV và IRR đã được dạy kỹ hơn ở
-> **[EG14 bài 5](../../eg14-kinhtevimo-macro/ly_thuyet/bai_05_cong_cu_co_ban_cua_tai_chinh.md)**. Bài này
+> **[EG14 bài 5](../../../houedu/eg14-kinhtevimo-macro/ly_thuyet/bai_05_cong_cu_co_ban_cua_tai_chinh.md)**. Bài này
 > **không dạy lại cơ chế chiết khấu** — nó chỉ kiểm lại từng con số của sách, rồi làm bốn thứ EG14 **không
 > có**: thời gian hoàn vốn, ngưỡng thu hồi vốn, chi phí sử dụng vốn, và phân tích độ nhạy.
 > 💼 **Góc quản trị** — ví dụ thêm cho người đi làm, **không có trong sách**.
@@ -12,7 +12,7 @@
 > 🇻🇳 **Đối chiếu Việt Nam** — sách viết theo US GAAP, mục này nối sang thực tế Việt Nam.
 > ⚠️ — chỗ dễ hiểu sai, hoặc chỗ sách in sai.
 > 📌 **Cần đọc trước:**
-> [EG14 bài 5](../../eg14-kinhtevimo-macro/ly_thuyet/bai_05_cong_cu_co_ban_cua_tai_chinh.md) *(bắt buộc —
+> [EG14 bài 5](../../../houedu/eg14-kinhtevimo-macro/ly_thuyet/bai_05_cong_cu_co_ban_cua_tai_chinh.md) *(bắt buộc —
 > toàn bộ phép chiết khấu nằm ở đó)* · [Bài 7](bai_07_bao_cao_luu_chuyen_tien_te.md) *(mọi phép tính ở đây
 > chạy trên **dòng tiền**, không phải lợi nhuận)* ·
 > [Bài 8](bai_08_ty_le_loi_nhuan_don_bay_thanh_toan.md) *(lá chắn thuế của lãi vay)*.
@@ -52,17 +52,17 @@
 
 Chương 24 và 25 là **hai chương duy nhất** của cuốn sách trùng với một môn đã học. Giá trị tương lai, giá
 trị hiện tại, chiết khấu, NPV, IRR —
-[EG14 bài 5](../../eg14-kinhtevimo-macro/ly_thuyet/bai_05_cong_cu_co_ban_cua_tai_chinh.md) đã dạy kỹ hơn
+[EG14 bài 5](../../../houedu/eg14-kinhtevimo-macro/ly_thuyet/bai_05_cong_cu_co_ban_cua_tai_chinh.md) đã dạy kỹ hơn
 hẳn, có cả lãi kép và quy tắc 70. Nên bài này **không dạy lại cơ chế ấy**.
 
 | khái niệm | ch. | học ở đâu |
 | --- | :---: | --- |
-| Giá trị tiền tệ theo thời gian | 24 | [EG14 bài 5 mục 2](../../eg14-kinhtevimo-macro/ly_thuyet/bai_05_cong_cu_co_ban_cua_tai_chinh.md#2-giá-trị-hiện-tại--đo-giá-trị-của-tiền-tệ-theo-thời-gian) — **kỹ hơn** |
-| Giá trị tương lai / hiện tại | 24 | [EG14 bài 5 mục 2](../../eg14-kinhtevimo-macro/ly_thuyet/bai_05_cong_cu_co_ban_cua_tai_chinh.md#2-giá-trị-hiện-tại--đo-giá-trị-của-tiền-tệ-theo-thời-gian) |
-| Lãi kép, quy tắc 70 | — | [EG14 bài 5 mục 3](../../eg14-kinhtevimo-macro/ly_thuyet/bai_05_cong_cu_co_ban_cua_tai_chinh.md#3--ma-thuật-của-lãi-kép-và-quy-tắc-70--hộp-bạn-có-biết-tr-316) *(sách này **không có**)* |
-| Rủi ro và tỷ suất sinh lợi | 24 | [EG14 bài 5 mục 7](../../eg14-kinhtevimo-macro/ly_thuyet/bai_05_cong_cu_co_ban_cua_tai_chinh.md#7-đánh-đổi-giữa-rủi-ro-và-sinh-lợi--hình-3-tr-321) |
-| Chi phí cơ hội | 24 | [EG13 bài 1 mục 3](../../eg13-kinhtevimo-micro/ly_thuyet/bai_01_muoi_nguyen_ly_va_tu_duy_kinh_te.md#3-nguyên-lý-2--chi-phí-của-một-thứ-là-cái-mà-bạn-từ-bỏ-để-có-được-nó) — nguyên lý 2 |
-| Chi phí chìm | — | [EG13 bài 1 mục 5](../../eg13-kinhtevimo-micro/ly_thuyet/bai_01_muoi_nguyen_ly_va_tu_duy_kinh_te.md#5--chi-phí-chìm--hệ-quả-quan-trọng-nhất-mà-sách-để-trong-bài-tập) *(sách này **không có**)* |
+| Giá trị tiền tệ theo thời gian | 24 | [EG14 bài 5 mục 2](../../../houedu/eg14-kinhtevimo-macro/ly_thuyet/bai_05_cong_cu_co_ban_cua_tai_chinh.md#2-giá-trị-hiện-tại--đo-giá-trị-của-tiền-tệ-theo-thời-gian) — **kỹ hơn** |
+| Giá trị tương lai / hiện tại | 24 | [EG14 bài 5 mục 2](../../../houedu/eg14-kinhtevimo-macro/ly_thuyet/bai_05_cong_cu_co_ban_cua_tai_chinh.md#2-giá-trị-hiện-tại--đo-giá-trị-của-tiền-tệ-theo-thời-gian) |
+| Lãi kép, quy tắc 70 | — | [EG14 bài 5 mục 3](../../../houedu/eg14-kinhtevimo-macro/ly_thuyet/bai_05_cong_cu_co_ban_cua_tai_chinh.md#3--ma-thuật-của-lãi-kép-và-quy-tắc-70--hộp-bạn-có-biết-tr-316) *(sách này **không có**)* |
+| Rủi ro và tỷ suất sinh lợi | 24 | [EG14 bài 5 mục 7](../../../houedu/eg14-kinhtevimo-macro/ly_thuyet/bai_05_cong_cu_co_ban_cua_tai_chinh.md#7-đánh-đổi-giữa-rủi-ro-và-sinh-lợi--hình-3-tr-321) |
+| Chi phí cơ hội | 24 | [EG13 bài 1 mục 3](../../../houedu/eg13-kinhtevimo-micro/ly_thuyet/bai_01_muoi_nguyen_ly_va_tu_duy_kinh_te.md#3-nguyên-lý-2--chi-phí-của-một-thứ-là-cái-mà-bạn-từ-bỏ-để-có-được-nó) — nguyên lý 2 |
+| Chi phí chìm | — | [EG13 bài 1 mục 5](../../../houedu/eg13-kinhtevimo-micro/ly_thuyet/bai_01_muoi_nguyen_ly_va_tu_duy_kinh_te.md#5--chi-phí-chìm--hệ-quả-quan-trọng-nhất-mà-sách-để-trong-bài-tập) *(sách này **không có**)* |
 | **Thời gian hoàn vốn** | 25 | ⭐ **chỉ có ở đây** — [mục 4](#4-thời-gian-hoàn-vốn--phương-pháp-eg14-không-có)–[5](#5-thời-gian-hoàn-vốn-chiết-khấu--con-số-sách-không-đưa) |
 | **Ngưỡng thu hồi vốn** | 24 | ⭐ **chỉ có ở đây** — [mục 7](#7-ngưỡng-thu-hồi-vốn-là-một-quyết-định-không-phải-một-phép-tính) |
 | **Chi phí sử dụng vốn (WACC)** | 24 | ⭐ **chỉ có ở đây** — [mục 3](#3-chi-phí-sử-dụng-vốn--phép-tính-duy-nhất-chương-24-đưa-ra) |
@@ -118,7 +118,7 @@ Giá trị hiện tại, chiều ngược lại: **106.000** đô-la sau một n
 > xe**."* — ch. 24 · PDF tr. 177
 
 Đó là **nguyên lý 2** của Mankiw, đã học ở
-[EG13 bài 1 mục 3](../../eg13-kinhtevimo-micro/ly_thuyet/bai_01_muoi_nguyen_ly_va_tu_duy_kinh_te.md#3-nguyên-lý-2--chi-phí-của-một-thứ-là-cái-mà-bạn-từ-bỏ-để-có-được-nó).
+[EG13 bài 1 mục 3](../../../houedu/eg13-kinhtevimo-micro/ly_thuyet/bai_01_muoi_nguyen_ly_va_tu_duy_kinh_te.md#3-nguyên-lý-2--chi-phí-của-một-thứ-là-cái-mà-bạn-từ-bỏ-để-có-được-nó).
 [Mục 11](#11--cùng-một-dự-án-hai-doanh-nghiệp-hai-quyết-định-ngược-nhau) đo nó bằng số liệu thật.
 
 ---
@@ -213,7 +213,7 @@ kinh nghiệm dạng thô sơ**, chứ không phải một phân tích tài chí
 ## 6. NPV và IRR — kiểm lại từng con số, và hai chỗ in sai
 
 ⚠️ **Cơ chế chiết khấu không dạy lại ở đây** — xem
-[EG14 bài 5 mục 2](../../eg14-kinhtevimo-macro/ly_thuyet/bai_05_cong_cu_co_ban_cua_tai_chinh.md#2-giá-trị-hiện-tại--đo-giá-trị-của-tiền-tệ-theo-thời-gian).
+[EG14 bài 5 mục 2](../../../houedu/eg14-kinhtevimo-macro/ly_thuyet/bai_05_cong_cu_co_ban_cua_tai_chinh.md#2-giá-trị-hiện-tại--đo-giá-trị-của-tiền-tệ-theo-thời-gian).
 Mục này **chỉ kiểm số**.
 
 | | tính ra | sách in | |
@@ -426,7 +426,7 @@ tính của ch. 25 có **IRR 14,36%**. Đem nó đi chào hàng:
 ⭐ **Cùng một dự án, cùng một dòng tiền, cùng một IRR — hai quyết định ngược nhau.** Không phải vì dự án
 đổi. Vì **cái mà mỗi bên phải từ bỏ** thì khác nhau. Đó đúng là định nghĩa chi phí cơ hội mà ch. 24 đưa ra,
 và là nguyên lý 2 của
-[EG13](../../eg13-kinhtevimo-micro/ly_thuyet/bai_01_muoi_nguyen_ly_va_tu_duy_kinh_te.md#3-nguyên-lý-2--chi-phí-của-một-thứ-là-cái-mà-bạn-từ-bỏ-để-có-được-nó)
+[EG13](../../../houedu/eg13-kinhtevimo-micro/ly_thuyet/bai_01_muoi_nguyen_ly_va_tu_duy_kinh_te.md#3-nguyên-lý-2--chi-phí-của-một-thứ-là-cái-mà-bạn-từ-bỏ-để-có-được-nó)
 *(chốt bằng `assert`)*.
 
 ⚠️ Và nó là một pha **sát nút**, không phải một khoảng cách an toàn: 14,36% so với 15,24% — chỉ **0,88 điểm
@@ -539,8 +539,8 @@ chạy lại. Không có lời giải.
 | Chi phí đầu tư cơ bản | capital expenditure | *"những dự án lớn, đòi hỏi phải đầu tư lượng tiền mặt đáng kể"* |
 | Ngân sách vốn | capital budgeting | quá trình quyết định rót vốn vào đâu |
 | Tỷ lệ hoàn vốn đầu tư | return on investment (ROI) | ở ch. 25 nghĩa là **cả một bản phân tích**, không phải một tỷ lệ |
-| Giá trị tương lai | future value | một khoản tiền hôm nay sẽ thành bao nhiêu — [EG14 bài 5](../../eg14-kinhtevimo-macro/ly_thuyet/bai_05_cong_cu_co_ban_cua_tai_chinh.md) |
-| Giá trị hiện tại | present value | chiều ngược lại — [EG14 bài 5](../../eg14-kinhtevimo-macro/ly_thuyet/bai_05_cong_cu_co_ban_cua_tai_chinh.md) |
+| Giá trị tương lai | future value | một khoản tiền hôm nay sẽ thành bao nhiêu — [EG14 bài 5](../../../houedu/eg14-kinhtevimo-macro/ly_thuyet/bai_05_cong_cu_co_ban_cua_tai_chinh.md) |
+| Giá trị hiện tại | present value | chiều ngược lại — [EG14 bài 5](../../../houedu/eg14-kinhtevimo-macro/ly_thuyet/bai_05_cong_cu_co_ban_cua_tai_chinh.md) |
 | Giá trị hiện tại thuần | net present value (NPV) | PV − vốn ban đầu. **> 0 thì nhận** |
 | Tỷ suất sinh lợi nội bộ | internal rate of return (IRR) | *"ngưỡng thu hồi vốn làm cho NPV bằng 0"* |
 | **Thời gian hoàn vốn** | payback period | vốn / dòng tiền mỗi năm. **Không** tính giá trị thời gian |
@@ -690,9 +690,9 @@ chạy lại. Không có lời giải.
       PDF tr. 189–191 — mở đầu *"chậm nhất là thứ Hai"* (tr. 189); sáu bước viết đề án (tr. 190); ⭐ cảnh
       báo về *"đánh bóng các con số"* và lời dặn chạy phân tích độ nhạy (tr. 191)
 - **Đại học Yale / Mankiw** — hai môn đã học trong kho, dùng thay cho phần sách trùng lặp:
-  - [EG14 bài 5 — *Các công cụ cơ bản của tài chính*](../../eg14-kinhtevimo-macro/ly_thuyet/bai_05_cong_cu_co_ban_cua_tai_chinh.md)
+  - [EG14 bài 5 — *Các công cụ cơ bản của tài chính*](../../../houedu/eg14-kinhtevimo-macro/ly_thuyet/bai_05_cong_cu_co_ban_cua_tai_chinh.md)
     — giá trị hiện tại, chiết khấu, lãi kép, rủi ro và sinh lợi
-  - [EG13 bài 1 — *Mười nguyên lý và tư duy kinh tế*](../../eg13-kinhtevimo-micro/ly_thuyet/bai_01_muoi_nguyen_ly_va_tu_duy_kinh_te.md)
+  - [EG13 bài 1 — *Mười nguyên lý và tư duy kinh tế*](../../../houedu/eg13-kinhtevimo-micro/ly_thuyet/bai_01_muoi_nguyen_ly_va_tu_duy_kinh_te.md)
     — chi phí cơ hội *(nguyên lý 2)* và chi phí chìm
 - **Công ty Cổ phần Sữa Việt Nam (HOSE: VNM)** — Báo cáo tài chính hợp nhất đã kiểm toán 2024 theo
   IFRS, trong *Báo cáo thường niên Vinamilk 2024*, tr. 180–185.
