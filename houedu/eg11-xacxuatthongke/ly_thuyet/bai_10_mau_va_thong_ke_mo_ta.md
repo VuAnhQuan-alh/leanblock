@@ -1,10 +1,11 @@
 # Bài 10 — Mẫu và thống kê mô tả
 
+> [!info] Về bài này
 > Bài học dựa trên **Giáo trình Xác suất Thống kê** (Tống Đình Quỳ, NXB Bách Khoa – Hà Nội), **Chương IV §1–§2**, tr. 113–133.
-> 💼 **Góc QTKD** là ví dụ thêm cho ngành Quản trị Kinh doanh, không có trong giáo trình.
-> 📚 **Mở rộng** là kiến thức nền giáo trình lướt qua.
-> ⚠️ Bài này **đính chính ba lỗi số học** trong thí dụ 2.4 (tr. 132).
-> 📌 **Cần đọc trước:** [Bài 6](bai_06_ky_vong_phuong_sai_va_cac_so_dac_trung.md) · [Bài 9](bai_09_luat_so_lon_va_dinh_ly_gioi_han_trung_tam.md)
+>
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
+>
+> **Cần đọc trước:** [Bài 6](bai_06_ky_vong_phuong_sai_va_cac_so_dac_trung.md) · [Bài 9](bai_09_luat_so_lon_va_dinh_ly_gioi_han_trung_tam.md)
 > 📊 **Dữ liệu:** bài này bắt đầu dùng file `.csv` trong [thuc_hanh/du_lieu/](../thuc_hanh/du_lieu/doanh_thu_ngay.csv)
 
 **Đây là bản lề của cả khoá học.** Chín bài trước đi theo chiều **xuôi**: biết luật phân phối,
@@ -12,6 +13,7 @@ tính ra xác suất. Từ bài này đi theo chiều **ngược**: có dữ li�
 
 Giáo trình mở Chương IV bằng định nghĩa (tr. 113):
 
+> [!quote]
 > "Thống kê... là một **khoa học về phân tích dữ liệu** (bao gồm cả thu nhập và xử lý) nhằm thu nhận
 > thông tin chân thực về đối tượng nghiên cứu với **một độ tin cậy nhất định** và rút ra những kết
 > luận hợp lý."
@@ -21,7 +23,8 @@ Và nêu **hai điều kiện** để bài toán thống kê xuất hiện:
 1. có **nhiều tình huống** cần phải lựa chọn;
 2. có **thông tin** về các tình huống thông qua dữ liệu thống kê.
 
-💼 Đúng mô tả công việc của một nhà quản trị: nhiều phương án, có số liệu, phải chọn.
+> [!example]
+> Đúng mô tả công việc của một nhà quản trị: nhiều phương án, có số liệu, phải chọn.
 
 ## Mục lục
 
@@ -33,7 +36,7 @@ Và nêu **hai điều kiện** để bài toán thống kê xuất hiện:
 6. [Phương sai mẫu và câu chuyện chia n trừ 1](#6-phương-sai-mẫu-và-câu-chuyện-chia-n-trừ-1)
 7. [Luật phân phối của các đặc trưng mẫu](#7-luật-phân-phối-của-các-đặc-trưng-mẫu)
 8. [Tính toán với mẫu có tần số và mẫu lớp](#8-tính-toán-với-mẫu-có-tần-số-và-mẫu-lớp)
-9. [📚 Chữ ký hiệu nào là mẫu, chữ nào là tổng thể](#9--chữ-ký-hiệu-nào-là-mẫu-chữ-nào-là-tổng-thể)
+9. [📚 Chữ ký hiệu nào là mẫu, chữ nào là tổng thể](#9-chữ-ký-hiệu-nào-là-mẫu-chữ-nào-là-tổng-thể)
 10. [Code minh hoạ](#10-code-minh-hoạ)
 11. [Tự thử](#11-tự-thử)
 12. [Từ điển thuật ngữ](#12-từ-điển-thuật-ngữ)
@@ -53,6 +56,7 @@ Và nêu **hai điều kiện** để bài toán thống kê xuất hiện:
 | **Tập đám đông** (tập nền) | toàn bộ đối tượng ta quan tâm | $N$ phần tử |
 | **Mẫu**                    | dãy số liệu lấy ra từ tập nền | $n$ phần tử |
 
+> [!quote]
 > "Mẫu sẽ mang **thông tin nào đó** về tập nền, mặc dù các thông tin đó **có thể khác nhau ở những
 > mẫu khác nhau**."
 
@@ -70,12 +74,14 @@ Giáo trình nêu ba lý do (tr. 114):
 Kết luận (tr. 114): *"việc nghiên cứu trên tập nền, trừ các tập đủ bé, **thường không thể thực hiện
 được**."*
 
-💼 Lý do thứ ba là lý do thực tế nhất trong kinh doanh: **tập khách hàng thay đổi mỗi ngày**.
-Điều tra xong toàn bộ khách hàng thì danh sách đã khác rồi. Với dữ liệu chuỗi thời gian
-(doanh thu tương lai), tập nền thậm chí **chưa tồn tại** — không thể khảo sát toàn bộ.
+> [!example]
+> Lý do thứ ba là lý do thực tế nhất trong kinh doanh: **tập khách hàng thay đổi mỗi ngày**.
+> Điều tra xong toàn bộ khách hàng thì danh sách đã khác rồi. Với dữ liệu chuỗi thời gian
+> (doanh thu tương lai), tập nền thậm chí **chưa tồn tại** — không thể khảo sát toàn bộ.
 
 ### Kỳ vọng vào mẫu
 
+> [!quote]
 > "Nếu mẫu được chọn **ngẫu nhiên** và với **số lượng đủ**, chúng ta hy vọng rằng việc xử lý chúng sẽ
 > cho ta kết quả **vừa nhanh vừa đỡ tốn kém** mà vẫn đạt được **độ chính xác và tin cậy cần thiết**."
 
@@ -99,8 +105,9 @@ thể nói rằng phương pháp nào là tốt nhất**."*
 Cách làm: bốc thăm, hoặc dùng bảng số ngẫu nhiên. Có hai phương thức: **không hoàn lại** và
 **có hoàn lại**.
 
-⚠️ Giáo trình lưu ý (tr. 115): *"Nếu số lượng phần tử của mẫu **khá bé so với tập nền** thì kết quả
-lấy mẫu theo hai phương thức sai lệch không đáng kể."* — chính là điều kiện $N > 10n$ ở bài 7 mục 4.
+> [!warning]
+> Giáo trình lưu ý (tr. 115): *"Nếu số lượng phần tử của mẫu **khá bé so với tập nền** thì kết quả
+> lấy mẫu theo hai phương thức sai lệch không đáng kể."* — chính là điều kiện $N > 10n$ ở bài 7 mục 4.
 
 | Ưu                         | Nhược                                 |
 | -------------------------- | ------------------------------------- |
@@ -129,32 +136,34 @@ khu dân cư, chọn ra một số khu, rồi nghiên cứu tất cả gia đìn
 | --------------------------------------------------------------- | ---------------------------------------------- |
 | tiết kiệm kinh phí và thời gian (không phải di chuyển khắp nơi) | **sai số có thể lớn hơn** hai phương pháp trên |
 
-⚠️ Điều kiện: mỗi chùm phải **vẫn có độ phân tán cao như tập nền** và **đồng đều nhau về quy mô**.
+> [!warning]
+> Điều kiện: mỗi chùm phải **vẫn có độ phân tán cao như tập nền** và **đồng đều nhau về quy mô**.
 
 ### d) Chọn mẫu có suy luận
 
 Dựa trên ý kiến các chuyên gia. Giáo trình phê bình rõ (tr. 116):
 
+> [!quote]
 > "Khi không có sự tham gia của các công cụ thống kê vào việc chọn mẫu, **tính khách quan rất khó
 > được bảo đảm**, từ đó kéo theo các kết luận **mang nặng tính chủ quan**."
 
 Nhưng không phủ nhận hoàn toàn: *"điều đó không có nghĩa là không nên dùng các phương pháp chuyên gia."*
 
-### 💼 Góc QTKD — chọn cách nào
-
-| Tình huống                                                  | Cách phù hợp             |
-| ----------------------------------------------------------- | ------------------------ |
-| Có danh sách đầy đủ khách hàng (CRM)                        | ngẫu nhiên đơn giản      |
-| Khách chia rõ theo miền/kênh/quy mô, các nhóm rất khác nhau | **phân nhóm**            |
-| Khảo sát cửa hàng trên toàn quốc, chi phí đi lại lớn        | **chùm**                 |
-| Thử nghiệm ý tưởng sản phẩm mới, chưa có dữ liệu            | có suy luận (chuyên gia) |
-
-⚠️ **Sai lầm chọn mẫu phổ biến nhất trong kinh doanh — thiên lệch sống sót:**
-khảo sát *khách hàng hiện tại* để hỏi vì sao khách rời bỏ. Người đã rời bỏ **không nằm trong mẫu**.
-Kết quả sẽ luôn đẹp một cách giả tạo.
-
-Tương tự: khảo sát trên website chỉ bắt được người **vẫn còn vào website**; hộp góp ý chỉ bắt được
-người **chịu khó viết**. Cả hai đều vi phạm điều kiện "mọi phần tử đồng khả năng lọt vào mẫu".
+> [!example] Góc QTKD — chọn cách nào
+>
+> | Tình huống                                                  | Cách phù hợp             |
+> | ----------------------------------------------------------- | ------------------------ |
+> | Có danh sách đầy đủ khách hàng (CRM)                        | ngẫu nhiên đơn giản      |
+> | Khách chia rõ theo miền/kênh/quy mô, các nhóm rất khác nhau | **phân nhóm**            |
+> | Khảo sát cửa hàng trên toàn quốc, chi phí đi lại lớn        | **chùm**                 |
+> | Thử nghiệm ý tưởng sản phẩm mới, chưa có dữ liệu            | có suy luận (chuyên gia) |
+>
+> ⚠️ **Sai lầm chọn mẫu phổ biến nhất trong kinh doanh — thiên lệch sống sót:**
+> khảo sát *khách hàng hiện tại* để hỏi vì sao khách rời bỏ. Người đã rời bỏ **không nằm trong mẫu**.
+> Kết quả sẽ luôn đẹp một cách giả tạo.
+>
+> Tương tự: khảo sát trên website chỉ bắt được người **vẫn còn vào website**; hộp góp ý chỉ bắt được
+> người **chịu khó viết**. Cả hai đều vi phạm điều kiện "mọi phần tử đồng khả năng lọt vào mẫu".
 
 ---
 
@@ -179,6 +188,7 @@ nhiên rời rạc"* — chỉ khác một chữ: bảng xác suất là **lý t
 Giáo trình cho quy tắc thực hành (tr. 117): *"Thông thường người ta hay chia các số liệu vào từ
 **5 đến 15 lớp**."*
 
+> [!quote]
 > "Nếu số lớp nhiều hơn, có thể làm tốt hơn các phân tích, nhưng **việc cải thiện đó không nhiều**;
 > ngược lại nếu số lớp ít quá, **có khả năng sẽ bị mất mát nhiều thông tin**."
 
@@ -206,6 +216,7 @@ Giáo trình cho quy tắc thực hành (tr. 117): *"Thông thường người t
 
 Giáo trình nêu một quan sát rất sâu (tr. 119):
 
+> [!quote]
 > "Khi hiệu giữa hai hoành độ liên tiếp khá bé, đường gấp khúc sẽ càng ngày càng trơn và
 > **dần tiến tới dạng hàm mật độ xác suất**."
 
@@ -221,24 +232,25 @@ $$F_n(x) = \sum_{x_i < x} f_i$$
 Giáo trình gọi là **hàm phân phối thực nghiệm** (hay hàm phân phối mẫu), và nêu kết quả then chốt
 (tr. 119):
 
+> [!quote]
 > "Chú ý rằng theo **luật số lớn (định lý Bernoulli)**: $F_n(x) \xrightarrow{xs} F(x) = P(X < x)$...
 > Như vậy hàm phân phối mẫu có thể dùng để **xấp xỉ luật phân phối của tập nền**."
 
 ⭐ **Đây là câu quan trọng nhất của §1.** Nó nói: histogram của bạn *hội tụ về* mật độ thật; bảng
 tần suất *hội tụ về* bảng xác suất thật. Bài 9 đã chứng minh; giờ ta dùng.
 
-### 💼 Góc QTKD
-
-| Khái niệm thống kê        | Trong công việc                            |
-| ------------------------- | ------------------------------------------ |
-| Bảng tần số               | pivot table đếm số lượng                   |
-| Biểu đồ (histogram)       | biểu đồ cột phân bố giá trị đơn hàng       |
-| Tần suất tích luỹ         | *"80% đơn hàng dưới 2 triệu"*              |
-| Hàm phân phối thực nghiệm | đường cong phân bố khách hàng theo mức chi |
-
-⚠️ **Số lớp thay đổi kết luận.** Cùng một bộ dữ liệu doanh thu, chia 5 lớp có thể cho thấy phân phối
-"một đỉnh"; chia 20 lớp có thể lộ ra **hai đỉnh** (khách lẻ và khách sỉ). Đây là lý do luôn phải
-thử vài cách chia trước khi kết luận về hình dạng phân phối.
+> [!example] Góc QTKD
+>
+> | Khái niệm thống kê        | Trong công việc                            |
+> | ------------------------- | ------------------------------------------ |
+> | Bảng tần số               | pivot table đếm số lượng                   |
+> | Biểu đồ (histogram)       | biểu đồ cột phân bố giá trị đơn hàng       |
+> | Tần suất tích luỹ         | *"80% đơn hàng dưới 2 triệu"*              |
+> | Hàm phân phối thực nghiệm | đường cong phân bố khách hàng theo mức chi |
+>
+> ⚠️ **Số lớp thay đổi kết luận.** Cùng một bộ dữ liệu doanh thu, chia 5 lớp có thể cho thấy phân phối
+> "một đỉnh"; chia 20 lớp có thể lộ ra **hai đỉnh** (khách lẻ và khách sỉ). Đây là lý do luôn phải
+> thử vài cách chia trước khi kết luận về hình dạng phân phối.
 
 ---
 
@@ -246,6 +258,7 @@ thử vài cách chia trước khi kết luận về hình dạng phân phối.
 
 Đến §2, giáo trình chuyển từ mô tả sang lý thuyết. Giả thiết nền (tr. 121):
 
+> [!quote]
 > "Các phần tử của một tập đám đông nào đó đều được **cảm sinh bởi một biến ngẫu nhiên gốc** $X$."
 
 **Định nghĩa 1 (tr. 121).** **Mẫu ngẫu nhiên** kích thước $n$ là tập các biến $X_1, X_2, \dots, X_n$
@@ -263,7 +276,7 @@ Gọi tắt là **độc lập và đồng phân phối** (i.i.d.).
 ⭐ **Đây chính xác là điều kiện của định lý giới hạn trung tâm** (bài 9 mục 7). Không phải trùng hợp:
 định nghĩa mẫu ngẫu nhiên được thiết kế để CLT áp dụng được.
 
-⚠️ **Phân biệt hai thứ:**
+> [!warning] Phân biệt hai thứ:
 
 |                      | Ký hiệu                        | Là gì                                  |
 | -------------------- | ------------------------------ | -------------------------------------- |
@@ -282,8 +295,9 @@ $$p_n(x_1, \dots, x_n) = \prod_{i=1}^{n} p(x_i), \qquad f_n(x_1, \dots, x_n) = \
 **Định nghĩa 2 (tr. 122).** Một hàm $g(X_1, X_2, \dots, X_n)$ phụ thuộc vào tập giá trị của mẫu ngẫu
 nhiên được gọi là một **thống kê**.
 
-⚠️ Điều kiện quan trọng: thống kê **không phụ thuộc vào các tham số chưa biết**.
-Nếu công thức chứa $\sigma$ mà bạn không biết $\sigma$, đó **không phải** thống kê — vì không tính được.
+> [!warning]
+> Điều kiện quan trọng: thống kê **không phụ thuộc vào các tham số chưa biết**.
+> Nếu công thức chứa $\sigma$ mà bạn không biết $\sigma$, đó **không phải** thống kê — vì không tính được.
 
 **Thí dụ 2.1 (tr. 122)** — ba thống kê:
 
@@ -295,13 +309,15 @@ $$
 
 trong đó $X_{(1)} \le X_{(2)} \le \dots \le X_{(n)}$ là dãy đã sắp xếp.
 
-📚 Vì thống kê là **hàm của các biến ngẫu nhiên**, bản thân nó **cũng là một biến ngẫu nhiên** —
-có phân phối riêng, kỳ vọng riêng, phương sai riêng. Đó là ý tưởng khó nhất của phần thống kê,
-và cũng là ý tưởng làm mọi thứ hoạt động.
+> [!note]
+> Vì thống kê là **hàm của các biến ngẫu nhiên**, bản thân nó **cũng là một biến ngẫu nhiên** —
+> có phân phối riêng, kỳ vọng riêng, phương sai riêng. Đó là ý tưởng khó nhất của phần thống kê,
+> và cũng là ý tưởng làm mọi thứ hoạt động.
 
-💼 Nói bằng lời: *"nếu tôi lấy một mẫu 100 khách hàng khác, trung bình mẫu sẽ ra một số khác."*
-Tập hợp mọi giá trị có thể có đó chính là **phân phối của thống kê** — bài 11 gọi nó là
-**phân phối chọn mẫu** (sampling distribution).
+> [!example]
+> Nói bằng lời: *"nếu tôi lấy một mẫu 100 khách hàng khác, trung bình mẫu sẽ ra một số khác."*
+> Tập hợp mọi giá trị có thể có đó chính là **phân phối của thống kê** — bài 11 gọi nó là
+> **phân phối chọn mẫu** (sampling distribution).
 
 ---
 
@@ -331,7 +347,7 @@ Vế phải chính là luật căn bậc hai đã chứng minh ở bài 6 mục 
 **Ý nghĩa (tr. 124):** *"do phương sai $V\overline{X}$ bé hơn $n$ lần $VX$, nên các giá trị có thể có
 của $\overline{X}$ sẽ **ổn định quanh kỳ vọng hơn** các giá trị của $X$."*
 
-### ⚠️ Trường hợp tập nền nhỏ, lấy mẫu không hoàn lại
+### Trường hợp tập nền nhỏ, lấy mẫu không hoàn lại
 
 Phải nhân thêm **thừa số hiệu chỉnh tổng thể hữu hạn** (đã gặp ở bài 7 mục 4):
 
@@ -344,6 +360,7 @@ Hai trường hợp cực đoan giáo trình nêu (tr. 124):
 
 ### Thí dụ 2.2 (tr. 125)
 
+> [!note]
 > Năm mảnh bìa đánh số 1 đến 5. Lấy mẫu **2 mảnh không hoàn lại**. Tìm phân phối của $\overline{X}$
 > và các số đặc trưng.
 
@@ -360,23 +377,24 @@ Kiểm bằng (2.7): $\dfrac{2}{2}\cdot\dfrac{5-2}{5-1} = 1 \times 0{,}75 = 0{,}
 Nếu **có hoàn lại**, (2.6) cho $\sigma^2/n = 1$ — lớn hơn. Đúng như lý thuyết: lấy mẫu không hoàn lại
 ít phân tán hơn.
 
-⚠️ Giáo trình lưu ý (tr. 125): *"khi chọn mẫu **không hoàn lại**, $X_2$ đã **không cùng phân phối**
-như $X$ nữa nên việc áp dụng (2.6) là **không được phép**."* — điều kiện (ii) của định nghĩa mẫu
-ngẫu nhiên bị vi phạm.
+> [!warning]
+> Giáo trình lưu ý (tr. 125): *"khi chọn mẫu **không hoàn lại**, $X_2$ đã **không cùng phân phối**
+> như $X$ nữa nên việc áp dụng (2.6) là **không được phép**."* — điều kiện (ii) của định nghĩa mẫu
+> ngẫu nhiên bị vi phạm.
 
-### 💼 Góc QTKD
-
-Bảng phân phối của $\overline{X}$ trong thí dụ 2.2 rất đáng suy nghĩ: tập nền chỉ có giá trị
-$1, 2, 3, 4, 5$, nhưng trung bình mẫu nhận cả giá trị $1{,}5;\ 2{,}5;\ \dots$ và **tập trung mạnh
-quanh 3**.
-
-Đó là hình ảnh thu nhỏ của điều xảy ra khi khảo sát 1.000 khách hàng: từng câu trả lời rất khác nhau,
-nhưng trung bình thì ổn định. **Đó là toàn bộ lý do khảo sát hoạt động.**
-
-Và thừa số $\dfrac{N-n}{N-1}$ có ý nghĩa thực tế: nếu bạn khảo sát 200 trong tổng số 500 khách hàng
-($n/N = 40\%$), sai số **nhỏ hơn** công thức chuẩn tính ra:
-$\sqrt{(500-200)/(500-1)} = 0{,}775$ — giảm 22,5%. Nhiều phần mềm bỏ qua thừa số này và báo sai số
-lớn hơn thực tế.
+> [!example] Góc QTKD
+>
+> Bảng phân phối của $\overline{X}$ trong thí dụ 2.2 rất đáng suy nghĩ: tập nền chỉ có giá trị
+> $1, 2, 3, 4, 5$, nhưng trung bình mẫu nhận cả giá trị $1{,}5;\ 2{,}5;\ \dots$ và **tập trung mạnh
+> quanh 3**.
+>
+> Đó là hình ảnh thu nhỏ của điều xảy ra khi khảo sát 1.000 khách hàng: từng câu trả lời rất khác nhau,
+> nhưng trung bình thì ổn định. **Đó là toàn bộ lý do khảo sát hoạt động.**
+>
+> Và thừa số $\dfrac{N-n}{N-1}$ có ý nghĩa thực tế: nếu bạn khảo sát 200 trong tổng số 500 khách hàng
+> ($n/N = 40\%$), sai số **nhỏ hơn** công thức chuẩn tính ra:
+> $\sqrt{(500-200)/(500-1)} = 0{,}775$ — giảm 22,5%. Nhiều phần mềm bỏ qua thừa số này và báo sai số
+> lớn hơn thực tế.
 
 ---
 
@@ -420,33 +438,33 @@ $$E s^2 = \frac{n}{n-1}\cdot\frac{n-1}{n}\sigma^2 = \sigma^2 \quad \checkmark$$
 
 $$\boxed{\text{Dùng } s^2 \text{ (chia } n-1) \text{ khi ước lượng } \sigma^2 \text{ của tổng thể}}$$
 
-### 📚 Khi nào dùng cái nào
-
-|            | $\hat{S}^2$ (chia $n$)              | $s^2$ (chia $n-1$)                    |
-| ---------- | ----------------------------------- | ------------------------------------- |
-| Tên        | phương sai mẫu                      | phương sai mẫu **hiệu chỉnh**         |
-| $E(\cdot)$ | $\frac{n-1}{n}\sigma^2$ — **chệch** | $\sigma^2$ — **không chệch**          |
-| Dùng khi   | mô tả **chính mẫu** đó              | **ước lượng** $\sigma^2$ của tổng thể |
-| Excel      | `VAR.P()`, `STDEV.P()`              | `VAR.S()`, `STDEV.S()`                |
-| Python     | `statistics.pvariance`              | `statistics.variance`                 |
-
-⚠️ Chữ **P** trong Excel = Population (tổng thể), **S** = Sample (mẫu). Nghe ngược trực giác:
-`VAR.S` dùng cho *mẫu* nhưng chia $n-1$; `VAR.P` dùng khi dữ liệu **chính là** toàn bộ tổng thể.
-
-**Quy tắc thực hành:** trong kinh doanh bạn gần như **luôn** làm việc với mẫu, nên
-**mặc định dùng `VAR.S` / `STDEV.S`**.
-
-**Khi nào khác biệt đáng kể?** Tỷ số $\dfrac{n}{n-1}$:
-
-|  $n$ | $n/(n-1)$ | Chênh lệch         |
-| ---: | --------: | ------------------ |
-|    5 |     1,250 | 25% — **rất lớn**  |
-|   10 |     1,111 | 11%                |
-|   30 |     1,034 | 3,4%               |
-|  100 |     1,010 | 1%                 |
-| 1000 |     1,001 | 0,1% — bỏ qua được |
-
-Với mẫu lớn thì không quan trọng; với mẫu nhỏ (dưới 30) thì **rất** quan trọng.
+> [!note] Khi nào dùng cái nào
+>
+> |            | $\hat{S}^2$ (chia $n$)              | $s^2$ (chia $n-1$)                    |
+> | ---------- | ----------------------------------- | ------------------------------------- |
+> | Tên        | phương sai mẫu                      | phương sai mẫu **hiệu chỉnh**         |
+> | $E(\cdot)$ | $\frac{n-1}{n}\sigma^2$ — **chệch** | $\sigma^2$ — **không chệch**          |
+> | Dùng khi   | mô tả **chính mẫu** đó              | **ước lượng** $\sigma^2$ của tổng thể |
+> | Excel      | `VAR.P()`, `STDEV.P()`              | `VAR.S()`, `STDEV.S()`                |
+> | Python     | `statistics.pvariance`              | `statistics.variance`                 |
+>
+> ⚠️ Chữ **P** trong Excel = Population (tổng thể), **S** = Sample (mẫu). Nghe ngược trực giác:
+> `VAR.S` dùng cho *mẫu* nhưng chia $n-1$; `VAR.P` dùng khi dữ liệu **chính là** toàn bộ tổng thể.
+>
+> **Quy tắc thực hành:** trong kinh doanh bạn gần như **luôn** làm việc với mẫu, nên
+> **mặc định dùng `VAR.S` / `STDEV.S`**.
+>
+> **Khi nào khác biệt đáng kể?** Tỷ số $\dfrac{n}{n-1}$:
+>
+> |  $n$ | $n/(n-1)$ | Chênh lệch         |
+> | ---: | --------: | ------------------ |
+> |    5 |     1,250 | 25% — **rất lớn**  |
+> |   10 |     1,111 | 11%                |
+> |   30 |     1,034 | 3,4%               |
+> |  100 |     1,010 | 1%                 |
+> | 1000 |     1,001 | 0,1% — bỏ qua được |
+>
+> Với mẫu lớn thì không quan trọng; với mẫu nhỏ (dưới 30) thì **rất** quan trọng.
 
 ### Các đặc trưng mẫu khác (tr. 127)
 
@@ -475,8 +493,9 @@ $$\text{c) } \ \frac{\overline{X} - a}{s}\sqrt{n} \sim t(n-1) \tag{2.15}$$
 
 $$\text{d) } \ \frac{s_1^2}{s_2^2} \sim F(n_1 - 1;\ n_2 - 1) \quad (\text{giả thiết } \sigma_1^2 = \sigma_2^2) \tag{2.16}$$
 
-⚠️ Giáo trình lưu ý cuối (tr. 127): nếu trong (2.14) **thay $\overline{X}$ bằng $a$** (tức là biết $a$)
-thì được $\chi^2(n)$ — **đủ $n$ bậc tự do**. Mất một bậc chính là giá phải trả cho việc ước lượng $a$.
+> [!warning]
+> Giáo trình lưu ý cuối (tr. 127): nếu trong (2.14) **thay $\overline{X}$ bằng $a$** (tức là biết $a$)
+> thì được $\chi^2(n)$ — **đủ $n$ bậc tự do**. Mất một bậc chính là giá phải trả cho việc ước lượng $a$.
 
 **Bốn công thức này dùng ở đâu:**
 
@@ -500,12 +519,14 @@ $$
 
 ⭐ **Câu quan trọng nhất của mục này** (tr. 128):
 
+> [!quote]
 > "Các kết quả trên sẽ **rất có ích trong thực hành** vì **không cần đến giả thiết chuẩn** của biến
 > ngẫu nhiên gốc và trong nhiều trường hợp ta đã có thể chấp nhận kết quả với $n$ **không quá lớn**.
 > Chẳng hạn với $n > 30$, kết quả (b) đã có thể chấp nhận được."
 
-💼 **Đây là giấy phép để dùng thống kê trên dữ liệu kinh doanh.** Doanh thu, giá trị đơn hàng,
-thời gian chờ đều **không chuẩn** (bài 7 mục 5), nhưng với $n > 30$ ta vẫn dùng được (2.13) và (2.15).
+> [!example] Đây là giấy phép để dùng thống kê trên dữ liệu kinh doanh.
+> Doanh thu, giá trị đơn hàng,
+> thời gian chờ đều **không chuẩn** (bài 7 mục 5), nhưng với $n > 30$ ta vẫn dùng được (2.13) và (2.15).
 
 **Định lý Glivenko – Cantelli** (tr. 128) — kết quả cuối cùng, mạnh nhất:
 
@@ -544,11 +565,13 @@ $$s^2 = \frac{h^2}{n-1}\left[\sum d_i^2 n_i - \frac{(\sum d_i n_i)^2}{n}\right] 
 
 $$\hat{S}^2 = \frac{h^2}{n}\left[\sum d_i^2 n_i - \frac{(\sum d_i n_i)^2}{n}\right] \tag{2.18b}$$
 
-📚 **Vì sao được phép làm thế?** Vì $d_i$ là một **phép biến đổi tuyến tính** của $x_i$, và bài 6 mục 4
-đã cho: $E(cX + b) = cEX + b$, $V(cX+b) = c^2 VX$. Chính vì thế mới nhân lại $h$ và $h^2$ ở cuối.
+> [!note] Vì sao được phép làm thế?
+> Vì $d_i$ là một **phép biến đổi tuyến tính** của $x_i$, và bài 6 mục 4
+> đã cho: $E(cX + b) = cEX + b$, $V(cX+b) = c^2 VX$. Chính vì thế mới nhân lại $h$ và $h^2$ ở cuối.
 
-⚠️ Hạn chế giáo trình nêu: *"thường đòi hỏi số liệu cách đều"*. Thời có máy tính thì cách này
-không còn cần thiết để **tính**, nhưng vẫn hữu ích để **kiểm tra bằng tay** khi nghi ngờ kết quả máy.
+> [!warning]
+> Hạn chế giáo trình nêu: *"thường đòi hỏi số liệu cách đều"*. Thời có máy tính thì cách này
+> không còn cần thiết để **tính**, nhưng vẫn hữu ích để **kiểm tra bằng tay** khi nghi ngờ kết quả máy.
 
 ### Thí dụ 2.3 (tr. 130) — cân nặng 150 con vịt
 
@@ -586,8 +609,9 @@ $$\text{Med} = x_{me} + \frac{\dfrac{n}{2} - n_{tl}}{n_{me}}\,h \tag{2.21}$$
 - $n_{tl}$ — tần số **tích luỹ trước** khoảng trung vị
 - $n_{me}$ — tần số **của** khoảng trung vị
 
-### Thí dụ 2.4 (tr. 132) — ⚠️ có ba lỗi số học
+### Thí dụ 2.4 (tr. 132) — có ba lỗi số học
 
+> [!note]
 > Tính các đặc trưng mẫu của thí dụ 1.1 (chiều cao 300 học sinh).
 
 Bảng tính, chọn $x_0 = 135$, $h = 5$:
@@ -615,7 +639,7 @@ $$\text{Mod} = 132{,}5 + \frac{19}{19+29}\cdot 5 = \mathbf{134{,}4792}$$
 
 $$\text{Med} = 132{,}5 + \frac{150 - 116}{93}\cdot 5 = \mathbf{134{,}3280}$$
 
-### ⚠️ Đính chính ba lỗi
+### Đính chính ba lỗi
 
 Đã đối chiếu bản quét gốc trang 132:
 
@@ -639,7 +663,7 @@ dạng lệch nào cả.
 
 ---
 
-## 9. 📚 Chữ ký hiệu nào là mẫu, chữ nào là tổng thể
+## 9. Chữ ký hiệu nào là mẫu, chữ nào là tổng thể
 
 Giáo trình dùng nhiều ký hiệu song song mà không có bảng tổng kết. Đây là phần bổ sung —
 **bảng này nên dán lên tường**, vì nhầm lẫn ở đây là nguồn gốc của hầu hết lỗi sai từ bài 11 trở đi.
@@ -664,28 +688,30 @@ Giáo trình dùng nhiều ký hiệu song song mà không có bảng tổng k�
 
 **Nghịch lý trung tâm của thống kê, gói trong một dòng:**
 
+> [!note]
 > Cái ta **muốn biết** thì cố định nhưng không biết. Cái ta **biết được** thì đo được nhưng ngẫu nhiên.
 
 Toàn bộ bài 11 (khoảng tin cậy) và bài 12 (kiểm định) là các cách khác nhau để bắc cầu qua khoảng
 trống đó.
 
-### 💼 Đối chiếu với Excel
-
-| Khái niệm                 | Excel                                   |
-| ------------------------- | --------------------------------------- |
-| $\overline{X}$            | `AVERAGE()`                             |
-| $s$ (chia $n-1$)          | `STDEV.S()` ← **mặc định dùng cái này** |
-| $\hat{S}$ (chia $n$)      | `STDEV.P()`                             |
-| Trung vị                  | `MEDIAN()`                              |
-| Mốt                       | `MODE.SNGL()`                           |
-| Phân vị                   | `PERCENTILE.INC()`                      |
-| Bảng tần số               | `FREQUENCY()` hoặc PivotTable           |
-| $\overline{X} \pm$ sai số | `CONFIDENCE.NORM()` (bài 11)            |
+> [!example] Đối chiếu với Excel
+>
+> | Khái niệm                 | Excel                                   |
+> | ------------------------- | --------------------------------------- |
+> | $\overline{X}$            | `AVERAGE()`                             |
+> | $s$ (chia $n-1$)          | `STDEV.S()` ← **mặc định dùng cái này** |
+> | $\hat{S}$ (chia $n$)      | `STDEV.P()`                             |
+> | Trung vị                  | `MEDIAN()`                              |
+> | Mốt                       | `MODE.SNGL()`                           |
+> | Phân vị                   | `PERCENTILE.INC()`                      |
+> | Bảng tần số               | `FREQUENCY()` hoặc PivotTable           |
+> | $\overline{X} \pm$ sai số | `CONFIDENCE.NORM()` (bài 11)            |
 
 ---
 
 ## 10. Code minh hoạ
 
+> [!note]
 > ⚙️ **Chạy:** cần **Python 3.10+**. Chỉ dùng thư viện chuẩn — **không cần cài gói nào**.
 > Code đọc dữ liệu từ `thuc_hanh/du_lieu/`, nên phải chạy **từ thư mục gốc của khoá học**:
 > ```bash
@@ -701,8 +727,9 @@ trống đó.
 | [can_nang_vit.csv](../thuc_hanh/du_lieu/can_nang_vit.csv)             | 150 con vịt, mẫu có tần số     | thí dụ 2.3, tr. 130         |
 | [doanh_thu_ngay.csv](../thuc_hanh/du_lieu/doanh_thu_ngay.csv)         | 60 ngày doanh thu, mẫu đơn     | 💼 dữ liệu mô phỏng cho QTKD |
 
-⚠️ Tệp thứ ba là **dữ liệu mô phỏng**, sinh một lần bằng seed cố định rồi lưu lại — không phải số liệu
-doanh nghiệp thật. Hai tệp đầu là số liệu **nguyên văn của giáo trình**.
+> [!warning]
+> Tệp thứ ba là **dữ liệu mô phỏng**, sinh một lần bằng seed cố định rồi lưu lại — không phải số liệu
+> doanh nghiệp thật. Hai tệp đầu là số liệu **nguyên văn của giáo trình**.
 
 ```python
 """Bài 10 — Mẫu và thống kê mô tả.

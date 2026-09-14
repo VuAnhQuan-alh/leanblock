@@ -1,19 +1,18 @@
 # Bài 8 — Vay, lãi suất thật, trả nợ
 
+> [!info] Về bài này
 > Bài học dựa trên **C2 tr. 29–38** — Unit 3 của *Tài chính cá nhân 101, Class 2*.
->
 > **Cần đọc trước:** [Bài 7](bai_07_phan_bo_thu_nhap.md) — bài 7 kết thúc với **13 triệu phải vay
 > ở tháng Tết** và sáu chiếc lọ không có lọ nào để trả. Bài này trả lời chỗ đó.
->
 > **Ký hiệu:** **[bổ sung]** là kiến thức ngoài sách · **[đính chính]** là chỗ sách sai ·
 > **[2026]** là mục đối chiếu với hiện tại.
->
 > **Về phần pháp lý:** mục 3 dẫn văn bản luật, tra ngày **09/09/2026**. Luật đổi thì con số đổi —
 > kiểm lại ngày tra trước khi tin.
->
 > **Code:** [`thuc_hanh/bai-08-vay-va-tra-no.py`](../thuc_hanh/bai-08-vay-va-tra-no.py)
 > — mọi lãi suất trong bài đều tính lại từ **dòng tiền** bằng cách giải IRR, không tin con số ai
 > nói, kể cả con số của sách.
+>
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
 
 ---
 
@@ -119,6 +118,7 @@ khuyên đúng, nhưng bảng trên mới là thứ giúp bạn biết mình có
 
 tr. 31 đưa hai lưu ý khi phải "vay nóng":
 
+> [!quote]
 > - *"Không vay lãi suất quá cao trên 20%/năm."*
 > - *"Không vay ngắn hạn để giải quyết việc dài hạn."*
 
@@ -225,6 +225,7 @@ tròn ở bước giữa.**
 
 tr. 34 chuyển sang tính xem **8%/năm thật** thì trả bao lâu:
 
+> [!quote]
 > *"Lãi suất tháng = 8/12 = 0,67%. Sau 11 tháng chị B sẽ trả hết nợ như trong hình dưới
 > đây:"*
 
@@ -359,6 +360,7 @@ khi thời gian trả các khoản nợ lớn bị kéo dài, bạn sẽ mất n
 
 tr. 35 đưa ba lý do chọn Snowball. Lý do đầu tiên:
 
+> [!quote]
 > *"Thông thường, số lượng nợ nhỏ chiếm phần lớn tổng lượng nợ của bạn"*
 
 Lấy ngay bốn khoản mà **chính sách liệt kê ở tr. 36** — thẻ tín dụng, trả góp laptop, trả góp điện
@@ -382,6 +384,7 @@ kết luận có thể đổi — đó là bài tập ở [mục 11](#11-tự-th
 
 ### Sách bảo không có câu trả lời. Có một nửa câu trả lời, và nó là một con số
 
+> [!quote]
 > tr. 37: *"Vậy đâu là phương án tối ưu? Tôi không có câu trả lời dành cho bạn. Điều này phụ thuộc
 > vào việc tâm lý và tính cách cá nhân bạn phù hợp với kiểu nào hơn."*
 
@@ -443,6 +446,7 @@ nên nạp lại FFA hay dập khoản vay?
 
 Nguyên tắc gọn và đáng thuộc:
 
+> [!note]
 > **Trả một đồng nợ lãi `i` là một khoản đầu tư có lợi suất đúng bằng `i` — chắc chắn, không rủi ro,
 > không phải nộp thuế.** Còn lọ FFA kỳ vọng 8% thực: *kỳ vọng*, và có rủi ro mất.
 

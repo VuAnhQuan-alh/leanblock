@@ -1,12 +1,14 @@
 # Chính sách tiền tệ và ngân hàng trung ương
 
+> [!info] Về bài này
 > Bài học dựa trên buổi **18 "Monetary Policy"** của khoá **Yale ECON 252 *Financial Markets***
 > (Xuân 2011), giảng viên **Robert J. Shiller**, YouTube `_SpIaGTq0u8`, 71:27.
 > Mốc dạng `18 34:03` = **buổi 18, phút 34:03**, đã đối chiếu ngược với phụ đề gốc bằng script.
 > Phần **📚 Mở rộng** và **🇻🇳 Góc Việt Nam** không có trong video.
-> ⚠️ **Video ghi Xuân 2011** — §10 đối chiếu với 2026, và **hai công cụ chính trong bài này đã
-> chết hẳn** kể từ đó.
-> 📌 **Đọc trước:** [Bài 3 — Ngân hàng](bai_03_ngan_hang.md). Buổi 18 giả định người nghe đã nắm
+>
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
+>
+> **Đọc trước:** [Bài 3 — Ngân hàng](bai_03_ngan_hang.md). Buổi 18 giả định người nghe đã nắm
 > tài sản có rủi ro và yêu cầu vốn Basel III từ buổi 13.
 
 ## Mục lục
@@ -18,10 +20,10 @@
 5. [Dọn bát rượu punch — và tính độc lập](#5-dọn-bát-rượu-punch--và-tính-độc-lập)
 6. [Dự trữ bắt buộc, số nhân tiền, và cái chết của cả hai](#6-dự-trữ-bắt-buộc-số-nhân-tiền-và-cái-chết-của-cả-hai)
 7. [Shiller dựng một ngân hàng trên bảng](#7-shiller-dựng-một-ngân-hàng-trên-bảng)
-8. [📚 Vì sao tuân thủ tập thể lại giết hệ thống](#8--vì-sao-tuân-thủ-tập-thể-lại-giết-hệ-thống)
-9. [⚠️ Ba chỗ video nói sai](#9--ba-chỗ-video-nói-sai)
-10. [⚠️ Đối chiếu 2026 — hai công cụ đã chết](#10--đối-chiếu-2026--hai-công-cụ-đã-chết)
-11. [🇻🇳 Góc Việt Nam — điều tiết bằng lượng, không bằng giá](#11--góc-việt-nam--điều-tiết-bằng-lượng-không-bằng-giá)
+8. [📚 Vì sao tuân thủ tập thể lại giết hệ thống](#8-vì-sao-tuân-thủ-tập-thể-lại-giết-hệ-thống)
+9. [⚠️ Ba chỗ video nói sai](#9-ba-chỗ-video-nói-sai)
+10. [⚠️ Đối chiếu 2026 — hai công cụ đã chết](#10-đối-chiếu-2026--hai-công-cụ-đã-chết)
+11. [🇻🇳 Góc Việt Nam — điều tiết bằng lượng, không bằng giá](#11-góc-việt-nam--điều-tiết-bằng-lượng-không-bằng-giá)
 12. [Chương trình](#12-chương-trình)
 13. [Từ điển thuật ngữ](#13-từ-điển-thuật-ngữ)
 14. [Câu hỏi tự kiểm tra](#14-câu-hỏi-tự-kiểm-tra)
@@ -35,6 +37,7 @@ quan trọng, không khác gì phát minh trong kỹ thuật."*
 
 Rồi ông giải thích cơ chế lan truyền (`18 01:01`):
 
+> [!quote]
 > *"Khi ai đó nghĩ ra một ý tưởng, và nó được chứng minh là chạy được, nó sẽ được sao chép khắp thế
 > giới. Loài người là như vậy. Chúng ta đều dùng cùng một loại xe, cùng một loại máy bay. Vì sao?
 > **Không phải vì ta là kẻ bắt chước, mà vì ai đó đã tìm ra thứ chạy được**, và dĩ nhiên, mọi người
@@ -42,16 +45,18 @@ Rồi ông giải thích cơ chế lan truyền (`18 01:01`):
 
 Và ông nói thẳng luận điểm (`18 01:21`): *"Tôi nghĩ điều tương tự đúng với ngân hàng trung ương."*
 
-📚 Đây là khung để đọc cả buổi. Một ngân hàng trung ương **không phải** thứ tự nhiên sinh ra cùng
-nhà nước. Nó là một **thiết kế cụ thể**, do người cụ thể nghĩ ra ở một chỗ cụ thể, rồi được sao chép
-— và như mọi thiết kế, nó có **phiên bản**. §6 và §10 cho thấy phiên bản hiện hành khác hẳn phiên bản
-Shiller đang dạy.
+> [!note]
+> Đây là khung để đọc cả buổi. Một ngân hàng trung ương **không phải** thứ tự nhiên sinh ra cùng
+> nhà nước. Nó là một **thiết kế cụ thể**, do người cụ thể nghĩ ra ở một chỗ cụ thể, rồi được sao chép
+> — và như mọi thiết kế, nó có **phiên bản**. §6 và §10 cho thấy phiên bản hiện hành khác hẳn phiên bản
+> Shiller đang dạy.
 
 ### Nhắc lại: tiền giấy tự mọc ra từ tiệm vàng
 
 Shiller tóm lại chuyện thợ kim hoàn từ buổi 13 (`18 01:57`–`18 02:48`), rồi thêm một chi tiết đáng
 giá mà buổi 13 không nêu (`18 02:48`):
 
+> [!quote]
 > *"Và hệ thống đó — tiền giấy được bảo chứng bằng vàng — **kéo dài tới tận thập niên 1970**. Đáng
 > kinh ngạc."*
 
@@ -61,9 +66,10 @@ chúng ta ở trên bản vị vàng cho tới cách đây chỉ vài thập k�
 Và vấn đề có ngay từ đầu (`18 03:13`): đôi khi thợ kim hoàn **không đổi được vàng**. *"Bạn mang tờ
 giấy tới, và họ nói: tôi nhận quá nhiều yêu cầu rồi. Tôi hết vàng."*
 
-📚 Đó là bank run ở [bài 3 §3](bai_03_ngan_hang.md#3--diamonddybvig--vì-sao-một-ngân-hàng-lành-mạnh-vẫn-sập),
-xuất hiện trước khi có ngân hàng trung ương để chặn nó. Toàn bộ định chế trong bài này tồn tại để trả
-lời đúng câu *"tôi hết vàng"* ấy.
+> [!note]
+> Đó là bank run ở [bài 3 §3](bai_03_ngan_hang.md#3-diamonddybvig--vì-sao-một-ngân-hàng-lành-mạnh-vẫn-sập),
+> xuất hiện trước khi có ngân hàng trung ương để chặn nó. Toàn bộ định chế trong bài này tồn tại để trả
+> lời đúng câu *"tôi hết vàng"* ấy.
 
 ---
 
@@ -94,6 +100,7 @@ Tức là: Bank of England có thể **tự tay tạo ra một bank run** nhắm
 đóng vai một ngân hàng nhà nước **mà không chính thức là nhà nước**, bằng chính sách ông gọi là
 *"sống và để người khác sống"* — kèm **một điều kiện** (`18 05:03`):
 
+> [!quote]
 > *"Nếu anh là một ngân hàng khác ở Anh, **anh phải giữ một khoản tiền gửi ở chỗ chúng tôi**. Và Bank
 > of England sẽ bảo anh giữ bao nhiêu. Nếu anh không làm thế, anh có thể bị huỷ diệt."*
 
@@ -115,9 +122,10 @@ Không ai thiết kế nó cho mục đích ổn định. Ổn định là **s�
 Shiller kết (`18 05:54`): *"Đó là mô hình cho tất cả các ngân hàng trung ương trên thế giới. **Tất cả
 đều là bản sao của Bank of England.**"*
 
-⚠️ Và một chi tiết dễ bỏ qua (`18 06:01`): Bank of England **không hề độc lập** với chính phủ **cho
-tới năm 1997**. Ba trăm năm làm ngân hàng trung ương mà không độc lập. §5 cho thấy vì sao điều đó
-đáng chú ý.
+> [!warning]
+> Và một chi tiết dễ bỏ qua (`18 06:01`): Bank of England **không hề độc lập** với chính phủ **cho
+> tới năm 1997**. Ba trăm năm làm ngân hàng trung ương mà không độc lập. §5 cho thấy vì sao điều đó
+> đáng chú ý.
 
 ---
 
@@ -139,6 +147,7 @@ Chúng hoàn toàn không phải phát minh của chính phủ. Cái Suffolk Ban
 Nửa đầu thế kỷ 19, Mỹ *"có các cuộc khủng hoảng ngân hàng lặp đi lặp lại"* (`18 07:24`). Và tiền thì
 kinh khủng (`18 07:35`):
 
+> [!quote]
 > *"Bạn vào cửa hàng muốn mua gì đó, họ nói: cho xem tiền của anh. Bạn móc hết tiền ra, đặt xuống, họ
 > nhìn và nói: à, đây là tiền Boston, đây là tiền New Haven, đây là tiền Hartford. Rồi họ rút ra một
 > cuốn sách gọi là **Bank Note Reporter** và nói: các nhà buôn tiền đang **chiết khấu 20% với tiền
@@ -160,8 +169,9 @@ Mỹ có **Bank of the United States** và **Second Bank of the United States**,
 Lý do sâu xa (`18 09:04`): *"Vì nước Mỹ không muốn chính phủ dính vào kinh doanh tư nhân, họ **miễn
 cưỡng lập một ngân hàng trung ương suốt một thời gian dài**."*
 
-⚠️ Shiller đoán năm thành lập là *"1789, tôi nghĩ vậy"*, và ông hỏi cả lớp vì không nhớ. Xem
-[§9](#9--ba-chỗ-video-nói-sai).
+> [!warning]
+> Shiller đoán năm thành lập là *"1789, tôi nghĩ vậy"*, và ông hỏi cả lớp vì không nhớ. Xem
+> [§9](#9-ba-chỗ-video-nói-sai).
 
 ### Đạo luật Ngân hàng Quốc gia 1863 — sửa được tiền, không sửa được ngân hàng
 
@@ -181,7 +191,8 @@ mình nữa."** Không còn chiết khấu; mọi ngân hàng quốc gia nhận 
 
 Nhưng (`18 11:01`): *"nó không tạo ra một hệ thống tiền tệ ổn định."*
 
-📚 Chỗ phân biệt này rất đáng nắm. Có **hai** vấn đề khác nhau, và 1863 chỉ giải một:
+> [!note]
+> Chỗ phân biệt này rất đáng nắm. Có **hai** vấn đề khác nhau, và 1863 chỉ giải một:
 
 | Vấn đề                        | Biểu hiện                       | Sửa được chưa |
 | ----------------------------- | ------------------------------- | ------------- |
@@ -206,6 +217,7 @@ of England, *"nhưng có thể không phải ai cũng mô tả nó như vậy."*
 
 Và ông giải thích chỗ khác biệt bằng giọng châm biếm chính nước mình (`18 12:44`):
 
+> [!quote]
 > *"Nhưng nước Mỹ — ta luôn thấy mình khác biệt. Ta phải làm cho nó **trông** khác. Không thể chỉ sao
 > chép Bank of England. Ta phải làm gì đó khác đi. Nên họ nói: sao ta không tạo **12 ngân hàng** —
 > nghe Mỹ hơn — và đặt chúng khắp cả nước."*
@@ -259,6 +271,7 @@ hướng tuyển làm ngân hàng trung ương những người **có đạo đ�
 
 Rồi ông dẫn câu nổi tiếng của một cựu chủ tịch Fed, **William McChesney Martin** (`18 18:16`):
 
+> [!quote]
 > *"**Việc của một ngân hàng trung ương là dọn bát rượu punch đi ngay khi bữa tiệc bắt đầu vui.**"*
 
 Shiller thêm (`18 18:34`): *"Giống như cha mẹ, đúng không? Con được uống một ly, nhưng ta sẽ dừng ở
@@ -280,9 +293,10 @@ chính trực**, bảo họ *"anh là người giữ gìn một đồng tiền"*
 Và ông đưa lập luận thực nghiệm (`18 30:22`): *"Một số người cho rằng đó là lý do Mỹ có mức giá ổn
 định đến thế… Rất nhiều nước đã rơi vào lạm phát làm xói mòn đồng tiền, nhưng Mỹ thì không."*
 
-📚 ⚠️ Có một mâu thuẫn nhỏ đáng để ý mà Shiller không nêu: ông nói Fed *"được thiết kế tách khỏi chính
-phủ ngay từ đầu"* (`18 29:14`), nhưng ở §2 chính ông nói **Bank of England — hình mẫu của mọi ngân
-hàng trung ương — chỉ độc lập từ 1997**. Bank of Japan cũng **1997** (`18 28:53`).
+> [!note]
+> ⚠️ Có một mâu thuẫn nhỏ đáng để ý mà Shiller không nêu: ông nói Fed *"được thiết kế tách khỏi chính
+> phủ ngay từ đầu"* (`18 29:14`), nhưng ở §2 chính ông nói **Bank of England — hình mẫu của mọi ngân
+> hàng trung ương — chỉ độc lập từ 1997**. Bank of Japan cũng **1997** (`18 28:53`).
 
 Tức là: bản sao (Fed, 1913) độc lập **trước** bản gốc (BoE) tám mươi tư năm. Tính độc lập không phải
 đặc tính vốn có của ngân hàng trung ương — nó là một **lớp thiết kế thêm vào sau**, và phần lớn thế
@@ -319,7 +333,7 @@ Cái cứu được tình hình không phải Fed mà là **FDIC** (`18 22:44`).
 (`18 23:36`): **Mỹ không có khủng hoảng ngân hàng nào từ 1933 tới 2007** — *"và đó là bằng chứng cho
 tầm quan trọng của bảo hiểm tiền gửi."*
 
-📌 Ghép với [bài 3 §10.1](bai_03_ngan_hang.md#10--đối-chiếu-2026): câu đó đúng thêm được 16 năm nữa,
+📌 Ghép với [bài 3 §10.1](bai_03_ngan_hang.md#10-đối-chiếu-2026): câu đó đúng thêm được 16 năm nữa,
 rồi hỏng vào tháng 3/2023.
 
 ---
@@ -361,12 +375,13 @@ Với dự trữ 10%, tổng tiền gửi bằng **10 lần** tiền cơ sở.
 |             1 % |               100× |                            10.000 tỷ |
 |         **0 %** | **không xác định** |                          **vô cùng** |
 
-Dòng cuối không phải trò đùa. Xem [§10](#10--đối-chiếu-2026--hai-công-cụ-đã-chết).
+Dòng cuối không phải trò đùa. Xem [§10](#10-đối-chiếu-2026--hai-công-cụ-đã-chết).
 
 ### Và Shiller tự khai tử nó ngay tại chỗ
 
 Ngay sau khi trình bày, ông nói (`18 43:37`):
 
+> [!quote]
 > *"Tôi đang đơn giản hoá quá mức số nhân tiền, nhưng tôi đang nói với các bạn rằng, **ở thời điểm này
 > trong lịch sử, nó không còn liên quan**, vì các ngân hàng đang giữ dự trữ vượt mức. **Thế giới đã
 > thay đổi.**"*
@@ -449,6 +464,7 @@ vốn nào cả.**"*
 
 Và ông giải thích vì sao cơ quan quản lý **phân biệt gay gắt** hai loại nguồn này (`18 59:15`):
 
+> [!quote]
 > *"Vì anh này **có thể đến cửa sổ bất cứ lúc nào**. Anh phải đưa ông ta $100 khi ông ta hỏi. Cổ đông
 > thì **không có quyền đòi gì cả**. Họ sở hữu một phần công ty. Họ không thể đến cửa sổ đòi bất cứ
 > thứ gì. **Bạn chỉ việc đuổi họ về.**"*
@@ -456,9 +472,10 @@ Và ông giải thích vì sao cơ quan quản lý **phân biệt gay gắt** ha
 Và câu chốt (`18 59:53`): *"nếu có gì đó hỏng, bạn chỉ việc nói với đám vốn cổ phần: các anh xong rồi,
 các anh thua."*
 
-📚 **Đó là toàn bộ định nghĩa của vốn**, gói trong một câu. Vốn không phải tiền — nó là **thứ nghĩa vụ
-duy nhất không thể chạy trốn và có thể xoá bỏ**. Định nghĩa này giải thích luôn vì sao Basel đo bằng
-vốn chủ sở hữu phổ thông chứ không phải tiền mặt.
+> [!note] Đó là toàn bộ định nghĩa của vốn
+> , gói trong một câu. Vốn không phải tiền — nó là **thứ nghĩa vụ
+> duy nhất không thể chạy trốn và có thể xoá bỏ**. Định nghĩa này giải thích luôn vì sao Basel đo bằng
+> vốn chủ sở hữu phổ thông chứ không phải tiền mặt.
 
 ### Bước 3 — cho doanh nghiệp vay $100
 
@@ -487,11 +504,12 @@ thứ cắn trước không phải cái ta hay nghĩ.
 
 Shiller (`18 63:49`): *"cơ quan quản lý sẽ **đóng cửa** chúng ta, trừ khi làm gì đó để huy động vốn."*
 
-### 📌 Chỗ Shiller tự sửa mình trước lớp
+### Chỗ Shiller tự sửa mình trước lớp
 
 Đây là đoạn hiếm và đáng học nhất cả buổi. Ông đề xuất một lối thoát, rồi **đang nói thì tự phát hiện
 nó sai** (`18 64:00`–`18 64:32`):
 
+> [!quote]
 > *"Một điều ta có thể làm là bán bớt khoản vay… Tài sản có rủi ro của chúng ta giờ sẽ — **để xem
 > nào. Không, cái đó không được. Xin lỗi, cái đó không được, đúng không?** … **Tôi xin lỗi, tôi nói
 > nhầm.** Chúng ta vẫn không có vốn chủ sở hữu."*
@@ -515,15 +533,17 @@ không giảm về không. Nếu vốn chủ sở hữu còn $10 thì tôi có t
 Cũng đúng — dù ở ví dụ cụ thể này, với vốn $10 và cho vay $80, yêu cầu vốn chỉ là **$5,60**, tức đã
 đạt sẵn mà chẳng cần bán gì.
 
-📚 Cái đáng học ở đây không phải con số, mà là **thói quen**: dừng giữa câu, kiểm lại, rồi nói *"tôi
-nói nhầm"* trước một giảng đường. Đó là cách đọc một bảng cân đối.
+> [!note]
+> Cái đáng học ở đây không phải con số, mà là **thói quen**: dừng giữa câu, kiểm lại, rồi nói *"tôi
+> nói nhầm"* trước một giảng đường. Đó là cách đọc một bảng cân đối.
 
 ---
 
-## 8. 📚 Vì sao tuân thủ tập thể lại giết hệ thống
+## 8. Vì sao tuân thủ tập thể lại giết hệ thống
 
 Shiller nêu vấn đề ở `18 66:06`:
 
+> [!quote]
 > *"Vấn đề là hệ thống họ dựng ra khiến ngân hàng phản ứng với khủng hoảng bằng cách **bán khoản vay**
 > hoặc **phát hành cổ phần mới**. Vấn đề là **cả hai đều khó làm trong một cuộc khủng hoảng**."*
 
@@ -550,6 +570,7 @@ trở thành hành động phá huỷ chính điều kiện tuân thủ.
 
 Mô hình: ngân hàng cho vay $1.000, vốn $80 (CAR 8%, trên mức bắt buộc 7%). Cú sốc: 3% khoản vay vỡ nợ.
 
+> [!note]
 > ⚙️ **Đơn vị của hai bảng dưới là XU, không phải đô.** Chương trình giữ mọi khoản tiền ở **số nguyên
 > đơn vị nhỏ nhất** để tránh sai số dấu phẩy động, nên $1.000 hiện ra là `100.000` và $80 là `8.000`.
 > Chia cho 100 nếu muốn đọc bằng đô. Kiểm nhanh dòng đầu: sau cú sốc 3 %, cho vay còn
@@ -580,10 +601,11 @@ xuống dưới 93% — và từ đó mỗi hành động tuân thủ đẩy ng�
 Shiller (`18 67:07`): *"ai cũng làm cùng một lúc thì tạo ra một cú bóp nghẹt, và cả hệ thống đã sụp
 **nếu không có các ngân hàng trung ương**."*
 
-📚 Đây là **nguỵ biện hợp thành** ở dạng thuần khiết nhất, và nó là họ hàng gần với bank run ở
-[bài 3 §3](bai_03_ngan_hang.md#3--diamonddybvig--vì-sao-một-ngân-hàng-lành-mạnh-vẫn-sập): một hành
-động hợp lý và hợp pháp ở cấp cá nhân, phá huỷ hệ thống ở cấp tổng thể. Khác biệt là ở bài 3 người ta
-phá luật niềm tin; ở đây họ **tuân thủ luật vốn**.
+> [!note]
+> Đây là **nguỵ biện hợp thành** ở dạng thuần khiết nhất, và nó là họ hàng gần với bank run ở
+> [bài 3 §3](bai_03_ngan_hang.md#3-diamonddybvig--vì-sao-một-ngân-hàng-lành-mạnh-vẫn-sập): một hành
+> động hợp lý và hợp pháp ở cấp cá nhân, phá huỷ hệ thống ở cấp tổng thể. Khác biệt là ở bài 3 người ta
+> phá luật niềm tin; ở đây họ **tuân thủ luật vốn**.
 
 ### Cách Basel III chữa
 
@@ -612,11 +634,12 @@ Rồi (`18 70:01`): *"Đạo luật Dodd-Frank đã **trói buộc ngân hàng t
 Và câu cuối, rất thận trọng (`18 70:54`): *"Vai trò của ngân hàng trung ương và của các cơ quan quản
 lý **đang tiến hoá và thay đổi**, và sẽ mất nhiều năm nữa mới biết hệ thống thực sự đi về đâu."*
 
-📚 §10 cho thấy ông đúng — nhiều hơn ông tưởng.
+> [!note]
+> §10 cho thấy ông đúng — nhiều hơn ông tưởng.
 
 ---
 
-## 9. ⚠️ Ba chỗ video nói sai
+## 9. Ba chỗ video nói sai
 
 ### 9.1 Bank of the United States lập năm 1791, không phải 1789
 
@@ -627,15 +650,16 @@ ghi chú của tôi. Ai nói giúp tôi được không? … **1789, tôi nghĩ 
 Alexander Hamilton, với thời hạn 20 năm.
 
 Shiller tự đánh dấu chỗ này là không chắc — ông hỏi cả lớp và nói *"I think"*. Đây là loại sai sót
-**đã được diễn giả gắn nhãn**, khác hẳn ba chỗ ở [bài 2 §10](bai_02_bao_hiem.md#10--bốn-chỗ-video-nói-sai)
+**đã được diễn giả gắn nhãn**, khác hẳn ba chỗ ở [bài 2 §10](bai_02_bao_hiem.md#10-bốn-chỗ-video-nói-sai)
 nơi ông nói chắc.
 
-📚 Con số 1789 lại là năm Hiến pháp Mỹ có hiệu lực — một nhầm lẫn rất tự nhiên.
+> [!note]
+> Con số 1789 lại là năm Hiến pháp Mỹ có hiệu lực — một nhầm lẫn rất tự nhiên.
 
 ### 9.2 "FSOC" ở buổi 5 và ở đây
 
 Không phải lỗi của buổi 18, nhưng đáng ghi để đối chiếu: ở
-[bài 2 §10.3](bai_02_bao_hiem.md#10--bốn-chỗ-video-nói-sai) Shiller gọi Financial Stability Oversight
+[bài 2 §10.3](bai_02_bao_hiem.md#10-bốn-chỗ-video-nói-sai) Shiller gọi Financial Stability Oversight
 **Council** là "Commission". Buổi 18 không lặp lại lỗi đó.
 
 ### 9.3 Danh sách nước ngoài khu vực euro đã lỗi thời ngay khi nói
@@ -645,13 +669,14 @@ Shiller liệt kê các nước EU **không** dùng euro (`18 27:41`), gồm **M
 **Thật:** Malta gia nhập khu vực euro **2008**, Estonia **1/1/2011** — tức **ba tháng trước** buổi
 giảng này.
 
-⚠️ Chỗ này Open Yale Courses **đã tự chèn đính chính** vào transcript của họ, nên nó không phải phát
-hiện mới của bài học này. Nhưng nó cho thấy một điều về phương pháp: **danh sách thì hỏng nhanh hơn
-lập luận**. Toàn bộ lập luận của Shiller về ECB vẫn đúng nguyên; chỉ danh sách là sai.
+> [!warning]
+> Chỗ này Open Yale Courses **đã tự chèn đính chính** vào transcript của họ, nên nó không phải phát
+> hiện mới của bài học này. Nhưng nó cho thấy một điều về phương pháp: **danh sách thì hỏng nhanh hơn
+> lập luận**. Toàn bộ lập luận của Shiller về ECB vẫn đúng nguyên; chỉ danh sách là sai.
 
 ---
 
-## 10. ⚠️ Đối chiếu 2026 — hai công cụ đã chết
+## 10. Đối chiếu 2026 — hai công cụ đã chết
 
 Buổi giảng này lỗi thời nặng hơn bài 2 và bài 3, vì nó mô tả **công cụ vận hành** chứ không mô tả
 nguyên lý. Nguyên lý thì bền; công cụ thì không.
@@ -680,20 +705,23 @@ ngân hàng."* Ông chẩn đoán đúng cơ chế; ông chỉ không đoán r�
 
 Với dự trữ bắt buộc = 0%, công thức `1/rr` **chia cho không**.
 
-📚 Nhưng tiền **không** tăng vô hạn, và đó mới là bài học. Kết luận đúng là: công thức ấy **chưa bao
-giờ mô tả cơ chế thật** — nó chỉ đúng khi ngân hàng giữ **sát** mức bắt buộc, và điều đó chỉ đúng khi
-giữ dự trữ **không được trả lãi**.
+> [!note]
+> Nhưng tiền **không** tăng vô hạn, và đó mới là bài học. Kết luận đúng là: công thức ấy **chưa bao
+> giờ mô tả cơ chế thật** — nó chỉ đúng khi ngân hàng giữ **sát** mức bắt buộc, và điều đó chỉ đúng khi
+> giữ dự trữ **không được trả lãi**.
 
 Khi Fed bắt đầu trả lãi trên dự trữ (§6), ngân hàng giữ dự trữ thoải mái, ràng buộc biến mất, và công
 thức chết trước khi tỷ lệ về 0. Shiller mô tả đúng chuỗi nhân quả này ở `18 43:52`.
 
-⚠️ Một cập nhật thuật ngữ: lãi trên dự trữ vượt mức (**IOER**) và lãi trên dự trữ bắt buộc được **hợp
-nhất thành IORB** từ **29/7/2021**. Cái phân biệt Shiller ngầm dùng không còn tồn tại.
+> [!warning]
+> Một cập nhật thuật ngữ: lãi trên dự trữ vượt mức (**IOER**) và lãi trên dự trữ bắt buộc được **hợp
+> nhất thành IORB** từ **29/7/2021**. Cái phân biệt Shiller ngầm dùng không còn tồn tại.
 
 ### 10.3 "Không thể xuống dưới không" — sai một năm sau bài giảng
 
 Đây là chỗ Shiller nói **chắc chắn nhất** và **sai rõ nhất** (`18 34:03`):
 
+> [!quote]
 > *"Nó không thể xuống dưới không, vì **không thể có lãi suất âm — không ai cho vay ở lãi suất âm**."*
 
 | Ngân hàng trung ương      |  Thời điểm |         Mức |
@@ -706,9 +734,10 @@ nhất thành IORB** từ **29/7/2021**. Cái phân biệt Shiller ngầm dùng 
 Đan Mạch đi trước **mười sáu tháng** sau buổi giảng này. Và lý do không phải kích thích kinh tế mà là
 **bảo vệ tỷ giá** — Đan Mạch neo đồng krone vào euro.
 
-📚 **Lập luận của Shiller đúng một nửa.** Nếu bị tính lãi âm, cứ rút ra giữ tiền mặt, vì tiền mặt trả
-đúng 0%. Nhưng **giữ tiền mặt không miễn phí** — kho, két, bảo hiểm, vận chuyển. Gọi chi phí đó là
-$c$; người ta chỉ rút ra khi lãi suất âm hơn $-c$.
+> [!note] Lập luận của Shiller đúng một nửa.
+> Nếu bị tính lãi âm, cứ rút ra giữ tiền mặt, vì tiền mặt trả
+> đúng 0%. Nhưng **giữ tiền mặt không miễn phí** — kho, két, bảo hiểm, vận chuyển. Gọi chi phí đó là
+> $c$; người ta chỉ rút ra khi lãi suất âm hơn $-c$.
 
 $$\text{Cận dưới thật} = -c, \text{ không phải } 0$$
 
@@ -730,21 +759,23 @@ Shiller mô tả một nền kinh tế ở cận dưới: fed funds **0,13%**, t
 Tháng 9/2026, khoảng mục tiêu là **3,50–3,75%**, giữ nguyên sau năm lần liên tiếp không đổi kể từ lần
 thay đổi cuối vào 12/2025.
 
-📚 Nên toàn bộ phần *"Fed đã đẩy nó gần bằng 0 hết mức có thể"* mô tả một **chế độ**, không phải một
-trạng thái vĩnh viễn. Cơ chế Shiller dạy — nâng lãi để hạ nhiệt, hạ lãi để kích thích — vẫn nguyên
-vẹn; chỉ con số là của một thời điểm.
+> [!note]
+> Nên toàn bộ phần *"Fed đã đẩy nó gần bằng 0 hết mức có thể"* mô tả một **chế độ**, không phải một
+> trạng thái vĩnh viễn. Cơ chế Shiller dạy — nâng lãi để hạ nhiệt, hạ lãi để kích thích — vẫn nguyên
+> vẹn; chỉ con số là của một thời điểm.
 
 ### 10.5 Basel III "áp dụng đủ tới 2019"
 
 Shiller nói Basel III *"sẽ mất một thời gian dài… giai đoạn áp dụng dần kéo tới, tôi nghĩ là 2019"*
 (`18 47:08`).
 
-Tình trạng tháng 9/2026 đã ghi ở [bài 3 §10.3](bai_03_ngan_hang.md#10--đối-chiếu-2026): Mỹ **đề xuất
+Tình trạng tháng 9/2026 đã ghi ở [bài 3 §10.3](bai_03_ngan_hang.md#10-đối-chiếu-2026): Mỹ **đề xuất
 lại** ngày 19/3/2026; Anh áp dụng từ **1/1/2027**; EU sàn đầu ra tới **2030**.
 
-⚠️ Nhưng buổi 18 nêu thêm một trở ngại mà buổi 13 không nêu, và nó vẫn còn nguyên (`18 47:52`): **Basel
-III viện dẫn xếp hạng tín nhiệm ở nhiều chỗ**, trong khi **Dodd-Frank 2010 xoá bỏ việc dùng xếp hạng
-trong mọi quy định liên bang**.
+> [!warning]
+> Nhưng buổi 18 nêu thêm một trở ngại mà buổi 13 không nêu, và nó vẫn còn nguyên (`18 47:52`): **Basel
+> III viện dẫn xếp hạng tín nhiệm ở nhiều chỗ**, trong khi **Dodd-Frank 2010 xoá bỏ việc dùng xếp hạng
+> trong mọi quy định liên bang**.
 
 Shiller nói rất thẳng về hệ quả (`18 52:04`): ngân hàng sẽ phải tự đánh giá rủi ro, *"nhưng cái thực
 sự sẽ xảy ra là **họ chỉ nhìn vào xếp hạng của Moody's và S&P. Sẽ là đóng dấu cao su thôi.**"*
@@ -770,7 +801,7 @@ sách nào ghi cách đây mười lăm năm.
 
 ---
 
-## 11. 🇻🇳 Góc Việt Nam — điều tiết bằng lượng, không bằng giá
+## 11. Góc Việt Nam — điều tiết bằng lượng, không bằng giá
 
 Cả buổi giảng của Shiller giả định một ngân hàng trung ương điều tiết bằng **giá** (lãi suất) và bằng
 **tỷ lệ** (dự trữ, vốn). Ngân hàng Nhà nước Việt Nam có một công cụ chính mà bài giảng **không hề nhắc
@@ -828,7 +859,7 @@ lệ nợ xấu, chất lượng tài sản. NHNN chuyển sang **thanh tra, gi�
 Nền pháp lý cho bước chuyển đó là **Thông tư 14/2025/TT-NHNN** về các bộ đệm vốn — **đệm bảo toàn vốn**
 và **đệm phản chu kỳ** — tiệm cận chuẩn Basel III.
 
-### 📌 Chính là bước chuyển Shiller mô tả cho nước Mỹ
+### Chính là bước chuyển Shiller mô tả cho nước Mỹ
 
 Đọc lại `18 45:23`: *"cái gì đó khác đã lên sân khấu chính, và đó là **yêu cầu vốn**."*
 
@@ -844,7 +875,7 @@ Mỹ mất khoảng **một thế kỷ**. Việt Nam đi trong khoảng **15 nă
 
 Cùng một hướng: từ điều tiết bằng **lệnh** sang điều tiết bằng **vốn chịu rủi ro**.
 
-### ⚠️ Nhưng §8 là lời cảnh báo cho chính bước chuyển đó
+### Nhưng §8 là lời cảnh báo cho chính bước chuyển đó
 
 Điều đáng chú ý là §8 của bài này cho thấy chế độ dựa trên vốn có một khuyết tật mà chế độ hạn mức
 **không có**: **tính thuận chu kỳ**. Khi khủng hoảng tới, yêu cầu vốn buộc mọi ngân hàng bán tài sản
@@ -852,7 +883,8 @@ cùng lúc, và mô hình cho thấy dưới giá 93% việc tuân thủ trở t
 
 Hạn mức tín dụng không có vấn đề đó — một hạn mức không tự siết chặt khi giá tài sản giảm.
 
-📚 Nên bước chuyển này **không phải nâng cấp thuần tuý**. Nó là đánh đổi:
+> [!note]
+> Nên bước chuyển này **không phải nâng cấp thuần tuý**. Nó là đánh đổi:
 
 |                     | Hạn mức tín dụng                       | Yêu cầu vốn                     |
 | ------------------- | -------------------------------------- | ------------------------------- |
@@ -872,6 +904,7 @@ lý. Nhưng nhận ra bong bóng khi đang ở trong nó là việc mà, theo ch
 
 ## 12. Chương trình
 
+> [!note]
 > ⚙️ **Chạy:** cần **Python 3.10+**. Lưu file rồi gõ `python3 bai-04-chinh-sach-tien-te.py`. Không cần
 > cài gói, không đọc file ngoài, không gọi mạng. Kết quả **tất định**.
 
@@ -1158,19 +1191,19 @@ Yale ECON 252 (2011) buoi 18 — Robert J. Shiller
 Het. Moi assert da qua.
 ```
 
-### 💡 Tự thử
-
-1. **Ở mục 4, tìm số ngân hàng nhỏ nhất khiến hệ thống vỡ nợ.** Giữa 1 và 20 có một ngưỡng — nó ở đâu?
-   Ngưỡng đó nói gì về khái niệm "quá lớn để sụp"?
-2. **Ở mục 4, đổi `TY_LE_VON_BP` từ 700 lên 950** (áp đệm nghịch chu kỳ 2,5%). Ngân hàng có sống sót
-   trong trường hợp B không? Ngưỡng giá 93% dịch đi đâu?
-3. **Ở mục 2, đổi tỷ lệ vỡ nợ từ 20% xuống 15%.** Vốn còn lại bao nhiêu, và giờ bán bớt khoản vay có
-   cứu được không? So với kết luận ở mục 3.
-4. **Ở mục 6, tính ngược:** nếu chi phí giữ tiền mặt là 2%/năm, ngân hàng trung ương có thể hạ lãi suất
-   xuống tới đâu? Vì sao trên thực tế chưa ai đi sâu tới mức đó?
-5. **Ở mục 7, đổi room từ 14% xuống 8%.** Tổng "dùng được" thay đổi thế nào? Ngân hàng nào chuyển từ
-   "vốn chặn" sang "room chặn"? Với mức room bao nhiêu thì **không** ngân hàng nào bị room chặn nữa —
-   và lúc đó room còn tác dụng gì?
+> [!example] Tự thử
+>
+> 1. **Ở mục 4, tìm số ngân hàng nhỏ nhất khiến hệ thống vỡ nợ.** Giữa 1 và 20 có một ngưỡng — nó ở đâu?
+>    Ngưỡng đó nói gì về khái niệm "quá lớn để sụp"?
+> 2. **Ở mục 4, đổi `TY_LE_VON_BP` từ 700 lên 950** (áp đệm nghịch chu kỳ 2,5%). Ngân hàng có sống sót
+>    trong trường hợp B không? Ngưỡng giá 93% dịch đi đâu?
+> 3. **Ở mục 2, đổi tỷ lệ vỡ nợ từ 20% xuống 15%.** Vốn còn lại bao nhiêu, và giờ bán bớt khoản vay có
+>    cứu được không? So với kết luận ở mục 3.
+> 4. **Ở mục 6, tính ngược:** nếu chi phí giữ tiền mặt là 2%/năm, ngân hàng trung ương có thể hạ lãi suất
+>    xuống tới đâu? Vì sao trên thực tế chưa ai đi sâu tới mức đó?
+> 5. **Ở mục 7, đổi room từ 14% xuống 8%.** Tổng "dùng được" thay đổi thế nào? Ngân hàng nào chuyển từ
+>    "vốn chặn" sang "room chặn"? Với mức room bao nhiêu thì **không** ngân hàng nào bị room chặn nữa —
+>    và lúc đó room còn tác dụng gì?
 
 ---
 

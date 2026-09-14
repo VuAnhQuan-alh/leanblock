@@ -1,18 +1,20 @@
 # Bài 14 — Thương mại, ngoại tác, hàng hoá công: thị trường làm tốt ở đâu và hỏng ở đâu
 
+> [!info] Về bài này
 > Bài học dựng từ **bốn chương** của *N. Gregory Mankiw — **Kinh tế học vi mô***,
 > bản dịch của Khoa Kinh tế, **ĐH Kinh tế TP.HCM** (Cengage Learning Asia):
 > **Chương 3 — Sự phụ thuộc lẫn nhau và lợi ích từ thương mại** (tr. 57–76),
 > **Chương 9 — Ứng dụng: thương mại quốc tế** (tr. 190–213),
 > **Chương 10 — Ngoại tác** (tr. 214–236) và
 > **Chương 11 — Hàng hoá công và nguồn lực chung** (tr. 237–254).
-> 🔸 **Vòng 2 — đọc hiểu.** Bốn chương này là **một cặp đối xứng**: hai chương đầu
+>
+> **Vòng 2 — đọc hiểu.** Bốn chương này là **một cặp đối xứng**: hai chương đầu
 > cho thấy thị trường làm tốt đến mức nào và chính phủ nên đứng ngoài; hai chương
 > sau cho thấy nó hỏng ở đâu và vì sao chính phủ phải vào.
-> 💼 **Góc QTKD** — ví dụ thêm cho ngành quản trị kinh doanh, **không có trong sách**.
-> 📚 **Mở rộng** — thứ sách phát biểu bằng lời mà không cho công thức.
-> ⚠️ — chỗ dễ hiểu sai, và **một lỗi in ở tr. 64** ghi ở [mục 3](#3--lỗi-in-tr-64--chi-phí-cơ-hội-của-19-ounce-thịt).
-> 📌 **Cần đọc trước:** [Bài 2](bai_02_cung_va_cau.md) (cung cầu),
+>
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
+>
+> **Cần đọc trước:** [Bài 2](bai_02_cung_va_cau.md) (cung cầu),
 > [Bài 4](bai_04_thang_du_va_chi_phi_cua_thue.md) (thặng dư tiêu dùng và sản xuất —
 > **dùng liên tục ở bài này**) và [Bài 13](bai_13_chinh_phu_can_thiep_thi_truong.md)
 > (thuế và tổn thất vô ích).
@@ -26,13 +28,13 @@
 
 - [1. Bốn chương, một câu hỏi tách làm đôi](#1-bốn-chương-một-câu-hỏi-tách-làm-đôi)
 - [2. Lợi thế tuyệt đối và lợi thế so sánh](#2-lợi-thế-tuyệt-đối-và-lợi-thế-so-sánh)
-- [3. ⚠️ Lỗi in tr. 64 — "chi phí cơ hội của 19 ounce thịt"](#3--lỗi-in-tr-64--chi-phí-cơ-hội-của-19-ounce-thịt)
-- [4. 📚 Đường giới hạn khả năng sản xuất chung — tám ounce bị bỏ phí](#4--đường-giới-hạn-khả-năng-sản-xuất-chung--tám-ounce-bị-bỏ-phí)
-- [5. 📚 Khoảng giá nào thì cả hai cùng có lợi](#5--khoảng-giá-nào-thì-cả-hai-cùng-có-lợi)
+- [3. Lỗi in tr. 64 — "chi phí cơ hội của 19 ounce thịt"](#3-lỗi-in-tr-64--chi-phí-cơ-hội-của-19-ounce-thịt)
+- [4. Đường giới hạn khả năng sản xuất chung — tám ounce bị bỏ phí](#4-đường-giới-hạn-khả-năng-sản-xuất-chung--tám-ounce-bị-bỏ-phí)
+- [5. Khoảng giá nào thì cả hai cùng có lợi](#5-khoảng-giá-nào-thì-cả-hai-cùng-có-lợi)
 - [6. Lợi thế tuyệt đối không quyết định — Tom Brady và hai quốc gia](#6-lợi-thế-tuyệt-đối-không-quyết-định--tom-brady-và-hai-quốc-gia)
 - [7. Isoland — nước nhỏ trước giá thế giới](#7-isoland--nước-nhỏ-trước-giá-thế-giới)
 - [8. Thuế quan — ai được, ai mất, mất bao nhiêu](#8-thuế-quan--ai-được-ai-mất-mất-bao-nhiêu)
-- [9. 📚 Hạn ngạch — cùng một mức giá, khác một khoản tiền](#9--hạn-ngạch--cùng-một-mức-giá-khác-một-khoản-tiền)
+- [9. Hạn ngạch — cùng một mức giá, khác một khoản tiền](#9-hạn-ngạch--cùng-một-mức-giá-khác-một-khoản-tiền)
 - [10. Tám lập luận đòi hạn chế thương mại](#10-tám-lập-luận-đòi-hạn-chế-thương-mại)
 - [11. Đơn phương, đa phương, và ba mươi hai năm giảm thuế quan](#11-đơn-phương-đa-phương-và-ba-mươi-hai-năm-giảm-thuế-quan)
 - [12. Ngoại tác — chỗ bàn tay vô hình không nhìn thấy](#12-ngoại-tác--chỗ-bàn-tay-vô-hình-không-nhìn-thấy)
@@ -40,15 +42,15 @@
 - [14. Ngoại tác tích cực và trợ cấp](#14-ngoại-tác-tích-cực-và-trợ-cấp)
 - [15. Mệnh lệnh–kiểm soát so với công cụ thị trường](#15-mệnh-lệnhkiểm-soát-so-với-công-cụ-thị-trường)
 - [16. Giấy phép chuyển nhượng — ba nhà máy Thung lũng Hạnh phúc](#16-giấy-phép-chuyển-nhượng--ba-nhà-máy-thung-lũng-hạnh-phúc)
-- [17. 📚 Vì sao thuế hiệu chỉnh không chạm tới được mục tiêu 120 đơn vị](#17--vì-sao-thuế-hiệu-chỉnh-không-chạm-tới-được-mục-tiêu-120-đơn-vị)
+- [17. Vì sao thuế hiệu chỉnh không chạm tới được mục tiêu 120 đơn vị](#17-vì-sao-thuế-hiệu-chỉnh-không-chạm-tới-được-mục-tiêu-120-đơn-vị)
 - [18. Định lý Coase và bốn ô của nó](#18-định-lý-coase-và-bốn-ô-của-nó)
 - [19. Giải pháp tư và giới hạn của chúng](#19-giải-pháp-tư-và-giới-hạn-của-chúng)
 - [20. Bốn nhóm hàng hoá](#20-bốn-nhóm-hàng-hoá)
 - [21. Hàng hoá công, kẻ thụ hưởng miễn phí, và pháo hoa](#21-hàng-hoá-công-kẻ-thụ-hưởng-miễn-phí-và-pháo-hoa)
-- [22. 📚 Bốn bạn cùng phòng — vì sao chia đều lại làm một người thiệt](#22--bốn-bạn-cùng-phòng--vì-sao-chia-đều-lại-làm-một-người-thiệt)
+- [22. Bốn bạn cùng phòng — vì sao chia đều lại làm một người thiệt](#22-bốn-bạn-cùng-phòng--vì-sao-chia-đều-lại-làm-một-người-thiệt)
 - [23. Phân tích chi phí–lợi ích và giá của một mạng người](#23-phân-tích-chi-phílợi-ích-và-giá-của-một-mạng-người)
 - [24. Bi kịch nguồn lực chung — Wiknam](#24-bi-kịch-nguồn-lực-chung--wiknam)
-- [25. 💼 Góc QTKD — thuế quan lên đầu vào và tỷ lệ bảo hộ hiệu dụng](#25--góc-qtkd--thuế-quan-lên-đầu-vào-và-tỷ-lệ-bảo-hộ-hiệu-dụng)
+- [25. Góc QTKD — thuế quan lên đầu vào và tỷ lệ bảo hộ hiệu dụng](#25-góc-qtkd--thuế-quan-lên-đầu-vào-và-tỷ-lệ-bảo-hộ-hiệu-dụng)
 - [26. Code minh hoạ](#26-code-minh-hoạ)
 - [27. Tự thử](#27-tự-thử)
 - [28. Từ điển thuật ngữ](#28-từ-điển-thuật-ngữ)
@@ -78,6 +80,7 @@ Nửa A là chỗ mạnh nhất của thị trường: hai người *cùng thắ
 
 Chương 10 mở đầu bằng đúng câu hỏi ấy (tr. 215):
 
+> [!quote]
 > *"Thị trường là một cách thức tốt để tổ chức hoạt động kinh tế. Nếu vậy, chúng ta
 > có nên kết luận bàn tay vô hình sẽ ngăn ngừa các công ty trong thị trường giấy
 > không xả thải quá nhiều điôxin? Các thị trường thực hiện nhiều điều tốt, nhưng
@@ -141,10 +144,11 @@ là điều mà tranh luận công chúng về thương mại thường bỏ qua
 
 ---
 
-## 3. ⚠️ Lỗi in tr. 64 — "chi phí cơ hội của 19 ounce thịt"
+## 3. Lỗi in tr. 64 — "chi phí cơ hội của 19 ounce thịt"
 
 Đoạn giải thích vì sao nông dân chấp nhận giao dịch, ở tr. 64:
 
+> [!quote]
 > *"Giá thịt này thấp hơn so với chi phí cơ hội của **19 ounce thịt** là 4 ounce
 > khoai tây của người nông dân."*
 
@@ -163,7 +167,7 @@ ounce thịt** (15 đổi lấy 5). Tự làm lấy thì mất **4**. Rẻ hơn 
 
 ---
 
-## 4. 📚 Đường giới hạn khả năng sản xuất chung — tám ounce bị bỏ phí
+## 4. Đường giới hạn khả năng sản xuất chung — tám ounce bị bỏ phí
 
 Sách so sánh hai phương án và cho thấy phương án có thương mại tốt hơn. Nhưng nó
 không hỏi câu tiếp theo: **tốt nhất có thể là bao nhiêu?**
@@ -191,7 +195,7 @@ mặt sản xuất, không thể cải thiện thêm mà không giảm món kia.
 
 ---
 
-## 5. 📚 Khoảng giá nào thì cả hai cùng có lợi
+## 5. Khoảng giá nào thì cả hai cùng có lợi
 
 Sách nói (tr. 65–66) giá thịt tính bằng khoai tây phải nằm **giữa 2 và 4**, vì dưới
 2 thì chủ trang trại tự làm rẻ hơn, trên 4 thì nông dân tự làm rẻ hơn.
@@ -319,7 +323,7 @@ giác đúng bằng $t^2$.
 
 ---
 
-## 9. 📚 Hạn ngạch — cùng một mức giá, khác một khoản tiền
+## 9. Hạn ngạch — cùng một mức giá, khác một khoản tiền
 
 Sách nhắc hạn ngạch nhập khẩu nhưng chỉ nói qua. Đặt nó cạnh thuế quan thì ra một
 kết quả sắc:
@@ -491,6 +495,7 @@ Sách tóm lại bằng một câu đáng thuộc (tr. 220):
 
 ![Hình 3 — tr. 220, bản chụp giáo trình](../tai_lieu/hinh/ch10-hinh-03-tr220.png)
 
+> [!quote]
 > *"Ngoại tác tiêu cực khiến cho thị trường sản xuất một sản lượng cao hơn sản lượng
 > mức mong muốn của xã hội. Ngoại tác tích cực khiến cho thị trường sản xuất một sản
 > lượng thấp hơn sản lượng đáng mong muốn về mặt xã hội."*
@@ -571,7 +576,7 @@ dưới $25 thì B vẫn thích mua hơn tự cắt.
 Kết quả then chốt của mục này, và cũng là lý do hệ thống giấy phép hoạt động được
 trong thực tế: **phân bổ ban đầu không quan trọng đối với hiệu quả.** Dù cấp cho ai
 bao nhiêu, giấy phép cuối cùng cũng chảy về nơi có chi phí giảm cao nhất. Phân bổ
-ban đầu chỉ quyết định **ai giàu lên** — giống hệt kết luận ở [mục 9](#9--hạn-ngạch--cùng-một-mức-giá-khác-một-khoản-tiền)
+ban đầu chỉ quyết định **ai giàu lên** — giống hệt kết luận ở [mục 9](#9-hạn-ngạch--cùng-một-mức-giá-khác-một-khoản-tiền)
 về hạn ngạch, và sẽ gặp lại ở [mục 18](#18-định-lý-coase-và-bốn-ô-của-nó) với định
 lý Coase.
 
@@ -583,10 +588,11 @@ không quá khó khăn" và nay được công nhận rộng rãi.
 
 ---
 
-## 17. 📚 Vì sao thuế hiệu chỉnh không chạm tới được mục tiêu 120 đơn vị
+## 17. Vì sao thuế hiệu chỉnh không chạm tới được mục tiêu 120 đơn vị
 
 Sách nêu một hạn chế của thuế bằng lời (tr. 226):
 
+> [!quote]
 > *"bởi vì EPA không biết đường cầu đối với ô nhiễm, họ không chắc chắn về mức thuế
 > cần thiết để đạt được mục tiêu đó. Trong trường hợp này, họ có thể chỉ đơn giản
 > đấu giá 600 giấy phép phát thải."*
@@ -652,7 +658,7 @@ quyết định **phân phối phúc lợi**. Dick giữ chó rồi được Jan
 trả tiền Jane để giữ chó — hai chuyện rất khác nhau với ví tiền của họ. Chỉ có kết
 cục vật lý là như nhau.
 
-Đây là lần thứ ba trong bài gặp cùng một cấu trúc: [hạn ngạch](#9--hạn-ngạch--cùng-một-mức-giá-khác-một-khoản-tiền),
+Đây là lần thứ ba trong bài gặp cùng một cấu trúc: [hạn ngạch](#9-hạn-ngạch--cùng-một-mức-giá-khác-một-khoản-tiền),
 [giấy phép phát thải](#16-giấy-phép-chuyển-nhượng--ba-nhà-máy-thung-lũng-hạnh-phúc),
 và giờ là quyền tài sản. Mỗi lần, **hiệu quả không phụ thuộc vào phân bổ ban đầu,
 nhưng phân phối thì có**. Đó có lẽ là ý tưởng đáng mang đi nhất của cả bài.
@@ -768,7 +774,7 @@ quát không cấp bằng sáng chế được — một nhà toán học không
 
 ---
 
-## 22. 📚 Bốn bạn cùng phòng — vì sao chia đều lại làm một người thiệt
+## 22. Bốn bạn cùng phòng — vì sao chia đều lại làm một người thiệt
 
 Bài tập 5 tr. 252 nhỏ nhưng gói trọn khó khăn của việc cung cấp hàng hoá công. Bốn
 bạn cùng phòng thuê phim xem chung — trong phạm vi phòng ký túc, phim là hàng hoá
@@ -839,11 +845,12 @@ Cách sách chấp nhận: nhìn vào **rủi ro mà người ta tự nguyện �
 phải trả cho họ để làm điều đó**. So sánh lương giữa nghề nguy hiểm và nghề an toàn,
 sau khi kiểm soát học vấn và kinh nghiệm, cho ra khoảng **10 triệu đô la**.
 
-📚 Một phép kiểm mà sách không làm: **ngưỡng hoà vốn** là 10.000 ÷ 0,005 = **2 triệu
-đô la**. Nghĩa là dự án vẫn đáng làm với bất kỳ giá trị mạng sống nào trên 2 triệu.
-Ước lượng 10 triệu cao gấp 5 lần ngưỡng đó, nên **kết luận không nhạy cảm với con số
-gây tranh cãi nhất trong cả phép tính**. Đây là thao tác nên làm với mọi phân tích
-chi phí–lợi ích: đừng bảo vệ con số, hãy chỉ ra rằng kết luận không phụ thuộc vào nó.
+> [!note]
+> Một phép kiểm mà sách không làm: **ngưỡng hoà vốn** là 10.000 ÷ 0,005 = **2 triệu
+> đô la**. Nghĩa là dự án vẫn đáng làm với bất kỳ giá trị mạng sống nào trên 2 triệu.
+> Ước lượng 10 triệu cao gấp 5 lần ngưỡng đó, nên **kết luận không nhạy cảm với con số
+> gây tranh cãi nhất trong cả phép tính**. Đây là thao tác nên làm với mọi phân tích
+> chi phí–lợi ích: đừng bảo vệ con số, hãy chỉ ra rằng kết luận không phụ thuộc vào nó.
 
 ---
 
@@ -897,7 +904,8 @@ Với T = 3/2 và N = 2, thu được 3 con, hoàn lại 0,60 con mỗi người
 | Người nuôi cá    |            2,00 |            2,00 |      **2,60** |
 | **TỔNG cả làng** |          **13** |          **10** |        **14** |
 
-⚠️ Cần đọc bảng này cẩn thận, vì nó dễ bị nói quá:
+> [!warning]
+> Cần đọc bảng này cẩn thận, vì nó dễ bị nói quá:
 
 - Nếu cảnh cửa tự do là **N = 4** (ai cũng được đúng 2 con) thì thuế làm **mọi người
   khá hơn** — một cải thiện Pareto thật sự. Thuế không lấy bớt của ai.
@@ -906,7 +914,7 @@ Với T = 3/2 và N = 2, thu được 3 con, hoàn lại 0,60 con mỗi người
   cho anh ta, **nhưng phải đền bù thật** chứ không tự động xảy ra.
 
 Điểm cuối này là cùng một bài học đã gặp ở [mục 7](#7-isoland--nước-nhỏ-trước-giá-thế-giới)
-với thương mại và ở [mục 22](#22--bốn-bạn-cùng-phòng--vì-sao-chia-đều-lại-làm-một-người-thiệt)
+với thương mại và ở [mục 22](#22-bốn-bạn-cùng-phòng--vì-sao-chia-đều-lại-làm-một-người-thiệt)
 với bốn bạn cùng phòng: **hiệu quả tăng không có nghĩa là không ai thiệt.**
 
 Sách khép chương bằng nghiên cứu tình huống *Tại sao cừu không bị tuyệt chủng* (tr. 249).
@@ -920,7 +928,7 @@ của tất cả mọi người thường ít được quan tâm nhất."*
 
 ---
 
-## 25. 💼 Góc QTKD — thuế quan lên đầu vào và tỷ lệ bảo hộ hiệu dụng
+## 25. Góc QTKD — thuế quan lên đầu vào và tỷ lệ bảo hộ hiệu dụng
 
 Chương 9 chỉ xét thuế quan lên **một** hàng hoá. Nhưng doanh nghiệp Việt Nam hầu như
 luôn ở giữa một chuỗi: nhập nguyên liệu, gia công, bán thành phẩm. Với họ, thuế quan
@@ -968,6 +976,7 @@ nguyên liệu, và với `a` lớn thì phần lợi đó lớn hơn phần m�
 
 ## 26. Code minh hoạ
 
+> [!note]
 > ⚙️ **Chạy:** cần **Python 3.10+** (chỉ dùng thư viện chuẩn). Lưu file rồi gõ
 > `python3 bai-14-thuong-mai-ngoai-tac-hang-hoa-cong.py`. Không cần cài gói nào.
 > File có sẵn tại
@@ -2524,9 +2533,9 @@ sửa rồi chạy lại. Không có lời giải kèm theo — mục đích là
   - tr. 64 — *"chi phí cơ hội của **19** ounce thịt là 4 ounce khoai tây"*; phải là
     **1 ounce**. Đối chiếu với **Bảng 1 tr. 62** trong cùng chương. Đã phóng to 300 dpi.
 - **Ngoài sách:**
-  - Đường giới hạn khả năng sản xuất **chung** ở [mục 4](#4--đường-giới-hạn-khả-năng-sản-xuất-chung--tám-ounce-bị-bỏ-phí)
+  - Đường giới hạn khả năng sản xuất **chung** ở [mục 4](#4-đường-giới-hạn-khả-năng-sản-xuất-chung--tám-ounce-bị-bỏ-phí)
     — sách so sánh hai phương án nhưng không hỏi phương án tốt nhất là gì.
-  - Khoảng giá thu hẹp ở [mục 5](#5--khoảng-giá-nào-thì-cả-hai-cùng-có-lợi) — sách cho
+  - Khoảng giá thu hẹp ở [mục 5](#5-khoảng-giá-nào-thì-cả-hai-cùng-có-lợi) — sách cho
     khoảng [2 ; 4] cho trường hợp chuyên môn hoá hoàn toàn; với kế hoạch cụ thể tr. 63
     khoảng thật là [2,4 ; 3,2].
   - Phương trình cung cầu Isoland ở [mục 7](#7-isoland--nước-nhỏ-trước-giá-thế-giới) và
@@ -2534,16 +2543,16 @@ sửa rồi chạy lại. Không có lời giải kèm theo — mục đích là
     và đánh dấu vùng bằng chữ cái; mô hình tuyến tính ở đây dựng riêng cho bài này.
   - Công thức **tổn thất vô ích = 2t²** ở [mục 8](#8-thuế-quan--ai-được-ai-mất-mất-bao-nhiêu)
     — hệ quả của mô hình trên, sách chỉ vẽ hai tam giác D và F.
-  - So sánh **hạn ngạch với thuế quan** ở [mục 9](#9--hạn-ngạch--cùng-một-mức-giá-khác-một-khoản-tiền).
+  - So sánh **hạn ngạch với thuế quan** ở [mục 9](#9-hạn-ngạch--cùng-một-mức-giá-khác-một-khoản-tiền).
   - Chứng minh bằng số rằng **thuế không chạm tới 120 đơn vị** ở
-    [mục 17](#17--vì-sao-thuế-hiệu-chỉnh-không-chạm-tới-được-mục-tiêu-120-đơn-vị) —
+    [mục 17](#17-vì-sao-thuế-hiệu-chỉnh-không-chạm-tới-được-mục-tiêu-120-đơn-vị) —
     sách phát biểu điều này bằng lời ở tr. 226.
-  - **Giá Lindahl** ở [mục 22](#22--bốn-bạn-cùng-phòng--vì-sao-chia-đều-lại-làm-một-người-thiệt)
+  - **Giá Lindahl** ở [mục 22](#22-bốn-bạn-cùng-phòng--vì-sao-chia-đều-lại-làm-một-người-thiệt)
     — sách chỉ hỏi "có cách nào chia chi phí để mọi người đều có lợi?" mà không tính.
   - **Ngưỡng hoà vốn 2 triệu đô la** ở [mục 23](#23-phân-tích-chi-phílợi-ích-và-giá-của-một-mạng-người).
   - Phân tích **cân bằng bội** và khoảng thuế (1, 2) ở [mục 24](#24-bi-kịch-nguồn-lực-chung--wiknam)
     — bài tập chỉ hỏi "tính giá trị của T", không nói tới việc có tới hai cân bằng.
-  - **Tỷ lệ bảo hộ hiệu dụng** ở [mục 25](#25--góc-qtkd--thuế-quan-lên-đầu-vào-và-tỷ-lệ-bảo-hộ-hiệu-dụng)
+  - **Tỷ lệ bảo hộ hiệu dụng** ở [mục 25](#25-góc-qtkd--thuế-quan-lên-đầu-vào-và-tỷ-lệ-bảo-hộ-hiệu-dụng)
     — khái niệm chuẩn của kinh tế học thương mại, không có trong sách.
 - **Liên hệ chéo:**
   - [Bài 1](bai_01_muoi_nguyen_ly_va_tu_duy_kinh_te.md) — nguyên lý "thương mại làm mọi

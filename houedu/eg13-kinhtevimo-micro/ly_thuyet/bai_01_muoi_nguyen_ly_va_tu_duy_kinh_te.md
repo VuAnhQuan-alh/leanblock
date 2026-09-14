@@ -1,12 +1,14 @@
 # Bài 1 — Mười nguyên lý và tư duy của nhà kinh tế
 
+> [!info] Về bài này
 > Bài học dựng từ **Chương 1** (tr. 3–25) và **Chương 2** (tr. 26–56, gồm phụ lục về đồ thị tr. 47–55)
 > của *N. Gregory Mankiw — **Kinh tế học vi mô***, bản dịch của Khoa Kinh tế, **ĐH Kinh tế TP.HCM** (Cengage Learning Asia).
-> 🎯 **Vòng 1** — bài bắt buộc, học kỹ. Mọi chương sau đều quay lại mười nguyên lý này.
-> 💼 **Góc QTKD** — ví dụ thêm cho ngành quản trị kinh doanh, **không có trong sách**.
-> 📚 **Mở rộng** — thứ sách nói lướt hoặc để trong bài tập mà không giảng.
-> ⚠️ — chỗ dễ hiểu sai, hoặc chỗ sách in sai.
-> 📌 **Cần đọc trước:** không có. Đây là bài đầu tiên.
+>
+> **Vòng 1** — bài bắt buộc, học kỹ. Mọi chương sau đều quay lại mười nguyên lý này.
+>
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
+>
+> **Cần đọc trước:** không có. Đây là bài đầu tiên.
 
 ---
 
@@ -18,7 +20,7 @@
 - [2. Nguyên lý 1 — Con người đối mặt với sự đánh đổi](#2-nguyên-lý-1--con-người-đối-mặt-với-sự-đánh-đổi)
 - [3. Nguyên lý 2 — Chi phí của một thứ là cái mà bạn từ bỏ để có được nó](#3-nguyên-lý-2--chi-phí-của-một-thứ-là-cái-mà-bạn-từ-bỏ-để-có-được-nó)
 - [4. Nguyên lý 3 — Con người duy lý suy nghĩ tại điểm cận biên](#4-nguyên-lý-3--con-người-duy-lý-suy-nghĩ-tại-điểm-cận-biên)
-- [5. 📚 Chi phí chìm — hệ quả quan trọng nhất mà sách để trong bài tập](#5--chi-phí-chìm--hệ-quả-quan-trọng-nhất-mà-sách-để-trong-bài-tập)
+- [5. Chi phí chìm — hệ quả quan trọng nhất mà sách để trong bài tập](#5-chi-phí-chìm--hệ-quả-quan-trọng-nhất-mà-sách-để-trong-bài-tập)
 - [6. Nguyên lý 4 — Con người phản ứng với các động cơ khuyến khích](#6-nguyên-lý-4--con-người-phản-ứng-với-các-động-cơ-khuyến-khích)
 - [7. Nguyên lý 5, 6, 7 — Con người tương tác với nhau](#7-nguyên-lý-5-6-7--con-người-tương-tác-với-nhau)
 - [8. Nguyên lý 8, 9, 10 — Nền kinh tế vận hành như thế nào](#8-nguyên-lý-8-9-10--nền-kinh-tế-vận-hành-như-thế-nào)
@@ -27,8 +29,8 @@
 - [11. Mô hình thứ hai — Đường giới hạn khả năng sản xuất](#11-mô-hình-thứ-hai--đường-giới-hạn-khả-năng-sản-xuất)
 - [12. Kinh tế học vi mô và kinh tế học vĩ mô](#12-kinh-tế-học-vi-mô-và-kinh-tế-học-vĩ-mô)
 - [13. Phát biểu thực chứng và phát biểu chuẩn tắc](#13-phát-biểu-thực-chứng-và-phát-biểu-chuẩn-tắc)
-- [14. 📚 Vì sao các nhà kinh tế bất đồng ý kiến](#14--vì-sao-các-nhà-kinh-tế-bất-đồng-ý-kiến)
-- [15. 📚 Đọc đồ thị: độ dốc, bỏ sót biến, nhân quả ngược](#15--đọc-đồ-thị-độ-dốc-bỏ-sót-biến-nhân-quả-ngược)
+- [14. Vì sao các nhà kinh tế bất đồng ý kiến](#14-vì-sao-các-nhà-kinh-tế-bất-đồng-ý-kiến)
+- [15. Đọc đồ thị: độ dốc, bỏ sót biến, nhân quả ngược](#15-đọc-đồ-thị-độ-dốc-bỏ-sót-biến-nhân-quả-ngược)
 - [16. Code minh hoạ](#16-code-minh-hoạ)
 - [17. Tự thử](#17-tự-thử)
 - [18. Từ điển thuật ngữ](#18-từ-điển-thuật-ngữ)
@@ -50,16 +52,19 @@ xe buýt (tr. 3).
 
 Lý do phải quyết định là **khan hiếm**:
 
+> [!quote]
 > **Khan hiếm** (*scarcity*): bản chất nguồn lực xã hội có giới hạn. — chú thích tr. 3
 
 Và từ đó:
 
+> [!quote]
 > **Kinh tế học** (*economics*): nghiên cứu cách thức xã hội quản lý nguồn lực khan hiếm. — chú thích tr. 3
 
-⚠️ **Đọc kỹ định nghĩa này, vì nó không nói về tiền.** Kinh tế học không phải môn học về tiền, về
-chứng khoán, hay về cách làm giàu. Nó là môn học về **cách phân bổ thứ không đủ dùng**. Tiền chỉ là
-một công cụ đếm. Thời gian của bạn khan hiếm, sự chú ý của khách hàng khan hiếm, công suất nhà máy
-khan hiếm — mọi thứ đó đều là bài toán kinh tế dù không có đồng bạc nào đổi tay.
+> [!warning] Đọc kỹ định nghĩa này, vì nó không nói về tiền.
+> Kinh tế học không phải môn học về tiền, về
+> chứng khoán, hay về cách làm giàu. Nó là môn học về **cách phân bổ thứ không đủ dùng**. Tiền chỉ là
+> một công cụ đếm. Thời gian của bạn khan hiếm, sự chú ý của khách hàng khan hiếm, công suất nhà máy
+> khan hiếm — mọi thứ đó đều là bài toán kinh tế dù không có đồng bạc nào đổi tay.
 
 Sách nói rõ ở hầu hết xã hội, nguồn lực **không** được phân bổ bởi một nhà độc tài có toàn quyền, mà
 qua tương tác của hàng triệu hộ gia đình và doanh nghiệp (tr. 3). Đó là lý do phần lớn cuốn sách là
@@ -111,11 +116,13 @@ Ba tầng ví dụ của sách, từ nhỏ tới lớn:
 
 Sách định nghĩa (chú thích tr. 5):
 
+> [!note]
 > **Hiệu quả** (*efficiency*): tình trạng mà ở đó xã hội đạt được nhiều nhất từ nguồn lực khan hiếm.
 > **Bình đẳng** (*equality*): tình trạng phân phối sự thịnh vượng kinh tế một cách bằng nhau giữa các thành viên.
 
 Ẩn dụ mà sách dùng và cả cuốn sách sẽ còn dùng lại nhiều lần:
 
+> [!quote] tr. 5
 > **Hiệu quả** đề cập đến **quy mô** của chiếc bánh kinh tế, còn **bình đẳng** nói lên chiếc bánh đó
 > được **phân chia** như thế nào. (tr. 5)
 
@@ -123,33 +130,36 @@ Và điểm mấu chốt: hai mục tiêu này **thường xung đột**. Sách 
 nó bình đẳng hơn, nhưng "làm giảm phần thưởng trả cho sự làm việc chăm chỉ và kết quả là mọi người
 làm việc ít hơn và sản xuất ra ít hàng hoá và dịch vụ hơn". Kết luận của sách rất gọn:
 
+> [!quote] tr. 5
 > Khi chính phủ cố gắng cắt chiếc bánh kinh tế thành những phần đều nhau hơn, thì **chiếc bánh nhỏ lại**. (tr. 5)
 
-⚠️ **Nhận thức được sự đánh đổi không tự nói cho ta biết phải chọn gì.** Sách nhấn mạnh riêng đoạn
-này (tr. 5): một sinh viên *không nên* bỏ tâm lý học chỉ để học thêm kinh tế; xã hội *không nên*
-ngừng bảo vệ môi trường; *không nên* bỏ rơi người nghèo. Nhận thức được đánh đổi chỉ có ý nghĩa ở
-chỗ: **người ta ra quyết định tốt hơn khi nhìn rõ các phương án mình đang có.**
+> [!warning] Nhận thức được sự đánh đổi không tự nói cho ta biết phải chọn gì.
+> Sách nhấn mạnh riêng đoạn
+> này (tr. 5): một sinh viên *không nên* bỏ tâm lý học chỉ để học thêm kinh tế; xã hội *không nên*
+> ngừng bảo vệ môi trường; *không nên* bỏ rơi người nghèo. Nhận thức được đánh đổi chỉ có ý nghĩa ở
+> chỗ: **người ta ra quyết định tốt hơn khi nhìn rõ các phương án mình đang có.**
 
-### 💼 Góc QTKD — mọi quyết định quản trị đều là một cặp đánh đổi
-
-Đây là chỗ nguyên lý 1 hữu dụng nhất trong nghề: khi ai đó trình bày một phương án mà **không nêu cái
-phải từ bỏ**, phương án đó chưa được phân tích xong.
-
-| Quyết định                             | Được                            | Đánh đổi thứ gì                                            |
-| -------------------------------------- | ------------------------------- | ---------------------------------------------------------- |
-| Giảm giá 20% để chiếm thị phần         | doanh số, thị phần              | biên lợi nhuận, định vị thương hiệu, kỳ vọng giá của khách |
-| Tăng tồn kho để không bao giờ hết hàng | tỷ lệ đáp ứng đơn               | vốn lưu động bị chôn, rủi ro hàng lỗi mốt                  |
-| Siết quy trình duyệt chi               | kiểm soát rủi ro                | tốc độ ra quyết định, tinh thần nhân viên                  |
-| Thuê ngoài phần sản xuất               | linh hoạt, giảm chi phí cố định | mất bí quyết, phụ thuộc đối tác                            |
-
-Cặp **hiệu quả ↔ bình đẳng** cũng xuất hiện *bên trong* doanh nghiệp: trả lương theo hiệu suất
-(hiệu quả) hay trả đồng đều theo thâm niên (bình đẳng, giữ hoà khí)? Mankiw sẽ quay lại chính xác
-câu hỏi này ở **chương 19** (tr. 445).
+> [!example] Góc QTKD — mọi quyết định quản trị đều là một cặp đánh đổi
+>
+> Đây là chỗ nguyên lý 1 hữu dụng nhất trong nghề: khi ai đó trình bày một phương án mà **không nêu cái
+> phải từ bỏ**, phương án đó chưa được phân tích xong.
+>
+> | Quyết định                             | Được                            | Đánh đổi thứ gì                                            |
+> | -------------------------------------- | ------------------------------- | ---------------------------------------------------------- |
+> | Giảm giá 20% để chiếm thị phần         | doanh số, thị phần              | biên lợi nhuận, định vị thương hiệu, kỳ vọng giá của khách |
+> | Tăng tồn kho để không bao giờ hết hàng | tỷ lệ đáp ứng đơn               | vốn lưu động bị chôn, rủi ro hàng lỗi mốt                  |
+> | Siết quy trình duyệt chi               | kiểm soát rủi ro                | tốc độ ra quyết định, tinh thần nhân viên                  |
+> | Thuê ngoài phần sản xuất               | linh hoạt, giảm chi phí cố định | mất bí quyết, phụ thuộc đối tác                            |
+>
+> Cặp **hiệu quả ↔ bình đẳng** cũng xuất hiện *bên trong* doanh nghiệp: trả lương theo hiệu suất
+> (hiệu quả) hay trả đồng đều theo thâm niên (bình đẳng, giữ hoà khí)? Mankiw sẽ quay lại chính xác
+> câu hỏi này ở **chương 19** (tr. 445).
 
 ---
 
 ## 3. Nguyên lý 2 — Chi phí của một thứ là cái mà bạn từ bỏ để có được nó
 
+> [!quote]
 > **Chi phí cơ hội** (*opportunity cost*): tất cả những cái phải mất đi để có được một thứ gì đó.
 > — chú thích tr. 6
 
@@ -163,6 +173,7 @@ trường *rẻ hơn*, khoản tiết kiệm đó là **lợi ích** của việ
 
 **Lỗi 2 — bỏ sót khoản lớn nhất.** Đó là **thời gian của bạn**:
 
+> [!quote] tr. 6
 > Đối với hầu hết sinh viên, **thu nhập mà họ phải từ bỏ** để theo đuổi việc học đại học là khoản
 > chi phí lớn nhất cho việc học đại học của họ. (tr. 6)
 
@@ -173,19 +184,19 @@ Và hệ quả sách rút ra: các vận động viên trẻ có thể kiếm b�
 Mục 16 tính lại con số này bằng dữ liệu Việt Nam. Kết quả: bỏ sót tiền lương từ bỏ khiến bạn báo
 thiếu **hai phần ba** chi phí thật.
 
-### 💼 Góc QTKD — ba chi phí cơ hội mà báo cáo tài chính không bao giờ ghi
-
-Kế toán ghi chi phí **đã chi bằng tiền**. Kinh tế học tính chi phí **cơ hội**. Ba khoản chênh nhau
-mà một nhà quản trị phải tự cộng vào:
-
-1. **Vốn chủ sở hữu.** Bạn bỏ 2 tỷ vào cửa hàng, lãi 100 triệu/năm. Kế toán ghi *lãi*. Nhưng gửi
-   ngân hàng 6%/năm được 120 triệu — chi phí cơ hội của vốn là 120 triệu, nên thật ra bạn **lỗ 20
-   triệu** so với phương án dễ nhất. Mankiw gọi đây là chênh lệch giữa **lợi nhuận kế toán** và
-   **lợi nhuận kinh tế**, và sẽ giảng kỹ ở **chương 13** (tr. 286).
-2. **Mặt bằng tự có.** "Cửa hàng nhà mình nên không tốn tiền thuê" là câu sai kinh điển. Nếu cho
-   thuê được 30 triệu/tháng thì đó là chi phí thật, dù không có hoá đơn nào.
-3. **Thời gian của người sáng lập.** Bạn tự làm giám đốc và không trả lương cho mình. Mức lương bạn
-   *đáng lẽ nhận được* ở nơi khác là chi phí.
+> [!example] Góc QTKD — ba chi phí cơ hội mà báo cáo tài chính không bao giờ ghi
+>
+> Kế toán ghi chi phí **đã chi bằng tiền**. Kinh tế học tính chi phí **cơ hội**. Ba khoản chênh nhau
+> mà một nhà quản trị phải tự cộng vào:
+>
+> 1. **Vốn chủ sở hữu.** Bạn bỏ 2 tỷ vào cửa hàng, lãi 100 triệu/năm. Kế toán ghi *lãi*. Nhưng gửi
+>    ngân hàng 6%/năm được 120 triệu — chi phí cơ hội của vốn là 120 triệu, nên thật ra bạn **lỗ 20
+>    triệu** so với phương án dễ nhất. Mankiw gọi đây là chênh lệch giữa **lợi nhuận kế toán** và
+>    **lợi nhuận kinh tế**, và sẽ giảng kỹ ở **chương 13** (tr. 286).
+> 2. **Mặt bằng tự có.** "Cửa hàng nhà mình nên không tốn tiền thuê" là câu sai kinh điển. Nếu cho
+>    thuê được 30 triệu/tháng thì đó là chi phí thật, dù không có hoá đơn nào.
+> 3. **Thời gian của người sáng lập.** Bạn tự làm giám đốc và không trả lương cho mình. Mức lương bạn
+>    *đáng lẽ nhận được* ở nơi khác là chi phí.
 
 ---
 
@@ -193,6 +204,7 @@ mà một nhà quản trị phải tự cộng vào:
 
 Hai định nghĩa từ chú thích tr. 6–7:
 
+> [!note]
 > **Người duy lý** (*rational people*): người hành động một cách tốt nhất những gì họ có thể để đạt được mục tiêu.
 > **Sự thay đổi cận biên** (*marginal change*): sự điều chỉnh nhỏ đối với kế hoạch hành động.
 
@@ -213,6 +225,7 @@ thêm một chút nữa hay dừng lại**".
 Nhìn vào chi phí **bình quân** 500 đô: 300 < 500, có vẻ lỗ, từ chối. Nhìn vào chi phí **biên**: máy
 bay dù sao cũng cất cánh, 10 ghế vẫn trống, thêm một người gần như không tốn gì. Kết luận của sách:
 
+> [!quote] tr. 7
 > Chừng nào mà người hành khách dự phòng này còn trả cao hơn chi phí biên, thì việc bán vé cho anh ta
 > vẫn còn có lợi. (tr. 7)
 
@@ -226,30 +239,32 @@ lợi ích biên rất lớn.
 
 Quy tắc tổng quát của cả nguyên lý:
 
+> [!quote] tr. 7
 > Một người quyết định hợp lý thực hiện một hành động **khi và chỉ khi lợi ích biên của hành động
 > vượt quá chi phí biên**. (tr. 7)
 
-⚠️ **Đây là chỗ sai nhiều nhất trong thực tế quản trị.** Chi phí bình quân là con số dễ lấy — nó nằm
-ngay trên báo cáo. Chi phí biên phải tự tính. Nên người ta dùng nhầm con số dễ lấy và **từ chối những
-đơn hàng đáng lẽ có lãi**. Mục 16 chạy đúng phép so sánh này bằng số liệu một xưởng may.
+> [!warning] Đây là chỗ sai nhiều nhất trong thực tế quản trị.
+> Chi phí bình quân là con số dễ lấy — nó nằm
+> ngay trên báo cáo. Chi phí biên phải tự tính. Nên người ta dùng nhầm con số dễ lấy và **từ chối những
+> đơn hàng đáng lẽ có lãi**. Mục 16 chạy đúng phép so sánh này bằng số liệu một xưởng may.
 
-### 💼 Góc QTKD — "giá sàn" thật của bạn là chi phí biên, không phải chi phí bình quân
-
-Một xưởng may: chi phí cố định 400 triệu/tháng, biến phí 120 nghìn/áo, đang làm 10.000 áo →
-chi phí bình quân **160 nghìn/áo**. Khách hỏi mua thêm 500 áo với giá **150 nghìn**.
-
-- So với 160 → "dưới giá thành", từ chối.
-- So với biến phí 120 → mỗi áo đóng góp **30 nghìn**, đơn hàng lãi **15 triệu**.
-
-Nhận đơn. Nhưng có **hai điều kiện** mà nguyên lý biên không tự nói:
-
-1. Xưởng phải **còn công suất trống**. Nếu phải tăng ca, chi phí biên không còn là 120 nghìn nữa.
-2. Khách cũ **không được biết**, nếu không họ sẽ đòi mức 150. Đây chính là bài toán **phân biệt giá**
-   ở **chương 15** (tr. 351).
+> [!example] Góc QTKD — "giá sàn" thật của bạn là chi phí biên, không phải chi phí bình quân
+>
+> Một xưởng may: chi phí cố định 400 triệu/tháng, biến phí 120 nghìn/áo, đang làm 10.000 áo →
+> chi phí bình quân **160 nghìn/áo**. Khách hỏi mua thêm 500 áo với giá **150 nghìn**.
+>
+> - So với 160 → "dưới giá thành", từ chối.
+> - So với biến phí 120 → mỗi áo đóng góp **30 nghìn**, đơn hàng lãi **15 triệu**.
+>
+> Nhận đơn. Nhưng có **hai điều kiện** mà nguyên lý biên không tự nói:
+>
+> 1. Xưởng phải **còn công suất trống**. Nếu phải tăng ca, chi phí biên không còn là 120 nghìn nữa.
+> 2. Khách cũ **không được biết**, nếu không họ sẽ đòi mức 150. Đây chính là bài toán **phân biệt giá**
+>    ở **chương 15** (tr. 351).
 
 ---
 
-## 5. 📚 Chi phí chìm — hệ quả quan trọng nhất mà sách để trong bài tập
+## 5. Chi phí chìm — hệ quả quan trọng nhất mà sách để trong bài tập
 
 Chương 1 **không** dùng thuật ngữ *chi phí chìm* trong phần giảng; nó xuất hiện ở **bài tập 5,
 tr. 23** và mãi tới **chương 14, tr. 316** ("Bình sữa bị đổ và các chi phí chìm") mới được đặt tên.
@@ -268,26 +283,29 @@ trả để hoàn tất là bao nhiêu?
 Mức chi cao nhất còn đáng bỏ ra: **4 triệu**. Năm triệu đã chi **không xuất hiện trong bất kỳ phép
 tính nào** — đó là định nghĩa của chi phí chìm.
 
-⚠️ **Chi phí chìm gây sai lầm theo cả hai chiều.** Chiều quen thuộc là *"đã đổ nhiều tiền rồi, phải
-theo tới cùng"* (sai lầm chi phí chìm cổ điển). Chiều ít ai nói là chiều ngược lại, chính là bài tập
-này: *"tổng cộng lỗ rồi, dừng luôn"* — cũng sai, và cũng vì cùng một lý do.
+> [!warning] Chi phí chìm gây sai lầm theo cả hai chiều.
+> Chiều quen thuộc là *"đã đổ nhiều tiền rồi, phải
+> theo tới cùng"* (sai lầm chi phí chìm cổ điển). Chiều ít ai nói là chiều ngược lại, chính là bài tập
+> này: *"tổng cộng lỗ rồi, dừng luôn"* — cũng sai, và cũng vì cùng một lý do.
 
-### 💼 Góc QTKD — nhận diện chi phí chìm
-
-Ba câu nói trong phòng họp là dấu hiệu:
-
-- *"Mình đã bỏ hai năm vào dự án này rồi..."* → hai năm đó đã mất, không lấy lại được bằng cách bỏ thêm năm thứ ba.
-- *"Đã trả tiền license cả năm nên phải dùng cho hết."* → tiền license đã chi; chỉ nên hỏi phần mềm này còn hữu ích hơn phương án khác không.
-- *"Giá vốn lô hàng này là 200 nghìn, không thể bán dưới giá đó."* → giá vốn đã chi; nếu hàng lỗi mốt, bán 120 nghìn vẫn tốt hơn để mốc trong kho.
+> [!example] Góc QTKD — nhận diện chi phí chìm
+>
+> Ba câu nói trong phòng họp là dấu hiệu:
+>
+> - *"Mình đã bỏ hai năm vào dự án này rồi..."* → hai năm đó đã mất, không lấy lại được bằng cách bỏ thêm năm thứ ba.
+> - *"Đã trả tiền license cả năm nên phải dùng cho hết."* → tiền license đã chi; chỉ nên hỏi phần mềm này còn hữu ích hơn phương án khác không.
+> - *"Giá vốn lô hàng này là 200 nghìn, không thể bán dưới giá đó."* → giá vốn đã chi; nếu hàng lỗi mốt, bán 120 nghìn vẫn tốt hơn để mốc trong kho.
 
 ---
 
 ## 6. Nguyên lý 4 — Con người phản ứng với các động cơ khuyến khích
 
+> [!quote]
 > **Động cơ khuyến khích** (*incentive*): một yếu tố thôi thúc con người hành động. — chú thích tr. 8
 
 Sách dẫn lời một nhà kinh tế tóm tắt cả ngành trong một câu:
 
+> [!quote] tr. 8
 > "Con người phản ứng với các khuyến khích. Mọi thứ khác chỉ là giải thích thêm." (tr. 8)
 
 Ví dụ trực tiếp: giá táo tăng → người mua ăn ít táo hơn, người trồng thuê thêm công nhân và thu hoạch
@@ -332,31 +350,31 @@ liệt kê cho thấy phản ứng lan rất xa khỏi thị trường xăng:
 Sách kết bằng một câu tỉnh táo: nhiều câu chuyện trong số đó *"chỉ là nhất thời"* — suy thoái 2008–2009
 làm giá xăng giảm lại (tr. 10).
 
-### 💼 Góc QTKD — bạn đo cái gì thì bạn sẽ nhận được cái đó
-
-Hộp **Theo dòng thời sự, tr. 11** ("Nơi nào xe buýt chạy đúng giờ", **Austan Goolsbee**, *Slate.com*,
-16/3/2006) là một case QTKD hoàn hảo về thiết kế lương thưởng:
-
-Công ty xe buýt ở **Chile** trả lương tài xế theo **một trong hai cách**: theo **giờ**, hoặc theo
-**số lượng hành khách**. Kết quả: nhóm trả theo số hành khách **giảm đáng kể sự chậm trễ** — tài xế
-tự tìm lối đi tắt khi tắc đường, dành ít thời gian hơn cho bữa ăn, chủ động đón khách nhanh nhất có
-thể. Năng suất tăng. **Hơn 95% các tuyến ở Santiago dùng lương khuyến khích.**
-
-Nhưng bài báo cũng ghi mặt trái, và đây mới là phần đáng học: tài xế đi nhanh hơn thì **gặp tai nạn
-nhiều hơn**, và một số hành khách **phàn nàn buồn nôn** vì tài xế nhấn ga ngay khi khách cuối vừa
-bước lên. Dù vậy, khi được chọn, **đa số hành khách vẫn chọn công ty trả lương khuyến khích**.
-
-Bài học chuyển thẳng sang quản trị: **mọi KPI đều tạo ra hành vi, kể cả hành vi bạn không muốn.**
-
-| KPI bạn đặt                       | Hành vi bạn thật sự mua                   |
-| --------------------------------- | ----------------------------------------- |
-| Số cuộc gọi mỗi giờ của tổng đài  | cúp máy sớm, không giải quyết dứt điểm    |
-| Doanh số của nhân viên bán hàng   | hứa quá lời, đẩy hàng cho khách không cần |
-| Số lỗi mà QA tìm được             | báo cáo lỗi vụn vặt, bỏ qua lỗi khó       |
-| Tỷ lệ giải quyết ticket trong 24h | đóng ticket rồi mở ticket mới             |
-
-⚠️ Nguyên lý 4 không nói *"đừng dùng KPI"*. Nó nói: **trước khi ban hành một chỉ tiêu, hãy hỏi người
-bị đo sẽ thay đổi hành vi thế nào** — kể cả theo hướng bạn không lường trước, đúng như Peltzman.
+> [!example] Góc QTKD — bạn đo cái gì thì bạn sẽ nhận được cái đó
+>
+> Hộp **Theo dòng thời sự, tr. 11** ("Nơi nào xe buýt chạy đúng giờ", **Austan Goolsbee**, *Slate.com*,
+> 16/3/2006) là một case QTKD hoàn hảo về thiết kế lương thưởng:
+>
+> Công ty xe buýt ở **Chile** trả lương tài xế theo **một trong hai cách**: theo **giờ**, hoặc theo
+> **số lượng hành khách**. Kết quả: nhóm trả theo số hành khách **giảm đáng kể sự chậm trễ** — tài xế
+> tự tìm lối đi tắt khi tắc đường, dành ít thời gian hơn cho bữa ăn, chủ động đón khách nhanh nhất có
+> thể. Năng suất tăng. **Hơn 95% các tuyến ở Santiago dùng lương khuyến khích.**
+>
+> Nhưng bài báo cũng ghi mặt trái, và đây mới là phần đáng học: tài xế đi nhanh hơn thì **gặp tai nạn
+> nhiều hơn**, và một số hành khách **phàn nàn buồn nôn** vì tài xế nhấn ga ngay khi khách cuối vừa
+> bước lên. Dù vậy, khi được chọn, **đa số hành khách vẫn chọn công ty trả lương khuyến khích**.
+>
+> Bài học chuyển thẳng sang quản trị: **mọi KPI đều tạo ra hành vi, kể cả hành vi bạn không muốn.**
+>
+> | KPI bạn đặt                       | Hành vi bạn thật sự mua                   |
+> | --------------------------------- | ----------------------------------------- |
+> | Số cuộc gọi mỗi giờ của tổng đài  | cúp máy sớm, không giải quyết dứt điểm    |
+> | Doanh số của nhân viên bán hàng   | hứa quá lời, đẩy hàng cho khách không cần |
+> | Số lỗi mà QA tìm được             | báo cáo lỗi vụn vặt, bỏ qua lỗi khó       |
+> | Tỷ lệ giải quyết ticket trong 24h | đóng ticket rồi mở ticket mới             |
+>
+> ⚠️ Nguyên lý 4 không nói *"đừng dùng KPI"*. Nó nói: **trước khi ban hành một chỉ tiêu, hãy hỏi người
+> bị đo sẽ thay đổi hành vi thế nào** — kể cả theo hướng bạn không lường trước, đúng như Peltzman.
 
 ---
 
@@ -367,6 +385,7 @@ bị đo sẽ thay đổi hành vi thế nào** — kể cả theo hướng bạ
 Sai lầm phổ biến mà sách chỉ ra: coi cạnh tranh giữa các nước như một cuộc thi đấu thể thao "luôn có
 kẻ thắng, người thua". Sách bác bỏ thẳng:
 
+> [!quote] tr. 12
 > Sự thật thì điều ngược lại mới đúng: thương mại giữa hai nước có thể làm **cả hai bên cùng được lợi**. (tr. 12)
 
 Lập luận bắc cầu qua gia đình: gia đình bạn cạnh tranh với các gia đình khác (khi đi xin việc, khi đi
@@ -377,6 +396,7 @@ nhà. Thương mại cho phép **chuyên môn hoá** vào việc mình làm tố
 
 ### Nguyên lý 6: Thị trường thường là phương thức tốt để tổ chức hoạt động kinh tế (tr. 12–14)
 
+> [!quote]
 > **Nền kinh tế thị trường** (*market economy*): nền kinh tế phân bổ các nguồn lực thông qua các quyết
 > định phi tập trung của doanh nghiệp và hộ gia đình trong quá trình tương tác trên các thị trường
 > hàng hoá và dịch vụ. — chú thích tr. 12
@@ -388,16 +408,19 @@ Câu trả lời là **Adam Smith**, *Bàn về bản chất và nguồn gốc c
 ẩn dụ **"bàn tay vô hình"** (tr. 13). Hộp **Bạn có biết, tr. 14** dẫn nguyên văn Smith, trong đó có
 câu nổi tiếng nhất:
 
+> [!quote] dẫn ở tr. 14
 > "Không phải nhờ lòng nhân từ của những người bán thịt, chủ cửa hàng rượu hay người bán bánh mì mà
 > chúng ta có được bữa tối, mà chính là do họ quan tâm đến lợi ích riêng của họ..." (dẫn ở tr. 14)
 
 Điều quan trọng hơn ẩn dụ là **cơ chế**: bàn tay vô hình vận hành **thông qua giá cả**.
 
+> [!quote] tr. 13
 > Giá cả phản ánh cả **giá trị** của một hàng hoá đối với xã hội và **chi phí** mà xã hội bỏ ra để sản
 > xuất ra hàng hoá đó. (tr. 13)
 
 Và hệ quả mà sách rút ra ngay, rất đáng nhớ:
 
+> [!quote] tr. 13
 > Khi ngăn không cho giá cả điều chỉnh một cách tự nhiên theo cung và cầu, chính phủ cũng đồng thời
 > **cản trở khả năng của bàn tay vô hình**. (tr. 13)
 
@@ -408,6 +431,7 @@ thất bại: họ *"vận hành nền kinh tế với một bàn tay bị trói
 
 Ba khái niệm mới, từ chú thích tr. 15:
 
+> [!note]
 > **Quyền sở hữu tài sản** (*property rights*): khả năng của một cá nhân sở hữu và thực hiện các quyền kiểm soát nguồn lực khan hiếm.
 > **Thất bại thị trường** (*market failure*): tình huống mà thị trường tự nó thất bại trong việc phân bổ nguồn lực một cách hiệu quả.
 > **Ngoại tác** (*externality*): ảnh hưởng do hành động của một người tạo ra đối với phúc lợi của người ngoài cuộc.
@@ -432,8 +456,10 @@ Vì sao cần chính phủ?
              thuế thu nhập, hệ thống phúc lợi xã hội
 ```
 
-⚠️ **Sách cẩn thận cảnh báo ngay sau đó**, và đây là câu dễ bị bỏ qua nhất chương:
+> [!warning] Sách cẩn thận cảnh báo ngay sau đó
+> , và đây là câu dễ bị bỏ qua nhất chương:
 
+> [!quote] tr. 16
 > Việc nói rằng trong một số trường hợp, chính phủ có thể cải thiện kết quả thị trường **không có
 > nghĩa là nó sẽ luôn luôn làm được như vậy**. Các chính sách công không phải do thần thánh tạo ra,
 > mà là kết quả của một quá trình chính trị không hoàn hảo. (tr. 16)
@@ -441,17 +467,17 @@ Vì sao cần chính phủ?
 Nghĩa là "thị trường thất bại" **không** tự động suy ra "chính phủ nên can thiệp". Phải so sánh thất
 bại thị trường với **thất bại của chính phủ**.
 
-### 💼 Góc QTKD — nguyên lý 7 chính là "môi trường pháp lý" trong phân tích PESTEL
-
-Ba nguyên lý này thường bị coi là phần "chính trị" nhàm chán của môn học. Với người làm quản trị,
-chúng là bản đồ rủi ro:
-
-| Nguyên lý                | Câu hỏi kinh doanh                                                                                         |
-| ------------------------ | ---------------------------------------------------------------------------------------------------------- |
-| 5 — thương mại           | thuê ngoài khâu nào? nhập nguyên liệu từ đâu?                                                              |
-| 6 — giá cả là tín hiệu   | khi giá đầu vào tăng, đó là tín hiệu khan hiếm — không phải chuyện để "than", mà để đổi công thức sản phẩm |
-| 7 — quyền sở hữu         | hợp đồng, sở hữu trí tuệ, nhượng quyền: nếu không thực thi được thì mô hình kinh doanh sụp                 |
-| 7 — quyền lực thị trường | bạn có đang bị nhà cung cấp độc quyền ép giá không?                                                        |
+> [!example] Góc QTKD — nguyên lý 7 chính là "môi trường pháp lý" trong phân tích PESTEL
+>
+> Ba nguyên lý này thường bị coi là phần "chính trị" nhàm chán của môn học. Với người làm quản trị,
+> chúng là bản đồ rủi ro:
+>
+> | Nguyên lý                | Câu hỏi kinh doanh                                                                                         |
+> | ------------------------ | ---------------------------------------------------------------------------------------------------------- |
+> | 5 — thương mại           | thuê ngoài khâu nào? nhập nguyên liệu từ đâu?                                                              |
+> | 6 — giá cả là tín hiệu   | khi giá đầu vào tăng, đó là tín hiệu khan hiếm — không phải chuyện để "than", mà để đổi công thức sản phẩm |
+> | 7 — quyền sở hữu         | hợp đồng, sở hữu trí tuệ, nhượng quyền: nếu không thực thi được thì mô hình kinh doanh sụp                 |
+> | 7 — quyền lực thị trường | bạn có đang bị nhà cung cấp độc quyền ép giá không?                                                        |
 
 ---
 
@@ -462,6 +488,7 @@ cần đào sâu — sẽ học đủ ở môn *Kinh tế học vĩ mô*.
 
 ### Nguyên lý 8: Mức sống phụ thuộc vào năng lực sản xuất (tr. 16–17)
 
+> [!quote]
 > **Năng suất** (*productivity*): số lượng hàng hoá và dịch vụ được sản xuất ra từ một đơn vị lao động.
 > — chú thích tr. 17
 
@@ -483,6 +510,7 @@ thập niên 1970–1980 **không phải** do cạnh tranh từ Nhật, mà do *
 
 ### Nguyên lý 9: Giá cả tăng khi chính phủ in quá nhiều tiền (tr. 17–18)
 
+> [!quote]
 > **Lạm phát** (*inflation*): sự gia tăng của mức giá chung trong nền kinh tế. — chú thích tr. 17
 
 Ví dụ siêu lạm phát Đức mà sách dùng, con số cần nhớ:
@@ -509,6 +537,7 @@ tăng lượng tiền
    → thất nghiệp GIẢM
 ```
 
+> [!quote]
 > **Chu kỳ kinh tế** (*business cycle*): sự biến động của hoạt động kinh tế, chẳng hạn như việc làm và
 > sản xuất. — chú thích tr. 18
 
@@ -517,16 +546,18 @@ lớn đầu tiên của Tổng thống **Barack Obama** là gói kích thích g
 chính phủ**, đồng thời **Cục Dự trữ Liên bang tăng cung tiền** — mục tiêu là giảm thất nghiệp, nhưng
 nhiều người lo ngại lạm phát quá mức về sau (tr. 19).
 
-⚠️ **Sách in năm 2008–2009 tính theo bản gốc.** Khi đọc các con số vĩ mô ở nguyên lý 8–10, hãy nhớ
-đây là ảnh chụp nền kinh tế Mỹ **gần hai thập kỷ trước**. Cơ chế thì vẫn đúng; con số thì đã cũ.
+> [!warning] Sách in năm 2008–2009 tính theo bản gốc.
+> Khi đọc các con số vĩ mô ở nguyên lý 8–10, hãy nhớ
+> đây là ảnh chụp nền kinh tế Mỹ **gần hai thập kỷ trước**. Cơ chế thì vẫn đúng; con số thì đã cũ.
 
-### 💼 Góc QTKD — vì sao người làm quản trị vẫn phải để mắt tới ba nguyên lý vĩ mô
+> [!example] Góc QTKD — vì sao người làm quản trị vẫn phải để mắt tới ba nguyên lý vĩ mô
+>
+> | Nguyên lý     | Ảnh hưởng trực tiếp tới doanh nghiệp                                                                                       |
+> | ------------- | -------------------------------------------------------------------------------------------------------------------------- |
+> | 8 — năng suất | tăng lương bền vững chỉ đến từ tăng năng suất; tăng lương mà năng suất đứng yên thì hoặc giá bán tăng, hoặc lợi nhuận giảm |
+> | 9 — lạm phát  | hợp đồng dài hạn giá cố định là canh bạc; ngân sách năm sau phải tính theo giá danh nghĩa                                  |
+> | 10 — chu kỳ   | tuyển ồ ạt lúc đỉnh chu kỳ là sai lầm cổ điển; cấu trúc chi phí cố định cao rất nguy hiểm khi cầu sụt                      |
 
-| Nguyên lý     | Ảnh hưởng trực tiếp tới doanh nghiệp                                                                                       |
-| ------------- | -------------------------------------------------------------------------------------------------------------------------- |
-| 8 — năng suất | tăng lương bền vững chỉ đến từ tăng năng suất; tăng lương mà năng suất đứng yên thì hoặc giá bán tăng, hoặc lợi nhuận giảm |
-| 9 — lạm phát  | hợp đồng dài hạn giá cố định là canh bạc; ngân sách năm sau phải tính theo giá danh nghĩa                                  |
-| 10 — chu kỳ   | tuyển ồ ạt lúc đỉnh chu kỳ là sai lầm cổ điển; cấu trúc chi phí cố định cao rất nguy hiểm khi cầu sụt                      |
 ---
 
 ## 9. Nhà kinh tế là nhà khoa học — giả định và mô hình
@@ -542,15 +573,17 @@ mẫu.
 
 Nhưng có **một trở ngại lớn** mà sách nêu thẳng:
 
+> [!quote] tr. 28
 > Trong kinh tế học, thực hiện một thí nghiệm thường là khó khăn và đôi khi là bất khả thi. (tr. 28)
 
 Nhà vật lý thả vật thể trong phòng thí nghiệm bao nhiêu lần cũng được. Nhà kinh tế **không thể điều
 khiển chính sách tiền tệ của một quốc gia chỉ để tạo ra dữ liệu**. Nên họ phải dùng **thí nghiệm tự
 nhiên do lịch sử tạo ra** — chiến tranh ở Trung Đông cắt nguồn cung dầu thô là một ví dụ sách nêu (tr. 28).
 
-⚠️ **Hệ quả cho toàn bộ cách bạn đọc số liệu kinh tế:** vì hầu hết dữ liệu là **quan sát** chứ không
-phải **thí nghiệm**, mọi kết luận nhân quả trong kinh tế học đều mong manh hơn trong vật lý. Mục 15
-sẽ cho thấy chính xác hai cách nó hỏng.
+> [!warning] Hệ quả cho toàn bộ cách bạn đọc số liệu kinh tế:
+> vì hầu hết dữ liệu là **quan sát** chứ không
+> phải **thí nghiệm**, mọi kết luận nhân quả trong kinh tế học đều mong manh hơn trong vật lý. Mục 15
+> sẽ cho thấy chính xác hai cách nó hỏng.
 
 ### Vai trò của các giả định (tr. 28–29)
 
@@ -561,6 +594,7 @@ nhỏ nên **không ảnh hưởng đáng kể**.
 Bây giờ thả một **quả bóng to cùng trọng lượng**: giả định không ma sát **không còn dùng được**, vì
 quả bóng lớn hơn nhiều.
 
+> [!quote] tr. 28
 > Nghệ thuật trong tư duy khoa học — cho dù là trong vật lý, sinh học hay kinh tế học — chính là ở
 > chỗ **quyết định xem cần phải giả định cái gì**. (tr. 28)
 
@@ -574,15 +608,17 @@ hiện tượng, hai giả định khác nhau, tuỳ câu hỏi.
 có đủ cơ và mao mạch — nhưng *"thật ra, cũng bởi vì thiếu đi tính thực tế"* mà nó dạy được cấu tạo cơ
 thể. Mô hình kinh tế cũng vậy, chỉ khác là chúng làm bằng **biểu đồ và phương trình**.
 
-⚠️ **Câu hỏi ôn tập số 3 của sách (tr. 45) là bẫy:** *"Một mô hình kinh tế có nên mô tả thực tiễn một
-cách chính xác hay không?"* Trả lời: **không**. Một mô hình chính xác tuyệt đối sẽ phức tạp đúng bằng
-thực tế và do đó vô dụng. Mô hình tốt là mô hình **bỏ đi đúng những thứ không liên quan tới câu hỏi
-đang hỏi**.
+> [!warning] Câu hỏi ôn tập số 3 của sách (tr. 45) là bẫy:
+> *"Một mô hình kinh tế có nên mô tả thực tiễn một
+> cách chính xác hay không?"* Trả lời: **không**. Một mô hình chính xác tuyệt đối sẽ phức tạp đúng bằng
+> thực tế và do đó vô dụng. Mô hình tốt là mô hình **bỏ đi đúng những thứ không liên quan tới câu hỏi
+> đang hỏi**.
 
 ---
 
 ## 10. Mô hình thứ nhất — Sơ đồ chu chuyển
 
+> [!quote]
 > **Sơ đồ chu chuyển** (*circular-flow diagram*): biểu đồ biểu thị dòng tiền luân chuyển thông qua các
 > thị trường, giữa các hộ gia đình và doanh nghiệp. — chú thích tr. 30
 
@@ -633,6 +669,7 @@ trong hình (tr. 31). Đó là chủ ý — xem lại mục 9 về vai trò củ
 
 ## 11. Mô hình thứ hai — Đường giới hạn khả năng sản xuất
 
+> [!quote] tr. 31
 > **Đường giới hạn khả năng sản xuất** (*production possibility frontier*, PPF): đồ thị biểu thị những
 > phối hợp khác nhau của sản lượng đầu ra mà nền kinh tế có thể sản xuất, khi sử dụng các yếu tố và
 > công nghệ sản xuất sẵn có. (tr. 31)
@@ -664,6 +701,7 @@ $$\text{ô tô } 600 \to 700 \ (+100) \qquad \text{máy tính } 2200 \to 2000 \ 
 
 Chi phí cơ hội của 100 ô tô là 200 máy tính, tức **2 máy tính mỗi ô tô**. Và sách chỉ ra điều then chốt:
 
+> [!quote] tr. 33
 > Chi phí cơ hội của một chiếc xe hơi chính là **độ dốc** của đường giới hạn khả năng sản xuất. (tr. 33)
 
 **④ Vì sao đường cong ra ngoài chứ không phải đường thẳng** — vì chi phí cơ hội **không cố định**.
@@ -685,10 +723,11 @@ Tiến bộ công nghệ trong ngành máy tính đẩy đường giới hạn *
 có thể chuyển từ **A (600 ô tô, 2.200 máy tính)** sang **G (650 ô tô, 2.300 máy tính)** — **nhiều hơn
 ở cả hai mặt hàng**.
 
-⚠️ **Đính chính — sách in sai một con số, tr. 34.**
+> [!warning] Đính chính — sách in sai một con số, tr. 34.
 
 Nguyên văn dòng thứ 8 của tr. 34:
 
+> [!quote]
 > "...xã hội di chuyển từ điểm A sang điểm G với nhiều máy tính hơn (2.300 thay vì **2.000**) và nhiều
 > xe hơi hơn (650 thay vì 600)."
 
@@ -702,25 +741,25 @@ Con số **2.000** là **sai**, phải là **2.200**:
 Không đổi kết luận (G vẫn tốt hơn A ở cả hai mặt hàng), nhưng nếu bạn dùng con số 2.000 để làm bài
 tập thì sẽ ra sai. Ghi nhớ: **A = (600; 2.200)**.
 
-### 💼 Góc QTKD — PPF của một nhà máy, một phòng ban, một con người
-
-PPF không chỉ dùng cho "nền kinh tế". Nó dùng được cho **bất kỳ đơn vị nào có nguồn lực cố định phải
-chia cho hai việc**:
-
-| Đơn vị         | Trục X        | Trục Y          | "Điểm nằm trong đường" nghĩa là gì            |
-| -------------- | ------------- | --------------- | --------------------------------------------- |
-| Nhà máy        | bàn           | ghế             | máy hỏng, công nhân chờ việc, đổi mẫu quá lâu |
-| Đội bán hàng   | khách mới     | chăm khách cũ   | quy trình rối, CRM tệ, họp quá nhiều          |
-| Đội phát triển | tính năng mới | trả nợ kỹ thuật | môi trường build chậm, thiếu tự động hoá      |
-| Bản thân bạn   | học           | làm thêm        | mất tập trung, ngủ không đủ                   |
-
-Và đây là điều đáng giá nhất: **rất nhiều tổ chức tưởng mình đang phải đánh đổi, trong khi thật ra
-đang ở điểm D.** Khi bạn còn ở bên trong đường giới hạn, câu hỏi đúng **không phải** "ưu tiên cái
-nào" mà là "**cái gì đang khiến chúng ta không hiệu quả**". Chỉ khi đã ở trên đường thì mới thật sự
-phải chọn.
-
-Mục 16 dựng một PPF cụ thể cho nhà máy bàn–ghế, tính chi phí cơ hội từng bước và vẽ đường cong bằng
-ký tự, để bạn thấy tận mắt việc nó dốc dần lên.
+> [!example] Góc QTKD — PPF của một nhà máy, một phòng ban, một con người
+>
+> PPF không chỉ dùng cho "nền kinh tế". Nó dùng được cho **bất kỳ đơn vị nào có nguồn lực cố định phải
+> chia cho hai việc**:
+>
+> | Đơn vị         | Trục X        | Trục Y          | "Điểm nằm trong đường" nghĩa là gì            |
+> | -------------- | ------------- | --------------- | --------------------------------------------- |
+> | Nhà máy        | bàn           | ghế             | máy hỏng, công nhân chờ việc, đổi mẫu quá lâu |
+> | Đội bán hàng   | khách mới     | chăm khách cũ   | quy trình rối, CRM tệ, họp quá nhiều          |
+> | Đội phát triển | tính năng mới | trả nợ kỹ thuật | môi trường build chậm, thiếu tự động hoá      |
+> | Bản thân bạn   | học           | làm thêm        | mất tập trung, ngủ không đủ                   |
+>
+> Và đây là điều đáng giá nhất: **rất nhiều tổ chức tưởng mình đang phải đánh đổi, trong khi thật ra
+> đang ở điểm D.** Khi bạn còn ở bên trong đường giới hạn, câu hỏi đúng **không phải** "ưu tiên cái
+> nào" mà là "**cái gì đang khiến chúng ta không hiệu quả**". Chỉ khi đã ở trên đường thì mới thật sự
+> phải chọn.
+>
+> Mục 16 dựng một PPF cụ thể cho nhà máy bàn–ghế, tính chi phí cơ hội từng bước và vẽ đường cong bằng
+> ký tự, để bạn thấy tận mắt việc nó dốc dần lên.
 
 ---
 
@@ -728,6 +767,7 @@ ký tự, để bạn thấy tận mắt việc nó dốc dần lên.
 
 Chú thích tr. 35:
 
+> [!note]
 > **Kinh tế học vi mô** (*microeconomics*): môn học nghiên cứu quá trình ra quyết định của các hộ gia
 > đình và doanh nghiệp, và tương tác của họ trên các thị trường.
 > **Kinh tế học vĩ mô** (*macroeconomics*): môn học nghiên cứu những hiện tượng tổng quát của nền kinh
@@ -744,9 +784,10 @@ Ví dụ đối chiếu của sách (tr. 35):
 Sách nói rõ hai nhánh **đan xen mật thiết** nhưng vẫn là hai lĩnh vực riêng biệt vì "đặt ra những câu
 hỏi khác nhau, mỗi lĩnh vực có các khung mô hình riêng" (tr. 35).
 
-💼 **Với QTKD, vi mô là môn gần nghề hơn hẳn.** Vi mô trả lời *"định giá bao nhiêu, sản xuất bao
-nhiêu, đối thủ sẽ làm gì"*. Vĩ mô trả lời *"năm sau nền kinh tế thế nào"* — quan trọng cho lập kế
-hoạch, nhưng bạn không điều khiển được nó.
+> [!example] Với QTKD, vi mô là môn gần nghề hơn hẳn.
+> Vi mô trả lời *"định giá bao nhiêu, sản xuất bao
+> nhiêu, đối thủ sẽ làm gì"*. Vĩ mô trả lời *"năm sau nền kinh tế thế nào"* — quan trọng cho lập kế
+> hoạch, nhưng bạn không điều khiển được nó.
 
 ---
 
@@ -754,11 +795,13 @@ hoạch, nhưng bạn không điều khiển được nó.
 
 Hai câu ví dụ của sách (tr. 36) — đáng thuộc lòng vì đề thi rất hay hỏi:
 
+> [!quote]
 > **POLLY:** "Quy định mức lương tối thiểu gây ra thất nghiệp."
 > **NORM:** "Chính phủ nên tăng mức lương tối thiểu."
 
 Chú thích tr. 37:
 
+> [!note]
 > **Phát biểu thực chứng** (*positive statement*): phát biểu mô tả thế giới.
 > **Phát biểu chuẩn tắc** (*normative statement*): những phát biểu chỉ ra sự việc nên diễn ra như thế nào.
 
@@ -782,23 +825,23 @@ lần hỏi ý kiến thì luôn nhận được *"Một mặt thì..., mặt kh
 *"On the one hand..., on the other hand..."*, chữ *hand* nghĩa đen là "tay" (chú thích của người dịch,
 tr. 37).
 
-### 💼 Góc QTKD — tách hai loại phát biểu trong chính cuộc họp của bạn
-
-Đây là kỹ năng dùng được ngay, không cần đợi tới lúc bàn chính sách công:
-
-| Câu trong phòng họp                                | Loại           | Cách xử lý                                                        |
-| -------------------------------------------------- | -------------- | ----------------------------------------------------------------- |
-| "Giảm giá 10% sẽ làm doanh số tăng 25%."           | **thực chứng** | đòi bằng chứng — dữ liệu cũ, A/B test, ước lượng độ co giãn       |
-| "Chúng ta nên giảm giá."                           | **chuẩn tắc**  | đòi làm rõ **mục tiêu**: tối đa lợi nhuận? thị phần? dòng tiền?   |
-| "Khách hàng trẻ nhạy giá hơn khách hàng lớn tuổi." | **thực chứng** | phân khúc dữ liệu ra mà kiểm                                      |
-| "Thương hiệu chúng ta không nên giảm giá bao giờ." | **chuẩn tắc**  | đây là một **giá trị**, tranh luận bằng số liệu sẽ đi vào ngõ cụt |
-
-Phần lớn tranh cãi bế tắc trong doanh nghiệp là do **hai bên tưởng đang cãi về sự thật, thật ra đang
-cãi về mục tiêu**. Tách hai loại phát biểu ra là cách nhanh nhất để thoát.
+> [!example] Góc QTKD — tách hai loại phát biểu trong chính cuộc họp của bạn
+>
+> Đây là kỹ năng dùng được ngay, không cần đợi tới lúc bàn chính sách công:
+>
+> | Câu trong phòng họp                                | Loại           | Cách xử lý                                                        |
+> | -------------------------------------------------- | -------------- | ----------------------------------------------------------------- |
+> | "Giảm giá 10% sẽ làm doanh số tăng 25%."           | **thực chứng** | đòi bằng chứng — dữ liệu cũ, A/B test, ước lượng độ co giãn       |
+> | "Chúng ta nên giảm giá."                           | **chuẩn tắc**  | đòi làm rõ **mục tiêu**: tối đa lợi nhuận? thị phần? dòng tiền?   |
+> | "Khách hàng trẻ nhạy giá hơn khách hàng lớn tuổi." | **thực chứng** | phân khúc dữ liệu ra mà kiểm                                      |
+> | "Thương hiệu chúng ta không nên giảm giá bao giờ." | **chuẩn tắc**  | đây là một **giá trị**, tranh luận bằng số liệu sẽ đi vào ngõ cụt |
+>
+> Phần lớn tranh cãi bế tắc trong doanh nghiệp là do **hai bên tưởng đang cãi về sự thật, thật ra đang
+> cãi về mục tiêu**. Tách hai loại phát biểu ra là cách nhanh nhất để thoát.
 
 ---
 
-## 14. 📚 Vì sao các nhà kinh tế bất đồng ý kiến
+## 14. Vì sao các nhà kinh tế bất đồng ý kiến
 
 Sách dành hẳn một mục cho câu hỏi này (tr. 41–43), mở bằng câu châm biếm của **George Bernard Shaw**:
 *"Nếu gom tất cả các nhà kinh tế ngồi lại với nhau, họ sẽ không thể thống nhất về một điểm nào cả"*,
@@ -824,6 +867,7 @@ Chính sách này có công bằng không? Sách đặt tiếp những câu khô
 thấp do bị khuyết tật hay do chọn theo đuổi nghề diễn xuất? Peter thu nhập cao do thừa hưởng gia tài
 hay do sẵn lòng làm thêm giờ?* Và kết luận:
 
+> [!quote] tr. 42
 > Ngay cả khi khoa học kinh tế trở nên hoàn hảo, nó cũng không thể cho chúng ta biết rằng Peter hay
 > Paula có đang phải trả quá nhiều hay không. (tr. 42)
 
@@ -856,7 +900,7 @@ rào cản trong tiến trình chính trị, hoặc các nhà kinh tế **chưa 
 
 ---
 
-## 15. 📚 Đọc đồ thị: độ dốc, bỏ sót biến, nhân quả ngược
+## 15. Đọc đồ thị: độ dốc, bỏ sót biến, nhân quả ngược
 
 Phần này lấy từ **phụ lục chương 2, tr. 47–55**. Sách xếp nó vào phụ lục, nhưng với QTKD đây là mục
 **hữu dụng bậc nhất của cả chương** — vì công việc thật sự của bạn phần lớn là **đọc đồ thị người khác
@@ -894,11 +938,12 @@ Ví dụ của sách: đường cầu tiểu thuyết của Emma, phụ thuộc 
 
 Quy tắc mà sách phát biểu (tr. 52), cần nhớ vì bài 2 sẽ dùng liên tục:
 
+> [!note]
 > Khi có một biến **trên một trục nào đó** của đồ thị thay đổi → **di chuyển dọc theo** đường.
 > Khi một biến **không nằm trên trục nào** thay đổi (thu nhập, thư viện đóng cửa, giá vé xem phim
 > giảm) → **cả đường dịch chuyển**.
 
-### ⚠️ Hai cái bẫy nhân quả (tr. 54–55)
+### Hai cái bẫy nhân quả (tr. 54–55)
 
 Đây là phần đáng giá nhất của phụ lục.
 
@@ -909,6 +954,7 @@ quẹt và bắt in cảnh báo *"Hộp quẹt rất nguy hiểm đến sức kh
 Sai ở đâu? **Biến bị bỏ sót là việc hút thuốc.** Người có nhiều hộp quẹt thường là người hút thuốc, và
 **thuốc lá** — chứ không phải hộp quẹt — mới gây ung thư. Câu kiểm tra mà sách đưa ra:
 
+> [!quote] tr. 55
 > Ngoại trừ biến đang tìm hiểu, [nghiên cứu này] có giữ được các biến khác có liên quan sao cho không
 > đổi hay không? Nếu câu trả lời là không, kết quả này rất đáng ngờ. (tr. 55)
 
@@ -919,30 +965,34 @@ sát gây ra tội phạm, nên giải tán lực lượng thực thi pháp lu�
 Sai ở đâu? **Chiều nhân quả ngược lại**: thành phố nguy hiểm hơn thì **tuyển nhiều cảnh sát hơn**.
 Và sách nêu đúng cách khắc phục:
 
+> [!quote] tr. 55
 > Nếu như chúng ta thực hiện một **thí nghiệm có kiểm soát**... phân bổ số lượng cảnh sát ở các thành
 > phố khác nhau một cách **ngẫu nhiên** và sau đó kiểm tra tương quan... (tr. 55)
 
-⚠️ **Nối với môn Xác suất Thống kê.** Đây chính xác là cảnh báo ở **bài 14** của môn đó: *tương quan
-không phải nhân quả*. Ở đó bạn học **cách tính** hệ số tương quan $r$; ở đây bạn học **khi nào không
-được tin nó**. Hai mảnh ghép của cùng một kỹ năng.
+> [!warning] Nối với môn Xác suất Thống kê.
+> Đây chính xác là cảnh báo ở **bài 14** của môn đó: *tương quan
+> không phải nhân quả*. Ở đó bạn học **cách tính** hệ số tương quan $r$; ở đây bạn học **khi nào không
+> được tin nó**. Hai mảnh ghép của cùng một kỹ năng.
 
 Mục 16 dựng lại đúng câu chuyện hộp quẹt bằng số liệu mô phỏng: hệ số tương quan trên toàn mẫu là
 $r = +0{,}23$, nhưng **tách riêng theo việc hút thuốc thì $r$ về gần 0**. Bạn sẽ thấy tương quan giả
 biến mất ngay trước mắt.
 
-### 💼 Góc QTKD — bốn câu hỏi trước khi tin một đồ thị
+> [!example] Góc QTKD — bốn câu hỏi trước khi tin một đồ thị
+>
+> 1. **Trục tung có bắt đầu từ 0 không?** Cắt trục làm mọi thay đổi trông kịch tính gấp mấy lần.
+> 2. **Có biến nào bị bỏ sót không?** "Khách dùng app của ta chi tiêu nhiều hơn 40%" — hay là **khách
+>    chi nhiều vốn dĩ hay cài app**?
+> 3. **Chiều nhân quả có chắc không?** "Chi quảng cáo nhiều thì doanh thu cao" — hay **doanh thu cao
+>    nên mới có ngân sách quảng cáo**?
+> 4. **Đây là dữ liệu quan sát hay thí nghiệm?** Chỉ **thí nghiệm có đối chứng** (A/B test phân nhóm
+>    ngẫu nhiên) mới cho phép kết luận nhân quả.
 
-1. **Trục tung có bắt đầu từ 0 không?** Cắt trục làm mọi thay đổi trông kịch tính gấp mấy lần.
-2. **Có biến nào bị bỏ sót không?** "Khách dùng app của ta chi tiêu nhiều hơn 40%" — hay là **khách
-   chi nhiều vốn dĩ hay cài app**?
-3. **Chiều nhân quả có chắc không?** "Chi quảng cáo nhiều thì doanh thu cao" — hay **doanh thu cao
-   nên mới có ngân sách quảng cáo**?
-4. **Đây là dữ liệu quan sát hay thí nghiệm?** Chỉ **thí nghiệm có đối chứng** (A/B test phân nhóm
-   ngẫu nhiên) mới cho phép kết luận nhân quả.
 ---
 
 ## 16. Code minh hoạ
 
+> [!note]
 > ⚙️ **Chạy:** cần **Python 3.10+** (máy nào cũng có sẵn trên macOS/Linux). Lưu file rồi gõ
 > `python3 bai-01-nguyen-ly-va-tu-duy.py`. **Không cần cài gói nào** — chỉ dùng thư viện chuẩn.
 > File cũng có sẵn tại [thuc_hanh/bai-01-nguyen-ly-va-tu-duy.py](../thuc_hanh/bai-01-nguyen-ly-va-tu-duy.py).

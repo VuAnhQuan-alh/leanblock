@@ -1,14 +1,17 @@
 # Bài 0 — Từ vi mô sang vĩ mô
 
+> [!info] Về bài này
 > Bài cầu nối, dựng từ **Chương 1 — Mười nguyên lý của kinh tế học** (tr. 3–26) và
 > **Chương 2 — Suy nghĩ như một nhà kinh tế học** (tr. 27–57)
 > của *N. Gregory Mankiw — **Kinh tế học vĩ mô***, bản dịch của Khoa Kinh tế, **ĐH Kinh tế TP.HCM** (Cengage Learning Asia).
-> 🔸 **Vòng 2 — đọc hiểu, không cần học thuộc.** Chín chương đầu của sách vĩ mô **trùng nội dung**
+>
+> **Vòng 2 — đọc hiểu, không cần học thuộc.** Chín chương đầu của sách vĩ mô **trùng nội dung**
 > với sách vi mô mà bạn đã học ở môn [EG13](../../eg13-kinhtevimo-micro/README.md). Bài này
 > **không dạy lại** chúng — nó chỉ lấy ra đúng những mảnh sẽ dùng tiếp, và chỉ chỗ tra lại phần còn lại.
-> 💼 **Góc QTKD** — ví dụ thêm cho ngành quản trị kinh doanh, **không có trong sách**.
-> ⚠️ — chỗ dễ hiểu sai, hoặc chỗ sách in sai.
-> 📌 **Đọc bài này trong 30 phút, rồi sang [bài 1](bai_01_do_luong_thu_nhap_quoc_gia.md).**
+>
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
+>
+> **Đọc bài này trong 30 phút, rồi sang [bài 1](bai_01_do_luong_thu_nhap_quoc_gia.md).**
 
 ---
 
@@ -18,7 +21,7 @@
 
 - [1. Vì sao có bài số 0](#1-vì-sao-có-bài-số-0)
 - [2. Chương 1–9 đã học ở đâu](#2-chương-19-đã-học-ở-đâu)
-- [3. ⚠️ Hai chỗ dễ gây nhầm ngay từ đầu](#3--hai-chỗ-dễ-gây-nhầm-ngay-từ-đầu)
+- [3. Hai chỗ dễ gây nhầm ngay từ đầu](#3-hai-chỗ-dễ-gây-nhầm-ngay-từ-đầu)
 - [4. Sơ đồ chu chuyển — nền móng của GDP](#4-sơ-đồ-chu-chuyển--nền-móng-của-gdp)
 - [5. Đường giới hạn khả năng sản xuất — nền móng của "ngắn hạn / dài hạn"](#5-đường-giới-hạn-khả-năng-sản-xuất--nền-móng-của-ngắn-hạn--dài-hạn)
 - [6. Tăng trưởng kinh tế = đường dịch ra ngoài — Hình 3, tr. 35](#6-tăng-trưởng-kinh-tế--đường-dịch-ra-ngoài--hình-3-tr-35)
@@ -26,8 +29,8 @@
 - [8. Nguyên lý 8 — mức sống phụ thuộc năng suất](#8-nguyên-lý-8--mức-sống-phụ-thuộc-năng-suất)
 - [9. Nguyên lý 9 — giá cả tăng khi chính phủ in quá nhiều tiền](#9-nguyên-lý-9--giá-cả-tăng-khi-chính-phủ-in-quá-nhiều-tiền)
 - [10. Nguyên lý 10 — đánh đổi ngắn hạn giữa lạm phát và thất nghiệp](#10-nguyên-lý-10--đánh-đổi-ngắn-hạn-giữa-lạm-phát-và-thất-nghiệp)
-- [11. 📚 Vai trò của giả định — vì sao vĩ mô có **hai** bộ mô hình](#11--vai-trò-của-giả-định--vì-sao-vĩ-mô-có-hai-bộ-mô-hình)
-- [12. 💼 Góc QTKD — đường giới hạn khả năng sản xuất của một doanh nghiệp](#12--góc-qtkd--đường-giới-hạn-khả-năng-sản-xuất-của-một-doanh-nghiệp)
+- [11. Vai trò của giả định — vì sao vĩ mô có **hai** bộ mô hình](#11-vai-trò-của-giả-định--vì-sao-vĩ-mô-có-hai-bộ-mô-hình)
+- [12. Góc QTKD — đường giới hạn khả năng sản xuất của một doanh nghiệp](#12-góc-qtkd--đường-giới-hạn-khả-năng-sản-xuất-của-một-doanh-nghiệp)
 - [13. Bản đồ toàn môn học](#13-bản-đồ-toàn-môn-học)
 - [14. Code minh hoạ](#14-code-minh-hoạ)
 - [15. Tự thử](#15-tự-thử)
@@ -73,7 +76,7 @@ Nếu bạn còn nhớ rõ EG13, đọc mục 2 rồi nhảy thẳng xuống m�
 |    8 | Ứng dụng: chi phí của thuế                     |  174 | [bài 4](../../eg13-kinhtevimo-micro/ly_thuyet/bai_04_thang_du_va_chi_phi_cua_thue.md)        | tổn thất vô ích                          |
 |    9 | Ứng dụng: thương mại quốc tế                   |  190 | [bài 14](../../eg13-kinhtevimo-micro/ly_thuyet/bai_14_thuong_mai_ngoai_tac_hang_hoa_cong.md) | nền của bài 9–10                         |
 
-### ⚠️ Số trang hai cuốn **lệch nhau** — đừng tra nhầm
+### Số trang hai cuốn **lệch nhau** — đừng tra nhầm
 
 | Chương         | Sách vi mô (EG13) | Sách vĩ mô (EG14) |
 | -------------- | ----------------- | ----------------- |
@@ -86,7 +89,7 @@ với quy đổi **trang sách N = trang PDF N + 35**).
 
 ---
 
-## 3. ⚠️ Hai chỗ dễ gây nhầm ngay từ đầu
+## 3. Hai chỗ dễ gây nhầm ngay từ đầu
 
 ### ① Tên tệp trong kho ghi sai
 
@@ -103,15 +106,18 @@ xác nhận điều đó. Tên tệp giữ nguyên để khỏi làm hỏng các
 
 Trang 36 có hai chú thích chân trang đánh số 1 và 2. Đây là những gì sách **in ra**:
 
+> [!note]
 > 1. **Kinh tế học vi mô** — môn học nghiên cứu quá trình ra quyết định của các hộ gia đình và doanh
 >    nghiệp, và tương tác của họ trên các thị trường.
 > 2. **Kinh tế học vi mô** — môn học nghiên cứu những hiện tượng tổng quát của nền kinh tế, bao gồm
 >    lạm phát, thất nghiệp và tăng trưởng kinh tế.
 
-⚠️ **Chú thích 2 phải là "Kinh tế học *vĩ* mô".** Cả hai chú thích cùng in "vi mô".
+> [!warning] Chú thích 2 phải là "Kinh tế học *vĩ* mô".
+> Cả hai chú thích cùng in "vi mô".
 
 Không cần đoán — **chính đoạn văn trên cùng trang đó** viết đúng:
 
+> [!quote]
 > *"**Kinh tế học vi mô** nghiên cứu các hộ gia đình và doanh nghiệp ra quyết định như thế nào và tương
 > tác với nhau ra sao trên các thị trường cụ thể. **Kinh tế học vĩ mô** nghiên cứu các hiện tượng
 > trong tổng thể nền kinh tế."* — tr. 36
@@ -143,6 +149,7 @@ và **hai thị trường**.
       └──────────────────────────────────────────────────┘
 ```
 
+> [!quote]
 > **Sơ đồ chu chuyển** (*circular-flow diagram*): biểu đồ biểu thị dòng tiền luân chuyển thông qua các
 > thị trường, giữa các hộ gia đình và doanh nghiệp. — chú thích tr. 31
 
@@ -161,10 +168,11 @@ Sách theo một đồng tiền đi hết một vòng: từ túi bạn → quầ
 Starbucks trả tiền thuê mặt bằng và lương nhân viên (thành **thu nhập** của một hộ gia đình khác) →
 lại vào túi ai đó → bắt đầu lại.
 
+> [!quote]
 > *"Trong bất kỳ trường hợp nào thì dòng tiền cũng trở thành thu nhập của một vài hộ gia đình, và một
 > lần nữa, nó lại đi vào túi của ai đó."*
 
-### ⭐ Hai điều mang thẳng sang phần vĩ mô
+### Hai điều mang thẳng sang phần vĩ mô
 
 **① Cắt vòng tròn ở đâu cũng ra cùng một số.**
 
@@ -185,6 +193,7 @@ tại sao bỏ được: *"những chi tiết này không quan trọng khi tìm 
 
 **Mô hình thứ hai** của sách (tr. 32). Nền kinh tế đồ chơi chỉ sản xuất **ô tô** và **máy tính**.
 
+> [!note]
 > **Đường giới hạn khả năng sản xuất** (*production possibilities frontier*): một đồ thị biểu thị những
 > phối hợp khác nhau của sản lượng đầu ra mà nền kinh tế có thể sản xuất — trong trường hợp này là ô tô
 > và máy tính — khi sử dụng các yếu tố và công nghệ sản xuất sẵn có.
@@ -217,10 +226,11 @@ $$\text{Chi phí cơ hội của 1 ô tô} = \frac{200 \text{ máy tính}}{100 \
 Sách in đúng con số này (tr. 34): *"tại điểm A, chi phí cơ hội của 100 chiếc xe hơi là 200 chiếc máy
 tính. Nói cách khác, chi phí cơ hội của mỗi chiếc xe hơi là hai chiếc máy tính."* Và:
 
+> [!quote]
 > *"Để ý một chút chúng ta thấy chi phí cơ hội của một chiếc xe hơi **chính là độ dốc của đường giới hạn
 > khả năng sản xuất**."*
 
-### ⚠️ Vì sao đường **cong ra ngoài**
+### Vì sao đường **cong ra ngoài**
 
 Vì chi phí cơ hội **không cố định**. Lý do là **nguồn lực không đồng nhất** (tr. 34):
 
@@ -234,10 +244,11 @@ xe hơi, ví dụ như công nhân sản xuất xe hơi lành nghề, lại ph�
 Bởi vì những người công nhân này không giỏi chế tạo máy tính, nền kinh tế sẽ không phải hy sinh nhiều máy
 tính để sản xuất thêm một chiếc xe hơi."*
 
-### ⭐⭐ Điểm D là cầu nối quan trọng nhất sang phần vĩ mô
+### Điểm D là cầu nối quan trọng nhất sang phần vĩ mô
 
 Sách giải thích vì sao D không hiệu quả (tr. 33):
 
+> [!quote]
 > *"Điểm D biểu thị một kết quả **không hiệu quả**. Có lẽ vì một vài lý do nào đó, ví dụ như **tình trạng
 > thất nghiệp lan rộng**, nền kinh tế sản xuất ít hơn khả năng mà nó có thể đạt được."*
 
@@ -276,6 +287,7 @@ Tiến bộ công nghệ trong ngành **máy tính**: đầu mút máy tính đi
 ⭐ **Cả hai cùng tăng.** Đây là định nghĩa trực quan của tăng trưởng kinh tế: không phải "sản xuất nhiều
 thứ này và ít thứ kia", mà là **nhiều hơn ở cả hai**.
 
+> [!quote]
 > *"Hình này minh họa một sự **tăng trưởng kinh tế**. Xã hội có thể chuyển đổi sản xuất từ một điểm trên
 > đường giới hạn khả năng sản xuất cũ sang một đường mới. Điểm nào được chọn phụ thuộc vào sự ưa thích
 > tùy theo hai loại hàng hóa."* — tr. 35
@@ -299,10 +311,11 @@ sinh vật học **tế bào** nghiên cứu tế bào, nhà sinh vật học **
 | Nghiên cứu              | hộ gia đình và doanh nghiệp ra quyết định, tương tác trên **thị trường cụ thể**                                        | các hiện tượng trong **tổng thể** nền kinh tế                                                                                           |
 | Ví dụ của sách (tr. 36) | kiểm soát giá thuê nhà ở New York · cạnh tranh nước ngoài lên công nghiệp xe hơi Mỹ · giáo dục bắt buộc lên tiền lương | vay mượn của chính phủ liên bang · thay đổi của tỷ lệ thất nghiệp qua thời gian · chính sách nâng cao chất lượng cuộc sống một quốc gia |
 
-### ⭐ Nhưng hai môn **không tách rời**
+### Nhưng hai môn **không tách rời**
 
 Sách nói rất rõ (tr. 36):
 
+> [!quote]
 > *"Bởi vì những thay đổi trong nền kinh tế tổng thể **phát sinh từ các quyết định của hàng triệu cá
 > nhân**, chúng ta không thể nắm bắt được quá trình phát triển kinh tế vĩ mô mà không quan tâm gì đến
 > những quyết định kinh tế vi mô có liên quan."*
@@ -311,13 +324,15 @@ Ví dụ của sách: nhà kinh tế vĩ mô muốn biết tác động của c�
 hàng hoá và dịch vụ. *"Nhưng để phân tích vấn đề này, họ phải nghiên cứu xem cắt giảm thuế ảnh hưởng như
 thế nào đến việc chi tiêu cho các hàng hóa và dịch vụ của các hộ gia đình."*
 
-⚠️ Vậy nên đừng nghĩ bạn đang bắt đầu một môn mới từ số không. **Bạn đang dùng cùng bộ công cụ trên một
-đối tượng lớn hơn.**
+> [!warning]
+> Vậy nên đừng nghĩ bạn đang bắt đầu một môn mới từ số không. **Bạn đang dùng cùng bộ công cụ trên một
+> đối tượng lớn hơn.**
 
 ---
 
 ## 8. Nguyên lý 8 — mức sống phụ thuộc năng suất
 
+> [!quote]
 > *"Mức sống của một nước phụ thuộc vào năng lực sản xuất hàng hóa và dịch vụ của nước đó."* — tr. 16
 
 Số liệu năm **2008** mà sách đưa (tr. 16):
@@ -328,21 +343,24 @@ Số liệu năm **2008** mà sách đưa (tr. 16):
 | Mexico  |         10.000 USD |      gấp 7 lần |
 | Nigeria |          1.400 USD |             1× |
 
+> [!quote]
 > **Năng suất** (*productivity*): số lượng hàng hóa và dịch vụ được sản xuất ra từ một đơn vị lao động.
 > — chú thích tr. 17
 
-### ⚠️ Hai "thủ phạm" bị sách loại trừ thẳng thừng — tr. 17
+### Hai "thủ phạm" bị sách loại trừ thẳng thừng — tr. 17
 
 Đây là phần đáng đọc nhất của nguyên lý 8, vì nó bác bỏ hai lời giải thích rất phổ biến:
 
 **① Không phải nghiệp đoàn hay luật tiền lương tối thiểu.**
 
+> [!quote]
 > *"Chẳng hạn, người ta có thể cho rằng nghiệp đoàn hoặc luật về tiền lương tối thiểu có đóng góp làm
 > tăng mức sống của công nhân Hoa Kỳ trong thế kỷ qua. Song **người anh hùng thật sự của công nhân Hoa
 > Kỳ là năng suất lao động ngày càng tăng lên của họ**."*
 
 **② Không phải cạnh tranh từ Nhật Bản trong thập niên 1970–80.**
 
+> [!quote]
 > *"…một số nhà bình luận cho rằng nguyên nhân dẫn tới mức tăng trưởng chậm trong thu nhập của Hoa Kỳ
 > trong thập niên 1970 và 1980 là sự cạnh tranh tăng lên từ Nhật và các nước khác. Nhưng **thủ phạm thực
 > sự không phải là sự cạnh tranh từ nước ngoài, mà chính là sự tăng trưởng chậm của năng suất ở Hoa Kỳ**."*
@@ -353,6 +371,7 @@ là biến bạn kiểm soát được.
 
 ### Hệ quả chính sách
 
+> [!quote]
 > *"Khi suy nghĩ xem một chính sách sẽ tác động như thế nào đến mức sống, vấn đề then chốt là ở chỗ nó
 > sẽ tác động tới **năng lực sản xuất hàng hóa và dịch vụ** như thế nào."* — tr. 17
 
@@ -362,6 +381,7 @@ là biến bạn kiểm soát được.
 
 ## 9. Nguyên lý 9 — giá cả tăng khi chính phủ in quá nhiều tiền
 
+> [!quote]
 > **Lạm phát** (*inflation*): sự gia tăng của mức giá chung trong nền kinh tế. — chú thích tr. 17
 
 Ví dụ kinh điển của sách — **Đức, đầu thập niên 1920** (tr. 17):
@@ -377,13 +397,15 @@ bình **giá nhân 2,40 lần mỗi tháng**.
 Sách viết ở tr. 18: *"Vào đầu những năm 1920, khi giá cả ở Đức tăng **gấp 3 lần mỗi tháng**, lượng tiền
 cũng tăng gấp 3 lần mỗi tháng."*
 
-⚠️ **2,40 thấp hơn 3 — có mâu thuẫn không?** Không. Siêu lạm phát **không đều**: tháng đầu còn nhẹ, tháng
-cuối kinh khủng. Code kiểm điều đó theo chiều ngược lại: nếu 10 tháng cuối đúng là gấp 3 lần/tháng, thì
-12 tháng đầu phải chạy ở **1,99 lần/tháng**. Cả hai đều hợp lý cho một đợt siêu lạm phát đang tăng tốc,
-và chúng **nhất quán** với hai đầu mút giá mà sách in ra.
+> [!warning] 2,40 thấp hơn 3 — có mâu thuẫn không?
+> Không. Siêu lạm phát **không đều**: tháng đầu còn nhẹ, tháng
+> cuối kinh khủng. Code kiểm điều đó theo chiều ngược lại: nếu 10 tháng cuối đúng là gấp 3 lần/tháng, thì
+> 12 tháng đầu phải chạy ở **1,99 lần/tháng**. Cả hai đều hợp lý cho một đợt siêu lạm phát đang tăng tốc,
+> và chúng **nhất quán** với hai đầu mút giá mà sách in ra.
 
 ### Thủ phạm
 
+> [!quote]
 > *"Nguyên nhân gây ra lạm phát là gì? Trong hầu hết các trường hợp lạm phát trầm trọng hoặc kéo dài,
 > **dường như đều có chung một thủ phạm: sự gia tăng của lượng tiền**."* — tr. 18
 
@@ -401,9 +423,10 @@ chỉ cần nhớ một dòng: **lạm phát cao kéo dài luôn đi kèm cung t
 
 ## 10. Nguyên lý 10 — đánh đổi ngắn hạn giữa lạm phát và thất nghiệp
 
+> [!quote]
 > *"Xã hội đối mặt với sự đánh đổi **ngắn hạn** giữa lạm phát và thất nghiệp."* — tr. 18
 
-### ⭐ Chuỗi suy luận ba bước — học thuộc chuỗi này
+### Chuỗi suy luận ba bước — học thuộc chuỗi này
 
 Sách trình bày đúng ba bước (tr. 18):
 
@@ -419,7 +442,7 @@ Sách trình bày đúng ba bước (tr. 18):
 
 Bài 11, 12, 13 dùng lại nguyên chuỗi này, chỉ thêm đồ thị.
 
-### ⚠️ Ba chữ "trong ngắn hạn" là tất cả
+### Ba chữ "trong ngắn hạn" là tất cả
 
 Nguyên lý 9 nói về **dài hạn** và nói ngược lại: in tiền chỉ làm tăng giá, không tạo thêm việc làm.
 Nguyên lý 10 nói về **ngắn hạn**. Chúng **không mâu thuẫn** — chúng nói về hai khung thời gian khác nhau.
@@ -436,6 +459,7 @@ tăng lượng cung tiền, **mối quan hệ này trong ngắn hạn phức t�
 
 ### Công cụ chính sách
 
+> [!quote]
 > *"Bằng cách thay đổi **số tiền chính phủ chi tiêu**, **số tiền chính phủ thu thuế**, và **lượng tiền
 > in ra**, các nhà hoạch định chính sách có thể tác động đến tổng cầu hàng hóa và dịch vụ."* — tr. 18
 
@@ -444,20 +468,20 @@ tăng lượng cung tiền, **mối quan hệ này trong ngắn hạn phức t�
 | chi tiêu chính phủ + thuế | **chính sách tài khoá** | bài 12    |
 | lượng tiền                | **chính sách tiền tệ**  | bài 7, 12 |
 
-### 📚 Ví dụ thời sự của sách — khủng hoảng 2008–2009, tr. 20
-
-Sách kể lại phản ứng chính sách của Hoa Kỳ: gói kích thích của Tổng thống Obama (**cắt giảm thuế và tăng
-chi tiêu chính phủ** — tài khoá), đồng thời Cục Dự trữ Liên bang **tăng cung tiền** (tiền tệ). Rồi ghi
-lại mối lo đi kèm:
-
-> *"Tuy nhiên, nhiều người lo ngại rằng những chính sách này theo thời gian có thể dẫn đến một mức độ
-> **lạm phát quá mức**."*
-
-⭐ Đó chính là sự đánh đổi ở nguyên lý 10, xảy ra ngoài đời thật, trong khoảng thời gian sách được viết.
+> [!note] Ví dụ thời sự của sách — khủng hoảng 2008–2009, tr. 20
+>
+> Sách kể lại phản ứng chính sách của Hoa Kỳ: gói kích thích của Tổng thống Obama (**cắt giảm thuế và tăng
+> chi tiêu chính phủ** — tài khoá), đồng thời Cục Dự trữ Liên bang **tăng cung tiền** (tiền tệ). Rồi ghi
+> lại mối lo đi kèm:
+>
+> > *"Tuy nhiên, nhiều người lo ngại rằng những chính sách này theo thời gian có thể dẫn đến một mức độ
+> > **lạm phát quá mức**."*
+>
+> ⭐ Đó chính là sự đánh đổi ở nguyên lý 10, xảy ra ngoài đời thật, trong khoảng thời gian sách được viết.
 
 ---
 
-## 11. 📚 Vai trò của giả định — vì sao vĩ mô có **hai** bộ mô hình
+## 11. Vai trò của giả định — vì sao vĩ mô có **hai** bộ mô hình
 
 Mục này (tr. 29–30) trả lời một câu hỏi mà sinh viên hay thấy khó chịu: *"sao chỗ này bảo giá cứng, chỗ
 kia bảo giá linh hoạt?"*
@@ -466,15 +490,18 @@ Sách mở bằng vật lý: hỏi một nhà vật lý viên đá cẩm thạch
 giả định **rơi trong chân không**. Giả định đó **không chính xác** — có không khí, có ma sát — nhưng ma
 sát lên viên đá nhỏ nên **ảnh hưởng không đáng kể**.
 
-⚠️ Nhưng đổi vật thể thì phải đổi giả định:
+> [!warning]
+> Nhưng đổi vật thể thì phải đổi giả định:
 
+> [!quote]
 > *"Nhà vật lý sẽ nhận ra ngay rằng giả định không có ma sát không còn chính xác trong trường hợp này:
 > lực ma sát tác động lên quả bóng sẽ lớn hơn so với viên đá bởi vì quả bóng lớn hơn nhiều. **Giả định
 > về lực hấp dẫn trong trường hợp thả viên đá là hợp lý nhưng không thể áp dụng trong nghiên cứu với
 > quả bóng.**"* — tr. 29
 
-### ⭐ Áp thẳng vào môn học này — tr. 30
+### Áp thẳng vào môn học này — tr. 30
 
+> [!quote]
 > *"Ví dụ như khi nghiên cứu tác động trong **ngắn hạn**, chúng ta có thể giả định rằng **giá cả không
 > thay đổi nhiều**. Chúng ta thậm chí có thể đưa ra các giả định mang tính giả tưởng và cực đoan rằng
 > giá cả là hoàn toàn cố định. Khi nghiên cứu tác động của chính sách trong **dài hạn**, chúng ta có thể
@@ -488,18 +515,19 @@ sát lên viên đá nhỏ nên **ảnh hưởng không đáng kể**.
 📌 Vậy nên khi bài 8 nói *"in tiền chỉ làm tăng giá"* và bài 12 nói *"in tiền làm tăng sản lượng"*, không
 bài nào sai. Chúng đang thả **hai vật thể khác nhau**.
 
-💼 Điều này cũng đúng với mô hình kinh doanh của bạn: một mô hình dự báo doanh thu tuần tới và một mô hình
-dự báo doanh thu năm năm tới **phải** có giả định khác nhau. Dùng nhầm mô hình là lỗi phổ biến hơn nhiều
-so với xây mô hình sai.
+> [!example]
+> Điều này cũng đúng với mô hình kinh doanh của bạn: một mô hình dự báo doanh thu tuần tới và một mô hình
+> dự báo doanh thu năm năm tới **phải** có giả định khác nhau. Dùng nhầm mô hình là lỗi phổ biến hơn nhiều
+> so với xây mô hình sai.
 
 ---
 
-## 12. 💼 Góc QTKD — đường giới hạn khả năng sản xuất của một doanh nghiệp
+## 12. Góc QTKD — đường giới hạn khả năng sản xuất của một doanh nghiệp
 
 PPF không chỉ dành cho quốc gia. Mục 8 của [code minh hoạ](#14-code-minh-hoạ) dựng một xưởng có **2.000
 giờ máy/tháng**, sản phẩm A tốn 2 giờ, sản phẩm B tốn 5 giờ.
 
-### ⚠️ Đường giới hạn của doanh nghiệp là một đường **thẳng**
+### Đường giới hạn của doanh nghiệp là một đường **thẳng**
 
 ```
    quốc gia:      nguồn lực KHÔNG đồng nhất  →  chi phí cơ hội THAY ĐỔI  →  đường CONG
@@ -517,7 +545,7 @@ không phải lợi nhuận trên mỗi sản phẩm, mà **lợi nhuận trên 
 ⭐ **B thắng, dù lợi nhuận gộp mỗi đơn vị nhìn có vẻ "nặng" hơn hẳn.** Quyết định đúng là dồn hết giờ máy
 vào B.
 
-### ⚠️ Nhưng đừng dừng ở đó
+### Nhưng đừng dừng ở đó
 
 Kết luận "dồn hết vào sản phẩm có biên lợi nhuận cao nhất trên nguồn lực ràng buộc" chỉ đúng khi **nguồn
 lực thay thế được hoàn toàn** — hiếm khi đúng trong thực tế. Doanh nghiệp càng lớn, càng nhiều loại nguồn
@@ -564,6 +592,7 @@ Sau bài này, mười bốn bài còn lại xếp thành ba khối:
 
 ## 14. Code minh hoạ
 
+> [!note]
 > ⚙️ **Chạy:** cần **Python 3.10+**. Lưu file rồi gõ `python3 bai-00-tu-vi-mo-sang-vi-mo.py`.
 > Không cần cài gói nào — chỉ dùng thư viện chuẩn. Kết quả **tất định**.
 > Bản đầy đủ nằm ở [`thuc_hanh/bai-00-tu-vi-mo-sang-vi-mo.py`](../thuc_hanh/bai-00-tu-vi-mo-sang-vi-mo.py).
@@ -1271,9 +1300,9 @@ Kết quả chạy thật:
   - **tr. 36** — hai chú thích chân trang **cùng in "Kinh tế học vi mô"**. Chú thích 2 (định nghĩa
     "nghiên cứu những hiện tượng tổng quát của nền kinh tế, bao gồm lạm phát, thất nghiệp và tăng trưởng
     kinh tế") phải là **"Kinh tế học *vĩ* mô"**. Đối chiếu: chính đoạn văn trên cùng trang viết đúng cả
-    hai tên. Ghi ở [mục 3②](#3--hai-chỗ-dễ-gây-nhầm-ngay-từ-đầu).
+    hai tên. Ghi ở [mục 3②](#3-hai-chỗ-dễ-gây-nhầm-ngay-từ-đầu).
   - **Tên tệp PDF** trong kho ghi *"Kinh te hoc Vi mo (MacroEconomics)"* — nội dung là **vĩ mô**. Giữ
-    nguyên tên tệp để không làm hỏng liên kết. Ghi ở [mục 3①](#3--hai-chỗ-dễ-gây-nhầm-ngay-từ-đầu).
+    nguyên tên tệp để không làm hỏng liên kết. Ghi ở [mục 3①](#3-hai-chỗ-dễ-gây-nhầm-ngay-từ-đầu).
   - **tr. 16** — sách viết thu nhập bình quân Hoa Kỳ tăng ~2%/năm và *"trong thế kỷ qua… đã tăng gấp tám
     lần"*. Kiểm lại: $1{,}02^{100} = 7{,}2$ lần; cần **105 năm** mới đúng 8 lần. "Gấp tám lần" là cách nói
     tròn, không phải lỗi. Đã kiểm bằng code (mục 4 của file thực hành).
@@ -1281,7 +1310,7 @@ Kết quả chạy thật:
   - Bảng ánh xạ chương 1–9 sang bài EG13 ở [mục 2](#2-chương-19-đã-học-ở-đâu) — do bài này lập, không có
     trong sách.
   - Bảng đối chiếu số trang lệch giữa hai cuốn — do bài này đối chiếu mục lục hai sách.
-  - Phần **PPF cho doanh nghiệp** ở [mục 12](#12--góc-qtkd--đường-giới-hạn-khả-năng-sản-xuất-của-một-doanh-nghiệp)
+  - Phần **PPF cho doanh nghiệp** ở [mục 12](#12-góc-qtkd--đường-giới-hạn-khả-năng-sản-xuất-của-một-doanh-nghiệp)
     — mở rộng cho ngành QTKD, sách chỉ bàn ở cấp quốc gia.
 - **Liên hệ chéo:**
   - Toàn bộ chương 1–9: xem môn [Kinh tế vi mô — EG13](../../eg13-kinhtevimo-micro/README.md).

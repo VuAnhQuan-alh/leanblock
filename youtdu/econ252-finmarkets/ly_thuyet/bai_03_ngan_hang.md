@@ -1,26 +1,29 @@
 # Ngân hàng — thanh khoản, bank run, Basel
 
+> [!info] Về bài này
 > Bài học dựa trên buổi **13 "Banks"** của khoá **Yale ECON 252 *Financial Markets*** (Xuân 2011),
 > giảng viên **Robert J. Shiller**, YouTube `1mDL1fKEVZM`, 73:19.
 > Mốc dạng `13 33:03` = **buổi 13, phút 33:03**, đã đối chiếu ngược với phụ đề gốc bằng script.
 > Phần **📚 Mở rộng** và **🇻🇳 Góc Việt Nam** không có trong video.
-> ⚠️ **Video ghi Xuân 2011** — §10 đối chiếu với 2026, và §9 liệt kê bốn chỗ video nói sai.
-> 📌 **Đọc cùng:** [MIT 15.401 bài 5 — chứng khoán hoá](../../mit-15401-finance/ly_thuyet/bai_05_duration_va_chung_khoan_hoa.md)
+>
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
+>
+> **Đọc cùng:** [MIT 15.401 bài 5 — chứng khoán hoá](../../mit-15401-finance/ly_thuyet/bai_05_duration_va_chung_khoan_hoa.md)
 > giải thích cỗ máy tạo AAA mà §7 dưới đây nói tới hậu quả.
 
 ## Mục lục
 
 1. [Ngân hàng là gì — hai chênh lệch, không phải một](#1-ngân-hàng-là-gì--hai-chênh-lệch-không-phải-một)
 2. [Từ con cừu Sumer tới thợ kim hoàn London](#2-từ-con-cừu-sumer-tới-thợ-kim-hoàn-london)
-3. [📚 Diamond–Dybvig — vì sao một ngân hàng lành mạnh vẫn sập](#3--diamonddybvig--vì-sao-một-ngân-hàng-lành-mạnh-vẫn-sập)
+3. [📚 Diamond–Dybvig — vì sao một ngân hàng lành mạnh vẫn sập](#3-diamonddybvig--vì-sao-một-ngân-hàng-lành-mạnh-vẫn-sập)
 4. [Ba bài toán ngân hàng giải mà thị trường không giải được](#4-ba-bài-toán-ngân-hàng-giải-mà-thị-trường-không-giải-được)
 5. [Bảo hiểm tiền gửi và bốn lần thử](#5-bảo-hiểm-tiền-gửi-và-bốn-lần-thử)
 6. [Basel — tài sản có rủi ro và yêu cầu vốn](#6-basel--tài-sản-có-rủi-ro-và-yêu-cầu-vốn)
 7. [Chỗ Basel đẩy sai hướng — 71 triệu so với 14 triệu](#7-chỗ-basel-đẩy-sai-hướng--71-triệu-so-với-14-triệu)
 8. [Ba cuộc khủng hoảng và một mẫu hình](#8-ba-cuộc-khủng-hoảng-và-một-mẫu-hình)
-9. [⚠️ Bốn chỗ video nói sai](#9--bốn-chỗ-video-nói-sai)
-10. [⚠️ Đối chiếu 2026](#10--đối-chiếu-2026)
-11. [🇻🇳 Góc Việt Nam — hạn mức bảo hiểm tiền gửi](#11--góc-việt-nam--hạn-mức-bảo-hiểm-tiền-gửi)
+9. [⚠️ Bốn chỗ video nói sai](#9-bốn-chỗ-video-nói-sai)
+10. [⚠️ Đối chiếu 2026](#10-đối-chiếu-2026)
+11. [🇻🇳 Góc Việt Nam — hạn mức bảo hiểm tiền gửi](#11-góc-việt-nam--hạn-mức-bảo-hiểm-tiền-gửi)
 12. [Chương trình](#12-chương-trình)
 13. [Từ điển thuật ngữ](#13-từ-điển-thuật-ngữ)
 14. [Câu hỏi tự kiểm tra](#14-câu-hỏi-tự-kiểm-tra)
@@ -92,11 +95,12 @@ cảnh bình thường tạo ra thanh khoản, nhưng nó tạo ra một hệ th
 Rồi câu kết luận lịch sử (`13 10:36`): ngành ngân hàng *"bị hành hạ bởi những cuộc khủng hoảng liên
 tiếp suốt chiều dài lịch sử"*.
 
-📚 **Chỗ cần tách bạch.** Chênh lệch lãi suất là nguồn thu **vô hại** — nếu ngân hàng chỉ làm việc
-đó, nó là một quỹ đầu tư bình thường, lỗ thì cổ đông chịu. Chênh lệch kỳ hạn vừa là nguồn thu vừa là
-**cơ chế sụp đổ**, và người chịu không chỉ có cổ đông. Toàn bộ phần còn lại của bài học này là hệ
-quả của một câu duy nhất: hai chênh lệch đó không cùng loại. [Mục 1 của chương trình](#12-chương-trình)
-tách chúng ra bằng số.
+> [!note] Chỗ cần tách bạch.
+> Chênh lệch lãi suất là nguồn thu **vô hại** — nếu ngân hàng chỉ làm việc
+> đó, nó là một quỹ đầu tư bình thường, lỗ thì cổ đông chịu. Chênh lệch kỳ hạn vừa là nguồn thu vừa là
+> **cơ chế sụp đổ**, và người chịu không chỉ có cổ đông. Toàn bộ phần còn lại của bài học này là hệ
+> quả của một câu duy nhất: hai chênh lệch đó không cùng loại. [Mục 1 của chương trình](#12-chương-trình)
+> tách chúng ra bằng số.
 
 ---
 
@@ -117,11 +121,12 @@ Người kia đáp: được, tôi trả anh bằng đám cừu non.
 Shiller rút ra ý (`13 12:35`): *"Nếu tôi cho anh vay tiền, tôi đang trao cho anh nguồn lực sản xuất,
 và nó sẽ sinh ra thứ gì đó. Ta gọi thứ đó là cừu non."*
 
-📚 Nhìn kỹ thì đây không phải chuyện từ nguyên vui vẻ. Nó là **lập luận biện minh cho lãi suất**,
-xuất hiện cùng lúc với chính khái niệm ấy, và nó vẫn là lập luận đang dùng hôm nay: vốn sinh ra sản
-lượng, nên vốn có giá. Ba nghìn năm sau, người ta vẫn cãi nhau bằng đúng câu đó — §8 của
-[buổi 8](../../mit-15401-finance/ly_thuyet/bai_04_trai_phieu_va_duong_cong.md) là lịch sử cho vay
-nặng lãi, tức lịch sử của phe phản đối.
+> [!note]
+> Nhìn kỹ thì đây không phải chuyện từ nguyên vui vẻ. Nó là **lập luận biện minh cho lãi suất**,
+> xuất hiện cùng lúc với chính khái niệm ấy, và nó vẫn là lập luận đang dùng hôm nay: vốn sinh ra sản
+> lượng, nên vốn có giá. Ba nghìn năm sau, người ta vẫn cãi nhau bằng đúng câu đó — §8 của
+> [buổi 8](../../mit-15401-finance/ly_thuyet/bai_04_trai_phieu_va_duong_cong.md) là lịch sử cho vay
+> nặng lãi, tức lịch sử của phe phản đối.
 
 ### Không cần tiền vẫn làm được ngân hàng
 
@@ -166,10 +171,11 @@ Câu chuyện (`13 17:14`–`13 18:58`):
 Shiller thêm một quan sát sắc (`13 18:47`): họ **không phải trả lãi** cho tờ phiếu, vì người ta giữ
 nó chỉ để được cất hộ. *"Chắc họ vẫn trả lãi, theo nghĩa là họ cung cấp dịch vụ giữ hộ."*
 
-📚 Bước 5 chính là **dự trữ một phần**, và nó xuất hiện **không do ai thiết kế**. Không có luật nào
-cho phép, không có nhà kinh tế nào đề xuất. Nó mọc ra vì có lãi và vì chưa ai kịp cấm. Mọi thứ ở §3
-tới §7 — Diamond–Dybvig, FDIC, Basel — đều là ba trăm năm loài người chạy theo dọn dẹp cái quyết
-định mà một thợ kim hoàn nào đó ở London đã tự tiện đưa ra.
+> [!note]
+> Bước 5 chính là **dự trữ một phần**, và nó xuất hiện **không do ai thiết kế**. Không có luật nào
+> cho phép, không có nhà kinh tế nào đề xuất. Nó mọc ra vì có lãi và vì chưa ai kịp cấm. Mọi thứ ở §3
+> tới §7 — Diamond–Dybvig, FDIC, Basel — đều là ba trăm năm loài người chạy theo dọn dẹp cái quyết
+> định mà một thợ kim hoàn nào đó ở London đã tự tiện đưa ra.
 
 ### Bốn loại ngân hàng ở Mỹ
 
@@ -190,20 +196,22 @@ Hai điều đáng chú ý:
   ngày xưa *"không nhận tiền gửi nhỏ, phải đủ mức tối thiểu, họ không giao dịch với người thường"*
   (`13 22:39`). Nên người ta lập loại ngân hàng khác cho người thu nhập thấp.
 
-⚠️ Shiller nhắc kỹ (`13 23:36`): đây là **tài sản**, không phải vốn hoá thị trường. Vốn hoá thấp hơn
-nhiều, vì đối ứng với đám tài sản đó là **nợ phải trả người gửi tiền**. Nhầm hai thứ này là nhầm
-toàn bộ §6.
+> [!warning]
+> Shiller nhắc kỹ (`13 23:36`): đây là **tài sản**, không phải vốn hoá thị trường. Vốn hoá thấp hơn
+> nhiều, vì đối ứng với đám tài sản đó là **nợ phải trả người gửi tiền**. Nhầm hai thứ này là nhầm
+> toàn bộ §6.
 
 ---
 
-## 3. 📚 Diamond–Dybvig — vì sao một ngân hàng lành mạnh vẫn sập
+## 3. Diamond–Dybvig — vì sao một ngân hàng lành mạnh vẫn sập
 
 Shiller giới thiệu mô hình rồi nói thẳng *"tôi sẽ không trình bày mô hình, chỉ kể cho các bạn về
 nó"* (`13 24:52`). Mục này trình bày mô hình đó, vì nó là **trục của cả buổi giảng** và không nắm nó
 thì §5 tới §7 chỉ còn là danh sách sự kiện.
 
-⚠️ **Shiller đọc sai năm.** Ông nói mô hình đăng trên *Journal of Political Economy* năm **1988**
-(`13 24:41`). Bài gốc là **1983**, JPE tập 91 số 3, trang 401–419. Xem [§9](#9--bốn-chỗ-video-nói-sai).
+> [!warning] Shiller đọc sai năm.
+> Ông nói mô hình đăng trên *Journal of Political Economy* năm **1988**
+> (`13 24:41`). Bài gốc là **1983**, JPE tập 91 số 3, trang 401–419. Xem [§9](#9-bốn-chỗ-video-nói-sai).
 
 ### Bối cảnh
 
@@ -280,10 +288,11 @@ Kết luận của Diamond–Dybvig — và Shiller nói rõ đây là **đóng 
 là **lý do kinh tế cho bảo hiểm tiền gửi**: cần một bên thứ ba đủ lớn đứng ra bảo lãnh, để cân bằng
 xấu không bao giờ được kích hoạt.
 
-⚠️ Shiller nêu luôn giới hạn (`13 26:31`): bank run có thể bị châm ngòi bởi **cú sốc ngẫu nhiên**
-nằm ngoài mô hình. Khủng hoảng vừa rồi bắt đầu từ **bong bóng bất động sản** — *"không phải thứ được
-biểu diễn trong Diamond và Dybvig"*. Mô hình giải thích **cơ chế** sụp đổ, không giải thích **ngòi
-nổ**.
+> [!warning]
+> Shiller nêu luôn giới hạn (`13 26:31`): bank run có thể bị châm ngòi bởi **cú sốc ngẫu nhiên**
+> nằm ngoài mô hình. Khủng hoảng vừa rồi bắt đầu từ **bong bóng bất động sản** — *"không phải thứ được
+> biểu diễn trong Diamond và Dybvig"*. Mô hình giải thích **cơ chế** sụp đổ, không giải thích **ngòi
+> nổ**.
 
 ---
 
@@ -314,11 +323,12 @@ cho nhân cách của người ta."* Rồi giải thích vì sao phải vậy (`
 minh hay đánh giá ai là người tốt. Anh không thể viết ra một cách khách quan rằng ai sẽ là một doanh
 nhân có trách nhiệm."*
 
-📚 Đây là luận điểm mạnh hơn vẻ ngoài. Nó nói rằng **có loại thông tin không thể chứng khoán hoá** —
-không viết được vào hợp đồng, không nhét được vào mô hình chấm điểm. Ngân hàng tồn tại vì nó là nơi
-chứa loại thông tin ấy. Và điều đó dự báo luôn chuyện gì xảy ra khi ta thay cán bộ tín dụng địa
-phương bằng chấm điểm tự động rồi bán khoản vay đi — đúng cỗ máy mà
-[MIT 15.401 bài 5](../../mit-15401-finance/ly_thuyet/bai_05_duration_va_chung_khoan_hoa.md) mổ xẻ.
+> [!note]
+> Đây là luận điểm mạnh hơn vẻ ngoài. Nó nói rằng **có loại thông tin không thể chứng khoán hoá** —
+> không viết được vào hợp đồng, không nhét được vào mô hình chấm điểm. Ngân hàng tồn tại vì nó là nơi
+> chứa loại thông tin ấy. Và điều đó dự báo luôn chuyện gì xảy ra khi ta thay cán bộ tín dụng địa
+> phương bằng chấm điểm tự động rồi bán khoản vay đi — đúng cỗ máy mà
+> [MIT 15.401 bài 5](../../mit-15401-finance/ly_thuyet/bai_05_duration_va_chung_khoan_hoa.md) mổ xẻ.
 
 ### Rủi ro đạo đức — và chuyến đi trường đua
 
@@ -339,10 +349,11 @@ anh làm điều gì có mùi rủi ro đạo đức.
 Shiller chốt (`13 32:42`): giám sát liên tục giải rủi ro đạo đức, y như thu thập thông tin giải lựa
 chọn ngược.
 
-📚 **Ba bài toán, một cấu trúc.** Thanh khoản, lựa chọn ngược, rủi ro đạo đức — cả ba đều là thứ
-**hợp đồng viết ra giấy không xử lý được**, và ngân hàng xử lý được nhờ **quan hệ kéo dài theo thời
-gian**. Đó là lý do ngân hàng không bị thay thế bởi thị trường trái phiếu, dù thị trường trái phiếu
-rẻ hơn.
+> [!note] Ba bài toán, một cấu trúc.
+> Thanh khoản, lựa chọn ngược, rủi ro đạo đức — cả ba đều là thứ
+> **hợp đồng viết ra giấy không xử lý được**, và ngân hàng xử lý được nhờ **quan hệ kéo dài theo thời
+> gian**. Đó là lý do ngân hàng không bị thay thế bởi thị trường trái phiếu, dù thị trường trái phiếu
+> rẻ hơn.
 
 Và nó cũng báo trước §6: khi cơ quan quản lý đo rủi ro của ngân hàng bằng **một bảng trọng số cố
 định**, họ đang đo đúng cái thứ mà ngân hàng tồn tại để nói rằng không đo được.
@@ -386,6 +397,7 @@ hiệp hội S&L nay do FDIC bảo hiểm.
 
 Từ đó Shiller rút ra một điều mà phần còn lại của bài học này xoay quanh (`13 36:47`–`13 37:23`):
 
+> [!quote] 13 37:04
 > *"Những định chế này không nhất thiết đại diện cho lớp bảo hiểm thật. Anh phải luôn nhìn xuyên qua
 > định chế. FSLIC khuyến khích người ta tin vào sự an toàn của hệ thống ngân hàng, nhưng nó không
 > phải lớp bảo đảm sau cùng."*
@@ -397,8 +409,9 @@ Từ đó Shiller rút ra một điều mà phần còn lại của bài học n
 Rồi câu tổng quát (`13 37:28`): *"cái luôn xảy ra là chính phủ đứng sau những lời hứa này, kể cả khi
 chúng chưa từng được nói ra rõ ràng."*
 
-📚 Ghi nhớ câu này. §10 sẽ cho thấy nó dự báo chính xác chuyện xảy ra ở Mỹ **12 năm sau**, và §11 cho
-thấy Việt Nam đã xử lý nó theo một cách khác.
+> [!note]
+> Ghi nhớ câu này. §10 sẽ cho thấy nó dự báo chính xác chuyện xảy ra ở Mỹ **12 năm sau**, và §11 cho
+> thấy Việt Nam đã xử lý nó theo một cách khác.
 
 ### Lần 3: Northern Rock, Anh 2007 — có bảo hiểm mà vẫn bị rút
 
@@ -410,9 +423,10 @@ Shiller đặt đúng câu hỏi (`13 39:07`): **Anh có bảo hiểm tiền g�
 
 Câu trả lời của ông đúng về cơ chế: **vì có những người gửi nhiều hơn mức được bảo hiểm toàn phần.**
 
-⚠️ Nhưng hai con số ông đọc đều sai — xem [§9](#9--bốn-chỗ-video-nói-sai). Chế độ Anh trước
-01/10/2007 thực tế là: **100% của 2.000 bảng đầu, rồi 90% của 33.000 bảng tiếp theo**, trần 35.000
-bảng, chi trả tối đa **31.700 bảng**.
+> [!warning]
+> Nhưng hai con số ông đọc đều sai — xem [§9](#9-bốn-chỗ-video-nói-sai). Chế độ Anh trước
+> 01/10/2007 thực tế là: **100% của 2.000 bảng đầu, rồi 90% của 33.000 bảng tiếp theo**, trần 35.000
+> bảng, chi trả tối đa **31.700 bảng**.
 
 Áp công thức đúng thì cơ chế Shiller mô tả hiện ra rõ hơn cả cách ông kể:
 
@@ -429,7 +443,7 @@ Bảo hiểm **một phần** không dập được bank run; nó chỉ **dời 
 
 Kết cục: chính phủ Anh **bảo lãnh toàn bộ**, bỏ qua chính chế độ bảo hiểm của mình, và cuộc tháo chạy
 dừng lại (`13 39:23`–`13 39:37`). ⚠️ Shiller gán việc này cho **Mervyn King**; người quyết định thật
-là **Alistair Darling** — xem [§9](#9--bốn-chỗ-video-nói-sai).
+là **Alistair Darling** — xem [§9](#9-bốn-chỗ-video-nói-sai).
 
 Rồi Anh sửa luật, và sửa theo đúng hướng bài học chỉ ra — **bỏ hẳn đồng bảo hiểm**:
 
@@ -453,7 +467,8 @@ dấu hiệu lo ngại. Chính phủ Đức **không thèm đợi bank run xảy
 Shiller kết (`13 40:58`): *"các chính phủ biết họ muốn duy trì niềm tin, nên họ làm. Họ làm điều phải
 làm."*
 
-📚 Bốn ca này xếp thành một thang, và thang ấy chỉ đi một chiều:
+> [!note]
+> Bốn ca này xếp thành một thang, và thang ấy chỉ đi một chiều:
 
 ```
    FSLIC 1980s      quy bao hiem tu pha san  -> chinh phu tra 150 ty do
@@ -469,6 +484,7 @@ Mỗi lần, cái được viết ra đều không đủ, và cái không đư�
 
 Shiller mở phần này bằng một nguyên lý áp cho **mọi** loại bảo hiểm (`13 41:06`–`13 41:59`):
 
+> [!quote]
 > *"Nếu anh bảo hiểm cho ngân hàng thì anh phải quản lý họ, vì có vấn đề rủi ro đạo đức."*
 
 Và ông chỉ ra rằng ngân hàng làm được **đúng cái trò trường đua** ở §4 (`13 41:27`): vay tiền rồi
@@ -514,7 +530,8 @@ phần này *"về cơ bản giống nhau"* qua cả Basel I, II và III (`13 48
 |  **50 %** | vay mua nhà                                             | *"có thể có khủng hoảng bất động sản lớn"* |
 | **100 %** | mọi thứ còn lại, **đáng chú ý là cho vay doanh nghiệp** | —                                          |
 
-⚠️ Shiller giải thích sai chữ viết tắt OECD ở `13 48:40` — xem [§9](#9--bốn-chỗ-video-nói-sai).
+> [!warning]
+> Shiller giải thích sai chữ viết tắt OECD ở `13 48:40` — xem [§9](#9-bốn-chỗ-video-nói-sai).
 
 Ông không giấu vấn đề của dòng 20% (`13 50:00`–`13 50:59`). Fannie và Freddie được xếp 20% *"vì
 người ta nghĩ mấy ông này thực sự an toàn, và dù sao chính phủ Mỹ cũng đỡ lưng."* Rồi ông nói thêm
@@ -561,9 +578,10 @@ Chỗ tinh tế nằm ở đệm 2,5% (`13 54:29`): *"Anh nhất định phải 
 anh không có thêm 2,5% nữa, anh không được trả cổ tức. Cái đó thì chẳng hay ho gì. Nên trên thực tế,
 anh nên giữ 7%."*
 
-📚 Đây là một thiết kế đáng học: quy định **không cấm**, nó chỉ làm cho việc vi phạm trở nên đắt đỏ
-theo cách hội đồng quản trị quan tâm. Cổ đông đòi cổ tức, nên ban điều hành tự giữ đủ 7%. Cưỡng chế
-bằng động cơ thay vì bằng lệnh cấm.
+> [!note]
+> Đây là một thiết kế đáng học: quy định **không cấm**, nó chỉ làm cho việc vi phạm trở nên đắt đỏ
+> theo cách hội đồng quản trị quan tâm. Cổ đông đòi cổ tức, nên ban điều hành tự giữ đủ 7%. Cưỡng chế
+> bằng động cơ thay vì bằng lệnh cấm.
 
 Đệm nghịch chu kỳ thì có logic riêng (`13 55:30`): *"Ta phải chặn bong bóng **trước khi** nó vỡ."*
 Nếu đợi tới lúc khủng hoảng mới siết thì *"ngân hàng sẽ ngừng cho vay, và cái đó sẽ làm sập cả nền
@@ -625,10 +643,11 @@ Chúng tôi nghĩ Fannie và Freddie — và chúng tôi đúng, chúng đâu c�
 run, nên chúng tôi muốn ngân hàng vững. Có thể anh đúng, có thể nên khuyến khích doanh nghiệp, nhưng
 **đó không phải phần việc của chúng tôi**."*
 
-📚 Câu cuối là chỗ đáng suy nghĩ nhất. Cơ quan quản lý ngân hàng tối ưu **đúng mục tiêu được giao** —
-ngân hàng không sụp. Nhưng mục tiêu ấy không bao gồm *"vốn có chảy vào nơi tạo ra năng suất không"*.
-Không ai làm sai việc của mình, và kết quả tổng vẫn tệ. Cùng cấu trúc với §3: **thất bại hệ thống
-không cần ai hành xử sai.**
+> [!note]
+> Câu cuối là chỗ đáng suy nghĩ nhất. Cơ quan quản lý ngân hàng tối ưu **đúng mục tiêu được giao** —
+> ngân hàng không sụp. Nhưng mục tiêu ấy không bao gồm *"vốn có chảy vào nơi tạo ra năng suất không"*.
+> Không ai làm sai việc của mình, và kết quả tổng vẫn tệ. Cùng cấu trúc với §3: **thất bại hệ thống
+> không cần ai hành xử sai.**
 
 ---
 
@@ -668,9 +687,10 @@ Nợ Nga, rồi xuống tận **Brazil** (`13 67:28`–`13 67:57`).
 Shiller đặt câu hỏi tu từ (`13 67:57`): *"bạn thắc mắc, vì sao Brazil lại bị ảnh hưởng bởi một cuộc
 khủng hoảng châu Á? Thì đấy, thế giới đã và đang liên kết với nhau."*
 
-📚 Đây là **bank run ở cấp quốc gia**. Không ai xếp hàng ngoài cửa chi nhánh, nhưng cấu trúc giống
-hệt §3: chủ nợ ngắn hạn đồng loạt đòi tiền từ những con nợ đã đem tiền đầu tư dài hạn. Diamond–Dybvig
-không nói gì về biên giới, nên nó áp được cả ở đây.
+> [!note]
+> Đây là **bank run ở cấp quốc gia**. Không ai xếp hàng ngoài cửa chi nhánh, nhưng cấu trúc giống
+> hệt §3: chủ nợ ngắn hạn đồng loạt đòi tiền từ những con nợ đã đem tiền đầu tư dài hạn. Diamond–Dybvig
+> không nói gì về biên giới, nên nó áp được cả ở đây.
 
 ### Argentina 2002
 
@@ -708,7 +728,7 @@ ngân hàng đầu tư, một con vật khác, và Basel III không quản chún
 
 ---
 
-## 9. ⚠️ Bốn chỗ video nói sai
+## 9. Bốn chỗ video nói sai
 
 Bốn chỗ dưới đây đều đã đối chiếu với nguồn độc lập, liệt kê ở [Nguồn](#nguồn).
 
@@ -763,7 +783,7 @@ năm 2011 đã có Mỹ, Nhật, Hàn Quốc, Úc, Mexico, Chile.
 
 ---
 
-## 10. ⚠️ Đối chiếu 2026
+## 10. Đối chiếu 2026
 
 ### 10.1 "Chưa có bank run lớn nào kể từ 1933" — đã hết đúng vào tháng 3/2023
 
@@ -813,9 +833,10 @@ Mười lăm năm sau mốc ấy:
 Shiller nói ở `13 71:42`: *"sẽ có Basel IV."* Ông đúng về tinh thần và sai về nhịp độ — mười lăm năm
 sau, thế giới còn chưa đi hết Basel III.
 
-⚠️ Và có một điều Shiller **không** thể lường: hệ quả của việc chậm trễ không đều nhau. Ngân hàng
-châu Âu có thể phải giữ vốn cao hơn ngân hàng Mỹ cho cùng một mức rủi ro — đúng cái *"đẩy hoạt động
-sang nước khác"* mà ông nêu ở `13 42:51` là lý do phải có Basel ngay từ đầu.
+> [!warning]
+> Và có một điều Shiller **không** thể lường: hệ quả của việc chậm trễ không đều nhau. Ngân hàng
+> châu Âu có thể phải giữ vốn cao hơn ngân hàng Mỹ cho cùng một mức rủi ro — đúng cái *"đẩy hoạt động
+> sang nước khác"* mà ông nêu ở `13 42:51` là lý do phải có Basel ngay từ đầu.
 
 ### 10.4 Diamond và Dybvig đoạt Nobel năm 2022
 
@@ -841,17 +862,18 @@ Chuyện sau đó:
 - **2025:** MPS **thâu tóm Mediobanca** trong thương vụ **16 tỷ euro**, nắm 86,3% cổ phần, và trở lại
   thành **ngân hàng lớn thứ ba nước Ý**.
 
-📚 Chi tiết đáng chú ý nhất của vụ 2017, xét theo bài học này: **cổ đông và trái chủ thứ cấp chịu 4,3
-tỷ euro lỗ, còn người gửi tiền và chủ nợ ưu tiên không mất gì.** Đó là nguyên tắc §6 được thi hành —
-ai hưởng lợi khi ngân hàng đánh bạc thì người ấy chịu lỗ. Nhưng nhà nước vẫn phải bỏ 3,9 tỷ euro,
-tức lớp bảo đảm sau cùng ở `13 37:04` lại xuất hiện, lần này ở Ý.
+> [!note]
+> Chi tiết đáng chú ý nhất của vụ 2017, xét theo bài học này: **cổ đông và trái chủ thứ cấp chịu 4,3
+> tỷ euro lỗ, còn người gửi tiền và chủ nợ ưu tiên không mất gì.** Đó là nguyên tắc §6 được thi hành —
+> ai hưởng lợi khi ngân hàng đánh bạc thì người ấy chịu lỗ. Nhưng nhà nước vẫn phải bỏ 3,9 tỷ euro,
+> tức lớp bảo đảm sau cùng ở `13 37:04` lại xuất hiện, lần này ở Ý.
 
 Ngân hàng do các nhà hảo tâm lập ra năm 1472 để cho người nghèo vay, năm 2017 phải nhờ người đóng
 thuế cứu. Năm trăm bốn mươi lăm năm không miễn nhiễm được gì.
 
 ---
 
-## 11. 🇻🇳 Góc Việt Nam — hạn mức bảo hiểm tiền gửi
+## 11. Góc Việt Nam — hạn mức bảo hiểm tiền gửi
 
 Việt Nam có bảo hiểm tiền gửi, và cách nó được thiết kế cho thấy người soạn đã học đúng bài học của
 Northern Rock.
@@ -870,6 +892,7 @@ gốc lẫn lãi — của **một người** tại **một tổ chức**.
 
 **Không có đồng bảo hiểm.** Trả **100% tới hạn mức**. So với chế độ Anh 2007 ở §5:
 
+> [!note]
 > ⚙️ **Cách đọc cột cuối.** Không thể bê thẳng 2.000 £ / 35.000 £ sang tiền Việt được — hai hạn mức
 > khác nhau về độ lớn. Nên cột này **quy đổi cấu trúc theo tỷ lệ**: ngưỡng trả đầy đủ của Anh bằng
 > $2.000/35.000 = 5{,}71\,\%$ hạn mức, áp lên hạn mức 125 triệu thì ra **7,143 triệu đồng**; phần vượt
@@ -895,8 +918,9 @@ mà Northern Rock đã chứng minh là có thật.
 Theo Bảo hiểm tiền gửi Việt Nam, hạn mức 125 triệu bảo vệ **toàn bộ tiền gửi của trên 92% người gửi
 tiền**, nằm trong khoảng 90–95% mà **IADI** khuyến nghị.
 
-⚠️ Nhưng con số ấy nói về **số người**, không phải **số tiền**. Phần lớn tiền trong hệ thống nằm ở
-nhóm dưới 8% còn lại, và nhóm đó **không được bảo hiểm hết**.
+> [!warning]
+> Nhưng con số ấy nói về **số người**, không phải **số tiền**. Phần lớn tiền trong hệ thống nằm ở
+> nhóm dưới 8% còn lại, và nhóm đó **không được bảo hiểm hết**.
 
 Đó chính xác là nhóm xếp hàng trước — đúng như bảng ở §5 cho thấy với Northern Rock, và đúng như
 First Republic năm 2023 với gần 70% tiền gửi không được bảo hiểm. **Tỷ lệ phủ tính theo đầu người
@@ -909,7 +933,8 @@ Câu quan trọng nhất của buổi giảng, ở `13 37:04`: *lớp bảo đ�
 **Luật Các tổ chức tín dụng 2024** bổ sung: ngoài hạn mức 125 triệu, **Ngân hàng Nhà nước có thể
 trình Thủ tướng quyết định chi trả toàn bộ cho người gửi tiền** trong từng trường hợp cụ thể.
 
-📚 Đây là một lựa chọn thiết kế thú vị, và nó **cắt cả hai chiều**:
+> [!note]
+> Đây là một lựa chọn thiết kế thú vị, và nó **cắt cả hai chiều**:
 
 - **Được:** khi khủng hoảng đến, không cần ứng biến kiểu Darling năm 2007 hay ngoại lệ rủi ro hệ
   thống kiểu Mỹ năm 2023. Đường đi đã có sẵn, và người gửi tiền **biết** là có.
@@ -924,6 +949,7 @@ nó thành luật (Việt Nam), cách nào tạo ít rủi ro đạo đức hơn
 
 ## 12. Chương trình
 
+> [!note]
 > ⚙️ **Chạy:** cần **Python 3.10+**. Lưu file rồi gõ `python3 bai-03-ngan-hang.py`. Không cần cài
 > gói, không đọc file ngoài, không gọi mạng. Kết quả **tất định**.
 
@@ -1131,17 +1157,17 @@ Yale ECON 252 (2011) buoi 13 — Robert J. Shiller
 Het. Moi assert da qua.
 ```
 
-### 💡 Tự thử
-
-1. **Đổi `TY_LE_GAP_PCT` từ 25 lên 40** ở mục 2. Người kiên nhẫn còn nhận bao nhiêu? Ở mức nào thì
-   hợp đồng ngân hàng trở nên **tệ hơn** tự lo cho cả hai nhóm?
-2. **Ở mục 3, tìm mức `r1` lớn nhất mà ngân hàng vẫn chịu được 85 người rút.** So với `r1 = 1,28`,
-   người kiên nhẫn mất bao nhiêu để mua thêm 7 người đệm đó?
-3. **Đổi trọng số Fannie Mae ở `TRONG_SO` từ 20% lên 50%** — bằng vay mua nhà. Mục 5 còn chênh lệch
-   không? Nếu Basel I đã làm thế từ đầu, phần nào của §7 sẽ biến mất?
-4. **Viết thêm hàm `chi_tra_my()` cho hạn mức FDIC 250.000 đô**, rồi áp cho một ngân hàng có 70% tiền
-   gửi không được bảo hiểm như First Republic. Bao nhiêu phần trăm **số tiền** được phủ, so với bao
-   nhiêu phần trăm **số người**?
+> [!example] Tự thử
+>
+> 1. **Đổi `TY_LE_GAP_PCT` từ 25 lên 40** ở mục 2. Người kiên nhẫn còn nhận bao nhiêu? Ở mức nào thì
+>    hợp đồng ngân hàng trở nên **tệ hơn** tự lo cho cả hai nhóm?
+> 2. **Ở mục 3, tìm mức `r1` lớn nhất mà ngân hàng vẫn chịu được 85 người rút.** So với `r1 = 1,28`,
+>    người kiên nhẫn mất bao nhiêu để mua thêm 7 người đệm đó?
+> 3. **Đổi trọng số Fannie Mae ở `TRONG_SO` từ 20% lên 50%** — bằng vay mua nhà. Mục 5 còn chênh lệch
+>    không? Nếu Basel I đã làm thế từ đầu, phần nào của §7 sẽ biến mất?
+> 4. **Viết thêm hàm `chi_tra_my()` cho hạn mức FDIC 250.000 đô**, rồi áp cho một ngân hàng có 70% tiền
+>    gửi không được bảo hiểm như First Republic. Bao nhiêu phần trăm **số tiền** được phủ, so với bao
+>    nhiêu phần trăm **số người**?
 
 ---
 

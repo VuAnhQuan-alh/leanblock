@@ -1,15 +1,17 @@
 # Bài 12 — Tác động của chính sách tiền tệ và chính sách tài khoá lên tổng cầu
 
+> [!info] Về bài này
 > Bài học dựng từ **Chương 21 — Tác động của chính sách tiền tệ và chính sách tài khoá lên tổng cầu**
 > (tr. 507–534) của *N. Gregory Mankiw — **Kinh tế học vĩ mô***, bản dịch của Khoa Kinh tế,
 > **ĐH Kinh tế TP.HCM** (Cengage Learning Asia).
-> 🎯 **Vòng 1.** [Bài 11](bai_11_tong_cau_va_tong_cung.md) nói *"đường tổng cầu dịch chuyển"*. Bài này
+>
+> **Vòng 1.** [Bài 11](bai_11_tong_cau_va_tong_cung.md) nói *"đường tổng cầu dịch chuyển"*. Bài này
 > nói **dịch bằng cách nào** và **dịch bao nhiêu**. Đây là bài có nội dung **dùng được ngay** nhiều nhất
 > trong cả khối ngắn hạn: nó cho bạn công cụ đọc mọi bản tin về lãi suất và gói kích cầu.
-> 💼 **Góc QTKD** — ví dụ thêm cho ngành quản trị kinh doanh, **không có trong sách**.
-> 📚 **Mở rộng** — thứ sách nói lướt hoặc để trong hộp phụ.
-> ⚠️ — chỗ dễ hiểu sai, hoặc chỗ sách in sai.
-> 📌 **Cần đọc trước:** [Bài 11](bai_11_tong_cau_va_tong_cung.md) **toàn bộ**;
+>
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
+>
+> **Cần đọc trước:** [Bài 11](bai_11_tong_cau_va_tong_cung.md) **toàn bộ**;
 > [Bài 7 mục 14](bai_07_he_thong_tien_te.md#14-lãi-suất-liên-ngân-hàng) ("hai mặt của một vấn đề");
 > [Bài 4 mục 10](bai_04_tiet_kiem_dau_tu_he_thong_tai_chinh.md#10-thị-trường-vốn-vay--mô-hình) (lãi
 > suất cân bằng vốn vay — mục 3 của bài này so hai lý thuyết lãi suất cạnh nhau).
@@ -22,21 +24,21 @@
 
 - [1. Câu hỏi mở đầu chương](#1-câu-hỏi-mở-đầu-chương)
 - [2. Lý thuyết sở thích thanh khoản](#2-lý-thuyết-sở-thích-thanh-khoản)
-- [3. 📚 Hai lý thuyết về lãi suất — có mâu thuẫn không?](#3--hai-lý-thuyết-về-lãi-suất--có-mâu-thuẫn-không)
-- [4. ⭐ Dựng lại đường tổng cầu từ thị trường tiền tệ](#4--dựng-lại-đường-tổng-cầu-từ-thị-trường-tiền-tệ)
+- [3. Hai lý thuyết về lãi suất — có mâu thuẫn không?](#3-hai-lý-thuyết-về-lãi-suất--có-mâu-thuẫn-không)
+- [4. Dựng lại đường tổng cầu từ thị trường tiền tệ](#4-dựng-lại-đường-tổng-cầu-từ-thị-trường-tiền-tệ)
 - [5. Bơm tiền làm dịch đường tổng cầu](#5-bơm-tiền-làm-dịch-đường-tổng-cầu)
 - [6. Vì sao Fed nói về lãi suất chứ không nói về cung tiền](#6-vì-sao-fed-nói-về-lãi-suất-chứ-không-nói-về-cung-tiền)
-- [7. 📚 Tiệm cận đáy zero và bẫy thanh khoản](#7--tiệm-cận-đáy-zero-và-bẫy-thanh-khoản)
+- [7. Tiệm cận đáy zero và bẫy thanh khoản](#7-tiệm-cận-đáy-zero-và-bẫy-thanh-khoản)
 - [8. Fed và thị trường chứng khoán](#8-fed-và-thị-trường-chứng-khoán)
 - [9. Chính sách tài khoá — tác động số nhân](#9-chính-sách-tài-khoá--tác-động-số-nhân)
 - [10. Tác động lấn át](#10-tác-động-lấn-át)
 - [11. Thay đổi thuế — và vì sao "vĩnh viễn" khác "tạm thời"](#11-thay-đổi-thuế--và-vì-sao-vĩnh-viễn-khác-tạm-thời)
-- [12. 📚 Chính sách tài khoá cũng chạm vào tổng cung](#12--chính-sách-tài-khoá-cũng-chạm-vào-tổng-cung)
+- [12. Chính sách tài khoá cũng chạm vào tổng cung](#12-chính-sách-tài-khoá-cũng-chạm-vào-tổng-cung)
 - [13. Nên dùng chính sách để bình ổn nền kinh tế không?](#13-nên-dùng-chính-sách-để-bình-ổn-nền-kinh-tế-không)
 - [14. Nhân tố bình ổn tự động](#14-nhân-tố-bình-ổn-tự-động)
-- [15. 📚 Bốn bài tập giải bằng số](#15--bốn-bài-tập-giải-bằng-số)
-- [16. 💼 Góc QTKD](#16--góc-qtkd)
-- [17. 📚 Đối chiếu Việt Nam](#17--đối-chiếu-việt-nam)
+- [15. Bốn bài tập giải bằng số](#15-bốn-bài-tập-giải-bằng-số)
+- [16. Góc QTKD](#16-góc-qtkd)
+- [17. Đối chiếu Việt Nam](#17-đối-chiếu-việt-nam)
 - [18. Code minh hoạ](#18-code-minh-hoạ)
 - [19. Tự thử](#19-tự-thử)
 - [20. Từ điển thuật ngữ](#20-từ-điển-thuật-ngữ)
@@ -52,6 +54,7 @@
 
 Sách mở bằng một tình huống rất cụ thể (tr. 507):
 
+> [!quote]
 > *"Hãy hình dung bạn là thành viên của Ủy ban Thị trường Mở Liên bang… Bạn nhận định rằng tổng thống và
 > Quốc hội đã thống nhất **tăng thuế**. Fed sẽ phản ứng như thế nào trước thay đổi chính sách tài khoá
 > này? Liệu có nên mở rộng cung tiền, thu hẹp cung tiền hay giữ cung tiền không đổi?"*
@@ -70,14 +73,16 @@ làm AD dốc xuống. Chương này xếp hạng chúng (tr. 508):
 | **Tỷ giá** | xuất và nhập khẩu chỉ là phần nhỏ trong GDP Hoa Kỳ | nhỏ với Mỹ |
 | **Lãi suất** | chạy qua **đầu tư** — thành phần nhạy nhất | **QUAN TRỌNG NHẤT** |
 
+> [!quote] tr. 508
 > *"**Đối với nền kinh tế Hoa Kỳ, lý do quan trọng nhất cho độ dốc hướng xuống của đường tổng cầu là hiệu
 > ứng lãi suất.**"* (tr. 508)
 
-⚠️ Và sách ghi một ngoặc đơn rất đáng chú ý (tr. 508): *"(Hiệu ứng này quan trọng hơn đối với các nước
-**nhỏ**, trong đó xuất nhập khẩu thường chiếm tỷ lệ cao hơn trong GDP)"* — nói về hiệu ứng **tỷ giá**.
+> [!warning]
+> Và sách ghi một ngoặc đơn rất đáng chú ý (tr. 508): *"(Hiệu ứng này quan trọng hơn đối với các nước
+> **nhỏ**, trong đó xuất nhập khẩu thường chiếm tỷ lệ cao hơn trong GDP)"* — nói về hiệu ứng **tỷ giá**.
 
 📌 Đó là một dòng sách viết cho người đọc **ngoài** Hoa Kỳ, và nó đúng ở đây. Với Việt Nam — nơi tổng kim
-ngạch xuất nhập khẩu vượt GDP ([bài 9 mục 16](bai_09_kinh_te_mo_khai_niem_co_ban.md#16--đối-chiếu-việt-nam))
+ngạch xuất nhập khẩu vượt GDP ([bài 9 mục 16](bai_09_kinh_te_mo_khai_niem_co_ban.md#16-đối-chiếu-việt-nam))
 — kênh **tỷ giá** nặng hơn nhiều so với Hoa Kỳ. Cả chương này tập trung vào kênh lãi suất; hãy đọc nó với
 ý thức rằng thứ tự ưu tiên ấy là **của Hoa Kỳ**.
 
@@ -85,9 +90,11 @@ ngạch xuất nhập khẩu vượt GDP ([bài 9 mục 16](bai_09_kinh_te_mo_kh
 
 ## 2. Lý thuyết sở thích thanh khoản
 
+> [!quote]
 > **Lý thuyết sở thích thanh khoản** (tr. 508–509): *"lý thuyết của Keynes cho rằng lãi suất điều chỉnh
 > để đưa cung tiền và cầu tiền về trạng thái cân bằng."*
 
+> [!quote] tr. 509
 > *"Về bản chất, lý thuyết này là **một ứng dụng của cung và cầu**."* (tr. 509)
 
 | Vế | Độ dốc | Vì sao |
@@ -97,11 +104,13 @@ ngạch xuất nhập khẩu vượt GDP ([bài 9 mục 16](bai_09_kinh_te_mo_kh
 
 Cầu tiền dốc xuống, lý do sách cho (tr. 511):
 
+> [!quote]
 > *"khi bạn giữ của cải dưới dạng tiền mặt trong túi, thay vì trái phiếu sinh lời, thì bạn sẽ **đánh mất
 > phần lãi** mà mình có thể có."*
 
-### ⚠️ Một đơn giản hoá sách nói rõ là có ý thức
+### Một đơn giản hoá sách nói rõ là có ý thức
 
+> [!quote] tr. 510
 > *"Những chi tiết kiểm soát tiền tệ có vai trò quan trọng đối với việc triển khai chính sách của Fed,
 > nhưng **không quan trọng đối với phân tích trong chương này**… chúng ta có thể bỏ qua những chi tiết về
 > cách thức chính sách của Fed được thực hiện và **giả định rằng Fed kiểm soát cung tiền một cách trực
@@ -110,7 +119,7 @@ Cầu tiền dốc xuống, lý do sách cho (tr. 511):
 ![Hình 1 — tr. 510, bản chụp giáo trình](../tai_lieu/hinh/ch21-hinh-01-tr510.png)
 
 📌 Đó chính là giả định mà
-[bài 7 mục 12](bai_07_he_thong_tien_te.md#12--vì-sao-fed-không-kiểm-soát-nổi-cung-tiền) đã dành cả một
+[bài 7 mục 12](bai_07_he_thong_tien_te.md#12-vì-sao-fed-không-kiểm-soát-nổi-cung-tiền) đã dành cả một
 mục để chứng minh là **sai**. Sách biết, và chọn bỏ qua vì nó không đổi kết luận của chương này. Đó là
 cách dùng giả định đúng đắn: **nói ra, và nói vì sao được phép**.
 
@@ -123,12 +132,13 @@ cách dùng giả định đúng đắn: **nói ra, và nói vì sao được ph
 
 ---
 
-## 3. 📚 Hai lý thuyết về lãi suất — có mâu thuẫn không?
+## 3. Hai lý thuyết về lãi suất — có mâu thuẫn không?
 
 Hộp phụ tr. 512 trả lời câu hỏi mà người đọc kỹ sẽ hỏi ngay: ở
 [bài 4](bai_04_tiet_kiem_dau_tu_he_thong_tai_chinh.md#10-thị-trường-vốn-vay--mô-hình), lãi suất cân bằng
 **tiết kiệm và đầu tư**. Ở đây nó cân bằng **cung tiền và cầu tiền**. Cái nào đúng?
 
+> [!quote] tr. 512
 > *"Có thể ráp nối hai lý thuyết này lại hay không?"* (tr. 512)
 
 | | **Bài 4** — vốn vay | **Bài 12** — sở thích thanh khoản |
@@ -138,7 +148,7 @@ Hộp phụ tr. 512 trả lời câu hỏi mà người đọc kỹ sẽ hỏi n
 | Giả định về $P$ | $P$ **điều chỉnh** để cân bằng | $P$ **kết dính**, không điều chỉnh |
 | Nhấn mạnh | tiết kiệm và cơ hội đầu tư | **chính sách tiền tệ** |
 
-### ⭐ Ba định đề, hai thứ tự ngược nhau
+### Ba định đề, hai thứ tự ngược nhau
 
 Sách viết ra cả hai chuỗi. **Cổ điển, dài hạn** (tr. 512):
 
@@ -155,15 +165,16 @@ Sách viết ra cả hai chuỗi. **Cổ điển, dài hạn** (tr. 512):
 ⭐ Đọc hai danh sách cạnh nhau. Chúng dùng **đúng ba biến** — sản lượng, lãi suất, mức giá — nhưng theo
 **thứ tự ngược nhau**. Cái gì được coi là "cho trước" ở mô hình này thì là "cần xác định" ở mô hình kia.
 
+> [!quote] tr. 512
 > *"Hai lý thuyết khác nhau về lãi suất đều **có ích cho những mục tiêu khác nhau**."* (tr. 512)
 
 📌 Không mâu thuẫn. Chỉ là hai công cụ cho hai câu hỏi — đúng như
-[bài 0 mục 11](bai_00_tu_vi_mo_sang_vi_mo.md#11--vai-trò-của-giả-định--vì-sao-vĩ-mô-có-hai-bộ-mô-hình)
+[bài 0 mục 11](bai_00_tu_vi_mo_sang_vi_mo.md#11-vai-trò-của-giả-định--vì-sao-vĩ-mô-có-hai-bộ-mô-hình)
 đã báo trước.
 
 ---
 
-## 4. ⭐ Dựng lại đường tổng cầu từ thị trường tiền tệ
+## 4. Dựng lại đường tổng cầu từ thị trường tiền tệ
 
 Đây là đóng góp chính của chương. [Bài 11](bai_11_tong_cau_va_tong_cung.md#8-công-thức-của-sách-và-mô-hình-bằng-số)
 **giả định** đường AD dốc xuống; chương này **dựng ra** nó.
@@ -178,8 +189,9 @@ Ba bước, đúng như sách tóm tắt (tr. 513):
 
 ### Mô hình số
 
-⚠️ **Ranh giới:** tham số của thị trường tiền tệ là **do bài này đặt ra**. Nhưng chúng được chọn để **tái
-hiện đúng** đường AD $Y = 1500 - 5P$ của bài 11 — đó chính là phép kiểm.
+> [!warning] Ranh giới:
+> tham số của thị trường tiền tệ là **do bài này đặt ra**. Nhưng chúng được chọn để **tái
+> hiện đúng** đường AD $Y = 1500 - 5P$ của bài 11 — đó chính là phép kiểm.
 
 $$\text{cầu tiền } M^d = 1000 + 5P - 100r \qquad \text{cung tiền } M^s = 1000$$
 $$\text{hàng hoá } Y = 175 + 0{,}75Y - 25r + G, \quad G = 200$$
@@ -194,7 +206,7 @@ $$\text{hàng hoá } Y = 175 + 0{,}75Y - 25r + G, \quad G = 200$$
 
 $$\frac{\Delta Y}{\Delta P} = -5 \quad\Rightarrow\quad \boxed{Y = 1500 - 5P}$$
 
-### ⭐⭐ Đó chính là đường AD của bài 11
+### Đó chính là đường AD của bài 11
 
 ✅ Kiểm bằng `assert`. **Bài 11 đặt nó ra; bài 12 dựng ra nó từ hai thị trường.**
 
@@ -205,7 +217,7 @@ $$\frac{\Delta Y}{\Delta P} = -5 \quad\Rightarrow\quad \boxed{Y = 1500 - 5P}$$
 | ---------------- | ----------------------- | ------- |
 | Ngân hàng dự trữ 100% | dự trữ một phần ([bài 7](bai_07_he_thong_tien_te.md#8-số-nhân-tiền)) | $R = 1$ |
 | Nền kinh tế đóng | nền kinh tế mở ([bài 9](bai_09_kinh_te_mo_khai_niem_co_ban.md#6-s--i--nco)) | $NCO = 0$ |
-| Ngang bằng sức mua | mô hình bài 10 ([bài 10](bai_10_ly_thuyet_kinh_te_mo.md#11--ngang-bằng-sức-mua-là-trường-hợp-đặc-biệt-của-mô-hình-này)) | $NX$ nhạy vô hạn |
+| Ngang bằng sức mua | mô hình bài 10 ([bài 10](bai_10_ly_thuyet_kinh_te_mo.md#11-ngang-bằng-sức-mua-là-trường-hợp-đặc-biệt-của-mô-hình-này)) | $NX$ nhạy vô hạn |
 | **AD của bài 11** | **hai thị trường của bài 12** | — |
 
 ---
@@ -223,6 +235,7 @@ Giữ **mức giá cố định**, đổi **cung tiền**. Đây là **dịch ch
 
 ✅ `assert`: $M^s = 1100 \Rightarrow r = 4\%$, $Y = 1100$.
 
+> [!quote] tr. 514
 > *"**Khi Fed tăng cung tiền, họ làm giảm lãi suất và tăng lượng cầu hàng hóa và dịch vụ ở bất kỳ mức giá
 > cho trước, làm dịch chuyển đường tổng cầu sang phải.**"* (tr. 514)
 
@@ -232,7 +245,7 @@ Giữ **mức giá cố định**, đổi **cung tiền**. Đây là **dịch ch
 [bài 11 mục 9](bai_11_tong_cau_va_tong_cung.md#9-cú-sốc-tổng-cầu-a--b--c). Hai bài dùng cùng một con số,
 và bây giờ ta biết nó **đến từ đâu**.
 
-### 📌 Bảy mắt xích, bảy bài
+### Bảy mắt xích, bảy bài
 
 ```
 Fed mua trái phiếu     →  dự trữ ngân hàng tăng      (bài 7 mục 11)
@@ -269,10 +282,11 @@ hàng ngày của cầu tiền bằng cách điều chỉnh cung tiền."*
 | Fed chốt **LÃI SUẤT** | 5,00% | **1.000** |
 
 Chốt lãi suất thì cú sốc cầu tiền **không lọt sang sản lượng**. Đó cũng là lời giải bài tập 2 tr. 531 —
-xem [mục 15](#15--bốn-bài-tập-giải-bằng-số).
+xem [mục 15](#15-bốn-bài-tập-giải-bằng-số).
 
-### ⚠️ Nhưng điều này không đổi phân tích
+### Nhưng điều này không đổi phân tích
 
+> [!quote] tr. 515
 > *"chính sách tiền tệ có thể được mô tả **theo cung tiền hoặc theo lãi suất**… Những thay đổi của chính
 > sách tiền tệ nhắm đến việc mở rộng tổng cầu có thể được mô tả như là **tăng cung tiền** hoặc như **hạ
 > lãi suất**."* (tr. 515)
@@ -284,19 +298,22 @@ phải là 6%"* (tr. 515). **Không tồn tại lựa chọn "hạ lãi suất m
 
 ---
 
-## 7. 📚 Tiệm cận đáy zero và bẫy thanh khoản
+## 7. Tiệm cận đáy zero và bẫy thanh khoản
 
 Hộp phụ tr. 516 đặt một câu hỏi mà năm 2010 đang rất nóng, và ngày nay còn nóng hơn:
 
+> [!quote]
 > *"điều gì xảy ra nếu lãi suất mục tiêu của Fed đã giảm ở mức thấp nhất có thể? Trong giai đoạn suy
 > thoái 2008 và 2009, lãi suất quỹ liên bang giảm **gần bằng zero**."*
 
+> [!quote]
 > **Bẫy thanh khoản** (tr. 516): lãi suất danh nghĩa không thể xuống dưới zero (*"thay vì cho vay với lãi
 > suất danh nghĩa âm, người ta chỉ cần giữ tiền mặt"*), nên chính sách tiền tệ mở rộng *"không còn hiệu
 > lực nữa"*. *"Tổng cầu, sản xuất và việc làm có thể bị **mắc kẹt** ở mức thấp."*
 
 ### Lối ra 1 — nâng kỳ vọng lạm phát
 
+> [!quote] tr. 516
 > *"ngay cả khi lãi suất danh nghĩa không thể giảm hơn nữa, lạm phát kỳ vọng cao hơn có thể hạ lãi suất
 > **thực** bằng cách làm cho lãi suất thực trở thành **âm**, điều đó sẽ kích thích chi tiêu đầu tư."*
 > (tr. 516)
@@ -311,8 +328,9 @@ $i = 0$:
 | 0% | 2% | **−2%** |
 | 0% | **4%** | **−4%** |
 
-### ⭐ Và đây là lập luận cho mục tiêu lạm phát DƯƠNG
+### Và đây là lập luận cho mục tiêu lạm phát DƯƠNG
 
+> [!quote] tr. 516
 > *"Ở mức lạm phát zero, lãi suất thực giống như lãi suất danh nghĩa không bao giờ giảm thấp hơn zero.
 > Nhưng nếu tỷ lệ lạm phát danh nghĩa là 4%, khi đó ngân hàng trung ương có thể dễ dàng đẩy lãi suất
 > thực xuống −4% bằng cách hạ lãi suất danh nghĩa xuống bằng 0. Do đó, **lạm phát vừa phải giúp các nhà
@@ -327,14 +345,16 @@ hàng trung ương thường chọn mục tiêu **2%** chứ không phải 0%.
 
 ### Lối ra 2 — mua tài sản khác
 
+> [!quote] tr. 516
 > *"họ có thể mua nợ cầm cố và nợ doanh nghiệp và từ đó hạ thấp lãi suất trên các loại khoản vay này. Fed
 > đã tích cực thực hiện chọn lựa cuối cùng này trong thời kỳ suy thoái 2008 và 2009."* (tr. 516)
 
 📌 Ngày nay công cụ này có tên riêng: **nới lỏng định lượng** (quantitative easing).
 
-⚠️ Và sách ghi nhận tranh cãi chưa dứt (tr. 516): *"Các nhà kinh tế khác hoài nghi về tính phù hợp của
-bẫy thanh khoản và tin rằng ngân hàng trung ương vẫn tiếp tục có công cụ để mở rộng nền kinh tế, ngay cả
-khi mục tiêu lãi suất đã tiệm cận đáy zero."* Sách **không** kết luận bên nào đúng.
+> [!warning]
+> Và sách ghi nhận tranh cãi chưa dứt (tr. 516): *"Các nhà kinh tế khác hoài nghi về tính phù hợp của
+> bẫy thanh khoản và tin rằng ngân hàng trung ương vẫn tiếp tục có công cụ để mở rộng nền kinh tế, ngay cả
+> khi mục tiêu lãi suất đã tiệm cận đáy zero."* Sách **không** kết luận bên nào đúng.
 
 ---
 
@@ -342,6 +362,7 @@ khi mục tiêu lãi suất đã tiệm cận đáy zero."* Sách **không** k�
 
 Sách mở bằng câu đùa của Paul Samuelson (tr. 516):
 
+> [!quote]
 > *"Thị trường chứng khoán đã dự báo **chín** trong số **năm** đợt suy thoái đã xảy ra vừa qua."*
 
 📌 Đó là một câu đùa về **dương tính giả**: 9 dự báo cho 5 sự kiện = 4 báo động nhầm. Và nó đúng cho mọi
@@ -356,20 +377,22 @@ lần**; từ 11/2007 đến 3/2009 thị trường **mất nửa giá trị**.
    *(chính là **hiệu ứng của cải** ở [bài 11 mục 4](bai_11_tong_cau_va_tong_cung.md#4-đường-tổng-cầu-dốc-xuống--ba-hiệu-ứng))*
 2. Giá cổ phiếu tăng → doanh nghiệp **bán thêm cổ phiếu mới** để huy động vốn → đầu tư tăng
 
-### ✅ Một ca thật, có đủ số liệu (tr. 517)
+### Một ca thật, có đủ số liệu (tr. 517)
 
 **Ngày 19/10/1987:** thị trường cổ phiếu giảm **22,6%** trong một ngày — *"mức giảm trong ngày lớn nhất
 trong lịch sử"*. Fed phản ứng:
 
 $$\text{lãi suất quỹ liên bang } 7{,}7\% \to 6{,}6\% \quad(\text{giảm } 1{,}1 \text{ điểm} = 14{,}3\%)$$
 
+> [!quote]
 > *"Một phần nhờ hành động nhanh chóng của Fed mà nền kinh tế đã **tránh được** suy thoái."*
 
-⚠️ Đối chiếu với [bài 7 mục 11](bai_07_he_thong_tien_te.md#11-bốn-công-cụ-kiểm-soát-tiền-tệ-của-fed): ở
-đó sách in con số cho **cùng sự kiện này** là **22%** (tr. 376), ở đây là **22,6%** (tr. 517). Cùng một
-sự kiện, hai mức làm tròn. Không mâu thuẫn, nhưng đáng biết nếu bạn đối chiếu hai chương.
+> [!warning]
+> Đối chiếu với [bài 7 mục 11](bai_07_he_thong_tien_te.md#11-bốn-công-cụ-kiểm-soát-tiền-tệ-của-fed): ở
+> đó sách in con số cho **cùng sự kiện này** là **22%** (tr. 376), ở đây là **22,6%** (tr. 517). Cùng một
+> sự kiện, hai mức làm tròn. Không mâu thuẫn, nhưng đáng biết nếu bạn đối chiếu hai chương.
 
-### ⚠️⚠️ Câu quan trọng nhất của mục này
+### Câu quan trọng nhất của mục này
 
 Năm 2008–2009 Fed cũng hạ lãi suất khi chứng khoán sụt, *"nhưng **lần này** chính sách tiền tệ **không
 đủ** để xoay chuyển đợt suy thoái sâu"* (tr. 517).
@@ -381,10 +404,12 @@ phải bàn về **giới hạn** của chính sách bình ổn.
 
 ## 9. Chính sách tài khoá — tác động số nhân
 
+> [!quote]
 > **Chính sách tài khoá** (tr. 517): *"công việc ấn định mức chi tiêu và thuế khoá của chính phủ của các
 > nhà hoạch định chính sách."*
 
-⚠️ Khác biệt cơ bản với chính sách tiền tệ (tr. 518):
+> [!warning]
+> Khác biệt cơ bản với chính sách tiền tệ (tr. 518):
 
 | Công cụ | Dịch AD bằng cách |
 | ------- | ----------------- |
@@ -393,9 +418,11 @@ phải bàn về **giới hạn** của chính sách bình ổn.
 
 Ví dụ của sách: Bộ Quốc phòng đặt đơn hàng **20 tỷ đô la** mua máy bay chiến đấu từ Boeing.
 
+> [!quote]
 > **Tác động số nhân** (tr. 518): *"những chuyển dịch **thêm** của đường tổng cầu xuất phát từ việc chính
 > sách tài khoá mở rộng làm tăng thu nhập và theo đó làm tăng chi tiêu tiêu dùng."*
 
+> [!quote]
 > **MPC — khuynh hướng tiêu dùng biên** (tr. 519): *"tỷ phần của số thu nhập tăng thêm mà hộ gia đình chi
 > tiêu tiêu dùng thay vì tiết kiệm."*
 
@@ -426,8 +453,9 @@ vụ."*
 
 ✅ Khớp (tr. 520): *"MPC = ¾ dẫn đến hệ số nhân là 4, thì MPC bằng ½ chỉ mang lại số nhân bằng 2."*
 
-### ⭐ Số nhân không chỉ áp cho chi tiêu chính phủ
+### Số nhân không chỉ áp cho chi tiêu chính phủ
 
+> [!quote] tr. 521
 > *"nó nói đến **bất kỳ** sự kiện nào làm thay đổi chi tiêu trong **bất kỳ** thành phần nào của GDP."*
 > (tr. 521)
 
@@ -445,6 +473,7 @@ trước nhu cầu máy bay cao hơn bằng quyết định mua nhiều thiết 
 
 ## 10. Tác động lấn át
 
+> [!quote]
 > **Tác động lấn át** (tr. 521): *"phần bù trừ trong tổng cầu xảy ra khi chính sách tài khoá mở rộng làm
 > tăng lãi suất và do đó làm giảm chi tiêu đầu tư."*
 
@@ -458,11 +487,12 @@ Chuỗi nhân quả, đúng theo sách (tr. 521–522):
 5.  →  tổng cầu bị kéo NGƯỢC lại
 ```
 
-⚠️ **Chú ý bước 3.** Lấn át chỉ xảy ra vì Fed **giữ cung tiền không đổi**. Nếu Fed chốt **lãi suất**
-([mục 6](#6-vì-sao-fed-nói-về-lãi-suất-chứ-không-nói-về-cung-tiền)), lấn át **không** xảy ra. Đó là lời
-giải bài tập 12 tr. 533.
+> [!warning] Chú ý bước 3.
+> Lấn át chỉ xảy ra vì Fed **giữ cung tiền không đổi**. Nếu Fed chốt **lãi suất**
+> ([mục 6](#6-vì-sao-fed-nói-về-lãi-suất-chứ-không-nói-về-cung-tiền)), lấn át **không** xảy ra. Đó là lời
+> giải bài tập 12 tr. 533.
 
-### ✅ Số nhân THỰC, sau khi trừ lấn át
+### Số nhân THỰC, sau khi trừ lấn át
 
 | Độ nhạy cầu tiền theo thu nhập | Mức lấn át | **Số nhân thực** | 20 tỷ tạo ra |
 | ---: | ---: | ---: | ---: |
@@ -473,10 +503,11 @@ giải bài tập 12 tr. 533.
 | **3,0** | 0,75 | **1,00** | **20,0 tỷ** |
 | 10,0 | 2,50 | **0,36** | **7,3 tỷ** |
 
-### ⭐⭐ Đọc bảng trên cạnh kết luận của sách (tr. 522)
+### Đọc bảng trên cạnh kết luận của sách (tr. 522)
 
 ![Hình 5 — tr. 522, bản chụp giáo trình](../tai_lieu/hinh/ch21-hinh-05-tr522.png)
 
+> [!quote]
 > *"Khi chính phủ tăng mua sắm 20 tỷ đô la, tổng cầu hàng hóa và dịch vụ có thể tăng **ít hay nhiều hơn**
 > 20 tỷ tùy vào quy mô số nhân và tác động lấn át."*
 
@@ -495,6 +526,7 @@ chỗ dễ nhầm nhất của cả khoá.
 Cắt giảm thuế cũng chịu **cả hai** tác động (số nhân và lấn át). Nhưng sách nêu thêm một yếu tố thứ ba mà
 chỉ thuế mới có (tr. 523):
 
+> [!quote]
 > *"nhận định của hộ gia đình về việc thuế thay đổi là **vĩnh viễn hay tạm thời**"*
 
 | Nhận định | Hộ gia đình coi khoản giảm thuế là | Tác động lên AD |
@@ -502,13 +534,14 @@ chỉ thuế mới có (tr. 523):
 | **VĨNH VIỄN** | *"phần bổ sung **đáng kể** vào nguồn lực tài chính"* | **LỚN** |
 | **TẠM THỜI** | *"phần bổ sung **không đáng kể**"* | **NHỎ** |
 
-### ✅ Và sách cho một ca cực đoan có thật (tr. 524)
+### Và sách cho một ca cực đoan có thật (tr. 524)
 
 Năm **1992**, Tổng thống George H. W. Bush *"đứng trước nguy cơ suy thoái và chiến dịch tái tranh cử sắp
 diễn ra"*. Ông cắt giảm khoản thuế thu nhập **khấu trừ từ quỹ lương**.
 
 Nhưng:
 
+> [!quote]
 > *"do **thuế suất theo luật định là không đổi**, nên mỗi đồng đô la được giảm khấu trừ năm 1992 là tương
 > đương một đồng đô la thuế tăng thêm phải nộp vào ngày 15/4/1993."*
 
@@ -521,6 +554,7 @@ phải số tiền, mà chỉ là **tiền lãi** của số tiền đó trong m
 | **5%** | **50 $** |
 | 10% | 100 $ |
 
+> [!quote] tr. 524
 > *"không có gì ngạc nhiên khi tác động của chính sách này lên tiêu dùng và tổng cầu là **tương đối
 > nhỏ**."* (tr. 524)
 
@@ -530,18 +564,20 @@ như không có giá trị.** Chính trị gia gọi nó là "giảm thuế"; k�
 
 ---
 
-## 12. 📚 Chính sách tài khoá cũng chạm vào tổng cung
+## 12. Chính sách tài khoá cũng chạm vào tổng cung
 
 Cả chương nói về **tổng cầu**. Hộp phụ tr. 523 mở một cánh cửa khác.
 
 ### Kênh 1 — thuế và động cơ
 
+> [!quote]
 > *"Một trong **Mười Nguyên lý Kinh tế học** ở Chương 1 cho rằng người dân phản ứng với những động cơ
 > khuyến khích. Khi các nhà hoạch định chính sách giảm thuế suất, người lao động được giữ lại nhiều tiền
 > hơn từ mỗi đô la họ kiếm được, do đó họ có động cơ lớn hơn để làm việc và sản xuất ra hàng hóa và dịch
 > vụ."* → **AS dịch phải**.
 
-⚠️ Và sách xử lý phái **chuyên gia phía cung** một cách rất cẩn (tr. 523):
+> [!warning]
+> Và sách xử lý phái **chuyên gia phía cung** một cách rất cẩn (tr. 523):
 
 | | |
 | --- | --- |
@@ -554,15 +590,17 @@ không đủ.
 
 ### Kênh 2 — chi tiêu công và năng suất
 
+> [!quote] tr. 523
 > *"Đường bộ sẽ được khu vực tư nhân sử dụng để vận chuyển hàng hóa đến khách hàng; chất lượng đường bộ
 > tăng lên sẽ làm tăng năng suất của những doanh nghiệp này."* (tr. 523)
 
-⚠️ Nhưng sách ghi rõ độ trễ: *"Tác động này lên tổng cung có lẽ có quan trọng hơn trong **dài hạn** so
-với ngắn hạn, vì phải mất một khoảng thời gian để chính phủ xây đường mới và đưa vào sử dụng."*
+> [!warning]
+> Nhưng sách ghi rõ độ trễ: *"Tác động này lên tổng cung có lẽ có quan trọng hơn trong **dài hạn** so
+> với ngắn hạn, vì phải mất một khoảng thời gian để chính phủ xây đường mới và đưa vào sử dụng."*
 
 📌 Đọc bằng khung [bài 11 mục 6](bai_11_tong_cau_va_tong_cung.md#6-tổng-cung-dài-hạn-dốc-đứng): chi tiêu
 hạ tầng là **LRAS dịch phải vì vốn**. Đó là lý do một gói kích cầu chi vào **hạ tầng** khác hẳn một gói
-chi vào **trợ cấp tiêu dùng**, dù hai gói có cùng con số trên báo. Xem [mục 16(c)](#16--góc-qtkd).
+chi vào **trợ cấp tiêu dùng**, dù hai gói có cùng con số trên báo. Xem [mục 16(c)](#16-góc-qtkd).
 
 ---
 
@@ -573,8 +611,9 @@ Fed có thể *"mở rộng tổng cầu bằng cách tăng cung tiền"*. *"N�
 hợp, thì những thay đổi kết hợp giữa chính sách tiền tệ và chính sách tài khoá có thể **giữ cho tổng cầu
 hàng hóa và dịch vụ không bị ảnh hưởng**."*
 
-### ⚖️ Ủng hộ — Đạo luật Việc làm 1946
+### Ủng hộ — Đạo luật Việc làm 1946
 
+> [!quote] tr. 524–525
 > *"đây là một chính sách liên tục và trách nhiệm của chính quyền liên bang là …**thúc đẩy việc làm và
 > sản xuất toàn dụng**."* (tr. 524–525)
 
@@ -588,6 +627,7 @@ Sách tách **hai** hàm ý:
 Lập luận Keynes (tr. 525): tổng cầu biến động chủ yếu do **"tính bầy đàn"** — *"những làn sóng bi quan và
 lạc quan **không có cơ sở**"*. Và câu đáng nhớ nhất:
 
+> [!quote]
 > ⭐ *"một số thay đổi về thái độ này trong chừng mực nhất định **tự chúng sẽ trở thành hiện thực**."*
 
 📌 Đó là một mệnh đề mạnh: kỳ vọng không chỉ **phản ánh** nền kinh tế, chúng **tạo ra** nó. Nối với
@@ -596,9 +636,10 @@ kéo nền kinh tế về — và nó cũng có thể đẩy nền kinh tế đi
 
 🍷 William McChesney Martin, cựu chủ tịch Fed (tr. 525):
 
+> [!quote]
 > *"Công việc của Fed là **tịch thu bình rượu khi buổi tiệc bắt đầu**."*
 
-### ⚖️ Phản đối — độ trễ
+### Phản đối — độ trễ
 
 | Loại độ trễ | Độ dài | Nguyên nhân |
 | ----------- | ------ | ----------- |
@@ -606,9 +647,10 @@ kéo nền kinh tế về — và nó cũng có thể đẩy nền kinh tế đi
 | | *"có thể tốn đến **nhiều năm**"* | tác động đầy đủ |
 | Chính sách **tài khoá** | *"hàng tháng hoặc… hàng năm"* | **quy trình chính trị** |
 
-⚠️ Lập luận phản bác mạnh nhất (tr. 526–527): vì độ trễ, *"Fed thường xuyên phản ứng quá chậm trước những
-điều kiện kinh tế đang thay đổi và kết quả là trở thành **nguyên nhân** chứ không phải là giải pháp khắc
-phục biến động kinh tế."*
+> [!warning]
+> Lập luận phản bác mạnh nhất (tr. 526–527): vì độ trễ, *"Fed thường xuyên phản ứng quá chậm trước những
+> điều kiện kinh tế đang thay đổi và kết quả là trở thành **nguyên nhân** chứ không phải là giải pháp khắc
+> phục biến động kinh tế."*
 
 Và sách chỉ ra gốc rễ: *"Các độ trễ… cũng rắc rối một phần vì hoạt động **dự báo kinh tế quá kém**…
 nhiều đợt suy thoái và trì trệ nghiêm trọng xảy ra mà **không có nhiều cảnh báo trước**."*
@@ -621,6 +663,7 @@ là một phần của vấn đề.
 
 ## 14. Nhân tố bình ổn tự động
 
+> [!quote]
 > **Các nhân tố bình ổn tự động** (tr. 527): *"những thay đổi trong chính sách tài khoá kích thích tổng
 > cầu khi nền kinh tế đi vào suy thoái mà các nhà hoạch định chính sách **không cần phải có hành động chủ
 > đích nào**."*
@@ -635,9 +678,10 @@ Hai nhân tố chính:
    nhập doanh nghiệp đều gắn với hoạt động kinh tế)
 2. **Chi tiêu chính phủ** — trợ cấp thất nghiệp, phúc lợi tự động tăng
 
-### ⭐ Cơ chế, viết thành công thức
+### Cơ chế, viết thành công thức
 
-⚠️ **Công thức này không có trong sách** — sách mô tả cơ chế bằng lời. Bài này viết nó ra.
+> [!warning] Công thức này không có trong sách
+> sách mô tả cơ chế bằng lời. Bài này viết nó ra.
 
 Với thuế suất biên $t$, thu nhập khả dụng chỉ còn $(1-t)$ mỗi đồng, nên mỗi vòng tiêu dùng chỉ còn
 $MPC \times (1-t)$:
@@ -652,19 +696,21 @@ $$\text{số nhân} = \frac{1}{1 - MPC(1-t)}$$
 | 30% | 2,11 | −211 |
 | **50%** | **1,60** | **−160** |
 
-### ⭐⭐ Đọc bảng
+### Đọc bảng
 
 **Thuế suất càng cao thì số nhân càng NHỎ.** Nhân tố bình ổn tự động hoạt động bằng cách **làm nhỏ số
 nhân** — tức làm giảm độ khuếch đại của **mọi** cú sốc, cả cú sốc xấu **lẫn** cú sốc tốt.
 
 📌 **Đó không phải tác dụng phụ; đó chính là cơ chế.**
 
-⚠️ Sách đánh giá rất cẩn (tr. 528): *"Các nhân tố bình ổn tự động ở nền kinh tế Hoa Kỳ là **không đủ mạnh**
-để ngăn chặn hoàn toàn các đợt suy thoái. Tuy nhiên, không có các nhân tố bình ổn tự động này, sản lượng
-và việc làm sẽ biến động **mạnh hơn thực tế**."*
+> [!warning]
+> Sách đánh giá rất cẩn (tr. 528): *"Các nhân tố bình ổn tự động ở nền kinh tế Hoa Kỳ là **không đủ mạnh**
+> để ngăn chặn hoàn toàn các đợt suy thoái. Tuy nhiên, không có các nhân tố bình ổn tự động này, sản lượng
+> và việc làm sẽ biến động **mạnh hơn thực tế**."*
 
-### ⭐ Một hệ quả chính sách sách nêu thẳng
+### Một hệ quả chính sách sách nêu thẳng
 
+> [!quote] tr. 528
 > *"nhiều nhà kinh tế **phản đối** việc sửa đổi hiến pháp trong đó yêu cầu chính phủ liên bang luôn phải
 > duy trì **ngân sách cân đối**… Nếu chính phủ đứng trước quy tắc khắt khe phải cân đối ngân sách, họ
 > **buộc phải tìm cách tăng thuế và cắt giảm chi tiêu trong suy thoái**… quy tắc cân đối ngân sách khắt
@@ -676,7 +722,7 @@ có thể làm nền kinh tế bất ổn hơn**, vì nó bắt chính phủ hà
 
 ---
 
-## 15. 📚 Bốn bài tập giải bằng số
+## 15. Bốn bài tập giải bằng số
 
 ### Bài tập 8 tr. 533 — cần bao nhiêu chi tiêu để lấp hố suy thoái
 
@@ -685,8 +731,9 @@ Sản lượng thấp hơn tiềm năng **400 tỷ**; $MPC = 4/5$; ngân hàng t
 
 $$\text{số nhân} = \frac{1}{1-0{,}8} = 5 \quad\Rightarrow\quad \Delta G = \frac{400}{5} = \textbf{80 tỷ}$$
 
-⚠️ Chú ý đề bài cho sẵn **hai** điều kiện để bỏ lấn át. Bỏ một trong hai thì con số 80 tỷ **không còn
-đúng**.
+> [!warning]
+> Chú ý đề bài cho sẵn **hai** điều kiện để bỏ lấn át. Bỏ một trong hai thì con số 80 tỷ **không còn
+> đúng**.
 
 ### Bài tập 9 tr. 533 — vì sao giảm thuế yếu hơn tăng chi tiêu
 
@@ -751,7 +798,7 @@ tiêu.
 
 ---
 
-## 16. 💼 Góc QTKD
+## 16. Góc QTKD
 
 *Mục này không có trong sách.*
 
@@ -782,7 +829,7 @@ dễ tưởng nhầm là "không sao". **Đó là giai đoạn nên chuẩn bị
 | 4 | bán lẻ, dịch vụ tiêu dùng | muộn — qua thu nhập và việc làm |
 | 5 | hàng thiết yếu | **muộn nhất và nhẹ nhất** |
 
-📌 Đối chiếu với [bài 11 mục 19(a)](bai_11_tong_cau_va_tong_cung.md#19--góc-qtkd): thứ tự này **gần trùng**
+📌 Đối chiếu với [bài 11 mục 19(a)](bai_11_tong_cau_va_tong_cung.md#19-góc-qtkd): thứ tự này **gần trùng**
 với thứ tự độ nhạy theo chu kỳ. Không phải trùng hợp — cả hai đều do vai trò của **đầu tư** và **hàng lâu
 bền**, tức của những quyết định **hoãn lại được**.
 
@@ -793,9 +840,9 @@ báo **không** cho biết tác động thật.
 
 | # | Câu hỏi | Vì sao quan trọng |
 | - | ------- | ----------------- |
-| 1 | **Chi mua sắm** hay **giảm thuế**? | chi mua sắm vòng đầu trọn vẹn → tác động lớn hơn ([bài tập 9c](#15--bốn-bài-tập-giải-bằng-số)) |
+| 1 | **Chi mua sắm** hay **giảm thuế**? | chi mua sắm vòng đầu trọn vẹn → tác động lớn hơn ([bài tập 9c](#15-bốn-bài-tập-giải-bằng-số)) |
 | 2 | **Vĩnh viễn** hay **một lần**? | một lần → hộ gia đình tiết kiệm phần lớn → tác động nhỏ ([mục 11](#11-thay-đổi-thuế--và-vì-sao-vĩnh-viễn-khác-tạm-thời)) |
-| 3 | **Hạ tầng** hay **trợ cấp tiêu dùng**? | hạ tầng chậm hơn nhưng dịch **cả** đường tổng cung ([mục 12](#12--chính-sách-tài-khoá-cũng-chạm-vào-tổng-cung)) |
+| 3 | **Hạ tầng** hay **trợ cấp tiêu dùng**? | hạ tầng chậm hơn nhưng dịch **cả** đường tổng cung ([mục 12](#12-chính-sách-tài-khoá-cũng-chạm-vào-tổng-cung)) |
 
 ⭐ Ba câu hỏi, ba đáp số khác nhau — với **cùng một con số** trên tiêu đề báo.
 
@@ -814,20 +861,22 @@ báo **không** cho biết tác động thật.
 gia. Và nó có **cùng cái giá**: cái gì làm nhẹ cú sốc **xấu** cũng làm nhẹ cú sốc **tốt**. Chi phí biến
 đổi cao thì bạn ăn ít hơn khi bùng nổ.
 
-⚠️ Đọc lại [bài 7 mục 10](bai_07_he_thong_tien_te.md#10-vốn-tự-có-và-đòn-bẩy) và
-[bài 11 mục 19(a)](bai_11_tong_cau_va_tong_cung.md#19--góc-qtkd): ba mục này nói **cùng một điều** bằng ba
-ngôn ngữ — đòn bẩy, độ nhạy chu kỳ, và cơ cấu chi phí.
+> [!warning]
+> Đọc lại [bài 7 mục 10](bai_07_he_thong_tien_te.md#10-vốn-tự-có-và-đòn-bẩy) và
+> [bài 11 mục 19(a)](bai_11_tong_cau_va_tong_cung.md#19-góc-qtkd): ba mục này nói **cùng một điều** bằng ba
+> ngôn ngữ — đòn bẩy, độ nhạy chu kỳ, và cơ cấu chi phí.
 
 📌 **Nếu ngành của bạn nhạy, hãy chọn cơ cấu chi phí LINH HOẠT và đòn bẩy THẤP.** Đó là kết luận thực
 dụng nhất của cả khối ngắn hạn.
 
 ---
 
-## 17. 📚 Đối chiếu Việt Nam
+## 17. Đối chiếu Việt Nam
 
-⚠️ **Cảnh báo trước khi đọc.** Mục này **không có trong sách** và **không dựa trên nguồn số liệu nào được
-kiểm chứng trong bài**. Nó chỉ nêu chỗ khung của Mankiw cần chỉnh khi đem về Việt Nam và **cách tra**.
-Số liệu cụ thể hãy tra tại **Ngân hàng Nhà nước**, **Bộ Tài chính** và **Tổng cục Thống kê**.
+> [!warning] Cảnh báo trước khi đọc.
+> Mục này **không có trong sách** và **không dựa trên nguồn số liệu nào được
+> kiểm chứng trong bài**. Nó chỉ nêu chỗ khung của Mankiw cần chỉnh khi đem về Việt Nam và **cách tra**.
+> Số liệu cụ thể hãy tra tại **Ngân hàng Nhà nước**, **Bộ Tài chính** và **Tổng cục Thống kê**.
 
 ### Thứ tự ba hiệu ứng phải đảo lại
 
@@ -841,12 +890,12 @@ giá** nhỏ. Sách **tự ghi chú** rằng với nước nhỏ mở cửa thì
 | Của cải | nhỏ nhất | nhỏ, nhưng **giá bất động sản** có thể là kênh của cải đáng kể |
 
 📌 Hệ quả: một quyết định lãi suất ở Việt Nam có **hai** kênh tác động mạnh cùng lúc — qua đầu tư trong
-nước, **và** qua tỷ giá rồi qua xuất khẩu ròng ([bài 10 mục 8](bai_10_ly_thuyet_kinh_te_mo.md#8--hai-cú-sốc-cùng-một-lãi-suất-hai-tỷ-giá-ngược-nhau)).
+nước, **và** qua tỷ giá rồi qua xuất khẩu ròng ([bài 10 mục 8](bai_10_ly_thuyet_kinh_te_mo.md#8-hai-cú-sốc-cùng-một-lãi-suất-hai-tỷ-giá-ngược-nhau)).
 Hai kênh này có thể **cùng chiều** hoặc **ngược chiều** tuỳ nguồn gốc cú sốc.
 
 ### Công cụ tiền tệ: một cái Mankiw không mô hình hoá
 
-[Bài 7 mục 16](bai_07_he_thong_tien_te.md#16--đối-chiếu-việt-nam) đã nêu **trần tăng trưởng tín dụng**
+[Bài 7 mục 16](bai_07_he_thong_tien_te.md#16-đối-chiếu-việt-nam) đã nêu **trần tăng trưởng tín dụng**
 ("room tín dụng"). Trong khung của bài này, nó là một công cụ **không đi qua lãi suất**:
 
 | | Công cụ của Fed | Room tín dụng |
@@ -855,9 +904,10 @@ Hai kênh này có thể **cùng chiều** hoặc **ngược chiều** tuỳ ngu
 | Trong mô hình mục 4 | dịch đường cung tiền | chặn ngoài mô hình |
 | Độ trễ | *"ít nhất 6 tháng"* | **nhanh hơn** — có hiệu lực gần như ngay |
 
-⚠️ Đó là một **đánh đổi thật**: room tín dụng nhanh hơn và chắc tay hơn, nhưng nó thay cơ chế **giá** bằng
-cơ chế **phân bổ hành chính**, nên phân bổ vốn kém hiệu quả hơn. Với người làm kinh doanh, hệ quả rất cụ
-thể: **khi room hết, lãi suất không cho bạn biết gì cả** — bạn không vay được ở bất kỳ giá nào.
+> [!warning]
+> Đó là một **đánh đổi thật**: room tín dụng nhanh hơn và chắc tay hơn, nhưng nó thay cơ chế **giá** bằng
+> cơ chế **phân bổ hành chính**, nên phân bổ vốn kém hiệu quả hơn. Với người làm kinh doanh, hệ quả rất cụ
+> thể: **khi room hết, lãi suất không cho bạn biết gì cả** — bạn không vay được ở bất kỳ giá nào.
 
 ### Chính sách tài khoá: hai đặc điểm cần chỉnh
 
@@ -875,23 +925,25 @@ một lập luận kỹ thuật cho việc mở rộng an sinh xã hội mà kh�
 
 ### Điều đáng theo dõi
 
-- **Lãi suất điều hành** và **lãi suất liên ngân hàng qua đêm** — tín hiệu sớm nhất ([bài 7 mục 15](bai_07_he_thong_tien_te.md#15--góc-qtkd))
+- **Lãi suất điều hành** và **lãi suất liên ngân hàng qua đêm** — tín hiệu sớm nhất ([bài 7 mục 15](bai_07_he_thong_tien_te.md#15-góc-qtkd))
 - **Trần tăng trưởng tín dụng** được giao và mức đã dùng — thường ràng buộc hơn lãi suất
 - **Tỷ lệ giải ngân đầu tư công** so với kế hoạch — thước đo độ trễ tài khoá thật
-- **Tỷ giá và dự trữ ngoại hối** — vì kênh tỷ giá nặng hơn ([bài 10 mục 14](bai_10_ly_thuyet_kinh_te_mo.md#14--đối-chiếu-việt-nam))
+- **Tỷ giá và dự trữ ngoại hối** — vì kênh tỷ giá nặng hơn ([bài 10 mục 14](bai_10_ly_thuyet_kinh_te_mo.md#14-đối-chiếu-việt-nam))
 
 ---
 
 ## 18. Code minh hoạ
 
+> [!note]
 > ⚙️ **Chạy:** cần **Python 3.10+**. Lưu file rồi gõ `python3 bai-12-chinh-sach-tien-te-va-tai-khoa.py`.
 > Không cần cài gói nào — chỉ dùng thư viện chuẩn. Output tất định.
 
 Bản gốc: [`thuc_hanh/bai-12-chinh-sach-tien-te-va-tai-khoa.py`](../thuc_hanh/bai-12-chinh-sach-tien-te-va-tai-khoa.py).
 
-⚠️ **Ranh giới:** công thức số nhân $1/(1-MPC)$ là **của sách** (tr. 520). Tham số của thị trường tiền tệ
-là **do bài này đặt ra** — nhưng được chọn để **tái hiện đúng** đường AD $Y = 1500 - 5P$ của bài 11, và
-điều đó được `assert`.
+> [!warning] Ranh giới:
+> công thức số nhân $1/(1-MPC)$ là **của sách** (tr. 520). Tham số của thị trường tiền tệ
+> là **do bài này đặt ra** — nhưng được chọn để **tái hiện đúng** đường AD $Y = 1500 - 5P$ của bài 11, và
+> điều đó được `assert`.
 
 ```python
 """Bai 12 — Tac dong cua chinh sach tien te va tai khoa len tong cau
@@ -2607,12 +2659,12 @@ Tat ca assert deu qua — moi con so co (tr. NNN) deu khop sach.
 Sửa tham số trong file `.py` rồi chạy lại, quan sát cái gì đổi. Không có lời giải ở đây.
 
 1. **Đổi `D` từ 25 lên 100** (đầu tư nhạy hơn nhiều với lãi suất). Đường AD suy ra ở
-   [mục 4](#4--dựng-lại-đường-tổng-cầu-từ-thị-trường-tiền-tệ) có độ dốc bao nhiêu? Nó **thoải hơn** hay
+   [mục 4](#4-dựng-lại-đường-tổng-cầu-từ-thị-trường-tiền-tệ) có độ dốc bao nhiêu? Nó **thoải hơn** hay
    **dốc hơn**? Điều đó làm chính sách tiền tệ mạnh hơn hay yếu hơn?
 
 2. **Đổi `B` từ 100 xuống 20** (cầu tiền ít nhạy với lãi suất). Bơm tiền +100 bây giờ hạ lãi suất bao
    nhiêu? Sản lượng đổi bao nhiêu? Viết **một câu** nối kết quả này với **bẫy thanh khoản** ở
-   [mục 7](#7--tiệm-cận-đáy-zero-và-bẫy-thanh-khoản).
+   [mục 7](#7-tiệm-cận-đáy-zero-và-bẫy-thanh-khoản).
 
 3. **Trong `lan_at()`, thêm `cY = 30.0` vào danh sách.** Số nhân thực ra bao nhiêu? 20 tỷ tạo ra bao
    nhiêu? Ở mức lấn át đó, chính sách tài khoá còn đáng làm không?
@@ -2882,15 +2934,15 @@ Trả lời rồi mới kéo lên đối chiếu. Câu có ⭐ là câu đáng d
   - Bảng **giá trị thực của khoản hoãn thuế** ở [mục 11](#11-thay-đổi-thuế--và-vì-sao-vĩnh-viễn-khác-tạm-thời)
     là do bài này tính, dùng khái niệm giá trị hiện tại của bài 5. Sách chỉ kết luận tác động *"tương đối
     nhỏ"*.
-  - Bảng **thứ tự ngành trong chuỗi truyền dẫn** ở [mục 16(b)](#16--góc-qtkd) là do bài này dựng.
-  - Toàn bộ [mục 16 — Góc QTKD](#16--góc-qtkd) và [mục 17 — Đối chiếu Việt Nam](#17--đối-chiếu-việt-nam)
+  - Bảng **thứ tự ngành trong chuỗi truyền dẫn** ở [mục 16(b)](#16-góc-qtkd) là do bài này dựng.
+  - Toàn bộ [mục 16 — Góc QTKD](#16-góc-qtkd) và [mục 17 — Đối chiếu Việt Nam](#17-đối-chiếu-việt-nam)
     nằm ngoài sách. Mục 17 **không dựa trên nguồn số liệu nào được kiểm chứng trong bài**.
 
 - **Liên hệ chéo:**
   - [Bài 11](bai_11_tong_cau_va_tong_cung.md) — mô hình AD–AS; bài này dựng ra đường AD mà bài 11 giả định.
   - [Bài 7 mục 14](bai_07_he_thong_tien_te.md#14-lãi-suất-liên-ngân-hàng) — "hai mặt của một vấn đề";
     mục 6 của bài này là bản đầy đủ của nó.
-  - [Bài 7 mục 12](bai_07_he_thong_tien_te.md#12--vì-sao-fed-không-kiểm-soát-nổi-cung-tiền) — giả định
+  - [Bài 7 mục 12](bai_07_he_thong_tien_te.md#12-vì-sao-fed-không-kiểm-soát-nổi-cung-tiền) — giả định
     "Fed kiểm soát cung tiền trực tiếp" mà chương này chủ động chấp nhận.
   - [Bài 4 mục 10](bai_04_tiet_kiem_dau_tu_he_thong_tai_chinh.md#10-thị-trường-vốn-vay--mô-hình) và
     [mục 13](bai_04_tiet_kiem_dau_tu_he_thong_tai_chinh.md#13-chính-sách-3--thâm-hụt-thặng-dư-và-hiện-tượng-lấn-át) —
@@ -2901,7 +2953,7 @@ Trả lời rồi mới kéo lên đối chiếu. Câu có ⭐ là câu đáng d
     lạm phát; mục 7 của bài này cho một **lợi ích** ở phía bên kia cán cân.
   - [Bài 5 mục 2](bai_05_cong_cu_co_ban_cua_tai_chinh.md#2-giá-trị-hiện-tại--đo-giá-trị-của-tiền-tệ-theo-thời-gian) —
     giá trị hiện tại, dùng để định giá "khoản giảm thuế" của Bush 1992.
-  - [Bài 10 mục 8](bai_10_ly_thuyet_kinh_te_mo.md#8--hai-cú-sốc-cùng-một-lãi-suất-hai-tỷ-giá-ngược-nhau) —
+  - [Bài 10 mục 8](bai_10_ly_thuyet_kinh_te_mo.md#8-hai-cú-sốc-cùng-một-lãi-suất-hai-tỷ-giá-ngược-nhau) —
     vì sao "lãi suất tăng" một mình không đủ để biết tỷ giá đi hướng nào.
   - [Bài 13](bai_13_lam_phat_va_that_nghiep.md) sẽ hỏi: nếu chính sách có thể đẩy sản lượng lên, **cái giá là gì?** Đó là đánh đổi mà
     [bài 11 mục 10](bai_11_tong_cau_va_tong_cung.md#10-cú-sốc-tổng-cung-đình-lạm) đã hé lộ và bài 13 sẽ đo.

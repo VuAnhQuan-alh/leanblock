@@ -1,5 +1,6 @@
 # Quy định, tự quản, và hành vi sai trái
 
+> [!info] Về bài này
 > Bài học dựng từ **buổi 12** (YouTube `W2BURItNYmI`, dài **76:28**) và **buổi 16** — khách mời
 > **Laura Cha**, cựu Phó Chủ tịch Uỷ ban Điều tiết Chứng khoán Trung Quốc (YouTube `vucQ8ila814`,
 > dài **62:45**) — khoá **Yale ECON 252 *Financial Markets*** (Xuân 2011), giảng viên
@@ -7,16 +8,19 @@
 > Mục có mốc `16 MM:SS` là **lấy từ video**, đã đối chiếu ngược với phụ đề gốc bằng script.
 > Mục có 📚 là **kiến thức bài này bổ sung**, không có trong video.
 > Mục có 🇻🇳 là **số liệu Việt Nam**, không có trong video, mọi con số đều trích nguồn.
-> ⚠️ **Video ghi Xuân 2011** — §16 đối chiếu với 2026.
-> 📌 **Nên đọc trước:** [Bài 6 — Sở giao dịch](bai_06_so_giao_dich.md) (phần NYSE và Hệ thống Thị
+>
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
+>
+> **Nên đọc trước:** [Bài 6 — Sở giao dịch](bai_06_so_giao_dich.md) (phần NYSE và Hệ thống Thị
 > trường Quốc gia), [Bài 8 — Cổ phiếu nhìn từ góc định chế](bai_08_co_phieu_dinh_che.md) (phần hội
 > đồng quản trị và cấu trúc sở hữu).
 
-⚠️ **Buổi 12 là buổi duy nhất trong 23 buổi không có phụ đề do người viết.** Bản `.en.vtt` YouTube
-tải về là máy nghe, câu mở đầu ra `"Today we Rules, real Rules in"`. Nên mọi trích dẫn từ buổi 12
-trong bài này lấy từ **bản ghi Open Yale Courses**, và mốc chỉ ghi được ở **cấp chương** — dạng
-`12 ch5`, không có `MM:SS`. Tám chương và mốc bắt đầu của chúng nằm ở [§1](#1-năm-tầng-quy-định--và-năm-cửa-thoát).
-Buổi 16 có phụ đề người viết đầy đủ nên trích mốc từng câu bình thường.
+> [!warning] Buổi 12 là buổi duy nhất trong 23 buổi không có phụ đề do người viết.
+> Bản `.en.vtt` YouTube
+> tải về là máy nghe, câu mở đầu ra `"Today we Rules, real Rules in"`. Nên mọi trích dẫn từ buổi 12
+> trong bài này lấy từ **bản ghi Open Yale Courses**, và mốc chỉ ghi được ở **cấp chương** — dạng
+> `12 ch5`, không có `MM:SS`. Tám chương và mốc bắt đầu của chúng nằm ở [§1](#1-năm-tầng-quy-định--và-năm-cửa-thoát).
+> Buổi 16 có phụ đề người viết đầy đủ nên trích mốc từng câu bình thường.
 
 Hai buổi này ghép được vì chúng là **cùng một câu hỏi nhìn từ hai phía**. Shiller đứng ở phía thiết
 kế: có năm tầng quy định, mỗi tầng làm gì. Laura Cha đứng ở phía người thi hành: bà làm cơ quan quản
@@ -29,9 +33,9 @@ lý mười bốn năm ở Hồng Kông rồi Bắc Kinh, và bà nói thẳng r
 
 1. [Năm tầng quy định — và năm cửa thoát](#1-năm-tầng-quy-định--và-năm-cửa-thoát)
 2. [Trọng tài, và cuộc đua xuống đáy](#2-trọng-tài-và-cuộc-đua-xuống-đáy)
-3. [📚 Micro- và macroprudential — cặp từ mới năm 2011](#3--micro--và-macroprudential--cặp-từ-mới-năm-2011)
+3. [📚 Micro- và macroprudential — cặp từ mới năm 2011](#3-micro--và-macroprudential--cặp-từ-mới-năm-2011)
 4. [Tầng 1 — hội đồng quản trị: quản trị bằng danh tiếng](#4-tầng-1--hội-đồng-quản-trị-quản-trị-bằng-danh-tiếng)
-5. [⚠️ Ba chỗ sai trong chính ví dụ hội đồng của Shiller](#5--ba-chỗ-sai-trong-chính-ví-dụ-hội-đồng-của-shiller)
+5. [⚠️ Ba chỗ sai trong chính ví dụ hội đồng của Shiller](#5-ba-chỗ-sai-trong-chính-ví-dụ-hội-đồng-của-shiller)
 6. [Đục khoét — năm kênh, và vì sao sổ sách không tố giác được](#6-đục-khoét--năm-kênh-và-vì-sao-sổ-sách-không-tố-giác-được)
 7. [Tầng 2 — hiệp hội nghề: đọc nguyên văn Thoả thuận Buttonwood](#7-tầng-2--hiệp-hội-nghề-đọc-nguyên-văn-thoả-thuận-buttonwood)
 8. [1975 và 1986 — nhà nước phá cartel của chính ngành](#8-1975-và-1986--nhà-nước-phá-cartel-của-chính-ngành)
@@ -39,11 +43,11 @@ lý mười bốn năm ở Hồng Kông rồi Bắc Kinh, và bà nói thẳng r
 10. [Tầng 4 — SEC: công bố thông tin làm triết lý](#10-tầng-4--sec-công-bố-thông-tin-làm-triết-lý)
 11. [Quỹ phòng hộ — chỗ SEC cố ý không quản](#11-quỹ-phòng-hộ--chỗ-sec-cố-ý-không-quản)
 12. [Giám sát thị trường: IBM–Lotus 1995 và Emulex](#12-giám-sát-thị-trường-ibmlotus-1995-và-emulex)
-13. [📚 SIPC không phải FDIC](#13--sipc-không-phải-fdic)
+13. [📚 SIPC không phải FDIC](#13-sipc-không-phải-fdic)
 14. [Tầng 5 — quốc tế: nơi không ai ra lệnh được](#14-tầng-5--quốc-tế-nơi-không-ai-ra-lệnh-được)
 15. [Laura Cha — con lắc, và "chúng tôi luôn sửa vấn đề của ngày hôm qua"](#15-laura-cha--con-lắc-và-chúng-tôi-luôn-sửa-vấn-đề-của-ngày-hôm-qua)
-16. [⚠️ Đối chiếu 2026](#16--đối-chiếu-2026)
-17. [🇻🇳 Góc Việt Nam](#17--góc-việt-nam)
+16. [⚠️ Đối chiếu 2026](#16-đối-chiếu-2026)
+17. [🇻🇳 Góc Việt Nam](#17-góc-việt-nam)
 18. [Chương trình](#18-chương-trình)
 19. [Từ điển thuật ngữ](#19-từ-điển-thuật-ngữ)
 20. [Câu hỏi tự kiểm tra](#20-câu-hỏi-tự-kiểm-tra)
@@ -101,12 +105,14 @@ là chỗ khó nhất của bài.
 Shiller mở đầu bằng một phép so sánh mà ông giữ suốt buổi (`12 ch1`): cơ quan quản lý giống **trọng
 tài** trong một trận đấu. Điểm hay của phép so sánh nằm ở chỗ ai là người muốn có trọng tài:
 
+> [!quote]
 > *"Cầu thủ hay cãi nhau với trọng tài, nhưng cầu thủ **muốn** có trọng tài, vì trận đấu sẽ chẳng
 > hay ho gì nếu không có trọng tài."* (`12 ch1`)
 
 Vì sao? Vì nếu không có ai thổi còi thì lối chơi nguy hiểm — thậm chí cố ý làm đau đối thủ — sẽ trở
 thành **gần như bắt buộc để thắng**. Rồi ông gọi tên hiện tượng đó (`12 ch1`):
 
+> [!quote]
 > *"Trong một hệ thống cạnh tranh, có một kiểu **cuộc đua xuống đáy**. Nếu tất cả mọi người khác đều
 > đang làm một việc mà bạn thấy là mờ ám, thì bạn cũng phải làm, nếu không thì không cạnh tranh nổi."*
 
@@ -121,6 +127,7 @@ là các quốc gia.
 
 Rồi Shiller nói một đoạn mà tôi cho là đoạn có ích nhất cho người học trong cả buổi (`12 ch1`):
 
+> [!quote]
 > *"Chúng ta nên tôn trọng người làm quản lý và trọng tài. Đó là một nghề, và **họ không phải kẻ
 > thất bại**, như một số người nói. […] Tôi nghĩ đó là một sự nghiệp bạn nên cân nhắc. Nên khi tôi
 > nói tôi mong lớp học này chuẩn bị cho bạn một công việc trong ngành tài chính, tôi tính cả công
@@ -135,7 +142,7 @@ không phải từ vị trí quan sát. Xem [§15](#15-laura-cha--con-lắc-và-
 
 ---
 
-## 3. 📚 Micro- và macroprudential — cặp từ mới năm 2011
+## 3. Micro- và macroprudential — cặp từ mới năm 2011
 
 Shiller giới thiệu một cặp thuật ngữ và nói thẳng nó còn mới (`12 ch1`): *"tôi nghĩ đây là một từ
 tương đối mới; ít nhất nó chỉ trở nên phổ biến kể từ cuộc khủng hoảng tài chính những năm 2000."*
@@ -169,14 +176,15 @@ Câu chốt của ông rất đáng nhớ (`12 ch1`): *"Đây không phải là 
 nó xảy ra một cách tự nhiên, bởi vì doanh nghiệp lớn là những đơn vị duy nhất có thể kéo cả hệ thống
 xuống."*
 
-📚 **Chỗ cần bổ sung: bảo hiểm miễn phí đó định giá được.** Nó không phải một ẩn dụ. Nếu một ngân
-hàng biết chắc được cứu, chi phí vay nợ của nó thấp hơn một ngân hàng cùng hồ sơ rủi ro nhưng không
-được bảo lãnh — và khoản chênh lệch đó chính là **giá thị trường của lời bảo lãnh ngầm**. Các cơ quan
-xếp hạng công bố thẳng con số này: họ cho ngân hàng lớn một mức xếp hạng *độc lập* và một mức xếp
-hạng *có hỗ trợ*, và khoảng cách giữa hai mức là phần trợ cấp. Đây cũng đúng là cơ chế mà
-[bài 9 §12](bai_09_bat_dong_san.md#12-fannie-freddie-và-lời-bảo-lãnh-không-ai-viết-ra) mô tả với
-Fannie Mae và Freddie Mac: chính phủ nói cả triệu lần rằng không đứng sau, thị trường vẫn định giá
-như thể có, và rốt cuộc thị trường đúng.
+> [!note] Chỗ cần bổ sung: bảo hiểm miễn phí đó định giá được.
+> Nó không phải một ẩn dụ. Nếu một ngân
+> hàng biết chắc được cứu, chi phí vay nợ của nó thấp hơn một ngân hàng cùng hồ sơ rủi ro nhưng không
+> được bảo lãnh — và khoản chênh lệch đó chính là **giá thị trường của lời bảo lãnh ngầm**. Các cơ quan
+> xếp hạng công bố thẳng con số này: họ cho ngân hàng lớn một mức xếp hạng *độc lập* và một mức xếp
+> hạng *có hỗ trợ*, và khoảng cách giữa hai mức là phần trợ cấp. Đây cũng đúng là cơ chế mà
+> [bài 9 §12](bai_09_bat_dong_san.md#12-fannie-freddie-và-lời-bảo-lãnh-không-ai-viết-ra) mô tả với
+> Fannie Mae và Freddie Mac: chính phủ nói cả triệu lần rằng không đứng sau, thị trường vẫn định giá
+> như thể có, và rốt cuộc thị trường đúng.
 
 ---
 
@@ -184,6 +192,7 @@ như thể có, và rốt cuộc thị trường đúng.
 
 Shiller đặt hội đồng quản trị vào tầng quy định thấp nhất, và ông biết cách gọi này lạ (`12 ch2`):
 
+> [!quote]
 > *"Họ có thể được gọi là **một hội đồng những người quản lý**. Chẳng ai gọi họ như thế, nhưng tôi
 > nghĩ họ trông rất giống người quản lý. Chỉ có điều họ không do nhà nước áp đặt."*
 
@@ -196,6 +205,7 @@ Cấu trúc ông nêu:
 
 Và cơ chế vận hành của tầng này **không phải đo lường, mà là danh tiếng** (`12 ch2`):
 
+> [!quote]
 > *"Khi bạn tham gia một hội đồng quản trị, bạn đang **hợp nhất danh tiếng của mình với danh tiếng
 > của công ty**. Nên bạn sẽ không làm thế nếu công ty trông mờ ám."*
 
@@ -210,16 +220,17 @@ Hai nghĩa vụ pháp lý ông nêu:
 quan trọng. Họ nghĩ, à, đây chỉ là một vinh dự, và mình chỉ cần có mặt bốn cuộc họp một năm. Rồi
 nghe tổng giám đốc trình bày, rồi nói 'được'. **Đó không phải là điều bạn nên làm.**"*
 
-📚 Phần luật Shiller không nêu tên nhưng đang mô tả: **nguyên tắc phán đoán kinh doanh** *(business
-judgment rule)*. Toà án bang Delaware — nơi phần lớn công ty lớn của Mỹ đăng ký — sẽ **không** xét
-lại một quyết định kinh doanh dở, miễn là thành viên hội đồng ra quyết định đó có đủ thông tin, ngay
-tình và tin rằng mình đang phục vụ lợi ích công ty. Đây là lý do nghĩa vụ cẩn trọng trên thực tế là
-nghĩa vụ về **quy trình**, không phải về **kết quả**: hội đồng bị kiện vì không đọc tài liệu, không
-họp, không hỏi — chứ hiếm khi vì đã chọn sai.
+> [!note]
+> Phần luật Shiller không nêu tên nhưng đang mô tả: **nguyên tắc phán đoán kinh doanh** *(business
+> judgment rule)*. Toà án bang Delaware — nơi phần lớn công ty lớn của Mỹ đăng ký — sẽ **không** xét
+> lại một quyết định kinh doanh dở, miễn là thành viên hội đồng ra quyết định đó có đủ thông tin, ngay
+> tình và tin rằng mình đang phục vụ lợi ích công ty. Đây là lý do nghĩa vụ cẩn trọng trên thực tế là
+> nghĩa vụ về **quy trình**, không phải về **kết quả**: hội đồng bị kiện vì không đọc tài liệu, không
+> họp, không hỏi — chứ hiếm khi vì đã chọn sai.
 
 ---
 
-## 5. ⚠️ Ba chỗ sai trong chính ví dụ hội đồng của Shiller
+## 5. Ba chỗ sai trong chính ví dụ hội đồng của Shiller
 
 Để minh hoạ "người có danh tiếng", Shiller lấy ví dụ gần nhất: hội đồng quản trị của chính Đại học
 Yale, tên chính thức là *The President and Fellows of Yale College*, còn gọi là **Yale Corporation**
@@ -258,13 +269,15 @@ nghe.** Cơ chế này không hỏng — nó vẫn tốt hơn không có gì. Nh
 Đây là khái niệm trung tâm của cả buổi 12, và Shiller giới thiệu nó bằng đúng tên tiếng Anh:
 **tunneling** (`12 ch2`).
 
+> [!quote]
 > *"Đục khoét là lén mang giá trị đi, bỏ vào túi mình — nếu bạn làm cho một công ty — thay vì bỏ vào
 > túi cổ đông."* (`12 ch2`)
 
-📚 Từ này có xuất xứ cụ thể: nó vào kinh tế học qua bài **Johnson, La Porta, López-de-Silanes và
-Shleifer, *"Tunneling"* (1) — đúng bài mà Open Yale Courses liệt trong danh mục bài đọc của buổi
-này. Bản thân từ đến từ **Cộng hoà Séc thập niên 1990** (*tunelování*): tài sản của doanh nghiệp
-biến mất như thể có một đường hầm dẫn ra ngoài.
+> [!note]
+> Từ này có xuất xứ cụ thể: nó vào kinh tế học qua bài **Johnson, La Porta, López-de-Silanes và
+> Shleifer, *"Tunneling"* (1) — đúng bài mà Open Yale Courses liệt trong danh mục bài đọc của buổi
+> này. Bản thân từ đến từ **Cộng hoà Séc thập niên 1990** (*tunelování*): tài sản của doanh nghiệp
+> biến mất như thể có một đường hầm dẫn ra ngoài.
 
 Năm kênh Shiller liệt kê (`12 ch2`):
 
@@ -278,6 +291,7 @@ Năm kênh Shiller liệt kê (`12 ch2`):
 
 Rồi ông đặt câu hỏi đúng, và dừng lại ở đó (`12 ch2`):
 
+> [!quote]
 > *"Bạn thấy có bao nhiêu cách khác nhau, và tôi còn chưa liệt kê hết. […] Vậy vì sao bạn lại chịu
 > đầu tư vào một công ty? […] **Cổ đông không thể ngồi soi từng thương vụ được.**"*
 
@@ -319,6 +333,7 @@ khoảng cách                              2,14 lần
 
 Trong khe hở đó, **năm năm liên tiếp rút được 100 triệu đô mà không năm nào bị đánh dấu.**
 
+> [!quote]
 > **Không tồn tại một con số kế toán nào bắt được đục khoét ở quy mô mà nó đủ hấp dẫn để người ta
 > làm.** Đến lúc nó đủ lớn để làm lệch thống kê thì nó đã vượt xa mức cần thiết cho kẻ rút ruột —
 > tức nó đã thành một tội phạm khác hẳn.
@@ -329,8 +344,9 @@ lường; họ phát hiện bằng cách **ngồi trong phòng lúc đề xuất
 thích vì sao Shiller nhấn mạnh nghĩa vụ cẩn trọng và nghĩa vụ trung thành thay vì nhấn mạnh chuẩn mực
 báo cáo tài chính — hai thứ đó không thay thế được cho nhau.
 
-⚠️ Ngược lại: khi bạn đọc tin về một vụ gian lận **bị phát hiện qua báo cáo tài chính**, hãy hiểu
-rằng vụ đó đã chạy rất lâu và rất lớn. Con số làm nó lộ ra không phải con số làm nó đáng làm.
+> [!warning]
+> Ngược lại: khi bạn đọc tin về một vụ gian lận **bị phát hiện qua báo cáo tài chính**, hãy hiểu
+> rằng vụ đó đã chạy rất lâu và rất lớn. Con số làm nó lộ ra không phải con số làm nó đáng làm.
 
 ---
 
@@ -344,6 +360,7 @@ văn cho lớp nghe.**
 Lý do ông đi tìm (`12 ch3`): *"Nó đã được mô tả là một văn bản duy tâm về nghĩa vụ và đạo đức của
 chúng ta."* Ông muốn xem phần duy tâm nằm ở đâu.
 
+> [!quote]
 > *"Chúng tôi, những người ký tên dưới đây, các nhà môi giới mua bán chứng khoán công, bằng văn bản
 > này long trọng hứa và cam kết với nhau rằng chúng tôi sẽ không mua hay bán, kể từ ngày hôm nay,
 > cho bất kỳ người nào, bất kỳ loại chứng khoán công nào **ở mức dưới 1/4 của 1 % hoa hồng** tính
@@ -391,6 +408,7 @@ Phần giá trị cuối kỳ mà sàn cartel lấy mất, so với phí bằng 
 
 Đọc bảng này **theo chiều ngang**, không phải chiều dọc. Điều nó nói ra:
 
+> [!note]
 > **Sàn hoa hồng không phải một khoản phí — nó là một khoản thuế đánh trên tần suất giao dịch.**
 
 Người mua rồi giữ gần như không dính. Người giao dịch năm lần một năm mất **hơn một nửa** tài sản
@@ -416,6 +434,7 @@ nhau**, loại tất cả người khác ra ngoài.
 
 Rồi ông nói ra chỗ tinh tế nhất của cả chương (`12 ch3`):
 
+> [!quote]
 > *"Họ có thể biện minh cho việc đó vì họ đang loại những kẻ bất lương ra. Và điều đó ngăn được cuộc
 > đua xuống đáy. Nhưng nó còn có một tác dụng khác nữa. **Nó đang tạo ra lợi nhuận độc quyền.**"*
 
@@ -430,9 +449,10 @@ cầu, nhiều ghế trống, suất ăn ngon. Bỏ quản lý thì giá rơi, v
 không thích thì trả thêm tiền. Nhưng rất ít người chịu trả thêm."* Kết luận của ông: *"tôi nghĩ tính
 tổng lại, bỏ quản lý hoa hồng là một việc tốt."*
 
-⚠️ Chỗ này bản ghi Open Yale Courses có chèn đính chính, vì Shiller nói nhầm tên cơ quan quản lý giá
-vé — đó là **Cục Hàng không Dân dụng**, cơ quan quản giá vé từ 1937, bị **Đạo luật Bãi bỏ Quản lý
-Hàng không 1978** dỡ dần và đóng cửa hẳn năm 1985.
+> [!warning]
+> Chỗ này bản ghi Open Yale Courses có chèn đính chính, vì Shiller nói nhầm tên cơ quan quản lý giá
+> vé — đó là **Cục Hàng không Dân dụng**, cơ quan quản giá vé từ 1937, bị **Đạo luật Bãi bỏ Quản lý
+> Hàng không 1978** dỡ dần và đóng cửa hẳn năm 1985.
 
 Và một chỗ ông tự sửa ngay trên lớp, đáng chép vì nó đúng về mặt khái niệm (`12 ch3`): ông nói mấy
 website hoa hồng thấp *"là sản phẩm của việc bãi bỏ quản lý"*, rồi dừng lại — *"Ý tôi là sản phẩm
@@ -446,6 +466,7 @@ tầng 2.
 
 Shiller nói một câu mà người quen với SEC hôm nay dễ bỏ qua (`12 ch4`):
 
+> [!quote]
 > *"Ở Mỹ, cho tới thập niên 1930, quy định về tài chính gần như **hoàn toàn ở cấp địa phương**.
 > Chính phủ liên bang không làm gì cả."*
 
@@ -482,8 +503,10 @@ phiếu hoàn toàn vô giá trị.
 Kết luận của Shiller về cả tầng ba (`12 ch4`): *"Toàn bộ phong trào Tiến bộ nhằm quản lý chứng khoán
 chỉ **thành công có giới hạn**."*
 
-📚 Nguyên tắc rút ra được, và nó vượt xa chuyện chứng khoán Mỹ những năm 1920:
+> [!note]
+> Nguyên tắc rút ra được, và nó vượt xa chuyện chứng khoán Mỹ những năm 1920:
 
+> [!note]
 > **Phạm vi thẩm quyền của cơ quan quản lý phải phủ được phạm vi hoạt động của thứ bị quản.** Lệch
 > nhau bao nhiêu thì đó chính là kích thước cửa thoát.
 
@@ -504,20 +527,23 @@ Năm **1934**, dưới Chính sách Kinh tế Mới của Roosevelt, Mỹ lập 
 Shiller kể phản ứng của Phố Wall lúc đó qua nhân vật **William O. Douglas**, giáo sư Luật Yale, sau
 này viết cuốn *Dân chủ và Tài chính* về quãng thời gian làm ở SEC (`12 ch5`):
 
+> [!quote]
 > *"SEC bị giới kinh doanh xem gần như một **tổ chức xã hội chủ nghĩa** — và đó là một từ bẩn ở
 > Mỹ."* (`12 ch5`)
 
-⚠️ Shiller gọi Douglas là *"một trong những giám đốc đầu tiên của SEC"*. Chức danh chính xác là **Uỷ
-viên** từ 1936 và **Chủ tịch** từ 1937 đến 1939 — ông là chủ tịch **thứ ba**, sau Joseph P. Kennedy
-và James Landis. Sau đó ông vào Toà án Tối cao Mỹ và ngồi ở đó 36 năm, dài nhất lịch sử.
+> [!warning]
+> Shiller gọi Douglas là *"một trong những giám đốc đầu tiên của SEC"*. Chức danh chính xác là **Uỷ
+> viên** từ 1936 và **Chủ tịch** từ 1937 đến 1939 — ông là chủ tịch **thứ ba**, sau Joseph P. Kennedy
+> và James Landis. Sau đó ông vào Toà án Tối cao Mỹ và ngồi ở đó 36 năm, dài nhất lịch sử.
 
 Triết lý nền của SEC, theo Shiller, là **công bố thông tin**, và ông dẫn câu nổi tiếng của Brandeis
 (`12 ch5`).
 
-### ⚠️ Câu Brandeis bị trích sai
+### Câu Brandeis bị trích sai
 
 Shiller đọc: *"Ánh nắng là chất khử trùng tốt nhất."* Nguyên văn trong *Tiền của người khác* (1914):
 
+> [!quote]
 > *"Công khai được ca ngợi một cách xứng đáng như một phương thuốc cho các căn bệnh xã hội và công
 > nghiệp. **Người ta nói ánh sáng mặt trời là chất khử trùng tốt nhất**; đèn điện là viên cảnh sát
 > hiệu quả nhất."*
@@ -535,9 +561,10 @@ lên website đó. Và nó **miễn phí, hoàn toàn miễn phí, cho cả th�
 Levitt bực nhất: khả năng của Phố Wall trong việc đánh lừa người ta bằng **ngôn ngữ phức tạp** — bản
 cáo bạch mà không có bằng luật thì không ai đọc nổi. Levitt muốn **tiếng Anh giản dị**.
 
-📚 Đó không dừng ở mong muốn. SEC ban hành **Quy tắc Tiếng Anh Giản dị năm 1998**, bắt buộc phần đầu
-bản cáo bạch phải dùng câu chủ động, câu ngắn, từ thông dụng, và cấm thuật ngữ pháp lý không cần
-thiết. Đây là một trong số rất ít quy định tài chính can thiệp thẳng vào **văn phong**.
+> [!note]
+> Đó không dừng ở mong muốn. SEC ban hành **Quy tắc Tiếng Anh Giản dị năm 1998**, bắt buộc phần đầu
+> bản cáo bạch phải dùng câu chủ động, câu ngắn, từ thông dụng, và cấm thuật ngữ pháp lý không cần
+> thiết. Đây là một trong số rất ít quy định tài chính can thiệp thẳng vào **văn phong**.
 
 ---
 
@@ -559,12 +586,13 @@ Các con số ông đọc trên lớp, đối chiếu với luật:
 | Nhà đầu tư đủ điều kiện: thu nhập **200.000**/năm nếu độc thân, **300.000** nếu có vợ chồng, hoặc **1 triệu** tài sản đầu tư được, không tính nhà ở | ✅ **Đúng cả bốn con số.** Bản ghi OYC chèn hẳn một dòng xác nhận *"Định nghĩa đúng như đã nêu."*                                                                       |
 | Quỹ 3(c)(7): *"được nhận **500** nhà đầu tư"*                                                                                                       | ❌ 3(c)(7) **không có** giới hạn số lượng theo luật. Con số ~499 đến từ **một đạo luật khác**: §12(g) Luật Giao dịch Chứng khoán, bắt đăng ký khi có 500 người nắm giữ. |
 | Người mua đủ tư cách: **5 triệu** cá nhân, **25 triệu** tổ chức                                                                                     | ✅ Đúng                                                                                                                                                                 |
-| *"Dodd-Frank, chúng ta tưởng, sẽ đặt thêm quy định lên họ, nhưng họ vẫn tồn tại như các tổ chức phần lớn không bị quản."*                           | Đúng **tại thời điểm giảng**. Xem [§16](#16--đối-chiếu-2026).                                                                                                          |
+| *"Dodd-Frank, chúng ta tưởng, sẽ đặt thêm quy định lên họ, nhưng họ vẫn tồn tại như các tổ chức phần lớn không bị quản."*                           | Đúng **tại thời điểm giảng**. Xem [§16](#16-đối-chiếu-2026).                                                                                                          |
 
-⚠️ Chỗ 3(c)(7) đáng chú ý vì lý do hệ thống, không phải vì lệch con số: **giới hạn mà ai cũng tưởng
-là của luật quỹ đầu tư thật ra là hệ quả phụ của một ngưỡng đăng ký ở luật khác.** Nên khi ngưỡng đó
-đổi, giới hạn cũng đổi — mà không một dòng nào trong luật quỹ đầu tư bị sửa. [§16](#16--đối-chiếu-2026)
-cho biết nó đã đổi khi nào và thành bao nhiêu.
+> [!warning]
+> Chỗ 3(c)(7) đáng chú ý vì lý do hệ thống, không phải vì lệch con số: **giới hạn mà ai cũng tưởng
+> là của luật quỹ đầu tư thật ra là hệ quả phụ của một ngưỡng đăng ký ở luật khác.** Nên khi ngưỡng đó
+> đổi, giới hạn cũng đổi — mà không một dòng nào trong luật quỹ đầu tư bị sửa. [§16](#16-đối-chiếu-2026)
+> cho biết nó đã đổi khi nào và thành bao nhiêu.
 
 Về phí, Shiller mô tả cấu trúc **"hai và hai mươi"** rồi tự kiểm tra trên lớp (`12 ch6`): *"Nếu bạn
 gọi được 1 tỷ đô vào quỹ, bạn được 2 %. 2 % của 1 tỷ đô là bao nhiêu? Là 20 triệu? Tôi tính đúng
@@ -572,6 +600,7 @@ chứ?"* — Đúng. Chương trình assert lại con số này.
 
 Rồi ông đặt câu hỏi mà cả chương xoay quanh (`12 ch6`):
 
+> [!quote]
 > *"Vì sao nước Mỹ lại có hệ thống hai tầng kiểu này? […] Vì sao chúng ta lại có luật riêng cho
 > người nghèo, mà trên thực tế, theo đánh giá của họ, **loại họ ra khỏi một số cơ hội sinh lời lớn
 > nhất**?"*
@@ -588,6 +617,7 @@ Rồi ông đặt câu hỏi mà cả chương xoay quanh (`12 ch6`):
 |       1 tỷ |        10.000.000 | vượt chuẩn người mua đủ tư cách     |
 |       5 tỷ |        50.000.000 | **vượt cả chuẩn tổ chức**           |
 
+> [!note]
 > **Không phải chuẩn giàu loại người thường ra khỏi quỹ phòng hộ. Phép chia loại họ ra.**
 
 Một quỹ 1 tỷ đô chỉ có 100 chỗ ngồi; người có đúng 1 triệu tài sản ròng — **đạt chuẩn luật** — không
@@ -629,6 +659,7 @@ Shiller kể (`12 ch7`): tháng 5/1995, một **thư ký của IBM** được gi
 mật thâu tóm **Lotus** — công ty tiên phong bảng tính. Bà buột miệng kể với chồng, kèm cả chi tiết
 *họ sẽ làm trong ba ngày nữa*. Chồng bà gọi điện cho bạn bè.
 
+> [!quote]
 > *"Tới ngày thâu tóm, **25 người** đã mua **nửa triệu đô**. Trong số này có một **đầu bếp pizza**,
 > một **kỹ sư điện**, một **giám đốc ngân hàng**, một **chủ buôn sữa**, một **giáo viên**, và **bốn
 > nhà môi giới chứng khoán**."* (`12 ch7`)
@@ -662,6 +693,7 @@ Và đây mới là chỗ đáng nhớ. Quyền chọn của một cổ phiếu 
 trọng nhỏ trong danh mục của 25 người là một **cú sốc lớn** trong sổ lệnh quyền chọn, dù nó chỉ là
 một gợn sóng trong sổ lệnh cổ phiếu.
 
+> [!note]
 > **Chính giao dịch làm ra tiền là giao dịch tố giác họ.** Đó là lý do giám sát thị trường nhìn sổ
 > lệnh quyền chọn trước khi nhìn sổ lệnh cổ phiếu.
 
@@ -672,7 +704,7 @@ liên lạc điện thoại** — một cấu trúc không thể sinh ra ngẫu 
 
 **Bằng chứng không phải giao dịch. Bằng chứng là đồ thị.**
 
-### ⚠️ Vụ Emulex — Shiller nhầm người, và cái nhầm đó đổi hẳn bài học
+### Vụ Emulex — Shiller nhầm người, và cái nhầm đó đổi hẳn bài học
 
 Shiller kể (`12 ch7`): *"**Một cựu nhân viên của chính công ty này** bán khống cổ phiếu công ty cũ
 của mình. Rồi anh ta quyết định sẽ tìm cách làm giá rơi xuống. Nên anh ta gửi — **vì anh ta biết
@@ -721,11 +753,12 @@ Chương này còn hai đơn vị nữa Shiller nhắc nhanh (`12 ch7`):
 
 ---
 
-## 13. 📚 SIPC không phải FDIC
+## 13. SIPC không phải FDIC
 
 Shiller mô tả **SIPC** — Tổng công ty Bảo vệ Nhà đầu tư Chứng khoán, do Quốc hội Mỹ lập năm **1970**
 — bằng hai câu, và **cả hai đều cần sửa** (`12 ch7`):
 
+> [!quote]
 > *"SIPC bảo hiểm tài khoản môi giới của bạn trước tổn thất do người môi giới phá sản. **Nó tương
 > ứng với FDIC.** […] và nó là **một công ty của chính phủ**."*
 
@@ -767,6 +800,7 @@ nhau, hai cơ chế khác nhau, và chỉ trùng nhau ở chỗ cùng có ba ch�
 
 Shiller nêu vấn đề bằng một câu đơn giản (`12 ch8`):
 
+> [!quote]
 > *"Quy định quốc tế là một vấn đề, bởi vì người ta có thể rời khỏi nước mình, và, bạn biết đấy, cái
 > đó gọi là **ngoài khơi**. Nếu bạn không thích quy định ở Mỹ thì luôn còn Bahamas, hoặc có quần đảo
 > Cayman, và bạn có thể lập tổ chức tài chính của mình với cơ quan quản lý mà bạn thích."*
@@ -789,7 +823,7 @@ Shiller nhận xét một chi tiết đúng và thú vị (`12 ch8`): thứ gì 
 truyền thống trung lập lâu đời của nước này, và kết bằng một câu rất Shiller: *"Basel là một thị trấn
 nhỏ buồn ngủ nếu bạn tới thăm, nhưng bằng cách nào đó nó lại là trung tâm tài chính của thế giới."*
 
-### ⚠️ Hai chỗ sai về G-20 và FSB
+### Hai chỗ sai về G-20 và FSB
 
 | Shiller nói (`12 ch8`)                                                              | Thực tế                                                                                                                                                                                                                                                    |
 | ----------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -799,6 +833,7 @@ nhỏ buồn ngủ nếu bạn tới thăm, nhưng bằng cách nào đó nó l�
 Điểm đáng chú ý không phải hai lỗi này, mà là **ai sửa chúng**. Trong buổi 16, chính khách mời của
 ông nói đúng, không hề biết mình đang sửa ai (`16 61:20`–`16 61:32`):
 
+> [!quote]
 > **Laura Cha:** *"Và ví dụ hay nhất thật ra là **Hội đồng Ổn định Tài chính**, thứ ra đời từ cuộc
 > khủng hoảng tài chính châu Á vừa rồi. Nó từng được gọi là **Diễn đàn** Ổn định Tài chính, giờ nó
 > là **Hội đồng** Ổn định Tài chính."*
@@ -822,6 +857,7 @@ hoảng ngân hàng khổng lồ."* Chi tiết về Basel nằm ở [bài 3](bai
 Khi **không** có phạt tiếp cận — biên giới hoàn toàn tự do — thì mọi nước có chi phí tuân thủ cao hơn
 nơi nới lỏng nhất đều mất doanh nghiệp. Và điều quan trọng là:
 
+> [!note]
 > **Số lượng nước nghiêm khắc không xuất hiện trong kết quả. Chỉ giá trị nhỏ nhất xuất hiện.** Thêm
 > nước nghiêm khắc thứ 51 không đổi gì cả.
 
@@ -887,25 +923,28 @@ Bà vào thẳng vấn đề của mình (`16 03:44`): *"Nhưng thứ tôi thậ
 bên kia** của thị trường tài chính, tức là phía khu vực công."* Và bà nêu điều khiến bà lo
 (`16 05:52`):
 
+> [!quote]
 > *"Trong thập kỷ vừa qua, rất nhiều sinh viên giỏi muốn vào ngành dịch vụ tài chính **đều đi cả vào
 > khu vực tư**."*
 
 Lý do bà đưa ra không phải đạo đức mà là **năng lực**. Hai chiều, và chiều thứ hai ít người nói
 (`16 14:34`):
 
+> [!quote]
 > *"Nói cách khác, bạn không thể có những người quản lý mà **hiểu biết rất ít về cách thị trường vận
 > hành**."*
 
 Và chiều ngược lại (`16 14:41`): người đã ở khu vực công thì được "cấy" vào mình **kỷ luật của một
 thị trường trật tự**, và khi họ quay lại khu vực tư thì điều đó cũng tốt cho thị trường.
 
-⚠️ Đây là chỗ cần đọc cẩn thận. Cùng một hiện tượng — người đi lại giữa cơ quan quản lý và ngành —
-mang hai cái tên hoàn toàn trái ngược. Cha gọi nó là **sự trao đổi** làm thị trường Mỹ sống động
-(`16 14:04`). Trong văn liệu về quy định, nó có tên khác: **cửa xoay**, và là cơ chế trung tâm của
-lý thuyết *bắt giữ cơ quan quản lý* — người quản lý nhẹ tay vì họ sẽ đi xin việc ở chính ngành mình
-đang quản. Cha nói từ trải nghiệm của người đã đi qua cả hai phía và không hề nhắc tới rủi ro này;
-Shiller cũng không hỏi. Bài này nêu ra để bạn không đọc một chiều: **cùng một dữ kiện, hai cách giải
-thích, và không ai trong hai buổi giảng đặt chúng cạnh nhau.**
+> [!warning]
+> Đây là chỗ cần đọc cẩn thận. Cùng một hiện tượng — người đi lại giữa cơ quan quản lý và ngành —
+> mang hai cái tên hoàn toàn trái ngược. Cha gọi nó là **sự trao đổi** làm thị trường Mỹ sống động
+> (`16 14:04`). Trong văn liệu về quy định, nó có tên khác: **cửa xoay**, và là cơ chế trung tâm của
+> lý thuyết *bắt giữ cơ quan quản lý* — người quản lý nhẹ tay vì họ sẽ đi xin việc ở chính ngành mình
+> đang quản. Cha nói từ trải nghiệm của người đã đi qua cả hai phía và không hề nhắc tới rủi ro này;
+> Shiller cũng không hỏi. Bài này nêu ra để bạn không đọc một chiều: **cùng một dữ kiện, hai cách giải
+> thích, và không ai trong hai buổi giảng đặt chúng cạnh nhau.**
 
 Khi Shiller hỏi thẳng vì sao người ta làm khu vực công nếu lương thấp hơn (`16 19:02`), bà đưa hai
 lý do rất thực tế (`16 19:34`, `16 20:20`): kinh nghiệm khu vực công **bán được giá** — *"nếu bạn
@@ -953,6 +992,7 @@ chung với những ngân hàng còn lại, trong khi chúng tôi **không hề 
 
 Rồi bà đưa ra mô hình của mình (`16 59:41`–`16 59:59`):
 
+> [!quote]
 > *"Bất cứ khi nào có khủng hoảng, quy định sẽ siết chặt hơn, và **con lắc sẽ có xu hướng đu quá đà
 > về một phía**. Rồi dần dần, con lắc sẽ quay lại — trong thị trường bùng nổ thì con lắc đu ngược
 > lại, và rồi nó sẽ quá lỏng, và rồi một cuộc khủng hoảng khác sẽ xảy ra, và rồi lại thêm quy định.
@@ -961,115 +1001,116 @@ Rồi bà đưa ra mô hình của mình (`16 59:41`–`16 59:59`):
 Ví dụ bà chọn là **Sarbanes-Oxley** (`16 60:11`), ra đời sau vụ Enron. Và rồi bà nói câu quan trọng
 nhất (`16 60:23`):
 
+> [!quote] 16 60:38
 > *"Khi còn làm cơ quan quản lý, chúng tôi luôn nói với nhau rằng **chúng tôi luôn sửa những vấn đề
 > của ngày hôm qua**. Khi một vụ bê bối xảy ra, khi một cuộc khủng hoảng xảy ra, chúng tôi nghĩ ra
 > các quy tắc để xử lý cái đã sai — nhưng lần sau khi có chuyện, nó sẽ không xảy ra theo cùng một
 > cách. **Bạn đang ngăn vấn đề cũ lặp lại, nhưng vấn đề mới sẽ hoàn toàn khác.**"* (`16 60:38`)
 
-### 📚 Câu đó đo được, và kết quả mạnh hơn tôi tưởng
+> [!note] Câu đó đo được, và kết quả mạnh hơn tôi tưởng
+>
+> [Mục 6 của chương trình](#18-chương-trình) dựng mô hình đúng như bà mô tả: có $m$ loại rủi ro; mỗi
+> cuộc khủng hoảng nổ ra ở đúng một loại; quy tắc **chỉ** được viết cho loại vừa nổ; và **không quy tắc
+> nào bị bỏ đi**.
+>
+> **Thế giới đứng yên** — 20 loại rủi ro, không có đổi mới tài chính:
+>
+> | Số cuộc khủng hoảng đã qua |      Độ phủ |
+> | -------------------------: | ----------: |
+> |                          1 |      5,00 % |
+> |                          4 |     18,55 % |
+> |                      **8** | **33,66 %** |
+> |                         20 |     64,15 % |
+> |                         40 |     87,15 % |
+>
+> Tám cuộc khủng hoảng — gần một thế kỷ — mới phủ được một phần ba. Và đó là kịch bản **lạc quan**.
+>
+> **Thế giới có đổi mới** — cứ 2 năm thêm một loại rủi ro mới, khủng hoảng vẫn 7 năm một lần:
+>
+> |     Năm | Số loại rủi ro | Số bộ quy tắc |      Độ phủ | *(thế giới đứng yên)* |
+> | ------: | -------------: | ------------: | ----------: | --------------------: |
+> |       0 |             20 |             0 |      0,00 % |                0,00 % |
+> |      56 |             48 |             8 |     15,28 % |               33,66 % |
+> |     112 |             76 |            16 |     18,48 % |               55,99 % |
+> |     168 |            104 |            24 |     19,78 % |               70,80 % |
+> | **280** |        **160** |        **40** | **20,87 %** |           **87,15 %** |
+>
+> Kết quả không phải "độ phủ giảm" như tôi đoán ban đầu. Nó là thứ khó chịu hơn: **độ phủ tăng, nhưng
+> tăng tới một trần rồi dừng.** Sau 280 năm và **40 bộ quy tắc**, độ phủ mới 20,87 % — trong khi thế
+> giới không đổi mới đã đạt **87,15 %** với **đúng bấy nhiêu** bộ quy tắc.
+>
+> Trần đó ở đâu ra? Một phép chia hai tốc độ:
+>
+> $$
+> \text{trần độ phủ} \;=\; \frac{\text{số quy tắc viết mỗi năm}}{\text{số loại rủi ro mới mỗi năm}}
+> \;=\; \frac{1/7}{1/2} \;=\; 28{,}57\ \%
+> $$
+>
+> Cả tử số lẫn mẫu số đều tăng tuyến tính theo thời gian, nên tỷ lệ của chúng là một chặn trên không
+> bao giờ vượt được. Và **số loại rủi ro ban đầu không xuất hiện trong công thức** — khởi điểm không
+> quan trọng, chỉ hai tốc độ quan trọng:
+>
+> | Cứ bao nhiêu năm một loại rủi ro mới |  Trần độ phủ | Độ phủ thật sau 280 năm |
+> | -----------------------------------: | -----------: | ----------------------: |
+> |                                1 năm |      14,29 % |                 12,01 % |
+> |                                2 năm |      28,57 % |                 20,87 % |
+> |                                5 năm |      71,43 % |                 37,80 % |
+> |                            **7 năm** | **100,00 %** |                 45,00 % |
+> |                               20 năm |     100,00 % |                 64,74 % |
+>
+> > Chỉ khi tài chính đẻ ra loại rủi ro mới **chậm hơn nhịp khủng hoảng** thì độ phủ mới tiến về 100 %.
+>
+> Đây là câu của Cha viết lại thành một bất đẳng thức. Nó **không** nói quy định là vô ích — nó nói
+> kết quả được quyết định bởi **tỷ lệ hai tốc độ**, chứ không phải bởi số lượng quy tắc. Một cơ quan
+> viết gấp đôi số quy tắc mà đổi mới cũng nhanh gấp đôi thì độ phủ không nhúc nhích.
+>
+> 📌 Và đây là chỗ nối ngược về [bài 1](bai_01_ha_tang_xa_hoi.md). Chính Shiller dành nguyên buổi 3 để
+> ca ngợi **phát minh tài chính** — riêng từ *invention* xuất hiện 63 lần trong buổi đó. Hai buổi giảng
+> của cùng một người, đặt cạnh nhau, cho ra một sự đánh đổi mà không buổi nào nói thẳng:
+>
+> > **Mỗi phát minh tài chính vừa tạo ra giá trị vừa hạ trần độ phủ của cả hệ thống quy định.**
+>
+> Cuối cùng, về hài hoà hoá quốc tế, Cha nói ngắn gọn (`16 61:06`): *"Tôi không nghĩ nó sẽ xảy ra, bởi
+> vì các cơ quan quản lý khác nhau, các cơ quan quản lý quốc gia khác nhau, có ưu tiên riêng của họ, và
+> họ không phải lúc nào cũng có cùng ưu tiên."* [§14](#14-tầng-5--quốc-tế-nơi-không-ai-ra-lệnh-được)
+> đã cho biết vì sao.
 
-[Mục 6 của chương trình](#18-chương-trình) dựng mô hình đúng như bà mô tả: có $m$ loại rủi ro; mỗi
-cuộc khủng hoảng nổ ra ở đúng một loại; quy tắc **chỉ** được viết cho loại vừa nổ; và **không quy tắc
-nào bị bỏ đi**.
-
-**Thế giới đứng yên** — 20 loại rủi ro, không có đổi mới tài chính:
-
-| Số cuộc khủng hoảng đã qua |      Độ phủ |
-| -------------------------: | ----------: |
-|                          1 |      5,00 % |
-|                          4 |     18,55 % |
-|                      **8** | **33,66 %** |
-|                         20 |     64,15 % |
-|                         40 |     87,15 % |
-
-Tám cuộc khủng hoảng — gần một thế kỷ — mới phủ được một phần ba. Và đó là kịch bản **lạc quan**.
-
-**Thế giới có đổi mới** — cứ 2 năm thêm một loại rủi ro mới, khủng hoảng vẫn 7 năm một lần:
-
-|     Năm | Số loại rủi ro | Số bộ quy tắc |      Độ phủ | *(thế giới đứng yên)* |
-| ------: | -------------: | ------------: | ----------: | --------------------: |
-|       0 |             20 |             0 |      0,00 % |                0,00 % |
-|      56 |             48 |             8 |     15,28 % |               33,66 % |
-|     112 |             76 |            16 |     18,48 % |               55,99 % |
-|     168 |            104 |            24 |     19,78 % |               70,80 % |
-| **280** |        **160** |        **40** | **20,87 %** |           **87,15 %** |
-
-Kết quả không phải "độ phủ giảm" như tôi đoán ban đầu. Nó là thứ khó chịu hơn: **độ phủ tăng, nhưng
-tăng tới một trần rồi dừng.** Sau 280 năm và **40 bộ quy tắc**, độ phủ mới 20,87 % — trong khi thế
-giới không đổi mới đã đạt **87,15 %** với **đúng bấy nhiêu** bộ quy tắc.
-
-Trần đó ở đâu ra? Một phép chia hai tốc độ:
-
-$$
-\text{trần độ phủ} \;=\; \frac{\text{số quy tắc viết mỗi năm}}{\text{số loại rủi ro mới mỗi năm}}
-\;=\; \frac{1/7}{1/2} \;=\; 28{,}57\ \%
-$$
-
-Cả tử số lẫn mẫu số đều tăng tuyến tính theo thời gian, nên tỷ lệ của chúng là một chặn trên không
-bao giờ vượt được. Và **số loại rủi ro ban đầu không xuất hiện trong công thức** — khởi điểm không
-quan trọng, chỉ hai tốc độ quan trọng:
-
-| Cứ bao nhiêu năm một loại rủi ro mới |  Trần độ phủ | Độ phủ thật sau 280 năm |
-| -----------------------------------: | -----------: | ----------------------: |
-|                                1 năm |      14,29 % |                 12,01 % |
-|                                2 năm |      28,57 % |                 20,87 % |
-|                                5 năm |      71,43 % |                 37,80 % |
-|                            **7 năm** | **100,00 %** |                 45,00 % |
-|                               20 năm |     100,00 % |                 64,74 % |
-
-> Chỉ khi tài chính đẻ ra loại rủi ro mới **chậm hơn nhịp khủng hoảng** thì độ phủ mới tiến về 100 %.
-
-Đây là câu của Cha viết lại thành một bất đẳng thức. Nó **không** nói quy định là vô ích — nó nói
-kết quả được quyết định bởi **tỷ lệ hai tốc độ**, chứ không phải bởi số lượng quy tắc. Một cơ quan
-viết gấp đôi số quy tắc mà đổi mới cũng nhanh gấp đôi thì độ phủ không nhúc nhích.
-
-📌 Và đây là chỗ nối ngược về [bài 1](bai_01_ha_tang_xa_hoi.md). Chính Shiller dành nguyên buổi 3 để
-ca ngợi **phát minh tài chính** — riêng từ *invention* xuất hiện 63 lần trong buổi đó. Hai buổi giảng
-của cùng một người, đặt cạnh nhau, cho ra một sự đánh đổi mà không buổi nào nói thẳng:
-
-> **Mỗi phát minh tài chính vừa tạo ra giá trị vừa hạ trần độ phủ của cả hệ thống quy định.**
-
-Cuối cùng, về hài hoà hoá quốc tế, Cha nói ngắn gọn (`16 61:06`): *"Tôi không nghĩ nó sẽ xảy ra, bởi
-vì các cơ quan quản lý khác nhau, các cơ quan quản lý quốc gia khác nhau, có ưu tiên riêng của họ, và
-họ không phải lúc nào cũng có cùng ưu tiên."* [§14](#14-tầng-5--quốc-tế-nơi-không-ai-ra-lệnh-được)
-đã cho biết vì sao.
-
-### 📚 Về Trung Quốc — chỗ bà không đồng ý với câu hỏi
-
-Một sinh viên hỏi về "thiếu quy định" ở Trung Quốc như rào cản đối với đầu tư nước ngoài
-(`16 32:00`). Bà bác thẳng tiền đề (`16 32:25`):
-
-> *"Tôi nghĩ Trung Quốc **không thiếu quy định**. Có rất nhiều quy định ở Trung Quốc. Cái tôi muốn
-> nói là **phải áp dụng và thực thi tốt hơn**, thay vì quy định theo đợt và không nhất quán."*
-
-Ba tiêu chí của bà cho một hệ quy định tốt (`16 32:52`): **rõ ràng**, **áp dụng nhất quán**, và
-**công bằng**. Bà nói tiếp (`16 32:58`): *"vấn đề không phải là thiếu quy định"* — mà là Trung Quốc
-vẫn đang vật lộn với **thực thi nghiêm ngặt** (`16 33:04`).
-
-Bà đặt một phép so sánh lịch sử đáng chú ý (`16 33:44`): nếu đặt Trung Quốc cạnh nước Mỹ **thời sụp
-đổ cuối thập niên 1920 và khi SEC được lập năm 1934**, thì *"Trung Quốc có lẽ khá hơn Mỹ thời đó một
-chút."* Nhưng (`16 34:05`): *"Trung Quốc **không có cái xa xỉ là chờ 50 năm** để văn hoá luật lệ và
-thực thi của mình phát triển."*
-
-Và bà bác luôn lập luận rằng môi trường quy định cản đầu tư (`16 34:26`): Trung Quốc **là nước nhận
-đầu tư trực tiếp nước ngoài lớn nhất thế giới** tính đến thời điểm đó, nên *"nếu điều kiện ở Trung
-Quốc tệ đến thế thì nó đã không thu hút được nhiều đầu tư trực tiếp đến thế."* Bà không tô hồng —
-`16 35:03`: *"nó là rào cản khi ta nói tới từng vụ việc cụ thể, và ở đó thì còn xa mới đạt yêu cầu."*
-
-Khi Shiller hỏi về nguồn lực (`16 35:16`), câu trả lời của bà áp cho mọi nước (`16 35:45`):
-
-> *"Tôi nghĩ **mọi cơ quan quản lý** đều sẽ nói với bạn rằng họ cần thêm nguồn lực khi nói tới thực
-> thi. […] Tôi nghĩ SEC cũng cần thêm nguồn lực, tôi hoàn toàn đồng ý."*
-
-Và lý do cấu trúc (`16 36:13`): *"vì thị trường phát triển quá nhanh, nên cơ quan quản lý **luôn phải
-chạy theo**, và đó không phải là trạng thái lý tưởng."*
-
-[Mục 8 của chương trình](#18-chương-trình) đo câu đó cho chính nước Mỹ, và kết quả cho thấy nó không
-phải chuyện riêng của thị trường mới nổi — xem [§16](#16--đối-chiếu-2026).
+> [!note] Về Trung Quốc — chỗ bà không đồng ý với câu hỏi
+>
+> Một sinh viên hỏi về "thiếu quy định" ở Trung Quốc như rào cản đối với đầu tư nước ngoài
+> (`16 32:00`). Bà bác thẳng tiền đề (`16 32:25`):
+>
+> > *"Tôi nghĩ Trung Quốc **không thiếu quy định**. Có rất nhiều quy định ở Trung Quốc. Cái tôi muốn
+> > nói là **phải áp dụng và thực thi tốt hơn**, thay vì quy định theo đợt và không nhất quán."*
+>
+> Ba tiêu chí của bà cho một hệ quy định tốt (`16 32:52`): **rõ ràng**, **áp dụng nhất quán**, và
+> **công bằng**. Bà nói tiếp (`16 32:58`): *"vấn đề không phải là thiếu quy định"* — mà là Trung Quốc
+> vẫn đang vật lộn với **thực thi nghiêm ngặt** (`16 33:04`).
+>
+> Bà đặt một phép so sánh lịch sử đáng chú ý (`16 33:44`): nếu đặt Trung Quốc cạnh nước Mỹ **thời sụp
+> đổ cuối thập niên 1920 và khi SEC được lập năm 1934**, thì *"Trung Quốc có lẽ khá hơn Mỹ thời đó một
+> chút."* Nhưng (`16 34:05`): *"Trung Quốc **không có cái xa xỉ là chờ 50 năm** để văn hoá luật lệ và
+> thực thi của mình phát triển."*
+>
+> Và bà bác luôn lập luận rằng môi trường quy định cản đầu tư (`16 34:26`): Trung Quốc **là nước nhận
+> đầu tư trực tiếp nước ngoài lớn nhất thế giới** tính đến thời điểm đó, nên *"nếu điều kiện ở Trung
+> Quốc tệ đến thế thì nó đã không thu hút được nhiều đầu tư trực tiếp đến thế."* Bà không tô hồng —
+> `16 35:03`: *"nó là rào cản khi ta nói tới từng vụ việc cụ thể, và ở đó thì còn xa mới đạt yêu cầu."*
+>
+> Khi Shiller hỏi về nguồn lực (`16 35:16`), câu trả lời của bà áp cho mọi nước (`16 35:45`):
+>
+> > *"Tôi nghĩ **mọi cơ quan quản lý** đều sẽ nói với bạn rằng họ cần thêm nguồn lực khi nói tới thực
+> > thi. […] Tôi nghĩ SEC cũng cần thêm nguồn lực, tôi hoàn toàn đồng ý."*
+>
+> Và lý do cấu trúc (`16 36:13`): *"vì thị trường phát triển quá nhanh, nên cơ quan quản lý **luôn phải
+> chạy theo**, và đó không phải là trạng thái lý tưởng."*
+>
+> [Mục 8 của chương trình](#18-chương-trình) đo câu đó cho chính nước Mỹ, và kết quả cho thấy nó không
+> phải chuyện riêng của thị trường mới nổi — xem [§16](#16-đối-chiếu-2026).
 
 ---
 
-## 16. ⚠️ Đối chiếu 2026
+## 16. Đối chiếu 2026
 
 Mười lăm năm là quãng đủ dài để phần lớn tham số trong buổi 12 hết hạn. Cơ chế thì không.
 
@@ -1077,7 +1118,7 @@ Mười lăm năm là quãng đủ dài để phần lớn tham số trong buổ
 
 | Shiller nói (Xuân 2011)                                                                          | Kết cục                                                                                                                                                                                                           |
 | ------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| NYSE *"sắp bị Deutsche Börse thâu tóm. Vụ đó vẫn đang tiến hành, đúng không?"*                   | ❌ **Uỷ ban châu Âu chặn ngày 1/2/2012.** NYSE Euronext về tay **ICE** tháng 11/2013. Chi tiết ở [bài 6 §13](bai_06_so_giao_dich.md#13--đối-chiếu-2026).                                                           |
+| NYSE *"sắp bị Deutsche Börse thâu tóm. Vụ đó vẫn đang tiến hành, đúng không?"*                   | ❌ **Uỷ ban châu Âu chặn ngày 1/2/2012.** NYSE Euronext về tay **ICE** tháng 11/2013. Chi tiết ở [bài 6 §13](bai_06_so_giao_dich.md#13-đối-chiếu-2026).                                                           |
 | Quỹ phòng hộ *"vẫn tồn tại như các tổ chức phần lớn không bị quản"*                              | ⚠️ **Đổi ngay năm sau.** Đề mục IV Dodd-Frank buộc nhà quản lý quỹ có tài sản từ 150 triệu đô phải **đăng ký với SEC** và nộp **Mẫu PF**; hạn chót **tháng 3/2012**. Ông mô tả đúng hiện trạng và sai về hướng đi. |
 | 3(c)(7) *"được nhận 500 nhà đầu tư"*                                                             | ⚠️ **Đạo luật JOBS 2012** nâng ngưỡng §12(g) từ **500 lên 2.000** người nắm giữ. Con số ông đọc **gấp bốn lần lên** một năm sau bài giảng — và không một chữ nào trong luật quỹ đầu tư bị sửa.                     |
 | *"đây là một thời khắc đầy cảm hứng cho quy định tài chính. G-20 có vẻ là một cơ quan hiệu quả"* | ⚠️ Sarkozy đề xuất **ban thư ký thường trực** cho G-20 năm 2011; tới 2026 **vẫn chưa có**. G-20 vẫn không có trụ sở, không có nhân sự thường trực, không có quyền cưỡng chế.                                       |
@@ -1155,8 +1196,9 @@ Ngân sách nhân **1,81 lần**. Thị trường nhân **3,99 lần**. Cường
 **2.575 triệu**. Và trong năm **2025**, SEC mất khoảng **15 %** nhân sự qua các chương trình nghỉ
 việc tự nguyện.
 
-⚠️ Các con số vốn hoá là **bậc độ lớn**, đủ chính xác để so tỷ lệ chứ không đủ chính xác để trích một
-mình; nguồn ở cuối bài.
+> [!warning]
+> Các con số vốn hoá là **bậc độ lớn**, đủ chính xác để so tỷ lệ chứ không đủ chính xác để trích một
+> mình; nguồn ở cuối bài.
 
 Nối với [mục 7 của chương trình](#18-chương-trình): Đạo luật Trừng phạt Giao dịch Nội gián 1984 cho
 phép phạt dân sự **tới ba lần** khoản lợi, cộng với việc phải nộp lại khoản lợi là **bốn lần**. Bốn
@@ -1168,6 +1210,7 @@ xác suất bị bắt là 5 %, tổng phạt cần có là 4.820.000 đô, ph�
 chia cho 44 tháng ra **101.522 đô mỗi tháng tù**. Tức bản án chỉ răn đe nếu kẻ phạm tội định giá một
 tháng tự do của mình ở mức đó.
 
+> [!note]
 > Chỉ có **một** biến số trong bất đẳng thức răn đe mà nhà nước thật sự nâng được: **xác suất bị
 > bắt**. Tăng tiền phạt thì chạm trần khả năng chi trả; tăng tù thì chạm vào thứ không đo được. Tăng
 > xác suất bị bắt thì không có trần — nhưng nó mua bằng ngân sách, và bảng trên cho biết ngân sách
@@ -1190,7 +1233,7 @@ Quy luật của cả kho vẫn đúng: **cơ chế thì sống, tham số thì 
 
 ---
 
-## 17. 🇻🇳 Góc Việt Nam
+## 17. Góc Việt Nam
 
 Việt Nam có cả năm tầng của Shiller trên giấy, nhưng **hình dạng của chúng khác** — và một tầng gần
 như trống.
@@ -1215,7 +1258,7 @@ một người quản lý ngồi cùng địa phương, nhìn thấy doanh nghi�
 **Tầng 2 mỏng.** Đây là khác biệt cấu trúc quan trọng nhất. Ở Mỹ, FINRA có hơn 3.000 nhân sự và
 quyền phạt trực tiếp công ty môi giới; nó gánh phần lớn khối lượng giám sát hằng ngày mà SEC không
 kham nổi. Ở Việt Nam không có lớp đó, nên **gần như toàn bộ gánh nặng thực thi dồn về tầng 4** — một
-cục thuộc bộ. Đọc lại [§16.5](#16--đối-chiếu-2026) về ngân sách thực thi thì thấy đây là ràng buộc
+cục thuộc bộ. Đọc lại [§16.5](#16-đối-chiếu-2026) về ngân sách thực thi thì thấy đây là ràng buộc
 thật, không phải nhận xét hình thức.
 
 ### 17.2 Một tấm giấy "nhà đầu tư chuyên nghiệp" giá bao nhiêu
@@ -1238,6 +1281,7 @@ Vấn đề: bản gốc **không nói phải nắm giữ bao lâu**.
 |                             5 ngày |       3.698.630 đ |
 | **180 ngày** *(Nghị định 65/2022)* | **133.150.685 đ** |
 
+> [!note]
 > **Trước tháng 9/2022, khoảng 1,48 triệu đồng mua được quyền mua trái phiếu doanh nghiệp phát hành
 > riêng lẻ** — loại tài sản mà cả hệ thống luật cho rằng chỉ người chuyên nghiệp mới được chạm vào.
 
@@ -1247,7 +1291,7 @@ Vấn đề: bản gốc **không nói phải nắm giữ bao lâu**.
 Đối chiếu độ chặt với Mỹ: chuẩn 1 triệu đô tài sản ròng, quy đổi ở mức tham chiếu 26.200 đ/USD, bằng
 khoảng **26,2 tỷ đồng** — **chặt hơn ngưỡng Việt Nam 13,10 lần**. Nhưng đây là so sánh cần cẩn thận:
 ngưỡng Mỹ đặt từ **1982** và bị lạm phát bào mòn suốt bốn thập kỷ — chuyện đó
-[bài 9 §7](bai_09_bat_dong_san.md#7--ngưỡng-nhà-đầu-tư-đủ-điều-kiện-bị-lạm-phát-ăn-mòn) đã kể. Ngưỡng
+[bài 9 §7](bai_09_bat_dong_san.md#7-ngưỡng-nhà-đầu-tư-đủ-điều-kiện-bị-lạm-phát-ăn-mòn) đã kể. Ngưỡng
 Việt Nam mới đặt năm 2019 nên chưa kịp bị bào mòn. Điều đáng theo dõi là **nó cũng không được neo
 theo lạm phát**, nên nó sẽ đi đúng con đường đó.
 
@@ -1288,6 +1332,7 @@ tên tối thiểu cần có để nắm 91,50 %:
 | Qua cá nhân đứng tên |  5,00 % |   5,00 % |           **19 → 19** |
 | Qua tổ chức đứng tên | 15,00 % |  10,00 % |                7 → 10 |
 
+> [!note]
 > **Đi đường cá nhân đứng tên, số người cần trước và sau khi sửa luật là như nhau: 19.**
 
 Trần cấp tín dụng cũng vậy. Vốn điều lệ SCB **20.020 tỷ**, trần một khách hàng 15 % là **3.003 tỷ**,
@@ -1295,6 +1340,7 @@ trong khi dư nợ của nhóm giai đoạn 2012–2022 là **1.066.000 tỷ** �
 nhân tối thiểu để rải hết dư nợ đó xuống dưới trần: **355 công ty**. Thực tế họ dùng khoảng một
 nghìn pháp nhân. **Trần không hề bị chạm.**
 
+> [!note]
 > Cả ba con số pháp lý — trần sở hữu cá nhân, trần cấp tín dụng, ngưỡng nhà đầu tư chuyên nghiệp —
 > đều **không bị vi phạm ở dạng số học của chúng**. Thứ bị vi phạm là việc **xác định người có liên
 > quan** và việc **xác nhận tư cách nhà đầu tư**: hai thứ định tính, không phải hai con số.
@@ -1880,24 +1926,24 @@ Tat ca assert deu qua. Chay lai cho ket qua giong het.
 ==============================================================================
 ```
 
-### 💡 Tự thử
-
-1. **Mục 1** — đổi `LOI_SUAT_GOP_BP` xuống `300` (3 %/năm). Sàn cartel lấy mất tỷ lệ **lớn hơn** hay
-   **nhỏ hơn** phần trăm tài sản cuối kỳ? Giải thích bằng lời trước khi chạy.
-2. **Mục 2** — tăng độ biến động của `BIEN_TAM_NAM` (giãn các giá trị ra xa nhau hơn). Ngưỡng "đủ để
-   thống kê kêu" đi lên hay xuống? Suy ra: doanh nghiệp có kết quả kinh doanh **ổn định** hay **thất
-   thường** thì khó đục khoét hơn?
-3. **Mục 3** — đặt `QUYEN_CHON_PHI = 400` (quyền chọn đắt hơn). Tỷ trọng quyền chọn cần thiết đổi thế
-   nào, và vì sao một thị trường quyền chọn **thanh khoản tốt** lại làm giao dịch nội gián **khó bị
-   phát hiện hơn**?
-4. **Mục 5** — tìm mức `PHAT_MAT_TIEP_CAN_BP` nhỏ nhất giữ được chuẩn 60 điểm cơ bản.
-5. **Mục 6** — đặt `CHU_KY_KHUNG_HOANG = 3` (khủng hoảng dày gấp đôi). Trần độ phủ mới là bao nhiêu?
-   Đây có phải một lập luận rằng **khủng hoảng thường xuyên hơn thì tốt hơn** không — và chỗ nào
-   trong mô hình khiến kết luận đó sai?
-6. **Mục 7** — tìm hệ số phạt cần thiết nếu xác suất bị bắt chỉ là 1 %. So với mức phạt tối đa mà một
-   cá nhân có thể trả được.
-7. **Mục 9** — đặt `LAI_MARGIN_BP = 2_000`. Chi phí thuê tư cách chuyên nghiệp hai ngày là bao nhiêu,
-   và con số đó có làm đổi kết luận không?
+> [!example] Tự thử
+>
+> 1. **Mục 1** — đổi `LOI_SUAT_GOP_BP` xuống `300` (3 %/năm). Sàn cartel lấy mất tỷ lệ **lớn hơn** hay
+>    **nhỏ hơn** phần trăm tài sản cuối kỳ? Giải thích bằng lời trước khi chạy.
+> 2. **Mục 2** — tăng độ biến động của `BIEN_TAM_NAM` (giãn các giá trị ra xa nhau hơn). Ngưỡng "đủ để
+>    thống kê kêu" đi lên hay xuống? Suy ra: doanh nghiệp có kết quả kinh doanh **ổn định** hay **thất
+>    thường** thì khó đục khoét hơn?
+> 3. **Mục 3** — đặt `QUYEN_CHON_PHI = 400` (quyền chọn đắt hơn). Tỷ trọng quyền chọn cần thiết đổi thế
+>    nào, và vì sao một thị trường quyền chọn **thanh khoản tốt** lại làm giao dịch nội gián **khó bị
+>    phát hiện hơn**?
+> 4. **Mục 5** — tìm mức `PHAT_MAT_TIEP_CAN_BP` nhỏ nhất giữ được chuẩn 60 điểm cơ bản.
+> 5. **Mục 6** — đặt `CHU_KY_KHUNG_HOANG = 3` (khủng hoảng dày gấp đôi). Trần độ phủ mới là bao nhiêu?
+>    Đây có phải một lập luận rằng **khủng hoảng thường xuyên hơn thì tốt hơn** không — và chỗ nào
+>    trong mô hình khiến kết luận đó sai?
+> 6. **Mục 7** — tìm hệ số phạt cần thiết nếu xác suất bị bắt chỉ là 1 %. So với mức phạt tối đa mà một
+>    cá nhân có thể trả được.
+> 7. **Mục 9** — đặt `LAI_MARGIN_BP = 2_000`. Chi phí thuê tư cách chuyên nghiệp hai ngày là bao nhiêu,
+>    và con số đó có làm đổi kết luận không?
 
 ---
 

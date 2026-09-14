@@ -1,13 +1,15 @@
 # Bài 11 — Ước lượng điểm và khoảng tin cậy
 
+> [!info] Về bài này
 > Bài học dựa trên **Giáo trình Xác suất Thống kê** (Tống Đình Quỳ, NXB Bách Khoa – Hà Nội), **Chương IV §3–§4**, tr. 133–157.
-> 💼 **Góc QTKD** là ví dụ thêm cho ngành Quản trị Kinh doanh, không có trong giáo trình.
-> 📚 **Mở rộng** là kiến thức nền giáo trình lướt qua.
-> ⚠️ Bài này **đính chính hai lỗi in**: thí dụ 4.2 (tr. 143) và thí dụ 4.3 (tr. 144).
-> 📌 **Cần đọc trước:** [Bài 7](bai_07_cac_phan_phoi_thong_dung.md) · [Bài 9](bai_09_luat_so_lon_va_dinh_ly_gioi_han_trung_tam.md) · [Bài 10](bai_10_mau_va_thong_ke_mo_ta.md)
+>
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
+>
+> **Cần đọc trước:** [Bài 7](bai_07_cac_phan_phoi_thong_dung.md) · [Bài 9](bai_09_luat_so_lon_va_dinh_ly_gioi_han_trung_tam.md) · [Bài 10](bai_10_mau_va_thong_ke_mo_ta.md)
 
 Bài 10 cho bạn **một con số**: $\overline{X} = 55{,}24$ triệu. Giáo trình nêu ngay vấn đề của nó (tr. 140):
 
+> [!quote]
 > "Ước lượng điểm có một nhược điểm cơ bản là **không thể biết được độ chính xác** cũng như xác suất
 > để ước lượng đó chính xác."
 
@@ -27,7 +29,7 @@ $$55{,}24 \ \longrightarrow \ (50{,}95;\ 59{,}53) \text{ với độ tin cậy }
 6. [Bài toán 2: kỳ vọng khi chưa biết sigma](#6-bài-toán-2-kỳ-vọng-khi-chưa-biết-sigma)
 7. [Bài toán 3: khoảng tin cậy cho tỷ lệ](#7-bài-toán-3-khoảng-tin-cậy-cho-tỷ-lệ)
 8. [Bài toán 4: khoảng tin cậy cho phương sai](#8-bài-toán-4-khoảng-tin-cậy-cho-phương-sai)
-9. [📚 95% nghĩa là gì và không nghĩa là gì](#9--95-nghĩa-là-gì-và-không-nghĩa-là-gì)
+9. [📚 95% nghĩa là gì và không nghĩa là gì](#9-95-nghĩa-là-gì-và-không-nghĩa-là-gì)
 10. [Code minh hoạ](#10-code-minh-hoạ)
 11. [Tự thử](#11-tự-thử)
 12. [Từ điển thuật ngữ](#12-từ-điển-thuật-ngữ)
@@ -47,8 +49,9 @@ $x_1, x_2, \dots, x_n$.
 Giá trị tìm được, ký hiệu $\hat\theta$, gọi là **ước lượng** của $\theta$. Vì nó là **một số**,
 gọi là **ước lượng điểm**.
 
-⚠️ Chú ý $\hat\theta = \hat\theta(x_1, \dots, x_n)$ là **một hàm của mẫu**, tức là một **thống kê**
-(bài 10 mục 4) — nên bản thân nó cũng là biến ngẫu nhiên.
+> [!warning]
+> Chú ý $\hat\theta = \hat\theta(x_1, \dots, x_n)$ là **một hàm của mẫu**, tức là một **thống kê**
+> (bài 10 mục 4) — nên bản thân nó cũng là biến ngẫu nhiên.
 
 Giáo trình nêu vấn đề đánh giá (tr. 133): *"để đánh giá một ước lượng là tốt hay không, ta phải
 so sánh nó với giá trị $\theta$ thật, **nhưng $\theta$ chưa biết**."*
@@ -58,9 +61,10 @@ Giải pháp: đặt ra **tiêu chuẩn** cho $\hat\theta$ (mục 2), thay vì s
 **Hàm tổn thất.** Giáo trình dùng dạng bình phương (tr. 133): $L(g, \theta) = (g - \theta)^2$,
 và mục tiêu là cực tiểu **hàm rủi ro** $R(g,\theta) = E[L(g,\theta)]$.
 
-📚 Vì sao dùng bình phương? Giáo trình giải thích bằng khai triển Taylor (3.1): với giả thiết lồi,
-liên tục và khả vi hai lần, mọi hàm tổn thất đều **xấp xỉ được bằng dạng bình phương** ở lân cận
-$\theta$. Đây là cùng một lý do đã gặp ở bài 6 mục 3 (vì sao phương sai bình phương độ lệch).
+> [!note]
+> Vì sao dùng bình phương? Giáo trình giải thích bằng khai triển Taylor (3.1): với giả thiết lồi,
+> liên tục và khả vi hai lần, mọi hàm tổn thất đều **xấp xỉ được bằng dạng bình phương** ở lân cận
+> $\theta$. Đây là cùng một lý do đã gặp ở bài 6 mục 3 (vì sao phương sai bình phương độ lệch).
 
 ---
 
@@ -94,13 +98,15 @@ $$
 
 Dòng cuối chính là lý do bài 10 mục 6 phải chia $n-1$.
 
-⚠️ Giáo trình còn nêu một trường hợp tinh tế: nếu **biết trước** $a$, thì
-$\frac1n\sum(x_i - a)^2$ **là** ước lượng không chệch của $\sigma^2$ — chia $n$, không phải $n-1$.
-Chỉ khi phải ước lượng $a$ bằng $\overline{X}$ mới mất một bậc tự do.
+> [!warning]
+> Giáo trình còn nêu một trường hợp tinh tế: nếu **biết trước** $a$, thì
+> $\frac1n\sum(x_i - a)^2$ **là** ước lượng không chệch của $\sigma^2$ — chia $n$, không phải $n-1$.
+> Chỉ khi phải ước lượng $a$ bằng $\overline{X}$ mới mất một bậc tự do.
 
-💼 **Sai số hệ thống là thứ đáng sợ trong kinh doanh.** Sai số ngẫu nhiên tự triệt tiêu khi lấy
-nhiều mẫu; sai số hệ thống thì **không bao giờ** — càng nhiều dữ liệu càng tự tin vào một con số sai.
-Cân bị lệch 100 g thì cân một triệu lần vẫn lệch 100 g.
+> [!example] Sai số hệ thống là thứ đáng sợ trong kinh doanh.
+> Sai số ngẫu nhiên tự triệt tiêu khi lấy
+> nhiều mẫu; sai số hệ thống thì **không bao giờ** — càng nhiều dữ liệu càng tự tin vào một con số sai.
+> Cân bị lệch 100 g thì cân một triệu lần vẫn lệch 100 g.
 
 ### 2. Vững (consistent)
 
@@ -133,24 +139,24 @@ của $a$ — nó đạt đúng giới hạn Cramér – Rao $\sigma^2/n$.
 
 Tương tự, tần suất mẫu $f$ là ước lượng hiệu quả của $p$ khi $X$ có phân phối Bernoulli.
 
-### 📚 Ba tính chất, ba câu hỏi khác nhau
-
-```
-   KHÔNG CHỆCH  "Có nhắm đúng tâm không?"        → E θ̂ = θ
-   VỮNG         "Càng nhiều dữ liệu càng đúng?"  → θ̂ → θ khi n → ∞
-   HIỆU QUẢ     "Có phải cách chụm nhất không?"  → V θ̂ nhỏ nhất
-```
-
-```
-   không chệch + hiệu quả      không chệch, kém hiệu quả    CHỆCH
-        ●●●                          ●    ●                  ●●●
-       ●●⊕●●         vs            ●  ⊕     ●        vs     ●●●   ⊕
-        ●●●                        ●     ●   ●              ●●●
-                                                        (chụm nhưng lệch tâm)
-   ⊕ = giá trị thật θ   ● = các ước lượng từ những mẫu khác nhau
-```
-
-⚠️ Chụm mà lệch tâm (hình phải) là tình huống **nguy hiểm nhất**: bạn rất tự tin vào một con số sai.
+> [!note] Ba tính chất, ba câu hỏi khác nhau
+>
+> ```
+>    KHÔNG CHỆCH  "Có nhắm đúng tâm không?"        → E θ̂ = θ
+>    VỮNG         "Càng nhiều dữ liệu càng đúng?"  → θ̂ → θ khi n → ∞
+>    HIỆU QUẢ     "Có phải cách chụm nhất không?"  → V θ̂ nhỏ nhất
+> ```
+>
+> ```
+>    không chệch + hiệu quả      không chệch, kém hiệu quả    CHỆCH
+>         ●●●                          ●    ●                  ●●●
+>        ●●⊕●●         vs            ●  ⊕     ●        vs     ●●●   ⊕
+>         ●●●                        ●     ●   ●              ●●●
+>                                                         (chụm nhưng lệch tâm)
+>    ⊕ = giá trị thật θ   ● = các ước lượng từ những mẫu khác nhau
+> ```
+>
+> ⚠️ Chụm mà lệch tâm (hình phải) là tình huống **nguy hiểm nhất**: bạn rất tự tin vào một con số sai.
 
 ---
 
@@ -190,8 +196,9 @@ Trong thực hành, giải **phương trình hợp lý nhất** (3.5) — lấy 
 $$\frac{\partial \ln L(x, \theta)}{\partial \theta} = 0, \qquad
 \text{kiểm điều kiện đủ } \frac{\partial^2 \ln L}{\partial\theta^2}\bigg|_{\theta = \hat\theta} < 0$$
 
-⚠️ Giáo trình cảnh báo thẳng (tr. 138): hàm hợp lý *"không là hàm lồi và tất nhiên thường phi tuyến.
-**Không có lý do nào để đảm bảo** cho $\hat\theta$... là duy nhất, hoặc là không chệch."*
+> [!warning]
+> Giáo trình cảnh báo thẳng (tr. 138): hàm hợp lý *"không là hàm lồi và tất nhiên thường phi tuyến.
+> **Không có lý do nào để đảm bảo** cho $\hat\theta$... là duy nhất, hoặc là không chệch."*
 
 Nhưng: *"nếu phương trình (3.5) có **nghiệm duy nhất** thì khi đó **không cần** kiểm tra điều kiện đủ."*
 
@@ -203,14 +210,16 @@ $$\hat\lambda = \overline{X}$$
 
 $$\hat{a} = \overline{X}, \qquad \hat\sigma^2 = \frac1n\sum(x_i - \overline{X})^2 = \hat{S}^2$$
 
-⚠️ **Chú ý điều thú vị ở đây:** ước lượng hợp lý nhất của $\sigma^2$ chia cho $n$ — tức là
-**$\hat{S}^2$, ước lượng CHỆCH!** Phương pháp hợp lý nhất không bảo đảm không chệch.
+> [!warning] Chú ý điều thú vị ở đây:
+> ước lượng hợp lý nhất của $\sigma^2$ chia cho $n$ — tức là
+> **$\hat{S}^2$, ước lượng CHỆCH!** Phương pháp hợp lý nhất không bảo đảm không chệch.
 
 Đây là một đánh đổi thật: hợp lý nhất tối ưu theo tiêu chí "xác suất quan sát lớn nhất", không phải
 tiêu chí "không chệch". Trong thực hành người ta vẫn dùng $s^2$ (chia $n-1$).
 
-💼 Phương pháp hợp lý nhất là nền của **hầu hết mọi mô hình thống kê hiện đại**: hồi quy logistic,
-mô hình sinh tồn, mô hình hỗn hợp. Khi phần mềm báo "log-likelihood", đó chính là $\ln L$ ở đây.
+> [!example]
+> Phương pháp hợp lý nhất là nền của **hầu hết mọi mô hình thống kê hiện đại**: hồi quy logistic,
+> mô hình sinh tồn, mô hình hỗn hợp. Khi phần mềm báo "log-likelihood", đó chính là $\ln L$ ở đây.
 
 ---
 
@@ -218,6 +227,7 @@ mô hình sinh tồn, mô hình hỗn hợp. Khi phần mềm báo "log-likeliho
 
 Giáo trình mô tả rất rõ ưu điểm (tr. 140):
 
+> [!quote]
 > "Một khoảng ước lượng **vẫn có thể sai**, giống như mọi ước lượng khác, nhưng khác với ước lượng
 > điểm, **xác suất sai lầm có thể biết** và trong chừng mực nào đó có thể **hy vọng kiểm soát được**."
 
@@ -233,7 +243,7 @@ $$P(\theta_1 < \theta < \theta_2) = 1 - \alpha \tag{4.1}$$
 Khoảng $(\theta_1, \theta_2)$ là **khoảng tin cậy** với độ tin cậy $1-\alpha$; $\theta_2 - \theta_1$
 là **độ dài** của khoảng.
 
-### ⭐ Quy trình chung — bốn bước, dùng cho cả bốn bài toán
+### Quy trình chung — bốn bước, dùng cho cả bốn bài toán
 
 Giáo trình nêu quy tắc (tr. 140–141):
 
@@ -297,8 +307,9 @@ lý thuyết với độ tin cậy $1-\alpha$."*
 
 **Khoảng trái (4.9):** $\left(-\infty;\ \overline{X} + \dfrac{\sigma_0}{\sqrt n}z_{1-\alpha}\right)$
 
-⚠️ **Bẫy tra bảng.** Giáo trình lưu ý (tr. 143): với bảng **hàm Laplace** (bảng 2, tr. 232 —
-tích phân **từ 0**, xem bài 7 mục 6):
+> [!warning] Bẫy tra bảng.
+> Giáo trình lưu ý (tr. 143): với bảng **hàm Laplace** (bảng 2, tr. 232 —
+> tích phân **từ 0**, xem bài 7 mục 6):
 
 $$\text{khoảng đối xứng: } \phi(z_b) = \frac{1-\alpha}{2}, \qquad
 \text{khoảng một phía: } \phi(z_b) = \frac{1}{2} - \alpha$$
@@ -311,7 +322,7 @@ Ba giá trị dùng nhiều nhất — **nên thuộc**:
 | **95%**    |                   **1,960** |                 **1,645** |
 | 99%        |                       2,576 |                     2,326 |
 
-### ⭐ Công thức (4.10) — ba biến, biết hai suy ra một
+### Công thức (4.10) — ba biến, biết hai suy ra một
 
 $$\varepsilon = \frac{\sigma_0}{\sqrt{n}}\,z_{1-\alpha/2}$$
 
@@ -323,11 +334,13 @@ Hai nhận xét (tr. 144):
 - $n$ tăng, độ tin cậy giữ nguyên → $\varepsilon$ **giảm** (chính xác hơn).
 - Độ tin cậy tăng, $n$ giữ nguyên → $z$ tăng → $\varepsilon$ **tăng** (kém chính xác hơn).
 
-💼 **Đây là tam giác đánh đổi của mọi nghiên cứu thị trường**: chính xác – tin cậy – chi phí.
-Muốn tăng hai cái đầu thì phải trả cái thứ ba.
+> [!example] Đây là tam giác đánh đổi của mọi nghiên cứu thị trường
+> chính xác – tin cậy – chi phí.
+> Muốn tăng hai cái đầu thì phải trả cái thứ ba.
 
 ### Thí dụ 4.1 (tr. 143)
 
+> [!note]
 > Ước lượng thời gian trung bình sản xuất 1 ram giấy. Thời gian tuân theo luật chuẩn với
 > $\sigma = 0{,}3$ phút. Mẫu 36 ram cho $\overline{X} = 1{,}2$ phút. Khoảng tin cậy 95%?
 
@@ -335,8 +348,9 @@ $$\varepsilon = \frac{0{,}3}{\sqrt{36}} \times 1{,}96 = 0{,}05 \times 1{,}96 = 0
 
 $$(1{,}2 - 0{,}098;\ 1{,}2 + 0{,}098) = \mathbf{(1{,}102;\ 1{,}298)}$$
 
-### Thí dụ 4.2 (tr. 143) — ⚠️ có lỗi in
+### Thí dụ 4.2 (tr. 143) — có lỗi in
 
+> [!note]
 > Muốn độ chính xác **tăng gấp đôi** nhưng độ tin cậy không đổi (0,95) thì cần cỡ mẫu bao nhiêu?
 
 *Giải.* Độ chính xác gấp đôi nghĩa là $\varepsilon$ **giảm một nửa**: $\varepsilon = 0{,}049$.
@@ -345,30 +359,31 @@ Từ (4.10):
 $$n \ge \frac{\sigma_0^2}{\varepsilon^2}z_{0{,}975}^2 = \frac{(0{,}3)^2}{(0{,}049)^2}(1{,}96)^2
 = \left(\frac{0{,}3 \times 1{,}96}{0{,}049}\right)^2 = 12^2 = \mathbf{144}$$
 
-⚠️ **Đính chính.** Sách in $\approx \mathbf{142}$. Đã đối chiếu bản quét gốc trang 143: công thức
-viết đúng, kết quả số sai. Giá trị đúng là **144**.
+> [!warning] Đính chính.
+> Sách in $\approx \mathbf{142}$. Đã đối chiếu bản quét gốc trang 143: công thức
+> viết đúng, kết quả số sai. Giá trị đúng là **144**.
 
 ⭐ Và con số 144 **đẹp hơn nhiều** so với 142, vì $144 = 4 \times 36$ — đúng **luật căn bậc hai**
 của bài 6 mục 4: muốn chính xác gấp đôi thì phải tăng cỡ mẫu **gấp bốn**.
 
 Con số 142 làm mất đi bài học đó.
 
-### 💼 Góc QTKD — công thức cỡ mẫu
-
-Đảo (4.10) được công thức lập kế hoạch khảo sát:
-
-$$\boxed{n \ge \left(\frac{\sigma \cdot z_{1-\alpha/2}}{\varepsilon}\right)^{\!2}}$$
-
-Ví dụ: doanh thu ngày có $\sigma \approx 16{,}6$ triệu. Muốn ước lượng doanh thu trung bình với
-sai số $\pm 2$ triệu, độ tin cậy 95%:
-
-$$n \ge \left(\frac{16{,}6 \times 1{,}96}{2}\right)^2 = 265 \text{ ngày}$$
-
-Con số này nên tính **trước khi** thu thập dữ liệu, không phải sau. Thu 60 ngày rồi mới biết cần 265
-là đã muộn.
-
-⚠️ Vòng luẩn quẩn: công thức cần $\sigma$, mà $\sigma$ chỉ biết sau khi có dữ liệu. Cách thoát:
-làm **khảo sát thử** (pilot) cỡ 30 để ước lượng $\sigma$, rồi mới tính $n$ cho khảo sát chính.
+> [!example] Góc QTKD — công thức cỡ mẫu
+>
+> Đảo (4.10) được công thức lập kế hoạch khảo sát:
+>
+> $$\boxed{n \ge \left(\frac{\sigma \cdot z_{1-\alpha/2}}{\varepsilon}\right)^{\!2}}$$
+>
+> Ví dụ: doanh thu ngày có $\sigma \approx 16{,}6$ triệu. Muốn ước lượng doanh thu trung bình với
+> sai số $\pm 2$ triệu, độ tin cậy 95%:
+>
+> $$n \ge \left(\frac{16{,}6 \times 1{,}96}{2}\right)^2 = 265 \text{ ngày}$$
+>
+> Con số này nên tính **trước khi** thu thập dữ liệu, không phải sau. Thu 60 ngày rồi mới biết cần 265
+> là đã muộn.
+>
+> ⚠️ Vòng luẩn quẩn: công thức cần $\sigma$, mà $\sigma$ chỉ biết sau khi có dữ liệu. Cách thoát:
+> làm **khảo sát thử** (pilot) cỡ 30 để ước lượng $\sigma$, rồi mới tính $n$ cho khảo sát chính.
 
 ---
 
@@ -390,7 +405,7 @@ $$\boxed{\left(\overline{X} - \frac{s}{\sqrt{n}}\,t_{n-1;\,1-\alpha/2};\ \
 
 Khoảng phải và trái tương tự, với $t_{n-1;\,1-\alpha}$.
 
-⚠️ **Ba chỗ dễ sai:**
+> [!warning] Ba chỗ dễ sai:
 
 1. **Bậc tự do là $n-1$**, không phải $n$.
 2. **Dùng $s$** (chia $n-1$), không phải $\hat{S}$ (chia $n$).
@@ -408,8 +423,9 @@ Khoảng phải và trái tương tự, với $t_{n-1;\,1-\alpha}$.
 Giáo trình cho mốc thực hành (tr. 146): **$n > 30$ thì $T$ tiệm cận $N(0;1)$**, làm như bài toán 1
 với $\sigma_0$ thay bằng $s$.
 
-### Thí dụ 4.3 (tr. 144) — ⚠️ có lỗi in
+### Thí dụ 4.3 (tr. 144) — có lỗi in
 
+> [!note]
 > Lò bánh ước lượng trọng lượng trung bình bột dùng hằng ngày. 14 ngày cho $\overline{X} = 17{,}3$ kg,
 > $s = 4{,}5$ kg. Khoảng tin cậy 99%?
 
@@ -419,7 +435,8 @@ $$\varepsilon = \frac{4{,}5}{\sqrt{14}} \times 3{,}012 = 1{,}2027 \times 3{,}012
 
 $$(17{,}3 - 3{,}62;\ 17{,}3 + 3{,}62) = \mathbf{(13{,}68;\ 20{,}92)}$$
 
-⚠️ **Đính chính — sách sai hai chỗ cùng lúc.** Bản quét gốc trang 144 in:
+> [!warning] Đính chính — sách sai hai chỗ cùng lúc.
+> Bản quét gốc trang 144 in:
 
 $$\left(\overline{X} - \frac{4{,}5}{14}\cdot 3{,}012,\ \overline{X} + \frac{4{,}5}{14}\cdot 3{,}012\right) = (136{,}77;\ 209{,}23)$$
 
@@ -434,6 +451,7 @@ Nếu $\overline{X}$ không nằm chính giữa khoảng bạn tính ra, đã sa
 
 ### Thí dụ 4.4 (tr. 145) — mẫu rất nhỏ
 
+> [!note]
 > Nhiệt độ cao nhất ở 5 vùng tỉnh Lâm Đồng ngày 25/9: **25, 27, 29, 32, 33** °C.
 > Khoảng tin cậy 95% cho nhiệt độ cao nhất trung bình?
 
@@ -449,10 +467,11 @@ $$\left(29{,}2 - \frac{3{,}35}{\sqrt5}\cdot 2{,}776;\ 29{,}2 + \frac{3{,}35}{\sq
 
 Khoảng rộng **8,3 độ** với chỉ 5 quan sát — minh hoạ rõ cái giá của mẫu nhỏ.
 
-### ⚠️ Câu cảnh báo quan trọng nhất của cả bài
+### Câu cảnh báo quan trọng nhất của cả bài
 
 Ngay sau thí dụ 4.4, giáo trình viết (tr. 146):
 
+> [!quote]
 > "Để ý đây là khoảng tin cậy 95% tính trên bộ số liệu cụ thể của thí dụ, nó **hoàn toàn không có
 > nghĩa là xác suất để trung bình thật rơi vào khoảng tin cậy trên là 0,95**. Bởi vậy không nên quên
 > rằng độ tin cậy 95% của một khoảng nào đó được hiểu **theo nghĩa thống kê** (tức là nếu cứ làm
@@ -499,6 +518,7 @@ f + \sqrt{\frac{f(1-f)}{n}}\,z_{1-\alpha/2}\right)}$$
 
 ### Thí dụ 4.5 (tr. 148)
 
+> [!note]
 > Kiểm 600 sản phẩm thấy 24 phế phẩm. Độ tin cậy 95%, ước lượng tỷ lệ phế phẩm **tối đa**.
 
 *"Tối đa"* → dùng **khoảng trái** (4.17b), $z_b = z_{0{,}95} = 1{,}645$:
@@ -509,7 +529,7 @@ $$f = \frac{24}{600} = 0{,}04, \qquad
 Tỷ lệ phế phẩm tối đa **5,32%**. (Sách in 5,312% do tra bảng $z = 1{,}64$; dùng $1{,}6449$ chính xác
 được 5,316%.)
 
-💼 **Đọc đề để chọn kiểu khoảng:**
+> [!example] Đọc đề để chọn kiểu khoảng:
 
 | Đề hỏi                                     | Kiểu khoảng             |
 | ------------------------------------------ | ----------------------- |
@@ -519,6 +539,7 @@ Tỷ lệ phế phẩm tối đa **5,32%**. (Sách in 5,312% do tra bảng $z = 
 
 ### Thí dụ 4.6 (tr. 149)
 
+> [!note]
 > Phỏng vấn 400 người ở khu vực 300.000 người, 240 người ủng hộ dự luật A. Độ tin cậy 0,95,
 > ước lượng **số người** ủng hộ trong khu vực.
 
@@ -533,32 +554,33 @@ $$(300\,000 \times 0{,}552;\ 300\,000 \times 0{,}648) = \mathbf{(165\,600;\ 194\
 So với công thức chính xác (4.15): $(0{,}5513;\ 0{,}6468)$ — chênh chưa tới 0,1 điểm phần trăm.
 Với $n = 400$ và $f$ gần 0,5, hai cách gần như trùng nhau.
 
-⚠️ Nhưng khi $f$ **gần 0 hoặc gần 1**, hai cách chênh nhiều. Ví dụ $f = 0{,}02$, $n = 50$:
-công thức (4.16) cho cận dưới **âm** — vô nghĩa với một tỷ lệ. Khi đó **bắt buộc dùng (4.15)**.
+> [!warning]
+> Nhưng khi $f$ **gần 0 hoặc gần 1**, hai cách chênh nhiều. Ví dụ $f = 0{,}02$, $n = 50$:
+> công thức (4.16) cho cận dưới **âm** — vô nghĩa với một tỷ lệ. Khi đó **bắt buộc dùng (4.15)**.
 
 **Quy tắc kiểm tra nhanh:** cần $nf > 5$ **và** $n(1-f) > 5$ thì xấp xỉ chuẩn mới dùng được
 (đúng điều kiện xấp xỉ nhị thức ở bài 7 mục 7).
 
-### 💼 Góc QTKD — vì sao thăm dò dư luận luôn ghi "±3%"
-
-Với $f$ gần 0,5 (trường hợp xấu nhất, $f(1-f)$ đạt max) và độ tin cậy 95%:
-
-$$\varepsilon \approx \frac{0{,}98}{\sqrt{n}}$$
-
-|       $n$ | $\varepsilon$ |
-| --------: | ------------: |
-|       100 |         ±9,8% |
-|       400 |         ±4,9% |
-| **1.000** |     **±3,1%** |
-|     1.500 |         ±2,5% |
-|     4.000 |         ±1,5% |
-
-⭐ **Đây là lý do con số 1.000 xuất hiện ở mọi cuộc thăm dò**: đó là điểm mà sai số xuống ~3%,
-đủ dùng, và tăng thêm thì chi phí tăng nhanh hơn nhiều so với lợi ích (luật căn bậc hai).
-
-⚠️ Và chú ý: sai số này **không phụ thuộc dân số** (miễn là $N \gg n$). Khảo sát 1.000 người cho
-sai số ±3% dù dân số là 300.000 hay 100 triệu. Điều này rất phản trực giác nhưng đúng — xem lại
-thừa số hiệu chỉnh ở bài 10 mục 5.
+> [!example] Góc QTKD — vì sao thăm dò dư luận luôn ghi "±3%"
+>
+> Với $f$ gần 0,5 (trường hợp xấu nhất, $f(1-f)$ đạt max) và độ tin cậy 95%:
+>
+> $$\varepsilon \approx \frac{0{,}98}{\sqrt{n}}$$
+>
+> |       $n$ | $\varepsilon$ |
+> | --------: | ------------: |
+> |       100 |         ±9,8% |
+> |       400 |         ±4,9% |
+> | **1.000** |     **±3,1%** |
+> |     1.500 |         ±2,5% |
+> |     4.000 |         ±1,5% |
+>
+> ⭐ **Đây là lý do con số 1.000 xuất hiện ở mọi cuộc thăm dò**: đó là điểm mà sai số xuống ~3%,
+> đủ dùng, và tăng thêm thì chi phí tăng nhanh hơn nhiều so với lợi ích (luật căn bậc hai).
+>
+> ⚠️ Và chú ý: sai số này **không phụ thuộc dân số** (miễn là $N \gg n$). Khảo sát 1.000 người cho
+> sai số ±3% dù dân số là 300.000 hay 100 triệu. Điều này rất phản trực giác nhưng đúng — xem lại
+> thừa số hiệu chỉnh ở bài 10 mục 5.
 
 ---
 
@@ -585,7 +607,7 @@ $$\left(\frac{\sum(x_i - a_0)^2}{\chi^2_{n;\,1-\alpha/2}};\ \
 $$\boxed{\left(\frac{(n-1)s^2}{\chi^2_{n-1;\,1-\alpha/2}};\ \
 \frac{(n-1)s^2}{\chi^2_{n-1;\,\alpha/2}}\right)}$$
 
-⚠️ **Hai điều khác hẳn ba bài toán trước:**
+> [!warning] Hai điều khác hẳn ba bài toán trước:
 
 1. **Khoảng KHÔNG đối xứng** quanh $s^2$ — vì phân phối $\chi^2$ lệch phải.
 2. **Phân vị lớn ở MẪU SỐ của cận DƯỚI.** Chia cho số lớn được số nhỏ. Đây là chỗ nhầm nhiều nhất —
@@ -593,12 +615,14 @@ $$\boxed{\left(\frac{(n-1)s^2}{\chi^2_{n-1;\,1-\alpha/2}};\ \
 
 ### Thí dụ 4.7 (tr. 152)
 
+> [!note]
 > Khối lượng sản phẩm tuân theo luật chuẩn. Mẫu 25 đơn vị:
 
 | Khối lượng  | 29,3 | 29,7 | 30,0 | 30,5 | 30,7 |
 | ----------- | ---: | ---: | ---: | ---: | ---: |
 | Số sản phẩm |    4 |    5 |    8 |    5 |    3 |
 
+> [!note]
 > Độ tin cậy 95%, tìm khoảng cho phương sai: a) biết $a = 30$; b) không biết $a$.
 
 *Giải.* $\overline{X} = \dfrac{750{,}3}{25} = 30{,}012$
@@ -618,23 +642,26 @@ $$\left(\frac{5{,}1264}{39{,}36};\ \frac{5{,}1264}{12{,}40}\right) = \mathbf{(0{
 
 Lấy căn được khoảng cho **độ lệch chuẩn**: $(0{,}361;\ 0{,}643)$.
 
-⚠️ **Nhận xét quan trọng:** khoảng cho $\sigma^2$ rộng gấp hơn **3 lần** (0,13 đến 0,41).
-Ước lượng phương sai **kém chính xác hơn nhiều** so với ước lượng kỳ vọng ở cùng cỡ mẫu — cần
-nhiều dữ liệu hơn hẳn để nói được điều gì chắc chắn về độ biến động.
+> [!warning] Nhận xét quan trọng:
+> khoảng cho $\sigma^2$ rộng gấp hơn **3 lần** (0,13 đến 0,41).
+> Ước lượng phương sai **kém chính xác hơn nhiều** so với ước lượng kỳ vọng ở cùng cỡ mẫu — cần
+> nhiều dữ liệu hơn hẳn để nói được điều gì chắc chắn về độ biến động.
 
-💼 Đây là lý do các phát biểu kiểu *"quy trình mới giảm được độ biến động"* rất khó chứng minh
-trong thực tế: cần cỡ mẫu lớn hơn nhiều so với chứng minh *"quy trình mới tăng được năng suất
-trung bình"*.
+> [!example]
+> Đây là lý do các phát biểu kiểu *"quy trình mới giảm được độ biến động"* rất khó chứng minh
+> trong thực tế: cần cỡ mẫu lớn hơn nhiều so với chứng minh *"quy trình mới tăng được năng suất
+> trung bình"*.
 
 ---
 
-## 9. 📚 95% nghĩa là gì và không nghĩa là gì
+## 9. 95% nghĩa là gì và không nghĩa là gì
 
 Giáo trình nêu đúng vấn đề ở tr. 146 nhưng chỉ trong một đoạn. Đây là phần khai triển —
 và là **hiểu lầm phổ biến nhất về thống kê**.
 
-### ❌ Cách hiểu SAI
+### Cách hiểu SAI
 
+> [!quote]
 > *"Xác suất để kỳ vọng thật nằm trong khoảng (25,04; 33,36) là 95%."*
 
 **Sai ở đâu?** Vì $a$ là **một hằng số** — cố định, không ngẫu nhiên (bài 10 mục 9: chữ Hy Lạp =
@@ -644,8 +671,9 @@ Xác suất là 0 hoặc 1, ta chỉ không biết là cái nào.
 Khoảng $(25{,}04;\ 33{,}36)$ cũng đã cố định — nó được tính từ dữ liệu cụ thể rồi.
 **Hai vật cố định không có xác suất nào giữa chúng.**
 
-### ✅ Cách hiểu ĐÚNG
+### Cách hiểu ĐÚNG
 
+> [!quote]
 > *"Nếu lặp lại quy trình này nhiều lần — mỗi lần lấy một mẫu mới và tính khoảng tin cậy 95% —
 > thì khoảng **95% số khoảng** sẽ chứa giá trị thật."*
 
@@ -670,21 +698,21 @@ khoảng 95 lần giá trị trung bình thật nằm trong khoảng đó."*
 Mô phỏng ở mục 10 kiểm điều này bằng số: lấy 1.000 mẫu, đếm được **946/1000 = 94,6%** khoảng
 chứa giá trị thật — sát 95%.
 
-### 💼 Hệ quả thực tế
-
-| Phát biểu                                                             | Đúng/Sai                                    |
-| --------------------------------------------------------------------- | ------------------------------------------- |
-| "95% khả năng doanh thu trung bình nằm trong (50,95; 59,53)"          | ❌ sai (về mặt chặt chẽ)                    |
-| "Quy trình này cho khoảng chứa giá trị thật trong 95% trường hợp"     | ✅ đúng                                     |
-| "Chúng tôi tin cậy 95% rằng doanh thu trung bình nằm trong khoảng đó" | ⚠️ thông dụng, chấp nhận được trong báo cáo |
-
-⚠️ **Trong thi cử thì phải phát biểu đúng.** Trong báo cáo kinh doanh, cách nói thứ ba được chấp
-nhận rộng rãi — nhưng nên nhớ nó là cách nói tắt.
-
-📚 Nếu bạn thật sự muốn nói *"xác suất để $a$ nằm trong khoảng này là 95%"* thì cần **thống kê
-Bayes** (dựa trên công thức bài 4), nơi tham số **được coi là** biến ngẫu nhiên. Khoảng tương ứng
-gọi là **khoảng tin (credible interval)**, khác với **khoảng tin cậy (confidence interval)** ở đây.
-Giáo trình chỉ dạy trường phái tần suất.
+> [!example] Hệ quả thực tế
+>
+> | Phát biểu                                                             | Đúng/Sai                                    |
+> | --------------------------------------------------------------------- | ------------------------------------------- |
+> | "95% khả năng doanh thu trung bình nằm trong (50,95; 59,53)"          | ❌ sai (về mặt chặt chẽ)                    |
+> | "Quy trình này cho khoảng chứa giá trị thật trong 95% trường hợp"     | ✅ đúng                                     |
+> | "Chúng tôi tin cậy 95% rằng doanh thu trung bình nằm trong khoảng đó" | ⚠️ thông dụng, chấp nhận được trong báo cáo |
+>
+> ⚠️ **Trong thi cử thì phải phát biểu đúng.** Trong báo cáo kinh doanh, cách nói thứ ba được chấp
+> nhận rộng rãi — nhưng nên nhớ nó là cách nói tắt.
+>
+> 📚 Nếu bạn thật sự muốn nói *"xác suất để $a$ nằm trong khoảng này là 95%"* thì cần **thống kê
+> Bayes** (dựa trên công thức bài 4), nơi tham số **được coi là** biến ngẫu nhiên. Khoảng tương ứng
+> gọi là **khoảng tin (credible interval)**, khác với **khoảng tin cậy (confidence interval)** ở đây.
+> Giáo trình chỉ dạy trường phái tần suất.
 
 ### Ba điều khác cần nhớ
 
@@ -704,6 +732,7 @@ Giáo trình chỉ dạy trường phái tần suất.
 
 ## 10. Code minh hoạ
 
+> [!note]
 > ⚙️ **Chạy:** cần **Python 3.10+**. Chỉ dùng thư viện chuẩn — **không cần cài gói nào**.
 > Chạy từ thư mục gốc khoá học: `cd houedu/eg11-xacxuatthongke && python3 bai-11-khoang-tin-cay.py`.
 > Chạy khoảng 0,5 giây.
@@ -1101,7 +1130,7 @@ Sáu điểm đáng để ý:
 | Khoảng dự báo                    | Prediction interval                    | 📚 mục 9, khác khoảng tin cậy        |
 | Khoảng tin (Bayes)              | Credible interval                      | 📚 mục 9                             |
 
-⚠️ **Ba khoảng khác nhau, đừng nhầm:**
+> [!warning] Ba khoảng khác nhau, đừng nhầm:
 
 | Khoảng                     | Nói về                          | Độ rộng         |
 | -------------------------- | ------------------------------- | --------------- |

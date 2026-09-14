@@ -1,10 +1,13 @@
 # Bài 4 — Giá trị thặng dư: nguồn gốc
 
+> [!info] Về bài này
 > Bài học dựng từ **Chương 3, mục I** (tr. 85–103) của *Giáo trình Kinh tế chính trị Mác – Lênin* (hệ không chuyên),
 > Bộ Giáo dục và Đào tạo, **NXB Chính trị Quốc gia Sự thật, 2021** (chủ biên PGS.TS. Ngô Tuấn Nghĩa).
 > **Vòng 1 — trọng tâm thi ⭐.** Đây là **học thuyết giá trị thặng dư** — phát minh lớn nhất của C. Mác, "hòn đá tảng" của bộ *Tư bản*. Trả lời: **lợi nhuận từ đâu ra** khi mọi thứ trao đổi ngang giá? Chìa khóa là **hàng hóa sức lao động**. Bài này nhiều công thức và ví dụ số — làm kỹ.
 > **Ký hiệu:** **💼 Góc QTKD** = ví dụ cho ngành quản trị kinh doanh (ngoài sách, để dễ nhớ) · **📚 Mở rộng** = đào sâu ngoài sách · **⚠️** = chỗ dễ hiểu sai.
 > **Nên đọc trước:** [Bài 2](bai_02_hang_hoa_va_tien_te.md) (hàng hóa, tính hai mặt của lao động).
+>
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
 
 ---
 
@@ -41,20 +44,23 @@ Lưu thông TƯ BẢN:              T – H – T'
      với  T' = T + Δt   (Δt > 0)
 ```
 
+> [!quote] tr. 85
 > **Δt (số tiền trội ra) = giá trị thặng dư.** Tiền ứng ra để thu giá trị thặng dư trở thành **tư bản**. Vậy **tư bản là giá trị mang lại giá trị thặng dư.** (tr. 85)
 
-⚠️ **Mâu thuẫn của công thức chung:** giá trị thặng dư *"trội ra"* từ đâu? **Lưu thông (mua – bán) thuần túy không tạo ra giá trị mới** — mua rẻ bán đắt chỉ là **chuyển giá trị** từ túi người này sang túi người khác; xét trên toàn xã hội, ai cũng vừa mua vừa bán nên tổng bằng không (tr. 85). Nhưng nếu **không** qua lưu thông thì cũng không có thặng dư. Vậy giá trị thặng dư **vừa sinh trong lưu thông, vừa không sinh trong lưu thông**.
+> [!warning] Mâu thuẫn của công thức chung:
+> giá trị thặng dư *"trội ra"* từ đâu? **Lưu thông (mua – bán) thuần túy không tạo ra giá trị mới** — mua rẻ bán đắt chỉ là **chuyển giá trị** từ túi người này sang túi người khác; xét trên toàn xã hội, ai cũng vừa mua vừa bán nên tổng bằng không (tr. 85). Nhưng nếu **không** qua lưu thông thì cũng không có thặng dư. Vậy giá trị thặng dư **vừa sinh trong lưu thông, vừa không sinh trong lưu thông**.
 
 **Lời giải:** nhà tư bản mua được một **hàng hóa đặc biệt** mà khi *sử dụng* nó thì **tạo ra giá trị lớn hơn giá trị bản thân nó** — đó là **hàng hóa sức lao động** (tr. 86).
 
-### 💼 Góc QTKD — "mua rẻ bán đắt" không phải là nguồn gốc của lợi nhuận bền vững
-
-- **Lưu thông không tạo giá trị mới** = đầu cơ, ăn chênh lệch chỉ là **trò chơi tổng-bằng-không** ở cấp xã hội. Lợi nhuận **bền vững** của một nền kinh tế phải sinh ra trong **sản xuất** (tạo giá trị mới), không phải trong khâu mua đi bán lại — nối lại "giá trị vs của cải" ở [bài 2](bai_02_hang_hoa_va_tien_te.md).
+> [!example] Góc QTKD — "mua rẻ bán đắt" không phải là nguồn gốc của lợi nhuận bền vững
+>
+> - **Lưu thông không tạo giá trị mới** = đầu cơ, ăn chênh lệch chỉ là **trò chơi tổng-bằng-không** ở cấp xã hội. Lợi nhuận **bền vững** của một nền kinh tế phải sinh ra trong **sản xuất** (tạo giá trị mới), không phải trong khâu mua đi bán lại — nối lại "giá trị vs của cải" ở [bài 2](bai_02_hang_hoa_va_tien_te.md).
 
 ---
 
 ## 2. Hàng hóa sức lao động — chìa khóa
 
+> [!quote] C. Mác, *Toàn tập*, t.23, tr.251; dẫn tr. 86
 > **Sức lao động** là **toàn bộ những năng lực thể chất và tinh thần** tồn tại trong cơ thể một con người đang sống, được đem ra vận dụng khi sản xuất ra một giá trị sử dụng (C. Mác, *Toàn tập*, t.23, tr.251; dẫn tr. 86).
 
 **Hai điều kiện** để sức lao động trở thành hàng hóa (tr. 86):
@@ -69,12 +75,13 @@ Lưu thông TƯ BẢN:              T – H – T'
 | **Giá trị** | = giá trị các **tư liệu sinh hoạt** để tái sản xuất ra sức lao động. Gồm **ba bộ phận**: ① tư liệu sinh hoạt (vật chất + tinh thần) nuôi bản thân; ② **phí đào tạo**; ③ tư liệu sinh hoạt **nuôi con** người lao động. ⭐ Mang **yếu tố tinh thần và lịch sử** |
 | **Giá trị sử dụng** | ⭐ **đặc biệt**: khi sử dụng, nó **tạo ra giá trị mới LỚN HƠN giá trị bản thân nó** — không hàng hóa thường nào có |
 
-⚠️ **Chính thuộc tính giá trị sử dụng đặc biệt này là "chìa khóa"** giải mã nguồn gốc giá trị thặng dư: nhà tư bản trả đúng **giá trị** sức lao động (tuân thủ trao đổi ngang giá), nhưng khi *dùng* nó lại thu về **nhiều hơn** (tr. 87).
+> [!warning] Chính thuộc tính giá trị sử dụng đặc biệt này là "chìa khóa"
+> giải mã nguồn gốc giá trị thặng dư: nhà tư bản trả đúng **giá trị** sức lao động (tuân thủ trao đổi ngang giá), nhưng khi *dùng* nó lại thu về **nhiều hơn** (tr. 87).
 
-### 💼 Góc QTKD — con người là tài sản duy nhất "sinh giá trị mới"
-
-- **Sức lao động là hàng hóa duy nhất tạo giá trị lớn hơn bản thân** = đây là cơ sở lý luận sâu nhất cho câu "**con người là tài sản quý nhất của doanh nghiệp**": máy móc chỉ *chuyển* giá trị của nó vào sản phẩm; chỉ **lao động sống** mới *tạo thêm* giá trị mới. Đầu tư vào con người (đào tạo, giữ người) là đầu tư vào nguồn sinh giá trị.
-- **Giá trị sức lao động gồm cả "phí đào tạo" và "nuôi con"** = cơ sở để hiểu **mức lương đủ sống (living wage)** phải bao gồm tái tạo sức lao động cả thế hệ sau, không chỉ "đủ ăn hôm nay".
+> [!example] Góc QTKD — con người là tài sản duy nhất "sinh giá trị mới"
+>
+> - **Sức lao động là hàng hóa duy nhất tạo giá trị lớn hơn bản thân** = đây là cơ sở lý luận sâu nhất cho câu "**con người là tài sản quý nhất của doanh nghiệp**": máy móc chỉ *chuyển* giá trị của nó vào sản phẩm; chỉ **lao động sống** mới *tạo thêm* giá trị mới. Đầu tư vào con người (đào tạo, giữ người) là đầu tư vào nguồn sinh giá trị.
+> - **Giá trị sức lao động gồm cả "phí đào tạo" và "nuôi con"** = cơ sở để hiểu **mức lương đủ sống (living wage)** phải bao gồm tái tạo sức lao động cả thế hệ sau, không chỉ "đủ ăn hôm nay".
 
 ---
 
@@ -116,14 +123,16 @@ Lưu thông TƯ BẢN:              T – H – T'
 | Giá trị mới do lao động (2 × 15) | — | 30 |
 | **Tổng** | **121 USD** | **136 USD** |
 
+> [!quote] tr. 90
 > **Giá trị thặng dư `m` = 136 − 121 = 15 USD** — phần giá trị **dôi ra** ngoài giá trị sức lao động, là **lao động không công** của công nhân mà nhà tư bản nắm lấy do địa vị chủ sở hữu. (tr. 90)
 
-⚠️ **Nhà tư bản KHÔNG vi phạm trao đổi ngang giá**: đã trả đủ 15 USD = đúng giá trị sức lao động. Thặng dư sinh ra vì sức lao động **tạo** 30 USD trong khi **giá trị của nó** chỉ 15 USD.
+> [!warning] Nhà tư bản KHÔNG vi phạm trao đổi ngang giá
+> đã trả đủ 15 USD = đúng giá trị sức lao động. Thặng dư sinh ra vì sức lao động **tạo** 30 USD trong khi **giá trị của nó** chỉ 15 USD.
 
-### 💼 Góc QTKD — cấu trúc này chính là P&L của một xưởng sản xuất
-
-- Ví dụ kéo sợi đọc đúng như một **báo cáo lãi/lỗ (P&L)**: doanh thu 136 = nguyên vật liệu (100) + khấu hao (6) + chi phí nhân công (15) + **lợi nhuận gộp (15)**. Điều Mác nhấn: phần "lợi nhuận" đó **về bản chất** là giá trị do lao động sống tạo ra ngoài phần được trả công.
-- **Thời gian tất yếu vs thặng dư** = tỷ lệ giữa phần "nuôi người lao động" và phần "tạo lợi nhuận cho chủ" — chính là điểm căng của **quan hệ lao động** (thương lượng lương, giờ làm).
+> [!example] Góc QTKD — cấu trúc này chính là P&L của một xưởng sản xuất
+>
+> - Ví dụ kéo sợi đọc đúng như một **báo cáo lãi/lỗ (P&L)**: doanh thu 136 = nguyên vật liệu (100) + khấu hao (6) + chi phí nhân công (15) + **lợi nhuận gộp (15)**. Điều Mác nhấn: phần "lợi nhuận" đó **về bản chất** là giá trị do lao động sống tạo ra ngoài phần được trả công.
+> - **Thời gian tất yếu vs thặng dư** = tỷ lệ giữa phần "nuôi người lao động" và phần "tạo lợi nhuận cho chủ" — chính là điểm căng của **quan hệ lao động** (thương lượng lương, giờ làm).
 
 ---
 
@@ -137,17 +146,20 @@ Lưu thông TƯ BẢN:              T – H – T'
 | Trong sản xuất | giá trị **chuyển nguyên vẹn**, **không đổi** vào sản phẩm | **biến đổi**: tạo ra giá trị mới **lớn hơn** bản thân nó |
 | Có tạo `m` không? | **KHÔNG** (chỉ là điều kiện cần) | **CÓ** — nguồn duy nhất của `m` |
 
+> [!quote] tr. 93
 > **Công thức giá trị hàng hóa:** `G = c + (v + m)` — trong đó `(v + m)` là **giá trị mới** do lao động sống tạo ra, `c` là **lao động quá khứ** (kết tinh trong máy móc, nguyên liệu) chuyển sang. (tr. 93)
 
-⚠️ Máy móc/người máy dù hiện đại đến đâu **cũng chỉ là `c`** — không sinh `m`; nhưng công nghệ tiên tiến **rất cần** vì làm **tăng năng suất** (mục 7) (tr. 92).
+> [!warning]
+> Máy móc/người máy dù hiện đại đến đâu **cũng chỉ là `c`** — không sinh `m`; nhưng công nghệ tiên tiến **rất cần** vì làm **tăng năng suất** (mục 7) (tr. 92).
 
 **Tiền công** (tr. 94):
+> [!quote]
 > **Tiền công là giá cả của hàng hóa sức lao động** — thực chất là bộ phận **giá trị mới do chính người lao động tạo ra**, nhưng biểu hiện ra như "chủ trả công cho mình", gây **ngộ nhận**.
 
-### 💼 Góc QTKD — vì sao "tự động hóa hết" không xóa được bài toán lao động
-
-- **Máy móc là `c`, không sinh `m`** = một doanh nghiệp thay hết người bằng máy thì máy chỉ **chuyển** giá trị của nó vào sản phẩm; giá trị mới (và do đó lợi nhuận ở cấp xã hội) vẫn gắn với **lao động sống**. Tự động hóa tăng **năng suất** (tốt) nhưng làm thay đổi **cơ cấu c/v** — dẫn tới xu hướng tỷ suất lợi nhuận giảm (học ở [bài 5](bai_05_tich_luy_va_loi_nhuan_dia_to.md)).
-- **`G = c + v + m`** = khung phân tích **giá thành**: chi phí nguyên vật liệu + khấu hao (c) + nhân công (v) + lợi nhuận (m). Quản trị chi phí là quản trị từng cấu phần này.
+> [!example] Góc QTKD — vì sao "tự động hóa hết" không xóa được bài toán lao động
+>
+> - **Máy móc là `c`, không sinh `m`** = một doanh nghiệp thay hết người bằng máy thì máy chỉ **chuyển** giá trị của nó vào sản phẩm; giá trị mới (và do đó lợi nhuận ở cấp xã hội) vẫn gắn với **lao động sống**. Tự động hóa tăng **năng suất** (tốt) nhưng làm thay đổi **cơ cấu c/v** — dẫn tới xu hướng tỷ suất lợi nhuận giảm (học ở [bài 5](bai_05_tich_luy_va_loi_nhuan_dia_to.md)).
+> - **`G = c + v + m`** = khung phân tích **giá thành**: chi phí nguyên vật liệu + khấu hao (c) + nhân công (v) + lợi nhuận (m). Quản trị chi phí là quản trị từng cấu phần này.
 
 ---
 
@@ -167,14 +179,15 @@ $$M = m' \times V$$
 
 (với `V` = tổng tư bản khả biến). Muốn `M` lớn: tăng `m′` (trình độ khai thác) và/hoặc tăng `V` (quy mô thuê lao động).
 
-### 💼 Góc QTKD — `m′` và `M` như hai chỉ số quản trị
-
-- **`m′` (tỷ suất) ~ biên lợi nhuận trên mỗi lao động**; **`M` (khối lượng) ~ tổng lợi nhuận**. Doanh nghiệp nhỏ có `m′` cao nhưng `M` nhỏ; tập đoàn có `m′` vừa phải nhưng `V` khổng lồ → `M` rất lớn. Đây là logic **"biên mỏng nhưng quy mô lớn"** (Walmart, Amazon).
+> [!example] Góc QTKD — `m′` và `M` như hai chỉ số quản trị
+>
+> - **`m′` (tỷ suất) ~ biên lợi nhuận trên mỗi lao động**; **`M` (khối lượng) ~ tổng lợi nhuận**. Doanh nghiệp nhỏ có `m′` cao nhưng `M` nhỏ; tập đoàn có `m′` vừa phải nhưng `V` khổng lồ → `M` rất lớn. Đây là logic **"biên mỏng nhưng quy mô lớn"** (Walmart, Amazon).
 
 ---
 
 ## 6. Bản chất của giá trị thặng dư
 
+> [!quote] tr. 98
 > **Giá trị thặng dư là kết quả của hao phí sức lao động**, sinh ra trong **quan hệ xã hội** giữa người mua và người bán sức lao động. Nếu giả định xã hội chỉ có hai giai cấp, thì `m` mang **bản chất kinh tế – xã hội là quan hệ giai cấp**: giai cấp tư sản làm giàu dựa trên **thuê mướn lao động** của giai cấp công nhân. (tr. 98)
 
 ⭐ Điểm **khoa học** của Mác: chỉ ra **bóc lột** ngay cả khi nhà tư bản **không vi phạm** quy luật trao đổi ngang giá — vì giá trị thặng dư sinh từ **lao động sống**, không phải từ máy móc hay từ "mua rẻ bán đắt" (tr. 98–99). Ngày nay quan hệ này vẫn diễn ra nhưng dưới hình thức **tinh vi, văn minh hơn** thế kỷ XIX.
@@ -187,6 +200,7 @@ Muốn nhiều `m`, nhà tư bản dùng **hai phương pháp** (tr. 101–103):
 
 ### a) Giá trị thặng dư **tuyệt đối** — kéo dài ngày lao động
 
+> [!note]
 > Thu được do **kéo dài ngày lao động** vượt quá thời gian tất yếu, trong khi năng suất, giá trị sức lao động, thời gian tất yếu **không đổi**.
 
 ```
@@ -195,10 +209,12 @@ KÉO DÀI thêm 2h → ngày 10h = 4h tất yếu + 6h thặng dư
                   →  m′ = 6/4 × 100% = 150%
 ```
 
-⚠️ **Giới hạn:** ngày lao động không thể dài quá **giới hạn sinh lý** (ăn, ngủ, nghỉ); công nhân **đấu tranh** đòi rút ngắn giờ làm.
+> [!warning] Giới hạn:
+> ngày lao động không thể dài quá **giới hạn sinh lý** (ăn, ngủ, nghỉ); công nhân **đấu tranh** đòi rút ngắn giờ làm.
 
 ### b) Giá trị thặng dư **tương đối** — rút ngắn thời gian tất yếu
 
+> [!note]
 > Thu được nhờ **rút ngắn thời gian lao động tất yếu** (bằng **tăng năng suất** ở ngành làm ra tư liệu sinh hoạt → hạ giá trị sức lao động), trong khi ngày lao động **không đổi** (thậm chí rút ngắn).
 
 ```
@@ -207,12 +223,13 @@ NĂNG SUẤT ↑ → tất yếu còn 2h → thặng dư 6h  →  m′ = 6/2 × 
 Ngày rút còn 6h, tất yếu còn 1h → thặng dư 5h → m′ = 5/1 × 100% = 500%
 ```
 
-📚 **Giá trị thặng dư siêu ngạch** (tr. 102–103): xí nghiệp nào **đi trước** (năng suất cá biệt cao hơn xã hội → giá trị cá biệt < giá trị xã hội) thu thêm phần **trội hơn** = **thặng dư siêu ngạch**. Với **từng** xí nghiệp nó **tạm thời** (đối thủ đuổi kịp là mất); nhưng với **toàn xã hội** nó **thường xuyên** (luôn có kẻ dẫn đầu). Đây là **động lực mạnh nhất** thúc đẩy cải tiến kỹ thuật → là **hình thái biến tướng** của giá trị thặng dư tương đối.
+> [!note] Giá trị thặng dư siêu ngạch
+> (tr. 102–103): xí nghiệp nào **đi trước** (năng suất cá biệt cao hơn xã hội → giá trị cá biệt < giá trị xã hội) thu thêm phần **trội hơn** = **thặng dư siêu ngạch**. Với **từng** xí nghiệp nó **tạm thời** (đối thủ đuổi kịp là mất); nhưng với **toàn xã hội** nó **thường xuyên** (luôn có kẻ dẫn đầu). Đây là **động lực mạnh nhất** thúc đẩy cải tiến kỹ thuật → là **hình thái biến tướng** của giá trị thặng dư tương đối.
 
-### 💼 Góc QTKD — "cày thêm giờ" vs "tăng năng suất", và lợi thế người đi trước
-
-- **Tuyệt đối (kéo dài giờ) có trần**; **tương đối (tăng năng suất) mới bền** — đúng bài học quản trị: tăng trưởng bằng **vắt giờ** sớm chạm giới hạn con người; tăng trưởng bằng **công nghệ/quy trình** mới không giới hạn. Nối lại "năng suất vs cường độ" ở [bài 2](bai_02_hang_hoa_va_tien_te.md).
-- **Thặng dư siêu ngạch = lợi nhuận của người đổi mới đầu tiên** (first-mover / innovation premium): ai đưa ra công nghệ/mô hình mới trước thì hưởng lợi nhuận trội — **tạm thời** cho tới khi đối thủ bắt kịp. Chính "phần thưởng tạm thời" này là **động cơ của đổi mới sáng tạo** cả nền kinh tế.
+> [!example] Góc QTKD — "cày thêm giờ" vs "tăng năng suất", và lợi thế người đi trước
+>
+> - **Tuyệt đối (kéo dài giờ) có trần**; **tương đối (tăng năng suất) mới bền** — đúng bài học quản trị: tăng trưởng bằng **vắt giờ** sớm chạm giới hạn con người; tăng trưởng bằng **công nghệ/quy trình** mới không giới hạn. Nối lại "năng suất vs cường độ" ở [bài 2](bai_02_hang_hoa_va_tien_te.md).
+> - **Thặng dư siêu ngạch = lợi nhuận của người đổi mới đầu tiên** (first-mover / innovation premium): ai đưa ra công nghệ/mô hình mới trước thì hưởng lợi nhuận trội — **tạm thời** cho tới khi đối thủ bắt kịp. Chính "phần thưởng tạm thời" này là **động cơ của đổi mới sáng tạo** cả nền kinh tế.
 
 ---
 
@@ -226,7 +243,8 @@ tư bản       tư bản          tư bản
 TIỀN TỆ  →   SẢN XUẤT   →    HÀNG HÓA   → (về TIỀN TỆ + m)
 ```
 
-⚠️ Mô hình này cho thấy `m` **sinh trong SẢN XUẤT** (không phải "mua rẻ bán đắt"); nhưng phải **bán được H'** thì mới **thực hiện** được `m` dưới hình thái tiền (tr. 95).
+> [!warning]
+> Mô hình này cho thấy `m` **sinh trong SẢN XUẤT** (không phải "mua rẻ bán đắt"); nhưng phải **bán được H'** thì mới **thực hiện** được `m` dưới hình thái tiền (tr. 95).
 
 **Chu chuyển** — tuần hoàn xét như quá trình **lặp lại định kỳ**; đo bằng **tốc độ chu chuyển** (tr. 96–97):
 
@@ -239,12 +257,13 @@ $$n = \dfrac{CH}{ch}$$
 | Dạng | tư liệu **lao động** (máy, nhà xưởng) | **sức lao động** + nguyên, nhiên, vật liệu |
 | Chuyển giá trị | **dần từng phần** theo hao mòn | **một lần, toàn phần** mỗi chu kỳ |
 
-📚 **Hao mòn tư bản cố định**: **hữu hình** (mất giá trị do dùng + tự nhiên) và **vô hình** (mất giá do năng suất tăng / xuất hiện thế hệ máy mới tốt hơn — dù máy còn tốt) (tr. 97).
+> [!note] Hao mòn tư bản cố định
+> **hữu hình** (mất giá trị do dùng + tự nhiên) và **vô hình** (mất giá do năng suất tăng / xuất hiện thế hệ máy mới tốt hơn — dù máy còn tốt) (tr. 97).
 
-### 💼 Góc QTKD — vòng quay vốn và khấu hao
-
-- **Đẩy nhanh tốc độ chu chuyển `n`** = tăng **vòng quay vốn (capital turnover)**: cùng một số vốn, quay nhanh hơn → thu nhiều `m` hơn/năm. Đây là lý do quản trị **hàng tồn kho, công nợ, chu kỳ tiền mặt (cash conversion cycle)** cực kỳ quan trọng.
-- **Hao mòn vô hình** = rủi ro **công nghệ lỗi thời**: máy còn chạy tốt vẫn "mất giá" khi có thế hệ mới — bài học khi quyết định đầu tư thiết bị/khấu hao.
+> [!example] Góc QTKD — vòng quay vốn và khấu hao
+>
+> - **Đẩy nhanh tốc độ chu chuyển `n`** = tăng **vòng quay vốn (capital turnover)**: cùng một số vốn, quay nhanh hơn → thu nhiều `m` hơn/năm. Đây là lý do quản trị **hàng tồn kho, công nợ, chu kỳ tiền mặt (cash conversion cycle)** cực kỳ quan trọng.
+> - **Hao mòn vô hình** = rủi ro **công nghệ lỗi thời**: máy còn chạy tốt vẫn "mất giá" khi có thế hệ mới — bài học khi quyết định đầu tư thiết bị/khấu hao.
 
 ---
 

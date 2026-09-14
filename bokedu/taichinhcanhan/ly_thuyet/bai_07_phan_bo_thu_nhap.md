@@ -1,21 +1,20 @@
 # Bài 7 — Phân bổ thu nhập: 6 jars, 50/30/20, 70/30, tỷ lệ tiết kiệm
 
+> [!info] Về bài này
 > Bài học dựa trên **C2 tr. 18–28** — Unit 2, Lesson 2 đến Lesson 5 của *Tài chính cá nhân 101,
 > Class 2*.
->
 > **Cần đọc trước:** [Bài 6](bai_06_thue_thu_nhap_ca_nhan.md) — mọi tỷ lệ phần trăm trong bài này
 > chia trên **tiền thật về tài khoản**, không phải con số trên hợp đồng lao động. Chia nhầm mẫu số
 > thì cả hệ thống lệch ngay tháng đầu.
->
 > **Nên đọc trước:** [Bài 3](bai_03_ghi_chep_chi_tieu.md) — bài này chạy thử các công thức trên
 > đúng bảng chi tiêu 12 tháng của bài 3. Không có bảng đó thì không kiểm được công thức nào cả.
->
 > **Ký hiệu:** **[bổ sung]** là kiến thức ngoài sách · **[đính chính]** là chỗ sách sai ·
 > **[2026]** là mục đối chiếu với hiện tại.
->
 > **Code:** [`thuc_hanh/bai-07-phan-bo-thu-nhap.py`](../thuc_hanh/bai-07-phan-bo-thu-nhap.py)
 > — mọi bảng số trong bài do tệp này tính. Ba công thức khai báo thành dữ liệu ở đầu tệp, muốn
 > đổi tỷ lệ thì sửa đúng chỗ đó.
+>
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
 
 ---
 
@@ -46,6 +45,7 @@
 
 C2 tr. 18–25 đưa ba cách chia thu nhập, mỗi cách một lesson riêng, rồi kết ở tr. 25:
 
+> [!quote]
 > *"Đến đây thì bạn cũng đã có trong tay 3 bộ công cụ. Chọn lấy 1 và thực hiện."*
 
 Chọn theo tiêu chí gì thì sách không nói. Ba công thức được trình bày nối tiếp nhau, không có một
@@ -68,6 +68,7 @@ Trước hết, chép lại ba công thức cho đúng.
 
 T. Harv Eker, sách *Secrets of the Millionaire Mind*. Quy tắc vận hành, C2 tr. 18:
 
+> [!quote]
 > *"Khi bạn nhận được bất kỳ một khoản tiền nào, có thể là lương, tiền lãi đầu tư chứng khoán, bán
 > đồ ... Việc đầu tiên là chia số tiền nhận được thành 6 phần"*
 
@@ -100,6 +101,7 @@ thu nhập, lúc này bạn cần ngay lập tức tăng thu, hoặc mạnh tay 
 
 **LTSS là lọ duy nhất "ở lại".** tr. 21 nói rất rõ, và đây là câu quan trọng nhất của cả Unit:
 
+> [!quote]
 > *"Nếu bạn để ý, cả 5 "chiếc lọ" ở trên đều là chi tiêu. Ngay cả FFA, dù đầu tư với kỳ vọng tiền
 > sinh ra tiền, bạn vẫn chịu rủi ro mất tiền, có thể là một phần tiền nhưng có khi là mất trắng.
 > Chỉ có LTSS là ở lại, là dành dụm."*
@@ -178,6 +180,7 @@ C2 tr. 23–24 nối 50/30/20 với 6 jars bằng ba câu, và cả ba đều l�
 
 Câu của sách về Wants (tr. 24) không kèm điều chỉnh nào:
 
+> [!quote]
 > *"Tương ứng với "6 jars", đó là các khoản cộng gộp của PLAY+EDU+GIVE."*
 
 PLAY 10 + EDU 10 + GIVE 5 = **25**, không phải 30.
@@ -223,6 +226,7 @@ lần duy nhất sách so trực tiếp hai công thức, và nó đúng.
 Ba công thức có 6, 3 và 4 khoản mục, tên khác nhau hoàn toàn. Muốn so thì phải quy về cùng một câu
 hỏi. Câu hỏi ấy là:
 
+> [!note]
 > **Sau khi chia xong, đồng tiền này còn thuộc về bạn không?**
 
 Phân loại theo đúng câu đó, và dùng chính phân loại của sách:
@@ -426,6 +430,7 @@ tỷ lệ tiết kiệm = tiết kiệm / thu nhập
 
 Lý do biến đổi này đáng giá, theo đúng lời sách:
 
+> [!quote]
 > *"chúng ta không thể kiểm soát số tiền tiết kiệm, nhưng có thể kiểm soát được chi tiêu và thu
 > nhập để từ đó tác động vào kết quả."*
 
@@ -446,6 +451,7 @@ tốt và khiêm tốn. Một điểm phần trăm mỗi năm thì gần như kh
 
 C2 tr. 28 kết cả Unit bằng một mẹo:
 
+> [!quote]
 > *"Một mẹo đơn giản là con số này cần lớn hơn hoặc bằng số tuổi của bạn. Nếu năm nay bạn 25, tỷ lệ
 > tiết kiệm hàng tháng nên từ 25% trở lên."*
 

@@ -1,14 +1,16 @@
 # Bài 10 — Lý thuyết lựa chọn của người tiêu dùng
 
+> [!info] Về bài này
 > Bài học dựng từ **Chương 21 — Lý thuyết về sự lựa chọn của người tiêu dùng** (tr. 495–524)
 > của *N. Gregory Mankiw — **Kinh tế học vi mô***, bản dịch của Khoa Kinh tế, **ĐH Kinh tế TP.HCM** (Cengage Learning Asia).
-> 🎯 **Vòng 1.** Chín bài trước đều dùng đường cầu dốc xuống như một **dữ kiện cho sẵn**.
+>
+> **Vòng 1.** Chín bài trước đều dùng đường cầu dốc xuống như một **dữ kiện cho sẵn**.
 > Bài này mở nắp ra xem bên dưới có gì — và phát hiện rằng đường cầu không phải giả định,
 > nó **rơi ra** từ một bài toán tối ưu hoá có ràng buộc.
-> 💼 **Góc QTKD** — ví dụ thêm cho ngành quản trị kinh doanh, **không có trong sách**.
-> 📚 **Mở rộng** — thứ sách nêu kết quả mà không chứng minh, hoặc vẽ mà không nói ra giả định.
-> ⚠️ — chỗ dễ hiểu sai, hoặc chỗ mô hình trong bài **không** khớp hình vẽ của sách.
-> 📌 **Cần đọc trước:** [Bài 2](bai_02_cung_va_cau.md) và
+>
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
+>
+> **Cần đọc trước:** [Bài 2](bai_02_cung_va_cau.md) và
 > [Bài 3](bai_03_do_co_gian_va_dinh_gia.md) — bài này chứng minh hai thứ mà hai bài đó
 > chỉ nêu ra: **vì sao cầu dốc xuống** và **độ co giãn đến từ đâu**.
 
@@ -24,18 +26,18 @@
 - [4. Bốn tính chất của đường bàng quan](#4-bốn-tính-chất-của-đường-bàng-quan)
 - [5. Hai trường hợp đặc biệt](#5-hai-trường-hợp-đặc-biệt)
 - [6. Điểm tối ưu — nơi hai đường tiếp tuyến nhau](#6-điểm-tối-ưu--nơi-hai-đường-tiếp-tuyến-nhau)
-- [7. 📚 Độ thoả dụng — cách nói thứ hai cho cùng một điều](#7--độ-thoả-dụng--cách-nói-thứ-hai-cho-cùng-một-điều)
+- [7. Độ thoả dụng — cách nói thứ hai cho cùng một điều](#7-độ-thoả-dụng--cách-nói-thứ-hai-cho-cùng-một-điều)
 - [8. Thu nhập tăng — hàng hoá thông thường và hàng hoá thứ cấp](#8-thu-nhập-tăng--hàng-hoá-thông-thường-và-hàng-hoá-thứ-cấp)
 - [9. Giá đổi — tách tác động thu nhập và tác động thay thế](#9-giá-đổi--tách-tác-động-thu-nhập-và-tác-động-thay-thế)
 - [10. Dựng đường cầu từ các điểm tối ưu](#10-dựng-đường-cầu-từ-các-điểm-tối-ưu)
-- [11. 📚 Độ cong của đường bàng quan quyết định mọi thứ còn lại](#11--độ-cong-của-đường-bàng-quan-quyết-định-mọi-thứ-còn-lại)
+- [11. Độ cong của đường bàng quan quyết định mọi thứ còn lại](#11-độ-cong-của-đường-bàng-quan-quyết-định-mọi-thứ-còn-lại)
 - [12. Có phải mọi đường cầu đều dốc xuống?](#12-có-phải-mọi-đường-cầu-đều-dốc-xuống)
 - [13. Nghiên cứu tình huống — cuộc tìm kiếm hàng hoá Giffen](#13-nghiên-cứu-tình-huống--cuộc-tìm-kiếm-hàng-hoá-giffen)
 - [14. Lương tăng thì làm việc nhiều hơn hay ít hơn?](#14-lương-tăng-thì-làm-việc-nhiều-hơn-hay-ít-hơn)
 - [15. Nghiên cứu tình huống — người trúng số và phán đoán của Carnegie](#15-nghiên-cứu-tình-huống--người-trúng-số-và-phán-đoán-của-carnegie)
 - [16. Lãi suất tăng thì tiết kiệm nhiều hơn hay ít hơn?](#16-lãi-suất-tăng-thì-tiết-kiệm-nhiều-hơn-hay-ít-hơn)
 - [17. Con người có thực sự nghĩ theo hướng này không?](#17-con-người-có-thực-sự-nghĩ-theo-hướng-này-không)
-- [18. 💼 Chia ngân sách marketing bằng đúng quy tắc của mục 6](#18--chia-ngân-sách-marketing-bằng-đúng-quy-tắc-của-mục-6)
+- [18. Chia ngân sách marketing bằng đúng quy tắc của mục 6](#18-chia-ngân-sách-marketing-bằng-đúng-quy-tắc-của-mục-6)
 - [19. Code minh hoạ](#19-code-minh-hoạ)
 - [20. Tự thử](#20-tự-thử)
 - [21. Từ điển thuật ngữ](#21-từ-điển-thuật-ngữ)
@@ -51,11 +53,13 @@
 
 Sách mở chương bằng một câu rất khiêm tốn (tr. 495):
 
+> [!quote]
 > *"Đến phần này của cuốn sách, chúng ta đã tổng kết những hành vi của người tiêu dùng với đường cầu…
 > Bây giờ chúng ta sẽ phân tích sâu hơn vào những quyết định ẩn sau đường cầu."*
 
 Và nói rõ chương này là **cặp đối xứng** của chương 14:
 
+> [!quote]
 > *"Lý thuyết sự lựa chọn của người tiêu dùng được giới thiệu trong chương này cung cấp một sự hiểu
 > biết toàn diện hơn về cầu, giống như lý thuyết về các công ty cạnh tranh ở Chương 14 cung cấp những
 > hiểu biết hoàn chỉnh hơn về cung."*
@@ -68,6 +72,7 @@ Và nói rõ chương này là **cặp đối xứng** của chương 14:
 
 Sách hứa trả lời **ba câu hỏi** (tr. 496), và thoạt nghe chúng chẳng liên quan gì tới nhau:
 
+> [!quote]
 > - *Có phải mọi đường cầu đều dốc xuống không?*
 > - *Mức lương ảnh hưởng đến cung lao động như thế nào?*
 > - *Lãi suất ảnh hưởng tiết kiệm của hộ gia đình như thế nào?*
@@ -76,7 +81,7 @@ Sách hứa trả lời **ba câu hỏi** (tr. 496), và thoạt nghe chúng ch�
 > thể dùng lý thuyết về sự lựa chọn của người tiêu dùng để trả lời từng câu một."*
 
 Ba câu trả lời nằm ở [mục 12](#12-có-phải-mọi-đường-cầu-đều-dốc-xuống), [mục 14](#14-lương-tăng-thì-làm-việc-nhiều-hơn-hay-ít-hơn)
-và [mục 16](#16-lãi-suất-tăng-thì-tiết-kiệm-nhiều-hơn-hay-ít-hơn) của bài này. Và [mục 11](#11--độ-cong-của-đường-bàng-quan-quyết-định-mọi-thứ-còn-lại)
+và [mục 16](#16-lãi-suất-tăng-thì-tiết-kiệm-nhiều-hơn-hay-ít-hơn) của bài này. Và [mục 11](#11-độ-cong-của-đường-bàng-quan-quyết-định-mọi-thứ-còn-lại)
 sẽ cho thấy **cả ba đều là cùng một câu hỏi**, hỏi ba lần bằng ba bộ từ vựng khác nhau — điều mà
 sách không nói ra.
 
@@ -86,11 +91,13 @@ sách không nói ra.
 
 Sách giữ mọi thứ ở mức nhỏ nhất có thể: **hai** hàng hoá, pizza và Pepsi (tr. 496).
 
+> [!quote]
 > *"Giả sử người tiêu dùng có mức thu nhập 1.000 đô la mỗi tháng và anh ta tiêu hết thu nhập của mình
 > vào pizza và Pepsi. Giá của một chiếc pizza là 10 đô la và giá của một chai Pepsi là 2 đô la."*
 
 Định nghĩa ở chân trang 497:
 
+> [!note]
 > **Ràng buộc về ngân sách** *(budget constraint)*: giới hạn về gói hàng hoá mà người tiêu dùng có thể
 > chi trả.
 
@@ -107,6 +114,7 @@ $1.000 ở mọi dòng — đó chính là ý nghĩa của chữ *ràng buộc*.
 
 Sách tính độ dốc theo hai cách và thu về cùng một con số (tr. 497):
 
+> [!quote]
 > *"Từ điểm A đến điểm B, khoảng thay đổi trên trục tung là 500 chai Pepsi, và sự thay đổi trên trục
 > hoành là 100 chiếc pizza. Vì vậy, độ dốc là 5 chai Pepsi trên 1 chiếc pizza."*
 >
@@ -117,8 +125,9 @@ $$\frac{500 \text{ chai}}{100 \text{ chiếc}} = 5 \qquad\text{và}\qquad \frac{
 Đây là chỗ **chi phí cơ hội** của [bài 1](bai_01_muoi_nguyen_ly_va_tu_duy_kinh_te.md) xuất hiện lại
 dưới dạng hình học: chi phí cơ hội của một chiếc pizza **là** 5 chai Pepsi, và nó **là** độ dốc.
 
-⚠️ Một điểm dễ trượt: đường ngân sách nói **bạn mua được gì**, không nói **bạn muốn gì**. Nó là nửa
-bài toán. Nửa còn lại ở mục sau.
+> [!warning]
+> Một điểm dễ trượt: đường ngân sách nói **bạn mua được gì**, không nói **bạn muốn gì**. Nó là nửa
+> bài toán. Nửa còn lại ở mục sau.
 
 ---
 
@@ -126,6 +135,7 @@ bài toán. Nửa còn lại ở mục sau.
 
 Định nghĩa ở chân trang 498:
 
+> [!note]
 > **Đường bàng quan** *(indifference curve)*: đường biểu diễn những gói hàng hoá đem lại **cùng một
 > mức độ thoả mãn**.
 
@@ -133,11 +143,13 @@ Và độ dốc của nó có tên riêng (tr. 498–499):
 
 ![Hình 2 — tr. 498, bản chụp giáo trình](../tai_lieu/hinh/ch21-hinh-02-tr498.png)
 
+> [!note]
 > **Tỷ lệ thay thế biên** *(marginal rate of substitution, MRS)*: tỷ lệ mà theo đó người tiêu dùng
 > sẵn lòng đánh đổi một hàng hoá để lấy một hàng hoá khác.
 
-⚠️ **Hai độ dốc, đừng lẫn.** Cả đường ngân sách lẫn đường bàng quan đều dốc xuống, và cả hai độ dốc
-đều là "bao nhiêu Pepsi đổi một pizza". Nhưng chúng trả lời hai câu khác nhau:
+> [!warning] Hai độ dốc, đừng lẫn.
+> Cả đường ngân sách lẫn đường bàng quan đều dốc xuống, và cả hai độ dốc
+> đều là "bao nhiêu Pepsi đổi một pizza". Nhưng chúng trả lời hai câu khác nhau:
 
 | Đường               | Độ dốc là                                              | Ai quyết định    |
 | ------------------- | ------------------------------------------------------ | ---------------- |
@@ -166,11 +178,13 @@ Từ đó $MRS = \dfrac{\text{Pepsi}}{\text{pizza}}$. Đi dọc đường bàng 
 MRS **giảm đơn điệu** từ 125 xuống 0,8 khi đi sang phải. Sách giải thích bằng một câu rất đời thường
 (tr. 500):
 
+> [!quote]
 > *"con người thường sẵn lòng trao đổi hàng hóa mà họ có nhiều và ít sẵn lòng đánh đổi hàng hóa mà
 > họ có ít hơn."*
 
 **Hình 4, tr. 501** minh hoạ đúng điều này bằng hai điểm:
 
+> [!quote]
 > *"Tại điểm A, vì người tiêu dùng có quá nhiều Pepsi và chỉ có một ít pizza, anh ta đang đói và không
 > quá khát. Để khiến người tiêu dùng từ bỏ 1 chiếc pizza, anh ta phải được thêm đi **6 chai Pepsi**…
 > Ở điểm B, anh ta sẵn lòng cho đi 1 chiếc pizza để có được **1 chai Pepsi**."*
@@ -192,6 +206,7 @@ Tính chất 3 đáng dừng lại, vì lập luận của sách là một phép
 
 ![Hình 3 — tr. 500, bản chụp giáo trình](../tai_lieu/hinh/ch21-hinh-03-tr500.png)
 
+> [!quote]
 > *"vì điểm A nằm cùng đường bàng quan với điểm B, hai điểm này khiến người tiêu dùng thỏa mãn như
 > nhau. Bên cạnh đó, vì điểm B nằm trên cùng đường bàng quan với điểm C, hai điểm này cũng làm người
 > tiêu dùng thỏa mãn như nhau. Hai kết luận trên dẫn tới việc các điểm A và C làm người tiêu dùng thỏa
@@ -205,13 +220,14 @@ Nói gọn: **nếu bàng quan là bắc cầu, và nhiều hơn thì tốt hơn
 
 ## 5. Hai trường hợp đặc biệt
 
-Sách đưa hai thái cực (tr. 501–502) — và chúng quan trọng hơn vẻ ngoài, vì [mục 11](#11--độ-cong-của-đường-bàng-quan-quyết-định-mọi-thứ-còn-lại)
+Sách đưa hai thái cực (tr. 501–502) — và chúng quan trọng hơn vẻ ngoài, vì [mục 11](#11-độ-cong-của-đường-bàng-quan-quyết-định-mọi-thứ-còn-lại)
 sẽ cho thấy **mọi trường hợp thực tế nằm giữa hai cái này**, và vị trí đó quyết định gần như tất cả.
 
 ![Hình 4 — tr. 501, bản chụp giáo trình](../tai_lieu/hinh/ch21-hinh-04-tr501.png)
 
 ### (a) Thay thế hoàn hảo — đồng 5 cent và đồng 10 cent
 
+> [!note]
 > **Hàng hoá thay thế hoàn hảo** *(perfect substitutes)*: hai hàng hoá có những đường bàng quan **thẳng**.
 
 Bạn chỉ quan tâm tổng số tiền, nên luôn sẵn lòng đổi 2 đồng 5 cent lấy 1 đồng 10 cent, **bất kể** đang
@@ -219,6 +235,7 @@ có bao nhiêu. MRS = 2 ở mọi điểm → đường bàng quan là đường
 
 ### (b) Bổ sung hoàn hảo — giày trái và giày phải
 
+> [!note]
 > **Hàng hoá bổ sung hoàn hảo** *(perfect complements)*: hai hàng hoá có những đường bàng quan **vuông góc**.
 
 | Trái | Phải | Số đôi |                       |
@@ -232,6 +249,7 @@ nếu không có một chiếc bên trái đi kèm."*
 
 Và sách thừa nhận thực tế nằm ở giữa (tr. 502):
 
+> [!quote]
 > *"Thông thường, các đường bàng quan có dạng cong về gốc tọa độ, nhưng không cong đến nỗi tạo thành
 > dạng vuông góc."*
 
@@ -254,11 +272,13 @@ $$\underbrace{MRS = \frac{250}{50} = 5}_{\text{độ dốc đường bàng quan}
 
 Sách in kết luận này nghiêng ở tr. 503:
 
+> [!quote]
 > *"người tiêu dùng sẽ quyết định tiêu dùng hai hàng hóa sao cho **tỷ lệ thay thế biên bằng với giá
 > tương đối** của chúng."*
 
 Và rút ra một hệ quả rất đẹp, nối thẳng về [bài 4](bai_04_thang_du_va_chi_phi_cua_thue.md) (tr. 503):
 
+> [!quote]
 > *"Ở điểm tối ưu cho người tiêu dùng, sự đánh giá của người tiêu dùng với hai hàng hóa (đo bằng tỷ lệ
 > thay thế biên) bằng với sự đánh giá của thị trường (đo bằng giá tương đối). Kết quả của sự tối ưu hóa
 > này là **giá thị trường của những hàng hóa khác nhau phản ánh giá trị mà người tiêu dùng đánh giá chúng**."*
@@ -274,11 +294,12 @@ Hai điểm sách vẽ để đối chiếu ở Hình 6:
 
 ---
 
-## 7. 📚 Độ thoả dụng — cách nói thứ hai cho cùng một điều
+## 7. Độ thoả dụng — cách nói thứ hai cho cùng một điều
 
 Hộp *"Bạn có biết"* ở tr. 504 làm một việc rất đáng giá: dịch toàn bộ hình học ở trên sang một ngôn
 ngữ khác, rồi chứng minh hai ngôn ngữ nói cùng một điều.
 
+> [!note]
 > **Độ thoả dụng biên** *(marginal utility)*: sự tăng lên trong mức thoả dụng mà người tiêu dùng nhận
 > được từ một đơn vị tăng thêm của hàng hoá đó.
 
@@ -293,6 +314,7 @@ $$\frac{MU_{\text{pizza}}}{P_{\text{pizza}}} = \frac{250}{10} = 25 \qquad \frac{
 
 Bằng nhau. Sách diễn giải (tr. 504):
 
+> [!quote]
 > *"Tại điểm tối ưu, mức thỏa dụng biên của một đô la tiêu dùng trên hàng hóa X bằng với độ thỏa dụng
 > biên của một đô la tiêu dùng trên hàng hóa Y. **Tại sao?** Nếu hai vế của đẳng thức này không bằng
 > nhau, người tiêu dùng có thể tăng độ thỏa dụng bằng cách chi tiêu ít hơn cho hàng hóa mang lại độ
@@ -302,11 +324,12 @@ Bằng nhau. Sách diễn giải (tr. 504):
 Đọc câu đó chậm, vì nó là **thuật toán**, không phải mô tả: *chừng nào một đồng ở chỗ này còn đáng giá
 hơn một đồng ở chỗ kia, hãy chuyển tiền sang — và dừng đúng lúc hai bên bằng nhau.*
 
-[Mục 18](#18--chia-ngân-sách-marketing-bằng-đúng-quy-tắc-của-mục-6) dùng nguyên văn quy tắc này cho một
+[Mục 18](#18-chia-ngân-sách-marketing-bằng-đúng-quy-tắc-của-mục-6) dùng nguyên văn quy tắc này cho một
 bài toán chia ngân sách thật.
 
 Sách đóng hộp bằng một nhận xét về phương pháp mà đáng nhớ:
 
+> [!quote]
 > *"Một nhà kinh tế có thể phát biểu rằng mục đích của tiêu dùng là để tối đa hóa độ thỏa dụng. Nhà
 > kinh tế khác có thể nói rằng mục đích của người tiêu dùng là được ở trên đường bàng quan cao nhất có
 > thể… **Về bản chất, hai cách nói đó là một.**"*
@@ -329,16 +352,18 @@ tr. 505):
 
 Hai định nghĩa ở chân trang 505:
 
+> [!quote]
 > **Hàng hoá thông thường** *(normal good)*: thu nhập tăng dẫn đến gia tăng lượng cầu.
 > **Hàng hoá thứ cấp** *(inferior good)*: thu nhập tăng làm **giảm** lượng cầu.
 
 Ví dụ sách đưa ở tr. 506: **các chuyến xe buýt**. *"Khi thu nhập tăng lên, những người tiêu dùng thường
 sẽ mua xe hơi hoặc đi taxi và ít khi đi xe buýt."*
 
-⚠️ **Chỗ mô hình trong bài không làm được.** Hàm $U = \text{pizza} \times \text{Pepsi}$ **không bao giờ**
-tạo ra hàng hoá thứ cấp — nó luôn cho cả hai tăng theo thu nhập. Hình 8 của sách vẽ trường hợp ngược
-lại, và để dựng được nó thì phải đổi sang một dạng sở thích khác. [Mục 12](#12-có-phải-mọi-đường-cầu-đều-dốc-xuống)
-dùng đúng một dạng như vậy.
+> [!warning] Chỗ mô hình trong bài không làm được.
+> Hàm $U = \text{pizza} \times \text{Pepsi}$ **không bao giờ**
+> tạo ra hàng hoá thứ cấp — nó luôn cho cả hai tăng theo thu nhập. Hình 8 của sách vẽ trường hợp ngược
+> lại, và để dựng được nó thì phải đổi sang một dạng sở thích khác. [Mục 12](#12-có-phải-mọi-đường-cầu-đều-dốc-xuống)
+> dùng đúng một dạng như vậy.
 
 ![Hình 8 — tr. 506, bản chụp giáo trình](../tai_lieu/hinh/ch21-hinh-08-tr506.png)
 
@@ -357,6 +382,7 @@ Sách cho người tiêu dùng nói hai câu, và cả hai đều có lý (tr. 5
 
 ![Hình 9 — tr. 507, bản chụp giáo trình](../tai_lieu/hinh/ch21-hinh-09-tr507.png)
 
+> [!quote]
 > - *"Tin tốt lành! Giờ thì Pepsi đã rẻ hơn, thu nhập của tôi có sức mua lớn hơn. Tôi thực sự đã giàu
 >   hơn trước. Vì thế, tôi có thể mua nhiều pizza hơn và cả nhiều Pepsi hơn."* → **tác động thu nhập**
 > - *"Giờ giá của Pepsi đã giảm, tôi sẽ có được nhiều chai Pepsi hơn cho mỗi chiếc pizza mà tôi không
@@ -365,6 +391,7 @@ Sách cho người tiêu dùng nói hai câu, và cả hai đều có lý (tr. 5
 
 Định nghĩa ở chân trang 507:
 
+> [!note]
 > **Tác động thu nhập** *(income effect)*: thay đổi trong tiêu dùng do thay đổi về giá làm người tiêu
 > dùng dịch chuyển đến một đường bàng quan **cao hơn hoặc thấp hơn**.
 > **Tác động thay thế** *(substitution effect)*: thay đổi trong tiêu dùng do thay đổi về giá làm người
@@ -381,10 +408,11 @@ Code tách bằng ba bước:
 | **B → C** tác động **thu nhập**     | **+12,5** | **+125** |          |
 | **A → C** tổng                      |     **0** | **+250** |          |
 
-⚠️ **Một khác biệt kỹ thuật cần nói rõ.** Sách tách bằng cách giữ nguyên **độ thoả mãn** (đi dọc đường
-bàng quan cũ) — cách này mang tên **Hicks**. Code giữ nguyên **sức mua của giỏ hàng cũ** — cách này
-mang tên **Slutsky**, và được chọn vì nó cho ra số hữu tỉ thay vì căn bậc hai. Hai cách cho kết quả
-gần nhau và **luôn cùng dấu**, nên mọi kết luận định tính của sách vẫn đúng nguyên.
+> [!warning] Một khác biệt kỹ thuật cần nói rõ.
+> Sách tách bằng cách giữ nguyên **độ thoả mãn** (đi dọc đường
+> bàng quan cũ) — cách này mang tên **Hicks**. Code giữ nguyên **sức mua của giỏ hàng cũ** — cách này
+> mang tên **Slutsky**, và được chọn vì nó cho ra số hữu tỉ thay vì căn bậc hai. Hai cách cho kết quả
+> gần nhau và **luôn cùng dấu**, nên mọi kết luận định tính của sách vẫn đúng nguyên.
 
 Đối chiếu với **Bảng 1, tr. 508** — sách kết luận bằng lời, đây là bảng số:
 
@@ -398,7 +426,7 @@ gần nhau và **luôn cùng dấu**, nên mọi kết luận định tính củ
 | **Pizza** |    −12,5 |    +12,5 |    **0** | *"tổng tác động lên tiêu dùng pizza là **không rõ ràng**"* ✓                      |
 
 Sách nói *"không rõ ràng"*, và ở đây hai tác động **triệt tiêu nhau hoàn toàn**. Đó không phải tình cờ,
-và [mục 11](#11--độ-cong-của-đường-bàng-quan-quyết-định-mọi-thứ-còn-lại) giải thích vì sao.
+và [mục 11](#11-độ-cong-của-đường-bàng-quan-quyết-định-mọi-thứ-còn-lại) giải thích vì sao.
 
 ---
 
@@ -427,10 +455,11 @@ Ba điều bảng này nói ngay:
 
 Sách viết rất đúng về vị trí của lý thuyết này (tr. 509–510):
 
+> [!quote]
 > *"Không cần thiết phải có một khung phân tích chính xác chỉ để kết luận rằng con người phản ứng với
 > những thay đổi trong giá cả."*
 
-### ⚠️ Chỗ mô hình không khớp hình vẽ của sách
+### Chỗ mô hình không khớp hình vẽ của sách
 
 Hình 11 của sách ghi: giá $2 → $1 thì Pepsi đi từ **250 lên 750** chai. Mô hình trong bài cho **250 lên
 500**. **Không khớp** — và chỗ lệch này là chỗ học được nhiều nhất trong cả bài.
@@ -444,7 +473,7 @@ Nói cách khác: **hoạ sĩ vẽ Hình 11 đã ngầm chọn một giả đị
 
 ---
 
-## 11. 📚 Độ cong của đường bàng quan quyết định mọi thứ còn lại
+## 11. Độ cong của đường bàng quan quyết định mọi thứ còn lại
 
 Ở [mục 5](#5-hai-trường-hợp-đặc-biệt), sách đưa hai thái cực — thay thế hoàn hảo (thẳng) và bổ sung
 hoàn hảo (vuông góc) — rồi bỏ đó. Nhưng giữa hai thái cực ấy có một **thang đo liên tục**, và nó có
@@ -502,6 +531,7 @@ Và cũng từ đó giải thích luôn chỗ lệch ở [mục 9](#9-giá-đổ
 khi $\sigma = 1$, tác động thay thế và tác động thu nhập lên **pizza** triệt tiêu nhau chính xác. Đó là
 **trường hợp đặc biệt**, không phải trường hợp chung — sách nói "không rõ ràng" là hoàn toàn chính xác.
 
+> [!note]
 > 📌 **Giữ lấy chữ $\sigma$ này.** Ba mục còn lại của chương — Giffen, cung lao động, tiết kiệm — đều là
 > cùng một câu hỏi về $\sigma$, hỏi lại bằng ba bộ từ vựng khác nhau.
 
@@ -513,11 +543,13 @@ Câu hỏi thứ nhất trong ba câu hỏi mở chương. Câu trả lời củ
 
 ![Hình 12 — tr. 510, bản chụp giáo trình](../tai_lieu/hinh/ch21-hinh-12-tr510.png)
 
+> [!note]
 > **Hàng hoá Giffen** *(Giffen good)*: một hàng hoá mà **giá tăng làm tăng lượng cầu**.
 
 Sách đặt tên theo *"nhà kinh tế Robert Giffen, người đầu tiên chú ý đến khả năng này"*, và mô tả cơ
 chế ở tr. 511:
 
+> [!quote]
 > *"Khi giá khoai tây tăng lên, người tiêu dùng càng nghèo đi. Tác động thu nhập khiến người tiêu dùng
 > muốn mua ít thịt và nhiều khoai tây hơn. Cùng lúc đó, vì khoai tây trở nên đắt hơn một cách tương đối
 > so với thịt, tác động thay thế khiến người tiêu dùng muốn mua nhiều thịt và ít khoai tây hơn. Tuy
@@ -557,10 +589,12 @@ bằng cách giảm mua những hàng hóa đắt đỏ như thịt và mua nhi�
 **Hồ Nam, Trung Quốc.** Robert Jensen và Nolan Miller làm *"một thí nghiệm trong năm tháng"*: phát
 phiếu giảm giá mua gạo cho các hộ được chọn ngẫu nhiên, rồi đo phản ứng.
 
+> [!quote]
 > *"Họ tìm thấy những bằng chứng chắc chắn rằng **những hộ gia đình nghèo** thể hiện các hành vi Giffen…
 > 'Với những gì chúng ta đã biết lúc này, đây là bằng chứng thực nghiệm đúng đắn nhất về hành vi Giffen.'"*
 
-⚠️ Chú ý hai chữ **hộ nghèo**. Kiểm lại bằng mô hình, giữ nguyên mọi thứ và chỉ cho ngân sách chạy:
+> [!warning]
+> Chú ý hai chữ **hộ nghèo**. Kiểm lại bằng mô hình, giữ nguyên mọi thứ và chỉ cho ngân sách chạy:
 
 | Ngân sách | Khoai (giá 2) | Khoai (giá 3) | Kết luận           |
 | --------: | ------------: | ------------: | ------------------ |
@@ -585,6 +619,7 @@ Câu hỏi thứ hai. Sách dùng lại **đúng bộ máy cũ**, chỉ đổi t
 
 ![Hình 13 — tr. 512, bản chụp giáo trình](../tai_lieu/hinh/ch21-hinh-13-tr512.png)
 
+> [!quote]
 > *"Con người dành một lượng thời gian để giải trí và phần còn lại để lao động nhằm giúp họ đáp ứng
 > các nhu cầu chi tiêu."*
 
@@ -619,6 +654,7 @@ Ba dòng, ba kết cục khác hẳn nhau:
 
 Sách kết luận ở tr. 514:
 
+> [!quote]
 > *"lý thuyết kinh tế không cho thấy một sự phán đoán rõ ràng về việc liệu một sự tăng lên trong mức
 > lương khiến cô làm việc nhiều hơn hay ít hơn."*
 
@@ -642,9 +678,11 @@ Sách đưa bằng chứng cho thấy trong dài hạn, tác động thu nhập 
 | Trúng số **trên $1 triệu** | gần **40%** ngừng làm việc                                                                                                                     |
 | Thừa kế **trên $150.000**  | khả năng nghỉ việc cao **gấp bốn lần** so với người thừa kế dưới $25.000 (*Quarterly Journal of Economics*, 1993)                              |
 
-📚 **Vì sao dữ liệu người trúng số lại sắc bén đến vậy** — sách giải thích ở tr. 515, và đây là một mẩu
-phương pháp luận rất đẹp:
+> [!note] Vì sao dữ liệu người trúng số lại sắc bén đến vậy
+> sách giải thích ở tr. 515, và đây là một mẩu
+> phương pháp luận rất đẹp:
 
+> [!quote]
 > *"vì lương của những người trúng số vẫn không đổi nên **độ dốc của đường ràng buộc ngân sách của họ
 > vẫn như cũ**. Vì thế, không có tác động thay thế nào. Bằng cách phân tích hành vi của những người
 > trúng số, chúng ta có thể **tách biệt** tác động thu nhập lên cung lao động."*
@@ -655,6 +693,7 @@ xảy ra ngoài đời thật.
 
 Và sách đóng bằng **Andrew Carnegie**, nhà công nghiệp thế kỷ 19:
 
+> [!quote]
 > *"những phụ huynh để lại cho con cái mình những món thừa kế khổng lồ vô hình chung sẽ làm lu mờ tài
 > năng, giảm ý chí của chúng, và xúi giục chúng sống một cuộc sống kém có ích và ít giá trị hơn cuộc
 > sống vốn có."*
@@ -704,6 +743,7 @@ Sách rút ra một hệ quả chính sách rất thật (tr. 517–518):
 
 ![Hình 16 — tr. 517, bản chụp giáo trình](../tai_lieu/hinh/ch21-hinh-16-tr517.png)
 
+> [!quote]
 > *"Một số nhà kinh tế đã kêu gọi giảm thuế đánh vào tiền lãi và thu nhập trên vốn. Họ lập luận rằng
 > một chính sách giảm thuế sẽ làm tăng mức lãi suất sau thuế mà những người tiết kiệm có thể có được và
 > vì thế sẽ khuyến khích người ta tiết kiệm nhiều hơn. Những nhà kinh tế khác đã lập luận rằng vì sự bù
@@ -720,12 +760,14 @@ về cách lãi suất tác động đến tiết kiệm"*.
 
 Sách tự đặt câu hỏi hoài nghi hiển nhiên nhất, ngay trong phần kết luận (tr. 518):
 
+> [!quote]
 > *"Cuối cùng thì bạn là một người tiêu dùng. Bạn quyết định sẽ mua gì mỗi khi bước vào một cửa hàng?
 > Và bạn biết rằng bạn không làm việc đó bằng cách vẽ ra những đường giới hạn ngân sách và những đường
 > bàng quan. Chẳng phải điều này đi ngược lại với lý thuyết sao?"*
 
 Và trả lời rất thẳng:
 
+> [!quote]
 > *"Câu trả lời là không. Lý thuyết người tiêu dùng không cố gắng thể hiện một sự tính toán theo nghĩa
 > đen về cách mà con người ra quyết định. Nó là **một mô hình**… Cách tốt nhất để nhìn nhận lý thuyết
 > người tiêu dùng là coi nó như **một phép ẩn dụ** cho cách mà người tiêu dùng ra quyết định."*
@@ -733,18 +775,19 @@ Và trả lời rất thẳng:
 > *"Đến giờ những người tiêu dùng vẫn biết rằng lựa chọn của họ bị giới hạn bởi các nguồn lực tài chính.
 > Với những giới hạn đó, họ làm điều tốt nhất có thể để có được mức thỏa mãn cao nhất."*
 
-⚠️ Đây là một trong những đoạn trung thực nhất của cả cuốn sách, và cũng là chỗ dễ hiểu sai nhất. Mô
-hình **không** khẳng định người ta vẽ đồ thị trong đầu. Nó khẳng định rằng **hành vi quan sát được trông
-như thể** người ta làm vậy — và điều đó là đủ để dự đoán.
+> [!warning]
+> Đây là một trong những đoạn trung thực nhất của cả cuốn sách, và cũng là chỗ dễ hiểu sai nhất. Mô
+> hình **không** khẳng định người ta vẽ đồ thị trong đầu. Nó khẳng định rằng **hành vi quan sát được trông
+> như thể** người ta làm vậy — và điều đó là đủ để dự đoán.
 
 📌 Và đó cũng là bản lề nối sang **Bài 11** (chương 22): kinh tế học hành vi hỏi thẳng rằng phép ẩn dụ
 này **hỏng ở đâu**, và hỏng theo những kiểu **có quy luật** nào.
 
 ---
 
-## 18. 💼 Chia ngân sách marketing bằng đúng quy tắc của mục 6
+## 18. Chia ngân sách marketing bằng đúng quy tắc của mục 6
 
-Quy tắc *"cân bằng lợi ích biên trên một đồng"* ở [mục 7](#7--độ-thoả-dụng--cách-nói-thứ-hai-cho-cùng-một-điều)
+Quy tắc *"cân bằng lợi ích biên trên một đồng"* ở [mục 7](#7-độ-thoả-dụng--cách-nói-thứ-hai-cho-cùng-một-điều)
 không chỉ dùng cho pizza và Pepsi. Nó là quy tắc cho **mọi** bài toán chia một nguồn lực hữu hạn giữa
 nhiều cách dùng — kể cả những cách dùng chẳng liên quan gì tới người tiêu dùng.
 
@@ -781,37 +824,41 @@ khác là tiền đi từng khối 10 triệu nên hai vế chỉ *gần* bằng
 **Đỉnh của đường cong rất phẳng, còn hai đầu thì dốc đứng.** Chia 5/5 thay vì 6/4 chỉ mất 2,3% — gần
 như không đáng kể. Nhưng dồn hết 100 triệu vào một kênh thì mất tới 54%.
 
+> [!quote]
 > 💼 Suy ra một câu dùng được ngay: **đừng mất thời gian tính toán để đi từ 5/5 sang 6/4.** Hãy dùng
 > thời gian đó để đảm bảo bạn **không** đang ở 10/0 hay 0/10. Sai lầm đắt tiền trong phân bổ nguồn lực
 > gần như luôn là sai lầm **cực đoan** — và chúng thường đến từ những câu nghe rất quyết đoán như
 > *"năm nay ta tất tay vào kênh này"*.
 
-⚠️ Và một giới hạn của mô hình, nói rõ để khỏi dùng sai: bảng lợi ích biên ở trên được **cho sẵn**.
-Ngoài đời bạn phải **đo** nó, và đo được nó mới là phần khó. Quy tắc chỉ nói *phải cân bằng cái gì*;
-nó không nói *cái đó bằng bao nhiêu*. Đây đúng là vấn đề mà sách gặp với $\sigma$ ở mục 14 và 16 — lý
-thuyết cho bạn dạng của câu trả lời, dữ liệu mới cho bạn con số.
+> [!warning]
+> Và một giới hạn của mô hình, nói rõ để khỏi dùng sai: bảng lợi ích biên ở trên được **cho sẵn**.
+> Ngoài đời bạn phải **đo** nó, và đo được nó mới là phần khó. Quy tắc chỉ nói *phải cân bằng cái gì*;
+> nó không nói *cái đó bằng bao nhiêu*. Đây đúng là vấn đề mà sách gặp với $\sigma$ ở mục 14 và 16 — lý
+> thuyết cho bạn dạng của câu trả lời, dữ liệu mới cho bạn con số.
 
 ---
 
 ## 19. Code minh hoạ
 
+> [!note]
 > ⚙️ **Chạy:** cần **Python 3.10+**. Lưu file rồi gõ `python3 bai-10-lua-chon-nguoi-tieu-dung.py`.
 > **Không cần cài gói nào.** File có sẵn tại [thuc_hanh/bai-10-lua-chon-nguoi-tieu-dung.py](../thuc_hanh/bai-10-lua-chon-nguoi-tieu-dung.py).
 
 Mọi thứ dùng `Fraction` — không có số thực nào trong phần tính toán, nên chạy bao nhiêu lần cũng ra
 đúng một kết quả. Chỗ duy nhất xuất hiện số thực là $\log_2 3$ ở mục 8, và nó được đánh dấu rõ.
 
-⚠️ Code có **12 mục đánh số riêng của nó**, không trùng với 22 mục của bài học. Bảng đối chiếu:
+> [!warning]
+> Code có **12 mục đánh số riêng của nó**, không trùng với 22 mục của bài học. Bảng đối chiếu:
 
 | Mục trong code | Mục trong bài                                                                                                                                                               |
 | -------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1–3            | [2](#2-đường-ràng-buộc-ngân-sách), [3](#3-đường-bàng-quan-và-tỷ-lệ-thay-thế-biên) + [4](#4-bốn-tính-chất-của-đường-bàng-quan), [5](#5-hai-trường-hợp-đặc-biệt)              |
-| 4              | [6](#6-điểm-tối-ưu--nơi-hai-đường-tiếp-tuyến-nhau) + [7](#7--độ-thoả-dụng--cách-nói-thứ-hai-cho-cùng-một-điều)                                                              |
+| 4              | [6](#6-điểm-tối-ưu--nơi-hai-đường-tiếp-tuyến-nhau) + [7](#7-độ-thoả-dụng--cách-nói-thứ-hai-cho-cùng-một-điều)                                                              |
 | 5–7            | [8](#8-thu-nhập-tăng--hàng-hoá-thông-thường-và-hàng-hoá-thứ-cấp), [9](#9-giá-đổi--tách-tác-động-thu-nhập-và-tác-động-thay-thế), [10](#10-dựng-đường-cầu-từ-các-điểm-tối-ưu) |
-| 8              | [11](#11--độ-cong-của-đường-bàng-quan-quyết-định-mọi-thứ-còn-lại)                                                                                                           |
+| 8              | [11](#11-độ-cong-của-đường-bàng-quan-quyết-định-mọi-thứ-còn-lại)                                                                                                           |
 | 9              | [12](#12-có-phải-mọi-đường-cầu-đều-dốc-xuống) + [13](#13-nghiên-cứu-tình-huống--cuộc-tìm-kiếm-hàng-hoá-giffen)                                                              |
 | 10–11          | [14](#14-lương-tăng-thì-làm-việc-nhiều-hơn-hay-ít-hơn), [16](#16-lãi-suất-tăng-thì-tiết-kiệm-nhiều-hơn-hay-ít-hơn)                                                          |
-| 12             | [18](#18--chia-ngân-sách-marketing-bằng-đúng-quy-tắc-của-mục-6)                                                                                                             |
+| 12             | [18](#18-chia-ngân-sách-marketing-bằng-đúng-quy-tắc-của-mục-6)                                                                                                             |
 
 ```python
 """Bai 10 - Ly thuyet lua chon cua nguoi tieu dung (Mankiw, chuong 21, tr. 495-524).
@@ -2233,17 +2280,17 @@ Trả lời rồi mới quay lại đối chiếu. Số trong ngoặc là mục 
 - **Ngoài sách:**
   - Hàm $U = \text{pizza} \times \text{Pepsi}$ ở [mục 3](#3-đường-bàng-quan-và-tỷ-lệ-thay-thế-biên) —
     sách chỉ vẽ hình, không cho hàm nào. Đây là hàm gọn nhất có đủ bốn tính chất của tr. 499–500.
-  - Họ hàm CES và tham số σ ở [mục 11](#11--độ-cong-của-đường-bàng-quan-quyết-định-mọi-thứ-còn-lại) —
+  - Họ hàm CES và tham số σ ở [mục 11](#11-độ-cong-của-đường-bàng-quan-quyết-định-mọi-thứ-còn-lại) —
     không có trong sách. Công thức $|e| = \sigma(1-s) + s$ là kết quả chuẩn của lý thuyết tiêu dùng.
   - Cách tách **Slutsky** dùng ở [mục 9](#9-giá-đổi--tách-tác-động-thu-nhập-và-tác-động-thay-thế) —
     sách dùng cách **Hicks**; khác biệt được nêu rõ tại chỗ.
   - Mô hình ràng buộc calo dựng ra hàng hoá Giffen ở [mục 12](#12-có-phải-mọi-đường-cầu-đều-dốc-xuống) —
     dựng riêng cho bài này để tái tạo cơ chế mà sách chỉ mô tả bằng lời.
-  - Bài toán chia ngân sách marketing ở [mục 18](#18--chia-ngân-sách-marketing-bằng-đúng-quy-tắc-của-mục-6)
+  - Bài toán chia ngân sách marketing ở [mục 18](#18-chia-ngân-sách-marketing-bằng-đúng-quy-tắc-của-mục-6)
     — dựng riêng cho bài này.
 - **Liên hệ chéo:**
   - [Bài 2](bai_02_cung_va_cau.md) — nơi đường cầu được cho sẵn; bài này chứng minh nó.
-  - [Bài 3](bai_03_do_co_gian_va_dinh_gia.md) — độ co giãn; [mục 11](#11--độ-cong-của-đường-bàng-quan-quyết-định-mọi-thứ-còn-lại)
+  - [Bài 3](bai_03_do_co_gian_va_dinh_gia.md) — độ co giãn; [mục 11](#11-độ-cong-của-đường-bàng-quan-quyết-định-mọi-thứ-còn-lại)
     cho thấy nó đến từ độ cong của đường bàng quan.
   - [Bài 4](bai_04_thang_du_va_chi_phi_cua_thue.md) — giá sẵn lòng trả; mục 6 giải thích vì sao giá thị
     trường phản ánh giá trị người tiêu dùng đánh giá.

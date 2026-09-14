@@ -1,13 +1,15 @@
 # Bài 3 — Sản xuất và tăng trưởng
 
+> [!info] Về bài này
 > Bài học dựng từ **Chương 12 — Sản xuất và tăng trưởng** (tr. 259–287)
 > của *N. Gregory Mankiw — **Kinh tế học vĩ mô***, bản dịch của Khoa Kinh tế, **ĐH Kinh tế TP.HCM** (Cengage Learning Asia).
-> 🎯 **Vòng 1.** Bài 1–2 dạy **đo**; từ bài này trở đi mới đi tìm **nguyên nhân**. Và đây là
+>
+> **Vòng 1.** Bài 1–2 dạy **đo**; từ bài này trở đi mới đi tìm **nguyên nhân**. Và đây là
 > nguyên nhân quan trọng nhất: cái gì quyết định một nước giàu hay nghèo.
-> 💼 **Góc QTKD** — ví dụ thêm cho ngành quản trị kinh doanh, **không có trong sách**.
-> 📚 **Mở rộng** — thứ sách nói lướt hoặc để trong hộp phụ.
-> ⚠️ — chỗ dễ hiểu sai, hoặc chỗ sách in sai.
-> 📌 **Cần đọc trước:** [Bài 1 — Đo lường thu nhập quốc gia](bai_01_do_luong_thu_nhap_quoc_gia.md), mục 9 (GDP thực) và mục 8 (GDP so với GNP).
+>
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
+>
+> **Cần đọc trước:** [Bài 1 — Đo lường thu nhập quốc gia](bai_01_do_luong_thu_nhap_quoc_gia.md), mục 9 (GDP thực) và mục 8 (GDP so với GNP).
 
 ---
 
@@ -17,23 +19,23 @@
 
 - [1. Câu hỏi lớn nhất của kinh tế vĩ mô](#1-câu-hỏi-lớn-nhất-của-kinh-tế-vĩ-mô)
 - [2. Bảng 1 — thứ hạng các quốc gia không cố định](#2-bảng-1--thứ-hạng-các-quốc-gia-không-cố-định)
-- [3. 📚 Quy tắc 70 — vì sao 2%/năm không hề nhỏ](#3--quy-tắc-70--vì-sao-2năm-không-hề-nhỏ)
-- [4. 📚 Bạn có giàu hơn người Mỹ giàu nhất? — hộp "Bạn có biết", tr. 264](#4--bạn-có-giàu-hơn-người-mỹ-giàu-nhất--hộp-bạn-có-biết-tr-264)
+- [3. Quy tắc 70 — vì sao 2%/năm không hề nhỏ](#3-quy-tắc-70--vì-sao-2năm-không-hề-nhỏ)
+- [4. Bạn có giàu hơn người Mỹ giàu nhất? — hộp "Bạn có biết", tr. 264](#4-bạn-có-giàu-hơn-người-mỹ-giàu-nhất--hộp-bạn-có-biết-tr-264)
 - [5. Năng suất — lời giải trong một từ](#5-năng-suất--lời-giải-trong-một-từ)
 - [6. Bốn yếu tố quyết định năng suất](#6-bốn-yếu-tố-quyết-định-năng-suất)
-- [7. 📚 Hàm sản xuất — sinh lợi không đổi theo quy mô](#7--hàm-sản-xuất--sinh-lợi-không-đổi-theo-quy-mô)
+- [7. Hàm sản xuất — sinh lợi không đổi theo quy mô](#7-hàm-sản-xuất--sinh-lợi-không-đổi-theo-quy-mô)
 - [8. Tài nguyên thiên nhiên có giới hạn tăng trưởng không?](#8-tài-nguyên-thiên-nhiên-có-giới-hạn-tăng-trưởng-không)
 - [9. Tiết kiệm, đầu tư và sinh lợi giảm dần](#9-tiết-kiệm-đầu-tư-và-sinh-lợi-giảm-dần)
 - [10. Hiệu ứng đuổi kịp](#10-hiệu-ứng-đuổi-kịp)
-- [11. ⚠️ Tiết kiệm cao hơn cho mức cao hơn, không phải tăng trưởng mãi mãi](#11--tiết-kiệm-cao-hơn-cho-mức-cao-hơn-không-phải-tăng-trưởng-mãi-mãi)
+- [11. Tiết kiệm cao hơn cho mức cao hơn, không phải tăng trưởng mãi mãi](#11-tiết-kiệm-cao-hơn-cho-mức-cao-hơn-không-phải-tăng-trưởng-mãi-mãi)
 - [12. Đầu tư từ nước ngoài — và vì sao GDP tăng nhiều hơn GNP](#12-đầu-tư-từ-nước-ngoài--và-vì-sao-gdp-tăng-nhiều-hơn-gnp)
 - [13. Giáo dục, sức khoẻ và vốn nhân lực](#13-giáo-dục-sức-khoẻ-và-vốn-nhân-lực)
 - [14. Quyền sở hữu, ổn định chính trị và thương mại tự do](#14-quyền-sở-hữu-ổn-định-chính-trị-và-thương-mại-tự-do)
 - [15. Nghiên cứu và phát triển](#15-nghiên-cứu-và-phát-triển)
 - [16. Tăng trưởng dân số — ba tác động trái chiều](#16-tăng-trưởng-dân-số--ba-tác-động-trái-chiều)
-- [17. 📚 Điều gì làm một quốc gia giàu có? — Acemoglu, tr. 280–281](#17--điều-gì-làm-một-quốc-gia-giàu-có--acemoglu-tr-280281)
-- [18. 💼 Góc QTKD — sinh lợi giảm dần trên bảng cân đối của bạn](#18--góc-qtkd--sinh-lợi-giảm-dần-trên-bảng-cân-đối-của-bạn)
-- [19. 📚 Đối chiếu Việt Nam](#19--đối-chiếu-việt-nam)
+- [17. Điều gì làm một quốc gia giàu có? — Acemoglu, tr. 280–281](#17-điều-gì-làm-một-quốc-gia-giàu-có--acemoglu-tr-280281)
+- [18. Góc QTKD — sinh lợi giảm dần trên bảng cân đối của bạn](#18-góc-qtkd--sinh-lợi-giảm-dần-trên-bảng-cân-đối-của-bạn)
+- [19. Đối chiếu Việt Nam](#19-đối-chiếu-việt-nam)
 - [20. Code minh hoạ](#20-code-minh-hoạ)
 - [21. Tự thử](#21-tự-thử)
 - [22. Từ điển thuật ngữ](#22-từ-điển-thuật-ngữ)
@@ -49,6 +51,7 @@
 
 Sách mở chương bằng một quan sát trần trụi (tr. 259):
 
+> [!quote]
 > *"Thu nhập bình quân ở nước giàu, như ở Hoa Kỳ, Nhật Bản hoặc Đức, gấp hơn **10 lần** thu nhập bình
 > quân ở nước nghèo, như ở Ấn Độ, Indonesia hoặc Nigeria."*
 
@@ -65,9 +68,10 @@ nhà cửa an toàn hơn, chăm sóc sức khỏe tốt hơn và có tuổi th�
 | Trung Quốc, 2 thập kỷ trước 2010 | **~12%/năm** (một số ước tính) | —                          |
 | Chad, Gabon, Senegal           | **trì trệ**                | *"thu nhập bình quân đã bị trì trệ trong nhiều năm"* |
 
-⚠️ **2% nghe rất nhỏ.** Sách cảnh báo ngay: *"Mặc dù 2 phần trăm dường như là rất nhỏ, nhưng tỷ lệ tăng
-trưởng đó ngụ ý là thu nhập bình quân tăng lên gấp đôi sau mỗi 35 năm. Nhờ sự tăng trưởng này, thu nhập
-bình quân ngày nay gấp khoảng **8 lần** so với thu nhập bình quân cách đây một thế kỷ"* (tr. 259).
+> [!warning] 2% nghe rất nhỏ.
+> Sách cảnh báo ngay: *"Mặc dù 2 phần trăm dường như là rất nhỏ, nhưng tỷ lệ tăng
+> trưởng đó ngụ ý là thu nhập bình quân tăng lên gấp đôi sau mỗi 35 năm. Nhờ sự tăng trưởng này, thu nhập
+> bình quân ngày nay gấp khoảng **8 lần** so với thu nhập bình quân cách đây một thế kỷ"* (tr. 259).
 
 Mục 3 sẽ cho bạn công cụ để tự làm phép tính đó trong đầu.
 
@@ -75,6 +79,7 @@ Mục 3 sẽ cho bạn công cụ để tự làm phép tính đó trong đầu.
 
 Sách trích nhà kinh tế đoạt giải Nobel **Robert Lucas** (tr. 259–260):
 
+> [!quote]
 > *"Tầm quan trọng về phúc lợi con người trong các câu hỏi như thế này đang gây ra sự bất ngờ thú vị:
 > **Một khi người ta bắt đầu suy nghĩ về chúng, thì thật khó để suy nghĩ về bất cứ điều gì khác nữa.**"*
 
@@ -90,6 +95,7 @@ Sách nói rõ ba bước (tr. 260):
 
 Và một dòng định vị bài này trong cả môn học (tr. 260):
 
+> [!quote]
 > *"Trong chương này, chúng ta sẽ tập trung vào các nhân tố dài hạn ảnh hưởng đến GDP và sự tăng trưởng
 > của GDP thực. Phần sau của quyển sách, chúng ta sẽ nghiên cứu về những **dao động trong ngắn hạn** của
 > GDP thực xung quanh xu hướng tăng trưởng dài hạn của chúng."*
@@ -128,6 +134,7 @@ Bảng này đáng tin.
 
 **① Nhật Bản là câu chuyện đáng kinh ngạc nhất** (tr. 261):
 
+> [!quote]
 > *"Một trăm năm trước Nhật Bản không phải là một quốc gia giàu có. Thu nhập bình quân của Nhật Bản chỉ
 > cao hơn đôi chút so với thu nhập bình quân của Mexico, và đứng sau thu nhập bình quân của Argentina.
 > **Chất lượng cuộc sống của Nhật Bản vào năm 1890 là thấp hơn một nửa so với chất lượng cuộc sống của
@@ -146,6 +153,7 @@ Nay Nhật có thu nhập bình quân **gấp hơn hai lần** Mexico và Argent
 
 **③ Không ai được bảo đảm gì cả** (tr. 263):
 
+> [!quote]
 > *"Những dữ liệu này cho thấy các quốc gia giàu nhất trên thế giới **không có sự đảm bảo** là quốc gia
 > này sẽ tiếp tục là nước giàu nhất, và các quốc gia nghèo nhất trên thế giới **không cam chịu** cảnh sẽ
 > mãi là quốc gia nghèo đói."*
@@ -153,24 +161,24 @@ Nay Nhật có thu nhập bình quân **gấp hơn hai lần** Mexico và Argent
 ⭐ **Đây là câu quan trọng nhất của cả mục.** Vị trí kinh tế của một quốc gia là **kết quả của chính sách
 và tích luỹ**, không phải định mệnh. Toàn bộ phần sau của chương là danh sách những thứ tạo ra kết quả đó.
 
-### 📚 Một bức hình đáng giá bằng một nghìn con số thống kê — tr. 262
-
-Hộp phụ của sách chụp ảnh ba gia đình điển hình bên ngoài ngôi nhà của họ, cùng toàn bộ đồ vật họ sở hữu:
-
-| Nước    | GDP/người 2008 | Trẻ đi học cấp 3 | Sống dưới 2 USD/ngày | Xác suất sống đến 65 tuổi (nam/nữ) |
-| ------- | -------------: | ---------------: | -------------------: | ---------------------------------: |
-| Anh     |        36.130  |              91% |    "không đáng kể"   |                           85% / 91% |
-| Mexico  |        14.270  |              71% |     ~5% dân số       |                           78% / 86% |
-| Mali    |         1.090  |              29% |  **hơn 3/4 dân số**  |                           38% / 42% |
-
-Sách mở bằng câu của **George Bernard Shaw**: *"Tín hiệu về sự thay đổi của một con người có học thực sự
-thì được thể hiện một cách đầy đủ qua các dữ liệu thống kê"*, rồi thừa nhận: *"hầu hết chúng ta đang không
-thể thấy được sự thay đổi sâu sắc này qua dữ liệu của GDP — cho đến khi chúng ta thấy được những con số
-thống kê này thể hiện điều gì."*
+> [!note] Một bức hình đáng giá bằng một nghìn con số thống kê — tr. 262
+>
+> Hộp phụ của sách chụp ảnh ba gia đình điển hình bên ngoài ngôi nhà của họ, cùng toàn bộ đồ vật họ sở hữu:
+>
+> | Nước    | GDP/người 2008 | Trẻ đi học cấp 3 | Sống dưới 2 USD/ngày | Xác suất sống đến 65 tuổi (nam/nữ) |
+> | ------- | -------------: | ---------------: | -------------------: | ---------------------------------: |
+> | Anh     |        36.130  |              91% |    "không đáng kể"   |                           85% / 91% |
+> | Mexico  |        14.270  |              71% |     ~5% dân số       |                           78% / 86% |
+> | Mali    |         1.090  |              29% |  **hơn 3/4 dân số**  |                           38% / 42% |
+>
+> Sách mở bằng câu của **George Bernard Shaw**: *"Tín hiệu về sự thay đổi của một con người có học thực sự
+> thì được thể hiện một cách đầy đủ qua các dữ liệu thống kê"*, rồi thừa nhận: *"hầu hết chúng ta đang không
+> thể thấy được sự thay đổi sâu sắc này qua dữ liệu của GDP — cho đến khi chúng ta thấy được những con số
+> thống kê này thể hiện điều gì."*
 
 ---
 
-## 3. 📚 Quy tắc 70 — vì sao 2%/năm không hề nhỏ
+## 3. Quy tắc 70 — vì sao 2%/năm không hề nhỏ
 
 Sách **dùng** quy tắc này ba lần mà **không gọi tên** nó:
 
@@ -202,12 +210,13 @@ và cho thấy sai lệch dưới **0,3 năm** với mọi tốc độ từ 1% �
 vài phần trăm GDP trong vài năm rồi trả lại. **Một điểm phần trăm tăng trưởng dài hạn thì lấy đi hoặc
 cho thêm cả một trật tự độ lớn.**
 
-💼 Cùng số học đó áp cho công ty: một đối thủ tăng trưởng 25%/năm trong khi bạn tăng 15% thì sau 10 năm
-họ lớn gấp **2,4 lần** bạn — dù hôm nay hai bên bằng nhau.
+> [!example]
+> Cùng số học đó áp cho công ty: một đối thủ tăng trưởng 25%/năm trong khi bạn tăng 15% thì sau 10 năm
+> họ lớn gấp **2,4 lần** bạn — dù hôm nay hai bên bằng nhau.
 
 ---
 
-## 4. 📚 Bạn có giàu hơn người Mỹ giàu nhất? — hộp "Bạn có biết", tr. 264
+## 4. Bạn có giàu hơn người Mỹ giàu nhất? — hộp "Bạn có biết", tr. 264
 
 Tạp chí *American Heritage* xếp **John D. Rockefeller** (1839–1937) là người giàu nhất lịch sử nước Mỹ:
 tài sản của ông *"ngày nay tương đương **200 tỷ đô la**, gấp bốn lần tài sản của Bill Gates"*.
@@ -222,12 +231,14 @@ Nhưng sách liệt kê những gì Rockefeller **không** có:
    nếu bệnh — KHÔNG có thuốc kháng sinh
 ```
 
+> [!quote]
 > *"Bây giờ hãy thử xem xét: Bạn cần bao nhiêu tiền để chấp nhận từ bỏ phần còn lại của cuộc sống hiện
 > tại của bạn với tất cả tiện nghi hiện đại mà Rockefeller đã sống mà không có nó? Bạn sẽ làm điều đó
 > với **200 tỷ đô la**? Có lẽ là không."*
 
 ⭐ Và đây là chỗ hộp phụ này nối vào bài 2:
 
+> [!quote]
 > *"Chương trước đã thảo luận về các chỉ số giá tiêu chuẩn… Chỉ số này chưa tính đến sự xuất hiện của các
 > hàng hóa mới trong nền kinh tế. Kết quả là, tỷ lệ lạm phát bị **ước tính quá mức**. Phía ngược lại của
 > quan sát này là **tốc độ tăng trưởng thực của nền kinh tế bị được đánh giá dưới mức**."*
@@ -243,13 +254,16 @@ Nhưng sách liệt kê những gì Rockefeller **không** có:
 Sách dựng mô hình bằng **Robinson Crusoe** của Daniel Defoe: một thuỷ thủ mắc kẹt trên hoang đảo, tự bắt
 cá, tự trồng rau, tự may quần áo (tr. 264–265).
 
+> [!quote]
 > *"Điều gì quyết định mức sống của Crusoe? Trong một từ, **năng suất**."*
 
+> [!quote]
 > **Năng suất** (*productivity*): số lượng hàng hóa và dịch vụ được sản xuất ra từ **mỗi đơn vị nhập lượng
 > lao động**. — chú thích tr. 265
 
 Vì sao ví dụ Crusoe lại hợp lệ cho cả một quốc gia? Vì đồng nhất thức của [bài 1 mục 2](bai_01_do_luong_thu_nhap_quoc_gia.md#2-thu-nhập-luôn-bằng-chi-tiêu--đồng-nhất-thức-đầu-tiên):
 
+> [!quote]
 > *"Một cách đơn giản, **thu nhập của cả nền kinh tế chính là sản lượng của nền kinh tế đó**."* — tr. 265
 
 ```
@@ -263,9 +277,10 @@ Và điều này nối thẳng về **Nguyên lý 8** trong Mười Nguyên lý 
 [EG13 bài 1](../../eg13-kinhtevimo-micro/ly_thuyet/bai_01_muoi_nguyen_ly_va_tu_duy_kinh_te.md)):
 *mức sống của một quốc gia phụ thuộc vào khả năng sản xuất hàng hóa và dịch vụ của quốc gia đó.*
 
-⚠️ **Đừng nhầm "năng suất" với "làm việc chăm chỉ".** Năng suất là **sản lượng trên mỗi giờ lao động**,
-không phải số giờ. Một nước làm việc 60 giờ/tuần với công cụ thô sơ vẫn nghèo hơn nước làm 35 giờ/tuần
-với máy móc và tri thức tốt.
+> [!warning] Đừng nhầm "năng suất" với "làm việc chăm chỉ".
+> Năng suất là **sản lượng trên mỗi giờ lao động**,
+> không phải số giờ. Một nước làm việc 60 giờ/tuần với công cụ thô sơ vẫn nghèo hơn nước làm 35 giờ/tuần
+> với máy móc và tri thức tốt.
 
 ---
 
@@ -277,6 +292,7 @@ có phiên bản tương ứng cho cả nền kinh tế (tr. 266–268).
 
 ### ① Vốn vật chất trên mỗi công nhân — $K/L$
 
+> [!quote]
 > **Vốn vật chất** (*physical capital*): trữ lượng máy móc thiết bị và cấu trúc cơ sở hạ tầng được sử dụng
 > để sản xuất hàng hóa và dịch vụ. — chú thích tr. 266
 
@@ -284,6 +300,7 @@ Ví dụ của sách: thợ mộc có cưa, tiện, khoan làm ra nhiều đồ 
 
 ⭐ **Đặc điểm quan trọng nhất của vốn** (tr. 266):
 
+> [!quote]
 > *"…vốn là **một yếu tố sản xuất được tạo ra từ quá trình sản xuất**… Người thợ mộc sử dụng máy tiện để
 > làm ra chân của cái bàn. Trước đó, bản thân của cái máy tiện là sản phẩm đầu ra của công ty sản xuất ra
 > những chiếc máy tiện."*
@@ -292,6 +309,7 @@ Ví dụ của sách: thợ mộc có cưa, tiện, khoan làm ra nhiều đồ 
 
 ### ② Vốn nhân lực trên mỗi công nhân — $H/L$
 
+> [!quote]
 > **Vốn nhân lực** (*human capital*): kiến thức và các kỹ năng mà người công nhân có được thông qua giáo
 > dục, đào tạo và kinh nghiệm. — chú thích tr. 266
 
@@ -300,6 +318,7 @@ có công việc quan trọng là sản xuất ra vốn nhân lực mà sẽ đ�
 
 ### ③ Tài nguyên thiên nhiên trên mỗi công nhân — $N/L$
 
+> [!quote]
 > **Tài nguyên thiên nhiên** (*natural resources*): các yếu tố đầu vào của sản xuất được cung cấp bởi tự
 > nhiên như đất đai, sông ngòi và mỏ khoáng sản. — chú thích tr. 267
 
@@ -308,8 +327,10 @@ có công việc quan trọng là sản xuất ra vốn nhân lực mà sẽ đ�
 | **tái tạo được**     | rừng  | chặt một cây, trồng cây khác vào vị trí đó          |
 | **không tái tạo được** | dầu mỏ | *"được tạo ra bởi tự nhiên qua hàng triệu năm"* |
 
-⚠️ **Tài nguyên KHÔNG phải điều kiện cần.** Sách nói thẳng (tr. 267):
+> [!warning] Tài nguyên KHÔNG phải điều kiện cần.
+> Sách nói thẳng (tr. 267):
 
+> [!quote]
 > *"Nhật Bản chẳng hạn, là một trong những nước giàu nhất thế giới, **mặc dù là một nước rất ít tài nguyên
 > thiên nhiên**. Thương mại toàn cầu làm nên sự thành công của Nhật Bản."*
 
@@ -317,6 +338,7 @@ có công việc quan trọng là sản xuất ra vốn nhân lực mà sẽ đ�
 
 ### ④ Kiến thức công nghệ — $A$
 
+> [!quote]
 > **Kiến thức công nghệ** (*technological knowledge*): sự hiểu biết của xã hội về phương cách tốt nhất để
 > sản xuất hàng hóa và dịch vụ. — chú thích tr. 267
 
@@ -327,10 +349,11 @@ Hai dạng (tr. 267):
 | **phổ biến**  | dây chuyền lắp ráp của Henry Ford — đối thủ bắt chước ngay |
 | **độc quyền** | công thức bí mật của Coca-Cola; bằng sáng chế thuốc (tạm thời) |
 
-### ⚠️ Phân biệt ② và ④ — chỗ hay bị hỏi thi
+### Phân biệt ② và ④ — chỗ hay bị hỏi thi
 
 Sách dùng một ẩn dụ rất gọn (tr. 268):
 
+> [!quote]
 > *"Kiến thức công nghệ đề cập đến sự hiểu biết của **xã hội** đối với sự vận động của thế giới. Vốn nhân
 > lực đề cập đến **nguồn lực được sử dụng để truyền đạt** sự hiểu biết đến người lao động. Có một ẩn dụ
 > hữu ích ở đây, kiến thức là **chất lượng những quyển sách giáo khoa** của xã hội, trong khi vốn nhân lực
@@ -344,7 +367,7 @@ Sách dùng một ẩn dụ rất gọn (tr. 268):
 
 ---
 
-## 7. 📚 Hàm sản xuất — sinh lợi không đổi theo quy mô
+## 7. Hàm sản xuất — sinh lợi không đổi theo quy mô
 
 Hộp *"Bạn có biết"* tr. 268 viết bốn yếu tố trên thành một phương trình.
 
@@ -360,11 +383,13 @@ $$Y = A \cdot F(L, K, H, N)$$
 | $F()$   | hàm biểu thị **cách thức** kết hợp các đầu vào            |
 | $A$     | **biến phản ánh tình trạng có công nghệ sản xuất**        |
 
+> [!quote]
 > *"Khi công nghệ cải thiện, A tăng, do đó nền kinh tế sản xuất nhiều sản lượng đầu ra từ bất kỳ kết hợp
 > đầu vào sẵn có."*
 
 ### Sinh lợi không đổi theo quy mô
 
+> [!quote]
 > **Sinh lợi không đổi theo quy mô**: tăng gấp đôi **tất cả** đầu vào dẫn đến sản lượng đầu ra cũng tăng gấp đôi.
 
 Viết bằng toán, với **mọi** số dương $x$:
@@ -386,6 +411,7 @@ $$\frac{Y}{L} = A \cdot F\left(1,\ \frac{K}{L},\ \frac{H}{L},\ \frac{N}{L}\right
    A     tình trạng công nghệ
 ```
 
+> [!quote]
 > *"…phương trình này cung cấp **bản tóm tắt toán học** của bốn yếu tố quyết định năng suất mà chúng ta
 > vừa thảo luận."* — tr. 268
 
@@ -399,6 +425,7 @@ thêm một đồng vốn nào. Đó là lý do mục 15 (nghiên cứu và phá
 
 Nghiên cứu tình huống tr. 268–269. Lập luận bi quan nghe rất thuyết phục:
 
+> [!quote]
 > *"Nếu như thế giới chỉ có nguồn cung cấp cố định về tài nguyên không thể tái sinh, làm thế nào dân số,
 > sản xuất và mức sống có thể tiếp tục tăng trưởng theo thời gian?"*
 
@@ -430,13 +457,15 @@ Câu đắt nhất (tr. 269): *"Sự tiến bộ công nghệ làm cho các lo�
 
 Thực tế quan sát được (tr. 269):
 
+> [!quote]
 > *"…trong thời gian dài, giá của hầu hết tài nguyên thiên nhiên (đã được điều chỉnh theo lạm phát) là
 > **ổn định hoặc giảm xuống**. Điều đó nghĩa là khả năng bảo vệ nguồn tài nguyên của chúng ta tăng lên
 > nhanh chóng hơn là nguồn cung của chúng đang giảm xuống. **Giá thị trường không cho thấy lý do để tin
 > rằng tài nguyên thiên nhiên làm hạn chế tăng trưởng kinh tế.**"*
 
-⚠️ Chú ý cụm **"đã được điều chỉnh theo lạm phát"** — đúng kỹ thuật của [bài 2 mục 9](bai_02_do_luong_chi_phi_sinh_hoat.md#9-chuyển-đổi-số-đô-la-giữa-các-thời-điểm).
-Nếu không khử lạm phát thì mọi giá đều "tăng", và bạn sẽ kết luận ngược.
+> [!warning]
+> Chú ý cụm **"đã được điều chỉnh theo lạm phát"** — đúng kỹ thuật của [bài 2 mục 9](bai_02_do_luong_chi_phi_sinh_hoat.md#9-chuyển-đổi-số-đô-la-giữa-các-thời-điểm).
+> Nếu không khử lạm phát thì mọi giá đều "tăng", và bạn sẽ kết luận ngược.
 
 ---
 
@@ -448,6 +477,7 @@ Từ đây sách chuyển sang câu hỏi chính sách: **chính phủ có thể
 
 Vì vốn là yếu tố **được sản xuất ra**, xã hội có thể tự chọn có bao nhiêu vốn. Nhưng (tr. 270):
 
+> [!quote]
 > *"Bởi vì nguồn lực là khan hiếm, đem nhiều nguồn lực để tạo ra vốn yêu cầu phải giảm bớt nguồn lực để
 > sản xuất hàng hóa và dịch vụ cho tiêu dùng hiện tại… **Sự tăng trưởng bắt nguồn từ việc tích lũy vốn
 > không phải là điều dễ dàng: nó đòi hỏi xã hội đó phải hy sinh tiêu dùng hàng hóa và dịch vụ trong hiện
@@ -459,6 +489,7 @@ Vì vốn là yếu tố **được sản xuất ra**, xã hội có thể tự 
 
 ![Hình 1 — tr. 271, bản chụp giáo trình](../tai_lieu/hinh/ch12-hinh-01-tr271.png)
 
+> [!quote]
 > **Sinh lợi giảm dần** (*diminishing returns*): đặc tính theo đó lợi ích từ một đơn vị tăng thêm của một
 > nhập lượng sản xuất giảm xuống khi số lượng nhập lượng đó gia tăng. — chú thích tr. 271
 
@@ -474,13 +505,15 @@ Mục 3 của [code minh hoạ](#20-code-minh-hoạ) vẽ lại hình này bằn
    thêm 20 vốn, từ 160 lên 180  →  sản lượng +0,9347
 ```
 
-⚠️ **Đọc cho đúng.** Sinh lợi giảm dần **không** có nghĩa là "đầu tư thêm thì lỗ". Đường cong vẫn **đi lên**
-— thêm vốn thì sản lượng vẫn tăng. Chỉ là **mỗi đơn vị vốn thêm vào đóng góp ít hơn đơn vị trước đó**.
+> [!warning] Đọc cho đúng.
+> Sinh lợi giảm dần **không** có nghĩa là "đầu tư thêm thì lỗ". Đường cong vẫn **đi lên**
+> — thêm vốn thì sản lượng vẫn tăng. Chỉ là **mỗi đơn vị vốn thêm vào đóng góp ít hơn đơn vị trước đó**.
 
 ---
 
 ## 10. Hiệu ứng đuổi kịp
 
+> [!quote]
 > **Hiệu ứng đuổi kịp** (*catch-up effect*): đặc tính mà theo đó các quốc gia khởi đầu còn nghèo có xu
 > hướng tăng trưởng nhanh hơn các quốc gia khởi đầu giàu có hơn. — chú thích tr. 271
 
@@ -514,14 +547,16 @@ công nghệ**, chỉ khác vốn ban đầu gấp 10 lần:
    năm 60:  khoảng cách sản lượng đã thu từ 46% lên 95%
 ```
 
-### ⭐ Ẩn dụ "Tiến bộ Nhất" của sách — tr. 272
+### Ẩn dụ "Tiến bộ Nhất" của sách — tr. 272
 
+> [!quote]
 > *"Khi nhà trường trao phần thưởng cuối năm cho học sinh **"Tiến bộ Nhất"**, đây thường sẽ là học sinh có
 > học lực **tương đối kém** vào đầu năm học. Những học sinh không học hành khi bắt đầu năm học dễ dàng đạt
 > được sự tiến bộ hơn những học sinh luôn học hành chăm chỉ."*
 
 Và câu kết rất tỉnh táo:
 
+> [!quote]
 > *"Lưu ý rằng điều đó là tốt để trở thành "Tiến bộ Nhất", với một điểm xuất phát cho trước, tuy nhiên
 > thậm chí sẽ là **tốt hơn khi trở thành "Học sinh Giỏi Nhất"**. Tương tự như vậy, tăng trưởng kinh tế
 > trong nhiều thập kỷ trước đã nhanh hơn rất nhiều ở Hàn Quốc, **nhưng GDP đầu người ở Hoa Kỳ vẫn cao hơn**."*
@@ -532,17 +567,19 @@ trì được bao lâu nữa trước khi sinh lợi giảm dần kéo nó xuố
 
 ---
 
-## 11. ⚠️ Tiết kiệm cao hơn cho mức cao hơn, không phải tăng trưởng mãi mãi
+## 11. Tiết kiệm cao hơn cho mức cao hơn, không phải tăng trưởng mãi mãi
 
 Đây là kết luận tinh tế nhất của cả chương, và câu hỏi ôn tập 6 (tr. 285) hỏi thẳng nó.
 
 Sách trả lời bằng một câu **in nghiêng** ở tr. 271:
 
+> [!quote]
 > *"**Trong dài hạn, tỷ lệ tiết kiệm cao hơn dẫn đến mức năng suất và thu nhập cao hơn nhưng không cao hơn
 > tăng trưởng của các biến này.**"*
 
 Lý do là sinh lợi giảm dần (tr. 271):
 
+> [!quote]
 > *"Khi tỷ lệ tiết kiệm cao hơn cho phép nhiều vốn hơn được tích lũy, thì các lợi ích từ vốn tăng thêm sẽ
 > trở nên **nhỏ hơn theo thời gian**, và do đó tăng trưởng giảm xuống."*
 
@@ -563,11 +600,12 @@ Mục 5 của [code minh hoạ](#20-code-minh-hoạ) chạy hai nền kinh tế 
    cột "chênh"     →  chênh lệch MỨC là 1,41 lần và VĨNH VIỄN
 ```
 
-⚠️ **Nhưng "dài hạn" ở đây rất dài.** Sách nhắc (tr. 271): *"tiếp cận trong dài hạn có thể mất nhiều thời
-gian… sự gia tăng tỷ lệ tiết kiệm có thể dẫn đến tăng trưởng cao hơn đáng kể trong khoảng thời gian **vài
-thập kỷ**."* Code xác nhận: **năm thứ 25** nước tiết kiệm 30% vẫn còn tăng 0,96%/năm so với 0,66%.
+> [!warning] Nhưng "dài hạn" ở đây rất dài.
+> Sách nhắc (tr. 271): *"tiếp cận trong dài hạn có thể mất nhiều thời
+> gian… sự gia tăng tỷ lệ tiết kiệm có thể dẫn đến tăng trưởng cao hơn đáng kể trong khoảng thời gian **vài
+> thập kỷ**."* Code xác nhận: **năm thứ 25** nước tiết kiệm 30% vẫn còn tăng 0,96%/năm so với 0,66%.
 
-### ⭐ Vậy cái gì tạo ra tăng trưởng bền vững?
+### Vậy cái gì tạo ra tăng trưởng bền vững?
 
 Mục 5 của code chạy thêm một thí nghiệm mà sách **không** làm: thay vì tăng tiết kiệm, cho $A$ tăng đều
 2%/năm.
@@ -579,7 +617,8 @@ Mục 5 của code chạy thêm một thí nghiệm mà sách **không** làm: t
    năm 100:  tăng 3,04%      ← KHÔNG hội tụ về 0
 ```
 
-⚠️ Chú ý con số giới hạn là **3%**, không phải 2%. Công thức đúng là:
+> [!warning]
+> Chú ý con số giới hạn là **3%**, không phải 2%. Công thức đúng là:
 
 $$g_y = \frac{g_A}{1 - \alpha} = \frac{2\%}{1 - 1/3} = 3\%$$
 
@@ -593,9 +632,10 @@ vòng này cộng dồn.
    CÔNG NGHỆ giải thích một nước TĂNG TRƯỞNG hay không  (tốc độ, dài hạn)
 ```
 
-💼 Áp cho doanh nghiệp: tăng tỷ lệ tái đầu tư từ 15% lên 30% lợi nhuận **không** đưa công ty vào quỹ đạo
-tăng trưởng cao vĩnh viễn. Nó đưa bạn lên một **quy mô** lớn hơn rồi tăng trưởng chậm về mức cũ. Muốn tăng
-trưởng cao bền vững thì phải đổi **cách làm**, không phải đổ thêm vốn.
+> [!example]
+> Áp cho doanh nghiệp: tăng tỷ lệ tái đầu tư từ 15% lên 30% lợi nhuận **không** đưa công ty vào quỹ đạo
+> tăng trưởng cao vĩnh viễn. Nó đưa bạn lên một **quy mô** lớn hơn rồi tăng trưởng chậm về mức cũ. Muốn tăng
+> trưởng cao bền vững thì phải đổi **cách làm**, không phải đổ thêm vốn.
 
 ---
 
@@ -608,11 +648,12 @@ Tiết kiệm trong nước không phải cách duy nhất để có vốn mới
 | **Đầu tư trực tiếp nước ngoài** | vốn đầu tư được **sở hữu và điều hành** bởi tổ chức nước ngoài   | Ford xây nhà máy xe hơi ở Mexico   |
 | **Đầu tư gián tiếp**            | vốn được tài trợ bởi tiền nước ngoài nhưng **do người trong nước điều hành** | người Mỹ mua cổ phiếu công ty Mexico |
 
-### ⚠️ Điểm mấu chốt: GDP tăng nhiều hơn GNP
+### Điểm mấu chốt: GDP tăng nhiều hơn GNP
 
-Đây là chỗ khái niệm ở [bài 1 mục 8](bai_01_do_luong_thu_nhap_quoc_gia.md#8--năm-thước-đo-thu-nhập-khác--hộp-theo-dòng-thời-sự-tr-222)
+Đây là chỗ khái niệm ở [bài 1 mục 8](bai_01_do_luong_thu_nhap_quoc_gia.md#8-năm-thước-đo-thu-nhập-khác--hộp-theo-dòng-thời-sự-tr-222)
 trở nên có ích thật sự (tr. 273):
 
+> [!quote]
 > *"Khi Ford mở nhà máy sản xuất xe hơi ở Mexico, một phần thu nhập của nhà máy tạo nên khoản tích lũy cho
 > những người không sống ở Mexico. Kết quả là, đầu tư trực tiếp nước ngoài ở Mexico gia tăng **thu nhập
 > của người Mexico (đo lường bằng GNP) ít hơn** là nó gia tăng **sản xuất ở Mexico (đo lường bằng GDP)**."*
@@ -628,18 +669,19 @@ trở nên có ích thật sự (tr. 273):
 Lý do thứ hai quan trọng hơn lý do thứ nhất — vì mục 11 đã chứng minh chỉ công nghệ mới tạo tăng trưởng
 bền vững.
 
-💼 Với người làm quản trị Việt Nam, đây là lập luận thực dụng nhất cho việc **làm nhà cung cấp cấp 1 cho
-FDI** thay vì chỉ cho thuê đất và bán lao động: chuyển giao công nghệ chỉ xảy ra khi có **tiếp xúc kỹ
-thuật thật sự**, không phải khi ký hợp đồng thuê xưởng.
+> [!example]
+> Với người làm quản trị Việt Nam, đây là lập luận thực dụng nhất cho việc **làm nhà cung cấp cấp 1 cho
+> FDI** thay vì chỉ cho thuê đất và bán lao động: chuyển giao công nghệ chỉ xảy ra khi có **tiếp xúc kỹ
+> thuật thật sự**, không phải khi ký hợp đồng thuê xưởng.
 
-### 📚 Ngân hàng Thế giới và IMF
-
-Sách kể nguồn gốc (tr. 273): cả hai được thành lập sau Chiến tranh Thế giới thứ II, với một động cơ chính
-trị rõ ràng:
-
-> *"Một bài học từ chiến tranh là **sự kiệt quệ của nền kinh tế thường dẫn đến bất ổn chính trị, căng thẳng
-> quốc tế và xung đột quân sự**. Do đó, mỗi một quốc gia phải có sự quan tâm đến việc thúc đẩy sự thịnh
-> vượng kinh tế trên toàn thế giới."*
+> [!note] Ngân hàng Thế giới và IMF
+>
+> Sách kể nguồn gốc (tr. 273): cả hai được thành lập sau Chiến tranh Thế giới thứ II, với một động cơ chính
+> trị rõ ràng:
+>
+> > *"Một bài học từ chiến tranh là **sự kiệt quệ của nền kinh tế thường dẫn đến bất ổn chính trị, căng thẳng
+> > quốc tế và xung đột quân sự**. Do đó, mỗi một quốc gia phải có sự quan tâm đến việc thúc đẩy sự thịnh
+> > vượng kinh tế trên toàn thế giới."*
 
 ---
 
@@ -651,12 +693,14 @@ Con số của sách: ở Hoa Kỳ, *"mỗi năm học ở trường làm tăng 
 trăm**"*. Và ở nước kém phát triển, nơi vốn nhân lực khan hiếm, *"khoảng cách giữa tiền lương của công nhân
 có học thức và công nhân không có học thức thậm chí còn lớn hơn"*.
 
-⚠️ **Giáo dục có chi phí cơ hội** (tr. 274): *"Khi những sinh viên ở trường học, họ **từ bỏ tiền lương** mà
-họ có thể kiếm được khi họ tham gia lực lượng lao động."* Đó là lý do trẻ em ở nước nghèo bỏ học sớm —
-không phải vì lợi ích thấp, mà vì *"sức lao động của những trẻ em này là cần thiết để giúp đỡ gia đình"*.
+> [!warning] Giáo dục có chi phí cơ hội
+> (tr. 274): *"Khi những sinh viên ở trường học, họ **từ bỏ tiền lương** mà
+> họ có thể kiếm được khi họ tham gia lực lượng lao động."* Đó là lý do trẻ em ở nước nghèo bỏ học sớm —
+> không phải vì lợi ích thấp, mà vì *"sức lao động của những trẻ em này là cần thiết để giúp đỡ gia đình"*.
 
-### ⭐ Vốn nhân lực tạo ngoại tác tích cực
+### Vốn nhân lực tạo ngoại tác tích cực
 
+> [!quote]
 > **Ngoại tác** là ảnh hưởng của hành động của một người lên lợi ích của người xung quanh. — tr. 274
 
 Cơ chế: *"Một người có học thức… có thể tạo ra các sáng kiến mới về cách thức tốt nhất để sản xuất ra sản
@@ -668,8 +712,9 @@ sản xuất ra $A$**. Và vì đó là ngoại tác, thị trường tự do s�
 kinh tế học chuẩn mực cho **trợ cấp giáo dục công**. (Ngoại tác bạn đã học ở
 [EG13 bài 14](../../eg13-kinhtevimo-micro/ly_thuyet/bai_14_thuong_mai_ngoai_tac_hang_hoa_cong.md).)
 
-### ⚠️ Chảy máu chất xám — thế tiến thoái lưỡng nan
+### Chảy máu chất xám — thế tiến thoái lưỡng nan
 
+> [!quote]
 > **Chảy máu chất xám**: sự di cư của những người lao động có trình độ học vấn cao nhất đến với các quốc
 > gia giàu, nơi mà những người lao động này có thể tận hưởng mức sống cao hơn. — tr. 274
 
@@ -717,10 +762,12 @@ ràng"* (tr. 275).
 
 ### Quyền sở hữu — tr. 275–276
 
+> [!note]
 > **Quyền sở hữu** đề cập đến khả năng của người dân thực hiện các quyền đối với các nguồn lực mà họ sở hữu.
 
 Cơ chế rất cụ thể (tr. 276):
 
+> [!quote]
 > *"Một công ty khai thác mỏ sẽ **không nỗ lực khai thác** quặng mỏ nếu như công ty đó kỳ vọng là số quặng
 > khai thác sẽ bị tước đoạt."*
 
@@ -728,9 +775,10 @@ Vai trò của toà án: *"thông qua hệ thống tư pháp hình sự, các t�
 Ngoài ra, thông qua hệ thống tư pháp dân sự, các tòa án bảo đảm người mua và người bán thực hiện những hợp
 đồng của họ."*
 
-⚠️ Và câu thẳng thắn nhất (tr. 276): *"Để kinh doanh ở một số quốc gia này, các công ty bị buộc phải **hối
-lộ** các quan chức chính phủ. Tham nhũng như vậy cản trở sức mạnh phối hợp của thị trường. Nó cũng không
-khuyến khích tiết kiệm trong nước và đầu tư nước ngoài."*
+> [!warning]
+> Và câu thẳng thắn nhất (tr. 276): *"Để kinh doanh ở một số quốc gia này, các công ty bị buộc phải **hối
+> lộ** các quan chức chính phủ. Tham nhũng như vậy cản trở sức mạnh phối hợp của thị trường. Nó cũng không
+> khuyến khích tiết kiệm trong nước và đầu tư nước ngoài."*
 
 ### Bất ổn chính trị — tr. 276
 
@@ -756,6 +804,7 @@ Sách đối lập hai chiến lược phát triển:
 
 ⭐ **Ẩn dụ Philadelphia** (tr. 277) — hay nhất chương:
 
+> [!quote]
 > *"Tổng GDP của Argentina… xấp xỉ GDP của Philadelphia. Tưởng tượng điều gì sẽ xảy ra nếu Hội đồng Thành
 > phố Philadelphia cấm các cư dân của thành phố giao dịch với người dân sống bên ngoài thành phố. Không có
 > lợi thế từ việc giao thương, Philadelphia sẽ cần phải sản xuất tất cả hàng hóa mà nó tiêu dùng… **Mức
@@ -763,30 +812,33 @@ Sách đối lập hai chiến lược phát triển:
 
 Và một câu định nghĩa lại thương mại (tr. 277):
 
+> [!quote]
 > *"Thương mại, trong một số phương cách, là **một dạng của công nghệ**. Khi một quốc gia xuất khẩu lúa mì
 > và nhập khẩu hàng may mặc, lợi ích của quốc gia tương tự như là việc quốc gia đó **phát minh ra công nghệ
 > chuyển lúa mì thành hàng may mặc**."*
 
-### 📚 Địa lý cũng quyết định — tr. 277
-
-| Yếu tố địa lý                                    | Hệ quả                                    |
-| ------------------------------------------------ | ----------------------------------------- |
-| có cảng biển tự nhiên                            | ngoại thương dễ → New York, San Francisco, Hồng Kông |
-| **>80% dân số sống trong 100 km từ đường thuỷ**  | GDP đầu người cao **gấp bốn lần** so với nước có <20% |
-| nằm sâu trong đất liền                           | thu nhập thấp hơn — *"giúp giải thích tại sao lục địa châu Phi… là nghèo đói"* |
-
-💼 Việt Nam có 3.260 km bờ biển và gần như toàn bộ dân số nằm trong bán kính đó. Theo tiêu chí này, địa lý
-là một **lợi thế đã có sẵn** — điều còn lại phụ thuộc vào các yếu tố ở mục 14 và 15.
+> [!note] Địa lý cũng quyết định — tr. 277
+>
+> | Yếu tố địa lý                                    | Hệ quả                                    |
+> | ------------------------------------------------ | ----------------------------------------- |
+> | có cảng biển tự nhiên                            | ngoại thương dễ → New York, San Francisco, Hồng Kông |
+> | **>80% dân số sống trong 100 km từ đường thuỷ**  | GDP đầu người cao **gấp bốn lần** so với nước có <20% |
+> | nằm sâu trong đất liền                           | thu nhập thấp hơn — *"giúp giải thích tại sao lục địa châu Phi… là nghèo đói"* |
+>
+> 💼 Việt Nam có 3.260 km bờ biển và gần như toàn bộ dân số nằm trong bán kính đó. Theo tiêu chí này, địa lý
+> là một **lợi thế đã có sẵn** — điều còn lại phụ thuộc vào các yếu tố ở mục 14 và 15.
 
 ---
 
 ## 15. Nghiên cứu và phát triển
 
+> [!quote]
 > *"Lý do chính mà mức sống ngày nay cao hơn so với cách đây một thế kỷ là do **kiến thức công nghệ đã tiến
 > bộ**."* — tr. 278
 
-### ⭐ Kiến thức là hàng hoá công
+### Kiến thức là hàng hoá công
 
+> [!quote]
 > *"Ở phạm vi rộng hơn, kiến thức là **hàng hóa công**: nghĩa là, một khi một người khám phá ra một ý tưởng,
 > ý tưởng đó được đưa vào kiến thức chung của nhân loại và những người khác được sử dụng **miễn phí**."* — tr. 278
 
@@ -802,12 +854,14 @@ Ba công cụ mà sách kể (tr. 278):
 
 ⭐ Cách sách mô tả bằng sáng chế là chính xác nhất mà tôi từng đọc (tr. 278):
 
+> [!quote]
 > *"Về bản chất, bằng sáng chế trao cho người phát minh quyền sở hữu đối với phát minh của mình, **chuyển
 > những ý tưởng của anh ta từ hàng hóa công sang hàng hóa tư**."*
 
-💼 Đây là toàn bộ logic của chiến lược sở hữu trí tuệ trong doanh nghiệp: bạn không đăng ký bằng sáng chế
-để "được công nhận", bạn đăng ký để **biến một thứ ai cũng dùng được thành một thứ chỉ bạn dùng được** —
-tạm thời, và đủ lâu để thu hồi chi phí R&D.
+> [!example]
+> Đây là toàn bộ logic của chiến lược sở hữu trí tuệ trong doanh nghiệp: bạn không đăng ký bằng sáng chế
+> để "được công nhận", bạn đăng ký để **biến một thứ ai cũng dùng được thành một thứ chỉ bạn dùng được** —
+> tạm thời, và đủ lâu để thu hồi chi phí R&D.
 
 ---
 
@@ -830,6 +884,7 @@ có thêm nhiều con, đặt áp lực lớn hơn lên khả năng sản xuất
 
 ⭐ **Malthus sai ở đâu?** (tr. 279)
 
+> [!quote]
 > *"…tăng trưởng trong sự khéo léo của con người đã bù đắp tác động của dân số đông hơn. Thuốc trừ sâu,
 > phân bón, thiết bị nông nghiệp được cơ giới hóa, sự đa dạng của giống mới và các tiến bộ công nghệ khác
 > **mà Malthus không bao giờ hình dung ra** đã cho phép một người nông dân nuôi sống được rất nhiều người khác."*
@@ -865,6 +920,7 @@ Số liệu đối chiếu (tr. 282):
 Các chính sách sách kể: hạn chế trực tiếp (Trung Quốc — một con), nâng nhận thức về kiểm soát sinh sản, và
 ⭐ một cách **dùng động cơ khuyến khích thay vì mệnh lệnh** (tr. 282):
 
+> [!quote]
 > *"Nuôi dạy đứa trẻ, giống như bất kỳ quyết định nào, cũng có chi phí cơ hội. Khi chi phí cơ hội tăng lên,
 > con người sẽ lựa chọn có gia đình nhỏ hơn. Cụ thể, phụ nữ có cơ hội tiếp cận giáo dục tốt và công việc
 > mong đợi có khuynh hướng muốn ít con hơn… Do đó, **các chính sách thúc đẩy đối xử bình đẳng giới có thể
@@ -891,6 +947,7 @@ trong hàng nghìn năm. Xếp hạng trình độ công nghệ năm **1500** (k
 |    4 | người nguyên thuỷ Tasmania            | *"không có dụng cụ đánh lửa và công cụ bằng đá và xương"* |
 |    — | **đảo Flinder** (giữa Tasmania và Úc) | nhỏ nhất — **xã hội loài người đã diệt vong hoàn toàn** khoảng 3000 năm trước CN |
 
+> [!quote]
 > *"Kremer kết luận, **một dân số lớn là điều kiện tiên quyết cho sự tiến bộ công nghệ**."*
 
 ⭐ Ba tác động trên **không mâu thuẫn** — chúng cùng tồn tại và cạnh tranh nhau. Đó là lý do câu hỏi *"dân
@@ -898,7 +955,7 @@ số đông là tốt hay xấu"* không có câu trả lời một chiều, và
 
 ---
 
-## 17. 📚 Điều gì làm một quốc gia giàu có? — Acemoglu, tr. 280–281
+## 17. Điều gì làm một quốc gia giàu có? — Acemoglu, tr. 280–281
 
 Bài của **Daron Acemoglu** (MIT), đăng trên *Esquire*, 18/11/2009. Nó xứng đáng đọc kỹ vì đây là câu trả
 lời hiện đại nhất trong cả chương.
@@ -917,12 +974,13 @@ người Triều Tiên, **40 lần** người Mali, Ethiopia, Congo hay Sierra L
 
 ### Câu trả lời của ông: **thể chế**
 
+> [!quote]
 > *"Họ bỏ qua các động cơ khuyến khích. Con người cần các động cơ khuyến khích để đầu tư và phát triển; họ
 > cần phải biết rằng nếu họ làm việc chăm chỉ, họ sẽ kiếm được tiền và thực sự giữ được tiền đó. **Và chìa
 > khóa để theo đuổi những động cơ khuyến khích này là các tổ chức có uy tín** – quy định của luật và an
 > ninh và hệ thống chính phủ nơi cung cấp các cơ hội để đạt được và đổi mới."*
 
-### ⭐ Nogales — thí nghiệm tự nhiên hoàn hảo, tr. 281
+### Nogales — thí nghiệm tự nhiên hoàn hảo, tr. 281
 
 Một thành phố bị **hàng rào biên giới Mexico–Hoa Kỳ** chia làm đôi:
 
@@ -950,11 +1008,13 @@ hoá bởi Ottomans rồi châu Âu, độc lập nhưng *"ngăn cấm này ngă
 
 ⭐ **Kết luận thực dụng nhất của bài:**
 
+> [!quote]
 > *"Một cách đơn giản: **Sửa đổi các động cơ khuyến khích và bạn sẽ chữa được đói nghèo. Và nếu bạn muốn
 > sửa đổi các động cơ khuyến khích, bạn cần sửa đổi chính phủ.**"*
 
-⚠️ Nhưng Acemoglu cũng thừa nhận giới hạn: *"Khả năng của chúng ta để áp đặt các thể chế từ bên ngoài là
-bị hạn chế, như kinh nghiệm của Hoa Kỳ gần đây ở Afghanistan và Iraq minh chứng."*
+> [!warning]
+> Nhưng Acemoglu cũng thừa nhận giới hạn: *"Khả năng của chúng ta để áp đặt các thể chế từ bên ngoài là
+> bị hạn chế, như kinh nghiệm của Hoa Kỳ gần đây ở Afghanistan và Iraq minh chứng."*
 
 📌 So mục 17 với mục 14: sách nói *"quyền sở hữu và ổn định chính trị"* như một chính sách **trong danh
 sách tám thứ**. Acemoglu nói nó là **thứ duy nhất thật sự quan trọng**, còn bảy thứ kia là hệ quả. Hai
@@ -962,7 +1022,7 @@ quan điểm không mâu thuẫn về sự kiện, chỉ khác nhau về **thứ
 
 ---
 
-## 18. 💼 Góc QTKD — sinh lợi giảm dần trên bảng cân đối của bạn
+## 18. Góc QTKD — sinh lợi giảm dần trên bảng cân đối của bạn
 
 ### ① Biết khi nào nên ngừng mua thiết bị
 
@@ -977,8 +1037,9 @@ Mục 9 của [code minh hoạ](#20-code-minh-hoạ) mô hình một xưởng ma
 |     20 |     3.672 |        183,6 |           94 |         170.800.000 |
 |     28 |     3.879 |        193,9 |           34 |         121.850.000 |
 
-⚠️ **Đọc cột "SP/công nhân": nó tăng đều suốt cả bảng.** Năng suất lao động cải thiện ở **mọi** dòng. Nhưng
-lợi nhuận đạt đỉnh ở 16 máy rồi giảm.
+> [!warning] Đọc cột "SP/công nhân": nó tăng đều suốt cả bảng.
+> Năng suất lao động cải thiện ở **mọi** dòng. Nhưng
+> lợi nhuận đạt đỉnh ở 16 máy rồi giảm.
 
 ⭐ **"Năng suất lao động tăng" không đồng nghĩa "nên mua thêm máy."** Từ một điểm trở đi, mỗi máy mới không
 trả nổi chi phí khấu hao của chính nó. Cột "SP tăng thêm" chính là **sinh lợi giảm dần** của mục 9, đo bằng
@@ -1005,7 +1066,7 @@ là thứ duy nhất mua được bằng tiền. Nhưng chỉ thay đổi **các
 Hệ quả cho việc đặt mục tiêu: **đừng dùng tốc độ tăng trưởng của một công ty nhỏ làm chuẩn (benchmark) cho
 công ty lớn, và ngược lại.** Chúng đang ở hai điểm khác nhau trên cùng một đường cong.
 
-### ④ ⚠️ Sai lầm hay gặp: nhầm "mức" với "tốc độ"
+### ④ Sai lầm hay gặp: nhầm "mức" với "tốc độ"
 
 Mục 11 là bài học chuyển giao trực tiếp nhất của cả chương:
 
@@ -1017,10 +1078,11 @@ Mục 11 là bài học chuyển giao trực tiếp nhất của cả chương:
 
 ---
 
-## 19. 📚 Đối chiếu Việt Nam
+## 19. Đối chiếu Việt Nam
 
-⚠️ **Cảnh báo:** số liệu dưới đây tôi ghi theo trí nhớ có giới hạn. **Hãy tra lại nguồn chính thức trước
-khi dùng vào báo cáo.** Cái đáng học ở mục này là **cách áp khung phân tích**.
+> [!warning] Cảnh báo:
+> số liệu dưới đây tôi ghi theo trí nhớ có giới hạn. **Hãy tra lại nguồn chính thức trước
+> khi dùng vào báo cáo.** Cái đáng học ở mục này là **cách áp khung phân tích**.
 
 ### Việt Nam là một ca hiệu ứng đuổi kịp điển hình
 
@@ -1032,8 +1094,9 @@ $$\frac{70}{7} = 10 \text{ năm để gấp đôi}$$
 Đó chính là biên độ của Hàn Quốc, Singapore, Đài Loan trong bảng ở mục 1 — và chính là hiệu ứng đuổi kịp:
 **xuất phát điểm rất thấp nên mỗi đơn vị vốn thêm vào sinh lợi rất cao.**
 
-⚠️ Nhưng nhớ ẩn dụ "Tiến bộ Nhất" của mục 10: tăng nhanh vì xuất phát thấp **không** giống với đã đuổi kịp.
-GDP đầu người Việt Nam vẫn còn cách rất xa nhóm nước thu nhập cao.
+> [!warning]
+> Nhưng nhớ ẩn dụ "Tiến bộ Nhất" của mục 10: tăng nhanh vì xuất phát thấp **không** giống với đã đuổi kịp.
+> GDP đầu người Việt Nam vẫn còn cách rất xa nhóm nước thu nhập cao.
 
 ### Bốn yếu tố của mục 6, áp cho Việt Nam
 
@@ -1044,7 +1107,7 @@ GDP đầu người Việt Nam vẫn còn cách rất xa nhóm nước thu nhậ
 | **Tài nguyên** $N/L$    | không phải điểm mạnh, và mục 6③ đã nói tài nguyên không phải điều kiện cần   |
 | **Công nghệ** $A$       | **nút thắt thật sự** — phần lớn giá trị công nghệ thuộc về khu vực FDI, chuyển giao còn hạn chế |
 
-### ⭐ "Bẫy thu nhập trung bình" đọc bằng ngôn ngữ của chương này
+### "Bẫy thu nhập trung bình" đọc bằng ngôn ngữ của chương này
 
 Cụm từ này không có trong sách Mankiw, nhưng mục 11 giải thích nó chính xác:
 
@@ -1066,14 +1129,16 @@ không phải vào việc xây thêm bao nhiêu km đường.
 Thế tiến thoái lưỡng nan ở mục 13 áp trực tiếp: du học sinh Việt Nam học ở hệ thống đại học tốt hơn (mặt
 tích cực), nhưng nếu phần lớn ở lại thì ngoại tác tích cực của vốn nhân lực rơi vào nước khác (mặt tiêu cực).
 
-💼 Với doanh nghiệp, điều này biến thành một câu hỏi rất cụ thể: **giữ người giỏi bằng lương hay bằng cơ hội
-làm việc thú vị?** Chương này gợi ý rằng cái quyết định dòng chảy chất xám giữa các quốc gia là **mức sống
-và cơ hội**, không chỉ tiền — và giữa các công ty cũng vậy.
+> [!example]
+> Với doanh nghiệp, điều này biến thành một câu hỏi rất cụ thể: **giữ người giỏi bằng lương hay bằng cơ hội
+> làm việc thú vị?** Chương này gợi ý rằng cái quyết định dòng chảy chất xám giữa các quốc gia là **mức sống
+> và cơ hội**, không chỉ tiền — và giữa các công ty cũng vậy.
 
 ---
 
 ## 20. Code minh hoạ
 
+> [!note]
 > ⚙️ **Chạy:** cần **Python 3.10+**. Lưu file rồi gõ `python3 bai-03-san-xuat-va-tang-truong.py`.
 > Không cần cài gói nào — chỉ dùng thư viện chuẩn. Kết quả **tất định**.
 > Bản đầy đủ nằm ở [`thuc_hanh/bai-03-san-xuat-va-tang-truong.py`](../thuc_hanh/bai-03-san-xuat-va-tang-truong.py).
@@ -1988,14 +2053,14 @@ Kết quả chạy thật:
 - **Đã kiểm chứng bằng code (mục 1 của file thực hành):** tính lại tốc độ tăng trưởng của **cả 13 dòng**
   Bảng 1 từ hai đầu mút bằng công thức lãi kép — **13/13 khớp đến hai chữ số thập phân**. Bảng đáng tin.
 - **Chỗ đã bổ sung ngoài sách (ghi rõ để không nhoè ranh giới):**
-  - Tên gọi **quy tắc 70** ở [mục 3](#3--quy-tắc-70--vì-sao-2năm-không-hề-nhỏ). Sách **dùng** quy tắc này
+  - Tên gọi **quy tắc 70** ở [mục 3](#3-quy-tắc-70--vì-sao-2năm-không-hề-nhỏ). Sách **dùng** quy tắc này
     ba lần (tr. 259 hai lần, tr. 282 một lần) nhưng không đặt tên và không đưa công thức.
   - Dạng cụ thể **Cobb–Douglas** $y = A k^{\alpha}$ và khái niệm **trạng thái dừng** ở mục 9–11. Sách chỉ vẽ
     Hình 1 định tính. Mọi kết luận rút ra từ mô phỏng đều **trùng khớp** với các mệnh đề sách phát biểu bằng
     lời ở tr. 271–272.
-  - Công thức tốc độ tăng trưởng giới hạn $g_y = g_A/(1-\alpha)$ ở [mục 11](#11--tiết-kiệm-cao-hơn-cho-mức-cao-hơn-không-phải-tăng-trưởng-mãi-mãi).
+  - Công thức tốc độ tăng trưởng giới hạn $g_y = g_A/(1-\alpha)$ ở [mục 11](#11-tiết-kiệm-cao-hơn-cho-mức-cao-hơn-không-phải-tăng-trưởng-mãi-mãi).
     Sách không đưa công thức này; nó được kiểm bằng mô phỏng trong code.
-  - Cụm **"bẫy thu nhập trung bình"** ở [mục 19](#19--đối-chiếu-việt-nam) không có trong sách — nhưng nó được
+  - Cụm **"bẫy thu nhập trung bình"** ở [mục 19](#19-đối-chiếu-việt-nam) không có trong sách — nhưng nó được
     giải thích **hoàn toàn bằng khái niệm của chương** (sinh lợi giảm dần của vốn).
 - **Liên hệ chéo:**
   - [Bài 1 — Đo lường thu nhập quốc gia](bai_01_do_luong_thu_nhap_quoc_gia.md), mục 8 — GDP so với GNP, dùng lại ở mục 12.

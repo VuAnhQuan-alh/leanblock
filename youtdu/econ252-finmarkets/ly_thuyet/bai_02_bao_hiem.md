@@ -1,5 +1,6 @@
 # Bảo hiểm — gộp rủi ro, và ba chỗ nó gãy
 
+> [!info] Về bài này
 > Bài học gộp **hai buổi** của khoá **Yale ECON 252 *Financial Markets*** (Xuân 2011):
 > **buổi 5 "Insurance, the Archetypal Risk Management Institution"** (YouTube `qfK9rCDCicE`, 73:13),
 > giảng viên **Robert J. Shiller**; và **buổi 14**, khách mời **Maurice "Hank" Greenberg**, cựu CEO
@@ -7,8 +8,10 @@
 > Mốc dạng `05 26:21` = **buổi 5, phút 26:21**; `14 34:54` = **buổi 14**. Mọi mốc đã đối chiếu
 > ngược với phụ đề gốc **của đúng buổi đó** bằng script.
 > Phần **📚 Mở rộng** và **🇻🇳 Góc Việt Nam** không có trong video.
-> ⚠️ **Video ghi Xuân 2011** — §11 đối chiếu với 2026, và §10 liệt kê bốn chỗ hai diễn giả nói sai.
-> 📌 **Đọc cùng:** [Bài 3 — Ngân hàng](bai_03_ngan_hang.md). Bài này tự dựng khái niệm **đồng bảo
+>
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
+>
+> **Đọc cùng:** [Bài 3 — Ngân hàng](bai_03_ngan_hang.md). Bài này tự dựng khái niệm **đồng bảo
 > hiểm** ở §4 nên đọc độc lập được; nhưng §9 và §12 đối chiếu thẳng với bảo hiểm tiền gửi ở bài 3, và
 > đọc hai bài cạnh nhau thì phần so sánh đó mới đủ sức.
 
@@ -18,14 +21,14 @@
 2. [Lá thư năm 1609 gửi Bá tước Oldenburg](#2-lá-thư-năm-1609-gửi-bá-tước-oldenburg)
 3. [Bảo hiểm là một phát minh, và phát minh thì có bản vẽ](#3-bảo-hiểm-là-một-phát-minh-và-phát-minh-thì-có-bản-vẽ)
 4. [Chỗ gãy thứ nhất và thứ hai — rủi ro đạo đức, lựa chọn ngược](#4-chỗ-gãy-thứ-nhất-và-thứ-hai--rủi-ro-đạo-đức-lựa-chọn-ngược)
-5. [📚 Chỗ gãy thứ ba — khi độc lập không còn](#5--chỗ-gãy-thứ-ba--khi-độc-lập-không-còn)
+5. [📚 Chỗ gãy thứ ba — khi độc lập không còn](#5-chỗ-gãy-thứ-ba--khi-độc-lập-không-còn)
 6. [AIG — chín mươi năm dựng, ba năm sập](#6-aig--chín-mươi-năm-dựng-ba-năm-sập)
 7. [Greenberg kể lại cùng câu chuyện, và không khớp](#7-greenberg-kể-lại-cùng-câu-chuyện-và-không-khớp)
 8. [Hai chẩn đoán, và vì sao cần cả hai](#8-hai-chẩn-đoán-và-vì-sao-cần-cả-hai)
 9. [Quỹ bảo lãnh — và mẹo chia nhỏ không dùng được](#9-quỹ-bảo-lãnh--và-mẹo-chia-nhỏ-không-dùng-được)
-10. [⚠️ Bốn chỗ video nói sai](#10--bốn-chỗ-video-nói-sai)
-11. [⚠️ Đối chiếu 2026](#11--đối-chiếu-2026)
-12. [🇻🇳 Góc Việt Nam — quỹ đã có, rồi bị bãi bỏ](#12--góc-việt-nam--quỹ-đã-có-rồi-bị-bãi-bỏ)
+10. [⚠️ Bốn chỗ video nói sai](#10-bốn-chỗ-video-nói-sai)
+11. [⚠️ Đối chiếu 2026](#11-đối-chiếu-2026)
+12. [🇻🇳 Góc Việt Nam — quỹ đã có, rồi bị bãi bỏ](#12-góc-việt-nam--quỹ-đã-có-rồi-bị-bãi-bỏ)
 13. [Chương trình](#13-chương-trình)
 14. [Từ điển thuật ngữ](#14-từ-điển-thuật-ngữ)
 15. [Câu hỏi tự kiểm tra](#15-câu-hỏi-tự-kiểm-tra)
@@ -61,10 +64,11 @@ Bán **một triệu**: gần như chắc chắn rơi vào 0,97%–1,03%.
 
 Cùng một rủi ro. Chỉ khác số lượng.
 
-📚 **Cách hiểu đúng về "gộp rủi ro".** Gộp rủi ro **không làm rủi ro biến mất** — tổng số nhà cháy
-mỗi năm vẫn thế. Cái nó làm biến mất là **vốn cần thiết**. [Mục 2 của chương trình](#13-chương-trình)
-đo bằng số: với 10 ngôi nhà, công ty phải giữ vốn dự trữ bằng **9,44 năm** tiền phí mới chịu được
-một năm xấu; với một triệu ngôi nhà, chỉ cần **0,03 năm** — tức 3% của một năm phí.
+> [!note] Cách hiểu đúng về "gộp rủi ro".
+> Gộp rủi ro **không làm rủi ro biến mất** — tổng số nhà cháy
+> mỗi năm vẫn thế. Cái nó làm biến mất là **vốn cần thiết**. [Mục 2 của chương trình](#13-chương-trình)
+> đo bằng số: với 10 ngôi nhà, công ty phải giữ vốn dự trữ bằng **9,44 năm** tiền phí mới chịu được
+> một năm xấu; với một triệu ngôi nhà, chỉ cần **0,03 năm** — tức 3% của một năm phí.
 
 Đó là toàn bộ mô hình kinh doanh, và nó giải thích vì sao ngành này luôn hướng tới quy mô lớn.
 
@@ -72,14 +76,16 @@ một năm xấu; với một triệu ngôi nhà, chỉ cần **0,03 năm** — 
 
 Shiller dẫn một đoạn trong ***De Caelo*** (`05 08:38`):
 
+> [!quote]
 > *"Thành công ở nhiều việc hoặc nhiều lần là khó. Chẳng hạn, ném ra cùng một mặt xúc xắc 10.000 lần
 > thì bất khả thi, còn ném trúng một hai lần thì tương đối dễ."*
 
 Shiller bình (`05 09:01`): Aristotle *"không có ngôn ngữ của xác suất, nhưng ông biết là ta không thể
 gieo xúc xắc 1.000 lần và ra cùng một số mỗi lần."*
 
-📚 Trực giác có trước công thức **hai nghìn năm**. Đó là mẫu hình lặp lại suốt cả bài này, và §2 là ví
-dụ rõ nhất.
+> [!note]
+> Trực giác có trước công thức **hai nghìn năm**. Đó là mẫu hình lặp lại suốt cả bài này, và §2 là ví
+> dụ rõ nhất.
 
 ---
 
@@ -100,6 +106,7 @@ quỹ, quỹ ấy xây lại nhà cho ai bị cháy.
 
 Rồi câu Shiller trích nguyên văn (`05 07:41`), và nó đáng đọc kỹ:
 
+> [!quote]
 > *"không nghi ngờ gì rằng điều đó sẽ được chứng minh đầy đủ, nếu tính số nhà bị lửa thiêu trong một
 > khu vực nhất định trong khoảng **30 năm**, thì tổn thất sẽ không hề lên tới số tiền thu được trong
 > thời gian đó."*
@@ -120,9 +127,10 @@ niệm bảo hiểm."*
 Điểm hoà vốn nằm **đúng** ở tỷ lệ cháy = mức phí = 1%/năm. Người viết năm 1609 đặt cược rằng nhà
 không cháy tới 1%/năm. **Ông ta đúng — nhưng không biết vì sao mình đúng.**
 
-📚 Chỗ ông ta thiếu là §1. Không phải chỉ cần tỷ lệ **trung bình** đủ thấp, mà còn cần **đủ nhiều
-nhà** để tỷ lệ **thực tế** không lệch xa trung bình. Một quỹ 10 nhà với $p = 1\%$ vẫn có thể vỡ ngay
-năm đầu tiên.
+> [!note]
+> Chỗ ông ta thiếu là §1. Không phải chỉ cần tỷ lệ **trung bình** đủ thấp, mà còn cần **đủ nhiều
+> nhà** để tỷ lệ **thực tế** không lệch xa trung bình. Một quỹ 10 nhà với $p = 1\%$ vẫn có thể vỡ ngay
+> năm đầu tiên.
 
 Và đó là lý do Shiller nhấn mốc **1600** (`05 06:39`): bảo hiểm chỉ thành ngành *"cùng lúc một số
 khái niệm toán học bắt đầu được phát triển. Đáng chú ý là khái niệm **xác suất** trở nên phổ biến hơn
@@ -132,8 +140,9 @@ Cũng thập niên ấy, người ta bắt đầu lập **bảng tử vong** l�
 `05 17:29`): *"Không có dữ liệu nào về tuổi lúc chết. Nó bắt đầu từ những năm 1600, vì người ta đang
 xây dựng một ngành bảo hiểm và họ cần biết những thứ đó."*
 
-📚 Thứ tự đáng nhớ: **trực giác (1609) → xác suất (1600s) → dữ liệu (1600s) → ngành**. Không phải
-ngược lại.
+> [!note]
+> Thứ tự đáng nhớ: **trực giác (1609) → xác suất (1600s) → dữ liệu (1600s) → ngành**. Không phải
+> ngược lại.
 
 ---
 
@@ -159,15 +168,17 @@ Rồi ông liệt kê **bản vẽ** — những gì một ngành bảo hiểm c
 
 Shiller giải thích khoản 6 kỹ nhất, và lập luận rất sắc (`05 18:26`):
 
+> [!quote]
 > *"Vấn đề của bảo hiểm là người ta sẽ đóng tiền vào trong rất, rất nhiều năm trước khi họ được nhận,
 > đúng không? Nhất là nếu bạn mua bảo hiểm nhân thọ, bạn hy vọng **không bao giờ** phải nhận. Và thế
 > thì bạn không biết được nó có chạy đúng hay không. Đó là lý do bạn cần quản lý nhà nước… **Nó không
 > chạy nếu không có cơ quan quản lý, vì bạn sẽ không tin công ty bảo hiểm.**"*
 
-📚 Đây là lập luận mạnh hơn vẻ ngoài, và nó khác lập luận quản lý ngân hàng ở [bài 3 §6](bai_03_ngan_hang.md#6-basel--tài-sản-có-rủi-ro-và-yêu-cầu-vốn).
-Ngân hàng bị quản lý vì **nhà nước bảo hiểm cho nó**, nên phải chặn rủi ro đạo đức. Bảo hiểm bị quản
-lý vì **sản phẩm của nó là một lời hứa 30 năm** mà người mua không có cách nào tự kiểm chứng. Hai lý
-do hoàn toàn khác nhau, dẫn tới hai bộ máy khác nhau — và §9 cho thấy chúng khác nhau tới mức nào.
+> [!note]
+> Đây là lập luận mạnh hơn vẻ ngoài, và nó khác lập luận quản lý ngân hàng ở [bài 3 §6](bai_03_ngan_hang.md#6-basel--tài-sản-có-rủi-ro-và-yêu-cầu-vốn).
+> Ngân hàng bị quản lý vì **nhà nước bảo hiểm cho nó**, nên phải chặn rủi ro đạo đức. Bảo hiểm bị quản
+> lý vì **sản phẩm của nó là một lời hứa 30 năm** mà người mua không có cách nào tự kiểm chứng. Hai lý
+> do hoàn toàn khác nhau, dẫn tới hai bộ máy khác nhau — và §9 cho thấy chúng khác nhau tới mức nào.
 
 Khoản 3 mới là chỗ đáng chú ý nhất. Shiller viết ra rồi tự đặt điều kiện lên nó (`05 17:05`): *"Cái
 này giả định độc lập. Nếu bạn không giả định độc lập, bạn có thể làm những mô hình phức tạp hơn."*
@@ -197,11 +208,12 @@ Hai cách chặn:
    phủ hết giá trị căn nhà thì *"chẳng có động cơ nào để đốt nó. Bán quách căn nhà đi còn hơn. Đốt
    làm gì nếu vẫn lỗ một ít."*
 
-📚 Cách thứ hai chính là **đồng bảo hiểm** — cùng cơ chế đã làm Northern Rock sụp ở
-[bài 3 §5](bai_03_ngan_hang.md#5-bảo-hiểm-tiền-gửi-và-bốn-lần-thử). Đáng chú ý là ở đây nó là **tính
-năng**, còn ở đó nó là **lỗi**. Khác biệt: bảo hiểm nhà cần người mua **giữ phần da thịt trong cuộc
-chơi**; bảo hiểm tiền gửi cần người gửi **không có lý do gì để xếp hàng**. Cùng một công cụ, hai mục
-tiêu ngược nhau. §12 cho thấy Việt Nam từng dùng nhầm chỗ.
+> [!note]
+> Cách thứ hai chính là **đồng bảo hiểm** — cùng cơ chế đã làm Northern Rock sụp ở
+> [bài 3 §5](bai_03_ngan_hang.md#5-bảo-hiểm-tiền-gửi-và-bốn-lần-thử). Đáng chú ý là ở đây nó là **tính
+> năng**, còn ở đó nó là **lỗi**. Khác biệt: bảo hiểm nhà cần người mua **giữ phần da thịt trong cuộc
+> chơi**; bảo hiểm tiền gửi cần người gửi **không có lý do gì để xếp hàng**. Cùng một công cụ, hai mục
+> tiêu ngược nhau. §12 cho thấy Việt Nam từng dùng nhầm chỗ.
 
 ### Lựa chọn ngược
 
@@ -232,7 +244,7 @@ Cân bằng: **29 trên 100 người** còn bảo hiểm. **71 người không c
 
 📌 **Không ai lừa dối ai. Không ai hành xử phi lý.** Người khoẻ rời bỏ vì phí cao hơn giá trị họ nhận
 được — đúng như thế. Đây là cùng một cấu trúc với bank run ở
-[bài 3 §3](bai_03_ngan_hang.md#3--diamonddybvig--vì-sao-một-ngân-hàng-lành-mạnh-vẫn-sập): **hành vi
+[bài 3 §3](bai_03_ngan_hang.md#3-diamonddybvig--vì-sao-một-ngân-hàng-lành-mạnh-vẫn-sập): **hành vi
 hợp lý của từng cá nhân phá huỷ định chế mà tất cả đều cần**.
 
 Buộc mọi người mua thì vòng xoáy biến mất: phí **505** cho cả 100 người — **rẻ hơn 41%** so với cân
@@ -241,9 +253,10 @@ bằng trên, **và phủ 100% dân số**.
 Đó chính là cơ chế Shiller mô tả ở `05 62:04`: *"bằng cách buộc mọi người đăng ký, công ty bảo hiểm
 không còn vấn đề chỉ người ốm mới đăng ký. Mọi người đều đăng ký, nên họ có thể hạ phí."*
 
-⚠️ Shiller nói rõ luật 2010 **không bắt buộc mua** (`05 61:39`) — nó **đánh thuế nếu không mua**,
-khoảng *"700 đô một năm"*. Về mặt kinh tế, mức phạt phải đủ lớn thì mới thay được lệnh bắt buộc; nếu
-phạt rẻ hơn phí, vòng xoáy vẫn chạy, chỉ chậm hơn.
+> [!warning]
+> Shiller nói rõ luật 2010 **không bắt buộc mua** (`05 61:39`) — nó **đánh thuế nếu không mua**,
+> khoảng *"700 đô một năm"*. Về mặt kinh tế, mức phạt phải đủ lớn thì mới thay được lệnh bắt buộc; nếu
+> phạt rẻ hơn phí, vòng xoáy vẫn chạy, chỉ chậm hơn.
 
 ### Rủi ro đạo đức trong y tế: bác sĩ
 
@@ -265,7 +278,7 @@ bắt buộc, chúng tôi làm trước."*
 
 ---
 
-## 5. 📚 Chỗ gãy thứ ba — khi độc lập không còn
+## 5. Chỗ gãy thứ ba — khi độc lập không còn
 
 Đây là chỗ gãy nguy hiểm nhất, và cũng là chỗ Shiller **nói qua nhanh nhất**. Ông nhắc điều kiện độc
 lập đúng một lần ở `05 17:05`, rồi dùng nó để chẩn đoán AIG ở `05 26:21` — nhưng không bao giờ đưa ra
@@ -296,8 +309,9 @@ trường hợp độc lập. Quy mô không cứu được gì.
 Và nhìn cột ρ = 0,01: chỉ **một phần trăm** tương quan cũng đủ để một triệu hợp đồng chỉ tốt ngang
 **một trăm** hợp đồng độc lập.
 
-📚 **Đây là chỗ để nhớ.** Ngành bảo hiểm không sợ $p$ lớn — $p$ lớn thì cứ tính phí cao lên. Nó sợ
-$\rho$ **khác không**, vì $\rho$ phá huỷ chính cơ chế mà cả ngành đứng trên.
+> [!note] Đây là chỗ để nhớ.
+> Ngành bảo hiểm không sợ $p$ lớn — $p$ lớn thì cứ tính phí cao lên. Nó sợ
+> $\rho$ **khác không**, vì $\rho$ phá huỷ chính cơ chế mà cả ngành đứng trên.
 
 Và điều này giải thích luôn một chi tiết Shiller nêu ở cuối buổi mà nhiều người coi là kỳ quặc
 (`05 67:02`): hợp đồng bảo hiểm truyền thống **loại trừ chiến tranh và khủng bố**. Lý do ông đưa
@@ -307,10 +321,11 @@ chiến tranh, các xác suất thiệt hại **không độc lập**."*
 Chiến tranh và khủng bố không bị loại trừ vì **lớn**. Chúng bị loại trừ vì **ρ ≈ 1**. Ở cột cuối
 bảng trên, ρ = 1 nghĩa là bán một triệu hợp đồng cũng bằng bán một hợp đồng.
 
-⚠️ Nhưng Shiller nêu luôn nghịch lý (`05 67:30`): *"hoá ra đây lại chính là những rủi ro mà ta lo
-lắng nhất."* Mỹ giải bằng **TRIA — Đạo luật Bảo hiểm Rủi ro Khủng bố, 2002** (`05 67:36`): buộc công
-ty bảo hiểm **phải chào** bảo hiểm khủng bố, đổi lại **chính phủ gánh phần lớn tổn thất** nếu xảy ra
-thảm hoạ quốc gia.
+> [!warning]
+> Nhưng Shiller nêu luôn nghịch lý (`05 67:30`): *"hoá ra đây lại chính là những rủi ro mà ta lo
+> lắng nhất."* Mỹ giải bằng **TRIA — Đạo luật Bảo hiểm Rủi ro Khủng bố, 2002** (`05 67:36`): buộc công
+> ty bảo hiểm **phải chào** bảo hiểm khủng bố, đổi lại **chính phủ gánh phần lớn tổn thất** nếu xảy ra
+> thảm hoạ quốc gia.
 
 Tức là: khi ρ tiến tới 1, thị trường không làm được nữa và **nhà nước trở thành người tái bảo hiểm
 cuối cùng**. Cùng kết luận với [bài 3 §5](bai_03_ngan_hang.md#5-bảo-hiểm-tiền-gửi-và-bốn-lần-thử) —
@@ -326,8 +341,9 @@ Ví dụ ông đưa: chính phủ Mexico phát hành trái phiếu tháng 5/2006
 có động đất lớn. Lý lẽ (`05 69:47`): *"Chính phủ Mexico không đủ lớn để quản lý rủi ro đó một cách
 hiệu quả. Tốt hơn là rủi ro được rải ra khắp thế giới."*
 
-⚠️ Shiller đọc quy mô đợt phát hành là **160 tỷ đô**. Con số thật là **160 triệu** — xem
-[§10](#10--bốn-chỗ-video-nói-sai).
+> [!warning]
+> Shiller đọc quy mô đợt phát hành là **160 tỷ đô**. Con số thật là **160 triệu** — xem
+> [§10](#10-bốn-chỗ-video-nói-sai).
 
 ---
 
@@ -352,8 +368,9 @@ lớp có biết HSBC nghĩa là gì không: **Hong Kong and Shanghai Banking Co
 Và ông tóm cả cấu trúc quản trị trong một câu (`05 22:28`): **hai người điều hành công ty này trong
 gần một thế kỷ.** Sau 2005, Greenberg được ba CEO kế nhiệm trong sáu năm — *"chuyện thường"*.
 
-⚠️ Shiller nói Starr bổ nhiệm Greenberg làm CEO **năm 1962**. Số học của chính ông ngay sau đó
-(49 năm + 37 năm) đòi mốc **1968** — xem [§10](#10--bốn-chỗ-video-nói-sai).
+> [!warning]
+> Shiller nói Starr bổ nhiệm Greenberg làm CEO **năm 1962**. Số học của chính ông ngay sau đó
+> (49 năm + 37 năm) đòi mốc **1968** — xem [§10](#10-bốn-chỗ-video-nói-sai).
 
 ### Dachau
 
@@ -363,19 +380,22 @@ Shiller kể một chuyện ngoài lề nhưng ông rõ ràng muốn lớp nghe 
 Rồi (`05 23:32`): tại một cuộc họp của Council on Foreign Relations, Greenberg gặp **Mahmoud
 Ahmadinejad**, tổng thống Iran. Ahmadinejad nói gì đó nghi ngờ Holocaust có thật hay không.
 
+> [!quote] 05 23:47
 > *"Greenberg đứng dậy phẫn nộ và nói: **nó đã xảy ra. Tôi đã thấy. Tôi đã ở đó.**"* (`05 23:47`)
 
 Shiller kể tiếp về Geoffrey Hartman, giáo sư văn học ở Yale, và vợ ông là Renee — bà từng ở một trại
 tập trung tại Bratislava và **bị bỏ đói tới chết**. Shiller hỏi bà vì sao họ bỏ đói bà. Bà trả lời
 (`05 24:46`): *"Chúng tôi không biết. Chúng tôi nghĩ có lẽ họ giữ chúng tôi làm con tin, hay gì đó."*
 
-📚 Đoạn này không có nội dung tài chính nào. Nhưng nó là lý do buổi 14 nặng ký: người sắp bước vào lớp
-không phải một CEO đọc slide.
+> [!note]
+> Đoạn này không có nội dung tài chính nào. Nhưng nó là lý do buổi 14 nặng ký: người sắp bước vào lớp
+> không phải một CEO đọc slide.
 
 ### Vì sao AIG sập — theo Shiller
 
 Chẩn đoán của Shiller rất dứt khoát (`05 26:21`):
 
+> [!quote]
 > *"Lý do họ phải được cứu, theo tôi, **gần như hoàn toàn là do một thất bại của giả định độc lập**."*
 
 Mô hình rủi ro của AIG cho rằng (`05 26:41`): *"không sao khi ta nhận rủi ro giá nhà giảm, vì giá nhà
@@ -400,6 +420,7 @@ chính phủ nhận cổ phiếu ưu đãi ở giá rất thấp.
 
 Rồi ông chỉ ra chỗ cơn giận **đúng** chỗ (`05 34:33`):
 
+> [!quote]
 > *"Cơn giận thật sự là ở chỗ **các đối tác kinh doanh của AIG không mất gì cả**, đáng chú ý là
 > **Goldman Sachs**, bên đứng phía kia của các hợp đồng với AIG. Nó **không mất một xu nào**."*
 
@@ -407,8 +428,9 @@ Vì sao chính phủ làm thế? Shiller đưa lý do khá phũ (`05 34:58`): ch
 Goldman Sachs có sập theo không — *"vì họ không có thông tin, vì cơ quan quản lý đã **không thu thập**
 loại thông tin đó."*
 
-📚 Ghi nhớ câu này. §7 cho thấy Greenberg đến lớp và nói **cùng một điều** về Goldman — nhưng với một
-kết luận khác hẳn.
+> [!note]
+> Ghi nhớ câu này. §7 cho thấy Greenberg đến lớp và nói **cùng một điều** về Goldman — nhưng với một
+> kết luận khác hẳn.
 
 ---
 
@@ -437,14 +459,16 @@ rủi ro đó hay không"* (`14 05:37`).
 
 **1. Đa dạng hoá địa lý là chiến lược, không phải hệ quả** (`14 12:43`):
 
+> [!quote]
 > *"ngành bảo hiểm tài sản và thương vong là một ngành rất biến động. Bạn chịu động đất. Bạn chịu bão.
 > Bạn chịu các môi trường kinh tế khác nhau… nên chúng tôi muốn đa dạng hoá không chỉ trong ngành tài
 > sản — thương vong, mà **trên toàn cầu**. Đó là lý do chúng tôi vào rất nhiều nước."*
 
-📚 Đọc câu đó cạnh §5 thì nó là **một chiến lược giảm ρ**. Greenberg không dùng chữ tương quan, nhưng
-ông đang mô tả chính xác việc đi tìm những rủi ro không cùng sập một lúc. Và điều đó làm những gì xảy
-ra sau 2005 càng đáng chú ý: AIG chuyển từ đa dạng hoá địa lý sang tập trung vào **một** rủi ro duy
-nhất — bất động sản Mỹ.
+> [!note]
+> Đọc câu đó cạnh §5 thì nó là **một chiến lược giảm ρ**. Greenberg không dùng chữ tương quan, nhưng
+> ông đang mô tả chính xác việc đi tìm những rủi ro không cùng sập một lúc. Và điều đó làm những gì xảy
+> ra sau 2005 càng đáng chú ý: AIG chuyển từ đa dạng hoá địa lý sang tập trung vào **một** rủi ro duy
+> nhất — bất động sản Mỹ.
 
 **2. Tỷ lệ chi phí** (`14 13:26`): ngành chạy ở khoảng **30%**; AIG chạy ở **19%**.
 
@@ -459,12 +483,14 @@ phiếu cho cá nhân theo hiệu quả, hai năm một lần, **nhận khi ngh�
 Chi tiết Greenberg nhấn (`14 24:55`): *"**Nó không tốn của AIG đồng nào.** Cổ đông đại chúng của AIG
 không phải gánh chi phí nào cho việc đó."*
 
-📚 Đây là một thiết kế đãi ngộ đáng phân tích, và nó ngược hẳn thông lệ ngày nay. Chi phí do **cổ đông
-kiểm soát** gánh, không phải cổ đông đại chúng. Nhưng nó cũng có mặt tối: nó khiến ban điều hành trung
-thành với **C.V. Starr**, không phải với AIG.
+> [!note]
+> Đây là một thiết kế đãi ngộ đáng phân tích, và nó ngược hẳn thông lệ ngày nay. Chi phí do **cổ đông
+> kiểm soát** gánh, không phải cổ đông đại chúng. Nhưng nó cũng có mặt tối: nó khiến ban điều hành trung
+> thành với **C.V. Starr**, không phải với AIG.
 
 **4. Mở cửa thị trường bằng chính phủ Mỹ** (`14 15:09`), và ông không hề vòng vo:
 
+> [!quote]
 > *"Chính phủ Mỹ rất ủng hộ chúng tôi, và nếu người Nhật không mở thị trường cho chúng tôi, chúng tôi
 > **làm việc rất tích cực để ngăn** một số công ty của họ làm ăn ở Mỹ… **Chúng tôi không ngần ngại
 > dùng chính phủ Mỹ** để hỗ trợ mong muốn mở cửa thị trường."*
@@ -489,9 +515,10 @@ Và chi tiết cay đắng nhất (`14 31:23`): Spitzer lên truyền hình qu�
 toán, rồi *"ngay trước Lễ Tạ ơn, ông ta **rút toàn bộ các cáo buộc**, vì chẳng ai đọc báo vào tối
 trước Lễ Tạ ơn."*
 
-⚠️ **Năm 2017, Greenberg thừa nhận ông đã khởi xướng hai giao dịch giả.** Xem
-[§11](#11--đối-chiếu-2026). Cả lời kể của ông **và** lời bênh vực của Shiller ở `05 25:49` đều không
-đứng vững.
+> [!warning] Năm 2017, Greenberg thừa nhận ông đã khởi xướng hai giao dịch giả.
+> Xem
+> [§11](#11-đối-chiếu-2026). Cả lời kể của ông **và** lời bênh vực của Shiller ở `05 25:49` đều không
+> đứng vững.
 
 **Về nguyên nhân sập**, Greenberg đưa một chuỗi nhân quả hoàn toàn khác Shiller:
 
@@ -506,6 +533,7 @@ trước Lễ Tạ ơn."*
 
 3. **Điều khoản bị đổi.** Đây là luận điểm trung tâm của Greenberg (`14 34:54`):
 
+> [!quote]
 > *"Ban đầu, những công cụ đó **phải vỡ nợ** trước khi một CDS phản ứng… Đến một lúc nào đó, điều đó
 > bị đổi, nên bạn không cần — công cụ đó **không cần vỡ nợ, nó chỉ cần mất giá**. Và bạn phải đặt thế
 > chấp… bằng đúng phần giá trị đã mất, **kể cả khi khoản lỗ đó chưa được hiện thực hoá**."*
@@ -599,11 +627,12 @@ Và ông đưa một dữ kiện kiểm chứng được (`14 62:06`): *"nếu b
 
 Cần **cả hai** mới ra được tháng 9/2008. Rủi ro thống kê và rủi ro hợp đồng nhân nhau, không cộng lại.
 
-📚 Đây cũng là lý do hai người có thể cùng đúng mà nghe như đang cãi nhau. Shiller trả lời câu hỏi
-*"khoản lỗ đến từ đâu?"*; Greenberg trả lời câu hỏi *"vì sao nó xảy ra nhanh đến thế?"*. Trong một
-cuộc khủng hoảng thanh khoản, câu thứ hai mới là câu giết người — đúng như
-[bài 3 §3](bai_03_ngan_hang.md#3--diamonddybvig--vì-sao-một-ngân-hàng-lành-mạnh-vẫn-sập) đã cho thấy
-với một ngân hàng thừa tài sản mà vẫn sập.
+> [!note]
+> Đây cũng là lý do hai người có thể cùng đúng mà nghe như đang cãi nhau. Shiller trả lời câu hỏi
+> *"khoản lỗ đến từ đâu?"*; Greenberg trả lời câu hỏi *"vì sao nó xảy ra nhanh đến thế?"*. Trong một
+> cuộc khủng hoảng thanh khoản, câu thứ hai mới là câu giết người — đúng như
+> [bài 3 §3](bai_03_ngan_hang.md#3-diamonddybvig--vì-sao-một-ngân-hàng-lành-mạnh-vẫn-sập) đã cho thấy
+> với một ngân hàng thừa tài sản mà vẫn sập.
 
 ---
 
@@ -649,11 +678,12 @@ Với quỹ bảo lãnh Connecticut: *"họ giới hạn bạn ở 500.000 đô,
 nơi FDIC **bắt buộc** họ phải treo biển rằng mình được bảo hiểm."* Rồi: *"Đó là lý do bạn không nghe
 nói về nó."*
 
-📚 **Khác biệt thứ ba không vô tình, và nó là chỗ hay nhất của mục này.** Bảo hiểm tiền gửi **phải
-được biết** mới chặn được bank run — công dụng của nó nằm ở chỗ nó **thay đổi kỳ vọng**, đúng như
-[bài 3 §5](bai_03_ngan_hang.md#5-bảo-hiểm-tiền-gửi-và-bốn-lần-thử). Quỹ bảo lãnh bảo hiểm thì **không
-có bank run nào để chặn**: không ai xếp hàng đòi rút hợp đồng nhân thọ. Nên nó im lặng được — và việc
-cấm quảng cáo còn giảm được rủi ro đạo đức, vì người mua buộc phải tự nhìn vào công ty bảo hiểm.
+> [!note] Khác biệt thứ ba không vô tình, và nó là chỗ hay nhất của mục này.
+> Bảo hiểm tiền gửi **phải
+> được biết** mới chặn được bank run — công dụng của nó nằm ở chỗ nó **thay đổi kỳ vọng**, đúng như
+> [bài 3 §5](bai_03_ngan_hang.md#5-bảo-hiểm-tiền-gửi-và-bốn-lần-thử). Quỹ bảo lãnh bảo hiểm thì **không
+> có bank run nào để chặn**: không ai xếp hàng đòi rút hợp đồng nhân thọ. Nên nó im lặng được — và việc
+> cấm quảng cáo còn giảm được rủi ro đạo đức, vì người mua buộc phải tự nhìn vào công ty bảo hiểm.
 
 Shiller rút ra đúng bài học ấy (`05 40:42`): *"bạn phải **nhìn vào công ty bảo hiểm** mà bạn mua bảo
 hiểm từ đó."*
@@ -676,13 +706,14 @@ mà AIG đã tạo ra.
 
 Và Shiller nói thẳng lý do tồn tại của nó (`05 46:01`), nối lại đúng §5:
 
+> [!quote]
 > *"họ chỉ đang nhìn vào vấn đề mà tôi đã nêu ở đầu buổi: **toàn bộ mô hình bảo hiểm giả định rủi ro
 > độc lập**, một dạng độc lập nào đó, để việc gộp rủi ro xảy ra được. Nhưng nếu nó không thực sự độc
 > lập thì việc gộp sẽ không thành công."*
 
 ---
 
-## 10. ⚠️ Bốn chỗ video nói sai
+## 10. Bốn chỗ video nói sai
 
 ### 10.1 Trái phiếu thảm hoạ Mexico là 160 **triệu**, không phải 160 **tỷ**
 
@@ -714,9 +745,10 @@ quản và điều hành tới 2005. Vậy là 37 năm dưới thời Greenberg.
 Greenberg ngồi trong lớp ba tuần sau cũng nói khác (`14 10:38`): *"tới **1967** tôi tạo ra AIG, đặt
 một công ty mẹ lên trên ba công ty này… **Starr mất năm 1968**, nhưng ông ấy đã thấy AIG khởi đầu."*
 
-📚 Chi tiết này quan trọng hơn vẻ ngoài: theo lời Greenberg, **AIG do chính ông tạo ra năm 1967**, chứ
-không phải do Starr sáng lập năm 1919. Cái Starr lập năm 1919 là **American Asiatic Underwriters**.
-Bảng lịch sử ở §6 đã dựng theo mốc đúng.
+> [!note]
+> Chi tiết này quan trọng hơn vẻ ngoài: theo lời Greenberg, **AIG do chính ông tạo ra năm 1967**, chứ
+> không phải do Starr sáng lập năm 1919. Cái Starr lập năm 1919 là **American Asiatic Underwriters**.
+> Bảng lịch sử ở §6 đã dựng theo mốc đúng.
 
 ### 10.3 "Financial Stability Oversight **Commission**" — thật ra là **Council**
 
@@ -739,7 +771,7 @@ Board**; chuẩn liên quan là **SFAS 157**, ban hành 2006.
 
 ---
 
-## 11. ⚠️ Đối chiếu 2026
+## 11. Đối chiếu 2026
 
 ### 11.1 Shiller nói Greenberg vô tội. Năm 2017 Greenberg thừa nhận
 
@@ -768,9 +800,10 @@ Tổng chưởng lý Schneiderman: vụ dàn xếp *"giải quyết một sự t
 9/2016, và kết thúc bằng lời thừa nhận. Đánh giá của Shiller năm 2011 — đưa ra một cách thiện chí, ba
 tuần trước khi mời Greenberg tới lớp — **đã sai**.
 
-📚 Bài học phương pháp, không phải bài học về nhân cách: **"cáo buộc chưa đứng vững" không đồng nghĩa
-với "vô tội"**, nó chỉ có nghĩa là **chưa xong**. Năm 2011 vụ việc còn 6 năm nữa mới kết thúc. Shiller
-đã chuyển một quy trình **đang chạy** thành một kết luận.
+> [!note]
+> Bài học phương pháp, không phải bài học về nhân cách: **"cáo buộc chưa đứng vững" không đồng nghĩa
+> với "vô tội"**, nó chỉ có nghĩa là **chưa xong**. Năm 2011 vụ việc còn 6 năm nữa mới kết thúc. Shiller
+> đã chuyển một quy trình **đang chạy** thành một kết luận.
 
 ### 11.2 Khoản cứu trợ được hoàn trả — và có lãi
 
@@ -788,7 +821,8 @@ lúc nào."* Con số của ông **đúng**.
 Trong 19 tháng, Bộ Tài chính bán 1.655.037.962 cổ phiếu — ban đầu là **92% của AIG**, đúng con số
 Greenberg đọc ở `14 43:03` — với giá trung bình 31,18 đô.
 
-⚠️ Hai lưu ý làm con số này bớt đẹp:
+> [!warning]
+> Hai lưu ý làm con số này bớt đẹp:
 
 1. **22,7 tỷ là con số danh nghĩa**, không chiết khấu cho bốn năm nắm giữ hay chi phí cơ hội của vốn.
 2. AIG đã chuyển **hơn 90 tỷ đô** tiền cứu trợ — quá nửa — cho các ngân hàng châu Âu và Phố Wall, gồm
@@ -812,9 +846,10 @@ C.V. Starr có **300 người**. Bây giờ khoảng **1.000 người**."*
   đồng CEO C.V. Starr.
 - Ông làm chủ tịch Quỹ Starr từ **1968 tới 2024**; quỹ đã tài trợ **hơn 3,8 tỷ đô**.
 
-📚 Từ 300 người lên 11,9 tỷ đô phí — làm trong độ tuổi từ 80 tới 99. Bất kể đánh giá thế nào về Gen Re
-và Capco, việc ông nói *"chúng tôi đang xây dựng nó trở lại"* ở tuổi 85 và **làm được** là dữ kiện
-đáng ghi.
+> [!note]
+> Từ 300 người lên 11,9 tỷ đô phí — làm trong độ tuổi từ 80 tới 99. Bất kể đánh giá thế nào về Gen Re
+> và Capco, việc ông nói *"chúng tôi đang xây dựng nó trở lại"* ở tuổi 85 và **làm được** là dữ kiện
+> đáng ghi.
 
 ### 11.4 Bảo hiểm y tế: điều Shiller dự đoán và điều đã xảy ra
 
@@ -828,12 +863,13 @@ bệnh có sẵn**.
 chế còn lại vẫn tồn tại. Theo mô hình vòng xoáy ở §4, bỏ ràng buộc mua mà giữ lệnh cấm từ chối bệnh có
 sẵn là **giữ nguyên chỗ gãy và bỏ đi cái nạng**.
 
-⚠️ Đây là suy luận từ mô hình, không phải dữ kiện thực nghiệm. Việc thị trường không sụp như mô hình
-dự đoán là một câu hỏi mở đáng theo — và là một bài tập tốt cho mục Tự thử.
+> [!warning]
+> Đây là suy luận từ mô hình, không phải dữ kiện thực nghiệm. Việc thị trường không sụp như mô hình
+> dự đoán là một câu hỏi mở đáng theo — và là một bài tập tốt cho mục Tự thử.
 
 ---
 
-## 12. 🇻🇳 Góc Việt Nam — quỹ đã có, rồi bị bãi bỏ
+## 12. Góc Việt Nam — quỹ đã có, rồi bị bãi bỏ
 
 Việt Nam từng có **đúng** cái Shiller mô tả ở §9: một quỹ bảo lãnh cho người mua bảo hiểm. Rồi bãi bỏ
 nó. Câu chuyện này soi thẳng vào lập luận của Shiller từ cả hai phía.
@@ -842,6 +878,7 @@ nó. Câu chuyện này soi thẳng vào lập luận của Shiller từ cả ha
 
 **Nghị định 73/2016/NĐ-CP, Điều 107**, với hợp đồng bảo hiểm nhân thọ:
 
+> [!note]
 > trả tối đa **90% mức trách nhiệm** của doanh nghiệp bảo hiểm nhân thọ, nhưng **không quá 200 triệu
 > đồng** / người được bảo hiểm / hợp đồng.
 
@@ -859,10 +896,11 @@ xem [bài 3 §5](bai_03_ngan_hang.md#5-bảo-hiểm-tiền-gửi-và-bốn-lần
 
 Cột "% mất" **không bao giờ bằng 0**. Kể cả hợp đồng nhỏ nhất cũng mất 10%.
 
-⚠️ Nhưng ở đây có một khác biệt so với bài 3 mà không được lẫn: **đồng bảo hiểm trong bảo hiểm tiền
-gửi là lỗi thiết kế** (nó cho người gửi lý do xếp hàng), còn **trong bảo hiểm nói chung nó là tính
-năng** (nó chặn rủi ro đạo đức — §4). Câu hỏi đúng phải là: quỹ bảo vệ người được bảo hiểm giống loại
-nào?
+> [!warning]
+> Nhưng ở đây có một khác biệt so với bài 3 mà không được lẫn: **đồng bảo hiểm trong bảo hiểm tiền
+> gửi là lỗi thiết kế** (nó cho người gửi lý do xếp hàng), còn **trong bảo hiểm nói chung nó là tính
+> năng** (nó chặn rủi ro đạo đức — §4). Câu hỏi đúng phải là: quỹ bảo vệ người được bảo hiểm giống loại
+> nào?
 
 Nó giống loại **thứ nhất**. Người mua bảo hiểm nhân thọ không thể gây ra việc doanh nghiệp bảo hiểm
 phá sản, nên không có rủi ro đạo đức nào để chặn. Cắt 10% chỉ có tác dụng **chuyển tổn thất sang người
@@ -895,7 +933,8 @@ thật — nó chỉ đủ cho một sự cố nhỏ.
 **Luật 2022, Điều 97:** doanh nghiệp bảo hiểm phải trích **quỹ dự trữ bắt buộc** — **5% lợi nhuận sau
 thuế** hằng năm, để **bổ sung vốn chủ sở hữu** và bảo đảm khả năng thanh toán.
 
-📚 Đây là một đảo chiều logic đáng phân tích:
+> [!note]
+> Đây là một đảo chiều logic đáng phân tích:
 
 |                          | Quỹ bảo lãnh (cũ)                       | Quỹ dự trữ (mới)                      |
 | ------------------------ | --------------------------------------- | ------------------------------------- |
@@ -918,7 +957,7 @@ quản lý, vì bạn sẽ không tin công ty bảo hiểm"*. Quỹ dự trữ 
 **người mua**. Nếu một doanh nghiệp vẫn sập — và §5 cho thấy ρ có thể làm bất kỳ ai sập — thì người
 mua giờ đứng sau **không** lớp đệm nào ngoài số dư cũ.
 
-### 🇻🇳 Câu hỏi để mở
+### Câu hỏi để mở
 
 **Một quỹ 12 năm không dùng tới là lãng phí, hay là bảo hiểm đã làm đúng việc của nó?**
 
@@ -940,6 +979,7 @@ cho nó lớn hơn**. Bản trình Quốc hội nêu lý do thứ nhất.
 
 ## 13. Chương trình
 
+> [!note]
 > ⚙️ **Chạy:** cần **Python 3.10+**. Lưu file rồi gõ `python3 bai-02-bao-hiem.py`. Không cần cài gói,
 > không đọc file ngoài, không gọi mạng. Kết quả **tất định**.
 
@@ -1197,20 +1237,20 @@ Yale ECON 252 (2011) buoi 5 va buoi 14 — Robert J. Shiller, Hank Greenberg
 Het. Moi assert da qua.
 ```
 
-### 💡 Tự thử
-
-1. **Ở mục 3, tìm mức ρ nhỏ nhất khiến một triệu hợp đồng chỉ tốt ngang một nghìn hợp đồng độc lập.**
-   Con số đó nhỏ đến mức nào? Nó nói gì về việc kiểm định giả định độc lập trong thực tế?
-2. **Ở mục 4, đổi `NGAI_RUI_RO_BP` từ 12.000 xuống 10.500** (người ta chỉ chịu trả 1,05 lần chi phí kỳ
-   vọng). Bao nhiêu người còn bảo hiểm? Rồi thử 15.000. Mức ngại rủi ro ảnh hưởng tới quy mô thị trường
-   thế nào?
-3. **Mô hình mức phạt.** Thêm vào mục 4 một khoản phạt `F` nếu không mua: người ta mua nếu
-   `phí − F ≤ 1,2 × chi phí kỳ vọng`. Tìm mức `F` nhỏ nhất để giữ được 100% dân số. So với mức 700 đô
-   Shiller nêu ở `05 61:39` — và với mức 0 đô hiện hành (§11.4).
-4. **Ở mục 5, tìm tỷ lệ vỡ nợ thực tế khiến hai thiết kế hợp đồng tốn ngang nhau.** Trên mức đó, thiết
-   kế nào đắt hơn? Kết quả có ủng hộ lập luận của Greenberg không?
-5. **Ở mục 7, tính lại nếu quỹ Việt Nam trả 100% thay vì 90%.** Mức trần 200 triệu chạm ở đâu? Và với
-   1.000 tỷ đồng, quỹ đủ cho bao nhiêu người?
+> [!example] Tự thử
+>
+> 1. **Ở mục 3, tìm mức ρ nhỏ nhất khiến một triệu hợp đồng chỉ tốt ngang một nghìn hợp đồng độc lập.**
+>    Con số đó nhỏ đến mức nào? Nó nói gì về việc kiểm định giả định độc lập trong thực tế?
+> 2. **Ở mục 4, đổi `NGAI_RUI_RO_BP` từ 12.000 xuống 10.500** (người ta chỉ chịu trả 1,05 lần chi phí kỳ
+>    vọng). Bao nhiêu người còn bảo hiểm? Rồi thử 15.000. Mức ngại rủi ro ảnh hưởng tới quy mô thị trường
+>    thế nào?
+> 3. **Mô hình mức phạt.** Thêm vào mục 4 một khoản phạt `F` nếu không mua: người ta mua nếu
+>    `phí − F ≤ 1,2 × chi phí kỳ vọng`. Tìm mức `F` nhỏ nhất để giữ được 100% dân số. So với mức 700 đô
+>    Shiller nêu ở `05 61:39` — và với mức 0 đô hiện hành (§11.4).
+> 4. **Ở mục 5, tìm tỷ lệ vỡ nợ thực tế khiến hai thiết kế hợp đồng tốn ngang nhau.** Trên mức đó, thiết
+>    kế nào đắt hơn? Kết quả có ủng hộ lập luận của Greenberg không?
+> 5. **Ở mục 7, tính lại nếu quỹ Việt Nam trả 100% thay vì 90%.** Mức trần 200 triệu chạm ở đâu? Và với
+>    1.000 tỷ đồng, quỹ đủ cho bao nhiêu người?
 
 ---
 

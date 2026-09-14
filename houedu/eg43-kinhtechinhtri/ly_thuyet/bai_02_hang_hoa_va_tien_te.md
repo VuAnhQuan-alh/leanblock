@@ -1,10 +1,13 @@
 # Bài 2 — Hàng hóa và tiền tệ
 
+> [!info] Về bài này
 > Bài học dựng từ **Chương 2, mục I** (tr. 35–55) của *Giáo trình Kinh tế chính trị Mác – Lênin* (hệ không chuyên),
 > Bộ Giáo dục và Đào tạo, **NXB Chính trị Quốc gia Sự thật, 2021** (chủ biên PGS.TS. Ngô Tuấn Nghĩa).
 > **Vòng 1.** Đây là **học thuyết giá trị** — nền móng của cả bộ *Tư bản*. Mạch: sản xuất hàng hóa → **hàng hóa và hai thuộc tính** → **tính hai mặt của lao động** → **lượng giá trị** → **tiền tệ**. Nắm chắc bài này mới hiểu được giá trị thặng dư ([bài 4](bai_04_gia_tri_thang_du_nguon_goc.md)).
 > **Ký hiệu:** **💼 Góc QTKD** = ví dụ cho ngành quản trị kinh doanh (ngoài sách, để dễ nhớ) · **📚 Mở rộng** = đào sâu ngoài sách · **⚠️** = chỗ dễ hiểu sai.
 > **Nên đọc trước:** [Bài 1](bai_01_doi_tuong_phuong_phap_chuc_nang.md).
+>
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
 
 ---
 
@@ -29,6 +32,7 @@
 
 ## 1. Sản xuất hàng hóa và hai điều kiện ra đời
 
+> [!quote] tr. 35
 > **Sản xuất hàng hóa** là kiểu tổ chức hoạt động kinh tế mà ở đó, những người sản xuất ra sản phẩm **nhằm mục đích trao đổi, mua bán** (chứ không phải để tự tiêu dùng). (tr. 35)
 
 Sản xuất hàng hóa **không** có sẵn từ đầu; nó ra đời khi hội đủ **hai điều kiện** (tr. 35–36):
@@ -40,21 +44,24 @@ Sản xuất hàng hóa **không** có sẵn từ đầu; nó ra đời khi hộ
 
 C. Mác: *"Chỉ có sản phẩm của những lao động tư nhân độc lập và không phụ thuộc vào nhau mới đối diện với nhau như là những hàng hóa"* (*Toàn tập*, t.23, tr.72; dẫn tr. 36).
 
-⚠️ Còn hai điều kiện này thì **không thể dùng ý chí chủ quan xóa bỏ** sản xuất hàng hóa; cố xóa sẽ dẫn tới **khan hiếm và khủng hoảng** (tr. 36). Đây là một lý do Việt Nam từ bỏ mô hình kế hoạch hóa tập trung.
+> [!warning]
+> Còn hai điều kiện này thì **không thể dùng ý chí chủ quan xóa bỏ** sản xuất hàng hóa; cố xóa sẽ dẫn tới **khan hiếm và khủng hoảng** (tr. 36). Đây là một lý do Việt Nam từ bỏ mô hình kế hoạch hóa tập trung.
 
-### 💼 Góc QTKD — vì sao có "thị trường" để mà kinh doanh
-
-- Toàn bộ nghề quản trị kinh doanh **tồn tại được là nhờ hai điều kiện này**: có **phân công lao động** (chuyên môn hóa) và **tách biệt sở hữu** (các doanh nghiệp độc lập về lợi ích) thì mới có mua – bán, mới có thị trường. Hiểu gốc này để thấy: xóa cạnh tranh/tách biệt sở hữu bằng mệnh lệnh thì thị trường "chết", đúng như cảnh báo khan hiếm – khủng hoảng.
+> [!example] Góc QTKD — vì sao có "thị trường" để mà kinh doanh
+>
+> - Toàn bộ nghề quản trị kinh doanh **tồn tại được là nhờ hai điều kiện này**: có **phân công lao động** (chuyên môn hóa) và **tách biệt sở hữu** (các doanh nghiệp độc lập về lợi ích) thì mới có mua – bán, mới có thị trường. Hiểu gốc này để thấy: xóa cạnh tranh/tách biệt sở hữu bằng mệnh lệnh thì thị trường "chết", đúng như cảnh báo khan hiếm – khủng hoảng.
 
 ---
 
 ## 2. Hàng hóa và hai thuộc tính
 
+> [!quote] tr. 37
 > **Hàng hóa** là **sản phẩm của lao động**, có thể **thỏa mãn nhu cầu** nào đó của con người **thông qua trao đổi, mua bán**. Hàng hóa có thể ở dạng **vật thể** (hữu hình) hoặc **phi vật thể** (vô hình). (tr. 37)
 
 Mỗi hàng hóa có **hai thuộc tính**:
 
 **a) Giá trị sử dụng** (tr. 37):
+> [!note]
 > **Giá trị sử dụng** là **công dụng** của sản phẩm, thỏa mãn một nhu cầu nào đó (vật chất hay tinh thần; cho tiêu dùng hay cho sản xuất). Nó do **thuộc tính tự nhiên** của vật quy định, chỉ thực hiện **trong tiêu dùng**, và là phạm trù **vĩnh viễn**.
 
 **b) Giá trị** — nhận biết qua **quan hệ trao đổi** (tr. 38–39). Đây là chỗ khó nhất, đi từng bước:
@@ -68,9 +75,11 @@ Hỏi: A và B công dụng khác hẳn nhau, sao trao đổi được theo tỷ
 → Cái chung đó (lao động xã hội kết tinh) chính là GIÁ TRỊ.
 ```
 
+> [!quote] tr. 39
 > **Giá trị là lao động xã hội của người sản xuất hàng hóa kết tinh trong hàng hóa.** (tr. 39)
 
-📚 **Phân biệt chặt ba khái niệm dễ lẫn** (tr. 39):
+> [!note] Phân biệt chặt ba khái niệm dễ lẫn
+> (tr. 39):
 
 | Khái niệm | Là gì | Quan hệ |
 | --- | --- | --- |
@@ -78,12 +87,13 @@ Hỏi: A và B công dụng khác hẳn nhau, sao trao đổi được theo tỷ
 | **Giá trị trao đổi** | tỷ lệ trao đổi giữa các hàng hóa (xA = yB) | **hình thức biểu hiện** ra bên ngoài của giá trị |
 | **Giá cả** | giá trị biểu hiện bằng **tiền** | biểu hiện bằng tiền của giá trị (mục 5) |
 
-⚠️ Giá trị là **phạm trù lịch sử** — chỉ có khi có sản xuất và trao đổi hàng hóa. Khi trao đổi, người ta **ngầm so sánh lao động** ẩn giấu trong hàng hóa với nhau (tr. 39).
+> [!warning]
+> Giá trị là **phạm trù lịch sử** — chỉ có khi có sản xuất và trao đổi hàng hóa. Khi trao đổi, người ta **ngầm so sánh lao động** ẩn giấu trong hàng hóa với nhau (tr. 39).
 
-### 💼 Góc QTKD — "công dụng" và "giá trị" là hai chuyện khác nhau
-
-- **Giá trị sử dụng ≠ giá trị.** Sản phẩm có công dụng tốt (giá trị sử dụng cao) **chưa chắc** bán được giá, nếu làm nó tốn ít lao động xã hội. Ngược lại, nhà quản trị phải làm **cả hai**: hoàn thiện *công dụng* để thị trường chấp nhận, và kiểm soát *hao phí lao động* để có lời.
-- ⚠️ **Giá trị sử dụng phải hướng tới người mua**, không phải người bán (tr. 37): thứ mày thấy hay chưa chắc khách cần — đây là gốc của tư duy *customer-centric*.
+> [!example] Góc QTKD — "công dụng" và "giá trị" là hai chuyện khác nhau
+>
+> - **Giá trị sử dụng ≠ giá trị.** Sản phẩm có công dụng tốt (giá trị sử dụng cao) **chưa chắc** bán được giá, nếu làm nó tốn ít lao động xã hội. Ngược lại, nhà quản trị phải làm **cả hai**: hoàn thiện *công dụng* để thị trường chấp nhận, và kiểm soát *hao phí lao động* để có lời.
+> - ⚠️ **Giá trị sử dụng phải hướng tới người mua**, không phải người bán (tr. 37): thứ mày thấy hay chưa chắc khách cần — đây là gốc của tư duy *customer-centric*.
 
 ---
 
@@ -96,13 +106,15 @@ Vì sao hàng hóa có **hai** thuộc tính? Vì **lao động sản xuất hà
 | **Lao động cụ thể** | lao động có ích dưới **một hình thức nghề nghiệp chuyên môn** nhất định (có mục đích, công cụ, phương pháp, kết quả riêng) | **giá trị sử dụng** | **tư nhân** (làm gì, làm sao là việc riêng mỗi chủ thể) |
 | **Lao động trừu tượng** | sự **hao phí sức lao động nói chung** (cơ bắp, thần kinh, trí óc), không kể hình thức cụ thể | **giá trị** | **xã hội** (mỗi lao động là một bộ phận của lao động xã hội) |
 
-📚 **Vì sao đây là "bước nhảy" so với Ricardo** (tr. 41): Ricardo **thấy** hàng hóa có hai thuộc tính nhưng **không giải thích được vì sao**. Mác chỉ ra: cùng **một** hoạt động lao động nhưng có **hai mặt** — nhờ đó phân tích khoa học được **sản xuất giá trị thặng dư** (bài 4). Đây chính là "chìa khóa" mà [bài 1](bai_01_doi_tuong_phuong_phap_chuc_nang.md) đã nhắc.
+> [!note] Vì sao đây là "bước nhảy" so với Ricardo
+> (tr. 41): Ricardo **thấy** hàng hóa có hai thuộc tính nhưng **không giải thích được vì sao**. Mác chỉ ra: cùng **một** hoạt động lao động nhưng có **hai mặt** — nhờ đó phân tích khoa học được **sản xuất giá trị thặng dư** (bài 4). Đây chính là "chìa khóa" mà [bài 1](bai_01_doi_tuong_phuong_phap_chuc_nang.md) đã nhắc.
 
-⚠️ **Mâu thuẫn cơ bản của sản xuất hàng hóa** = mâu thuẫn giữa **lao động tư nhân** và **lao động xã hội**. Biểu hiện: khi sản phẩm cá biệt **không hợp nhu cầu xã hội**, hoặc **hao phí cá biệt cao hơn** mức xã hội chấp nhận → hàng **không bán được** → hao phí lao động cá biệt *không được xã hội thừa nhận* → **nguy cơ khủng hoảng tiềm ẩn** (tr. 41–42).
+> [!warning] Mâu thuẫn cơ bản của sản xuất hàng hóa
+> = mâu thuẫn giữa **lao động tư nhân** và **lao động xã hội**. Biểu hiện: khi sản phẩm cá biệt **không hợp nhu cầu xã hội**, hoặc **hao phí cá biệt cao hơn** mức xã hội chấp nhận → hàng **không bán được** → hao phí lao động cá biệt *không được xã hội thừa nhận* → **nguy cơ khủng hoảng tiềm ẩn** (tr. 41–42).
 
-### 💼 Góc QTKD — "làm ra" chưa chắc "bán được"
-
-- **Lao động tư nhân vs xã hội** = mày sản xuất theo quyết định riêng (tư nhân), nhưng chỉ **thị trường** mới "thừa nhận" (xã hội). Làm ra hàng mà thị trường không cần, hoặc giá thành cao hơn đối thủ → **ế, lỗ**. Đây là bản chất kinh tế của **rủi ro thị trường** mà mọi doanh nghiệp gánh.
+> [!example] Góc QTKD — "làm ra" chưa chắc "bán được"
+>
+> - **Lao động tư nhân vs xã hội** = mày sản xuất theo quyết định riêng (tư nhân), nhưng chỉ **thị trường** mới "thừa nhận" (xã hội). Làm ra hàng mà thị trường không cần, hoặc giá thành cao hơn đối thủ → **ế, lỗ**. Đây là bản chất kinh tế của **rủi ro thị trường** mà mọi doanh nghiệp gánh.
 
 ---
 
@@ -110,9 +122,11 @@ Vì sao hàng hóa có **hai** thuộc tính? Vì **lao động sản xuất hà
 
 **Đo lượng giá trị bằng gì?** Bằng **thời gian lao động** — nhưng không phải thời gian của cá nhân, mà là **thời gian lao động xã hội cần thiết** (tr. 42):
 
+> [!quote] tr. 43
 > **Thời gian lao động xã hội cần thiết** là thời gian đòi hỏi để sản xuất ra một giá trị sử dụng trong **những điều kiện bình thường của xã hội**, với **trình độ thành thạo trung bình** và **cường độ lao động trung bình**. (tr. 43)
 
-⚠️ Ai sản xuất **nhanh hơn** mức trung bình (hao phí cá biệt < xã hội cần thiết) thì **thắng trong cạnh tranh** — bán theo giá trị xã hội nhưng tốn ít hơn. Đây là động lực đổi mới (tr. 43). Cấu thành: **giá trị 1 đơn vị hàng hóa = hao phí lao động quá khứ** (vật tư, nguyên liệu) **+ hao phí lao động mới** kết tinh thêm.
+> [!warning]
+> Ai sản xuất **nhanh hơn** mức trung bình (hao phí cá biệt < xã hội cần thiết) thì **thắng trong cạnh tranh** — bán theo giá trị xã hội nhưng tốn ít hơn. Đây là động lực đổi mới (tr. 43). Cấu thành: **giá trị 1 đơn vị hàng hóa = hao phí lao động quá khứ** (vật tư, nguyên liệu) **+ hao phí lao động mới** kết tinh thêm.
 
 ### Ba nhân tố ảnh hưởng đến lượng giá trị
 
@@ -137,7 +151,8 @@ GỐC:            8h lao động → 8 sản phẩm
 
 Chốt: **tăng năng suất** làm **giảm giá trị mỗi đơn vị** (tổng không đổi); **tăng cường độ** **không đổi** giá trị mỗi đơn vị (chỉ tăng tổng lượng, thực chất như tăng thời gian lao động).
 
-📚 Các nhân tố làm tăng **năng suất** (tr. 44): trình độ khéo léo của người lao động; mức phát triển & áp dụng **khoa học – công nghệ**; sự kết hợp xã hội của sản xuất; quy mô & hiệu suất tư liệu sản xuất; điều kiện tự nhiên.
+> [!note]
+> Các nhân tố làm tăng **năng suất** (tr. 44): trình độ khéo léo của người lao động; mức phát triển & áp dụng **khoa học – công nghệ**; sự kết hợp xã hội của sản xuất; quy mô & hiệu suất tư liệu sản xuất; điều kiện tự nhiên.
 
 **③ Tính chất phức tạp của lao động** (tr. 45):
 
@@ -146,13 +161,14 @@ Chốt: **tăng năng suất** làm **giảm giá trị mỗi đơn vị** (tổ
 | Định nghĩa | không cần đào tạo hệ thống cũng làm được | phải qua **đào tạo** kỹ năng, nghiệp vụ chuyên môn |
 | Trong cùng thời gian | tạo **ít** giá trị | tạo **nhiều** giá trị hơn |
 
+> [!quote]
 > **Lao động phức tạp là lao động giản đơn được nhân bội lên** (tr. 45–46) — trong cùng một đơn vị thời gian, lao động phức tạp tạo ra nhiều giá trị hơn.
 
-### 💼 Góc QTKD — công thức gốc của lợi thế chi phí và bậc lương
-
-- **Năng suất ↑ → giá trị đơn vị ↓ → giá thành ↓** = đây chính là **lợi thế chi phí (cost leadership)**: doanh nghiệp nào đẩy năng suất (công nghệ, quy trình) trên mức trung bình ngành thì **hao phí cá biệt thấp hơn**, bán giá thị trường mà lời hơn — hoặc hạ giá để chiếm thị phần.
-- **Cường độ ≠ năng suất** = vắt sức nhân viên (tăng cường độ) chỉ tăng *tổng sản lượng* chứ **không hạ giá thành đơn vị**, lại mau kiệt sức. Muốn bền phải tăng **năng suất** (đầu tư công cụ, kỹ năng), không phải "cày" nhiều hơn.
-- **Lao động phức tạp = giản đơn nhân bội** = cơ sở lý luận để **trả lương theo tính chất công việc**: việc đòi đào tạo/chuyên môn cao tạo nhiều giá trị hơn nên **thù lao cao hơn** — logic của thang bảng lương và chính sách nhân tài.
+> [!example] Góc QTKD — công thức gốc của lợi thế chi phí và bậc lương
+>
+> - **Năng suất ↑ → giá trị đơn vị ↓ → giá thành ↓** = đây chính là **lợi thế chi phí (cost leadership)**: doanh nghiệp nào đẩy năng suất (công nghệ, quy trình) trên mức trung bình ngành thì **hao phí cá biệt thấp hơn**, bán giá thị trường mà lời hơn — hoặc hạ giá để chiếm thị phần.
+> - **Cường độ ≠ năng suất** = vắt sức nhân viên (tăng cường độ) chỉ tăng *tổng sản lượng* chứ **không hạ giá thành đơn vị**, lại mau kiệt sức. Muốn bền phải tăng **năng suất** (đầu tư công cụ, kỹ năng), không phải "cày" nhiều hơn.
+> - **Lao động phức tạp = giản đơn nhân bội** = cơ sở lý luận để **trả lương theo tính chất công việc**: việc đòi đào tạo/chuyên môn cao tạo nhiều giá trị hơn nên **thù lao cao hơn** — logic của thang bảng lương và chính sách nhân tài.
 
 ---
 
@@ -172,9 +188,11 @@ Giá trị **trừu tượng**, không nhìn thấy được; nó chỉ **bộc 
      (vật ngang giá chung THỐNG NHẤT, cố định vào vàng)
 ```
 
+> [!quote] tr. 48
 > **Bản chất của tiền:** tiền là **một loại hàng hóa đặc biệt**, kết quả của quá trình phát triển sản xuất và trao đổi, được **tách ra làm vật ngang giá chung thống nhất** cho thế giới hàng hóa; tiền là **hình thái biểu hiện giá trị** của hàng hóa và phản ánh **quan hệ giữa những người sản xuất hàng hóa**. (tr. 48)
 
-⚠️ Vàng làm được tiền **vì bản thân vàng có giá trị** (cũng là sản phẩm của lao động), không phải do "quy ước" thuần túy (khác cách kinh tế học mô tả — Hộp 2.2, tr. 48).
+> [!warning]
+> Vàng làm được tiền **vì bản thân vàng có giá trị** (cũng là sản phẩm của lao động), không phải do "quy ước" thuần túy (khác cách kinh tế học mô tả — Hộp 2.2, tr. 48).
 
 **Năm chức năng của tiền** (tr. 49–51):
 
@@ -186,12 +204,13 @@ Giá trị **trừu tượng**, không nhìn thấy được; nó chỉ **bộc 
 | **4. Phương tiện thanh toán** | trả nợ, mua chịu; gắn với **tín dụng** | nhiều hình thức; nay có tiền ghi sổ, thẻ, tiền điện tử |
 | **5. Tiền tệ thế giới** | mua bán, thanh toán quốc tế | phải đủ giá trị / đồng tiền được quốc tế công nhận |
 
-⚠️ Chức năng **phương tiện lưu thông** và **thanh toán** làm hành vi mua tách rời hành vi bán (về không gian, thời gian) → **tiềm ẩn khả năng khủng hoảng** (tr. 50).
+> [!warning]
+> Chức năng **phương tiện lưu thông** và **thanh toán** làm hành vi mua tách rời hành vi bán (về không gian, thời gian) → **tiềm ẩn khả năng khủng hoảng** (tr. 50).
 
-### 💼 Góc QTKD — giá cả xoay quanh giá trị, và quản trị tiền mặt
-
-- **Giá cả = biểu hiện bằng tiền của giá trị**, dao động quanh giá trị do **cung – cầu, giá trị của tiền** (tr. 49). Định giá sản phẩm phải bám **giá trị (hao phí lao động xã hội)** làm neo, cung – cầu chỉ làm nó lên xuống quanh neo đó.
-- **Năm chức năng của tiền** ánh xạ thẳng vào **quản trị tài chính**: thước đo (kế toán, định giá) · lưu thông (dòng tiền vận hành) · cất trữ (dự trữ, quỹ) · thanh toán (công nợ, tín dụng thương mại) · tiền thế giới (thanh toán xuất nhập khẩu, tỷ giá).
+> [!example] Góc QTKD — giá cả xoay quanh giá trị, và quản trị tiền mặt
+>
+> - **Giá cả = biểu hiện bằng tiền của giá trị**, dao động quanh giá trị do **cung – cầu, giá trị của tiền** (tr. 49). Định giá sản phẩm phải bám **giá trị (hao phí lao động xã hội)** làm neo, cung – cầu chỉ làm nó lên xuống quanh neo đó.
+> - **Năm chức năng của tiền** ánh xạ thẳng vào **quản trị tài chính**: thước đo (kế toán, định giá) · lưu thông (dòng tiền vận hành) · cất trữ (dự trữ, quỹ) · thanh toán (công nợ, tín dụng thương mại) · tiền thế giới (thanh toán xuất nhập khẩu, tỷ giá).
 
 ---
 
@@ -210,11 +229,11 @@ Phần này (tr. 52–55) là giáo trình **làm rõ thêm** những thứ th�
 | **Cầu thủ bóng đá** (chuyển nhượng) | thực chất mua bán **sức lao động**; giá cao do **tài năng khan hiếm** + **lợi ích kỳ vọng** của câu lạc bộ |
 | **Chứng khoán, chứng quyền, giấy tờ có giá** | Mác gọi là **"tư bản giả"** — phân biệt với tư bản thực trong sản xuất. Có đặc trưng như hàng hóa, sinh thu nhập, nhưng **phải dựa trên một tổ chức sản xuất – kinh doanh có thực** |
 
-### 💼 Góc QTKD — định giá thương hiệu, đầu cơ và "tư bản giả"
-
-- **Thương hiệu là tài sản thật nhưng phải có "ruột"** = định giá thương hiệu (brand valuation) có cơ sở, nhưng thương hiệu chỉ đắt khi **đứng trên sản phẩm/dịch vụ thực**. Thương hiệu rỗng ruột thì bong bóng.
-- **"Giá trị" vs "của cải" trong đầu cơ đất** = một người lời nhờ lướt đất là **chênh lệch chuyển túi**, không tạo giá trị mới cho xã hội. Bài học quản trị vĩ mô: nền kinh tế **giàu thật** nhờ **sản xuất**, không nhờ thổi giá tài sản.
-- **"Tư bản giả" (chứng khoán)** = thị trường tài chính chỉ lành mạnh khi **neo vào doanh nghiệp thực**; tách rời khỏi nền sản xuất thực thì thành đầu cơ và **rủi ro khủng hoảng** (nối lại "mua – bán tách rời → khủng hoảng tiềm ẩn" ở mục 3, 5).
+> [!example] Góc QTKD — định giá thương hiệu, đầu cơ và "tư bản giả"
+>
+> - **Thương hiệu là tài sản thật nhưng phải có "ruột"** = định giá thương hiệu (brand valuation) có cơ sở, nhưng thương hiệu chỉ đắt khi **đứng trên sản phẩm/dịch vụ thực**. Thương hiệu rỗng ruột thì bong bóng.
+> - **"Giá trị" vs "của cải" trong đầu cơ đất** = một người lời nhờ lướt đất là **chênh lệch chuyển túi**, không tạo giá trị mới cho xã hội. Bài học quản trị vĩ mô: nền kinh tế **giàu thật** nhờ **sản xuất**, không nhờ thổi giá tài sản.
+> - **"Tư bản giả" (chứng khoán)** = thị trường tài chính chỉ lành mạnh khi **neo vào doanh nghiệp thực**; tách rời khỏi nền sản xuất thực thì thành đầu cơ và **rủi ro khủng hoảng** (nối lại "mua – bán tách rời → khủng hoảng tiềm ẩn" ở mục 3, 5).
 
 ---
 

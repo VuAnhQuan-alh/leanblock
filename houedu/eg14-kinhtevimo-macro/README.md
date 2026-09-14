@@ -11,7 +11,7 @@ Tệp: `tai_lieu/Kinh te hoc Vi mo (MacroEconomics)_Mankiw.pdf`.
 > trang mở đầu chương 10.)
 
 > ⚠️ **Tên tệp PDF ghi nhầm.** Nó ghi *"Kinh te hoc **Vi mo** (MacroEconomics)"* — nội dung là **vĩ mô**.
-> Giữ nguyên tên tệp để không làm hỏng liên kết. Xem [bài 0 mục 3](ly_thuyet/bai_00_tu_vi_mo_sang_vi_mo.md#3--hai-chỗ-dễ-gây-nhầm-ngay-từ-đầu).
+> Giữ nguyên tên tệp để không làm hỏng liên kết. Xem [bài 0 mục 3](ly_thuyet/bai_00_tu_vi_mo_sang_vi_mo.md#3-hai-chỗ-dễ-gây-nhầm-ngay-từ-đầu).
 
 ---
 
@@ -63,7 +63,7 @@ thứ **xảy đến với bạn**. Vì thế mục tiêu học cũng khác:
 ### Và ba điều về **cách** học
 
 **1. Vĩ mô là hai bộ mô hình, không phải một.** Sách nói thẳng điều này bằng ẩn dụ viên đá và quả bóng
-(tr. 29–30, xem [bài 0 mục 11](ly_thuyet/bai_00_tu_vi_mo_sang_vi_mo.md#11--vai-trò-của-giả-định--vì-sao-vĩ-mô-có-hai-bộ-mô-hình)):
+(tr. 29–30, xem [bài 0 mục 11](ly_thuyet/bai_00_tu_vi_mo_sang_vi_mo.md#11-vai-trò-của-giả-định--vì-sao-vĩ-mô-có-hai-bộ-mô-hình)):
 
 |              | Giả định về giá cả | Kết luận về "in tiền"                      | Bài   |
 | ------------ | ------------------ | ------------------------------------------ | ----- |

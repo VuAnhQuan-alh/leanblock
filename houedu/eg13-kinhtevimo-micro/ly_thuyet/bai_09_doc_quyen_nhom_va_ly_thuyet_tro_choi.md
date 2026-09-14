@@ -1,15 +1,17 @@
 # Bài 9 — Độc quyền nhóm và lý thuyết trò chơi
 
+> [!info] Về bài này
 > Bài học dựng từ **Chương 17 — Độc quyền nhóm** (tr. 391–420)
 > của *N. Gregory Mankiw — **Kinh tế học vi mô***, bản dịch của Khoa Kinh tế, **ĐH Kinh tế TP.HCM** (Cengage Learning Asia).
-> 🎯 **Vòng 1.** Ba bài trước, doanh nghiệp nhìn đường cầu rồi tự quyết một mình.
+>
+> **Vòng 1.** Ba bài trước, doanh nghiệp nhìn đường cầu rồi tự quyết một mình.
 > Bài này là bài đầu tiên trong đó **đối thủ nhìn lại bạn**: quyết định của bạn thay đổi
 > lợi nhuận của họ, và họ biết điều đó. Đây cũng là chương duy nhất của sách dạy
 > **lý thuyết trò chơi** — bộ công cụ dùng được xa ngoài phạm vi kinh tế học.
-> 💼 **Góc QTKD** — ví dụ thêm cho ngành quản trị kinh doanh, **không có trong sách**.
-> 📚 **Mở rộng** — thứ sách nói lướt hoặc chỉ nêu kết quả mà không chứng minh.
-> ⚠️ — chỗ dễ hiểu sai, hoặc chỗ sách in sai.
-> 📌 **Cần đọc trước:** [Bài 6](bai_06_thi_truong_canh_tranh.md) và [Bài 7](bai_07_doc_quyen_va_phan_biet_gia.md)
+>
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
+>
+> **Cần đọc trước:** [Bài 6](bai_06_thi_truong_canh_tranh.md) và [Bài 7](bai_07_doc_quyen_va_phan_biet_gia.md)
 > — bài này đặt độc quyền nhóm **vào giữa** hai bài đó và đo xem nó nằm ở đâu.
 
 ---
@@ -23,18 +25,18 @@
 - [3. Ba kết cục của cùng một thị trường](#3-ba-kết-cục-của-cùng-một-thị-trường)
 - [4. Cân bằng Nash và vì sao cartel không giữ được](#4-cân-bằng-nash-và-vì-sao-cartel-không-giữ-được)
 - [5. Số người bán tăng — hiệu ứng lượng đấu hiệu ứng giá](#5-số-người-bán-tăng--hiệu-ứng-lượng-đấu-hiệu-ứng-giá)
-- [6. 📚 Nghiệm Cournot — chứng minh công thức tổng quát](#6--nghiệm-cournot--chứng-minh-công-thức-tổng-quát)
+- [6. Nghiệm Cournot — chứng minh công thức tổng quát](#6-nghiệm-cournot--chứng-minh-công-thức-tổng-quát)
 - [7. Tình thế tiến thoái lưỡng nan của người tù và chiến lược thống soái](#7-tình-thế-tiến-thoái-lưỡng-nan-của-người-tù-và-chiến-lược-thống-soái)
 - [8. Bốn hoàn cảnh, một cấu trúc](#8-bốn-hoàn-cảnh-một-cấu-trúc)
 - [9. Nghiên cứu tình huống — OPEC](#9-nghiên-cứu-tình-huống--opec)
 - [10. Tiến thoái lưỡng nan có phải lúc nào cũng xấu không](#10-tiến-thoái-lưỡng-nan-có-phải-lúc-nào-cũng-xấu-không)
 - [11. Trò chơi lặp — vì sao đôi khi người ta vẫn hợp tác](#11-trò-chơi-lặp--vì-sao-đôi-khi-người-ta-vẫn-hợp-tác)
-- [12. 📚 Hệ số chiết khấu — hợp tác bền khi nào](#12--hệ-số-chiết-khấu--hợp-tác-bền-khi-nào)
+- [12. Hệ số chiết khấu — hợp tác bền khi nào](#12-hệ-số-chiết-khấu--hợp-tác-bền-khi-nào)
 - [13. Giải đấu Axelrod và ăn miếng trả miếng](#13-giải-đấu-axelrod-và-ăn-miếng-trả-miếng)
 - [14. Một lần lỡ tay — chỗ sách chỉ nói bằng lời](#14-một-lần-lỡ-tay--chỗ-sách-chỉ-nói-bằng-lời)
 - [15. Chính sách chống độc quyền](#15-chính-sách-chống-độc-quyền)
 - [16. Ba hành vi gây tranh cãi](#16-ba-hành-vi-gây-tranh-cãi)
-- [17. 💼 Cuộc chiến giảm giá — kiểm tra chứ không giả định](#17--cuộc-chiến-giảm-giá--kiểm-tra-chứ-không-giả-định)
+- [17. Cuộc chiến giảm giá — kiểm tra chứ không giả định](#17-cuộc-chiến-giảm-giá--kiểm-tra-chứ-không-giả-định)
 - [18. Code minh hoạ](#18-code-minh-hoạ)
 - [19. Tự thử](#19-tự-thử)
 - [20. Từ điển thuật ngữ](#20-từ-điển-thuật-ngữ)
@@ -50,17 +52,20 @@
 
 Sách mở chương bằng quả bóng tennis (tr. 391):
 
+> [!quote]
 > *"Nếu bạn tới một cửa hàng bóng tennis, những quả bóng mà bạn mua rất có thể sẽ thuộc một trong
 > những nhãn hiệu sau: Wilson, Penn, Dunlop hoặc là Spalding. Bốn công ty này sản xuất gần như
 > toàn bộ số lượng bóng tennis trên thị trường Hoa Kỳ."*
 
 Định nghĩa in ở chân trang 391:
 
+> [!note]
 > **Độc quyền nhóm** *(oligopoly)*: một cấu trúc thị trường mà trong đó chỉ có một số ít người bán,
 > bán các sản phẩm tương tự hoặc gần như tương tự nhau.
 
 Điểm mấu chốt nằm ở câu tiếp theo, và nó là **lý do chương này cần một bộ công cụ mới**:
 
+> [!quote]
 > *"hành động của bất cứ người bán nào trên thị trường này cũng có thể có tác động lớn lên lợi nhuận
 > của tất cả những người bán hàng còn lại."*
 
@@ -75,6 +80,7 @@ So sánh với ba bài trước để thấy chỗ đứt gãy:
 
 Sách nói thẳng ra rằng chính vì thế mà nó phải giới thiệu một ngành học khác (tr. 391):
 
+> [!quote]
 > **Lý thuyết trò chơi** *(game theory)*: là nghiên cứu về việc con người sẽ hành xử như thế nào
 > trong các tình huống chiến lược.
 >
@@ -84,6 +90,7 @@ Sách nói thẳng ra rằng chính vì thế mà nó phải giới thiệu mộ
 
 Và đặc điểm chính của toàn chương, gói trong một câu ở tr. 391:
 
+> [!quote]
 > *"một đặc điểm chính của thị trường độc quyền nhóm là **sự đối nghịch giữa việc hợp tác và lợi ích
 > cá nhân**."*
 
@@ -96,6 +103,7 @@ Cả chương chỉ là câu đó, được đo bằng số.
 Để giữ mọi thứ đếm được, sách hạ độc quyền nhóm xuống trường hợp nhỏ nhất — **hai người bán**, gọi là
 **thị trường nhị quyền** *(duopoly)*, và cho họ một công việc không tốn gì cả (tr. 392):
 
+> [!quote]
 > *"Giả sử trong một thị trấn chỉ có hai cư dân là Jack và Jill sở hữu các giếng nước sạch có thể
 > dùng cho sinh hoạt… hãy giả sử rằng Jack và Jill có thể bơm bao nhiêu nước tùy thích mà không tốn
 > một đồng chi phí nào. Điều đó có nghĩa là **chi phí biên của nước bằng 0**."*
@@ -131,9 +139,10 @@ $$P = 120 - Q$$
 Có công thức rồi thì không cần đọc bảng nữa — tính được **mọi** mức sản lượng, kể cả những mức sách
 không in. Code ở [mục 18](#18-code-minh-hoạ) dựng lại cả 13 dòng và kiểm **13/13 khớp**.
 
-⚠️ Đừng nhầm cột "tổng doanh thu" này với **doanh thu biên** ở [bài 7](bai_07_doc_quyen_va_phan_biet_gia.md).
-Ở đây là *tổng*. Doanh thu biên là *chênh lệch giữa hai dòng liên tiếp*, và nó **âm** từ dòng 70 gallon
-trở đi — đó chính là lý do đỉnh nằm ở 60.
+> [!warning]
+> Đừng nhầm cột "tổng doanh thu" này với **doanh thu biên** ở [bài 7](bai_07_doc_quyen_va_phan_biet_gia.md).
+> Ở đây là *tổng*. Doanh thu biên là *chênh lệch giữa hai dòng liên tiếp*, và nó **âm** từ dòng 70 gallon
+> trở đi — đó chính là lý do đỉnh nằm ở 60.
 
 ---
 
@@ -152,10 +161,12 @@ và bán hết 120 gallon. Sách gọi đó là *"mức sản lượng hiệu qu
 
 **Cartel** (tr. 393): định nghĩa ở chân trang là
 
+> [!note]
 > **Sự cấu kết** *(collusion)*: thỏa thuận giữa các doanh nghiệp trong một thị trường về sản lượng và
 > giá bán.
 > **Cartel**: một nhóm các doanh nghiệp hoạt động vì mục tiêu chung.
 
+> [!quote]
 > *"Khi một cartel được hình thành, thì thực chất thị trường chỉ được cung ứng bởi một doanh nghiệp
 > độc quyền, và chúng ta có thể áp dụng những phân tích như trong Chương 15."*
 
@@ -164,6 +175,7 @@ mặc áo hai người.
 
 **Nhị quyền** rơi vào **đúng giữa**. Đó là kết luận in nghiêng của sách ở tr. 395:
 
+> [!quote]
 > *"khi mỗi doanh nghiệp trong thị trường độc quyền nhóm chọn mức sản lượng để tối đa hóa lợi nhuận,
 > họ sẽ sản xuất ở một mức **lớn hơn** mức sản lượng của doanh nghiệp độc quyền, nhưng **thấp hơn**
 > mức sản lượng của doanh nghiệp cạnh tranh. Giá của doanh nghiệp độc quyền nhóm **thấp hơn** giá độc
@@ -188,38 +200,39 @@ Sách dẫn ra kết quả 40–40 bằng cách để Jack tự lẩm bẩm (tr.
 Hai dòng đầu **đẩy** Jack từ 30 lên 40. Dòng cuối **giữ chân** anh ta lại ở đó. Chỗ mà không ai còn
 muốn nhúc nhích chính là định nghĩa (tr. 394):
 
+> [!note]
 > **Cân bằng Nash** *(Nash equilibrium)*: một tình huống mà ở đó các tác nhân kinh tế khi tương tác
 > với những tác nhân khác, mỗi bên sẽ lựa chọn chiến lược tốt nhất **sau khi biết đối phương đã chọn
 > những chiến lược của họ**.
 
 Tên là của **John Nash**, và sách nhắc luôn rằng cuộc đời ông là nội dung phim *A Beautiful Mind*.
 
-### 📚 Chứng minh thay vì tin
-
-Sách dẫn tới (40, 40) bằng lời kể. Code làm ngược lại: **quét toàn bộ 13 × 13 tổ hợp** và hỏi ở mỗi
-điểm rằng có ai muốn đổi ý không. Kết quả thật sự thú vị hơn câu chuyện:
-
-- Có **4 điểm suy biến** ở góc (110–120, 110–120). Ở đó tổng sản lượng đã vượt 120 nên **giá bằng 0**,
-  và ai bơm bao nhiêu cũng lãi 0 — mọi lựa chọn đều "tối ưu" một cách vô nghĩa. Loại chúng bằng điều
-  kiện lợi nhuận > 0.
-- Sau khi loại, vẫn còn **ba** điểm chứ không phải một: (30, 50), **(40, 40)**, (50, 30).
-
-⚠️ Ba điểm này **không phải lỗi của sách** — chúng là hệ quả của việc sách đi từng bước 10 gallon.
-Khi đối phương bơm 30 thì bơm 40 (được 40 × $50) và bơm 50 (được 50 × $40) **lãi y hệt nhau, $2.000**.
-Thắt lưới nhỏ lại thì cụm co lại ngay:
-
-| Bước lưới | Cân bằng Nash tìm được           |
-| --------: | -------------------------------- |
-|    10 gal | (30, 50), **(40, 40)**, (50, 30) |
-|     5 gal | (35, 45), **(40, 40)**, (45, 35) |
-|     2 gal | (38, 42), **(40, 40)**, (42, 38) |
-|     1 gal | (39, 41), **(40, 40)**, (41, 39) |
-
-Cụm luôn là $(40-h,\ 40+h)$, $(40, 40)$, $(40+h,\ 40-h)$ với $h$ đúng bằng bước lưới. Lưới càng mịn,
-cụm càng siết về **(40, 40)** — cân bằng Nash thật sự của trò chơi liên tục.
-
-Bài học phương pháp: **khi một cân bằng "biến mất" hoặc "nhân lên", hãy nghi ngờ độ mịn của lưới
-trước khi nghi ngờ mô hình.**
+> [!note] Chứng minh thay vì tin
+>
+> Sách dẫn tới (40, 40) bằng lời kể. Code làm ngược lại: **quét toàn bộ 13 × 13 tổ hợp** và hỏi ở mỗi
+> điểm rằng có ai muốn đổi ý không. Kết quả thật sự thú vị hơn câu chuyện:
+>
+> - Có **4 điểm suy biến** ở góc (110–120, 110–120). Ở đó tổng sản lượng đã vượt 120 nên **giá bằng 0**,
+>   và ai bơm bao nhiêu cũng lãi 0 — mọi lựa chọn đều "tối ưu" một cách vô nghĩa. Loại chúng bằng điều
+>   kiện lợi nhuận > 0.
+> - Sau khi loại, vẫn còn **ba** điểm chứ không phải một: (30, 50), **(40, 40)**, (50, 30).
+>
+> ⚠️ Ba điểm này **không phải lỗi của sách** — chúng là hệ quả của việc sách đi từng bước 10 gallon.
+> Khi đối phương bơm 30 thì bơm 40 (được 40 × $50) và bơm 50 (được 50 × $40) **lãi y hệt nhau, $2.000**.
+> Thắt lưới nhỏ lại thì cụm co lại ngay:
+>
+> | Bước lưới | Cân bằng Nash tìm được           |
+> | --------: | -------------------------------- |
+> |    10 gal | (30, 50), **(40, 40)**, (50, 30) |
+> |     5 gal | (35, 45), **(40, 40)**, (45, 35) |
+> |     2 gal | (38, 42), **(40, 40)**, (42, 38) |
+> |     1 gal | (39, 41), **(40, 40)**, (41, 39) |
+>
+> Cụm luôn là $(40-h,\ 40+h)$, $(40, 40)$, $(40+h,\ 40-h)$ với $h$ đúng bằng bước lưới. Lưới càng mịn,
+> cụm càng siết về **(40, 40)** — cân bằng Nash thật sự của trò chơi liên tục.
+>
+> Bài học phương pháp: **khi một cân bằng "biến mất" hoặc "nhân lên", hãy nghi ngờ độ mịn của lưới
+> trước khi nghi ngờ mô hình.**
 
 ### Vì sao cartel thua
 
@@ -227,6 +240,7 @@ Cartel cho mỗi bên $1.800, cân bằng Nash chỉ cho $1.600. Cả hai đều
 **không phải cân bằng** — ở điểm (30, 30), Jack nhìn sang thấy bơm 40 được $2.000. Sách còn thêm hai
 lý do thực tế nữa (tr. 394):
 
+> [!quote]
 > *"Mâu thuẫn về việc phân chia lợi nhuận giữa các thành viên trong thị trường này khiến cho việc đạt
 > được các thỏa thuận trở nên khó khăn hơn. Ngoài ra, **các bộ luật chống độc quyền cũng nghiêm cấm
 > các thỏa thuận công khai** giữa các doanh nghiệp độc quyền nhóm."*
@@ -238,6 +252,7 @@ lý do thực tế nữa (tr. 394):
 Sách đặt câu hỏi: nếu John và Joan cũng tìm ra giếng nước và nhảy vào (tr. 395)? Để trả lời, tr. 396
 tách quyết định "có nên bơm thêm một gallon không" thành **hai lực ngược chiều**:
 
+> [!note]
 > - **Hiệu ứng lượng:** Bởi vì giá bán cao hơn chi phí biên, việc bán thêm một gallon nước ở mức giá
 >   hiện hành sẽ làm **tăng** lợi nhuận.
 > - **Hiệu ứng giá:** Việc tăng sản lượng sẽ làm tăng tổng lượng nước bán được, điều này sẽ làm **giảm**
@@ -246,12 +261,14 @@ tách quyết định "có nên bơm thêm một gallon không" thành **hai l�
 Đây chính xác là **hai hiệu ứng của nhà độc quyền** ở [bài 7](bai_07_doc_quyen_va_phan_biet_gia.md),
 chỉ khác một chỗ, và chỗ khác đó là toàn bộ chương:
 
+> [!quote]
 > *"Số lượng người bán càng lớn thì mỗi người bán lại càng ít quan tâm tới tác động của họ lên giá thị
 > trường… Khi thị trường độc quyền nhóm trở nên rất lớn, **hiệu ứng giá sẽ biến mất**."*
 
 Và khi hiệu ứng giá biến mất thì chỉ còn hiệu ứng lượng — tức là **đúng logic của doanh nghiệp cạnh
 tranh** ở bài 6. Sách chốt lại bằng câu in nghiêng ở tr. 396:
 
+> [!quote]
 > *"khi số lượng người bán trên thị trường độc quyền nhóm càng nhiều, thị trường này sẽ càng giống một
 > thị trường cạnh tranh. Giá sẽ tiến đến chi phí biên và sản lượng sẽ tiến đến mức sản lượng đạt hiệu
 > quả xã hội."*
@@ -271,6 +288,7 @@ tranh** ở bài 6. Sách chốt lại bằng câu in nghiêng ở tr. 396:
 Hình dạng của cột "Giá" quan trọng hơn từng con số: **người bán thứ hai làm giá sập một nửa; người
 bán thứ 30 gần như không đổi gì nữa.**
 
+> [!note]
 > 💼 **Đọc bảng này theo kiểu quản trị.** Nếu bạn đang là người duy nhất trong một ngách, đối thủ
 > *đầu tiên* mới là đối thủ đắt giá nhất — không phải đối thủ thứ mười. Ngược lại, nếu ngành đã có
 > mười người chơi, việc thêm một người nữa gần như không đổi gì; muốn cải thiện biên lợi nhuận thì
@@ -281,13 +299,14 @@ Sách còn dùng cùng bảng này để giải thích **thương mại quốc t
 và Honda, Đức chỉ có Volkswagen và BMW, Mỹ chỉ có Ford và General, thì đóng cửa biên giới cho mỗi nước
 một thị trường **hai** người bán; mở cửa cho cả thế giới một thị trường **sáu** người bán.
 
+> [!quote]
 > *"Như vậy, ngoài lý thuyết về lợi thế cạnh tranh đã được thảo luận ở Chương 3, lý thuyết về thị
 > trường độc quyền nhóm cho chúng ta một giải thích khác cho việc tại sao tất cả các quốc gia đều có
 > lợi từ việc tự do hóa thương mại."*
 
 ---
 
-## 6. 📚 Nghiệm Cournot — chứng minh công thức tổng quát
+## 6. Nghiệm Cournot — chứng minh công thức tổng quát
 
 Sách không đưa công thức, chỉ mô tả cơ chế. Nhưng với đường cầu tuyến tính thì rút ra được, và nó
 gọn tới mức đáng nhớ.
@@ -329,6 +348,7 @@ Nash chỉ đặt tên cho thứ Cournot đã tính.
 
 Đến đây sách rẽ sang một câu chuyện tưởng như không liên quan (tr. 397):
 
+> [!note]
 > **Tình huống tiến thoái lưỡng nan của người tù** *(prisoners' dilemma)*: một trò chơi giữa hai người
 > tù qua đó cho thấy tại sao sự hợp tác lại trở nên khó khăn ngay cả khi nó có lợi cho cả hai.
 
@@ -336,6 +356,7 @@ Bonnie và Clyde bị bắt. Cảnh sát đủ chứng cứ cho tội mang súng
 Cảnh sát nghi họ cướp ngân hàng nhưng không có bằng chứng, nên tách hai phòng và chào mỗi người cùng
 một lời (tr. 398):
 
+> [!quote]
 > *"Bây giờ, chúng tôi có thể bắt giam anh một năm. Nhưng nếu anh thừa nhận đã thực hiện vụ cướp ngân
 > hàng và tố cáo đồng phạm của anh, anh sẽ được miễn tội và thả tự do, còn đồng phạm của anh sẽ phải
 > ở tù 20 năm. Nhưng nếu cả hai anh đều thừa nhận đã cướp ngân hàng… mỗi người bọn anh sẽ phải nhận
@@ -359,6 +380,7 @@ một lời (tr. 398):
 
 Lập luận của Bonnie, chép nguyên (tr. 398):
 
+> [!quote]
 > *"Tôi không biết Clyde sẽ làm gì. Nếu anh ta giữ im lặng, cách tốt nhất là tôi sẽ thú tội để được
 > thả tự do hơn là phải ngồi tù 1 năm. Nếu anh ta thú tội, chiến lược tốt nhất của tôi vẫn là thú tội
 > để ngồi tù tám năm thay vì phải ngồi tù 20 năm. Do đó, **mặc cho Clyde sẽ làm gì**, tôi sẽ có lợi
@@ -366,20 +388,23 @@ Lập luận của Bonnie, chép nguyên (tr. 398):
 
 Cấu trúc "mặc cho đối phương làm gì" có tên riêng (tr. 398):
 
+> [!note]
 > **Chiến lược thống soái** *(dominant strategy)*: là chiến lược tốt nhất cho một người chơi, **bất kể**
 > người chơi kia lựa chọn chiến lược nào.
 
-⚠️ **Đừng nhầm chiến lược thống soái với cân bằng Nash.** Chiến lược thống soái là thuộc tính của
-**một** người chơi; cân bằng Nash là thuộc tính của **một cặp lựa chọn**. Khi cả hai bên đều có chiến
-lược thống soái thì cặp đó tất nhiên là cân bằng Nash — nhưng chiều ngược lại **không đúng**. Cân bằng
-Nash (40, 40) ở mục 4 *không* đến từ chiến lược thống soái: bơm 40 chỉ tốt nhất **khi** đối phương bơm
-40, chứ không phải khi họ bơm 0.
+> [!warning] Đừng nhầm chiến lược thống soái với cân bằng Nash.
+> Chiến lược thống soái là thuộc tính của
+> **một** người chơi; cân bằng Nash là thuộc tính của **một cặp lựa chọn**. Khi cả hai bên đều có chiến
+> lược thống soái thì cặp đó tất nhiên là cân bằng Nash — nhưng chiều ngược lại **không đúng**. Cân bằng
+> Nash (40, 40) ở mục 4 *không* đến từ chiến lược thống soái: bơm 40 chỉ tốt nhất **khi** đối phương bơm
+> 40, chứ không phải khi họ bơm 0.
 
 Kết cục: cả hai thú tội, **8 năm mỗi người** — trong khi cùng im lặng chỉ **1 năm**. Đây là điểm cay
 đắng của trò chơi: **cả hai đều chơi tối ưu và cả hai đều thua**.
 
 Và sách chặn trước câu hỏi hiển nhiên nhất (tr. 399):
 
+> [!quote]
 > *"Nhưng liệu rằng hai tên tội phạm này có thực là sẽ giữ im lặng, đơn giản chỉ bởi vì chúng đã thỏa
 > thuận với nhau như vậy? Một khi chúng bị tra xét một cách riêng biệt, **logic về lợi ích cá nhân sẽ
 > thắng** và làm cho chúng thú tội."*
@@ -406,43 +431,44 @@ quan gì tới nhau:
 
 Trong cả năm, cân bằng Nash **không phải** kết cục tốt nhất. Đó là định nghĩa của tiến thoái lưỡng nan.
 
-⚠️ **Hình 3 (chạy đua vũ trang) không có số trong sách** — các ô chỉ ghi *"bị nguy hiểm"*, *"được an
-toàn và mạnh"*. Vì thế code chỉ giải bốn trò chơi có số. Nếu bạn thấy ở đâu đó một bảng số cho Hình 3,
-đó là số ai đó tự thêm vào, không phải của Mankiw.
+> [!warning] Hình 3 (chạy đua vũ trang) không có số trong sách
+> các ô chỉ ghi *"bị nguy hiểm"*, *"được an
+> toàn và mạnh"*. Vì thế code chỉ giải bốn trò chơi có số. Nếu bạn thấy ở đâu đó một bảng số cho Hình 3,
+> đó là số ai đó tự thêm vào, không phải của Mankiw.
 
 ![Hình 3 — tr. 401, bản chụp giáo trình](../tai_lieu/hinh/ch17-hinh-03-tr401.png)
 
-### 📚 Ba ví dụ đáng dừng lại
-
-**Chạy đua vũ trang** (tr. 401–402). Với mỗi nước, trang bị thêm vũ khí là chiến lược thống soái: nếu
-đối phương trang bị, mình phải theo để không mất thế; nếu đối phương giải trừ, mình trang bị để mạnh
-hơn. Kết quả là cả hai cùng nguy hiểm. Sách rút ra một câu rất sắc (tr. 402):
-
-![Hình 4 — tr. 402, bản chụp giáo trình](../tai_lieu/hinh/ch17-hinh-04-tr402.png)
-
-> *"Cũng giống như các cartel gặp phải các vấn đề trong việc thực hiện các mức sản lượng, Hoa Kỳ và
-> Liên Xô đều **sợ rằng đối thủ sẽ không thực hiện các cam kết**."*
-
-Hiệp định kiểm soát vũ khí và thỏa thuận cartel gặp **đúng một** vấn đề: không ai cưỡng chế được.
-
-**Nguồn tài nguyên chung** (tr. 402). Exxon và Texaco ngồi trên một mỏ dầu chung trị giá $12 triệu.
-Mỗi giếng tốn $1 triệu, và **số dầu lấy được tỷ lệ với số giếng của mình trên tổng số giếng**:
-
-|                    | Exxon 2 giếng            | Exxon 1 giếng            |
-| ------------------ | ------------------------ | ------------------------ |
-| **Texaco 2 giếng** | Exxon $4tr / Texaco $4tr | Exxon $3tr / Texaco $6tr |
-| **Texaco 1 giếng** | Exxon $6tr / Texaco $3tr | Exxon $5tr / Texaco $5tr |
-
-Kiểm ô góc trên phải: Exxon 1 giếng trên tổng 3 giếng → được 1/3 × $12tr = $4tr, trừ $1tr chi phí =
-**$3tr**. Texaco 2/3 × $12tr = $8tr, trừ $2tr = **$6tr**. Khớp.
-
-Cái mất ở đây **không phải** là chuyển từ túi này sang túi kia — giếng thứ hai là **lãng phí thuần**:
-nó không moi thêm được giọt dầu nào, chỉ tốn thêm $1 triệu tiền khoan.
-
-**Chiến tranh thuế quan** (bài tập 4, tr. 414). Thuế cao là chiến lược thống soái cho cả hai; kết cục
-$20 tỷ mỗi bên thay vì $25 tỷ. Và đó chính là **lý do tồn tại của các hiệp định thương mại**: NAFTA,
-WTO, CPTPP không tạo ra lợi ích mới, chúng chỉ **biến kết cục hợp tác thành thứ có thể cưỡng chế được**.
-Sách hỏi thẳng ở câu (c) của bài tập.
+> [!note] Ba ví dụ đáng dừng lại
+>
+> **Chạy đua vũ trang** (tr. 401–402). Với mỗi nước, trang bị thêm vũ khí là chiến lược thống soái: nếu
+> đối phương trang bị, mình phải theo để không mất thế; nếu đối phương giải trừ, mình trang bị để mạnh
+> hơn. Kết quả là cả hai cùng nguy hiểm. Sách rút ra một câu rất sắc (tr. 402):
+>
+> ![Hình 4 — tr. 402, bản chụp giáo trình](../tai_lieu/hinh/ch17-hinh-04-tr402.png)
+>
+> > *"Cũng giống như các cartel gặp phải các vấn đề trong việc thực hiện các mức sản lượng, Hoa Kỳ và
+> > Liên Xô đều **sợ rằng đối thủ sẽ không thực hiện các cam kết**."*
+>
+> Hiệp định kiểm soát vũ khí và thỏa thuận cartel gặp **đúng một** vấn đề: không ai cưỡng chế được.
+>
+> **Nguồn tài nguyên chung** (tr. 402). Exxon và Texaco ngồi trên một mỏ dầu chung trị giá $12 triệu.
+> Mỗi giếng tốn $1 triệu, và **số dầu lấy được tỷ lệ với số giếng của mình trên tổng số giếng**:
+>
+> |                    | Exxon 2 giếng            | Exxon 1 giếng            |
+> | ------------------ | ------------------------ | ------------------------ |
+> | **Texaco 2 giếng** | Exxon $4tr / Texaco $4tr | Exxon $3tr / Texaco $6tr |
+> | **Texaco 1 giếng** | Exxon $6tr / Texaco $3tr | Exxon $5tr / Texaco $5tr |
+>
+> Kiểm ô góc trên phải: Exxon 1 giếng trên tổng 3 giếng → được 1/3 × $12tr = $4tr, trừ $1tr chi phí =
+> **$3tr**. Texaco 2/3 × $12tr = $8tr, trừ $2tr = **$6tr**. Khớp.
+>
+> Cái mất ở đây **không phải** là chuyển từ túi này sang túi kia — giếng thứ hai là **lãng phí thuần**:
+> nó không moi thêm được giọt dầu nào, chỉ tốn thêm $1 triệu tiền khoan.
+>
+> **Chiến tranh thuế quan** (bài tập 4, tr. 414). Thuế cao là chiến lược thống soái cho cả hai; kết cục
+> $20 tỷ mỗi bên thay vì $25 tỷ. Và đó chính là **lý do tồn tại của các hiệp định thương mại**: NAFTA,
+> WTO, CPTPP không tạo ra lợi ích mới, chúng chỉ **biến kết cục hợp tác thành thứ có thể cưỡng chế được**.
+> Sách hỏi thẳng ở câu (c) của bài tập.
 
 ---
 
@@ -450,6 +476,7 @@ Sách hỏi thẳng ở câu (c) của bài tập.
 
 Sách chuyển thẳng từ Jack–Jill sang thật (tr. 400):
 
+> [!quote]
 > *"nhưng nếu chúng ta chuyển từ nước sinh hoạt sang dầu thô, từ Jack và Jill sang **Iran và Iraq**,
 > thì câu chuyện này gần đúng với thực tế."*
 
@@ -475,17 +502,19 @@ là bài toán của Jack ở tr. 394, phóng to lên quy mô quốc gia.
 
 **Thứ hai**, đây là ví dụ hiếm hoi trong sách nơi **sự thiếu hợp tác là tin tốt** (tr. 401):
 
+> [!quote]
 > *"Trong lúc sự thiếu hợp tác giữa các nước OPEC làm giảm lợi nhuận của các nước sản xuất dầu xuống
 > dưới mức mà đáng lẽ ra họ sẽ nhận được, thì **nó đã mang lại lợi ích cho người tiêu dùng toàn thế
 > giới**."*
 
-⚠️ **Sách viết năm nào?** Câu cuối của nghiên cứu tình huống nhắc *"giá dầu đã tăng đáng kể trong năm
-2007 và 2008"* và quy nguyên nhân cho *"sự tăng lên trong nhu cầu của thị trường dầu thế giới"* từ
-Trung Quốc, **không phải** do OPEC hạn chế nguồn cung. Vậy bản gốc là **ấn bản khoảng 2009–2011**.
-Đối chiếu với 2026: OPEC đã mở rộng thành **OPEC+** (có Nga từ 2016), Ecuador rút 2020, Qatar rút 2019,
-Angola rút 2024 — và Mỹ, nhờ dầu đá phiến, trở thành **nước sản xuất dầu lớn nhất thế giới** từ 2018,
-điều làm quyền lực định giá của cartel yếu đi hẳn so với thời điểm sách viết. Cơ chế trong sách vẫn
-đúng; danh sách thành viên và cán cân quyền lực thì đã đổi.
+> [!warning] Sách viết năm nào?
+> Câu cuối của nghiên cứu tình huống nhắc *"giá dầu đã tăng đáng kể trong năm
+> 2007 và 2008"* và quy nguyên nhân cho *"sự tăng lên trong nhu cầu của thị trường dầu thế giới"* từ
+> Trung Quốc, **không phải** do OPEC hạn chế nguồn cung. Vậy bản gốc là **ấn bản khoảng 2009–2011**.
+> Đối chiếu với 2026: OPEC đã mở rộng thành **OPEC+** (có Nga từ 2016), Ecuador rút 2020, Qatar rút 2019,
+> Angola rút 2024 — và Mỹ, nhờ dầu đá phiến, trở thành **nước sản xuất dầu lớn nhất thế giới** từ 2018,
+> điều làm quyền lực định giá của cartel yếu đi hẳn so với thời điểm sách viết. Cơ chế trong sách vẫn
+> đúng; danh sách thành viên và cán cân quyền lực thì đã đổi.
 
 ---
 
@@ -503,6 +532,7 @@ Câu hỏi này ít khi được hỏi, và sách trả lời rất rõ ở tr. 
 Rồi sách nối thẳng về **bàn tay vô hình** của [bài 1](bai_01_muoi_nguyen_ly_va_tu_duy_kinh_te.md), và
 đây có lẽ là câu hay nhất chương (tr. 403):
 
+> [!quote]
 > *"bàn tay vô hình chỉ giúp thị trường phân bổ các nguồn lực một cách có hiệu quả khi thị trường đó
 > là thị trường cạnh tranh, và **thị trường chỉ mang tính cạnh tranh khi các doanh nghiệp trong đó
 > không thể hợp tác với nhau**."*
@@ -516,18 +546,21 @@ thứ tồn tại được **chỉ vì** việc cấu kết quá khó. Toàn b�
 
 Sách thừa nhận rằng bức tranh trên quá u ám so với thực tế (tr. 403):
 
+> [!quote]
 > *"Không phải tất cả các tù nhân khi bị xét hỏi đều quyết định sẽ tố giác đồng phạm của họ. Các cartel
 > thỉnh thoảng cũng thành công trong việc duy trì các thỏa thuận cấu kết… bởi vì họ chơi trò chơi này
 > **không chỉ một mà là nhiều lần**."*
 
 Cơ chế, dùng lại Jack và Jill (tr. 404):
 
+> [!quote]
 > *"họ đồng ý rằng một khi một trong số bọn họ thất hứa và cùng sản xuất 40 gallon, cả hai sẽ cùng sản
 > xuất 40 gallon từ đó về sau. Hình phạt này rất dễ thực hiện bởi vì nếu một bên sản xuất ở mức sản
 > lượng cao, bên kia cũng có lý do để làm điều tương tự."*
 
 Và câu quyết định (tr. 404):
 
+> [!quote]
 > *"Mỗi người đều biết rằng rời bỏ thỏa thuận sẽ làm tăng lợi nhuận của họ từ 1.800 đô la lên 2.000 đô
 > la. **Nhưng mối lợi này chỉ kéo dài được một tuần.** Sau đó, lợi nhuận sẽ giảm xuống mức 1.600 đô la
 > và giữ nguyên mức này."*
@@ -537,7 +570,7 @@ cho tới khi bị phản bội một lần, rồi bội ước mãi mãi.
 
 ---
 
-## 12. 📚 Hệ số chiết khấu — hợp tác bền khi nào
+## 12. Hệ số chiết khấu — hợp tác bền khi nào
 
 Sách dừng ở câu *"khi những người chơi thực sự quan tâm tới lợi nhuận trong tương lai"*. Nhưng câu đó
 **đo được**, và ngưỡng ra rất đẹp.
@@ -567,6 +600,7 @@ Code mục 6 quét $d$ từ 1/10 tới 99/100 và cho thấy hai cột **cắt n
 | nhà cung cấp trong nước, gặp mặt hàng quý | nhà cung cấp gặp một lần ở hội chợ |
 | nhân viên đang xây sự nghiệp ở công ty    | nhân viên đã nộp đơn nghỉ          |
 
+> [!note]
 > 💼 Suy ra một câu dùng được ngay: **hợp tác sụp đổ khi tương lai ngắn lại.** Nhân viên sắp nghỉ,
 > đối tác sắp phá sản, giám đốc sắp hết nhiệm kỳ, hợp đồng sắp hết hạn không tái ký — đó không phải
 > vấn đề đạo đức, đó là $d$ tụt xuống dưới ngưỡng. Cách chữa cũng đọc thẳng ra từ công thức: **kéo dài
@@ -579,12 +613,14 @@ Code mục 6 quét $d$ từ 1/10 tới 99/100 và cho thấy hai cột **cắt n
 
 Sách kể lại thí nghiệm của nhà chính trị học **Robert Axelrod** (tr. 404):
 
+> [!quote]
 > *"Mọi người tham gia bằng cách gửi các chương trình máy tính được thiết kế để chơi trò chơi về tình
 > huống tiến thoái lưỡng nan lặp đi lặp lại của người tù… 'Người chiến thắng' là chương trình nhận
 > được tổng số năm ở tù ít nhất."*
 
 Người thắng là chiến lược đơn giản nhất trong cuộc thi (tr. 404–405):
 
+> [!quote]
 > **Ăn miếng trả miếng** *(tit for tat)*: *"một người chơi nên bắt đầu bằng việc hợp tác và sau đó làm
 > theo bất cứ điều gì mà người chơi kia đã làm ở lần gần nhất."*
 >
@@ -604,8 +640,9 @@ Code mục 7 dựng một **giải đấu thu nhỏ**: năm chiến lược, m�
 | 4   | Trừng phạt vĩnh viễn        |     18.000 | 15.900 | 18.000 | 18.000 | 18.000 | **87.900** |
 | 5   | Ăn miếng trả miếng độ lượng |     18.000 | 15.800 | 18.000 | 18.000 | 18.000 |     87.800 |
 
-⚠️ **Đây không phải bản sao giải đấu của Axelrod** — ông có hàng chục chương trình dự thi, đây chỉ có
-năm. Bảng này minh hoạ cơ chế chứ không tái lập kết quả lịch sử.
+> [!warning] Đây không phải bản sao giải đấu của Axelrod
+> ông có hàng chục chương trình dự thi, đây chỉ có
+> năm. Bảng này minh hoạ cơ chế chứ không tái lập kết quả lịch sử.
 
 Ba điều bảng này nói thật, kể cả điều bất tiện:
 
@@ -625,6 +662,7 @@ chiến lược này **không phân biệt được**. Mục tiếp theo mới t
 
 Sách có một nhận xét ngắn ở tr. 404 mà rất dễ đọc lướt qua:
 
+> [!quote]
 > *"chiến lược đã được mô tả trước kia cho cartel cung cấp nước sinh hoạt của Jack và Jill – là sẽ bội
 > ước mãi mãi ngay khi người chơi kia bội ước – **không có tính vị tha cho lắm**. Trong một trò chơi
 > được lặp đi lặp lại nhiều lần, chiến lược cho phép người chơi quay lại kết cục hợp tác sau một giai
@@ -652,6 +690,7 @@ tuần sau.
 không ai lỡ tay**. Độ lượng có thể bị lợi dụng — đó đúng là cái giá $100 ở mục 13. Đánh đổi: mất 100
 vì bị bắt nạt, đổi lấy 500 vì phục hồi được sau sai sót.
 
+> [!quote]
 > 💼 **Bài học quản trị, viết thẳng:** điều khoản phạt trong hợp đồng nên có **cửa quay lại**. Câu
 > "vi phạm một lần là chấm dứt hợp tác vĩnh viễn" nghe cứng rắn và tưởng là an toàn, nhưng nó biến
 > **một sai sót hành chính** thành **một cuộc chiến không lối thoát**. Ba dòng đầu của bảng trên là
@@ -665,6 +704,7 @@ Sách bắt đầu bằng cách nối về **Nguyên lý số 7** của [bài 1]
 — *chính phủ thỉnh thoảng có thể cải thiện được những kết quả trên thị trường* — rồi rút ra mục tiêu
 (tr. 405):
 
+> [!quote]
 > *"các nhà hoạch định chính sách nên **khuyến khích các doanh nghiệp trong thị trường độc quyền nhóm
 > cạnh tranh hơn là hợp tác** với nhau."*
 
@@ -682,12 +722,14 @@ Bộ Tư pháp không đủ người để soi mọi ngành; nạn nhân thì c�
 
 Sách mở bằng Adam Smith, *Của Cải Của Các Quốc Gia* (tr. 406):
 
+> [!quote]
 > *"Mọi người trong cùng một hoạt động thương mại hiếm khi gặp nhau, nhưng những cuộc đối thoại của họ
 > thường kết thúc bằng một âm mưu chống lại công chúng hoặc là một mưu đồ nào đó để tăng giá."*
 
 Rồi đưa bằng chứng đương đại: cuộc gọi giữa **Robert Crandall** (chủ tịch American Airlines) và
 **Howard Putnam** (chủ tịch Braniff Airways), đăng trên *New York Times* ngày **24/2/1983** (tr. 406–407):
 
+> [!note]
 > **CRANDALL:** *Tôi nghĩ rằng thật là ngu xuẩn… khi cứ đấu đá nhau trong khi cả hai chẳng kiếm được
 > một xu chết tiệt nào.*
 > **PUTNAM:** *Anh có gợi ý gì?*
@@ -701,10 +743,11 @@ Rồi đưa bằng chứng đương đại: cuộc gọi giữa **Robert Crandal
 Putnam ghi âm và nộp cho Bộ Tư pháp. Crandall bị khởi tố; hai năm sau dàn xếp, chấp nhận hạn chế cả
 việc liên lạc với quan chức các hãng hàng không khác.
 
-⚠️ **Ranh giới pháp lý ở đây rất hẹp và rất quan trọng với người làm kinh doanh.** Crandall **không**
-tăng giá — ông ta chỉ **đề nghị**. Tự mình quyết định giữ giá cao là hoàn toàn hợp pháp. **Gọi điện
-cho đối thủ để cùng thoả thuận giữ giá cao là phạm pháp.** Cùng một kết cục thị trường, hai địa vị
-pháp lý khác hẳn nhau — vì cái bị cấm là **thoả thuận**, không phải mức giá.
+> [!warning] Ranh giới pháp lý ở đây rất hẹp và rất quan trọng với người làm kinh doanh.
+> Crandall **không**
+> tăng giá — ông ta chỉ **đề nghị**. Tự mình quyết định giữ giá cao là hoàn toàn hợp pháp. **Gọi điện
+> cho đối thủ để cùng thoả thuận giữ giá cao là phạm pháp.** Cùng một kết cục thị trường, hai địa vị
+> pháp lý khác hẳn nhau — vì cái bị cấm là **thoả thuận**, không phải mức giá.
 
 ---
 
@@ -725,21 +768,25 @@ Nhưng sách đưa **hai lập luận phản bác** (tr. 407–408):
 **Thứ nhất — Superduper không có động cơ làm điều đó.** Nếu họ có quyền lực thị trường, họ đã dùng
 **giá bán buôn** rồi. Và:
 
+> [!quote]
 > *"bởi vì một cartel các nhà bán lẻ bán được ít hàng hơn một nhóm các nhà bán lẻ cạnh tranh nhau,
 > **Superduper sẽ bị thiệt hại** khi các nhà bán lẻ của họ là một cartel."*
 
 **Thứ hai — nó giải quyết vấn đề kẻ thụ hưởng miễn phí.** Không có sàn giá thì khách vào cửa hàng lớn
 để xem hàng và hỏi nhân viên, rồi ra cửa hàng giảm giá để mua:
 
+> [!quote]
 > *"dịch vụ tốt là một hàng hóa công của các nhà bán lẻ sản phẩm của Superduper… các nhà bán lẻ giảm
 > giá sẽ tận dụng dịch vụ cung cấp thông tin từ các nhà bán lẻ khác, và dẫn đến có ít dịch vụ hơn mong
 > muốn."*
 
+> [!note]
 > 📚 Ngày nay hiện tượng này có tên riêng: **showrooming** — xem hàng ở cửa hàng, quét mã, mua trên
 > mạng. Vấn đề Mankiw mô tả năm 2009 giờ là bài toán sống còn của mọi chuỗi bán lẻ có mặt bằng.
 
 Sách chốt bằng nguyên tắc in nghiêng, và nó áp cho cả ba hành vi trong mục này (tr. 408):
 
+> [!quote]
 > *"các hoạt động kinh doanh tuy có vẻ làm giảm đi tính cạnh tranh nhưng **thực tế có thể có những mục
 > đích chính đáng**."*
 
@@ -750,6 +797,7 @@ cho Coyote. Coyote giảm giá vé. Có phải để giết đối thủ rồi t
 
 Sách nghi ngờ, và lý do là **số học** (tr. 408):
 
+> [!quote]
 > *"nếu Coyote bắt đầu bán vé với giá rẻ tới mức họ bị thua lỗ, họ sẽ phải chuẩn bị cho việc có thêm
 > nhiều chuyến bay vì giá rẻ sẽ thu hút thêm khách hàng. Trong khi đó, Roadrunner có thể đáp trả hành
 > vi phá giá của Coyote bằng cách **cắt giảm số chuyến bay**. Kết quả là, **Coyote sẽ phải chịu hơn
@@ -769,6 +817,7 @@ gói (tr. 408–409). Toà tối cao cấm, lập luận rằng hãng dùng cầ
 **Sách bác bỏ lập luận đó bằng số** (tr. 409): nếu rạp sẵn lòng trả $20.000 cho *Ironman* và **$0** cho
 *Hamlet*, thì rạp sẽ mua cả gói với giá **$20.000** — đúng bằng giá của mình *Ironman*.
 
+> [!quote]
 > *"Ép buộc rạp chiếu phim mua một bộ phim không có giá trị thương mại như là một phần của hợp đồng
 > **không làm tăng mức độ sẵn lòng chi trả** của họ."*
 
@@ -792,6 +841,7 @@ xác nhận cả hai kết luận.
 phẩm theo thứ tự ngược nhau**. Nếu ai cũng thích cùng một món thì gói vô dụng — đó chính là trường hợp
 đầu, và cũng là lý do lập luận của toà không đứng vững.
 
+> [!note]
 > 💼 Ba câu hỏi trước khi đóng gói sản phẩm, đọc thẳng từ hai bảng trên:
 > **(1)** Các nhóm khách có xếp hạng ngược nhau không, hay ai cũng chỉ muốn một món?
 > **(2)** Tổng mức sẵn lòng chi trả của các nhóm có **gần nhau** không? (Ở đây cả hai đều đúng $20.000
@@ -822,20 +872,22 @@ Diễn biến, theo tr. 410–411:
 | 9/2001    | Bộ Tư pháp thông báo không tìm cách chia tách nữa                                                     |
 | 11/2002   | kết thúc: Microsoft chấp nhận một số hạn chế; chính phủ chấp nhận trình duyệt là một phần của Windows |
 
-⚠️ Đối chiếu 2026: sách kết thúc bằng việc Microsoft *"vẫn phải vật lộn với… các vụ kiện từ Liên minh
-châu Âu"*. Từ đó tới nay, trọng tâm chống độc quyền công nghệ đã chuyển hẳn sang **Google, Apple,
-Amazon, Meta**, và EU đã ban hành **Đạo luật Thị trường Kỹ thuật số (DMA)** năm **2022** — đạo luật cấm
-trước một số hành vi bán kèm thay vì kiện từng vụ như thời Microsoft. Cơ chế kinh tế trong sách không đổi;
-công cụ pháp lý thì đã đổi từ **kiện sau** sang **cấm trước**.
+> [!warning]
+> Đối chiếu 2026: sách kết thúc bằng việc Microsoft *"vẫn phải vật lộn với… các vụ kiện từ Liên minh
+> châu Âu"*. Từ đó tới nay, trọng tâm chống độc quyền công nghệ đã chuyển hẳn sang **Google, Apple,
+> Amazon, Meta**, và EU đã ban hành **Đạo luật Thị trường Kỹ thuật số (DMA)** năm **2022** — đạo luật cấm
+> trước một số hành vi bán kèm thay vì kiện từng vụ như thời Microsoft. Cơ chế kinh tế trong sách không đổi;
+> công cụ pháp lý thì đã đổi từ **kiện sau** sang **cấm trước**.
 
 Kết luận của sách về toàn bộ mục này (tr. 411):
 
+> [!quote]
 > *"các nhà hoạch định chính sách cần phải **cẩn thận khi họ sử dụng quyền lực lớn lao của các bộ luật
 > chống độc quyền** để đặt ra các hạn chế lên hành vi của doanh nghiệp."*
 
 ---
 
-## 17. 💼 Cuộc chiến giảm giá — kiểm tra chứ không giả định
+## 17. Cuộc chiến giảm giá — kiểm tra chứ không giả định
 
 Mọi trò chơi ở mục 8 đều được **cho sẵn** bảng lợi ích. Câu hỏi công bằng là: cấu trúc tiến thoái lưỡng
 nan có thật sự **xuất hiện** từ số liệu kinh doanh, hay chỉ là một giả định đẹp mà người ta áp vào?
@@ -871,22 +923,24 @@ ai giảm — và **không bên nào giành được thêm một phần trăm th
 
 | #   | Cách                                                                                                                             | Từ mục nào                                                                         | Điểm yếu                                |
 | --- | -------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | --------------------------------------- |
-| 1   | **Kéo dài tương lai**: hợp đồng khung nhiều năm thay vì đơn hàng lẻ, để $d$ tiến về 1                                            | [mục 12](#12--hệ-số-chiết-khấu--hợp-tác-bền-khi-nào)                               | cần đối thủ cũng nghĩ dài hạn           |
+| 1   | **Kéo dài tương lai**: hợp đồng khung nhiều năm thay vì đơn hàng lẻ, để $d$ tiến về 1                                            | [mục 12](#12-hệ-số-chiết-khấu--hợp-tác-bền-khi-nào)                               | cần đối thủ cũng nghĩ dài hạn           |
 | 2   | **Bỏ qua một lần lỡ**: đừng tuyên bố "giảm giá một lần là chiến tranh vĩnh viễn"                                                 | [mục 14](#14-một-lần-lỡ-tay--chỗ-sách-chỉ-nói-bằng-lời)                            | có thể bị lợi dụng, giá $100 ở mục 13   |
 | 3   | **Làm cầu bớt co giãn**: khách không so sánh được hai bên nữa thì hệ số nhạy thị phần tụt xuống, và **cám dỗ giảm giá biến mất** | [bài 3](bai_03_do_co_gian_va_dinh_gia.md), [bài 8](bai_08_canh_tranh_doc_quyen.md) | tốn thời gian, tốn tiền xây thương hiệu |
 
 Cách (1) và (2) là **quản trị quan hệ bán hàng**. Cách (3) là **khác biệt hoá sản phẩm**. Cái thứ ba
 bền hơn hẳn hai cái đầu vì một lý do rất đơn giản: **nó không cần đối thủ đồng ý điều gì.**
 
-⚠️ **Và một ranh giới không được bước qua.** Cách (1) và (2) ở trên nói về việc *bạn tự quyết định*
-chiến lược giá dài hạn của mình — hợp pháp. Nếu chúng biến thành **gọi điện cho đối thủ để cùng thống
-nhất không giảm giá**, đó là hành vi Crandall bị khởi tố ở mục 15. Ranh giới nằm ở chữ **thoả thuận**,
-không nằm ở mức giá.
+> [!warning] Và một ranh giới không được bước qua.
+> Cách (1) và (2) ở trên nói về việc *bạn tự quyết định*
+> chiến lược giá dài hạn của mình — hợp pháp. Nếu chúng biến thành **gọi điện cho đối thủ để cùng thống
+> nhất không giảm giá**, đó là hành vi Crandall bị khởi tố ở mục 15. Ranh giới nằm ở chữ **thoả thuận**,
+> không nằm ở mức giá.
 
 ---
 
 ## 18. Code minh hoạ
 
+> [!note]
 > ⚙️ **Chạy:** cần **Python 3.10+**. Lưu file rồi gõ `python3 bai-09-doc-quyen-nhom.py`.
 > **Không cần cài gói nào.** File có sẵn tại [thuc_hanh/bai-09-doc-quyen-nhom.py](../thuc_hanh/bai-09-doc-quyen-nhom.py).
 
@@ -2162,15 +2216,15 @@ Trả lời rồi mới quay lại đối chiếu. Số trong ngoặc là mục 
   - **Bài tập 2** (cartel kim cương Nga – Nam Phi), tr. 413 và **bài tập 4** (chiến tranh thuế quan
     Hoa Kỳ – Mexico), tr. 414
 - **Ngoài sách:**
-  - Nghiệm Cournot ở [mục 6](#6--nghiệm-cournot--chứng-minh-công-thức-tổng-quát) — Antoine Augustin
+  - Nghiệm Cournot ở [mục 6](#6-nghiệm-cournot--chứng-minh-công-thức-tổng-quát) — Antoine Augustin
     Cournot, *Recherches sur les principes mathématiques de la théorie des richesses*, 1838.
-  - Ngưỡng hệ số chiết khấu ở [mục 12](#12--hệ-số-chiết-khấu--hợp-tác-bền-khi-nào) — kết quả chuẩn
+  - Ngưỡng hệ số chiết khấu ở [mục 12](#12-hệ-số-chiết-khấu--hợp-tác-bền-khi-nào) — kết quả chuẩn
     của lý thuyết trò chơi lặp; sách chỉ mô tả bằng lời.
   - Chiến lược *ăn miếng trả miếng độ lượng* (**tit for two tats**) ở [mục 13](#13-giải-đấu-axelrod-và-ăn-miếng-trả-miếng)
     và [mục 14](#14-một-lần-lỡ-tay--chỗ-sách-chỉ-nói-bằng-lời) — cũng từ giải đấu Axelrod, sách không nhắc.
   - Đối chiếu 2026 ở [mục 9](#9-nghiên-cứu-tình-huống--opec) và [mục 16](#16-ba-hành-vi-gây-tranh-cãi)
     (OPEC+, dầu đá phiến Hoa Kỳ, Đạo luật Thị trường Kỹ thuật số của EU 2022).
-  - Mô hình cuộc chiến giảm giá ở [mục 17](#17--cuộc-chiến-giảm-giá--kiểm-tra-chứ-không-giả-định) —
+  - Mô hình cuộc chiến giảm giá ở [mục 17](#17-cuộc-chiến-giảm-giá--kiểm-tra-chứ-không-giả-định) —
     dựng riêng cho bài này, không có trong sách.
 - **Liên hệ chéo:**
   - [Bài 6](bai_06_thi_truong_canh_tranh.md) và [Bài 7](bai_07_doc_quyen_va_phan_biet_gia.md) — hai

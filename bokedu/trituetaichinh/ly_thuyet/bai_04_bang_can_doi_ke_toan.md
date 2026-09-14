@@ -1,15 +1,16 @@
 # Bài 4 — Bảng cân đối kế toán
 
+> [!info] Về bài này
 > Bài học dựng từ **Phần III — Bảng cân đối kế toán, nơi vén mở nhiều điều nhất**: chương 9 *Hiểu
 > những điều căn bản về bảng cân đối kế toán* (PDF tr. 75–80), chương 10 *Tài sản* (PDF tr. 81–91),
 > chương 11 *Phía bên kia* (PDF tr. 92–96).
-> 🎯 **Vòng 1.** Bài 2 và 3 đã đi hết báo cáo kết quả kinh doanh. Bài này chuyển sang báo cáo mà
+>
+> **Vòng 1.** Bài 2 và 3 đã đi hết báo cáo kết quả kinh doanh. Bài này chuyển sang báo cáo mà
 > **chuyên gia đọc trước** — và cho thấy mọi ước tính của hai bài trước cuối cùng đều đổ vào đây.
-> 💼 **Góc quản trị** — ví dụ thêm cho người đi làm, **không có trong sách**.
-> 📚 **Mở rộng** — thứ sách nói lướt hoặc để trong hộp công cụ.
-> 🇻🇳 **Đối chiếu Việt Nam** — sách viết theo US GAAP, mục này nối sang thực tế Việt Nam.
-> ⚠️ — chỗ dễ hiểu sai, hoặc chỗ sách in sai.
-> 📌 **Cần đọc trước:** [Bài 2](bai_02_loi_nhuan_chi_la_du_toan.md) ·
+>
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
+>
+> **Cần đọc trước:** [Bài 2](bai_02_loi_nhuan_chi_la_du_toan.md) ·
 > [Bài 3](bai_03_chi_phi_va_cac_tang_loi_nhuan.md) — mục 5 của bài 3 (khấu hao) là đầu vào trực tiếp
 > của mục 7 bài này.
 > ⚙️ **Code:** [`thuc_hanh/bai-04-bang-can-doi-ke-toan.py`](../thuc_hanh/bai-04-bang-can-doi-ke-toan.py)
@@ -32,7 +33,7 @@
 - [10. Tài sản trả trước — chiến dịch quảng cáo](#10-tài-sản-trả-trước--chiến-dịch-quảng-cáo)
 - [11. Phía bên kia — nợ phải trả và vốn chủ sở hữu](#11-phía-bên-kia--nợ-phải-trả-và-vốn-chủ-sở-hữu)
 - [12. Giá trị sổ sách không bao giờ là giá trị thị trường](#12-giá-trị-sổ-sách-không-bao-giờ-là-giá-trị-thị-trường)
-- [13. 🇻🇳 Đối chiếu Việt Nam](#13--đối-chiếu-việt-nam)
+- [13. Đối chiếu Việt Nam](#13-đối-chiếu-việt-nam)
 - [14. Tự thử](#14-tự-thử)
 - [15. Từ điển thuật ngữ](#15-từ-điển-thuật-ngữ)
 - [16. Câu hỏi tự kiểm tra](#16-câu-hỏi-tự-kiểm-tra)
@@ -47,6 +48,7 @@
 
 Chương 9 mở bằng một quan sát về hành vi, không phải về kế toán:
 
+> [!quote]
 > *"Nếu trao cho một nhà quản lý giàu kinh nghiệm một tập tài liệu tài chính, thì thứ đầu tiên mà
 > ông ta sẽ tìm đến là **báo cáo kết quả kinh doanh**… Bây giờ, ta hãy thử đưa tập tài liệu tài chính
 > tương tự cho một chuyên viên ngân hàng, hay một nhà đầu tư có kinh nghiệm ở Phố Wall, hay một thành
@@ -71,6 +73,7 @@ Còn người cho vay tiền thì đo đúng cái đó.
 
 Sách xây khái niệm từ một cá nhân trước khi sang doanh nghiệp:
 
+> [!quote]
 > *"Cộng tất cả những gì sở hữu, rồi trừ đi mọi khoản nợ, và bạn sẽ thu được giá trị thuần của người
 > đó:* **có − nợ = giá trị thuần** *… Một cách phát biểu khác cho công thức trên là:*
 > **có = nợ + giá trị thuần**"* — ch. 9 · PDF tr. 77–78
@@ -83,6 +86,7 @@ Sang doanh nghiệp thì chỉ đổi tên:
 | những gì **nợ** | **nợ phải trả** |
 | **giá trị thuần** | **vốn chủ sở hữu** (hay vốn cổ đông) |
 
+> [!quote]
 > **Tài sản − nợ phải trả = vốn chủ sở hữu**, hay **tài sản = nợ phải trả + vốn chủ sở hữu**
 > — *"phương trình kế toán cơ bản"* · ch. 9 · PDF tr. 78
 
@@ -100,11 +104,13 @@ Trên công ty mẫu, ngày 31/12/2005 (triệu đô-la):
 Hai bên bằng nhau. Sách hứa sẽ giải thích vì sao trước khi hết Phần III — đó là
 [bài 5](bai_05_vi_sao_bang_can_doi_lai_can.md).
 
-⚠️ **Khác biệt lớn nhất so với báo cáo kết quả kinh doanh: bảng này có một NGÀY trên đầu, không phải
-một khoảng thời gian.** Sách nói rõ nó là *"một báo cáo về những gì doanh nghiệp có và nợ **tại một
-thời điểm cụ thể**"* (PDF tr. 76). Báo cáo KQKD là đoạn phim; bảng cân đối là ảnh chụp.
+> [!warning]
+> **Khác biệt lớn nhất so với báo cáo kết quả kinh doanh: bảng này có một NGÀY trên đầu, không phải
+> một khoảng thời gian.** Sách nói rõ nó là *"một báo cáo về những gì doanh nghiệp có và nợ **tại một
+> thời điểm cụ thể**"* (PDF tr. 76). Báo cáo KQKD là đoạn phim; bảng cân đối là ảnh chụp.
 
-📚 Hai chi tiết kỹ thuật đáng nhớ:
+> [!note]
+> Hai chi tiết kỹ thuật đáng nhớ:
 
 - **Bảng cân đối gần như luôn lập cho toàn bộ tổ chức**, hiếm khi cho từng cơ sở (PDF tr. 79). Nên
   đừng đi tìm bảng cân đối cho phòng ban của bạn — nó thường không tồn tại.
@@ -118,6 +124,7 @@ thời điểm cụ thể**"* (PDF tr. 76). Báo cáo KQKD là đoạn phim; b�
 
 Đây là phép so sánh hay nhất của cả chương, và nó trả lời câu hỏi *"hai báo cáo nối với nhau thế nào"*:
 
+> [!quote]
 > *"Khả năng sinh lời giống như **điểm số** mà bạn nhận được sau khoá học ở trường đại học… Vốn chủ sở
 > hữu giống như **tổng điểm trung bình (GPA)**. GPA luôn phản ánh kết quả học tập tích luỹ của bạn,
 > nhưng chỉ tại một thời điểm nhất định. **Bất kỳ một điểm số nào cũng ảnh hưởng đến nó, nhưng không
@@ -138,7 +145,8 @@ tức **3,45%** vốn chủ sở hữu đầu kỳ. Muốn **gấp đôi** vốn
 ⭐ Đó là ý nghĩa định lượng của câu trích: **bảng cân đối là tích luỹ của nhiều năm, còn báo cáo KQKD
 chỉ là một năm.** Một năm tệ hại không giết được bảng cân đối; một năm rực rỡ cũng không cứu được nó.
 
-💼 Ba con số đi kèm, và tích của hai con số cuối:
+> [!example]
+> Ba con số đi kèm, và tích của hai con số cuối:
 
 | | |
 | --- | ---: |
@@ -156,12 +164,14 @@ trùng hợp, mà là cùng một phép tính nhìn từ hai phía.
 
 ## 4. Cột tài sản — đi từ trên xuống
 
+> [!quote]
 > **Tài sản ngắn hạn** (*current asset*): *"bao gồm bất kỳ thứ gì có thể chuyển đổi thành tiền mặt
 > trong thời gian lâu nhất là **một năm**."* **Tài sản dài hạn**: *"tuổi đời sử dụng lâu hơn một năm."*
 > — ch. 10 · PDF tr. 81
 
 ### Tiền — dòng duy nhất không phải ước tính
 
+> [!quote]
 > *"Đây là một trong số ít những khoản mục **không phụ thuộc vào quyền tự quyết của kế toán viên**.
 > Khi Microsoft cho biết mình có 56 tỷ đô-la… thì điều đó có nghĩa là họ **thật sự có chừng đó tiền**."*
 > — ch. 10 · PDF tr. 81
@@ -169,12 +179,14 @@ trùng hợp, mà là cùng một phép tính nhìn từ hai phía.
 Chú ý tiêu đề phụ mà sách đặt cho cả chương 10: *"Thêm các ước tính và giả định **(Trừ tiền mặt)**"*.
 Toàn bộ chương là danh sách những dòng **có thể tranh cãi được**, và tiền là ngoại lệ duy nhất.
 
-⚠️ Ngoại lệ của ngoại lệ: *"Dĩ nhiên, các doanh nghiệp cũng có thể **khai khống**. Công ty **Parmalat**
-khổng lồ của Ý đã báo cáo khống trên bảng cân đối kế toán rằng họ có hàng tỷ đô-la trong một tài khoản
-ở Ngân hàng Mỹ."* Không thể ước tính sai một con số tiền mặt — chỉ có thể bịa nó.
+> [!warning]
+> Ngoại lệ của ngoại lệ: *"Dĩ nhiên, các doanh nghiệp cũng có thể **khai khống**. Công ty **Parmalat**
+> khổng lồ của Ý đã báo cáo khống trên bảng cân đối kế toán rằng họ có hàng tỷ đô-la trong một tài khoản
+> ở Ngân hàng Mỹ."* Không thể ước tính sai một con số tiền mặt — chỉ có thể bịa nó.
 
 ### Các khoản phải thu (A/R)
 
+> [!quote]
 > *"Đây là số tiền mà khách hàng nợ doanh nghiệp… Nó giống như một khoản mà doanh nghiệp **cho khách
 > hàng vay** − và doanh nghiệp sở hữu các khoản nợ phải trả của khách hàng."* — ch. 10 · PDF tr. 81–82
 
@@ -194,6 +206,7 @@ tính đến 31/01/2004, phần còn lại theo LIFO.
 
 Điều duy nhất sách yêu cầu nhà quản lý nhớ:
 
+> [!quote]
 > *"Tất cả hàng tồn kho đều **tốn kém**… Nếu các yếu tố khác không đổi, việc **giảm lượng hàng tồn kho
 > sẽ giúp bạn nâng mức tiền mặt** của công ty mình."* — ch. 10 · PDF tr. 83
 
@@ -205,6 +218,7 @@ tính đến 31/01/2004, phần còn lại theo LIFO.
 
 Sách mô tả cơ chế bằng lời, rất rõ:
 
+> [!quote]
 > *"Khi **tăng** khoản dự phòng nợ xấu trên bảng cân đối kế toán, bạn sẽ phải ghi nhận một khoản phải
 > chi trừ vào lợi nhuận trên báo cáo kết quả kinh doanh. Việc làm này **làm giảm** con số thu nhập…
 > Tương tự như vậy, nếu bạn **kê giảm** khoản dự phòng nợ xấu, thì điều chỉnh này sẽ **làm tăng lợi
@@ -229,8 +243,10 @@ triệu đô-la doanh thu ghi thêm** — tức một hợp đồng có thật, 
 một con số ước tính nhích 0,105 điểm. **Cùng một kết quả; một bên cần khách hàng, một bên chỉ cần một
 ý kiến.**
 
-📚 Sách giải thích vì sao doanh nghiệp muốn **"chuốt"** thu nhập chứ không phải bơm nó:
+> [!note]
+> Sách giải thích vì sao doanh nghiệp muốn **"chuốt"** thu nhập chứ không phải bơm nó:
 
+> [!quote]
 > *"Bạn ắt sẽ cho rằng Phố Wall thích những cú hích lớn trong lợi nhuận… Nhưng nếu cú hích ấy xảy đến
 > **ngoài dự đoán và khó lý giải**… thì các nhà đầu tư nhiều khả năng sẽ phản ứng **tiêu cực**, xem đó
 > như một dấu hiệu cảnh báo rằng ban quản lý **mất khả năng kiểm soát** tình hình của doanh nghiệp."*
@@ -255,6 +271,7 @@ không phải giá thị trường. Sách đưa hai lý do:
 
 Cái giá của sự thận trọng đó:
 
+> [!quote]
 > *"Bạn làm việc cho một công ty giải trí 30 năm trước mua được một số đất đai quanh thành phố Los
 > Angeles với giá **500.000 đô-la**. Đến nay số đất đai đó có thể trị giá **5 triệu đô-la** − nhưng nó
 > sẽ **vẫn được định giá là 500.000 đô-la** trên bảng cân đối kế toán."* — ch. 10 · PDF tr. 84
@@ -271,8 +288,9 @@ Nhưng bảng cân đối đang giấu đi **90%** giá trị. Sách nói đó l
 sục sạo quanh bảng cân đối kế toán của doanh nghiệp, với hi vọng tìm thấy những **tài sản bị định giá
 thấp** kiểu như thế."*
 
-💼 **Cái bóng ngược lại mà sách không nói:** tài sản bị ghi thấp thì **mẫu số của ROA cũng thấp**, nên
-ROA trông đẹp hơn thực tế.
+> [!example] Cái bóng ngược lại mà sách không nói:
+> tài sản bị ghi thấp thì **mẫu số của ROA cũng thấp**, nên
+> ROA trông đẹp hơn thực tế.
 
 | PPE thật sự đáng giá | tổng tài sản | ROA |
 | --- | ---: | ---: |
@@ -281,10 +299,11 @@ ROA trông đẹp hơn thực tế.
 | 2,0 lần sổ sách | 7.423 | 3,34% |
 | 3,0 lần sổ sách | 9.653 | **2,57%** |
 
-⚠️ ROA công bố 4,78%; nếu PPE đáng giá gấp ba lần sổ sách thì ROA thật chỉ 2,57% — chênh **1,86 lần**.
-*(Bội số 1,5–3,0 là giả định của bài học để đo độ nhạy; sách không nêu.)* **Doanh nghiệp càng lâu đời,
-tài sản càng cũ, thì ROA công bố càng dễ gây hiểu lầm** — điều cần nhớ khi đến
-[bài 8](bai_08_ty_le_loi_nhuan_don_bay_thanh_toan.md) và bài 9.
+> [!warning]
+> ROA công bố 4,78%; nếu PPE đáng giá gấp ba lần sổ sách thì ROA thật chỉ 2,57% — chênh **1,86 lần**.
+> *(Bội số 1,5–3,0 là giả định của bài học để đo độ nhạy; sách không nêu.)* **Doanh nghiệp càng lâu đời,
+> tài sản càng cũ, thì ROA công bố càng dễ gây hiểu lầm** — điều cần nhớ khi đến
+> [bài 8](bai_08_ty_le_loi_nhuan_don_bay_thanh_toan.md) và bài 9.
 
 ---
 
@@ -292,6 +311,7 @@ tài sản càng cũ, thì ROA công bố càng dễ gây hiểu lầm** — đi
 
 Đây là chỗ hai bài nối liền, và sách nói thẳng ra:
 
+> [!quote]
 > *"Trong chương trước, chúng tôi đã chỉ cho các bạn thấy cách thức một doanh nghiệp có thể 'hô biến'
 > từ không có lợi nhuận thành có lợi nhuận, chỉ bằng việc thay đổi phương thức khấu hao tài sản. **Trò
 > ảo thuật nghệ-thuật-tài-chính này đã lan cả sang bảng cân đối kế toán.** Nếu một doanh nghiệp quyết
@@ -314,19 +334,22 @@ Sách không đặt số. Lấy đúng chiếc xe tải 36.000 đô-la của bà
 hữu**. Cùng một chiếc xe, cùng một số tiền đã chi, hai "giá trị sổ sách" cách nhau 18.000. Đẳng thức
 được chốt bằng `assert` ở mọi mốc tháng:
 
+> [!note]
 > **Δ tài sản = Δ vốn chủ sở hữu = Δ khấu hao luỹ kế**
 
 Và ở tháng 72 thì cả hai về 0: chênh lệch **biến mất**. Nó chỉ là vay mượn thời gian — đúng mẫu hình
 của bài 2 và bài 3.
 
-⚠️ Con số 18.000 là **trước thuế**; sách bỏ qua thuế ở chỗ này. Lợi nhuận cao hơn thì thuế cũng cao
-hơn: với thuế suất 46,2%, 18.000 lợi nhuận thêm kéo theo **8.317** thuế, nên vốn chủ sở hữu thật sự chỉ
-tăng **9.683**, phần còn lại thành một khoản **nợ thuế**. Bảng cân đối vẫn cân — chỉ là cân ở chỗ khác.
+> [!warning]
+> Con số 18.000 là **trước thuế**; sách bỏ qua thuế ở chỗ này. Lợi nhuận cao hơn thì thuế cũng cao
+> hơn: với thuế suất 46,2%, 18.000 lợi nhuận thêm kéo theo **8.317** thuế, nên vốn chủ sở hữu thật sự chỉ
+> tăng **9.683**, phần còn lại thành một khoản **nợ thuế**. Bảng cân đối vẫn cân — chỉ là cân ở chỗ khác.
 
 ---
 
 ## 8. Lợi thế thương mại — MJQ Storage và động cơ định giá thấp
 
+> [!quote]
 > **Lợi thế thương mại** (*goodwill*): *"con số chênh lệch giữa **giá mua** doanh nghiệp và **giá trị
 > tài sản thuần** mà bên mua nhận được."* — ch. 10 · PDF tr. 85
 
@@ -351,6 +374,7 @@ Coca-Cola? Hay danh sách khách hàng của hãng Dell?**"* (PDF tr. 86).
 
 Sách kết luận bằng lời:
 
+> [!quote]
 > *"Bạn có động cơ tìm mua các doanh nghiệp, mà trong đó thứ được mua chủ yếu là lợi thế thương mại, và
 > bạn có động cơ để **định giá thấp tài sản vật chất** của doanh nghiệp định mua. (Đừng quên, **chính
 > bạn và người của mình là người định giá cho những tài sản ấy!**)… Giờ thì thậm chí bạn còn có **động
@@ -373,13 +397,15 @@ Sách kết luận bằng lời:
 
 Quy tắc mới làm động cơ **mạnh hơn** — đúng như sách nói, và điều đó được chốt bằng `assert`.
 
-⚠️ Riêng việc đổi quy tắc, không động đến một con số thẩm định nào, đã bớt **100.000** đô-la chi phí
-mỗi năm.
+> [!warning]
+> Riêng việc đổi quy tắc, không động đến một con số thẩm định nào, đã bớt **100.000** đô-la chi phí
+> mỗi năm.
 
 ---
 
 ## 9. Tyco — bóc lợi thế thương mại ra thì còn gì
 
+> [!quote]
 > *"Trong riêng hai năm liên tiếp, năm 2000 và 2001, Tyco đã tiến hành mua lại với tốc độ chóng mặt −
 > **hơn 600 công ty**. Nhiều nhà phân tích nhận thấy Tyco thường xuyên **định giá thấp tài sản** của
 > những công ty mua lại. Việc làm này gia tăng lợi thế thương mại của tất cả các giao dịch mua lại, và
@@ -388,6 +414,7 @@ mỗi năm.
 
 Rồi câu chốt:
 
+> [!quote]
 > *"…nếu bạn **gạt lợi thế thương mại ra khỏi** phương trình của bảng cân đối kế toán, thì các khoản nợ
 > của công ty **thực chất lại lớn hơn tài sản**."* — ch. 10 · PDF tr. 88
 
@@ -406,20 +433,24 @@ mua thành lợi thế thương mại *(các tham số này là của bài học
 ⭐ Vốn chủ sở hữu **âm từ thương vụ thứ 16** — đúng lúc lợi thế thương mại vượt vốn chủ sở hữu. Toàn bộ
 cảnh báo của sách viết được thành một tỷ lệ đọc trong ba giây:
 
+> [!note]
 > **lợi thế thương mại / vốn chủ sở hữu > 1**
 
-⚠️ Chú ý cột **LTTM/TS**: ở thương vụ thứ 16 nó mới là **30,5%** tổng tài sản. Nhìn cột đó thì không
-thấy gì đáng sợ. Tỷ lệ nguy hiểm là tỷ lệ với **vốn chủ sở hữu**, không phải với tổng tài sản — vì lợi
-thế thương mại bị xoá thì nó ăn thẳng vào vốn chủ, không ăn vào nợ phải trả.
+> [!warning]
+> Chú ý cột **LTTM/TS**: ở thương vụ thứ 16 nó mới là **30,5%** tổng tài sản. Nhìn cột đó thì không
+> thấy gì đáng sợ. Tỷ lệ nguy hiểm là tỷ lệ với **vốn chủ sở hữu**, không phải với tổng tài sản — vì lợi
+> thế thương mại bị xoá thì nó ăn thẳng vào vốn chủ, không ăn vào nợ phải trả.
 
-💼 Công ty mẫu không có đồng lợi thế thương mại nào nên an toàn tuyệt đối ở phép thử này. Nhưng với bất
-kỳ doanh nghiệp nào lớn lên bằng **mua lại**, đây là dòng đầu tiên cần tìm trên bảng cân đối của họ.
+> [!example]
+> Công ty mẫu không có đồng lợi thế thương mại nào nên an toàn tuyệt đối ở phép thử này. Nhưng với bất
+> kỳ doanh nghiệp nào lớn lên bằng **mua lại**, đây là dòng đầu tiên cần tìm trên bảng cân đối của họ.
 
-📚 **Sở hữu trí tuệ và R&D** có cùng cấu trúc rủi ro. GAAP cho phép vốn hoá chi phí R&D *"nếu sản phẩm
-phát triển **khả thi về mặt công nghệ**"* — nhưng sách hỏi ngay: *"**ai sẽ xác định** tính khả thi công
-nghệ đó?"* Vốn hoá thì lợi nhuận đẹp hơn; ghi thẳng vào chi phí là *"cách tiếp cận thận trọng hơn"*.
-**Computer Associates** *"đã tự chuốc lấy rắc rối khi khấu hao chi phí R&D của những sản phẩm không có
-tương lai chắc chắn"* (PDF tr. 89).
+> [!note] Sở hữu trí tuệ và R&D
+> có cùng cấu trúc rủi ro. GAAP cho phép vốn hoá chi phí R&D *"nếu sản phẩm
+> phát triển **khả thi về mặt công nghệ**"* — nhưng sách hỏi ngay: *"**ai sẽ xác định** tính khả thi công
+> nghệ đó?"* Vốn hoá thì lợi nhuận đẹp hơn; ghi thẳng vào chi phí là *"cách tiếp cận thận trọng hơn"*.
+> **Computer Associates** *"đã tự chuốc lấy rắc rối khi khấu hao chi phí R&D của những sản phẩm không có
+> tương lai chắc chắn"* (PDF tr. 89).
 
 ---
 
@@ -446,7 +477,8 @@ Nhưng ví dụ đắt hơn là cái thứ hai — chiến dịch quảng cáo 1
 đây là khoản chưa ghi nhận **phải nằm ở đâu đó** — và chỗ đó là bảng cân đối. **Báo cáo KQKD và bảng
 cân đối là hai đầu của cùng một bút toán.**
 
-⚠️ Sách chỉ thẳng ra động cơ, và nó phụ thuộc vào… tháng đó làm ăn thế nào:
+> [!warning]
+> Sách chỉ thẳng ra động cơ, và nó phụ thuộc vào… tháng đó làm ăn thế nào:
 
 - tháng Một **khó khăn** → *"trừ dần 1/24 của 1 triệu đô-la khỏi lợi nhuận vẫn tốt hơn là trừ một lần
   cả 1 triệu đô-la"*;
@@ -461,6 +493,7 @@ Cùng một chiến dịch, cùng một hoá đơn. Chỉ khác kết quả thá
 
 Chương 11 mở bằng một cách đọc lại rất đáng giá:
 
+> [!quote]
 > *"Có một cách khác − chỉ đôi chút − để đọc phần này của bảng cân đối kế toán, đó là phần này cho ta
 > thấy **các tài sản đã được thu về như thế nào**. Nếu một doanh nghiệp vay vốn… thì khoản vốn vay sẽ
 > được thể hiện trên một dòng nợ phải trả. Nếu doanh nghiệp bán cổ phiếu để mua tài sản, thực tế này sẽ
@@ -485,7 +518,8 @@ Chương 11 mở bằng một cách đọc lại rất đáng giá:
 - Trong 2.457 vốn chủ sở hữu, **cổ đông chỉ thực sự bỏ ra 1.184**; 1.273 còn lại (**51,8%**) là lợi
   nhuận chính công ty tự kiếm qua các năm.
 
-📚 Các dòng còn lại, gọn:
+> [!note]
+> Các dòng còn lại, gọn:
 
 | dòng | ý chính | trích |
 | --- | --- | --- |
@@ -498,10 +532,11 @@ Chương 11 mở bằng một cách đọc lại rất đáng giá:
 | **Vốn góp thêm** | phần vượt mệnh giá: bán 5 đô-la, mệnh giá 1 → góp thêm 4 đô-la/cổ phiếu | PDF tr. 95 |
 | **Thu nhập giữ lại** | *"phần lợi nhuận được tái đầu tư… thay vì dùng để trả cổ tức"*; có thể âm — **thâm hụt tích luỹ** | PDF tr. 95 |
 
-⚠️ Một khác biệt pháp lý đáng nhớ giữa trái phiếu và cổ phiếu ưu đãi: *"Nếu một doanh nghiệp không thể
-thanh toán lợi tức trên trái phiếu, người nắm giữ trái phiếu có thể **yêu cầu doanh nghiệp tuyên bố phá
-sản**. Trong khi đó, người nắm giữ cổ phiếu ưu đãi thì **không**."* (PDF tr. 94). Đó là toàn bộ lý do
-doanh nghiệp chịu trả cổ tức ưu đãi thay vì đi vay.
+> [!warning]
+> Một khác biệt pháp lý đáng nhớ giữa trái phiếu và cổ phiếu ưu đãi: *"Nếu một doanh nghiệp không thể
+> thanh toán lợi tức trên trái phiếu, người nắm giữ trái phiếu có thể **yêu cầu doanh nghiệp tuyên bố phá
+> sản**. Trong khi đó, người nắm giữ cổ phiếu ưu đãi thì **không**."* (PDF tr. 94). Đó là toàn bộ lý do
+> doanh nghiệp chịu trả cổ tức ưu đãi thay vì đi vay.
 
 ---
 
@@ -509,6 +544,7 @@ doanh nghiệp chịu trả cổ tức ưu đãi thay vì đi vay.
 
 Phần III đóng lại bằng một câu hỏi tự đặt và một câu trả lời dứt khoát:
 
+> [!quote]
 > *"Như vậy, vốn chủ sở hữu là những gì mà các cổ đông sẽ nhận khi doanh nghiệp được bán? **Tất nhiên
 > là không!**"* — ch. 11 · PDF tr. 96
 
@@ -530,6 +566,7 @@ thị trường:
 | 20 | 67,00 $ | 4.958 | 2,02 lần |
 | 25 | 83,75 $ | 6.198 | 2,52 lần |
 
+> [!quote]
 > *"Giá trị thị trường của một doanh nghiệp trên thực tế là **số tiền mà người mua muốn bỏ ra**."*
 > — ch. 11 · PDF tr. 96
 
@@ -539,15 +576,16 @@ cả ba đều không phải giá trị sổ sách.
 
 ---
 
-## 13. 🇻🇳 Đối chiếu Việt Nam
+## 13. Đối chiếu Việt Nam
 
 **① Tên tiếng Việt nói thẳng ra điều mà tiếng Anh phải giải thích.** Mẫu B01-DN của Việt Nam đặt tên
 hai nửa là **"TÀI SẢN"** và **"NGUỒN VỐN"**. Cái tên *nguồn vốn* chính là câu mà chương 11 phải viết cả
 đoạn để nói: nửa dưới cho biết **tài sản đã được thu về như thế nào**. Người đọc báo cáo Việt Nam được
 tặng sẵn cách đọc mà mục 11 phải đi tìm.
 
-⚠️ Nhưng cũng vì thế mà dễ nhầm: **"nguồn vốn"** trong tiếng Việt gồm **cả nợ phải trả**, không phải chỉ
-vốn chủ sở hữu.
+> [!warning]
+> Nhưng cũng vì thế mà dễ nhầm: **"nguồn vốn"** trong tiếng Việt gồm **cả nợ phải trả**, không phải chỉ
+> vốn chủ sở hữu.
 
 **② Tên báo cáo khác nhau giữa hai khung.** VAS gọi là **"Bảng cân đối kế toán"**; IFRS gọi là **"Báo
 cáo tình hình tài chính"** (*statement of financial position*). Báo cáo IFRS của Vinamilk dùng tên thứ
@@ -569,8 +607,9 @@ hao** lợi thế thương mại. **VAS 11** *(Hợp nhất kinh doanh)* thì ng
 hằng năm **tăng**, không giảm. Đây là ví dụ sạch nhất trong cả khoá học cho thấy *"nghệ thuật tài
 chính"* không phải một danh sách thủ thuật cố định — nó là **hàm số của bộ quy tắc đang áp dụng**.
 
-⚠️ Và vì Vinamilk công bố **song song hai bộ báo cáo**, cùng một thương vụ mua lại sẽ cho hai con số lợi
-nhuận khác nhau ở hai bộ. Không bộ nào sai.
+> [!warning]
+> Và vì Vinamilk công bố **song song hai bộ báo cáo**, cùng một thương vụ mua lại sẽ cho hai con số lợi
+> nhuận khác nhau ở hai bộ. Không bộ nào sai.
 
 **④ Cấu trúc nguồn vốn khác hẳn.** Cùng phép đọc "ai trả tiền":
 
@@ -810,11 +849,11 @@ Không có lời giải.
   - Phụ lục, PDF tr. 223–227 — công ty mẫu, dùng ở mục 2, 3, 5, 6, 7, 9, 11, 12
 - **Chuẩn mực kế toán Việt Nam số 11 — Hợp nhất kinh doanh (VAS 11)**, và hướng dẫn tại
   **Thông tư 202/2014/TT-BTC** — phân bổ lợi thế thương mại, thời gian tối đa 10 năm.
-  Nhắc ở [mục 13](#13--đối-chiếu-việt-nam).
+  Nhắc ở [mục 13](#13-đối-chiếu-việt-nam).
 - **Công ty Cổ phần Sữa Việt Nam (HOSE: VNM)** — Báo cáo tài chính hợp nhất đã kiểm toán 2024 theo
   IFRS, trong *Báo cáo thường niên Vinamilk 2024*, tr. 180–185.
   [Nguồn gốc](https://www.vinamilk.com.vn/bao-cao-thuong-nien/bao-cao/2024/doc/vi/bctc-ifrs.pdf),
-  truy xuất 08/09/2026. Dùng ở [mục 13](#13--đối-chiếu-việt-nam).
+  truy xuất 08/09/2026. Dùng ở [mục 13](#13-đối-chiếu-việt-nam).
 - **Đã kiểm chứng bằng code** — [`thuc_hanh/bai-04-bang-can-doi-ke-toan.py`](../thuc_hanh/bai-04-bang-can-doi-ke-toan.py):
   - bảng cân đối **cân** và cuộn chiếu vốn chủ sở hữu 2.375 + 248 − 166 = 2.457, chốt bằng `assert`;
   - xe tải: **Δ tài sản = Δ khấu hao luỹ kế** ở **mọi mốc tháng**, chốt bằng `assert`;

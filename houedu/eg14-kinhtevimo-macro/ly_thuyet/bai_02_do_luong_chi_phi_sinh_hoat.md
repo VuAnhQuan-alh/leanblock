@@ -1,13 +1,15 @@
 # Bài 2 — Đo lường chi phí sinh hoạt
 
+> [!info] Về bài này
 > Bài học dựng từ **Chương 11 — Đo lường chi phí sinh hoạt** (tr. 239–258)
 > của *N. Gregory Mankiw — **Kinh tế học vĩ mô***, bản dịch của Khoa Kinh tế, **ĐH Kinh tế TP.HCM** (Cengage Learning Asia).
-> 🎯 **Vòng 1.** Bài 1 dạy đo **sản lượng**; bài này dạy đo **giá cả**. Có hai thước đo đó rồi thì
+>
+> **Vòng 1.** Bài 1 dạy đo **sản lượng**; bài này dạy đo **giá cả**. Có hai thước đo đó rồi thì
 > mọi con số kinh tế trong quá khứ mới so được với hiện tại — mà đó là việc bạn làm hằng tuần trong nghề.
-> 💼 **Góc QTKD** — ví dụ thêm cho ngành quản trị kinh doanh, **không có trong sách**.
-> 📚 **Mở rộng** — thứ sách nói lướt hoặc để trong hộp phụ.
-> ⚠️ — chỗ dễ hiểu sai, hoặc chỗ sách in sai.
-> 📌 **Cần đọc trước:** [Bài 1 — Đo lường thu nhập quốc gia](bai_01_do_luong_thu_nhap_quoc_gia.md), mục 9–10 (GDP thực và chỉ số giảm phát GDP).
+>
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
+>
+> **Cần đọc trước:** [Bài 1 — Đo lường thu nhập quốc gia](bai_01_do_luong_thu_nhap_quoc_gia.md), mục 9–10 (GDP thực và chỉ số giảm phát GDP).
 
 ---
 
@@ -19,17 +21,17 @@
 - [2. Chỉ số giá tiêu dùng là gì](#2-chỉ-số-giá-tiêu-dùng-là-gì)
 - [3. Năm bước tính CPI — Bảng 1, tr. 241](#3-năm-bước-tính-cpi--bảng-1-tr-241)
 - [4. Giỏ hàng CPI gồm những gì — Hình 1, tr. 242](#4-giỏ-hàng-cpi-gồm-những-gì--hình-1-tr-242)
-- [5. 📚 Chỉ số giá sản xuất — PPI](#5--chỉ-số-giá-sản-xuất--ppi)
+- [5. Chỉ số giá sản xuất — PPI](#5-chỉ-số-giá-sản-xuất--ppi)
 - [6. Ba vấn đề khiến CPI không hoàn hảo](#6-ba-vấn-đề-khiến-cpi-không-hoàn-hảo)
-- [7. ⚠️ CPI phóng đại bao nhiêu — và vì sao con số đó quan trọng](#7--cpi-phóng-đại-bao-nhiêu--và-vì-sao-con-số-đó-quan-trọng)
+- [7. CPI phóng đại bao nhiêu — và vì sao con số đó quan trọng](#7-cpi-phóng-đại-bao-nhiêu--và-vì-sao-con-số-đó-quan-trọng)
 - [8. CPI so với chỉ số giảm phát GDP](#8-cpi-so-với-chỉ-số-giảm-phát-gdp)
 - [9. Chuyển đổi số đô la giữa các thời điểm](#9-chuyển-đổi-số-đô-la-giữa-các-thời-điểm)
 - [10. Chỉ số hoá và COLA](#10-chỉ-số-hoá-và-cola)
-- [11. 📚 "Ngài Chỉ Số đến Hollywood" — hộp "Bạn có biết", tr. 248](#11--ngài-chỉ-số-đến-hollywood--hộp-bạn-có-biết-tr-248)
+- [11. "Ngài Chỉ Số đến Hollywood" — hộp "Bạn có biết", tr. 248](#11-ngài-chỉ-số-đến-hollywood--hộp-bạn-có-biết-tr-248)
 - [12. Lãi suất danh nghĩa và lãi suất thực](#12-lãi-suất-danh-nghĩa-và-lãi-suất-thực)
 - [13. Lãi suất thực trong nền kinh tế Hoa Kỳ — Hình 3, tr. 250](#13-lãi-suất-thực-trong-nền-kinh-tế-hoa-kỳ--hình-3-tr-250)
-- [14. 💼 Góc QTKD — nơi bài này chạm vào công việc](#14--góc-qtkd--nơi-bài-này-chạm-vào-công-việc)
-- [15. 📚 Đối chiếu Việt Nam — đọc CPI trong nước](#15--đối-chiếu-việt-nam--đọc-cpi-trong-nước)
+- [14. Góc QTKD — nơi bài này chạm vào công việc](#14-góc-qtkd--nơi-bài-này-chạm-vào-công-việc)
+- [15. Đối chiếu Việt Nam — đọc CPI trong nước](#15-đối-chiếu-việt-nam--đọc-cpi-trong-nước)
 - [16. Code minh hoạ](#16-code-minh-hoạ)
 - [17. Tự thử](#17-tự-thử)
 - [18. Từ điển thuật ngữ](#18-từ-điển-thuật-ngữ)
@@ -47,6 +49,7 @@ Sách mở chương bằng một giai thoại thật (tr. 239). Năm **1931**, g
 Yankees trả cho **Babe Ruth** khoản lương **80.000 USD**. Một phóng viên hỏi liệu như thế có hợp lý
 không, khi anh kiếm nhiều hơn Tổng thống **Herbert Hoover** — người chỉ có **75.000 USD**. Ruth trả lời:
 
+> [!quote]
 > *"Tôi đã có một năm làm việc tốt hơn."*
 
 Đối chiếu với năm **2010**: lương trung bình một cầu thủ Yankees là **5,5 triệu USD**, và **Alex
@@ -55,6 +58,7 @@ Rodriguez** nhận tới **33 triệu USD**.
 Câu hỏi tự nhiên: bóng chày đã trở nên sinh lợi hơn nhiều so với 8 thập niên trước? Sách chặn ngay
 (tr. 239):
 
+> [!quote]
 > *"Nhưng như mọi người đều biết, giá cả hàng hóa và dịch vụ cũng đã tăng lên. Năm 1931, một đồng 5 xu
 > mua được một que kem, và 25 xu mua được một vé xem phim ở rạp địa phương. Bởi vì giá cả vào thời
 > của Babe Ruth thì thấp hơn rất nhiều so với ngày nay, cho nên **chúng ta không biết được là Ruth đã thụ
@@ -75,6 +79,7 @@ và câu trả lời cho Babe Ruth.
 
 Sách nói rõ ranh giới đó ở phần kết luận (tr. 251):
 
+> [!quote]
 > *"Sự thảo luận về các chỉ số giá trong chương này, cùng với sự thảo luận về GDP trong chương trước,
 > chỉ là bước đầu tiên trong quá trình nghiên cứu kinh tế vĩ mô. **Chúng ta vẫn chưa xem xét những nhân
 > tố nào quyết định GDP của một quốc gia hoặc những nguyên nhân và tác động của lạm phát.**"*
@@ -83,16 +88,18 @@ Sách nói rõ ranh giới đó ở phần kết luận (tr. 251):
 
 ## 2. Chỉ số giá tiêu dùng là gì
 
+> [!quote]
 > **Chỉ số giá tiêu dùng (CPI)** (*consumer price index*): thước đo chi phí tổng quát của các hàng hoá
 > và dịch vụ được mua bởi **một người tiêu dùng điển hình**. — chú thích tr. 240
 
 Ai tính nó ở Hoa Kỳ: **Cục Thống kê Lao động (BLS)**, một cơ quan trực thuộc **Bộ Lao động**, công bố
 **hằng tháng** (tr. 240).
 
-### ⚠️ Vì sao có CPI khi đã có chỉ số giảm phát GDP?
+### Vì sao có CPI khi đã có chỉ số giảm phát GDP?
 
 Bài 1 đã cho một thước đo mức giá rồi. Sách trả lời thẳng ở tr. 240:
 
+> [!quote]
 > *"…tỷ lệ lạm phát mà bạn nghe thấy trong những bản tin mỗi tối thì **không được tính toán từ số liệu
 > thống kê này**. Bởi vì chỉ số giá tiêu dùng phản ánh tốt hơn những hàng hóa và dịch vụ mà **người tiêu
 > dùng mua**, cho nên nó là thước đo phổ biến hơn về lạm phát."*
@@ -111,6 +118,7 @@ Sách dựng một nền kinh tế đồ chơi: người tiêu dùng chỉ mua *
 
 Xác định hàng nào quan trọng nhất với người tiêu dùng điển hình, và **quan trọng đến mức nào**.
 
+> [!quote]
 > *"BLS xác định các trọng số này bằng cách **khảo sát người tiêu dùng** để tìm ra giỏ hàng hóa và dịch
 > vụ được mua bởi người tiêu dùng điển hình."* — tr. 240
 
@@ -136,6 +144,7 @@ Giá của từng món trong giỏ, tại từng thời điểm.
 
 ⭐ **Chỉ có giá cả thay đổi trong phép tính này.** Sách nhấn mạnh lý do (tr. 241):
 
+> [!quote]
 > *"Bằng cách giữ nguyên giỏ hàng (4 cây xúc xích và 2 chiếc bánh mì kẹp thịt), chúng ta **tách ảnh
 > hưởng của sự thay đổi giá cả ra khỏi ảnh hưởng của bất kỳ sự thay đổi số lượng nào** mà có thể xảy ra
 > cùng lúc."*
@@ -161,6 +170,7 @@ Nói cách khác, một giỏ hàng hóa có giá 100 USD ở năm gốc thì s�
 
 ### Bước 5 — Tính tỷ lệ lạm phát
 
+> [!quote]
 > **Tỷ lệ lạm phát** (*inflation rate*): phần trăm thay đổi của chỉ số giá so với kỳ trước. — chú thích tr. 242
 
 $$\text{Tỷ lệ lạm phát năm 2} = \frac{\text{CPI năm 2} - \text{CPI năm 1}}{\text{CPI năm 1}} \times 100$$
@@ -170,20 +180,21 @@ $$\text{Tỷ lệ lạm phát năm 2} = \frac{\text{CPI năm 2} - \text{CPI năm
    2012:  (250 − 175) / 175 × 100  =  43%
 ```
 
-⚠️ **Chú ý mẫu số.** Năm 2012 chỉ số tăng đúng **75 điểm** như năm 2011 (100→175 và 175→250), nhưng tỷ
-lệ lạm phát chỉ còn **43%** vì mẫu số đã lớn hơn. Nhầm "tăng bao nhiêu **điểm**" với "tăng bao nhiêu
-**phần trăm**" là lỗi số học phổ biến nhất khi đọc số liệu chỉ số.
+> [!warning] Chú ý mẫu số.
+> Năm 2012 chỉ số tăng đúng **75 điểm** như năm 2011 (100→175 và 175→250), nhưng tỷ
+> lệ lạm phát chỉ còn **43%** vì mẫu số đã lớn hơn. Nhầm "tăng bao nhiêu **điểm**" với "tăng bao nhiêu
+> **phần trăm**" là lỗi số học phổ biến nhất khi đọc số liệu chỉ số.
 
 Mục 1 của [code minh hoạ](#16-code-minh-hoạ) chạy đủ năm bước và kiểm bằng `assert` rằng ra đúng
 100/175/250 và 75%/43% như sách in.
 
-### 📚 CPI ngoài đời phức tạp hơn bao nhiêu
-
-Ví dụ trên có 2 mặt hàng. Thực tế: *"BLS thu thập và xử lý số liệu về giá cả của **hàng ngàn** hàng hóa
-và dịch vụ hàng tháng"* (tr. 242–243). BLS còn công bố:
-
-- chỉ số cho **từng khu vực** (Boston, New York, Los Angeles);
-- chỉ số cho **từng nhóm hàng** (thực phẩm, quần áo, năng lượng).
+> [!note] CPI ngoài đời phức tạp hơn bao nhiêu
+>
+> Ví dụ trên có 2 mặt hàng. Thực tế: *"BLS thu thập và xử lý số liệu về giá cả của **hàng ngàn** hàng hóa
+> và dịch vụ hàng tháng"* (tr. 242–243). BLS còn công bố:
+>
+> - chỉ số cho **từng khu vực** (Boston, New York, Los Angeles);
+> - chỉ số cho **từng nhóm hàng** (thực phẩm, quần áo, năng lượng).
 
 ---
 
@@ -207,13 +218,15 @@ Hộp *"Bạn có biết"* của sách chia chi tiêu của người tiêu dùng
 
 Sách giải thích cách gán trọng số (tr. 242):
 
+> [!quote]
 > *"…họ cũng cố gắng lấy trọng số cho những hàng hóa và dịch vụ này tùy theo **số lượng của từng mặt
 > hàng mà người tiêu dùng mua**."*
 
-⚠️ **"Trọng số lớn" không có nghĩa là "quan trọng".** Nhà ở chiếm 42% vì người ta **tiêu nhiều tiền
-nhất** cho nó, không phải vì nó đáng quý nhất. Thuốc men chỉ 7% nhưng bỏ nó đi thì bạn chết.
+> [!warning] "Trọng số lớn" không có nghĩa là "quan trọng".
+> Nhà ở chiếm 42% vì người ta **tiêu nhiều tiền
+> nhất** cho nó, không phải vì nó đáng quý nhất. Thuốc men chỉ 7% nhưng bỏ nó đi thì bạn chết.
 
-### ⭐ Hệ quả trực tiếp: lạm phát của bạn không phải lạm phát công bố
+### Hệ quả trực tiếp: lạm phát của bạn không phải lạm phát công bố
 
 CPI mô tả **một người tiêu dùng điển hình**. Không ai là người điển hình cả.
 
@@ -221,26 +234,30 @@ Mục 2 của [code minh hoạ](#16-code-minh-hoạ) lấy cùng một bảng th
 tiêu khác nhau. Kết quả: **5,49% · 5,79% · 8,44%** — cùng một năm, cùng một bảng giá. Người tài xế chịu
 lạm phát gần gấp rưỡi người điển hình, chỉ vì xăng chiếm 45% ngân sách của anh ta.
 
-💼 Đây là lý do cuộc thương lượng lương luôn bế tắc ở chỗ này. Nhân viên nói *"lương không theo kịp
-lạm phát"* — họ đang nói về **giỏ hàng của họ**, còn bạn đang đọc **CPI của cả nước**. Cả hai đều có
-số liệu đúng.
+> [!example]
+> Đây là lý do cuộc thương lượng lương luôn bế tắc ở chỗ này. Nhân viên nói *"lương không theo kịp
+> lạm phát"* — họ đang nói về **giỏ hàng của họ**, còn bạn đang đọc **CPI của cả nước**. Cả hai đều có
+> số liệu đúng.
 
 ---
 
-## 5. 📚 Chỉ số giá sản xuất — PPI
+## 5. Chỉ số giá sản xuất — PPI
 
+> [!quote]
 > **Chỉ số giá sản xuất (PPI)** (*producer price index*): thước đo chi phí của một giỏ hàng hóa và dịch
 > vụ được mua bởi **các doanh nghiệp** chứ không phải người tiêu dùng. — chú thích tr. 243
 
 Vì sao PPI đáng theo dõi (tr. 243):
 
+> [!quote]
 > *"Vì các doanh nghiệp rốt cuộc sẽ chuyển các chi phí cho người tiêu dùng dưới dạng giá tiêu dùng cao
 > hơn, cho nên những thay đổi của chỉ số giá sản xuất thường được xem là **hữu ích trong việc dự đoán**
 > sự thay đổi của chỉ số giá tiêu dùng."*
 
-💼 Với người làm quản trị, **PPI thường quan trọng hơn CPI**: nó nằm gần chi phí đầu vào của bạn hơn,
-và nó **đi trước** CPI. Nếu PPI ngành bạn đang tăng nhanh mà giá bán chưa tăng, biên lợi nhuận sắp bị
-bóp — bạn có một khoảng thời gian để chuẩn bị.
+> [!example]
+> Với người làm quản trị, **PPI thường quan trọng hơn CPI**: nó nằm gần chi phí đầu vào của bạn hơn,
+> và nó **đi trước** CPI. Nếu PPI ngành bạn đang tăng nhanh mà giá bán chưa tăng, biên lợi nhuận sắp bị
+> bóp — bạn có một khoảng thời gian để chuẩn bị.
 
 ---
 
@@ -248,6 +265,7 @@ bóp — bạn có một khoảng thời gian để chuẩn bị.
 
 Sách vào mục này bằng một câu định nghĩa lại mục đích của CPI (tr. 243):
 
+> [!quote]
 > *"…chỉ số giá tiêu dùng cố gắng xác định **mức thu nhập cần phải tăng lên bao nhiêu để duy trì cùng
 > một mức sống**."*
 
@@ -262,6 +280,7 @@ số lượng cũ.
 Ví dụ của sách: năm gốc **táo rẻ hơn lê** nên người ta mua nhiều táo. Năm sau táo tăng giá nhiều hơn.
 Người tiêu dùng thật sẽ **chuyển sang lê**, nhưng BLS vẫn tính giỏ cũ nhiều táo:
 
+> [!quote]
 > *"…chỉ số giá tiêu dùng sử dụng giỏ hàng cố định mà về bản chất là giả định rằng người tiêu dùng tiếp
 > tục mua những quả táo đắt đỏ bây giờ với số lượng giống như trước. Vì lý do này, chỉ số sẽ đo lường
 > **sự gia tăng lớn hơn nhiều** trong chi phí sinh hoạt so với sự gia tăng mà người tiêu dùng thực tế
@@ -280,10 +299,11 @@ Người tiêu dùng thật sẽ **chuyển sang lê**, nhưng BLS vẫn tính g
 
 ⭐ **CPI báo 55% trong khi chi phí sống thật chỉ tăng khoảng 41%. Phóng đại 14,1 điểm phần trăm.**
 
-📚 Hai chỉ số này có tên riêng trong thống kê: giỏ cố định năm gốc là **chỉ số Laspeyres** (chính là
-cách CPI làm), giỏ năm hiện tại là **chỉ số Paasche** (chính là cách chỉ số giảm phát GDP làm — mục 8),
-và trung bình nhân của hai là **chỉ số Fisher**. Sách không dùng những tên này, nhưng biết chúng thì
-đọc tài liệu thống kê dễ hơn rất nhiều.
+> [!note]
+> Hai chỉ số này có tên riêng trong thống kê: giỏ cố định năm gốc là **chỉ số Laspeyres** (chính là
+> cách CPI làm), giỏ năm hiện tại là **chỉ số Paasche** (chính là cách chỉ số giảm phát GDP làm — mục 8),
+> và trung bình nhân của hai là **chỉ số Fisher**. Sách không dùng những tên này, nhưng biết chúng thì
+> đọc tài liệu thống kê dễ hơn rất nhiều.
 
 ### ② Sự giới thiệu hàng hoá mới (tr. 243–244)
 
@@ -294,12 +314,14 @@ Lập luận của sách rất đẹp. Hình dung bạn được chọn giữa h
    phiếu B:  cửa hàng NHỎ, cùng mức giá, ít loại hàng hơn
 ```
 
+> [!quote]
 > *"Hầu hết mọi người sẽ chọn cửa hàng có hàng hóa đa dạng hơn. Về bản chất, sự gia tăng trong tập hợp
 > các lựa chọn **làm cho mỗi đô la có giá trị hơn**."* — tr. 244
 
 Ví dụ lịch sử của sách: **đầu thu video-cassette (VCR)** xuất hiện cuối những năm 1970. Không phải thay
 thế hoàn hảo cho việc ra rạp, nhưng xem phim cũ trong phòng khách là **một lựa chọn mới**. Vấn đề:
 
+> [!quote]
 > *"Cuối cùng thì BLS đã sửa lại giỏ hàng hóa để bao gồm VCR, và sau đó chỉ số này đã phản ánh những
 > thay đổi của giá cả VCR. Nhưng **sự giảm xuống của chi phí sinh hoạt gắn liền với sự xuất hiện ban đầu
 > của VCR thì đã không bao giờ được thể hiện trong chỉ số này**."* — tr. 244
@@ -315,15 +337,17 @@ BLS **có** cố gắng điều chỉnh — ví dụ khi một mẫu xe hơi có
 hơn. *"Về bản chất, họ đang cố gắng tính toán giá của một giỏ hàng hóa có chất lượng không đổi"*
 (tr. 244). Nhưng:
 
+> [!quote]
 > *"Bất kể những nỗ lực này, sự thay đổi chất lượng vẫn là một vấn đề bởi vì **rất khó để đo lường chất
 > lượng**."*
 
 ---
 
-## 7. ⚠️ CPI phóng đại bao nhiêu — và vì sao con số đó quan trọng
+## 7. CPI phóng đại bao nhiêu — và vì sao con số đó quan trọng
 
 Cả ba vấn đề đều đẩy CPI **về một phía**: phóng đại lạm phát. Sách đưa con số cụ thể (tr. 244):
 
+> [!quote]
 > *"Một số nghiên cứu được viết trong những năm 1990 đã kết luận rằng chỉ số giá tiêu dùng phóng đại
 > lạm phát khoảng **1 điểm % mỗi năm**. Đáp lại sự chỉ trích này, BLS đã thực hiện một số thay đổi có
 > tính kỹ thuật để cải thiện tính chính xác của chỉ số CPI, và nhiều nhà kinh tế tin rằng sự chênh lệch
@@ -331,6 +355,7 @@ Cả ba vấn đề đều đẩy CPI **về một phía**: phóng đại lạm 
 
 Và vì sao 0,5 điểm phần trăm lại đáng quan tâm (tr. 245):
 
+> [!quote]
 > *"Vấn đề này là quan trọng bởi vì **nhiều chương trình của chính phủ sử dụng chỉ số giá tiêu dùng để
 > điều chỉnh những thay đổi của mức giá chung**. Ví dụ, người nhận bảo hiểm an sinh xã hội được hưởng sự
 > gia tăng hàng năm về lợi ích nếu như lợi ích này gắn liền với chỉ số giá tiêu dùng."*
@@ -374,6 +399,7 @@ Hai ví dụ của sách (tr. 245):
 
 ⭐ **Trường hợp quan trọng nhất là giá dầu** (tr. 245):
 
+> [!quote]
 > *"Mặc dù Hoa Kỳ cũng sản xuất dầu, nhưng phần lớn lượng dầu mà chúng ta sử dụng thì được nhập khẩu.
 > Kết quả là, dầu và các sản phẩm từ dầu như xăng và dầu sưởi ấm chiếm một phần lớn hơn nhiều trong chi
 > tiêu của người tiêu dùng so với phần trong GDP. **Khi giá dầu tăng, chỉ số giá tiêu dùng tăng nhiều
@@ -389,12 +415,14 @@ Hai ví dụ của sách (tr. 245):
 Sách viết (tr. 245–246): với chỉ số giảm phát, *"nhóm hàng hóa và dịch vụ được sử dụng để tính toán…
 **tự động thay đổi theo thời gian**"*, và nói rõ khi nào điều đó mới quan trọng:
 
+> [!quote]
 > *"Sự khác biệt này thì không quan trọng khi tất cả các giá cả đang thay đổi tương ứng. Nhưng nếu giá
 > cả của các hàng hóa và dịch vụ khác nhau thay đổi theo những mức khác nhau, thì cách mà chúng ta gán
 > trọng số cho các giá cả khác nhau sẽ tác động đến tỷ lệ lạm phát tổng thể."*
 
-📚 Nối lại với mục 6①: đây chính là cặp Laspeyres/Paasche. Trên cùng một bảng giá táo–lê, hai cách cho
-**155** và **128**.
+> [!note]
+> Nối lại với mục 6①: đây chính là cặp Laspeyres/Paasche. Trên cùng một bảng giá táo–lê, hai cách cho
+> **155** và **128**.
 
 ### Hai chỉ số trên thực tế — Hình 2, tr. 246
 
@@ -402,6 +430,7 @@ Sách viết (tr. 245–246): với chỉ số giảm phát, *"nhóm hàng hóa 
 
 Hình 2 vẽ cả hai tỷ lệ lạm phát cho Hoa Kỳ từ **1965**. Kết luận của sách rất cân bằng (tr. 246):
 
+> [!quote]
 > *"Ví dụ, vào năm 1979 và năm 1980, lạm phát tính theo CPI tăng vọt hơn lạm phát tính theo chỉ số giảm
 > phát GDP chủ yếu là do **giá dầu tăng hơn gấp đôi** trong hai năm này. Tuy nhiên, **sự khác nhau giữa
 > hai thước đo này là ngoại lệ hơn là quy tắc**."*
@@ -436,9 +465,10 @@ Và Tổng thống Hoover: $75.000 \times \frac{214{,}5}{15{,}2} = 1.058.388$ US
 thu nhập tốt, *"nhưng nó ít hơn một phần tư mức lương trung bình của Yankee ngày hôm nay và chỉ bằng
 3% mức lương mà Yankees trả cho A-Rod"*.
 
-⚠️ **Và đây là chỗ tinh tế nhất của mục này.** Sự khác biệt **không** phải chỉ do lạm phát. Sách nêu
-nguyên nhân thật (tr. 247): *"Nhiều yếu tố khác nhau, bao gồm tăng trưởng kinh tế và thu nhập cổ phiếu
-tăng lên mà các siêu sao kiếm được, đã làm tăng đáng kể mức sống của những vận động viên nổi tiếng nhất."*
+> [!warning] Và đây là chỗ tinh tế nhất của mục này.
+> Sự khác biệt **không** phải chỉ do lạm phát. Sách nêu
+> nguyên nhân thật (tr. 247): *"Nhiều yếu tố khác nhau, bao gồm tăng trưởng kinh tế và thu nhập cổ phiếu
+> tăng lên mà các siêu sao kiếm được, đã làm tăng đáng kể mức sống của những vận động viên nổi tiếng nhất."*
 
 Nói cách khác: sau khi đã khử lạm phát, **vẫn còn** một sự thay đổi thật cần giải thích. Khử lạm phát
 không trả lời câu hỏi, nó chỉ **cho phép câu hỏi được đặt ra đúng**.
@@ -463,13 +493,15 @@ gian đó CPI tăng từ **150** lên **300**.
 ⭐ Kẹo đắt lên **gấp 6 lần tính theo tiền**, nhưng chỉ đắt lên **gấp 3 lần so với mọi thứ khác**. Một
 nửa mức tăng chỉ là lạm phát chung.
 
-💼 Đây chính xác là cách phải đọc bảng giá của đối thủ qua nhiều năm, hoặc bảng giá vốn của chính bạn.
-So giá 2019 với giá 2025 bằng số tuyệt đối là vô nghĩa.
+> [!example]
+> Đây chính xác là cách phải đọc bảng giá của đối thủ qua nhiều năm, hoặc bảng giá vốn của chính bạn.
+> So giá 2019 với giá 2025 bằng số tuyệt đối là vô nghĩa.
 
 ---
 
 ## 10. Chỉ số hoá và COLA
 
+> [!quote]
 > **Chỉ số hoá** (*indexation*): sự điều chỉnh **tự động** theo luật pháp hay hợp đồng cho một số tiền
 > trước tác động của lạm phát. — chú thích tr. 248
 
@@ -481,23 +513,27 @@ Ba nơi gặp nó (tr. 248):
 | an sinh xã hội          | lợi ích điều chỉnh hằng năm bù cho người cao tuổi khi giá cả tăng    |
 | khung thuế thu nhập     | mức thu nhập mà tại đó thuế suất thay đổi cũng được chỉ số hoá       |
 
+> [!quote]
 > *"Một COLA tự động tăng lương khi chỉ số giá tiêu dùng tăng lên."* — tr. 248
 
-⚠️ **Nhưng không phải mọi thứ đều được chỉ số hoá.** Sách nói thẳng (tr. 248):
+> [!warning] Nhưng không phải mọi thứ đều được chỉ số hoá.
+> Sách nói thẳng (tr. 248):
 
+> [!quote]
 > *"Tuy nhiên, có nhiều trường hợp mà hệ thống thuế **không** được chỉ số hóa theo lạm phát, **ngay cả
 > khi đó là việc nên làm**."*
 
 Mục 9 của [code minh hoạ](#16-code-minh-hoạ) chạy hai người qua 5 năm lạm phát. Người **không** có COLA
 mất **18,2% sức mua** — dù lương ghi trên hợp đồng không hề giảm một đồng nào.
 
-💼 **Điều khoản chỉ số hoá quyết định AI chịu rủi ro lạm phát.** Trong hợp đồng thuê mặt bằng, hợp đồng
-gia công dài hạn, hợp đồng lao động: không có điều khoản đó **không** có nghĩa là không ai chịu — chỉ
-có nghĩa là **một bên chịu hết**. Và bên đó thường là bên không nghĩ tới nó khi ký.
+> [!example] Điều khoản chỉ số hoá quyết định AI chịu rủi ro lạm phát.
+> Trong hợp đồng thuê mặt bằng, hợp đồng
+> gia công dài hạn, hợp đồng lao động: không có điều khoản đó **không** có nghĩa là không ai chịu — chỉ
+> có nghĩa là **một bên chịu hết**. Và bên đó thường là bên không nghĩ tới nó khi ký.
 
 ---
 
-## 11. 📚 "Ngài Chỉ Số đến Hollywood" — hộp "Bạn có biết", tr. 248
+## 11. "Ngài Chỉ Số đến Hollywood" — hộp "Bạn có biết", tr. 248
 
 Một minh hoạ vui nhưng đắt giá. Câu hỏi: **bộ phim nào được yêu thích nhất mọi thời đại?**
 
@@ -525,6 +561,7 @@ Chi tiết đắt nhất: *Gone with the Wind* công chiếu năm **1939**, trư
 đình. *"Vào những năm 1930, khoảng **90 triệu người Mỹ** đến rạp chiếu phim mỗi tuần, so với **25 triệu**
 ngày nay."*
 
+> [!quote]
 > *"Và quả thực, trong bảng xếp hạng dựa vào doanh thu bán vé danh nghĩa, Gone with the Wind thậm chí
 > không lọt vào danh sách 50 bộ phim hàng đầu."*
 
@@ -539,6 +576,7 @@ thẳng cho công việc: bảng "10 khách hàng lớn nhất mọi thời đ�
 Sách nói việc điều chỉnh lạm phát *"là đặc biệt quan trọng, và có phần nào đó rắc rối"* khi xem số liệu
 lãi suất (tr. 248). Lý do rất căn bản:
 
+> [!quote]
 > *"Khái niệm về mỗi mức lãi suất nhất thiết phải bao gồm cả việc **so sánh số tiền tại những thời điểm
 > khác nhau**."* — tr. 249
 
@@ -559,12 +597,14 @@ Sách chuyển câu hỏi sang thứ đo được: **cô ấy mua được bao n
 
 Kết luận của sách (tr. 249):
 
+> [!quote]
 > *"Những ví dụ này cho thấy rằng **tỉ lệ lạm phát càng cao, thì sức mua của Sally tăng càng ít**. Nếu
 > tỉ lệ lạm phát cao hơn lãi suất, thì sức mua của cô ấy thực tế đã giảm xuống. Và nếu giảm phát xảy ra…
 > thì sức mua của cô ấy sẽ tăng nhiều hơn lãi suất."*
 
 ### Hai định nghĩa
 
+> [!quote]
 > **Lãi suất danh nghĩa** (*nominal interest rate*): lãi suất thường được công bố mà không có sự điều
 > chỉnh tác động của lạm phát. — chú thích tr. 250
 >
@@ -574,11 +614,12 @@ $$\text{Lãi suất thực} = \text{Lãi suất danh nghĩa} - \text{Lạm phát
 
 Cách phân biệt gọn nhất của sách (tr. 250):
 
+> [!quote]
 > *"**Lãi suất danh nghĩa** cho biết số tiền trong tài khoản của bạn tăng nhanh như thế nào qua thời
 > gian, trong khi **lãi suất thực** cho biết **sức mua** từ tài khoản ngân hàng của bạn tăng nhanh như
 > thế nào qua thời gian."*
 
-### ⚠️ Công thức của sách là công thức xấp xỉ
+### Công thức của sách là công thức xấp xỉ
 
 Công thức chính xác — thường gọi là **phương trình Fisher**:
 
@@ -608,8 +649,10 @@ Hình 3 vẽ lãi suất danh nghĩa (trái phiếu kho bạc kỳ hạn 3 thán
 tế Hoa Kỳ đã trải qua thời kỳ giá cả tiêu dùng gia tăng trong hầu hết các năm thuộc thời kỳ này"*
 (tr. 250).
 
-⚠️ Nhưng sách nói ngay điều ngược lại cũng có thật (tr. 251):
+> [!warning]
+> Nhưng sách nói ngay điều ngược lại cũng có thật (tr. 251):
 
+> [!quote]
 > *"Ngược lại, nếu bạn xem xét số liệu của nền kinh tế Hoa Kỳ vào cuối thế kỷ 19 hoặc của nền kinh tế
 > Nhật Bản trong một số năm gần đây, bạn sẽ thấy những thời kỳ **giảm phát**. Trong thời kỳ giảm phát,
 > **lãi suất thực cao hơn lãi suất danh nghĩa**."*
@@ -623,6 +666,7 @@ tế Hoa Kỳ đã trải qua thời kỳ giá cả tiêu dùng gia tăng trong 
 
 Câu đắt nhất của cả mục (tr. 251):
 
+> [!quote]
 > *"Quả thực, trong hầu hết những năm 1970, lãi suất thực là **âm**, do lạm phát làm **xói mòn các khoản
 > tiết kiệm** của người dân nhanh hơn các khoản tiền lãi danh nghĩa mang lại."*
 
@@ -634,7 +678,7 @@ nhau và biết đổi qua lại.
 
 ---
 
-## 14. 💼 Góc QTKD — nơi bài này chạm vào công việc
+## 14. Góc QTKD — nơi bài này chạm vào công việc
 
 ### ① Mọi so sánh nhiều năm đều phải khử lạm phát trước
 
@@ -647,8 +691,9 @@ Danh sách những thứ hay bị so sai:
 | lương nhân viên qua các năm    | **CPI**                                           |
 | giá bán của đối thủ qua các năm | CPI hoặc chỉ số giá ngành                        |
 
-⚠️ **Dùng nhầm chỉ số cũng sai như không dùng.** Khử lạm phát chi phí thép bằng CPI (rổ 42% nhà ở) cho
-ra con số vô nghĩa.
+> [!warning] Dùng nhầm chỉ số cũng sai như không dùng.
+> Khử lạm phát chi phí thép bằng CPI (rổ 42% nhà ở) cho
+> ra con số vô nghĩa.
 
 ### ② Điều khoản chỉ số hoá trong hợp đồng — ai chịu rủi ro
 
@@ -671,7 +716,7 @@ Ba tình huống thường gặp và bên chịu thiệt nếu không có điề
 3. **Giỏ hàng của khách hàng bạn có giống giỏ hàng CPI không?** (mục 4) — nếu bạn bán hàng cho người thu
    nhập thấp, họ chịu lạm phát lương thực nặng hơn CPI công bố rất nhiều.
 
-### ④ ⚠️ Cái bẫy tâm lý: ảo giác tiền tệ
+### ④ Cái bẫy tâm lý: ảo giác tiền tệ
 
 Nhân viên phản đối **giảm lương danh nghĩa 2%** dữ dội hơn nhiều so với **tăng lương 1% khi lạm phát 3%**
 — dù về sức mua, trường hợp thứ hai còn tệ hơn.
@@ -682,10 +727,11 @@ ngắn hạn.
 
 ---
 
-## 15. 📚 Đối chiếu Việt Nam — đọc CPI trong nước
+## 15. Đối chiếu Việt Nam — đọc CPI trong nước
 
-⚠️ **Cảnh báo:** số liệu dưới đây thay đổi thường xuyên và tôi ghi theo trí nhớ có giới hạn. **Hãy tra
-lại tại nguồn chính thức trước khi dùng vào báo cáo.** Cái đáng học ở mục này là **cách đọc**.
+> [!warning] Cảnh báo:
+> số liệu dưới đây thay đổi thường xuyên và tôi ghi theo trí nhớ có giới hạn. **Hãy tra
+> lại tại nguồn chính thức trước khi dùng vào báo cáo.** Cái đáng học ở mục này là **cách đọc**.
 
 ### Rổ CPI Việt Nam khác rổ Hoa Kỳ ở chỗ nào
 
@@ -716,9 +762,10 @@ nhạy với giá nông sản và càng biến động.
 | PPI                    | **chỉ số giá sản xuất**                                      |
 | chỉ số hoá             | **điều chỉnh theo trượt giá** (trong hợp đồng xây dựng)      |
 
-⚠️ **Chú ý "so cùng kỳ" và "so tháng trước".** Bản tin Việt Nam thường đưa cả hai trong một đoạn, và
-chúng có thể ngược dấu nhau. *"CPI tháng 9 giảm 0,1% so với tháng trước nhưng tăng 3,2% so với cùng kỳ"*
-là một câu hoàn toàn nhất quán.
+> [!warning] Chú ý "so cùng kỳ" và "so tháng trước".
+> Bản tin Việt Nam thường đưa cả hai trong một đoạn, và
+> chúng có thể ngược dấu nhau. *"CPI tháng 9 giảm 0,1% so với tháng trước nhưng tăng 3,2% so với cùng kỳ"*
+> là một câu hoàn toàn nhất quán.
 
 ### Lãi suất thực ở Việt Nam
 
@@ -726,14 +773,16 @@ là một câu hoàn toàn nhất quán.
 kiệm đang mất sức mua** — đúng tình huống Hoa Kỳ thập niên 1970 ở mục 13. Đó là một trong những lý do
 dòng tiền dịch chuyển sang vàng và bất động sản trong những giai đoạn như vậy.
 
-💼 Với doanh nghiệp thì ngược lại: **lãi suất thực âm là điều kiện vay tốt**. Bạn trả nợ bằng đồng tiền
-mất giá. Bài 8 sẽ gọi tên hiện tượng này: lạm phát ngoài dự kiến **tái phân phối của cải từ chủ nợ sang
-con nợ**.
+> [!example]
+> Với doanh nghiệp thì ngược lại: **lãi suất thực âm là điều kiện vay tốt**. Bạn trả nợ bằng đồng tiền
+> mất giá. Bài 8 sẽ gọi tên hiện tượng này: lạm phát ngoài dự kiến **tái phân phối của cải từ chủ nợ sang
+> con nợ**.
 
 ---
 
 ## 16. Code minh hoạ
 
+> [!note]
 > ⚙️ **Chạy:** cần **Python 3.10+**. Lưu file rồi gõ `python3 bai-02-do-luong-chi-phi-sinh-hoat.py`.
 > Không cần cài gói nào — chỉ dùng thư viện chuẩn. Kết quả **tất định**.
 > Bản đầy đủ nằm ở [`thuc_hanh/bai-02-do-luong-chi-phi-sinh-hoat.py`](../thuc_hanh/bai-02-do-luong-chi-phi-sinh-hoat.py).
@@ -1557,7 +1606,7 @@ Kết quả chạy thật:
     và [mục 8](#8-cpi-so-với-chỉ-số-giảm-phát-gdp). Sách mô tả đúng cơ chế nhưng **không** đặt tên cho chúng.
   - **Phương trình Fisher** dạng chính xác ở [mục 12](#12-lãi-suất-danh-nghĩa-và-lãi-suất-thực). Sách chỉ
     đưa công thức xấp xỉ `r = i − π` (tr. 250) mà không nói đó là xấp xỉ. Sai lệch đã đo bằng code.
-  - Thuật ngữ **ảo giác tiền tệ** ở [mục 14④](#14--góc-qtkd--nơi-bài-này-chạm-vào-công-việc) — sách nhắc
+  - Thuật ngữ **ảo giác tiền tệ** ở [mục 14④](#14-góc-qtkd--nơi-bài-này-chạm-vào-công-việc) — sách nhắc
     đến hiện tượng ở chương 17 nhưng không dùng tên này ở chương 11.
 - **Liên hệ chéo:**
   - [Bài 1 — Đo lường thu nhập quốc gia](bai_01_do_luong_thu_nhap_quoc_gia.md), mục 10 — chỉ số giảm phát GDP.

@@ -1,15 +1,16 @@
 # Bài 11 — Thông tin bất cân xứng, kinh tế chính trị và kinh tế học hành vi
 
+> [!info] Về bài này
 > Bài học dựng từ **Chương 22 — Những hướng nghiên cứu mới trong kinh tế học vi mô** (tr. 525–545)
 > của *N. Gregory Mankiw — **Kinh tế học vi mô***, bản dịch của Khoa Kinh tế, **ĐH Kinh tế TP.HCM** (Cengage Learning Asia).
-> 🎯 **Vòng 1.** Đây là chương **cuối** của sách, và nó làm một việc mà không chương nào khác làm:
+>
+> **Vòng 1.** Đây là chương **cuối** của sách, và nó làm một việc mà không chương nào khác làm:
 > quay lại **tháo dỡ ba giả định** mà mười bài trước đã dựa vào — rằng thông tin là đầy đủ,
 > rằng chính phủ là một người sửa lỗi khách quan, và rằng con người là lý trí.
-> ⚠️ **Tên bài trong bản đồ khoá học viết gọn là "Thông tin bất cân xứng và hành vi"**, nhưng
-> chương có **ba** phần chứ không phải hai — phần **kinh tế chính trị** ở giữa cũng được dạy đủ tại đây.
-> 💼 **Góc QTKD** — ví dụ thêm cho ngành quản trị kinh doanh, **không có trong sách**.
-> 📚 **Mở rộng** — thứ sách mô tả bằng lời mà không cho con số nào.
-> 📌 **Cần đọc trước:** [Bài 9](bai_09_doc_quyen_nhom_va_ly_thuyet_tro_choi.md) (cân bằng Nash,
+>
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
+>
+> **Cần đọc trước:** [Bài 9](bai_09_doc_quyen_nhom_va_ly_thuyet_tro_choi.md) (cân bằng Nash,
 > dùng ở mục 15) và [Bài 10](bai_10_lua_chon_cua_nguoi_tieu_dung.md) (mục 17 của bài đó thừa nhận
 > mô hình người tiêu dùng chỉ là *"một phép ẩn dụ"* — bài này hỏi phép ẩn dụ ấy hỏng ở đâu).
 
@@ -21,9 +22,9 @@
 
 - [1. Ba hướng nghiên cứu và vì sao chương này khác mọi chương trước](#1-ba-hướng-nghiên-cứu-và-vì-sao-chương-này-khác-mọi-chương-trước)
 - [2. Hành vi được che đậy — rủi ro đạo đức](#2-hành-vi-được-che-đậy--rủi-ro-đạo-đức)
-- [3. 📚 Vấn đề chủ thể – tác nhân trong công ty cổ phần](#3--vấn-đề-chủ-thể--tác-nhân-trong-công-ty-cổ-phần)
+- [3. Vấn đề chủ thể – tác nhân trong công ty cổ phần](#3-vấn-đề-chủ-thể--tác-nhân-trong-công-ty-cổ-phần)
 - [4. Tính chất bị che giấu — lựa chọn ngược](#4-tính-chất-bị-che-giấu--lựa-chọn-ngược)
-- [5. 📚 Thị trường xe cũ tự bào mòn — dựng lại mô hình Akerlof bằng số](#5--thị-trường-xe-cũ-tự-bào-mòn--dựng-lại-mô-hình-akerlof-bằng-số)
+- [5. Thị trường xe cũ tự bào mòn — dựng lại mô hình Akerlof bằng số](#5-thị-trường-xe-cũ-tự-bào-mòn--dựng-lại-mô-hình-akerlof-bằng-số)
 - [6. Cung cấp thông tin — vì sao tín hiệu phải đắt mới có tác dụng](#6-cung-cấp-thông-tin--vì-sao-tín-hiệu-phải-đắt-mới-có-tác-dụng)
 - [7. Nghiên cứu tình huống — tín hiệu của quà tặng](#7-nghiên-cứu-tình-huống--tín-hiệu-của-quà-tặng)
 - [8. Thẩm tra — khi bên thiếu thông tin ra tay](#8-thẩm-tra--khi-bên-thiếu-thông-tin-ra-tay)
@@ -36,7 +37,7 @@
 - [15. Con người quan tâm đến sự công bằng — trò chơi tối hậu](#15-con-người-quan-tâm-đến-sự-công-bằng--trò-chơi-tối-hậu)
 - [16. Con người không nhất quán theo thời gian](#16-con-người-không-nhất-quán-theo-thời-gian)
 - [17. Kết luận — cuộc sống này rất lộn xộn](#17-kết-luận--cuộc-sống-này-rất-lộn-xộn)
-- [18. 💼 Lương cứng hay hoa hồng — bài toán rủi ro đạo đức bằng số](#18--lương-cứng-hay-hoa-hồng--bài-toán-rủi-ro-đạo-đức-bằng-số)
+- [18. Lương cứng hay hoa hồng — bài toán rủi ro đạo đức bằng số](#18-lương-cứng-hay-hoa-hồng--bài-toán-rủi-ro-đạo-đức-bằng-số)
 - [19. Code minh hoạ](#19-code-minh-hoạ)
 - [20. Tự thử](#20-tự-thử)
 - [21. Từ điển thuật ngữ](#21-từ-điển-thuật-ngữ)
@@ -52,6 +53,7 @@
 
 Sách mở chương bằng một lời cảnh báo về chính nó (tr. 525):
 
+> [!quote]
 > *"sẽ là sai lầm cho những ai nghĩ rằng những khía cạnh chúng ta đã xem xét có thể tạo nên một môn
 > khoa học đầy đủ, hoàn hảo và bất biến."*
 
@@ -65,13 +67,15 @@ Ba hướng, và mỗi hướng tháo một cái đinh khác nhau:
 
 Sách chốt cả chương bằng một câu ở phần kết luận (tr. 543), và nó đáng chép lại nguyên văn:
 
+> [!quote]
 > *"Nếu có một đề tài thống nhất cho những vấn đề trên thì đó sẽ là: **cuộc sống này rất lộn xộn**.
 > Thông tin thì không hoàn hảo, chính phủ và con người cũng vậy."*
 
-⚠️ Đừng đọc chương này như một lời phủ nhận mười bài trước. Sách nói rõ mục đích của nó ở tr. 543:
-nghiên cứu thông tin bất cân xứng khiến bạn *"cẩn trọng hơn với những kết quả từ cơ chế thị trường"*,
-nghiên cứu kinh tế chính trị khiến bạn *"cẩn trọng hơn với những giải pháp của chính phủ"*. Đây là
-chương dạy **biết chỗ hỏng nằm ở đâu**, không phải chương dạy bỏ công cụ.
+> [!warning]
+> Đừng đọc chương này như một lời phủ nhận mười bài trước. Sách nói rõ mục đích của nó ở tr. 543:
+> nghiên cứu thông tin bất cân xứng khiến bạn *"cẩn trọng hơn với những kết quả từ cơ chế thị trường"*,
+> nghiên cứu kinh tế chính trị khiến bạn *"cẩn trọng hơn với những giải pháp của chính phủ"*. Đây là
+> chương dạy **biết chỗ hỏng nằm ở đâu**, không phải chương dạy bỏ công cụ.
 
 ---
 
@@ -83,6 +87,7 @@ chương dạy **biết chỗ hỏng nằm ở đâu**, không phải chương d
 
 Sách mở bằng câu đùa của trẻ con (tr. 526): *"Tôi biết cái mà bạn không biết."*
 
+> [!note]
 > **Bất cân xứng thông tin** *(information asymmetry)*: sự khác biệt trong khả năng tiếp cận thông tin
 > liên quan.
 
@@ -101,6 +106,7 @@ Akerlof (mục 5) và Spence (mục 6).
 
 Định nghĩa ở chân trang 526:
 
+> [!note]
 > **Rủi ro đạo đức** *(moral hazard)*: xu hướng của một người khi **không được giám sát** sẽ thực hiện
 > những hành vi không trung thực hoặc không đáng mong muốn.
 > **Tác nhân** *(agent)*: người thực hiện một công việc cho người khác.
@@ -115,7 +121,7 @@ khác hẳn nhau:
 | **Tăng lương**          | mất việc trở nên đắt hơn → tự giác hơn   | lý thuyết tiền lương hiệu quả (ch. 19)     |
 | **Trì hoãn tiền lương** | đặt cược dài hạn thay vì từng vụ         | thưởng cuối năm, tăng lương theo thâm niên |
 
-[Mục 18](#18--lương-cứng-hay-hoa-hồng--bài-toán-rủi-ro-đạo-đức-bằng-số) định giá cả ba bằng số.
+[Mục 18](#18-lương-cứng-hay-hoa-hồng--bài-toán-rủi-ro-đạo-đức-bằng-số) định giá cả ba bằng số.
 
 ### Rủi ro đạo đức ở ngoài công ty
 
@@ -127,19 +133,21 @@ Sách mở rộng ra rất xa (tr. 527), và đây là chỗ khái niệm trở 
 - **Nhà ven sông.** *"Một gia đình có quyết định sống gần một con sông với nguy cơ ngập lụt cao vì họ
   ưa thích một phong cảnh đẹp trong khi chính quyền gánh chịu chi phí cứu trợ thiên tai sau mỗi cơn lũ."*
 
-⚠️ Chú ý là **không ai gian dối** trong hai ví dụ này. Ai cũng làm điều hợp lý với chi phí và lợi ích
-mà *họ* nhìn thấy. Cụm "rủi ro đạo đức" gợi ý một vấn đề đạo đức, nhưng cơ chế thì hoàn toàn là
-**cấu trúc động cơ** — và đó là lý do nó không chữa được bằng cách kêu gọi người ta tử tế hơn.
+> [!warning]
+> Chú ý là **không ai gian dối** trong hai ví dụ này. Ai cũng làm điều hợp lý với chi phí và lợi ích
+> mà *họ* nhìn thấy. Cụm "rủi ro đạo đức" gợi ý một vấn đề đạo đức, nhưng cơ chế thì hoàn toàn là
+> **cấu trúc động cơ** — và đó là lý do nó không chữa được bằng cách kêu gọi người ta tử tế hơn.
 
 Sách kết luận thẳng: *"Kết quả là vấn đề rủi ro đạo đức tồn tại dai dẳng."*
 
 ---
 
-## 3. 📚 Vấn đề chủ thể – tác nhân trong công ty cổ phần
+## 3. Vấn đề chủ thể – tác nhân trong công ty cổ phần
 
 Hộp *"Bạn có biết"* ở tr. 528 áp bộ khái niệm vừa học vào một chỗ rất cụ thể, và đây là mục có giá trị
 QTKD cao nhất của cả phần A.
 
+> [!quote]
 > *"Từ góc nhìn kinh tế, đặc điểm quan trọng nhất của loại hình công ty hợp vốn là **sự tách biệt giữa
 > sự sở hữu và sự điều hành**."*
 
@@ -158,6 +166,7 @@ Chuỗi chủ thể – tác nhân **hai tầng**, và đây là chỗ dễ bỏ
 
 Sách nêu đúng chỗ hỏng của tầng giữa (tr. 528):
 
+> [!quote]
 > *"dù sao, hội đồng quản trị cũng là những tác nhân của cổ đông. Việc tồn tại một hội đồng quản trị
 > với vai trò quản lý công tác điều hành càng làm trầm trọng hơn vấn đề chủ thể và tác nhân… **Nếu hội
 > đồng quản trị quá thân thiết với những nhà điều hành, họ có thể sẽ không có đủ sự giám sát cần thiết.**"*
@@ -168,6 +177,7 @@ cổ đông kiện **chính các thành viên hội đồng quản trị** vì �
 
 Câu quan trọng nhất của hộp lại là câu cuối, và nó không nói về tội phạm (tr. 528):
 
+> [!quote]
 > *"May mắn là các hành vi tội phạm thực hiện bởi các nhà điều hành công ty khá hiếm. Nhưng trong nhiều
 > trường hợp, đó chỉ là phần nổi của tảng băng. **Chừng nào mà sự sở hữu và sự điều hành còn tách biệt
 > như trong trường hợp của hầu hết các công ty lớn, sẽ có những xung đột không thể tránh khỏi** giữa
@@ -176,6 +186,7 @@ Câu quan trọng nhất của hộp lại là câu cuối, và nó không nói 
 Đọc chậm câu đó: xung đột này **không phải một sự cố cần điều tra**, nó là **thuộc tính cấu trúc** của
 mọi công ty có sở hữu tách khỏi điều hành. Không ai chữa khỏi nó; người ta chỉ quản lý nó.
 
+> [!quote]
 > ⚙️ **Chú thích của người dịch (tr. 528)** — đáng đọc vì nó ảnh hưởng tới cách hiểu cả hộp: bản gốc
 > Mankiw dùng *"Corporate"*, tức công ty mà người sở hữu tách biệt với người điều hành. Ở Việt Nam
 > loại này mang tên **công ty trách nhiệm hữu hạn** và **công ty cổ phần**.
@@ -186,6 +197,7 @@ mọi công ty có sở hữu tách khỏi điều hành. Không ai chữa khỏ
 
 Định nghĩa ở chân trang 527:
 
+> [!note]
 > **Lựa chọn ngược** *(adverse selection)*: xu hướng mà một tập hợp các thuộc tính **không quan sát
 > được** trở nên không đáng mong muốn trên quan điểm của một chủ thể không có đầy đủ thông tin.
 
@@ -201,6 +213,7 @@ Ba dòng, một khuôn: **bên bị thiệt tự rút lui, để lại thị tr�
 
 Sách nhấn mạnh rằng đây **không** phải chuyện có ai gian lận (tr. 529):
 
+> [!quote]
 > *"Khi thị trường bị ảnh hưởng bởi lựa chọn ngược, **bàn tay vô hình không còn phát huy tác dụng một
 > cách đầy đủ**."*
 
@@ -210,7 +223,7 @@ lương tối thiểu hay công đoàn, mà đến từ **thông tin**.
 
 ---
 
-## 5. 📚 Thị trường xe cũ tự bào mòn — dựng lại mô hình Akerlof bằng số
+## 5. Thị trường xe cũ tự bào mòn — dựng lại mô hình Akerlof bằng số
 
 Sách mô tả cơ chế bằng lời nhưng không cho một con số nào. Mô hình gốc là của **George Akerlof** —
 người đầu tiên trong ba cái tên Nobel 2001 — và nó dựng lại được bằng số nguyên.
@@ -235,10 +248,12 @@ Cho chạy:
 **Chỉ 3 trong 10 chiếc được bán.** Bảy giao dịch có lợi cho cả hai bên đã không xảy ra, thặng dư mất
 **$24.500**.
 
-⚠️ Chỗ quan trọng nhất: **không ai làm gì sai cả.** Người mua trả đúng kỳ vọng hợp lý. Chủ xe tốt từ
-chối bán dưới giá. Mỗi bước đều là quyết định đúng, và tổng của những quyết định đúng là một thị trường
-bị cắt cụt hai phần ba. Sách viết (tr. 529):
+> [!warning]
+> Chỗ quan trọng nhất: **không ai làm gì sai cả.** Người mua trả đúng kỳ vọng hợp lý. Chủ xe tốt từ
+> chối bán dưới giá. Mỗi bước đều là quyết định đúng, và tổng của những quyết định đúng là một thị trường
+> bị cắt cụt hai phần ba. Sách viết (tr. 529):
 
+> [!quote]
 > *"Trong thị trường xe cũ, chủ thể của những chiếc xe tốt thường quyết định giữ chúng hơn là bán với
 > mức giá thấp mà những người mua đa nghi sẵn lòng trả."*
 
@@ -261,6 +276,7 @@ Kết quả này giải thích một hiện tượng mà sách nêu ở tr. 529 
 vừa chỉ dùng được vài tuần đã mất giá vài ngàn đô la so với một chiếc mới toanh cùng loại"*. Chiếc xe
 không hỏng đi trong hai tuần. **Cái mất đi là bằng chứng rằng nó không hỏng.**
 
+> [!quote]
 > 💼 Cùng cơ chế đó vận hành ở: nhân sự nghỉ việc sớm ("sao lại nghỉ nhanh thế?"), hàng thanh lý,
 > căn hộ rao bán gấp, startup gọi vốn vòng xuống. Trong mọi trường hợp, **chính việc bạn muốn bán là
 > một tín hiệu xấu** — và cách chữa duy nhất là mục 6 và mục 8.
@@ -271,6 +287,7 @@ không hỏng đi trong hai tuần. **Cái mất đi là bằng chứng rằng n
 
 Định nghĩa ở chân trang 530:
 
+> [!note]
 > **Cung cấp thông tin** *(signaling)*: hành vi của bên có đầy đủ thông tin cung cấp thông tin cá nhân
 > cho bên thiếu thông tin.
 
@@ -279,6 +296,7 @@ Sách nối về hai chương đã học (tr. 530): quảng cáo ở [ch. 16](ba
 
 Điều kiện để một tín hiệu chạy được, chép nguyên (tr. 530):
 
+> [!quote]
 > *"Cần những gì để một hành động cung cấp thông tin trở nên hiệu quả? Hiển nhiên, nó phải chịu chi phí
 > cao. Nếu một sự cung cấp thông tin là miễn phí, mọi người đều sẽ sử dụng nó và như thế nó không truyền
 > tải được thông tin nào cả. Cũng lý do đó, có một đòi hỏi khác: thông tin truyền đi phải **ít tốn kém
@@ -313,14 +331,16 @@ Sách nêu rõ hai lý thuyết đối lập ở tr. 530:
 | **Lý thuyết tín hiệu**      | chỉ để **phát tin**, không tạo thêm năng suất | không ai giàu lên, chỉ **đẩy ngưỡng lên cao hơn** |
 | **Lý thuyết vốn con người** | **làm tăng** năng suất thật                   | xã hội giàu lên thật                              |
 
-⚠️ Cả hai đều dự đoán *"người học nhiều thì lương cao hơn"*, nên **số liệu lương không tách được chúng**.
-Nhưng hàm ý chính sách thì ngược hoàn toàn. Đây là một ví dụ mẫu mực cho chuyện **hai lý thuyết khớp
-cùng một dữ liệu mà đòi hai hành động khác nhau** — và vì sao "dữ liệu đã chứng minh" thường chưa đủ.
+> [!warning]
+> Cả hai đều dự đoán *"người học nhiều thì lương cao hơn"*, nên **số liệu lương không tách được chúng**.
+> Nhưng hàm ý chính sách thì ngược hoàn toàn. Đây là một ví dụ mẫu mực cho chuyện **hai lý thuyết khớp
+> cùng một dữ liệu mà đòi hai hành động khác nhau** — và vì sao "dữ liệu đã chứng minh" thường chưa đủ.
 
-📚 Ví dụ hay nhất của sách về tín hiệu lại rất nhỏ (tr. 530): mẩu quảng cáo trên tạp chí ghi
-*"như đã chiếu trên TV"*. Nội dung không nói gì về sản phẩm — nó chỉ nói rằng **công ty này đủ tiền
-mua quảng cáo TV**. Chính khoản tiền đó là thông điệp. (Đây đúng là cơ chế Post–Kellogg ở
-[bài 8](bai_08_canh_tranh_doc_quyen.md).)
+> [!note]
+> Ví dụ hay nhất của sách về tín hiệu lại rất nhỏ (tr. 530): mẩu quảng cáo trên tạp chí ghi
+> *"như đã chiếu trên TV"*. Nội dung không nói gì về sản phẩm — nó chỉ nói rằng **công ty này đủ tiền
+> mua quảng cáo TV**. Chính khoản tiền đó là thông điệp. (Đây đúng là cơ chế Post–Kellogg ở
+> [bài 8](bai_08_canh_tranh_doc_quyen.md).)
 
 ---
 
@@ -329,6 +349,7 @@ mua quảng cáo TV**. Chính khoản tiền đó là thông điệp. (Đây đ�
 Sách mở bằng một câu chuyện tình cảm và kết thúc bằng một mô hình (tr. 531). Một người đàn ông định
 tặng bạn gái **tiền mặt** vào ngày sinh nhật, lý luận rất kinh tế học:
 
+> [!quote]
 > *"Tôi không biết rõ ý thích của cô ấy bằng chính cô ấy, và với tiền, cô ấy có thể mua bất cứ thứ gì
 > cô ấy muốn."*
 
@@ -336,6 +357,7 @@ Cô kết thúc mối quan hệ.
 
 Lời giải của sách nằm đúng trong bộ khái niệm vừa học:
 
+> [!quote]
 > *"Anh chàng trong câu chuyện của chúng ta có thông tin riêng mà bạn gái anh ta cần biết: **liệu anh có
 > yêu cô ta thật lòng không?** Chọn một món quà tốt dành cho cô gái là một tín hiệu tình yêu của anh ta…
 > Nó tốn kém (thời gian), và mức độ tốn kém phụ thuộc vào thông tin riêng."*
@@ -347,6 +369,7 @@ phù hợp sẽ khó hơn."*
 
 Và sách kiểm chứng mô hình bằng một dự đoán **có thể sai** — dấu hiệu của một lý thuyết tốt (tr. 531):
 
+> [!quote]
 > *"người ta quan tâm nhiều nhất đến cách thức khi sự yêu thương ở trong tình trạng thử thách nhất. Thế
 > nên, đưa tiền cho bạn trai hay bạn gái thường sẽ là một bước đi tồi. Nhưng khi những sinh viên đại
 > học nhận được một tờ séc từ cha mẹ, họ thường ít cảm thấy tự ái hơn. **Tình yêu của cha mẹ ít khi bị
@@ -356,6 +379,7 @@ Và sách kiểm chứng mô hình bằng một dự đoán **có thể sai** �
 Mô hình nói: tín hiệu chỉ cần thiết **ở nơi có nghi ngờ**. Bỏ nghi ngờ đi thì tiền mặt lại thành món
 quà hợp lý. Và đó đúng là điều quan sát được.
 
+> [!note]
 > 💼 Áp thẳng vào kinh doanh: khách hàng **quen thuộc** không cần bạn chứng minh gì (bỏ được tín hiệu →
 > tiết kiệm chi phí); khách hàng **lần đầu** thì mọi thứ đều là tín hiệu — mặt bằng, bao bì, thời gian
 > phản hồi, bảo hành. Ngân sách xây dựng niềm tin nên đổ vào nhóm thứ hai, không phải nhóm thứ nhất.
@@ -366,6 +390,7 @@ quà hợp lý. Và đó đúng là điều quan sát được.
 
 Định nghĩa ở chân trang 531:
 
+> [!note]
 > **Thẩm tra** *(screening)*: hành vi của **bên thiếu thông tin** buộc bên có đầy đủ thông tin phải
 > cung cấp thông tin.
 
@@ -383,6 +408,7 @@ Sách đưa hai hợp đồng (tr. 532):
 - **Hợp đồng A** — phí cao, chi trả **mọi** tai nạn
 - **Hợp đồng B** — phí thấp hơn, nhưng có **khoản khấu trừ $1.000** (tài xế tự chịu $1.000 đầu tiên)
 
+> [!quote]
 > *"với khoản khấu trừ **đủ lớn**, hợp đồng bảo hiểm chi phí thấp kèm khấu trừ sẽ thu hút những người
 > lái xe an toàn trong khi những hợp đồng bảo hiểm chi phí cao không đi kèm khoản khấu trừ sẽ thu hút
 > những người lái xe không an toàn."*
@@ -452,11 +478,13 @@ Và lý do 3 là bản lề chuyển sang phần tiếp theo.
 
 ## 10. Nghịch lý Condorcet — dân chủ có thể không có câu trả lời
 
+> [!note]
 > **Kinh tế chính trị** *(political economy)*: áp dụng những phương pháp kinh tế học để nghiên cứu cách
 > mà chính phủ hoạt động.
 
 Sách nói rõ vì sao phần này tồn tại (tr. 533):
 
+> [!quote]
 > *"Trước khi trông chờ vào một chính phủ để thực hiện các nhiệm vụ xã hội, chúng ta cần cân nhắc thêm
 > một sự thật rằng: **chính phủ cũng là một định chế không hoàn hảo**."*
 
@@ -481,6 +509,7 @@ Bỏ phiếu từng cặp:
 
 **A thắng B, B thắng C, C thắng A.** Một vòng tròn. Không phương án nào thắng tất cả.
 
+> [!note]
 > **Nghịch lý Condorcet** *(Condorcet paradox)*: thất bại của quy tắc đa số trong việc xây dựng sở
 > thích có tính **bắc cầu** của toàn xã hội.
 
@@ -496,9 +525,11 @@ Sách gọi đây là *"bài học nhỏ"*. Nhưng đo bằng số thì nó khô
 
 **Ba lịch trình, ba người thắng khác nhau — không ai đổi một lá phiếu nào.** Sách viết (tr. 534):
 
+> [!quote]
 > *"thứ tự mà các phương án được đưa ra bầu cử có thể ảnh hưởng đến kết quả… việc chọn lựa kịch bản bầu
 > cử có thể có ảnh hưởng sâu sắc đến kết quả của một cuộc bầu cử dân chủ."*
 
+> [!quote]
 > 💼 Trong họp hội đồng, quyền **soạn chương trình nghị sự** là một quyền lực thật, và bảng trên là
 > bằng chứng định lượng. Nếu bạn từng thấy một cuộc họp mà "ai cũng bỏ phiếu trung thực" nhưng kết quả
 > vẫn khiến tất cả ngạc nhiên, thứ tự đưa ra biểu quyết là chỗ nên xem lại đầu tiên.
@@ -540,6 +571,7 @@ trong cuốn *Lựa chọn Xã hội và Giá trị cá nhân* (**1951**), tr. 5
 | 3   | **Độc lập với các lựa chọn bên ngoài** | xếp hạng A với B không phụ thuộc vào việc có C hay không |
 | 4   | **Không ai có quyền tuyệt đối**        | không ai luôn được ý mình bất chấp người khác            |
 
+> [!note]
 > **Định luật bất khả thi Arrow** *(Arrow's impossibility theorem)*: **không hệ thống bầu cử nào thoả
 > hết bốn tính chất trên.**
 
@@ -550,8 +582,10 @@ Và hai mục vừa rồi là hai nửa của lời chứng minh sơ lược:
 | Quy tắc đa số   | tính **bắc cầu** ([mục 10](#10-nghịch-lý-condorcet--dân-chủ-có-thể-không-có-câu-trả-lời)) |
 | Phép tính Borda | tính **độc lập** (mục này)                                                                |
 
-⚠️ Sách cẩn thận ở tr. 536, và đây là chỗ dễ đọc sai nhất cả chương:
+> [!warning]
+> Sách cẩn thận ở tr. 536, và đây là chỗ dễ đọc sai nhất cả chương:
 
+> [!quote]
 > *"Nó **không khẳng định rằng chúng ta nên từ bỏ chế độ dân chủ** với tư cách là một hình thức tổ chức
 > nhà nước. Nhưng nó khẳng định rằng, bất kể xã hội này sử dụng hệ thống bầu cử nào để thống nhất ý
 > muốn của từng cá nhân, theo một cách nào đó, phương thức lựa chọn mang tính xã hội đó **luôn có những
@@ -596,6 +630,7 @@ Chỉ **một** trong ba thắng được một cuộc bỏ phiếu. Cho cử tr
 
 **Thắng tất cả.**
 
+> [!quote]
 > **Định lý cử tri trung vị** *(median voter theorem)*: nếu các cử tri phải chọn một điểm trên một
 > đường thẳng và mỗi cử tri đều muốn điểm gần với điểm mong muốn của mình nhất, thì quy tắc đa số sẽ
 > dẫn đến việc lựa chọn điểm ưa thích của **người bỏ phiếu trung vị**.
@@ -610,11 +645,13 @@ thì vòng tròn biến mất.
 **Một — hai đảng sẽ giống nhau.** Sách đưa ví dụ ở tr. 537: Dân chủ đề nghị $15 tỷ (mức được **nhiều
 người chọn nhất**), Cộng hoà đề nghị $10 tỷ. Kết quả: **Cộng hoà thắng 60 – 40.**
 
+> [!quote]
 > *"Nếu phe Dân chủ muốn thắng, họ sẽ chuyển hướng ý kiến của mình theo cử tri trung vị. Nhờ vậy, lý
 > thuyết này có thể giải thích lý do các đảng trong một hệ thống hai đảng thường tương đồng với nhau."*
 
 **Hai — thiểu số không được xem trọng.** Sách nói thẳng và không làm dịu (tr. 537):
 
+> [!quote]
 > *"Tưởng tượng rằng 40% tổng số muốn tiêu thật nhiều tiền vào các công viên quốc gia và 60% còn lại
 > không muốn chi một đồng nào. Trong trường hợp này, ý muốn của cử tri trung vị là không chi, bất chấp
 > ý kiến của nhóm thiểu số. **Đó là logic của sự dân chủ.** Thay vì cố gắng đạt tới một thỏa hiệp tính
@@ -629,6 +666,7 @@ Cường độ mong muốn **không được đếm**. Người tha thiết và 
 Mục ngắn nhất của chương, và có lẽ là mục sắc nhất. Sách chỉ ra một sự **bất đối xứng trong giả định**
 mà kinh tế học vẫn mắc phải (tr. 538):
 
+> [!quote]
 > *"Khi những nhà kinh tế nghiên cứu hành vi người tiêu dùng, họ giả định rằng người tiêu dùng mua rổ
 > hàng hóa và dịch vụ khiến họ thỏa mãn nhất. Khi các nhà kinh tế nghiên cứu hành vi của các doanh
 > nghiệp, họ giả định rằng các doanh nghiệp sản xuất lượng sản phẩm và dịch vụ mang lại lợi nhuận cao
@@ -638,18 +676,21 @@ Câu hỏi này là một cái bẫy logic rất chặt. Nếu bạn giả đị
 lợi ích riêng, thì giả định nhà chính trị theo đuổi phúc lợi xã hội là **không nhất quán** — và sách
 nói thẳng đó là *"tốt, nhưng có lẽ là không thực tế"*.
 
+> [!quote]
 > *"Một vài nhà chính trị, bị thúc giục bởi ham muốn tái đắc cử, sẵn sàng hy sinh quyền lợi quốc gia để
 > củng cố cơ sở bầu cử của riêng họ. Những người khác bị cám dỗ bởi lòng tham đơn thuần."*
 
 Và câu kết luận, đáng thuộc (tr. 538):
 
+> [!quote]
 > *"khi suy ngẫm về các chính sách kinh tế, hãy nên nhớ chính sách đó được tạo ra **không phải bởi một
 > vị vua nhân từ** mà là từ những con người thực với những ham muốn cũng rất con người… Chúng ta không
 > nên ngạc nhiên khi các chính sách kinh tế thất bại trong việc thực hiện những lý tưởng được đưa ra
 > trong các giáo trình kinh tế."*
 
-⚠️ Chú ý sách **không** nói chính trị gia xấu hơn người thường. Nó nói họ **cũng là người thường** — và
-mọi mô hình giả định ngược lại đều đang cho chính phủ một đặc quyền lý thuyết mà nó không có.
+> [!warning]
+> Chú ý sách **không** nói chính trị gia xấu hơn người thường. Nó nói họ **cũng là người thường** — và
+> mọi mô hình giả định ngược lại đều đang cho chính phủ một đặc quyền lý thuyết mà nó không có.
 
 ---
 
@@ -659,11 +700,13 @@ mọi mô hình giả định ngược lại đều đang cho chính phủ một
 
 ## 14. Con người không phải lúc nào cũng lý trí
 
+> [!note]
 > **Kinh tế học hành vi** *(behavioral economics)*: một nhánh của kinh tế học kết hợp những kiến thức
 > về tâm lý học.
 
 Sách đặt tên cho sinh vật mà mười một chương trước đã giả định (tr. 539):
 
+> [!quote]
 > *"Lý thuyết kinh tế được tạo nên trên cơ sở một giống loài đặc biệt, thường được gọi với cái tên
 > **'con người kinh tế'** (Homo economicus)… Tuy vậy trong thực tế con người lại là **'con người tự
 > nhiên'** (Homo sapiens)… **Họ có thể hay quên, bốc đồng, khó hiểu, đầy cảm xúc và thiển cận.**"*
@@ -692,6 +735,7 @@ Nghiên cứu về **kế hoạch hưu trí 401(k)** (tr. 540) là ví dụ mạ
 - Công ty **A**: muốn tham gia thì **điền vào một mẫu đơn nhỏ**
 - Công ty **B**: **tự động** được đưa vào, muốn ra thì điền một mẫu đơn
 
+> [!quote]
 > *"Kết quả là lượng công nhân tham gia trong trường hợp thứ hai lớn hơn trường hợp thứ nhất rất nhiều.
 > Nếu những người công nhân kia hoàn toàn lý trí, họ sẽ chọn cách mang lại khoản hưu trí tối ưu và
 > **bất kể cách công ty đề nghị họ như thế nào**."*
@@ -699,9 +743,11 @@ Nghiên cứu về **kế hoạch hưu trí 401(k)** (tr. 540) là ví dụ mạ
 Cùng một lựa chọn, cùng một khoản tiền, cùng một hệ quả tài chính — chỉ khác **lựa chọn mặc định**.
 Và kết quả khác hẳn nhau. Đó là bằng chứng trực tiếp rằng con người không tối ưu hoá.
 
-📚 Đoạn tự phê hay nhất của cả cuốn sách nằm ngay sau đó (tr. 540). Sách hỏi vì sao kinh tế học vẫn giữ
-giả định lý trí, và đưa ra hai lý do — lý do thứ hai thì thẳng thắn tới mức bất ngờ:
+> [!note]
+> Đoạn tự phê hay nhất của cả cuốn sách nằm ngay sau đó (tr. 540). Sách hỏi vì sao kinh tế học vẫn giữ
+> giả định lý trí, và đưa ra hai lý do — lý do thứ hai thì thẳng thắn tới mức bất ngờ:
 
+> [!quote]
 > *"Một lý do khác khiến các nhà kinh tế thường đưa ra giả định về sự lý trí có thể là do **chính họ
 > cũng không phải những kẻ có hành vi tối đa hóa một cách lý trí**. Cũng như người khác, họ cũng quá tự
 > tin, và họ cũng ngại thay đổi đầu óc của mình… những nhà kinh tế cũng cảm thấy hài lòng với một lý
@@ -720,12 +766,14 @@ Luật chơi (tr. 540–541): hai người lạ, **$100**. Người A đề ngh�
 **Dự đoán của lý thuyết truyền thống**, dùng đúng bộ máy của
 [bài 9](bai_09_doc_quyen_nhom_va_ly_thuyet_tro_choi.md):
 
+> [!quote]
 > *"Người chơi A nên đề nghị anh ta sẽ được 99 đô la và nhường cho người chơi B 1 đô la, và người chơi B
 > sẽ chấp nhận đề nghị này… Theo cách nói của lý thuyết trò chơi, cách chia 99-1 này là **một cân bằng
 > Nash**."*
 
 **Kết quả thực nghiệm** (tr. 541):
 
+> [!quote]
 > *"Người ở vị trí B thường **từ chối** các đề nghị sẽ chia cho họ 1 đô la hoặc những khoản ít như vậy…
 > phổ biến hơn là người chơi A sẽ đề nghị đưa cho người chơi B mức **30 hoặc 40 đô la**, giữ lại phần
 > nhiều hơn cho mình. Trong trường hợp này thường thì B sẽ chấp nhận."*
@@ -755,12 +803,14 @@ chia thiệt gần bằng với mức ưa tiền**. Đó là một con số, kh�
 
 Sách nối thẳng sang thị trường lao động (tr. 541):
 
+> [!quote]
 > *"khi một công ty có một năm đặc biệt phát đạt, những công nhân (tương tự như người chơi B) có thể kỳ
 > vọng được trả thêm một phần tương xứng của thành công đó, **ngay cả khi mức lương cân bằng thị trường
 > không chỉ ra việc này**. Công ty (tương tự như người chơi A) cũng có thể quyết định trả thêm… vì lo
 > lắng những công nhân sẽ trút giận lên công ty bằng cách ít cố gắng hơn, hoặc đình công hay thậm chí
 > đập phá."*
 
+> [!quote]
 > 💼 Trò chơi tối hậu là mô hình gọn nhất cho **mọi cuộc đàm phán một lần** — chia lợi nhuận liên doanh,
 > thưởng cuối năm, chia cổ phần sáng lập. Bài học định lượng: đối tác **sẵn sàng đốt tiền của chính họ**
 > để không phải nhận một tỷ lệ mà họ thấy là sỉ nhục. Một đề nghị "về lý thì họ vẫn có lợi" hoàn toàn
@@ -772,10 +822,12 @@ Sách nối thẳng sang thị trường lao động (tr. 541):
 
 Hai câu hỏi của sách (tr. 542):
 
+> [!note]
 > 1. Bạn thích **(A)** dành 50 phút để làm việc đó **ngay bây giờ** hay **(B)** để mai làm và phải dành
 >    ra tới 60 phút?
 > 2. Bạn thích **(A)** dành ra 50 phút để làm nó **sau 90 ngày** hay **(B)** 60 phút để làm nó sau 91 ngày?
 
+> [!quote]
 > *"Khi bị hỏi những câu kiểu này, rất nhiều người chọn **B cho Câu 1 và A cho Câu 2**."*
 
 Cùng một đánh đổi — 10 phút để hoãn một ngày — và người ta trả lời **ngược nhau** tuỳ vào việc nó xảy
@@ -829,12 +881,14 @@ Nếu bạn biết mình **sẽ đổi ý**, hãy **tự trói tay mình trướ
 | Người ăn kiêng **khoá tủ lạnh**          | thêm chi phí vào lựa chọn xấu                                                                                    |
 | **Tài khoản 401(k)**                     | *"một công nhân có thể chấp nhận bị trích một khoản ra khỏi lương của anh ta **trước cả khi anh ta nhận được**"* |
 
+> [!quote]
 > *"Có lẽ đó là lý do tại sao các tài khoản hưu trí như vậy lại rất phổ biến. **Chúng bảo vệ mọi người
 > khỏi ham muốn của chính họ** đối với những sự thoả mãn tức thời."*
 
-⚠️ Chú ý sự đảo ngược: ở [bài 10](bai_10_lua_chon_cua_nguoi_tieu_dung.md), có **thêm** lựa chọn luôn tốt
-hơn hoặc bằng. Ở đây, **bớt** lựa chọn lại làm người ta khá lên. Điều đó chỉ có nghĩa khi người ta không
-nhất quán — và đó là toàn bộ khoảng cách giữa hai bài.
+> [!warning]
+> Chú ý sự đảo ngược: ở [bài 10](bai_10_lua_chon_cua_nguoi_tieu_dung.md), có **thêm** lựa chọn luôn tốt
+> hơn hoặc bằng. Ở đây, **bớt** lựa chọn lại làm người ta khá lên. Điều đó chỉ có nghĩa khi người ta không
+> nhất quán — và đó là toàn bộ khoảng cách giữa hai bài.
 
 ---
 
@@ -852,6 +906,7 @@ Sách khép cả cuốn bằng cách nối về **Mười Nguyên lý** ở
 Ba phần **không** bác bỏ ba nguyên lý. Chúng dán một cái nhãn "còn tuỳ" lên từng cái, và nói rõ "tuỳ"
 vào cái gì.
 
+> [!quote]
 > *"Nếu có một đề tài thống nhất cho những vấn đề trên thì đó sẽ là: cuộc sống này rất lộn xộn. Thông
 > tin thì không hoàn hảo, chính phủ và con người cũng vậy. Tất nhiên, bạn biết điều này từ rất lâu trước
 > khi bạn nghiên cứu kinh tế học, nhưng **nhà kinh tế cần hiểu những sự không hoàn hảo này càng rõ càng
@@ -862,7 +917,7 @@ Câu cuối là câu đáng giữ. Ai cũng biết đời không hoàn hảo; c�
 
 ---
 
-## 18. 💼 Lương cứng hay hoa hồng — bài toán rủi ro đạo đức bằng số
+## 18. Lương cứng hay hoa hồng — bài toán rủi ro đạo đức bằng số
 
 Sách nêu ba cách chống rủi ro đạo đức ở [mục 2](#2-hành-vi-được-che-đậy--rủi-ro-đạo-đức) nhưng không
 định giá cái nào. Đây là bài toán mà mọi người làm quản trị đều gặp: **trả lương cứng hay trả hoa hồng?**
@@ -899,6 +954,7 @@ Vậy cứ trả hoa hồng thật cao là xong? **Không.** Hoa hồng cao đ�
 
 Bảng này chứa kết luận quan trọng nhất của mục, và nó **ngược với trực giác**:
 
+> [!note]
 > **CÔNG VIỆC CÀNG NHIỀU MAY RỦI, CÀNG KHÔNG NÊN ÉP NỖ LỰC LÊN CAO.**
 
 Lý do là một chuỗi ba bước: muốn nỗ lực cao thì phải trả hoa hồng cao → hoa hồng cao thì nhân viên gánh
@@ -922,26 +978,29 @@ phải dùng hoa hồng cao**:
 | **Tăng lương**          | mất việc đắt hơn → không cần hoa hồng cũng đủ động cơ              |
 | **Trì hoãn tiền lương** | đặt cược dài hạn, nơi may rủi triệt tiêu bớt qua nhiều kỳ          |
 
-⚠️ Giới hạn của mô hình, nói rõ để khỏi dùng sai: các con số nỗ lực – doanh thu ở trên được **cho sẵn**.
-Ngoài đời phải **đo** chúng, và đo được mức "may rủi" $a$ của một vị trí là phần khó nhất. Cùng một vấn
-đề mà sách gặp với "khấu trừ đủ lớn" ở [mục 8](#8-thẩm-tra--khi-bên-thiếu-thông-tin-ra-tay): lý thuyết
-cho bạn **dạng** của câu trả lời, dữ liệu mới cho bạn **con số**.
+> [!warning]
+> Giới hạn của mô hình, nói rõ để khỏi dùng sai: các con số nỗ lực – doanh thu ở trên được **cho sẵn**.
+> Ngoài đời phải **đo** chúng, và đo được mức "may rủi" $a$ của một vị trí là phần khó nhất. Cùng một vấn
+> đề mà sách gặp với "khấu trừ đủ lớn" ở [mục 8](#8-thẩm-tra--khi-bên-thiếu-thông-tin-ra-tay): lý thuyết
+> cho bạn **dạng** của câu trả lời, dữ liệu mới cho bạn **con số**.
 
 ---
 
 ## 19. Code minh hoạ
 
+> [!note]
 > ⚙️ **Chạy:** cần **Python 3.10+**. Lưu file rồi gõ `python3 bai-11-thong-tin-bat-can-xung.py`.
 > **Không cần cài gói nào.** File có sẵn tại [thuc_hanh/bai-11-thong-tin-bat-can-xung.py](../thuc_hanh/bai-11-thong-tin-bat-can-xung.py).
 
 Mọi thứ dùng `Fraction` — không có số thực nào, nên chạy bao nhiêu lần cũng ra đúng một kết quả.
 Hàm `tien()` **ném lỗi** nếu bị truyền số lẻ, để không có chỗ nào âm thầm làm tròn.
 
-⚠️ Code có **9 mục đánh số riêng của nó**, không trùng với 22 mục của bài học. Bảng đối chiếu:
+> [!warning]
+> Code có **9 mục đánh số riêng của nó**, không trùng với 22 mục của bài học. Bảng đối chiếu:
 
 | Mục trong code | Mục trong bài                                                          |
 | -------------- | ---------------------------------------------------------------------- |
-| 1              | [5](#5--thị-trường-xe-cũ-tự-bào-mòn--dựng-lại-mô-hình-akerlof-bằng-số) |
+| 1              | [5](#5-thị-trường-xe-cũ-tự-bào-mòn--dựng-lại-mô-hình-akerlof-bằng-số) |
 | 2              | [6](#6-cung-cấp-thông-tin--vì-sao-tín-hiệu-phải-đắt-mới-có-tác-dụng)   |
 | 3              | [8](#8-thẩm-tra--khi-bên-thiếu-thông-tin-ra-tay)                       |
 | 4              | [10](#10-nghịch-lý-condorcet--dân-chủ-có-thể-không-có-câu-trả-lời)     |
@@ -949,7 +1008,7 @@ Hàm `tien()` **ném lỗi** nếu bị truyền số lẻ, để không có ch�
 | 6              | [12](#12-định-lý-cử-tri-trung-vị--ba-cách-tính-trung-bình-ba-con-số)   |
 | 7              | [15](#15-con-người-quan-tâm-đến-sự-công-bằng--trò-chơi-tối-hậu)        |
 | 8              | [16](#16-con-người-không-nhất-quán-theo-thời-gian)                     |
-| 9              | [18](#18--lương-cứng-hay-hoa-hồng--bài-toán-rủi-ro-đạo-đức-bằng-số)    |
+| 9              | [18](#18-lương-cứng-hay-hoa-hồng--bài-toán-rủi-ro-đạo-đức-bằng-số)    |
 
 ```python
 """Bai 11 - Thong tin bat can xung, kinh te chinh tri, kinh te hoc hanh vi
@@ -2257,7 +2316,7 @@ Trả lời rồi mới quay lại đối chiếu. Số trong ngoặc là mục 
   - *Con người không nhất quán* — hai câu hỏi, 76% người Mỹ, cam kết tự trói, tr. 542
   - *Kết luận*, tr. 543
 - **Ngoài sách:**
-  - Mô hình bào mòn thị trường xe cũ ở [mục 5](#5--thị-trường-xe-cũ-tự-bào-mòn--dựng-lại-mô-hình-akerlof-bằng-số)
+  - Mô hình bào mòn thị trường xe cũ ở [mục 5](#5-thị-trường-xe-cũ-tự-bào-mòn--dựng-lại-mô-hình-akerlof-bằng-số)
     — George A. Akerlof, *"The Market for 'Lemons': Quality Uncertainty and the Market Mechanism"*,
     *Quarterly Journal of Economics*, 1970. Sách nhắc tên Akerlof nhưng không trình bày mô hình.
   - Mô hình tín hiệu ở [mục 6](#6-cung-cấp-thông-tin--vì-sao-tín-hiệu-phải-đắt-mới-có-tác-dụng) —
@@ -2268,7 +2327,7 @@ Trả lời rồi mới quay lại đối chiếu. Số trong ngoặc là mục 
     rút gọn của mô hình bất bình đẳng ác cảm (Fehr–Schmidt, 1999); sách chỉ mô tả bằng lời.
   - Mô hình beta–delta ở [mục 16](#16-con-người-không-nhất-quán-theo-thời-gian) — chiết khấu tựa
     hyperbol, dạng chuẩn của kinh tế học hành vi; sách chỉ đưa hai câu hỏi mà không đưa mô hình.
-  - Bài toán lương cứng – hoa hồng ở [mục 18](#18--lương-cứng-hay-hoa-hồng--bài-toán-rủi-ro-đạo-đức-bằng-số)
+  - Bài toán lương cứng – hoa hồng ở [mục 18](#18-lương-cứng-hay-hoa-hồng--bài-toán-rủi-ro-đạo-đức-bằng-số)
     — dựng riêng cho bài này.
 - **Liên hệ chéo:**
   - [Bài 1](bai_01_muoi_nguyen_ly_va_tu_duy_kinh_te.md) — ba nguyên lý mà chương này dán nhãn "còn tuỳ".

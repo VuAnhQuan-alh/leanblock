@@ -1,13 +1,16 @@
 # Bài 6 — Kỳ vọng, phương sai và các số đặc trưng
 
+> [!info] Về bài này
 > Bài học dựa trên **Giáo trình Xác suất Thống kê** (Tống Đình Quỳ, NXB Bách Khoa – Hà Nội), **Chương II §3**, tr. 48–56.
-> 💼 **Góc QTKD** là ví dụ thêm cho ngành Quản trị Kinh doanh, không có trong giáo trình.
-> 📚 **Mở rộng** là kiến thức nền giáo trình lướt qua.
-> 📌 **Cần đọc trước:** [Bài 5 — Biến ngẫu nhiên và luật phân phối](bai_05_bien_ngau_nhien_va_luat_phan_phoi.md)
+>
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
+>
+> **Cần đọc trước:** [Bài 5 — Biến ngẫu nhiên và luật phân phối](bai_05_bien_ngau_nhien_va_luat_phan_phoi.md)
 
 Bài 5 kết thúc bằng một lời thú nhận của giáo trình: tìm được $F(x)$ là *"rất khó, nếu không nói là
 hầu như không thể"*. Bài này đưa ra lối thoát — mở đầu §3 (tr. 48):
 
+> [!quote]
 > "Dẫu biết rằng hàm phân phối xác suất cho ta thông tin **đầy đủ nhất** về biến ngẫu nhiên,
 > nhưng trong thực tế ta **không thể xác định được nó**; từ đó dẫn đến việc tìm một vài đặc trưng
 > quan trọng, thông thường là đặc trưng về **vị trí** và về **độ phân tán**."
@@ -28,7 +31,7 @@ hầu như không thể"*. Bài này đưa ra lối thoát — mở đầu §3 (
 4. [Độ lệch chuẩn và tính chất của phương sai](#4-độ-lệch-chuẩn-và-tính-chất-của-phương-sai)
 5. [Mốt, trung vị và phân vị](#5-mốt-trung-vị-và-phân-vị)
 6. [Mômen và hình dạng phân phối](#6-mômen-và-hình-dạng-phân-phối)
-7. [📚 Chọn số đặc trưng nào](#7--chọn-số-đặc-trưng-nào)
+7. [📚 Chọn số đặc trưng nào](#7-chọn-số-đặc-trưng-nào)
 8. [Code minh hoạ](#8-code-minh-hoạ)
 9. [Tự thử](#9-tự-thử)
 10. [Từ điển thuật ngữ](#10-từ-điển-thuật-ngữ)
@@ -58,6 +61,7 @@ liên tục thì $\int$ với $f(x)dx$. Nhớ một cái là nhớ cả hai.
 của biến ngẫu nhiên. Giáo trình yêu cầu phân biệt nó với *trung bình cộng của các giá trị* — vì
 kỳ vọng có trọng số, còn trung bình cộng thì không.
 
+> [!quote] tr. 49
 > "Trong thực tế, nếu quan sát các giá trị của $X$ nhiều lần và lấy trung bình cộng, thì khi số quan
 > sát càng lớn số trung bình đó càng **gần tới kỳ vọng** $EX$." (tr. 49)
 
@@ -66,6 +70,7 @@ và trung bình mẫu (thực nghiệm) — nền của cả phần thống kê.
 
 ### Thí dụ 3.1 (tr. 49)
 
+> [!note]
 > $X$ = số chấm khi gieo xúc sắc. Theo (3.1a):
 
 $$EX = \frac16(1 + 2 + 3 + 4 + 5 + 6) = 3{,}5$$
@@ -75,10 +80,11 @@ Giáo trình rút ra hai nhận xét:
 1. Khi xác suất **phân phối đều**, kỳ vọng chính là trung bình cộng của các giá trị.
 2. $EX = 3{,}5$ nghĩa là **gieo nhiều lần thì số chấm trung bình sẽ là 3,5**.
 
-⚠️ **Kỳ vọng không nhất thiết là giá trị $X$ có thể nhận.** Xúc sắc không bao giờ ra 3,5 chấm.
-Kỳ vọng là **trọng tâm** của phân phối, không phải một kết cục. Điều này gây hiểu nhầm rất nhiều
-trong báo cáo kinh doanh: *"số con trung bình mỗi hộ là 2,3"* không có nghĩa là có hộ nào sinh
-2,3 đứa con.
+> [!warning] Kỳ vọng không nhất thiết là giá trị $X$ có thể nhận.
+> Xúc sắc không bao giờ ra 3,5 chấm.
+> Kỳ vọng là **trọng tâm** của phân phối, không phải một kết cục. Điều này gây hiểu nhầm rất nhiều
+> trong báo cáo kinh doanh: *"số con trung bình mỗi hộ là 2,3"* không có nghĩa là có hộ nào sinh
+> 2,3 đứa con.
 
 ### Thí dụ 3.2 và 3.3 (tr. 49)
 
@@ -99,6 +105,7 @@ $$EX = \int_2^4 x \cdot \frac12(x-2)\,dx = \frac12\int_2^4 (x^2 - 2x)\,dx
 
 ### Thí dụ 3.4 (tr. 50) — vì sao nhà cái luôn thắng
 
+> [!note]
 > Một người mua vé số lô tô 2 số giá **10.000 đồng**. Anh ta thắng **700.000 đồng** (gấp 70 lần)
 > nếu số mua trùng 2 số cuối của giải độc đắc, không được gì nếu trượt. Tìm số tiền thắng trung bình.
 
@@ -108,6 +115,7 @@ $$EX = 0 \cdot 99\% + 700\,000 \cdot 1\% = \mathbf{7\,000 \text{ đồng}}$$
 
 Giáo trình kết luận sắc bén (tr. 50):
 
+> [!quote]
 > "Mặc dù $EX > 0$, nhưng chớ quên rằng anh ta đã bỏ ra 10.000 đồng để mua xổ số. Như vậy trong thực
 > tế mỗi lần chơi anh ta **mất trung bình 3.000 đồng**."
 
@@ -118,26 +126,26 @@ Giáo trình kết luận sắc bén (tr. 50):
 2. Tỷ lệ hoàn trả cho người chơi là $7\,000/10\,000 = 70\%$. Nhà cái giữ lại 30% — và vì luật số lớn,
    với hàng triệu lượt chơi, 30% đó là **chắc chắn**, không phải may rủi.
 
-### 💼 Góc QTKD
-
-Thí dụ 3.4 chính là khuôn mẫu của **mọi quyết định đầu tư dưới bất định**. Ba dự án cùng vốn 1 tỷ:
-
-| Dự án | Kịch bản   | Xác suất | Lợi nhuận | $E(\text{lợi nhuận})$ |
-| ----- | ---------- | -------- | --------- | --------------------- |
-| A     | thành công | 0,9      | +200 tr   | \multirow             |
-|       | thất bại   | 0,1      | −500 tr   | **+130 tr**           |
-| B     | thành công | 0,3      | +900 tr   |                       |
-|       | thất bại   | 0,7      | −200 tr   | **+130 tr**           |
-| C     | chắc chắn  | 1,0      | +130 tr   | **+130 tr**           |
-
-Ba dự án **cùng kỳ vọng 130 triệu**. Chọn cái nào?
-
-Kỳ vọng **không đủ để quyết định** — cần thêm thước đo rủi ro, tức là **phương sai** ở mục 3.
-Đó chính là lý do §3 có hai phần chứ không phải một.
-
-Và với những quyết định **chỉ làm một lần** (mua nhà, đổi nghề, đầu tư toàn bộ vốn), kỳ vọng còn
-kém tin cậy hơn nữa: luật số lớn chỉ đúng khi bạn lặp lại nhiều lần. Nhà cái xổ số thắng chắc vì
-họ chơi hàng triệu ván; người mua vé chỉ chơi vài ván.
+> [!example] Góc QTKD
+>
+> Thí dụ 3.4 chính là khuôn mẫu của **mọi quyết định đầu tư dưới bất định**. Ba dự án cùng vốn 1 tỷ:
+>
+> | Dự án | Kịch bản   | Xác suất | Lợi nhuận | $E(\text{lợi nhuận})$ |
+> | ----- | ---------- | -------- | --------- | --------------------- |
+> | A     | thành công | 0,9      | +200 tr   | \multirow             |
+> |       | thất bại   | 0,1      | −500 tr   | **+130 tr**           |
+> | B     | thành công | 0,3      | +900 tr   |                       |
+> |       | thất bại   | 0,7      | −200 tr   | **+130 tr**           |
+> | C     | chắc chắn  | 1,0      | +130 tr   | **+130 tr**           |
+>
+> Ba dự án **cùng kỳ vọng 130 triệu**. Chọn cái nào?
+>
+> Kỳ vọng **không đủ để quyết định** — cần thêm thước đo rủi ro, tức là **phương sai** ở mục 3.
+> Đó chính là lý do §3 có hai phần chứ không phải một.
+>
+> Và với những quyết định **chỉ làm một lần** (mua nhà, đổi nghề, đầu tư toàn bộ vốn), kỳ vọng còn
+> kém tin cậy hơn nữa: luật số lớn chỉ đúng khi bạn lặp lại nhiều lần. Nhà cái xổ số thắng chắc vì
+> họ chơi hàng triệu ván; người mua vé chỉ chơi vài ván.
 
 ---
 
@@ -155,15 +163,16 @@ $$
 \end{aligned}
 $$
 
-⚠️ **Chỗ nhớ nhầm nhiều nhất: (iii) và (iv) có điều kiện khác nhau.**
+> [!warning] Chỗ nhớ nhầm nhiều nhất: (iii) và (iv) có điều kiện khác nhau.
 
 - **Cộng thì luôn được**: $E(X+Y) = EX + EY$ đúng kể cả khi $X$, $Y$ phụ thuộc chặt chẽ.
 - **Nhân thì phải độc lập**: $E(XY) = EX \cdot EY$ chỉ đúng khi độc lập.
 
-💼 Hệ quả thực tế: **doanh thu tổng của hai chi nhánh luôn bằng tổng hai kỳ vọng**, kể cả khi hai
-chi nhánh cạnh tranh khách của nhau. Nhưng kỳ vọng của **tích** (ví dụ: doanh thu = số đơn × giá trị
-trung bình mỗi đơn) thì **không** bằng tích hai kỳ vọng nếu hai yếu tố tương quan — mà chúng thường
-tương quan (đơn nhiều thì thường vào mùa cao điểm, giá trị mỗi đơn cũng cao hơn).
+> [!example]
+> Hệ quả thực tế: **doanh thu tổng của hai chi nhánh luôn bằng tổng hai kỳ vọng**, kể cả khi hai
+> chi nhánh cạnh tranh khách của nhau. Nhưng kỳ vọng của **tích** (ví dụ: doanh thu = số đơn × giá trị
+> trung bình mỗi đơn) thì **không** bằng tích hai kỳ vọng nếu hai yếu tố tương quan — mà chúng thường
+> tương quan (đơn nhiều thì thường vào mùa cao điểm, giá trị mỗi đơn cũng cao hơn).
 
 **Tính chất (v) rất tiện** — đây là cái người ta gọi là *"luật của nhà thống kê vô thức"*.
 Để tính $E[\varphi(X)]$ bạn **không cần** tìm luật phân phối của $\varphi(X)$; cứ nhân $\varphi(x)$
@@ -171,6 +180,7 @@ vào rồi cộng như thường.
 
 ### Thí dụ 3.5 (tr. 50)
 
+> [!note]
 > Gieo đồng thời 2 con xúc sắc. Tìm tổng số chấm trung bình.
 
 *Giải.* $X_i$ = số chấm con thứ $i$. Từ thí dụ 3.1, $EX_1 = EX_2 = 3{,}5$. Dùng tính chất (iii):
@@ -225,10 +235,12 @@ $$
 
 **Cách nhớ:** *"trung bình của bình phương trừ bình phương của trung bình"*.
 
-⚠️ Thứ tự không được đổi: $E(X^2) \ne (EX)^2$, và luôn có $E(X^2) \ge (EX)^2$ (vì $VX \ge 0$).
+> [!warning]
+> Thứ tự không được đổi: $E(X^2) \ne (EX)^2$, và luôn có $E(X^2) \ge (EX)^2$ (vì $VX \ge 0$).
 
 ### Thí dụ 3.6 (tr. 51)
 
+> [!note]
 > Tính $VX$ cho bảng phân phối thí dụ 2.3 (đã biết $EX = 1{,}8$).
 
 Giáo trình nói thẳng: *"việc tính theo (3.3a) khá phức tạp. Ta sẽ dùng công thức (3.4a)"*:
@@ -244,6 +256,7 @@ Kiểm bằng công thức nhị thức (bài 7): $VX = npq = 3 \cdot 0{,}6 \cdo
 
 ### Thí dụ 3.7 (tr. 52) — phân phối mũ
 
+> [!note]
 > $f(x) = \lambda e^{-\lambda x}$ với $x \ge 0$, $\lambda > 0$ (từ thí dụ 2.8). Tính $VX$.
 
 $$EX = \int_0^{+\infty} x\lambda e^{-\lambda x}dx = \frac{1}{\lambda},
@@ -254,9 +267,10 @@ $$VX = \frac{2}{\lambda^2} - \frac{1}{\lambda^2} = \mathbf{\frac{1}{\lambda^2}}$
 **Đặc điểm đáng nhớ của phân phối mũ:** $EX = \sigma = 1/\lambda$ — **kỳ vọng bằng đúng độ lệch chuẩn**.
 Nghĩa là thời gian chờ trung bình và độ dao động của nó bằng nhau; phân phối mũ **rất phân tán**.
 
-💼 Thực tế: nếu thời gian chờ khách hàng trung bình 10 phút và tuân theo phân phối mũ, thì độ lệch
-chuẩn cũng 10 phút — sẽ có những khoảng chờ 30 phút không có ai. Đó là lý do quán cà phê không thể
-lên lịch nhân sự dựa trên trung bình.
+> [!example]
+> Thực tế: nếu thời gian chờ khách hàng trung bình 10 phút và tuân theo phân phối mũ, thì độ lệch
+> chuẩn cũng 10 phút — sẽ có những khoảng chờ 30 phút không có ai. Đó là lý do quán cà phê không thể
+> lên lịch nhân sự dựa trên trung bình.
 
 ---
 
@@ -269,6 +283,7 @@ Nếu $X$ đo bằng triệu đồng thì $VX$ có đơn vị là "triệu đồ
 
 $$\sigma(X) = \sqrt{VX} \tag{3.5}$$
 
+> [!quote]
 > "Độ lệch chuẩn được dùng **thường xuyên hơn** phương sai do có **cùng đơn vị đo** với chính biến $X$."
 
 Vì thế phương sai còn được ký hiệu $\sigma^2(X)$ hay $\sigma_X^2$.
@@ -283,7 +298,7 @@ $$
 \end{aligned}
 $$
 
-⚠️ **So sánh với kỳ vọng — ba khác biệt phải nhớ:**
+> [!warning] So sánh với kỳ vọng — ba khác biệt phải nhớ:
 
 |               | Kỳ vọng           | Phương sai                          |
 | ------------- | ----------------- | ----------------------------------- |
@@ -313,7 +328,7 @@ $$V(\overline{X}) = V\!\left(\frac{X_1 + \cdots + X_n}{n}\right) = \frac{\sigma^
 Giáo trình giải thích ứng dụng (tr. 53): *"Đây chính là lý do khi đo đạc các đại lượng vật lý người ta
 thường **đo nhiều lần rồi lấy trung bình cộng** các kết quả."*
 
-### ⚠️ Luật căn bậc hai — con số quan trọng nhất bài này
+### Luật căn bậc hai — con số quan trọng nhất bài này
 
 Chú ý: phương sai giảm theo $n$, nhưng **độ lệch chuẩn giảm theo $\sqrt{n}$**.
 
@@ -325,11 +340,13 @@ Chú ý: phương sai giảm theo $n$, nhưng **độ lệch chuẩn giảm theo
 |        100 | $\sigma/10$                            |
 |        400 | $\sigma/20$                            |
 
+> [!note]
 > **Muốn giảm sai số 2 lần, phải tăng cỡ mẫu 4 lần. Muốn giảm 10 lần, phải tăng 100 lần.**
 
-💼 Đây là **định luật kinh tế của mọi nghiên cứu thị trường**. Khảo sát 400 người chính xác gấp đôi
-khảo sát 100 người — nhưng tốn gấp bốn tiền. Muốn chính xác gấp đôi nữa (1.600 người) thì tốn
-gấp 16 lần so với ban đầu.
+> [!example]
+> Đây là **định luật kinh tế của mọi nghiên cứu thị trường**. Khảo sát 400 người chính xác gấp đôi
+> khảo sát 100 người — nhưng tốn gấp bốn tiền. Muốn chính xác gấp đôi nữa (1.600 người) thì tốn
+> gấp 16 lần so với ban đầu.
 
 Vì thế các công ty nghiên cứu thị trường hầu như luôn dừng ở cỡ mẫu **1.000–1.200** — đó là điểm
 mà chi phí bắt đầu tăng nhanh hơn nhiều so với độ chính xác thu được. Bài 11 sẽ tính chính xác
@@ -348,8 +365,9 @@ Kỳ vọng không phải thước đo vị trí duy nhất. Giáo trình bổ s
 - Biến **rời rạc**: giá trị ứng với **xác suất lớn nhất**.
 - Biến **liên tục**: giá trị làm **hàm mật độ đạt max**.
 
-⚠️ Giáo trình lưu ý: *"mốt có thể chỉ là **cực đại địa phương** và một biến ngẫu nhiên có thể có
-**một mốt hoặc nhiều mốt**."*
+> [!warning]
+> Giáo trình lưu ý: *"mốt có thể chỉ là **cực đại địa phương** và một biến ngẫu nhiên có thể có
+> **một mốt hoặc nhiều mốt**."*
 
 ### Trung vị
 
@@ -359,6 +377,7 @@ $$P(X < \text{med}X) = P(X > \text{med}X) = \frac12$$
 
 Cách tìm: **giải phương trình $F(x) = \frac12$**.
 
+> [!quote] tr. 54
 > "Trong nhiều trường hợp ứng dụng, trung vị là đặc trưng vị trí **rất tốt, nhiều khi tốt hơn cả
 > kỳ vọng**, nhất là khi trong số liệu có những **sai sót thái quá**." (tr. 54)
 
@@ -374,6 +393,7 @@ Ví dụ giáo trình: *"2 là phân vị 72% của $X$ nếu $F(2) = 0{,}72$"*.
 
 ### Thí dụ 3.8 và 3.9 (tr. 54–55) — ba số, ba giá trị khác nhau
 
+> [!note]
 > Phân phối Weibull: $f(x) = \dfrac{x}{2}e^{-x^2/4}$ với $x > 0$. Tìm mốt và trung vị.
 
 **Mốt** — giải $f'(x) = 0$. Giáo trình rút gọn về $1 - \dfrac{x^2}{2} = 0$; do $x > 0$:
@@ -411,32 +431,32 @@ Thứ tự này cho biết phân phối **lệch phải** (đuôi kéo dài về
 - đối xứng: mốt = med = $EX$
 - lệch **trái**: $EX$ < med < mốt
 
-### 💼 Góc QTKD — vì sao "lương trung bình" luôn gây tranh cãi
-
-Lương tháng của 10 nhân viên (triệu đồng): 12, 13, 14, 14, 15, 15, 16, 18, 22, **121** (giám đốc).
-
-| Thước đo   |  Giá trị |    Bỏ người lương 121 ra |
-| ---------- | -------: | -----------------------: |
-| Trung bình | **26,0** |          15,4 (đổi mạnh) |
-| Trung vị   | **15,0** | 14,5 (gần như không đổi) |
-
-**9 trên 10 nhân viên có lương thấp hơn "mức trung bình" 26 triệu.** Con số trung bình đúng về mặt
-số học nhưng mô tả sai thực tế.
-
-Đây là lý do:
-
-- **Thống kê thu nhập quốc gia** luôn công bố **thu nhập trung vị**, không phải trung bình.
-- **Giá nhà** báo cáo theo giá trung vị.
-- **Thời gian phản hồi hệ thống** báo cáo theo phân vị 95% và 99%, không phải trung bình —
-  vì trung bình che giấu 5% khách hàng có trải nghiệm tệ.
-
-⚠️ **Quy tắc thực hành:** dữ liệu kinh doanh (thu nhập, giá trị đơn hàng, thời gian chờ, doanh thu
-khách hàng) hầu như **luôn lệch phải** — có ít giá trị rất lớn kéo trung bình lên. **Mặc định dùng
-trung vị**, chỉ dùng trung bình khi đã kiểm tra phân phối gần đối xứng.
-
-Nhưng có một ngoại lệ quan trọng: **khi cộng dồn thì phải dùng kỳ vọng**. Tổng doanh thu tháng =
-$30 \times$ doanh thu trung bình ngày (đúng, do tính chất (iii)); không phải $30 \times$ trung vị.
-Trung vị không cộng được.
+> [!example] Góc QTKD — vì sao "lương trung bình" luôn gây tranh cãi
+>
+> Lương tháng của 10 nhân viên (triệu đồng): 12, 13, 14, 14, 15, 15, 16, 18, 22, **121** (giám đốc).
+>
+> | Thước đo   |  Giá trị |    Bỏ người lương 121 ra |
+> | ---------- | -------: | -----------------------: |
+> | Trung bình | **26,0** |          15,4 (đổi mạnh) |
+> | Trung vị   | **15,0** | 14,5 (gần như không đổi) |
+>
+> **9 trên 10 nhân viên có lương thấp hơn "mức trung bình" 26 triệu.** Con số trung bình đúng về mặt
+> số học nhưng mô tả sai thực tế.
+>
+> Đây là lý do:
+>
+> - **Thống kê thu nhập quốc gia** luôn công bố **thu nhập trung vị**, không phải trung bình.
+> - **Giá nhà** báo cáo theo giá trung vị.
+> - **Thời gian phản hồi hệ thống** báo cáo theo phân vị 95% và 99%, không phải trung bình —
+>   vì trung bình che giấu 5% khách hàng có trải nghiệm tệ.
+>
+> ⚠️ **Quy tắc thực hành:** dữ liệu kinh doanh (thu nhập, giá trị đơn hàng, thời gian chờ, doanh thu
+> khách hàng) hầu như **luôn lệch phải** — có ít giá trị rất lớn kéo trung bình lên. **Mặc định dùng
+> trung vị**, chỉ dùng trung bình khi đã kiểm tra phân phối gần đối xứng.
+>
+> Nhưng có một ngoại lệ quan trọng: **khi cộng dồn thì phải dùng kỳ vọng**. Tổng doanh thu tháng =
+> $30 \times$ doanh thu trung bình ngày (đúng, do tính chất (iii)); không phải $30 \times$ trung vị.
+> Trung vị không cộng được.
 
 ---
 
@@ -483,29 +503,30 @@ $$\beta_2 = \frac{\mu_4}{\sigma^4}$$
 
 *"Nếu tỷ số này càng lớn đường cong có đỉnh càng nhọn hơn."* Giáo trình cho một mốc chuẩn rất hữu ích:
 
+> [!note]
 > **Đường cong mật độ của phân phối chuẩn có $\beta_2 = 3$.**
 
 Con số 3 là **thước đo tham chiếu**: $\beta_2 > 3$ nghĩa là phân phối nhọn hơn chuẩn và **đuôi nặng
 hơn** (nhiều giá trị cực đoan hơn); $\beta_2 < 3$ nghĩa là bẹt hơn.
 
-### 💼 Góc QTKD — đuôi nặng là chuyện sống còn
-
-Trong tài chính, $\beta_2 > 3$ (**đuôi nặng**, fat tails) là đặc điểm cố hữu của lợi suất tài sản:
-các cú sốc lớn xảy ra **thường xuyên hơn nhiều** so với phân phối chuẩn dự đoán.
-
-Nếu mô hình rủi ro của bạn giả định phân phối chuẩn ($\beta_2 = 3$) trong khi thực tế $\beta_2 = 8$,
-bạn sẽ **đánh giá thấp nghiêm trọng** xác suất của một ngày sụp đổ. Đây là một trong những nguyên nhân
-kỹ thuật của khủng hoảng tài chính 2008 — cùng với sai lầm về độc lập đã nêu ở bài 3 mục 2.
-
-**Cách kiểm nhanh trên dữ liệu thật:** tính $\beta_1$ và $\beta_2$ trước khi áp dụng bất kỳ mô hình
-nào giả định phân phối chuẩn. Excel có sẵn `SKEW()` và `KURT()`.
-
-⚠️ Lưu ý: Excel `KURT()` trả về **kurtosis dư** $= \beta_2 - 3$, nên phân phối chuẩn cho `KURT() = 0`
-chứ không phải 3. Lại một khác biệt quy ước nữa, giống như $F(x)$ ở bài 5.
+> [!example] Góc QTKD — đuôi nặng là chuyện sống còn
+>
+> Trong tài chính, $\beta_2 > 3$ (**đuôi nặng**, fat tails) là đặc điểm cố hữu của lợi suất tài sản:
+> các cú sốc lớn xảy ra **thường xuyên hơn nhiều** so với phân phối chuẩn dự đoán.
+>
+> Nếu mô hình rủi ro của bạn giả định phân phối chuẩn ($\beta_2 = 3$) trong khi thực tế $\beta_2 = 8$,
+> bạn sẽ **đánh giá thấp nghiêm trọng** xác suất của một ngày sụp đổ. Đây là một trong những nguyên nhân
+> kỹ thuật của khủng hoảng tài chính 2008 — cùng với sai lầm về độc lập đã nêu ở bài 3 mục 2.
+>
+> **Cách kiểm nhanh trên dữ liệu thật:** tính $\beta_1$ và $\beta_2$ trước khi áp dụng bất kỳ mô hình
+> nào giả định phân phối chuẩn. Excel có sẵn `SKEW()` và `KURT()`.
+>
+> ⚠️ Lưu ý: Excel `KURT()` trả về **kurtosis dư** $= \beta_2 - 3$, nên phân phối chuẩn cho `KURT() = 0`
+> chứ không phải 3. Lại một khác biệt quy ước nữa, giống như $F(x)$ ở bài 5.
 
 ---
 
-## 7. 📚 Chọn số đặc trưng nào
+## 7. Chọn số đặc trưng nào
 
 Giáo trình trình bày sáu số đặc trưng ở ba mục riêng mà không so sánh. Bảng này là phần bổ sung.
 
@@ -544,6 +565,7 @@ là báo cáo thiếu — đúng như ví dụ ba dự án ở mục 1 cho thấ
 
 ## 8. Code minh hoạ
 
+> [!note]
 > ⚙️ **Chạy:** cần **Python 3.10+** (macOS/Linux có sẵn). Lưu file rồi gõ `python3 bai-06-ky-vong.py`.
 > Chỉ dùng thư viện chuẩn — **không cần cài gói nào**.
 
@@ -800,10 +822,10 @@ Ba điểm đáng để ý:
 | Hệ số nhọn              | Kurtosis               | $\beta_2 = \mu_4/\sigma^4$; chuẩn có $\beta_2 = 3$ |
 | Đuôi nặng               | Fat tails, Heavy tails | $\beta_2 > 3$                                      |
 
-⚠️ **Hai khác biệt quy ước cần nhớ khi dùng Excel:**
-`KURT()` trả về $\beta_2 - 3$ (kurtosis dư), không phải $\beta_2$.
-`VAR.S()` là phương sai **mẫu** (chia $n-1$), `VAR.P()` là phương sai **tổng thể** (chia $n$) —
-bài 10 sẽ giải thích vì sao có hai loại.
+> [!warning] Hai khác biệt quy ước cần nhớ khi dùng Excel:
+> `KURT()` trả về $\beta_2 - 3$ (kurtosis dư), không phải $\beta_2$.
+> `VAR.S()` là phương sai **mẫu** (chia $n-1$), `VAR.P()` là phương sai **tổng thể** (chia $n$) —
+> bài 10 sẽ giải thích vì sao có hai loại.
 
 ---
 

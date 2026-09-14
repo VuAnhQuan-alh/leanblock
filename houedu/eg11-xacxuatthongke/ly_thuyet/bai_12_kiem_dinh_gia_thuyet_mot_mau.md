@@ -1,21 +1,24 @@
 # Bài 12 — Kiểm định giả thuyết, các bài toán một mẫu
 
+> [!info] Về bài này
 > Bài học dựa trên **Giáo trình Xác suất Thống kê** (Tống Đình Quỳ, NXB Bách Khoa – Hà Nội), **Chương V §1–§2**, tr. 158–170.
-> 💼 **Góc QTKD** là ví dụ thêm cho ngành Quản trị Kinh doanh, không có trong giáo trình.
-> 📚 **Mở rộng** là kiến thức nền giáo trình lướt qua.
-> ⚠️ Bài này **đính chính một lỗi làm ĐẢO NGƯỢC kết luận** của thí dụ 2.3 (tr. 166).
-> 📌 **Cần đọc trước:** [Bài 10](bai_10_mau_va_thong_ke_mo_ta.md) · [Bài 11](bai_11_uoc_luong_diem_va_khoang_tin_cay.md)
+>
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
+>
+> **Cần đọc trước:** [Bài 10](bai_10_mau_va_thong_ke_mo_ta.md) · [Bài 11](bai_11_uoc_luong_diem_va_khoang_tin_cay.md)
 
 Bài 11 trả lời câu *"giá trị thật khoảng bao nhiêu?"*. Bài này trả lời câu **quyết định**:
 *"lời tuyên bố kia có đúng không?"*
 
 Giáo trình mở đầu (tr. 158):
 
+> [!quote]
 > "Trong nhiều lĩnh vực đời sống kinh tế – xã hội chúng ta hay nêu ra các **nhận xét** khác nhau về
 > các đối tượng quan tâm... Vấn đề xác định **đúng sai** của một giả thuyết sẽ được gọi là **kiểm định**."
 
-💼 Đây là công cụ thống kê **được dùng nhiều nhất trong kinh doanh**: A/B test, kiểm tra chất lượng,
-đánh giá chiến dịch, nghiệm thu nhà cung cấp — tất cả đều là kiểm định giả thuyết.
+> [!example]
+> Đây là công cụ thống kê **được dùng nhiều nhất trong kinh doanh**: A/B test, kiểm tra chất lượng,
+> đánh giá chiến dịch, nghiệm thu nhà cung cấp — tất cả đều là kiểm định giả thuyết.
 
 ## Mục lục
 
@@ -26,8 +29,8 @@ Giáo trình mở đầu (tr. 158):
 5. [Bài toán 1 và 2: kiểm định về kỳ vọng](#5-bài-toán-1-và-2-kiểm-định-về-kỳ-vọng)
 6. [Bài toán 3: kiểm định về tỷ lệ](#6-bài-toán-3-kiểm-định-về-tỷ-lệ)
 7. [Bài toán 4: kiểm định về phương sai](#7-bài-toán-4-kiểm-định-về-phương-sai)
-8. [📚 Giá trị p](#8--giá-trị-p)
-9. [📚 Bảy điều kiểm định không nói cho bạn](#9--bảy-điều-kiểm-định-không-nói-cho-bạn)
+8. [📚 Giá trị p](#8-giá-trị-p)
+9. [📚 Bảy điều kiểm định không nói cho bạn](#9-bảy-điều-kiểm-định-không-nói-cho-bạn)
 10. [Code minh hoạ](#10-code-minh-hoạ)
 11. [Tự thử](#11-tự-thử)
 12. [Từ điển thuật ngữ](#12-từ-điển-thuật-ngữ)
@@ -57,6 +60,7 @@ Giáo trình lưu ý: *"Việc kiểm định một giả thuyết đơn thườ
 | $H_0$   | **giả thuyết gốc**              | thường là giả thuyết **đơn** |
 | $H_1$   | **giả thuyết đối** (đối thuyết) | đơn hoặc phức                |
 
+> [!quote]
 > "Ta thừa nhận khi đã chọn cặp $H_0$, $H_1$ thì việc **chấp nhận $H_0$ chính là bác bỏ $H_1$** và
 > ngược lại."
 
@@ -66,23 +70,23 @@ Giáo trình lưu ý: *"Việc kiểm định một giả thuyết đơn thườ
 - $H_0$: thu nhập trung bình năm là 50 triệu, với nhiều đối thuyết:
   $\ne 50$, $> 50$, hoặc $< 50$ triệu.
 
-### 💼 Góc QTKD — chọn $H_0$ thế nào
-
-⭐ **Quy tắc vàng: $H_0$ là điều bạn muốn BÁC BỎ, $H_1$ là điều bạn muốn CHỨNG MINH.**
-
-Vì kiểm định chỉ có thể **bác bỏ** $H_0$ một cách mạnh mẽ; nó **không bao giờ chứng minh được** $H_0$
-đúng (mục 9 sẽ giải thích).
-
-| Bạn muốn chứng minh                   | $H_0$                            | $H_1$                            |
-| ------------------------------------- | -------------------------------- | -------------------------------- |
-| Trang mới chuyển đổi tốt hơn trang cũ | $p_{\text{mới}} = p_{\text{cũ}}$ | $p_{\text{mới}} > p_{\text{cũ}}$ |
-| Quy trình mới giảm tỷ lệ lỗi          | $p = p_0$                        | $p < p_0$                        |
-| Nhà cung cấp KHÔNG đạt cam kết        | $p = 2\%$ (cam kết)              | $p > 2\%$                        |
-| Doanh thu vượt chỉ tiêu               | $a = 50$                         | $a > 50$                         |
-
-⚠️ Chú ý dòng thứ ba: $H_0$ là **lời cam kết của nhà cung cấp**. Nếu dữ liệu không đủ mạnh để bác bỏ,
-bạn phải **chấp nhận hàng** — gánh nặng chứng minh nằm ở phía bạn. Điều này giống hệt nguyên tắc
-"suy đoán vô tội" trong pháp luật: $H_0$ = vô tội.
+> [!example] Góc QTKD — chọn $H_0$ thế nào
+>
+> ⭐ **Quy tắc vàng: $H_0$ là điều bạn muốn BÁC BỎ, $H_1$ là điều bạn muốn CHỨNG MINH.**
+>
+> Vì kiểm định chỉ có thể **bác bỏ** $H_0$ một cách mạnh mẽ; nó **không bao giờ chứng minh được** $H_0$
+> đúng (mục 9 sẽ giải thích).
+>
+> | Bạn muốn chứng minh                   | $H_0$                            | $H_1$                            |
+> | ------------------------------------- | -------------------------------- | -------------------------------- |
+> | Trang mới chuyển đổi tốt hơn trang cũ | $p_{\text{mới}} = p_{\text{cũ}}$ | $p_{\text{mới}} > p_{\text{cũ}}$ |
+> | Quy trình mới giảm tỷ lệ lỗi          | $p = p_0$                        | $p < p_0$                        |
+> | Nhà cung cấp KHÔNG đạt cam kết        | $p = 2\%$ (cam kết)              | $p > 2\%$                        |
+> | Doanh thu vượt chỉ tiêu               | $a = 50$                         | $a > 50$                         |
+>
+> ⚠️ Chú ý dòng thứ ba: $H_0$ là **lời cam kết của nhà cung cấp**. Nếu dữ liệu không đủ mạnh để bác bỏ,
+> bạn phải **chấp nhận hàng** — gánh nặng chứng minh nằm ở phía bạn. Điều này giống hệt nguyên tắc
+> "suy đoán vô tội" trong pháp luật: $H_0$ = vô tội.
 
 ---
 
@@ -90,6 +94,7 @@ bạn phải **chấp nhận hàng** — gánh nặng chứng minh nằm ở ph�
 
 **Nguyên tắc chung (tr. 159):**
 
+> [!quote]
 > "Dựa trên **nguyên lý xác suất nhỏ**: một sự kiện có xác suất xuất hiện khá bé thì có thể coi rằng
 > **nó không xảy ra** khi thực hiện một phép thử có liên quan đến sự kiện đó."
 
@@ -149,10 +154,11 @@ $1 - \beta$ gọi là **lực lượng** của tiêu chuẩn $K$ — *"xác su�
 | **Chấp nhận $H_0$** | ✅ đúng                          | ❌ **sai lầm loại 2** ($\beta$) |
 | **Bác bỏ $H_0$**    | ❌ **sai lầm loại 1** ($\alpha$) | ✅ đúng (lực lượng $1-\beta$)   |
 
-### ⭐ Đánh đổi không tránh được
+### Đánh đổi không tránh được
 
 Giáo trình nói thẳng (tr. 160):
 
+> [!quote]
 > "Trong thực tế ta **không thể đồng thời làm giảm cả hai** xác suất đó, bởi vì cứ $\alpha$ giảm thì
 > $\beta$ tăng và ngược lại."
 
@@ -165,6 +171,7 @@ $\alpha$ gọi là **mức ý nghĩa**. Các giá trị thường dùng: **0,1; 
 
 ### Thí dụ 1.2 (tr. 161)
 
+> [!note]
 > $X \sim N(\theta; 25)$, $n = 9$. $H_0: \theta = 3$ với $H_1: \theta = 4$. Ngưỡng $A_0 = 5{,}5$.
 > Tìm $\alpha$ và $\beta$.
 
@@ -193,22 +200,22 @@ Cột $\alpha$ giảm thì cột $\beta$ tăng — **luôn luôn**, không có n
 **Cách duy nhất giảm cả hai: TĂNG CỠ MẪU.** Đây là kết luận thực tiễn quan trọng nhất của mục này,
 và giáo trình không nêu rõ.
 
-### 💼 Góc QTKD — hai loại sai lầm tốn tiền khác nhau
-
-| Bối cảnh           | Sai lầm loại 1 (báo động giả)    | Sai lầm loại 2 (bỏ lọt)       |
-| ------------------ | -------------------------------- | ----------------------------- |
-| Nghiệm thu lô hàng | trả lại lô hàng **tốt**          | nhận lô hàng **lỗi**          |
-| A/B test           | triển khai tính năng **vô dụng** | bỏ qua tính năng **tốt**      |
-| Kiểm tra gian lận  | chặn giao dịch **hợp lệ**        | để lọt giao dịch **gian lận** |
-| Tuyển dụng         | loại ứng viên **giỏi**           | tuyển người **không phù hợp** |
-
-⭐ **Chọn $\alpha$ theo cái giá của sai lầm loại 1**, không theo thói quen:
-
-- Sai lầm loại 1 rất đắt (thu hồi sản phẩm, huỷ hợp đồng) → $\alpha$ nhỏ: 0,01 hoặc 0,001.
-- Sai lầm loại 2 đắt hơn (bỏ lỡ cơ hội lớn) → $\alpha$ rộng tay: 0,10.
-
-⚠️ Con số 0,05 chỉ là **thói quen lịch sử** (do Fisher đề xuất năm 1925), **không** phải quy luật tự
-nhiên. Rất nhiều quyết định kinh doanh tồi bắt nguồn từ việc dùng 0,05 một cách máy móc.
+> [!example] Góc QTKD — hai loại sai lầm tốn tiền khác nhau
+>
+> | Bối cảnh           | Sai lầm loại 1 (báo động giả)    | Sai lầm loại 2 (bỏ lọt)       |
+> | ------------------ | -------------------------------- | ----------------------------- |
+> | Nghiệm thu lô hàng | trả lại lô hàng **tốt**          | nhận lô hàng **lỗi**          |
+> | A/B test           | triển khai tính năng **vô dụng** | bỏ qua tính năng **tốt**      |
+> | Kiểm tra gian lận  | chặn giao dịch **hợp lệ**        | để lọt giao dịch **gian lận** |
+> | Tuyển dụng         | loại ứng viên **giỏi**           | tuyển người **không phù hợp** |
+>
+> ⭐ **Chọn $\alpha$ theo cái giá của sai lầm loại 1**, không theo thói quen:
+>
+> - Sai lầm loại 1 rất đắt (thu hồi sản phẩm, huỷ hợp đồng) → $\alpha$ nhỏ: 0,01 hoặc 0,001.
+> - Sai lầm loại 2 đắt hơn (bỏ lỡ cơ hội lớn) → $\alpha$ rộng tay: 0,10.
+>
+> ⚠️ Con số 0,05 chỉ là **thói quen lịch sử** (do Fisher đề xuất năm 1925), **không** phải quy luật tự
+> nhiên. Rất nhiều quyết định kinh doanh tồi bắt nguồn từ việc dùng 0,05 một cách máy móc.
 
 ---
 
@@ -230,8 +237,9 @@ Chọn dạng miền tới hạn theo **dạng của $H_1$** (tr. 162–163):
    α/2        α/2                  α                              α
 ```
 
-⚠️ **Chỗ sai nhiều nhất:** cùng mức $\alpha$, kiểm định **một phía** dùng phân vị $z_{1-\alpha}$
-(nhỏ hơn), kiểm định **hai phía** dùng $z_{1-\alpha/2}$ (lớn hơn).
+> [!warning] Chỗ sai nhiều nhất:
+> cùng mức $\alpha$, kiểm định **một phía** dùng phân vị $z_{1-\alpha}$
+> (nhỏ hơn), kiểm định **hai phía** dùng $z_{1-\alpha/2}$ (lớn hơn).
 
 Với $\alpha = 0{,}05$: một phía dùng **1,645**, hai phía dùng **1,960**.
 
@@ -266,18 +274,20 @@ $$K = \frac{\overline{X} - a_0}{\sigma_0}\sqrt{n} \ \sim N(0;1) \text{ khi } H_0
 | $a < a_0$   | $K_{tn} < z_b$            | $z_b = z_\alpha$ **(âm)** (2.3) |
 | $a > a_0$   | $K_{tn} > z_b$            | $z_b = z_{1-\alpha}$ (2.4)      |
 
-### ⭐ Kiểm định và khoảng tin cậy là một
+### Kiểm định và khoảng tin cậy là một
 
 Giáo trình nêu một nhận xét cực kỳ quan trọng (tr. 164):
 
+> [!quote]
 > "Để ý rằng **miền chấp nhận $H_0$** (tính đối với thống kê $K$) chính là **khoảng tin cậy** với độ
 > tin cậy $1-\alpha$ cho kỳ vọng."
 
 $$\boxed{\text{Bác bỏ } H_0: a = a_0 \text{ ở mức } \alpha
 \iff a_0 \text{ NẰM NGOÀI khoảng tin cậy } 1-\alpha}$$
 
-💼 **Hệ quả rất tiện:** nếu đã tính khoảng tin cậy ở bài 11, bạn **không cần tính lại gì** để kiểm định.
-Chỉ cần nhìn xem giá trị giả thuyết có nằm trong khoảng không.
+> [!example] Hệ quả rất tiện:
+> nếu đã tính khoảng tin cậy ở bài 11, bạn **không cần tính lại gì** để kiểm định.
+> Chỉ cần nhìn xem giá trị giả thuyết có nằm trong khoảng không.
 
 Ví dụ: doanh thu 60 ngày cho khoảng 95% là $(50{,}95;\ 59{,}53)$. Vậy:
 - $H_0: a = 50$ → 50 nằm **ngoài** → **bác bỏ**.
@@ -285,6 +295,7 @@ Ví dụ: doanh thu 60 ngày cho khoảng 95% là $(50{,}95;\ 59{,}53)$. Vậy:
 
 ### Thí dụ 2.1 (tr. 164)
 
+> [!note]
 > Hãng bảo hiểm thông báo tiền chi trả trung bình là 8.500 đô. Kiểm 25 hồ sơ thấy trung bình 8.900 đô.
 > Biết $\sigma = 2600$. Kiểm định với $\alpha = 0{,}05$.
 
@@ -296,6 +307,7 @@ $z_b = 1{,}96$. Vì $|0{,}77| < 1{,}96$ → **không có cơ sở bác bỏ** th
 
 ### Thí dụ 2.2 (tr. 165)
 
+> [!note]
 > Chủ cửa hàng cho rằng dung tích trung bình thùng là 55 lít ($\sigma = 6$). **Không thể đóng thùng
 > lớn hơn** do kích thước tôn đã cố định. Kiểm 36 thùng thấy trung bình 49 lít. $\alpha = 0{,}001$.
 
@@ -305,8 +317,9 @@ $$K_{tn} = \frac{49 - 55}{6}\sqrt{36} = -1 \times 6 = \mathbf{-6}$$
 
 $z_b = z_{0{,}001} = -3{,}09$. Vì $-6 < -3{,}09$ → **bác bỏ**: ý kiến của ông chủ **không đúng**.
 
-⚠️ Giáo trình lưu ý (tr. 165): thống kê (2.1) *"sẽ có phân phối xấp xỉ chuẩn, **ngay cả trong trường
-hợp chưa biết phân phối của biến gốc**"* khi $n$ lớn — nhờ CLT (bài 9).
+> [!warning]
+> Giáo trình lưu ý (tr. 165): thống kê (2.1) *"sẽ có phân phối xấp xỉ chuẩn, **ngay cả trong trường
+> hợp chưa biết phân phối của biến gốc**"* khi $n$ lớn — nhờ CLT (bài 9).
 
 ### Bài toán 2 — phương sai CHƯA BIẾT
 
@@ -320,8 +333,9 @@ bảng Laplace → bảng Student (2.6)–(2.8).
 Và lưu ý (tr. 166): khi $n > 30$ thì tra bảng Laplace được, thậm chí *"có thể bỏ qua cả giả thiết
 chuẩn của biến gốc $X$"* — nhưng kết quả chỉ là **gần đúng**.
 
-### Thí dụ 2.3 (tr. 166) — ⚠️ SÁCH TÍNH SAI, ĐẢO NGƯỢC KẾT LUẬN
+### Thí dụ 2.3 (tr. 166) — SÁCH TÍNH SAI, ĐẢO NGƯỢC KẾT LUẬN
 
+> [!note]
 > Nhà nhân chủng học cho rằng chiều cao trung bình một bộ tộc là 160 cm. Chọn 16 người thấy chiều cao
 > trung bình 164,25 cm với $s = 6{,}25$ cm. **Có thể cho rằng bộ tộc đó cao hơn 160 cm không?**
 > ($\alpha = 0{,}05$)
@@ -335,12 +349,13 @@ $t_{15;\,0{,}95} = 1{,}753$. Vì $2{,}72 > 1{,}753$:
 
 $$\boxed{\text{BÁC BỎ } H_0 \ \Longrightarrow \ \text{bộ tộc đó THẬT SỰ cao hơn 160 cm}}$$
 
-### ⚠️ Đính chính — lỗi nghiêm trọng nhất của cả giáo trình
+### Đính chính — lỗi nghiêm trọng nhất của cả giáo trình
 
 Bản quét gốc trang 166 in nguyên văn:
 
 $$K_{tn} = \frac{\overline{X} - a_0}{s}\sqrt{n} = \frac{164{,}25 - 160}{6{,}25}\sqrt{16} \approx 1{,}36$$
 
+> [!quote]
 > "Do $1{,}36 < 1{,}753$, ta **không có cơ sở để bác bỏ** $H_0$, có nghĩa là ý kiến của nhà nhân
 > chủng học là có thể tin được."
 
@@ -368,14 +383,16 @@ $H_0: p = p_0$, với $X \sim B(p)$.
 
 $$K = \frac{f - p_0}{\sqrt{p_0(1-p_0)}}\sqrt{n} \ \approx N(0;1)$$
 
-⚠️ **Chú ý mẫu số dùng $p_0$**, không dùng $f$. Khác với **khoảng tin cậy** ở bài 11 mục 7 (dùng $f$).
-Lý do: khi kiểm định, ta **giả sử $H_0$ đúng**, nên phương sai phải tính theo $p_0$.
-Đây là chỗ khác biệt tinh tế giữa hai bài toán.
+> [!warning] Chú ý mẫu số dùng $p_0$
+> , không dùng $f$. Khác với **khoảng tin cậy** ở bài 11 mục 7 (dùng $f$).
+> Lý do: khi kiểm định, ta **giả sử $H_0$ đúng**, nên phương sai phải tính theo $p_0$.
+> Đây là chỗ khác biệt tinh tế giữa hai bài toán.
 
 Miền tới hạn giống hoàn toàn bài toán 1 (thay $z$ tương ứng).
 
 ### Thí dụ 2.4 (tr. 167)
 
+> [!note]
 > Toà báo thông báo 25% học sinh THPT là độc giả thường xuyên. Mẫu 200 học sinh có 45 em đọc thường
 > xuyên. Kiểm định với $\alpha = 0{,}05$.
 
@@ -387,6 +404,7 @@ $|-0{,}82| < 1{,}96$ → **không có cơ sở bác bỏ** thông báo của to�
 
 ### Thí dụ 2.5 (tr. 167)
 
+> [!note]
 > Hiệu làm đầu cho rằng 90% khách hài lòng. **Nghi ngờ chủ hiệu nói quá lên**, điều tra 150 khách
 > thấy 132 người hài lòng. $\alpha = 0{,}05$.
 
@@ -396,24 +414,25 @@ $$K_{tn} = \frac{0{,}88 - 0{,}9}{\sqrt{0{,}9 \times 0{,}1}}\sqrt{150} = \mathbf{
 
 $z_b = -1{,}645$. Vì $-0{,}82 > -1{,}645$ → **không có cơ sở bác bỏ** ý kiến của hiệu làm đầu.
 
-⚠️ **Ghi chú nhỏ về số:** giáo trình in $-0{,}806$ (thí dụ 2.4) và $-0{,}833$ (thí dụ 2.5).
-Tính chính xác, **cả hai đều bằng $-0{,}8165$** (trùng hợp thú vị). Chênh lệch do sách làm tròn ở
-bước trung gian; **kết luận không đổi**.
+> [!warning] Ghi chú nhỏ về số:
+> giáo trình in $-0{,}806$ (thí dụ 2.4) và $-0{,}833$ (thí dụ 2.5).
+> Tính chính xác, **cả hai đều bằng $-0{,}8165$** (trùng hợp thú vị). Chênh lệch do sách làm tròn ở
+> bước trung gian; **kết luận không đổi**.
 
-### 💼 Góc QTKD — đây chính là A/B test một mẫu
-
-Tỷ lệ chuyển đổi hiện tại là 3% ($p_0$). Sau khi đổi giao diện, trong 1.000 lượt truy cập có 38 đơn.
-Đổi giao diện có hiệu quả không?
-
-$$f = 0{,}038, \qquad K = \frac{0{,}038 - 0{,}03}{\sqrt{0{,}03 \times 0{,}97}}\sqrt{1000} = 1{,}48$$
-
-$1{,}48 < 1{,}645$ → **chưa đủ bằng chứng**. Cần thêm dữ liệu.
-
-⭐ **Cỡ mẫu bao nhiêu là đủ?** Đây là câu hỏi phải trả lời **trước khi** chạy test, bằng công thức
-cỡ mẫu ở bài 11 mục 5. Chạy test rồi mới hỏi thì đã muộn.
-
-⚠️ Và **đừng dừng test khi vừa thấy kết quả đẹp** — đó là lỗi "peeking", làm $\alpha$ thật cao hơn
-nhiều so với 0,05 (mục 9).
+> [!example] Góc QTKD — đây chính là A/B test một mẫu
+>
+> Tỷ lệ chuyển đổi hiện tại là 3% ($p_0$). Sau khi đổi giao diện, trong 1.000 lượt truy cập có 38 đơn.
+> Đổi giao diện có hiệu quả không?
+>
+> $$f = 0{,}038, \qquad K = \frac{0{,}038 - 0{,}03}{\sqrt{0{,}03 \times 0{,}97}}\sqrt{1000} = 1{,}48$$
+>
+> $1{,}48 < 1{,}645$ → **chưa đủ bằng chứng**. Cần thêm dữ liệu.
+>
+> ⭐ **Cỡ mẫu bao nhiêu là đủ?** Đây là câu hỏi phải trả lời **trước khi** chạy test, bằng công thức
+> cỡ mẫu ở bài 11 mục 5. Chạy test rồi mới hỏi thì đã muộn.
+>
+> ⚠️ Và **đừng dừng test khi vừa thấy kết quả đẹp** — đó là lỗi "peeking", làm $\alpha$ thật cao hơn
+> nhiều so với 0,05 (mục 9).
 
 ---
 
@@ -425,8 +444,9 @@ $H_0: VX = \sigma_0^2$, với giả thiết $X$ chuẩn.
 
 $$K = \frac{(n-1)s^2}{\sigma_0^2} \ \sim \chi^2(n-1) \text{ khi } H_0 \text{ đúng}$$
 
-⚠️ Giáo trình lưu ý (tr. 168): nếu **biết** $a_0 = EX$ và thay $(n-1)s^2$ bằng $\sum(x_i - a_0)^2$
-thì thống kê tuân theo $\chi^2(n)$ — **đủ $n$ bậc tự do** (giống bài 11 mục 8).
+> [!warning]
+> Giáo trình lưu ý (tr. 168): nếu **biết** $a_0 = EX$ và thay $(n-1)s^2$ bằng $\sum(x_i - a_0)^2$
+> thì thống kê tuân theo $\chi^2(n)$ — **đủ $n$ bậc tự do** (giống bài 11 mục 8).
 
 **Miền tới hạn:**
 
@@ -438,6 +458,7 @@ thì thống kê tuân theo $\chi^2(n)$ — **đủ $n$ bậc tự do** (giống
 
 ### Thí dụ 2.6 (tr. 169)
 
+> [!note]
 > Chủ hãng cho biết độ lệch chuẩn của sai số đo là 5 mm. Kiểm 19 thiết bị thấy $s^2 = 33$ mm².
 > $\alpha = 0{,}05$.
 
@@ -455,6 +476,7 @@ Cả hai trường hợp ý kiến của chủ hãng đều được chấp nh�
 
 ### Thí dụ 2.7 (tr. 169) — mẹo khi $n$ lớn
 
+> [!note]
 > Thử độ chịu lực 35 chốt khoá thấy $s = 3{,}5$ pao. Người sản xuất bảo đảm $\sigma = 3$ pao.
 
 $n = 35 > 30$ nên dùng sự kiện $s \approx N\!\left(\sigma;\ \dfrac{\sigma^2}{2n}\right)$ (bài 10 mục 7),
@@ -464,14 +486,15 @@ $$K_{tn} = \frac{s - \sigma_0}{\sigma_0/\sqrt{2n}} = \frac{3{,}5 - 3}{3/\sqrt{70
 
 $z_b = 1{,}645$. Vì $1{,}39 < 1{,}645$ → **không có cơ sở bác bỏ** bảo đảm của nhà sản xuất.
 
-💼 Kiểm định phương sai là công cụ của **kiểm soát chất lượng**: không chỉ sản phẩm phải đúng kích
-thước trung bình, mà **độ dao động** cũng phải trong giới hạn. Máy chạy đúng trung bình nhưng dao
-động lớn thì vẫn cho nhiều phế phẩm — đó là ý tưởng của biểu đồ kiểm soát (control chart) trong
-quản trị sản xuất.
+> [!example]
+> Kiểm định phương sai là công cụ của **kiểm soát chất lượng**: không chỉ sản phẩm phải đúng kích
+> thước trung bình, mà **độ dao động** cũng phải trong giới hạn. Máy chạy đúng trung bình nhưng dao
+> động lớn thì vẫn cho nhiều phế phẩm — đó là ý tưởng của biểu đồ kiểm soát (control chart) trong
+> quản trị sản xuất.
 
 ---
 
-## 8. 📚 Giá trị p
+## 8. Giá trị p
 
 Giáo trình dạy theo lối **miền tới hạn** — so $K_{tn}$ với phân vị. Nhưng mọi phần mềm thống kê
 hiện đại (Excel, SPSS, R, Python) đều báo **giá trị p**. Đây là phần bổ sung, cần để đọc được
@@ -479,6 +502,7 @@ kết quả máy.
 
 **Định nghĩa.**
 
+> [!note]
 > **Giá trị p** là xác suất quan sát được kết quả **cực đoan như đã thấy hoặc hơn nữa**,
 > **NẾU $H_0$ đúng**.
 
@@ -514,7 +538,7 @@ với $H_0$, thay vì chỉ có/không.
 | 0,001 – 0,01 | bằng chứng mạnh         |
 | $< 0{,}001$  | bằng chứng rất mạnh     |
 
-### ⚠️ Ba hiểu lầm về giá trị p
+### Ba hiểu lầm về giá trị p
 
 | Phát biểu                                                                        | Đúng/Sai   |
 | -------------------------------------------------------------------------------- | ---------- |
@@ -528,21 +552,21 @@ $p$ là $P(\text{dữ liệu} \mid H_0)$, **không phải** $P(H_0 \mid \text{d�
 Muốn có $P(H_0 \mid \text{dữ liệu})$ thì cần công thức Bayes và một tiên nghiệm — tức là thống kê
 Bayes, không phải trường phái này.
 
-### 💼 Trong Excel
-
-| Kiểm định             | Hàm                                         |
-| --------------------- | ------------------------------------------- |
-| $z$-test một mẫu      | `Z.TEST(mảng; a₀; σ)` → trả thẳng giá trị p |
-| $t$-test              | `T.TEST(mảng1; mảng2; đuôi; loại)`          |
-| Phân vị $t$           | `T.INV(p; df)`, `T.INV.2T(α; df)`           |
-| Phân vị $\chi^2$      | `CHISQ.INV(p; df)`                          |
-| Giá trị p từ $\chi^2$ | `CHISQ.DIST.RT(K; df)`                      |
-
-⚠️ Tham số **đuôi** trong `T.TEST`: `1` = một phía, `2` = hai phía. Nhầm là sai gấp đôi giá trị p.
+> [!example] Trong Excel
+>
+> | Kiểm định             | Hàm                                         |
+> | --------------------- | ------------------------------------------- |
+> | $z$-test một mẫu      | `Z.TEST(mảng; a₀; σ)` → trả thẳng giá trị p |
+> | $t$-test              | `T.TEST(mảng1; mảng2; đuôi; loại)`          |
+> | Phân vị $t$           | `T.INV(p; df)`, `T.INV.2T(α; df)`           |
+> | Phân vị $\chi^2$      | `CHISQ.INV(p; df)`                          |
+> | Giá trị p từ $\chi^2$ | `CHISQ.DIST.RT(K; df)`                      |
+>
+> ⚠️ Tham số **đuôi** trong `T.TEST`: `1` = một phía, `2` = hai phía. Nhầm là sai gấp đôi giá trị p.
 
 ---
 
-## 9. 📚 Bảy điều kiểm định không nói cho bạn
+## 9. Bảy điều kiểm định không nói cho bạn
 
 Giáo trình trình bày kỹ thuật mà không cảnh báo về cách diễn giải. Phần này là bổ sung —
 và là phần **quan trọng nhất của bài** khi đi làm.
@@ -556,18 +580,21 @@ Chú ý cách giáo trình luôn viết: *"**không có cơ sở để** bác b�
 (sai lầm loại 2). Thí dụ 1.2 cho thấy $\beta = 0{,}82$ — kiểm định đó gần như *không thể* bác bỏ,
 dù $H_0$ có sai thật.
 
+> [!note]
 > **Vắng bằng chứng không phải bằng chứng vắng.**
 
-💼 Đừng bao giờ báo cáo *"đã chứng minh hai phương án không khác nhau"*. Phải nói:
-*"với cỡ mẫu $n$, chưa phát hiện được khác biệt lớn hơn $X$."*
+> [!example]
+> Đừng bao giờ báo cáo *"đã chứng minh hai phương án không khác nhau"*. Phải nói:
+> *"với cỡ mẫu $n$, chưa phát hiện được khác biệt lớn hơn $X$."*
 
 ### 2. "Có ý nghĩa thống kê" ≠ "quan trọng trong thực tế"
 
 $K_{tn}$ tỷ lệ với $\sqrt{n}$. **Với $n$ đủ lớn, mọi khác biệt dù nhỏ xíu đều "có ý nghĩa thống kê".**
 
-💼 Ví dụ: A/B test trên 10 triệu lượt cho thấy tỷ lệ chuyển đổi tăng từ 3,00% lên 3,02%,
-$p < 0{,}001$. Có ý nghĩa thống kê rực rỡ — nhưng **chênh 0,02 điểm phần trăm** có bù nổi chi phí
-triển khai không?
+> [!example]
+> Ví dụ: A/B test trên 10 triệu lượt cho thấy tỷ lệ chuyển đổi tăng từ 3,00% lên 3,02%,
+> $p < 0{,}001$. Có ý nghĩa thống kê rực rỡ — nhưng **chênh 0,02 điểm phần trăm** có bù nổi chi phí
+> triển khai không?
 
 ⭐ **Luôn báo cáo cả ba:** giá trị p, **độ lớn của khác biệt**, và **khoảng tin cậy** cho khác biệt đó.
 Giá trị p đơn độc là báo cáo thiếu.
@@ -593,9 +620,10 @@ $$1 - (1 - 0{,}05)^{20} = 1 - 0{,}95^{20} = \mathbf{64\%}$$
 
 Gọi là **vấn đề so sánh bội** (multiple comparisons) hay **p-hacking**.
 
-💼 Rất hay gặp: chạy A/B test, không thấy hiệu quả trên toàn bộ, bèn cắt theo 15 phân khúc
-(nam/nữ, các độ tuổi, các thành phố...) cho tới khi tìm được một phân khúc có $p < 0{,}05$.
-Kết quả đó gần như chắc chắn là ngẫu nhiên.
+> [!example]
+> Rất hay gặp: chạy A/B test, không thấy hiệu quả trên toàn bộ, bèn cắt theo 15 phân khúc
+> (nam/nữ, các độ tuổi, các thành phố...) cho tới khi tìm được một phân khúc có $p < 0{,}05$.
+> Kết quả đó gần như chắc chắn là ngẫu nhiên.
 
 **Cách chữa:** chia $\alpha$ cho số phép thử (**hiệu chỉnh Bonferroni**): thử 20 lần thì dùng
 $\alpha = 0{,}05/20 = 0{,}0025$. Hoặc: quyết định phân khúc nào sẽ xét **trước khi** chạy test.
@@ -628,6 +656,7 @@ Khảo sát sai đối tượng thì $p = 0{,}0001$ cũng vô nghĩa.
 
 ## 10. Code minh hoạ
 
+> [!note]
 > ⚙️ **Chạy:** cần **Python 3.10+**. Chỉ dùng thư viện chuẩn — **không cần cài gói nào**.
 > Chạy từ thư mục gốc khoá học: `cd houedu/eg11-xacxuatthongke && python3 bai-12-kiem-dinh.py`.
 

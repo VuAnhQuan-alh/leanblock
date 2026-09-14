@@ -1,9 +1,11 @@
 # Bài 4 — Xác suất đầy đủ và công thức Bayes
 
+> [!info] Về bài này
 > Bài học dựa trên **Giáo trình Xác suất Thống kê** (Tống Đình Quỳ, NXB Bách Khoa – Hà Nội), **Chương I §4**, tr. 29–38.
-> 💼 **Góc QTKD** là ví dụ thêm cho ngành Quản trị Kinh doanh, không có trong giáo trình.
-> 📚 **Mở rộng** là kiến thức nền giáo trình lướt qua.
-> 📌 **Cần đọc trước:** [Bài 3 — Xác suất có điều kiện](bai_03_xac_suat_co_dieu_kien_va_bernoulli.md)
+>
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
+>
+> **Cần đọc trước:** [Bài 3 — Xác suất có điều kiện](bai_03_xac_suat_co_dieu_kien_va_bernoulli.md)
 
 Bài này khép lại Chương I bằng hai công thức đi liền nhau, chạy theo **hai chiều ngược nhau**:
 
@@ -22,8 +24,8 @@ nền của lọc thư rác, chẩn đoán y khoa, chấm điểm tín dụng, v
 3. [Công thức Bayes](#3-công-thức-bayes)
 4. [Tiên nghiệm và hậu nghiệm](#4-tiên-nghiệm-và-hậu-nghiệm)
 5. [Bốn thí dụ mẫu của giáo trình](#5-bốn-thí-dụ-mẫu-của-giáo-trình)
-6. [📚 Nghịch lý tỷ lệ nền](#6--nghịch-lý-tỷ-lệ-nền)
-7. [📚 Quy trình bốn bước giải bài Bayes](#7--quy-trình-bốn-bước-giải-bài-bayes)
+6. [📚 Nghịch lý tỷ lệ nền](#6-nghịch-lý-tỷ-lệ-nền)
+7. [📚 Quy trình bốn bước giải bài Bayes](#7-quy-trình-bốn-bước-giải-bài-bayes)
 8. [Code minh hoạ](#8-code-minh-hoạ)
 9. [Tự thử](#9-tự-thử)
 10. [Từ điển thuật ngữ](#10-từ-điển-thuật-ngữ)
@@ -74,27 +76,28 @@ Giáo trình nêu bốn nhận xét (tr. 30):
 3. $\{A, \overline{A}\}$ với $A$ tuỳ ý là **nhóm đầy đủ bé nhất** (chỉ 2 phần tử).
 4. $\{U, V\}$ cũng là nhóm đầy đủ, gọi là **nhóm đầy đủ tầm thường** (vô dụng trong tính toán).
 
-⚠️ **Đây là chỗ hỏng nhiều nhất khi làm bài.** Trước khi viết công thức, hãy kiểm hai điều kiện:
+> [!warning] Đây là chỗ hỏng nhiều nhất khi làm bài.
+> Trước khi viết công thức, hãy kiểm hai điều kiện:
 
 - Các trường hợp có thể **cùng xảy ra** không? Nếu có → chưa xung khắc, chia lại.
 - Có tình huống nào **không rơi vào trường hợp nào** không? Nếu có → chưa đầy đủ, thiếu nhánh.
 
 Cách kiểm nhanh nhất: **cộng các xác suất lại, phải đúng bằng 1.**
 
-### 💼 Góc QTKD
-
-| Cách chia khách hàng                                       | Có phải nhóm đầy đủ?                             |
-| ---------------------------------------------------------- | ------------------------------------------------ |
-| {khách mới, khách cũ}                                      | ✅ xung khắc, phủ hết                            |
-| {miền Bắc, miền Trung, miền Nam}                           | ✅ nếu chỉ bán trong nước                        |
-| {đến từ Facebook, đến từ Google, đến từ email}             | ❌ **thiếu** kênh trực tiếp, giới thiệu          |
-| {khách mua ≥ 2 lần, khách chi ≥ 5 triệu}                   | ❌ **chồng lấn** — một người có thể thuộc cả hai |
-| {máy I, máy II, máy III} nếu 3 máy sản xuất 100% sản lượng | ✅                                               |
-
-Cách chia thứ ba là **lỗi thực tế cực kỳ phổ biến** trong báo cáo marketing: cộng tỷ lệ chuyển đổi
-theo kênh mà quên nhóm "direct/organic", ra tổng không bằng 100% rồi tự hỏi tiền đi đâu.
-
-Cách chia thứ tư sai vì chồng lấn — một khách hàng VIP mua 5 lần và chi 20 triệu sẽ bị **đếm hai lần**.
+> [!example] Góc QTKD
+>
+> | Cách chia khách hàng                                       | Có phải nhóm đầy đủ?                             |
+> | ---------------------------------------------------------- | ------------------------------------------------ |
+> | {khách mới, khách cũ}                                      | ✅ xung khắc, phủ hết                            |
+> | {miền Bắc, miền Trung, miền Nam}                           | ✅ nếu chỉ bán trong nước                        |
+> | {đến từ Facebook, đến từ Google, đến từ email}             | ❌ **thiếu** kênh trực tiếp, giới thiệu          |
+> | {khách mua ≥ 2 lần, khách chi ≥ 5 triệu}                   | ❌ **chồng lấn** — một người có thể thuộc cả hai |
+> | {máy I, máy II, máy III} nếu 3 máy sản xuất 100% sản lượng | ✅                                               |
+>
+> Cách chia thứ ba là **lỗi thực tế cực kỳ phổ biến** trong báo cáo marketing: cộng tỷ lệ chuyển đổi
+> theo kênh mà quên nhóm "direct/organic", ra tổng không bằng 100% rồi tự hỏi tiền đi đâu.
+>
+> Cách chia thứ tư sai vì chồng lấn — một khách hàng VIP mua 5 lần và chi 20 triệu sẽ bị **đếm hai lần**.
 
 ---
 
@@ -119,6 +122,7 @@ $$\boxed{P(H) = \sum_{i=1}^{n} P(A_i)\, P(H \mid A_i)} \tag{4.1}$$
 
 **Cách hiểu — đây là một trung bình có trọng số:**
 
+> [!note]
 > $P(H)$ = trung bình của các $P(H \mid A_i)$, với trọng số là $P(A_i)$.
 
 Ví dụ: nếu ba máy có tỷ lệ lỗi 1%, 0,5%, 0,2% thì tỷ lệ lỗi cả phân xưởng phải nằm **giữa 0,2% và 1%**,
@@ -187,6 +191,7 @@ Giáo trình đặt tên cho hai loại xác suất trong công thức (tr. 32):
 | Trước | $P(A_i)$        | **xác suất tiên nghiệm** (a priori)    | biết trước khi có thông tin mới |
 | Sau   | $P(A_i \mid H)$ | **xác suất hậu nghiệm** (a posteriori) | sau khi đã quan sát thấy $H$    |
 
+> [!quote] tr. 32
 > "Công thức Bayes cho phép **đánh giá lại** xác suất xảy ra các $A_i$ sau khi đã có thêm thông tin
 > về $H$." (tr. 32)
 
@@ -200,23 +205,23 @@ $$\text{niềm tin cũ} \ \xrightarrow{\ \text{bằng chứng mới}\ } \ \text{
 2. Nếu $P(H \mid A_i)$ **lớn hơn trung bình** thì hậu nghiệm của $A_i$ **tăng** so với tiên nghiệm.
 3. Bằng chứng càng "đặc trưng" cho một nguyên nhân, hậu nghiệm càng dịch chuyển mạnh.
 
-### 💼 Góc QTKD
-
-Đây là bộ máy phía sau mọi hệ thống **chấm điểm** trong doanh nghiệp.
-
-**Lead scoring** — chấm điểm khách hàng tiềm năng:
-
-- Tiên nghiệm: 5% khách tải tài liệu sẽ trở thành khách hàng thật.
-- Bằng chứng $H$: khách này mở email 4 lần và xem trang bảng giá.
-- Biết rằng 60% khách *thật sự mua* có hành vi đó, còn trong nhóm không mua chỉ 8% có hành vi đó.
-
-$$P(\text{sẽ mua} \mid H) = \frac{0{,}05 \cdot 0{,}60}{0{,}05 \cdot 0{,}60 + 0{,}95 \cdot 0{,}08} = \frac{0{,}030}{0{,}106} \approx 28{,}3\%$$
-
-Từ 5% lên 28,3% — gấp gần 6 lần. Đây là con số để đội sale quyết định gọi ai trước.
-
-**Lọc thư rác** cũng đúng công thức đó, chỉ đổi tên: $A_i$ = {rác, không rác},
-$H$ = "email chứa từ *miễn phí*". Thuật toán Naive Bayes chỉ là (4.3) áp dụng cho hàng nghìn từ
-cùng lúc, với giả thiết (biết là sai nhưng vẫn dùng) rằng các từ độc lập với nhau.
+> [!example] Góc QTKD
+>
+> Đây là bộ máy phía sau mọi hệ thống **chấm điểm** trong doanh nghiệp.
+>
+> **Lead scoring** — chấm điểm khách hàng tiềm năng:
+>
+> - Tiên nghiệm: 5% khách tải tài liệu sẽ trở thành khách hàng thật.
+> - Bằng chứng $H$: khách này mở email 4 lần và xem trang bảng giá.
+> - Biết rằng 60% khách *thật sự mua* có hành vi đó, còn trong nhóm không mua chỉ 8% có hành vi đó.
+>
+> $$P(\text{sẽ mua} \mid H) = \frac{0{,}05 \cdot 0{,}60}{0{,}05 \cdot 0{,}60 + 0{,}95 \cdot 0{,}08} = \frac{0{,}030}{0{,}106} \approx 28{,}3\%$$
+>
+> Từ 5% lên 28,3% — gấp gần 6 lần. Đây là con số để đội sale quyết định gọi ai trước.
+>
+> **Lọc thư rác** cũng đúng công thức đó, chỉ đổi tên: $A_i$ = {rác, không rác},
+> $H$ = "email chứa từ *miễn phí*". Thuật toán Naive Bayes chỉ là (4.3) áp dụng cho hàng nghìn từ
+> cùng lúc, với giả thiết (biết là sai nhưng vẫn dùng) rằng các từ độc lập với nhau.
 
 ---
 
@@ -224,6 +229,7 @@ cùng lúc, với giả thiết (biết là sai nhưng vẫn dùng) rằng các 
 
 ### Thí dụ 4.2 (tr. 30) — ba máy, và ý nghĩa thật của $P(H)$
 
+> [!note]
 > Một phân xưởng có 3 máy sản xuất cùng loại sản phẩm với tỷ lệ phế phẩm tương ứng 1%; 0,5% và 0,2%.
 > Máy I sản xuất 35%, máy II 45%, máy III 20% sản lượng. Chọn hú hoạ một sản phẩm, tìm xác suất
 > đó là phế phẩm.
@@ -252,12 +258,14 @@ do máy nào?** Áp (4.3):
 **Máy II sản xuất nhiều nhất (45%) nhưng máy I mới là thủ phạm khả dĩ nhất (57%).** Vì máy I bẩn
 gấp đôi máy II. Bằng chứng "đây là phế phẩm" đã đảo ngược thứ hạng.
 
-💼 Đây chính là **truy nguyên nguồn lỗi** trong quản trị chất lượng. Khi có khiếu nại từ khách,
-đừng điều tra dây chuyền lớn nhất — hãy điều tra dây chuyền có **tích $P(A_i) \times P(H \mid A_i)$**
-lớn nhất.
+> [!example]
+> Đây chính là **truy nguyên nguồn lỗi** trong quản trị chất lượng. Khi có khiếu nại từ khách,
+> đừng điều tra dây chuyền lớn nhất — hãy điều tra dây chuyền có **tích $P(A_i) \times P(H \mid A_i)$**
+> lớn nhất.
 
 ### Thí dụ 4.3 (tr. 31) — chọn nhóm đầy đủ cho khéo
 
+> [!note]
 > Hai hộp áo: hộp I có 10 áo trong đó 1 phế phẩm, hộp II có 8 áo trong đó 2 phế phẩm.
 > Lấy hú hoạ 1 áo từ hộp I bỏ sang hộp II, sau đó từ hộp II chọn hú hoạ 2 áo.
 > Tìm xác suất cả 2 áo đó đều là phế phẩm.
@@ -283,12 +291,14 @@ $$P(H) = \frac{1}{10}\cdot\frac{1}{12} + \frac{9}{10}\cdot\frac{1}{36} = \frac{1
 **Bài học lớn nhất của thí dụ này:** khi bài toán có một mắt xích **không biết**, hãy dựng nhóm đầy đủ
 ngay tại mắt xích đó rồi tính từng nhánh. Đây là kỹ thuật dùng lại ở mọi bài toán nhiều giai đoạn.
 
-💼 Cùng cấu trúc: một lô hàng nhập về **không rõ từ nhà cung cấp nào** (70% khả năng nhà A tỷ lệ lỗi
-2%, 30% khả năng nhà B tỷ lệ lỗi 6%). Kiểm 3 sản phẩm, xác suất phát hiện lỗi là bao nhiêu?
-Lập nhóm {A, B}, tính từng nhánh, cộng lại — y hệt.
+> [!example]
+> Cùng cấu trúc: một lô hàng nhập về **không rõ từ nhà cung cấp nào** (70% khả năng nhà A tỷ lệ lỗi
+> 2%, 30% khả năng nhà B tỷ lệ lỗi 6%). Kiểm 3 sản phẩm, xác suất phát hiện lỗi là bao nhiêu?
+> Lập nhóm {A, B}, tính từng nhánh, cộng lại — y hệt.
 
 ### Thí dụ 4.4 (tr. 32) — mạch nối tiếp
 
+> [!note]
 > Mạch điện gồm 2 bộ phận mắc nối tiếp, xác suất làm việc tốt là 0,95 và 0,98. Thấy mạch ngừng
 > làm việc; tìm xác suất **chỉ bộ phận thứ hai** hỏng.
 
@@ -316,6 +326,7 @@ nhưng "mọi khó khăn rơi vào việc tính trực tiếp $P(H)$" (tr. 33).
 
 ### Thí dụ 4.5 (tr. 33) — bài khó nhất chương I
 
+> [!note]
 > Tại một phòng khám chuyên khoa, tỷ lệ người đến khám **có bệnh là 83%**. Theo thống kê, nếu
 > **chẩn đoán có bệnh thì đúng tới 90%**, còn nếu **chẩn đoán không bệnh thì chỉ đúng 80%**.
 > a) Tính xác suất chẩn đoán đúng. b) Biết có một trường hợp chẩn đoán đúng; tìm xác suất người
@@ -329,7 +340,8 @@ nhưng "mọi khó khăn rơi vào việc tính trực tiếp $P(H)$" (tr. 33).
 | $B$ / $\overline{B}$ | bác sĩ **chẩn đoán** có bệnh / chẩn đoán không bệnh |
 | $H$ / $\overline{H}$ | chẩn đoán **đúng** / chẩn đoán sai                  |
 
-⚠️ **Chỗ bẫy:** thử dùng nhóm $\{A, \overline{A}\}$:
+> [!warning] Chỗ bẫy:
+> thử dùng nhóm $\{A, \overline{A}\}$:
 
 $$P(H) = P(A)P(H \mid A) + P(\overline{A})P(H \mid \overline{A})$$
 
@@ -375,7 +387,7 @@ Bài học: **luôn viết bảng ký hiệu ra giấy trước khi tính.** M�
 
 ---
 
-## 6. 📚 Nghịch lý tỷ lệ nền
+## 6. Nghịch lý tỷ lệ nền
 
 Giáo trình chạm vào chủ đề này qua thí dụ 4.5 và bài tập 33 (tr. 38) nhưng không đặt tên và không
 nhấn mạnh. Đây là **hệ quả quan trọng nhất của công thức Bayes trong thực tế**.
@@ -408,28 +420,28 @@ $$P(\text{bệnh} \mid +) = \frac{990}{990 + 9\,990} = 9{,}02\%$$
 **Tỷ lệ nền (base rate) chi phối kết quả mạnh hơn cả độ chính xác của xét nghiệm.** Bỏ qua nó gọi là
 **nguỵ biện tỷ lệ nền** (base rate fallacy).
 
-### 💼 Góc QTKD — nơi sai lầm này đốt tiền thật
-
-**Phát hiện gian lận thẻ tín dụng.** Tỷ lệ giao dịch gian lận thật sự khoảng 0,1%. Một mô hình
-"chính xác 99%" sẽ chặn nhầm 10 giao dịch hợp lệ cho mỗi 1 giao dịch gian lận bắt được. Khách hàng
-bị khoá thẻ oan sẽ bỏ ngân hàng. Đó là lý do các hệ thống thật phải đánh đổi: chấp nhận bỏ lọt
-một phần gian lận để giảm báo động giả.
-
-**Tuyển dụng.** Một bài test "dự đoán nhân viên xuất sắc với độ chính xác 90%". Nếu chỉ 5% ứng viên
-thật sự xuất sắc, thì trong số người pass test chỉ có $\frac{0{,}05 \cdot 0{,}9}{0{,}05 \cdot 0{,}9 + 0{,}95 \cdot 0{,}1} = 32\%$
-là xuất sắc thật. Hai phần ba số người bạn tuyển vì "pass bài test" là dương tính giả.
-
-**Cảnh báo churn.** Hệ thống cảnh báo "khách sắp rời bỏ" chạy trên tập khách hàng mà chỉ 3% thật sự
-rời bỏ mỗi tháng — hầu hết cảnh báo sẽ là giả, và đội chăm sóc khách hàng sẽ nhanh chóng học cách
-phớt lờ chúng.
-
-**Quy tắc thực hành:** trước khi mua bất kỳ công cụ nào quảng cáo "độ chính xác X%", hãy hỏi
-**tỷ lệ nền là bao nhiêu**, rồi tự tính hậu nghiệm bằng (4.3). Nếu người bán không trả lời được
-câu hỏi đó, họ chưa hiểu sản phẩm của chính mình.
+> [!example] Góc QTKD — nơi sai lầm này đốt tiền thật
+>
+> **Phát hiện gian lận thẻ tín dụng.** Tỷ lệ giao dịch gian lận thật sự khoảng 0,1%. Một mô hình
+> "chính xác 99%" sẽ chặn nhầm 10 giao dịch hợp lệ cho mỗi 1 giao dịch gian lận bắt được. Khách hàng
+> bị khoá thẻ oan sẽ bỏ ngân hàng. Đó là lý do các hệ thống thật phải đánh đổi: chấp nhận bỏ lọt
+> một phần gian lận để giảm báo động giả.
+>
+> **Tuyển dụng.** Một bài test "dự đoán nhân viên xuất sắc với độ chính xác 90%". Nếu chỉ 5% ứng viên
+> thật sự xuất sắc, thì trong số người pass test chỉ có $\frac{0{,}05 \cdot 0{,}9}{0{,}05 \cdot 0{,}9 + 0{,}95 \cdot 0{,}1} = 32\%$
+> là xuất sắc thật. Hai phần ba số người bạn tuyển vì "pass bài test" là dương tính giả.
+>
+> **Cảnh báo churn.** Hệ thống cảnh báo "khách sắp rời bỏ" chạy trên tập khách hàng mà chỉ 3% thật sự
+> rời bỏ mỗi tháng — hầu hết cảnh báo sẽ là giả, và đội chăm sóc khách hàng sẽ nhanh chóng học cách
+> phớt lờ chúng.
+>
+> **Quy tắc thực hành:** trước khi mua bất kỳ công cụ nào quảng cáo "độ chính xác X%", hãy hỏi
+> **tỷ lệ nền là bao nhiêu**, rồi tự tính hậu nghiệm bằng (4.3). Nếu người bán không trả lời được
+> câu hỏi đó, họ chưa hiểu sản phẩm của chính mình.
 
 ---
 
-## 7. 📚 Quy trình bốn bước giải bài Bayes
+## 7. Quy trình bốn bước giải bài Bayes
 
 Tổng hợp từ bốn thí dụ trên, để làm bài không lạc:
 
@@ -462,6 +474,7 @@ quả rồi mới hỏi về nguyên nhân → chắc chắn là Bayes.
 
 ## 8. Code minh hoạ
 
+> [!note]
 > ⚙️ **Chạy:** cần **Python 3.10+** (macOS/Linux có sẵn). Lưu file rồi gõ `python3 bai-04-bayet.py`.
 > Chỉ dùng thư viện chuẩn — **không cần cài gói nào**.
 
@@ -682,7 +695,8 @@ Ba điểm đáng để ý:
 | Độ đặc hiệu                  | Specificity, true negative rate       | $P(- \mid \text{khoẻ})$           |
 | Dương tính giả               | False positive                        | $P(+ \mid \text{khoẻ})$           |
 
-⚠️ **Ba xác suất dễ nhầm nhất**, luôn viết ra giấy trước khi tính:
+> [!warning] Ba xác suất dễ nhầm nhất
+> , luôn viết ra giấy trước khi tính:
 
 $$P(H \mid A) \quad \ne \quad P(A \mid H) \quad \ne \quad P(A H)$$
 

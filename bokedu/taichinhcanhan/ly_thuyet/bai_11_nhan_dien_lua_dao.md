@@ -1,25 +1,23 @@
 # Bài 11 — Nhận diện lừa đảo: Ponzi và CFD
 
+> [!info] Về bài này
 > Bài học dựa trên **C2 tr. 47–57** — Unit 4, **Lesson 4 (Mô hình Ponzi, tr. 47–53)** và **Lesson 5
 > (CFD là gì?, tr. 55–57)** của *Tài chính cá nhân 101, Class 2*.
->
 > **Cần đọc trước:** [Bài 10](bai_10_tai_chinh_hanh_vi.md) — bài này là chỗ khung thiên kiến ở bài 10
 > được đem ra dùng. Ponzi không đánh vào sự thiếu hiểu biết, nó đánh vào lòng tham và ảo tưởng kiểm
 > soát; bài 10 đã gọi tên sẵn từng cú đánh.
->
 > **Một chỗ để dành cho bài sau:** đoạn *"Hai. Khẩu vị rủi ro"* trong bài blog (**C2 tr. 54**) —
 > mức 5%/tháng, 10%/tháng, *"một vốn bốn mươi lời"* — thuộc về **bài 12** (rủi ro và khẩu vị rủi ro),
 > nên bài này chỉ chạm qua.
->
 > **Ký hiệu:** **[bổ sung]** là kiến thức ngoài sách · **[đính chính]** là chỗ sách sai ·
 > **[2026]** là mục đối chiếu với hiện tại.
->
 > **Về phần pháp lý:** mục 8 dẫn quan điểm cơ quan quản lý, tra ngày **10/09/2026**. Chính sách đổi
 > thì kiểm lại ngày tra trước khi tin.
->
 > **Code:** [`thuc_hanh/bai-11-nhan-dien-lua-dao.py`](../thuc_hanh/bai-11-nhan-dien-lua-dao.py)
 > — hai phép tính sách bỏ trống (Ponzi gấp đôi bao nhiêu vòng thì hết người, đòn bẩy đi ngược bao
 > nhiêu thì cháy tài khoản) do tệp này tính, kèm công thức một dòng để tự kiểm.
+>
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
 
 ---
 
@@ -71,15 +69,18 @@ bạn thua nhanh hơn tưởng.** Một cái phải tránh; một cái phải hi
 
 Lesson 4 mở bằng một câu đặt đúng trọng tâm (tr. 47):
 
+> [!quote]
 > *"Nhận biết sớm những dấu hiệu của mô hình lừa đảo Ponzi là cách thiết thực để bạn bảo vệ túi tiền
 > của bản thân và gia đình."*
 
 Và ở tr. 48, sách nối thẳng lừa đảo với thứ mà [bài 10](bai_10_tai_chinh_hanh_vi.md) vừa dựng khung:
 
+> [!quote]
 > *"Hầu hết cơ hội lại là 'bánh vẽ'. Và hầu hết các loại bánh vẽ chính là Ponzi."*
 
 Định nghĩa của sách gọn và **đúng phần cốt lõi** (tr. 48):
 
+> [!quote]
 > *"Ponzi (hay mô hình đa cấp kim tự tháp) là hình thức lừa đảo, mời gọi mua sản phẩm hoặc đầu tư,
 > cam kết trả lãi cao, đồng thời đưa ra nhiều tấm gương đã nhận lợi tức cao trước đó. Thực tế không
 > hề có hoạt động kinh doanh - đầu tư nào diễn ra, hoạt động chỉ dựa trên việc lấy tiền của người đến
@@ -125,6 +126,7 @@ từ các nhà đầu tư."*
 
 Sách chốt bằng câu đáng mang theo (tr. 52):
 
+> [!quote]
 > *"họ sẽ lấy tiền của bạn bằng cách bán cho mỗi người một giấc mơ không có thật. Tôi luôn tâm niệm
 > câu 'Too good to be true'. Bạn cũng nên như vậy."*
 
@@ -236,16 +238,19 @@ lời chào hấp dẫn tới đâu. Đúng tinh thần *"sửa hệ thống, kh
 
 Lesson 5 chuyển sang một thứ **khác loại hẳn** với Ponzi. Sách thành thật về phạm vi (tr. 55):
 
+> [!quote]
 > *"tôi chắc chắn với bạn, sẽ chỉ đưa ra những kiến thức cần thiết. Không quá màu mè, không quá đa
 > dạng. Đây là bước đệm…"*
 
 Sách vào đề bằng Forex (tr. 55–56):
 
+> [!quote]
 > *"Bạn nghĩ những người tham gia Forex có trao đổi ngoại tệ không? Không! Thực chất họ đang giao
 > dịch CFD - Kiếm lợi nhuận từ sự chênh lệch tỷ giá."*
 
 Rồi định nghĩa (tr. 56):
 
+> [!quote]
 > *"CFD - Contracts for Difference - Hợp đồng chênh lệch là một loại thỏa thuận giữa bên mua và bên
 > bán, được thực hiện nhờ vào khoảng chênh lệch giá của chứng khoán hoặc loại tài sản nào đó tại thời
 > điểm mở và đóng lệnh."*
@@ -269,6 +274,7 @@ ngay trong cái tên nên đáng sửa — giống lỗi *"chị B / chị C"* m
 
 Sách nói CFD *"có thể sử dụng các đòn bẩy"* và mô tả đúng cơ chế (tr. 56):
 
+> [!quote]
 > *"trader chỉ cần một tỷ lệ vốn nhỏ so với tổng giá trị thực của giao dịch để đặt lệnh, phần còn lại
 > vay từ nhà môi giới. Giao dịch đòn bẩy hay còn được gọi là giao dịch ký quỹ."*
 
@@ -313,6 +319,7 @@ nhận mất trắng toàn bộ số tiền trong 99% trường hợp"* — đó
 
 Sách chốt Lesson 5 bằng một cảnh báo pháp lý (tr. 57):
 
+> [!quote]
 > *"Giao dịch CFD mặc dù không phải lừa đảo, tuy nhiên độ rủi ro rất cao và giao dịch Forex hiện tại
 > chưa được sự cho phép tại thị trường Việt Nam. Các bạn cần cân nhắc kỹ trước khi tham gia loại hình
 > này."*

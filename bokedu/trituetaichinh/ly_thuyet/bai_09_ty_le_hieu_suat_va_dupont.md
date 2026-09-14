@@ -1,15 +1,16 @@
 # Bài 9 — Tỷ lệ hiệu suất và phân rã DuPont
 
+> [!info] Về bài này
 > Bài học dựng từ **chương 23 — *Các tỷ lệ thể hiện hiệu suất hoạt động*** (PDF tr. 162–168) và
 > **Hộp công cụ Phần V** (PDF tr. 168–170), nơi cuốn sách giấu **phân rã DuPont** dưới một tiêu đề khiêm
 > tốn là *"Mối quan hệ tỷ lệ"*.
-> 🎯 **Vòng 1.** Bài này đóng Phần V. Bài 8 đọc tỷ lệ trên **báo cáo kết quả kinh doanh**; chương 23 quay
+>
+> **Vòng 1.** Bài này đóng Phần V. Bài 8 đọc tỷ lệ trên **báo cáo kết quả kinh doanh**; chương 23 quay
 > sang **bảng cân đối kế toán** — và coi nó là thứ **điều khiển được**.
-> 💼 **Góc quản trị** — ví dụ thêm cho người đi làm, **không có trong sách**.
-> 📚 **Mở rộng** — thứ sách nói lướt hoặc để trong hộp công cụ.
-> 🇻🇳 **Đối chiếu Việt Nam** — sách viết theo US GAAP, mục này nối sang thực tế Việt Nam.
-> ⚠️ — chỗ dễ hiểu sai, hoặc chỗ sách in sai.
-> 📌 **Cần đọc trước:** [Bài 4](bai_04_bang_can_doi_ke_toan.md) ·
+>
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
+>
+> **Cần đọc trước:** [Bài 4](bai_04_bang_can_doi_ke_toan.md) ·
 > [Bài 7](bai_07_bao_cao_luu_chuyen_tien_te.md) · [Bài 8](bai_08_ty_le_loi_nhuan_don_bay_thanh_toan.md)
 > — mọi tỷ lệ ở đây lấy mẫu số từ bảng cân đối, và [mục 8](#8-dupont-đứng-trước-enron) trả nốt lời hứa
 > của bài 8.
@@ -32,9 +33,9 @@
 - [6. Phân rã DuPont](#6-phân-rã-dupont)
 - [7. Ba đòn bẩy của sách, đo bằng số](#7-ba-đòn-bẩy-của-sách-đo-bằng-số)
 - [8. DuPont đứng trước Enron](#8-dupont-đứng-trước-enron)
-- [9. 📚 Hộp công cụ Phần V — tỷ lệ riêng và phần trăm doanh thu](#9--hộp-công-cụ-phần-v--tỷ-lệ-riêng-và-phần-trăm-doanh-thu)
-- [10. ⚠️ Chỗ sách in sai trong chương 23](#10--chỗ-sách-in-sai-trong-chương-23)
-- [11. 🇻🇳 Đối chiếu Việt Nam — hai đường đến ROA](#11--đối-chiếu-việt-nam--hai-đường-đến-roa)
+- [9. Hộp công cụ Phần V — tỷ lệ riêng và phần trăm doanh thu](#9-hộp-công-cụ-phần-v--tỷ-lệ-riêng-và-phần-trăm-doanh-thu)
+- [10. Chỗ sách in sai trong chương 23](#10-chỗ-sách-in-sai-trong-chương-23)
+- [11. Đối chiếu Việt Nam — hai đường đến ROA](#11-đối-chiếu-việt-nam--hai-đường-đến-roa)
 - [12. Tự thử](#12-tự-thử)
 - [13. Từ điển thuật ngữ](#13-từ-điển-thuật-ngữ)
 - [14. Câu hỏi tự kiểm tra](#14-câu-hỏi-tự-kiểm-tra)
@@ -50,6 +51,7 @@
 Bảy bài đầu **dựng** ba báo cáo. Bài 8 **đọc tỷ lệ** trên báo cáo kết quả kinh doanh. Chương 23 làm một
 việc khác hẳn: nó coi bảng cân đối kế toán là thứ **có thể điều khiển được**.
 
+> [!quote]
 > *"Cách nói **'quản lý bảng cân đối kế toán'** có thể mang ý nghĩa rất riêng, đặc biệt là khi hầu hết các
 > nhà quản lý thường **chỉ tập trung vào báo cáo kết quả kinh doanh**. Nhưng hãy nghĩ thế này: bảng cân
 > đối kế toán liệt kê tài sản và những khoản nợ phải trả, và những tài sản và khoản nợ phải trả này **luôn
@@ -58,6 +60,7 @@ việc khác hẳn: nó coi bảng cân đối kế toán là thứ **có thể 
 
 Và một câu nằm ngay đầu chương, dễ bỏ qua nhưng là bản lề của cả bài:
 
+> [!quote]
 > *"Nếu bạn coi hàng tồn kho như **một khoản tiền đông cứng**, thì khi đó bạn càng đưa nó ra khỏi cửa và
 > thu tiền thực về nhanh bao nhiêu, **bạn càng giàu hơn** bấy nhiêu."* — ch. 23 · PDF tr. 162
 
@@ -73,8 +76,9 @@ bao nhiêu doanh thu, và nằm ở đó bao lâu?**
 | Tốc độ thay thế PPE | **3,90 lần** | đất đai, nhà xưởng, thiết bị |
 | Vòng quay tổng tài sản | **1,67 lần** | **toàn bộ** cột tài sản |
 
-⚠️ Bốn tỷ lệ đầu là **con số ngày**, hai tỷ lệ sau là **số lần**. Chúng đo cùng một thứ từ hai phía, và
-**bài 11** *(ch. 26–28, chưa viết)* sẽ cộng ba con số ngày đầu lại thành **một**.
+> [!warning]
+> Bốn tỷ lệ đầu là **con số ngày**, hai tỷ lệ sau là **số lần**. Chúng đo cùng một thứ từ hai phía, và
+> **bài 11** *(ch. 26–28, chưa viết)* sẽ cộng ba con số ngày đầu lại thành **một**.
 
 ---
 
@@ -93,17 +97,20 @@ Câu trong ngoặc đó đáng giá bao nhiêu?
 ⭐ Chênh **6,5 ngày — 8,8%** — mà doanh nghiệp **không đổi một li nào**. Tồn kho năm nay **giảm** (1.514 →
 1.270), nên bản cuối kỳ đẹp hơn. Nếu tồn kho **tăng** thì ngược lại.
 
-⚠️ Đó là điều phải hỏi **trước khi** so với đối thủ: **hai bên có dùng cùng một định nghĩa không?** Chương
-23 không đặt câu hỏi đó. Đối thủ chọn bản cuối kỳ trong một năm tồn kho giảm thì họ "thắng" bạn **8,8%**
-mà không làm gì cả.
+> [!warning]
+> Đó là điều phải hỏi **trước khi** so với đối thủ: **hai bên có dùng cùng một định nghĩa không?** Chương
+> 23 không đặt câu hỏi đó. Đối thủ chọn bản cuối kỳ trong một năm tồn kho giảm thì họ "thắng" bạn **8,8%**
+> mà không làm gì cả.
 
-📚 **Tốc độ luân chuyển không phải một tỷ lệ độc lập.** Sách viết nó là $360 / \text{DII}$. Nhưng nó bằng
-đúng COGS chia tồn kho — cùng một phép tính, lật ngược *(chốt bằng `assert`)*:
+> [!note] Tốc độ luân chuyển không phải một tỷ lệ độc lập.
+> Sách viết nó là $360 / \text{DII}$. Nhưng nó bằng
+> đúng COGS chia tồn kho — cùng một phép tính, lật ngược *(chốt bằng `assert`)*:
 
 $$\frac{360}{74{,}2} = 4{,}8534 \qquad\qquad \frac{6.756}{1.392} = 4{,}8534$$
 
-### ⚠️ Quy ước 360 ngày
+### Quy ước 360 ngày
 
+> [!quote]
 > *"Các chuyên gia tài chính thường tính số ngày trong năm là **360 ngày, chỉ bởi đây là số tròn**."*
 > — ch. 23 · PDF tr. 163
 
@@ -124,6 +131,7 @@ khác biệt mà không ai làm gì sai cả.
 
 Sách đưa hai con số rồi để nguyên:
 
+> [!quote]
 > *"Năm 2002, chuỗi cửa hàng **Target Stores** có tốc độ luân chuyển hàng tồn kho là **6,5**, đây là một
 > con số **đáng nể** đối với một nhà bán lẻ lớn. Nhưng đó vẫn chưa là gì so với tốc độ luân chuyển tồn kho
 > **8,1 của Wal-Mart**. Trong ngành bán lẻ, chênh lệch trong tốc độ luân chuyển tồn kho **có thể nói lên
@@ -152,9 +160,10 @@ nếu nó chạy được tốc độ của Wal-Mart thì tồn kho phải là b
 **hai năm** làm ra lợi nhuận *(chốt bằng `assert`)*. Đó là lý do sách gọi tồn kho là *"khoản tiền đông
 cứng"*.
 
-⚠️ Nhưng nếu lấy **tồn kho trung bình** làm mốc thì con số khác hẳn: **558** thay vì 436 — chênh **122
-triệu**, chỉ vì [mục 2](#2-ngày-tồn-kho--và-cái-giá-của-việc-chọn-định-nghĩa). Câu trả lời phải **kèm định
-nghĩa**. Con số trần không dùng được một mình.
+> [!warning]
+> Nhưng nếu lấy **tồn kho trung bình** làm mốc thì con số khác hẳn: **558** thay vì 436 — chênh **122
+> triệu**, chỉ vì [mục 2](#2-ngày-tồn-kho--và-cái-giá-của-việc-chọn-định-nghĩa). Câu trả lời phải **kèm định
+> nghĩa**. Con số trần không dùng được một mình.
 
 ---
 
@@ -168,12 +177,13 @@ DPO là *"một dạng đối ngược với DSO"*.
 | DSO (kỳ thu tiền) | 1.312 | **doanh thu**/ngày | 54,4 ngày |
 | DPO (kỳ thanh toán) | 1.022 | **COGS**/ngày | 54,5 ngày |
 
+> [!quote]
 > *"Các nhà cung cấp của doanh nghiệp đợi một thời gian dài mới thanh toán, khoảng thời gian này **gần như
 > tương đương** với thời gian mà doanh nghiệp chờ thu công nợ từ khách hàng."* — ch. 23 · PDF tr. 165
 
 54,5 − 54,4 = 0,1 ngày. Đúng là gần như tương đương.
 
-### ⚠️ Nhưng hai mẫu số khác nhau
+### Nhưng hai mẫu số khác nhau
 
 DSO chia **doanh thu**, DPO chia **COGS**. Đó **không** phải lỗi — bán hàng ghi theo giá bán, mua hàng ghi
 theo giá vốn — nhưng nó có nghĩa là *"54,4 gần bằng 54,5"* **không phải** là "hoà". Đổi cả hai về **tiền**
@@ -190,7 +200,7 @@ thì doanh nghiệp đang **tài trợ** cho chuỗi cung ứng của nó. Lý d
 một bên nhân mẫu số **8.689** còn bên kia nhân mẫu số **6.756**. **Bài 11** *(chưa viết)* sẽ gọi khoản
 này đúng tên của nó: **vốn lưu động** *(chốt bằng `assert`)*.
 
-### ⚠️ Và chương 23 không nhất quán với chính nó
+### Và chương 23 không nhất quán với chính nó
 
 | tỷ lệ | dùng số đầu kỳ? | sách in |
 | --- | --- | --- |
@@ -206,16 +216,18 @@ số **cả năm**, nên về nguyên tắc cả năm đều nên dùng trung b�
 Đo thử trên PPE: cuối kỳ **3,90 lần**, trung bình **3,87 lần** — chênh **0,8%**. Nhỏ ở đây vì PPE năm nay
 gần như đứng yên. **Không nhỏ** ở một doanh nghiệp vừa mua xong một nhà máy vào tháng 12.
 
-💼 Sách cảnh báo đúng chỗ về DSO: *"theo định nghĩa nó là **một con số bình quân được điều chỉnh**… Rất có
-thể có **một số hoá đơn với giá trị cao bất thường**, bị thanh toán chậm đang **làm méo xẹo** chỉ số DSO."*
-Cách kiểm: **đừng nhìn DSO, nhìn bảng phân tuổi công nợ.** Một tỷ lệ là một con số; một bảng phân tuổi là
-một **phân bố**.
+> [!example]
+> Sách cảnh báo đúng chỗ về DSO: *"theo định nghĩa nó là **một con số bình quân được điều chỉnh**… Rất có
+> thể có **một số hoá đơn với giá trị cao bất thường**, bị thanh toán chậm đang **làm méo xẹo** chỉ số DSO."*
+> Cách kiểm: **đừng nhìn DSO, nhìn bảng phân tuổi công nợ.** Một tỷ lệ là một con số; một bảng phân tuổi là
+> một **phân bố**.
 
-⚠️ **DPO cao không miễn phí:** *"DPO càng cao, tình trạng tiền mặt của doanh nghiệp càng tốt, **nhưng nhà
-cung cấp thì hết sức phiền lòng**. Một doanh nghiệp có tiếng là thanh toán chậm có thể thấy các nhà cung
-cấp hàng đầu **không nhiệt tình giành nhau** để có được mối làm ăn với mình. **Giá họ đưa ra có thể cao
-hơn**, các điều khoản của họ **có thể ngặt nghèo hơn**."* Tức là: kéo dài DPO là một khoản **vay**, trả lãi
-bằng **giá mua cao hơn**.
+> [!warning] DPO cao không miễn phí:
+> *"DPO càng cao, tình trạng tiền mặt của doanh nghiệp càng tốt, **nhưng nhà
+> cung cấp thì hết sức phiền lòng**. Một doanh nghiệp có tiếng là thanh toán chậm có thể thấy các nhà cung
+> cấp hàng đầu **không nhiệt tình giành nhau** để có được mối làm ăn với mình. **Giá họ đưa ra có thể cao
+> hơn**, các điều khoản của họ **có thể ngặt nghèo hơn**."* Tức là: kéo dài DPO là một khoản **vay**, trả lãi
+> bằng **giá mua cao hơn**.
 
 ---
 
@@ -225,10 +237,12 @@ $$\text{Tốc độ thay thế PPE} = \frac{\text{doanh thu}}{\text{PPE}} = \fra
 
 Sách dặn ngay một câu rào, rồi lật nó lại:
 
+> [!quote]
 > *"Bản thân con số **3,9 đô-la doanh thu cho mỗi đô-la PPE không nói lên gì nhiều**. Nhưng nó có thể mang
 > nhiều ý nghĩa **khi so sánh** với hiệu quả hoạt động trước đây, và với hiệu quả hoạt động của các đối thủ
 > cạnh tranh."* — ch. 23 · PDF tr. 166
 
+> [!quote]
 > *"Nhưng vui lòng lưu ý đến **điều kiện nho nhỏ, thầm lặng này**, 'các yếu tố khác không đổi'. Thực tế,
 > đây là **một tỷ lệ mà tại đó nghệ thuật tài chính có thể tác động mạnh** đến các con số. Chẳng hạn, nếu
 > doanh nghiệp **thuê** phần lớn thiết bị, thay vì sở hữu chúng, tài sản đi thuê này **có thể không xuất
@@ -247,6 +261,7 @@ Sách dặn ngay một câu rào, rồi lật nó lại:
 ⭐ Thuê đi đúng **một nửa** thiết bị thì tỷ lệ **gấp đôi** *(chốt bằng `assert`)*. Và sách hạ câu kết nặng
 nhất của cả chương:
 
+> [!quote]
 > *"**Một số doanh nghiệp trả thưởng theo tỷ lệ này**, điều này khiến các nhà quản lý **có động cơ thuê,
 > hơn là mua** thiết bị. Việc thuê như vậy có thể mang ý nghĩa chiến lược với doanh nghiệp, **hoặc không**.
 > **Điểm vô lý ở đây là việc ra quyết định dựa trên cơ sở thanh toán thưởng.**"* — ch. 23 · PDF tr. 167
@@ -263,6 +278,7 @@ chỉ bịt về **kế toán**, không bịt về **động cơ**.
 Điều này **không nằm trong chương 23**. Nó nằm trong **hộp công cụ cuối Phần V**, dưới một tiêu đề khiêm
 tốn là *"Mối quan hệ tỷ lệ"*, và sách còn rào trước:
 
+> [!quote]
 > *"Chúng tôi sẽ **không đi sâu vào chi tiết** ở đây, bởi cuốn sách này không nhắm tới các chuyên gia tài
 > chính. **Nhưng** giữa các tỷ lệ này có **một mối quan hệ rất đáng được nói rõ**."* — ch. 23 · PDF tr. 169–170
 
@@ -285,6 +301,7 @@ mọi năm, không điều kiện *(chốt bằng `assert`)*.
 
 Sách đọc đúng ra hai đường:
 
+> [!quote]
 > *"Có **hai cách để bật nhảy qua vòng**, với 'vòng' ở đây là ROA cao. **Một là** tăng tỷ lệ lợi nhuận
 > thuần, thông qua các hình thức hoặc là **tăng giá**, hoặc là **cung cấp hàng hoá hoặc dịch vụ hiệu quả
 > hơn**. Cách này **có thể sẽ khó thực hiện** nếu thị trường doanh nghiệp đang hoạt động có mức độ cạnh
@@ -311,6 +328,7 @@ Sách đọc đúng ra hai đường:
 
 Sách liệt kê đúng ba hành động cho đường ②, rồi dừng:
 
+> [!quote]
 > *"Cách này mở ra một loạt những hành động khả thi: **giảm tồn kho trung bình**, **giảm kỳ thu tiền bình
 > quân**, và **giảm mua đất đai, nhà xưởng và thiết bị**."* — ch. 23 · PDF tr. 170
 
@@ -326,7 +344,7 @@ Sách liệt kê đúng ba hành động cho đường ②, rồi dừng:
 ⭐ Hai đòn bẩy "không đau đớn" gộp **782 triệu — 74% quãng đường**. **277 triệu** còn lại phải lấy từ PPE
 (**12,4%** thiết bị) — và **đó** là đòn bẩy có hậu quả thật: ít thiết bị hơn thì ít năng lực hơn.
 
-### ⚠️ Nhưng dừng lại — tiền vẫn nằm trên bảng
+### Nhưng dừng lại — tiền vẫn nằm trên bảng
 
 Giảm tồn kho và thu tiền về **không làm tổng tài sản giảm**. Tồn kho giảm 436 → **tiền tăng 436**. Phải thu
 giảm 347 → **tiền tăng 347**. Cả hai đều là **tài sản ngắn hạn**.
@@ -379,7 +397,7 @@ Làm thật đi: dùng 782 triệu tiền đó **trả bớt nợ** *(so sánh t
 ⭐ ROA đi từ 4,78% lên **6,69%** — **vượt** mục tiêu 6% của [mục 6](#6-phân-rã-dupont) — và **cả hai số
 hạng DuPont cùng tăng**. Không bán thêm một món hàng nào *(chốt bằng `assert`)*.
 
-⚠️ **Ba điều bài học này *không* khẳng định:**
+> [!warning] Ba điều bài học này *không* khẳng định:
 
 - rằng tốc độ Wal-Mart là khả thi với mọi ngành — **nó không**;
 - rằng cắt DSO xuống 40 không làm mất khách — sách đã liệt kê bốn nguyên nhân DSO cao, trong đó có *"nhân
@@ -408,9 +426,10 @@ hạng DuPont cùng tăng**. Không bán thêm một món hàng nào *(chốt b�
 số hạng ②. Phân rã đã làm đúng việc của nó — nó **định vị** được chỗ thay đổi, thứ mà ROA trần không làm
 được.
 
-⚠️ **Chỗ sai nằm ở cái tên.** Số hạng ② được gọi là *"hiệu suất sử dụng tài sản"*, và ở đây tài sản **không**
-được dùng hiệu quả hơn — nó chỉ **đi chỗ khác**. Người đọc dừng lại ở đây sẽ kết luận *"hiệu suất tuyệt
-vời"*. Đó là **dừng sớm một bước**.
+> [!warning] Chỗ sai nằm ở cái tên.
+> Số hạng ② được gọi là *"hiệu suất sử dụng tài sản"*, và ở đây tài sản **không**
+> được dùng hiệu quả hơn — nó chỉ **đi chỗ khác**. Người đọc dừng lại ở đây sẽ kết luận *"hiệu suất tuyệt
+> vời"*. Đó là **dừng sớm một bước**.
 
 ⭐ **Câu hỏi tiếp theo mà DuPont buộc bạn phải hỏi:** tài sản thật sự **co lại**, hay chỉ **di chuyển**? Và
 **không một tỷ lệ nào trong Phần V trả lời được nó.** Chỉ có:
@@ -421,22 +440,25 @@ vời"*. Đó là **dừng sớm một bước**.
 
 Đó là **ranh giới của cả Phần V**, và sách đặt nó ngay ở câu kết chương 23:
 
+> [!quote]
 > *"Các tỷ lệ đưa bạn tới **tầng bậc tiếp theo**; chúng mở ra cho bạn cách thức hiểu **ý nghĩa hàm ẩn giữa
 > (hoặc có thể là bên dưới) các dòng**, nhờ đó bạn có thể thấy những gì đang thật sự diễn ra."*
 > — ch. 23 · PDF tr. 168
 
-💼 **Kiểm tra nhanh dùng được ngay:** nếu vòng quay tài sản của một doanh nghiệp tăng mạnh, hãy hỏi **tài
-sản nào giảm**. Nếu câu trả lời là *"chúng tôi đã chuyển sang mô hình nhẹ tài sản"* thì hỏi tiếp: chuyển
-**sang đâu**, và **ai đang sở hữu** chúng.
+> [!example] Kiểm tra nhanh dùng được ngay:
+> nếu vòng quay tài sản của một doanh nghiệp tăng mạnh, hãy hỏi **tài
+> sản nào giảm**. Nếu câu trả lời là *"chúng tôi đã chuyển sang mô hình nhẹ tài sản"* thì hỏi tiếp: chuyển
+> **sang đâu**, và **ai đang sở hữu** chúng.
 
 ---
 
-## 9. 📚 Hộp công cụ Phần V — tỷ lệ riêng và phần trăm doanh thu
+## 9. Hộp công cụ Phần V — tỷ lệ riêng và phần trăm doanh thu
 
 Hộp công cụ cho hai thứ mà chương 23 không cho.
 
 ### ① Tỷ lệ tự chế
 
+> [!quote]
 > *"Các doanh nghiệp thường muốn **tạo ra những tỷ lệ trọng yếu của riêng mình**, tuỳ theo hoàn cảnh và
 > tình hình cạnh tranh của bản thân."* — ch. 23 · PDF tr. 168
 
@@ -449,6 +471,7 @@ về 0.** Kiểm: 1.933 − 1.300 = 633, và EBIT = 652 — chênh đúng bằng
 
 ### ② Phần trăm doanh thu
 
+> [!quote]
 > *"Bạn sẽ thường nhìn thấy một dạng tỷ lệ được **lồng ghép ngay trong** báo cáo kết quả kinh doanh: mỗi
 > khoản mục sẽ được thể hiện không chỉ dưới dạng đồng, mà còn dưới dạng **phần trăm doanh thu**."*
 > — ch. 23 · PDF tr. 169
@@ -475,7 +498,7 @@ hơn những số liệu thô**."* Số thô thì một bên tính bằng triệ
 
 ---
 
-## 10. ⚠️ Chỗ sách in sai trong chương 23
+## 10. Chỗ sách in sai trong chương 23
 
 Chương 23 có **sáu ô công thức**. Hai trong số đó sai số, và cả hai đều ở chỗ dễ kiểm.
 
@@ -503,6 +526,7 @@ dưới. Khả năng cao là chép nhầm xuống. Và câu văn ngay sau ô cô
 
 **⑤ Lỗi đánh số phần, lộ ra ngay bên trong một chương.** Hai câu trỏ ngược trong chương 23:
 
+> [!quote]
 > *"(Chúng tôi sẽ nói thêm về vấn đề quản lý bảng cân đối kế toán trong **Phần VII**)."* — tr. 162
 > *"Chúng ta sẽ quay trở lại với DSO trong **Phần VII**, trong nội dung về quản lý vốn lưu động."* — tr. 165
 
@@ -525,7 +549,7 @@ nhất **không phải con số — là cái tên đặt cho con số**.
 
 ---
 
-## 11. 🇻🇳 Đối chiếu Việt Nam — hai đường đến ROA
+## 11. Đối chiếu Việt Nam — hai đường đến ROA
 
 Năm tỷ lệ hiệu suất của chương 23, hai doanh nghiệp:
 
@@ -537,7 +561,8 @@ Năm tỷ lệ hiệu suất của chương 23, hai doanh nghiệp:
 | Vòng quay tổng tài sản | **1,67 lần** | **0,92 lần** |
 | Tốc độ thay thế PPE | **3,90 lần** | **4,44 lần** |
 
-⚠️ Đọc **hai dòng cuối cùng nhau** thì thấy một điều nghịch lý:
+> [!warning]
+> Đọc **hai dòng cuối cùng nhau** thì thấy một điều nghịch lý:
 
 - tốc độ thay thế **PPE**: 3,90 → 4,44 — **Vinamilk cao hơn**;
 - vòng quay **tổng tài sản**: 1,67 → 0,92 — **Vinamilk thấp hơn hẳn**.
@@ -563,10 +588,11 @@ khỏi mẫu số ở **cả hai** công ty rồi tính lại:
 gần như bằng nhau**. Toàn bộ ấn tượng *"Vinamilk kém hiệu suất"* đến từ **một dòng trên bảng cân đối**,
 không từ hoạt động *(chốt bằng `assert`)*.
 
-⚠️ Điều này **không** có nghĩa đống tiền đó là lãng phí —
-[bài 8](bai_08_ty_le_loi_nhuan_don_bay_thanh_toan.md) mục 8 đã chỉ ra công ty mẫu chỉ trụ được **3,8 ngày**
-bằng tiền mặt. Hai doanh nghiệp đang ở hai thái cực, và cả hai đều **trả giá** cho vị trí của mình. Ý ở đây
-chỉ là: **vòng quay tổng tài sản gộp cả hai thứ vào một con số**, nên phải tách ra trước khi kết luận.
+> [!warning]
+> Điều này **không** có nghĩa đống tiền đó là lãng phí —
+> [bài 8](bai_08_ty_le_loi_nhuan_don_bay_thanh_toan.md) mục 8 đã chỉ ra công ty mẫu chỉ trụ được **3,8 ngày**
+> bằng tiền mặt. Hai doanh nghiệp đang ở hai thái cực, và cả hai đều **trả giá** cho vị trí của mình. Ý ở đây
+> chỉ là: **vòng quay tổng tài sản gộp cả hai thứ vào một con số**, nên phải tách ra trước khi kết luận.
 
 ### Phân rã DuPont cho cả hai
 
@@ -582,11 +608,12 @@ Vinamilk hơn công ty mẫu **3,19 lần** về ROA — nhưng **không phải 
 lần** ở biên lợi nhuận, và **thua 45%** ở vòng quay. **Toàn bộ lợi thế nằm ở một số hạng, và số hạng kia
 kéo ngược lại.**
 
-💼 Đó là cách dùng DuPont trong đời thật: **không phải để tính ROA** — tính thẳng còn nhanh hơn — mà để trả
-lời *"chúng ta hơn/kém họ ở chỗ nào"*. Một con số ROA nói **ai thắng**. Hai số hạng nói **vì sao**, và đó
-mới là thứ **hành động được**.
+> [!example]
+> Đó là cách dùng DuPont trong đời thật: **không phải để tính ROA** — tính thẳng còn nhanh hơn — mà để trả
+> lời *"chúng ta hơn/kém họ ở chỗ nào"*. Một con số ROA nói **ai thắng**. Hai số hạng nói **vì sao**, và đó
+> mới là thứ **hành động được**.
 
-📚 **Ba lưu ý khi tính các tỷ lệ này trên báo cáo Việt Nam:**
+> [!note] Ba lưu ý khi tính các tỷ lệ này trên báo cáo Việt Nam:
 
 - **"Đầu tư tài chính ngắn hạn" là dòng phải nhìn kỹ nhất.** Ở Vinamilk nó là tiền gửi có kỳ hạn, nhưng ở
   doanh nghiệp khác nó có thể là cổ phiếu, trái phiếu, hoặc cho vay bên liên quan. Vòng quay tổng tài sản
@@ -798,13 +825,13 @@ chạy lại. Không có lời giải.
   - Ch. 22 *Các hệ số thanh toán*, PDF tr. 159–161 — hai hệ số thanh toán, nhắc ở
     [mục 7](#7-ba-đòn-bẩy-của-sách-đo-bằng-số)
   - **PHẦN VI *Ứng dụng trí tuệ tài chính vào thực tế quản lý vốn lưu động***, trang tiêu đề PDF tr. 192 —
-    dùng để đối chiếu lỗi tham chiếu ⑤ ở [mục 10](#10--chỗ-sách-in-sai-trong-chương-23)
+    dùng để đối chiếu lỗi tham chiếu ⑤ ở [mục 10](#10-chỗ-sách-in-sai-trong-chương-23)
   - Phụ lục, PDF tr. 223–227 — công ty mẫu, dùng ở mọi mục
 - **Công ty Cổ phần Sữa Việt Nam (HOSE: VNM)** — Báo cáo tài chính hợp nhất đã kiểm toán 2024 theo
   IFRS, trong *Báo cáo thường niên Vinamilk 2024*, tr. 180–185.
   [Nguồn gốc](https://www.vinamilk.com.vn/bao-cao-thuong-nien/bao-cao/2024/doc/vi/bctc-ifrs.pdf),
-  truy xuất 08/09/2026. Dùng ở [mục 9](#9--hộp-công-cụ-phần-v--tỷ-lệ-riêng-và-phần-trăm-doanh-thu) và
-  [mục 11](#11--đối-chiếu-việt-nam--hai-đường-đến-roa).
+  truy xuất 08/09/2026. Dùng ở [mục 9](#9-hộp-công-cụ-phần-v--tỷ-lệ-riêng-và-phần-trăm-doanh-thu) và
+  [mục 11](#11-đối-chiếu-việt-nam--hai-đường-đến-roa).
 - **Đã kiểm chứng bằng code** — [`thuc_hanh/bai-09-ty-le-hieu-suat-va-dupont.py`](../thuc_hanh/bai-09-ty-le-hieu-suat-va-dupont.py):
   - tốc độ luân chuyển tồn kho tính bằng $360/\text{DII}$ **bằng đúng** COGS/tồn kho — chốt bằng `assert`;
   - đổi 360 → 365 làm **mọi** tỷ lệ ngày nở ra **đúng** hệ số $365/360$ — chốt bằng `assert`;

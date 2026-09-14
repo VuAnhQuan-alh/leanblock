@@ -1,5 +1,6 @@
 # Bài 20 — Chu kỳ đòn bẩy: thứ cả khoá học này bỏ sót
 
+> [!info] Về bài này
 > 🏛 **PHẦN F — TỪ MỘT KHOÁ KHÁC.** Bài này **không đến từ video của Andrew Lo**.
 > Nó dựng trên **Yale ECON 251 *Financial Theory*** (Open Yale Courses, Thu 2009),
 > giảng viên **John Geanakoplos** — giáo sư kinh tế ghế James Tobin, đồng thời là một
@@ -7,12 +8,12 @@
 > Ba bài giảng: **1** (`vTs2IQ8OefQ`, chương 2–3), **25** (`lb5Q1Jur0I0`), **26** (`yenfxh_arkg`).
 > Nguồn lý thuyết: Geanakoplos (2003), *"Liquidity, Default and Crashes"*; Geanakoplos (2010),
 > *"The Leverage Cycle"*, NBER Macroeconomics Annual.
-> 📌 **Cần đọc trước:** [Bài 3 §2](bai_03_don_bay_va_lam_phat.md#2-đòn-bẩy--con-số-mà-bảng-cân-đối-không-hét-lên) (đòn bẩy),
+>
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
+>
+> **Cần đọc trước:** [Bài 3 §2](bai_03_don_bay_va_lam_phat.md#2-đòn-bẩy--con-số-mà-bảng-cân-đối-không-hét-lên) (đòn bẩy),
 > [Bài 5 §14](bai_05_duration_va_chung_khoan_hoa.md#14-cỗ-máy-biến-hai-trái-phiếu-rác-thành-một-aaa) (chứng khoán hoá),
 > [Bài 11](bai_11_capm_va_beta.md) (CAPM), [Bài 13](bai_13_thi_truong_hieu_qua.md) (thị trường hiệu quả).
-> ⚠️ **Bài giảng ghi Thu 2009 — sau khoá của Lo một năm**, tức là ghi **sau** khủng hoảng
-> chứ không phải trước. Mốc thời gian ghi dạng `L25 44:02` = bài giảng 25, phút 44:02.
-> Số liệu Việt Nam tới phiên **4/9/2026**.
 
 ---
 
@@ -46,6 +47,7 @@
 
 Geanakoplos mở đầu khoá của mình bằng một câu mà không giảng viên tài chính nào hay nói:
 
+> [!quote] L1 10:29
 > *"Có hai thứ thiếu trong Lý thuyết chuẩn. Một là nó ngầm giả định bạn mua được bảo hiểm cho
 > mọi thứ — cái đó gọi là thị trường đầy đủ. Và thứ hai, nó bỏ hoàn toàn tài sản thế chấp ra
 > ngoài, nên bạn gần như sẽ không thấy khái niệm thế chấp hay đòn bẩy trong bất kỳ sách giáo
@@ -55,6 +57,7 @@ Geanakoplos mở đầu khoá của mình bằng một câu mà không giảng v
 Peabody, rồi đồng sáng lập quỹ Ellington — và đã sống qua ba cuộc khủng hoảng thế chấp
 (`L1 30:37`). Ông cũng nói rõ ông **không** cho rằng lý thuyết chuẩn sai:
 
+> [!quote] L1 23:31
 > *"Không có nghĩa là lý thuyết tài chính chuẩn sai. Sau cùng thì tôi giúp điều hành một quỹ
 > đầu cơ. Sáu người chúng tôi lập ra nó và chúng tôi đã làm ăn mười lăm năm. Chúng tôi hẳn
 > phải tin vào lý thuyết tài chính chuẩn vì đó là cách chúng tôi kiếm được phần lớn tiền."*
@@ -79,6 +82,7 @@ Geanakoplos đọc điều đó ra từ *Người lái buôn thành Venice*: hai
 Và bản án cuối cùng của toà không phải giảm lãi hay xoá nợ — nó là **đổi vật thế chấp**: được
 lấy một pound thịt, nhưng không được một giọt máu (`L25 32:24`).
 
+> [!quote] L25 32:54
 > *"Nên đó là trách nhiệm của hệ thống tư pháp và cơ quan quản lý: giám sát không phải lãi
 > suất, không phải quy mô khoản vay, mà là **tài sản thế chấp** đứng sau nó."* (`L25 32:54`)
 
@@ -131,6 +135,7 @@ cũng đủ sức mua hết tài sản, người mua biên bị đẩy từ 0,60
 
 ![Người mua biên](../hinh/bai20-nguoi-mua-bien.svg)
 
+> [!quote] L25 40:58
 > Fisher và CAPM đều nói giá bằng **giá trị cơ bản** của dòng tiền. Ở đây dòng tiền không
 > đổi mà giá đổi 10,6%. Nên hoặc công thức thiếu một biến, hoặc **không có cái gọi là "giá trị
 > cơ bản" độc lập với việc ai đang cầm tiền.** Geanakoplos chọn vế thứ hai: *"Thật ra không có
@@ -150,6 +155,7 @@ hữu căn nhà. Chi bằng bỏ nó đi."* (`L26 19:00`)
 
 Đây là lý do Geanakoplos cho rằng cả ngành đã bỏ qua đòn bẩy suốt bảy mươi năm:
 
+> [!quote] L25 35:54
 > *"Có vẻ hơi sốc, vì làm sao một phương trình xác định được hai biến? Nên tôi nghĩ chính vì
 > lý do đó mà các nhà kinh tế, về cơ bản, suốt bao nhiêu năm nay đã lờ đòn bẩy đi."* (`L25 35:54`)
 
@@ -195,13 +201,15 @@ là trả đắt. Người cho vay thì ngược lại: phần nhận thêm rơi
 **không** xảy ra. Với anh ta đó là mua đắt. Cả hai bên đều thấy hợp đồng lớn hơn tệ hơn, nên
 nó không được giao dịch.
 
+> [!quote] L26 33:39
 > **Kết luận:** thị trường tự chọn ra đúng một mức đòn bẩy — **mức hứa lớn nhất mà không bao
 > giờ vỡ nợ.** Đó là lý do thị trường repo gần như không có vỡ nợ, kể cả giữa khủng hoảng
 > (`L26 33:39`).
 
-⚠️ Kết luận này gắn với **loại** khác biệt giữa người mua. Ở đây người ta khác nhau vì niềm
-tin. Geanakoplos nói rõ với thị trường thế chấp nhà thì khác — người ta còn khác nhau ở chỗ
-*có muốn ở trong căn nhà đó không* — và ở đó vỡ nợ **có** xảy ra (`L26 33:44`).
+> [!warning]
+> Kết luận này gắn với **loại** khác biệt giữa người mua. Ở đây người ta khác nhau vì niềm
+> tin. Geanakoplos nói rõ với thị trường thế chấp nhà thì khác — người ta còn khác nhau ở chỗ
+> *có muốn ở trong căn nhà đó không* — và ở đó vỡ nợ **có** xảy ra (`L26 33:44`).
 
 ---
 
@@ -221,6 +229,7 @@ còn người kia nghĩ 20% — giờ họ bất đồng thật sự (`L26 40:16
 
 Giá sụt **0,2533** trên một đơn vị, tức **−26,8%**. Đòn bẩy sụt từ 3,74 xuống 1,41.
 
+> [!note]
 > 📌 Bốn con số này khớp gần như chính xác với những gì Geanakoplos viết trên bảng: 0,87 ·
 > 0,95 · 0,69 · và dải người lạc quan thận trọng 0,74–0,87 (§8). Bộ giải trong `thuc_hanh/`
 > là **của tôi**, viết độc lập từ mô tả trong bài giảng, không lấy con số nào từ đó.
@@ -241,6 +250,7 @@ Hỏi từng người trong nền kinh tế xem **họ** cho rằng giá đáng 
 Người cho là sụt **nhiều nhất** là người $h = 0{,}50$, và ngay cả anh ta cũng chỉ nghĩ giá đáng
 lẽ sụt **0,2000**. Thị trường sụt **0,2533** — gấp **1,27 lần**.
 
+> [!quote]
 > **Không một ai trong nền kinh tế cho rằng cú sụp đó là hợp lý với tin tức. Và tất cả đều
 > hoàn toàn duy lý.** Không cần một chút tâm lý học nào, không cần "hưng phấn phi lý". Đó là
 > điểm của mô hình.
@@ -273,6 +283,7 @@ lại giá:
 
 Đổi thứ tự thì con số gần như không đổi, nên kết luận vững:
 
+> [!note]
 > **Đòn bẩy sụp là lực lớn nhất — gấp 4,5 lần tin xấu.** Tin tức, thứ duy nhất mà mô hình
 > định giá cơ bản chịu nhìn, chỉ giải thích **15%** cú sụp. Hai phần còn lại đến từ chính
 > **cơ chế tài trợ**.
@@ -305,6 +316,7 @@ Hàng $h = 0{,}87$ cho thấy hai cột bằng nhau đúng đến chữ số th�
 cân bằng tự xác nhận:** người mua biên là người không phân biệt được giữa *mua ngay* và
 *đợi cú sụp* — chứ không phải giữa *mua* và *giữ tiền*.
 
+> [!quote]
 > ⚠️ Tôi đã đặt sai điều kiện này ở bản đầu (dùng "mua so với giữ tiền") và nghiệm lệch hẳn:
 > người mua biên ra 0,863 thay vì 0,870, dải lạc quan thận trọng ra [0,77 – 0,86] thay vì
 > [0,74 – 0,87]. Chính việc đối chiếu ngược với con số trên bảng của Geanakoplos đã lộ ra lỗi.
@@ -313,6 +325,7 @@ Người rất lạc quan ($h$ gần 1) **không tin cú sụp sẽ xảy ra**, 
 Người ở giữa — Geanakoplos gọi là nhóm "Warren Buffett" — vừa đủ lạc quan để tin thị trường sẽ
 hồi phục, vừa đủ tỉnh táo để tin cú sụp sẽ đến. Họ đợi.
 
+> [!quote] L26 50:25
 > Chính họ làm cú sụp **bớt** sâu, vì họ là người mua ở đáy. Nhưng họ không ngăn được cú
 > sụp, đơn giản vì **không đủ đông** (`L26 50:25`).
 
@@ -323,6 +336,7 @@ hồi phục, vừa đủ tỉnh táo để tin cú sụp sẽ đến. Họ đ�
 Fisher nói lãi suất do **sự thiếu kiên nhẫn** quyết định. Geanakoplos nói đòn bẩy do **biến
 động** quyết định:
 
+> [!quote] L25 36:56
 > *"Nếu bạn nghĩ giá nhà đang lên xuống và có thể rơi xuống dưới 80 thì bạn sẽ không thấy an
 > toàn. Nếu bạn nghĩ giá nhà chắc như đá ở mức 100 thì bạn sẽ thấy rất an toàn, và bạn còn cho
 > vay hơn 80."* (`L25 36:56`)
@@ -340,9 +354,10 @@ Fisher nói lãi suất do **sự thiếu kiên nhẫn** quyết định. Geanak
 người mua biên tụt xuống → giá giảm → ai đã vay thì lỗ → biến động tăng thêm. Mọi mũi tên đều
 đi cùng một chiều.
 
-⚠️ **Nhưng chú ý chiều ngược lại của bảng trên.** Biến động **thấp** kéo đòn bẩy **lên** và giá
-**lên**. Đó là lý do Geanakoplos nói giai đoạn yên ả kéo dài trước 2007 chính là thứ đã nạp đạn
-cho cú nổ (`L25 57:38`).
+> [!warning] Nhưng chú ý chiều ngược lại của bảng trên.
+> Biến động **thấp** kéo đòn bẩy **lên** và giá
+> **lên**. Đó là lý do Geanakoplos nói giai đoạn yên ả kéo dài trước 2007 chính là thứ đã nạp đạn
+> cho cú nổ (`L25 57:38`).
 
 ---
 
@@ -386,6 +401,7 @@ hơn** — từ 3% lên 25%. Người vay không đủ tiền nên **không tái
 sụp từ **70% xuống khoảng 10%** (`L25 26:00`), khiến người cho vay gốc mất luôn phần tiền lẽ ra
 thu về sớm — và khoản lỗ tối đa nhảy từ 30% lên 90%.
 
+> [!quote] L25 59:06
 > Chú ý cơ chế: **không phải lãi suất thay đổi.** *"Không phải vì lãi suất đột nhiên quá cao
 > với họ. Cái đó không đổi chút nào. Là người cho vay đột nhiên đòi khoản đặt cọc lớn hơn
 > nhiều."* (`L25 59:06`)
@@ -420,8 +436,9 @@ Cả ba lần biến động đều tăng. Đó là điều kiện đầu tiên 
 làm giá giảm, nó làm người ta **không biết** giá sẽ đi đến đâu — và đó mới là thứ làm người cho
 vay siết lại.
 
-⚠️ **Đây là sự phù hợp, không phải bằng chứng nhân quả.** Biến động tăng trong mọi cú sụp, kể
-cả cú sụp không dính gì đến đòn bẩy.
+> [!warning] Đây là sự phù hợp, không phải bằng chứng nhân quả.
+> Biến động tăng trong mọi cú sụp, kể
+> cả cú sụp không dính gì đến đòn bẩy.
 
 ---
 
@@ -470,6 +487,7 @@ trợ chung** chứ không từ rủi ro hệ thống của từng mã, nên kh�
 với beta. Nhưng nó cũng **không ủng hộ** chu kỳ đòn bẩy — nó chỉ loại bỏ một cách giải thích
 khác.
 
+> [!note]
 > ⚠️ **Giới hạn lớn nhất của cả bài:** không có số liệu **dư nợ ký quỹ** theo thời gian cho
 > Việt Nam. Mọi thứ đo được ở §11–12 đều **nhất quán** với chu kỳ đòn bẩy nhưng không chứng
 > minh được nó. Chính Geanakoplos nói điều cần làm đầu tiên không phải lý thuyết mà là
@@ -493,6 +511,7 @@ Chỗ đối đầu gọn nhất là với Shiller. Cả hai đều nhìn cùng 
 90%. Shiller nói **hưng phấn phi lý**. Geanakoplos nói **đòn bẩy đi từ 7 lên 30**, và trong
 đúng khoảng thời gian đó (`L25 46:05`, `L25 49:24`). Ông không bác Shiller hẳn:
 
+> [!quote] L26 64:45
 > *"Tôi nghĩ Shiller đúng một phần… Quỹ của chính tôi mất tiền. Chúng tôi không lường được nó
 > tệ đến mức nào. Nên tôi sẽ không bám 100% vào câu chuyện của mình."* (`L26 64:45`)
 
@@ -517,6 +536,7 @@ Còn dài hạn: **đừng bao giờ để đòn bẩy lên cao đến thế**.
 
 ### Nhưng việc đầu tiên không phải quy định — mà là đo
 
+> [!quote] L25 55:47
 > *"Với tôi điều quan trọng nhất, bước đầu tiên Fed nên làm là theo dõi mức đòn bẩy đang được
 > cho phép, mức ký quỹ đang bị đòi trên mọi loại chứng khoán, nhà ở và chứng khoán."* (`L25 55:47`)
 
@@ -528,6 +548,7 @@ của **quỹ riêng ông**, vì Ellington dường như là công ty duy nhất
 
 Khi sinh viên hỏi "vậy mức đòn bẩy đúng là bao nhiêu", ông trả lời rất thẳng:
 
+> [!quote] L26 57:17
 > *"Nói chính xác nên siết bao nhiêu? Họ sẽ nói 'tôi không biết chính xác, nhưng chúng ta hẳn
 > đã buộc ngân hàng không cho vay với 3% tiền mặt.' Nên là 10%, 15%, hay 8%? Hơi khó nói con số
 > đúng là gì, nhưng ta sẽ chọn một con số cao hơn 3% và tránh được một vấn đề khổng lồ."*
@@ -544,16 +565,18 @@ nhất là ngay sau 11/9 khi Fed gọi điện cho tất cả và nói *"các an
 và không ai đổi (`L26 69:47`). Ở Việt Nam, ký quỹ chứng khoán có **trần pháp lý cố định** do Uỷ
 ban Chứng khoán Nhà nước đặt.
 
-⚠️ **Chưa xác minh được:** tôi không kiểm chứng được con số trần hiện hành từ nguồn gốc, nên
-không ghi con số ở đây. Điều nói được chắc là **cơ chế** khác nhau: Mỹ để thị trường tự đặt ký
-quỹ theo ngày, Việt Nam đặt trần hành chính. Theo lập luận của Geanakoplos, cơ chế thứ hai
-chính là thứ ông đòi hỏi — nhưng nó chỉ chặn được **đỉnh** đòn bẩy, không chặn được việc công
-ty chứng khoán **siết nhanh** khi thị trường xấu, mà đó mới là lực gây cú sụp.
+> [!warning] Chưa xác minh được:
+> tôi không kiểm chứng được con số trần hiện hành từ nguồn gốc, nên
+> không ghi con số ở đây. Điều nói được chắc là **cơ chế** khác nhau: Mỹ để thị trường tự đặt ký
+> quỹ theo ngày, Việt Nam đặt trần hành chính. Theo lập luận của Geanakoplos, cơ chế thứ hai
+> chính là thứ ông đòi hỏi — nhưng nó chỉ chặn được **đỉnh** đòn bẩy, không chặn được việc công
+> ty chứng khoán **siết nhanh** khi thị trường xấu, mà đó mới là lực gây cú sụp.
 
 ---
 
 ## 15. Code minh hoạ
 
+> [!note]
 > ⚙️ **Chạy:** cần **Python 3.10+**. Không cần cài gói nào. Kết quả **tất định**.
 
 |            |                                                                               |
@@ -1117,7 +1140,7 @@ TOM TAT
 **Dữ liệu Việt Nam:** giá đóng cửa theo **ngày** của VN-Index (2.877 phiên, 5/1/2015 → 4/9/2026)
 và 28 cổ phiếu, nguồn **DNSE/Entrade** `chart-api/v2`. Cùng 28 mã đã dùng ở bài 18 và 19.
 
-⚠️ **Chưa xác minh được, ghi rõ ở đây:**
+> [!warning] Chưa xác minh được, ghi rõ ở đây:
 
 - **Ba đợt sụt được tôi tự chọn** bằng cách tìm mức giảm từ đỉnh vượt 20% trong dữ liệu, rồi
   đặt tên theo bối cảnh. Tên gọi ("siết tín dụng", "sụt sâu") là mô tả của tôi, không phải

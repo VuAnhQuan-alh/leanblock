@@ -1,16 +1,18 @@
 # Bài 12 — Thị trường lao động, tiền lương và bất bình đẳng
 
+> [!info] Về bài này
 > Bài học dựng từ **ba chương** của *N. Gregory Mankiw — **Kinh tế học vi mô***,
 > bản dịch của Khoa Kinh tế, **ĐH Kinh tế TP.HCM** (Cengage Learning Asia):
 > **Chương 18 — Thị trường các yếu tố sản xuất** (tr. 421–443),
 > **Chương 19 — Tiền lương và phân biệt đối xử** (tr. 444–465),
 > **Chương 20 — Bất bình đẳng thu nhập và nghèo** (tr. 466–494).
-> 🔸 **Vòng 2 — đọc hiểu.** Ba chương này là **một mạch duy nhất**: chương 18 hỏi *lương từ đâu ra*,
+>
+> **Vòng 2 — đọc hiểu.** Ba chương này là **một mạch duy nhất**: chương 18 hỏi *lương từ đâu ra*,
 > chương 19 hỏi *vì sao lương chênh nhau*, chương 20 hỏi *chênh lệch đó dồn lại thành gì*.
-> 💼 **Góc QTKD** — ví dụ thêm cho ngành quản trị kinh doanh, **không có trong sách**.
-> 📚 **Mở rộng** — thứ sách mô tả bằng lời hoặc in bảng mà không tính.
-> ⚠️ — chỗ dễ hiểu sai, hoặc chỗ sách in sai. **Bài này tìm được một lỗi in ở tr. 448.**
-> 📌 **Cần đọc trước:** [Bài 6](bai_06_thi_truong_canh_tranh.md) (`P = MC`, dùng ở mục 3) và
+>
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
+>
+> **Cần đọc trước:** [Bài 6](bai_06_thi_truong_canh_tranh.md) (`P = MC`, dùng ở mục 3) và
 > [Bài 10](bai_10_lua_chon_cua_nguoi_tieu_dung.md) (đánh đổi việc làm – nhàn rỗi, dùng ở mục 4).
 
 ---
@@ -21,26 +23,26 @@
 
 - [1. Ba chương, một mạch](#1-ba-chương-một-mạch)
 - [2. Giá trị sản lượng biên quyết định tuyển bao nhiêu](#2-giá-trị-sản-lượng-biên-quyết-định-tuyển-bao-nhiêu)
-- [3. 📚 Hai mặt của đồng xu — cầu đầu vào và cung đầu ra là một](#3--hai-mặt-của-đồng-xu--cầu-đầu-vào-và-cung-đầu-ra-là-một)
+- [3. Hai mặt của đồng xu — cầu đầu vào và cung đầu ra là một](#3-hai-mặt-của-đồng-xu--cầu-đầu-vào-và-cung-đầu-ra-là-một)
 - [4. Cung lao động, cân bằng, và ba cú sốc](#4-cung-lao-động-cân-bằng-và-ba-cú-sốc)
 - [5. Năng suất quyết định tiền lương — bằng chứng lịch sử](#5-năng-suất-quyết-định-tiền-lương--bằng-chứng-lịch-sử)
 - [6. Đất và vốn — cùng một quy tắc, không có ngoại lệ](#6-đất-và-vốn--cùng-một-quy-tắc-không-có-ngoại-lệ)
 - [7. Chênh lệch lương bù đắp](#7-chênh-lệch-lương-bù-đắp)
 - [8. Vốn con người và giá trị tăng thêm của kỹ năng](#8-vốn-con-người-và-giá-trị-tăng-thêm-của-kỹ-năng)
-- [9. ⚠️ Một chỗ sách in sai — tr. 448](#9--một-chỗ-sách-in-sai--tr-448)
+- [9. Một chỗ sách in sai — tr. 448](#9-một-chỗ-sách-in-sai--tr-448)
 - [10. Khả năng, nỗ lực, cơ hội, và hiện tượng siêu sao](#10-khả-năng-nỗ-lực-cơ-hội-và-hiện-tượng-siêu-sao)
 - [11. Mức lương trên mức cân bằng — ba lý do](#11-mức-lương-trên-mức-cân-bằng--ba-lý-do)
 - [12. Đo phân biệt đối xử — vì sao khoảng cách lương không chứng minh được gì](#12-đo-phân-biệt-đối-xử--vì-sao-khoảng-cách-lương-không-chứng-minh-được-gì)
-- [13. 📚 Động cơ lợi nhuận ăn mòn phân biệt đối xử — dựng bằng số](#13--động-cơ-lợi-nhuận-ăn-mòn-phân-biệt-đối-xử--dựng-bằng-số)
+- [13. Động cơ lợi nhuận ăn mòn phân biệt đối xử — dựng bằng số](#13-động-cơ-lợi-nhuận-ăn-mòn-phân-biệt-đối-xử--dựng-bằng-số)
 - [14. Khi thị trường không tự chữa được](#14-khi-thị-trường-không-tự-chữa-được)
 - [15. Đo bất bình đẳng — bảng ngũ phân vị](#15-đo-bất-bình-đẳng--bảng-ngũ-phân-vị)
-- [16. 📚 Hệ số Gini — nén một bảng thành một con số](#16--hệ-số-gini--nén-một-bảng-thành-một-con-số)
+- [16. Hệ số Gini — nén một bảng thành một con số](#16-hệ-số-gini--nén-một-bảng-thành-một-con-số)
 - [17. Tỷ lệ nghèo và ai là người nghèo](#17-tỷ-lệ-nghèo-và-ai-là-người-nghèo)
 - [18. Ba lý do dữ liệu thu nhập vẽ sai bức tranh](#18-ba-lý-do-dữ-liệu-thu-nhập-vẽ-sai-bức-tranh)
 - [19. Ba triết lý tái phân phối](#19-ba-triết-lý-tái-phân-phối)
-- [20. 📚 Thùng nước rò rỉ — chủ nghĩa thoả dụng dừng lại ở đâu](#20--thùng-nước-rò-rỉ--chủ-nghĩa-thoả-dụng-dừng-lại-ở-đâu)
+- [20. Thùng nước rò rỉ — chủ nghĩa thoả dụng dừng lại ở đâu](#20-thùng-nước-rò-rỉ--chủ-nghĩa-thoả-dụng-dừng-lại-ở-đâu)
 - [21. Chính sách giảm nghèo và bẫy thuế suất biên 100%](#21-chính-sách-giảm-nghèo-và-bẫy-thuế-suất-biên-100)
-- [22. 💼 Trả lương cao hơn thị trường có lời không](#22--trả-lương-cao-hơn-thị-trường-có-lời-không)
+- [22. Trả lương cao hơn thị trường có lời không](#22-trả-lương-cao-hơn-thị-trường-có-lời-không)
 - [23. Code minh hoạ](#23-code-minh-hoạ)
 - [24. Tự thử](#24-tự-thử)
 - [25. Từ điển thuật ngữ](#25-từ-điển-thuật-ngữ)
@@ -64,19 +66,22 @@ Bài này gộp ba chương vì chúng là ba đoạn của **một câu hỏi d
 
 Chương 18 mở bằng một câu đặt đúng vị trí của cả phần (tr. 421):
 
+> [!quote]
 > *"Trong các quốc gia phát triển, hầu hết mọi người kiếm sống bằng cách làm việc để nhận lương…
 > Nói cách khác, thu nhập của một quốc gia được phân chia giữa những người dân của quốc gia đó theo
 > **những phương thức mà đầu ra được sản xuất**."*
 
 Và định nghĩa cái mà cả ba chương xoay quanh (tr. 422):
 
+> [!note]
 > **Các yếu tố sản xuất** *(factors of production)*: những đầu vào được sử dụng để sản xuất ra hàng
 > hoá và dịch vụ. Lao động, đất và vốn là ba yếu tố quan trọng nhất.
 
-⚠️ **Điểm khó nhất của chương 18, và nên nắm ngay từ đầu:** cầu về lao động là một **cầu dẫn xuất**
-*(derived demand)*. Doanh nghiệp không muốn công nhân — họ muốn táo. Cầu về công nhân hái táo hoàn
-toàn **bắt nguồn** từ cầu về táo. Sách viết ở tr. 423: *"Cầu của một doanh nghiệp đối với các yếu tố
-sản xuất bắt nguồn từ quyết định cung ứng hàng hoá của doanh nghiệp đó ra thị trường."*
+> [!warning] Điểm khó nhất của chương 18, và nên nắm ngay từ đầu:
+> cầu về lao động là một **cầu dẫn xuất**
+> *(derived demand)*. Doanh nghiệp không muốn công nhân — họ muốn táo. Cầu về công nhân hái táo hoàn
+> toàn **bắt nguồn** từ cầu về táo. Sách viết ở tr. 423: *"Cầu của một doanh nghiệp đối với các yếu tố
+> sản xuất bắt nguồn từ quyết định cung ứng hàng hoá của doanh nghiệp đó ra thị trường."*
 
 ![Hình 1 — tr. 423, bản chụp giáo trình](../tai_lieu/hinh/ch18-hinh-01-tr423.png)
 
@@ -93,6 +98,7 @@ công nhân hái táo (tr. 423).
 
 Ba định nghĩa nối tiếp nhau (tr. 425–426):
 
+> [!note]
 > **Hàm sản xuất** *(production function)*: mối quan hệ giữa lượng đầu vào và lượng đầu ra.
 > **Sản lượng biên của lao động** *(marginal product of labor)*: sự gia tăng trong tổng sản lượng
 > khi tăng thêm một đơn vị lao động.
@@ -120,6 +126,7 @@ luận ở tr. 426.
 
 **Tuyển 3 người** — đúng như sách kết luận. Quy tắc, in nghiêng ở tr. 426:
 
+> [!quote]
 > *"một doanh nghiệp cạnh tranh, tối đa hoá lợi nhuận sẽ tuyển dụng lao động tại điểm **giá trị sản
 > lượng biên của lao động bằng với mức lương**."*
 
@@ -129,7 +136,7 @@ biên CHÍNH LÀ đường cầu lao động.**
 
 ---
 
-## 3. 📚 Hai mặt của đồng xu — cầu đầu vào và cung đầu ra là một
+## 3. Hai mặt của đồng xu — cầu đầu vào và cung đầu ra là một
 
 Hộp *"Bạn có biết"* ở tr. 428 làm một việc mà rất ít giáo trình làm: chứng minh rằng quyết định
 **thuê bao nhiêu người** và quyết định **sản xuất bao nhiêu** không phải hai bài toán, mà là **một bài
@@ -152,14 +159,16 @@ Kiểm bằng chính hàm sản xuất ở mục 2:
 | **4** |   40 | 400 **<** 500   |      12,50 | 12,50 **>** 10 |
 |     5 |   20 | 200 **<** 500   |      25,00 | 25,00 **>** 10 |
 
-⚠️ Hai cột "so sánh" **đổi dấu ở cùng một chỗ** — cả hai đều lật giữa L = 3 và L = 4. Không dòng nào
-cho dấu bằng chằn vì lưới chỉ đi từng người một. Giải liên tục thì thấy hai cách cho **đúng một nghiệm**:
+> [!warning]
+> Hai cột "so sánh" **đổi dấu ở cùng một chỗ** — cả hai đều lật giữa L = 3 và L = 4. Không dòng nào
+> cho dấu bằng chằn vì lưới chỉ đi từng người một. Giải liên tục thì thấy hai cách cho **đúng một nghiệm**:
 
 $$\underbrace{10(120-20L) = 500}_{VMPL\,=\,W} \Rightarrow L = 3{,}5 \qquad
 \underbrace{MPL = \tfrac{500}{10} = 50 \Rightarrow 120-20L = 50}_{P\,=\,MC} \Rightarrow L = 3{,}5$$
 
 Sách viết (tr. 428):
 
+> [!quote]
 > *"khi một doanh nghiệp cạnh tranh tuyển dụng lao động đến mức mà tại đó giá trị sản lượng biên bằng
 > với mức lương, nó cũng sẽ sản xuất đến một mức sản lượng mà tại đó giá bán đầu ra bằng với chi phí biên."*
 
@@ -175,6 +184,7 @@ Chương 18 nói ngắn về cung lao động vì nó đã được dựng đầ
 [bài 10, mục 14](bai_10_lua_chon_cua_nguoi_tieu_dung.md#14-lương-tăng-thì-làm-việc-nhiều-hơn-hay-ít-hơn).
 Điểm cốt lõi, tr. 429–430:
 
+> [!quote]
 > *"Sự đánh đổi giữa lao động và nhàn rỗi là cơ sở của đường cung lao động… **Vì vậy, đường cung lao
 > động phản ánh cách mà những người lao động thay đổi lượng thời gian nhàn rỗi để phản ứng với sự thay
 > đổi trong chi phí cơ hội.**"*
@@ -184,6 +194,7 @@ Chương 18 nói ngắn về cung lao động vì nó đã được dựng đầ
 
 ![Hình 4 — tr. 431, bản chụp giáo trình](../tai_lieu/hinh/ch18-hinh-04-tr431.png)
 
+> [!quote]
 > - Mức lương thay đổi để cân bằng giữa cung và cầu lao động.
 > - Mức lương bằng với giá trị sản lượng biên của lao động.
 >
@@ -193,6 +204,7 @@ Chương 18 nói ngắn về cung lao động vì nó đã được dựng đầ
 Lý do đơn giản: đường cầu lao động **là** đường giá trị sản lượng biên. Nên chỗ cung gặp cầu tất nhiên
 cũng là chỗ lương bằng giá trị sản lượng biên. Từ đó ra bài học in nghiêng ở tr. 431:
 
+> [!quote]
 > *"Bất kỳ yếu tố nào làm thay đổi cung và cầu lao động phải làm thay đổi mức lương cân bằng **và giá
 > trị sản lượng biên với một mức tương ứng** bởi vì những sự thay đổi này luôn luôn bằng nhau."*
 
@@ -204,10 +216,11 @@ Ba cú sốc và hướng dịch chuyển của cầu lao động:
 | Công nghệ tốt hơn (thang mới)       |   tăng    | không đổi |   **TĂNG**   |
 | Thiếu thang — cung vốn giảm         |   giảm    | không đổi |   **GIẢM**   |
 
-📚 **Hộp "Cuộc nổi loạn của những người bảo thủ" (tr. 429)** đáng đọc vì nó là câu trả lời lịch sử cho
-nỗi lo "máy móc cướp việc". Đầu thế kỷ 19 ở Anh, thợ dệt lành nghề đập phá máy dệt; họ được gọi là
-**Luddite**, theo tên tướng Ned Ludd. Quốc hội ra luật xem phá máy là tội hình sự; sau phiên toà ở
-**York năm 1813**, **mười bảy người bị treo cổ**, nhiều người khác bị lưu đày sang Australia.
+> [!note] Hộp "Cuộc nổi loạn của những người bảo thủ" (tr. 429)
+> đáng đọc vì nó là câu trả lời lịch sử cho
+> nỗi lo "máy móc cướp việc". Đầu thế kỷ 19 ở Anh, thợ dệt lành nghề đập phá máy dệt; họ được gọi là
+> **Luddite**, theo tên tướng Ned Ludd. Quốc hội ra luật xem phá máy là tội hình sự; sau phiên toà ở
+> **York năm 1813**, **mười bảy người bị treo cổ**, nhiều người khác bị lưu đày sang Australia.
 
 Sách đối chiếu bằng số ở tr. 428: nửa cuối thế kỷ 20, lương thực tế ở Hoa Kỳ tăng khoảng **150%** mà
 số lao động được tuyển dụng vẫn tăng khoảng **87%**. Công nghệ làm tăng MPL → tăng cầu lao động →
@@ -264,6 +277,7 @@ trong một ngày nào cả.
 
 Sách phân biệt hai loại giá cho cùng một yếu tố (tr. 435):
 
+> [!note]
 > **Giá mua** *(purchase price)*: giá mà một người trả để sở hữu vĩnh viễn một yếu tố sản xuất.
 > **Giá thuê** *(rental price)*: giá mà một người trả để sử dụng yếu tố đó trong một thời gian nhất định.
 
@@ -274,13 +288,16 @@ lượng thuê mướn cho đến khi giá trị sản lượng biên của mộ
 
 Câu in nghiêng ở tr. 436 là kết luận của cả chương 18:
 
+> [!quote]
 > *"**Mỗi yếu tố lao động, đất, và vốn tạo ra giá trị đóng góp biên cho quá trình sản xuất.**"*
 
-⚠️ Và một điểm rất dễ bỏ qua nhưng có hệ quả lớn: **các yếu tố sản xuất bổ sung cho nhau**. Sách viết
-ở tr. 437–438 rằng khi lượng vốn tăng, sản lượng biên của **lao động** cũng tăng — nên lương tăng.
-Ngược lại, một trận bão phá huỷ máy móc thì *"sản lượng biên của lao động giảm và mức lương cân bằng
-giảm"*.
+> [!warning]
+> Và một điểm rất dễ bỏ qua nhưng có hệ quả lớn: **các yếu tố sản xuất bổ sung cho nhau**. Sách viết
+> ở tr. 437–438 rằng khi lượng vốn tăng, sản lượng biên của **lao động** cũng tăng — nên lương tăng.
+> Ngược lại, một trận bão phá huỷ máy móc thì *"sản lượng biên của lao động giảm và mức lương cân bằng
+> giảm"*.
 
+> [!quote]
 > 💼 Đọc theo kiểu quản trị: **đầu tư thiết bị và trả lương cao không phải hai lựa chọn thay thế nhau.**
 > Thiết bị tốt hơn làm nhân viên tạo ra nhiều giá trị hơn, tức là làm cho việc trả lương cao trở nên
 > *chi trả được*. Ai đó nói "năm nay hoãn mua máy để có tiền tăng lương" đang bỏ qua đúng chỗ này.
@@ -298,6 +315,7 @@ dân **$20.000**. Và nói rõ chương 18 chỉ là *"phần mở đầu của 
 
 Lý do đầu tiên, định nghĩa ở chân trang 446:
 
+> [!note]
 > **Chênh lệch lương** *(compensating differential)*: phần chênh lệch về lương nhằm bù đắp cho những
 > thuộc tính phi tiền tệ của các công việc khác nhau.
 
@@ -316,6 +334,7 @@ Bốn ví dụ của sách (tr. 446–447):
 Sách còn tự trêu ở tr. 447: *"(Thực ra thì giảng dạy kinh tế học vui đến mức thật đáng ngạc nhiên là
 người ta vẫn còn phải trả lương cho các giáo sư kinh tế học!)"*
 
+> [!quote]
 > 💼 Ý nghĩa quản trị rất trực tiếp: **một phần tiền lương của bạn đang mua thứ không phải là lao động
 > — nó mua sự khó chịu.** Cải thiện điều kiện làm việc (ca kíp, an toàn, môi trường, chỗ ngồi) là một
 > cách **giảm chi phí lương** hoàn toàn hợp pháp, và thường rẻ hơn tăng lương cùng một mức hấp dẫn.
@@ -324,6 +343,7 @@ người ta vẫn còn phải trả lương cho các giáo sư kinh tế học!)
 
 ## 8. Vốn con người và giá trị tăng thêm của kỹ năng
 
+> [!note]
 > **Vốn con người** *(human capital)*: tích luỹ những đầu tư cho con người như giáo dục, đào tạo thông
 > qua công việc.
 
@@ -359,10 +379,11 @@ Hai giả thuyết của sách cho việc khoảng cách nới rộng (tr. 448�
 
 ---
 
-## 9. ⚠️ Một chỗ sách in sai — tr. 448
+## 9. Một chỗ sách in sai — tr. 448
 
 Đoạn văn ngay dưới Bảng 1, **cùng trang 448**, viết:
 
+> [!quote]
 > *"Đối với nữ giới, lợi ích từ việc học đại học là giúp làm tăng từ 35 phần trăm đến **75 phần trăm**
 > trong mức gia tăng thu nhập."*
 
@@ -374,6 +395,7 @@ cuối của **chính Bảng 1 cũng in "+71%"**.
 
 Ba con số còn lại (44%, 88%, 35%) đều khớp chính xác với bảng — code kiểm **4/4 dòng**.
 
+> [!note]
 > 📌 Cách dùng: khi trích lại số của giáo trình này, hãy **trích từ bảng, đừng trích từ đoạn văn**.
 > [Mục 17](#17-tỷ-lệ-nghèo-và-ai-là-người-nghèo) sẽ gặp lại đúng vấn đề đó ở dạng nhẹ hơn — đoạn văn
 > làm tròn lên trong khi bảng cho số chính xác.
@@ -385,6 +407,7 @@ Ba con số còn lại (44%, 88%, 35%) đều khớp chính xác với bảng �
 Ba yếu tố mà sách gộp lại vì chúng đều **khó đo** (tr. 449–450): khả năng bẩm sinh, nỗ lực, và cơ hội.
 Và một thừa nhận rất thẳng ở tr. 450:
 
+> [!quote]
 > *"Khi các nhà kinh tế học lao động nghiên cứu về lương, họ gắn mức lương với các biến số có thể đo
 > lường như số năm đi học, số năm kinh nghiệm, tuổi, và các đặc điểm công việc… nhưng họ **chỉ giải
 > thích được chưa tới một nửa** những dao động trong mức lương thực tế."*
@@ -414,12 +437,14 @@ chỉ xuất hiện ở thị trường có **hai đặc tính** (tr. 452):
 2. Hàng hoá được sản xuất bằng công nghệ giúp nhà sản xuất tốt nhất cung ứng đến **mọi người** với chi
    phí thấp.
 
+> [!quote]
 > *"xem hai lần một bộ phim của một diễn viên chỉ giỏi bằng một nửa Johnny Depp không phải là một sự
 > thay thế tốt."*
 
 Thợ mộc thiếu đặc tính thứ hai: *"một thợ mộc… chỉ có thể cung cấp dịch vụ của mình đến một số lượng
 có hạn người tiêu dùng."*
 
+> [!note]
 > 💼 Hai đặc tính đó chính là câu hỏi để đánh giá **một mô hình kinh doanh có nhân bản được không**.
 > Phần mềm, nội dung số, thương hiệu — có cả hai. Nhà hàng, phòng khám, tiệm sửa xe — chỉ có cái thứ
 > nhất. Đó là lý do một đầu bếp giỏi mở chuỗi thì mới thành siêu sao, còn giỏi một mình thì không.
@@ -439,24 +464,27 @@ Cho đến đây mọi phân tích đều giả định lương **cân bằng** 
 
 Ba định nghĩa ở chân trang 453:
 
+> [!note]
 > **Công đoàn** *(union)*: hiệp hội người lao động có vai trò đàm phán với chủ doanh nghiệp về mức
 > lương và điều kiện làm việc.
 > **Đình công** *(strike)*: hoạt động rời bỏ công việc tại doanh nghiệp, do công đoàn tổ chức.
 > **Mức lương hiệu quả** *(efficiency wages)*: mức lương trên mức cân bằng được doanh nghiệp trả để
 > thúc đẩy năng suất lao động.
 
-⚠️ Cả ba đều có **cùng một hệ quả** (tr. 453–454): đẩy lương lên trên cân bằng → tăng lượng cung lao
-động, giảm lượng cầu → **lao động dư thừa, tức thất nghiệp**. Ba nguyên nhân khác hẳn nhau nhưng đường
-đi giống hệt nhau.
+> [!warning]
+> Cả ba đều có **cùng một hệ quả** (tr. 453–454): đẩy lương lên trên cân bằng → tăng lượng cung lao
+> động, giảm lượng cầu → **lao động dư thừa, tức thất nghiệp**. Ba nguyên nhân khác hẳn nhau nhưng đường
+> đi giống hệt nhau.
 
 📌 Lý do thứ ba là lý do **duy nhất** trong đó doanh nghiệp trả cao hơn **vì chính lợi ích của họ**, chứ
-không phải bị ép. [Mục 22](#22--trả-lương-cao-hơn-thị-trường-có-lời-không) định giá nó bằng số — và
+không phải bị ép. [Mục 22](#22-trả-lương-cao-hơn-thị-trường-có-lời-không) định giá nó bằng số — và
 cũng trả nợ cho một câu bỏ ngỏ ở [bài 11](bai_11_thong_tin_bat_can_xung.md).
 
 ---
 
 ## 12. Đo phân biệt đối xử — vì sao khoảng cách lương không chứng minh được gì
 
+> [!note]
 > **Phân biệt đối xử** *(discrimination)*: việc cung cấp những cơ hội khác nhau cho những cá nhân giống
 > nhau, chỉ khác nhau về chủng tộc, giới tính, tuổi tác, hoặc những thuộc tính cá nhân khác.
 
@@ -472,8 +500,10 @@ cũng trả nợ cho một câu bỏ ngỏ ở [bài 11](bai_11_thong_tin_bat_ca
 Và theo giới tính: nữ da trắng thấp hơn nam da trắng **23,6%**; nữ da đen thấp hơn nam da đen **15,4%**.
 (Sách in làm tròn 21%, 13%, 24%, 15% — tất cả đều khớp.)
 
-⚠️ **Đây là câu cảnh báo quan trọng nhất của cả chương 19** (tr. 455):
+> [!warning] Đây là câu cảnh báo quan trọng nhất của cả chương 19
+> (tr. 455):
 
+> [!quote]
 > *"Quan sát một cách đơn giản về sự khác biệt mức lương giữa các nhóm rộng lớn – da trắng và da đen,
 > nam giới và nữ giới – **không chứng minh được rằng chủ doanh nghiệp phân biệt đối xử.**"*
 
@@ -485,9 +515,10 @@ Sách liệt kê ba thứ phải loại trừ trước (tr. 455):
 | **Vốn con người — chất lượng** | trường công ở khu vực đa số da đen có chi tiêu, quy mô lớp học kém hơn; *"trong nhiều năm các trường đã hướng các nữ sinh tránh xa các khoá học khoa học và toán"* |
 | **Kinh nghiệm làm việc**       | tỷ lệ tham gia lực lượng lao động của nữ tăng gần đây → lao động nữ trung bình **trẻ hơn**; và nữ có khả năng tạm gác sự nghiệp để sinh con                        |
 
-⚠️ Nhưng sách **cũng không** kết luận ngược lại. Nó nêu ngay hai điểm ngược chiều (tr. 455–456):
-chất lượng giáo dục kém hơn **bản thân nó có thể là hậu quả của phân biệt đối xử**; và việc "hướng nữ
-sinh tránh xa toán" cũng vậy. Một biến kiểm soát có thể chính là kênh truyền của thứ ta đang muốn đo.
+> [!warning]
+> Nhưng sách **cũng không** kết luận ngược lại. Nó nêu ngay hai điểm ngược chiều (tr. 455–456):
+> chất lượng giáo dục kém hơn **bản thân nó có thể là hậu quả của phân biệt đối xử**; và việc "hướng nữ
+> sinh tránh xa toán" cũng vậy. Một biến kiểm soát có thể chính là kênh truyền của thứ ta đang muốn đo.
 
 Và nghiên cứu ở tr. 456–457 thì rất khó bác: gửi hồ sơ xin việc **giống hệt nhau**, chỉ khác cái tên.
 Hồ sơ mang tên người da trắng nhận phản hồi cao hơn **50%** so với tên người Mỹ gốc Phi — kể cả ở
@@ -495,7 +526,7 @@ những nơi quảng cáo cam kết *"Cơ hội Công bằng"*.
 
 ---
 
-## 13. 📚 Động cơ lợi nhuận ăn mòn phân biệt đối xử — dựng bằng số
+## 13. Động cơ lợi nhuận ăn mòn phân biệt đối xử — dựng bằng số
 
 Sách kể một câu chuyện giả tưởng ở tr. 457: một nền kinh tế mà người lao động bị đánh giá bởi **màu
 tóc**. Tóc vàng và tóc đen có cùng kỹ năng, kinh nghiệm, đạo đức làm việc — nhưng chủ doanh nghiệp
@@ -534,9 +565,11 @@ quá trình đó xoá đi chênh lệch đã sinh ra nó**.
 
 Sách viết (tr. 458):
 
+> [!quote]
 > *"các thị trường cạnh tranh đã có phương thuốc tự nhiên cho căn bệnh phân biệt đối xử của chủ doanh nghiệp."*
 
-⚠️ Chú ý ba chữ cuối: **của chủ doanh nghiệp**. Mục sau là chỗ thuốc không có tác dụng.
+> [!warning]
+> Chú ý ba chữ cuối: **của chủ doanh nghiệp**. Mục sau là chỗ thuốc không có tác dụng.
 
 ---
 
@@ -573,6 +606,7 @@ phân biệt, *"công ty của chúng tôi phải gánh chịu cả đống khô
 
 Roback mô tả:
 
+> [!quote]
 > *"Công ty đường sắt không sáng tạo ra chính sách phân biệt đối xử và hoàn toàn không ủng hộ những đạo
 > luật này… Các bằng chứng cho thấy động cơ hàng đầu của các doanh nghiệp là kinh tế; phân biệt đối xử
 > chỉ làm tốn chi phí của doanh nghiệp thôi… Các quan chức công ty có thể thích hoặc không thích người
@@ -580,6 +614,7 @@ Roback mô tả:
 
 Sách rút ra bài học ở tr. 460, và đây là câu nên nhớ:
 
+> [!quote]
 > *"Chủ doanh nghiệp thường quan tâm đến việc tạo ra lợi nhuận hơn là phân biệt đối xử chống lại một
 > nhóm nào đó. Khi các doanh nghiệp có hành vi phân biệt đối xử trên thực tế, nguyên nhân then chốt cho
 > phân biệt đối xử thường **không do chính doanh nghiệp gây ra mà ở nguyên nhân khác** — chỉ khi khách
@@ -626,7 +661,7 @@ Và mô tả xu thế bằng hai đoạn văn: *"Từ năm 1935 đến 1970, ph�
 
 ---
 
-## 16. 📚 Hệ số Gini — nén một bảng thành một con số
+## 16. Hệ số Gini — nén một bảng thành một con số
 
 Sách in bảng nhưng **không tính hệ số Gini** — nó chỉ mô tả xu thế bằng lời. Gini biến tám dòng số
 thành tám con số so sánh được: **0 là hoàn toàn bình đẳng, 1 là một người ôm hết**.
@@ -651,7 +686,7 @@ $$G = 1 - \frac{1}{5}\sum_{i=1}^{5}\left(y_i + y_{i-1}\right), \qquad y_0 = 0$$
 Gini 2008 vẫn thấp hơn 1935, nhưng đã **cao hơn mọi năm từ 1950 đến 2000**. Gần sáu thập niên cải
 thiện đã bị xoá gần hết — dù chưa hết hẳn. Đó là hai đoạn văn của sách, nén thành một cột số.
 
-### ⚠️ Ba cảnh báo khi dùng con số này
+### Ba cảnh báo khi dùng con số này
 
 1. **Gini tính từ ngũ phân vị luôn THẤP HƠN Gini tính từ từng hộ**, vì nó coi mọi người trong cùng một
    nhóm là giống nhau. Con số thật của Hoa Kỳ 2008 vào khoảng **0,47** chứ không phải 0,40.
@@ -669,6 +704,7 @@ thiện đã bị xoá gần hết — dù chưa hết hẳn. Đó là hai đo�
 
 Hai định nghĩa ở chân trang 470:
 
+> [!note]
 > **Tỷ lệ nghèo** *(poverty rate)*: phần trăm dân số có thu nhập gia đình dưới ngưỡng nghèo.
 > **Ngưỡng nghèo** *(poverty line)*: mức thu nhập tuyệt đối do chính quyền liên bang xác định, dưới mức
 > đó hộ gia đình được xem là nghèo.
@@ -699,7 +735,8 @@ vẫn tăng — *"làn sóng nhô cao của nền kinh tế đã để lại m�
 | Gia đình có đầy đủ vợ chồng      |    **5,5%** |
 | Gia đình phụ nữ trụ cột đơn thân |   **31,4%** |
 
-⚠️ **Ba đặc điểm của sách, kiểm lại bằng số** — và cả ba đều được sách làm tròn **lên**:
+> [!warning] Ba đặc điểm của sách, kiểm lại bằng số
+> và cả ba đều được sách làm tròn **lên**:
 
 | Sách viết                                                   |                 Tính lại |
 | ----------------------------------------------------------- | -----------------------: |
@@ -707,10 +744,11 @@ vẫn tăng — *"làn sóng nhô cao của nền kinh tế đã để lại m�
 | hộ phụ nữ đơn thân nghèo *"cao hơn sáu lần"* hộ đủ vợ chồng |             **5,71** lần |
 
 Không sai về hướng, nhưng lại là một lý do nữa để **trích số từ bảng chứ đừng trích từ đoạn văn** —
-đúng như bài học ở [mục 9](#9--một-chỗ-sách-in-sai--tr-448).
+đúng như bài học ở [mục 9](#9-một-chỗ-sách-in-sai--tr-448).
 
 Và câu nặng nhất của mục, tr. 471:
 
+> [!quote]
 > *"Trong số trẻ em da đen và gốc Tây Ban Nha trong những hộ gia đình có chủ hộ là nữ giới đơn thân,
 > **có một nửa là nghèo**."*
 
@@ -728,6 +766,7 @@ Sách dành hẳn một mục để tự phản biện dữ liệu vừa trình 
 
 Định nghĩa ở chân trang 472:
 
+> [!note]
 > **Vòng đời** *(life cycle)*: xu hướng dao động thông thường về thu nhập trong suốt cuộc đời một con người.
 
 ### Ba thước đo, ba con số — nghiên cứu Cox và Alm
@@ -743,12 +782,14 @@ Sách dẫn ở tr. 473–474, và ba con số này đáng nhớ hơn cả mục
 Bước thứ hai đến từ quy mô hộ: hộ giàu nhất trung bình **3,1 người**, hộ nghèo nhất **1,7 người**.
 Kiểm phép tính: $3{,}9 \times 1{,}7 / 3{,}1 = 2{,}14$ → khớp với 2,1 của sách.
 
+> [!quote]
 > *"bất bình đẳng về mức sống vật chất nhỏ hơn nhiều so với bất bình đẳng theo thu nhập hằng năm."*
 
-⚠️ Đọc con số này cho cẩn thận theo **cả hai chiều**. Nó đúng là một hiệu chỉnh cần thiết — nhưng
-"tiêu dùng bình quân đầu người chỉ chênh 2,1 lần" cũng có nghĩa là hộ nghèo đang **vay hoặc tiêu vào
-tiết kiệm** để duy trì mức đó. Bất bình đẳng về **tài sản** thì lớn hơn hẳn bất bình đẳng về thu nhập,
-và sách không đo nó ở đâu cả.
+> [!warning]
+> Đọc con số này cho cẩn thận theo **cả hai chiều**. Nó đúng là một hiệu chỉnh cần thiết — nhưng
+> "tiêu dùng bình quân đầu người chỉ chênh 2,1 lần" cũng có nghĩa là hộ nghèo đang **vay hoặc tiêu vào
+> tiết kiệm** để duy trì mức đó. Bất bình đẳng về **tài sản** thì lớn hơn hẳn bất bình đẳng về thu nhập,
+> và sách không đo nó ở đâu cả.
 
 ### Biến động liên thế hệ
 
@@ -785,13 +826,15 @@ truyền đời không phải một định mệnh — nhưng ba thế hệ là 
 minh"** — không biết mình sẽ là ai. Từ đó ra **tiêu chí tối đa hoá phúc lợi nhóm người nghèo**
 *(maximin criterion)*.
 
-📚 Cách đọc lại Rawls mà sách đưa ra ở tr. 478 rất đáng giá: tái phân phối như một dạng **bảo hiểm xã
-hội**. *"Khi chọn các chính sách đánh thuế vào người giàu để bổ sung thu nhập cho người nghèo, chúng ta
-đang bảo hiểm cho chính mình để đối phó với khả năng trở thành những người nghèo trong xã hội."*
+> [!note]
+> Cách đọc lại Rawls mà sách đưa ra ở tr. 478 rất đáng giá: tái phân phối như một dạng **bảo hiểm xã
+> hội**. *"Khi chọn các chính sách đánh thuế vào người giàu để bổ sung thu nhập cho người nghèo, chúng ta
+> đang bảo hiểm cho chính mình để đối phó với khả năng trở thành những người nghèo trong xã hội."*
 
-⚠️ Và sách nêu ngay phản biện: nếu người sau bức màn vô minh **không** đặc biệt ngại rủi ro, họ sẽ tối
-đa hoá **thoả dụng trung bình** thay vì thoả dụng thấp nhất — và khi đó Rawls thu về đúng chủ nghĩa
-thoả dụng. Toàn bộ khác biệt nằm ở một giả định tâm lý.
+> [!warning]
+> Và sách nêu ngay phản biện: nếu người sau bức màn vô minh **không** đặc biệt ngại rủi ro, họ sẽ tối
+> đa hoá **thoả dụng trung bình** thay vì thoả dụng thấp nhất — và khi đó Rawls thu về đúng chủ nghĩa
+> thoả dụng. Toàn bộ khác biệt nằm ở một giả định tâm lý.
 
 **Nozick** phản đối cả hai bằng một hình ảnh (tr. 479): giả sử bạn tìm thấy dữ liệu điểm số của một lớp
 và thấy phân phối "bất công". Bạn có quyền chấm lại không? Câu trả lời phụ thuộc **kỳ thi có công bằng
@@ -801,7 +844,7 @@ tái phân phối thu nhập** để đạt được sự phân phối cào bằ
 
 ---
 
-## 20. 📚 Thùng nước rò rỉ — chủ nghĩa thoả dụng dừng lại ở đâu
+## 20. Thùng nước rò rỉ — chủ nghĩa thoả dụng dừng lại ở đâu
 
 Sách đưa Peter kiếm **$80.000** và Paul kiếm **$20.000** (tr. 476), rồi lập luận rằng vì độ thoả dụng
 biên giảm dần, chuyển tiền từ Peter sang Paul làm **tăng tổng thoả dụng**.
@@ -864,7 +907,7 @@ $$\text{Số tiền thuế nợ} = \tfrac13 \times \text{thu nhập} - 10.000$$
 Chương trình thực tế hoạt động như thuế thu nhập âm là **EITC** *(Earned Income Tax Credit)* — và vì
 nó chỉ áp dụng cho **người nghèo đang làm việc**, nó không làm giảm động cơ làm việc.
 
-### ⚠️ Bẫy thuế suất biên 100%
+### Bẫy thuế suất biên 100%
 
 Sách mô tả ở tr. 484–485 một chương trình trợ cấp $20.000 nhưng **mỗi đô la kiếm được bị trừ đúng một
 đô la trợ cấp**. So sánh:
@@ -879,6 +922,7 @@ Sách mô tả ở tr. 484–485 một chương trình trợ cấp $20.000 nhưn
 
 **Kiếm thêm 5.000 mà giữ được 0 đồng.** Thuế suất biên hiệu quả bằng đúng **100%**. Sách viết:
 
+> [!quote]
 > *"Bất kỳ ai có mức lương dưới 20.000 đô la có rất ít động cơ để tìm kiếm và duy trì công việc… Một
 > thuế suất biên 100 phần trăm chắc chắn là một chính sách gây ra tổn thất vô ích lớn."*
 
@@ -897,12 +941,12 @@ không phải là mục tiêu."*
 
 Và câu khép chương 20, tr. 486: **Plato** cho rằng trong một xã hội lý tưởng, thu nhập của người giàu
 nhất không nên quá **bốn lần** thu nhập người nghèo nhất. Đối chiếu với
-[mục 16](#16--hệ-số-gini--nén-một-bảng-thành-một-con-số): Hoa Kỳ 2008 là **12,0 lần** — gấp ba lần
+[mục 16](#16-hệ-số-gini--nén-một-bảng-thành-một-con-số): Hoa Kỳ 2008 là **12,0 lần** — gấp ba lần
 giới hạn của Plato.
 
 ---
 
-## 22. 💼 Trả lương cao hơn thị trường có lời không
+## 22. Trả lương cao hơn thị trường có lời không
 
 Sách nêu lý thuyết **tiền lương hiệu quả** ở tr. 453 bằng đúng ba câu, không có con số nào: trả lương
 cao có thể có lợi vì nó *"làm giảm khả năng thay thế lao động, tăng nỗ lực của người lao động, và tăng
@@ -940,6 +984,7 @@ Ba kết luận:
 3. **Hai kênh cộng lại mới đẩy tối ưu lên 14.000.** Chi phí thay người không tự nó biện minh cho lương
    cao, nhưng nó **làm mạnh thêm** lý do đã có.
 
+> [!quote]
 > 💼 Hàm ý: câu hỏi đúng không phải *"trả cao có giữ được người không"* mà là *"trả cao có làm họ **làm
 > tốt hơn** không"*. Nếu công việc mà nỗ lực không ảnh hưởng mấy đến kết quả — việc lặp đi lặp lại, có
 > quy trình chặt — thì trả trên thị trường chỉ là một khoản chi không thu lại được.
@@ -953,27 +998,29 @@ tác dụng** — cùng đúng một điều kiện mà bảng trên vừa đo.
 
 ## 23. Code minh hoạ
 
+> [!note]
 > ⚙️ **Chạy:** cần **Python 3.10+**. Lưu file rồi gõ `python3 bai-12-thi-truong-lao-dong.py`.
 > **Không cần cài gói nào.** File có sẵn tại [thuc_hanh/bai-12-thi-truong-lao-dong.py](../thuc_hanh/bai-12-thi-truong-lao-dong.py).
 
 Mọi thứ dùng `Fraction` — không có số thực nào, nên chạy bao nhiêu lần cũng ra đúng một kết quả.
 Hàm `tien()` **ném lỗi** nếu bị truyền số lẻ, để không có chỗ nào âm thầm làm tròn.
 
-⚠️ Code có **11 mục đánh số riêng của nó**, không trùng với 26 mục của bài học. Bảng đối chiếu:
+> [!warning]
+> Code có **11 mục đánh số riêng của nó**, không trùng với 26 mục của bài học. Bảng đối chiếu:
 
 | Mục trong code | Mục trong bài                                                                                                                                                                    |
 | -------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1              | [2](#2-giá-trị-sản-lượng-biên-quyết-định-tuyển-bao-nhiêu)                                                                                                                        |
-| 2              | [3](#3--hai-mặt-của-đồng-xu--cầu-đầu-vào-và-cung-đầu-ra-là-một) + [4](#4-cung-lao-động-cân-bằng-và-ba-cú-sốc)                                                                    |
+| 2              | [3](#3-hai-mặt-của-đồng-xu--cầu-đầu-vào-và-cung-đầu-ra-là-một) + [4](#4-cung-lao-động-cân-bằng-và-ba-cú-sốc)                                                                    |
 | 3              | [5](#5-năng-suất-quyết-định-tiền-lương--bằng-chứng-lịch-sử)                                                                                                                      |
-| 4              | [8](#8-vốn-con-người-và-giá-trị-tăng-thêm-của-kỹ-năng) + [9](#9--một-chỗ-sách-in-sai--tr-448) + [12](#12-đo-phân-biệt-đối-xử--vì-sao-khoảng-cách-lương-không-chứng-minh-được-gì) |
-| 5              | [13](#13--động-cơ-lợi-nhuận-ăn-mòn-phân-biệt-đối-xử--dựng-bằng-số) + [14](#14-khi-thị-trường-không-tự-chữa-được)                                                                 |
-| 6              | [16](#16--hệ-số-gini--nén-một-bảng-thành-một-con-số)                                                                                                                             |
+| 4              | [8](#8-vốn-con-người-và-giá-trị-tăng-thêm-của-kỹ-năng) + [9](#9-một-chỗ-sách-in-sai--tr-448) + [12](#12-đo-phân-biệt-đối-xử--vì-sao-khoảng-cách-lương-không-chứng-minh-được-gì) |
+| 5              | [13](#13-động-cơ-lợi-nhuận-ăn-mòn-phân-biệt-đối-xử--dựng-bằng-số) + [14](#14-khi-thị-trường-không-tự-chữa-được)                                                                 |
+| 6              | [16](#16-hệ-số-gini--nén-một-bảng-thành-một-con-số)                                                                                                                             |
 | 7              | [17](#17-tỷ-lệ-nghèo-và-ai-là-người-nghèo)                                                                                                                                       |
 | 8              | [18](#18-ba-lý-do-dữ-liệu-thu-nhập-vẽ-sai-bức-tranh)                                                                                                                             |
-| 9              | [20](#20--thùng-nước-rò-rỉ--chủ-nghĩa-thoả-dụng-dừng-lại-ở-đâu)                                                                                                                  |
+| 9              | [20](#20-thùng-nước-rò-rỉ--chủ-nghĩa-thoả-dụng-dừng-lại-ở-đâu)                                                                                                                  |
 | 10             | [21](#21-chính-sách-giảm-nghèo-và-bẫy-thuế-suất-biên-100)                                                                                                                        |
-| 11             | [22](#22--trả-lương-cao-hơn-thị-trường-có-lời-không)                                                                                                                             |
+| 11             | [22](#22-trả-lương-cao-hơn-thị-trường-có-lời-không)                                                                                                                             |
 
 ```python
 """Bai 12 - Thi truong lao dong, tien luong va bat binh dang
@@ -2431,23 +2478,23 @@ Trả lời rồi mới quay lại đối chiếu. Số trong ngoặc là mục 
     9/7/2010, tr. 484
   - *Kết luận* — Plato và giới hạn bốn lần, tr. 486
 - **Ngoài sách:**
-  - **Hệ số Gini** ở [mục 16](#16--hệ-số-gini--nén-một-bảng-thành-một-con-số) — sách in Bảng 2 nhưng
+  - **Hệ số Gini** ở [mục 16](#16-hệ-số-gini--nén-một-bảng-thành-một-con-số) — sách in Bảng 2 nhưng
     không tính Gini; công thức diện tích cho ngũ phân vị là kết quả chuẩn của thống kê phân phối.
-  - Mô hình **tóc vàng** ở [mục 13](#13--động-cơ-lợi-nhuận-ăn-mòn-phân-biệt-đối-xử--dựng-bằng-số) —
+  - Mô hình **tóc vàng** ở [mục 13](#13-động-cơ-lợi-nhuận-ăn-mòn-phân-biệt-đối-xử--dựng-bằng-số) —
     sách kể bằng lời ở tr. 457, con số là dựng riêng cho bài này.
-  - Mô hình **thùng nước rò rỉ** ở [mục 20](#20--thùng-nước-rò-rỉ--chủ-nghĩa-thoả-dụng-dừng-lại-ở-đâu)
+  - Mô hình **thùng nước rò rỉ** ở [mục 20](#20-thùng-nước-rò-rỉ--chủ-nghĩa-thoả-dụng-dừng-lại-ở-đâu)
     — sách kể ngụ ngôn ở tr. 476 mà không cho con số nào.
   - **Quy tắc 70** ở [mục 5](#5-năng-suất-quyết-định-tiền-lương--bằng-chứng-lịch-sử) — kết quả xấp xỉ
     chuẩn của tăng trưởng gộp.
-  - Mô hình **tiền lương hiệu quả** ở [mục 22](#22--trả-lương-cao-hơn-thị-trường-có-lời-không) — sách
+  - Mô hình **tiền lương hiệu quả** ở [mục 22](#22-trả-lương-cao-hơn-thị-trường-có-lời-không) — sách
     nêu lý thuyết ở tr. 453 bằng ba câu, không có con số nào.
 - **Liên hệ chéo:**
-  - [Bài 6](bai_06_thi_truong_canh_tranh.md) — `P = MC`; [mục 3](#3--hai-mặt-của-đồng-xu--cầu-đầu-vào-và-cung-đầu-ra-là-một)
+  - [Bài 6](bai_06_thi_truong_canh_tranh.md) — `P = MC`; [mục 3](#3-hai-mặt-của-đồng-xu--cầu-đầu-vào-và-cung-đầu-ra-là-một)
     cho thấy nó và quy tắc tuyển dụng là **một** điều kiện.
   - [Bài 8](bai_08_canh_tranh_doc_quyen.md) — quảng cáo như tín hiệu, cùng logic với "giáo dục như tín hiệu".
   - [Bài 10](bai_10_lua_chon_cua_nguoi_tieu_dung.md) — đánh đổi việc làm/nhàn rỗi, nền của cung lao động.
   - [Bài 11](bai_11_thong_tin_bat_can_xung.md) — rủi ro đạo đức và ba cách chống nó;
-    [mục 22](#22--trả-lương-cao-hơn-thị-trường-có-lời-không) định giá cách thứ hai.
+    [mục 22](#22-trả-lương-cao-hơn-thị-trường-có-lời-không) định giá cách thứ hai.
   - **Bài 13** (chương 6, 12) — chính phủ can thiệp thị trường: giá trần, giá sàn, và hệ thống thuế.
     Lương tối thiểu ở [mục 11](#11-mức-lương-trên-mức-cân-bằng--ba-lý-do) sẽ được phân tích đầy đủ ở đó.
 

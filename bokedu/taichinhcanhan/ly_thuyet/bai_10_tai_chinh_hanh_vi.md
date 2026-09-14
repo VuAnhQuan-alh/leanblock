@@ -1,23 +1,22 @@
 # Bài 10 — [bổ sung] Tài chính hành vi: vì sao biết mà vẫn sai
 
+> [!info] Về bài này
 > **Chủ đề này không có trong sách như một chủ đề.** Nhưng sách **chạm vào nó bốn lần, ở bốn chỗ rời
 > nhau**, và chỉ một lần gọi đúng tên. Toàn bộ bài này là **[bổ sung]**: nó không thêm kiến thức mới
 > vào sách, nó **dựng cái khung** để bốn mảnh rời ấy thành một bức tranh — và để **bài 11**
 > có chỗ tựa mà giải thích, chứ không chỉ kể lại.
->
 > **Cần đọc trước:** [Bài 5](bai_05_kiem_tien.md) — chỗ **thiên kiến sống sót** ở quy tắc 3 của Kim
 > tứ đồ (C2 tr. 10) là mảnh đầu tiên, và là lần duy nhất sách gọi đúng tên một thiên kiến. Bài này
 > nhặt nốt ba mảnh còn lại.
->
 > **Đây là bài vòng 2** — đọc hiểu, nắm ý là đủ; không có công thức pháp lý nào phải nhớ. Nhưng nó
 > là bài **quyết định** cho bài 11: gần như mọi cái bẫy tài chính đều là một thiên kiến bị lợi dụng.
->
 > **Ký hiệu:** **[bổ sung]** là kiến thức ngoài sách · **[đính chính]** là chỗ sách sai ·
 > **[2026]** là mục đối chiếu với hiện tại.
->
 > **Code:** [`thuc_hanh/bai-10-tai-chinh-hanh-vi.py`](../thuc_hanh/bai-10-tai-chinh-hanh-vi.py)
 > — bài này ít số, nhưng ba con số nó có (lạm phát lối sống, phép nhân của "lãi 20%/tháng", và bảng
 > bất đối xứng lỗ–lãi) đều do tệp này tính. Mỗi con số kèm một công thức một dòng để tự kiểm bằng tay.
+>
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
 
 ---
 
@@ -47,6 +46,7 @@
 Chín bài trước đều là **kiến thức**: tài sản ròng cộng trừ thế nào, thuế tính ra sao, quỹ khẩn cấp
 bao nhiêu tháng. Bài này hỏi một câu khác hẳn:
 
+> [!note]
 > Nếu biết hết những điều đó rồi, vì sao người ta vẫn làm sai?
 
 Câu trả lời không nằm ở chỗ thiếu kiến thức. Nó nằm ở chỗ **bộ não con người không được thiết kế để
@@ -90,6 +90,7 @@ Cách hình dung gọn nhất là **hai hệ thống tư duy**:
 Thiên kiến là chỗ **Hệ thống 1 trả lời một câu mà lẽ ra phải để Hệ thống 2 trả lời** — và trả lời
 sai theo một hướng đoán trước được. Điểm mấu chốt, và cũng là tên bài:
 
+> [!note]
 > **Biết một thiên kiến không đủ để thoát khỏi nó.** Bạn có thể đọc thuộc lòng chương này rồi vẫn
 > tiêu hết khoản thưởng Tết vào đúng cái bẫy vừa đọc. Kiến thức nằm ở Hệ thống 2; quyết định phần lớn
 > do Hệ thống 1 bấm nút.
@@ -114,6 +115,7 @@ Ba đại lượng lặp lại trong cả chương, đáng nhớ trước khi đ
 C2 tr. 10, trong quy tắc 3 của Kim tứ đồ, sách viết một đoạn mà [bài 5](bai_05_kiem_tien.md#quy-tắc-3--chỗ-sách-phản-biện-chính-kiyosaki)
 đã gọi là sắc sảo nhất cả hai tập:
 
+> [!quote]
 > *"Nhiều người cho rằng phải ở nhóm B hoặc nhóm I mới trở nên giàu có… Suy nghĩ vậy là sai lầm do
 > ảnh hưởng bởi **thiên kiến sống sót**. Truyền thông cho chúng ta thấy rất nhiều gương doanh nhân –
 > nhà đầu tư thành công nhưng đằng sau đó là vô số trường hợp thất bại không hề được nhắc đến."*
@@ -153,6 +155,7 @@ tư luôn khoe người thắng, không bao giờ khoe người thua** — mà m
 
 C2 tr. 17, ngay trong bài về tài sản ròng, sách nhắc một cụm rồi đi tiếp:
 
+> [!quote]
 > *"nguy cơ **lạm phát lối sống** (lifestyle creep)"*
 
 **Lạm phát lối sống**: khi thu nhập tăng, chi tiêu **phình lên theo**, gần như tự động, tới mức khoản
@@ -178,6 +181,7 @@ mỗi tháng** lẽ ra để dành được nhưng đã lặng lẽ trôi vào m
 
 Hệ quả thực dụng, và là điều [bài 7](bai_07_phan_bo_thu_nhap.md) không nói:
 
+> [!note]
 > **Khoảnh khắc tăng lương là thời điểm tốt nhất để nâng tỷ lệ tiết kiệm** — vì bạn chưa kịp quen với
 > số tiền đó, nên cắt nó đi không thấy đau. Đợi vài tháng cho lối sống phình lên rồi mới định để dành
 > thì đã phải cắt vào cái mình đã quen, và đó là lúc thích nghi hưởng thụ chống lại bạn.
@@ -194,12 +198,14 @@ giải thích vì sao tự động hoá thắng ý chí.
 Trong bài blog phụ lục cuối C2, tác giả tự nhận từng nghĩ nạn nhân Ponzi là *"ngu ngốc"*, rồi nhận
 ra *"Người có tiền thường không ngu ngốc"* (C2 tr. 52), và đặt tên yếu tố đầu tiên:
 
+> [!quote]
 > *"**Một. Sự tham lam.**"* — C2 tr. 52
 
 Sách gọi đúng cảm giác nhưng dừng ở mô tả. Cái khung phía sau là **chạy theo lợi nhuận** (*return
 chasing*): con số lợi nhuận càng cao, Hệ thống 1 càng khao khát tới mức tắt luôn câu hỏi *"con số này
 có thể có thật không?"*. Và có một phép thử một dòng, đủ để bật lại Hệ thống 2:
 
+> [!note]
 > **Bất kỳ mức lãi nào, nhân nó lên cả năm bằng lãi kép, rồi hỏi: cả nền kinh tế có làm nổi thế
 > không?**
 
@@ -234,6 +240,7 @@ gặp lại nó: hợp đồng bảo hiểm liên kết đầu tư bị huỷ ng
 
 C2 tr. 53 mượn ẩn dụ của Warren Buffett, và đây là hình ảnh hay nhất của cả phần blog:
 
+> [!quote]
 > nhà đầu tư trong cơn sốt giống các vị khách trong buổi tiệc của Lọ Lem — *"nhảy múa trong một căn
 > phòng với những chiếc đồng hồ không có kim"*. — C2 tr. 53
 
@@ -326,6 +333,7 @@ giờ mới thấy chúng chống thiên kiến gì:
 
 Nguyên tắc chung, và là câu đáng mang ra khỏi cả bài:
 
+> [!note]
 > **Đừng sửa người, hãy sửa hệ thống.** Bạn không đáng tin vào lúc 11 giờ đêm trước một lời chào lãi
 > cao hay một cơn hoảng loạn thị trường. Nên hãy để **con người tỉnh táo hôm nay** ràng buộc sẵn
 > **con người mờ mắt ngày mai** — bằng lệnh tự động, bằng quy tắc viết ra giấy, bằng một khoản đệm có

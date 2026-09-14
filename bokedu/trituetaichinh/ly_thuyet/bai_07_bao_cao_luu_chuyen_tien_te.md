@@ -1,16 +1,17 @@
 # Bài 7 — Báo cáo lưu chuyển tiền tệ
 
+> [!info] Về bài này
 > Bài học dựng từ **Phần IV — Tiền mặt là nhất**: chương 16 *Ngôn ngữ của báo cáo lưu chuyển tiền tệ*
 > (PDF tr. 121–124), chương 17 *Tiền mặt kết nối với mọi thứ khác ra sao* (PDF tr. 125–135), chương 18
 > *Tại sao tiền mặt lại quan trọng* (PDF tr. 136–141).
-> 🎯⭐ **Vòng 1, chương dùng được ngay.** [Bài 6](bai_06_loi_nhuan_khac_tien_mat.md) đã chỉ ra lợi nhuận
+>
+> ⭐ **Vòng 1, chương dùng được ngay.** [Bài 6](bai_06_loi_nhuan_khac_tien_mat.md) đã chỉ ra lợi nhuận
 > khác tiền mặt. Bài này dựng **báo cáo đo cái khác biệt đó** — và cho thấy nó **suy ra được** từ hai
 > báo cáo kia.
-> 💼 **Góc quản trị** — ví dụ thêm cho người đi làm, **không có trong sách**.
-> 📚 **Mở rộng** — thứ sách nói lướt hoặc để trong hộp công cụ.
-> 🇻🇳 **Đối chiếu Việt Nam** — sách viết theo US GAAP, mục này nối sang thực tế Việt Nam.
-> ⚠️ — chỗ dễ hiểu sai, hoặc chỗ sách in sai.
-> 📌 **Cần đọc trước:** [Bài 5](bai_05_vi_sao_bang_can_doi_lai_can.md) ·
+>
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
+>
+> **Cần đọc trước:** [Bài 5](bai_05_vi_sao_bang_can_doi_lai_can.md) ·
 > [Bài 6](bai_06_loi_nhuan_khac_tien_mat.md) — đẳng thức ở mục 4 của bài 5 chính là bản thu nhỏ của
 > thuật toán ở mục 1 bài này.
 > ⚙️ **Code:** [`thuc_hanh/bai-07-bao-cao-luu-chuyen-tien-te.py`](../thuc_hanh/bai-07-bao-cao-luu-chuyen-tien-te.py)
@@ -30,11 +31,11 @@
 - [4. Thuật toán của chương 17](#4-thuật-toán-của-chương-17)
 - [5. Quy tắc dấu — chỗ gây nhầm nhất của cả báo cáo](#5-quy-tắc-dấu--chỗ-gây-nhầm-nhất-của-cả-báo-cáo)
 - [6. Ba hạng mục nói gì về công ty mẫu](#6-ba-hạng-mục-nói-gì-về-công-ty-mẫu)
-- [7. ⚠️ Bốn chỗ sách in sai trong chính chương 17](#7--bốn-chỗ-sách-in-sai-trong-chính-chương-17)
+- [7. Bốn chỗ sách in sai trong chính chương 17](#7-bốn-chỗ-sách-in-sai-trong-chính-chương-17)
 - [8. Dòng lưu chuyển tiền tự do](#8-dòng-lưu-chuyển-tiền-tự-do)
 - [9. "Không nhiều chỗ" không phải "không có chỗ"](#9-không-nhiều-chỗ-không-phải-không-có-chỗ)
 - [10. Bốn đòn bẩy của nhà quản lý](#10-bốn-đòn-bẩy-của-nhà-quản-lý)
-- [11. 🇻🇳 Đối chiếu Việt Nam](#11--đối-chiếu-việt-nam)
+- [11. Đối chiếu Việt Nam](#11-đối-chiếu-việt-nam)
 - [12. Tự thử](#12-tự-thử)
 - [13. Từ điển thuật ngữ](#13-từ-điển-thuật-ngữ)
 - [14. Câu hỏi tự kiểm tra](#14-câu-hỏi-tự-kiểm-tra)
@@ -49,6 +50,7 @@
 
 Chương 16 mở bằng một kỳ vọng rồi bác nó ngay:
 
+> [!quote]
 > *"Chúng ta thường tưởng rằng báo cáo lưu chuyển tiền tệ sẽ **dễ đọc**. Vì tiền mặt là khoản tiền có
 > thực, nên **không có những giả định và ước tính lồng trong các con số**… Tuy vậy, thực tế là chúng ta
 > sẽ thấy rằng gần như tất cả những nhà quản lý không có kiến thức tài chính sẽ phải mất một thời gian
@@ -62,6 +64,7 @@ Chương 16 mở bằng một kỳ vọng rồi bác nó ngay:
 
 Về lý do 2, sách nêu đúng cái bẫy khiến ai cũng khựng lại:
 
+> [!quote]
 > *"Trong một mục điển hình có thể xuất hiện dòng **'(tăng)/giảm khoản phải thu'** sau một con số âm
 > hoặc con số dương. **Như vậy, đó là tăng hay giảm?**"* — ch. 16 · PDF tr. 121
 
@@ -77,8 +80,9 @@ Và sách chọn giải quyết lý do 3 trước, vì hai lý do kia dễ hơn 
 | **Hoạt động đầu tư** | đầu tư **do doanh nghiệp**, không phải do chủ doanh nghiệp. Lớn nhất là mua/bán tài sản | *"cho biết doanh nghiệp **dành ra bao nhiêu để đầu tư cho tương lai**"* |
 | **Hoạt động tài chính** | vay và trả nợ; giao dịch với cổ đông — góp vốn, mua lại cổ phiếu, trả cổ tức | *"cho biết doanh nghiệp **phụ thuộc như thế nào vào nguồn tài chính bên ngoài**"* |
 
-📚 Sách còn đùa một câu về nhãn tên: *"nhiều kế toán viên không thể nói 'hoạt động,' họ phải nói 'hoạt
-động kinh doanh'"* (PDF tr. 121). Nhãn khác nhau, nội dung như nhau.
+> [!note]
+> Sách còn đùa một câu về nhãn tên: *"nhiều kế toán viên không thể nói 'hoạt động,' họ phải nói 'hoạt
+> động kinh doanh'"* (PDF tr. 121). Nhãn khác nhau, nội dung như nhau.
 
 Ba câu hỏi trên là công cụ đọc, và [mục 6](#6-ba-hạng-mục-nói-gì-về-công-ty-mẫu) sẽ chạy cả ba trên
 số thật. Trước đó, hai điều đáng nhớ về từng hạng mục:
@@ -92,8 +96,9 @@ mượn hay bán cổ phiếu**."* — ch. 16 · PDF tr. 122
 đầu tư; ban quản lý có thể đang coi hoạt động kinh doanh là **'con bò sữa'**, nên tiếp tục vắt kiệt
 nguồn tiền mặt mà nó tạo ra, thay vì đầu tư để nó có thể phát triển."* — ch. 16 · PDF tr. 122–123
 
-⚠️ Nhưng sách cũng tự rào: *"cách tính cao hay thấp sẽ còn phụ thuộc vào loại hình kinh doanh. Chẳng
-hạn, các doanh nghiệp dịch vụ thường ít đầu tư vào tài sản hơn khối doanh nghiệp sản xuất."*
+> [!warning]
+> Nhưng sách cũng tự rào: *"cách tính cao hay thấp sẽ còn phụ thuộc vào loại hình kinh doanh. Chẳng
+> hạn, các doanh nghiệp dịch vụ thường ít đầu tư vào tài sản hơn khối doanh nghiệp sản xuất."*
 
 ---
 
@@ -105,6 +110,7 @@ Trước khi làm doanh nghiệp thật, sách chạy thử một ví dụ tí h
 Doanh thu 100 · COGS 50 · chi phí khác 15 · khấu hao 10 → **lợi nhuận thuần 25**. Toàn bộ doanh thu nằm
 trong phải thu; toàn bộ COGS nằm trong phải trả.
 
+> [!quote]
 > **Nguyên tắc chính:** *"nếu **tài sản tăng, thì tiền mặt giảm** – vì vậy chúng ta sẽ trừ phần tăng
 > thêm này khỏi thu nhập thuần. Với bên nợ thì ngược lại. **Nếu nợ tăng thì tiền mặt cũng tăng** – vì
 > vậy chúng ta thêm phần tăng thêm vào thu nhập thuần."* — ch. 17 · PDF tr. 128
@@ -121,14 +127,16 @@ trong phải thu; toàn bộ COGS nằm trong phải trả.
 nhất** trong kỳ của công ty là 15 đô-la chi phí hoạt động."* Hai đường độc lập, cùng ra −15. Chốt bằng
 `assert`.
 
-⚠️ Và sách cảnh báo ngay đừng quen tay: *"trong hoạt động kinh doanh **thực tế**, bạn **không thể** xác
-nhận kết quả chỉ đơn giản bằng theo dõi thông thường."* Ví dụ này kiểm được vì nó chỉ có **một** dòng
-tiền duy nhất.
+> [!warning]
+> Và sách cảnh báo ngay đừng quen tay: *"trong hoạt động kinh doanh **thực tế**, bạn **không thể** xác
+> nhận kết quả chỉ đơn giản bằng theo dõi thông thường."* Ví dụ này kiểm được vì nó chỉ có **một** dòng
+> tiền duy nhất.
 
-📚 Vì sao bắt đầu từ lợi nhuận thuần chứ không từ đâu khác? *"Nếu mọi giao dịch đều được thực hiện bằng
-tiền mặt, và nếu không có khoản chi tiêu phi tiền mặt nào như khấu hao, **lợi nhuận thuần và dòng lưu
-chuyển tiền từ hoạt động kinh doanh sẽ là một**."* (PDF tr. 126). Cả báo cáo này chỉ là danh sách những
-chỗ hai con số ấy **tách nhau ra**.
+> [!note]
+> Vì sao bắt đầu từ lợi nhuận thuần chứ không từ đâu khác? *"Nếu mọi giao dịch đều được thực hiện bằng
+> tiền mặt, và nếu không có khoản chi tiêu phi tiền mặt nào như khấu hao, **lợi nhuận thuần và dòng lưu
+> chuyển tiền từ hoạt động kinh doanh sẽ là một**."* (PDF tr. 126). Cả báo cáo này chỉ là danh sách những
+> chỗ hai con số ấy **tách nhau ra**.
 
 ---
 
@@ -136,11 +144,13 @@ chỗ hai con số ấy **tách nhau ra**.
 
 Chương 17 hứa một điều nghe khó tin:
 
+> [!quote]
 > *"Bạn có thể **tính toán số liệu cho báo cáo lưu chuyển tiền tệ chỉ bằng cách nhìn vào báo cáo kết quả
 > kinh doanh và bảng cân đối kế toán**."* — ch. 17 · PDF tr. 125
 
 Và giải thích vì sao điều đó **phải** đúng:
 
+> [!quote]
 > *"Tất cả những quy tắc, giả định và ước tính này đều phải cung cấp cho chúng ta thông tin hữu dụng về
 > **thế giới thực**. Và vì trong tài chính, **thế giới thực được đại diện bởi tiền mặt**, nên bảng cân
 > đối kế toán và báo cáo kết quả kinh doanh **phải có một mối quan hệ logic** nào đó với báo cáo lưu
@@ -177,20 +187,23 @@ con số khấu hao và con số cổ tức** — và không gì khác:
 ⭐ **13 dòng, không một dòng nào lệch.** Sách nói đúng: *"Quả là một bài tập phức tạp! Nhưng bạn có thể
 thấy tất cả những **liên kết này đẹp đẽ và tinh vi** đến độ nào."*
 
-📚 **Lưu ý 1 của sách — vì sao dòng PPE cần điều chỉnh.** PPE trên sổ sách **giảm 34** (2.264 → 2.230).
-Nhưng đó không phải doanh nghiệp bán bớt tài sản: nó đã **chi ra 205 tiền thật**, chỉ là khấu hao 239 ăn
-mất nhiều hơn thế.
+> [!note] Lưu ý 1 của sách — vì sao dòng PPE cần điều chỉnh.
+> PPE trên sổ sách **giảm 34** (2.264 → 2.230).
+> Nhưng đó không phải doanh nghiệp bán bớt tài sản: nó đã **chi ra 205 tiền thật**, chỉ là khấu hao 239 ăn
+> mất nhiều hơn thế.
 
+> [!note]
 > **capex = khấu hao + thay đổi PPE = 239 + (−34) = 205**
 
 Sách minh hoạ bằng đội xe tải 100.000, khấu hao 10.000/năm → cuối năm dòng PPE là 90.000. *"Khấu hao là
 một khoản chi tiêu phi tiền mặt, và vì chúng ta đang cố tìm đến một con số tiền mặt, nên chúng ta phải
 **'bỏ qua' khoản này bằng cách cộng nó trở lại**."* (PDF tr. 133)
 
-📚 **Lưu ý 2 — cổ tức.** 2,24 đô-la/cổ phiếu × 74 triệu cổ phiếu ≈ **166 triệu**. Và 248 − 166 = **82** —
-đúng bằng mức tăng vốn chủ sở hữu ở [bài 5](bai_05_vi_sao_bang_can_doi_lai_can.md) mục 3. Sách rút ra
-một hệ quả gọn: *"Nếu doanh nghiệp **không trả cổ tức hay bán cổ phiếu**, thì khi đó dòng lưu chuyển
-tiền cho hoạt động tài chính **sẽ là 0**."*
+> [!note] Lưu ý 2 — cổ tức.
+> 2,24 đô-la/cổ phiếu × 74 triệu cổ phiếu ≈ **166 triệu**. Và 248 − 166 = **82** —
+> đúng bằng mức tăng vốn chủ sở hữu ở [bài 5](bai_05_vi_sao_bang_can_doi_lai_can.md) mục 3. Sách rút ra
+> một hệ quả gọn: *"Nếu doanh nghiệp **không trả cổ tức hay bán cổ phiếu**, thì khi đó dòng lưu chuyển
+> tiền cho hoạt động tài chính **sẽ là 0**."*
 
 ---
 
@@ -209,9 +222,10 @@ từng dòng thật của công ty mẫu:
 ⭐ **Dấu của dòng trên báo cáo luôn NGƯỢC dấu thay đổi của tài sản, và CÙNG dấu thay đổi của nợ.** Chốt
 bằng `assert` trên từng dòng.
 
-💼 **Mẹo đọc nhanh** khi gặp dòng *"(tăng)/giảm"* mà không biết dấu nào ứng với gì: dòng đó nằm ở hạng
-mục HĐKD, nên nó là một **điều chỉnh tiền mặt**. Số **dương luôn nghĩa là tiền tăng**. Còn bản thân
-khoản mục trên bảng cân đối tăng hay giảm thì suy ngược ra — tài sản thì ngược dấu, nợ thì cùng dấu.
+> [!example] Mẹo đọc nhanh
+> khi gặp dòng *"(tăng)/giảm"* mà không biết dấu nào ứng với gì: dòng đó nằm ở hạng
+> mục HĐKD, nên nó là một **điều chỉnh tiền mặt**. Số **dương luôn nghĩa là tiền tăng**. Còn bản thân
+> khoản mục trên bảng cân đối tăng hay giảm thì suy ngược ra — tài sản thì ngược dấu, nợ thì cùng dấu.
 
 📌 Sách dẫn đúng chuỗi giao dịch làm nền cho quy tắc này (PDF tr. 125–126): bán chịu 100 → phải thu +100
 **và** doanh thu +100; khách trả → phải thu −100, tiền +100. Mua 100 tồn kho → phải trả +100 và tồn kho
@@ -230,12 +244,14 @@ hiện trên cả ba báo cáo.**"*
 | lợi nhuận thuần | 248 |
 | **tỷ lệ chuyển đổi** | **2,01 lần** |
 
+> [!quote]
 > *"Dòng lưu chuyển tiền từ hoạt động kinh doanh **cao hơn nhiều** so với thu nhập thuần. Hàng tồn kho
 > giảm, vì vậy có thể giả định rằng doanh nghiệp **đang thắt chặt hoạt động**."* — ch. 18 · PDF tr. 136
 
-⚠️ Đúng, nhưng cần đọc kỹ hơn một bước: **riêng khoản tồn kho giảm 244 đã đóng góp 49% tiền từ HĐKD** —
-và đó là **nguồn chỉ dùng được một lần**. Năm sau không thể giảm thêm 244 nữa. Tỷ lệ 2,01 lần này **không
-bền**.
+> [!warning]
+> Đúng, nhưng cần đọc kỹ hơn một bước: **riêng khoản tồn kho giảm 244 đã đóng góp 49% tiền từ HĐKD** —
+> và đó là **nguồn chỉ dùng được một lần**. Năm sau không thể giảm thêm 244 nữa. Tỷ lệ 2,01 lần này **không
+> bền**.
 
 ### ② Đầu tư
 
@@ -245,12 +261,14 @@ bền**.
 | khấu hao | 239 |
 | **capex / khấu hao** | **0,86 lần** |
 
+> [!quote]
 > *"**Khấu hao vượt xa đầu tư mới**, điều này làm chúng ta phải băn khoăn không rõ ban quản lý có tin
 > rằng doanh nghiệp có tương lai hay không."* — ch. 18 · PDF tr. 136
 
-⚠️ **Chữ "vượt xa" hơi quá tay.** Khấu hao 239 so với capex 205 — vượt **34**, tức **17%**. Với nhịp
-này, nền tài sản PPE 2.230 phải mất **66 năm** mới mòn hết. Hướng thì sách nói đúng, nhưng độ lớn thì là
-"vượt **nhẹ**", không phải "vượt xa".
+> [!warning] Chữ "vượt xa" hơi quá tay.
+> Khấu hao 239 so với capex 205 — vượt **34**, tức **17%**. Với nhịp
+> này, nền tài sản PPE 2.230 phải mất **66 năm** mới mòn hết. Hướng thì sách nói đúng, nhưng độ lớn thì là
+> "vượt **nhẹ**", không phải "vượt xa".
 
 ### ③ Tài chính
 
@@ -276,7 +294,7 @@ nghiệp."*
 
 ---
 
-## 7. ⚠️ Bốn chỗ sách in sai trong chính chương 17
+## 7. Bốn chỗ sách in sai trong chính chương 17
 
 Chương 17 in lại cả ba báo cáo để bạn đối chiếu. Vì thuật toán ở mục 4 chạy được, ta chỉ ra được **chính
 xác** chỗ nào hỏng:
@@ -294,14 +312,16 @@ số, đây là thứ tự xuất hiện)*; **dòng thứ 8 ghi một con số, 
 một chương, cách nhau hai trang. Nó đã được đưa vào sổ tổng kết ở
 [bài 12 mục 9](bai_12_to_chuc_co_tri_tue_tai_chinh.md#9-sổ-tổng-kết--mọi-chỗ-sách-in-sai).
 
-💼 **Bài học đọc báo cáo:** khi hai chỗ trong **cùng một tài liệu** nói hai con số khác nhau, đừng đoán
-cái nào đúng. **Cộng cột lại.** Ở đây chỉ có một cách làm 498 − 185 − 302 = 11 khớp với thay đổi tiền
-mặt trên bảng cân đối, và đó là con số đúng.
+> [!example] Bài học đọc báo cáo:
+> khi hai chỗ trong **cùng một tài liệu** nói hai con số khác nhau, đừng đoán
+> cái nào đúng. **Cộng cột lại.** Ở đây chỉ có một cách làm 498 − 185 − 302 = 11 khớp với thay đổi tiền
+> mặt trên bảng cân đối, và đó là con số đúng.
 
 ---
 
 ## 8. Dòng lưu chuyển tiền tự do
 
+> [!quote]
 > *"**EBITDA không còn** là 'thước đo yêu thích để theo dõi' của Phố Wall nữa. Thước đo hiện đang thu
 > hút được sự quan tâm là **dòng lưu chuyển tiền tự do**. Một số doanh nghiệp đã theo dõi nó từ nhiều
 > năm. **Berkshire Hathaway** của Warren Buffett là ví dụ đình đám nhất, dù Buffett gọi thước đo này là
@@ -326,8 +346,10 @@ tư vào thiết bị thuộc hạng mục đầu tư cơ bản. **Tất cả ch
 - Còn **127** để trả nợ. Mà thực tế nó đã trả **136** — nhiều hơn phần còn lại; phần chênh lấy từ tồn
   kho giảm. **Đó là lý do khoản tồn kho giảm 244 lại quan trọng đến thế.**
 
-📚 Sách kể thước đo này bắt được gì mà các thước đo khác không bắt được:
+> [!note]
+> Sách kể thước đo này bắt được gì mà các thước đo khác không bắt được:
 
+> [!quote]
 > *"Đáng lẽ nó đã có thể giúp chúng ta trong suốt thời kỳ bùng nổ điên cuồng các công ty **dot-com**,
 > khi mà nhiều doanh nghiệp mới thành lập có dòng lưu chuyển tiền từ HĐKD **âm** và dòng lưu chuyển tiền
 > từ đầu tư **khổng lồ**. Dòng lưu chuyển tiền tự do của các doanh nghiệp này khi đó **âm nặng**, và nhu
@@ -345,6 +367,7 @@ Phố Wall **nhìn cổ phiếu ưu ái hơn**.
 
 Sách khen báo cáo này sạch hơn hai báo cáo kia — rồi rào lại ngay:
 
+> [!quote]
 > *"Ở báo cáo này **không có nhiều chỗ** để chơi trò tiểu xảo với các con số… Tuy nhiên, cần nói rõ rằng
 > **'không có nhiều chỗ' không có nghĩa là 'không có chỗ'**. Ví dụ, nếu một doanh nghiệp muốn cố thể
 > hiện dòng lưu chuyển tiền tệ vững mạnh trong một quý cụ thể, doanh nghiệp đó có thể **trì hoãn thanh
@@ -384,6 +407,7 @@ cấp** hàng hoá và dịch vụ, nếu không, tác động này **chỉ có 
 
 Lý do thứ hai sách đưa ra cho việc học báo cáo này:
 
+> [!quote]
 > *"**Bạn có tác động đến tiền mặt.** Như chúng tôi đã nói trước đó, hầu hết các nhà quản lý đều tập
 > trung vào lợi nhuận, trong khi lẽ ra họ nên tập trung vào **cả lợi nhuận và tiền mặt**."*
 > — ch. 18 · PDF tr. 137
@@ -419,33 +443,37 @@ Một kịch bản **rất** khiêm tốn — thu tiền nhanh hơn 5 ngày và 
 ⭐ **308 triệu — nhiều hơn cả năm lợi nhuận thuần (248)**, và bằng 62% tiền từ HĐKD cả năm. Không cần
 bán thêm một đơn hàng nào, không cần cắt một nhân sự nào.
 
-⚠️ **Và đây không phải mục 9.** Mục 9 là trì hoãn trả tiền — nó **đảo ngược** ở kỳ sau. Mục này là rút
-ngắn chu kỳ thật; tiền giải phóng ra thì **ở lại**. Sự khác biệt nằm ở chỗ bạn có đổi được **hành vi**
-hay chỉ đổi được **thời điểm ghi sổ**.
+> [!warning] Và đây không phải mục 9.
+> Mục 9 là trì hoãn trả tiền — nó **đảo ngược** ở kỳ sau. Mục này là rút
+> ngắn chu kỳ thật; tiền giải phóng ra thì **ở lại**. Sự khác biệt nằm ở chỗ bạn có đổi được **hành vi**
+> hay chỉ đổi được **thời điểm ghi sổ**.
 
-💼 Sách kể cả câu nói mẫu để mở chuyện với phòng tài chính: *"Chẳng hạn nếu tôi thấy DSO của chúng ta
-trong vài tháng gần đây đang đi chệch hướng – **tôi có thể giúp gì** để xoay chuyển tình thế?"* Và nói
-thẳng phần thưởng: nhà quản lý hiểu dòng tiền *"thường được giao nhiều trọng trách hơn, và thường có
-khuynh hướng **thăng tiến nhanh hơn** những người chỉ thuần tuý tập trung vào báo cáo kết quả kinh
-doanh."* (PDF tr. 138–139)
+> [!example]
+> Sách kể cả câu nói mẫu để mở chuyện với phòng tài chính: *"Chẳng hạn nếu tôi thấy DSO của chúng ta
+> trong vài tháng gần đây đang đi chệch hướng – **tôi có thể giúp gì** để xoay chuyển tình thế?"* Và nói
+> thẳng phần thưởng: nhà quản lý hiểu dòng tiền *"thường được giao nhiều trọng trách hơn, và thường có
+> khuynh hướng **thăng tiến nhanh hơn** những người chỉ thuần tuý tập trung vào báo cáo kết quả kinh
+> doanh."* (PDF tr. 138–139)
 
 Câu đóng Phần IV:
 
+> [!quote]
 > *"Dòng lưu chuyển tiền tệ là chỉ báo chính cho sức khoẻ tài chính, cùng với khả năng sinh lời và vốn
 > chủ sở hữu. Nó là **liên kết cuối cùng trong tam giác**, và bạn cần **cả ba** để đánh giá sức khoẻ tài
 > chính của doanh nghiệp."* — ch. 18 · PDF tr. 139
 
 ---
 
-## 11. 🇻🇳 Đối chiếu Việt Nam
+## 11. Đối chiếu Việt Nam
 
 **① Hai phương pháp lập, và Việt Nam dùng cả hai.** Thuật toán ở mục 4 — bắt đầu từ lợi nhuận thuần rồi
 điều chỉnh — gọi là **phương pháp gián tiếp**. Còn **phương pháp trực tiếp** liệt kê thẳng tiền thu từ
 khách và tiền trả cho nhà cung cấp. Mẫu B03-DN của Việt Nam có **cả hai biểu mẫu**; doanh nghiệp chọn
 một, và đa số chọn gián tiếp — đúng cái mà chương 17 dạy.
 
-💼 Nếu công ty bạn lập theo **trực tiếp**, mục 4 vẫn dùng được: nó là cách **kiểm chéo** con số mà phòng
-kế toán đưa ra.
+> [!example]
+> Nếu công ty bạn lập theo **trực tiếp**, mục 4 vẫn dùng được: nó là cách **kiểm chéo** con số mà phòng
+> kế toán đưa ra.
 
 **② Tỷ lệ chuyển lợi nhuận thành tiền — thước đo mà chương 18 đặt lên hàng đầu:**
 
@@ -458,10 +486,11 @@ kế toán đưa ra.
 có nghĩa là khoẻ hơn**: 49% tiền từ HĐKD của công ty mẫu đến từ **giảm tồn kho**, một nguồn chỉ dùng
 được một lần. Tỷ lệ 1,12 của Vinamilk **bền hơn** tỷ lệ 2,01 của công ty mẫu, dù trông kém hơn.
 
-⚠️ **Chưa tính được dòng lưu chuyển tiền tự do cho Vinamilk trong kho này.** Bộ số liệu đang có chỉ ghi
-**tổng** tiền từ hoạt động đầu tư (−3.739.093), chưa tách riêng capex khỏi tiền gửi và đầu tư tài chính.
-Muốn tính phải lấy thêm thuyết minh từ báo cáo gốc. Đây là một **lỗ hổng dữ liệu**, không phải một kết
-luận.
+> [!warning] Chưa tính được dòng lưu chuyển tiền tự do cho Vinamilk trong kho này.
+> Bộ số liệu đang có chỉ ghi
+> **tổng** tiền từ hoạt động đầu tư (−3.739.093), chưa tách riêng capex khỏi tiền gửi và đầu tư tài chính.
+> Muốn tính phải lấy thêm thuyết minh từ báo cáo gốc. Đây là một **lỗ hổng dữ liệu**, không phải một kết
+> luận.
 
 **③ Chỗ "tiểu xảo" của mục 9 có một dấu vết cụ thể trong báo cáo Việt Nam.** Trì hoãn trả nhà cung cấp
 làm **DPO** nhảy vọt ở kỳ cuối năm. Vì báo cáo năm chỉ chụp một ngày 31/12, cách kiểm là so **DPO cuối
@@ -674,7 +703,7 @@ rồi chạy lại. Không có lời giải.
 - **Công ty Cổ phần Sữa Việt Nam (HOSE: VNM)** — Báo cáo tài chính hợp nhất đã kiểm toán 2024 theo
   IFRS, trong *Báo cáo thường niên Vinamilk 2024*, tr. 180–185.
   [Nguồn gốc](https://www.vinamilk.com.vn/bao-cao-thuong-nien/bao-cao/2024/doc/vi/bctc-ifrs.pdf),
-  truy xuất 08/09/2026. Dùng ở [mục 11](#11--đối-chiếu-việt-nam).
+  truy xuất 08/09/2026. Dùng ở [mục 11](#11-đối-chiếu-việt-nam).
 - **Đã kiểm chứng bằng code** — [`thuc_hanh/bai-07-bao-cao-luu-chuyen-tien-te.py`](../thuc_hanh/bai-07-bao-cao-luu-chuyen-tien-te.py):
   - ⭐ **`dung_lctt()` sinh lại cả 13 dòng của báo cáo chỉ từ hai bảng cân đối + khấu hao + cổ tức**, và
     cả ba hạng mục khớp **từng dòng** với bản sách in — chốt bằng `assert` trên cả ba dict;

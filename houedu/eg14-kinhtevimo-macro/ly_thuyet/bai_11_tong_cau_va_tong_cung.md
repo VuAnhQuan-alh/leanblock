@@ -1,16 +1,18 @@
 # Bài 11 — Tổng cầu và tổng cung
 
+> [!info] Về bài này
 > Bài học dựng từ **Chương 20 — Tổng cầu và tổng cung** (tr. 469–506)
 > của *N. Gregory Mankiw — **Kinh tế học vĩ mô***, bản dịch của Khoa Kinh tế, **ĐH Kinh tế TP.HCM**
 > (Cengage Learning Asia).
-> 🎯 **Vòng 1.** ⭐⭐ **Đây là chỗ khoá học rẽ.** Bài 3–10 nói về **dài hạn**: giá cả linh hoạt, tiền
+>
+> **Vòng 1.** ⭐⭐ **Đây là chỗ khoá học rẽ.** Bài 3–10 nói về **dài hạn**: giá cả linh hoạt, tiền
 > trung lập, sản lượng do yếu tố sản xuất quyết định. Từ bài này trở đi là **ngắn hạn**, và ở đó **mọi
 > kết luận ấy đều sai** — sách nói thẳng điều đó ở tr. 473, và dẫn chính David Hume, người dựng ra phân
 > đôi cổ điển, làm nhân chứng.
-> 💼 **Góc QTKD** — ví dụ thêm cho ngành quản trị kinh doanh, **không có trong sách**.
-> 📚 **Mở rộng** — thứ sách nói lướt hoặc để trong hộp phụ.
-> ⚠️ — chỗ dễ hiểu sai, hoặc chỗ sách in sai.
-> 📌 **Cần đọc trước:** [Bài 8 mục 5](bai_08_tang_truong_tien_va_lam_phat.md#5-phân-đôi-cổ-điển-và-tính-trung-lập-của-tiền)
+>
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
+>
+> **Cần đọc trước:** [Bài 8 mục 5](bai_08_tang_truong_tien_va_lam_phat.md#5-phân-đôi-cổ-điển-và-tính-trung-lập-của-tiền)
 > (phân đôi cổ điển — bài này bỏ nó đi), [Bài 3](bai_03_san_xuat_va_tang_truong.md) (bốn yếu tố quyết
 > định sản lượng dài hạn), [Bài 6](bai_06_that_nghiep.md) (tỷ lệ thất nghiệp tự nhiên), và
 > [Bài 1 mục 5](bai_01_do_luong_thu_nhap_quoc_gia.md#5-bốn-thành-phần--y--c--i--g--nx) ($Y = C+I+G+NX$ — cả ba
@@ -36,11 +38,11 @@
 - [12. Thế Chiến II — thí nghiệm ngược](#12-thế-chiến-ii--thí-nghiệm-ngược)
 - [13. Suy thoái 2008–2009](#13-suy-thoái-20082009)
 - [14. Dầu và nền kinh tế](#14-dầu-và-nền-kinh-tế)
-- [15. 📚 Nguồn gốc mô hình — Keynes](#15--nguồn-gốc-mô-hình--keynes)
-- [16. 📚 Bảng 2 tr. 489 — cái gì dịch chuyển đường AS ngắn hạn](#16--bảng-2-tr-489--cái-gì-dịch-chuyển-đường-as-ngắn-hạn)
-- [17. 📚 Ba bài tập giải bằng số](#17--ba-bài-tập-giải-bằng-số)
-- [18. 📚 Đối chiếu Việt Nam](#18--đối-chiếu-việt-nam)
-- [19. 💼 Góc QTKD](#19--góc-qtkd)
+- [15. Nguồn gốc mô hình — Keynes](#15-nguồn-gốc-mô-hình--keynes)
+- [16. Bảng 2 tr. 489 — cái gì dịch chuyển đường AS ngắn hạn](#16-bảng-2-tr-489--cái-gì-dịch-chuyển-đường-as-ngắn-hạn)
+- [17. Ba bài tập giải bằng số](#17-ba-bài-tập-giải-bằng-số)
+- [18. Đối chiếu Việt Nam](#18-đối-chiếu-việt-nam)
+- [19. Góc QTKD](#19-góc-qtkd)
 - [20. Code minh hoạ](#20-code-minh-hoạ)
 - [21. Tự thử](#21-tự-thử)
 - [22. Từ điển thuật ngữ](#22-từ-điển-thuật-ngữ)
@@ -56,9 +58,11 @@
 
 Sách mở bằng hai câu đối lập nhau (tr. 469):
 
+> [!quote]
 > *"Bình quân trong hơn nửa thế kỷ qua, sản lượng của nền kinh tế Hoa Kỳ tính theo GDP thực đã tăng
 > khoảng **3% một năm**."*
 
+> [!quote]
 > *"Tuy nhiên, nền kinh tế Hoa Kỳ cũng trải qua một số năm **thu hẹp** thay vì tăng trưởng. Doanh nghiệp
 > không thể bán hàng hóa và dịch vụ ra thị trường, do đó phải cắt giảm sản xuất. Người lao động bị sa
 > thải, thất nghiệp tăng và các nhà máy ngừng hoạt động."*
@@ -74,10 +78,11 @@ Ví dụ gần nhất khi sách in — và nó là ví dụ chạy suốt chươ
 năm 2009, GDP thực của nền kinh tế Hoa Kỳ đã giảm **4%**. Tỷ lệ thất nghiệp tăng từ **4,4%** vào tháng
 5/2007 lên **10,1%** vào tháng 10/2009, đây là mức cao nhất trong hơn một phần tư thế kỷ."*
 
-### ⭐⭐ Khác biệt duy nhất so với mười bài trước: KHUNG THỜI GIAN
+### Khác biệt duy nhất so với mười bài trước: KHUNG THỜI GIAN
 
 Sách nói rõ ràng (tr. 469–470):
 
+> [!quote]
 > *"Điểm khác so với các phân tích trước chính là khung thời gian. Cho đến nay, mục tiêu của chúng ta là
 > lý giải hành vi của những biến số này **trong dài hạn**. Mục tiêu lúc này là giải thích **sự chệch
 > hướng ngắn hạn** của các biến số này khỏi xu hướng dài hạn."*
@@ -92,7 +97,7 @@ Sách nói rõ ràng (tr. 469–470):
 
 📌 Nếu bạn thấy bài này mâu thuẫn với bài 8, đó là **đúng** — và sách chủ động tạo ra mâu thuẫn đó. Hai
 bộ mô hình trả lời hai câu hỏi khác nhau. Điều này đã được báo trước từ
-[bài 0 mục 11](bai_00_tu_vi_mo_sang_vi_mo.md#11--vai-trò-của-giả-định--vì-sao-vĩ-mô-có-hai-bộ-mô-hình).
+[bài 0 mục 11](bai_00_tu_vi_mo_sang_vi_mo.md#11-vai-trò-của-giả-định--vì-sao-vĩ-mô-có-hai-bộ-mô-hình).
 
 Và sách thừa nhận đây là vùng còn tranh cãi (tr. 470): *"Các nhà kinh tế hiện vẫn tranh luận về cách tốt
 nhất để phân tích các biến động ngắn hạn, nhưng **đa số họ đều sử dụng mô hình tổng cầu và tổng cung**."*
@@ -105,8 +110,10 @@ Trước khi dựng mô hình, sách mô tả cái cần giải thích. Ba dữ 
 
 ### Dữ kiện 1: biến động là bất thường và không thể dự báo
 
-⚠️ Sách cảnh báo ngay về chính cái tên (tr. 470):
+> [!warning]
+> Sách cảnh báo ngay về chính cái tên (tr. 470):
 
+> [!quote]
 > *"Thuật ngữ **chu kỳ kinh tế** dễ gây nhầm lẫn vì nó gợi ý rằng những biến động kinh tế đi theo một mô
 > thức thường xuyên và có thể dự báo được. Thực tế, biến động kinh tế **không hề có tính thường xuyên**,
 > và hầu như **không thể dự báo trước** một cách chính xác."*
@@ -129,6 +136,7 @@ tế trải qua nhiều năm không suy thoái. Giai đoạn dài nhất trong l
 
 ✅ Phép chia kiểm bằng `assert`.
 
+> [!quote] tr. 472
 > *"Nói cách khác, khi điều kiện kinh tế đi xuống, phần lớn sự giảm sút có thể quy cho những cắt giảm
 > của chi tiêu vào **nhà máy mới, nhà ở mới và hàng tồn kho**."* (tr. 472)
 
@@ -140,11 +148,13 @@ tin xấu.
 
 ### Dữ kiện 3: khi sản lượng giảm thì thất nghiệp tăng
 
+> [!quote] tr. 472
 > *"Thực tế này không có gì ngạc nhiên: Khi các doanh nghiệp quyết định sản xuất hàng hóa và dịch vụ với
 > số lượng ít đi thì họ sẽ sa thải bớt công nhân."* (tr. 472)
 
-⚠️ Nhưng sách chốt bằng một câu quan trọng (tr. 472): *"Tỷ lệ thất nghiệp **không bao giờ tiến đến zero**;
-thay vào đó, nó biến động xung quanh **tỷ lệ tự nhiên vào khoảng 5–6%**."*
+> [!warning]
+> Nhưng sách chốt bằng một câu quan trọng (tr. 472): *"Tỷ lệ thất nghiệp **không bao giờ tiến đến zero**;
+> thay vào đó, nó biến động xung quanh **tỷ lệ tự nhiên vào khoảng 5–6%**."*
 
 📌 Đó chính là [bài 6](bai_06_that_nghiep.md): thất nghiệp cọ xát và cơ cấu không biến mất khi kinh tế
 tốt. Cái biến động theo chu kỳ chỉ là phần **thất nghiệp chu kỳ** nằm trên tỷ lệ tự nhiên.
@@ -160,15 +170,17 @@ $$\text{thất nghiệp } 4{,}4\% \to 10{,}1\% \quad \text{tức } +5{,}7 \text{
 [Bài 8 mục 5](bai_08_tang_truong_tien_va_lam_phat.md#5-phân-đôi-cổ-điển-và-tính-trung-lập-của-tiền) đã
 dạy rằng biến danh nghĩa và biến thực tách rời nhau. Sách nhắc lại nó bằng một hình ảnh gợi (tr. 473):
 
+> [!quote]
 > *"Quan điểm cổ điển này đôi lúc được mô tả theo cách nói: **'Tiền như là bức màn che bề ngoài'**."*
 
 Rồi bác bỏ nó — cho ngắn hạn:
 
+> [!quote] tr. 473
 > *"**Đa số các nhà kinh tế tin rằng lý thuyết cổ điển mô tả thế giới trong dài hạn chứ không phải trong
 > ngắn hạn.**… Trong ngắn hạn, các biến số thực và danh nghĩa **đan xen chặt chẽ** với nhau, và những
 > thay đổi của cung tiền có thể **tạm thời** đẩy GDP thực chệch khỏi xu hướng dài hạn của nó."* (tr. 473)
 
-### ⭐ Và nhân chứng của sách là chính David Hume
+### Và nhân chứng của sách là chính David Hume
 
 Đây là chi tiết đắt nhất của mục này (tr. 473–474). Hume — người đưa ra phân đôi cổ điển ở
 [bài 8](bai_08_tang_truong_tien_va_lam_phat.md#5-phân-đôi-cổ-điển-và-tính-trung-lập-của-tiền) — quan sát
@@ -176,6 +188,7 @@ Rồi bác bỏ nó — cho ngắn hạn:
 
 ![Hình 2 — tr. 474, bản chụp giáo trình](../tai_lieu/hinh/ch20-hinh-02-tr474.png)
 
+> [!quote]
 > *"khi cung tiền mở rộng sau những lần phát hiện ra vàng, thì phải **một thời gian sau** giá cả mới
 > tăng, và **trong lúc đó**, nền kinh tế tận hưởng việc làm gia tăng và sản lượng cao hơn."*
 
@@ -183,16 +196,18 @@ Rồi bác bỏ nó — cho ngắn hạn:
 bài học về cách đọc lý thuyết: **một mô hình tốt luôn kèm theo phạm vi áp dụng của nó**, và người dựng ra
 nó thường là người biết rõ phạm vi ấy nhất.
 
-### ⚠️ Một cái bẫy sách chặn ngay khi giới thiệu mô hình
+### Một cái bẫy sách chặn ngay khi giới thiệu mô hình
 
 Rất dễ nghĩ AD–AS là bản phóng to của cung–cầu một thị trường. Sách nói **không** (tr. 475):
 
+> [!quote]
 > *"Ta có xu hướng xem mô hình tổng cầu và tổng cung thật ra là phiên bản lớn của mô hình cầu và cung thị
 > trường như đã được giới thiệu trong Chương 4. **Thật ra, mô hình này là khác.**"*
 
 Vì sao? Ở thị trường kem, giá kem tăng thì người mua **chuyển sang thứ khác** — đó là sự thay thế **giữa
 các thị trường**. Nhưng:
 
+> [!quote] tr. 475
 > *"Suy cho cùng, đại lượng mà mô hình của chúng ta đang cố gắng giải thích – GDP thực – lại đo lường
 > tổng hàng hóa và dịch vụ do **tất cả** doanh nghiệp sản xuất ra trên **tất cả** các thị trường."*
 > (tr. 475)
@@ -228,6 +243,7 @@ Ví dụ kẹo của sách:
 | 1,00 USD | **1** cây kẹo |
 | 0,50 USD | **2** cây kẹo |
 
+> [!quote] tr. 476
 > *"Do đó, khi mức giá giảm làm cho số tiền bạn đang có sẽ tăng thêm giá trị, nó làm tăng số của cải thực
 > và khả năng mua hàng hóa và dịch vụ của bạn."* (tr. 476)
 
@@ -252,32 +268,33 @@ P giảm ở Hoa Kỳ  →  lãi suất Hoa Kỳ giảm
 📌 Đó đúng là mô hình [bài 10](bai_10_ly_thuyet_kinh_te_mo.md#3-cân-bằng-đồng-thời--và-mô-hình-bằng-số)
 chạy ngược từ một cú sốc mức giá. Ba bài không phải ba chủ đề rời.
 
-### ⚠️⚠️ Điều dễ nhầm nhất của cả chương
+### Điều dễ nhầm nhất của cả chương
 
 Sách nói rõ (tr. 478):
 
+> [!quote]
 > *"đường tổng cầu (giống như mọi đường cầu) được vẽ ra trong điều kiện 'các yếu tố khác không đổi'. Cụ
 > thể, **ba lý giải về độ dốc đi xuống của đường tổng cầu đều giả định cung tiền là cố định**."*
 
 **Đổi mức giá → đi DỌC theo đường AD. Đổi cung tiền → đường AD DỊCH CHUYỂN.** Nhầm hai chuyện này là lỗi
 phổ biến nhất khi làm bài tập chương này.
 
-### 📚 Thí nghiệm tư duy của sách
-
-Sách đưa một thí nghiệm đáng làm (tr. 478): bạn thức dậy và thấy **giá mọi thứ giảm một nửa**, nên số
-tiền trong tay bạn có giá trị **gấp đôi**. Bạn làm gì?
-
-| Bạn chọn | Hiệu ứng nào | Thành phần nào tăng |
-| -------- | ------------ | ------------------- |
-| Ăn xài, tăng chi tiêu | của cải | $C$ |
-| Cho vay / mua trái phiếu | lãi suất | $I$ |
-| Đầu tư ra nước ngoài | tỷ giá | $NX$ |
-
-> *"**Bất kể bạn chọn cách nào** trong số ba phản ứng này, thì mức giá giảm vẫn làm tăng lượng cầu hàng
-> hóa và dịch vụ."* (tr. 478)
-
-⭐ Đó là cách đọc hay nhất: ba hiệu ứng không phải ba lý thuyết cạnh tranh nhau, mà là **ba lối thoát cho
-cùng một lượng sức mua tăng thêm**. Không lối nào cũng dẫn về cùng một kết luận.
+> [!note] Thí nghiệm tư duy của sách
+>
+> Sách đưa một thí nghiệm đáng làm (tr. 478): bạn thức dậy và thấy **giá mọi thứ giảm một nửa**, nên số
+> tiền trong tay bạn có giá trị **gấp đôi**. Bạn làm gì?
+>
+> | Bạn chọn | Hiệu ứng nào | Thành phần nào tăng |
+> | -------- | ------------ | ------------------- |
+> | Ăn xài, tăng chi tiêu | của cải | $C$ |
+> | Cho vay / mua trái phiếu | lãi suất | $I$ |
+> | Đầu tư ra nước ngoài | tỷ giá | $NX$ |
+>
+> > *"**Bất kể bạn chọn cách nào** trong số ba phản ứng này, thì mức giá giảm vẫn làm tăng lượng cầu hàng
+> > hóa và dịch vụ."* (tr. 478)
+>
+> ⭐ Đó là cách đọc hay nhất: ba hiệu ứng không phải ba lý thuyết cạnh tranh nhau, mà là **ba lối thoát cho
+> cùng một lượng sức mua tăng thêm**. Không lối nào cũng dẫn về cùng một kết luận.
 
 ---
 
@@ -292,10 +309,11 @@ cùng một lượng sức mua tăng thêm**. Không lối nào cũng dẫn về
 | **Mua sắm chính phủ** | xây đường cao tốc · tăng quốc phòng | cắt giảm chi tiêu |
 | **Xuất khẩu ròng** | kinh tế hải ngoại khởi sắc · **đồng tiền giảm giá** | hải ngoại suy thoái · **đồng tiền tăng giá** |
 
-### ⭐ Chú ý cung tiền nằm ở dòng ĐẦU TƯ, không phải một dòng riêng
+### Chú ý cung tiền nằm ở dòng ĐẦU TƯ, không phải một dòng riêng
 
 Sách giải thích cơ chế (tr. 479):
 
+> [!quote]
 > *"sự gia tăng cung tiền làm giảm lãi suất trong ngắn hạn. Lãi suất giảm giúp chi phí vay ít tốn kém, do
 > đó kích thích chi tiêu đầu tư và do đó dịch chuyển đường tổng cầu sang phải."*
 
@@ -304,7 +322,7 @@ mở kỹ đúng cơ chế này. Và sách nói thêm (tr. 479): *"Nhiều nhà 
 Kỳ, những thay đổi của chính sách tiền tệ vẫn luôn là **nguồn gốc quan trọng** gây ra sự chuyển dịch của
 tổng cầu."*
 
-### ⚠️ Và chú ý dòng xuất khẩu ròng
+### Và chú ý dòng xuất khẩu ròng
 
 **Đồng tiền GIẢM giá làm AD dịch PHẢI.** Đó là [bài 9–10](bai_10_ly_thuyet_kinh_te_mo.md) nối vào đây:
 một cú sốc tỷ giá không chỉ là chuyện của ngành xuất khẩu — nó **dịch cả đường tổng cầu của nền kinh tế**.
@@ -318,6 +336,7 @@ nó hiện ra ở **sản lượng**, không chỉ ở tỷ giá.
 
 ## 6. Tổng cung dài hạn dốc đứng
 
+> [!quote]
 > **Mức sản lượng tự nhiên** (tr. 482): *"sản lượng hàng hóa và dịch vụ mà nền kinh tế đạt được trong dài
 > hạn khi thất nghiệp ở tỷ lệ thông thường."* Còn gọi là **sản lượng tiềm năng** hay **sản lượng toàn
 > dụng**.
@@ -326,6 +345,7 @@ Lập luận cho độ dốc đứng chỉ là [bài 3](bai_03_san_xuat_va_tang_
 
 ![Hình 4 — tr. 481, bản chụp giáo trình](../tai_lieu/hinh/ch20-hinh-04-tr481.png)
 
+> [!quote]
 > *"Trong dài hạn, sản lượng hàng hóa và dịch vụ của một nền kinh tế (GDP thực) phụ thuộc vào nguồn cung
 > **lao động, vốn và tài nguyên thiên nhiên**, và vào **công nghệ** sẵn có để chuyển hóa những yếu tố sản
 > xuất này thành hàng hóa và dịch vụ."*
@@ -356,6 +376,7 @@ gặp lại chương này. Và ngược lại, sách cũng nêu (tr. 483): quy �
 
 Sách tự tổng kết rất gọn (tr. 483):
 
+> [!quote]
 > *"**Bất kỳ chính sách hay sự kiện nào làm tăng GDP thực trong các chương trước thì bây giờ đều có thể
 > được mô tả như làm tăng lượng cung hàng hóa và dịch vụ và đẩy đường tổng cung dài hạn sang phải.**"*
 
@@ -370,6 +391,7 @@ Sách nêu **chủ đề chung** trước khi kể ba lý thuyết, và câu nà
 
 ![Hình 6 — tr. 485, bản chụp giáo trình](../tai_lieu/hinh/ch20-hinh-06-tr485.png)
 
+> [!quote]
 > *"Lượng cung sản lượng **chệch khỏi** mức dài hạn hay mức tự nhiên khi mức giá **thực tế** trong nền
 > kinh tế **chệch khỏi** mức giá mà người dân **kỳ vọng** sẽ diễn ra."*
 
@@ -379,13 +401,15 @@ Sách nêu **chủ đề chung** trước khi kể ba lý thuyết, và câu nà
 | **Giá cả kết dính** | giá niêm yết — vì có **chi phí thực đơn** ([bài 8 mục 10](bai_08_tang_truong_tien_va_lam_phat.md#10-chi-phí-thứ-nhất-và-thứ-hai--mòn-giày-thực-đơn)) |
 | **Sự ngộ nhận** | nhà cung ứng nhầm giá **tương đối** của mình với giá chung |
 
-⚠️ Sách **không** chọn một lý thuyết (tr. 488):
+> [!warning]
+> Sách **không** chọn một lý thuyết (tr. 488):
 
+> [!quote]
 > *"Các nhà kinh tế vẫn tranh luận lý thuyết nào là đúng, và rất có khả năng **mỗi lý thuyết đều hàm chứa
 > một phần sự thật**. Theo mục tiêu của cuốn sách này, những **điểm tương đồng** của các lý thuyết này
 > quan trọng hơn là sự khác biệt."*
 
-### ✅ Ví dụ số của sách (tr. 486) — lý thuyết tiền lương kết dính
+### Ví dụ số của sách (tr. 486) — lý thuyết tiền lương kết dính
 
 Năm ngoái doanh nghiệp **kỳ vọng** mức giá năm nay là **100**, nên ký hợp đồng lao động ở mức lương
 **20 USD/giờ**.
@@ -396,7 +420,7 @@ Năm ngoái doanh nghiệp **kỳ vọng** mức giá năm nay là **100**, nên
 | 100 | 0% | 20,00 $ | 0,2000 |
 | 105 | **+5%** | 20,00 $ | **0,1905** |
 
-### ⭐ Đọc cột cuối
+### Đọc cột cuối
 
 **Lương danh nghĩa đứng yên ở 20 USD. Lương THỰC đi ngược với mức giá.**
 
@@ -405,12 +429,15 @@ Năm ngoái doanh nghiệp **kỳ vọng** mức giá năm nay là **100**, nên
 
 Đó là toàn bộ cơ chế, và sách kể đúng như vậy (tr. 486):
 
+> [!quote]
 > *"Vì mức giá giảm thấp hơn mức kỳ vọng, doanh nghiệp này mất 5% cho mỗi đơn vị sản phẩm bán ra. Chi phí
 > lao động sử dụng để làm ra sản phẩm thì vẫn **chốt** ở mức 20 đô la một giờ. Sản xuất lúc này ít có lợi
 > nhuận hơn, do đó doanh nghiệp thuê ít lao động hơn và giảm lượng sản phẩm cung ứng."*
 
-⚠️ Và cái chốt "tạm thời" (tr. 486):
+> [!warning]
+> Và cái chốt "tạm thời" (tr. 486):
 
+> [!quote]
 > *"Theo thời gian, hợp đồng lao động sẽ hết hiệu lực, và doanh nghiệp có thể tái đàm phán với người lao
 > động về mức lương thấp hơn (người lao động có thể chấp nhận vì giá cả giờ đây đã thấp hơn), **nhưng
 > trong lúc này**, việc làm và sản lượng sẽ vẫn thấp hơn mức dài hạn của chúng."*
@@ -418,15 +445,15 @@ Năm ngoái doanh nghiệp **kỳ vọng** mức giá năm nay là **100**, nên
 📌 Chính ba chữ **"trong lúc này"** là toàn bộ kinh tế học ngắn hạn. Không ai phủ nhận rằng nền kinh tế
 cuối cùng sẽ tự điều chỉnh. Câu hỏi là **trong lúc chờ, chuyện gì xảy ra với người mất việc**.
 
-### 📚 Hai lý thuyết còn lại, gọn hơn
-
-**Giá cả kết dính** (tr. 486–487): doanh nghiệp công bố giá trước dựa trên kỳ vọng. Khi mức giá chung sụt
-ngoài dự kiến, *"những doanh nghiệp đi sau này vẫn có giá quá cao, nên bị giảm doanh số. Doanh số giảm
-khiến họ cắt giảm sản xuất và giảm lao động."*
-
-**Sự ngộ nhận** (tr. 487): mức giá chung giảm → nhà cung ứng thấy giá **của mình** giảm → *"họ có thể tin
-rằng giá của họ đã giảm so với giá cả khác trong nền kinh tế"* → tưởng giá **tương đối** giảm → giảm sản
-lượng. Sách cho ví dụ nông dân trồng lúa mì và người lao động, và cả hai đều nhầm cùng một kiểu.
+> [!note] Hai lý thuyết còn lại, gọn hơn
+>
+> **Giá cả kết dính** (tr. 486–487): doanh nghiệp công bố giá trước dựa trên kỳ vọng. Khi mức giá chung sụt
+> ngoài dự kiến, *"những doanh nghiệp đi sau này vẫn có giá quá cao, nên bị giảm doanh số. Doanh số giảm
+> khiến họ cắt giảm sản xuất và giảm lao động."*
+>
+> **Sự ngộ nhận** (tr. 487): mức giá chung giảm → nhà cung ứng thấy giá **của mình** giảm → *"họ có thể tin
+> rằng giá của họ đã giảm so với giá cả khác trong nền kinh tế"* → tưởng giá **tương đối** giảm → giảm sản
+> lượng. Sách cho ví dụ nông dân trồng lúa mì và người lao động, và cả hai đều nhầm cùng một kiểu.
 
 ---
 
@@ -436,13 +463,15 @@ Sách viết hẳn ra công thức — đây là **một trong rất ít công t
 
 $$\boxed{Y = Y^n + a \times (P - P^e)}$$
 
+> [!quote] tr. 488
 > *"Trong đó $a$ là số hạng quyết định mức phản ứng của sản lượng là bao nhiêu trước sự thay đổi ngoài dự
 > kiến của mức giá."* (tr. 488)
 
 ### Mô hình số của bài này
 
-⚠️ **Ranh giới cần rõ.** Đường AS ngắn hạn dùng **đúng** công thức trên của sách. Chỉ có đường AD là do
-bài này đặt dạng tuyến tính.
+> [!warning] Ranh giới cần rõ.
+> Đường AS ngắn hạn dùng **đúng** công thức trên của sách. Chỉ có đường AD là do
+> bài này đặt dạng tuyến tính.
 
 $$\text{LRAS}: Y = 1000 \qquad \text{SRAS}: Y = 1000 + 5(P - P^e) \qquad \text{AD}: Y = 1500 - 5P$$
 
@@ -462,12 +491,12 @@ Sách mô tả đúng điều kiện thứ ba (tr. 490): *"Vì nền kinh tế l
 đường tổng cung ngắn hạn cũng cắt qua điểm này, điều đó cho thấy mức giá kỳ vọng đã điều chỉnh theo xu
 hướng cân bằng dài hạn trên."*
 
-### ⭐ Cơ chế tự điều chỉnh của cả chương, viết thành một dòng
+### Cơ chế tự điều chỉnh của cả chương, viết thành một dòng
 
 $$P \ne P^e \;\Rightarrow\; Y \ne Y^n \;\Rightarrow\; \text{người ta sửa kỳ vọng} \;\Rightarrow\; P^e \to P \;\Rightarrow\; Y \to Y^n$$
 
 📌 **Kỳ vọng là thứ kéo nền kinh tế về.** Không cần ai làm gì cả. Giữ chặt cơ chế này — nó là chìa khoá
-của mục 10, mục 11, của bài tập 8 ở [mục 17](#17--ba-bài-tập-giải-bằng-số), và của toàn bộ
+của mục 10, mục 11, của bài tập 8 ở [mục 17](#17-ba-bài-tập-giải-bằng-số), và của toàn bộ
 [bài 13](bai_13_lam_phat_va_that_nghiep.md).
 
 ### Bốn bước phân tích — Bảng 3 tr. 491
@@ -479,9 +508,10 @@ của mục 10, mục 11, của bài tập 8 ở [mục 17](#17--ba-bài-tập-g
 3. Dùng biểu đồ xem tác động lên sản lượng và mức giá trong **ngắn hạn**
 4. Xem nền kinh tế chuyển từ cân bằng **ngắn hạn** mới sang cân bằng **dài hạn** mới
 
-⚠️ Ba bước đầu quen thuộc từ EG13. **Bước 4 là bước mới**, và sách nói rõ (tr. 491): *"Thách thức mới là
-chúng ta phải bổ sung thêm bước thứ tư: phải theo dõi trạng thái cân bằng ngắn hạn mới, cân bằng dài hạn
-mới và **sự chuyển tiếp** giữa hai điểm cân bằng này."*
+> [!warning]
+> Ba bước đầu quen thuộc từ EG13. **Bước 4 là bước mới**, và sách nói rõ (tr. 491): *"Thách thức mới là
+> chúng ta phải bổ sung thêm bước thứ tư: phải theo dõi trạng thái cân bằng ngắn hạn mới, cân bằng dài hạn
+> mới và **sự chuyển tiếp** giữa hai điểm cân bằng này."*
 
 📌 Đó là khác biệt lớn nhất giữa chương này và mọi chương trước: **một cú sốc bây giờ có HAI kết cục, và
 chúng khác nhau.** Bỏ qua bước 4 là cách kết luận sai nhiều nhất trong cả phần ngắn hạn.
@@ -506,10 +536,11 @@ ngoài."*
 **Dài hạn (B → C):** kỳ vọng sửa từ 100 xuống **80**, SRAS dịch phải, sản lượng **về lại 1.000** nhưng
 giá còn 80.
 
-### ⭐ Kết luận trung tâm của cả chương (tr. 492)
+### Kết luận trung tâm của cả chương (tr. 492)
 
 ![Hình 8 — tr. 492, bản chụp giáo trình](../tai_lieu/hinh/ch20-hinh-08-tr492.png)
 
+> [!quote]
 > *"trong **dài hạn**, sự dịch chuyển của đường tổng cầu được phản ánh **hoàn toàn vào mức giá** nhưng
 > **không phản ánh trong mức sản lượng**. Nói cách khác, tác động dài hạn của sự dịch chuyển tổng cầu là
 > một sự thay đổi **danh nghĩa** (mức giá thấp hơn) nhưng **không có thay đổi thực** (sản lượng như cũ)."*
@@ -528,22 +559,24 @@ Nếu bạn sống ở B, nó là chuyện sinh tử.
 2. Trong **dài hạn**, dịch chuyển tổng cầu tác động **mức giá**, không tác động sản lượng
 3. Nhà hoạch định chính sách **có thể** giảm thiểu mức độ nghiêm trọng
 
-⚠️ Về điểm 3, sách nêu lựa chọn thay thế (tr. 492): thay vì để nền kinh tế tự đi A → B → C, *"các nhà
-hoạch định chính sách có thể hành động để tăng tổng cầu… đưa đường tổng cầu trở lại $AD_1$, và nền kinh
-tế trở lại điểm A."* Nhưng kèm điều kiện: *"**Nếu chính sách thành công**"*.
-[Bài 12](bai_12_chinh_sach_tien_te_va_tai_khoa.md) và [bài 14](bai_14_sau_tranh_luan_chinh_sach.md) sẽ
-bàn chữ "nếu" đó.
+> [!warning]
+> Về điểm 3, sách nêu lựa chọn thay thế (tr. 492): thay vì để nền kinh tế tự đi A → B → C, *"các nhà
+> hoạch định chính sách có thể hành động để tăng tổng cầu… đưa đường tổng cầu trở lại $AD_1$, và nền kinh
+> tế trở lại điểm A."* Nhưng kèm điều kiện: *"**Nếu chính sách thành công**"*.
+> [Bài 12](bai_12_chinh_sach_tien_te_va_tai_khoa.md) và [bài 14](bai_14_sau_tranh_luan_chinh_sach.md) sẽ
+> bàn chữ "nếu" đó.
 
-### 📚 Hộp "Nhắc lại tính trung lập của tiền" (tr. 493)
-
-Sách đóng gói cả mục này vào một câu ví von rất đắt:
-
-> *"**Tiền chỉ là bức màn che, nhưng khi bức màn lay động mạnh, sản lượng thực cũng phải hắt hơi.**"*
+> [!note] Hộp "Nhắc lại tính trung lập của tiền" (tr. 493)
+>
+> Sách đóng gói cả mục này vào một câu ví von rất đắt:
+>
+> > *"**Tiền chỉ là bức màn che, nhưng khi bức màn lay động mạnh, sản lượng thực cũng phải hắt hơi.**"*
 
 ---
 
 ## 10. Cú sốc tổng cung: đình lạm
 
+> [!quote]
 > **Đình lạm** (tr. 498): *"giai đoạn sản lượng giảm và giá cả tăng."* Sách cũng dùng tên đầy đủ: *"trì
 > trệ kèm lạm phát – Stagflation"*.
 
@@ -555,7 +588,7 @@ Bối cảnh (tr. 497): *"thời tiết xấu ở một số nước nông nghi�
 | **A** cân bằng gốc | 1.000,0 | 100,0 | 0,0% | 0,0% |
 | **B** SRAS dịch trái 100 | **950,0** ↓ | **110,0** ↑ | **−5,0%** | **+10,0%** |
 
-### ⭐⭐ Sản lượng giảm VÀ mức giá tăng cùng lúc
+### Sản lượng giảm VÀ mức giá tăng cùng lúc
 
 Đó là điều mà một cú sốc **tổng cầu** không bao giờ làm được — ở [mục 9](#9-cú-sốc-tổng-cầu-a--b--c) hai
 biến luôn đi **cùng** chiều.
@@ -567,9 +600,9 @@ biến luôn đi **cùng** chiều.
 
 📌 **Đó là cách phân biệt hai loại cú sốc bằng số liệu, không cần biết nguyên nhân**: nhìn **dấu** của
 thay đổi sản lượng và thay đổi giá cả. Một quy tắc đọc tin dùng được suốt đời — xem
-[mục 19(b)](#19--góc-qtkd).
+[mục 19(b)](#19-góc-qtkd).
 
-### ⚠️ Vòng xoáy giá và lương (tr. 498)
+### Vòng xoáy giá và lương (tr. 498)
 
 Nếu người lao động phản ứng bằng cách **nâng kỳ vọng** về mức giá, SRAS dịch trái **xa hơn nữa**:
 
@@ -579,6 +612,7 @@ Nếu người lao động phản ứng bằng cách **nâng kỳ vọng** về 
 | 110 | **925,0** | 115,0 |
 | 120 | **900,0** | 120,0 |
 
+> [!quote] tr. 498
 > *"Hiện tượng giá cả cao hơn dẫn đến lương cao hơn, sau đó lại đẩy giá cao hơn nữa, đôi khi được gọi là
 > **vòng xoáy giá và lương** (wage-price spiral)."* (tr. 498)
 
@@ -586,7 +620,7 @@ Sách cũng nói vòng xoáy này **tự dừng** (tr. 498): *"Mức sản lư�
 giảm tiền lương của người lao động vì họ có ít quyền lực đàm phán hơn khi thất nghiệp đang ở mức cao."*
 Nhưng nó dừng **bằng cách để thất nghiệp cao đủ lâu** — không phải một cơ chế dễ chịu.
 
-### ⚠️⚠️ Chính sách thích ứng — Hình 11 tr. 498
+### Chính sách thích ứng — Hình 11 tr. 498
 
 ![Hình 11 — tr. 498, bản chụp giáo trình](../tai_lieu/hinh/ch20-hinh-11-tr498.png)
 
@@ -598,11 +632,13 @@ Câu hỏi: phải tăng tổng cầu bao nhiêu để **giữ** sản lượng 
 | B chỉ có cú sốc cung | 950,0 | 110,0 | sản lượng giảm |
 | **C** thêm AD **+100** | **1.000,0** = | **120,0** ↑ | **sản lượng cứu được, giá cao hơn nữa** |
 
+> [!quote] tr. 499
 > *"Chính sách thích ứng này phải **chấp nhận** mức giá cao hơn để duy trì mức sản lượng và việc làm cao
 > hơn."* (tr. 499)
 
-### ⭐⭐ Bài học khó chịu nhất của chương (tr. 499)
+### Bài học khó chịu nhất của chương (tr. 499)
 
+> [!quote]
 > *"Các nhà hoạch định chính sách có khả năng tác động lên tổng cầu có thể giảm thiểu tác động bất lợi
 > này lên **sản lượng** nhưng với **cái giá là đẩy lạm phát cao hơn**."*
 
@@ -634,7 +670,7 @@ Sách cho bốn con số ở tr. 494:
 [bài 8 mục 6](bai_08_tang_truong_tien_va_lam_phat.md#6-siêu-lạm-phát). Ba bài, một con số — nhưng bây giờ
 ta có đủ dữ kiện để làm **một phép kiểm mà hai bài trước chưa làm được**.
 
-### ⭐⭐ Kiểm giả định "vòng quay tiền ổn định"
+### Kiểm giả định "vòng quay tiền ổn định"
 
 [Bài 8 mục 3](bai_08_tang_truong_tien_va_lam_phat.md#3-phương-trình-số-lượng) đã nói rõ: phương trình
 $M \times V = P \times Y$ là **đồng nhất thức**, và nó chỉ thành **lý thuyết** khi ta thêm giả định
@@ -646,9 +682,10 @@ $$\Rightarrow \textbf{vòng quay tiền GIẢM 20,9\%}$$
 
 ✅ Kiểm bằng `assert`.
 
-⚠️ **Đây là một kết quả quan trọng mà sách không chỉ ra.** Giả định "$V$ ổn định" — trụ cột của thuyết số
-lượng tiền ở bài 8 — **sụp đổ đúng vào lúc người ta cần nó nhất**. Mô hình dài hạn không giải thích được
-1929–1933.
+> [!warning] Đây là một kết quả quan trọng mà sách không chỉ ra.
+> Giả định "$V$ ổn định" — trụ cột của thuyết số
+> lượng tiền ở bài 8 — **sụp đổ đúng vào lúc người ta cần nó nhất**. Mô hình dài hạn không giải thích được
+> 1929–1933.
 
 📌 **Đó chính là lý do chương 20 tồn tại.**
 
@@ -662,11 +699,12 @@ lượng tiền ở bài 8 — **sụp đổ đúng vào lúc người ta cần 
 Một cú sốc **danh nghĩa** (cung tiền) đã gây ra hậu quả **thực** (sản lượng, việc làm) rất lớn. Đó là
 định nghĩa của "tiền không trung lập trong ngắn hạn", nhìn bằng số liệu thay vì bằng lý thuyết.
 
-⚠️ Sách ghi nhận tranh cãi chưa dứt (tr. 494): *"Các nhà lịch sử kinh tế vẫn **tiếp tục tranh luận** về
-nguyên nhân của Đại Khủng hoảng, nhưng đa số các lý giải đều tập trung vào sự giảm mạnh của tổng cầu."*
-Ngoài cung tiền, sách nêu thêm hai kênh: giá cổ phiếu giảm 90% (hiệu ứng **của cải** ở
-[mục 4](#4-đường-tổng-cầu-dốc-xuống--ba-hiệu-ứng)), và trục trặc ngân hàng cản trở doanh nghiệp tiếp cận
-vốn đầu tư.
+> [!warning]
+> Sách ghi nhận tranh cãi chưa dứt (tr. 494): *"Các nhà lịch sử kinh tế vẫn **tiếp tục tranh luận** về
+> nguyên nhân của Đại Khủng hoảng, nhưng đa số các lý giải đều tập trung vào sự giảm mạnh của tổng cầu."*
+> Ngoài cung tiền, sách nêu thêm hai kênh: giá cổ phiếu giảm 90% (hiệu ứng **của cải** ở
+> [mục 4](#4-đường-tổng-cầu-dốc-xuống--ba-hiệu-ứng)), và trục trặc ngân hàng cản trở doanh nghiệp tiếp cận
+> vốn đầu tư.
 
 ---
 
@@ -693,12 +731,13 @@ mức sản lượng tự nhiên — trong mô hình này đó là một điểm
 tấm huy chương: nếu AD có thể đẩy sản lượng **xuống dưới** mức tự nhiên (mục 9), nó cũng có thể đẩy
 **lên trên**. Bài 13 sẽ nói về cái giá của việc giữ nó ở trên.
 
-⚠️ Và một chi tiết đáng chú ý (tr. 495): mức giá tăng 20% *"**bất kể** các biện pháp kiểm soát giá đại
-trà của chính phủ nhằm hạn chế sự gia tăng giá cả"*. **Kiểm soát giá không ngăn được lạm phát khi tổng
-cầu bùng nổ — nó chỉ đổi hình thức của lạm phát** (từ giá cao thành xếp hàng, thiếu hàng, chợ đen). Đó là
-đúng kết luận về giá trần của
-[EG13 bài 13](../../eg13-kinhtevimo-micro/ly_thuyet/bai_13_chinh_phu_can_thiep_thi_truong.md), ở
-quy mô cả nền kinh tế.
+> [!warning]
+> Và một chi tiết đáng chú ý (tr. 495): mức giá tăng 20% *"**bất kể** các biện pháp kiểm soát giá đại
+> trà của chính phủ nhằm hạn chế sự gia tăng giá cả"*. **Kiểm soát giá không ngăn được lạm phát khi tổng
+> cầu bùng nổ — nó chỉ đổi hình thức của lạm phát** (từ giá cao thành xếp hàng, thiếu hàng, chợ đen). Đó là
+> đúng kết luận về giá trần của
+> [EG13 bài 13](../../eg13-kinhtevimo-micro/ly_thuyet/bai_13_chinh_phu_can_thiep_thi_truong.md), ở
+> quy mô cả nền kinh tế.
 
 ---
 
@@ -746,10 +785,12 @@ $$\text{tổng hai gói} = 1.487 \text{ tỷ USD} = \textbf{10,4\% GDP Hoa Kỳ 
 *(Phép chia này do bài này làm, dùng GDP 14.256 tỷ từ [bài 1](bai_01_do_luong_thu_nhap_quoc_gia.md#7-bảng-1--gdp-hoa-kỳ-năm-2009-nhìn-từ-bốn-thành-phần).
 Sách không đặt hai con số này cạnh nhau.)*
 
-⚠️ Sách kết bằng một câu rất trung thực, viết vào tháng 6/2010 (tr. 497):
+> [!warning]
+> Sách kết bằng một câu rất trung thực, viết vào tháng 6/2010 (tr. 497):
 
 ![Hình 10 — tr. 497, bản chụp giáo trình](../tai_lieu/hinh/ch20-hinh-10-tr497.png)
 
+> [!quote]
 > *"Vậy thì nước đi chính sách nào, **nếu có**, là quan trọng nhất trong việc thúc đẩy sự phục hồi kinh
 > tế? Đây chắc chắn là câu hỏi mà các nhà sử học kinh tế vĩ mô sẽ tranh luận trong những năm sắp tới."*
 
@@ -769,15 +810,17 @@ Sách mở bằng một câu mạnh (tr. 499): *"Một số những biến độ
 | **1978–1981** | tăng **hơn gấp đôi** | 6% → **10%** *(+4,0 điểm)* | OPEC lại giới hạn cung dầu |
 | **1986** | **giảm một nửa** | **giảm** | bất đồng nổ ra trong nội bộ OPEC |
 
-⚠️ Sách mô tả OPEC bằng một cụm từ rất thật (tr. 499): *"OPEC là một dạng **liên minh bên bán** nhằm loại
-bỏ cạnh tranh và giảm sản lượng để tăng giá."* Đó là đúng định nghĩa **cartel** của EG13 — chương này chỉ
-cho thấy một cartel đủ lớn thì dịch được **cả đường tổng cung của thế giới**.
+> [!warning]
+> Sách mô tả OPEC bằng một cụm từ rất thật (tr. 499): *"OPEC là một dạng **liên minh bên bán** nhằm loại
+> bỏ cạnh tranh và giảm sản lượng để tăng giá."* Đó là đúng định nghĩa **cartel** của EG13 — chương này chỉ
+> cho thấy một cartel đủ lớn thì dịch được **cả đường tổng cung của thế giới**.
 
 Năm 1986 là thí nghiệm **ngược**, và sách kể rất gọn: cartel tan rã → giá dầu giảm một nửa → AS dịch phải
 → *"sản lượng tăng mạnh, thất nghiệp giảm và tỷ lệ lạm phát đạt mức thấp nhất trong nhiều năm."*
 
-### ⭐ Phần quan trọng nhất của mục này (tr. 500)
+### Phần quan trọng nhất của mục này (tr. 500)
 
+> [!quote]
 > *"Lượng dầu sử dụng để tạo ra một đơn vị GDP thực đã **giảm khoảng 40%** kể từ những cú sốc OPEC trong
 > thập niên 1970."*
 
@@ -798,24 +841,27 @@ trưởng mà [bài 3](bai_03_san_xuat_va_tang_truong.md) không nhắc đến, 
 
 ---
 
-## 15. 📚 Nguồn gốc mô hình — Keynes
+## 15. Nguồn gốc mô hình — Keynes
 
 Hộp *Bạn có biết* tr. 500 kể mô hình này ở đâu ra, và nó đáng đọc vì nó cho biết mô hình được dựng để trả
 lời câu hỏi gì.
 
+> [!quote]
 > *"mô hình này tựu trung là một sản phẩm phụ của thời Đại Khủng hoảng vào những năm 1930. Các nhà kinh
 > tế và các nhà hoạch định chính sách lúc đó không rõ nguyên nhân gây ra thảm họa này là gì cũng không
 > biết phải đối phó với nó như thế nào."*
 
 Năm **1936**, **John Maynard Keynes** xuất bản *Lý thuyết Tổng quát về Việc làm, Tiền lãi và Tiền tệ*.
 
+> [!quote]
 > *"Thông điệp chủ yếu của Keynes là suy thoái và trì trệ có thể xảy ra vì **tổng cầu hàng hóa và dịch vụ
 > không đủ**."*
 
-### ⭐ Và câu trích của Keynes mà sách đưa nguyên văn
+### Và câu trích của Keynes mà sách đưa nguyên văn
 
 Keynes phê phán lý thuyết cổ điển (tr. 500):
 
+> [!quote]
 > *"**Dài hạn là một định hướng lệch lạc đối với những diễn biến thực tại. Trong dài hạn tất cả chúng ta
 > đều chết. Các nhà kinh tế đã đặt ra cho mình một nhiệm vụ quá dễ dãi, và quá vô ích vì khi vào mùa
 > giông bão thì họ chỉ có thể nói với chúng ta rằng bão tan thì biển lặng.**"*
@@ -824,17 +870,19 @@ Keynes phê phán lý thuyết cổ điển (tr. 500):
 nói đùa hư vô. Đọc đủ câu thì nó là một lời phê bình **phương pháp** rất cụ thể: nói với người đang chịu
 bão rằng bão sẽ tan là **đúng nhưng vô dụng**.
 
-⚠️ Nhưng cũng đừng đọc ngược lại thành "dài hạn không quan trọng". Sách vừa dành **tám bài** cho dài hạn,
-và [mục 6](#6-tổng-cung-dài-hạn-dốc-đứng) chỉ ra rằng toàn bộ tám bài ấy nằm gọn trong một đường thẳng
-đứng của mô hình này. Keynes không bảo vứt bỏ dài hạn — ông bảo **nó không đủ**.
+> [!warning]
+> Nhưng cũng đừng đọc ngược lại thành "dài hạn không quan trọng". Sách vừa dành **tám bài** cho dài hạn,
+> và [mục 6](#6-tổng-cung-dài-hạn-dốc-đứng) chỉ ra rằng toàn bộ tám bài ấy nằm gọn trong một đường thẳng
+> đứng của mô hình này. Keynes không bảo vứt bỏ dài hạn — ông bảo **nó không đủ**.
 
+> [!quote] tr. 500
 > *"Thông điệp của Keynes nhắm đến các nhà hoạch định chính sách cũng như nhà kinh tế. Khi nền kinh tế
 > thế giới gánh chịu thất nghiệp cao, Keynes cổ súy cho các chính sách làm tăng tổng cầu, bao gồm chi
 > tiêu của chính phủ cho các công trình công cộng."* (tr. 500)
 
 ---
 
-## 16. 📚 Bảng 2 tr. 489 — cái gì dịch chuyển đường AS ngắn hạn
+## 16. Bảng 2 tr. 489 — cái gì dịch chuyển đường AS ngắn hạn
 
 ![Bảng 2 — tr. 489, bản chụp giáo trình](../tai_lieu/hinh/ch20-bang-02-tr489.png)
 
@@ -850,12 +898,14 @@ và [mục 6](#6-tổng-cung-dài-hạn-dốc-đứng) chỉ ra rằng toàn b�
 
 Cơ chế của biến mới, qua lý thuyết tiền lương kết dính (tr. 489):
 
+> [!quote]
 > *"khi người lao động và doanh nghiệp kỳ vọng mức giá sẽ cao, họ có khuynh hướng đàm phán với mức lương
 > danh nghĩa cao. Lương cao làm tăng chi phí của doanh nghiệp, và với bất kỳ mức giá thực tế nào, chi phí
 > cao hơn sẽ làm giảm lượng cung hàng hóa và dịch vụ."*
 
 Bài học khái quát, sách in nghiêng (tr. 489):
 
+> [!quote]
 > ⭐ *"**Mức giá kỳ vọng tăng sẽ làm giảm lượng cung hàng hóa và dịch vụ và đẩy đường tổng cung ngắn hạn
 > sang trái. Mức giá kỳ vọng giảm sẽ làm tăng lượng cung hàng hóa và dịch vụ và đẩy đường tổng cung ngắn
 > hạn sang phải.**"*
@@ -865,12 +915,12 @@ kỳ vọng lên vị trí của đường tổng cung ngắn hạn đóng vai t
 chuyển tiếp như thế nào từ ngắn hạn sang dài hạn."*
 
 Nếu bạn nhớ đúng một thứ từ bài này, hãy nhớ rằng **$P^e$ là biến kéo nền kinh tế về cân bằng dài hạn** —
-và rằng nó **có thể bị thao túng**, đó là nội dung của [mục 17](#17--ba-bài-tập-giải-bằng-số) và của cả
+và rằng nó **có thể bị thao túng**, đó là nội dung của [mục 17](#17-ba-bài-tập-giải-bằng-số) và của cả
 bài 13.
 
 ---
 
-## 17. 📚 Ba bài tập giải bằng số
+## 17. Ba bài tập giải bằng số
 
 ### Bài tập 4 tr. 503–504 — lương danh nghĩa và lương thực qua ba điểm
 
@@ -890,7 +940,7 @@ Ngân hàng trung ương tăng cung tiền 5% → AD dịch phải.
   → **Có.** Lương thực đổi ở B (0,1860 so với 0,2000) nhưng **trở lại đúng giá trị cũ** ở C. Tác động
   thực chỉ tồn tại **ở giữa đường**.
 
-### ⭐⭐ Bài tập 8 tr. 505 — mầm của cả bài 13
+### Bài tập 8 tr. 505 — mầm của cả bài 13
 
 Fed mở rộng cung tiền. Hai kịch bản kỳ vọng:
 
@@ -935,11 +985,12 @@ lao động khỏi lạm phát ngoài dự kiến, nhưng đồng thời **tư�
 
 ---
 
-## 18. 📚 Đối chiếu Việt Nam
+## 18. Đối chiếu Việt Nam
 
-⚠️ **Cảnh báo trước khi đọc.** Mục này **không có trong sách** và **không dựa trên nguồn số liệu nào được
-kiểm chứng trong bài**. Nó chỉ nêu chỗ khung của Mankiw cần chỉnh khi đem về Việt Nam và **cách tra**.
-Số liệu cụ thể hãy tra tại **Tổng cục Thống kê** và **Ngân hàng Nhà nước**.
+> [!warning] Cảnh báo trước khi đọc.
+> Mục này **không có trong sách** và **không dựa trên nguồn số liệu nào được
+> kiểm chứng trong bài**. Nó chỉ nêu chỗ khung của Mankiw cần chỉnh khi đem về Việt Nam và **cách tra**.
+> Số liệu cụ thể hãy tra tại **Tổng cục Thống kê** và **Ngân hàng Nhà nước**.
 
 ### Đọc số liệu quý bằng khung của mục 10
 
@@ -951,7 +1002,7 @@ hằng quý:
 | Tăng trưởng GDP **chậm lại** và CPI **hạ** | cú sốc **CẦU** | tín dụng, xuất khẩu, đầu tư công |
 | Tăng trưởng GDP **chậm lại** và CPI **tăng** | cú sốc **CUNG** | giá xăng dầu, giá lương thực, chi phí vận tải |
 
-📌 Đó là lý do [bài 8 mục 17](bai_08_tang_truong_tien_va_lam_phat.md#17--đối-chiếu-việt-nam) khuyên theo
+📌 Đó là lý do [bài 8 mục 17](bai_08_tang_truong_tien_va_lam_phat.md#17-đối-chiếu-việt-nam) khuyên theo
 dõi **khoảng cách giữa lạm phát chung và lạm phát cơ bản**: khoảng cách đó chính là thước đo phần cú sốc
 **cung** trong con số lạm phát.
 
@@ -960,13 +1011,14 @@ dõi **khoảng cách giữa lạm phát chung và lạm phát cơ bản**: kho�
 | | Mô hình chương 20 | Việt Nam cần chỉnh |
 | --- | --- | --- |
 | Nguồn cú sốc cung | chủ yếu **dầu** | thêm **giá lương thực** và **giá đầu vào nhập khẩu**; nông nghiệp còn chiếm tỷ trọng đáng kể |
-| Kênh tỷ giá | một trong ba hiệu ứng, tương đối nhỏ | **lớn hơn nhiều** — độ mở thương mại rất cao ([bài 9 mục 16](bai_09_kinh_te_mo_khai_niem_co_ban.md#16--đối-chiếu-việt-nam)) |
+| Kênh tỷ giá | một trong ba hiệu ứng, tương đối nhỏ | **lớn hơn nhiều** — độ mở thương mại rất cao ([bài 9 mục 16](bai_09_kinh_te_mo_khai_niem_co_ban.md#16-đối-chiếu-việt-nam)) |
 | Mức sản lượng tự nhiên | tương đối ổn định | **đang tăng nhanh** — nền kinh tế đang hội tụ ([bài 3](bai_03_san_xuat_va_tang_truong.md)) |
 
-⚠️ Điểm thứ ba đáng nhấn. Ở Hoa Kỳ, LRAS dịch phải chậm (~3%/năm), nên "chệch khỏi mức tự nhiên" là một
-khái niệm khá rõ. Ở một nền kinh tế đang tăng trưởng nhanh, **bản thân mức tự nhiên đang chạy**, nên
-phân biệt "suy thoái chu kỳ" với "tăng trưởng tiềm năng chậm lại" **khó hơn nhiều** — và hai chuyện đó
-đòi hỏi hai loại chính sách hoàn toàn khác nhau.
+> [!warning]
+> Điểm thứ ba đáng nhấn. Ở Hoa Kỳ, LRAS dịch phải chậm (~3%/năm), nên "chệch khỏi mức tự nhiên" là một
+> khái niệm khá rõ. Ở một nền kinh tế đang tăng trưởng nhanh, **bản thân mức tự nhiên đang chạy**, nên
+> phân biệt "suy thoái chu kỳ" với "tăng trưởng tiềm năng chậm lại" **khó hơn nhiều** — và hai chuyện đó
+> đòi hỏi hai loại chính sách hoàn toàn khác nhau.
 
 📌 Nói bằng ngôn ngữ của bài: một bên là **AD dịch trái** (chữa bằng chính sách tổng cầu), một bên là
 **LRAS chậm dịch phải** (chỉ chữa được bằng bài 3 — vốn, công nghệ, thể chế). Nhầm hai chuyện là cách
@@ -974,17 +1026,18 @@ dùng sai công cụ trong nhiều năm liền.
 
 ### Kỳ vọng lạm phát: biến quan trọng nhất và khó đo nhất
 
-[Mục 16](#16--bảng-2-tr-489--cái-gì-dịch-chuyển-đường-as-ngắn-hạn) chỉ ra $P^e$ là biến then chốt. Ở các
+[Mục 16](#16-bảng-2-tr-489--cái-gì-dịch-chuyển-đường-as-ngắn-hạn) chỉ ra $P^e$ là biến then chốt. Ở các
 nước phát triển, nó được đo bằng khảo sát và bằng chênh lệch lợi suất trái phiếu thường với trái phiếu
 chỉ số hoá lạm phát.
 
-⚠️ Ở Việt Nam, công cụ đo trực tiếp còn hạn chế. Chỉ báo gián tiếp thường được nhìn: **giá vàng và tỷ
-giá tự do**. Khi hai thứ này bật lên mà không có nguyên nhân quốc tế rõ ràng, đó thường là dấu hiệu kỳ
-vọng lạm phát đang đổi — tức SRAS sắp dịch trái, đúng cơ chế mục 16.
+> [!warning]
+> Ở Việt Nam, công cụ đo trực tiếp còn hạn chế. Chỉ báo gián tiếp thường được nhìn: **giá vàng và tỷ
+> giá tự do**. Khi hai thứ này bật lên mà không có nguyên nhân quốc tế rõ ràng, đó thường là dấu hiệu kỳ
+> vọng lạm phát đang đổi — tức SRAS sắp dịch trái, đúng cơ chế mục 16.
 
 ---
 
-## 19. 💼 Góc QTKD
+## 19. Góc QTKD
 
 *Mục này không có trong sách.*
 
@@ -1000,8 +1053,9 @@ nhưng gây ra 2/3 mức sụt giảm — **nhạy gấp 4,7 lần**.
 | Hàng lâu bền (xe, đồ gia dụng) | 2,5 | −5,0% |
 | **Hàng ĐẦU TƯ** (máy móc, xây dựng) | **4,7** | **−9,4%** |
 
-⚠️ Các hệ số 0,3 / 1,0 / 2,5 là **do bài này đặt ra** để minh hoạ thứ bậc; chỉ hệ số **4,7** của nhóm đầu
-tư là suy ra từ con số sách in (tr. 472).
+> [!warning]
+> Các hệ số 0,3 / 1,0 / 2,5 là **do bài này đặt ra** để minh hoạ thứ bậc; chỉ hệ số **4,7** của nhóm đầu
+> tư là suy ra từ con số sách in (tr. 472).
 
 📌 **Ý nghĩa thực dụng:** nếu bạn ở nhóm cuối, bạn cần **đệm tiền mặt dày hơn**, **đòn bẩy thấp hơn** và
 **hợp đồng linh hoạt hơn** so với một doanh nghiệp cùng quy mô ở nhóm đầu. Đó không phải chuyện thận
@@ -1040,7 +1094,7 @@ nghĩa kết dính, **giảm phát = tăng lương thực bắt buộc = sa th�
 
 ### (d) Kỳ vọng là một biến số, không phải một lời bình luận
 
-[Bài tập 8 ở mục 17](#17--ba-bài-tập-giải-bằng-số) cho kết quả sắc: nếu công chúng **đoán trước** chính
+[Bài tập 8 ở mục 17](#17-ba-bài-tập-giải-bằng-số) cho kết quả sắc: nếu công chúng **đoán trước** chính
 sách, chính sách mất hết tác động thực. Áp vào doanh nghiệp:
 
 | Cách bạn tăng giá | Chuyện gì xảy ra |
@@ -1060,13 +1114,15 @@ $P = P^e$.
 
 ## 20. Code minh hoạ
 
+> [!note]
 > ⚙️ **Chạy:** cần **Python 3.10+**. Lưu file rồi gõ `python3 bai-11-tong-cau-va-tong-cung.py`.
 > Không cần cài gói nào — chỉ dùng thư viện chuẩn. Output tất định.
 
 Bản gốc: [`thuc_hanh/bai-11-tong-cau-va-tong-cung.py`](../thuc_hanh/bai-11-tong-cau-va-tong-cung.py).
 
-⚠️ **Ranh giới:** đường AS ngắn hạn dùng **đúng công thức của sách** ở tr. 488. Chỉ đường AD là do bài
-này đặt dạng tuyến tính. Mọi con số có `(tr. NNN)` là số sách in và có `assert` đối chiếu.
+> [!warning] Ranh giới:
+> đường AS ngắn hạn dùng **đúng công thức của sách** ở tr. 488. Chỉ đường AD là do bài
+> này đặt dạng tuyến tính. Mọi con số có `(tr. NNN)` là số sách in và có `assert` đối chiếu.
 
 ```python
 """Bai 11 — Tong cau va tong cung (Mankiw, chuong 20, tr. 469-506).
@@ -2740,7 +2796,7 @@ Trả lời rồi mới kéo lên đối chiếu. Câu có ⭐ là câu đáng d
     động bằng bao nhiêu phần so với thập niên 1970?
 
 16. 💼 Bạn bán thiết bị công nghiệp. Dự báo GDP tăng trưởng chậm lại từ 6% xuống 3%. Dùng hệ số ở
-    [mục 19(a)](#19--góc-qtkd) ước lượng doanh thu của bạn đổi thế nào, và nêu **ba** thứ bạn chuẩn bị
+    [mục 19(a)](#19-góc-qtkd) ước lượng doanh thu của bạn đổi thế nào, và nêu **ba** thứ bạn chuẩn bị
     trước — kèm lý do cho mỗi thứ.
 
 ---
@@ -2898,11 +2954,11 @@ Trả lời rồi mới kéo lên đối chiếu. Câu có ⭐ là câu đáng d
     Sách không đặt hai con số cạnh nhau.
   - Bảng "tác động cú sốc dầu ngày nay chỉ còn 60%" ở [mục 14](#14-dầu-và-nền-kinh-tế) là **suy ra** từ
     con số 40% của sách; sách chỉ nói *"nhỏ hơn so với quá khứ"*.
-  - Các hệ số nhạy **0,3 / 1,0 / 2,5** ở [mục 19(a)](#19--góc-qtkd) là **do bài này đặt ra** để minh hoạ
+  - Các hệ số nhạy **0,3 / 1,0 / 2,5** ở [mục 19(a)](#19-góc-qtkd) là **do bài này đặt ra** để minh hoạ
     thứ bậc. Chỉ hệ số **4,7** suy ra từ số sách in.
-  - Bảng ba điểm A/B/C với lương danh nghĩa và lương thực ở [mục 17](#17--ba-bài-tập-giải-bằng-số) là
+  - Bảng ba điểm A/B/C với lương danh nghĩa và lương thực ở [mục 17](#17-ba-bài-tập-giải-bằng-số) là
     lời giải bài tập 4 do bài này tính; sách chỉ đặt câu hỏi.
-  - Toàn bộ [mục 18 — Đối chiếu Việt Nam](#18--đối-chiếu-việt-nam) và [mục 19 — Góc QTKD](#19--góc-qtkd)
+  - Toàn bộ [mục 18 — Đối chiếu Việt Nam](#18-đối-chiếu-việt-nam) và [mục 19 — Góc QTKD](#19-góc-qtkd)
     nằm ngoài sách. Mục 18 **không dựa trên nguồn số liệu nào được kiểm chứng trong bài**.
 
 - **Liên hệ chéo:**
@@ -2923,7 +2979,7 @@ Trả lời rồi mới kéo lên đối chiếu. Câu có ⭐ là câu đáng d
   - **Bài 12** sẽ mở kỹ **cơ chế** mà chính sách tiền tệ và tài khoá dịch chuyển đường tổng cầu — tức
     chương này chỉ nói "AD dịch", bài 12 nói "dịch bằng cách nào và bao nhiêu".
   - [Bài 13](bai_13_lam_phat_va_that_nghiep.md) sẽ đặt tên cho đánh đổi ở [mục 10](#10-cú-sốc-tổng-cung-đình-lạm) và khai thác đầy đủ bài
-    tập 8 ở [mục 17](#17--ba-bài-tập-giải-bằng-số).
+    tập 8 ở [mục 17](#17-ba-bài-tập-giải-bằng-số).
 
 <!-- BAN-DO -->
 

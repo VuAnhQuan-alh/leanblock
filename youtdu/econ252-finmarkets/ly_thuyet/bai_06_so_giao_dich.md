@@ -1,12 +1,15 @@
 # Sở giao dịch, môi giới, dealer và giao dịch tần suất cao
 
+> [!info] Về bài này
 > Bài học dựng từ **buổi 21** khoá **Yale ECON 252 *Financial Markets*** (Xuân 2011), giảng viên
 > **Robert J. Shiller** — YouTube `kAl8DezwLAE`, 7 chương, ~72 phút.
 > Mục có mốc `21 MM:SS` là **lấy từ video**, đã đối chiếu ngược với phụ đề gốc bằng script.
 > Mục có 📚 là **kiến thức bài này bổ sung**, không có trong video.
 > Mục có 🇻🇳 là **số liệu Việt Nam**, không có trong video, mọi con số đều trích nguồn.
-> ⚠️ **Video ghi 13/4/2011** — §13 đối chiếu với 2026.
-> 📌 **Nên đọc trước:** [Bài 5 — Ngân hàng đầu tư](bai_05_ngan_hang_dau_tu.md) (chênh lệch mua-bán,
+>
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
+>
+> **Nên đọc trước:** [Bài 5 — Ngân hàng đầu tư](bai_05_ngan_hang_dau_tu.md) (chênh lệch mua-bán,
 > vòng xoáy ký quỹ), [Bài 12 — Tài chính hành vi](bai_12_tai_chinh_hanh_vi.md) (thao túng giá).
 
 Đây là buổi giảng **vi cấu trúc thị trường** duy nhất của cả khoá — buổi duy nhất Shiller nói về việc
@@ -25,16 +28,16 @@ mới.
 2. [Môi giới và người tạo lập — ranh giới nền tảng](#2-môi-giới-và-người-tạo-lập--ranh-giới-nền-tảng)
 3. [Lịch sử sở giao dịch, từ đền Castor tới cây bàng](#3-lịch-sử-sở-giao-dịch-từ-đền-castor-tới-cây-bàng)
 4. [Ba loại lệnh](#4-ba-loại-lệnh)
-5. [⚠️ Lệnh dừng lỗ — chỗ lời giảng nói quá](#5--lệnh-dừng-lỗ--chỗ-lời-giảng-nói-quá)
+5. [⚠️ Lệnh dừng lỗ — chỗ lời giảng nói quá](#5-lệnh-dừng-lỗ--chỗ-lời-giảng-nói-quá)
 6. [Sổ lệnh Level II — thứ Shiller chiếu lên màn hình](#6-sổ-lệnh-level-ii--thứ-shiller-chiếu-lên-màn-hình)
-7. [📚 Lệnh thị trường ăn vào sổ lệnh](#7--lệnh-thị-trường-ăn-vào-sổ-lệnh)
+7. [📚 Lệnh thị trường ăn vào sổ lệnh](#7-lệnh-thị-trường-ăn-vào-sổ-lệnh)
 8. [Giao dịch điện tử, ECN và HFT](#8-giao-dịch-điện-tử-ecn-và-hft)
 9. [1987, uỷ ban Brady và cầu dao ngắt mạch](#9-1987-uỷ-ban-brady-và-cầu-dao-ngắt-mạch)
 10. [Trả tiền cho luồng lệnh và Hệ thống Thị trường Quốc gia](#10-trả-tiền-cho-luồng-lệnh-và-hệ-thống-thị-trường-quốc-gia)
 11. [Ngày 6/5/2010](#11-ngày-652010)
 12. [Nghề tạo lập: lựa chọn ngược và bài toán phá sản](#12-nghề-tạo-lập-lựa-chọn-ngược-và-bài-toán-phá-sản)
-13. [⚠️ Đối chiếu 2026](#13--đối-chiếu-2026)
-14. [🇻🇳 Góc Việt Nam](#14--góc-việt-nam)
+13. [⚠️ Đối chiếu 2026](#13-đối-chiếu-2026)
+14. [🇻🇳 Góc Việt Nam](#14-góc-việt-nam)
 15. [Chương trình](#15-chương-trình)
 16. [Từ điển thuật ngữ](#16-từ-điển-thuật-ngữ)
 17. [Câu hỏi tự kiểm tra](#17-câu-hỏi-tự-kiểm-tra)
@@ -44,7 +47,7 @@ mới.
 ## 1. Trao đổi là trung tâm của kinh tế học
 
 Shiller mở đầu bằng tên buổi giảng: **sở giao dịch và trung tâm thanh toán bù trừ** (`21 00:02`). Giữ
-chữ thứ hai lại — [§14](#14--góc-việt-nam) sẽ quay lại nó, và đó là chỗ Việt Nam còn thiếu.
+chữ thứ hai lại — [§14](#14-góc-việt-nam) sẽ quay lại nó, và đó là chỗ Việt Nam còn thiếu.
 
 Ông dẫn thầy cũ của mình, **Kenneth Boulding**, người ông từng học ở Đại học Michigan. Trong bài diễn
 văn nhậm chức chủ tịch Hội Kinh tế Mỹ năm 1969, Boulding đặt lại câu hỏi *kinh tế học là gì*. Định
@@ -133,10 +136,11 @@ coi là thiêng ở La Mã cổ *"vì chúng từng báo động một cuộc x�
 bàn về giá cổ phần, và *"biết rằng giá lên xuống, ngay cả hồi đó, nhưng **không có dữ liệu nào** về
 giá cổ phần của họ"* (`21 14:26`).
 
-⚠️ Shiller nói rõ ông dựa vào nghiên cứu của **Ulrike Malmendier** (`21 12:59`), người đã nghiên cứu
-các sở giao dịch La Mã cổ *"nhiều nhất có thể nghiên cứu được"* — và rằng ***"không có nhiều bằng
-chứng về nó"*** (`21 13:16`). Đó là cách trích dẫn đúng — nên khi bạn gặp câu "La Mã đã có sàn chứng
-khoán" ở nơi khác, hãy nhớ chính người kể cũng đã gắn kèm cảnh báo.
+> [!warning]
+> Shiller nói rõ ông dựa vào nghiên cứu của **Ulrike Malmendier** (`21 12:59`), người đã nghiên cứu
+> các sở giao dịch La Mã cổ *"nhiều nhất có thể nghiên cứu được"* — và rằng ***"không có nhiều bằng
+> chứng về nó"*** (`21 13:16`). Đó là cách trích dẫn đúng — nên khi bạn gặp câu "La Mã đã có sàn chứng
+> khoán" ở nơi khác, hãy nhớ chính người kể cũng đã gắn kèm cảnh báo.
 
 Rồi *"một khoảng trống dài cho sở giao dịch sau khi Đế chế La Mã sụp đổ, và các publicani biến mất"*
 (`21 14:32`):
@@ -170,13 +174,14 @@ kinh doanh OTC (`21 22:59`) bèn dựng hệ thống máy tính đầu tiên —
 (`21 23:28`).
 
 📌 Chi tiết đáng nhớ: **NASDAQ sinh ra từ những công ty bị NYSE từ chối.** Và bốn mươi năm sau,
-[§13](#13--đối-chiếu-2026) cho thấy chính NASDAQ đã đi hỏi mua NYSE.
+[§13](#13-đối-chiếu-2026) cho thấy chính NASDAQ đã đi hỏi mua NYSE.
 
-⚠️ Một chỗ cần đính chính nhỏ. Shiller nói (`21 24:05`): *"phát minh **đầu tiên** của Thomas Edison
-thật ra là một máy in giá chứng khoán"*, và đoán *"khoảng thập niên 1870"* (`21 24:10`). Bằng sáng chế
-đầu tiên của Edison — **cấp năm 1869** — là một **máy đếm phiếu bầu bằng điện**, thứ không ai mua. Máy
-in giá chứng khoán cải tiến của ông đến ngay sau đó và là **thành công thương mại đầu tiên**, chứ không
-phải phát minh đầu tiên.
+> [!warning]
+> Một chỗ cần đính chính nhỏ. Shiller nói (`21 24:05`): *"phát minh **đầu tiên** của Thomas Edison
+> thật ra là một máy in giá chứng khoán"*, và đoán *"khoảng thập niên 1870"* (`21 24:10`). Bằng sáng chế
+> đầu tiên của Edison — **cấp năm 1869** — là một **máy đếm phiếu bầu bằng điện**, thứ không ai mua. Máy
+> in giá chứng khoán cải tiến của ông đến ngay sau đó và là **thành công thương mại đầu tiên**, chứ không
+> phải phát minh đầu tiên.
 
 Chi tiết nhỏ, nhưng nó đổi ý nghĩa câu chuyện: bài học thật là **phát minh đầu tiên của Edison đã thất
 bại** — và ông chuyển sang thứ thị trường thật sự cần. Phần còn lại Shiller nói đúng và nói hay
@@ -212,7 +217,7 @@ chí không cho phép** lệnh thị trường.
 
 ---
 
-## 5. ⚠️ Lệnh dừng lỗ — chỗ lời giảng nói quá
+## 5. Lệnh dừng lỗ — chỗ lời giảng nói quá
 
 Đây là chỗ quan trọng nhất cần đính chính trong cả buổi, vì nó là loại lệnh mà người mới dùng nhiều
 nhất và hiểu sai nhiều nhất.
@@ -222,6 +227,7 @@ tôi biết tôi không thể mất quá 20% khoản đầu tư"**.
 
 **Câu đó không đúng.** Và lý do nằm ngay trong định nghĩa của chính loại lệnh này:
 
+> [!note]
 > Lệnh dừng lỗ khi bị kích hoạt sẽ **trở thành lệnh thị trường**. Nó bảo đảm **BÁN**, không bảo đảm
 > **GIÁ**. Mức 80 là mức **kích hoạt**, không phải mức bán. Mức bán là **bất cứ giá nào còn trên sổ
 > lệnh tại thời điểm đó**.
@@ -238,12 +244,14 @@ tôi biết tôi không thể mất quá 20% khoản đầu tư"**.
 Hàng cuối **không phải giả thuyết**. Đó chính là ngày [§11](#11-ngày-652010) mô tả, và Shiller kể
 chính ông rằng hôm đó có cổ phiếu 30 đô giao dịch ở 30 xu rồi bật lại.
 
+> [!note]
 > **Nghịch lý của lệnh dừng lỗ:** nó được thiết kế để bảo vệ bạn khỏi cú sập. Nhưng đúng trong cú sập
 > là lúc sổ lệnh mỏng nhất, nên đó cũng là lúc nó thực hiện tệ nhất. **Nó hoạt động tốt nhất khi bạn
 > cần nó ít nhất.**
 
-📚 **Cách xử lý đúng** là dùng **lệnh dừng-giới hạn** (*stop-limit*): khi giá chạm mức kích hoạt, lệnh
-trở thành **lệnh giới hạn** chứ không phải lệnh thị trường. Đánh đổi thì rõ ràng và không tránh được:
+> [!note] Cách xử lý đúng
+> là dùng **lệnh dừng-giới hạn** (*stop-limit*): khi giá chạm mức kích hoạt, lệnh
+> trở thành **lệnh giới hạn** chứ không phải lệnh thị trường. Đánh đổi thì rõ ràng và không tránh được:
 
 |                      | Dừng lỗ (stop-market) | Dừng-giới hạn (stop-limit) |
 | -------------------- | --------------------- | -------------------------- |
@@ -271,6 +279,7 @@ nhau** — trong khi lẽ ra chúng phải cắt nhau ở đâu đó.
 Ông giải thích ngay vì sao điều đó **không hề lạ**: nếu chúng cắt nhau, lệnh đã khớp và **biến mất
 khỏi màn hình** ngay lập tức.
 
+> [!note]
 > 📌 Đây là một ý ngắn mà sâu: **sổ lệnh không phải ảnh chụp cung cầu của thị trường.** Nó là ảnh chụp
 > phần cung cầu mà thị trường **chưa tiêu hoá được**. Mọi thứ khớp được đã khớp rồi.
 
@@ -290,15 +299,16 @@ I không cho thấy:
 |   25,19 |          32.130 |   25,27 |          30.800 |
 |   25,18 |      **63.130** |   25,28 |      **57.300** |
 
-⚠️ Chú ý hàng thứ hai bên bán. **Hai lệnh đầu tiên đều ở 25,24**, từ hai nơi khác nhau — chính Shiller
-cũng chỉ ra điều này (`21 33:21`): hai khách hàng khác nhau, cùng một mức giá, vẫn là hai lệnh riêng.
-Nên **độ sâu thật ở đỉnh sổ lệnh là 10.600 cổ phiếu, không phải 2.400.**
+> [!warning]
+> Chú ý hàng thứ hai bên bán. **Hai lệnh đầu tiên đều ở 25,24**, từ hai nơi khác nhau — chính Shiller
+> cũng chỉ ra điều này (`21 33:21`): hai khách hàng khác nhau, cùng một mức giá, vẫn là hai lệnh riêng.
+> Nên **độ sâu thật ở đỉnh sổ lệnh là 10.600 cổ phiếu, không phải 2.400.**
 
 Đó là kiểu chi tiết chỉ hiện ra khi bạn cộng các con số lại — và là lý do bảng này đáng dựng.
 
 ---
 
-## 7. 📚 Lệnh thị trường ăn vào sổ lệnh
+## 7. Lệnh thị trường ăn vào sổ lệnh
 
 Shiller nhắc rằng nếu môi giới muốn 10.000 cổ phiếu thì *"chúng sẽ ở nhiều mức giá khác nhau"*. Ông
 dừng ở đó. [Mục 2 của chương trình](#15-chương-trình) tính ra bao nhiêu.
@@ -340,6 +350,7 @@ sàn ở NYSE, mọi thứ *"phải diễn ra theo **nhịp con người**"* —
 cho người đại diện ở sàn, người đó **đi bộ** tới đám đông rồi bàn bạc. Và ông mô tả cuộc bàn bạc đó rất
 đắt (`21 37:23`):
 
+> [!quote]
 > *"Nó giống một ván **poker**. Bạn không muốn lật bài, nhưng bạn dò xem người ta thế nào, rồi sau một
 > hồi trao đổi thì chốt được một giao dịch."*
 
@@ -351,6 +362,7 @@ thuật toán / giao dịch bằng chương trình** (`21 37:57`), thứ có t�
 một phần nghìn giây"* rồi rút lại (`21 38:37`, `21 38:41`). Và ông nêu một cách dùng khiến người ta
 phải suy nghĩ (`21 38:51`–`21 39:11`) — dùng nó để **lọc xem ai đang giao dịch với mình**:
 
+> [!quote]
 > *"Nếu bạn chỉ muốn giao dịch với **máy tính**, nếu bạn nghĩ con người quá tinh khôn so với mình…
 > thì bạn viết một chiến lược mili giây, và thế là bạn **phân loại được ai giao dịch với bạn**."*
 
@@ -358,14 +370,16 @@ Hệ quả (`21 39:16`): HFT **thiên vị các sở giao dịch điện tử**,
 những sở hoàn toàn điện tử để chơi được hết những trò này"* (`21 39:30`) — nên **các sàn giao dịch vật
 lý đang chết dần trên phần lớn thế giới** (`21 39:36`).
 
-⚠️ Và Shiller nói thẳng một điều dễ bỏ qua (`21 39:48`): **chính NYSE đã chậm chân** trong việc thích
-nghi với những công nghệ này. Đó là bối cảnh của cả phần còn lại.
+> [!warning]
+> Và Shiller nói thẳng một điều dễ bỏ qua (`21 39:48`): **chính NYSE đã chậm chân** trong việc thích
+> nghi với những công nghệ này. Đó là bối cảnh của cả phần còn lại.
 
 Lịch sử của làn sóng này, theo Shiller, bắt đầu từ **ECN — mạng truyền thông điện tử** (`21 40:10`),
 được **Uỷ ban Chứng khoán Mỹ** cho phép trong thập niên 1990 như **giải pháp thay thế cho sở giao
 dịch** (`21 40:15`), *"ít nhất là như một **thí nghiệm**"* (`21 40:38`). Và cố tình **không gọi là sở
 giao dịch** (`21 40:40`):
 
+> [!quote]
 > *"Nên họ không gọi mấy thứ này là sở giao dịch, họ gọi chúng là **ECN**."*
 
 Hai cái quan trọng: **Archipelago** (`21 40:46`) và **Island** (`21 40:53`). Chúng *"thật ra chỉ là các
@@ -373,6 +387,7 @@ trang web nơi bạn có thể giao dịch, và chúng **mở cho công chúng**
 
 Và chúng có **một nền văn hoá khác** — văn hoá web (`21 41:02`):
 
+> [!quote] 21 41:05
 > *"Chúng tôi sẽ **không thu tiền của bạn để xem sổ lệnh**, chúng tôi cứ đưa nó ra cho tất cả mọi
 > người. Web không thu tiền cho rất nhiều thứ."* (`21 41:05`)
 
@@ -381,6 +396,7 @@ Và chúng có **một nền văn hoá khác** — văn hoá web (`21 41:02`):
 
 Phản ứng ban đầu của NYSE với Archipelago (`21 41:23`):
 
+> [!quote]
 > *"À, đây chỉ là một đám sinh viên nghịch ngợm, kiểu một trò chơi máy tính thôi."*
 
 Họ **không coi là nghiêm túc** (`21 41:32`) — cho tới khi *"Archipelago lớn quá nhanh"* (`21 41:37`),
@@ -404,7 +420,7 @@ nua."** Và dẫn lời **Laura Cha** từ một buổi trước (`21 43:55`): t
 định đều đang **sửa vấn đề của ngày hôm qua** — và chi tiết bà nêu ở đây là cùng một quan sát: định chế
 tài chính được thiết kế cho một thế giới đã đi mất.
 
-[§13](#13--đối-chiếu-2026) cho biết câu chuyện đó kết thúc ra sao.
+[§13](#13-đối-chiếu-2026) cho biết câu chuyện đó kết thúc ra sao.
 
 ---
 
@@ -453,6 +469,7 @@ thì **không thể khớp hết ở một giá**. Vậy nghĩa vụ "giá tốt
 khoán làm rõ vào khoảng 2006 rằng nghĩa vụ đó chỉ áp cho **mức giá tốt nhất ở đỉnh sổ**. Còn phần
 còn lại thì *"chúng tôi không đi sâu vào được"*.
 
+> [!note]
 > Nên đó **không phải sự bảo vệ đầy đủ** cho khách hàng. Nghĩa vụ vẫn tồn tại, nhưng hệ thống quá phức
 > tạp — quá nhiều máy tính, quá nhiều sở, quá nhiều quy tắc.
 
@@ -475,6 +492,7 @@ thế"* (`21 53:09`). Rồi chúng hồi phục (`21 53:18`).
 
 Và đây là điểm Shiller nhấn (`21 53:35`):
 
+> [!quote] 21 53:39
 > *"Nếu bạn nhìn **giá đóng cửa** thì **gần như không có gì xảy ra**. Đó là một trục trặc rất ngắn, thứ
 > có lẽ đã làm một số người mất **những khoản tiền khổng lồ** — vì nếu bạn đang giao dịch đúng khoảnh
 > khắc đó, bạn gặp rắc rối."* (`21 53:39`)
@@ -503,11 +521,13 @@ Phần còn lại chủ yếu là máy giao dịch với máy -> THỊ TRƯỜNG
 
 Shiller thừa nhận giới hạn hiểu biết, và thừa nhận rất thẳng (`21 54:47`):
 
+> [!quote]
 > *"Tôi **không biết** các chương trình đó được lập trình để làm gì… **có lẽ chẳng ai biết toàn
 > cảnh**."*
 
-⚠️ Báo cáo có khuyến nghị cách sửa, nhưng Shiller nêu rõ nó **không** khuyến nghị chấm dứt HFT
-(`21 55:26`) — dù *"rất nhiều người sẽ khuyến nghị làm thế"* (`21 55:36`).
+> [!warning]
+> Báo cáo có khuyến nghị cách sửa, nhưng Shiller nêu rõ nó **không** khuyến nghị chấm dứt HFT
+> (`21 55:26`) — dù *"rất nhiều người sẽ khuyến nghị làm thế"* (`21 55:36`).
 
 Rồi ông đưa ra **đánh giá của mình**, và đây là chỗ thời gian đã phán xử. Ông cho rằng cơn giận của
 công chúng nổ ra một phần vì ngày 6/5/2010 rơi đúng vào giai đoạn khủng hoảng tài chính nên *"người ta
@@ -515,6 +535,7 @@ tưởng tượng hai thứ đó liên quan với nhau"*, trong khi theo ông **
 `21 55:51`). Đánh giá của ông (`21 55:53`): hiện tượng ấy là do *"một dạng **bất thường**, hoặc do
 **chưa quen** với giao dịch tần suất cao"* — và:
 
+> [!quote] 21 56:05
 > *"Nó là **một trục trặc, không phải một khiếm khuyết lớn** — nhưng nó dẫn tới rất nhiều phẫn nộ về
 > giao dịch tần suất cao."* (`21 56:05`)
 
@@ -526,6 +547,7 @@ người ta đã làm *"bằng bút lông và một tờ giấy 200 năm trướ
 
 Và ông kết (`21 57:11`):
 
+> [!quote] 21 57:14, 21 57:23
 > ***"Chưa có ngày 6/5/2010 nào nữa kể từ đó. Đó chỉ là một sự bất thường, vì người ta chưa quen với
 > loại sự kiện ấy… Tôi nghĩ rồi sẽ ổn thôi."*** (`21 57:14`, `21 57:23`)
 
@@ -542,6 +564,7 @@ phải sống ở New York nữa. Tôi sống đâu cũng được."*
 
 **HFT đảo ngược điều đó** (`21 57:52`). Giao dịch nhanh tới mức (`21 58:04`):
 
+> [!quote]
 > *"nếu bạn định dựng một hoạt động giao dịch tần suất cao ở **St. Louis** và vận hành bằng đường dây
 > tới New York, thì **thời gian điện chạy từ St. Louis tới New York là quá lâu**, và bạn sẽ **chậm
 > chân** trong giao dịch."*
@@ -553,6 +576,7 @@ từng có ở mọi thành phố lớn của Mỹ, và chúng tồn tại vì *
 chuyện với một môi giới người Chicago; họ muốn tới được tận văn phòng ông ta và gặp mặt"*. Giờ xuất hiện
 **một lý do điện tử** thay thế. Lý do cuối cùng thì không ai cãi được (`21 58:49`):
 
+> [!quote] 21 58:55
 > *"Vì vật lý lý thuyết cơ bản, bạn **không thể di chuyển bất cứ thứ gì nhanh hơn ánh sáng**. Chuyện
 > này sẽ còn ở lại với chúng ta, giờ khi đã có giao dịch tính bằng **micro giây**."* (`21 58:55`)
 
@@ -585,34 +609,35 @@ Rồi ông đóng lập luận theo hướng mà nhiều người không nghĩ t
 lại bằng cách thông minh hơn. Không thể là người hiểu biết nhất — có quá nhiều loại đồ cổ và quá nhiều
 thông tin nội bộ. Nên chỉ còn **một cách duy nhất** (`21 63:42`):
 
+> [!note]
 > **Đặt chênh lệch mua-bán đủ rộng để bạn bị moi mà vẫn có lãi.**
 
 Với cổ phiếu cũng vậy. Bạn niêm yết giá lên màn hình thì bạn là **con vịt ngồi im** (`21 63:14`): sẽ
 có tin tốt hoặc tin xấu, và **ai đó sẽ nghe được trước bạn**; khi lệnh của bạn bị khớp thì đó là lúc
 bất lợi cho bạn.
 
-### 📚 Chênh lệch mua-bán phải rộng bao nhiêu
-
-Shiller nói "đủ rộng" bằng lời. [Mục 4 của chương trình](#15-chương-trình) tính ra con số. Cổ phiếu
-đang giá 25,00; sắp có tin đưa giá về 26,00 hoặc 24,00; một tỷ lệ người giao dịch **biết trước tin
-đó**, và người tạo lập **không phân biệt được ai là ai**:
-
-| Tỷ lệ người biết trước | Chênh lệch hoà vốn | Trên giá cổ phiếu |
-| ---------------------: | -----------------: | ----------------: |
-|             **0,00 %** |           **0 xu** |       **0,000 %** |
-|                 1,00 % |               2 xu |           0,080 % |
-|                 5,00 % |              11 xu |           0,440 % |
-|                10,00 % |              22 xu |           0,880 % |
-|                30,00 % |              86 xu |           3,440 % |
-
-Hàng đầu tiên là chìa khoá: nếu **không ai** biết trước tin, chênh lệch hoà vốn **bằng 0**.
-
-> Chênh lệch mua-bán **không phải phí dịch vụ**, cũng **không phải lợi nhuận độc quyền**. Nó là **giá
-> của việc không biết ai đang đứng bên kia.**
-
-Điều này giải thích một hiện tượng mà lời giảng không nhắc: vì sao **cổ phiếu ít người theo dõi có
-chênh lệch rộng hơn cổ phiếu lớn**. Không phải vì nó rủi ro hơn về mặt kinh doanh, mà vì **tỷ lệ người
-biết trước trong số người giao dịch nó cao hơn**.
+> [!note] Chênh lệch mua-bán phải rộng bao nhiêu
+>
+> Shiller nói "đủ rộng" bằng lời. [Mục 4 của chương trình](#15-chương-trình) tính ra con số. Cổ phiếu
+> đang giá 25,00; sắp có tin đưa giá về 26,00 hoặc 24,00; một tỷ lệ người giao dịch **biết trước tin
+> đó**, và người tạo lập **không phân biệt được ai là ai**:
+>
+> | Tỷ lệ người biết trước | Chênh lệch hoà vốn | Trên giá cổ phiếu |
+> | ---------------------: | -----------------: | ----------------: |
+> |             **0,00 %** |           **0 xu** |       **0,000 %** |
+> |                 1,00 % |               2 xu |           0,080 % |
+> |                 5,00 % |              11 xu |           0,440 % |
+> |                10,00 % |              22 xu |           0,880 % |
+> |                30,00 % |              86 xu |           3,440 % |
+>
+> Hàng đầu tiên là chìa khoá: nếu **không ai** biết trước tin, chênh lệch hoà vốn **bằng 0**.
+>
+> > Chênh lệch mua-bán **không phải phí dịch vụ**, cũng **không phải lợi nhuận độc quyền**. Nó là **giá
+> > của việc không biết ai đang đứng bên kia.**
+>
+> Điều này giải thích một hiện tượng mà lời giảng không nhắc: vì sao **cổ phiếu ít người theo dõi có
+> chênh lệch rộng hơn cổ phiếu lớn**. Không phải vì nó rủi ro hơn về mặt kinh doanh, mà vì **tỷ lệ người
+> biết trước trong số người giao dịch nó cao hơn**.
 
 ### Bài toán phá sản của người tạo lập
 
@@ -666,7 +691,7 @@ làm được nghề này.
 
 ---
 
-## 13. ⚠️ Đối chiếu 2026
+## 13. Đối chiếu 2026
 
 ### 13.1 "Chưa có ngày 6/5/2010 nào nữa" — câu này hỏng sau 16 tháng
 
@@ -686,11 +711,12 @@ Shiller nói câu đó ngày 13/4/2011, và nó là dự đoán rõ ràng nhất
 **Mười sáu tháng** sau khi Shiller nói *"rồi sẽ ổn thôi"*, Knight Capital mất gần nửa tỷ đô trong 45
 phút vì đúng loại nguyên nhân ông vừa gạt đi.
 
-⚠️ Nhưng phải công bằng với ông ở hai điểm. **Thứ nhất**, lập luận của ông không phải "sẽ không có sự
-cố nào nữa" mà là "đây là trục trặc, không phải khiếm khuyết cấu trúc, và ta sẽ học được" — và điều đó
-**đúng một phần**: [§13.2](#132-cầu-dao-mà-shiller-mô-tả-đã-bị-thay-thế-hoàn-toàn) cho thấy hệ thống
-đã học thật. **Thứ hai**, ông nói câu đó **có kèm điều kiện**: *"chúng ta phải cẩn thận một chút, mọi
-thứ có thể xảy ra với tốc độ ánh sáng."*
+> [!warning]
+> Nhưng phải công bằng với ông ở hai điểm. **Thứ nhất**, lập luận của ông không phải "sẽ không có sự
+> cố nào nữa" mà là "đây là trục trặc, không phải khiếm khuyết cấu trúc, và ta sẽ học được" — và điều đó
+> **đúng một phần**: [§13.2](#132-cầu-dao-mà-shiller-mô-tả-đã-bị-thay-thế-hoàn-toàn) cho thấy hệ thống
+> đã học thật. **Thứ hai**, ông nói câu đó **có kèm điều kiện**: *"chúng ta phải cẩn thận một chút, mọi
+> thứ có thể xảy ra với tốc độ ánh sáng."*
 
 Lỗi nằm ở chỗ ông rút ra kết luận **"chỉ là một sự bất thường"** từ một mẫu quan sát **11 tháng**. Đó
 là đúng loại sai lầm mà chính ông dạy ở [bài 12](bai_12_tai_chinh_hanh_vi.md): khoảng tin cậy quá hẹp,
@@ -719,6 +745,7 @@ từng cổ phiếu:
 | Hành động     | **DỪNG** giao dịch 5 phút           | **CẤM khớp** ngoài biên độ                  |
 | Lệnh sai giá  | dừng thị trường **sau khi** đã khớp | **bị chặn trước khi** khớp                  |
 
+> [!note]
 > Khác biệt cơ bản: bản cũ **chữa cháy**, LULD **chống cháy**.
 
 Bản cũ có một vấn đề thực tế mà chính cơ quan quản lý ghi nhận: nó bị kích hoạt bởi **chính các lệnh
@@ -840,7 +867,7 @@ thứ ba — **các dự đoán về công nghệ thì hỏng nhanh nhất**, v�
 
 ---
 
-## 14. 🇻🇳 Góc Việt Nam
+## 14. Góc Việt Nam
 
 ### 14.1 Sổ lệnh không có ai đứng sau
 
@@ -861,10 +888,11 @@ Phiên giao dịch:
 
 Biên độ dao động **±7 %** so với giá tham chiếu, lô tối thiểu 100 cổ phiếu.
 
-⚠️ **Một chỗ dễ nói sai, cần nói cho đúng.** Không phải Việt Nam "chưa có" khái niệm tạo lập thị
-trường. Khung pháp lý về **thành viên tạo lập thị trường đã có** — Thông tư 120/2020/TT-BTC. Nhưng
-trên thực tế nó **chủ yếu áp dụng cho chứng chỉ quỹ ETF và chứng quyền có bảo đảm**, chưa triển khai
-rộng cho cổ phiếu niêm yết thông thường.
+> [!warning] Một chỗ dễ nói sai, cần nói cho đúng.
+> Không phải Việt Nam "chưa có" khái niệm tạo lập thị
+> trường. Khung pháp lý về **thành viên tạo lập thị trường đã có** — Thông tư 120/2020/TT-BTC. Nhưng
+> trên thực tế nó **chủ yếu áp dụng cho chứng chỉ quỹ ETF và chứng quyền có bảo đảm**, chưa triển khai
+> rộng cho cổ phiếu niêm yết thông thường.
 
 Hệ quả thực tế: **thanh khoản hoàn toàn phụ thuộc vào việc có nhà đầu tư khác tình cờ muốn giao dịch
 ngược chiều hay không** — và đúng lúc thị trường căng thẳng thì họ biến mất.
@@ -873,6 +901,7 @@ Nhưng mô hình thuần khớp lệnh **cũng có lý do tồn tại**, và §1
 bằng **chênh lệch mua-bán**, tức bằng tiền của người khác. Họ cũng có **đặc quyền về thông tin thị
 trường**, và đó là một nguồn xung đột lợi ích thật. Bỏ họ đi thì bỏ luôn khoản chênh lệch đó.
 
+> [!quote]
 > Đây là một **đánh đổi**, không phải một thiếu sót. Câu hỏi đúng không phải "Việt Nam có nên có nhà
 > tạo lập không" mà là "**thanh khoản trong khủng hoảng đáng giá bao nhiêu, so với khoản chênh lệch
 > phải trả mỗi ngày**".
@@ -935,7 +964,8 @@ vận hành thông suốt**.
 
 ### 14.4 Ba việc dùng được ngay
 
-💡 Từ bài này, ba thứ một nhà đầu tư Việt Nam kiểm tra được:
+> [!example]
+> Từ bài này, ba thứ một nhà đầu tư Việt Nam kiểm tra được:
 
 1. **Đừng dùng lệnh thị trường cho cổ phiếu thanh khoản thấp.** §7 cho thấy sổ lệnh mỏng hơn cảm giác
    rất nhiều. Với cổ phiếu ít giao dịch, hãy xem độ sâu sổ lệnh **trước khi** đặt lệnh, và dùng lệnh
@@ -952,6 +982,7 @@ vận hành thông suốt**.
 
 📂 **[thuc_hanh/bai-06-so-giao-dich.py](../thuc_hanh/bai-06-so-giao-dich.py)** — 588 dòng, 8 mục.
 
+> [!note]
 > ⚙️ **Chạy:** cần **Python 3.10+**. Không cần cài gói nào, không gọi mạng, không đọc file ngoài.
 > ```bash
 > python3 bai-06-so-giao-dich.py
@@ -1268,20 +1299,20 @@ Tat ca assert deu qua. Chay lai cho ket qua giong het.
 ==============================================================================
 ```
 
-### 💡 Tự thử
-
-1. **Mục 1** — thêm một lệnh mua 50.000 cổ phiếu ở giá 25,23 vào `BEN_MUA`. Chênh lệch mua-bán có đổi
-   không? Độ sâu có đổi không? Điều đó nói gì về việc **chênh lệch giá là thước đo không đầy đủ**?
-2. **Mục 2** — xoá lệnh 8.200 ở 25,24 khỏi `BEN_BAN`. Lệnh 10.000 cổ phiếu giờ trượt bao nhiêu?
-3. **Mục 3** — nếu biên độ ±7 % của Việt Nam được áp vào bảng này, hàng nào biến mất?
-4. **Mục 4** — tìm tỷ lệ người biết trước khiến chênh lệch hoà vốn vượt 1 % giá cổ phiếu. Con số đó có
-   thực tế không, và loại cổ phiếu nào rơi vào vùng đó?
-5. **Mục 5** — với `p = 52 %`, cần bao nhiêu vốn để xác suất phá sản xuống dưới 1 %? So với `p = 60 %`.
-6. **Mục 5** — vì sao tăng $p$ hiệu quả hơn tăng $S$? Trả lời bằng dạng của công thức.
-7. **Mục 7** — đổi `CAI_THIEN_GIA_BP` thành `5_000` (người bảo lãnh trả lại **toàn bộ** nửa chênh
-   lệch). Chi phí ẩn về đâu, và mô hình PFOF còn lãi không?
-8. **Mục 8** — đổi `DO_SAU_KHONG_TAO_LAP` thành `15_000`. Khoảng cách giữa hai cấu trúc thị trường thu
-   hẹp bao nhiêu? Điều đó nói gì về vai trò của **số lượng nhà đầu tư** so với **người tạo lập**?
+> [!example] Tự thử
+>
+> 1. **Mục 1** — thêm một lệnh mua 50.000 cổ phiếu ở giá 25,23 vào `BEN_MUA`. Chênh lệch mua-bán có đổi
+>    không? Độ sâu có đổi không? Điều đó nói gì về việc **chênh lệch giá là thước đo không đầy đủ**?
+> 2. **Mục 2** — xoá lệnh 8.200 ở 25,24 khỏi `BEN_BAN`. Lệnh 10.000 cổ phiếu giờ trượt bao nhiêu?
+> 3. **Mục 3** — nếu biên độ ±7 % của Việt Nam được áp vào bảng này, hàng nào biến mất?
+> 4. **Mục 4** — tìm tỷ lệ người biết trước khiến chênh lệch hoà vốn vượt 1 % giá cổ phiếu. Con số đó có
+>    thực tế không, và loại cổ phiếu nào rơi vào vùng đó?
+> 5. **Mục 5** — với `p = 52 %`, cần bao nhiêu vốn để xác suất phá sản xuống dưới 1 %? So với `p = 60 %`.
+> 6. **Mục 5** — vì sao tăng $p$ hiệu quả hơn tăng $S$? Trả lời bằng dạng của công thức.
+> 7. **Mục 7** — đổi `CAI_THIEN_GIA_BP` thành `5_000` (người bảo lãnh trả lại **toàn bộ** nửa chênh
+>    lệch). Chi phí ẩn về đâu, và mô hình PFOF còn lãi không?
+> 8. **Mục 8** — đổi `DO_SAU_KHONG_TAO_LAP` thành `15_000`. Khoảng cách giữa hai cấu trúc thị trường thu
+>    hẹp bao nhiêu? Điều đó nói gì về vai trò của **số lượng nhà đầu tư** so với **người tạo lập**?
 
 ---
 

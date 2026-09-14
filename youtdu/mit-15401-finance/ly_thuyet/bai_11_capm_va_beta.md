@@ -1,12 +1,15 @@
 # Bài 11 — CAPM: beta, trạng thái cân bằng, và giá của rủi ro không tránh được
 
+> [!info] Về bài này
 > Bài học dựa trên **MIT 15.401 Finance Theory I** (GS. Andrew W. Lo, MIT Sloan, học kỳ thu 2008),
 > ba buổi: **Ses 15** từ `52:10` (YouTube `z2oQe6B1Qa4`), **Ses 16** trọn vẹn (`N8gtnbJuMoo`, 75:22),
 > **Ses 17** tới `21:49` (`JE80wLNIhjE`).
 > Mốc thời gian ghi dạng `S15 mm:ss`, `S16 mm:ss`, `S17 mm:ss`.
 > Phần **📚 Lý thuyết bổ sung** là kiến thức nền video lướt qua hoặc không có.
-> ⚠️ **Video ghi tháng 11/2008** — §22 đối chiếu với 2026; §15–19 chấm điểm từng khẳng định bằng dữ liệu thật.
-> 📌 **Cần đọc trước:** [Bài 10 — Lý thuyết danh mục](bai_10_ly_thuyet_danh_muc.md) (danh mục tiếp tuyến — §2 bắt đầu đúng từ chỗ đó).
+>
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
+>
+> **Cần đọc trước:** [Bài 10 — Lý thuyết danh mục](bai_10_ly_thuyet_danh_muc.md) (danh mục tiếp tuyến — §2 bắt đầu đúng từ chỗ đó).
 
 ---
 
@@ -77,16 +80,19 @@ Lo đặt tên cho nó (`S15 52:29`): **danh mục M**.
 
 Rồi ông đi bước quyết định (`S15 59:02`):
 
+> [!quote]
 > *"Nếu **tất cả mọi người trên thế giới** đều bàng quan giữa việc nắm n+1 chứng khoán và việc nắm hai chứng khoán, thì hai chứng khoán đó đóng một vai trò rất đặc biệt… Ai cũng muốn nắm M. Vậy hãy chấp nhận bước nhảy niềm tin rằng **ai cũng thật sự nắm M**."*
 
 Lập luận cộng dồn (`S15 62:16`):
 
+> [!quote]
 > *"Nếu ai cũng nắm danh mục M, đó là phía **cầu**. Về phía **cung**, tôi giả định mọi cổ phiếu được phát hành đều có người nắm. Khi tôi cộng dồn toàn bộ nhu cầu… trong mọi trường hợp, trọng số của các bạn là giống hệt nhau. Vậy khi tôi cộng cả thế giới lại và được danh mục M, nó phải bằng cái gì? **Nó chỉ có thể bằng tổng toàn bộ tài sản trên thế giới.** Cung bằng cầu."*
 
 $$\boxed{M = \text{danh mục thị trường} = \text{mọi cổ phiếu theo đúng tỷ trọng vốn hoá}}$$
 
 Lo gọi đây là *"kết quả đơn giản đến mức gây sốc nhưng mạnh một cách phi thường"* (`S15 63:27`), và ghi công cho **Bill Sharpe**:
 
+> [!quote] S15 63:55
 > *"Markowitz nghĩ ra tối ưu hoá danh mục… **Bill Sharpe nhìn vào đó và nói: à há. Nếu ai cũng ở trên đường đó, thì ai cũng đang nắm M hoặc tín phiếu kho bạc, và do đó M chỉ có thể là danh mục thị trường.**"* (`S15 63:55`)
 
 ### Kiểm chứng bằng số
@@ -104,7 +110,8 @@ Lo gọi đây là *"kết quả đơn giản đến mức gây sốc nhưng m�
 | B4   |            0,200000 |                     0,200000 | $+2{,}2\times10^{-15}$ |
 | B5   |            0,200000 |                     0,200000 | $-4{,}7\times10^{-16}$ |
 
-⚠️ Đây là **chứng minh bằng dựng hình**, không phải một khẳng định về số liệu: tôi lấy hiệp phương sai thật nhưng **giả định** vốn hoá bằng nhau. Điều nó chứng minh là mệnh đề toán học — *danh mục tiếp tuyến bằng danh mục thị trường khi và chỉ khi SML đúng cho mọi tài sản* — chứ không phải rằng thị trường Mỹ thật sự cân bằng.
+> [!warning]
+> Đây là **chứng minh bằng dựng hình**, không phải một khẳng định về số liệu: tôi lấy hiệp phương sai thật nhưng **giả định** vốn hoá bằng nhau. Điều nó chứng minh là mệnh đề toán học — *danh mục tiếp tuyến bằng danh mục thị trường khi và chỉ khi SML đúng cho mọi tài sản* — chứ không phải rằng thị trường Mỹ thật sự cân bằng.
 
 ---
 
@@ -112,6 +119,7 @@ Lo gọi đây là *"kết quả đơn giản đến mức gây sốc nhưng m�
 
 Đây là câu quan trọng nhất trong ba buổi giảng, và Lo nói nó ở phần tổng kết (`S17 19:15`):
 
+> [!quote]
 > *"**CAPM đòi hỏi trạng thái cân bằng. Đó là một bước ngoặt so với mọi thứ ta đã làm trong khoá này.** Tất cả các quan hệ định giá tôi đã lập luận — giá trị hiện tại của trái phiếu, của cổ phiếu, của hợp đồng tương lai, hợp đồng kỳ hạn, quyền chọn — **tất cả** đều chỉ dựa vào ý niệm **không có bữa trưa miễn phí**, rằng người ta thích nhiều tiền hơn ít tiền. Nhưng với CAPM, tôi phải viện tới một điều kiện mạnh hơn nhiều. **Tôi phải đòi hỏi cung bằng cầu.**"*
 
 Bảng dưới là toàn bộ khoá học nhìn qua đúng một lăng kính:
@@ -139,6 +147,7 @@ Vì sao chuyện này quan trọng đến thế? Vì **sức mạnh của một 
 
 Ngay sau khi dựng xong lập luận, Lo phải trả lời câu hỏi thực dụng: **lấy gì làm M?**
 
+> [!quote]
 > ⚠️ `S15 64:11` — *"Và bây giờ ta có một đại diện cho danh mục thị trường, **Russell 2000**. Hoặc S&P 500."*
 >
 > ⚠️ `S15 64:24` — *"**Russell 2000 có 2.000 cổ phiếu gia quyền theo vốn hoá. Đó là thứ gần nhất với 'mọi thứ' mà bạn quan tâm mà bạn có thể có được.**"*
@@ -162,6 +171,7 @@ Nhưng nó dẫn thẳng tới một vấn đề sâu hơn nhiều.
 
 Lo tự nêu vấn đề khi trả lời một sinh viên (`S16 67:19`):
 
+> [!quote]
 > *"Theo lý thuyết, danh mục tiếp tuyến này **không chỉ dành cho thị trường chứng khoán Mỹ. Nó phải là của thị trường chứng khoán toàn thế giới, mọi thứ.**"*
 
 Nhưng "mọi thứ" đi xa hơn Lo nói. **Richard Roll (1977)**, *"A Critique of the Asset Pricing Theory's Tests"*, Journal of Financial Economics 4(2):129–176, chỉ ra hai điều:
@@ -180,11 +190,13 @@ Danh mục thị trường phải chứa **mọi tài sản có giá trị**: c�
 
 Không ai quan sát được lợi suất của nó. Vì vậy mọi kiểm định CAPM đều là **kiểm định giả thuyết kép**: CAPM đúng **và** chỉ số bạn chọn là đại diện tốt. Bác bỏ được thì không biết vế nào sai.
 
+> [!quote]
 > Roll viết thẳng: *"Lý thuyết này không kiểm chứng được trừ khi biết chính xác thành phần của danh mục thị trường thật và dùng nó trong kiểm định."*
 
 Đặt cạnh §4: Lo đề xuất Russell 2000 làm đại diện; đại diện chuẩn là CRSP gia quyền vốn hoá; danh mục thị trường thật thì **không tồn tại dưới dạng quan sát được**. Ba tầng khác nhau, và bậc thang giữa tầng hai và tầng ba là chỗ Roll đứng.
 
-⚠️ Điều này **không** làm CAPM vô dụng. Nó làm CAPM thành một **khung để suy nghĩ và một quy ước để định giá**, chứ không phải một định luật đã được kiểm chứng. Chính Lo nói đúng như thế (`S16 29:55`): *"**Đây không phải vật lý. Đây không phải toán học.** Bạn đang áp một bộ lý thuyết và xấp xỉ lên một thực tại phức tạp hơn rất nhiều."*
+> [!warning]
+> Điều này **không** làm CAPM vô dụng. Nó làm CAPM thành một **khung để suy nghĩ và một quy ước để định giá**, chứ không phải một định luật đã được kiểm chứng. Chính Lo nói đúng như thế (`S16 29:55`): *"**Đây không phải vật lý. Đây không phải toán học.** Bạn đang áp một bộ lý thuyết và xấp xỉ lên một thực tại phức tạp hơn rất nhiều."*
 
 ---
 
@@ -200,14 +212,17 @@ Lo đặt tên cho hai đường ở đầu Ses 16.
 
 $$\mathbb{E}[R_p] = r_f + \frac{\sigma_p}{\sigma_M}\left(\mathbb{E}[R_M] - r_f\right)$$
 
+> [!quote] S16 01:15
 > *"Đường tiếp tuyến đó gọi là **đường thị trường vốn**, vì nó thể hiện điều mà mọi thị trường vốn hiệu quả phải thể hiện về đánh đổi rủi ro–lợi suất."* (`S16 01:15`)
 
-⚠️ Nó **chỉ áp dụng cho danh mục hiệu quả** — và Lo nhấn mạnh rằng hầu như không có gì hiệu quả (`S16 02:37`): *"Nói thẳng ra, **phần lớn khoản đầu tư đều không hiệu quả**. Bạn chọn đại một cổ phiếu như IBM, nó không phải một danh mục hiệu quả."*
+> [!warning]
+> Nó **chỉ áp dụng cho danh mục hiệu quả** — và Lo nhấn mạnh rằng hầu như không có gì hiệu quả (`S16 02:37`): *"Nói thẳng ra, **phần lớn khoản đầu tư đều không hiệu quả**. Bạn chọn đại một cổ phiếu như IBM, nó không phải một danh mục hiệu quả."*
 
 ### Đường thị trường chứng khoán (`S16 12:11`)
 
 $$\mathbb{E}[R_i] = r_f + \beta_i\left(\mathbb{E}[R_M] - r_f\right), \qquad \beta_i = \frac{\mathrm{Cov}(R_i, R_M)}{\mathrm{Var}(R_M)}$$
 
+> [!quote] S16 12:11
 > *"Ta gọi nó là **đường thị trường chứng khoán**, không phải đường thị trường vốn, vì nó áp dụng cho **từng chứng khoán một trong toàn bộ vũ trụ đầu tư của bạn**."* (`S16 12:11`)
 
 ### Chỗ khác nhau duy nhất
@@ -245,12 +260,14 @@ Lo đi qua ba trường hợp (`S16 05:33`):
 
 Trường hợp thứ hai là chỗ dễ hiểu nhầm nhất, và Lo dừng lại nói rõ (`S16 06:23`):
 
+> [!quote]
 > *"Điều quan trọng phải nhận ra là **nếu beta của một tài sản bằng 0, điều đó KHÔNG có nghĩa tài sản đó không biến động**… Một tài sản có beta bằng 0 vẫn có thể có biến động. **Nó không phải tài sản phi rủi ro.** Nó là bất kỳ tài sản nào có beta bằng 0."*
 
 Còn beta âm thì Lo nhận là *"hoàn toàn phản trực giác"* (`S16 08:16`): *"Bạn có thể sẵn lòng **trả tiền cho ai đó vì đặc ân được gánh rủi ro ấy**. Vì sao lại trả tiền để chịu rủi ro?"*
 
 Câu trả lời nằm ở chính khung của [bài 10 §12](bai_10_ly_thuyet_danh_muc.md) (`S16 11:08`):
 
+> [!quote]
 > *"Nếu bạn có một chứng khoán tương quan âm với danh mục thị trường, nó giúp bạn **rất nhiều**. Mà nếu nó giúp bạn nhiều thì bạn sẵn lòng trả tiền cho nó. Khi bạn sẵn lòng trả tiền, bạn **đẩy giá hôm nay lên cao**. Và do đó lợi suất kỳ vọng… trở nên thấp hơn."*
 
 Đây là mắt xích quan trọng: **giá cao hôm nay chính là lợi suất kỳ vọng thấp ngày mai.** Bảo hiểm đắt không phải vì nó tệ mà vì nó quý.
@@ -263,6 +280,7 @@ Và Lo tự đóng vòng lặp (`S16 12:28`): sinh viên Dennis hỏi bán khố
 
 Sinh viên Ken hỏi thẳng: cho một ví dụ chứng khoán beta âm đi (`S16 12:59`). Lo trả lời (`S16 13:19`):
 
+> [!quote]
 > *"Rất khó kiếm. Nhưng thứ gần nhất tồn tại trên thị trường hôm nay là **cổ phiếu ngành khai thác vàng**. Beta của nó **quanh 0, đôi khi âm, đôi khi dương, nhưng nhỏ**. Đó là ví dụ duy nhất mà chúng tôi tìm được trong dữ liệu có vẻ hơi âm."*
 
 §24 đo trên **Newmont** — công ty khai thác vàng niêm yết lâu đời nhất của Mỹ:
@@ -278,11 +296,14 @@ Sinh viên Ken hỏi thẳng: cho một ví dụ chứng khoán beta âm đi (`S
 
 ✅ Lo đúng ở điều quan trọng nhất: **R² chỉ 1–3%**. Cổ phiếu vàng gần như không có quan hệ với thị trường — đây thật sự là thứ gần "beta bằng 0" nhất trong các cổ phiếu thường.
 
-⚠️ Nhưng ước lượng điểm **dương ở mọi cửa sổ**, không âm. Cách nói chính xác là: *beta dương nhưng nhỏ, và sai số lớn tới mức không bác bỏ được giả thuyết beta = 0 trong các cửa sổ gần đây.*
+> [!warning]
+> Nhưng ước lượng điểm **dương ở mọi cửa sổ**, không âm. Cách nói chính xác là: *beta dương nhưng nhỏ, và sai số lớn tới mức không bác bỏ được giả thuyết beta = 0 trong các cửa sổ gần đây.*
 
-⚠️ *"Đôi khi âm"* thì không tìm thấy. Và Lo đã tự chỉ ra rằng cách duy nhất chắc chắn tạo beta âm là **bán khống** (`S16 12:44`) — nhưng khi đó kỳ vọng cũng âm theo, nên chẳng giúp được gì.
+> [!warning]
+> *"Đôi khi âm"* thì không tìm thấy. Và Lo đã tự chỉ ra rằng cách duy nhất chắc chắn tạo beta âm là **bán khống** (`S16 12:44`) — nhưng khi đó kỳ vọng cũng âm theo, nên chẳng giúp được gì.
 
-📚 Có một cách đọc sâu hơn cho kết quả này. Từ 12/2008, beta của Newmont là **0,23 với R² = 0,01**. Nghĩa là 99% biến động của nó **không** đến từ thị trường cổ phiếu. Với một nhà đầu tư đã đa dạng hoá, 99% ấy là rủi ro riêng lẻ — và theo đúng §13 dưới đây, **không được trả công**. Đó là lý do kinh tế vì sao cổ phiếu vàng, xét dài hạn, không phải một khoản đầu tư hấp dẫn dù nó là công cụ phòng vệ tốt.
+> [!note]
+> Có một cách đọc sâu hơn cho kết quả này. Từ 12/2008, beta của Newmont là **0,23 với R² = 0,01**. Nghĩa là 99% biến động của nó **không** đến từ thị trường cổ phiếu. Với một nhà đầu tư đã đa dạng hoá, 99% ấy là rủi ro riêng lẻ — và theo đúng §13 dưới đây, **không được trả công**. Đó là lý do kinh tế vì sao cổ phiếu vàng, xét dài hạn, không phải một khoản đầu tư hấp dẫn dù nó là công cụ phòng vệ tốt.
 
 ---
 
@@ -292,6 +313,7 @@ Lo gọi đây là *"một sự đơn giản hoá cực lớn"* (`S16 16:11`), v
 
 $$R_p = \sum_i \omega_i R_i \;\Longrightarrow\; \mathrm{Cov}(R_p, R_M) = \sum_i \omega_i\,\mathrm{Cov}(R_i, R_M) \;\Longrightarrow\; \boxed{\beta_p = \sum_i \omega_i \beta_i}$$
 
+> [!quote] S16 15:50
 > *"Nếu bạn coi beta là thước đo rủi ro, thì thước đo rủi ro này **tuyến tính** — khác hẳn độ biến động, vốn không tuyến tính."* (`S16 15:50`)
 
 §24 kiểm bằng dữ liệu thật, trộn năm nhóm theo trọng số 40/25/15/12/8%:
@@ -314,6 +336,7 @@ $$R_p = \sum_i \omega_i R_i \;\Longrightarrow\; \mathrm{Cov}(R_p, R_M) = \sum_i 
 
 Đây là chỗ toàn bộ khoá học có tiền lãi (`S16 17:32`):
 
+> [!quote]
 > *"Nếu bạn muốn biết lợi suất kỳ vọng của một dự án khoan dầu, hãy **đo beta của các cổ phiếu khoan dầu**, dùng beta đó, và đó là suất chiết khấu phù hợp cho dự án ấy."*
 
 Ví dụ Lo dùng, số liệu 1990–2001 (`S16 18:22`), với $r_f = 5\%$ và phần bù thị trường $6\%$:
@@ -329,6 +352,7 @@ Trực giác kiểm tra "mùi" thì đến từ sinh viên Courtney (`S16 23:06`
 
 Rồi ông tự đặt câu hỏi mà 18 năm sau trả lời được (`S16 23:49`):
 
+> [!quote]
 > *"**Ngày nay tôi không biết câu trả lời nữa.** Vì bây giờ ta phụ thuộc vào internet nhiều đến mức có thể khác đi. **Tôi chưa cập nhật phân tích này để xem beta từ 2001 tới 2008 ra sao, nhưng nó có thể đã khác.** Nên giờ có khi lại là mấy anh mọt sách chưa cạo râu…"*
 
 ### Đo lại
@@ -342,6 +366,7 @@ Rồi ông tự đặt câu hỏi mà 18 năm sau trả lời được (`S16 23:
 | PG       | 1/1990 – 12/2001 |  144 |     0,49 | 0,13 |      9,0% | 1,29 | 0,09 |
 | PG       | 1/2002 – 7/2026  |  295 |     0,37 | 0,05 |      4,0% | 1,38 | 0,14 |
 
+> [!note]
 > **Beta Microsoft giai đoạn 1990–2001 đo được 1,4865 — làm tròn ra đúng 1,49, con số Lo đọc trên lớp.** Tái lập độc lập, khớp tới hai chữ số thập phân, từ dữ liệu Yahoo Finance và Ken French mà Lo chưa từng chạm tới.
 
 Và câu hỏi ông bỏ ngỏ đã có đáp án: **beta Microsoft rơi từ 1,49 xuống 0,95**. Trực giác *"mọt sách chưa cạo râu"* của ông đúng về hướng — phần mềm đã trở thành hàng thiết yếu. Microsoft năm 2026 không còn là cổ phiếu chu kỳ; nó dao động gần như đúng nhịp thị trường.
@@ -354,7 +379,8 @@ Có một chi tiết Lo không nhắc, và nó làm hỏng ví dụ theo cách r
 
 Lo nói (`S16 29:23`): *"Nếu bạn đang ngồi trong **hai công ty này** và đặt câu hỏi: chúng ta sắp mở rộng hoạt động…"*
 
-⚠️ **Gillette không còn là một công ty vào lúc đó.** Procter & Gamble công bố thương vụ ngày 28/1/2005 và **hoàn tất ngày 1/10/2005** — trị giá công bố khoảng 57 tỷ đô la, giá trị hạch toán cuối cùng 53,4 tỷ. Mỗi cổ phiếu Gillette đổi lấy 0,975 cổ phiếu P&G.
+> [!warning] Gillette không còn là một công ty vào lúc đó.
+> Procter & Gamble công bố thương vụ ngày 28/1/2005 và **hoàn tất ngày 1/10/2005** — trị giá công bố khoảng 57 tỷ đô la, giá trị hạch toán cuối cùng 53,4 tỷ. Mỗi cổ phiếu Gillette đổi lấy 0,975 cổ phiếu P&G.
 
 Tức là khi Lo giảng buổi này ngày **19/11/2008**, Gillette đã ngừng tồn tại như một công ty độc lập được **ba năm bảy tuần**.
 
@@ -378,14 +404,17 @@ Ba trên năm cổ phiếu trung tâm của khoá học. Đó không phải xui 
 
 Lo dựng bối cảnh (`S16 60:01`): người lau kính các toà nhà chọc trời ở khu trung tâm Manhattan, đứng trên giàn giáo rộng nửa mét ở tầng 40. Ông thật sự đi tra lương của họ:
 
+> [!quote] S16 61:22
 > *"Khi tôi tra lần cuối, khoảng bốn năm trước, người lau kính chọc trời điển hình được trả khoảng **60.000 đô la một năm**… Không yêu cầu bằng cấp, không chứng chỉ. Cứ đến rồi leo lên."* (`S16 61:22`)
 
 Rồi ông đặt câu hỏi (`S16 62:01`):
 
+> [!quote]
 > *"Giả sử có một người thợ đến làm, mà anh ta lại rất thích **vừa lau kính vừa nhảy — nhảy điệu jig của Ireland** — trên tầng 40. Các bạn đồng ý là rủi ro hơn chứ? Vậy các bạn nghĩ người đó có được trả cao hơn 60.000 một năm không? **Vì sao không? Anh ta đang chịu nhiều rủi ro hơn mà.**"*
 
 Và câu trả lời (`S16 62:37`):
 
+> [!quote]
 > *"Chính xác. **Anh ta không BUỘC phải chịu rủi ro đó. Nó không thuộc về công việc.** Anh ta có thể chọn chịu, nhưng sẽ không được đền bù, vì nó không cần thiết. Và có 100.000 người xếp hàng sau lưng sẵn sàng nhận việc mà không cần chịu rủi ro ấy."*
 
 Toàn bộ CAPM nằm trong đó:
@@ -401,7 +430,8 @@ Lo tóm lại (`S16 63:34`): *"CAPM chỉ nói rằng **bạn được cái bạ
 
 Và (`S16 64:03`): *"**Beta là thước đo của cái hạt cứng bé xíu của rủi ro mà bạn không gạt bỏ được.**"*
 
-📚 **Con số năm 2026.** Lo đọc 60.000 đô la, tra vào khoảng 2004. Các nguồn hiện nay chênh nhau tới hai lần tuỳ định nghĩa: các trang tổng hợp việc làm cho *"lau kính"* nói chung ghi khoảng 41.000–45.000 đô la ở New York; còn các nguồn chuyên về **lau kính nhà cao tầng** — đúng công việc Lo mô tả, có chứng chỉ đu dây và giàn treo — cho khoảng **75.000–100.000 đô la**, trung vị quanh 82.000. ⚠️ Tôi ghi cả hai khoảng thay vì chọn một, vì các nguồn này không thống nhất và không có nguồn nào là thống kê chính thức.
+> [!note] Con số năm 2026.
+> Lo đọc 60.000 đô la, tra vào khoảng 2004. Các nguồn hiện nay chênh nhau tới hai lần tuỳ định nghĩa: các trang tổng hợp việc làm cho *"lau kính"* nói chung ghi khoảng 41.000–45.000 đô la ở New York; còn các nguồn chuyên về **lau kính nhà cao tầng** — đúng công việc Lo mô tả, có chứng chỉ đu dây và giàn treo — cho khoảng **75.000–100.000 đô la**, trung vị quanh 82.000. ⚠️ Tôi ghi cả hai khoảng thay vì chọn một, vì các nguồn này không thống nhất và không có nguồn nào là thống kê chính thức.
 
 Điểm sư phạm quan trọng hơn con số: **lập luận của Lo không phụ thuộc vào mức lương.** Dù là 45.000 hay 100.000, người nhảy jig vẫn không được trả thêm đồng nào.
 
@@ -421,10 +451,12 @@ Ba phần (`S16 70:18`):
 | $\beta_i(R_M - r_f)$ | **Rủi ro hệ thống**                              | ✅ Có           |
 | $\varepsilon_i$      | **Rủi ro riêng lẻ** — *"chính là điệu nhảy jig"* | ❌ Không        |
 
+> [!quote] S16 70:45
 > *"Sao tôi biết bạn không được trả công cho $\varepsilon$? **Vì trung bình, kỳ vọng của nó bằng 0.**"* (`S16 70:45`)
 
 Vì sao nó biến mất trong danh mục (`S16 71:29`):
 
+> [!quote]
 > *"Cái này dựa trên một mảnh toán học gọi là **luật số lớn**. Bạn có thể đã nghe cụm từ đó trong trò chuyện thường ngày, nhưng nó là một **định lý thật**. Nó nói rằng khi bạn có rất nhiều dao động không tương quan với nhau — mà theo định nghĩa, rủi ro riêng lẻ của Gillette và Microsoft là không tương quan — thì trong giới hạn, chúng thật sự tiến về 0."*
 
 Số cụ thể Lo đưa (`S16 71:29`): *"Mua 10 cổ phiếu thay vì 1 là đã đa dạng hoá. 20 tốt hơn 10. Và về mặt toán học, **sau 50 cổ phiếu thì bạn cơ bản đã đa dạng hoá xong**."*
@@ -435,13 +467,16 @@ Số cụ thể Lo đưa (`S16 71:29`): *"Mua 10 cổ phiếu thay vì 1 là đ�
 
 Lo rút ra một hệ quả rất cụ thể (`S16 58:28`):
 
+> [!quote]
 > *"**Nếu bạn làm trong ngành dịch vụ tài chính, bạn không nên mua cổ phiếu dịch vụ tài chính. Nếu bạn làm ngành dược, bạn không nên mua cổ phiếu công nghệ sinh học.** Ấy thế mà ta vẫn làm vậy, vì những lý do ngoài quản lý danh mục."*
 
 Và về chương trình mua cổ phiếu cho nhân viên (`S16 59:17`), khi được hỏi có nên tham gia không:
 
+> [!quote]
 > *"Tôi khuyên **không**, xét từ góc độ tài chính, nhưng tôi có thể khuyên **có**, xét từ góc độ khuyến khích quản trị. Lý do các công ty làm thế rất đơn giản: **họ đang cố hút bạn vào.** Còn từ góc độ cá nhân bạn, bạn đang gánh rủi ro mà bạn không cần phải gánh."*
 
-⚠️ Đây là lời khuyên đắt giá và có thật: vốn con người của bạn **đã** tập trung hết vào ngành bạn làm. Mua thêm cổ phiếu chính công ty đó là nhân đôi một canh bạc mà bạn không được trả công để chơi. Enron năm 2001 là bài học kinh điển — nhiều nhân viên mất cả việc lẫn toàn bộ quỹ hưu vào cùng một ngày.
+> [!warning]
+> Đây là lời khuyên đắt giá và có thật: vốn con người của bạn **đã** tập trung hết vào ngành bạn làm. Mua thêm cổ phiếu chính công ty đó là nhân đôi một canh bạc mà bạn không được trả công để chơi. Enron năm 2001 là bài học kinh điển — nhiều nhân viên mất cả việc lẫn toàn bộ quỹ hưu vào cùng một ngày.
 
 ---
 
@@ -451,6 +486,7 @@ Sinh viên Eduard hỏi: làm sao đo được mình cách biên hiệu quả ba
 
 $$\alpha_i = \mathbb{E}[R_i]_{\text{thực tế}} - \left[r_f + \beta_i(\mathbb{E}[R_M] - r_f)\right]$$
 
+> [!quote] S16 24:42
 > *"Với một nhà quản lý danh mục hay một dự án đầu tư mang lại lợi suất kỳ vọng khác với con số này, phần chênh lệch đó chính là cái ta gọi là **alpha**."* (`S16 24:42`)
 
 Ba nhà quản lý Lo chiếu (`S16 35:22`) — **cả ba đều có lợi suất 15% và độ biến động 20%**, chỉ khác beta:
@@ -461,6 +497,7 @@ Ba nhà quản lý Lo chiếu (`S16 35:22`) — **cả ba đều có lợi suấ
 | B   | trung bình |    ~15% |     15% |      ~0 | Đúng như mong đợi |
 | C   |        cao |   > 15% |     15% |  **âm** | Kém               |
 
+> [!quote] S16 36:03
 > *"Để ý là tôi đã nói cả ba nhà quản lý có **cùng độ biến động, 20%**. **Bạn có thể có cùng độ biến động mà beta khác nhau. Beta và độ biến động không nhất thiết đi đôi với nhau.**"* (`S16 36:03`)
 
 Và trong ngôn ngữ hồi quy (`S16 72:23`), CAPM rút gọn thành **một giả thuyết duy nhất**:
@@ -475,6 +512,7 @@ $$H_0: \alpha_i = 0 \quad \text{với mọi cổ phiếu, mọi nhà quản lý,
 
 Lo mở đầu Ses 17 bằng một nhận xét phương pháp rất đúng (`S17 05:30`):
 
+> [!quote]
 > *"Khi bạn bỏ chứng khoán vào danh mục, **nhiễu — rủi ro riêng lẻ — được bình quân hoá đi**, và cái còn lại là các nhân tố chung. Nên tôi sẽ cho các bạn xem CAPM chạy tốt hay tệ **không phải trên từng cổ phiếu**, mà trên các danh mục."*
 
 Ông chiếu ba biểu đồ. §24 dựng lại cả ba từ dữ liệu Ken French, trên **hai** cửa sổ: cửa sổ của Lo, và giai đoạn sau bài giảng.
@@ -527,6 +565,7 @@ Hình dạng rất rõ và giống nhau ở cả hai cửa sổ: **alpha giảm 
 
 Lo nhìn thấy vấn đề và nói nhẹ đi (`S17 10:08`):
 
+> [!quote]
 > *"Quan hệ thực tế trông có vẻ tuyến tính, nhưng ở một **độ dốc hơi khác một chút**. Có vẻ phần bù rủi ro không phải là độ dốc đúng, mà **nhỏ hơn một chút** mới là đúng."*
 
 §24 đo bằng hồi quy chéo trên năm nhóm sắp theo beta. CAPM đòi một đường **qua gốc toạ độ** với độ dốc bằng đúng phần bù thị trường.
@@ -537,17 +576,21 @@ Lo nhìn thấy vấn đề và nói nhẹ đi (`S17 10:08`):
 | 2001–2026 |      +0,276% |         0,499% |             0,702% |                71% |
 | Cả đoạn   |      +0,330% |         0,327% |             0,599% |                55% |
 
+> [!quote]
 > ⚠️ **Trong chính cửa sổ của Lo, độ dốc thực tế chỉ bằng MỘT PHẦN BA lý thuyết, và có một chặn dương lớn (+0,407%/tháng ≈ 5%/năm).** Đó không phải *"hơi khác một chút"*.
 
-⚠️ Không phải Lo sai về sự kiện — ông mô tả đúng hướng và đúng hình dạng. Ông chỉ **giảm nhẹ độ lớn** của sai lệch. Với người học chỉ nghe qua, khác biệt giữa "nhỏ hơn một chút" và "bằng một phần ba" là khác biệt giữa một mô hình hoạt động tốt và một mô hình chỉ đúng về xếp hạng.
+> [!warning]
+> Không phải Lo sai về sự kiện — ông mô tả đúng hướng và đúng hình dạng. Ông chỉ **giảm nhẹ độ lớn** của sai lệch. Với người học chỉ nghe qua, khác biệt giữa "nhỏ hơn một chút" và "bằng một phần ba" là khác biệt giữa một mô hình hoạt động tốt và một mô hình chỉ đúng về xếp hạng.
 
 ### Lời giải Lo có nhắc: CAPM beta không
 
 Lo chỉ đúng hướng (`S17 10:24`):
 
+> [!quote]
 > *"Ở 15.433 các bạn sẽ học một lý thuyết CAPM mới do **Fischer Black** phát triển, gọi là **CAPM của Black**. Nó nói **không có lãi suất phi rủi ro** — thứ bạn phải dùng là lợi suất của một cái gọi là **danh mục beta bằng 0**. Hoá ra nếu làm thế, đường vẽ ra khớp gần như chính xác."*
 
-📚 **Fischer Black (1972)**, *"Capital Market Equilibrium with Restricted Borrowing"*, Journal of Business 45(3). Ý tưởng: giả định của CAPM rằng ai cũng vay được không giới hạn ở lãi suất phi rủi ro là **sai**. Trong thực tế nhà đầu tư bị chặn đòn bẩy — quỹ tương hỗ vướng Đạo luật 1940 §18 như [bài 10 §5](bai_10_ly_thuyet_danh_muc.md) đã kể; quỹ hưu bị mệnh lệnh đầu tư chặn.
+> [!note] Fischer Black (1972)
+> , *"Capital Market Equilibrium with Restricted Borrowing"*, Journal of Business 45(3). Ý tưởng: giả định của CAPM rằng ai cũng vay được không giới hạn ở lãi suất phi rủi ro là **sai**. Trong thực tế nhà đầu tư bị chặn đòn bẩy — quỹ tương hỗ vướng Đạo luật 1940 §18 như [bài 10 §5](bai_10_ly_thuyet_danh_muc.md) đã kể; quỹ hưu bị mệnh lệnh đầu tư chặn.
 
 Người bị chặn đòn bẩy mà vẫn muốn lợi suất cao thì làm gì? **Họ mua cổ phiếu beta cao thay vì vay tiền mua cổ phiếu beta thấp.** Cầu dồn về phía beta cao đẩy giá lên, kéo lợi suất kỳ vọng xuống — làm SML **phẳng đi** đúng như bảng trên.
 
@@ -561,6 +604,7 @@ Và đó chính là nhân tố mà [bài 10 §23](bai_10_ly_thuyet_danh_muc.md) 
 
 Biểu đồ thứ ba của Lo sắp danh mục theo **tổng độ biến động** thay vì beta (`S17 11:35`). Ông kết luận (`S17 11:58`):
 
+> [!quote]
 > *"**Không có quan hệ hệ thống nào giữa biến động và lợi suất.** Biến động càng cao, bạn không nhất thiết nhận lợi suất càng cao. Nói cách khác, **biến động không phải thước đo đúng** của đánh đổi rủi ro–lợi suất."*
 
 §24 đo lại:
@@ -580,13 +624,15 @@ Biểu đồ thứ ba của Lo sắp danh mục theo **tổng độ biến độ
 | 4                             |     1,123% | 1,38 |     +0,008% |      0,06 |     |
 | **5 (biến động nhất)**        | **0,851%** | 1,76 | **−0,527%** | **−2,01** | ⚠️   |
 
+> [!quote]
 > **Dữ liệu nói một điều mạnh hơn hẳn "không có quan hệ".** Nhóm biến động nhất có alpha **âm và có ý nghĩa thống kê ở CẢ HAI cửa sổ** (t = −2,87 và t = −2,01). Trong giai đoạn sau 2001, nhóm **ít** biến động nhất còn có alpha **dương có ý nghĩa** (t = +2,50).
 >
 > **Biến động cao không phải là "không được trả công". Nó bị TRỪNG PHẠT.**
 
 Nhìn cột "TB/tháng" giai đoạn 1963–2000: 1,028 → 1,116 → 1,193 → 1,248 → **0,806**. Lợi suất tăng đều qua bốn nhóm rồi **sụp** ở nhóm cuối — trong khi beta vẫn tăng lên 1,50. Nhóm biến động nhất chịu nhiều beta hơn tất cả mà lại trả về ít hơn cả nhóm an toàn nhất.
 
-📚 Hiện tượng này có tên: **dị thường biến động thấp**. Nó được ghi nhận chính thức đúng hai năm trước bài giảng và trở thành một trong những kết quả vững nhất của tài chính thực nghiệm:
+> [!note]
+> Hiện tượng này có tên: **dị thường biến động thấp**. Nó được ghi nhận chính thức đúng hai năm trước bài giảng và trở thành một trong những kết quả vững nhất của tài chính thực nghiệm:
 
 | Nghiên cứu                                                              | Nội dung                                                                      |
 | ----------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
@@ -596,7 +642,8 @@ Nhìn cột "TB/tháng" giai đoạn 1963–2000: 1,028 → 1,116 → 1,193 → 
 
 Lý do kinh tế được chấp nhận rộng rãi nhất khớp chính xác với §16: **ràng buộc đòn bẩy cộng với việc đo lường theo chuẩn tham chiếu.** Nhà quản lý bị chấm điểm so với chỉ số và không được dùng đòn bẩy, nên muốn vượt chỉ số họ **buộc phải** mua cổ phiếu biến động mạnh. Cầu quá mức đó đẩy giá lên và kéo lợi suất tương lai xuống.
 
-⚠️ Cần nói rõ đây là chỗ CAPM **thật sự** hỏng, khác với §15. Hiệu ứng quy mô thì CAPM giải thích được. Còn cái này thì không: nhóm 5 có beta cao nhất, đáng lẽ phải lãi nhất, mà lại lãi kém nhất. **Không có cách nào cứu bằng cách đo beta cẩn thận hơn.**
+> [!warning]
+> Cần nói rõ đây là chỗ CAPM **thật sự** hỏng, khác với §15. Hiệu ứng quy mô thì CAPM giải thích được. Còn cái này thì không: nhóm 5 có beta cao nhất, đáng lẽ phải lãi nhất, mà lại lãi kém nhất. **Không có cách nào cứu bằng cách đo beta cẩn thận hơn.**
 
 Và đây cũng là câu trả lời hoàn chỉnh cho [bài 10 §22](bai_10_ly_thuyet_danh_muc.md): vì sao Freddie Mac với độ lệch chuẩn 124%/năm lại cho lợi suất tầm thường. Không phải xui — đó là hệ thống.
 
@@ -616,6 +663,7 @@ Lo kết thúc Ses 16 bằng hai hồi quy CAPM (`S16 73:24`). Với Biogen, 198
 
 Rồi ông kết luận (`S16 74:29`):
 
+> [!quote]
 > ⚠️ *"**Biogen là một món hời cực kỳ hời theo CAPM**, nếu bạn tin vào CAPM."*
 
 Nhưng con số bác bỏ kết luận đó **nằm ngay trên slide của ông**:
@@ -624,7 +672,8 @@ $$t = \frac{1{,}61}{1{,}1} = \boxed{1{,}46}$$
 
 **1,46 < 1,96.** Alpha của Biogen **không có ý nghĩa thống kê** ở mức 5%. Lo đọc sai số chuẩn ra miệng rồi đi tiếp mà không chia.
 
-⚠️ Có thêm một vấn đề đơn vị: hệ số chặn 1,61% là **theo tháng** (hồi quy chạy trên lợi suất tháng), còn $r_f(1-\beta) = 5\% \times (1-1{,}43) = -2{,}15\%$ là **theo năm**. Trừ hai số khác đơn vị cho nhau thì "3,7%" không có ý nghĩa rõ ràng. Và câu tiếp theo (`S16 74:02`) — *"3,7%, hay theo tháng là alpha 45%"* — cũng không mạch lạc; 45% là con số **năm hoá** của 3,7%/tháng.
+> [!warning]
+> Có thêm một vấn đề đơn vị: hệ số chặn 1,61% là **theo tháng** (hồi quy chạy trên lợi suất tháng), còn $r_f(1-\beta) = 5\% \times (1-1{,}43) = -2{,}15\%$ là **theo năm**. Trừ hai số khác đơn vị cho nhau thì "3,7%" không có ý nghĩa rõ ràng. Và câu tiếp theo (`S16 74:02`) — *"3,7%, hay theo tháng là alpha 45%"* — cũng không mạch lạc; 45% là con số **năm hoá** của 3,7%/tháng.
 
 Nhưng chỗ này không quan trọng, vì **kết luận vững bất kể đơn vị**: $t = 1{,}46$ là $t = 1{,}46$.
 
@@ -635,10 +684,12 @@ Nhưng chỗ này không quan trọng, vì **kết luận vững bất kể đơ
 | 10/1991 – 12/2006 |  183 | 1,80 |      1,791% | 1,34 | **1,33** |     21,5% | 0,14 |
 | 1/2007 – 7/2026   |  235 | 0,53 |      0,457% | 0,60 | **0,76** |      5,5% | 0,07 |
 
-⚠️ Cửa sổ của tôi bắt đầu 10/1991 chứ không phải 1988, vì đó là mốc sớm nhất có dữ liệu Biogen trên Yahoo Finance. Beta vì thế khác Lo (1,80 so với 1,43).
+> [!warning]
+> Cửa sổ của tôi bắt đầu 10/1991 chứ không phải 1988, vì đó là mốc sớm nhất có dữ liệu Biogen trên Yahoo Finance. Beta vì thế khác Lo (1,80 so với 1,43).
 
 Nhưng **kết luận trùng khít**: alpha 21,5%/năm nghe rất to, mà $t = 1{,}33$ — không có ý nghĩa. Và **ngoài mẫu**, 19 năm rưỡi tiếp theo: alpha rơi xuống 5,5%/năm với $t = 0{,}76$.
 
+> [!quote]
 > *"Món hời cực kỳ hời"* không tái lập. Đây đúng là cảnh báo của chính Lo ở [bài 9 §16](bai_09_rui_ro_va_loi_suat.md), nơi 100 tín hiệu **hoàn toàn ngẫu nhiên** trên dữ liệu S&P thật sinh ra một "dị thường" với $|t| = 3{,}80$. Nếu nhiễu thuần tuý đạt được $t = 3{,}8$, thì $t = 1{,}46$ chẳng nói lên điều gì cả.
 
 Công bằng với Lo: ông biết điều này và báo trước ngay câu sau (`S16 74:50`): *"Điều ta sẽ bàn lần tới là liệu cách diễn giải này có thật sự hợp lý không, hay ta đang **thiếu nhân tố**, hay ta đang **đo sai**."* Ông đặt bẫy để mở Ses 17. Nhưng câu *"món hời cực kỳ hời"* được nói ra trước, và không kèm chữ "nếu".
@@ -662,6 +713,7 @@ $$\alpha = 12{,}5 - 4{,}832 = 7{,}668\% \approx \textbf{767 điểm cơ bản}$$
 
 Lo đọc **771 điểm** — ứng với lợi suất 12,54%, tức con số trên slide trước khi ông làm tròn miệng thành "12,5". Chênh lệch không đáng kể.
 
+> [!quote] S16 43:17
 > *"Đó là một alpha khổng lồ. Cực kỳ, cực kỳ lớn. **Đây là lý do người ta phấn khích với quỹ đầu cơ.**"* (`S16 43:17`)
 
 Tỷ số Sharpe: $(12{,}5-5)/5{,}5 = \mathbf{1{,}36}$.
@@ -672,8 +724,10 @@ Tỷ số Sharpe: $(12{,}5-5)/5{,}5 = \mathbf{1{,}36}$.
 
 Lo có nêu nghi ngờ đúng hướng trên lớp (`S16 45:48`): alpha này *"không tính tới nhà quản lý đang chịu bao nhiêu **rủi ro thanh khoản**"*. Và ông tán thành khi sinh viên Megan nói về *"beta cải trang thành alpha"* (`S16 46:07`).
 
-📚 Nhưng ông không nhắc rằng chính ông là đồng tác giả của bài báo giải thích cơ chế:
+> [!note]
+> Nhưng ông không nhắc rằng chính ông là đồng tác giả của bài báo giải thích cơ chế:
 
+> [!quote]
 > **Getmansky, Lo & Makarov (2004)**, *"An Econometric Model of Serial Correlation and Illiquidity in Hedge Fund Returns"*, Journal of Financial Economics 74(3):529–609.
 
 Nội dung: lợi suất quỹ đầu cơ báo cáo thường **tự tương quan rất cao** — khác hẳn quỹ tương hỗ. Nguyên nhân khả dĩ nhất là **kém thanh khoản**: tài sản không giao dịch thường xuyên nên được định giá theo mô hình, và giá mô hình đuổi theo giá thật với độ trễ. Lợi suất báo cáo trở thành **trung bình trượt** của lợi suất thật:
@@ -693,6 +747,7 @@ Kết quả: *"lợi suất báo cáo sẽ mượt hơn lợi suất kinh tế t
 | 0,40 / 0,35 / 0,25                    |   2,66% |     **0,40** |    +4,32% |     0,78 |          0,67 |
 | 0,34 / 0,33 / 0,33                    |   2,60% |     **0,34** |    +4,79% | **0,80** |          0,68 |
 
+> [!note]
 > **Cùng một chuỗi lợi suất thật. Chỉ đổi cách BÁO CÁO nó.** Làm mượt càng mạnh thì: độ lệch càng nhỏ, beta đo được càng nhỏ, alpha càng to, Sharpe càng cao, tự tương quan càng lớn.
 >
 > Đó đúng là **bốn đặc điểm** của quỹ XYZ: lợi suất cao, đường mượt, beta bằng không, alpha lớn.
@@ -705,9 +760,11 @@ $$\beta_0 + \beta_1 + \beta_2 = 0{,}400 + 0{,}350 + 0{,}250 = \mathbf{1{,}000}$$
 
 Đúng bằng độ phơi nhiễm thị trường thật.
 
+> [!quote]
 > ⚠️ **Tôi KHÔNG khẳng định quỹ XYZ là gian lận hay định giá sai.** Lo không nêu tên nó và tôi không biết nó là quỹ nào. Điều mục này cho thấy chỉ là: một hồ sơ *"lợi suất cao, mượt, beta bằng không"* **có thể sinh ra từ định giá chậm mà không cần bất kỳ kỹ năng nào** — và chính Lo là người đã chứng minh điều đó.
 
-⚠️ Một ghi chú về thời điểm, nêu ra như bối cảnh chứ không phải suy luận về quỹ XYZ: buổi giảng này là **19/11/2008**. Đúng **22 ngày sau**, ngày 11/12/2008, Bernard Madoff bị bắt — và hồ sơ khiến ông ta thuyết phục được nhà đầu tư suốt hai thập kỷ chính là kiểu hồ sơ mượt, beta gần không mà bảng trên mô tả. Lo đứng cách công cụ chẩn đoán đúng có một bước chân, và công cụ ấy là của chính ông.
+> [!warning]
+> Một ghi chú về thời điểm, nêu ra như bối cảnh chứ không phải suy luận về quỹ XYZ: buổi giảng này là **19/11/2008**. Đúng **22 ngày sau**, ngày 11/12/2008, Bernard Madoff bị bắt — và hồ sơ khiến ông ta thuyết phục được nhà đầu tư suốt hai thập kỷ chính là kiểu hồ sơ mượt, beta gần không mà bảng trên mô tả. Lo đứng cách công cụ chẩn đoán đúng có một bước chân, và công cụ ấy là của chính ông.
 
 ---
 
@@ -715,9 +772,11 @@ $$\beta_0 + \beta_1 + \beta_2 = 0{,}400 + 0{,}350 + 0{,}250 = \mathbf{1{,}000}$$
 
 Lo đóng phần CAPM bằng cách thừa nhận nó chưa đủ (`S17 14:08`):
 
+> [!quote]
 > *"CAPM, dù là một xấp xỉ đầu tiên rất thú vị và thuyết phục, **chỉ là một xấp xỉ**. Có những nhân tố khác — như **giá trị sổ sách trên thị giá**, như **thanh khoản**, như **khối lượng giao dịch** — cũng góp phần giải thích."*
 
-⚠️ Ông **không nêu tên Fama và French**, dù đó chính xác là công trình ông đang mô tả. Bổ sung ở đây:
+> [!warning]
+> Ông **không nêu tên Fama và French**, dù đó chính xác là công trình ông đang mô tả. Bổ sung ở đây:
 
 | Mô hình         | Nhân tố                                           | Nguồn                                      |
 | --------------- | ------------------------------------------------- | ------------------------------------------ |
@@ -727,7 +786,8 @@ Lo đóng phần CAPM bằng cách thừa nhận nó chưa đủ (`S17 14:08`):
 | **Năm nhân tố** | thêm **lợi nhuận** + **đầu tư**                   | Fama & French (2015), *JFE* 116(1)         |
 | Nhân tố q       | thị trường, quy mô, đầu tư, sinh lời              | Hou, Xue & Zhang (2015)                    |
 
-📚 Và cái tên trong tiêu đề bài này mà Lo không dạy: **Lý thuyết định giá kinh doanh chênh lệch (APT)**, do **Stephen Ross (1976)** đề xuất, *Journal of Economic Theory* 13(3).
+> [!note]
+> Và cái tên trong tiêu đề bài này mà Lo không dạy: **Lý thuyết định giá kinh doanh chênh lệch (APT)**, do **Stephen Ross (1976)** đề xuất, *Journal of Economic Theory* 13(3).
 
 APT khác CAPM ở đúng điểm §3 nhấn mạnh: **APT không cần trạng thái cân bằng.** Nó chỉ cần (a) lợi suất do một số ít nhân tố chung sinh ra, và (b) **không có kinh doanh chênh lệch giá**. Từ đó suy ra lợi suất kỳ vọng phải tuyến tính theo các độ nhạy nhân tố.
 
@@ -741,12 +801,14 @@ APT khác CAPM ở đúng điểm §3 nhấn mạnh: **APT không cần trạng 
 
 Lo có nêu đúng một tiêu chí lọc nhân tố, và nó rất thực dụng (`S17 17:39`):
 
+> [!quote]
 > *"**Nếu bạn không giao dịch được nó thì bạn không quản trị được nó.**"*
 
 Ông giải thích (`S17 17:03`): thất nghiệp là một nhân tố **có ý nghĩa kinh tế** — nó thật sự giải thích được lợi suất cổ phiếu. Nhưng nó không **có ý nghĩa tài chính**, vì bạn không mua bán được thất nghiệp. Muốn giảm beta thị trường, bạn bán hợp đồng tương lai S&P như [bài 7 §12](bai_07_ky_han_va_tuong_lai.md). Không có hợp đồng tương lai nào trên tỷ lệ thất nghiệp.
 
 Và cảnh báo cho người mua quỹ đầu cơ (`S16 44:15`):
 
+> [!quote]
 > *"Quỹ đầu cơ thật sự có **nhiều beta**. Nên đừng vội đổ hết tiền vào quỹ đầu cơ, vì phần vượt trội này, một phần đúng là thiên tài và kỹ năng độc đáo. **Nhưng một phần khác là do bạn đang gánh những rủi ro mà bạn không hề biết mình đang gánh.**"*
 
 ---
@@ -755,17 +817,20 @@ Và cảnh báo cho người mua quỹ đầu cơ (`S16 44:15`):
 
 Một sinh viên hỏi: nếu muốn phân bổ tiền toàn cầu, có nên mua chỉ số theo vốn hoá từng thị trường không (`S16 66:43`). Lo trả lời rất thẳng (`S16 67:19`):
 
+> [!quote]
 > *"Theo lý thuyết, danh mục tiếp tuyến này không chỉ dành cho thị trường Mỹ. Nó phải là **thị trường chứng khoán toàn thế giới**… tất cả tài sản trên thế giới gia quyền theo vốn hoá, tính bằng **đồng tiền của chính nhà đầu tư**."*
 
 Nhưng rồi ông nêu điều kiện bị vi phạm (`S16 67:38`):
 
+> [!quote]
 > *"Điều đó **ngầm giả định có hội nhập thị trường vốn** trên toàn thế giới — rằng bạn được tự do mua bán cổ phiếu ở bất kỳ đâu, không có rào cản nào. **Và ta biết là không phải thế.**"*
 
 Kết luận của ông (`S16 68:14`): *"CAPM áp cho cổ phiếu quốc tế là một xấp xỉ **có thể còn tệ hơn** việc áp riêng từng nước rồi so sánh chênh lệch… Người ta đã làm các phiên bản CAPM quốc tế. **Chúng chạy không tốt lắm.**"*
 
 Rồi ông tự bỏ ngỏ (`S16 68:33`): *"Ít nhất là tính tới 10 năm trước. Trong 10 năm gần đây nhiều thứ đã thay đổi, nên có thể hội nhập thị trường vốn đã làm CAPM thế giới trông khá hơn trên dữ liệu."*
 
-⚠️ Đây là một câu hỏi mở, và tôi **không** có đủ dữ liệu trong bài này để trả lời nó cho giai đoạn 2008–2026. Điều tôi có thể nói là nó nối thẳng vào [bài 10 §26](bai_10_ly_thuyet_danh_muc.md): tương quan giữa cổ phiếu Việt Nam và cổ phiếu Mỹ thấp chính là điều làm đa dạng hoá quốc tế có giá trị — và cũng chính là điều khiến một CAPM thế giới duy nhất khó đúng, vì các rào cản vốn giữ cho hai thị trường không hội nhập.
+> [!warning]
+> Đây là một câu hỏi mở, và tôi **không** có đủ dữ liệu trong bài này để trả lời nó cho giai đoạn 2008–2026. Điều tôi có thể nói là nó nối thẳng vào [bài 10 §26](bai_10_ly_thuyet_danh_muc.md): tương quan giữa cổ phiếu Việt Nam và cổ phiếu Mỹ thấp chính là điều làm đa dạng hoá quốc tế có giá trị — và cũng chính là điều khiến một CAPM thế giới duy nhất khó đúng, vì các rào cản vốn giữ cho hai thị trường không hội nhập.
 
 ---
 
@@ -775,6 +840,7 @@ Rồi ông tự bỏ ngỏ (`S16 68:33`): *"Ít nhất là tính tới 10 năm t
 
 Lo mô tả quy mô thị trường (`S15 55:05`):
 
+> [!quote]
 > *"Có lẽ có **7.000 hay 8.000 chứng khoán** giao dịch hôm nay. Có lẽ chỉ 2.000 hay 3.000 là đáng xem xét nghiêm túc, và có lẽ chỉ **1.500** là bạn thật sự cần để đa dạng hoá."*
 
 |                                              | Khoảng 2008 |                   2026 |
@@ -787,7 +853,8 @@ Lo mô tả quy mô thị trường (`S15 55:05`):
 
 Nguyên nhân được nêu phổ biến: vốn tư nhân dồi dào hơn khiến công ty ở lại tư nhân lâu hơn; chi phí tuân thủ sau Sarbanes-Oxley; và sáp nhập.
 
-⚠️ Điều này làm **phê phán của Roll ở §5 nặng hơn theo thời gian**, chứ không nhẹ đi. Danh mục thị trường thật ngày càng nằm ngoài tầm quan sát: phần giá trị doanh nghiệp Mỹ nằm trong tay quỹ đầu tư tư nhân và công ty chưa niêm yết lớn hơn hẳn năm 2008. Một chỉ số niêm yết năm 2026 là đại diện **tệ hơn** cho "mọi tài sản" so với một chỉ số niêm yết năm 1996.
+> [!warning]
+> Điều này làm **phê phán của Roll ở §5 nặng hơn theo thời gian**, chứ không nhẹ đi. Danh mục thị trường thật ngày càng nằm ngoài tầm quan sát: phần giá trị doanh nghiệp Mỹ nằm trong tay quỹ đầu tư tư nhân và công ty chưa niêm yết lớn hơn hẳn năm 2008. Một chỉ số niêm yết năm 2026 là đại diện **tệ hơn** cho "mọi tài sản" so với một chỉ số niêm yết năm 1996.
 
 ### CAPM vẫn là ngôn ngữ chung
 
@@ -846,6 +913,7 @@ Beta trong bảng trên là **beta so với một chỉ số**, không phải be
 
 ## 24. Code minh hoạ
 
+> [!note]
 > ⚙️ **Chạy:** cần **Python 3.11+**. Lưu file rồi gõ `python3 bai-11-capm-va-beta.py`. Không cần cài gói nào — toàn bộ số liệu nằm ngay trong file.
 
 |            |                                                                           |
@@ -868,7 +936,8 @@ quỹ đầu cơ XYZ chỉ bằng cách làm mượt chuỗi lợi suất thị 
 
 Toàn bộ kết quả **tất định** — không có số ngẫu nhiên nào.
 
-⚠️ Khối `DU_LIEU` chiếm khoảng 1.070 dòng số liệu thô ngay đầu file. Đọc lướt qua nó để tới phần hàm.
+> [!warning]
+> Khối `DU_LIEU` chiếm khoảng 1.070 dòng số liệu thô ngay đầu file. Đọc lướt qua nó để tới phần hàm.
 
 Kết quả chạy thật:
 
@@ -1437,9 +1506,11 @@ HET. Moi con so tren tinh tu du lieu nhung trong chinh file nay.
 - Procter & Gamble mua Gillette: công bố 28/1/2005, **hoàn tất 1/10/2005**; tỷ lệ hoán đổi 0,975 cổ phiếu P&G cho mỗi cổ phiếu Gillette
 - Số công ty niêm yết Mỹ: đỉnh ~8.090 năm 1996; ~3.657 công ty hoạt động nội địa trên NYSE + Nasdaq cuối 2025
 
-⚠️ **Chưa xác minh được, ghi rõ ở đây:** mức lương người lau kính nhà cao tầng ở New York năm 2026 (§12) — các nguồn tổng hợp việc làm chênh nhau tới hai lần (41.000–45.000 đô la cho "lau kính" nói chung; 75.000–100.000 cho lau kính nhà cao tầng có chứng chỉ) và không nguồn nào là thống kê chính thức. Con số 60.000 đô la của Lo là do ông tự tra, khoảng năm 2004, và tôi không tìm được nguồn gốc của nó.
+> [!warning] Chưa xác minh được, ghi rõ ở đây:
+> mức lương người lau kính nhà cao tầng ở New York năm 2026 (§12) — các nguồn tổng hợp việc làm chênh nhau tới hai lần (41.000–45.000 đô la cho "lau kính" nói chung; 75.000–100.000 cho lau kính nhà cao tầng có chứng chỉ) và không nguồn nào là thống kê chính thức. Con số 60.000 đô la của Lo là do ông tự tra, khoảng năm 2004, và tôi không tìm được nguồn gốc của nó.
 
-⚠️ **Danh tính "quỹ đầu cơ XYZ" (§19) là không biết.** Lo cố ý không nêu tên. Mọi phân tích ở §19 là về **cơ chế** sinh ra hồ sơ lợi suất kiểu đó, không phải về quỹ cụ thể nào.
+> [!warning] Danh tính "quỹ đầu cơ XYZ" (§19) là không biết.
+> Lo cố ý không nêu tên. Mọi phân tích ở §19 là về **cơ chế** sinh ra hồ sơ lợi suất kiểu đó, không phải về quỹ cụ thể nào.
 
 ---
 

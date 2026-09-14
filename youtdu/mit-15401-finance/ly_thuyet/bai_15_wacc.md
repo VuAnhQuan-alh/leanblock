@@ -1,14 +1,17 @@
 # Bài 15 — WACC: chi phí vốn bình quân gia quyền
 
+> [!info] Về bài này
 > 🏢 **PHẦN E — TÀI CHÍNH DOANH NGHIỆP.** Bài này **không đến từ video của Andrew Lo**.
 > Nó trả lời câu hỏi mà [bài 14 §18](bai_14_doc_doanh_nghiep_bang_so.md#18-roic-trừ-wacc--và-đây-là-chỗ-bài-15-bắt-đầu)
 > để ngỏ: *"vốn vay đắt hay rẻ so với cái gì?"*
 > Nguồn: Brealey, Myers & Allen, *Principles of Corporate Finance*; Hamada, R. (1972).
-> 📌 **Cần đọc trước:** [Bài 11 — CAPM](bai_11_capm_va_beta.md) (chi phí vốn chủ),
+>
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
+>
+> **Cần đọc trước:** [Bài 11 — CAPM](bai_11_capm_va_beta.md) (chi phí vốn chủ),
 > [Bài 12 §4](bai_12_ngan_sach_von.md#4-mỗi-dòng-tiền-một-suất-chiết-khấu) (mỗi dòng tiền một suất
 > chiết khấu), [Bài 14 §10 và §17](bai_14_doc_doanh_nghiep_bang_so.md#10-đòn-bẩy-và-khả-năng-trả-lãi--nối-lại-bài-3)
 > (đòn bẩy và ROIC).
-> ⚠️ Số liệu tới báo cáo năm **2025** và giá đóng cửa tháng **9/2026**.
 
 ---
 
@@ -65,6 +68,7 @@ nghiệp nào chỉ đang bận rộn.**
 
 Đây là chỗ hiểu sai phổ biến nhất, và nó làm hỏng mọi thứ phía sau.
 
+> [!note]
 > **Chi phí vốn không phải số tiền bạn trả. Nó là suất sinh lời mà nhà đầu tư có thể kiếm được ở
 > nơi khác có rủi ro tương đương.**
 
@@ -97,8 +101,9 @@ $$\text{WACC} = \frac{E}{D+E} \cdot K_e \;+\; \frac{D}{D+E} \cdot K_d \cdot (1 -
 | $K_d$   | chi phí nợ **trước** thuế          | lãi vay / dư nợ bình quân (§4)                            |
 | $\tau$  | thuế suất **biên**                 | 20% ở Việt Nam — không phải thuế suất hiệu dụng (§5)      |
 
-⚠️ Chú ý $(1-\tau)$ **chỉ đi kèm nợ**, không đi kèm vốn chủ. Cổ tức trả từ lợi nhuận **sau** thuế nên
-không có lá chắn nào. Đó là bất đối xứng trung tâm của cả bài 16.
+> [!warning]
+> Chú ý $(1-\tau)$ **chỉ đi kèm nợ**, không đi kèm vốn chủ. Cổ tức trả từ lợi nhuận **sau** thuế nên
+> không có lá chắn nào. Đó là bất đối xứng trung tâm của cả bài 16.
 
 ---
 
@@ -125,10 +130,11 @@ ngoài dải này thì hoặc mã chỉ tiêu sai, hoặc công ty có khoản v
 là phép kiểm mà [bài 14](bai_14_doc_doanh_nghiep_bang_so.md#24-code-minh-hoạ) dùng để xác minh mã
 chỉ tiêu của nguồn dữ liệu.)
 
-⚠️ **Kd này là lãi suất trung bình của nợ CŨ.** Nó **không** phải lãi suất công ty sẽ trả cho khoản
-vay **mới**. Với quyết định đầu tư mới, con số đúng là lãi suất thị trường hiện tại cho hồ sơ tín
-dụng đó — không phải số lịch sử. Với doanh nghiệp có trái phiếu niêm yết, thước đo tốt nhất là
-**lợi suất đáo hạn** của trái phiếu đó, đúng khái niệm [bài 4 §15](bai_04_trai_phieu_va_duong_cong.md#15-trái-phiếu-coupon-và-lợi-suất-đáo-hạn).
+> [!warning] Kd này là lãi suất trung bình của nợ CŨ.
+> Nó **không** phải lãi suất công ty sẽ trả cho khoản
+> vay **mới**. Với quyết định đầu tư mới, con số đúng là lãi suất thị trường hiện tại cho hồ sơ tín
+> dụng đó — không phải số lịch sử. Với doanh nghiệp có trái phiếu niêm yết, thước đo tốt nhất là
+> **lợi suất đáo hạn** của trái phiếu đó, đúng khái niệm [bài 4 §15](bai_04_trai_phieu_va_duong_cong.md#15-trái-phiếu-coupon-và-lợi-suất-đáo-hạn).
 
 ---
 
@@ -145,7 +151,7 @@ Lấy HPG, năm 2025 — lãi vay 3.115 tỷ:
 | Thuế phải nộp        |              2.962 |                2.526 |
 |                      |                    | **tiết kiệm 436 tỷ** |
 
-⚠️ **Dùng thuế suất nào? Đây là chỗ dễ sai nhất.**
+> [!warning] Dùng thuế suất nào? Đây là chỗ dễ sai nhất.
 
 |                                              |  HPG 2025 |
 | -------------------------------------------- | --------: |
@@ -191,11 +197,12 @@ Thứ tự khớp với trực giác kinh tế, đúng như [bài 11 §10](bai_1
 đã nói: cầu về **sữa** ít phụ thuộc chu kỳ kinh tế nên beta thấp; cầu về **thép** bám sát chu kỳ xây
 dựng nên beta cao.
 
-⚠️ **Nhìn cột R².** Cao nhất chỉ 0,46 — thị trường giải thích chưa tới một nửa biến động của từng cổ
-phiếu. Phần còn lại là rủi ro **riêng lẻ**, mà [bài 11 §13](bai_11_capm_va_beta.md#13-rủi-ro-hệ-thống-và-rủi-ro-riêng-lẻ-viết-thành-phương-trình)
-đã chứng minh là **không được trả tiền** — nên nó không vào chi phí vốn. Nhưng nó làm beta đo được
-kém chính xác, và cột "sai số" cho biết kém đến mức nào: beta của PNJ là $0{,}87 \pm 0{,}14$, tức
-khoảng tin cậy 95% chạy từ 0,59 tới 1,15.
+> [!warning] Nhìn cột R².
+> Cao nhất chỉ 0,46 — thị trường giải thích chưa tới một nửa biến động của từng cổ
+> phiếu. Phần còn lại là rủi ro **riêng lẻ**, mà [bài 11 §13](bai_11_capm_va_beta.md#13-rủi-ro-hệ-thống-và-rủi-ro-riêng-lẻ-viết-thành-phương-trình)
+> đã chứng minh là **không được trả tiền** — nên nó không vào chi phí vốn. Nhưng nó làm beta đo được
+> kém chính xác, và cột "sai số" cho biết kém đến mức nào: beta của PNJ là $0{,}87 \pm 0{,}14$, tức
+> khoảng tin cậy 95% chạy từ 0,59 tới 1,15.
 
 ---
 
@@ -203,14 +210,16 @@ khoảng tin cậy 95% chạy từ 0,59 tới 1,15.
 
 WACC cần tỷ trọng nợ và vốn chủ. Câu hỏi: lấy từ đâu?
 
+> [!note]
 > **SAI:** lấy vốn chủ từ bảng cân đối (giá trị **sổ sách**).
 > **ĐÚNG:** lấy **vốn hoá thị trường** — số cổ phiếu × giá.
 
 Vì sao: WACC đo **chi phí cơ hội**. Nhà đầu tư hôm nay bỏ ra đúng bằng **giá thị trường** để mua cổ
 phần, chứ không phải bằng con số ghi sổ từ năm nào.
 
-📚 **Mẹo tính số cổ phiếu ở Việt Nam:** mệnh giá cổ phiếu niêm yết do luật ấn định là **10.000
-đồng**, nên
+> [!note] Mẹo tính số cổ phiếu ở Việt Nam:
+> mệnh giá cổ phiếu niêm yết do luật ấn định là **10.000
+> đồng**, nên
 
 $$\text{số cổ phiếu} = \frac{\text{vốn góp của chủ sở hữu}}{10.000}$$
 
@@ -289,9 +298,11 @@ WACC của HPG theo hai giả định ([code §6](#18-code-minh-hoạ)):
 | 4,0%         | 8,12% | 8,88% |     9,64% | 10,39% | 11,15% |
 | 5,0%         | 8,77% | 9,52% |    10,28% | 11,04% | 11,79% |
 
-⚠️ WACC chạy từ **6,84% đến 11,79%** — biên độ **5,0 điểm**, tức nó có thể **gấp 1,7 lần chính nó**
-chỉ vì hai giả định đầu vào.
+> [!warning]
+> WACC chạy từ **6,84% đến 11,79%** — biên độ **5,0 điểm**, tức nó có thể **gấp 1,7 lần chính nó**
+> chỉ vì hai giả định đầu vào.
 
+> [!note]
 > **Đừng báo cáo một con số WACC. Báo cáo một khoảng, và nói rõ giả định nào dùng để ra khoảng đó.**
 
 📌 [Bài 12 §22](bai_12_ngan_sach_von.md#22-góc-việt-nam) đã rút ra kết luận y hệt cho NPV, và bằng
@@ -337,10 +348,11 @@ Chênh **1,48 điểm**, và với dòng tiền 10 năm thì khác biệt đó r
 1974; Jacquier–Kane–Marcus, 2003) là dùng **trung bình có trọng số** nghiêng dần về trung bình nhân
 khi kỳ hạn dài ra.
 
-⚠️ **Với Việt Nam thì không đo được theo cách này.** VN-Index chỉ có từ năm 2000, và
-[bài 13 §28](bai_13_thi_truong_hieu_qua.md#28-góc-việt-nam--một-thị-trường-trở-nên-hiệu-quả) đã cho
-thấy nửa đầu chuỗi đó có tự tương quan **+0,40** — tức chưa phải một thị trường hiệu quả để rút phần
-bù rủi ro ra. Con số 8% dùng trong bài này là **giả định**, và §9 là cách đối phó.
+> [!warning] Với Việt Nam thì không đo được theo cách này.
+> VN-Index chỉ có từ năm 2000, và
+> [bài 13 §28](bai_13_thi_truong_hieu_qua.md#28-góc-việt-nam--một-thị-trường-trở-nên-hiệu-quả) đã cho
+> thấy nửa đầu chuỗi đó có tự tương quan **+0,40** — tức chưa phải một thị trường hiệu quả để rút phần
+> bù rủi ro ra. Con số 8% dùng trong bài này là **giả định**, và §9 là cách đối phó.
 
 ---
 
@@ -396,9 +408,10 @@ So sánh: WACC của chính Vinamilk là **7,35%**. Dùng nhầm con số đó c
 Wiley & Sons — [bài 12 §10](bai_12_ngan_sach_von.md#10-chuyện-gì-đã-xảy-ra-với-bloomberg-press) —
 chỉ khác là bài này bổ sung bước gỡ và gắn đòn bẩy mà Lo bỏ qua.
 
-⚠️ Trong thực tế, bước 1 phải lấy **nhiều** công ty cùng ngành rồi lấy trung bình các beta tài sản,
-vì beta của một công ty đơn lẻ có sai số rất lớn (§6). Lấy đúng một công ty làm chuẩn là cách nhanh
-nhất để mang sai số riêng lẻ của công ty đó vào quyết định của mình.
+> [!warning]
+> Trong thực tế, bước 1 phải lấy **nhiều** công ty cùng ngành rồi lấy trung bình các beta tài sản,
+> vì beta của một công ty đơn lẻ có sai số rất lớn (§6). Lấy đúng một công ty làm chuẩn là cách nhanh
+> nhất để mang sai số riêng lẻ của công ty đó vào quyết định của mình.
 
 ---
 
@@ -423,7 +436,8 @@ năm 2025.** Điều đó **không** có nghĩa công ty quản trị kém: [bà
 cho thấy ROIC của nó đảo từ **28,2% (2021)** xuống **6,2% (2023)** theo chu kỳ thép. Ý nghĩa đúng là:
 **ở điểm này của chu kỳ, mở rộng công suất là một quyết định đắt tiền.**
 
-⚠️ **Và đây mới là điều phải nói rõ.** Chênh −0,3 điểm **nhỏ hơn sai số của chính WACC**:
+> [!warning] Và đây mới là điều phải nói rõ.
+> Chênh −0,3 điểm **nhỏ hơn sai số của chính WACC**:
 
 | Giả định phần bù    | WACC của HPG |     Chênh | Kết luận    |
 | ------------------- | -----------: | --------: | ----------- |
@@ -508,10 +522,11 @@ Bài này dùng ba giả định. Đây là căn cứ và giới hạn của t�
 | $r_f$                 |       **3,0%** | lợi suất trái phiếu chính phủ kỳ hạn dài | ⚠️ **chưa xác minh được** mức hiện hành |
 | Phần bù rủi ro        |       **8,0%** | ước lượng cho thị trường mới nổi         | ⚠️ **không đo được** từ VN-Index        |
 
-⚠️ **Vì sao không đo được phần bù rủi ro Việt Nam.** Cần một chuỗi lợi suất thị trường **dài** và
-**hiệu quả**. VN-Index chỉ có từ 7/2000 (26 năm), và nửa đầu chuỗi có tự tương quan +0,40 — chưa
-phải một thị trường mà lợi suất quá khứ phản ánh kỳ vọng. Ngay cả với **100 năm** dữ liệu Mỹ, sai
-số vẫn là ±3,6 điểm (§10). Với 26 năm dữ liệu Việt Nam, sai số sẽ lớn hơn nhiều lần.
+> [!warning] Vì sao không đo được phần bù rủi ro Việt Nam.
+> Cần một chuỗi lợi suất thị trường **dài** và
+> **hiệu quả**. VN-Index chỉ có từ 7/2000 (26 năm), và nửa đầu chuỗi có tự tương quan +0,40 — chưa
+> phải một thị trường mà lợi suất quá khứ phản ánh kỳ vọng. Ngay cả với **100 năm** dữ liệu Mỹ, sai
+> số vẫn là ±3,6 điểm (§10). Với 26 năm dữ liệu Việt Nam, sai số sẽ lớn hơn nhiều lần.
 
 **Ba cách xử lý trong thực hành, xếp theo mức độ chặt chẽ:**
 
@@ -546,6 +561,7 @@ số vẫn là ±3,6 điểm (§10). Với 26 năm dữ liệu Việt Nam, sai s
 
 ## 18. Code minh hoạ
 
+> [!note]
 > ⚙️ **Chạy:** cần **Python 3.10+**. Không cần cài gói nào. Kết quả **tất định**.
 
 |            |                                                           |
@@ -1092,7 +1108,7 @@ HET. Moi con so tren tinh tu du lieu that va tu ba gia dinh ghi ro dau file.
 | [Ken French Data Library](https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html) | phần bù rủi ro thị trường Mỹ, 1926–2026                |
 | FRED `DGS10`                                                                                         | lợi suất trái phiếu kho bạc Mỹ 10 năm                  |
 
-⚠️ **Chưa xác minh được, ghi rõ ở đây:**
+> [!warning] Chưa xác minh được, ghi rõ ở đây:
 
 - **Lãi suất phi rủi ro Việt Nam 3,0%** là giả định, không phải số liệu tra được tại thời điểm viết.
   Tôi không tìm được nguồn công khai ổn định cho lợi suất trái phiếu chính phủ Việt Nam kỳ hạn dài.

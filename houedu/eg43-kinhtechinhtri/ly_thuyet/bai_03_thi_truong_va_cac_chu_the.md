@@ -1,10 +1,13 @@
 # Bài 3 — Thị trường và vai trò các chủ thể
 
+> [!info] Về bài này
 > Bài học dựng từ **Chương 2, mục II–III** (tr. 56–83) của *Giáo trình Kinh tế chính trị Mác – Lênin* (hệ không chuyên),
 > Bộ Giáo dục và Đào tạo, **NXB Chính trị Quốc gia Sự thật, 2021** (chủ biên PGS.TS. Ngô Tuấn Nghĩa).
 > **Vòng 1.** Nối tiếp học thuyết giá trị: từ hàng hóa – tiền tệ ([bài 2](bai_02_hang_hoa_va_tien_te.md)) sang **thị trường**, **cơ chế thị trường**, **bốn quy luật kinh tế** (giá trị, cung – cầu, lưu thông tiền tệ, cạnh tranh) và **vai trò bốn chủ thể**. Đây là phần sát nghề quản trị kinh doanh nhất trong học thuyết giá trị.
 > **Ký hiệu:** **💼 Góc QTKD** = ví dụ cho ngành quản trị kinh doanh (ngoài sách, để dễ nhớ) · **📚 Mở rộng** = đào sâu ngoài sách · **⚠️** = chỗ dễ hiểu sai.
 > **Nên đọc trước:** [Bài 2](bai_02_hang_hoa_va_tien_te.md).
+>
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
 
 ---
 
@@ -28,6 +31,7 @@
 
 ## 1. Thị trường: khái niệm, phân loại, vai trò
 
+> [!quote] tr. 56
 > **Thị trường là tổng hòa những quan hệ kinh tế**, trong đó nhu cầu của các chủ thể được đáp ứng thông qua **trao đổi, mua bán**, với sự xác định **giá cả** và **số lượng** hàng hóa, dịch vụ. (tr. 56)
 
 Hiểu ở **hai cấp độ**: cụ thể (chợ, cửa hàng, siêu thị, sàn giao dịch — quan sát được) và trừu tượng (tổng thể các quan hệ cung, cầu, giá cả, hàng – tiền, cạnh tranh, trong nước – ngoài nước) (tr. 57).
@@ -47,17 +51,19 @@ Hiểu ở **hai cấp độ**: cụ thể (chợ, cửa hàng, siêu thị, sà
 2. **Kích thích sáng tạo**, tạo cơ chế **phân bổ nguồn lực hiệu quả** (chọn ra chủ thể dùng nguồn lực giỏi nhất).
 3. **Gắn kết** nền kinh tế thành chỉnh thể, và **gắn kinh tế quốc gia với thế giới**.
 
-### 💼 Góc QTKD — thị trường "chấm điểm" doanh nghiệp
-
-- **Vai trò "thực hiện giá trị"** = hàng làm ra chỉ **thành tiền** khi bán được trên thị trường; thị trường là nơi *"nghiệm thu"* mọi nỗ lực sản xuất. Đây là lý do **định hướng thị trường (market orientation)** phải đi trước sản xuất.
-- **Vai trò "phân bổ nguồn lực"** = thị trường **đào thải** chủ thể yếu, dồn vốn/lao động về chủ thể hiệu quả — chính là kỷ luật cạnh tranh mà mọi doanh nghiệp chịu.
+> [!example] Góc QTKD — thị trường "chấm điểm" doanh nghiệp
+>
+> - **Vai trò "thực hiện giá trị"** = hàng làm ra chỉ **thành tiền** khi bán được trên thị trường; thị trường là nơi *"nghiệm thu"* mọi nỗ lực sản xuất. Đây là lý do **định hướng thị trường (market orientation)** phải đi trước sản xuất.
+> - **Vai trò "phân bổ nguồn lực"** = thị trường **đào thải** chủ thể yếu, dồn vốn/lao động về chủ thể hiệu quả — chính là kỷ luật cạnh tranh mà mọi doanh nghiệp chịu.
 
 ---
 
 ## 2. Cơ chế thị trường và nền kinh tế thị trường
 
+> [!quote] tr. 60–61
 > **Cơ chế thị trường** là **hệ thống các quan hệ kinh tế mang tính tự điều chỉnh** tuân theo yêu cầu của các quy luật kinh tế; là phương thức cơ bản để **phân phối và sử dụng** vốn, tài nguyên, công nghệ, sức lao động, thông tin… Cơ chế này mang **tính khách quan**, được A. Smith ví như **"bàn tay vô hình"**. (tr. 60–61)
 
+> [!quote] tr. 61
 > **Nền kinh tế thị trường** là nền kinh tế **vận hành theo cơ chế thị trường** — nền kinh tế **hàng hóa phát triển cao**, mọi quan hệ sản xuất và trao đổi đều thông qua thị trường. (tr. 61)
 
 Sự hình thành là **khách quan**: kinh tế tự nhiên → kinh tế hàng hóa → kinh tế thị trường (sơ khai → hiện đại); là **sản phẩm của văn minh nhân loại** (tr. 61).
@@ -69,7 +75,8 @@ Sự hình thành là **khách quan**: kinh tế tự nhiên → kinh tế hàng
 3. **Giá cả hình thành theo nguyên tắc thị trường**; cạnh tranh là môi trường & động lực; động lực trực tiếp của chủ thể là **lợi nhuận**; nhà nước **khắc phục khuyết tật** thị trường.
 4. Là **nền kinh tế mở**, gắn thị trường trong nước với quốc tế.
 
-⚠️ Đây là đặc trưng **chung**; mỗi quốc gia còn có đặc thù riêng tạo ra các **mô hình** khác nhau (dẫn tới KTTT định hướng XHCN ở [bài 7](bai_07_kttt_dinh_huong_xhcn.md)).
+> [!warning]
+> Đây là đặc trưng **chung**; mỗi quốc gia còn có đặc thù riêng tạo ra các **mô hình** khác nhau (dẫn tới KTTT định hướng XHCN ở [bài 7](bai_07_kttt_dinh_huong_xhcn.md)).
 
 ---
 
@@ -83,13 +90,14 @@ Sự hình thành là **khách quan**: kinh tế tự nhiên → kinh tế hàng
 | ② **Phát huy tối đa tiềm năng, lợi thế** của mọi chủ thể, vùng miền, quốc gia | ② Không tự khắc phục được **cạn kiệt tài nguyên, suy thoái môi trường** (do chạy theo lợi nhuận); có thể **xói mòn đạo đức kinh doanh** |
 | ③ Tạo **phương thức thỏa mãn tối đa nhu cầu**, thúc đẩy văn minh | ③ Không tự khắc phục được **phân hóa giàu – nghèo sâu sắc** |
 
-⚠️ Vì các khuyết tật này, **không tồn tại nền kinh tế thị trường thuần túy**; thực tế luôn có **can thiệp của nhà nước** → gọi là **kinh tế thị trường có điều tiết** (kinh tế **hỗn hợp**) (tr. 66).
+> [!warning]
+> Vì các khuyết tật này, **không tồn tại nền kinh tế thị trường thuần túy**; thực tế luôn có **can thiệp của nhà nước** → gọi là **kinh tế thị trường có điều tiết** (kinh tế **hỗn hợp**) (tr. 66).
 
-### 💼 Góc QTKD — khuyết tật thị trường mở ra "khoảng trống" cho chiến lược và ESG
-
-- **Khủng hoảng tiềm ẩn** = quản trị rủi ro, kịch bản dự phòng là bắt buộc, không phải "phòng xa cho vui".
-- **Ngoại tác môi trường/đạo đức** = chính là chỗ **ESG, phát triển bền vững, đạo đức kinh doanh** trở thành lợi thế cạnh tranh dài hạn (và là chỗ nhà nước sẽ siết quy định).
-- **Phân hóa** = phân khúc thị trường theo thu nhập; đồng thời là rủi ro chính sách (thuế, an sinh) mà doanh nghiệp phải tính.
+> [!example] Góc QTKD — khuyết tật thị trường mở ra "khoảng trống" cho chiến lược và ESG
+>
+> - **Khủng hoảng tiềm ẩn** = quản trị rủi ro, kịch bản dự phòng là bắt buộc, không phải "phòng xa cho vui".
+> - **Ngoại tác môi trường/đạo đức** = chính là chỗ **ESG, phát triển bền vững, đạo đức kinh doanh** trở thành lợi thế cạnh tranh dài hạn (và là chỗ nhà nước sẽ siết quy định).
+> - **Phân hóa** = phân khúc thị trường theo thu nhập; đồng thời là rủi ro chính sách (thuế, an sinh) mà doanh nghiệp phải tính.
 
 ---
 
@@ -97,6 +105,7 @@ Sự hình thành là **khách quan**: kinh tế tự nhiên → kinh tế hàng
 
 ### a) Quy luật giá trị — quy luật **cơ bản** của sản xuất hàng hóa
 
+> [!quote] tr. 67
 > **Yêu cầu:** sản xuất và trao đổi phải dựa trên **hao phí lao động xã hội cần thiết**. Người sản xuất phải hạ hao phí cá biệt **≤** hao phí xã hội cần thiết; trao đổi theo **nguyên tắc ngang giá** (lấy giá trị xã hội làm cơ sở). (tr. 67)
 
 Quy luật giá trị **hoạt động thông qua sự lên xuống của giá cả xoay quanh giá trị** (dưới tác động cung – cầu). **Ba tác động** (tr. 67–69):
@@ -111,6 +120,7 @@ Tóm lại quy luật giá trị vừa **đào thải cái lạc hậu**, kích 
 
 ### b) Quy luật cung – cầu
 
+> [!quote] tr. 70
 > Điều tiết quan hệ giữa **cung (bên bán)** và **cầu (bên mua)**; đòi hỏi cung – cầu **thống nhất**. (tr. 70)
 
 Quan hệ giá cả – cung cầu:
@@ -125,6 +135,7 @@ Nhà nước có thể **vận dụng** quy luật này qua giá cả, thuế, t
 
 ### c) Quy luật lưu thông tiền tệ — có **công thức**
 
+> [!quote] tr. 71
 > Lượng tiền cần cho lưu thông phải **căn cứ vào lưu thông hàng hóa, dịch vụ**. Lệch nhau → **trì trệ** (thiếu tiền) hoặc **lạm phát** (thừa tiền). (tr. 71)
 
 **Công thức tổng quát:**
@@ -137,9 +148,11 @@ $$M = \dfrac{P \times Q}{V}$$
 
 Tức **M tỷ lệ thuận với tổng giá cả (P·Q)** và **tỷ lệ nghịch với tốc độ lưu thông (V)** (tr. 71).
 
-📚 **Ví dụ số:** tổng giá cả hàng hóa `P·Q = 6.000` tỷ; mỗi đồng quay `V = 3` vòng/kỳ → cần `M = 6.000/3 = 2.000` tỷ. ⚠️ Nếu nhà nước in **3.000** tỷ (thừa 1.000) trong khi hàng không tăng → tiền mất giá, giá cả tăng → **lạm phát**. Đây là lý do **không được in tiền tùy tiện** (tr. 72).
+> [!note] Ví dụ số:
+> tổng giá cả hàng hóa `P·Q = 6.000` tỷ; mỗi đồng quay `V = 3` vòng/kỳ → cần `M = 6.000/3 = 2.000` tỷ. ⚠️ Nếu nhà nước in **3.000** tỷ (thừa 1.000) trong khi hàng không tăng → tiền mất giá, giá cả tăng → **lạm phát**. Đây là lý do **không được in tiền tùy tiện** (tr. 72).
 
-📚 **Công thức mở rộng** khi có mua chịu, thanh toán bù trừ (tr. 71):
+> [!note] Công thức mở rộng
+> khi có mua chịu, thanh toán bù trừ (tr. 71):
 
 $$M = \dfrac{P{\cdot}Q - (G_1 + G_2) + G_3}{V}$$
 
@@ -147,6 +160,7 @@ với `G₁` = tổng giá cả bán chịu; `G₂` = tổng giá cả khấu tr
 
 ### d) Quy luật cạnh tranh
 
+> [!quote] tr. 72
 > **Cạnh tranh** là sự **ganh đua** giữa các chủ thể kinh tế nhằm giành ưu thế trong sản xuất – tiêu thụ để thu **lợi ích tối đa**. (tr. 72)
 
 Hai cấp độ:
@@ -164,12 +178,12 @@ C. Mác: *"giá trị thị trường… là giá trị trung bình của nhữn
 - **Tích cực:** thúc đẩy LLSX; hoàn thiện nền kinh tế thị trường; phân bổ nguồn lực linh hoạt; thỏa mãn nhu cầu xã hội tốt hơn.
 - ⚠️ **Tiêu cực** (khi **cạnh tranh không lành mạnh**): tổn hại môi trường kinh doanh & đạo đức; lãng phí nguồn lực (chiếm giữ mà không dùng); tổn hại phúc lợi xã hội.
 
-### 💼 Góc QTKD — bốn quy luật là "luật chơi" của mọi doanh nghiệp
-
-- **Quy luật giá trị** = phải kéo **giá thành cá biệt ≤ giá thị trường** mới sống — đây là gốc của mọi nỗ lực cải tiến năng suất, tiết kiệm chi phí.
-- **Cung – cầu** = đọc tương quan cung – cầu để định giá, định lượng sản xuất; đầu tư vào ngành đang cung < cầu (giá > giá trị).
-- **Lưu thông tiền tệ (M = P·Q/V)** = hiểu vì sao **lạm phát** xảy ra khi cung tiền vượt hàng hóa — chi phối lãi suất, chi phí vốn, sức mua khách hàng.
-- **Cạnh tranh nội bộ ngành → hạ giá thành; giữa ngành → dịch chuyển vốn** = chính là logic **chiến lược cạnh tranh** và **phân bổ danh mục đầu tư** (chảy vốn về ngành sinh lời cao).
+> [!example] Góc QTKD — bốn quy luật là "luật chơi" của mọi doanh nghiệp
+>
+> - **Quy luật giá trị** = phải kéo **giá thành cá biệt ≤ giá thị trường** mới sống — đây là gốc của mọi nỗ lực cải tiến năng suất, tiết kiệm chi phí.
+> - **Cung – cầu** = đọc tương quan cung – cầu để định giá, định lượng sản xuất; đầu tư vào ngành đang cung < cầu (giá > giá trị).
+> - **Lưu thông tiền tệ (M = P·Q/V)** = hiểu vì sao **lạm phát** xảy ra khi cung tiền vượt hàng hóa — chi phối lãi suất, chi phí vốn, sức mua khách hàng.
+> - **Cạnh tranh nội bộ ngành → hạ giá thành; giữa ngành → dịch chuyển vốn** = chính là logic **chiến lược cạnh tranh** và **phân bổ danh mục đầu tư** (chảy vốn về ngành sinh lời cao).
 
 ---
 
@@ -182,12 +196,13 @@ C. Mác: *"giá trị thị trường… là giá trị trung bình của nhữn
 | **Chủ thể trung gian** | cầu nối sản xuất – tiêu dùng (thương nhân, môi giới chứng khoán, nhà đất, KH–CN…); làm thị trường **linh hoạt, ăn khớp**; ⚠️ loại trừ trung gian phi đạo đức (lừa đảo, môi giới bất hợp pháp) |
 | **Nhà nước** | quản lý nhà nước về kinh tế; **tạo môi trường** tốt (gỡ rào cản) + **khắc phục khuyết tật** thị trường |
 
-⚠️ Phân chia người sản xuất / tiêu dùng chỉ **tương đối** — một doanh nghiệp **vừa mua vừa bán** (tr. 78–79).
+> [!warning]
+> Phân chia người sản xuất / tiêu dùng chỉ **tương đối** — một doanh nghiệp **vừa mua vừa bán** (tr. 78–79).
 
-### 💼 Góc QTKD — sơ đồ hệ sinh thái mà doanh nghiệp của mày sống trong đó
-
-- Đây chính là **bản đồ stakeholder** của thị trường: mày (người sản xuất) đứng giữa **khách hàng** (quyết định bằng sức mua), **trung gian/kênh phân phối** (đưa hàng tới khách), và **nhà nước** (luật chơi + sửa khuyết tật). Hiểu vai trò từng bên để định vị chiến lược.
-- **"Sức mua của người tiêu dùng quyết định phát triển bền vững của người sản xuất"** = tinh thần *customer is king*: không có cầu thì mọi năng lực sản xuất thành vô nghĩa.
+> [!example] Góc QTKD — sơ đồ hệ sinh thái mà doanh nghiệp của mày sống trong đó
+>
+> - Đây chính là **bản đồ stakeholder** của thị trường: mày (người sản xuất) đứng giữa **khách hàng** (quyết định bằng sức mua), **trung gian/kênh phân phối** (đưa hàng tới khách), và **nhà nước** (luật chơi + sửa khuyết tật). Hiểu vai trò từng bên để định vị chiến lược.
+> - **"Sức mua của người tiêu dùng quyết định phát triển bền vững của người sản xuất"** = tinh thần *customer is king*: không có cầu thì mọi năng lực sản xuất thành vô nghĩa.
 
 ---
 

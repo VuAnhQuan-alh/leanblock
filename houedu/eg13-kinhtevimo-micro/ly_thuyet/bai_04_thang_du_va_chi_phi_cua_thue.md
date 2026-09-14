@@ -1,15 +1,17 @@
 # Bài 4 — Thặng dư, giá sẵn lòng trả và chi phí của thuế
 
+> [!info] Về bài này
 > Bài học dựng từ **Chương 7 — Người tiêu dùng, nhà sản xuất và hiệu quả của thị trường** (tr. 153–173)
 > và **Chương 8 — Ứng dụng: Chi phí của thuế** (tr. 174–189)
 > của *N. Gregory Mankiw — **Kinh tế học vi mô***, bản dịch của Khoa Kinh tế, **ĐH Kinh tế TP.HCM** (Cengage Learning Asia).
-> 🔸 **Vòng 2** — không phải chương "định giá" như bài 3, nhưng nó cho bạn **thước đo giá trị**
+>
+> **Vòng 2** — không phải chương "định giá" như bài 3, nhưng nó cho bạn **thước đo giá trị**
 > mà mọi lập luận về hiệu quả từ đây tới hết môn đều dùng. Riêng khái niệm **giá sẵn lòng trả**
 > là nền trực tiếp của **phân biệt giá** ở bài 7.
-> 💼 **Góc QTKD** — ví dụ thêm cho ngành quản trị kinh doanh, **không có trong sách**.
-> 📚 **Mở rộng** — thứ sách nói lướt hoặc để trong hộp phụ.
-> ⚠️ — chỗ dễ hiểu sai, hoặc chỗ sách in sai.
-> 📌 **Cần đọc trước:** [Bài 2 — Cung và cầu](bai_02_cung_va_cau.md) và
+>
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
+>
+> **Cần đọc trước:** [Bài 2 — Cung và cầu](bai_02_cung_va_cau.md) và
 > [Bài 3 — Độ co giãn](bai_03_do_co_gian_va_dinh_gia.md) (mục 10 của bài này dùng lại độ co giãn).
 
 ---
@@ -22,16 +24,16 @@
 - [2. Giá sẵn lòng trả — khái niệm nền](#2-giá-sẵn-lòng-trả--khái-niệm-nền)
 - [3. Thặng dư tiêu dùng](#3-thặng-dư-tiêu-dùng)
 - [4. Đường cầu chính là bảng giá sẵn lòng trả](#4-đường-cầu-chính-là-bảng-giá-sẵn-lòng-trả)
-- [5. 📚 Thặng dư tiêu dùng đo lường điều gì — và khi nào nó KHÔNG đo được](#5--thặng-dư-tiêu-dùng-đo-lường-điều-gì--và-khi-nào-nó-không-đo-được)
+- [5. Thặng dư tiêu dùng đo lường điều gì — và khi nào nó KHÔNG đo được](#5-thặng-dư-tiêu-dùng-đo-lường-điều-gì--và-khi-nào-nó-không-đo-được)
 - [6. Thặng dư sản xuất — đối xứng hoàn toàn](#6-thặng-dư-sản-xuất--đối-xứng-hoàn-toàn)
 - [7. Tổng thặng dư — thước đo phúc lợi](#7-tổng-thặng-dư--thước-đo-phúc-lợi)
 - [8. Ba kết luận về thị trường tự do](#8-ba-kết-luận-về-thị-trường-tự-do)
-- [9. ⚠️ Nhưng kết luận trên đứng trên HAI giả định](#9--nhưng-kết-luận-trên-đứng-trên-hai-giả-định)
+- [9. Nhưng kết luận trên đứng trên HAI giả định](#9-nhưng-kết-luận-trên-đứng-trên-hai-giả-định)
 - [10. Thuế làm gì với thị trường — bảng phúc lợi](#10-thuế-làm-gì-với-thị-trường--bảng-phúc-lợi)
 - [11. Vì sao tổn thất vô ích xuất hiện — ví dụ Joe và Jane](#11-vì-sao-tổn-thất-vô-ích-xuất-hiện--ví-dụ-joe-và-jane)
 - [12. Cái gì quyết định độ lớn của tổn thất vô ích — độ co giãn](#12-cái-gì-quyết-định-độ-lớn-của-tổn-thất-vô-ích--độ-co-giãn)
 - [13. Thuế tăng thì chuyện gì xảy ra — và đường cong Laffer](#13-thuế-tăng-thì-chuyện-gì-xảy-ra--và-đường-cong-laffer)
-- [14. 💼 Thặng dư tiêu dùng và tổn thất vô ích trong doanh nghiệp](#14--thặng-dư-tiêu-dùng-và-tổn-thất-vô-ích-trong-doanh-nghiệp)
+- [14. Thặng dư tiêu dùng và tổn thất vô ích trong doanh nghiệp](#14-thặng-dư-tiêu-dùng-và-tổn-thất-vô-ích-trong-doanh-nghiệp)
 - [15. Code minh hoạ](#15-code-minh-hoạ)
 - [16. Tự thử](#16-tự-thử)
 - [17. Từ điển thuật ngữ](#17-từ-điển-thuật-ngữ)
@@ -48,11 +50,13 @@
 Chương 4 cho ta **mô hình**, chương 5 cho ta **thước đo phản ứng**. Nhưng cả hai đều chỉ mô tả *thị
 trường vận hành thế nào*, chưa trả lời được câu hỏi **thị trường vận hành có tốt không**.
 
+> [!note]
 > **Kinh tế học phúc lợi** (*welfare economics*): nghiên cứu việc phân bổ nguồn lực tác động đến
 > phúc lợi kinh tế như thế nào. — chương 7
 
 Câu hỏi trung tâm mà sách đặt ra (tr. 163):
 
+> [!quote]
 > *"Phân bổ nguồn lực được quyết định bởi thị trường tự do có đáng mong muốn không?"*
 
 Để trả lời được, ta cần **một con số đo phúc lợi**. Chương 7 xây dựng con số đó bằng hai mảnh:
@@ -66,6 +70,7 @@ ngay bộ công cụ ấy để đo **chi phí thật của một sắc thuế**
 Sách bắt đầu bằng một câu chuyện rất cụ thể (tr. 154): bạn có một bản thu âm nguyên bản của **tập đĩa
 đầu tay Elvis Presley** và muốn bán. Bạn mở một cuộc đấu giá. Bốn người hâm mộ tham gia:
 
+> [!quote]
 > **Giá sẵn lòng trả** (*willingness to pay*): số tiền tối đa mà người mua sẵn lòng trả để mua một
 > hàng hoá. — chú thích tr. 154
 
@@ -83,6 +88,7 @@ Sách bắt đầu bằng một câu chuyện rất cụ thể (tr. 154): bạn 
 Ý nghĩa của con số này, theo cách sách diễn đạt: *"nó được đo lường bằng giá trị người mua định giá
 cho hàng hoá"*. Và tại đúng mức giá bằng mức sẵn lòng trả, người mua **bàng quan**:
 
+> [!quote] tr. 154
 > *"Nếu giá chính xác bằng đúng giá trị anh ta định giá tập đĩa, việc giữ lại tiền hay mua tập đĩa
 > đối với anh ta là như nhau."* (tr. 154)
 
@@ -96,6 +102,7 @@ nhất"* (tr. 154). Đây là hạt giống của kết luận về hiệu quả
 
 ## 3. Thặng dư tiêu dùng
 
+> [!quote]
 > **Thặng dư tiêu dùng** (*consumer surplus*): mức sẵn lòng trả của người tiêu dùng cho một hàng hoá
 > trừ cho số tiền mà người đó thực tế phải trả cho hàng hoá đó. — chú thích tr. 155
 
@@ -137,6 +144,7 @@ Từ Bảng 1, ta dựng được **biểu cầu** (Hình 1, tr. 156):
 
 ⭐ **Ý quan trọng nhất mục này** (tr. 156):
 
+> [!quote]
 > *"Tại một mức sản lượng bất kỳ, mức giá tương ứng trên đường cầu thể hiện mức giá sẵn lòng trả của
 > người mua sau cùng hay **người mua cận biên**, đây là người đầu tiên rời khỏi thị trường khi mức
 > giá gia tăng."*
@@ -146,6 +154,7 @@ chiều cao là **70 đô la** — mức George sẵn lòng trả.
 
 ### Và từ đó: thặng dư tiêu dùng là một DIỆN TÍCH
 
+> [!quote] tr. 156
 > **Phần diện tích dưới đường cầu và trên mức giá đo lường thặng dư tiêu dùng trên một thị trường.** (tr. 156)
 
 Kiểm lại bằng Hình 2 (tr. 157):
@@ -173,21 +182,24 @@ tục"* (tr. 157) — nên đường cầu trơn, và thặng dư là một **ta
                             làm lượng cầu tăng từ Q₁ lên Q₂
 ```
 
-💼 Phân biệt hai mảnh này rất có ích khi đánh giá một đợt giảm giá: **mảnh ① là tiền bạn mất từ khách
-sẵn sàng trả giá cũ**, mảnh ② là **doanh số mới thật sự**. Một chương trình khuyến mãi chỉ đáng làm
-khi mảnh ② đủ lớn để bù mảnh ①.
+> [!example]
+> Phân biệt hai mảnh này rất có ích khi đánh giá một đợt giảm giá: **mảnh ① là tiền bạn mất từ khách
+> sẵn sàng trả giá cũ**, mảnh ② là **doanh số mới thật sự**. Một chương trình khuyến mãi chỉ đáng làm
+> khi mảnh ② đủ lớn để bù mảnh ①.
 
 ---
 
-## 5. 📚 Thặng dư tiêu dùng đo lường điều gì — và khi nào nó KHÔNG đo được
+## 5. Thặng dư tiêu dùng đo lường điều gì — và khi nào nó KHÔNG đo được
 
 Sách dành hẳn một mục để tự vấn (tr. 158–159), và đây là phần trung thực nhất chương.
 
 Thặng dư tiêu dùng là **thước đo tốt cho phúc lợi** *"nếu nhà hoạch định chính sách quan tâm đến quyền
 lợi của người mua"*, vì nó đo lợi ích **theo nhận thức chủ quan của chính người mua**.
 
-⚠️ **Nhưng có ngoại lệ**, và sách nêu thẳng ví dụ:
+> [!warning] Nhưng có ngoại lệ
+> , và sách nêu thẳng ví dụ:
 
+> [!quote] tr. 158
 > *"Chẳng hạn như người nghiện ma tuý sẽ sẵn lòng trả giá cao để mua heroin. Tuy nhiên, chúng ta sẽ
 > không nói rằng những người nghiện sẽ có nhiều lợi ích hơn khi mua được ma tuý với giá thấp… **thặng
 > dư tiêu dùng không còn là thước đo tốt cho phúc lợi** của nền kinh tế vì những người nghiện không
@@ -205,11 +217,13 @@ Nói cách khác, toàn bộ công cụ này **đứng trên giả định ngư�
 Sách dựng lại đúng cấu trúc ở phía người bán (tr. 159): bạn muốn sơn nhà, mời **bốn** nhà cung cấp đấu
 thầu.
 
+> [!quote]
 > **Chi phí** (*cost*): giá trị của những thứ mà người bán phải bỏ ra để sản xuất một hàng hoá. — chú thích tr. 159
 
-⚠️ **"Chi phí" ở đây là chi phí CƠ HỘI**, không phải chi tiền. Sách nói rõ: nó bao gồm cả tiền sơn,
-cọ… *"cũng như giá trị của thời gian mà người sơn nhà phải bỏ ra trong thời gian đó"* — đúng nguyên lý 2
-ở [bài 1](bai_01_muoi_nguyen_ly_va_tu_duy_kinh_te.md#3-nguyên-lý-2--chi-phí-của-một-thứ-là-cái-mà-bạn-từ-bỏ-để-có-được-nó).
+> [!warning] "Chi phí" ở đây là chi phí CƠ HỘI
+> , không phải chi tiền. Sách nói rõ: nó bao gồm cả tiền sơn,
+> cọ… *"cũng như giá trị của thời gian mà người sơn nhà phải bỏ ra trong thời gian đó"* — đúng nguyên lý 2
+> ở [bài 1](bai_01_muoi_nguyen_ly_va_tu_duy_kinh_te.md#3-nguyên-lý-2--chi-phí-của-một-thứ-là-cái-mà-bạn-từ-bỏ-để-có-được-nó).
 
 **Bảng 2, tr. 159:**
 
@@ -222,6 +236,7 @@ cọ… *"cũng như giá trị của thời gian mà người sơn nhà phải 
 | Georgia     |      600 |
 | **Grandma** | **$500** |
 
+> [!quote]
 > **Thặng dư sản xuất** (*producer surplus*): số tiền nhà sản xuất được trả cho việc cung cấp một hàng
 > hoá trừ cho tổng chi phí sản xuất ra hàng hoá đó. — chú thích tr. 160
 
@@ -234,24 +249,25 @@ cọ… *"cũng như giá trị của thời gian mà người sơn nhà phải 
 
 Và đối xứng với phần cầu:
 
+> [!note]
 > **Phần diện tích dưới mức giá và trên đường cung đo lường thặng dư sản xuất trên một thị trường.**
 
 Cũng như bên cầu, **chiều cao đường cung tại lượng Q là chi phí của người bán cận biên** (tr. 161):
 ở lượng 4, chiều cao là 900 (Mary); ở lượng 3, là 800 (Frida).
 
-### 💼 Góc QTKD — hai bảng này là hai bảng bạn thật sự phải lập
-
-Hai khái niệm nghe hàn lâm, nhưng chúng là hai bảng tính rất cụ thể trong công việc:
-
-| Kinh tế học gọi        | Trong doanh nghiệp gọi là                 | Bạn dùng nó để                                                                                                                                          |
-| ---------------------- | ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Giá sẵn lòng trả**   | *willingness to pay*, "giá trần cảm nhận" | đặt giá niêm yết, thiết kế gói sản phẩm                                                                                                                 |
-| **Chi phí (cơ hội)**   | giá sàn thật, chi phí biên                | biết mức thấp nhất còn nhận đơn ([bài 1, mục 4](bai_01_muoi_nguyen_ly_va_tu_duy_kinh_te.md#4-nguyên-lý-3--con-người-duy-lý-suy-nghĩ-tại-điểm-cận-biên)) |
-| **Thặng dư tiêu dùng** | phần giá trị **bạn để lại trên bàn**      | ước lượng dư địa tăng giá / phân biệt giá                                                                                                               |
-| **Thặng dư sản xuất**  | phần đóng góp (contribution margin)       | biết đơn hàng nào thật sự sinh lời                                                                                                                      |
-
-⭐ Dòng thứ ba là dòng đắt nhất. **Thặng dư tiêu dùng là tiền mà khách hàng đáng lẽ đã trả cho bạn
-nhưng không phải trả** — vì bạn niêm yết một giá duy nhất. Mục 12 tính con số đó bằng một ví dụ cụ thể.
+> [!example] Góc QTKD — hai bảng này là hai bảng bạn thật sự phải lập
+>
+> Hai khái niệm nghe hàn lâm, nhưng chúng là hai bảng tính rất cụ thể trong công việc:
+>
+> | Kinh tế học gọi        | Trong doanh nghiệp gọi là                 | Bạn dùng nó để                                                                                                                                          |
+> | ---------------------- | ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
+> | **Giá sẵn lòng trả**   | *willingness to pay*, "giá trần cảm nhận" | đặt giá niêm yết, thiết kế gói sản phẩm                                                                                                                 |
+> | **Chi phí (cơ hội)**   | giá sàn thật, chi phí biên                | biết mức thấp nhất còn nhận đơn ([bài 1, mục 4](bai_01_muoi_nguyen_ly_va_tu_duy_kinh_te.md#4-nguyên-lý-3--con-người-duy-lý-suy-nghĩ-tại-điểm-cận-biên)) |
+> | **Thặng dư tiêu dùng** | phần giá trị **bạn để lại trên bàn**      | ước lượng dư địa tăng giá / phân biệt giá                                                                                                               |
+> | **Thặng dư sản xuất**  | phần đóng góp (contribution margin)       | biết đơn hàng nào thật sự sinh lời                                                                                                                      |
+>
+> ⭐ Dòng thứ ba là dòng đắt nhất. **Thặng dư tiêu dùng là tiền mà khách hàng đáng lẽ đã trả cho bạn
+> nhưng không phải trả** — vì bạn niêm yết một giá duy nhất. Mục 12 tính con số đó bằng một ví dụ cụ thể.
 
 ---
 
@@ -279,6 +295,7 @@ $$\boxed{\text{Tổng thặng dư} = \text{Giá trị người tiêu dùng nhậ
 ⭐ Công thức cuối này rất đáng nhớ, vì nó cho thấy **tiền chuyển từ túi này sang túi kia không tạo ra
 và cũng không phá huỷ phúc lợi**. Chỉ có **giá trị tạo ra** và **chi phí bỏ ra** mới đáng kể.
 
+> [!quote]
 > **Hiệu quả** (*efficiency*): thuộc tính của sự phân bổ nguồn lực, theo đó các thành viên xã hội đạt
 > được tổng thặng dư cao nhất có thể từ những nguồn lực khan hiếm. — chú thích tr. 164
 > **Bình đẳng** (*equality*): tình trạng phân phối sự thịnh vượng kinh tế một cách bằng nhau giữa các
@@ -304,6 +321,7 @@ cung và đường cầu, tính đến sản lượng cân bằng**.
 
 Sách rút ra **ba hàm ý** (tr. 165–166):
 
+> [!note]
 > **1.** Thị trường tự do phân phối cung hàng hoá đến những người mua đánh giá hàng hoá **cao nhất**,
 > nghĩa là có mức sẵn lòng trả cao nhất.
 > **2.** Thị trường tự do phân phối cầu hàng hoá đến những người bán có thể sản xuất mặt hàng đó ở
@@ -334,7 +352,7 @@ một ẩn dụ.
 
 ---
 
-## 9. ⚠️ Nhưng kết luận trên đứng trên HAI giả định
+## 9. Nhưng kết luận trên đứng trên HAI giả định
 
 Đây là mục quan trọng nhất của chương 7, và cũng là mục dễ bị bỏ qua nhất (tr. 169).
 
@@ -348,6 +366,7 @@ thực tế, quyết định của họ *"đôi khi thỉnh thoảng tác độn
 trường đó"*. Ví dụ của sách: **ô nhiễm** — hoá chất nông nghiệp tác động cả đến *"những người hít phải
 không khí hay uống phải nguồn nước bị ô nhiễm"*. Đó là **ngoại tác**.
 
+> [!quote] tr. 169
 > Quyền lực thị trường và ngoại tác là những ví dụ về một hiện tượng chung gọi là **thất bại thị trường**
 > — từ đó một vài thị trường không được điều tiết sẽ không thể phân bổ nguồn lực hiệu quả. (tr. 169)
 
@@ -358,10 +377,11 @@ không khí hay uống phải nguồn nước bị ô nhiễm"*. Đó là **ngo�
 | **Quyền lực thị trường** | bài 7 (độc quyền), bài 8, bài 9 | 15, 16, 17  |
 | **Ngoại tác**            | bài 14                          | 10          |
 
-⚠️ Nhưng sách cũng cân bằng lại ngay: *"Dù có những khả năng tồn tại thất bại thị trường nhưng **bàn
-tay vô hình của thị trường vẫn cực kỳ quan trọng**. Ở nhiều thị trường, những giả định chúng ta đưa ra
-ở chương này có thể được thoả mãn"* (tr. 169).
----
+> [!warning]
+> Nhưng sách cũng cân bằng lại ngay: *"Dù có những khả năng tồn tại thất bại thị trường nhưng **bàn
+> tay vô hình của thị trường vẫn cực kỳ quan trọng**. Ở nhiều thị trường, những giả định chúng ta đưa ra
+> ở chương này có thể được thoả mãn"* (tr. 169).
+> ---
 
 ## 10. Thuế làm gì với thị trường — bảng phúc lợi
 
@@ -372,6 +392,7 @@ Nhắc lại kết quả từ chương 6 (sẽ học kỹ ở **bài 13**): thu�
 mua **trả** và mức giá người bán **nhận**, và làm sản lượng giao dịch **giảm**. Điều quan trọng mà
 sách nhấn mạnh:
 
+> [!quote] tr. 175
 > *"Tác động của thuế là **như nhau** khi thuế đánh lên người mua hoặc người bán."* (tr. 175)
 
 Ai nộp thuế về mặt pháp lý **không quan trọng**; cái quyết định phần gánh chịu là **độ co giãn**.
@@ -388,9 +409,10 @@ Ai nộp thuế về mặt pháp lý **không quan trọng**; cái quyết đị
 | $Q$                | sản lượng bán ra **khi có thuế**            |
 | **Doanh thu thuế** | $T \times Q$ — hình chữ nhật giữa hai đường |
 
-⚠️ Sách lưu ý một điểm dễ hiểu nhầm về doanh thu thuế (tr. 176): phần lợi ích này *"thật sự không chỉ
-dành cho chính phủ mà còn cho **những người được hưởng các lợi ích được chi trả bởi doanh thu thuế**"*
-— đường sá, cảnh sát, giáo dục. Nên nó **được tính vào** tổng phúc lợi, không bị coi là mất đi.
+> [!warning]
+> Sách lưu ý một điểm dễ hiểu nhầm về doanh thu thuế (tr. 176): phần lợi ích này *"thật sự không chỉ
+> dành cho chính phủ mà còn cho **những người được hưởng các lợi ích được chi trả bởi doanh thu thuế**"*
+> — đường sá, cảnh sát, giáo dục. Nên nó **được tính vào** tổng phúc lợi, không bị coi là mất đi.
 
 ![Hình 2 — tr. 176, bản chụp giáo trình](../tai_lieu/hinh/ch08-hinh-02-tr176.png)
 
@@ -407,6 +429,7 @@ Sáu vùng diện tích A → F:
 | Doanh thu thuế     | không             | $B+D$       | $+(B+D)$          |
 | **Tổng thặng dư**  | $A+B+C+D+E+F$     | $A+B+D+F$   | $\mathbf{-(C+E)}$ |
 
+> [!quote]
 > **Tổn thất vô ích** (*deadweight loss*): phần giảm sút trong tổng thặng dư gây ra bởi những biến dạng
 > thị trường, chẳng hạn như thuế. — chú thích tr. 178
 
@@ -444,12 +467,14 @@ cùng chấp nhận:
 Kết quả: **thoả thuận bị huỷ.** Joe không có thu nhập, Jane sống trong ngôi nhà bụi bẩn hơn, và —
 điểm mấu chốt — **chính phủ không thu được đồng nào** từ họ.
 
+> [!quote] tr. 178–179
 > *"Khoản tiền 40 đô la đơn thuần là khoản tổn thất vô ích: Đó là khoản thiệt hại mà người mua và người
 > bán phải chịu trên một thị trường mà không được bù đắp bằng chính mức tăng trong doanh thu của chính
 > phủ."* (tr. 178–179)
 
 Và nguồn gốc, in nghiêng trong sách:
 
+> [!quote] tr. 179
 > ⭐ *"**Thuế gây ra tổn thất vô ích vì chúng làm người bán và người mua không nhận thấy được những lợi
 > ích từ thương mại.**"* (tr. 179)
 
@@ -459,7 +484,7 @@ Và nguồn gốc, in nghiêng trong sách:
 sản xuất ít đi — và chính sự thay đổi hành vi ấy mới là nguồn gốc của tổn thất, chứ không phải khoản
 tiền nộp.
 
-⚠️ **Đính chính — tr. 178: một nhân vật, ba cái tên.**
+> [!warning] Đính chính — tr. 178: một nhân vật, ba cái tên.
 
 Trong đúng một trang, người thuê Joe được gọi lần lượt là:
 
@@ -495,33 +520,35 @@ Câu trả lời rất gọn (tr. 179): **độ co giãn của cung và cầu**.
 
 Kết luận in nghiêng trong sách:
 
+> [!quote] tr. 181
 > ⭐ *"**Độ co giãn của cung và cầu càng lớn thì phần tổn thất vô ích do thuế gây ra cũng càng lớn.**"* (tr. 181)
 
 **Cơ chế** (tr. 180–181): thuế gây tổn thất *"vì thuế làm cho người mua và người bán **thay đổi hành
 vi**"*. Độ co giãn chính là **thước đo mức độ thay đổi hành vi**. Co giãn cao = phản ứng mạnh = thị
 trường co lại nhiều = tổn thất lớn.
 
-💡 **Hệ quả thực tiễn rất rõ:** muốn thu thuế mà ít gây méo mó, hãy đánh vào thứ có cầu và cung **không
-co giãn** — điều này giải thích vì sao thuế thuốc lá, rượu, xăng phổ biến đến vậy ở mọi quốc gia.
+> [!example] Hệ quả thực tiễn rất rõ:
+> muốn thu thuế mà ít gây méo mó, hãy đánh vào thứ có cầu và cung **không
+> co giãn** — điều này giải thích vì sao thuế thuốc lá, rượu, xăng phổ biến đến vậy ở mọi quốc gia.
 
-### 📚 Nghiên cứu tình huống — tranh luận về tổn thất vô ích (tr. 181–182)
-
-Sách chỉ ra rằng tranh cãi *"quy mô của chính phủ nên ở mức nào"* thực chất xoay quanh **một con số**:
-
-> *"khi tổn thất vô ích do thuế càng lớn, thì chi phí của bất kỳ chương trình nào của chính phủ cũng
-> càng lớn."*
-
-Ví dụ được dùng: **thuế đánh lên lao động** ở Hoa Kỳ — thuế Bảo hiểm Xã hội, thuế Dịch vụ Y tế, thuế
-thu nhập liên bang và của bang cộng lại cho **mức thuế suất biên khoảng 40%** trên thu nhập lao động.
-
-| Nhóm                                     | Tin rằng                                                                                                      | Suy ra                                                           |
-| ---------------------------------------- | ------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- |
-| Cho rằng thuế lao động **ít bóp méo**    | cung lao động **rất ít co giãn** — *"hầu hết mọi người sẽ làm việc toàn thời gian bất kể là ở mức lương nào"* | đường cung lao động gần **thẳng đứng** → tổn thất vô ích **nhỏ** |
-| Cho rằng thuế lao động **bóp méo nhiều** | cung lao động **co giãn nhiều** hơn                                                                           | tổn thất vô ích **lớn**                                          |
-
-📌 Lại đúng cấu trúc đã gặp ở [bài 3, mục 14](bai_03_do_co_gian_va_dinh_gia.md#14-ứng-dụng-3--cấm-ma-tuý-làm-tăng-hay-giảm-tội-phạm):
-một tranh cãi **chuẩn tắc** ("chính phủ nên to hay nhỏ") mà điểm bất đồng thật sự lại là một **câu hỏi
-thực chứng** ("độ co giãn của cung lao động bằng bao nhiêu").
+> [!note] Nghiên cứu tình huống — tranh luận về tổn thất vô ích (tr. 181–182)
+>
+> Sách chỉ ra rằng tranh cãi *"quy mô của chính phủ nên ở mức nào"* thực chất xoay quanh **một con số**:
+>
+> > *"khi tổn thất vô ích do thuế càng lớn, thì chi phí của bất kỳ chương trình nào của chính phủ cũng
+> > càng lớn."*
+>
+> Ví dụ được dùng: **thuế đánh lên lao động** ở Hoa Kỳ — thuế Bảo hiểm Xã hội, thuế Dịch vụ Y tế, thuế
+> thu nhập liên bang và của bang cộng lại cho **mức thuế suất biên khoảng 40%** trên thu nhập lao động.
+>
+> | Nhóm                                     | Tin rằng                                                                                                      | Suy ra                                                           |
+> | ---------------------------------------- | ------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- |
+> | Cho rằng thuế lao động **ít bóp méo**    | cung lao động **rất ít co giãn** — *"hầu hết mọi người sẽ làm việc toàn thời gian bất kể là ở mức lương nào"* | đường cung lao động gần **thẳng đứng** → tổn thất vô ích **nhỏ** |
+> | Cho rằng thuế lao động **bóp méo nhiều** | cung lao động **co giãn nhiều** hơn                                                                           | tổn thất vô ích **lớn**                                          |
+>
+> 📌 Lại đúng cấu trúc đã gặp ở [bài 3, mục 14](bai_03_do_co_gian_va_dinh_gia.md#14-ứng-dụng-3--cấm-ma-tuý-làm-tăng-hay-giảm-tội-phạm):
+> một tranh cãi **chuẩn tắc** ("chính phủ nên to hay nhỏ") mà điểm bất đồng thật sự lại là một **câu hỏi
+> thực chứng** ("độ co giãn của cung lao động bằng bao nhiêu").
 
 ---
 
@@ -535,6 +562,7 @@ thực chứng** ("độ co giãn của cung lao động bằng bao nhiêu").
 
 Lý do rất hình học và rất đáng nhớ (tr. 183):
 
+> [!quote]
 > *"phần tổn thất vô ích bằng diện tích của một tam giác, và diện tích của một tam giác thì tuỳ thuộc
 > vào chiều cao và cạnh đáy của nó. Chẳng hạn, nếu chúng ta tăng thuế lên gấp đôi thì cạnh đáy và chiều
 > cao của hình tam giác này cũng tăng gấp đôi, do đó phần tổn thất vô ích **tăng lên 4 lần**. Nếu chúng
@@ -554,47 +582,47 @@ $$\text{Tổn thất vô ích} \propto T^2$$
 
 Đồ thị hình chuông ấy là **đường cong Laffer** (Hình 6e). Mục 14 vẽ lại nó bằng ký tự.
 
-### 📚 Đường cong Laffer và kinh tế học trọng cung (tr. 184–185)
-
-Câu chuyện mà sách kể, đáng đọc vì nó là ví dụ mẫu về việc **một ý tưởng đúng về lý thuyết bị dùng sai
-trong thực tế**:
-
-- **Năm 1974**, nhà kinh tế **Arthur Laffer** ngồi với các nhà báo và chính trị gia tại một nhà hàng ở
-  Washington, vẽ đồ thị này lên một chiếc **khăn ăn**. Ông cho rằng Hoa Kỳ đang ở **nửa đi xuống** của
-  đường cong → **giảm thuế suất sẽ làm tăng doanh thu thuế**.
-- Ý tưởng được **Ronald Reagan** tán thành và trở thành chủ đề tranh cử **1980**; quan điểm này được
-  gọi là **kinh tế học trọng cung**.
-- Giai thoại mà **David Stockman** (Giám đốc Ngân khố nhiệm kỳ đầu của Reagan) kể lại: thời Thế chiến
-  II, thuế suất thu nhập luỹ tiến lên đến **90%**; Reagan nói *"Bạn có thể đóng bốn bộ phim và rồi bạn
-  sẽ thuộc vào nhóm đóng thuế cao nhất. Do đó, chúng ta sẽ ngừng làm việc sau khi đóng xong bốn bộ phim
-  và về quê."*
-
-⚠️ **Nhưng đánh giá của giới kinh tế thì khác**, và sách ghi rất rõ:
-
-> *"**Hầu hết các nhà kinh tế học đều hoài nghi đề xuất của Laffer.** Ý tưởng cắt giảm thuế suất có thể
-> làm tăng doanh thu thuế là chính xác trên góc độ lý thuyết kinh tế học, tuy nhiên trong thực tế điều
-> này có xảy ra hay không vẫn còn khá mơ hồ. **Có rất ít bằng chứng ủng hộ quan điểm của Laffer** cho
-> rằng thuế suất của Hoa Kỳ thực tế đang ở mức cao đến như vậy."* (tr. 184)
-
-Sách nêu **hai điều kiện** mà lập luận Laffer có sức thuyết phục hơn:
-
-1. Khi cắt giảm áp dụng cho **những người đang chịu mức thuế suất cao nhất**.
-2. Ở **những quốc gia có thuế suất cao hơn Hoa Kỳ** — ví dụ **Thuỵ Điển đầu thập niên 1980**, người lao
-   động thông thường chịu thuế suất biên **khoảng 80%**. *"Các nghiên cứu đề xuất rằng Thuỵ Điển thật
-   sự đã có thể tăng thêm nhiều doanh thu thuế nếu nước này hạ thấp các mức thuế suất."*
-
-Và câu kết luận mà **không ai tranh cãi** (tr. 185):
-
-> *"Khoản doanh thu mà chính phủ đạt được hay mất đi do những thay đổi về thuế **không thể được tính
-> toán chỉ dựa vào mức thuế suất**. Điều này còn phụ thuộc vào tác động của thuế lên **hành vi của con
-> người** như thế nào."*
-
-⭐ **Điều đáng rút ra:** đường cong Laffer **tồn tại** — đó là toán học. Nhưng *"đang ở nửa nào của
-đường cong"* là một **câu hỏi thực nghiệm**, và trả lời nó cần dữ liệu chứ không phải một chiếc khăn ăn.
+> [!note] Đường cong Laffer và kinh tế học trọng cung (tr. 184–185)
+>
+> Câu chuyện mà sách kể, đáng đọc vì nó là ví dụ mẫu về việc **một ý tưởng đúng về lý thuyết bị dùng sai
+> trong thực tế**:
+>
+> - **Năm 1974**, nhà kinh tế **Arthur Laffer** ngồi với các nhà báo và chính trị gia tại một nhà hàng ở
+>   Washington, vẽ đồ thị này lên một chiếc **khăn ăn**. Ông cho rằng Hoa Kỳ đang ở **nửa đi xuống** của
+>   đường cong → **giảm thuế suất sẽ làm tăng doanh thu thuế**.
+> - Ý tưởng được **Ronald Reagan** tán thành và trở thành chủ đề tranh cử **1980**; quan điểm này được
+>   gọi là **kinh tế học trọng cung**.
+> - Giai thoại mà **David Stockman** (Giám đốc Ngân khố nhiệm kỳ đầu của Reagan) kể lại: thời Thế chiến
+>   II, thuế suất thu nhập luỹ tiến lên đến **90%**; Reagan nói *"Bạn có thể đóng bốn bộ phim và rồi bạn
+>   sẽ thuộc vào nhóm đóng thuế cao nhất. Do đó, chúng ta sẽ ngừng làm việc sau khi đóng xong bốn bộ phim
+>   và về quê."*
+>
+> ⚠️ **Nhưng đánh giá của giới kinh tế thì khác**, và sách ghi rất rõ:
+>
+> > *"**Hầu hết các nhà kinh tế học đều hoài nghi đề xuất của Laffer.** Ý tưởng cắt giảm thuế suất có thể
+> > làm tăng doanh thu thuế là chính xác trên góc độ lý thuyết kinh tế học, tuy nhiên trong thực tế điều
+> > này có xảy ra hay không vẫn còn khá mơ hồ. **Có rất ít bằng chứng ủng hộ quan điểm của Laffer** cho
+> > rằng thuế suất của Hoa Kỳ thực tế đang ở mức cao đến như vậy."* (tr. 184)
+>
+> Sách nêu **hai điều kiện** mà lập luận Laffer có sức thuyết phục hơn:
+>
+> 1. Khi cắt giảm áp dụng cho **những người đang chịu mức thuế suất cao nhất**.
+> 2. Ở **những quốc gia có thuế suất cao hơn Hoa Kỳ** — ví dụ **Thuỵ Điển đầu thập niên 1980**, người lao
+>    động thông thường chịu thuế suất biên **khoảng 80%**. *"Các nghiên cứu đề xuất rằng Thuỵ Điển thật
+>    sự đã có thể tăng thêm nhiều doanh thu thuế nếu nước này hạ thấp các mức thuế suất."*
+>
+> Và câu kết luận mà **không ai tranh cãi** (tr. 185):
+>
+> > *"Khoản doanh thu mà chính phủ đạt được hay mất đi do những thay đổi về thuế **không thể được tính
+> > toán chỉ dựa vào mức thuế suất**. Điều này còn phụ thuộc vào tác động của thuế lên **hành vi của con
+> > người** như thế nào."*
+>
+> ⭐ **Điều đáng rút ra:** đường cong Laffer **tồn tại** — đó là toán học. Nhưng *"đang ở nửa nào của
+> đường cong"* là một **câu hỏi thực nghiệm**, và trả lời nó cần dữ liệu chứ không phải một chiếc khăn ăn.
 
 ---
 
-## 14. 💼 Thặng dư tiêu dùng và tổn thất vô ích trong doanh nghiệp
+## 14. Thặng dư tiêu dùng và tổn thất vô ích trong doanh nghiệp
 
 Hai khái niệm của chương này nghe rất "chính sách công", nhưng chúng mô tả chính xác hai thứ xảy ra
 hằng ngày trong một doanh nghiệp.
@@ -612,9 +640,10 @@ làm doanh thu tăng **79%**, đến từ hai nguồn:
    ② bán được cho nhóm trước đây KHÔNG MUA NỔI ở mức giá chung
 ```
 
-⚠️ Nguồn ② đáng chú ý: nó **không lấy của ai cả** — nhóm đó trước đây không mua, nay mua. Về mặt phúc
-lợi, đây là **giảm tổn thất vô ích**, không phải chuyển giao. Đó là lý do phân biệt giá có thể vừa tăng
-lợi nhuận vừa tăng tổng thặng dư — chi tiết ở **bài 7** (chương 15, tr. 351).
+> [!warning]
+> Nguồn ② đáng chú ý: nó **không lấy của ai cả** — nhóm đó trước đây không mua, nay mua. Về mặt phúc
+> lợi, đây là **giảm tổn thất vô ích**, không phải chuyển giao. Đó là lý do phân biệt giá có thể vừa tăng
+> lợi nhuận vừa tăng tổng thặng dư — chi tiết ở **bài 7** (chương 15, tr. 351).
 
 Nhưng phân biệt giá đòi **hai điều kiện** mà mô hình không nói:
 - **ngăn được bán lại** giữa các nhóm;
@@ -646,6 +675,7 @@ Và kèm theo hai hệ quả trực tiếp từ chương 8:
 
 ## 15. Code minh hoạ
 
+> [!note]
 > ⚙️ **Chạy:** cần **Python 3.10+**. Lưu file rồi gõ `python3 bai-04-thang-du-va-thue.py`.
 > **Không cần cài gói nào.** File có sẵn tại [thuc_hanh/bai-04-thang-du-va-thue.py](../thuc_hanh/bai-04-thang-du-va-thue.py).
 

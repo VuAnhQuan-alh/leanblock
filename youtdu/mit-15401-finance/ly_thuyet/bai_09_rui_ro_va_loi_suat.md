@@ -1,20 +1,17 @@
 # Bài 9 — Rủi ro và lợi suất: đo bằng gì, và đo được đến đâu
 
+> [!info] Về bài này
 > Bài học dựng trên **phần cuối buổi 12** ("Ses 12: Options III & Risk and Return I",
 > `Q2qjnLO3I_M`, từ `53:04`) và **phần đầu buổi 13** ("Ses 13: Risk and Return II & Portfolio
 > Theory I", `tL7Lcl90Sc0`, tới `45:56`) — khoá **MIT 15.401 *Finance Theory I*, Fall 2008**,
 > giảng viên **Prof. Andrew W. Lo**. Phụ đề gốc do người viết tay.
->
 > 🕑 Mốc thời gian có tiền tố buổi: `S13 04:37` = buổi 13, phút 04:37. Mỗi mốc được đối chiếu với
 > **đúng** video của nó.
 >
-> 📚 **Mở rộng** — kiến thức video lướt qua hoặc bài học này bổ sung, **không có trong video**.
-> 🇻🇳 **Góc Việt Nam** — số liệu và ví dụ trong nước (mục 20), **không có trong video**.
-> ⚠️ **Phần sau `S13 45:56`** là mở đầu lý thuyết danh mục — trọng số, bán khống, 130-30, biên
-> hiệu quả. Phần đó thuộc [bài 10](../README.md), không nằm ở đây.
-> 📌 **Cần đọc trước:** [Bài 6](bai_06_co_phieu_va_tang_truong.md) — mọi con số "lợi suất cổ
-> phiếu" ở đây đều là thứ ta đã chiết khấu suốt bài 2–8 mà chưa bao giờ hỏi nó **từ đâu ra**.
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
 >
+> **Cần đọc trước:** [Bài 6](bai_06_co_phieu_va_tang_truong.md) — mọi con số "lợi suất cổ
+> phiếu" ở đây đều là thứ ta đã chiết khấu suốt bài 2–8 mà chưa bao giờ hỏi nó **từ đâu ra**.
 > Công thức viết bằng LaTeX — mở bằng **Obsidian** hoặc VS Code + Markdown Preview Enhanced.
 
 ---
@@ -69,6 +66,7 @@ Buổi 12 kết bằng *"chúng ta sẽ làm việc đó vào **thứ Tư**"* (`
 
 Và ngay đó Lo tự chấm điểm mình (`S13 44:35`):
 
+> [!quote]
 > *"Nên **đúng như tôi đã dự đoán**, biến động sẽ giảm khi kết quả bầu cử rõ ràng. Chuyện đó đã
 > loại bỏ được một mảnh bất định. Nhưng vẫn còn một mảnh nữa — chuyện gì sẽ xảy ra với nền kinh
 > tế. Đó là lý do biến động ở **49 %** thay vì mức trung bình lịch sử 16–20 %."*
@@ -76,9 +74,10 @@ Và ngay đó Lo tự chấm điểm mình (`S13 44:35`):
 Lời hứa ấy được đưa ra ở [bài 7](bai_07_ky_han_va_tuong_lai.md) (`S10 62:16`, ngày 15/10):
 *"ba tuần tới, lý thuyết tài chính đi nghỉ mát."* Ba tuần sau, ông quay lại và **đúng**.
 
-⚠️ Nhưng ông vẫn còn nợ hai lời hứa khác từ buổi 11 — chiếu giá quyền chọn bán S&P và đồ thị VIX
-— và buổi 12 lẫn buổi 13 đều không làm.
-[Bài 8, mục 20](bai_08_quyen_chon.md#20-điều-lo-hứa-hai-lần-rồi-không-làm) đã dựng lại phần đó.
+> [!warning]
+> Nhưng ông vẫn còn nợ hai lời hứa khác từ buổi 11 — chiếu giá quyền chọn bán S&P và đồ thị VIX
+> — và buổi 12 lẫn buổi 13 đều không làm.
+> [Bài 8, mục 20](bai_08_quyen_chon.md#20-điều-lo-hứa-hai-lần-rồi-không-làm) đã dựng lại phần đó.
 
 ---
 
@@ -86,10 +85,12 @@ Lời hứa ấy được đưa ra ở [bài 7](bai_07_ky_han_va_tuong_lai.md) (
 
 Lo mở nửa sau khoá học bằng một câu hỏi cực gọn (`S12 55:39`):
 
+> [!quote]
 > *"Năm vừa rồi, một nhà quản lý danh mục điển hình lỗ khoảng **30 % tới 40 %**. Đó là mức lợi
 > suất khá tàn khốc. Và trong bối cảnh đó, nếu bạn tìm được một nhà quản lý chỉ làm bạn lỗ
 > **10 %**, bạn có thể nghĩ: chà, thế là khá đấy chứ."*
 
+> [!quote] S12 56:05
 > *"**Điều đó có thật sự hợp lý không? Có bao giờ chúng ta muốn chúc mừng một nhà quản lý danh
 > mục vì đã làm chúng ta mất tiền không?**"* (`S12 56:05`)
 
@@ -102,6 +103,7 @@ giỏi" chỉ là cảm giác. Bài 9–11 tồn tại để xây thước đo �
 
 Và Lo nói rõ nó dẫn tới đâu (`S12 53:56`):
 
+> [!quote]
 > *"Rồi tôi sẽ lấy các thước đo này và nói cho các bạn cách tìm ra **con số mà tôi đã phải hoãn
 > lại suốt nửa học kỳ đầu — chi phí vốn**, tức suất sinh lợi yêu cầu, tức suất sinh lợi đã điều
 > chỉnh rủi ro."*
@@ -124,18 +126,21 @@ Lo dựng ký hiệu rất nhanh (`S12 56:36`–`S12 57:49`):
 
 Lo nhấn mạnh sự phân biệt cuối (`S12 57:31`):
 
+> [!quote]
 > *"**Lợi suất vượt trội** bạn có thể coi là **một lần hiện thực hoá** của phần bù rủi ro. Nhưng
 > trung bình qua một thời gian dài, con số ta quan tâm nhất là **phần bù rủi ro** — lợi suất trung
 > bình trừ lãi suất phi rủi ro."*
 
 Rồi ông đưa con số (`S12 57:49`):
 
+> [!quote]
 > *"Suốt khoảng **100 năm** qua, thị trường cổ phiếu Mỹ cho lợi suất trung bình trừ lãi suất phi
 > rủi ro vào khoảng **7 %**."*
 
-⚠️ **Ghi nhớ con số 7 % này.** Hai ngày sau, ở `S13 43:49`, ông nói **8 %**.
-[Mục 13](#13-phần-bù-rủi-ro-đo-được-chính-xác-đến-đâu) giải thích vì sao cả hai đều "đúng", và
-vì sao đó là điều đáng lo hơn là đáng cười.
+> [!warning] Ghi nhớ con số 7 % này.
+> Hai ngày sau, ở `S13 43:49`, ông nói **8 %**.
+> [Mục 13](#13-phần-bù-rủi-ro-đo-được-chính-xác-đến-đâu) giải thích vì sao cả hai đều "đúng", và
+> vì sao đó là điều đáng lo hơn là đáng cười.
 
 Và một chỗ Lo cảnh báo mà rất nhiều người bỏ qua (`S12 58:10`): *"Lợi suất vượt trội hiện thực
 hoá **năm nay** thì kinh khủng, nên tôi thậm chí không nói con số đó ra. Nhưng các bạn có thấy
@@ -152,6 +157,7 @@ $$\text{Phương sai} = \mathbb{E}\big[(R - \mu)^2\big] \qquad\qquad \text{Độ
 
 Lý do dùng độ lệch chuẩn thay vì phương sai (`S12 59:24`):
 
+> [!quote]
 > *"Ta dùng độ lệch chuẩn đơn giản vì nó **cùng đơn vị**. Nó tính bằng phần trăm mỗi năm, còn
 > phương sai tính bằng **điểm phần trăm bình phương mỗi năm** — nên độ lệch chuẩn dễ xử lý hơn."*
 
@@ -159,10 +165,11 @@ Rồi ông phân biệt hai thứ mà người học hay lẫn (`S12 59:45`): gi
 $\mu$ và $\sigma$) so với **ước lượng mẫu** (tính từ dữ liệu lịch sử). Cả
 [mục 13](#13-phần-bù-rủi-ro-đo-được-chính-xác-đến-đâu) xoay quanh khoảng cách giữa hai thứ đó.
 
-📚 Và ở buổi sau, Lo thừa nhận độ lệch chuẩn là một lựa chọn có nhược điểm — nhưng đoạn đó
-(`S13 67:42` trở đi) nằm trong phần lý thuyết danh mục, thuộc [bài 10](../README.md). Tóm tắt: đo
-rủi ro bằng **độ trải** thì *"bạn đang lẫn phần trên với phần dưới. Chưa ai gặp vấn đề với rủi ro
-đi lên cả."*
+> [!note]
+> Và ở buổi sau, Lo thừa nhận độ lệch chuẩn là một lựa chọn có nhược điểm — nhưng đoạn đó
+> (`S13 67:42` trở đi) nằm trong phần lý thuyết danh mục, thuộc [bài 10](../README.md). Tóm tắt: đo
+> rủi ro bằng **độ trải** thì *"bạn đang lẫn phần trên với phần dưới. Chưa ai gặp vấn đề với rủi ro
+> đi lên cả."*
 
 ---
 
@@ -170,11 +177,13 @@ rủi ro bằng **độ trải** thì *"bạn đang lẫn phần trên với ph�
 
 Thống kê thứ ba, và là thống kê sẽ dựng nên toàn bộ [bài 10](../README.md) (`S12 60:18`):
 
+> [!quote]
 > *"Tương quan là **hai khoản đầu tư di chuyển cùng nhau chặt đến đâu**… là một con số giữa
 > **−1 và 1** đo mức độ liên hệ giữa hai chứng khoán."*
 
 Rồi ông báo trước cách nó sẽ được dùng (`S12 61:14`):
 
+> [!quote]
 > *"Nếu khoản đầu tư mới có tương quan **bằng không hoặc âm** với danh mục hiện tại của bạn, nó sẽ
 > giúp **giảm dao động**. Nhưng nếu hai khoản cùng lên xuống một lúc, nó không những không giúp mà
 > còn **cộng thêm rủi ro**. Và bạn không muốn thế — ít nhất là không muốn nếu không có phần thưởng
@@ -194,9 +203,11 @@ thức.
 Lo chiếu biểu đồ tần suất lợi suất tháng của **General Motors** cùng đường phân phối chuẩn có cùng
 trung bình và phương sai (`S12 63:28`):
 
+> [!quote] S12 63:52
 > *"Trông thì có vẻ là một xấp xỉ khá tốt, nhưng thực ra có **những mẩu xác suất thừa** thò ra ở
 > đây và ở đây, không khớp với chuẩn."* (`S12 63:52`)
 
+> [!quote] S12 64:12
 > *"Giả định phân phối chuẩn sẽ nói rằng xác suất nhận lợi suất **−15 %** là tương đối thấp, và
 > nhận dưới **−20 %** là **cực kỳ thấp**. Nhưng thực tế thì khác. Trong dữ liệu **có** rủi ro nhận
 > những lợi suất thấp hơn nhiều. Và **sau năm nay**, tôi có thể nói với các bạn rằng **những cái
@@ -204,6 +215,7 @@ trung bình và phương sai (`S12 63:28`):
 
 Rồi câu đắt nhất cả đoạn (`S12 64:49`):
 
+> [!quote]
 > *"**95 % của phân phối** được nắm bởi những gì tôi sẽ dạy trong khoá này. Nhưng nếu bạn muốn
 > **5 % còn lại** cho đúng — và nhân tiện, **nếu bạn định làm nghề đầu tư thì tất cả nằm ở 5 %
 > đó** — thì bạn sẽ muốn học 15.433."*
@@ -212,10 +224,11 @@ Rồi câu đắt nhất cả đoạn (`S12 64:49`):
 trung bình, phương sai, tương quan, CAPM — là một **xấp xỉ có biên**, và biên đó nằm đúng chỗ nghề
 đầu tư sống. Ông hứa quay lại chất vấn nó ở buổi cuối ([bài 13](../README.md)), và ông giữ lời.
 
-📚 Mức độ "béo" của đuôi, đo bằng số: trong 1.185 tháng S&P 500 từ 1928 tới 2026, tháng tệ nhất là
-**−29,94 %** và tháng tốt nhất là **+39,14 %** — tức khoảng **±5,6 độ lệch chuẩn**. Dưới phân phối
-chuẩn, một biến cố 5,6 xích-ma xảy ra chừng **một lần trong 50 triệu tháng**. Ta đã gặp hai lần
-trong chưa tới một trăm năm.
+> [!note]
+> Mức độ "béo" của đuôi, đo bằng số: trong 1.185 tháng S&P 500 từ 1928 tới 2026, tháng tệ nhất là
+> **−29,94 %** và tháng tốt nhất là **+39,14 %** — tức khoảng **±5,6 độ lệch chuẩn**. Dưới phân phối
+> chuẩn, một biến cố 5,6 xích-ma xảy ra chừng **một lần trong 50 triệu tháng**. Ta đã gặp hai lần
+> trong chưa tới một trăm năm.
 
 ---
 
@@ -223,6 +236,7 @@ trong chưa tới một trăm năm.
 
 Buổi 13 mở bằng một câu hỏi ngược đời (`S13 02:36`):
 
+> [!quote]
 > *"Nếu bạn đang **thiết kế** một thị trường cổ phiếu, bạn muốn thị trường đó có những tính chất
 > gì?"*
 
@@ -240,6 +254,7 @@ Nghe không giống một điều tốt."*
 
 Và định nghĩa gọn lại (`S13 04:03`):
 
+> [!quote]
 > *"Cách nói khác là **thị trường đó có tính cạnh tranh rất cao. Rất khó kiếm tiền trong những thị
 > trường như vậy.** Có thể đó không phải thị trường bạn thích giao dịch — nhưng đó không phải câu
 > hỏi. Câu hỏi là: **thế nào là một thị trường tốt?**"*
@@ -285,16 +300,19 @@ Ba bài học trong một bảng:
 
 Đây là câu hay nhất buổi giảng (`S13 06:18`):
 
+> [!quote]
 > *"Đây là một trong những lý do tài chính khó hơn vật lý nhiều. **Trong vật lý, nếu bạn thả một
 > quả bóng trong trường hấp dẫn, nó sẽ không đổi ý và nói: chà, giờ tôi sẽ đổi hằng số hấp dẫn,
 > chỉ vì anh đang thử tôi.** Nhưng trong thị trường tài chính, **ngay khoảnh khắc bạn cố khai thác
 > một mô hình, mô hình đó thay đổi.** Và bạn càng cố khai thác thì nó càng thay đổi nhanh."*
 
+> [!quote] S13 06:53
 > *"Nếu có **rất nhiều người** cố dự đoán mô hình — bạn biết được gì không? **Bạn không được mô
 > hình nào cả. Bạn được sự ngẫu nhiên.**"* (`S13 06:53`)
 
 Rồi ông lật ngược nó, và đây mới là ý sâu (`S13 07:13`):
 
+> [!quote]
 > *"Khi bạn **dự báo** giá thị trường, bạn biết mình đang làm gì không? Bạn **đang giúp thị trường
 > trở nên hiệu quả hơn**, bằng cách đưa thông tin vào giá."*
 
@@ -307,6 +325,7 @@ thật.
 Và Lo trả lời một câu hỏi rất đúng chỗ (`S13 10:26`): biến động cao có phải dấu hiệu kém hiệu quả
 không?
 
+> [!quote]
 > *"**Không phải bản thân biến động, mà là mức độ DỰ ĐOÁN ĐƯỢC TRÊN MỖI ĐƠN VỊ BIẾN ĐỘNG.** Đó
 > mới là thứ cần tập trung."*
 
@@ -316,10 +335,12 @@ không?
 
 Để minh hoạ rằng *"thị trường ít biến động không có nghĩa là hoạt động tốt"*, Lo kể (`S13 09:38`):
 
+> [!quote]
 > *"Ví dụ hồi đó — chuyện này khoảng **20 hay 30 năm trước** — là thị trường chứng khoán Trung
 > Quốc, **Sở Giao dịch Thượng Hải**. Đó là một thị trường khá non trẻ, và lúc ấy **chỉ có hai cổ
 > phiếu** giao dịch trên đó. Đó là **Công ty Đường sắt Quốc gia** và **Ngân hàng Trung Quốc**."*
 
+> [!quote] S13 09:54
 > *"Và lúc đó, người ta coi việc **bán** một chứng khoán mình đã mua là **không yêu nước**. Nên
 > bạn được mua, nhưng không được bán. Thế là giá cứ lên, lên và lên."* (`S13 09:54`)
 
@@ -337,9 +358,10 @@ hay Ngân hàng Trung Quốc. Phi Nhạc Âm hưởng thành lập **18/11/1984*
 phần niêm yết đầu tiên của Trung Quốc mới**; tháng 11/1986 Đặng Tiểu Bình tặng Chủ tịch Sở Giao
 dịch New York John Phelan một tờ cổ phiếu Phi Nhạc mệnh giá 50 nhân dân tệ.
 
-⚠️ **Chi tiết "bán là không yêu nước" — bài này KHÔNG xác minh được.** Nó có thể đúng như một mô tả
-văn hoá thời đó, nhưng không tìm được nguồn độc lập. Bài này trình bày nó như **câu Lo kể**, không
-như dữ kiện.
+> [!warning] Chi tiết "bán là không yêu nước" — bài này KHÔNG xác minh được.
+> Nó có thể đúng như một mô tả
+> văn hoá thời đó, nhưng không tìm được nguồn độc lập. Bài này trình bày nó như **câu Lo kể**, không
+> như dữ kiện.
 
 📌 Và **Sở Giao dịch Thượng Hải** đúng nghĩa chỉ khai trương **19/12/1990** với "Bát Lão Cổ" — tám
 mã đầu tiên. Cái Lo mô tả là **quầy giao dịch phi tập trung tiền thân**, không phải sàn.
@@ -364,6 +386,7 @@ Lo đưa **bốn dữ kiện** về thị trường cổ phiếu Mỹ (`S13 11:5
 
 Rồi ở cuối phần, ông gói lại thành ba con số để nhớ (`S13 43:28`, `S13 43:49`):
 
+> [!quote]
 > *"Lợi suất trung bình của cổ phiếu Mỹ từ **1926 đến 2004 là 11,2 %**… Phần bù rủi ro trung bình
 > khoảng **8 %**… Độ lệch chuẩn của thị trường khoảng **16 %/năm**."*
 
@@ -487,6 +510,7 @@ cho trước.
 
 Lo đọc số liệu sáng hôm đó (`S13 19:50`) rồi đưa ra một phán đoán rất dứt khoát (`S13 20:09`):
 
+> [!quote]
 > *"Dựa trên bằng chứng lịch sử, **nghe có vẻ điên rồ** khi nghĩ rằng chúng ta có thể ở trong môi
 > trường lãi suất thấp như thế suốt **30 năm tới** — nhất là khi ta **đang in tiền như thể nó sắp
 > hết mốt**. Và ta sẽ còn làm thế trong vài năm nữa. Ta **phải** làm, vì ai đó phải trả cho tất cả
@@ -530,6 +554,7 @@ liệu, ngay cả một chuỗi hoàn toàn quan sát được như lãi suất 
 
 Lo mở phần này bằng một lời rào rất cẩn thận (`S13 28:06`):
 
+> [!quote]
 > *"Cái tôi sắp cho các bạn xem chỉ là một mớ **factoid** — nghĩa là chúng là các dữ kiện thực
 > nghiệm trong dữ liệu. **Nhưng nếu bạn đổi vài giả định hoặc đổi mẫu, những dữ kiện này có thể
 > đổi theo.** Đây không phải hằng số phổ quát mà vì lý do lý thuyết nào đó phải đúng. Đây chỉ là
@@ -546,6 +571,7 @@ Khoảng cách **~500 điểm cơ bản/năm**.
 
 Ông tính lại, tách riêng **tháng Giêng** và các tháng còn lại:
 
+> [!quote] S13 31:22
 > *"Tôi thật sự **không nghĩ còn nhiều hiệu ứng quy mô** một khi bạn bỏ các tháng Giêng đi. Vẫn có
 > chút khác biệt giữa lớn nhất và nhỏ nhất, nhưng khác biệt đó **rất nhỏ**. Còn nhìn hiệu ứng
 > tháng Giêng mà xem — **cái đó thì to**."* (`S13 31:22`)
@@ -561,6 +587,7 @@ cao và thấp: **600–700 điểm cơ bản/năm** (`S13 34:47`).
 
 Và Lo chỉ ra chỗ khác biệt then chốt so với hiệu ứng quy mô (`S13 35:07`):
 
+> [!quote]
 > *"Đó là khác biệt lớn, vì trong **cả hai nhóm** thì rủi ro **gần như tương đương**. Không phải
 > chuyện cổ phiếu bên trái rủi ro hơn hẳn bên phải. Điều đó **thì đúng** với hiệu ứng vốn hoá —
 > cổ phiếu nhỏ **thật sự** biến động hơn cổ phiếu lớn. Nhưng **không đúng** với giá trị và tăng
@@ -581,12 +608,14 @@ thấp: *"khoảng **15 %**, nếu không hơn. Một khoảng cách rất, rấ
 
 Ngay sau khi chiếu ba dị thường, Lo tự dội nước lạnh (`S13 36:15`):
 
+> [!quote]
 > *"Có lúc, một số tạp chí học thuật bị chê là **chưa từng gặp một dị thường nào mà họ không
 > yêu**, vì cứ công bố cái này tới cái khác. Và theo một nghĩa nào đó, bạn phải hơi hoài nghi. Vì
 > có **quá nhiều cách nhìn cổ phiếu**, quá nhiều đặc trưng. Và bạn biết rằng **trong một mẫu 100
 > biến ngẫu nhiên, 5 % trong số đó sẽ có ý nghĩa thống kê — ngay cả khi không cái nào thực sự khác
 > không.**"*
 
+> [!quote] S13 37:09
 > *"Nên bạn **phải nhìn các dị thường này với một hạt muối**."* (`S13 37:09`)
 
 ### Mô phỏng đúng cảnh báo đó, trên dữ liệu thật
@@ -614,11 +643,12 @@ mẩu thông tin nào**. Tín hiệu là số giả ngẫu nhiên thuần tuý.
 | **McLean & Pontiff (2016)**, *JF* 71(1)   | 97 biến dự báo: lợi suất thấp hơn **26 %** ngoài mẫu và **58 %** sau khi công bố |
 | **Hou, Xue & Zhang (2020)**, *RFS* 33(5)  | Trong **452** dị thường, **65 %** không vượt nổi $                               | t | \ge 1{,}96$ khi dùng trọng số vốn hoá và ngưỡng NYSE; ở ngưỡng 2,78 thì **82 %** hỏng    |
 
-⚠️ **Nhưng phải nói cả phía phản biện.** Chen & Zimmermann, và Jensen–Kelly–Pedersen (2023), tìm
-được tỷ lệ tái lập **cao** khi áp dụng phương pháp nhất quán; con số "65 % hỏng" phụ thuộc rất
-mạnh vào cách xử lý cổ phiếu siêu nhỏ và cách gán trọng số. Ba bài trên cũng nói ba chuyện khác
-nhau: Harvey–Liu–Zhu bàn về **ngưỡng thống kê**, McLean–Pontiff nói dị thường **có thật nhưng suy
-giảm**, chỉ Hou–Xue–Zhang mới cho rằng phần lớn **chưa từng tồn tại**.
+> [!warning] Nhưng phải nói cả phía phản biện.
+> Chen & Zimmermann, và Jensen–Kelly–Pedersen (2023), tìm
+> được tỷ lệ tái lập **cao** khi áp dụng phương pháp nhất quán; con số "65 % hỏng" phụ thuộc rất
+> mạnh vào cách xử lý cổ phiếu siêu nhỏ và cách gán trọng số. Ba bài trên cũng nói ba chuyện khác
+> nhau: Harvey–Liu–Zhu bàn về **ngưỡng thống kê**, McLean–Pontiff nói dị thường **có thật nhưng suy
+> giảm**, chỉ Hou–Xue–Zhang mới cho rằng phần lớn **chưa từng tồn tại**.
 
 **Điểm đáng khâm phục là: Lo cảnh báo chính xác điều này năm 2008, TRƯỚC cả ba bài báo.** Ông
 chiếu ba dị thường lên bảng rồi tự nói đừng tin chúng quá. Mười tám năm sau, ngành tài chính dành
@@ -648,11 +678,12 @@ Mục 6 của [code](#21-code-minh-hoạ) đo trên chính chỉ số S&P 500:
 **Dấu bị đảo ngược.** Trước bài giảng của Lo, tháng Giêng tốt hơn các tháng khác gần một điểm
 phần trăm mỗi tháng. Sau đó, nó **tệ hơn** gần một điểm.
 
-⚠️ Phải nói cho công bằng: Lo trình bày hiệu ứng tháng Giêng trên danh mục **cổ phiếu nhỏ**, nơi
-nó mạnh nhất, chứ không phải trên chỉ số lớn. Bảng trên **không bác bỏ** ông; nó cho thấy bạn
-**không thể tái dựng** phát hiện của ông bằng dữ liệu chỉ số. Và đó chính là vấn đề: **các dị
-thường sống ở góc khó quan sát nhất của thị trường** — nơi chi phí giao dịch cao nhất và dữ liệu
-kém tin cậy nhất.
+> [!warning]
+> Phải nói cho công bằng: Lo trình bày hiệu ứng tháng Giêng trên danh mục **cổ phiếu nhỏ**, nơi
+> nó mạnh nhất, chứ không phải trên chỉ số lớn. Bảng trên **không bác bỏ** ông; nó cho thấy bạn
+> **không thể tái dựng** phát hiện của ông bằng dữ liệu chỉ số. Và đó chính là vấn đề: **các dị
+> thường sống ở góc khó quan sát nhất của thị trường** — nơi chi phí giao dịch cao nhất và dữ liệu
+> kém tin cậy nhất.
 
 ---
 
@@ -663,24 +694,28 @@ khai thác chúng, thì các nhà quản lý quỹ phải đánh bại được 
 
 Ông chiếu biểu đồ tần suất lợi suất vượt trội của quỹ tương hỗ, **1972–1991** (`S13 38:55`):
 
+> [!quote] S13 39:17
 > *"Bạn có một ít dương, một ít âm, **âm nhiều hơn dương**, và trung bình thì **nhỏ hơn không**.
 > **Quỹ tương hỗ, sau khi trừ phí, trung bình đang làm bạn MẤT tiền.**"* (`S13 39:17`)
 
 Và ẩn dụ ông dùng (`S13 41:31`):
 
+> [!quote]
 > *"Đâu đó trong này là Quỹ Magellan của **Peter Lynch** — một quỹ tuyệt vời, một nhà quản lý rất
 > tài năng. Nhưng mặt khác, **nếu bạn không thể biết TRƯỚC ai sẽ là Peter Lynch tiếp theo**, thì
 > về cơ bản bạn đang **ném phi tiêu vào cái biểu đồ này**."*
 
 Rồi ông đưa một con số làm cả lớp cười (`S13 42:34`):
 
+> [!quote]
 > *"Nhân tiện, các bạn có biết là **có nhiều quỹ tương hỗ hơn cả số cổ phiếu** không? Khoảng
 > **10.000 quỹ tương hỗ**. Có khoảng **8.000 cổ phiếu**, kể cả cổ phiếu hạng bét… Cách các nhà
 > quản lý biện minh cho chuyện đó là: **Baskin Robbins có 31 vị**, nên chúng tôi cũng muốn cho nhà
 > đầu tư nhiều lựa chọn."*
 
-⚠️ Lo giữ thái độ trung lập (`S13 42:06`): *"Tôi sẽ không đứng về phe nào, vì ta sẽ quay lại chuyện
-này ở cuối khoá."* Ông giữ lời — [bài 13](../README.md).
+> [!warning]
+> Lo giữ thái độ trung lập (`S13 42:06`): *"Tôi sẽ không đứng về phe nào, vì ta sẽ quay lại chuyện
+> này ở cuối khoá."* Ông giữ lời — [bài 13](../README.md).
 
 ---
 
@@ -726,8 +761,9 @@ Mục 8 của [code](#21-code-minh-hoạ) chạy 315 tháng VN-Index (nguồn DN
 không cách nhau nhiều — đúng ý Lo ở `S13 10:26`: *"không phải bản thân biến động, mà là mức độ dự
 đoán được trên mỗi đơn vị biến động."*
 
-⚠️ Cả hai con số đều là **lợi suất giá, chưa gồm cổ tức**. Ở Việt Nam lợi suất cổ tức bình quân
-cao hơn Mỹ, nên khoảng cách thật còn rộng hơn.
+> [!warning]
+> Cả hai con số đều là **lợi suất giá, chưa gồm cổ tức**. Ở Việt Nam lợi suất cổ tức bình quân
+> cao hơn Mỹ, nên khoảng cách thật còn rộng hơn.
 
 ### Sụt giảm sâu nhất
 
@@ -776,7 +812,7 @@ báo cáo trong nước công bố — một dấu hiệu tốt cho cả hai ph�
 **Nhóm quỹ chủ động hàng đầu Việt Nam đánh bại chỉ số 700–1.200 điểm cơ bản mỗi năm trong năm
 năm** — ngược hoàn toàn biểu đồ 1972–1991 mà Lo chiếu (`S13 38:34`).
 
-⚠️ **Nhưng đừng vội mừng, vì bốn lý do:**
+> [!warning] Nhưng đừng vội mừng, vì bốn lý do:
 
 1. **Thiên lệch sống sót.** Danh sách trên là các quỹ **còn tồn tại và được nhắc tới**. Quỹ đóng
    cửa không xuất hiện trong bảng nào cả. Đây đúng là chỗ Lo cảnh báo ở `S13 41:31` — bạn đang
@@ -802,6 +838,7 @@ hỏi nó có bao nhiêu điểm dữ liệu đứng sau.**
 
 ## 21. Code minh hoạ
 
+> [!note]
 > ⚙️ **Chạy:** cần **Python 3.10+**. Lưu file rồi gõ `python3 bai-09-rui-ro-va-loi-suat.py`.
 > **Không cần cài gói nào.** File có sẵn tại [thuc_hanh/bai-09-rui-ro-va-loi-suat.py](../thuc_hanh/bai-09-rui-ro-va-loi-suat.py).
 

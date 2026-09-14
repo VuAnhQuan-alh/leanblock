@@ -1,10 +1,13 @@
 # Bài 6 — Cạnh tranh và độc quyền
 
+> [!info] Về bài này
 > Bài học dựng từ **Chương 4** (tr. 124–168) của *Giáo trình Kinh tế chính trị Mác – Lênin* (hệ không chuyên),
 > Bộ Giáo dục và Đào tạo, **NXB Chính trị Quốc gia Sự thật, 2021** (chủ biên PGS.TS. Ngô Tuấn Nghĩa).
 > **Vòng 1.** Đây là **lý luận của V.I. Lênin** về giai đoạn **độc quyền** của chủ nghĩa tư bản (cuối XIX – đầu XX). Cạnh tranh tự do → **độc quyền** → **độc quyền nhà nước**. Trọng tâm: **năm đặc điểm kinh tế của độc quyền**, **ba đặc điểm của độc quyền nhà nước**, và **vai trò lịch sử của CNTB**.
 > **Ký hiệu:** **💼 Góc QTKD** = ví dụ cho ngành quản trị kinh doanh (ngoài sách, để dễ nhớ) · **📚 Mở rộng** = đào sâu ngoài sách · **⚠️** = chỗ dễ hiểu sai.
 > **Nên đọc trước:** [Bài 5](bai_05_tich_luy_va_loi_nhuan_dia_to.md) (tích tụ, tập trung tư bản).
+>
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
 
 ---
 
@@ -30,6 +33,7 @@
 
 C. Mác – Ph. Ăngghen **dự báo**: *"tự do cạnh tranh đẻ ra tập trung sản xuất và sự tập trung sản xuất này, khi phát triển tới một mức độ nhất định, lại dẫn tới độc quyền"* (dẫn tr. 124). Lênin **kiểm chứng** dự báo đó và phát triển thành lý luận độc quyền.
 
+> [!quote] tr. 124
 > **Độc quyền** là sự **liên minh giữa các doanh nghiệp lớn**, có khả năng **thâu tóm** việc sản xuất và tiêu thụ một số hàng hóa, có khả năng **định ra giá cả độc quyền** nhằm thu **lợi nhuận độc quyền cao**. (tr. 124)
 
 **Năm nguyên nhân hình thành độc quyền** (tr. 125–127):
@@ -40,13 +44,15 @@ C. Mác – Ph. Ăngghen **dự báo**: *"tự do cạnh tranh đẻ ra tập tr
 4. (Cùng nhóm) tích tụ – tập trung tư bản đẩy nhanh.
 5. Sự phát triển của **công ty cổ phần**.
 
-⚠️ **Nguồn gốc lợi nhuận độc quyền cao** vẫn là **lao động không công** của công nhân (trong và ngoài xí nghiệp độc quyền), của người sản xuất nhỏ, của nhân dân thuộc địa — không phải "tự nhiên sinh ra" (tr. 127).
+> [!warning] Nguồn gốc lợi nhuận độc quyền cao
+> vẫn là **lao động không công** của công nhân (trong và ngoài xí nghiệp độc quyền), của người sản xuất nhỏ, của nhân dân thuộc địa — không phải "tự nhiên sinh ra" (tr. 127).
 
+> [!quote] tr. 128
 > **Giá cả độc quyền** là giá cả do tổ chức độc quyền **áp đặt**: **giá cao khi bán, giá thấp khi mua** (trao đổi **không ngang giá**). (tr. 128)
 
-### 💼 Góc QTKD — độc quyền = quyền định giá (pricing power)
-
-- **Độc quyền = có "pricing power"** (áp đặt giá) — điều mọi doanh nghiệp thèm muốn nhưng luật cạnh tranh kiềm chế. Chiến lược tạo "hào kinh tế" (economic moat), khác biệt hóa, khóa chân khách hàng đều là nỗ lực **tiệm cận sức mạnh định giá** — trong khuôn khổ luật chống độc quyền.
+> [!example] Góc QTKD — độc quyền = quyền định giá (pricing power)
+>
+> - **Độc quyền = có "pricing power"** (áp đặt giá) — điều mọi doanh nghiệp thèm muốn nhưng luật cạnh tranh kiềm chế. Chiến lược tạo "hào kinh tế" (economic moat), khác biệt hóa, khóa chân khách hàng đều là nỗ lực **tiệm cận sức mạnh định giá** — trong khuôn khổ luật chống độc quyền.
 
 ---
 
@@ -69,15 +75,18 @@ Số ít xí nghiệp lớn chiếm tỷ trọng nhỏ về **số lượng** nh
 
 Độc quyền xảy ra **cả trong ngân hàng** (ngân hàng nhỏ phá sản/sáp nhập → ngân hàng lớn "vạn năng"). Độc quyền công nghiệp và ngân hàng **thâm nhập vào nhau** → sinh **tư bản tài chính**. Lênin: *"tư bản tài chính là kết quả của sự hợp nhất giữa tư bản ngân hàng của một số ít ngân hàng độc quyền lớn nhất, với tư bản của những liên minh độc quyền các nhà công nghiệp"* (t.27, tr.489; dẫn tr. 140).
 
-📚 **Bọn tài phiệt** thống trị qua **"chế độ tham dự"**: mua **cổ phiếu khống chế** một **"công ty mẹ"** → công ty mẹ khống chế **"công ty con"** → **"công ty cháu"**… Nhờ đó, bằng **một lượng vốn nhỏ** khống chế **lượng tư bản lớn gấp nhiều lần** (tr. 140).
+> [!note] Bọn tài phiệt
+> thống trị qua **"chế độ tham dự"**: mua **cổ phiếu khống chế** một **"công ty mẹ"** → công ty mẹ khống chế **"công ty con"** → **"công ty cháu"**… Nhờ đó, bằng **một lượng vốn nhỏ** khống chế **lượng tư bản lớn gấp nhiều lần** (tr. 140).
 
 ### ③ Xuất khẩu tư bản trở thành phổ biến
 
+> [!quote] tr. 141
 > **Xuất khẩu tư bản** là **xuất khẩu giá trị ra nước ngoài** (đầu tư ra nước ngoài) nhằm thu giá trị thặng dư và lợi nhuận ở nước nhập khẩu tư bản. (tr. 141)
 
 Hai hình thức: **đầu tư trực tiếp** (xây/mua xí nghiệp để trực tiếp kinh doanh — FDI) và **đầu tư gián tiếp** (cho vay, mua cổ phiếu, trái phiếu — không trực tiếp quản lý).
 
-⚠️ Phân biệt với **xuất khẩu hàng hóa** (bài trước): xuất khẩu **hàng hóa** là bán *sản phẩm*; xuất khẩu **tư bản** là mang *vốn* đi để bóc lột lao động nước khác.
+> [!warning]
+> Phân biệt với **xuất khẩu hàng hóa** (bài trước): xuất khẩu **hàng hóa** là bán *sản phẩm*; xuất khẩu **tư bản** là mang *vốn* đi để bóc lột lao động nước khác.
 
 ### ④ Phân chia thị trường thế giới giữa các tập đoàn độc quyền
 
@@ -89,11 +98,11 @@ Cạnh tranh nguyên liệu, thuộc địa → **phân chia lãnh thổ**; phá
 
 ⭐ **Năm đặc điểm quan hệ chặt chẽ**, nói lên **bản chất thống trị** của tư bản độc quyền.
 
-### 💼 Góc QTKD — đọc ra các khái niệm quản trị hiện đại
-
-- **Cartel → trust → consortium** = phổ **mức độ liên kết doanh nghiệp**: từ thỏa thuận lỏng (cartel ≈ thông đồng giá — bị luật cấm) tới hợp nhất chặt (trust ≈ tập đoàn). ⚠️ Nhiều dạng cartel ngày nay là **bất hợp pháp** (thông đồng giá).
-- **"Chế độ tham dự" (mẹ – con – cháu)** = chính là **cấu trúc tập đoàn holding**: dùng **cổ phần khống chế** để kiểm soát chuỗi công ty con bằng vốn nhỏ (leverage quyền kiểm soát).
-- **Xuất khẩu tư bản trực tiếp/gián tiếp** = **FDI** và **đầu tư danh mục (portfolio)** — hai kênh vốn quốc tế mà QTKD phải hiểu khi bàn hội nhập ([bài 8](bai_08_cnh_hdh_va_hoi_nhap.md)).
+> [!example] Góc QTKD — đọc ra các khái niệm quản trị hiện đại
+>
+> - **Cartel → trust → consortium** = phổ **mức độ liên kết doanh nghiệp**: từ thỏa thuận lỏng (cartel ≈ thông đồng giá — bị luật cấm) tới hợp nhất chặt (trust ≈ tập đoàn). ⚠️ Nhiều dạng cartel ngày nay là **bất hợp pháp** (thông đồng giá).
+> - **"Chế độ tham dự" (mẹ – con – cháu)** = chính là **cấu trúc tập đoàn holding**: dùng **cổ phần khống chế** để kiểm soát chuỗi công ty con bằng vốn nhỏ (leverage quyền kiểm soát).
+> - **Xuất khẩu tư bản trực tiếp/gián tiếp** = **FDI** và **đầu tư danh mục (portfolio)** — hai kênh vốn quốc tế mà QTKD phải hiểu khi bàn hội nhập ([bài 8](bai_08_cnh_hdh_va_hoi_nhap.md)).
 
 ---
 
@@ -107,11 +116,12 @@ Cạnh tranh nguyên liệu, thuộc địa → **phân chia lãnh thổ**; phá
 | ② tăng **năng suất**, nâng năng lực cạnh tranh của tổ chức độc quyền | ② **kìm hãm tiến bộ kỹ thuật** (chỉ đổi mới khi vị thế độc quyền bị đe dọa) |
 | ③ tạo sức mạnh kinh tế → thúc đẩy sản xuất **lớn, hiện đại** | ③ **tăng phân hóa giàu – nghèo**; bành trướng sang chính trị vì lợi ích nhóm |
 
-⚠️ **Độc quyền KHÔNG thủ tiêu cạnh tranh** — trái lại làm cạnh tranh **đa dạng, gay gắt hơn**. Ba loại cạnh tranh trong trạng thái độc quyền (tr. 135): (1) độc quyền ⇄ ngoài độc quyền; (2) độc quyền ⇄ độc quyền; (3) **nội bộ** tổ chức độc quyền (giành cổ phần khống chế).
+> [!warning] Độc quyền KHÔNG thủ tiêu cạnh tranh
+> trái lại làm cạnh tranh **đa dạng, gay gắt hơn**. Ba loại cạnh tranh trong trạng thái độc quyền (tr. 135): (1) độc quyền ⇄ ngoài độc quyền; (2) độc quyền ⇄ độc quyền; (3) **nội bộ** tổ chức độc quyền (giành cổ phần khống chế).
 
-### 💼 Góc QTKD — vì sao cần luật cạnh tranh (antitrust)
-
-- **Tác động hai mặt** giải thích chính sách: độc quyền có **hiệu quả quy mô** (tốt) nhưng **lạm dụng sức mạnh thị trường** (xấu) → cần **luật cạnh tranh** kiểm soát (câu hỏi thảo luận của sách). Đây là bối cảnh mà nhà quản trị phải tuân thủ (compliance) khi doanh nghiệp lớn mạnh.
+> [!example] Góc QTKD — vì sao cần luật cạnh tranh (antitrust)
+>
+> - **Tác động hai mặt** giải thích chính sách: độc quyền có **hiệu quả quy mô** (tốt) nhưng **lạm dụng sức mạnh thị trường** (xấu) → cần **luật cạnh tranh** kiểm soát (câu hỏi thảo luận của sách). Đây là bối cảnh mà nhà quản trị phải tuân thủ (compliance) khi doanh nghiệp lớn mạnh.
 
 ---
 
@@ -119,11 +129,13 @@ Cạnh tranh nguyên liệu, thuộc địa → **phân chia lãnh thổ**; phá
 
 Khi độc quyền tư nhân phát triển cao → nảy sinh trình độ cao hơn: **độc quyền nhà nước**.
 
+> [!quote] tr. 128
 > **Độc quyền nhà nước** là kiểu độc quyền trong đó **nhà nước nắm vị thế độc quyền** ở những lĩnh vực then chốt, trên cơ sở **cộng sinh** giữa độc quyền tư nhân, độc quyền nhóm và sức mạnh kinh tế của nhà nước — nhằm tạo sức mạnh vật chất cho sự ổn định của chế độ. (tr. 128)
 
 **Bốn nguyên nhân** hình thành (tr. 129–130): ① xã hội hóa sản xuất cao đòi hỏi điều tiết từ một trung tâm; ② các ngành hạ tầng (năng lượng, giao thông, giáo dục, KH cơ bản) vốn lớn – lãi ít, tư nhân không muốn làm → nhà nước gánh; ③ độc quyền tư nhân làm sâu sắc mâu thuẫn giai cấp → cần chính sách xã hội xoa dịu; ④ quốc tế hóa kinh tế cần nhà nước điều tiết quan hệ quốc tế.
 
-⚠️ **Bản chất:** độc quyền nhà nước **phục vụ lợi ích của tổ chức độc quyền tư nhân** + duy trì CNTB; nhà nước trở thành **"nhà tư bản tập thể khổng lồ"** (tr. 131). Đây là **hình thức vận động mới** của quan hệ sản xuất tư bản chủ nghĩa, giúp CNTB **thích nghi** với điều kiện mới.
+> [!warning] Bản chất:
+> độc quyền nhà nước **phục vụ lợi ích của tổ chức độc quyền tư nhân** + duy trì CNTB; nhà nước trở thành **"nhà tư bản tập thể khổng lồ"** (tr. 131). Đây là **hình thức vận động mới** của quan hệ sản xuất tư bản chủ nghĩa, giúp CNTB **thích nghi** với điều kiện mới.
 
 **Ba đặc điểm của độc quyền nhà nước** (tr. 145–148):
 
@@ -133,10 +145,10 @@ Khi độc quyền tư nhân phát triển cao → nảy sinh trình độ cao h
 | **b** | **Hình thành, phát triển sở hữu nhà nước** | doanh nghiệp nhà nước, hạ tầng; qua xây mới / quốc hữu hóa / mua cổ phần; nhà nước **bao mua** sản phẩm (nhất là đơn hàng quân sự) đảm bảo lợi nhuận ổn định cho độc quyền tư nhân |
 | **c** | **Công cụ để nhà nước điều tiết kinh tế** | qua ngân sách, thuế, tiền tệ – tín dụng, DNNN, kế hoạch hóa… — **dung hợp ba cơ chế**: thị trường + độc quyền tư nhân + điều tiết nhà nước |
 
-### 💼 Góc QTKD — quan hệ nhà nước – doanh nghiệp và mua sắm công
-
-- **Sở hữu nhà nước + bao mua sản phẩm** = bối cảnh của **mua sắm công (public procurement)** và **hợp tác công – tư (PPP)** — kênh doanh thu ổn định lớn mà nhiều doanh nghiệp nhắm tới.
-- **"Kết hợp nhân sự"** = mặt tối của **quan hệ chính – doanh** (lobbying, lợi ích nhóm); nhắc nhà quản trị về rủi ro **tuân thủ, đạo đức, xung đột lợi ích**.
+> [!example] Góc QTKD — quan hệ nhà nước – doanh nghiệp và mua sắm công
+>
+> - **Sở hữu nhà nước + bao mua sản phẩm** = bối cảnh của **mua sắm công (public procurement)** và **hợp tác công – tư (PPP)** — kênh doanh thu ổn định lớn mà nhiều doanh nghiệp nhắm tới.
+> - **"Kết hợp nhân sự"** = mặt tối của **quan hệ chính – doanh** (lobbying, lợi ích nhóm); nhắc nhà quản trị về rủi ro **tuân thủ, đạo đức, xung đột lợi ích**.
 
 ---
 
@@ -161,11 +173,11 @@ Khi độc quyền tư nhân phát triển cao → nảy sinh trình độ cao h
 
 ⭐ **Mâu thuẫn cơ bản của CNTB:** giữa **trình độ xã hội hóa ngày càng cao của lực lượng sản xuất** và **quan hệ sản xuất dựa trên chiếm hữu tư nhân** tư bản chủ nghĩa về tư liệu sản xuất (tr. 165). CNTB **tự điều chỉnh** quan hệ sở hữu (tư nhân → tập thể → nhà nước) để thích nghi, nhưng **không tự giải quyết** được mâu thuẫn cơ bản. Theo quy luật QHSX phù hợp trình độ LLSX (nối [Triết – Bài 9](../../eg42-triethocmaclenin/ly_thuyet/bai_09_hinh_thai_kinh_te_xa_hoi.md)), CNTB **không tồn tại vĩnh viễn** mà sẽ bị thay bằng hình thái tiến bộ hơn (tr. 166).
 
-### 💼 Góc QTKD — bài học về quy mô, đổi mới và bền vững
-
-- **Độc quyền vừa thúc đẩy vừa kìm hãm đổi mới** = bài học chiến lược: doanh nghiệp thống trị dễ **tự mãn**, chỉ đổi mới khi bị đe dọa (innovator's dilemma) — vì sao "gã khổng lồ" bị startup lật đổ.
-- **Concern (đa ngành) vs chuyên môn hóa** = câu hỏi **đa dạng hóa (diversification) vs tập trung lõi** trong chiến lược tập đoàn.
-- **Mâu thuẫn xã hội hóa ↔ tư hữu** = gốc của các vấn đề **bất bình đẳng, ESG, trách nhiệm xã hội** mà doanh nghiệp hiện đại buộc phải đối mặt.
+> [!example] Góc QTKD — bài học về quy mô, đổi mới và bền vững
+>
+> - **Độc quyền vừa thúc đẩy vừa kìm hãm đổi mới** = bài học chiến lược: doanh nghiệp thống trị dễ **tự mãn**, chỉ đổi mới khi bị đe dọa (innovator's dilemma) — vì sao "gã khổng lồ" bị startup lật đổ.
+> - **Concern (đa ngành) vs chuyên môn hóa** = câu hỏi **đa dạng hóa (diversification) vs tập trung lõi** trong chiến lược tập đoàn.
+> - **Mâu thuẫn xã hội hóa ↔ tư hữu** = gốc của các vấn đề **bất bình đẳng, ESG, trách nhiệm xã hội** mà doanh nghiệp hiện đại buộc phải đối mặt.
 
 ---
 

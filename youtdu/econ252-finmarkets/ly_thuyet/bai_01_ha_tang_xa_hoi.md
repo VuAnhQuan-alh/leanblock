@@ -1,33 +1,36 @@
 # Tài chính là hạ tầng xã hội — phát minh và trách nhiệm hữu hạn
 
+> [!info] Về bài này
 > Bài học dựng từ **buổi 1** (*"Finance and Insurance as Powerful Forces in Our Economy and Society"*, `WQui_3Hpmmc`, 74:12) và **buổi 3** (*"Technology and Invention in Finance"*, `Iij2mpilSJo`, 75:25) của **Yale ECON 252 — Financial Markets, Xuân 2011**, giảng viên **Robert J. Shiller**.
 > Mốc ghi dạng `01 41:34` = **buổi 1, phút 41:34**. Toàn bộ mốc đã đối chiếu ngược với phụ đề gốc bằng script.
 > Mục có 📚 là **kiến thức bổ sung**, không có trong video. Mục có 🇻🇳 là **số liệu Việt Nam**, không có trong video.
-> ⚠️ **Video ghi tháng 1/2011.** Mục 17 đối chiếu với 2026.
-> 📌 **Đây là bài mở đầu, không cần đọc trước bài nào.** Nhưng nếu bạn đã đọc [bài 12 — Tài chính hành vi](bai_12_tai_chinh_hanh_vi.md) thì mục 5 sẽ quen thuộc.
+>
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
+>
+> **Đây là bài mở đầu, không cần đọc trước bài nào.** Nhưng nếu bạn đã đọc [bài 12 — Tài chính hành vi](bai_12_tai_chinh_hanh_vi.md) thì mục 5 sẽ quen thuộc.
 
 ---
 
 ## Mục lục
 
 1. [Khoá này nói về cái gì — và không nói về cái gì](#1-khoá-này-nói-về-cái-gì--và-không-nói-về-cái-gì)
-2. [⚠️ Giáo án Shiller đọc trên lớp không phải khoá bạn đang xem](#2--giáo-án-shiller-đọc-trên-lớp-không-phải-khoá-bạn-đang-xem)
+2. [⚠️ Giáo án Shiller đọc trên lớp không phải khoá bạn đang xem](#2-giáo-án-shiller-đọc-trên-lớp-không-phải-khoá-bạn-đang-xem)
 3. [Tài chính là kỹ thuật — nhưng là kỹ thuật vận hành bằng con người](#3-tài-chính-là-kỹ-thuật--nhưng-là-kỹ-thuật-vận-hành-bằng-con-người)
-4. [⚠️ Bốn chỗ buổi 1 nói sai](#4--bốn-chỗ-buổi-1-nói-sai)
+4. [⚠️ Bốn chỗ buổi 1 nói sai](#4-bốn-chỗ-buổi-1-nói-sai)
 5. [Phát minh đến rồi đi: gimlet, vali có bánh, bánh xe ở châu Mỹ](#5-phát-minh-đến-rồi-đi-gimlet-vali-có-bánh-bánh-xe-ở-châu-mỹ)
-6. [⚠️ Anh em Wright không bay ở Paris năm 1904](#6--anh-em-wright-không-bay-ở-paris-năm-1904)
+6. [⚠️ Anh em Wright không bay ở Paris năm 1904](#6-anh-em-wright-không-bay-ở-paris-năm-1904)
 7. [Trách nhiệm hữu hạn: New York 1811 đấu Massachusetts](#7-trách-nhiệm-hữu-hạn-new-york-1811-đấu-massachusetts)
-8. [⚠️ Điều 7 của chính luật 1811 nói ngược lời kể](#8--điều-7-của-chính-luật-1811-nói-ngược-lời-kể)
-9. [📚 Vì sao trách nhiệm hữu hạn là phát minh: nó đổi dấu của đa dạng hoá](#9--vì-sao-trách-nhiệm-hữu-hạn-là-phát-minh-nó-đổi-dấu-của-đa-dạng-hoá)
-10. [📚 Phần lỗ đi đâu, và ai trả lại tiền](#10--phần-lỗ-đi-đâu-và-ai-trả-lại-tiền)
+8. [⚠️ Điều 7 của chính luật 1811 nói ngược lời kể](#8-điều-7-của-chính-luật-1811-nói-ngược-lời-kể)
+9. [📚 Vì sao trách nhiệm hữu hạn là phát minh: nó đổi dấu của đa dạng hoá](#9-vì-sao-trách-nhiệm-hữu-hạn-là-phát-minh-nó-đổi-dấu-của-đa-dạng-hoá)
+10. [📚 Phần lỗ đi đâu, và ai trả lại tiền](#10-phần-lỗ-đi-đâu-và-ai-trả-lại-tiền)
 11. [TVE Trung Quốc: phát minh vòng qua chỗ luật thiếu](#11-tve-trung-quốc-phát-minh-vòng-qua-chỗ-luật-thiếu)
 12. [Gắn chỉ số lạm phát: từ Massachusetts 1780 đến TIPS 1997](#12-gắn-chỉ-số-lạm-phát-từ-massachusetts-1780-đến-tips-1997)
 13. [UF của Chile — đổi đơn vị tính thay vì đổi tiền](#13-uf-của-chile--đổi-đơn-vị-tính-thay-vì-đổi-tiền)
-14. [📚 Con số bài giảng không tính ra: 408.817 lần](#14--con-số-bài-giảng-không-tính-ra-408817-lần)
+14. [📚 Con số bài giảng không tính ra: 408.817 lần](#14-con-số-bài-giảng-không-tính-ra-408817-lần)
 15. [Swap, CDS, và một cái tên viết sai](#15-swap-cds-và-một-cái-tên-viết-sai)
-16. [📚 Cơ chế thật sự giết AIG: ký quỹ trước khi có vỡ nợ](#16--cơ-chế-thật-sự-giết-aig-ký-quỹ-trước-khi-có-vỡ-nợ)
-17. [⚠️ Đối chiếu 2026](#17--đối-chiếu-2026)
-18. [🇻🇳 Góc Việt Nam: trách nhiệm hữu hạn bị hợp đồng vay lấy lại](#18--góc-việt-nam-trách-nhiệm-hữu-hạn-bị-hợp-đồng-vay-lấy-lại)
+16. [📚 Cơ chế thật sự giết AIG: ký quỹ trước khi có vỡ nợ](#16-cơ-chế-thật-sự-giết-aig-ký-quỹ-trước-khi-có-vỡ-nợ)
+17. [⚠️ Đối chiếu 2026](#17-đối-chiếu-2026)
+18. [🇻🇳 Góc Việt Nam: trách nhiệm hữu hạn bị hợp đồng vay lấy lại](#18-góc-việt-nam-trách-nhiệm-hữu-hạn-bị-hợp-đồng-vay-lấy-lại)
 19. [Chương trình](#19-chương-trình)
 20. [Từ điển thuật ngữ](#20-từ-điển-thuật-ngữ)
 21. [Câu hỏi tự kiểm tra](#21-câu-hỏi-tự-kiểm-tra)
@@ -38,8 +41,10 @@
 
 Shiller mở lớp bằng một câu nghe như khiêm tốn nhưng thật ra là một tuyên bố về phạm vi:
 
+> [!quote] 01 00:49–00:54
 > *"Bạn có thể tưởng đây là khoá về giao dịch, vì tên có chữ 'thị trường', nhưng nó rộng hơn thế."* (`01 00:49`–`00:54`)
 
+> [!quote] 01 00:47
 > *"Nó nói về xã hội chúng ta."* (`01 00:47`)
 
 Rồi ông đưa định nghĩa, và định nghĩa này đáng chép lại nguyên vẹn vì mọi bài sau đều quay về nó (`01 01:13`–`01:46`):
@@ -56,16 +61,18 @@ Vế thứ tư là chỗ khoá này khác hẳn một khoá tài chính thông t
 
 Và Shiller nói thẳng ông chia việc với người khác (`01 08:37`):
 
+> [!quote]
 > *"John Geanakoplos làm phần toán và phần lý thuyết, còn tôi làm phần thế giới thật."*
 
 📐 **Nửa toán nằm ở kho bên cạnh.** [MIT 15.401 — Lý thuyết Tài chính I](../../mit-15401-finance/README.md) của Andrew Lo dạy chiết khấu, định giá trái phiếu, quyền chọn, danh mục, CAPM. Hai khoá gần như không đè lên nhau. Nếu bạn muốn biết một tài sản đáng bao nhiêu, sang đó. Nếu bạn muốn biết định chế nào giữ tài sản đó và nó sập kiểu gì, ở lại đây.
 
 ---
 
-## 2. ⚠️ Giáo án Shiller đọc trên lớp không phải khoá bạn đang xem
+## 2. Giáo án Shiller đọc trên lớp không phải khoá bạn đang xem
 
 Từ `01 50:32` tới hết buổi, Shiller đọc mục lục cả khoá. Câu mở đầu:
 
+> [!quote] 01 50:32
 > *"Có 20 bài giảng tôi sẽ giảng trong khoá này."* (`01 50:32`)
 
 **Khoá bạn đang xem có 23 buổi.** Và danh sách ông đọc lệch so với khoá thật gần như từ đầu tới cuối:
@@ -94,34 +101,40 @@ Và có một hệ quả nữa. Ở `01 08:03` ông giới thiệu khoá của G
 
 Đây là phép ẩn dụ trục của cả hai buổi, và Shiller dùng nó nhất quán:
 
+> [!quote] 01 14:42–14:58
 > *"Tôi nghĩ về tài chính như một dạng kỹ thuật. Nhưng là thứ kỹ thuật làm việc không phải với một bộ máy kỹ thuật, mà với con người."* (`01 14:42`–`14:58`)
 
 Ở buổi 3 ông nói rõ hơn, và chỗ này mới là phần đáng nhớ (`03 01:12`–`02:04`):
 
+> [!quote]
 > *"Kỹ sư biết thiết bị của họ sẽ do người vận hành, và con người thì không hoàn hảo. Nên trường kỹ thuật có một môn tên là **Kỹ thuật Yếu tố Con người** — về thiết kế máy sao cho người dùng không làm hỏng."*
 
 Rồi ông nối thẳng sang tài chính hành vi:
 
+> [!quote] 03 01:52–02:04
 > *"Với tôi, khi ta nói tài chính hành vi […] nó là nền tảng của mặt sáng chế trong tài chính."* (`03 01:52`–`02:04`)
 
 Điểm này đáng dừng lại. Tài chính hành vi trong khoá của Shiller **không phải một mục phê phán bên lề**. Nó là điều kiện thiết kế: nếu công cụ tài chính do con người thật vận hành, thì cách con người hiểu sai nó là một **thông số kỹ thuật**, không phải một khiếm khuyết của người dùng.
 
 Ông đặt tên cho thông số đó là **khung** (framing) ở `03 27:45`:
 
+> [!quote] 03 27:47–28:31
 > *"Nhà tâm lý học dùng từ 'khung' để chỉ bối cảnh và liên tưởng ta gắn với một thứ. […] Ta phải khung mọi thứ theo cách thuận tiện cho người ta. Và đây là một phần của kỹ thuật tài chính."* (`03 27:47`–`28:31`)
 
 Toàn bộ mục 7 và mục 13 dưới đây là hai ví dụ của đúng ý này: **trách nhiệm hữu hạn** và **UF của Chile** đều là phát minh mà phần lõi kỹ thuật rất nhỏ, còn phần lớn giá trị nằm ở chỗ nó được đóng khung thế nào.
 
+> [!note]
 > 🥊 Ai đã đọc [bài 12 — Tài chính hành vi](bai_12_tai_chinh_hanh_vi.md) sẽ thấy Shiller ở đó tranh luận với Andrew Lo. Buổi 3 này cho biết vì sao ông tranh luận: với ông tâm lý học không phải một lớp phủ lên lý thuyết tài chính, nó là **vật liệu** của công trình.
 
 ---
 
-## 4. ⚠️ Bốn chỗ buổi 1 nói sai
+## 4. Bốn chỗ buổi 1 nói sai
 
 Buổi 1 chủ yếu là giới thiệu, nhưng có bốn dữ kiện sai lọt vào — và chúng đều là loại dễ chép lại.
 
 ### 4.1. *"25 % dân số Mỹ thất nghiệp"* — sai mẫu số
 
+> [!quote] 01 52:58
 > *"Đến năm 1933, 25 % dân số Mỹ thất nghiệp."* (`01 52:58`)
 
 Con số 25 % là **tỷ lệ thất nghiệp trên lực lượng lao động**, không phải trên dân số. Dân số Mỹ 1933 khoảng 125 triệu; lực lượng lao động khoảng 51 triệu. 25 % của lực lượng lao động là ~12,8 triệu người — tức khoảng **10 % dân số**, không phải 25 %.
@@ -130,6 +143,7 @@ Nhầm mẫu số kiểu này làm cuộc Đại Suy thoái nghe khủng khiếp
 
 ### 4.2. Quỹ hiến tặng Yale năm 1985 — con số có tranh chấp
 
+> [!quote] 01 41:34
 > *"Ông tới Yale năm 1985, và lúc đó Yale có **dưới 1 tỷ đô** trong quỹ hiến tặng."* (`01 41:34`)
 
 Con số Yale **tự công bố hiện nay** là **1,3 tỷ USD**, và đó là con số cáo phó của *New York Times* dùng. Nhưng đây không phải một lỗi đơn giản: khi Swensen tới nói chuyện với chính lớp này ở buổi 6, **ông cũng nói vậy** — *"nó dưới 1 tỷ, nhưng gần 1 tỷ"* (`06 05:08`). *Chronicle of Higher Education* cũng ghi năm tài chính 1985 là 1 tỷ.
@@ -140,6 +154,7 @@ Hai mốc còn lại của ông thì đúng: đỉnh **22,9 tỷ** năm 2008 và
 
 ### 4.3. AIG năm 1962 chưa tồn tại
 
+> [!quote] 01 42:58–43:10
 > *"Nó bắt đầu năm 1962. Năm 1962, ông được giao phụ trách hoạt động Bắc Mỹ của American International Group."* (`01 42:58`–`43:10`)
 
 **AIG chỉ được thành lập năm 1967.** Năm 1962 Greenberg được C.V. Starr giao phụ trách mảng Bắc Mỹ của **C.V. Starr & Co.** — công ty tiền thân. Chi tiết nhỏ nhưng nó làm hỏng dòng thời gian: cái tên "AIG" ra đời sau khi Greenberg đã vực dậy mảng đó được năm năm.
@@ -148,10 +163,12 @@ Phần còn lại ông kể đúng: Greenberg làm CEO tới **2005**, gói cứ
 
 ### 4.4. Laura Cha *"đại biểu không phải người Trung Quốc"*
 
+> [!quote] 01 45:39
 > *"Bà là đại biểu **không phải người Trung Quốc** đầu tiên của Đại hội Đại biểu Nhân dân Toàn quốc đại diện cho Hồng Kông."* (`01 45:39`)
 
 Laura Cha (Sử Mỹ Luân) **là người Trung Quốc** — bà sinh ra ở Thượng Hải. Điều Shiller định nói là bà là người **đầu tiên ngoài đại lục** được bổ nhiệm vào chính quyền trung ương ở hàm thứ trưởng. "Non-Chinese" là nói nhịu.
 
+> [!note]
 > Ba diễn giả khách mời ông giới thiệu ở `01 41:00`–`46:08` đều đã có bài riêng trong kho này: Swensen ở [bài 7 — Nhà quản lý quỹ](bai_07_quan_ly_quy.md), Greenberg ở [bài 2 — Bảo hiểm](bai_02_bao_hiem.md), Laura Cha ở [bài 10 — Quy định và tự quản](bai_10_quy_dinh_tu_quan.md). Shiller khuyên xem buổi khách mời **sau** bài lý thuyết tương ứng, và lời khuyên đó đúng.
 
 ---
@@ -164,16 +181,19 @@ Nửa đầu buổi 3 là một chuỗi ví dụ tưởng như lan man. Không p
 
 Ông hỏi cả lớp ai có gimlet — một mũi khoan tay bằng dây thép có tay cầm ngang. Không ai giơ tay. Không ai biết nó là gì.
 
+> [!quote] 03 31:37
 > *"Bạn có thể mua một cái năm 1820, ra cửa hàng kim khí ở trung tâm New Haven."* (`03 31:37`)
 
 Ông nói cái gimlet **tốt hơn** máy khoan điện ở một việc: khoan đúng chỗ. *"Cái máy khoan, khi bắt đầu khoan, nó nhảy lung tung và không làm lỗ ở chỗ bạn muốn"* (`03 32:26`). Vậy mà nó biến mất.
 
 ### Vali có bánh xe (`03 34:16`)
 
+> [!quote] 03 33:49
 > *"Hồi tôi còn bé thì tuyệt đối không có cái nào. Không ở đâu cả."* (`03 33:49`)
 
 Và câu hỏi thật sự là *vì sao*. Shiller cho sinh viên phỏng vấn chính Bernard Sadow, và câu trả lời là **văn hoá**:
 
+> [!quote] 03 36:23
 > *"Người ta bảo ông năm 1972, chẳng ai mua thứ đó đâu. Vì nếu vali nặng quá thì bạn gọi một anh redcap."* (`03 36:23`)
 
 Rồi ông đoán thêm một lý do (`03 36:12`): *"Chắc hồi đó người ta ngại. Vì nó có vẻ ẻo lả."*
@@ -182,6 +202,7 @@ Rồi ông đoán thêm một lý do (`03 36:12`): *"Chắc hồi đó người 
 
 Ví dụ mạnh nhất, và nó không phải giai thoại:
 
+> [!quote] 03 37:18–37:35
 > *"Người da đỏ châu Mỹ hoàn toàn không có phương tiện có bánh xe. […] Rồi phức tạp hơn nữa, người ta đã tìm được, từ giai đoạn hậu cổ điển ở Mexico, **đồ chơi có bánh xe**."* (`03 37:18`–`37:35`)
 
 Họ làm bánh xe. Cho đồ chơi. Rồi không bao giờ làm một cái xe kéo.
@@ -196,10 +217,11 @@ Mục 12 dưới đây là bản tài chính của đúng chuỗi này, với đ
 
 ---
 
-## 6. ⚠️ Anh em Wright không bay ở Paris năm 1904
+## 6. Anh em Wright không bay ở Paris năm 1904
 
 Ở `03 29:43` Shiller đưa anh em Wright ra làm ví dụ về phát minh *"đến với thế giới một cách bất ngờ và rực rỡ"*:
 
+> [!quote]
 > *"Khi anh em Wright lần đầu trình diễn máy bay ở **Triển lãm Hàng không Paris năm 1904**, tôi nghĩ thế, người ta sững sờ."*
 
 Ông có hedge — *"tôi nghĩ thế"*. Nhưng cả ba chi tiết đều sai:
@@ -224,6 +246,7 @@ Năm 1904 anh em Wright đang bay thử **kín** ở Huffman Prairie, Ohio, và 
 
 Rồi tới cái mới:
 
+> [!quote] 03 40:53–41:08
 > *"Công ty trách nhiệm hữu hạn là công ty bảo đảm rằng bạn, với tư cách cổ đông, sẽ không phải chịu trách nhiệm cho các khoản nợ của công ty."* (`03 40:53`–`41:08`)
 
 Nguồn ông dẫn là **David Moss**, nghiên cứu sinh sử học ở Yale, nay ở Harvard Business School (`03 41:39`).
@@ -241,22 +264,26 @@ Câu chuyện Shiller kể có cấu trúc rất gọn:
 
 Và ông nêu cơ chế tâm lý — chỗ này là phần hay nhất của cả đoạn, vì nó nối lại với "khung" ở mục 3:
 
+> [!quote] 03 45:57–46:38
 > *"Moss nhấn mạnh rằng khi bạn mua cổ phần một công ty, và nó là trách nhiệm hữu hạn, bạn biết mình đã bỏ ra toàn bộ số tiền mình sẽ phải bỏ. Nhưng bạn có thể nhận được vô hạn […] Và ông cho rằng nó **được đóng khung tốt hơn, như một canh bạc hấp dẫn về mặt tâm lý**."* (`03 45:57`–`46:38`)
 
+> [!quote] 03 46:40–47:19
 > *"Nó giống một tờ vé số. […] Bạn thích được nhấm nháp khả năng trở nên giàu có."* (`03 46:40`–`47:19`)
 
 Đó là một luận điểm thật và nó đúng. Nhưng phần lịch sử quanh nó thì có vấn đề.
 
 ---
 
-## 8. ⚠️ Điều 7 của chính luật 1811 nói ngược lời kể
+## 8. Điều 7 của chính luật 1811 nói ngược lời kể
 
 Shiller mô tả luật New York 1811 bằng câu này:
 
+> [!quote] 03 42:55–43:05
 > *"Họ nói rằng **không trong bất kỳ hoàn cảnh nào** cổ đông có thể bị kiện. Bạn bỏ tiền vào công ty, thế là xong. Bạn được luật bảo vệ. Khỏi lo gì cả."* (`03 42:55`–`43:05`)
 
 **Điều 7 của chính đạo luật đó viết ngược lại:**
 
+> [!quote]
 > *"…đối với mọi khoản nợ mà công ty còn thiếu tại thời điểm giải thể, những người khi đó cấu thành công ty **phải chịu trách nhiệm cá nhân đến mức phần vốn cổ phần tương ứng của mình trong công ty đó, và không hơn**…"*
 
 Tức là luật 1811 quy định trách nhiệm **có trần**, không phải trách nhiệm **bằng không**. Cổ đông có thể bị gọi thêm — đúng một lần nữa bằng số đã góp. Vụ kiện đầu tiên phát sinh từ chính điều khoản này là *Slee v. Bloom* (1821), và sau đó còn *Bank of Poughkeepsie v. Ibbotson*.
@@ -286,10 +313,11 @@ Vậy trách nhiệm hữu hạn có phải phát minh lớn không? Có. Nhưng
 
 ---
 
-## 9. 📚 Vì sao trách nhiệm hữu hạn là phát minh: nó đổi dấu của đa dạng hoá
+## 9. Vì sao trách nhiệm hữu hạn là phát minh: nó đổi dấu của đa dạng hoá
 
 Shiller đưa ra kịch bản này gần như tình cờ, một câu, rồi đi tiếp:
 
+> [!quote] 03 45:25–45:36
 > *"Rồi người ta học được, bạn có thể đầu tư vào 100 công ty. Và 99 trong số đó sẽ sập. […] Có một cái sẽ là Walmart và làm bạn giàu."* (`03 45:25`–`45:36`)
 
 Đó không phải một giai thoại. Đó là **một phép tính**, và kết quả của nó **đổi dấu hoàn toàn** theo chế độ trách nhiệm. Mục 4 của chương trình chạy cả ba chế độ có thật trong lịch sử.
@@ -316,6 +344,7 @@ Và song song, dưới chế độ hữu hạn, đa dạng hoá làm giảm rủ
 
 Ghép hai bảng lại thì ra kết luận, và đây là thứ bài giảng không nói:
 
+> [!note]
 > **Trách nhiệm hữu hạn không chỉ chặn lỗ. Nó đổi *dấu của đạo hàm*.**
 >
 > Dưới chế độ hữu hạn, thêm một công ty vào danh mục **không tốn gì** và làm bạn **an toàn hơn**.
@@ -327,11 +356,12 @@ Ghép hai bảng lại thì ra kết luận, và đây là thứ bài giảng kh
 
 Đó mới là lý do trách nhiệm hữu hạn quan trọng, và nó chẳng cần tới cuộc thi giữa hai bang mà bằng chứng lịch sử không ủng hộ.
 
-⚠️ Để ý cột giữa: **điều 7 của luật New York 1811, như nó thật sự được viết, cũng không đủ cho câu chuyện 100 công ty của Shiller.** Chế độ trách nhiệm "có trần gấp đôi" vẫn giết chiến lược đó. Cái làm cho câu chuyện của ông chạy được là trách nhiệm hữu hạn **hoàn toàn** — thứ chỉ tới sau, dần dần, qua nhiều thập kỷ.
+> [!warning]
+> Để ý cột giữa: **điều 7 của luật New York 1811, như nó thật sự được viết, cũng không đủ cho câu chuyện 100 công ty của Shiller.** Chế độ trách nhiệm "có trần gấp đôi" vẫn giết chiến lược đó. Cái làm cho câu chuyện của ông chạy được là trách nhiệm hữu hạn **hoàn toàn** — thứ chỉ tới sau, dần dần, qua nhiều thập kỷ.
 
 ---
 
-## 10. 📚 Phần lỗ đi đâu, và ai trả lại tiền
+## 10. Phần lỗ đi đâu, và ai trả lại tiền
 
 Shiller kể trách nhiệm hữu hạn như một món quà không ai phải trả. Nhưng lỗ không bốc hơi — nó **chuyển chỗ**.
 
@@ -359,6 +389,7 @@ Dòng cuối chính là danh mục xổ số của Shiller. Không có lãi su�
 
 Và đó là một kết luận thật, không phải lỗi mô hình:
 
+> [!note]
 > Những việc đáng lẽ 99 % thất bại **không được tài trợ bằng nợ**. Chúng được tài trợ bằng **vốn**.
 
 Đó là lý do công ty khởi nghiệp bán cổ phần chứ không đi vay ngân hàng — và lý do đó là một **định lý**, không phải một tập quán ngành. Nó cũng là chìa khoá cho mục 18.
@@ -373,14 +404,17 @@ Ví dụ này (`03 47:57`–`51:20`) là đối trọng hoàn hảo cho mục 7,
 
 **Xí nghiệp Hương Trấn** (乡镇企业, *xiāngzhèn qǐyè*, Township and Village Enterprise — TVE): một doanh nghiệp mà **chính quyền xã luôn có phần**.
 
+> [!quote] 03 49:03–49:26
 > *"Bạn sẽ không chỉ mở một công ty đồ chơi. Bạn sẽ đến gặp thị trưởng thị trấn của mình […] và nói, tôi muốn mở một công ty đồ chơi như doanh nghiệp của thị trấn này, và tôi muốn chia lợi nhuận với ông, với cả thị trấn."* (`03 49:03`–`49:26`)
 
 Con số Shiller đưa: **12 triệu TVE vào năm 1985** (`03 49:41`) — và con số đó **đúng**. Sau khi chính sách 1984 phân loại lại, số TVE nhảy từ khoảng 1,35 triệu (1984) lên hơn 12 triệu (1985).
 
 Nhưng phần đáng giá nhất là **lý do**:
 
+> [!quote] 03 50:23–50:57
 > *"Trung Quốc, từng là nước cộng sản, không có tất cả những luật sư tài chính này. Và họ không có toà án thực thi hợp đồng theo cách của Mỹ. […] Bạn sống ở một làng, bạn mở công ty đồ chơi, ngay khi bạn bắt đầu kiếm được tiền, họ sẽ đánh thuế bạn. Họ sẽ lấy nó."* (`03 50:23`–`50:57`)
 
+> [!quote] 03 50:59
 > *"Nên bạn phải kéo họ vào cuộc."* (`03 50:59`)
 
 Đọc thẳng: TVE **không phải một hình thức doanh nghiệp tốt hơn**. Nó là một cách **vòng qua chỗ luật thiếu**. Khi không có toà án bảo vệ quyền tài sản, người khởi nghiệp mua sự bảo vệ đó bằng cách bán một phần công ty cho chính kẻ có thể chiếm nó.
@@ -404,19 +438,23 @@ Shiller đặt vấn đề gọn (`03 52:47`–`53:26`): giá trị tiền thay 
 
 Rồi ông hỏi vì sao người ta viết hợp đồng bằng tiền — và trả lời bằng chính từ khoá của mục 3:
 
+> [!quote] 03 53:31
 > *"Vì nó quen thuộc với họ, nên đó là **khung**."* (`03 53:31`)
 
 **Trái phiếu gắn chỉ số đầu tiên: Massachusetts, 1780** (`03 54:12`). Chính quyền bang định nghĩa một rổ hàng hoá, rồi cam kết số bảng Anh trả ra sẽ tăng theo rổ đó. Nó phục vụ một mục đích cấp bách — Chiến tranh Cách mạng đang gây lạm phát dữ dội.
 
 Rồi chiến tranh kết thúc, họ ngừng phát hành, **và quên nó suốt 217 năm.**
 
+> [!quote] 03 55:36–55:51
 > *"Họ quên chúng ở Mỹ cho tới năm 1997. Thật kinh ngạc. Vì sao phát minh này biến mất? Nó giống như cái gimlet."* (`03 55:36`–`55:51`)
 
 TIPS ra đời tháng 1/1997, và Shiller quy công cho một người:
 
+> [!quote] 03 57:14–57:21
 > *"…có vẻ được khởi động bởi một người duy nhất. Larry Summers, Assistant Treasury Secretary, chỉ đơn giản là tin vào chuyện này. Và ông ấy làm."* (`03 57:14`–`57:21`)
 
-⚠️ **Chức danh sai.** Summers là **Phó Bộ trưởng** (Deputy Secretary) Tài chính từ 1995 đến 1999, rồi làm Bộ trưởng 1999–2001. Ông chưa bao giờ là Assistant Secretary vào thời điểm đó.
+> [!warning] Chức danh sai.
+> Summers là **Phó Bộ trưởng** (Deputy Secretary) Tài chính từ 1995 đến 1999, rồi làm Bộ trưởng 1999–2001. Ông chưa bao giờ là Assistant Secretary vào thời điểm đó.
 
 Chi tiết nhỏ, nhưng nó đối chọi với chính luận điểm của Shiller: một phát minh 217 năm tuổi quay lại được là nhờ **một người ở đúng một vị trí đủ cao**. Vị trí đó cao đến đâu là một phần của câu chuyện.
 
@@ -453,6 +491,7 @@ Shiller tóm gọn tâm trạng dân Chile lúc đó (`03 60:20`): *"Cái này b
 
 Điểm mấu chốt Shiller nói rất rõ (`03 60:37`–`60:48`):
 
+> [!quote]
 > *"Có lẽ chúng ta không bảo vệ được đồng tiền, chúng ta không biết cách bảo vệ đồng tiền, nhưng chúng ta có thể tạo ra **một đơn vị tính giữ giá trị ổn định**. Và hãy viết hợp đồng bằng đơn vị tính đó thay vì bằng peso."*
 
 UF **không phải một đồng tiền**. Không có tờ UF nào. Nó là một con số công bố hằng ngày, và mọi hợp đồng dài hạn viết bằng nó.
@@ -471,21 +510,25 @@ Và ông kết luận (`03 63:00`): *"giá cả đã tăng khoảng 50 lần ở
 
 Phần này Shiller quan sát rất sắc (`03 63:29`–`65:11`). Ở Chile, tiền thuê nhà báo bằng UF. Học phí. Bảo hiểm. Và:
 
+> [!quote] 03 65:00–65:15
 > *"Điều kinh ngạc tôi phát hiện ra là ở Mỹ, và ở gần như mọi nước trên thế giới trừ Chile, **tiền cấp dưỡng sau ly hôn được định bằng đơn vị tiền tệ**."* (`03 65:00`–`65:15`)
 
-⚠️ *"Gần như mọi nước trừ Chile"* là nói quá. Israel gắn cấp dưỡng vào CPI theo luật, và nhiều bản án ly hôn ở Mỹ có điều khoản trượt giá. Nhưng ý chính thì đúng: nó là **ngoại lệ**, không phải mặc định.
+> [!warning]
+> *"Gần như mọi nước trừ Chile"* là nói quá. Israel gắn cấp dưỡng vào CPI theo luật, và nhiều bản án ly hôn ở Mỹ có điều khoản trượt giá. Nhưng ý chính thì đúng: nó là **ngoại lệ**, không phải mặc định.
 
 Và ông đưa hai lý do vì sao UF không lan ra ngoài Mỹ Latin (`03 66:58`–`67:36`):
 
+> [!quote]
 > *"Tôi nghĩ một phần vì ý tưởng này nảy sinh từ **sự ngượng ngùng**. Chile từng có lạm phát khủng khiếp, điều đó thì ngượng, và chẳng ai muốn sao chép thứ gì từ kẻ có trải nghiệm tồi tệ đó."*
 
+> [!quote]
 > *"Nó cũng là chuyện văn hoá, rằng ta không quen với những thứ Mỹ Latin. Cũng như ta không quen dùng gimlet."*
 
 Chỉ có Mexico theo với **UDI** (`03 67:00`). Shiller nói phát minh này *"dừng lại ở sông Rio Grande"*.
 
 ---
 
-## 14. 📚 Con số bài giảng không tính ra: 408.817 lần
+## 14. Con số bài giảng không tính ra: 408.817 lần
 
 Shiller đưa đủ dữ liệu nhưng **không bao giờ nối ba lần đổi tiền lại với nhau**. Nếu nối, con số ra rất khác.
 
@@ -519,7 +562,8 @@ Ba điều đọc được từ bảng này mà bài giảng không nói:
 
 Đó là bài học kỹ thuật thật của mục này, và nó tổng quát hơn Chile: khi bạn không sửa được một hệ thống, đôi khi cách rẻ nhất là **thêm một lớp trên nó** thay vì thay nó.
 
-💡 **Tự thử.** Sửa `UF_2026_PESO_XU` trong chương trình về giá trị UF hôm bạn đọc (tra ở `sii.cl`), chạy lại mục 2, xem lạm phát Chile giai đoạn 2011–nay đã dịch chưa.
+> [!example] Tự thử.
+> Sửa `UF_2026_PESO_XU` trong chương trình về giá trị UF hôm bạn đọc (tra ở `sii.cl`), chạy lại mục 2, xem lạm phát Chile giai đoạn 2011–nay đã dịch chưa.
 
 ---
 
@@ -529,16 +573,19 @@ Shiller đóng buổi 3 bằng hai phát minh gần đây (`03 67:42`–hết).
 
 ### Swap (`03 68:05`)
 
+> [!quote] 03 68:05–68:13
 > *"Swap là một hợp đồng tài chính được phát minh bởi không ai khác ngoài **David Swensen**, người sắp tới đây nói chuyện."* (`03 68:05`–`68:13`)
 
 Ông có hedge — *"tôi có vài nguồn, tôi nghĩ ông ấy là người phát minh thật"* (`03 68:36`). Sự thật: **giao dịch hoán đổi tiền tệ IBM – Ngân hàng Thế giới tháng 8/1981**, do Salomon Brothers thu xếp, và Swensen là người cấu trúc nó. Yale ghi nhận đúng điều này. Nhưng "phát minh" thì hơi mạnh: hoán đổi tiền tệ tiến hoá từ **khoản vay song song** (parallel loan) mà doanh nghiệp Anh dùng suốt thập niên 1970 để lách kiểm soát ngoại hối.
 
 Mô tả cơ chế của ông thì chính xác (`03 68:52`–`69:56`): một bên châu Âu có doanh thu đô la, một bên Mỹ có doanh thu euro, hai bên đổi dòng tiền hằng tháng trong năm năm theo tỷ giá chốt trước.
 
-⚠️ Và ông nói đúng một chi tiết dễ bị bỏ qua: Salomon Brothers là *"một ngân hàng đầu tư lớn ở Phố Wall mà nay không còn tồn tại"* (`03 68:28`). Đúng — bị Travelers/Citigroup nuốt, thương hiệu khai tử năm 2003.
+> [!warning]
+> Và ông nói đúng một chi tiết dễ bị bỏ qua: Salomon Brothers là *"một ngân hàng đầu tư lớn ở Phố Wall mà nay không còn tồn tại"* (`03 68:28`). Đúng — bị Travelers/Citigroup nuốt, thương hiệu khai tử năm 2003.
 
-### ⚠️ ISDA không phải "Development"
+### ISDA không phải "Development"
 
+> [!quote] 03 70:22–70:30
 > *"Có một tổ chức tên là ISDA […] Đó là **International Swaps and Development Association**."* (`03 70:22`–`70:30`)
 
 **Sai.** ISDA là **International Swaps and *Derivatives* Association** — Hiệp hội Hoán đổi và **Phái sinh** Quốc tế. Thành lập năm 1985 với tên **International Swap *Dealers* Association**, đổi tên khi mở rộng ra ngoài hoán đổi lãi suất.
@@ -553,6 +600,7 @@ Shiller mô tả đúng cơ chế: bên mua bảo vệ trả đều đặn cho b
 
 Rồi ông tự đặt đúng câu hỏi cần đặt:
 
+> [!quote] 03 72:14–72:19
 > *"Bạn có thể hỏi, chẳng phải đây đúng là một hợp đồng bảo hiểm sao?"* (`03 72:14`–`72:19`)
 
 Và câu trả lời của ông là **môi trường quản lý** (`03 73:15`–`73:32`): bảo hiểm tín dụng có từ khoảng 1880, nhưng nó bị *"một nền văn hoá và môi trường quản lý giới hạn lại"*, quản bởi cơ quan bảo hiểm cấp bang; còn CDS có ISDA đứng sau đẩy nó thành *"một ngành kinh doanh khổng lồ"*.
@@ -561,7 +609,7 @@ Và câu trả lời của ông là **môi trường quản lý** (`03 73:15`–
 
 ---
 
-## 16. 📚 Cơ chế thật sự giết AIG: ký quỹ trước khi có vỡ nợ
+## 16. Cơ chế thật sự giết AIG: ký quỹ trước khi có vỡ nợ
 
 ### Điều khoản bị bỏ đi: quyền lợi có thể bảo hiểm
 
@@ -616,6 +664,7 @@ Kết quả không như dự đoán, và đó là điều đáng giá nhất:
 | tháng 30       |        0,9500 | thiệt 489.353 EUR                   |
 | tháng 42       |        1,2500 | **thiệt 1.994.117 EUR** ← nặng nhất |
 
+> [!note]
 > **Mất đối tác không phải luôn luôn là tổn thất. Bạn chỉ thiệt khi hợp đồng đang *có lợi* cho bạn.**
 
 Nghĩa là rủi ro đối tác trong swap là rủi ro **một chiều**. Bạn không mất ngẫu nhiên — bạn mất đúng những lúc hợp đồng đang lãi. Và đó là lúc bên kia đang lỗ nặng nhất, tức là **lúc họ ít có khả năng trả nhất**. Ngành gọi là **rủi ro ngược chiều** (wrong-way risk), và nó là lý do kỹ thuật khiến AIG sụp.
@@ -631,7 +680,7 @@ Swap không trị rủi ro. Nó **đổi loại** rủi ro. Đổi thế thườ
 
 ---
 
-## 17. ⚠️ Đối chiếu 2026
+## 17. Đối chiếu 2026
 
 | Shiller nói (1/2011)                                             | Tình hình 9/2026                                                                                                                                                   |
 | ---------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -648,7 +697,7 @@ Swap không trị rủi ro. Nó **đổi loại** rủi ro. Đổi thế thườ
 
 ---
 
-## 18. 🇻🇳 Góc Việt Nam: trách nhiệm hữu hạn bị hợp đồng vay lấy lại
+## 18. Góc Việt Nam: trách nhiệm hữu hạn bị hợp đồng vay lấy lại
 
 Shiller tự hỏi ở `03 23:08`: *"Tài chính có tốt không?"* Rồi ông trả lời ở `03 24:39`: nó vừa quản trị rủi ro **vừa tạo cơ hội**, và cơ hội thì *"có thể thực sự làm tăng bất bình đẳng"*. Ông không đưa ví dụ cụ thể nào.
 
@@ -660,6 +709,7 @@ Việt Nam là ví dụ cụ thể đó, và nó dính thẳng vào mục 9 và 
 
 Nhưng đó là **luật**. Còn đây là **hợp đồng vay**:
 
+> [!note]
 > **93,5 %** khoản vay ở Việt Nam yêu cầu tài sản thế chấp *(Ngân hàng Thế giới)*
 
 | Nước               | Tỷ lệ khoản vay đòi thế chấp |
@@ -718,6 +768,7 @@ Và đó là một kết luận lạc quan hơn nó nghe, vì hạ tầng thì x
 
 Toàn bộ con số trong bài này được tính ra ở **[`thuc_hanh/bai-01-ha-tang-xa-hoi.py`](../thuc_hanh/bai-01-ha-tang-xa-hoi.py)** — 946 dòng, 9 mục, không thư viện ngoài.
 
+> [!note]
 > ⚙️ **Chạy:** cần **Python 3.10+**. `python3 bai-01-ha-tang-xa-hoi.py`. Không cần cài gói nào, không gọi mạng, không đọc file ngoài. Kết quả **tất định** — chạy hai lần giống hệt nhau.
 
 Ba quyết định thiết kế đáng nói:
@@ -1202,12 +1253,12 @@ Het. Moi con so tren deu duoc tinh ra, khong con so nao go tay.
 ==============================================================================
 ```
 
-### 💡 Tự thử
-
-1. Ở mục 1, đổi `CPI_2026_01` sang giá trị CPI-U tháng gần nhất (tra ở `bls.gov`). Bội số từ 1913 đã vượt 34 lần chưa?
-2. Ở mục 4, đổi `BOI_SO_THANG` từ 100 xuống 50 rồi lên 200. Ở giá trị nào thì chế độ **NY 1811** cũng cho kỳ vọng dương? Điều đó nói gì về loại doanh nghiệp mà luật 1811 thật sự tài trợ được?
-3. Ở mục 6, đổi `ty_gia_thang` thành đường đi **tăng đơn điệu** từ 0,95 lên 1,75. Còn tháng nào mà mất đối tác lại có lợi không? Vì sao?
-4. Ở mục 9, đổi `LTV_BP` từ 7.000 lên 9.000 (một số ngân hàng đã cho vay tới 90 %). Khoảng cách giữa người A và người C rộng ra hay hẹp lại? Kết quả có làm bạn ngạc nhiên không?
+> [!example] Tự thử
+>
+> 1. Ở mục 1, đổi `CPI_2026_01` sang giá trị CPI-U tháng gần nhất (tra ở `bls.gov`). Bội số từ 1913 đã vượt 34 lần chưa?
+> 2. Ở mục 4, đổi `BOI_SO_THANG` từ 100 xuống 50 rồi lên 200. Ở giá trị nào thì chế độ **NY 1811** cũng cho kỳ vọng dương? Điều đó nói gì về loại doanh nghiệp mà luật 1811 thật sự tài trợ được?
+> 3. Ở mục 6, đổi `ty_gia_thang` thành đường đi **tăng đơn điệu** từ 0,95 lên 1,75. Còn tháng nào mà mất đối tác lại có lợi không? Vì sao?
+> 4. Ở mục 9, đổi `LTV_BP` từ 7.000 lên 9.000 (một số ngân hàng đã cho vay tới 90 %). Khoảng cách giữa người A và người C rộng ra hay hẹp lại? Kết quả có làm bạn ngạc nhiên không?
 
 ---
 
@@ -1374,6 +1425,7 @@ Het. Moi con so tren deu duoc tinh ra, khong con so nao go tay.
 | Việt Nam: 93,5 % khoản vay đòi thế chấp (Ngân hàng Thế giới); so sánh Malaysia 33,4 %, Thái Lan 55,8 %, thế giới 68,3 % | [VTV — "Mở rộng tài sản bảo đảm để gỡ khó vốn cho DNNVV"](https://vtv.vn/mo-rong-tai-san-bao-dam-de-go-kho-von-cho-doanh-nghiep-nho-va-vua-100260721055148452.htm)                                                                                                                                                                                                                                                                                                                                                                |
 | SME: 95 % số DN nhưng ~20 % dư nợ; 9,3 % SME vay được so với 56,1 % DN lớn (FiinGroup); LTV 70–90 %                     | [Doanhnghiephoinhap — xếp hạng tín nhiệm cho SME](https://doanhnghiephoinhap.vn/bai-12-xep-hang-tin-nhiem-mo-loi-tiep-can-von-cho-doanh-nghiep-nho-va-vua-145223.html) · [VnBusiness](https://vnbusiness.vn/khi-dong-von-re-van-chua-chay-toi-doanh-nghiep-nho.html)                                                                                                                                                                                                                                                              |
 
+> [!quote]
 > ⚠️ **Về số liệu Việt Nam:** các tỷ lệ 9,3 % / 56,1 % và 95 % / 20 % được báo chí trong nước dẫn lại từ FiinGroup và VINASME. Chúng nhất quán giữa nhiều nguồn nhưng chưa có công bố gốc mở; hãy đọc chúng như **bậc độ lớn**, không phải con số kiểm toán. Riêng con số **93,5 %** là của Ngân hàng Thế giới và chắc chắn hơn.
 
 ---

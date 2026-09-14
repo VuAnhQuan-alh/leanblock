@@ -1,28 +1,25 @@
 # Bài 13 — Kênh đầu tư: vàng, trái phiếu, chứng chỉ quỹ, ETF
 
+> [!info] Về bài này
 > Bài học dựa trên **C2 tr. 58–67** — Unit 5 (*Đầu tư*) Lesson 1–4 của *Tài chính cá nhân 101,
 > Class 2*.
->
 > **Cần đọc trước:** [Bài 12](bai_12_rui_ro_khau_vi_phan_bo.md) — khẩu vị rủi ro đứng trước chọn kênh;
 > bài này lấp nội dung cho bốn dòng trong danh mục *Cân bằng* ở đó. Và
 > [bài 4](bai_04_tai_san_tieu_san_thap_tai_san.md) — tháp tài sản chia lớp an toàn / tăng trưởng /
 > mạo hiểm là chính các kênh này xếp theo rủi ro.
->
 > **Đây là bài vòng 2** — đọc hiểu, nắm ý là đủ. Sách viết phần đầu tư **mỏng và có chỗ sai**
 > ([bài 0](bai_00_bat_dau_tu_dau.md) đã báo trước); bài này giữ nguyên độ mỏng đó, chỉ bắt lỗi và bổ
 > khung, **không** phình thành một khoá đầu tư nửa vời.
->
 > **[đã cắt]:** phần *"hình thức mua vàng Doji online"* (tr. 61) đặt sản phẩm thương mại vào vị trí
 > phương pháp. Khoá học nêu **hình thức** giao dịch, không nêu nhà cung cấp — [mục 3](#3-vàng--và-đính-chính-sách-tự-mâu-thuẫn-về-vàng).
->
 > **Ký hiệu:** **[bổ sung]** ngoài sách · **[đính chính]** chỗ sách sai · **[đã cắt]** phần thương
 > mại thay bằng cách khác · **[2026]** đối chiếu hiện tại.
->
 > **Về [2026]:** mục 5 dẫn văn bản và số liệu khủng hoảng trái phiếu, tra ngày **10/09/2026**.
->
 > **Code:** [`thuc_hanh/bai-13-kenh-dau-tu.py`](../thuc_hanh/bai-13-kenh-dau-tu.py)
 > — kiểm hai con số sách để trống: *"2tr/tháng vào VN30 → hàng tỷ"* thật ra ra bao nhiêu, và giá trái
 > phiếu **hội tụ về mệnh giá** khi tới hạn (ngược với sách). Công thức một dòng kèm theo.
+>
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
 
 ---
 
@@ -86,6 +83,7 @@ nơi Ponzi và bơm–xả trú ngụ.
 
 Ngay tr. 58 sách đưa một con số hấp dẫn:
 
+> [!quote]
 > *"nếu đầu tư định kỳ 2 triệu đồng/tháng vào **chỉ một vài doanh nghiệp lớn thuộc nhóm VN30** trong
 > 10 năm liên tiếp, bạn đã có số tiền **hàng tỷ đồng** ở hiện tại."*
 
@@ -117,6 +115,7 @@ Sách nói về vàng ở hai chỗ, và hai chỗ đá nhau.
 
 **Chỗ tỉnh táo (tr. 59–60):**
 
+> [!quote]
 > *"Tăng trưởng giá vàng trong dài hạn khoảng **1,8%/năm** trong 100 năm qua (tính theo USD)."*
 >
 > *"chỉ nên đầu tư 1 phần tiền vào vàng như một khoản phòng ngừa rủi ro, còn xét về lợi suất đầu tư
@@ -127,6 +126,7 @@ mục *Cân bằng*.
 
 **Chỗ tự cãi lại (tr. 61), trong phần ưu điểm của Lesson 2:**
 
+> [!quote]
 > *"Giá trị lưu trữ trường tồn theo thời gian: vàng nắm giữ **càng lâu càng có giá**, vì theo thời
 > gian giá vàng sẽ ngày càng tăng."*
 
@@ -140,6 +140,7 @@ cứu dài hạn về vàng đưa ra, **không phải** lợi suất danh nghĩa
 đây là khác biệt lớn: 1,8% **thực** nghĩa là vàng gần như chỉ **giữ được sức mua** qua rất dài hạn,
 đúng vai bảo hiểm. Chốt lại cho gọn:
 
+> [!quote]
 > **Vàng để giữ sức mua khi bất ổn, không để sinh lời.** Nó *"không mang lại thu nhập thụ động"*
 > (chính sách thừa nhận, tr. 61) — không cho thuê, không trả lãi, không cổ tức. Giữ một phần nhỏ là
 > đủ.
@@ -159,6 +160,7 @@ phụ thuộc một thương hiệu nào, vì thương hiệu đổi chính sác
 Lesson 3 định nghĩa đúng (tr. 63): trái phiếu là cho tổ chức phát hành **vay**, phát hành bởi *"chính
 phủ, chính quyền và doanh nghiệp"*. Và sách xếp hạng rủi ro đúng:
 
+> [!quote]
 > *"trái phiếu kho bạc là giải pháp khá an toàn khi khủng hoảng kinh tế xảy ra. **Rủi ro nhất vẫn là
 > trái phiếu doanh nghiệp**."*
 
@@ -179,6 +181,7 @@ nghiệp.
 
 Sách liệt kê một nhược điểm sai (tr. 63):
 
+> [!quote]
 > *"Càng gần ngày đáo hạn thì giá trị của trái phiếu càng giảm."*
 
 Ngược. Đến ngày đáo hạn, trái chủ nhận lại đúng **mệnh giá**, nên giá thị trường của trái phiếu
@@ -258,6 +261,7 @@ phiếu**. Chú ý: **quỹ mở cân bằng** gần như đúng bằng cả dan
 
 tr. 67 viết, cách nhau vài dòng, hai câu ngược nhau:
 
+> [!quote]
 > *"[Quỹ đóng]… các chứng chỉ quỹ sẽ được **niêm yết** trên thị trường chứng khoán."*
 >
 > *"Chứng chỉ quỹ **không được niêm yết** trên sàn chứng khoán."*

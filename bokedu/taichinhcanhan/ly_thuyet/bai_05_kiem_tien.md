@@ -1,17 +1,17 @@
 # Bài 5 — Kiếm tiền: vì sao được trả, Kim tứ đồ, vốn con người
 
+> [!info] Về bài này
 > Bài học dựa trên **toàn bộ Unit 1 của Class 2** — C2 tr. 4–13. Mười trang, ba lesson: đây là
 > unit dài nhất mà khoá học gộp vào một bài.
->
 > **Cần đọc trước:** [Bài 4](bai_04_tai_san_tieu_san_thap_tai_san.md) — bài 4 tính ra lớp vô hình
 > chiếm **94%** tháp tài sản rồi hỏi *"đang làm gì để lớp đáy dày lên?"*. Bài này là câu trả lời.
->
 > **Ký hiệu:** **[bổ sung]** là kiến thức ngoài sách · **[đính chính]** là chỗ sách sai ·
 > **[2026]** là mục đối chiếu với hiện tại.
->
 > **Code:** [`thuc_hanh/bai-05-kiem-tien.py`](../thuc_hanh/bai-05-kiem-tien.py)
 > — ba phép tính mà Unit 1 gợi ra nhưng không làm: bóc ví dụ gia sư ở tr. 6, dựng lại biểu đồ hai
 > nguồn vốn ở tr. 11, và kiểm câu *"không mô hình nào lợi thế hơn"* ở tr. 13.
+>
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
 
 ---
 
@@ -40,6 +40,7 @@
 
 Class 2 mở đầu bằng một quan sát xã hội, nói thẳng không rào đón:
 
+> [!quote]
 > *"Càng kiếm nhiều tiền người ta càng được những người lạ ngưỡng mộ… Sự tôn trọng thường được ban
 > phát theo thu nhập. Hệ quả là, nếu bạn không có khả năng tài chính đủ tốt, bạn sẽ khó lòng khiến
 > xã hội coi trọng cá tính và quan điểm của bạn."* — C2 tr. 4
@@ -53,10 +54,12 @@ Rồi sách đặt câu hỏi thật của lesson — *"chính xác thì ta đư
 
 ### Góc nhìn một: chủ nghĩa tư bản — bạn được trả cho **giá trị**
 
+> [!quote]
 > *"Mức lương một người được xác định nhờ mức độ đóng góp của họ cho xã hội."* — C2 tr. 5
 
 Sách dẫn Jim Rohn để tách **thời gian** khỏi **giá trị**:
 
+> [!quote]
 > *"Một cách sai lầm, 'người đàn ông' sẽ nói: 'Tôi kiếm được 20 đôla mỗi giờ'. Điều đó không đúng!
 > Nếu điều đó đúng, anh ta chỉ việc ở nhà để nhận tiền được gửi đến. Không, anh ta được trả 20 đô la
 > cho **giá trị được đưa vào** một giờ đồng hồ mà anh ta làm việc. Trả lương theo giờ chỉ đơn giản
@@ -67,19 +70,23 @@ thời gian thì thời gian nào cũng được trả. Nó không phải vậy.
 
 Kết luận của góc nhìn này là một mệnh lệnh: **hãy trở nên giá trị hơn.**
 
+> [!quote]
 > *"Nếu bạn cung cấp nhiều giá trị hơn, bạn nhận lại nhiều hơn. Từ khoá là 'phát triển bản thân'."*
 > — C2 tr. 6
 
 ### Góc nhìn hai: kinh tế học — bạn được trả cho **sự hiếm**
 
+> [!quote]
 > *"Lương được xác định **không phải nhờ giá trị đóng góp**, mà nhờ số người có khả năng và sẵn sàng
 > làm công việc đó, trong khi những người khác không muốn hoặc không thể thực hiện."* — C2 tr. 6
 
+> [!quote]
 > *"Nếu nhiều người có thể làm tác vụ này, mức độ cạnh tranh cao, **dù công việc phức tạp đến đâu**,
 > tin buồn là số tiền bạn có thể nhận sẽ không nhiều."* — C2 tr. 6
 
 Và câu chốt:
 
+> [!quote]
 > *"Ở góc nhìn này, không có chỗ nào phán xét giá trị của công việc. Lương chỉ đơn giản là độ chênh
 > lệch giữa cầu và cung."* — C2 tr. 6
 
@@ -97,6 +104,7 @@ Và câu chốt:
 Câu thứ hai **phủ định thẳng** câu thứ nhất — bằng đúng chữ *"không phải"*. Đây không phải hai khía
 cạnh bổ sung cho nhau; đây là hai mệnh đề mâu thuẫn. Và sách kết thúc lesson bằng:
 
+> [!quote]
 > *"Hy vọng qua nội dung này, bạn đã hiểu vì sao chúng ta được trả tiền."* — C2 tr. 6
 
 Không có phần hoà giải. Người đọc được đưa hai câu trả lời loại trừ nhau rồi chúc hiểu.
@@ -117,6 +125,7 @@ nhích — chính sách thừa nhận điều này ở tr. 6: *"dù công việc
 
 Hai mệnh đề đúng ở hai chỗ khác nhau:
 
+> [!note]
 > **Giá trị quyết định TRẦN** — lương của bạn không thể vượt quá giá trị bạn tạo ra, nếu không
 > người thuê bạn lỗ.
 >
@@ -126,6 +135,7 @@ Hai mệnh đề đúng ở hai chỗ khác nhau:
 Điều dễ chịu: **chính cuốn sách chốt vấn đề này ở quy tắc 3 của lesson sau**, chỉ là nó không nhắc
 lại lesson 1 lúc chốt:
 
+> [!quote]
 > *"dù bạn ở nhóm nào, bí quyết thành công/giàu có là bạn cần trở thành **số ít chuyên gia** trong
 > lĩnh vực của mình."* — C2 tr. 10
 
@@ -136,6 +146,7 @@ chỗ mâu thuẫn đúng bốn trang** — chỉ có điều sách không nói 
 
 ## 3. Công thức Thu nhập = Giá trị × Thời gian × Quy mô
 
+> [!quote]
 > *"Nếu chị B muốn được trả nhiều tiền hơn, công thức là: **Thu nhập = Giá trị × Thời gian ×
 > Quy mô**"* — C2 tr. 5
 
@@ -154,6 +165,7 @@ gian"* (mục 5).
 
 ### [bổ sung] Ví dụ gia sư của sách chứng minh nhiều hơn nó định chứng minh
 
+> [!quote]
 > *"Ví dụ bạn dạy gia sư 1 kèm 1, học phí 100 ngàn/buổi. Một giáo viên dạy trung tâm, lớp 15 học
 > sinh, 20 ngàn/học sinh/buổi. Giáo viên dạy quy mô lớn hơn thu về 300 ngàn, gấp 3 lần bạn **khi
 > thời gian và giá trị tương đương nhau**."* — C2 tr. 6
@@ -195,6 +207,7 @@ Người dạy 50 học sinh một lúc có thể kiếm **đúng bằng** ngư�
 
 ## 4. Kim tứ đồ và bốn quy tắc
 
+> [!quote]
 > *"Cashflow quadrant (Kim tứ đồ) là một khái niệm được Robert Kiyosaki đưa ra trong bộ sách Rich
 > Dad. Mô hình này thể hiện 4 cách khác nhau để tạo ra tiền bạc, tương ứng là 4 nhóm người."*
 > — C2 tr. 7
@@ -228,6 +241,7 @@ Bốn quy tắc sách rút ra:
 
 Phần *"làm hiệu quả"* là một thang bốn bậc, viết rất gọn:
 
+> [!quote]
 > - *"**Làm cầm chừng** để giữ công việc. Họ không thích đi làm, mơ mộng một ngày nào đó sẽ 'nhảy
 >   việc', yêu ngày lĩnh lương và ghét thứ hai đầu tuần."*
 > - *"**Làm đúng với số tiền được trả.** Những người này sợ 'lỗ' công sức bỏ ra, nếu công ty trả 10
@@ -242,6 +256,7 @@ chứng minh bạn đáng 15 đồng nếu bạn chưa bao giờ làm quá 10.
 
 Sách cũng rất sòng phẳng ở phần *"làm tận lực"*:
 
+> [!quote]
 > *"Điều này không sai. Tận lực không phải điều kiện bắt buộc. Có những người đang tận lực. Có người
 > không. Lựa chọn là ở bạn!"* — C2 tr. 9
 
@@ -257,6 +272,7 @@ Ví dụ ở tr. 10 rất tốt vì nó cụ thể: một bác sĩ nội khoa **
 
 Nó cũng cho lằn ranh B/S sắc nhất của cả lesson:
 
+> [!quote]
 > *"Trong khi nhóm B làm chủ hệ thống kinh doanh thì nhóm S là một phần mắt xích của hệ thống. Những
 > người nhóm B có thể **rời bỏ công việc kinh doanh từ 1 năm** mà khi quay lại, hệ thống vẫn vận
 > hành hiệu quả và phát triển mà không cần sự có mặt của họ. Còn nhóm S thì không."* — C2 tr. 9
@@ -269,11 +285,13 @@ tiệm phở tự đứng bếp là **S**, dù có thuê mười nhân viên.
 Đây là đoạn sắc nhất của cả Unit, và đáng chú ý vì sách đang trình bày mô hình của Kiyosaki rồi
 quay ra bác cách đọc phổ biến nhất của nó:
 
+> [!quote]
 > *"Nhiều người cho rằng phải ở nhóm B hoặc nhóm I mới trở nên giàu có… Suy nghĩ vậy là sai lầm do
 > ảnh hưởng bởi **thiên kiến sống sót**. Truyền thông cho chúng ta thấy rất nhiều gương doanh nhân -
 > nhà đầu tư thành công nhưng đằng sau đó là vô số trường hợp thất bại không hề được nhắc đến."*
 > — C2 tr. 10
 
+> [!quote]
 > *"Thực tế, ở phía bên phải Kim tứ đồ, **xác suất khởi nghiệp thất bại rất cao, và hầu hết nhà đầu
 > tư thua lỗ**."* — C2 tr. 10
 
@@ -308,6 +326,7 @@ khác nhau.**
 
 Lập luận của quy tắc 4 nằm ở tr. 10–11, và nó quay về đúng công thức ở mục 3:
 
+> [!quote]
 > *"Với nhóm E và S, càng kiếm được nhiều tiền càng phải bỏ ra nhiều thời gian của bản thân cho công
 > việc… Trong khi nhóm B sử dụng thời gian và giá trị của **người khác**, còn nhóm I dùng **tiền** để
 > sinh ra tiền. Thời gian là nguồn lực hữu hạn."* — C2 tr. 11
@@ -325,6 +344,7 @@ là **có phải "số ít chuyên gia" hay không**, chứ không phải bạn 
 
 ## 6. Vốn con người và vốn tài chính
 
+> [!quote]
 > *"Về cơ bản, tổng thu nhập của một người đến từ hai nguồn: **Vốn con người** (Human capital) và
 > **Vốn tài chính** (Financial capital)."* — C2 tr. 11
 
@@ -336,10 +356,12 @@ là **có phải "số ít chuyên gia" hay không**, chứ không phải bạn 
 Hai khái niệm này không mới trong khoá học — đây là lần thứ ba chúng xuất hiện dưới tên thứ ba. Cái
 **mới** ở lesson này là mối quan hệ theo thời gian giữa chúng:
 
+> [!quote]
 > *"Trong đời người, hai nguồn vốn này có mối tương quan như trong biểu đồ:"* — C2 tr. 11
 
 Rồi sách in một biểu đồ, và mô tả nó ở tr. 13:
 
+> [!quote]
 > *"vốn con người sẽ **giảm** theo thời gian, do tuổi trẻ là giai đoạn tốt nhất cho sự học hỏi và
 > phát triển, nhưng càng lớn tuổi thì 'vốn' sẽ giảm đi liền với sức khỏe bản thân. **Đây chính là lý
 > do cho việc tại sao bạn nên làm tận lực** như bài trước tôi đã nói."* — C2 tr. 13
@@ -384,6 +406,7 @@ chiết khấu.
 
 ### Điều đó đổi cách hiểu về tiết kiệm
 
+> [!note]
 > **Cả kế hoạch tài chính cá nhân là một phép chuyển đổi: biến vốn con người thành vốn tài chính
 > trước khi nó tiêu tan.**
 
@@ -414,6 +437,7 @@ tốc độ chuyển đổi đó.
 
 ## 8. Bốn mô hình thu nhập
 
+> [!quote]
 > *"Từ vốn con người, chúng ta có thể chia ra 4 dạng mô hình thu nhập sau."* — C2 tr. 12
 
 | Mô hình | Sách mô tả | Ví dụ của sách |
@@ -425,6 +449,7 @@ tốc độ chuyển đổi đó.
 
 Lời khuyên đi kèm rất đúng và rất cụ thể:
 
+> [!quote]
 > *"nếu bạn thuộc nhóm **thu nhập giảm dần**, những năm đầu sự nghiệp bạn cần phát huy tối đa khả
 > năng của bản thân, mang tiền về nhiều nhất có thể. Còn nếu bạn thuộc nhóm **thu nhập tăng dần**,
 > những năm đầu không nên kỳ vọng việc kiếm được nhiều ngay, mà nên tích lũy kinh nghiệm."*
@@ -436,6 +461,7 @@ Lời khuyên đi kèm rất đúng và rất cụ thể:
 
 Ngay trước lời khuyên vừa trích, sách viết một câu rộng hơn mức nó chịu được:
 
+> [!quote]
 > *"**Không có mô hình nào mang lại lợi thế hơn các mô hình khác**, bạn cần nắm được đâu là giai đoạn
 > vàng để tập trung phát triển sự nghiệp."* — C2 tr. 13
 
@@ -462,6 +488,7 @@ năm cao. Đảo lại thì nó thấp hơn. Đừng đọc gì thêm từ chỗ
 
 Nó **quá rộng**, chứ không sai hoàn toàn. Tách ra hai nghĩa:
 
+> [!note]
 > **Đúng:** không mô hình nào **đáng mong muốn** hơn. Bạn thường không chọn được nghề mình hợp, và
 > cầu thủ không nên ước mình là cố vấn.
 >
@@ -476,6 +503,7 @@ quan trọng. Câu tổng quát và lời khuyên cụ thể không khớp nhau;
 
 Không phải đổi nghề. Phải **tiết kiệm tỷ lệ cao hơn** để bù cho việc tiền đến muộn:
 
+> [!quote]
 > Để đuổi kịp người "giảm dần", người "tăng dần" phải nâng tỷ lệ tiết kiệm từ **20% lên 35%**.
 
 Đó là con số dùng được ngay: nếu thu nhập của bạn đang trên đường đi lên, đừng đợi tới lúc lương

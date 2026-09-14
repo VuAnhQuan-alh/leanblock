@@ -1,17 +1,18 @@
 # Bài 13 — Chính phủ can thiệp thị trường: kiểm soát giá và thuế
 
+> [!info] Về bài này
 > Bài học dựng từ **hai chương** của *N. Gregory Mankiw — **Kinh tế học vi mô***,
 > bản dịch của Khoa Kinh tế, **ĐH Kinh tế TP.HCM** (Cengage Learning Asia):
 > **Chương 6 — Cung, cầu và chính sách chính phủ** (tr. 127–152) và
 > **Chương 12 — Thiết kế hệ thống thuế** (tr. 255–282).
-> 🔸 **Vòng 2 — đọc hiểu.** Hai chương này trả lời cùng một câu hỏi ở hai độ sâu:
+>
+> **Vòng 2 — đọc hiểu.** Hai chương này trả lời cùng một câu hỏi ở hai độ sâu:
 > chương 6 hỏi *"một chính sách cụ thể tác động thế nào"*, chương 12 hỏi
 > *"cả hệ thống nên được thiết kế ra sao"*.
-> 💼 **Góc QTKD** — ví dụ thêm cho ngành quản trị kinh doanh, **không có trong sách**.
-> 📚 **Mở rộng** — thứ sách phát biểu bằng lời mà không cho công thức.
-> ⚠️ — chỗ dễ hiểu sai. **Bài này không tìm thấy lỗi in nào**, nhưng có một điểm về
-> **cách đọc các hình minh hoạ** cần nói rõ ở [mục 5](#5--cách-đọc-các-hình-minh-hoạ-của-chương-6).
-> 📌 **Cần đọc trước:** [Bài 2](bai_02_cung_va_cau.md) (cung cầu),
+>
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
+>
+> **Cần đọc trước:** [Bài 2](bai_02_cung_va_cau.md) (cung cầu),
 > [Bài 3](bai_03_do_co_gian_va_dinh_gia.md) (độ co giãn — **dùng liên tục ở bài này**) và
 > [Bài 4](bai_04_thang_du_va_chi_phi_cua_thue.md) (tổn thất vô ích của thuế).
 
@@ -25,20 +26,20 @@
 - [2. Giá trần — thiếu hụt và cơ chế phân phối](#2-giá-trần--thiếu-hụt-và-cơ-chế-phân-phối)
 - [3. Nghiên cứu tình huống — rồng rắn xếp hàng và kiểm soát tiền thuê nhà](#3-nghiên-cứu-tình-huống--rồng-rắn-xếp-hàng-và-kiểm-soát-tiền-thuê-nhà)
 - [4. Giá sàn và lương tối thiểu](#4-giá-sàn-và-lương-tối-thiểu)
-- [5. ⚠️ Cách đọc các hình minh hoạ của chương 6](#5--cách-đọc-các-hình-minh-hoạ-của-chương-6)
+- [5. Cách đọc các hình minh hoạ của chương 6](#5-cách-đọc-các-hình-minh-hoạ-của-chương-6)
 - [6. Thuế đánh vào ai cũng cho kết quả y hệt](#6-thuế-đánh-vào-ai-cũng-cho-kết-quả-y-hệt)
-- [7. 📚 Công thức chia gánh nặng thuế](#7--công-thức-chia-gánh-nặng-thuế)
+- [7. Công thức chia gánh nặng thuế](#7-công-thức-chia-gánh-nặng-thuế)
 - [8. Hai ứng dụng — thuế tiền lương và thuế hàng hoá xa xỉ](#8-hai-ứng-dụng--thuế-tiền-lương-và-thuế-hàng-hoá-xa-xỉ)
 - [9. Chính phủ Hoa Kỳ thu và chi những gì](#9-chính-phủ-hoa-kỳ-thu-và-chi-những-gì)
 - [10. Tổn thất vô ích của thuế](#10-tổn-thất-vô-ích-của-thuế)
-- [11. 📚 Thuế đánh vào lãi tiết kiệm — sức mạnh của lãi kép](#11--thuế-đánh-vào-lãi-tiết-kiệm--sức-mạnh-của-lãi-kép)
+- [11. Thuế đánh vào lãi tiết kiệm — sức mạnh của lãi kép](#11-thuế-đánh-vào-lãi-tiết-kiệm--sức-mạnh-của-lãi-kép)
 - [12. Gánh nặng hành chính](#12-gánh-nặng-hành-chính)
 - [13. Thuế suất trung bình, thuế suất biên, và thuế đồng nhất](#13-thuế-suất-trung-bình-thuế-suất-biên-và-thuế-đồng-nhất)
 - [14. Công bằng — hai nguyên lý](#14-công-bằng--hai-nguyên-lý)
 - [15. Ba hệ thống thuế và hệ thống thực tế của Hoa Kỳ](#15-ba-hệ-thống-thuế-và-hệ-thống-thực-tế-của-hoa-kỳ)
 - [16. Phạm vi ảnh hưởng và "lý thuyết giấy diệt ruồi"](#16-phạm-vi-ảnh-hưởng-và-lý-thuyết-giấy-diệt-ruồi)
 - [17. Đánh đổi hiệu quả – công bằng](#17-đánh-đổi-hiệu-quả--công-bằng)
-- [18. 💼 Chi phí tăng thì đẩy được bao nhiêu sang giá bán](#18--chi-phí-tăng-thì-đẩy-được-bao-nhiêu-sang-giá-bán)
+- [18. Chi phí tăng thì đẩy được bao nhiêu sang giá bán](#18-chi-phí-tăng-thì-đẩy-được-bao-nhiêu-sang-giá-bán)
 - [19. Code minh hoạ](#19-code-minh-hoạ)
 - [20. Tự thử](#20-tự-thử)
 - [21. Từ điển thuật ngữ](#21-từ-điển-thuật-ngữ)
@@ -54,12 +55,14 @@
 
 Chương 6 mở bằng một câu định vị rất rõ vai trò của nhà kinh tế (tr. 127):
 
+> [!quote]
 > *"Các nhà kinh tế học có hai vai trò. Là nhà khoa học, họ phát triển và kiểm định các lý thuyết để
 > giải thích thế giới xung quanh. Là nhà tư vấn chính sách, họ sử dụng lý thuyết để giúp thay đổi thế
 > giới theo hướng tốt hơn. Trọng tâm của hai chương trước đặt vào khía cạnh khoa học."*
 
 Và cảnh báo ngay điều mà cả bài này sẽ chứng minh nhiều lần:
 
+> [!quote]
 > *"Chính sách thường tạo ra các tác động mà **ngay cả những người tạo ra chính sách cũng không có ý
 > định hoặc dự tính được**."*
 
@@ -71,10 +74,10 @@ Hai chương, hai độ sâu của cùng một câu hỏi:
 | **12** | Cả **hệ thống thuế** nên thiết kế ra sao?   | hiệu quả, gánh nặng hành chính, công bằng |
 
 📌 Sợi chỉ nối hai chương lại là **độ co giãn** — thứ đã học ở [bài 3](bai_03_do_co_gian_va_dinh_gia.md).
-Nó quyết định ai chịu gánh nặng thuế ([mục 7](#7--công-thức-chia-gánh-nặng-thuế)), quyết định kiểm soát
+Nó quyết định ai chịu gánh nặng thuế ([mục 7](#7-công-thức-chia-gánh-nặng-thuế)), quyết định kiểm soát
 giá gây thiệt hại lớn tới đâu ([mục 3](#3-nghiên-cứu-tình-huống--rồng-rắn-xếp-hàng-và-kiểm-soát-tiền-thuê-nhà)),
 và quyết định doanh nghiệp đẩy được bao nhiêu chi phí sang khách hàng
-([mục 18](#18--chi-phí-tăng-thì-đẩy-được-bao-nhiêu-sang-giá-bán)).
+([mục 18](#18-chi-phí-tăng-thì-đẩy-được-bao-nhiêu-sang-giá-bán)).
 
 ---
 
@@ -84,6 +87,7 @@ và quyết định doanh nghiệp đẩy được bao nhiêu chi phí sang khá
 
 ## 2. Giá trần — thiếu hụt và cơ chế phân phối
 
+> [!note]
 > **Giá trần** *(price ceiling)*: mức giá **tối đa** theo luật định mà một hàng hoá có thể được bán.
 
 **Hình 1, tr. 129** — thị trường kem, cân bằng ở **$3 và 100 que**. Suy ngược từ chính các con số
@@ -101,9 +105,11 @@ Giá trần **cao hơn** giá cân bằng thì không đổi gì cả — thị 
 
 ### Chỗ dễ hiểu sai nhất về giá trần
 
-⚠️ Giá trần **không** làm 125 người được mua rẻ. Nó làm **75 người được mua rẻ và 50 người không mua
-được gì** — rồi để một cơ chế nào đó quyết định ai thuộc nhóm nào. Sách nói thẳng ở tr. 129:
+> [!warning]
+> Giá trần **không** làm 125 người được mua rẻ. Nó làm **75 người được mua rẻ và 50 người không mua
+> được gì** — rồi để một cơ chế nào đó quyết định ai thuộc nhóm nào. Sách nói thẳng ở tr. 129:
 
+> [!quote]
 > *"Chú ý rằng mặc dù giá trần được thúc đẩy bởi mong muốn giúp người mua kem, nhưng **không phải tất
 > cả người mua đều được hưởng lợi** từ chính sách này. Một số người mua mua được kem với giá thấp, mặc
 > dù họ có thể đã phải xếp hàng để làm như vậy, những người mua khác **không thể mua được bất kỳ que
@@ -130,8 +136,10 @@ Năm **1973**, OPEC tăng giá dầu thô (đúng sự kiện ở
 [bài 9, mục 9](bai_09_doc_quyen_nhom_va_ly_thuyet_tro_choi.md#9-nghiên-cứu-tình-huống--opec)). Hàng
 dài người chờ mua xăng xuất hiện khắp Hoa Kỳ.
 
-⚠️ Và đây là chỗ sách lật ngược trực giác:
+> [!warning]
+> Và đây là chỗ sách lật ngược trực giác:
 
+> [!quote]
 > *"Hầu hết mọi người đổ lỗi cho OPEC… Tuy nhiên, các nhà kinh tế đổ lỗi cho **các quy định mà chính
 > phủ Hoa Kỳ đã áp dụng để hạn chế mức giá dầu các công ty bán ra**."*
 
@@ -172,6 +180,7 @@ gồm cả tiền hối lộ) tiến gần hơn đến mức giá cân bằng"*.
 Rồi chất lượng nhà ở tụt theo, và lý do là **Nguyên lý thứ tư** ở
 [bài 1](bai_01_muoi_nguyen_ly_va_tu_duy_kinh_te.md) (tr. 132):
 
+> [!quote]
 > *"Tại sao chủ nhà phải dành tiền để duy trì và cải thiện nhà cho thuê trong khi mọi người đang chờ
 > đợi để có được nó? Cuối cùng, người thuê nhà có giá thuê thấp hơn, nhưng họ cũng được cung cấp nhà ở
 > **chất lượng thấp hơn**."*
@@ -180,6 +189,7 @@ Rồi chất lượng nhà ở tụt theo, và lý do là **Nguyên lý thứ t�
 
 ## 4. Giá sàn và lương tối thiểu
 
+> [!note]
 > **Giá sàn** *(price floor)*: mức giá **tối thiểu** theo luật định mà một hàng hoá có thể được bán.
 
 **Hình 4, tr. 133** — giá sàn $2 (dưới cân bằng $3) không có hiệu lực; giá sàn $4 tạo **dư thừa 40 que**
@@ -200,7 +210,8 @@ Lao động Công bằng; năm **2009** mức liên bang là **$7,25/giờ**.
 
 ![Hình 5 — tr. 134, bản chụp giáo trình](../tai_lieu/hinh/ch06-hinh-05-tr134.png)
 
-⚠️ **Điểm mấu chốt mà sách nhấn mạnh: nền kinh tế không có một thị trường lao động duy nhất** (tr. 135).
+> [!warning] Điểm mấu chốt mà sách nhấn mạnh: nền kinh tế không có một thị trường lao động duy nhất
+> (tr. 135).
 
 | Nhóm lao động                   | Lương cân bằng                              | Lương tối thiểu có ràng buộc không |
 | ------------------------------- | ------------------------------------------- | ---------------------------------- |
@@ -226,6 +237,7 @@ Nên "1 đến 3 phần trăm" là *"đáng kể"* chứ không nhỏ.
 
 Và một tác động ngược chiều ở phía cung mà ít ai nói tới (tr. 135):
 
+> [!quote]
 > *"một số học sinh đang học phổ thông trung học chọn bỏ học để có việc làm. Những học sinh mới này
 > giành việc làm và thay thế nhóm thanh thiếu niên vốn đã bỏ học trước đây và giờ đây trở nên thất nghiệp."*
 
@@ -239,7 +251,7 @@ Khảo sát các nhà kinh tế năm **2006** (tr. 135) cho thấy đây thật 
 
 ---
 
-## 5. ⚠️ Cách đọc các hình minh hoạ của chương 6
+## 5. Cách đọc các hình minh hoạ của chương 6
 
 Trước khi sang phần thuế, cần nói rõ một điểm về cách chương 6 vẽ hình — nếu không, người đọc kỹ sẽ
 tưởng sách mâu thuẫn.
@@ -263,7 +275,7 @@ $2,80 như Hình 7 in.
 
 ![Hình 7 — tr. 140, bản chụp giáo trình](../tai_lieu/hinh/ch06-hinh-07-tr140.png)
 
-📌 Và [mục 7](#7--công-thức-chia-gánh-nặng-thuế) sẽ cho thấy độ dốc của Hình 6/7 **không hề tuỳ tiện**:
+📌 Và [mục 7](#7-công-thức-chia-gánh-nặng-thuế) sẽ cho thấy độ dốc của Hình 6/7 **không hề tuỳ tiện**:
 nó chính là thứ tạo ra tỷ lệ 0,30/0,20 in trong hình. Hình minh hoạ của sách tự nó nhất quán.
 
 ---
@@ -274,6 +286,7 @@ Sách dựng một tình huống rất khéo (tr. 138): thành phố đánh thu�
 lễ hội kem hằng năm. Hai nhóm vận động hành lang lập tức ra tay — hiệp hội người tiêu dùng đòi **người
 bán** nộp, tổ chức nhà sản xuất đòi **người mua** nộp, và thị trưởng đề nghị **chia đôi**.
 
+> [!note]
 > **Phạm vi ảnh hưởng của thuế** *(tax incidence)*: cách thức mà gánh nặng thuế được chia sẻ giữa các
 > bên tham gia thị trường.
 
@@ -289,9 +302,10 @@ Cho chạy cả ba phương án:
 **Ba dòng cuối giống hệt nhau.** Sách viết in nghiêng ở tr. 141: *"thuế đánh vào người mua và thuế đánh
 vào người bán là như nhau."*
 
-⚠️ Đây là kết quả phản trực giác nhất của chương 6, và nó có một hệ quả chính trị rất lớn: **cuộc tranh
-cãi giữa hai nhóm vận động hành lang là vô nghĩa.** Cả hai đang đấu tranh cho một thứ không tồn tại.
-Đề nghị "chia đôi" của thị trưởng nghe công bằng nhất nhưng cũng cho **đúng cùng một kết quả**.
+> [!warning]
+> Đây là kết quả phản trực giác nhất của chương 6, và nó có một hệ quả chính trị rất lớn: **cuộc tranh
+> cãi giữa hai nhóm vận động hành lang là vô nghĩa.** Cả hai đang đấu tranh cho một thứ không tồn tại.
+> Đề nghị "chia đôi" của thị trưởng nghe công bằng nhất nhưng cũng cho **đúng cùng một kết quả**.
 
 Lý do: thuế tạo ra một **cái nêm** giữa giá người mua trả và giá người bán nhận. Kích thước cái nêm là
 $0,50 bất kể ai nộp, nên vị trí cân bằng mới cũng như nhau.
@@ -306,10 +320,11 @@ Vì sao không chia đôi? Mục sau.
 
 ---
 
-## 7. 📚 Công thức chia gánh nặng thuế
+## 7. Công thức chia gánh nặng thuế
 
 Sách phát biểu quy tắc in nghiêng ở tr. 144:
 
+> [!quote]
 > *"**Gánh nặng thuế rơi nhiều hơn vào bên tham gia thị trường có độ co giãn kém hơn.**"*
 
 nhưng không cho công thức. Với hai đường tuyến tính thì nó rất gọn:
@@ -335,6 +350,7 @@ Cho độ co giãn chạy để thấy quy tắc hoạt động thế nào:
 
 Sách giải thích cơ chế ở tr. 144, và cách diễn đạt này đáng nhớ:
 
+> [!quote]
 > *"độ co giãn đo lường sự sẵn lòng của người mua hoặc người bán trong việc **rời bỏ thị trường** khi
 > điều kiện trở nên không thuận lợi… bên tham gia thị trường nào có **ít lựa chọn thay thế** sẽ ít sẵn
 > lòng rời bỏ thị trường và do đó buộc phải chịu nhiều gánh nặng thuế."*
@@ -350,13 +366,15 @@ cố tình áp đặt sự chia đôi: một nửa doanh nghiệp trả, một n
 
 Nhưng theo quy tắc ở mục 7 (tr. 144):
 
+> [!quote]
 > *"Hầu hết các nhà kinh tế học lao động tin rằng **cung lao động co giãn ít hơn so với cầu**. Điều này
 > có nghĩa là **người lao động, chứ không phải là các doanh nghiệp**, sẽ chịu phần lớn gánh nặng thuế
 > tiền lương."*
 
-⚠️ Con số 50–50 trên phiếu lương của bạn là một con số **kế toán**, không phải con số **kinh tế**. Sách
-viết thẳng ở tr. 143: *"Các nhà lập pháp có thể quyết định một mức thuế xuất phát từ túi của người mua
-hoặc người bán, nhưng **họ không thể áp đặt gánh nặng thực sự của thuế**."*
+> [!warning]
+> Con số 50–50 trên phiếu lương của bạn là một con số **kế toán**, không phải con số **kinh tế**. Sách
+> viết thẳng ở tr. 143: *"Các nhà lập pháp có thể quyết định một mức thuế xuất phát từ túi của người mua
+> hoặc người bán, nhưng **họ không thể áp đặt gánh nặng thực sự của thuế**."*
 
 ![Hình 9 — tr. 143, bản chụp giáo trình](../tai_lieu/hinh/ch06-hinh-09-tr143.png)
 
@@ -374,11 +392,13 @@ trang sức, ô tô đắt tiền. Mục tiêu: đánh vào người giàu.
 
 Kết quả, theo quy tắc mục 7 (tr. 145):
 
+> [!quote]
 > *"gánh nặng thuế rơi chủ yếu vào các nhà cung cấp… **người lao động không phải là những người giàu
 > có**. Như vậy, gánh nặng thuế hàng hoá xa xỉ rơi nhiều vào tầng lớp trung lưu hơn là những người giàu có."*
 
 Quốc hội bãi bỏ hầu hết các thuế hàng hoá xa xỉ năm **1993** — ba năm sau.
 
+> [!note]
 > 💼 Bài học chung, dùng được xa ngoài chính sách thuế: **bạn không chọn được ai chịu chi phí của một
 > quyết định.** Bạn chỉ chọn được nơi đặt hoá đơn. Ai thực sự chịu là do cấu trúc thị trường quyết định.
 
@@ -426,7 +446,8 @@ Nga 32, Brazil 30, **Hoa Kỳ 28**, Nhật 28, Mexico 21, Chile 20, Trung Quốc
 | Khác             |       690 | 19,6% |
 | **Tổng**         | **3.518** |       |
 
-📚 Sách in cả hai bảng nhưng **không đặt chúng cạnh nhau**. Đặt cạnh nhau thì thấy ngay:
+> [!note]
+> Sách in cả hai bảng nhưng **không đặt chúng cạnh nhau**. Đặt cạnh nhau thì thấy ngay:
 
 $$\text{THÂM HỤT} = 3.518 - 2.105 = \mathbf{1.413 \text{ tỷ đô la}}$$
 
@@ -457,6 +478,7 @@ Chính quyền bang và địa phương thì khác hẳn (Bảng 5 và 6, tr. 26
 Chương 12 đo một hệ thống thuế bằng **hai** tiêu chí (tr. 264): **hiệu quả** và **công bằng**. Hiệu quả
 lại gồm hai loại chi phí ngoài số tiền nộp:
 
+> [!note]
 > **Tổn thất vô ích** *(deadweight loss)*: sự sụt giảm phúc lợi kinh tế của người nộp thuế **vượt quá**
 > số tiền doanh thu mà chính phủ thu được.
 > **Gánh nặng hành chính** *(administrative burden)*: chi phí tuân thủ luật thuế.
@@ -464,6 +486,7 @@ lại gồm hai loại chi phí ngoài số tiền nộp:
 Tổn thất vô ích đã được dựng đầy đủ ở
 [bài 4](bai_04_thang_du_va_chi_phi_cua_thue.md) — chương 12 chỉ nhắc lại nguyên nhân (tr. 264):
 
+> [!quote]
 > *"thuế bóp méo động cơ và làm cho con người phân bổ nguồn lực dựa trên **những động cơ về thuế** thay
 > vì những lợi ích và chi phí thực sự của hàng hoá và dịch vụ mà họ mua và bán."*
 
@@ -471,12 +494,13 @@ Rồi đưa một ví dụ rất sắc: một người có thể nhận được
 nhưng nếu thuế đẩy giá lên **$9** thì họ không mua nữa. *"Chính phủ không thu được doanh thu từ người
 này… tổn thất vô ích là sự sụt giảm phúc lợi kinh tế xuất phát từ chính những quyết định như thế."*
 
-⚠️ Điểm quan trọng: **tổn thất vô ích đến từ giao dịch KHÔNG xảy ra**, nên nó vô hình. Không ai đếm
-được số pizza đã không được mua.
+> [!warning]
+> Điểm quan trọng: **tổn thất vô ích đến từ giao dịch KHÔNG xảy ra**, nên nó vô hình. Không ai đếm
+> được số pizza đã không được mua.
 
 ---
 
-## 11. 📚 Thuế đánh vào lãi tiết kiệm — sức mạnh của lãi kép
+## 11. Thuế đánh vào lãi tiết kiệm — sức mạnh của lãi kép
 
 Sách đưa một ví dụ ở tr. 265–266 mà con số của nó đáng đưa lên đầu chương: gửi **$1.000** ở tuổi 25,
 rút ra ở tuổi 65, lãi suất **8%/năm**.
@@ -514,6 +538,7 @@ Các nước châu Âu dựa vào thuế tiêu dùng nhiều hơn Hoa Kỳ, ch�
 Và **Alan Greenspan**, Chủ tịch Quỹ dự trữ Liên bang, nói với uỷ ban tổng thống về cải tổ luật thuế
 năm **2005** (tr. 266):
 
+> [!quote]
 > *"Như các bạn biết, nhiều nhà kinh tế tin rằng thuế tiêu dùng sẽ là tốt nhất trên quan điểm thúc đẩy
 > tăng trưởng kinh tế – đặc biệt là khi chúng ta thiết kế hệ thống thuế từ ban đầu – bởi vì thuế tiêu
 > dùng có khả năng khuyến khích tiết kiệm và tạo lập vốn. Tuy nhiên, **có cả một tổ hợp các vấn đề
@@ -528,17 +553,20 @@ cả *"nguồn lực mà chính phủ phải sử dụng để thực thi luật
 
 Điểm sắc nhất nằm ở chỗ nó **không** chỉ là giấy tờ:
 
+> [!quote]
 > *"Nhiều người nộp thuế – đặc biệt là những người trong nhóm thuế suất cao – thuê các luật sư và kế
 > toán thuế để giúp họ thực hiện các khoản thuế. Những chuyên gia này giúp khách hàng của họ **sắp xếp
 > các vấn đề để giảm số tiền thuế phải nộp**… Những nguồn lực dành cho quá trình lách thuế hợp pháp
 > này là một **dạng tổn thất vô ích**."*
 
-⚠️ Chú ý logic: những luật sư thuế giỏi nhất đang làm một công việc **không tạo ra gì cả** cho xã hội.
-Họ chỉ chuyển tiền từ kho bạc sang khách hàng. Toàn bộ thời gian, tài năng và tiền lương của họ là
-tổn thất thuần — và nó **tỷ lệ thuận với độ phức tạp của luật thuế**.
+> [!warning]
+> Chú ý logic: những luật sư thuế giỏi nhất đang làm một công việc **không tạo ra gì cả** cho xã hội.
+> Họ chỉ chuyển tiền từ kho bạc sang khách hàng. Toàn bộ thời gian, tài năng và tiền lương của họ là
+> tổn thất thuần — và nó **tỷ lệ thuận với độ phức tạp của luật thuế**.
 
 Sách nêu cách chữa và cả lý do nó không xảy ra (tr. 267):
 
+> [!quote]
 > *"Gánh nặng hành chính của bất kỳ hệ thống thuế nào có thể được giảm nhẹ bằng cách **đơn giản hoá
 > luật thuế**. Tuy nhiên, sự đơn giản hoá này thường rất khó khăn về mặt chính trị… **hầu hết mọi người
 > sẵn sàng đơn giản hoá luật thuế bằng cách xoá bỏ những khoản khấu trừ mà người khác được hưởng**."*
@@ -547,6 +575,7 @@ Sách nêu cách chữa và cả lý do nó không xảy ra (tr. 267):
 
 ## 13. Thuế suất trung bình, thuế suất biên, và thuế đồng nhất
 
+> [!note]
 > **Thuế suất trung bình** *(average tax rate)*: tổng số thuế phải nộp chia cho tổng thu nhập.
 > **Thuế suất biên** *(marginal tax rate)*: số thuế tăng thêm khi thu nhập tăng thêm một đô la.
 
@@ -560,13 +589,15 @@ Ví dụ của sách (tr. 268): 20% cho $50.000 đầu tiên, 50% cho phần tr�
 |    $100.000 |        35.000 |           35,0% |       50% |
 |    $200.000 |        85.000 |           42,5% |       50% |
 
-⚠️ **Hai con số này trả lời hai câu hỏi khác nhau, và lẫn chúng là lỗi rất phổ biến** (tr. 268):
+> [!warning] Hai con số này trả lời hai câu hỏi khác nhau, và lẫn chúng là lỗi rất phổ biến
+> (tr. 268):
 
 |                     | Trả lời câu hỏi                                 | Dùng khi               |
 | ------------------- | ----------------------------------------------- | ---------------------- |
 | Suất **trung bình** | *"người này đóng góp bao nhiêu phần thu nhập?"* | đánh giá **công bằng** |
 | Suất **biên**       | *"hệ thống thuế bóp méo động cơ đến mức nào?"*  | đánh giá **hiệu quả**  |
 
+> [!quote]
 > *"thuế suất biên **quyết định tổn thất vô ích** của thuế thu nhập."*
 
 Lý do nằm ở **Nguyên lý thứ ba** của [bài 1](bai_01_muoi_nguyen_ly_va_tu_duy_kinh_te.md): *"con người
@@ -575,6 +606,7 @@ duy lý cân nhắc giá trị biên."* Khi bạn quyết định có làm thêm
 
 ### Thuế đồng nhất — hiệu quả nhất và không ai dùng
 
+> [!note]
 > **Thuế đồng nhất** *(lump-sum tax)*: thuế thu một mức như nhau đối với tất cả mọi người.
 
 | Thu nhập |  Thuế | Suất trung bình | Suất biên |
@@ -588,6 +620,7 @@ và gần như không có gánh nặng hành chính (không ai cần thuê luậ
 
 Vậy sao không dùng? Sách trả lời thẳng (tr. 268):
 
+> [!quote]
 > *"thuế đồng nhất sẽ thu một lượng như nhau đối với người nghèo lẫn người giàu, một chính sách mà hầu
 > hết mọi người đều cho rằng là **không công bằng**."*
 
@@ -602,6 +635,7 @@ Sách đưa hai nguyên lý, và chúng dẫn tới những kết luận khác n
 
 ### Nguyên lý lợi ích
 
+> [!note]
 > **Nguyên lý lợi ích** *(benefits principle)*: người ta nên nộp thuế dựa trên **lợi ích họ nhận được**
 > từ các dịch vụ của chính phủ.
 
@@ -611,12 +645,14 @@ Ví dụ rõ nhất: **thuế xăng dầu**. Người lái xe nhiều thì dùng
 hơn từ lực lượng cảnh sát… Vì thế, theo nguyên lý lợi ích, người giàu nên đóng góp nhiều hơn người
 nghèo."*
 
-📚 Và sách còn dùng nguyên lý lợi ích để biện hộ cho **chương trình chống nghèo** (tr. 270): nếu người
-ta thích sống trong một xã hội không có người nghèo thì **chống nghèo là một hàng hoá công**. Người
-giàu định giá hàng hoá công đó cao hơn — nên theo chính nguyên lý lợi ích, họ nên đóng nhiều hơn.
+> [!note]
+> Và sách còn dùng nguyên lý lợi ích để biện hộ cho **chương trình chống nghèo** (tr. 270): nếu người
+> ta thích sống trong một xã hội không có người nghèo thì **chống nghèo là một hàng hoá công**. Người
+> giàu định giá hàng hoá công đó cao hơn — nên theo chính nguyên lý lợi ích, họ nên đóng nhiều hơn.
 
 ### Nguyên lý khả năng chi trả
 
+> [!note]
 > **Nguyên lý khả năng chi trả** *(ability-to-pay principle)*: thuế nên phân bổ dựa trên **khả năng
 > đóng góp** của mỗi người.
 
@@ -626,12 +662,14 @@ một khoản đóng thuế 10.000 đô la bởi một người giàu."*
 
 Từ đó ra hai khái niệm:
 
+> [!note]
 > **Công bằng dọc** *(vertical equity)*: người có khả năng đóng thuế cao hơn nên đóng nhiều hơn.
 > **Công bằng ngang** *(horizontal equity)*: người có khả năng đóng thuế như nhau nên đóng như nhau.
 
-⚠️ Cả hai đều được chấp nhận rộng rãi nhưng **rất khó áp dụng**. Sách đưa hai câu hỏi ở tr. 272–273 mà
-không câu nào có lời giải rõ ràng: hai gia đình cùng thu nhập $50.000, một gia đình có chi phí y tế
-lớn, một gia đình có hai con đi học — **có công bằng không nếu miễn thuế cho họ?**
+> [!warning]
+> Cả hai đều được chấp nhận rộng rãi nhưng **rất khó áp dụng**. Sách đưa hai câu hỏi ở tr. 272–273 mà
+> không câu nào có lời giải rõ ràng: hai gia đình cùng thu nhập $50.000, một gia đình có chi phí y tế
+> lớn, một gia đình có hai con đi học — **có công bằng không nếu miễn thuế cho họ?**
 
 ---
 
@@ -649,15 +687,18 @@ lớn, một gia đình có hai con đi học — **có công bằng không nế
 
 Ba định nghĩa ở chân trang 270:
 
+> [!note]
 > **Thuế tính theo tỷ lệ không đổi** *(proportional tax)*: mọi người nộp cùng một tỷ lệ thu nhập.
 > **Thuế luỹ thoái** *(regressive tax)*: người thu nhập cao nộp **tỷ lệ thấp hơn**.
 > **Thuế luỹ tiến** *(progressive tax)*: người thu nhập cao nộp **tỷ lệ cao hơn**.
 
-⚠️ **Cả ba hệ thống đều bắt người giàu nộp NHIỀU TIỀN HƠN.** Khác biệt nằm ở **tỷ lệ**, không phải ở
-số tiền. Đây là chỗ lẫn thường xuyên trong tranh luận công chúng.
+> [!warning] Cả ba hệ thống đều bắt người giàu nộp NHIỀU TIỀN HƠN.
+> Khác biệt nằm ở **tỷ lệ**, không phải ở
+> số tiền. Đây là chỗ lẫn thường xuyên trong tranh luận công chúng.
 
 Và sách thừa nhận rất thẳng (tr. 270):
 
+> [!quote]
 > *"Hệ thống thuế nào là công bằng nhất? Không có câu trả lời dứt khoát cho câu hỏi này, và **lý thuyết
 > kinh tế không giúp ích gì** trong việc tìm ra một câu trả lời như thế. Công bằng, cũng giống như sắc
 > đẹp, phụ thuộc vào quan điểm của mỗi người."*
@@ -679,8 +720,9 @@ Và sách thừa nhận rất thẳng (tr. 270):
 
 Cột "Thuế/thu nhập" tăng đều từ 4,3% lên 25,8% → hệ thống liên bang là **luỹ tiến rõ ràng**.
 
-📚 **Kiểm tính nhất quán nội bộ** — sách không làm việc này. Thuế suất trung bình toàn hệ thống tính
-được từ chính bảng là **20,70%**, và từ đó suy ngược ra cột "% tổng thuế":
+> [!note] Kiểm tính nhất quán nội bộ
+> sách không làm việc này. Thuế suất trung bình toàn hệ thống tính
+> được từ chính bảng là **20,70%**, và từ đó suy ngược ra cột "% tổng thuế":
 
 | Phân vị   | Tính lại | Sách in | Lệch |
 | --------- | -------: | ------: | ---: |
@@ -695,9 +737,10 @@ Lệch dưới 0,2 điểm phần trăm ở mọi dòng — **bảng của sách
 Hai con số đáng nhớ: nhóm cao nhất kiếm **55,7%** thu nhập nhưng nộp **69,3%** thuế (tỷ lệ 1,24); nhóm
 thấp nhất kiếm 3,9% nhưng nộp 0,8% (tỷ lệ 0,21).
 
-⚠️ **Nhưng bảng này chỉ tính thuế LIÊN BANG.** Thuế doanh thu và thuế tài sản của chính quyền bang và
-địa phương (439 + 383 = **822 tỷ đô la**, hơn một phần ba tổng doanh thu của bang) thì **luỹ thoái hơn
-nhiều**, vì người nghèo tiêu gần hết thu nhập. Nhìn cả hai tầng mới ra bức tranh đầy đủ.
+> [!warning] Nhưng bảng này chỉ tính thuế LIÊN BANG.
+> Thuế doanh thu và thuế tài sản của chính quyền bang và
+> địa phương (439 + 383 = **822 tỷ đô la**, hơn một phần ba tổng doanh thu của bang) thì **luỹ thoái hơn
+> nhiều**, vì người nghèo tiêu gần hết thu nhập. Nhìn cả hai tầng mới ra bức tranh đầy đủ.
 
 ---
 
@@ -707,6 +750,7 @@ nhiều**, vì người nghèo tiêu gần hết thu nhập. Nhìn cả hai tầ
 
 Sách đặt tên cho một sai lầm rất phổ biến:
 
+> [!quote]
 > *"Rất nhiều thảo luận về tính công bằng của thuế bỏ sót những tác động gián tiếp của thuế và dựa vào
 > lý thuyết về phạm vi ảnh hưởng của thuế mà các nhà kinh tế gọi một cách chế giễu là **lý thuyết giấy
 > diệt ruồi**. Theo lý thuyết này, gánh nặng của thuế cũng giống như con ruồi dính trên giấy diệt ruồi
@@ -726,6 +770,7 @@ của luật thuế lông thú có thể sẽ rất khác biệt so với nhữn
 
 Sách chọn ví dụ này vì nó là chỗ "lý thuyết giấy diệt ruồi" sai một cách rõ ràng nhất (tr. 273–274):
 
+> [!quote]
 > *"Thuế doanh nghiệp rất phổ biến đối với các cử tri. Suy cho cùng, doanh nghiệp không phải là con
 > người. Các cử tri luôn thích giảm phần đóng thuế của họ và để cho vài doanh nghiệp bâng quơ nào đó
 > điền vào chỗ trống này."*
@@ -756,21 +801,23 @@ và hai mục tiêu đó thường xung đột.
 
 Sách kết luận rất trung thực ở tr. 275:
 
+> [!quote]
 > *"Nhiều tranh luận về chính sách thuế phát sinh bởi vì mọi người đặt các trọng số khác nhau lên hai
 > mục tiêu này… Kinh tế học tự bản thân nó không thể quyết định cách tốt nhất để cân bằng giữa mục
 > tiêu hiệu quả và công bằng. Vấn đề này gắn với **triết học chính trị** cũng như với kinh tế học."*
 
-⚠️ Đọc kỹ câu đó: kinh tế học nói cho bạn **cái giá** của mỗi lựa chọn, không nói cho bạn **nên chọn
-cái nào**. Bất kỳ ai dùng kinh tế học để tuyên bố một mức thuế là "đúng" đều đang vượt quá thứ mà công
-cụ này làm được. Cùng một tinh thần với
-[bài 11, mục 11](bai_11_thong_tin_bat_can_xung.md#11-định-luật-bất-khả-thi-arrow) — biết chỗ công cụ
-dừng lại cũng là một phần của việc dùng nó đúng.
+> [!warning]
+> Đọc kỹ câu đó: kinh tế học nói cho bạn **cái giá** của mỗi lựa chọn, không nói cho bạn **nên chọn
+> cái nào**. Bất kỳ ai dùng kinh tế học để tuyên bố một mức thuế là "đúng" đều đang vượt quá thứ mà công
+> cụ này làm được. Cùng một tinh thần với
+> [bài 11, mục 11](bai_11_thong_tin_bat_can_xung.md#11-định-luật-bất-khả-thi-arrow) — biết chỗ công cụ
+> dừng lại cũng là một phần của việc dùng nó đúng.
 
 ---
 
-## 18. 💼 Chi phí tăng thì đẩy được bao nhiêu sang giá bán
+## 18. Chi phí tăng thì đẩy được bao nhiêu sang giá bán
 
-Quy tắc ở [mục 7](#7--công-thức-chia-gánh-nặng-thuế) không chỉ dùng cho thuế. Nó dùng cho **mọi cú sốc
+Quy tắc ở [mục 7](#7-công-thức-chia-gánh-nặng-thuế) không chỉ dùng cho thuế. Nó dùng cho **mọi cú sốc
 chi phí**: giá nguyên liệu tăng, thuế VAT tăng, phí vận chuyển tăng — đều là cùng một bài toán.
 
 Doanh nghiệp đang bán **100.000 đồng/đơn vị**, chi phí biên **60.000**, sản lượng **1.000 đơn vị**.
@@ -800,34 +847,37 @@ lại* được bao nhiêu.
 biệt hoá ở [bài 8](bai_08_canh_tranh_doc_quyen.md) — đó là cách đi từ dòng dưới lên dòng trên của bảng
 này. **Công việc đó phải làm TRƯỚC khi cú sốc xảy ra**, vì lúc cú sốc đến thì độ co giãn đã cố định rồi.
 
-⚠️ **Giới hạn của mô hình**, nói rõ để khỏi dùng sai: nó giả định đối thủ **không** bị cú sốc. Nếu cả
-ngành cùng bị tăng chi phí thì cả đường cung ngành dịch chuyển, và phần đẩy sang giá lớn hơn nhiều. Đó
-là lý do giá xăng tăng thì mọi cây xăng đều tăng được, còn riêng một cây tăng thì mất khách ngay.
+> [!warning] Giới hạn của mô hình
+> , nói rõ để khỏi dùng sai: nó giả định đối thủ **không** bị cú sốc. Nếu cả
+> ngành cùng bị tăng chi phí thì cả đường cung ngành dịch chuyển, và phần đẩy sang giá lớn hơn nhiều. Đó
+> là lý do giá xăng tăng thì mọi cây xăng đều tăng được, còn riêng một cây tăng thì mất khách ngay.
 
 ---
 
 ## 19. Code minh hoạ
 
+> [!note]
 > ⚙️ **Chạy:** cần **Python 3.10+**. Lưu file rồi gõ `python3 bai-13-chinh-phu-can-thiep.py`.
 > **Không cần cài gói nào.** File có sẵn tại [thuc_hanh/bai-13-chinh-phu-can-thiep.py](../thuc_hanh/bai-13-chinh-phu-can-thiep.py).
 
 Mọi thứ dùng `Fraction` — không có số thực nào, nên chạy bao nhiêu lần cũng ra đúng một kết quả.
 Hàm `tien()` **ném lỗi** nếu bị truyền số lẻ, để không có chỗ nào âm thầm làm tròn.
 
-⚠️ Code có **10 mục đánh số riêng của nó**, không trùng với 22 mục của bài học. Bảng đối chiếu:
+> [!warning]
+> Code có **10 mục đánh số riêng của nó**, không trùng với 22 mục của bài học. Bảng đối chiếu:
 
 | Mục trong code | Mục trong bài                                                                                         |
 | -------------- | ----------------------------------------------------------------------------------------------------- |
 | 1              | [2](#2-giá-trần--thiếu-hụt-và-cơ-chế-phân-phối)                                                       |
-| 2              | [4](#4-giá-sàn-và-lương-tối-thiểu) + [5](#5--cách-đọc-các-hình-minh-hoạ-của-chương-6)                 |
+| 2              | [4](#4-giá-sàn-và-lương-tối-thiểu) + [5](#5-cách-đọc-các-hình-minh-hoạ-của-chương-6)                 |
 | 3              | [4](#4-giá-sàn-và-lương-tối-thiểu)                                                                    |
 | 4              | [6](#6-thuế-đánh-vào-ai-cũng-cho-kết-quả-y-hệt)                                                       |
-| 5              | [7](#7--công-thức-chia-gánh-nặng-thuế) + [8](#8-hai-ứng-dụng--thuế-tiền-lương-và-thuế-hàng-hoá-xa-xỉ) |
+| 5              | [7](#7-công-thức-chia-gánh-nặng-thuế) + [8](#8-hai-ứng-dụng--thuế-tiền-lương-và-thuế-hàng-hoá-xa-xỉ) |
 | 6              | [9](#9-chính-phủ-hoa-kỳ-thu-và-chi-những-gì)                                                          |
 | 7              | [13](#13-thuế-suất-trung-bình-thuế-suất-biên-và-thuế-đồng-nhất)                                       |
-| 8              | [11](#11--thuế-đánh-vào-lãi-tiết-kiệm--sức-mạnh-của-lãi-kép)                                          |
+| 8              | [11](#11-thuế-đánh-vào-lãi-tiết-kiệm--sức-mạnh-của-lãi-kép)                                          |
 | 9              | [15](#15-ba-hệ-thống-thuế-và-hệ-thống-thực-tế-của-hoa-kỳ)                                             |
-| 10             | [18](#18--chi-phí-tăng-thì-đẩy-được-bao-nhiêu-sang-giá-bán)                                           |
+| 10             | [18](#18-chi-phí-tăng-thì-đẩy-được-bao-nhiêu-sang-giá-bán)                                           |
 
 ```python
 """Bai 13 - Chinh phu can thiep thi truong: kiem soat gia, thue, thiet ke he thong thue
@@ -2091,11 +2141,11 @@ Trả lời rồi mới quay lại đối chiếu. Số trong ngoặc là mục 
   - Phương trình cung cầu ở [mục 2](#2-giá-trần--thiếu-hụt-và-cơ-chế-phân-phối) và
     [mục 4](#4-giá-sàn-và-lương-tối-thiểu) — suy ngược từ chính các con số in trong Hình 1 và Hình 4;
     sách chỉ vẽ hình.
-  - **Công thức chia gánh nặng thuế** ở [mục 7](#7--công-thức-chia-gánh-nặng-thuế) — sách phát biểu quy
+  - **Công thức chia gánh nặng thuế** ở [mục 7](#7-công-thức-chia-gánh-nặng-thuế) — sách phát biểu quy
     tắc bằng lời ở tr. 144 nhưng không cho công thức. Đây là kết quả chuẩn cho hai đường tuyến tính.
   - Phép **kiểm tính nhất quán nội bộ** của Bảng 8 ở [mục 15](#15-ba-hệ-thống-thuế-và-hệ-thống-thực-tế-của-hoa-kỳ)
     — sách in bảng nhưng không kiểm.
-  - Bảng thiệt hại theo độ co giãn ở [mục 18](#18--chi-phí-tăng-thì-đẩy-được-bao-nhiêu-sang-giá-bán) —
+  - Bảng thiệt hại theo độ co giãn ở [mục 18](#18-chi-phí-tăng-thì-đẩy-được-bao-nhiêu-sang-giá-bán) —
     dựng riêng cho bài này.
 - **Liên hệ chéo:**
   - [Bài 2](bai_02_cung_va_cau.md) — cung cầu và cân bằng, nền của cả chương 6.

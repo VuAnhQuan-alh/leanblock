@@ -1,14 +1,16 @@
 # Bài 7 — Độc quyền và phân biệt giá
 
+> [!info] Về bài này
 > Bài học dựng từ **Chương 15 — Doanh nghiệp độc quyền** (tr. 334–369)
 > của *N. Gregory Mankiw — **Kinh tế học vi mô***, bản dịch của Khoa Kinh tế, **ĐH Kinh tế TP.HCM** (Cengage Learning Asia).
-> 🎯 **Vòng 1.** Bài 6 cho bạn kết cục khi **không ai** có quyền định giá. Bài này cho kết cục khi
+>
+> **Vòng 1.** Bài 6 cho bạn kết cục khi **không ai** có quyền định giá. Bài này cho kết cục khi
 > **một người** có toàn quyền — và giữa hai thái cực ấy là chỗ hầu hết doanh nghiệp thật đang đứng.
 > Mục 11–13 (**phân biệt giá**) là phần ứng dụng trực tiếp nhất cả môn.
-> 💼 **Góc QTKD** — ví dụ thêm cho ngành quản trị kinh doanh, **không có trong sách**.
-> 📚 **Mở rộng** — thứ sách nói lướt hoặc để trong hộp phụ.
-> ⚠️ — chỗ dễ hiểu sai, hoặc chỗ sách in sai.
-> 📌 **Cần đọc trước:** [Bài 6](bai_06_thi_truong_canh_tranh.md) (quy tắc $MR = MC$),
+>
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
+>
+> **Cần đọc trước:** [Bài 6](bai_06_thi_truong_canh_tranh.md) (quy tắc $MR = MC$),
 > [Bài 5](bai_05_chi_phi_san_xuat.md) (ATC, MC), [Bài 4](bai_04_thang_du_va_chi_phi_cua_thue.md)
 > (thặng dư và tổn thất vô ích).
 
@@ -22,12 +24,12 @@
 - [2. Độc quyền tự nhiên](#2-độc-quyền-tự-nhiên)
 - [3. Khác biệt gốc rễ: hình dạng đường cầu](#3-khác-biệt-gốc-rễ-hình-dạng-đường-cầu)
 - [4. Doanh thu của nhà độc quyền — vì sao MR < P](#4-doanh-thu-của-nhà-độc-quyền--vì-sao-mr--p)
-- [5. 📚 Vì sao nhà độc quyền KHÔNG có đường cung](#5--vì-sao-nhà-độc-quyền-không-có-đường-cung)
+- [5. Vì sao nhà độc quyền KHÔNG có đường cung](#5-vì-sao-nhà-độc-quyền-không-có-đường-cung)
 - [6. Tối đa hoá lợi nhuận — vẫn MR = MC, nhưng thêm một bước](#6-tối-đa-hoá-lợi-nhuận--vẫn-mr--mc-nhưng-thêm-một-bước)
 - [7. Lợi nhuận của nhà độc quyền](#7-lợi-nhuận-của-nhà-độc-quyền)
 - [8. Nghiên cứu tình huống — dược phẩm độc quyền và thuốc gốc](#8-nghiên-cứu-tình-huống--dược-phẩm-độc-quyền-và-thuốc-gốc)
 - [9. Chi phí phúc lợi của độc quyền — tổn thất vô ích](#9-chi-phí-phúc-lợi-của-độc-quyền--tổn-thất-vô-ích)
-- [10. ⚠️ Lợi nhuận độc quyền có phải là chi phí xã hội không?](#10--lợi-nhuận-độc-quyền-có-phải-là-chi-phí-xã-hội-không)
+- [10. Lợi nhuận độc quyền có phải là chi phí xã hội không?](#10-lợi-nhuận-độc-quyền-có-phải-là-chi-phí-xã-hội-không)
 - [11. Phân biệt giá — truyện ngụ ngôn Readalot](#11-phân-biệt-giá--truyện-ngụ-ngôn-readalot)
 - [12. Ba bài học từ câu chuyện](#12-ba-bài-học-từ-câu-chuyện)
 - [13. Phân biệt giá trong thực tế — các ví dụ của sách](#13-phân-biệt-giá-trong-thực-tế--các-ví-dụ-của-sách)
@@ -46,14 +48,17 @@
 
 ## 1. Độc quyền là gì và vì sao nó tồn tại
 
+> [!quote]
 > **Doanh nghiệp độc quyền** (*monopoly*): người bán duy nhất một sản phẩm cụ thể mà không có hàng hoá
 > thay thế gần gũi nào. — chú thích tr. 335
 
-⚠️ **Cụm "không có hàng hoá thay thế gần gũi" mới là phần quan trọng.** Là người bán duy nhất chưa đủ —
-nếu có thứ thay thế được thì quyền lực thị trường biến mất. Điều này nối thẳng với
-[bài 3, mục 2](bai_03_do_co_gian_va_dinh_gia.md#2-bốn-yếu-tố-quyết-định-độ-co-giãn-của-cầu-theo-giá):
-càng ít hàng thay thế thì cầu càng **không co giãn**, và người bán càng có quyền định giá.
+> [!warning] Cụm "không có hàng hoá thay thế gần gũi" mới là phần quan trọng.
+> Là người bán duy nhất chưa đủ —
+> nếu có thứ thay thế được thì quyền lực thị trường biến mất. Điều này nối thẳng với
+> [bài 3, mục 2](bai_03_do_co_gian_va_dinh_gia.md#2-bốn-yếu-tố-quyết-định-độ-co-giãn-của-cầu-theo-giá):
+> càng ít hàng thay thế thì cầu càng **không co giãn**, và người bán càng có quyền định giá.
 
+> [!quote] tr. 335
 > **Nguyên nhân cơ bản của sự độc quyền là các RÀO CẢN GIA NHẬP.** (tr. 335)
 
 Sách nêu **ba dạng chính** (tr. 335–336):
@@ -64,29 +69,31 @@ Sách nêu **ba dạng chính** (tr. 335–336):
 | ② **Quy định của chính phủ** | chính phủ trao **quyền độc quyền sản xuất**                                   | **bằng sáng chế** (20 năm), **bản quyền tác phẩm**                                               |
 | ③ **Quy trình sản xuất**     | một doanh nghiệp sản xuất **với chi phí thấp hơn** phần lớn nhà sản xuất khác | độc quyền **tự nhiên** — mục 2                                                                   |
 
-⚠️ Sách lưu ý riêng về dạng ① (tr. 336): trên thực tế **rất hiếm gặp**. *"Các nền kinh tế rất rộng lớn,
-và các nguồn lực thường được sở hữu bởi nhiều người… nhiều loại hàng hoá được mua bán trên khắp thế
-giới, do đó phạm vi thị trường tự nhiên của chúng thường ở quy mô toàn cầu."*
+> [!warning]
+> Sách lưu ý riêng về dạng ① (tr. 336): trên thực tế **rất hiếm gặp**. *"Các nền kinh tế rất rộng lớn,
+> và các nguồn lực thường được sở hữu bởi nhiều người… nhiều loại hàng hoá được mua bán trên khắp thế
+> giới, do đó phạm vi thị trường tự nhiên của chúng thường ở quy mô toàn cầu."*
 
-### 📚 Bằng sáng chế: hai mặt của một tờ giấy
-
-Sách phân tích cân bằng, không một chiều (tr. 337):
-
-```
-   BẰNG SÁNG CHẾ / BẢN QUYỀN
-    ├── CHI PHÍ: cho phép định giá cao hơn thị trường cạnh tranh
-    │            ⟹ gây tổn thất vô ích (mục 9)
-    └── LỢI ÍCH: tăng động lực cho hoạt động sáng tạo
-                 công ty dược có động cơ nghiên cứu thuốc mới
-                 tác giả có động cơ viết thêm sách hay
-```
-
-Nguyên văn: *"các văn bản pháp lý về bằng sáng chế và bản quyền mang lại **cả lợi ích lẫn chi phí**."*
+> [!note] Bằng sáng chế: hai mặt của một tờ giấy
+>
+> Sách phân tích cân bằng, không một chiều (tr. 337):
+>
+> ```
+>    BẰNG SÁNG CHẾ / BẢN QUYỀN
+>     ├── CHI PHÍ: cho phép định giá cao hơn thị trường cạnh tranh
+>     │            ⟹ gây tổn thất vô ích (mục 9)
+>     └── LỢI ÍCH: tăng động lực cho hoạt động sáng tạo
+>                  công ty dược có động cơ nghiên cứu thuốc mới
+>                  tác giả có động cơ viết thêm sách hay
+> ```
+>
+> Nguyên văn: *"các văn bản pháp lý về bằng sáng chế và bản quyền mang lại **cả lợi ích lẫn chi phí**."*
 
 ---
 
 ## 2. Độc quyền tự nhiên
 
+> [!quote]
 > **Độc quyền tự nhiên** (*natural monopoly*): doanh nghiệp độc quyền do tình huống mà ở đó một doanh
 > nghiệp có thể cung cấp một hàng hoá hay dịch vụ cho toàn bộ thị trường với chi phí thấp hơn là hai
 > hoặc nhiều doanh nghiệp. — chú thích tr. 337
@@ -96,9 +103,10 @@ Nguyên nhân: **lợi thế kinh tế theo quy mô** trải trên toàn bộ kh
 hạn **giảm liên tục**, chia thị trường cho nhiều doanh nghiệp chỉ làm **mỗi doanh nghiệp nhỏ đi và chi
 phí bình quân cao lên**.
 
-💼 Đặc điểm chung của các ngành độc quyền tự nhiên: **chi phí cố định rất lớn, chi phí biên rất nhỏ** —
-mạng lưới cấp nước, lưới điện, đường ống, hạ tầng viễn thông. Đặt hai hệ thống ống nước song song trong
-cùng một thành phố là lãng phí thuần tuý.
+> [!example]
+> Đặc điểm chung của các ngành độc quyền tự nhiên: **chi phí cố định rất lớn, chi phí biên rất nhỏ** —
+> mạng lưới cấp nước, lưới điện, đường ống, hạ tầng viễn thông. Đặt hai hệ thống ống nước song song trong
+> cùng một thành phố là lãng phí thuần tuý.
 
 ---
 
@@ -115,6 +123,7 @@ Và giới hạn quyền lực của nhà độc quyền, theo sách (tr. 335–
 
 ![Hình 1 — tr. 338, bản chụp giáo trình](../tai_lieu/hinh/ch15-hinh-01-tr338.png)
 
+> [!quote]
 > *"Một doanh nghiệp độc quyền có thể kiểm soát giá của mặt hàng mà họ bán, nhưng bởi vì mức giá cao sẽ
 > làm giảm số lượng hàng hoá mà khách hàng muốn mua, do đó **lợi nhuận độc quyền không phải là vô hạn**."*
 
@@ -122,6 +131,7 @@ Sách minh hoạ bằng Microsoft (tr. 335): tại sao không bán Windows với
 Vì khi đó *"rất ít người sẽ mua sản phẩm của họ… mọi người có lẽ sẽ mua ít máy tính hơn, hoặc chuyển
 sang dùng một hệ điều hành khác, hay dùng các bản sao chép không có bản quyền."*
 
+> [!quote] tr. 340
 > ⭐ Nhà độc quyền **có thể chọn bất cứ điểm nào TRÊN đường cầu**, nhưng **không thể chọn điểm nào NẰM
 > NGOÀI** nó (tr. 340).
 
@@ -157,11 +167,13 @@ sang dùng một hệ điều hành khác, hay dùng các bản sao chép không
 |      |      |                |                     |             *−4* |
 |    8 |    3 |             24 |                   3 |                  |
 
-📚 Biểu cầu này cũng có công thức đóng: **$P = 11 - Q$**, và từ đó $MR = 12 - 2Q$. Mục 16 sinh lại toàn
-bộ cột tổng doanh thu — khớp 9/9 dòng.
+> [!note]
+> Biểu cầu này cũng có công thức đóng: **$P = 11 - Q$**, và từ đó $MR = 12 - 2Q$. Mục 16 sinh lại toàn
+> bộ cột tổng doanh thu — khớp 9/9 dòng.
 
-### ⭐ Kết luận trung tâm
+### Kết luận trung tâm
 
+> [!quote] tr. 341
 > *"**Doanh thu biên của một doanh nghiệp độc quyền LUÔN THẤP HƠN giá bán của hàng hoá đó.**"* (tr. 341)
 
 Ví dụ tính của sách: nâng sản lượng từ **3 lên 4 gallon**, tổng doanh thu chỉ tăng **4 đô la** dù mỗi
@@ -181,20 +193,22 @@ Khi nhà độc quyền tăng sản lượng thêm một đơn vị, có **hai l
    Doanh nghiệp ĐỘC QUYỀN : có cả ① và ②       ⟹  MR < P
 ```
 
-⚠️ **Doanh thu biên có thể ÂM.** Từ gallon thứ 7 trở đi, hiệu ứng giá **lớn hơn** hiệu ứng sản lượng —
-bán thêm làm **tổng doanh thu giảm**. Nhà độc quyền **không bao giờ** sản xuất trong vùng này.
+> [!warning] Doanh thu biên có thể ÂM.
+> Từ gallon thứ 7 trở đi, hiệu ứng giá **lớn hơn** hiệu ứng sản lượng —
+> bán thêm làm **tổng doanh thu giảm**. Nhà độc quyền **không bao giờ** sản xuất trong vùng này.
 
 📌 Vùng $MR > 0$ chính là vùng **cầu co giãn** ở [bài 3, mục 8](bai_03_do_co_gian_va_dinh_gia.md#8-độ-co-giãn-thay-đổi-dọc-theo-một-đường-cầu-thẳng);
 vùng $MR < 0$ là vùng **cầu không co giãn**. Hai chương nói cùng một chuyện bằng hai ngôn ngữ.
 
 ---
 
-## 5. 📚 Vì sao nhà độc quyền KHÔNG có đường cung
+## 5. Vì sao nhà độc quyền KHÔNG có đường cung
 
 Hộp *"Bạn có biết"* (tr. 344) chỉ ra một điều dễ bị bỏ qua: cả chương này **không hề có đường cung**.
 
 Lý do:
 
+> [!quote]
 > *"Đường cung cho chúng ta biết mức sản lượng mà các doanh nghiệp sẽ cung cấp cho thị trường **với một
 > mức giá cho sẵn**. Khái niệm này đúng cho các doanh nghiệp cạnh tranh, những người chấp nhận giá.
 > Nhưng doanh nghiệp độc quyền lại khác, vì **họ là người quyết định giá bán**. Vì vậy thật vô nghĩa khi
@@ -227,10 +241,11 @@ Nhưng nhà độc quyền cần **hai bước, đúng thứ tự**:
 | **1** | Giao điểm **MR và MC** → xác định **SẢN LƯỢNG** $Q_{\max}$ | điểm **A**  |
 | **2** | Từ $Q_{\max}$ đi **lên đường CẦU** → xác định **GIÁ**      | điểm **B**  |
 
-⚠️ **Đừng đọc giá ở điểm A.** Điểm A nằm trên đường MR, không phải đường cầu. Giá là **mức cao nhất mà
-khách hàng chịu trả cho $Q_{\max}$ đơn vị** — và điều đó nằm trên đường cầu.
+> [!warning] Đừng đọc giá ở điểm A.
+> Điểm A nằm trên đường MR, không phải đường cầu. Giá là **mức cao nhất mà
+> khách hàng chịu trả cho $Q_{\max}$ đơn vị** — và điều đó nằm trên đường cầu.
 
-### ⭐ Khác biệt chính yếu, gói trong hai dòng (tr. 344)
+### Khác biệt chính yếu, gói trong hai dòng (tr. 344)
 
 $$\text{Doanh nghiệp cạnh tranh: } \quad P = MR = MC$$
 $$\text{Doanh nghiệp độc quyền: } \quad P > MR = MC$$
@@ -252,9 +267,10 @@ phẩm), chiều rộng $DC = Q_{\max}$.
 
 ![Hình 5 — tr. 345, bản chụp giáo trình](../tai_lieu/hinh/ch15-hinh-05-tr345.png)
 
-⚠️ **Nhưng có một khác biệt lớn so với bài 6:** trong thị trường cạnh tranh, lợi nhuận dương **thu hút
-doanh nghiệp mới** và bị ép về 0. Ở đây **rào cản gia nhập chặn điều đó lại**, nên nhà độc quyền có thể
-giữ lợi nhuận dương **vô thời hạn**.
+> [!warning] Nhưng có một khác biệt lớn so với bài 6:
+> trong thị trường cạnh tranh, lợi nhuận dương **thu hút
+> doanh nghiệp mới** và bị ép về 0. Ở đây **rào cản gia nhập chặn điều đó lại**, nên nhà độc quyền có thể
+> giữ lợi nhuận dương **vô thời hạn**.
 
 Đó chính là dòng cuối của **Bảng 2, tr. 360**: *"Lợi nhuận kinh tế trong dài hạn: cạnh tranh **Không**,
 độc quyền **Có**."*
@@ -273,12 +289,15 @@ sang cạnh tranh và ta quan sát được cả hai kết cục.
 | **Còn bằng sáng chế** | độc quyền                       | cao hơn chi phí biên nhiều       | thấp      |
 | **Hết bằng sáng chế** | cạnh tranh (thuốc gốc tràn vào) | **giảm xuống bằng chi phí biên** | cao       |
 
+> [!quote] tr. 346
 > *"Khi bằng sáng chế của một loại dược phẩm hết hạn, các công ty khác ngay lập tức nhảy vào và bắt đầu
 > bán các loại sản phẩm với các thành phần hoá học tương tự như loại dược phẩm mang nhãn hiệu của nhà
 > độc quyền trước đây. Các sản phẩm này được gọi là **dược phẩm thay thế**."* (tr. 346)
 
-⚠️ **Nhưng bằng sáng chế hết hạn KHÔNG xoá sạch quyền lực thị trường** (tr. 346):
+> [!warning] Nhưng bằng sáng chế hết hạn KHÔNG xoá sạch quyền lực thị trường
+> (tr. 346):
 
+> [!quote]
 > *"Nhiều khách hàng vẫn trung thành với nhãn hiệu thuốc này, có lẽ vì họ **sợ rằng các sản phẩm mới
 > không hoàn toàn giống** với loại thuốc mà họ vẫn sử dụng nhiều năm nay. Do đó, doanh nghiệp độc quyền
 > trước kia vẫn có thể tiếp tục bán ở mức giá cao hơn so với giá bán của các đối thủ cạnh tranh mới xuất
@@ -287,8 +306,9 @@ sang cạnh tranh và ta quan sát được cả hai kết cục.
 📌 Đây chính là **cạnh tranh độc quyền** — sản phẩm gần giống nhau nhưng **khác biệt trong nhận thức của
 khách hàng**. Toàn bộ nội dung **bài 8** (chương 16).
 
-💼 **Bài học quản trị:** khi rào cản pháp lý hết hiệu lực, thứ còn giữ được biên lợi nhuận cho bạn là
-**lòng tin và thói quen của khách hàng** — tức thương hiệu, không phải bằng sáng chế.
+> [!example] Bài học quản trị:
+> khi rào cản pháp lý hết hiệu lực, thứ còn giữ được biên lợi nhuận cho bạn là
+> **lòng tin và thói quen của khách hàng** — tức thương hiệu, không phải bằng sáng chế.
 
 ---
 
@@ -300,6 +320,7 @@ Dùng lại bộ công cụ **thặng dư** ở [bài 4](bai_04_thang_du_va_chi_
 
 ![Hình 7 — tr. 348, bản chụp giáo trình](../tai_lieu/hinh/ch15-hinh-07-tr348.png)
 
+> [!quote] tr. 348
 > *"Mức sản lượng có hiệu quả xã hội được xác định tại **điểm giao nhau giữa đường cầu và đường chi phí
 > biên**."* (tr. 348)
 
@@ -315,10 +336,12 @@ Dùng lại bộ công cụ **thặng dư** ở [bài 4](bai_04_thang_du_va_chi_
 | **Nhà độc quyền** | $MR = MC$                       | sản lượng **thấp**, giá **cao** |
 | **Xã hội**        | $\text{Cầu} = MC$, tức $P = MC$ | sản lượng **hiệu quả**          |
 
+> [!quote] tr. 349
 > ⭐ *"**Doanh nghiệp độc quyền sản xuất ở mức sản lượng thấp hơn mức sản lượng hiệu quả xã hội.**"* (tr. 349)
 
 **Cơ chế** — đọc kỹ đoạn này vì nó là bản chất của vấn đề (tr. 349):
 
+> [!quote]
 > *"Khi doanh nghiệp độc quyền bán sản phẩm ở mức giá cao hơn chi phí biên, **một số khách hàng tiềm
 > năng của họ sẽ đánh giá giá trị của hàng hoá cao hơn chi phí biên của nó nhưng lại thấp hơn giá độc
 > quyền. Do vậy, họ sẽ không mua sản phẩm này.** Điều này là bởi vì giá trị mà họ gắn cho sản phẩm lớn
@@ -328,6 +351,7 @@ Dùng lại bộ công cụ **thặng dư** ở [bài 4](bai_04_thang_du_va_chi_
 📌 Câu cuối giống **hệt** câu về thuế ở [bài 4, mục 11](bai_04_thang_du_va_chi_phi_cua_thue.md#11-vì-sao-tổn-thất-vô-ích-xuất-hiện--ví-dụ-joe-và-jane).
 Và sách nói thẳng (tr. 349):
 
+> [!quote]
 > *"doanh nghiệp độc quyền thực chất cũng giống như **những nhà thu thuế tư nhân**."*
 
 Mục 16 tính toàn bộ bảng phúc lợi bằng số: độc quyền cho tổng thặng dư **32,50 đô la**, mức hiệu quả cho
@@ -335,10 +359,11 @@ Mục 16 tính toàn bộ bảng phúc lợi bằng số: độc quyền cho t�
 
 ---
 
-## 10. ⚠️ Lợi nhuận độc quyền có phải là chi phí xã hội không?
+## 10. Lợi nhuận độc quyền có phải là chi phí xã hội không?
 
 Câu hỏi này rất dễ trả lời sai, và sách dành hẳn một mục cho nó (tr. 350).
 
+> [!quote]
 > *"Điều tự nhiên là chúng ta nghĩ rằng doanh nghiệp độc quyền gây thiệt hại cho xã hội bởi vì họ hưởng
 > lợi trên chi phí của khách hàng. Nhưng… **bản thân lợi nhuận độc quyền không phải là một vấn đề đối
 > với xã hội.**"*
@@ -362,21 +387,24 @@ Lý do: chủ doanh nghiệp độc quyền **cũng là một thành viên của
    └─────────────────────────────────────────────────────────────┘
 ```
 
-⚠️ Nhưng sách bổ sung một cảnh báo quan trọng ngay sau (tr. 350–351): nếu doanh nghiệp **tiêu tốn nguồn
-lực thực** để **giành và giữ** vị thế độc quyền — vận động hành lang, kiện tụng — thì *"tổn thất xã hội
-từ sự độc quyền sẽ bao gồm **cả những chi phí này** và những tổn thất vô ích do mức giá cao hơn chi phí
-biên gây ra."*
+> [!warning]
+> Nhưng sách bổ sung một cảnh báo quan trọng ngay sau (tr. 350–351): nếu doanh nghiệp **tiêu tốn nguồn
+> lực thực** để **giành và giữ** vị thế độc quyền — vận động hành lang, kiện tụng — thì *"tổn thất xã hội
+> từ sự độc quyền sẽ bao gồm **cả những chi phí này** và những tổn thất vô ích do mức giá cao hơn chi phí
+> biên gây ra."*
 
 ---
 
 ## 11. Phân biệt giá — truyện ngụ ngôn Readalot
 
+> [!quote]
 > **Phân biệt giá** (*price discrimination*): hành vi bán một hàng hoá nào đó theo những mức giá khác
 > nhau cho những khách hàng khác nhau. — chú thích tr. 351
 
-⚠️ **Điều kiện tiên quyết:** *"Để có thể phân biệt giá bán, doanh nghiệp cần phải có **quyền lực thị
-trường** ở một mức độ nhất định"* (tr. 351). Trong thị trường cạnh tranh không tồn tại phân biệt giá —
-khách bị đòi giá cao sẽ **đi mua chỗ khác**.
+> [!warning] Điều kiện tiên quyết:
+> *"Để có thể phân biệt giá bán, doanh nghiệp cần phải có **quyền lực thị
+> trường** ở một mức độ nhất định"* (tr. 351). Trong thị trường cạnh tranh không tồn tại phân biệt giá —
+> khách bị đòi giá cao sẽ **đi mua chỗ khác**.
 
 ### Câu chuyện (tr. 351–352)
 
@@ -408,6 +436,7 @@ Sách rút ra đúng ba (tr. 353):
 
 ### ① Phân biệt giá là chiến lược hợp lý để TỐI ĐA HOÁ LỢI NHUẬN
 
+> [!quote]
 > *"bằng cách bán sản phẩm ở các mức giá khác nhau cho các đối tượng khách hàng khác nhau, doanh nghiệp
 > độc quyền có thể tăng mức lợi nhuận."*
 
@@ -415,19 +444,23 @@ Sách rút ra đúng ba (tr. 353):
 
 Trong ví dụ là **vùng địa lý**; thực tế còn có **tuổi tác, thu nhập**, thời điểm mua, mức độ kiên nhẫn…
 
-⚠️ **Và điều này bị phá vỡ bởi kinh doanh chênh lệch giá** (*arbitrage*): *"nếu các nhà sách ở Úc có thể
-mua sách ở Hoa Kỳ để bán lại cho khách hàng ở Úc… **sẽ không có người Úc nào chịu mua cuốn sách đó ở
-mức giá cao hơn**"* (tr. 353).
+> [!warning] Và điều này bị phá vỡ bởi kinh doanh chênh lệch giá
+> (*arbitrage*): *"nếu các nhà sách ở Úc có thể
+> mua sách ở Hoa Kỳ để bán lại cho khách hàng ở Úc… **sẽ không có người Úc nào chịu mua cuốn sách đó ở
+> mức giá cao hơn**"* (tr. 353).
 
-### ③ ⭐ Phân biệt giá có thể LÀM TĂNG PHÚC LỢI KINH TẾ
+### ③ Phân biệt giá có thể LÀM TĂNG PHÚC LỢI KINH TẾ
 
 Đây là bài học mà sách gọi là *"điều ngạc nhiên nhất"*:
 
+> [!quote]
 > *"khi Readalot phân biệt giá bán, **tất cả độc giả đều mua sách**, và kết quả đạt được là sự hiệu quả.
 > Do đó, việc phân biệt giá bán **có thể loại bỏ sự không hiệu quả tồn tại trong giá độc quyền**."*
 
-⚠️ **Nhưng đọc tiếp câu sau**, vì đây là chỗ dễ hiểu sai nhất:
+> [!warning] Nhưng đọc tiếp câu sau
+> , vì đây là chỗ dễ hiểu sai nhất:
 
+> [!quote]
 > *"phúc lợi tăng lên từ hành vi phân biệt giá là do **sự tăng lên trong thặng dư của nhà sản xuất chứ
 > không phải thặng dư của người tiêu dùng**. Khách hàng không được hưởng lợi gì khi mua sách vì mức giá
 > mà họ trả **đúng bằng giá trị** mà họ gắn cho cuốn sách, do đó, họ **không có thặng dư tiêu dùng**."*
@@ -436,6 +469,7 @@ mức giá cao hơn**"* (tr. 353).
 
 ![Hình 9 — tr. 354, bản chụp giáo trình](../tai_lieu/hinh/ch15-hinh-09-tr354.png)
 
+> [!note]
 > **Phân biệt giá hoàn hảo**: doanh nghiệp biết **chính xác** mức sẵn lòng chi trả của từng khách hàng
 > và đưa ra mức giá đúng bằng mức đó.
 
@@ -470,8 +504,9 @@ Tất cả đều theo cùng một khuôn: **tìm một dấu hiệu quan sát �
 | **Học bổng** theo hoàn cảnh tài chính                     | **thu nhập**                                                                                                                                              |
 | **Sách bìa cứng trước, bìa mềm sau**                      | **độ kiên nhẫn**                                                                                                                                          |
 
-💡 Ví dụ **phiếu giảm giá** là ví dụ tinh vi nhất: công ty **cố ý tạo ra một rào chắn tốn công** để khách
-**tự phân loại chính mình**.
+> [!example]
+> Ví dụ **phiếu giảm giá** là ví dụ tinh vi nhất: công ty **cố ý tạo ra một rào chắn tốn công** để khách
+> **tự phân loại chính mình**.
 
 ---
 
@@ -489,10 +524,11 @@ Sách trình bày **bốn** hướng (tr. 357–361), và **nêu nhược điể
 Công cụ: **ngăn sáp nhập**, **chia nhỏ công ty** (ví dụ **AT&T bị tách thành tám công ty năm 1984**),
 ngăn các công ty phối hợp làm giảm cạnh tranh.
 
-⚠️ **Nhược điểm:** đôi khi sáp nhập là để **giảm chi phí** nhờ **sức mạnh tổng hợp**, không phải để giảm
-cạnh tranh. Chính phủ phải *"đo lường và so sánh giữa những lợi ích xã hội đạt được từ những sự phối hợp
-này với những tổn thất xã hội do sự suy giảm mức độ cạnh tranh"* — và người phản đối thì *"nghi ngờ về
-khả năng chính phủ có thể thực hiện chính xác những phân tích cần thiết"* (tr. 357–358).
+> [!warning] Nhược điểm:
+> đôi khi sáp nhập là để **giảm chi phí** nhờ **sức mạnh tổng hợp**, không phải để giảm
+> cạnh tranh. Chính phủ phải *"đo lường và so sánh giữa những lợi ích xã hội đạt được từ những sự phối hợp
+> này với những tổn thất xã hội do sự suy giảm mức độ cạnh tranh"* — và người phản đối thì *"nghi ngờ về
+> khả năng chính phủ có thể thực hiện chính xác những phân tích cần thiết"* (tr. 357–358).
 
 ### ② Điều tiết (quản lý giá)
 
@@ -513,6 +549,7 @@ Hai cách xử lý, **đều không hoàn hảo**:
 
 **Vấn đề 2 — triệt tiêu động cơ giảm chi phí** (tr. 359):
 
+> [!quote]
 > *"nếu một nhà độc quyền bị kiểm soát biết rằng các cơ quan quản lý nhà nước sẽ giảm mức giá bán khi
 > chi phí giảm thì họ sẽ **không thu được lợi gì từ việc cắt giảm chi phí**."*
 
@@ -520,8 +557,10 @@ Hai cách xử lý, **đều không hoàn hảo**:
 
 Phổ biến ở châu Âu (viễn thông, nước, điện); ở Hoa Kỳ là **dịch vụ bưu chính**.
 
-⚠️ **Các nhà kinh tế thường thích sở hữu tư nhân hơn** (tr. 359), và lý do rất thẳng thắn:
+> [!warning] Các nhà kinh tế thường thích sở hữu tư nhân hơn
+> (tr. 359), và lý do rất thẳng thắn:
 
+> [!quote]
 > *"Các ông chủ tư nhân luôn có động cơ để cắt giảm chi phí… Nếu những người quản lý doanh nghiệp không
 > thể cắt giảm chi phí, họ sẽ bị sa thải. Ngược lại, nếu các quan chức nhà nước điều hành doanh nghiệp
 > độc quyền này và họ không hoàn thành tốt công việc của mình, thì người bị thiệt chính là người tiêu
@@ -534,6 +573,7 @@ Câu chốt: *"để đảm bảo doanh nghiệp hoạt động tốt, **các ph
 Vì cả ba cách trên đều có khuyết điểm, một số nhà kinh tế cho rằng tốt nhất **để yên**. Sách dẫn
 **George Stigler** (Nobel về tổ chức ngành, tr. 360):
 
+> [!quote]
 > *"…tất cả các nền kinh tế đều không thể đạt được trạng thái lý tưởng này — sự khác biệt chính là **"thất
 > bại thị trường"**. Tuy nhiên, theo tôi thì những thất bại trong nền kinh tế Hoa Kỳ chẳng thấm vào đâu
 > so với những thất bại **về mặt chính trị** xuất phát từ sự không hoàn hảo của các chính sách kinh tế
@@ -571,6 +611,7 @@ lợi nhuận dài hạn (hệ quả về rào cản gia nhập).
 
 ## 16. Code minh hoạ
 
+> [!note]
 > ⚙️ **Chạy:** cần **Python 3.10+**. Lưu file rồi gõ `python3 bai-07-doc-quyen.py`.
 > **Không cần cài gói nào.** File có sẵn tại [thuc_hanh/bai-07-doc-quyen.py](../thuc_hanh/bai-07-doc-quyen.py).
 

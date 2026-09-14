@@ -1,22 +1,21 @@
 # Bài 6 — [bổ sung] Thuế thu nhập cá nhân: tiền thật về tay
 
+> [!info] Về bài này
 > **Bài này không có trong sách.** Toàn bộ nội dung là **[bổ sung]** — hai tập *Tài chính cá nhân
 > 101* dùng chữ *"thu nhập"* xuyên suốt mà chưa lần nào phân biệt **gộp** với **ròng**, trong khi cả
 > ba công thức phân bổ ở C2 tr. 18–25 đều chia trên thu nhập ròng.
->
 > **Cần đọc trước:** [Bài 5](bai_05_kiem_tien.md) — bài 5 nói về việc **kiếm** được bao nhiêu. Bài
 > này nói về việc **giữ lại** được bao nhiêu trong số đó, trước khi bài 7 chia nó ra.
->
 > **Ký hiệu:** **[bổ sung]** là kiến thức ngoài sách · **[đính chính]** là chỗ sách sai ·
 > **[2026]** là mục đối chiếu với hiện tại.
->
 > **Mọi con số pháp lý trong bài đều tra từ văn bản, ngày 09/09/2026.** Nguồn ghi ở
 > [mục 8](#8-nguồn-pháp-lý-và-hạn-dùng-của-bài-này) và trong chính code. Luật thuế đổi thường
 > xuyên — **kiểm lại ngày tra trước khi tin con số**.
->
 > **Code:** [`thuc_hanh/bai-06-thue-tncn.py`](../thuc_hanh/bai-06-thue-tncn.py)
 > — mọi hằng số pháp lý gom trong một khối đầu tệp, kèm số hiệu văn bản. Luật đổi thì sửa đúng
 > khối đó.
+>
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
 
 ---
 
@@ -84,6 +83,7 @@ Và khoảng cách ấy **rộng ra theo thu nhập**:
 
 Nên quy tắc của cả khoá học, và nó dùng cho mọi công thức phân bổ ở bài 7:
 
+> [!note]
 > **Mọi tỷ lệ phần trăm đều chia trên số tiền THẬT SỰ VÀO TÀI KHOẢN, không phải con số trên hợp
 > đồng lao động.**
 
@@ -187,6 +187,7 @@ Từ **kỳ tính thuế 2026**, biểu thuế rút từ 7 bậc xuống **5 b�
 
 ### Hiểu lầm phổ biến nhất về thuế
 
+> [!quote]
 > *"Lương tôi nhảy lên bậc trên, thế là đóng thuế nhiều hơn cả phần tăng."*
 
 **Không bao giờ xảy ra.** Chữ **"từng phần"** trong *"luỹ tiến từng phần"* nghĩa là mỗi bậc chỉ đánh
@@ -242,6 +243,7 @@ tháng — đáng để không bỏ qua khi lập kế hoạch năm nay.
 Cùng một người phụ thuộc, cùng mức giảm trừ 6,2 triệu — mà giá trị chênh nhau **hơn mười lần** giữa
 người lương 20tr và người lương 80tr. Lý do:
 
+> [!note]
 > Giá trị của một người phụ thuộc = **phần thu nhập tính thuế được cắt bỏ** × **thuế suất biên**
 
 | Lương gộp | Thu nhập tính thuế | Phần cắt được | Thuế suất biên | Lợi |
@@ -315,11 +317,13 @@ văn bản, để khi luật đổi thì chỉ phải sửa một chỗ.
 
 Ba mức vùng còn lại theo NĐ 293/2025: vùng II **4,73tr**, vùng III **4,14tr**, vùng IV **3,70tr**.
 
+> [!note]
 > **Một chỗ tinh tế của riêng năm 2026.** Mức tham chiếu đổi **giữa năm**: 2,34tr tới 30/6, rồi
 > 2,53tr từ 01/7. Nên trần bảo hiểm nửa đầu năm là **46,8tr**, nửa sau là **50,6tr**. Bài này và
 > code dùng mốc **sau** — đúng cho thời điểm đọc, nhưng nếu bạn quyết toán cả năm 2026 thì hai nửa
 > năm phải tính riêng.
 
+> [!quote]
 > **Hạn dùng.** Luật thuế và mức lương cơ sở đổi gần như hằng năm. Trước khi dùng con số nào
 > trong bài cho quyết định thật, hãy tra lại văn bản gốc — đúng tinh thần *"tra ngược về đâu?"* mà
 > [bài 1](bai_01_tai_chinh_ca_nhan_la_gi.md#1-định-nghĩa-của-sách-và-một-chỗ-không-kiểm-chứng-được)

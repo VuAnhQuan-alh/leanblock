@@ -1,12 +1,12 @@
 # Bài 0 — Bắt đầu từ đâu
 
+> [!info] Về bài này
 > Bài cầu nối, khoảng 40 phút. Không bám một chương nào của sách — nó chốt **quy ước trích dẫn**,
 > dựng **bộ số liệu dùng chung cho cả khoá**, và giao **bài tập số 1**.
-> 💼 **Góc quản trị** — ví dụ thêm cho người đi làm, **không có trong sách**.
-> 📚 **Mở rộng** — thứ sách nói lướt hoặc để trong hộp công cụ.
-> 🇻🇳 **Đối chiếu Việt Nam** — sách viết theo US GAAP, mục này nối sang thực tế Việt Nam.
-> ⚠️ — chỗ dễ hiểu sai, hoặc chỗ sách in sai.
-> 📌 **Cần đọc trước:** không có. Đây là bài đầu tiên.
+>
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
+>
+> **Cần đọc trước:** không có. Đây là bài đầu tiên.
 > Nếu đã học [Kinh tế vĩ mô EG14](../../../houedu/eg14-kinhtevimo-macro/README.md) thì mục 5 sẽ quen tay.
 > ⚙️ **Code:** [`thuc_hanh/bai-00-bat-dau-tu-dau.py`](../thuc_hanh/bai-00-bat-dau-tu-dau.py)
 > — **máy dò lỗi** của mục 6: cộng lại từng cột phụ lục, tính lại từng tỷ lệ, rồi đối chiếu với con số
@@ -22,10 +22,10 @@
 - [2. Quy ước trích dẫn — vì sao không có số trang giấy](#2-quy-ước-trích-dẫn--vì-sao-không-có-số-trang-giấy)
 - [3. Ba báo cáo tài chính trong một trang](#3-ba-báo-cáo-tài-chính-trong-một-trang)
 - [4. Công ty mẫu — một bộ số liệu cho cả khoá](#4-công-ty-mẫu--một-bộ-số-liệu-cho-cả-khoá)
-- [5. 📚 GAAP, VAS và IFRS — sách viết theo khung nào](#5--gaap-vas-và-ifrs--sách-viết-theo-khung-nào)
-- [6. ⚠️ Hai mươi tám chỗ sách in sai, và vì sao đó là bài tập số 1](#6--hai-mươi-tám-chỗ-sách-in-sai-và-vì-sao-đó-là-bài-tập-số-1)
+- [5. GAAP, VAS và IFRS — sách viết theo khung nào](#5-gaap-vas-và-ifrs--sách-viết-theo-khung-nào)
+- [6. Hai mươi tám chỗ sách in sai, và vì sao đó là bài tập số 1](#6-hai-mươi-tám-chỗ-sách-in-sai-và-vì-sao-đó-là-bài-tập-số-1)
 - [7. Tự thử](#7-tự-thử)
-- [8. 🇻🇳 Đối chiếu Việt Nam — Vinamilk 2024](#8--đối-chiếu-việt-nam--vinamilk-2024)
+- [8. Đối chiếu Việt Nam — Vinamilk 2024](#8-đối-chiếu-việt-nam--vinamilk-2024)
 - [9. Từ điển thuật ngữ](#9-từ-điển-thuật-ngữ)
 - [10. Câu hỏi tự kiểm tra](#10-câu-hỏi-tự-kiểm-tra)
 - [Tóm tắt một trang](#tóm-tắt-một-trang)
@@ -39,6 +39,7 @@
 
 Sách nói thẳng ở ngay chương 4:
 
+> [!quote]
 > *"Ngay từ đầu chúng tôi đã nói rằng sẽ không dạy bạn về kế toán, vậy nên chúng tôi sẽ không
 > làm thế. Tuy nhiên, có một khái niệm kế toán sẽ được chúng tôi giải thích trong chương này…"*
 > — ch. 4 · PDF tr. 36
@@ -56,8 +57,10 @@ Lời nói đầu đặt ra bốn nhóm kỹ năng. Đây là bản đồ để 
    ④ Thông hiểu bức tranh toàn cảnh  bối cảnh ngành, tổ chức         →  bài 12
 ```
 
-⚠️ **Đừng nhầm nhóm ① là ruột sách.** Nhóm ② mới là. Một câu của chương 4 tóm gọn cả cuốn:
+> [!warning] Đừng nhầm nhóm ① là ruột sách.
+> Nhóm ② mới là. Một câu của chương 4 tóm gọn cả cuốn:
 
+> [!quote]
 > *"Lợi nhuận luôn là dự toán — và bạn không thể chi tiêu một thứ được dự toán."*
 > — ch. 4 · PDF tr. 40
 
@@ -102,6 +105,7 @@ khác nhau — bảng này đáng dán lên tường:
 
 Cột cuối là điều đáng nhớ nhất. Sách viết:
 
+> [!quote]
 > *"Đúng như những gì mà Warren Buffet nhận thấy, ở báo cáo này không có nhiều chỗ để chơi trò
 > tiểu xảo với các con số, như trong các loại báo cáo khác. Tuy nhiên, cần nói rõ rằng 'không có
 > nhiều chỗ' không có nghĩa là 'không có chỗ'."* — ch. 16 · PDF tr. 124
@@ -143,18 +147,20 @@ Chạy thẳng nó để xem ba báo cáo:
 cd thuc_hanh && python3 cong_ty_mau.py
 ```
 
-⚠️ File này **tự kiểm bằng `assert` ngay khi import** — bảng cân đối phải cân ở cả hai năm, mười
-một dòng của báo cáo lưu chuyển tiền tệ phải tái lập được từ chênh lệch hai bảng cân đối, lợi
-nhuận giữ lại phải cuộn chiếu đúng. Lý do rất thực tế: **nếu gõ y nguyên theo sách thì bảng cân
-đối không cân.** Xem mục 6.
+> [!warning]
+> File này **tự kiểm bằng `assert` ngay khi import** — bảng cân đối phải cân ở cả hai năm, mười
+> một dòng của báo cáo lưu chuyển tiền tệ phải tái lập được từ chênh lệch hai bảng cân đối, lợi
+> nhuận giữ lại phải cuộn chiếu đúng. Lý do rất thực tế: **nếu gõ y nguyên theo sách thì bảng cân
+> đối không cân.** Xem mục 6.
 
 ---
 
-## 5. 📚 GAAP, VAS và IFRS — sách viết theo khung nào
+## 5. GAAP, VAS và IFRS — sách viết theo khung nào
 
 Sách là sách Mỹ, viết theo **GAAP** (*generally accepted accounting principles*). Sách tự định
 nghĩa nó, và con số nó đưa ra đáng nhớ:
 
+> [!quote]
 > *"Bộ tiêu chuẩn GAAP — các quy tắc kế toán được thừa nhận phổ quát dùng để kiểm soát cách ghi
 > sổ sách của các kế toán viên ở Mỹ — **dày đến 4.000 trang** và có rất nhiều quy tắc chi tiết.
 > Bạn có thể tưởng rằng GAAP sẽ quy định: 'giám đốc sản xuất không được tính' hoặc 'quản đốc thì
@@ -164,6 +170,7 @@ nghĩa nó, và con số nó đưa ra đáng nhớ:
 trang quy tắc mà vẫn không nói được lương quản đốc nhà máy có nằm trong giá vốn hàng bán hay không.
 Sách chốt bằng hai chữ — *"hợp lý và nhất quán"*:
 
+> [!quote]
 > *"Chừng nào logic của doanh nghiệp vẫn còn hợp lý và chừng nào logic đó vẫn còn được áp dụng
 > nhất quán, thì chừng đó doanh nghiệp muốn làm gì cũng được."* — ch. 7 · PDF tr. 57
 
@@ -177,7 +184,7 @@ viên phải **phán đoán** thì y hệt: khi nào ghi nhận doanh thu, khấ
 
 ---
 
-## 6. ⚠️ Hai mươi tám chỗ sách in sai, và vì sao đó là bài tập số 1
+## 6. Hai mươi tám chỗ sách in sai, và vì sao đó là bài tập số 1
 
 Đây là một cuốn sách có luận điểm trung tâm là **"đừng tin các con số"**. Bản dịch của nó in sai
 **28 chỗ**. Đó không phải phiền toái — đó là cơ hội sư phạm tốt nhất mà cả khoá học có.
@@ -245,7 +252,7 @@ Loại **khái niệm** mới đáng sợ. Nó không làm sai một phép tính
 
 ---
 
-## 8. 🇻🇳 Đối chiếu Việt Nam — Vinamilk 2024
+## 8. Đối chiếu Việt Nam — Vinamilk 2024
 
 `thuc_hanh/doi_chieu_viet_nam.py` dựng báo cáo tài chính hợp nhất **đã kiểm toán** của **Công ty
 Cổ phần Sữa Việt Nam (HOSE: VNM)** năm 2024, lập theo **IFRS**, in trong Báo cáo thường niên
@@ -269,6 +276,7 @@ Hai dòng cuối là bài học lớn nhất: Vinamilk có **biên lợi nhuận
 sản thấp hơn hẳn**. Hai con đường rất khác nhau dẫn tới hai mức ROA rất khác nhau. Đó chính là
 **phân rã DuPont** — bài 9.
 
+> [!quote]
 > ⚠️ **Đây là bản IFRS, không phải bản VAS.** Vinamilk công bố song song hai bộ báo cáo, và **hai
 > bộ cho hai con số tổng tài sản khác nhau** cho cùng một công ty, cùng một ngày.
 >
@@ -384,10 +392,10 @@ sản thấp hơn hẳn**. Hai con đường rất khác nhau dẫn tới hai m�
 - **Đã kiểm chứng bằng code** — xem [`thuc_hanh/bai-00-bat-dau-tu-dau.py`](../thuc_hanh/bai-00-bat-dau-tu-dau.py):
   máy dò tìm được **14** chỗ in sai; bảng đính chính đầy đủ **20** chỗ ở [README](../README.md).
 - **Chỗ đã ghi rõ để không nhoè ranh giới:**
-  - Toàn bộ [mục 8 — Đối chiếu Việt Nam](#8--đối-chiếu-việt-nam--vinamilk-2024) **nằm ngoài sách**.
+  - Toàn bộ [mục 8 — Đối chiếu Việt Nam](#8-đối-chiếu-việt-nam--vinamilk-2024) **nằm ngoài sách**.
   - Bảng so sánh ba báo cáo ở [mục 3](#3-ba-báo-cáo-tài-chính-trong-một-trang) do bài này dựng;
     sách trình bày ba báo cáo rời ở ba phần khác nhau, không đặt cạnh nhau.
-  - Thuật ngữ **VAS** và **IFRS** ở [mục 5](#5--gaap-vas-và-ifrs--sách-viết-theo-khung-nào)
+  - Thuật ngữ **VAS** và **IFRS** ở [mục 5](#5-gaap-vas-và-ifrs--sách-viết-theo-khung-nào)
     **không có trong sách** — sách chỉ nói về GAAP của Mỹ.
   - ⚠️ Bài này **không dẫn con số tổng tài sản theo VAS của Vinamilk**, vì chưa lấy được bản VAS
     từ nguồn gốc. Hai bài báo đã cho hai con số khác nhau — đúng kiểu sai lầm mà chương 1 cảnh báo.

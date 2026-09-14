@@ -1,9 +1,11 @@
 # Bài 1 — Sự kiện ngẫu nhiên và giải tích kết hợp
 
+> [!info] Về bài này
 > Bài học dựa trên **Giáo trình Xác suất Thống kê** (Tống Đình Quỳ, NXB Bách Khoa – Hà Nội), **Chương I §1**, tr. 5–11.
-> 💼 **Góc QTKD** là ví dụ thêm cho ngành Quản trị Kinh doanh, không có trong giáo trình.
-> 📚 **Mở rộng** là kiến thức nền giáo trình lướt qua.
-> 📌 **Cần đọc trước:** không có — đây là bài đầu tiên.
+>
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
+>
+> **Cần đọc trước:** không có — đây là bài đầu tiên.
 
 Cả môn Xác suất Thống kê dựng trên hai thứ của bài này: **mô tả cho đúng cái gì có thể xảy ra**,
 và **đếm cho đúng có bao nhiêu cách xảy ra**. Chưa làm chủ hai thứ đó thì mọi công thức
@@ -14,7 +16,7 @@ xác suất phía sau đều thành học vẹt.
 1. [Phép thử, kết cục và sự kiện](#1-phép-thử-kết-cục-và-sự-kiện)
 2. [Không gian các sự kiện sơ cấp](#2-không-gian-các-sự-kiện-sơ-cấp)
 3. [Bảy phép toán và quan hệ giữa các sự kiện](#3-bảy-phép-toán-và-quan-hệ-giữa-các-sự-kiện)
-4. [📚 Luật De Morgan](#4--luật-de-morgan)
+4. [📚 Luật De Morgan](#4-luật-de-morgan)
 5. [Giải tích kết hợp: bốn công thức đếm](#5-giải-tích-kết-hợp-bốn-công-thức-đếm)
 6. [Chọn công thức đếm nào](#6-chọn-công-thức-đếm-nào)
 7. [Nhị thức Newton và hằng đẳng thức Pascal](#7-nhị-thức-newton-và-hằng-đẳng-thức-pascal)
@@ -31,6 +33,7 @@ xác suất phía sau đều thành học vẹt.
 
 Giáo trình mở đầu bằng một lời thú nhận thẳng thắn (tr. 5):
 
+> [!quote]
 > "Khái niệm thường gặp trong lý thuyết xác suất là **sự kiện** (mà không thể định nghĩa chặt chẽ)."
 
 Đây không phải sự lười biếng. Trong toán học, mọi hệ thống đều phải bắt đầu từ vài khái niệm
@@ -62,28 +65,28 @@ $$
 Ký hiệu $U$ và $V$ sẽ dùng suốt chương I, nhớ kỹ. Theo một nghĩa nào đó, $U$ và $V$ chính là hai
 **trường hợp cực đoan** của sự kiện ngẫu nhiên: xác suất bằng 1 và bằng 0.
 
-### 💼 Góc QTKD
-
-**Phép thử:** gửi 5 email chào hàng cho 5 khách hàng tiềm năng trong danh sách.
-
-- **Kết cục:** có 0, 1, 2, 3, 4 hoặc 5 khách phản hồi — 6 kết cục.
-- **Sự kiện tất yếu $U$:** "số khách phản hồi nằm trong khoảng 0 đến 5".
-- **Sự kiện bất khả $V$:** "có 6 khách phản hồi".
-- **Sự kiện ngẫu nhiên:** "có ít nhất 1 khách phản hồi" — thứ bạn thật sự quan tâm.
-
-Chú ý cách phát biểu phép thử: *phải nói rõ làm gì và đo cái gì*. "Gửi email" chưa phải phép thử;
-"gửi 5 email rồi đếm số phản hồi" mới là phép thử. Trong bài tập, nhiều bạn mất điểm ngay ở bước
-này vì mô tả phép thử lỏng lẻo, dẫn đến đếm sai kết cục.
-
-Một câu hỏi giáo trình đặt ra ở tr. 6 và trả lời rất đáng đọc: **do đâu có sự kiện ngẫu nhiên?**
-Không phải vì thế giới vô luật, mà vì *ta thiếu tri thức, thông tin và phương tiện* (kinh phí,
-thiết bị, thời gian) để nhận thức đầy đủ. Chỉ cần một thay đổi rất nhỏ của bộ điều kiện đã đổi
-kết cục. Vì thế giáo trình kết luận thẳng: bài toán xác định bản chất xác suất của một sự kiện
-bất kỳ trong một phép thử tuỳ ý là **không thể giải được**.
-
-Với QTKD, đó là lời cảnh báo hữu ích: khách hàng không phải máy phát ngẫu nhiên; họ có lý do
-để mua hay không mua. Ta dùng xác suất vì *không quan sát được* các lý do đó, chứ không phải
-vì chúng không tồn tại.
+> [!example] Góc QTKD
+>
+> **Phép thử:** gửi 5 email chào hàng cho 5 khách hàng tiềm năng trong danh sách.
+>
+> - **Kết cục:** có 0, 1, 2, 3, 4 hoặc 5 khách phản hồi — 6 kết cục.
+> - **Sự kiện tất yếu $U$:** "số khách phản hồi nằm trong khoảng 0 đến 5".
+> - **Sự kiện bất khả $V$:** "có 6 khách phản hồi".
+> - **Sự kiện ngẫu nhiên:** "có ít nhất 1 khách phản hồi" — thứ bạn thật sự quan tâm.
+>
+> Chú ý cách phát biểu phép thử: *phải nói rõ làm gì và đo cái gì*. "Gửi email" chưa phải phép thử;
+> "gửi 5 email rồi đếm số phản hồi" mới là phép thử. Trong bài tập, nhiều bạn mất điểm ngay ở bước
+> này vì mô tả phép thử lỏng lẻo, dẫn đến đếm sai kết cục.
+>
+> Một câu hỏi giáo trình đặt ra ở tr. 6 và trả lời rất đáng đọc: **do đâu có sự kiện ngẫu nhiên?**
+> Không phải vì thế giới vô luật, mà vì *ta thiếu tri thức, thông tin và phương tiện* (kinh phí,
+> thiết bị, thời gian) để nhận thức đầy đủ. Chỉ cần một thay đổi rất nhỏ của bộ điều kiện đã đổi
+> kết cục. Vì thế giáo trình kết luận thẳng: bài toán xác định bản chất xác suất của một sự kiện
+> bất kỳ trong một phép thử tuỳ ý là **không thể giải được**.
+>
+> Với QTKD, đó là lời cảnh báo hữu ích: khách hàng không phải máy phát ngẫu nhiên; họ có lý do
+> để mua hay không mua. Ta dùng xác suất vì *không quan sát được* các lý do đó, chứ không phải
+> vì chúng không tồn tại.
 
 ---
 
@@ -122,21 +125,22 @@ $$
 Hai dòng cuối là **mẹo cực kỳ hay dùng**: thay vì cộng 5 sự kiện, viết thành *đối lập của một
 sự kiện*. Ở bài 2 khi tính xác suất, việc này giảm 5 phép tính xuống còn 1.
 
-⚠️ **Cẩn thận với $\Omega$.** Cùng một phép thử vật lý, nếu đo đại lượng khác thì $\Omega$ khác hẳn.
-Vẫn lấy 5 sản phẩm, nhưng nếu quan tâm *sản phẩm nào bị lỗi* (chứ không chỉ có bao nhiêu cái lỗi)
-thì $\Omega$ có $2^5 = 32$ phần tử, không phải 6. Câu hỏi quyết định $\Omega$, không phải phép thử.
+> [!warning] Cẩn thận với $\Omega$.
+> Cùng một phép thử vật lý, nếu đo đại lượng khác thì $\Omega$ khác hẳn.
+> Vẫn lấy 5 sản phẩm, nhưng nếu quan tâm *sản phẩm nào bị lỗi* (chứ không chỉ có bao nhiêu cái lỗi)
+> thì $\Omega$ có $2^5 = 32$ phần tử, không phải 6. Câu hỏi quyết định $\Omega$, không phải phép thử.
 
-### 💼 Góc QTKD
-
-Một cửa hàng theo dõi doanh thu ngày, phân loại theo mức: dưới 10 triệu, 10–20 triệu, trên 20 triệu.
-
-$$\Omega = \{L, M, H\}$$
-
-Sự kiện "hôm nay không phải ngày tệ" $= \overline{L} = M + H$.
-
-Nhưng nếu bài toán là *doanh thu chính xác bao nhiêu đồng*, thì $\Omega = [0, +\infty)$ — vô hạn
-không đếm được. Đây chính là ranh giới giữa **biến ngẫu nhiên rời rạc** và **liên tục** mà bài 5
-sẽ xử lý. Ba mức $L, M, H$ là rời rạc; số tiền là liên tục.
+> [!example] Góc QTKD
+>
+> Một cửa hàng theo dõi doanh thu ngày, phân loại theo mức: dưới 10 triệu, 10–20 triệu, trên 20 triệu.
+>
+> $$\Omega = \{L, M, H\}$$
+>
+> Sự kiện "hôm nay không phải ngày tệ" $= \overline{L} = M + H$.
+>
+> Nhưng nếu bài toán là *doanh thu chính xác bao nhiêu đồng*, thì $\Omega = [0, +\infty)$ — vô hạn
+> không đếm được. Đây chính là ranh giới giữa **biến ngẫu nhiên rời rạc** và **liên tục** mà bài 5
+> sẽ xử lý. Ba mức $L, M, H$ là rời rạc; số tiền là liên tục.
 
 ---
 
@@ -171,9 +175,10 @@ AU &= A, & AV &= V, & AA &= A
 \end{aligned}
 $$
 
-⚠️ **Dấu $+$ ở đây không phải phép cộng số học.** $A + A = A$, chứ không phải $2A$. Ký hiệu $+$
-chỉ là quy ước của trường phái xác suất Nga (giáo trình này theo trường phái đó); sách tiếng Anh
-viết $A \cup B$. Nếu đọc song song hai loại sách, đừng bị rối.
+> [!warning] Dấu $+$ ở đây không phải phép cộng số học.
+> $A + A = A$, chứ không phải $2A$. Ký hiệu $+$
+> chỉ là quy ước của trường phái xác suất Nga (giáo trình này theo trường phái đó); sách tiếng Anh
+> viết $A \cup B$. Nếu đọc song song hai loại sách, đừng bị rối.
 
 **Thí dụ 1.4 (tr. 8).** Mạng điện gồm 3 bóng đèn. Mạng mất điện (sự kiện $A$) chỉ có thể do
 cháy bóng ($A_i$ = bóng $i$ cháy). Biểu diễn $A$ theo $A_i$.
@@ -194,29 +199,29 @@ Bài học rút ra: **cấu trúc vật lý của hệ thống dịch thẳng th
 Nối tiếp → phép nhân (cần *tất cả* cùng hỏng thì mới đứt... hoặc cần *tất cả* cùng tốt thì mới chạy,
 tuỳ bạn viết theo hỏng hay theo tốt). Song song → phép cộng.
 
-### 💼 Góc QTKD
-
-Một doanh nghiệp có chuỗi cung ứng: nguyên liệu chỉ mua từ nhà cung cấp $N_1$ (độc quyền),
-còn khâu vận chuyển thì có hai đối tác $V_2$ và $V_3$ có thể thay nhau.
-
-Gọi $A_i$ = "đối tác $i$ ngừng phục vụ". Sản xuất bị đình trệ khi:
-
-$$A = A_1 + A_2 A_3$$
-
-Đọc: đứt hàng khi **nhà cung cấp nguyên liệu chết**, *hoặc* **cả hai hãng vận chuyển cùng chết**.
-
-So sánh với thí dụ 1.4 để thấy sự khác biệt: ở đó công thức là $A_1(A_2 + A_3)$, ở đây là
-$A_1 + A_2 A_3$. Đảo dấu cộng và nhân vì ở đó $A_i$ nghĩa là "cháy" trong một mạng mà cháy
-mới ngắt điện, còn ở đây $N_1$ độc quyền nên chỉ mình nó chết là đủ chết cả chuỗi.
-
-**Đây là bài học quản trị rủi ro cơ bản:** thành phần mắc *nối tiếp* (một điểm chết) là điểm
-yếu; thành phần mắc *song song* (có dự phòng) là điểm mạnh. Bài 3 sẽ cho bạn con số cụ thể:
-hai nhà vận chuyển dự phòng, mỗi hãng có 10% khả năng chết, thì rủi ro đứt vận chuyển tụt
-từ 10% xuống 1%.
+> [!example] Góc QTKD
+>
+> Một doanh nghiệp có chuỗi cung ứng: nguyên liệu chỉ mua từ nhà cung cấp $N_1$ (độc quyền),
+> còn khâu vận chuyển thì có hai đối tác $V_2$ và $V_3$ có thể thay nhau.
+>
+> Gọi $A_i$ = "đối tác $i$ ngừng phục vụ". Sản xuất bị đình trệ khi:
+>
+> $$A = A_1 + A_2 A_3$$
+>
+> Đọc: đứt hàng khi **nhà cung cấp nguyên liệu chết**, *hoặc* **cả hai hãng vận chuyển cùng chết**.
+>
+> So sánh với thí dụ 1.4 để thấy sự khác biệt: ở đó công thức là $A_1(A_2 + A_3)$, ở đây là
+> $A_1 + A_2 A_3$. Đảo dấu cộng và nhân vì ở đó $A_i$ nghĩa là "cháy" trong một mạng mà cháy
+> mới ngắt điện, còn ở đây $N_1$ độc quyền nên chỉ mình nó chết là đủ chết cả chuỗi.
+>
+> **Đây là bài học quản trị rủi ro cơ bản:** thành phần mắc *nối tiếp* (một điểm chết) là điểm
+> yếu; thành phần mắc *song song* (có dự phòng) là điểm mạnh. Bài 3 sẽ cho bạn con số cụ thể:
+> hai nhà vận chuyển dự phòng, mỗi hãng có 10% khả năng chết, thì rủi ro đứt vận chuyển tụt
+> từ 10% xuống 1%.
 
 ---
 
-## 4. 📚 Luật De Morgan
+## 4. Luật De Morgan
 
 Giáo trình đẩy công thức này xuống phần bài tập (bài 2, tr. 35) mà không giải, nhưng nó xuất hiện
 dày đặc ở chương sau nên cần nắm ngay:
@@ -244,16 +249,16 @@ $$P(\text{ít nhất một}) = 1 - P(\text{không cái nào})$$
 
 và bạn sẽ dùng nó gần như mọi bài tập.
 
-### 💼 Góc QTKD
-
-Chiến dịch marketing chạy trên 3 kênh: Facebook ($A_1$), Google ($A_2$), TikTok ($A_3$).
-$A_i$ = "kênh $i$ mang về ít nhất một đơn hàng".
-
-"Chiến dịch thất bại hoàn toàn" $= \overline{A_1 + A_2 + A_3} = \overline{A_1}\,\overline{A_2}\,\overline{A_3}$
-— cả ba kênh cùng không ra đơn nào.
-
-Nên nếu bạn muốn biết xác suất chiến dịch *có* ra đơn, đừng cộng ba kênh (sẽ đếm trùng khách
-mua qua nhiều kênh). Hãy tính xác suất cả ba cùng trượt rồi lấy $1$ trừ đi.
+> [!example] Góc QTKD
+>
+> Chiến dịch marketing chạy trên 3 kênh: Facebook ($A_1$), Google ($A_2$), TikTok ($A_3$).
+> $A_i$ = "kênh $i$ mang về ít nhất một đơn hàng".
+>
+> "Chiến dịch thất bại hoàn toàn" $= \overline{A_1 + A_2 + A_3} = \overline{A_1}\,\overline{A_2}\,\overline{A_3}$
+> — cả ba kênh cùng không ra đơn nào.
+>
+> Nên nếu bạn muốn biết xác suất chiến dịch *có* ra đơn, đừng cộng ba kênh (sẽ đếm trùng khách
+> mua qua nhiều kênh). Hãy tính xác suất cả ba cùng trượt rồi lấy $1$ trừ đi.
 
 ---
 
@@ -261,6 +266,7 @@ mua qua nhiều kênh). Hãy tính xác suất cả ba cùng trượt rồi lấ
 
 Đây là phần "cày" của bài. Toàn bộ quy về **một mô hình duy nhất** (tr. 9):
 
+> [!note]
 > Chọn hú hoạ ra $k$ phần tử từ $n$ phần tử cho trước.
 
 Hai câu hỏi tách ra bốn trường hợp:
@@ -354,27 +360,27 @@ trọng). Theo (1.4):
 
 $$C_8^3 = \frac{8!}{3!\,5!} = 56 \text{ cách}$$
 
-### 💼 Góc QTKD
-
-Cùng một phòng ban 8 nhân viên, ba câu hỏi khác nhau ra ba con số khác nhau:
-
-| Câu hỏi                                                                 | Thứ tự? | Lặp?   | Công thức                | Kết quả |
-| ----------------------------------------------------------------------- | ------- | ------ | ------------------------ | ------- |
-| Lập tổ dự án 3 người, vai trò như nhau                                  | không   | không  | $C_8^3$                  | **56**  |
-| Bổ nhiệm 3 vị trí: trưởng nhóm, phụ trách kỹ thuật, phụ trách tài chính | **có**  | không  | $A_8^3$                  | **336** |
-| Xếp lịch trực 3 ca trong tuần, một người có thể trực nhiều ca           | **có**  | **có** | $\overline{A}_8^3 = 8^3$ | **512** |
-
-Ba tình huống nghe rất giống nhau trong lời nói hàng ngày, nhưng đáp số chênh gần 10 lần.
-**Đọc kỹ đề là kỹ năng quan trọng hơn nhớ công thức.**
-
-Vẫn cùng phòng ban đó, thêm một bài toán mã hoá sản phẩm:
-
-> Công ty cần mã SKU 3 ký tự, lấy từ 5 chữ cái `A B C D E`, cho phép trùng. Được bao nhiêu mã?
-
-$$\overline{A}_5^3 = 5^3 = 125 \text{ mã}$$
-
-Đúng bằng thí dụ 1.7 của giáo trình — cùng bài toán, đổi vỏ từ biển số xe sang mã SKU. Rất nhiều
-bài toán kinh doanh chỉ là bài toán giáo trình đội lốt.
+> [!example] Góc QTKD
+>
+> Cùng một phòng ban 8 nhân viên, ba câu hỏi khác nhau ra ba con số khác nhau:
+>
+> | Câu hỏi                                                                 | Thứ tự? | Lặp?   | Công thức                | Kết quả |
+> | ----------------------------------------------------------------------- | ------- | ------ | ------------------------ | ------- |
+> | Lập tổ dự án 3 người, vai trò như nhau                                  | không   | không  | $C_8^3$                  | **56**  |
+> | Bổ nhiệm 3 vị trí: trưởng nhóm, phụ trách kỹ thuật, phụ trách tài chính | **có**  | không  | $A_8^3$                  | **336** |
+> | Xếp lịch trực 3 ca trong tuần, một người có thể trực nhiều ca           | **có**  | **có** | $\overline{A}_8^3 = 8^3$ | **512** |
+>
+> Ba tình huống nghe rất giống nhau trong lời nói hàng ngày, nhưng đáp số chênh gần 10 lần.
+> **Đọc kỹ đề là kỹ năng quan trọng hơn nhớ công thức.**
+>
+> Vẫn cùng phòng ban đó, thêm một bài toán mã hoá sản phẩm:
+>
+> > Công ty cần mã SKU 3 ký tự, lấy từ 5 chữ cái `A B C D E`, cho phép trùng. Được bao nhiêu mã?
+>
+> $$\overline{A}_5^3 = 5^3 = 125 \text{ mã}$$
+>
+> Đúng bằng thí dụ 1.7 của giáo trình — cùng bài toán, đổi vỏ từ biển số xe sang mã SKU. Rất nhiều
+> bài toán kinh doanh chỉ là bài toán giáo trình đội lốt.
 
 ---
 
@@ -461,6 +467,7 @@ một tập $n$ phần tử.
 
 ## 8. Code minh hoạ
 
+> [!note]
 > ⚙️ **Chạy:** cần **Python 3.10+** (macOS/Linux có sẵn). Lưu file rồi gõ `python3 bai-01-su-kien.py`.
 > Chỉ dùng thư viện chuẩn — **không cần cài gói nào**.
 
@@ -610,10 +617,10 @@ Sửa code ở mục 8 rồi quan sát. Không có lời giải ở đây — ch
 | Nhị thức Newton              | Binomial theorem              | Newton                             |
 | Tam giác Pascal              | Pascal's triangle             |                                    |
 
-⚠️ **Bẫy phiên âm — đọc kỹ mục này một lần rồi quên nó đi.**
-Giáo trình in năm 1997 viết tên riêng theo lối **phiên âm tiếng Việt**. Khoá học này luôn
-dùng **tên gốc**, vì đó là thứ bạn gõ vào Google, đọc trong sách tiếng Anh và thấy trong
-tên hàm của mọi phần mềm thống kê. Bảng đối chiếu để bạn đọc được bản in:
+> [!warning] Bẫy phiên âm — đọc kỹ mục này một lần rồi quên nó đi.
+> Giáo trình in năm 1997 viết tên riêng theo lối **phiên âm tiếng Việt**. Khoá học này luôn
+> dùng **tên gốc**, vì đó là thứ bạn gõ vào Google, đọc trong sách tiếng Anh và thấy trong
+> tên hàm của mọi phần mềm thống kê. Bảng đối chiếu để bạn đọc được bản in:
 
 | Sách in (phiên âm) | Khoá học dùng   | Sách in (phiên âm) | Khoá học dùng  |
 | ------------------ | --------------- | ------------------ | -------------- |

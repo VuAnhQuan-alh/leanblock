@@ -1,10 +1,13 @@
 # Nhà quản lý quỹ và nghĩa vụ tín thác
 
+> [!info] Về bài này
 > Bài học dựng từ **buổi 20** (*"Professional Money Managers and Their Influence"*, `txTaBKZ8qrs`, 73:07) và **buổi 6** (*"Guest Lecture by David Swensen"*, `wRdx7kVNQ_E`, 71:52) của **Yale ECON 252 — Financial Markets, Xuân 2011**, giảng viên **Robert J. Shiller**, khách mời **David F. Swensen** — Giám đốc Đầu tư Đại học Yale 1985–2021.
 > Mốc ghi dạng `06 43:41` = **buổi 6, phút 43:41**. Toàn bộ mốc đã đối chiếu ngược với phụ đề gốc bằng script, tách riêng từng buổi.
 > Mục có 📚 là **kiến thức bổ sung**, không có trong video. Mục có 🇻🇳 là **số liệu Việt Nam**, không có trong video.
-> ⚠️ **Video ghi tháng 1 và tháng 4/2011.** Mục 16 đối chiếu với 2026 — và đây là bài có nhiều thứ bị thời gian bác lại nhất trong khoá.
-> 📌 **Nên đọc trước:** [Bài 1 — Tài chính là hạ tầng xã hội](bai_01_ha_tang_xa_hoi.md) (Swensen xuất hiện ở đó với tư cách người cấu trúc hợp đồng hoán đổi đầu tiên).
+>
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
+>
+> **Nên đọc trước:** [Bài 1 — Tài chính là hạ tầng xã hội](bai_01_ha_tang_xa_hoi.md) (Swensen xuất hiện ở đó với tư cách người cấu trúc hợp đồng hoán đổi đầu tiên).
 
 ---
 
@@ -12,21 +15,21 @@
 
 1. [Hai buổi giảng này mâu thuẫn với nhau — và đó là điểm hay nhất](#1-hai-buổi-giảng-này-mâu-thuẫn-với-nhau--và-đó-là-điểm-hay-nhất)
 2. [Ai đang giữ của cải, và giữ bao nhiêu](#2-ai-đang-giữ-của-cải-và-giữ-bao-nhiêu)
-3. [⚠️ Shiller chia sai, hai lần, cùng một kiểu](#3--shiller-chia-sai-hai-lần-cùng-một-kiểu)
+3. [⚠️ Shiller chia sai, hai lần, cùng một kiểu](#3-shiller-chia-sai-hai-lần-cùng-một-kiểu)
 4. [Nghĩa vụ tín thác và quy tắc người thận trọng](#4-nghĩa-vụ-tín-thác-và-quy-tắc-người-thận-trọng)
-5. [📚 Quy tắc người thận trọng chế tạo ra tương quan](#5--quy-tắc-người-thận-trọng-chế-tạo-ra-tương-quan)
+5. [📚 Quy tắc người thận trọng chế tạo ra tương quan](#5-quy-tắc-người-thận-trọng-chế-tạo-ra-tương-quan)
 6. [Lịch sử quỹ hưu trí: từ American Express 1875 đến Studebaker](#6-lịch-sử-quỹ-hưu-trí-từ-american-express-1875-đến-studebaker)
-7. [⚠️ Ba cái tên Shiller gọi sai](#7--ba-cái-tên-shiller-gọi-sai)
+7. [⚠️ Ba cái tên Shiller gọi sai](#7-ba-cái-tên-shiller-gọi-sai)
 8. [Từ phúc lợi xác định sang đóng góp xác định](#8-từ-phúc-lợi-xác-định-sang-đóng-góp-xác-định)
 9. [Swensen đến Yale năm 1985 và thấy gì](#9-swensen-đến-yale-năm-1985-và-thấy-gì)
 10. [Ba đòn bẩy duy nhất — và hai trong ba là trò tổng âm](#10-ba-đòn-bẩy-duy-nhất--và-hai-trong-ba-là-trò-tổng-âm)
-11. [📚 Con số 90 % nổi tiếng nhất ngành tài chính trả lời một câu hỏi khác](#11--con-số-90--nổi-tiếng-nhất-ngành-tài-chính-trả-lời-một-câu-hỏi-khác)
+11. [📚 Con số 90 % nổi tiếng nhất ngành tài chính trả lời một câu hỏi khác](#11-con-số-90--nổi-tiếng-nhất-ngành-tài-chính-trả-lời-một-câu-hỏi-khác)
 12. [Cùng một tài sản: 12.226 lần và mất 90 %](#12-cùng-một-tài-sản-12226-lần-và-mất-90)
-13. [📚 Quỹ hoà vốn mà người mất 72 %](#13--quỹ-hoà-vốn-mà-người-mất-72)
+13. [📚 Quỹ hoà vốn mà người mất 72 %](#13-quỹ-hoà-vốn-mà-người-mất-72)
 14. [Phân tán kết quả — lý do tồn tại của Mô hình Yale](#14-phân-tán-kết-quả--lý-do-tồn-tại-của-mô-hình-yale)
-15. [📚 Swensen tự chỉ ra con số đẹp nhất của mình bị thổi phồng](#15--swensen-tự-chỉ-ra-con-số-đẹp-nhất-của-mình-bị-thổi-phồng)
-16. [⚠️ Đối chiếu 2026: tiền đề bị rút khỏi Mô hình Yale](#16--đối-chiếu-2026-tiền-đề-bị-rút-khỏi-mô-hình-yale)
-17. [🇻🇳 Góc Việt Nam: quỹ hưu trí ở chế độ 1950, và tiền lẻ vào đúng đỉnh](#17--góc-việt-nam-quỹ-hưu-trí-ở-chế-độ-1950-và-tiền-lẻ-vào-đúng-đỉnh)
+15. [📚 Swensen tự chỉ ra con số đẹp nhất của mình bị thổi phồng](#15-swensen-tự-chỉ-ra-con-số-đẹp-nhất-của-mình-bị-thổi-phồng)
+16. [⚠️ Đối chiếu 2026: tiền đề bị rút khỏi Mô hình Yale](#16-đối-chiếu-2026-tiền-đề-bị-rút-khỏi-mô-hình-yale)
+17. [🇻🇳 Góc Việt Nam: quỹ hưu trí ở chế độ 1950, và tiền lẻ vào đúng đỉnh](#17-góc-việt-nam-quỹ-hưu-trí-ở-chế-độ-1950-và-tiền-lẻ-vào-đúng-đỉnh)
 18. [Chương trình](#18-chương-trình)
 19. [Từ điển thuật ngữ](#19-từ-điển-thuật-ngữ)
 20. [Câu hỏi tự kiểm tra](#20-câu-hỏi-tự-kiểm-tra)
@@ -39,18 +42,22 @@ Bài này ghép hai buổi cách nhau gần ba tháng. Buổi 6 là David Swense
 
 Và ở buổi 20, Shiller nói điều này:
 
+> [!quote] 20 22:56–23:23
 > *"Một số danh mục đầu tư, đáng chú ý là cái mà — chúng ta đã có David Swensen tới nói chuyện trước đây — đã diễn giải quy tắc người thận trọng theo hướng quyết liệt hơn, và phát triển một chiến lược đầu tư **trông có vẻ không thận trọng**."* (`20 22:56`–`23:23`)
 
+> [!quote] 20 23:44–24:08
 > *"Các nhà đầu tư định chế, dẫn đầu bởi những người như David Swensen, đã dẫn tới một cách diễn giải khoan dung hơn về quy tắc người thận trọng, và cho phép họ mạo hiểm. **Và tôi nghĩ cái cảm giác chung rằng người ta có thể quyết liệt hơn khi đầu tư, là một phần của bong bóng đã dẫn tới khủng hoảng tài chính.**"* (`20 23:44`–`24:08`)
 
 Ông có rào đón ngay sau đó (`20 24:08`): *"Tôi không nói bản thân nó là điều xấu, nhưng tôi nói với các bạn nó là một trong những yếu tố dẫn tới bong bóng này."*
 
 Còn Swensen thì mở đầu buổi 6 của mình bằng cách **tự bào chữa trước đúng lời cáo buộc đó**:
 
+> [!quote] 06 02:30–02:57
 > *"Tôi mang theo bài báo Barron's này, đăng tháng 11/2008, tiêu đề là **'Crash Course'**. Nó nói về các trường đại học cắt ngân sách, đóng băng tuyển dụng, thu hẹp dự án xây dựng. Và nó **đổ lỗi cho Mô hình Yale và Cách tiếp cận Swensen là quá quyết liệt**."* (`06 02:30`–`02:57`)
 
 Rồi ông nói thêm một câu cay đắng và rất người:
 
+> [!quote] 06 03:24–03:29
 > *"Khi nó thành công thì nó là **Mô hình Yale**, còn khi nó thất bại thì nó là **Cách tiếp cận Swensen** — cái tôi thật sự không thích. Ở đó có một sự bất đối xứng."* (`06 03:24`–`03:29`)
 
 **Nên đây không phải một bài giảng và một buổi khách mời minh hoạ cho nhau.** Đây là hai lập luận đối nhau, và người mời khách là người phản biện. Shiller không nói câu đó trước mặt Swensen — ông nói sau, trong buổi giảng của mình.
@@ -63,6 +70,7 @@ Cả bài này đọc theo trục đó. Mục 12–15 là lập luận của Swe
 
 Shiller mở buổi 20 bằng bảng B.100 của Cục Dự trữ Liên bang, quý 4/2010 (`20 01:41`) — tổng tài sản của hộ gia đình và tổ chức phi lợi nhuận Mỹ:
 
+> [!quote] 20 02:10
 > *"Cái này là 70.740 tỷ USD, hay cứ nói là 70 nghìn tỷ."* (`20 02:10`)
 
 | Mục                                       | Nghìn tỷ USD | Định chế quản lý? |
@@ -87,20 +95,23 @@ Hai chi tiết trong bảng này đáng dừng lại, và cả hai đều là **
 
 **Và cái quan trọng hơn** (`20 07:12`):
 
+> [!quote]
 > *"Cách đây 100 năm, gần như không có gì trong số đó do nhà đầu tư định chế nắm giữ."*
 
 Rồi ông nối nó vào một quan sát xã hội học, không phải tài chính (`20 07:26`–`08:28`):
 
+> [!quote]
 > *"Khi xã hội hiện đại hơn, tầm quan trọng của gia đình giảm đi và tầm quan trọng của chính phủ và doanh nghiệp tăng lên. Ví dụ, quỹ hưu trí đang tiếp quản cái từng là trách nhiệm của gia đình. Khi ông bà già đi, họ dọn vào nhà bạn và bạn chăm họ. […] Bây giờ nó vận hành khác."*
 
 Với ông, quỹ hưu trí không phải một sản phẩm tài chính. Nó là **một cơ chế thay thế cho nghĩa vụ gia đình** — và toàn bộ mục 6 dưới đây là lịch sử của việc thay thế đó diễn ra thế nào, và hỏng ở đâu.
 
 ---
 
-## 3. ⚠️ Shiller chia sai, hai lần, cùng một kiểu
+## 3. Shiller chia sai, hai lần, cùng một kiểu
 
 Sau bảng tài sản, Shiller muốn đặt con số 70 nghìn tỷ vào bối cảnh bằng cách ước lượng **tổng của cải quốc gia**, gồm cả vốn con người. Ông đọc rõ công thức mình dùng:
 
+> [!quote] 20 12:35–13:01
 > *"Nếu bạn giả định tăng trưởng thực 3 % và lãi suất chiết khấu 5 %, thì của cải bằng 13 nghìn tỷ — tôi đang dùng công thức Gordon — **chia cho 0,05 trừ 0,03**, tức **260 nghìn tỷ**."* (`20 12:35`–`13:01`)
 
 **Công thức ông đọc ra cho kết quả 650 nghìn tỷ, không phải 260.**
@@ -142,24 +153,29 @@ Và trớ trêu: **lỗi này làm yếu đi chính luận điểm của Shiller
 
 Vấn đề Shiller đặt ra rất gọn (`20 18:37`):
 
+> [!quote]
 > *"Nếu bạn đang quản lý **tiền của người khác** — đó là một câu trích — thì bạn có thể cẩu thả. Không phải tiền của tôi, tôi quan tâm làm gì?"*
 
 Nên luật quy định người quản lý có **nghĩa vụ hành động vì lợi ích của người mình quản lý cho**. Rồi luật phải định nghĩa nghĩa vụ đó là gì, và đây là chỗ khó.
 
 **Quy tắc người thận trọng** (prudent person rule). ERISA 1974 — Shiller nói rõ hồi đó gọi là *"prudent man rule"*, vì *"ngôn ngữ của chúng ta hồi 1974 vẫn còn phân biệt giới"* (`20 19:42`) — định nghĩa thế này (`20 19:53`):
 
+> [!quote]
 > *"Người quản lý đầu tư điều hành quỹ hưu trí phải quản lý với sự cẩn trọng, kỹ năng, thận trọng và siêng năng, **trong hoàn cảnh đang có lúc đó, mà một người thận trọng hành động ở vị trí tương tự và quen thuộc với những vấn đề như vậy sẽ dùng** trong việc điều hành một doanh nghiệp có tính chất tương tự và mục tiêu tương tự."*
 
 Nghe hợp lý. Rồi Shiller chỉ ra chỗ hỏng (`20 20:38`–`21:04`):
 
+> [!quote]
 > *"Vấn đề với đạo luật 1974 là rất khó lập pháp hoá nghĩa vụ, khó định nghĩa nó là gì. […] Và người thận trọng là ai? Tôi đoán, là **người khác**. Người khác, thuộc loại tiêu chuẩn hoặc thông thường. Tôi không biết nó là gì nữa."*
 
 Và rồi câu sắc nhất cả buổi:
 
+> [!quote] 20 21:38–21:57
 > *"Luật đã buộc nhà đầu tư định chế phải hành xử, **không phải như họ sẽ hành xử, mà như họ nghĩ người khác sẽ hành xử**. Nó lập pháp hoá một yêu cầu rằng bạn không làm điều bạn cho là khôn, bạn làm điều bạn nghĩ người khác cho là khôn."* (`20 21:38`–`21:57`)
 
 Ông đưa hệ quả lịch sử ngay (`20 22:31`):
 
+> [!quote]
 > *"Vì quy tắc người thận trọng, quỹ hiến tặng đại học — vốn là một ví dụ của đầu tư định chế — **suốt phần lớn thế kỷ 20 được đầu tư vào trái phiếu, trái phiếu chính phủ**, bởi họ nghĩ, thế mới là thận trọng. Không ai bảo được là tôi không thận trọng."*
 
 Rồi ông kể quy tắc này lỏng dần (`20 25:48`) và *"dẫn tới khủng hoảng tài chính"*.
@@ -168,7 +184,7 @@ Nhưng cả hai lần ông đều đọc nó như **một câu chuyện về m�
 
 ---
 
-## 5. 📚 Quy tắc người thận trọng chế tạo ra tương quan
+## 5. Quy tắc người thận trọng chế tạo ra tương quan
 
 Lấy đúng câu Shiller nói ở `20 21:38` và biến nó thành mô hình.
 
@@ -188,6 +204,7 @@ $\theta$ là **mức độ bắt chước nhau**. Không gì khác thay đổi.
 
 Đọc hai cột cạnh nhau:
 
+> [!note]
 > **Rủi ro của MỘT quỹ:** từ 10,5 % lên 50 % — tăng **4,8 lần**.
 > **Rủi ro CẢ HỆ THỐNG:** từ 5,2 × 10⁻²³ lên 50 % — tăng **10²² lần**.
 
@@ -199,6 +216,7 @@ Nên biến số thật không phải **mức độ** thận trọng — mà là
 
 Chuyện này giải thích một điều Shiller mô tả nhưng không giải thích. Ông nói (`20 25:48`) quy tắc *"khởi đầu khuyến khích đầu tư rất bảo thủ, rồi người ta nghĩ điều đó vô lý, họ nới lỏng dần, và nó dẫn tới khủng hoảng"*. Trong khung này thì mạch đó tự nhiên: **chỗ nguy hiểm không phải điểm đến, mà là việc cả đoàn cùng đi.**
 
+> [!note]
 > 🔗 Đây cũng là lời giải thích thứ hai cho điều [bài 3 — Ngân hàng](bai_03_ngan_hang.md) mô tả từ phía khác: quy định vốn Basel dùng chung một bộ trọng số rủi ro cho mọi ngân hàng, và vì thế mọi ngân hàng nắm cùng một rổ tài sản "an toàn".
 
 ---
@@ -209,37 +227,46 @@ Shiller kể lịch sử này như một chuỗi thất bại được sửa d�
 
 ### Quỹ hưu trí đầu tiên: American Express, 1875 (`20 44:28`)
 
+> [!quote] 20 44:56
 > *"Nhân tiện, đây không phải công ty thẻ tín dụng, đây là một công ty chuyển phát. Họ có xe ngựa."* (`20 44:56`)
 
 Điều kiện: làm việc **20 năm**, quá **60 tuổi**, và bị **mất sức lao động** → nhận **50 % trung bình lương 10 năm cuối**, trọn đời (`20 45:04`).
 
-⚠️ Shiller bỏ một chi tiết: chương trình gốc còn có **trần 500 USD/năm**. Với trần đó, "50 % lương" chỉ đúng cho người lương thấp.
+> [!warning]
+> Shiller bỏ một chi tiết: chương trình gốc còn có **trần 500 USD/năm**. Với trần đó, "50 % lương" chỉ đúng cho người lương thấp.
 
 ### Rồi sụp hàng loạt (`20 46:23`)
 
+> [!quote]
 > *"Có một cuộc sụp đổ của các quỹ hưu trí sau 1929. Nhiều người được hứa lương hưu trong ba thập niên đầu thế kỷ 20, rồi các công ty đơn giản là phá sản. […] Hơn nữa, **quỹ hưu trí của công đoàn đổ vỡ đặc biệt thảm khốc**."*
 
 Và ông không nương tay với công đoàn (`20 48:47`):
 
+> [!quote]
 > *"Có thể đã có sự đồng loã của công đoàn, rằng công đoàn không phải lúc nào cũng thực sự làm việc vì thành viên của mình. Họ nghĩ, thành viên không nghĩ tới vấn đề này, nên chúng ta cũng không nghĩ."*
 
 ### General Motors 1950: ý tưởng **cấp vốn đầy đủ** (`20 47:27`)
 
 Chủ tịch GM Charles Wilson đề xuất một quỹ hưu trí **được cấp vốn đầy đủ** — GM để riêng và đầu tư tiền **ngay bây giờ** cho lời hứa trả sau.
 
+> [!quote] 20 48:03
 > *"Nói cách khác, họ tạo ra một **quỹ tín thác** cho nhân viên. Nên nó giống hệt người cha lập quỹ cho đứa con khuyết tật. Nếu General Motors chết, không sao cả, vì có một quỹ tín thác đang quản lý quỹ hưu trí của họ."* (`20 48:03`)
 
 Rồi ông tự hỏi câu đúng (`20 48:18`):
 
+> [!quote]
 > *"Kể cũng buồn cười. Sao trước đó không ai làm thế? […] Lịch sử tài chính cho thấy rất nhiều sự ngu ngốc. Tôi không hiểu nổi làm sao lại có thể như vậy."*
 
-⚠️ **Chức danh sai nhỏ:** Charles Erwin Wilson là **Chủ tịch điều hành (President)** của GM 1941–1953. Chức Chủ tịch Hội đồng quản trị (Chairman) khi đó là Alfred P. Sloan.
+> [!warning] Chức danh sai nhỏ:
+> Charles Erwin Wilson là **Chủ tịch điều hành (President)** của GM 1941–1953. Chức Chủ tịch Hội đồng quản trị (Chairman) khi đó là Alfred P. Sloan.
 
 ### Studebaker 1963: sự kiện sinh ra ERISA (`20 49:24`)
 
+> [!quote]
 > *"Họ có một quỹ hưu trí **được cấp vốn một phần, nhưng không đủ**, và khi họ ngừng kinh doanh, nhân viên của họ mất."*
 
-⚠️ **Studebaker không phá sản năm 1963.** Công ty **đóng nhà máy South Bend** tháng 12/1963 rồi **chấm dứt chương trình hưu trí cho công nhân theo giờ**; công ty vẫn hoạt động ở Canada thêm vài năm. Shiller nói *"họ phá sản năm 1963"* (`20 49:41`).
+> [!warning] Studebaker không phá sản năm 1963.
+> Công ty **đóng nhà máy South Bend** tháng 12/1963 rồi **chấm dứt chương trình hưu trí cho công nhân theo giờ**; công ty vẫn hoạt động ở Canada thêm vài năm. Shiller nói *"họ phá sản năm 1963"* (`20 49:41`).
 
 Và cách tiền được chia khi một quỹ thiếu vốn bị chấm dứt là bài học thật, mà Shiller không kể:
 
@@ -259,7 +286,7 @@ Shiller kết (`20 51:44`): *"Bạn thấy đấy, qua một thế kỷ chúng t
 
 ---
 
-## 7. ⚠️ Ba cái tên Shiller gọi sai
+## 7. Ba cái tên Shiller gọi sai
 
 Ba lỗi tên riêng trong buổi 20, và cả ba đều là tên tổ chức mà người học sẽ tra cứu:
 
@@ -273,12 +300,14 @@ Cái thứ ba ông gọi sai **hai kiểu khác nhau trong vòng một phút**, 
 
 Và một chỗ nữa cần làm rõ hơn là sửa (`20 28:53`):
 
+> [!quote]
 > *"Ở Mỹ, SEC yêu cầu **cố vấn** phải được **FINRA** phê duyệt."*
 
 Đây là hai hệ thống bị gộp làm một. **Cố vấn đầu tư** (investment adviser) đăng ký với SEC hoặc bang theo Luật Cố vấn Đầu tư 1940. **FINRA** quản lý công ty môi giới và nhân viên môi giới. Một người tư vấn thuần tuý theo phí không đi qua FINRA.
 
 Nhưng chỗ Shiller nói **đúng và quan trọng** là ngay sau đó (`20 31:05`):
 
+> [!quote]
 > *"Còn có một thứ khác gọi là **người lập kế hoạch tài chính**. Nghe thì giống hệt, nhưng bằng cách nào đó, nếu bạn tự gọi mình là người lập kế hoạch tài chính, **bạn không phải qua khâu cấp phép này**."*
 
 Và (`20 32:35`) môi giới thế chấp *"có thể là bất cứ ai. Họ thậm chí có thể là một tội phạm đã bị kết án, cho tới vài năm trước"*.
@@ -293,10 +322,12 @@ Shiller mô tả cuộc dịch chuyển lớn nhất trong lịch sử hưu trí
 
 **Phúc lợi xác định** (defined benefit): công ty hứa *"50 % lương trung bình 10 năm cuối"*. Người quản lý quỹ phải **bắn trúng đích** đó (`20 52:56`):
 
+> [!quote]
 > *"Và đó là một bài toán khá hóc, nếu bạn là người quản lý. Tôi làm sao đây? Làm sao bắn trúng đích đó? Làm sao biết phải để riêng bao nhiêu tiền?"*
 
 **Đóng góp xác định** (defined contribution): công ty chỉ hứa **số tiền bỏ vào**. Bạn nhận bất cứ thứ gì danh mục sinh ra (`20 53:50`):
 
+> [!quote]
 > *"Chúng tôi không biết các khoản đầu tư này sẽ trả ra bao nhiêu. Chúng tôi thậm chí không biết bạn sẽ được trả bao nhiêu trong 10 năm cuối. Nên đó là đòi hỏi chúng tôi làm điều bất khả."*
 
 Ví dụ nổi tiếng nhất: **401(k)** ở Mỹ.
@@ -313,6 +344,7 @@ Kết quả, theo chữ của Shiller: *"nó dẫn tới một kiểu đầu tư
 
 Và cách sửa đáng chú ý (`20 57:38`): cho phép **tự động ghi danh** — mặc định bạn ở trong, im lặng nghĩa là đồng ý.
 
+> [!note]
 > 🧠 Đây là một can thiệp **hành vi**, không phải tài chính: nó không đổi sản phẩm, chỉ đổi giá trị mặc định. [Bài 12 — Tài chính hành vi](bai_12_tai_chinh_hanh_vi.md) giải thích vì sao nó hiệu quả đến vậy.
 
 ---
@@ -321,28 +353,33 @@ Và cách sửa đáng chú ý (`20 57:38`): cho phép **tự động ghi danh**
 
 Buổi 6 bắt đầu bằng lời giới thiệu của Shiller, và Swensen ngắt lời ngay câu đầu:
 
+> [!quote] 06 00:08–06 00:27
 > **SHILLER:** *"Tôi đã nói ông là người phát minh ra hợp đồng hoán đổi, một danh tiếng có thật, vì tổng giá trị swap lên tới hàng trăm tỷ —"*
 > **SWENSEN:** *"Hàng nghìn tỷ."*
 > **SWENSEN:** *"Tôi từng tự hào về vụ swap đó, nhưng đó là trước khủng hoảng."* (`06 00:08`–`06 00:27`)
 
 Ông kể mình đến Yale ngày **1/4/1985** (`06 04:06`) sau sáu năm ở Phố Wall, **không có kinh nghiệm quản lý danh mục nào đáng kể** (`06 04:13`). Việc đầu tiên ông làm là nhìn xem người khác đang làm gì (`06 05:53`):
 
+> [!quote] 06 06:14
 > *"Cái tôi thấy là các trường cao đẳng và đại học, bình quân, có **50 % danh mục ở cổ phiếu Mỹ, 40 % ở trái phiếu và tiền mặt Mỹ, và 10 % rải rác vào tài sản thay thế**."* (`06 06:14`)
 
 Và ông thấy hai chỗ sai, cả hai đều từ giáo trình cơ bản:
 
 **Một — đó không phải đa dạng hoá** (`06 08:44`):
 
+> [!quote]
 > *"Nếu bạn có một nửa tài sản trong **một** lớp tài sản, cổ phiếu Mỹ, và 90 % tài sản trong chứng khoán khả mại Mỹ, thì bạn **không** đa dạng hoá."*
 
 Rồi ông chỉ ra cái mà phần lớn người đọc bảng phân bổ đó bỏ qua (`06 09:00`):
 
+> [!quote]
 > *"90 % nằm trong cổ phiếu và trái phiếu, trong nhiều hoàn cảnh, **phản ứng với cùng một động lực lợi nhuận — lãi suất — theo cùng một cách**. Lãi suất thấp hơn, về mặt toán học, tốt cho trái phiếu; và lãi suất thấp hơn hạ tỷ lệ chiết khấu dùng để chiết khấu dòng thu nhập tương lai, nên chúng chắc cũng tốt cho cổ phiếu."*
 
 Nói cách khác: **cổ phiếu và trái phiếu trông như hai lớp tài sản, nhưng chúng chia chung một yếu tố rủi ro.** Đếm tên tài sản không phải đa dạng hoá; đếm **nguồn rủi ro** mới là.
 
 **Hai — chân trời đầu tư dài mà lại giữ tài sản lợi nhuận thấp** (`06 09:29`):
 
+> [!quote]
 > *"Quỹ hiến tặng có chân trời thời gian dài hơn bất kỳ nhà đầu tư nào tôi biết. Và nếu bạn có chân trời dài, bạn nên được thưởng vì chấp nhận rủi ro vốn cổ phần."*
 
 Còn 40 % ở trái phiếu và tiền mặt là *"tài sản có lợi nhuận kỳ vọng thấp"* (`06 10:31`).
@@ -359,6 +396,7 @@ Còn 40 % ở trái phiếu và tiền mặt là *"tài sản có lợi nhuận 
 
 Swensen chỉ nói *"21 lần, nhưng lạm phát ăn mất 12 lần, nên không được bao nhiêu"* (`06 23:58`). Hai cột bên phải là câu trả lời ông không đưa ra:
 
+> [!quote]
 > **84 năm giữ tín phiếu kho bạc — tài sản "an toàn nhất tưởng tượng được" — nhân sức mua của bạn lên 1,75 lần. Tổng cộng. Cả một đời người rưỡi.**
 >
 > Tương đương **0,67 %/năm** sau lạm phát.
@@ -379,32 +417,38 @@ Swensen chỉ nói *"21 lần, nhưng lạm phát ăn mất 12 lần, nên khôn
 
 Lập luận "tổng âm" là chỗ đáng chép lại nguyên văn (`06 14:27`–`15:17`):
 
+> [!quote]
 > *"Nếu bạn chơi **miễn phí**, nó là trò **tổng bằng không**. Vì nếu bạn tăng tỷ trọng Ford và giảm GM, phải có một nhà đầu tư khác hoặc một nhóm khác giảm Ford và tăng GM […] số mà người thắng thắng bằng đúng số mà người thua thua."*
 
+> [!quote]
 > *"Tất nhiên, nếu tính đến việc **chơi thì tốn tiền**, nó thành trò **tổng âm**. Và phần âm đó là phần bị Phố Wall hút đi."*
 
 Rồi ông liệt kê các đường ống hút (`06 15:17`): tác động giá, hoa hồng, phí quản lý chủ động, và *"đôi khi còn có phí trả cho tư vấn để chọn người quản lý"*.
 
 Và ông đưa một lập luận rất đẹp về **vì sao** phân bổ tài sản lại chi phối (`06 16:25`):
 
+> [!quote]
 > *"Hoá ra nó **không phải một định luật của tài chính** rằng phân bổ tài sản chi phối lợi nhuận, nó là một **kết quả hành vi** của cách chúng ta quản lý danh mục."*
 
 Ông minh hoạ bằng chính mình (`06 16:45`): nếu ông về văn phòng và đổ toàn bộ 17–18 tỷ của Yale vào cổ phiếu Google, thì phân bổ tài sản *"gần như không nói gì về lợi nhuận của Yale"* — tất cả sẽ là chọn chứng khoán. Nếu ông đem hết đi giao dịch hợp đồng tương lai trái phiếu trong ngày, tất cả sẽ là định thời điểm.
 
+> [!quote] 06 18:46
 > *"Tất nhiên những cái này nghe thật vô lý, đúng không?"* (`06 18:46`)
 
 **Chính vì chúng vô lý mà phân bổ tài sản mới chi phối.** Không phải vì toán học bắt thế, mà vì **không ai hành xử như vậy**. Đó là một phân biệt tinh tế và nó thường bị bỏ qua.
 
 ---
 
-## 11. 📚 Con số 90 % nổi tiếng nhất ngành tài chính trả lời một câu hỏi khác
+## 11. Con số 90 % nổi tiếng nhất ngành tài chính trả lời một câu hỏi khác
 
 Swensen dẫn đồng nghiệp Roger Ibbotson (`06 20:05`):
 
+> [!quote]
 > *"Hơn **90 % biến thiên** của lợi nhuận trong danh mục định chế liên quan tới quyết định phân bổ tài sản."*
 
 Rồi ông đưa cách đọc của mình, và đây là phần sắc sảo (`06 20:27`):
 
+> [!quote]
 > *"Trong cùng nghiên cứu đó, tôi nghĩ có một kết luận thú vị hơn, đó là phân bổ tài sản thực ra quyết định **hơn 100 %** lợi nhuận của nhà đầu tư."*
 
 Lý do: nếu chọn chứng khoán và định thời điểm là trò **tổng âm**, thì tính trung bình cho cả cộng đồng, chúng **trừ đi**. Nên phân bổ tài sản phải giải thích **hơn** 100 % (`06 21:27`).
@@ -433,6 +477,7 @@ Ví dụ chính các tác giả đưa ra làm rõ ngay: nếu quỹ A lãi 13 % 
 
 Đây là đoạn hay nhất buổi 6, vì Swensen kể chính lúc ông suýt bị số liệu của mình lừa (`06 26:43`):
 
+> [!quote]
 > *"Vì tôi nghĩ, ồ, 21 lần cho tín phiếu, 86 lần cho trái phiếu, 12.226 lần cho cổ phiếu nhỏ. **Có lẽ điều đúng nên làm là đổ hết danh mục vào cổ phiếu vốn hoá nhỏ rồi quên nó đi.**"*
 
 Rồi ông thú nhận vì sao ông không làm thế, bằng hai lý do rất thật (`06 26:55`–`27:23`): *"nếu điều đó đúng thì tôi biết nói gì trong mười tuần giảng còn lại?"* và *"nếu hội đồng đầu tư hiểu ra rằng chỉ cần đổ hết vào cổ phiếu nhỏ, thì tôi mất việc. Mà tôi có vợ và con nhỏ."*
@@ -450,12 +495,14 @@ Swensen nói *"còn lại 0,10 USD"* (`06 28:15`). Tính ra **0,0970** — đún
 
 **Và đây là con số bài giảng không tính:**
 
+> [!note]
 > Để về lại đỉnh, phải tăng **10,3 lần** (+931 %).
 > Ở tốc độ lịch sử của chính cổ phiếu vốn hoá nhỏ (11,86 %/năm), việc đó mất **21 NĂM**.
 > Và đó là tính theo **giá danh nghĩa**.
 
 Ghép hai con số lại:
 
+> [!note]
 > **12.226 lần trong 84 năm** là có thật.
 > **Mất 90 % rồi chờ 21 năm để hoà vốn** cũng là có thật.
 > Cùng một tài sản, cùng một bộ dữ liệu.
@@ -464,20 +511,24 @@ Ghép hai con số lại:
 
 Ông nói thẳng (`06 28:17`):
 
+> [!quote]
 > *"Và không quan trọng bạn là nhà đầu tư gan dạ nhất nhân loại, hay là nhà đầu tư định chế có chân trời dài nhất tưởng tượng được — đến lúc **đồng đô la biến thành đồng hào**, bạn sẽ nói: chuyện này thật lố bịch, tôi không chịu nổi mức rủi ro này."*
 
 Và ông đưa một chi tiết văn hoá rất đẹp (`06 29:47`): một bài trên *Saturday Evening Post* thập niên 1930 viết rằng thật vô lý khi gọi cổ phiếu là **securities** (chứng khoán / vật bảo đảm) — chúng rủi ro tới mức nên gọi là **insecurities**.
 
+> [!note]
 > **Đa dạng hoá không phải để tăng lợi nhuận. Nó là để bạn còn ở trong cuộc chơi khi lợi nhuận quay lại.**
 
 ---
 
-## 13. 📚 Quỹ hoà vốn mà người mất 72 %
+## 13. Quỹ hoà vốn mà người mất 72 %
 
 Swensen đưa một kết quả nghe như mâu thuẫn (`06 34:36`):
 
+> [!quote]
 > *"Nếu bạn nhìn mười quỹ internet lớn nhất, ba năm trước và ba năm sau bong bóng, **lợi nhuận theo thời gian là 1,5 %/năm**. Bạn nhìn con số đó và nói, 1,5 %/năm, thị trường lên rồi xuống dữ dội, nhưng 1,5 %/năm thì cũng không tệ. Không ai bị thiệt hại gì."*
 
+> [!quote] 06 34:46
 > *"**Nhà đầu tư bỏ vào 13,7 tỷ USD và mất 9,9 tỷ USD, tức họ mất 72 % số tiền đã bỏ vào.**"* (`06 34:46`)
 
 Kiểm phép chia: 9,9 / 13,7 = **72,3 %**. Đúng.
@@ -511,13 +562,16 @@ Hai con số này **không mâu thuẫn**. Cả hai đều đúng. Khác nhau �
 
 **Và đây là điều quan trọng nhất cho bất kỳ ai đọc tờ rơi quỹ đầu tư:**
 
+> [!note]
 > Con số in trên tờ rơi là con số **theo thời gian**. Luật bắt in nó.
 > Con số bạn thực sự nhận là con số **theo tiền**. Không ai bắt in nó.
 
 Và hai con số đó **không lệch ngẫu nhiên**. Chúng lệch **có hệ thống**, theo một hướng, vì tiền của công chúng luôn đến sau kết quả tốt. Swensen dẫn nghiên cứu Morningstar trên toàn bộ quỹ cổ phiếu Mỹ, 17 nhóm (`06 33:06`):
 
+> [!quote]
 > *"Trong **mỗi một** nhóm trong số đó, lợi nhuận theo tiền **thấp hơn** lợi nhuận theo thời gian."* — không sót nhóm nào.
 
+> [!note]
 > 🇻🇳 Mục 17 cho thấy chuyện này lặp lại ở Việt Nam năm 2021–2022, gần như từng chi tiết.
 
 ---
@@ -528,6 +582,7 @@ Và hai con số đó **không lệch ngẫu nhiên**. Chúng lệch **có hệ 
 
 Ý tưởng Swensen đưa ra trước (`06 41:22`): các nhà kinh tế tài chính chưa có cách đo trực tiếp thị trường nào hiệu quả đến đâu. Nên ông dùng một **chỉ báo gián tiếp** — độ phân tán kết quả giữa các nhà quản lý:
 
+> [!quote] 06 41:26–41:50
 > *"Nếu một thị trường định giá tài sản hiệu quả, thì phân phối lợi nhuận quanh lợi nhuận thị trường sẽ **rất chặt**. Vì sao? Vì nếu ai đó đặt cược lớn trong một thị trường hiệu quả, theo định nghĩa, việc nó thành hay bại **do may nhiều hơn do khôn**."* (`06 41:26`–`41:50`)
 
 Nên trong thị trường hiệu quả, việc đúng đắn là **bám sát chỉ số** — cái ngành gọi là *closet indexing* (`06 42:23`). Còn ở nơi **không có chỉ số để bám** — ông lấy ví dụ vốn mạo hiểm (`06 43:07`): *"làm sao bạn lập chỉ số cho vốn mạo hiểm? Không thể, đó là một đống hợp danh tư nhân"* — bạn buộc phải tự mở đường.
@@ -544,12 +599,14 @@ Chênh lệch giữa nhà quản lý phần tư **cao nhất** và **thấp nh�
 | Mua lại bằng đòn bẩy               |          13,70 % |                    +94,0 % |
 | **Vốn mạo hiểm**                   |      **43,20 %** |               **+606,9 %** |
 
+> [!note]
 > **Kỹ năng chọn người trong vốn mạo hiểm đáng giá gấp 240 LẦN kỹ năng chọn người trong trái phiếu.** Cùng một kỹ năng, cùng 10 năm.
 
 Đó là Mô hình Yale viết thành một con số. Nó **không** nói "tài sản thay thế tốt hơn". Nó nói: **công sức phân tích chỉ sinh lợi ở nơi thị trường định giá kém, và chỗ đó đo được bằng độ phân tán.**
 
 Swensen giải thích vì sao trái phiếu chụm lại (`06 43:53`):
 
+> [!quote]
 > *"Trái phiếu chỉ là toán, đúng không? Bạn có lãi coupon, có gốc, có xác suất vỡ nợ — nó là tài sản dễ phân tích nhất trong tất cả những gì chúng tôi đầu tư."*
 
 Khi ai cũng tính ra cùng một con số thì không ai lệch được.
@@ -558,12 +615,15 @@ Khi ai cũng tính ra cùng một con số thì không ai lệch được.
 
 Phân tán lớn nghĩa là **cơ hội** lớn. Nó **cũng** nghĩa là nếu bạn chọn nhầm người, bạn mất đúng số đó.
 
+> [!note]
 > Chọn nhầm nửa dưới trong vốn mạo hiểm: **−91,2 %** sau 10 năm.
 
 Nên bảng này **không phải** lý do để ai cũng lao vào vốn mạo hiểm. Nó là lý do để những ai **không chọn được người giỏi** thì tránh xa lớp tài sản đó. Và đó đúng là lời khuyên Swensen đưa cho cá nhân (`06 57:45`):
 
+> [!quote]
 > *"Cuốn sách tôi viết cho cá nhân nói rằng, về cơ bản, điều bạn nên làm là **đặt ra một chính sách phân bổ tài sản hợp lý, rồi thực hiện nó bằng quỹ chỉ số**."*
 
+> [!quote] 06 58:09–58:48
 > *"Thế giới này thú vị ở chỗ, lời giải đúng là **một trong hai cực**. Hoặc bạn hoàn toàn thụ động, hoặc bạn chủ động một cách quyết liệt. […] Nhưng **ở giữa thì bạn thua**. Vì bạn trả phí cao để nhận kết quả tầm thường, và đó là chỗ phần lớn người ta kết thúc."* (`06 58:09`–`58:48`)
 
 ### Và cái giá của "ở giữa", bằng số
@@ -588,6 +648,7 @@ Chỗ chênh 1.588 triệu đó không vào túi ai cả — nó là **phần si
 
 **Nhưng con số quan trọng nhất là ngưỡng hoà vốn:**
 
+> [!quote]
 > Để chỉ **hoà vốn** với cách quản lý rẻ 0,25 %/năm, quỹ "hai và hai mươi" phải làm ra **14,19 %/năm gộp**.
 > Tức phải **thắng thị trường 4,19 điểm phần trăm MỖI NĂM**, đều đặn, suốt 20 năm — chỉ để **hoà**.
 
@@ -600,18 +661,21 @@ Và Swensen chỉ ra vì sao dòng người vẫn đổ vào (`06 67:07`): *"tà
 
 ---
 
-## 15. 📚 Swensen tự chỉ ra con số đẹp nhất của mình bị thổi phồng
+## 15. Swensen tự chỉ ra con số đẹp nhất của mình bị thổi phồng
 
 Câu hỏi cuối cùng của một sinh viên (`06 69:04`) là câu hỏi hay nhất buổi:
 
+> [!quote]
 > *"Chúng em nghe quỹ tăng từ dưới 1 tỷ năm 1985 lên 16 tỷ, rất ấn tượng. **Nhưng còn tỷ số Sharpe thì sao?** Và vì sao thầy nghĩ người ta nói về tổng lợi nhuận nhiều hơn là về tỷ số Sharpe?"*
 
 Swensen trả lời bằng cách **chống lại chính chỉ số làm mình đẹp nhất** (`06 69:47`):
 
+> [!quote]
 > *"Rõ ràng là vì lợi nhuận của chúng tôi rất tốt, nếu chỉ nhìn mẫu hình lợi nhuận đó thì chúng tôi **điểm cao** khi so tỷ số Sharpe giữa các danh mục định chế. **Nhưng rủi ro thật trong danh mục không được độ lệch chuẩn nắm bắt.**"*
 
 Rồi ông giải thích cơ chế (`06 70:21`):
 
+> [!quote]
 > *"Nếu bạn nhìn bất động sản, hoặc gỗ, hoặc bất kỳ tài sản kém thanh khoản nào của chúng tôi, chúng được **thẩm định giá khá thưa thớt**. Và **có một thiên lệch ổn định rất lớn trong các bản thẩm định**. Nếu ai đó nhìn một bất động sản 12 tháng trước, 6 tháng trước, và hôm nay, họ có khả năng thấy gần như cùng một thứ."*
 
 Đó không phải một nhận xét mềm. Nó **đo được**. Lấy một chuỗi 24 năm lợi nhuận **thật, không đổi**, và chỉ đổi cách ghi sổ:
@@ -635,6 +699,7 @@ Với $\lambda = 0{,}20$ cho **0,3333**; mẫu 24 năm ở trên đo được 0,
 
 Và ông kết bằng một liên hệ tới chính người mời mình (`06 71:01`):
 
+> [!quote]
 > *"Tôi nghĩ Bob Shiller xứng đáng được ghi công vì đã đặt ra khái niệm **'biến động thái quá'**. Không nghi ngờ gì rằng giá cổ phiếu biến động hơn nhiều so với mức cần thiết để điều chỉnh theo thay đổi của các yếu tố cơ bản."*
 
 Tức là: cổ phiếu **trông** rủi ro hơn thực tế, còn tài sản tư nhân **trông** an toàn hơn thực tế. So Sharpe của hai loại là *"so táo với cam"* (`06 71:48`).
@@ -643,6 +708,7 @@ Tức là: cổ phiếu **trông** rủi ro hơn thực tế, còn tài sản t�
 
 Một người quản lý quỹ tự chỉ ra rằng chỉ số đẹp nhất của mình bị thổi phồng — trước mặt sinh viên, khi được hỏi thẳng — đó là **nghĩa vụ tín thác làm thật**. Đặt cạnh mục 4 và 5 thì phân biệt hiện ra rõ:
 
+> [!note]
 > **Quy tắc người thận trọng bắt bạn giống người khác.**
 > **Nghĩa vụ thật bắt bạn nói thật.**
 
@@ -650,7 +716,7 @@ Hai thứ đó không phải một, và luật chỉ viết được cái thứ 
 
 ---
 
-## 16. ⚠️ Đối chiếu 2026: tiền đề bị rút khỏi Mô hình Yale
+## 16. Đối chiếu 2026: tiền đề bị rút khỏi Mô hình Yale
 
 Đây là bài có nhiều thứ bị thời gian bác lại nhất trong khoá.
 
@@ -658,6 +724,7 @@ Hai thứ đó không phải một, và luật chỉ viết được cái thứ 
 
 Khi được hỏi cá nhân khác định chế thế nào, Swensen trả lời đầu tiên bằng đúng câu này (`06 55:14`):
 
+> [!quote]
 > *"Có vài khác biệt về cấu trúc. **Chúng tôi không đóng thuế.** Và thuế là một yếu tố quyết định cực kỳ quan trọng với kết quả đầu tư của cá nhân. […] **Chúng tôi thì phần lớn không phải lo chuyện đó** khi quản lý danh mục của Yale."*
 
 Đó là lợi thế cấu trúc **duy nhất** ông nêu ra. Và nó không còn nữa.
@@ -672,6 +739,7 @@ Năm 2025, Yale bán khoảng **2,5 tỷ USD** cổ phần quỹ đầu tư tư 
 
 Đặt cạnh lời Swensen bác bỏ chỉ trích của Barron's về thanh khoản (`06 46:49`):
 
+> [!quote]
 > *"Nếu bạn nắm một lượng đáng kể trái phiếu kho bạc Mỹ — mà đáng kể là bao nhiêu? 25 %, 30 %, 35 % danh mục — thì trong hoàn cảnh bình thường, hoàn cảnh mà chúng ta sống phần lớn cuộc đời, **bạn đang trả một chi phí cơ hội khổng lồ**."*
 
 Mười bốn năm sau, Yale **bán tài sản tư nhân với chiết khấu** để có tiền mặt. Nhưng phải công bằng: chiết khấu dưới 10 % **không phải một cuộc khủng hoảng**, và Yale nói sẽ tiếp tục đầu tư vào thị trường tư nhân. Cách đọc trung thực: **Barron's sai về lợi nhuận — số của Swensen đúng — nhưng không hoàn toàn sai về việc thanh khoản là một ràng buộc thật.**
@@ -723,12 +791,13 @@ Nên câu trả lời đầy đủ cho lời trấn an của Shiller: **nó số
 
 ---
 
-## 17. 🇻🇳 Góc Việt Nam: quỹ hưu trí ở chế độ 1950, và tiền lẻ vào đúng đỉnh
+## 17. Góc Việt Nam: quỹ hưu trí ở chế độ 1950, và tiền lẻ vào đúng đỉnh
 
 ### Phần A — Quỹ hưu trí quốc gia
 
 Đọc lại câu Shiller nói về các quỹ hiến tặng Mỹ thế kỷ 20 (`20 22:31`):
 
+> [!quote]
 > *"Vì quy tắc người thận trọng, họ đầu vào trái phiếu, trái phiếu chính phủ, bởi họ nghĩ thế mới là thận trọng. **Không ai bảo được là tôi không thận trọng.**"*
 
 Đó chính xác là danh mục bắt buộc của quỹ hưu trí quốc gia Việt Nam năm 2026.
@@ -759,6 +828,7 @@ Quỹ BHXH **không** phải một quỹ hiến tặng đại học. Nó là qu�
 
 Và câu hỏi đúng phải hỏi là câu Shiller hỏi ở `20 21:04`: quy tắc đang buộc người quản lý làm điều **họ** cho là khôn, hay làm điều **không ai chê trách được**? Một danh mục do nghị định liệt kê sẵn là câu trả lời thứ hai. Và nó **giải phóng người quản lý khỏi trách nhiệm giải trình** — đúng cái mà nghĩa vụ tín thác lẽ ra phải tạo ra.
 
+> [!note]
 > 🔗 Đối chiếu với mục 5: khi cả một hệ thống bị nghị định ép vào cùng một danh mục, thì $\theta = 100\,\%$. Đó là ô cuối cùng của bảng.
 
 ### Phần B — Lợi nhuận theo tiền, bản tiếng Việt
@@ -777,8 +847,10 @@ Mục 13 mô tả cơ chế: tiền công chúng đến sau kết quả tốt, n
 
 Nên con số "VN-Index tăng 36 % năm 2021" là con số **theo thời gian**. Con số **theo tiền** — tính trên tiền thật của người thật, phần lớn vào thị trường trong quý 4/2021 — là một con số khác hẳn, và không tờ báo nào in nó ra.
 
-⚠️ **Bài này không đưa ra con số đó**, vì tính đúng nó cần dữ liệu dòng tiền theo tháng mà không nguồn công khai nào có. Nếu ai đưa bạn con số đó, hãy hỏi họ lấy dòng tiền ở đâu. Cái bài này khẳng định chỉ là **cơ chế**:
+> [!warning] Bài này không đưa ra con số đó
+> , vì tính đúng nó cần dữ liệu dòng tiền theo tháng mà không nguồn công khai nào có. Nếu ai đưa bạn con số đó, hãy hỏi họ lấy dòng tiền ở đâu. Cái bài này khẳng định chỉ là **cơ chế**:
 
+> [!note]
 > Khi số tài khoản mở mới đạt đỉnh cùng lúc với chỉ số, thì lợi nhuận theo tiền của cả lớp nhà đầu tư đó **buộc phải** thấp hơn lợi nhuận của chỉ số. Đó là số học, không phải quan điểm.
 
 Và hệ quả thực tiễn cho người đọc: khi bạn thấy một quỹ hoặc một môi giới quảng cáo lợi nhuận quá khứ, con số đó gần như chắc chắn là **theo thời gian**. Câu hỏi đáng hỏi là câu Swensen hỏi: *nhà đầu tư của quỹ này thật sự nhận được bao nhiêu?*
@@ -789,6 +861,7 @@ Và hệ quả thực tiễn cho người đọc: khi bạn thấy một quỹ h
 
 Toàn bộ con số trong bài này được tính ra ở **[`thuc_hanh/bai-07-quan-ly-quy.py`](../thuc_hanh/bai-07-quan-ly-quy.py)** — 938 dòng, 9 mục, không thư viện ngoài.
 
+> [!note]
 > ⚙️ **Chạy:** cần **Python 3.10+**. `python3 bai-07-quan-ly-quy.py`. Không cần cài gói nào, không gọi mạng, không đọc file ngoài. Kết quả **tất định** — chạy hai lần giống hệt nhau.
 
 Ba quyết định thiết kế đáng nói:
@@ -1240,12 +1313,12 @@ Het. Moi con so tren deu duoc tinh ra, khong con so nao go tay.
 ==============================================================================
 ```
 
-### 💡 Tự thử
-
-1. Ở mục 2, đổi `NGUONG_SUP_BP` từ −2.000 xuống −3.000 (định chế chỉ sụp khi lỗ quá 30 %). Cột "P(một định chế sụp)" giảm nhiều. Cột "P(≥ 50 cùng sụp)" ở $\theta$ = 100 % có giảm không? Vì sao?
-2. Ở mục 7, đổi `PHI_LOI_BP` từ 2.000 (20 %) xuống 1.000 (10 %) nhưng giữ phí quản lý 2 %. Ngưỡng hoà vốn giảm bao nhiêu? So sánh với việc giữ 20 % nhưng bỏ hẳn phí quản lý — cái nào rẻ hơn cho nhà đầu tư?
-3. Ở mục 8, đổi `LOI_THAT` thành một chuỗi **đổi dấu mỗi năm**. Tỷ lệ đo được so với công thức khép kín lệch nhiều hơn hay ít hơn? Điều đó nói gì về việc áp công thức lên chuỗi có tương quan chuỗi?
-4. Ở mục 5 (chương trình) — tức mục 13 của bài — dời `DONG_TIEN` sao cho 7,5 tỷ vào **năm 1998** thay vì 2000, giữ nguyên tổng 13,7 tỷ. Lợi nhuận theo tiền đổi thế nào? Bao nhiêu phần của kết quả tệ là do **quỹ** và bao nhiêu là do **thời điểm**?
+> [!example] Tự thử
+>
+> 1. Ở mục 2, đổi `NGUONG_SUP_BP` từ −2.000 xuống −3.000 (định chế chỉ sụp khi lỗ quá 30 %). Cột "P(một định chế sụp)" giảm nhiều. Cột "P(≥ 50 cùng sụp)" ở $\theta$ = 100 % có giảm không? Vì sao?
+> 2. Ở mục 7, đổi `PHI_LOI_BP` từ 2.000 (20 %) xuống 1.000 (10 %) nhưng giữ phí quản lý 2 %. Ngưỡng hoà vốn giảm bao nhiêu? So sánh với việc giữ 20 % nhưng bỏ hẳn phí quản lý — cái nào rẻ hơn cho nhà đầu tư?
+> 3. Ở mục 8, đổi `LOI_THAT` thành một chuỗi **đổi dấu mỗi năm**. Tỷ lệ đo được so với công thức khép kín lệch nhiều hơn hay ít hơn? Điều đó nói gì về việc áp công thức lên chuỗi có tương quan chuỗi?
+> 4. Ở mục 5 (chương trình) — tức mục 13 của bài — dời `DONG_TIEN` sao cho 7,5 tỷ vào **năm 1998** thay vì 2000, giữ nguyên tổng 13,7 tỷ. Lợi nhuận theo tiền đổi thế nào? Bao nhiêu phần của kết quả tệ là do **quỹ** và bao nhiêu là do **thời điểm**?
 
 ---
 
@@ -1457,6 +1530,7 @@ Het. Moi con so tren deu duoc tinh ra, khong con so nao go tay.
 | Hơn 1,5 triệu tài khoản mở mới năm 2021; riêng 12/2021 là 226.580 — kỷ lục 21 năm                                                                          | [VnEconomy](https://vneconomy.vn/1-5-trieu-tai-khoan-ca-nhan-mo-moi-ky-luc-chua-tung-co-tren-san-chung-khoan-viet-nam.htm) · [Thời báo Tài chính Việt Nam](https://thoibaotaichinhvietnam.vn/hon-15-trieu-tai-khoan-chung-khoan-duoc-mo-moi-nam-2021-98609.html)                                                                                                                             |
 | VN-Index đỉnh đóng cửa 1.528,6 đầu 1/2022; đáy trong phiên 873,78 ngày 16/11/2022                                                                          | [Báo Nhân Dân — 10 sự kiện chứng khoán nổi bật 2022](https://nhandan.vn/10-su-kien-chung-khoan-noi-bat-nam-2022-post732115.html) · [VietnamNet](https://vietnamnet.vn/khep-lai-2022-vn-index-giam-51-xuong-1-007-09-diem-2095780.html)                                                                                                                                                       |
 
+> [!quote]
 > ⚠️ **Về hai con số Shiller kể ở `20 59:14` và `20 60:24`.** Vụ Yale mất toàn bộ quỹ hiến tặng vào Ngân hàng Eagle của New Haven năm 1825 là có thật — các ghi chép nói Yale mất hơn 21.000 USD và quỹ còn lại khoảng **1.800 USD**, kèm hơn 19.000 USD nợ chưa trả; nên "về không" là nói giảm chứ không phải nói quá. Còn khoản Boston University đầu tư vào Seragen dưới thời John Silber: nguồn mở xác nhận BU **đã ghi giảm 43 triệu USD tính tới năm tài chính 1990** trên một quỹ hiến tặng khi đó khoảng **150 triệu USD** (tức 1 USD trong mỗi 12 USD), và tổng cam kết thường được dẫn ở mức 80–100 triệu; **con số "90 triệu, mất 90 %" của Shiller không kiểm chứng được từ nguồn mở**. Bài này dùng phần kiểm chứng được và ghi rõ phần không.
 
 ---

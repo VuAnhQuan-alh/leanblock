@@ -1,15 +1,16 @@
 # Bài 2 — Lợi nhuận chỉ là dự toán
 
+> [!info] Về bài này
 > Bài học dựng từ **Phần II — Những đặc thù của báo cáo kết quả kinh doanh**: chương 4 *Lợi nhuận chỉ
 > là dự toán* (PDF tr. 36–40), chương 5 *Phá giải bộ mã của báo cáo kết quả kinh doanh* (PDF tr. 41–48),
 > chương 6 *Doanh thu — vấn đề là ở việc ghi nhận* (PDF tr. 49–53).
-> 🎯 **Vòng 1.** Chương 4 dạy **khái niệm kế toán duy nhất** mà cả cuốn sách chịu dạy. Chương 6 chỉ ra
+>
+> **Vòng 1.** Chương 4 dạy **khái niệm kế toán duy nhất** mà cả cuốn sách chịu dạy. Chương 6 chỉ ra
 > dòng dễ bị bóp méo nhất trên mọi báo cáo tài chính — dòng đầu tiên.
-> 💼 **Góc quản trị** — ví dụ thêm cho người đi làm, **không có trong sách**.
-> 📚 **Mở rộng** — thứ sách nói lướt hoặc để trong hộp công cụ.
-> 🇻🇳 **Đối chiếu Việt Nam** — sách viết theo US GAAP, mục này nối sang thực tế Việt Nam.
-> ⚠️ — chỗ dễ hiểu sai, hoặc chỗ sách in sai.
-> 📌 **Cần đọc trước:** [Bài 0](bai_00_bat_dau_tu_dau.md) · [Bài 1](bai_01_nghe_thuat_tai_chinh.md) —
+>
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
+>
+> **Cần đọc trước:** [Bài 0](bai_00_bat_dau_tu_dau.md) · [Bài 1](bai_01_nghe_thuat_tai_chinh.md) —
 > mục 3① của bài 1 đã chạm vào ghi nhận doanh thu; bài này làm kỹ.
 > ⚙️ **Code:** [`thuc_hanh/bai-02-loi-nhuan-chi-la-du-toan.py`](../thuc_hanh/bai-02-loi-nhuan-chi-la-du-toan.py)
 
@@ -23,12 +24,12 @@
 - [2. Nguyên tắc phù hợp — khái niệm kế toán duy nhất của cả cuốn sách](#2-nguyên-tắc-phù-hợp--khái-niệm-kế-toán-duy-nhất-của-cả-cuốn-sách)
 - [3. Đọc một báo cáo kết quả kinh doanh](#3-đọc-một-báo-cáo-kết-quả-kinh-doanh)
 - [4. Phần trăm doanh thu — công cụ rẻ nhất của cả chương 5](#4-phần-trăm-doanh-thu--công-cụ-rẻ-nhất-của-cả-chương-5)
-- [5. ⚠️ Báo cáo "hình thức" — cẩn thận với loại này](#5--báo-cáo-hình-thức--cẩn-thận-với-loại-này)
+- [5. Báo cáo "hình thức" — cẩn thận với loại này](#5-báo-cáo-hình-thức--cẩn-thận-với-loại-này)
 - [6. Một xu EPS đáng bao nhiêu doanh thu?](#6-một-xu-eps-đáng-bao-nhiêu-doanh-thu)
 - [7. Ba tình huống không có đáp án](#7-ba-tình-huống-không-có-đáp-án)
 - [8. Tyco — tăng doanh thu mà không tăng một đồng lợi nhuận](#8-tyco--tăng-doanh-thu-mà-không-tăng-một-đồng-lợi-nhuận)
 - [9. Nhồi hàng vào kênh](#9-nhồi-hàng-vào-kênh)
-- [10. 🇻🇳 Đối chiếu Việt Nam](#10--đối-chiếu-việt-nam)
+- [10. Đối chiếu Việt Nam](#10-đối-chiếu-việt-nam)
 - [11. Tự thử](#11-tự-thử)
 - [12. Từ điển thuật ngữ](#12-từ-điển-thuật-ngữ)
 - [13. Câu hỏi tự kiểm tra](#13-câu-hỏi-tự-kiểm-tra)
@@ -43,6 +44,7 @@
 
 Chương 4 mở bằng cách gỡ một hiểu lầm mà sách cho là *"nghiêm trọng"* và gần như ai cũng mắc:
 
+> [!quote]
 > *"Chỉ cần chút ít khả năng tưởng tượng là bạn có thể kết luận, báo cáo kết quả kinh doanh cho biết
 > doanh nghiệp đã thu được bao nhiêu tiền mặt trong giai đoạn đó, chi tiêu bao nhiêu, và còn lại bao
 > nhiêu… đúng chứ?*
@@ -64,6 +66,7 @@ tính thế nào**, bạn không thể tác động vào nó một cách có ch�
 
 Sách tuyên bố ngay từ chương 3 rằng nó *"sẽ không dạy bạn về kế toán"*. Chương 4 phá lệ đúng một lần:
 
+> [!quote]
 > **Nguyên tắc phù hợp** (*matching principle*): *"Hãy khớp doanh thu cho phù hợp với chi phí liên
 > quan để xác định lợi nhuận của một kỳ sổ sách — thường là một tháng, một quý hoặc một năm."*
 > — ch. 4 · PDF tr. 38
@@ -114,6 +117,7 @@ giờ dịch vụ đã bán; và chính vì thế, **đóng sổ mất hai đế
 
 Và câu kết luận của chương 4, đáng nhớ nguyên văn:
 
+> [!quote]
 > *"**Lợi nhuận luôn là dự toán — và bạn không thể chi tiêu một thứ được dự toán.**"*
 > — ch. 4 · PDF tr. 40
 
@@ -132,6 +136,7 @@ Chương 5 mở bằng một trò đùa có mục đích. Sách in một báo c�
    Lợi nhuận thuần      15 đô-la
 ```
 
+> [!quote]
 > *"**Một cô bé lớp 4 sáng dạ cũng có thể hiểu ngay bài toán này** mà không cần chỉ bảo quá nhiều…
 > Có khi cô bé còn chẳng cần đến máy tính. Nhưng giờ chúng ta hãy cùng xem một báo cáo kết quả kinh
 > doanh **thực tế**… Nếu là bản chi tiết, báo cáo đó có thể **kéo dài nhiều trang**."*
@@ -153,12 +158,14 @@ Chương 5 đưa một danh sách rất thực dụng (PDF tr. 42–47):
 | **Thực tế hay hình thức** | xem mục 5 |
 | **Chú thích** | Dell viết ngắn gọn; Tyco viết dài 7 đoạn — cả hai đều quan trọng |
 
-⚠️ Một mẹo nhận dạng của sách, nghe hiển nhiên nhưng hay bị bỏ qua: *"nếu bạn thấy nhãn tên 'bảng cân
-đối kế toán' hay 'báo cáo lưu chuyển tiền tệ' ở dòng trên cùng của một báo cáo bất kỳ, thì tức là
-**bạn đã cầm nhầm tài liệu**."*
+> [!warning]
+> Một mẹo nhận dạng của sách, nghe hiển nhiên nhưng hay bị bỏ qua: *"nếu bạn thấy nhãn tên 'bảng cân
+> đối kế toán' hay 'báo cáo lưu chuyển tiền tệ' ở dòng trên cùng của một báo cáo bất kỳ, thì tức là
+> **bạn đã cầm nhầm tài liệu**."*
 
 Và **quy tắc quan trọng** mà chương 5 kết lại — sách in riêng thành một khối:
 
+> [!quote]
 > *"Hãy nhớ rằng nhiều số liệu trên báo cáo kết quả kinh doanh phản ánh **các ước tính và giả định**.
 > Kế toán quyết định tính những giao dịch này, và bỏ qua các giao dịch khác…*
 >
@@ -171,6 +178,7 @@ Và **quy tắc quan trọng** mà chương 5 kết lại — sách in riêng th
 
 Đây là thứ dùng được ngay, và nó là công cụ đọc báo cáo tốt nhất mà Phần II đưa ra.
 
+> [!quote]
 > *"'% doanh thu' chỉ đơn giản là một cách thể hiện độ lớn của chi phí xét trong tương quan với doanh
 > thu. **Dòng doanh thu được coi như là điểm cho trước — điểm cố định** — và tất cả mọi thứ khác sẽ
 > được so sánh với nó."* — ch. 5 · PDF tr. 45
@@ -193,9 +201,10 @@ Công ty mẫu, năm 2005:
 lại 22,2 xu để nuôi toàn bộ phần còn lại của doanh nghiệp — và cuối cùng chỉ còn **2,9 xu** là lợi
 nhuận.
 
-💼 Sách ra hẳn một bài tập ở cuối Phần V: *"lấy ba báo cáo kết quả kinh doanh gần đây, và tính toán
-phần trăm doanh thu cho từng khoản mục lớn. Sau đó, theo dõi kết quả theo thời gian."* Nếu một khoản
-mục tăng dần còn khoản khác giảm dần, bạn đang nhìn thấy **áp lực cạnh tranh** hiện ra bằng số.
+> [!example]
+> Sách ra hẳn một bài tập ở cuối Phần V: *"lấy ba báo cáo kết quả kinh doanh gần đây, và tính toán
+> phần trăm doanh thu cho từng khoản mục lớn. Sau đó, theo dõi kết quả theo thời gian."* Nếu một khoản
+> mục tăng dần còn khoản khác giảm dần, bạn đang nhìn thấy **áp lực cạnh tranh** hiện ra bằng số.
 
 Sách cũng nêu cách các doanh nghiệp dùng nó để quản trị: *"có thể các nhà điều hành cấp cao của doanh
 nghiệp đã quyết định không để chi phí bán hàng vượt quá **12% doanh thu**. Nếu chi phí này vượt ra
@@ -203,7 +212,7 @@ khỏi con số 12%, thì bộ phận bán hàng phải cẩn trọng hơn nữa
 
 ---
 
-## 5. ⚠️ Báo cáo "hình thức" — cẩn thận với loại này
+## 5. Báo cáo "hình thức" — cẩn thận với loại này
 
 Từ **hình thức** (*pro forma*) có hai nghĩa, và nghĩa thứ hai mới là chỗ sách cảnh báo. Đó là báo cáo
 **loại trừ** các khoản phí một lần và bất thường.
@@ -222,6 +231,7 @@ ra để minh hoạ — sách không nêu)*:
 
 Sách chỉ ra thông điệp ngầm rất chính xác:
 
+> [!quote]
 > *"Nhưng thường có một thông điệp ngầm, đi cùng với câu nói 'Này, mọi thứ không đến nỗi tệ như trông
 > vậy đâu — chúng ta chỉ mất tiền vì xử lý nợ xấu thôi.' **Tất nhiên, việc xử lý nợ xấu quả thật đã
 > diễn ra, và công ty quả thật đã mất tiền.**"* — ch. 5 · PDF tr. 44
@@ -238,6 +248,7 @@ Chương 6 kể một tình huống mà sách nói rõ là **hợp pháp**. Mộ
 con số thu nhập trên cổ phần ước tính"*. Nếu vậy, *"Phố Wall sẽ không hài lòng"*. Nên bộ phận tài
 chính nghĩ đến bộ phận phần mềm:
 
+> [!quote]
 > *"Giả sử chúng ta thay đổi cách ghi nhận doanh thu của bộ phận này? Giả sử chúng ta **ghi nhận
 > trước 75% thay vì 50%**? … Chỉ cần thay đổi — mà ở đây là ghi nhận thêm doanh thu, thế là thu nhập
 > trên cổ phần sẽ lập tức được đẩy nhẹ lên mức mà Phố Wall mong muốn.*
@@ -261,9 +272,10 @@ Công ty mẫu có 74 triệu cổ phiếu, EPS 3,35, thuế suất hiệu dụn
 ⭐ **Một xu EPS = 0,016% doanh thu năm.** Một phần sáu nghìn. Nhỏ hơn sai số làm tròn của chính bản
 báo cáo. Năm xu cũng chỉ là 0,08%.
 
-⚠️ Đây là lý do chương 6 kết luận rằng ghi nhận doanh thu là *"đấu trường phổ biến cho các gian lận
-tài chính"*, và liệt kê **Sunbeam, Cendant, Xerox, Rite Aid**. Không ai cần bịa ra một hợp đồng không
-tồn tại. **Chỉ cần dịch thời điểm ghi nhận của vài hợp đồng có thật qua ranh giới quý.**
+> [!warning]
+> Đây là lý do chương 6 kết luận rằng ghi nhận doanh thu là *"đấu trường phổ biến cho các gian lận
+> tài chính"*, và liệt kê **Sunbeam, Cendant, Xerox, Rite Aid**. Không ai cần bịa ra một hợp đồng không
+> tồn tại. **Chỉ cần dịch thời điểm ghi nhận của vài hợp đồng có thật qua ranh giới quý.**
 
 ---
 
@@ -297,8 +309,9 @@ Lấy tình huống ① — hợp đồng 1.800, kéo dài 18 tháng:
 nào "tạo ra" doanh thu. Chúng chỉ **dịch** nó qua lại giữa hai năm. Và đó đúng là đủ để làm vừa lòng
 hoặc làm thất vọng Phố Wall một lần.
 
-⚠️ Sách cảnh báo thêm: *"những nguyên tắc này **có thể thay đổi**"*. Nghĩa là bạn có thể đang so sánh
-năm nay với năm ngoái mà không biết cách đếm đã đổi giữa chừng.
+> [!warning]
+> Sách cảnh báo thêm: *"những nguyên tắc này **có thể thay đổi**"*. Nghĩa là bạn có thể đang so sánh
+> năm nay với năm ngoái mà không biết cách đếm đã đổi giữa chừng.
 
 ---
 
@@ -307,6 +320,7 @@ năm nay với năm ngoái mà không biết cách đếm đã đổi giữa ch�
 Chương 6 trích **nguyên văn** một đoạn chú thích của Tyco. Đây là ví dụ hay nhất về việc *"đọc chú
 thích"* đáng giá đến đâu:
 
+> [!quote]
 > *"Trước đây, các chi phí này được coi là 'đã thông qua' và vì vậy **không được tính vào doanh thu
 > và giá vốn hàng bán** khai báo của Dịch vụ cơ sở hạ tầng. Có hiệu lực từ ngày 1 tháng Một năm 2004…
 > công ty bắt đầu phản ánh các chi phí của hợp đồng phụ vào **cả doanh thu lẫn giá vốn hàng bán**,
@@ -323,16 +337,18 @@ Cả hai dòng cùng tăng 739. Áp lên công ty mẫu:
 
 ⭐ Doanh thu tăng **8,5%**. Lợi nhuận gộp tăng **đúng bằng 0**. Biên lợi nhuận gộp **giảm** 1,7 điểm.
 
-💼 Hai người nhìn cùng một bút toán và rút ra hai kết luận ngược nhau:
+> [!example]
+> Hai người nhìn cùng một bút toán và rút ra hai kết luận ngược nhau:
 
 - người khoe **"tăng trưởng dòng đầu"** → doanh thu tăng 8,5%, tin tốt;
 - người đọc **biên lợi nhuận** → biên gộp tụt 1,7 điểm, tin xấu.
 
 Đó chính là lý do chương 5 dạy đọc **phần trăm doanh thu** chứ không đọc số tuyệt đối (mục 4).
 
-⚠️ Và sách đặt đúng câu hỏi khó: *"Về nguyên tắc, bất kỳ một thay đổi kế toán nào 'quan trọng' với
-kết quả kinh doanh đều phải được chú thích theo cách này. **Nhưng ai mới được quyền quyết định cái
-nào quan trọng, cái nào không?** Bạn đoán ra rồi đó: các kế toán viên."*
+> [!warning]
+> Và sách đặt đúng câu hỏi khó: *"Về nguyên tắc, bất kỳ một thay đổi kế toán nào 'quan trọng' với
+> kết quả kinh doanh đều phải được chú thích theo cách này. **Nhưng ai mới được quyền quyết định cái
+> nào quan trọng, cái nào không?** Bạn đoán ra rồi đó: các kế toán viên."*
 
 ---
 
@@ -341,6 +357,7 @@ nào quan trọng, cái nào không?** Bạn đoán ra rồi đó: các kế to�
 Trò cuối của chương 6, và nó có cùng cấu trúc với Xerox ở [bài 1](bai_01_nghe_thuat_tai_chinh.md):
 **vay của tương lai**.
 
+> [!quote]
 > *"Các nhà sản xuất, thường phải chịu áp lực doanh thu từ Phố Wall, thường bị cám dỗ với việc giao
 > những phần mềm **chưa được đặt hàng** cho các nhà phân phối vào cuối quý. (Biện pháp này được gọi
 > là **nhồi hàng vào kênh**)."* — ch. 6 · PDF tr. 53
@@ -358,18 +375,20 @@ Doanh thu thật 1.000/quý, ổn định. Quý 4 nhồi thêm 150, quý 1 năm 
 thu của quý sau. Và quý sau phải vay tiếp của quý sau nữa, **mỗi lần một nhiều hơn**. Giống hệt vòng
 xoáy của Xerox.
 
-📚 Sách kể **một** công ty đi ngược lại, và đáng nhớ tên: **Macromedia** *"đã tự nguyện trình báo các
-ước tính về hàng tồn kho hiện đang do nhà phân phối nắm giữ, qua đó cho thấy các kênh phân phối sản
-phẩm của công ty không phải được nhồi nhét khống."* Tức là tự công bố một con số cho phép ai cũng
-kiểm tra được rằng mình không nhồi hàng.
+> [!note]
+> Sách kể **một** công ty đi ngược lại, và đáng nhớ tên: **Macromedia** *"đã tự nguyện trình báo các
+> ước tính về hàng tồn kho hiện đang do nhà phân phối nắm giữ, qua đó cho thấy các kênh phân phối sản
+> phẩm của công ty không phải được nhồi nhét khống."* Tức là tự công bố một con số cho phép ai cũng
+> kiểm tra được rằng mình không nhồi hàng.
 
-💼 Cách phát hiện, dành cho người đọc báo cáo: khi doanh thu quý 4 vọt lên bất thường, xem **kỳ thu
-tiền bình quân (DSO)** của quý đó. Hàng nhồi đi ra khỏi kho nhưng tiền không về — nên DSO phình lên.
-Đó đúng là cách Andrew Shore lật tẩy Sunbeam ([bài 8](bai_08_ty_le_loi_nhuan_don_bay_thanh_toan.md) và bài 9).
+> [!example]
+> Cách phát hiện, dành cho người đọc báo cáo: khi doanh thu quý 4 vọt lên bất thường, xem **kỳ thu
+> tiền bình quân (DSO)** của quý đó. Hàng nhồi đi ra khỏi kho nhưng tiền không về — nên DSO phình lên.
+> Đó đúng là cách Andrew Shore lật tẩy Sunbeam ([bài 8](bai_08_ty_le_loi_nhuan_don_bay_thanh_toan.md) và bài 9).
 
 ---
 
-## 10. 🇻🇳 Đối chiếu Việt Nam
+## 10. Đối chiếu Việt Nam
 
 Nguyên tắc phù hợp không phải đặc sản của GAAP — nó là **nền tảng của kế toán dồn tích ở mọi khung**,
 kể cả VAS. Nên toàn bộ mục 2 đọc thẳng vào bối cảnh Việt Nam mà không cần chỉnh.
@@ -385,10 +404,11 @@ Ba chỗ đáng chú ý riêng khi đọc báo cáo Việt Nam:
 - **Thuyết minh là nơi cất mọi thứ của mục 7 và mục 8.** Chính sách ghi nhận doanh thu, chính sách
   khấu hao, và mọi thay đổi so với năm trước đều nằm ở đó — không nằm trên bảng.
 
-💼 Số thật: Vinamilk 2024 có doanh thu 52.576.991 và giá vốn 37.410.722 triệu đồng, tức giá vốn chiếm
-**71,2%** doanh thu, biên lợi nhuận gộp **28,8%**. So với công ty mẫu (77,8% / 22,2%): mỗi đồng doanh
-thu của Vinamilk để lại nhiều hơn **6,6 xu** để nuôi phần còn lại. Đó là toàn bộ giá trị của một dòng
-duy nhất trên báo cáo — và là lý do mục 4 đáng làm cho công ty của chính bạn.
+> [!example]
+> Số thật: Vinamilk 2024 có doanh thu 52.576.991 và giá vốn 37.410.722 triệu đồng, tức giá vốn chiếm
+> **71,2%** doanh thu, biên lợi nhuận gộp **28,8%**. So với công ty mẫu (77,8% / 22,2%): mỗi đồng doanh
+> thu của Vinamilk để lại nhiều hơn **6,6 xu** để nuôi phần còn lại. Đó là toàn bộ giá trị của một dòng
+> duy nhất trên báo cáo — và là lý do mục 4 đáng làm cho công ty của chính bạn.
 
 ---
 
@@ -551,7 +571,7 @@ chạy lại. Không có lời giải.
 - **Công ty Cổ phần Sữa Việt Nam (HOSE: VNM)** — Báo cáo tài chính hợp nhất đã kiểm toán 2024 theo
   IFRS, trong *Báo cáo thường niên Vinamilk 2024*, tr. 180–185.
   [Nguồn gốc](https://www.vinamilk.com.vn/bao-cao-thuong-nien/bao-cao/2024/doc/vi/bctc-ifrs.pdf),
-  truy xuất 08/09/2026. Dùng ở [mục 10](#10--đối-chiếu-việt-nam).
+  truy xuất 08/09/2026. Dùng ở [mục 10](#10-đối-chiếu-việt-nam).
 - **Đã kiểm chứng bằng code** — [`thuc_hanh/bai-02-loi-nhuan-chi-la-du-toan.py`](../thuc_hanh/bai-02-loi-nhuan-chi-la-du-toan.py):
   - bảng *"cô bé lớp 4"* của sách cộng trừ khớp ($100-50=50$; $50-30-5=15$);
   - xe tải: hai cách ghi nhận cộng lại **bằng nhau**, chốt bằng `assert`;
@@ -563,13 +583,13 @@ chạy lại. Không có lời giải.
     làm**. Sách chỉ nói *"thiếu một vài xu"* mà không lượng hoá. Bảng giả định doanh thu ghi thêm
     không kéo theo chi phí mới — đúng với một dịch chuyển thời điểm ghi nhận, nhưng **là giả định của
     bài này**.
-  - Khoản nợ xấu **150 triệu** ở [mục 5](#5--báo-cáo-hình-thức--cẩn-thận-với-loại-này), giá xe tải
+  - Khoản nợ xấu **150 triệu** ở [mục 5](#5-báo-cáo-hình-thức--cẩn-thận-với-loại-này), giá xe tải
     36.000, các thông số xe hộp mực, hợp đồng 1.800 ở [mục 7](#7-ba-tình-huống-không-có-đáp-án), và
     doanh thu 1.000/quý ở [mục 9](#9-nhồi-hàng-vào-kênh) — **do bài này đặt ra**; sách chỉ nêu tình
     huống bằng lời. Riêng **1/36**, **739 triệu**, **50% → 75%** là con số **của sách**.
   - Bảng "sáu thứ cần kiểm" ở [mục 3](#3-đọc-một-báo-cáo-kết-quả-kinh-doanh) do bài này gom lại từ
     văn xuôi rải trong chương 5.
-  - [Mục 10 — Đối chiếu Việt Nam](#10--đối-chiếu-việt-nam) hoàn toàn nằm ngoài sách.
+  - [Mục 10 — Đối chiếu Việt Nam](#10-đối-chiếu-việt-nam) hoàn toàn nằm ngoài sách.
 - **Liên hệ chéo:**
   - [Bài 1 mục 3①](bai_01_nghe_thuat_tai_chinh.md#3-bảy-chỗ-con-số-có-thể-nhảy--mà-không-ai-phạm-luật) — bốn thời điểm ghi nhận doanh thu và ví dụ máy photocopy.
   - [Bài 6](bai_06_loi_nhuan_khac_tien_mat.md) — vì sao lợi nhuận không phải tiền mặt, hệ quả trực tiếp của nguyên tắc phù hợp.

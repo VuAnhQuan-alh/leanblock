@@ -1,18 +1,20 @@
 # Bài 14 — Sáu tranh luận về chính sách kinh tế vĩ mô
 
+> [!info] Về bài này
 > Bài học dựng từ **Chương 23 — Sáu tranh luận về chính sách kinh tế vĩ mô**
 > (tr. 563–587) của *N. Gregory Mankiw — **Kinh tế học vĩ mô***, bản dịch của Khoa Kinh tế,
 > **ĐH Kinh tế TP.HCM** (Cengage Learning Asia).
-> 🔸 **Vòng 2 — đọc hiểu.** Đây là **chương cuối cùng của sách** và là **bài cuối cùng của khoá**.
+>
+> **Vòng 2 — đọc hiểu.** Đây là **chương cuối cùng của sách** và là **bài cuối cùng của khoá**.
 > Nó **không dạy công cụ mới**. Nó lấy sáu câu hỏi chính sách kinh điển và cho thấy mười ba bài
 > trước đã trang bị cho bạn đúng những gì để tranh luận — và **không** trang bị cho bạn một đáp án.
 > ⭐ Chương này cũng là chỗ nhiều con số của sách **có thể đối chiếu chéo** với các công thức đã học.
-> Bài này làm đúng việc đó, và [mục 3](#3--tranh-luận-2--hai-con-số-của-chính-quyền-obama) là kết
+> Bài này làm đúng việc đó, và [mục 3](#3-tranh-luận-2--hai-con-số-của-chính-quyền-obama) là kết
 > quả đáng chú ý nhất.
-> 💼 **Góc QTKD** — ví dụ thêm cho ngành quản trị kinh doanh, **không có trong sách**.
-> 📚 **Mở rộng** — thứ sách nói lướt hoặc để trong hộp phụ.
-> ⚠️ — chỗ dễ hiểu sai, hoặc chỗ sách in sai.
-> 📌 **Cần đọc trước:** cả khoá. Nặng nhất là
+>
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
+>
+> **Cần đọc trước:** cả khoá. Nặng nhất là
 > [Bài 12](bai_12_chinh_sach_tien_te_va_tai_khoa.md) và [Bài 13](bai_13_lam_phat_va_that_nghiep.md);
 > [Bài 4](bai_04_tiet_kiem_dau_tu_he_thong_tai_chinh.md#13-chính-sách-3--thâm-hụt-thặng-dư-và-hiện-tượng-lấn-át)
 > (thâm hụt và lấn át); [Bài 8 mục 15](bai_08_tang_truong_tien_va_lam_phat.md#15-sáu-chi-phí-của-lạm-phát)
@@ -26,19 +28,19 @@
 
 - [1. Sáu tuyên bố — bản đồ của cả chương](#1-sáu-tuyên-bố--bản-đồ-của-cả-chương)
 - [2. Tranh luận 1 — độ trễ, và vì sao nó quyết định tất cả](#2-tranh-luận-1--độ-trễ-và-vì-sao-nó-quyết-định-tất-cả)
-- [3. ⭐ Tranh luận 2 — hai con số của chính quyền Obama](#3--tranh-luận-2--hai-con-số-của-chính-quyền-obama)
+- [3. Tranh luận 2 — hai con số của chính quyền Obama](#3-tranh-luận-2--hai-con-số-của-chính-quyền-obama)
 - [4. Tranh luận 2 (tiếp) — ba khoản chi và lập luận phía giảm thuế](#4-tranh-luận-2-tiếp--ba-khoản-chi-và-lập-luận-phía-giảm-thuế)
 - [5. Tranh luận 3 — quy tắc hay tuỳ nghi](#5-tranh-luận-3--quy-tắc-hay-tuỳ-nghi)
 - [6. Kiểm quy tắc 3% bằng phương trình của bài 8](#6-kiểm-quy-tắc-3-bằng-phương-trình-của-bài-8)
 - [7. Tranh luận 4 — lạm phát zero: số học của cái giá](#7-tranh-luận-4--lạm-phát-zero-số-học-của-cái-giá)
 - [8. Tranh luận 5 — nợ công: kiểm lại từng con số](#8-tranh-luận-5--nợ-công-kiểm-lại-từng-con-số)
-- [9. ⭐ Tiêu chí bền vững của nợ công](#9--tiêu-chí-bền-vững-của-nợ-công)
+- [9. Tiêu chí bền vững của nợ công](#9-tiêu-chí-bền-vững-của-nợ-công)
 - [10. Tranh luận 5 (tiếp) — bốn phản bác](#10-tranh-luận-5-tiếp--bốn-phản-bác)
-- [11. ⭐ Tranh luận 6 — thuế đánh vào tiết kiệm: số học kép](#11--tranh-luận-6--thuế-đánh-vào-tiết-kiệm-số-học-kép)
-- [12. 📚 Hai hiệu ứng ngược chiều, viết thành số](#12--hai-hiệu-ứng-ngược-chiều-viết-thành-số)
-- [13. ⭐ Bản đồ — mỗi tranh luận dùng vũ khí từ bài nào](#13--bản-đồ--mỗi-tranh-luận-dùng-vũ-khí-từ-bài-nào)
-- [14. 💼 Góc QTKD](#14--góc-qtkd)
-- [15. 📚 Đối chiếu Việt Nam](#15--đối-chiếu-việt-nam)
+- [11. Tranh luận 6 — thuế đánh vào tiết kiệm: số học kép](#11-tranh-luận-6--thuế-đánh-vào-tiết-kiệm-số-học-kép)
+- [12. Hai hiệu ứng ngược chiều, viết thành số](#12-hai-hiệu-ứng-ngược-chiều-viết-thành-số)
+- [13. Bản đồ — mỗi tranh luận dùng vũ khí từ bài nào](#13-bản-đồ--mỗi-tranh-luận-dùng-vũ-khí-từ-bài-nào)
+- [14. Góc QTKD](#14-góc-qtkd)
+- [15. Đối chiếu Việt Nam](#15-đối-chiếu-việt-nam)
 - [16. Lời kết của cả môn học](#16-lời-kết-của-cả-môn-học)
 - [17. Code minh hoạ](#17-code-minh-hoạ)
 - [18. Tự thử](#18-tự-thử)
@@ -55,11 +57,13 @@
 
 Sách mở đầu bằng đúng cảnh mà ta gặp mỗi ngày (tr. 563):
 
+> [!quote]
 > *"Khi mở một tờ báo ra xem, chúng ta thường nhìn thấy những thông tin về sự bàn cãi của các nhà
 > chính trị hay những người viết xã luận về sự thay đổi của các chính sách kinh tế."*
 
 Và nói rõ mục đích của chương (tr. 563):
 
+> [!quote]
 > *"Nó sẽ giúp chúng ta chọn đứng về phía nào trong các cuộc tranh luận này, hay **ít nhất là giúp
 > bạn thấy được tại sao việc chọn đứng về phía nào là một việc làm thật sự khó khăn**."*
 
@@ -75,7 +79,7 @@ rồi *Quan điểm phản đối*.
 | **5** | Chính phủ có nên **cân bằng ngân sách**? | tr. 576–580 |
 | **6** | Luật thuế có nên cải cách để **khuyến khích tiết kiệm**? | tr. 580–583 |
 
-### ⭐ Cột mà mục lục sách không in
+### Cột mà mục lục sách không in
 
 Mỗi tranh luận **ăn vào một bài đã học**. Chương này không dạy gì mới; nó **buộc ta dựng lại** những
 gì đã có để trả lời một câu hỏi không có đáp án.
@@ -91,6 +95,7 @@ gì đã có để trả lời một câu hỏi không có đáp án.
 
 Sách kết chương bằng một câu đáng dán lên tường (tr. 583):
 
+> [!quote]
 > *"Nếu những vấn đề này nghe như họ đang biếu các bạn một **bữa trưa miễn phí**, các bạn nên tìm
 > chi phí ẩn ở phía sau."*
 
@@ -98,11 +103,13 @@ Sách kết chương bằng một câu đáng dán lên tường (tr. 583):
 
 ## 2. Tranh luận 1 — độ trễ, và vì sao nó quyết định tất cả
 
-⚠️ Chú ý cấu trúc lập luận, vì nó là chỗ nhiều người đọc sai: phe **phản đối không nói chính sách vô
-hiệu**. Họ thừa nhận nó có hiệu lực — rồi nói rằng nó **đến không đúng lúc**.
+> [!warning]
+> Chú ý cấu trúc lập luận, vì nó là chỗ nhiều người đọc sai: phe **phản đối không nói chính sách vô
+> hiệu**. Họ thừa nhận nó có hiệu lực — rồi nói rằng nó **đến không đúng lúc**.
 
 ### Quan điểm ủng hộ (tr. 564)
 
+> [!quote]
 > *"Nếu để tự thân vận hành thì các nền kinh tế thường có xu hướng biến động."*
 
 Cơ chế là một **vòng xoáy tự khẳng định**:
@@ -115,6 +122,7 @@ bi quan ⟹ cắt chi tiêu ⟹ AD giảm ⟹ sa thải ⟹ thu nhập giảm �
 [bài 12 mục 13](bai_12_chinh_sach_tien_te_va_tai_khoa.md#13-nên-dùng-chính-sách-để-bình-ổn-nền-kinh-tế-không)
 đã trích Keynes: *"một số thay đổi thái độ tự chúng sẽ thành hiện thực."*
 
+> [!quote]
 > *"Tình trạng suy thoái như vậy không có lợi cho xã hội vì nó thể hiện sự phí phạm các nguồn lực."*
 > …*"**Không có lý do gì để xã hội phải gánh chịu tình trạng bùng nổ và suy sụp của chu kỳ kinh
 > tế.**"*
@@ -132,6 +140,7 @@ cú sốc"*.
 
 ⟹ Kết luận sắc nhất của cả mục:
 
+> [!quote]
 > *"chính sách có thể làm **trầm trọng** một cách vô ý hơn là góp phần làm giảm nhẹ mức độ biến động
 > kinh tế. Một số các nhà kinh tế cho rằng nhiều biến động kinh tế lớn trong lịch sử, **bao gồm cả
 > cuộc Đại Khủng hoảng vào những năm 1930**, có thể có nguồn gốc từ các hành động chính sách mang
@@ -139,11 +148,12 @@ cú sốc"*.
 
 ⭐ Và sách mượn một phép ẩn dụ từ y học:
 
+> [!quote]
 > *"'Không làm điều gây hại'. Cơ thể con người có năng lực tái tạo tự nhiên. Đối diện với một bệnh
 > nhân và một kết quả chẩn đoán không có gì là chắc chắn, thường thì một vị bác sĩ không nên can
 > thiệp vào cơ thể của bệnh nhân."*
 
-### ⚠️ Cái bẫy của tranh luận này
+### Cái bẫy của tranh luận này
 
 Hai phe **không bất đồng về mô hình**. Cả hai đều chấp nhận AD–AS của
 [bài 11](bai_11_tong_cau_va_tong_cung.md). Họ bất đồng về:
@@ -156,7 +166,7 @@ nhận ra nó là một nửa mục đích của chương này.
 
 ---
 
-## 3. ⭐ Tranh luận 2 — hai con số của chính quyền Obama
+## 3. Tranh luận 2 — hai con số của chính quyền Obama
 
 Đây là chỗ **duy nhất** trong cả chương có hai con số **đối chiếu được** với mô hình của
 [bài 12](bai_12_chinh_sach_tien_te_va_tai_khoa.md). Sách in chúng rồi đi tiếp. Ta dừng lại.
@@ -165,6 +175,7 @@ Bối cảnh (tr. 566): Bush 2001 đáp lại suy thoái bằng **giảm thuế 
 gói kích thích *"không chỉ một số biện pháp cắt giảm thuế mà còn gia tăng đáng kể một số khoản chi
 tiêu chính phủ."*
 
+> [!quote] tr. 567
 > *"Theo tính toán mô phỏng của họ, mỗi đô la cắt giảm thuế sẽ làm tăng GDP lên **0,99 đô la**,
 > trong khi đó mỗi đô la tăng chi tiêu chính phủ làm tăng GDP lên **1,59 đô la**."* (tr. 567)
 
@@ -189,7 +200,7 @@ Nhưng mô hình **đơn giản** của bài 12 còn nói: số nhân chi $= 1/(
 
 $$\frac{1}{1 - 0{,}6226} = \mathbf{2{,}65} \qquad \text{nhưng chính quyền Obama dùng } \mathbf{1{,}59}$$
 
-⚠️ **Lệch 1,06 — không phải làm tròn.**
+> [!warning] Lệch 1,06 — không phải làm tròn.
 
 ⟹ Mô hình của họ **không phải sơ đồ Keynes đơn giản**. Nó có **rò rỉ**. Và
 [bài 12 mục 10](bai_12_chinh_sach_tien_te_va_tai_khoa.md#10-tác-động-lấn-át) gọi rò rỉ đó bằng tên:
@@ -199,33 +210,34 @@ $$\frac{1}{1 - 0{,}6226} = \mathbf{2{,}65} \qquad \text{nhưng chính quyền Ob
 
 $$\frac{1}{1 - 0{,}6226 + \mathbf{0{,}2516}} = 1{,}59 \quad ✅$$
 
-⚠️ **Ranh giới:** hai số nhân là **của sách** (tr. 567). Công thức số nhân là **của sách** (tr.
-520–521). Phép ghép chúng lại là **của bài này**.
+> [!warning] Ranh giới:
+> hai số nhân là **của sách** (tr. 567). Công thức số nhân là **của sách** (tr.
+> 520–521). Phép ghép chúng lại là **của bài này**.
 
 ⭐ Và đây là **bài học đọc số liệu quan trọng nhất của cả môn học**: hai con số trong một bản tin
 chính sách thường ẩn một mô hình đầy đủ hơn nhiều so với công thức trong sách giáo khoa. **Đọc được
 chúng lệch nhau bao nhiêu là đọc được mô hình đó giả định gì.**
 
-### 📚 Một phép chia nữa mà sách cũng không làm
-
-Sách nói gói 800 tỷ *"sẽ tạo ra hay có thể giữ lại hơn 3 triệu việc làm"* (tr. 567).
-
-$$\frac{800 \text{ tỷ USD}}{3 \text{ triệu việc làm}} = \mathbf{266.667 \text{ USD mỗi việc làm}}$$
-
-⚠️ Con số này **rất dễ bị dùng sai**, nên phải kèm ba lưu ý:
-
-- Nó **không phải lương**. Tiền đó mua **hàng hoá** (đường sá, cầu cống), không chỉ trả lương.
-- Sách dùng cụm *"tạo ra **hay có thể giữ lại**"* — **giữ** một việc làm và **tạo** một việc làm
-  không giống nhau, và không đo được như nhau.
-- In ra đây để biết **cách kiểm tra** một con số kiểu này, không phải để kết luận.
-
-Và sách tự cảnh báo về giới hạn của mọi đánh giá loại này (tr. 567):
-
-> *"Bởi vì chúng ta mới chỉ trải qua một lần trong chặng lịch sử thử nghiệm nó, chúng ta không thể
-> quan sát được **sự kiện song hành trái ngược** — đó là cùng một nền kinh tế mà không có gói kích
-> thích thì chuyện gì sẽ xảy ra."*
-
-⭐ Câu đó áp được vào mọi đánh giá chính sách, và vào phần lớn quyết định kinh doanh.
+> [!note] Một phép chia nữa mà sách cũng không làm
+>
+> Sách nói gói 800 tỷ *"sẽ tạo ra hay có thể giữ lại hơn 3 triệu việc làm"* (tr. 567).
+>
+> $$\frac{800 \text{ tỷ USD}}{3 \text{ triệu việc làm}} = \mathbf{266.667 \text{ USD mỗi việc làm}}$$
+>
+> ⚠️ Con số này **rất dễ bị dùng sai**, nên phải kèm ba lưu ý:
+>
+> - Nó **không phải lương**. Tiền đó mua **hàng hoá** (đường sá, cầu cống), không chỉ trả lương.
+> - Sách dùng cụm *"tạo ra **hay có thể giữ lại**"* — **giữ** một việc làm và **tạo** một việc làm
+>   không giống nhau, và không đo được như nhau.
+> - In ra đây để biết **cách kiểm tra** một con số kiểu này, không phải để kết luận.
+>
+> Và sách tự cảnh báo về giới hạn của mọi đánh giá loại này (tr. 567):
+>
+> > *"Bởi vì chúng ta mới chỉ trải qua một lần trong chặng lịch sử thử nghiệm nó, chúng ta không thể
+> > quan sát được **sự kiện song hành trái ngược** — đó là cùng một nền kinh tế mà không có gói kích
+> > thích thì chuyện gì sẽ xảy ra."*
+>
+> ⭐ Câu đó áp được vào mọi đánh giá chính sách, và vào phần lớn quyết định kinh doanh.
 
 ---
 
@@ -254,13 +266,14 @@ hoá đơn của nó.
 | (c) | chi tiêu công tạo kỳ vọng **thuế tương lai** ⟹ tiêu dùng hiện tại **giảm** ⟹ *"số nhân chi tiêu chính phủ có thể **nhỏ hơn** so với độ lớn thông thường mà chúng ta tính toán được"* |
 | (d) | **phi tập trung**: hộ gia đình chi vào thứ họ cho là đáng giá; chính phủ chịu *"áp lực chính trị"* ⟹ *"các cây cầu không dẫn đến đâu"* |
 
-⚠️ Chú ý lập luận **(c)**: nó chính là một phần của **rò rỉ** mà
-[mục 3](#3--tranh-luận-2--hai-con-số-của-chính-quyền-obama) vừa đo được. Sách nêu nó **bằng lời** ở
-trang 568, và con số 0,99 / 1,59 ở trang 567 là **dấu vết định lượng** của nó. Hai trang cách nhau
-một trang, và sách không nối chúng.
+> [!warning]
+> Chú ý lập luận **(c)**: nó chính là một phần của **rò rỉ** mà
+> [mục 3](#3-tranh-luận-2--hai-con-số-của-chính-quyền-obama) vừa đo được. Sách nêu nó **bằng lời** ở
+> trang 568, và con số 0,99 / 1,59 ở trang 567 là **dấu vết định lượng** của nó. Hai trang cách nhau
+> một trang, và sách không nối chúng.
 
 ⭐ Lập luận (b) là chỗ tranh luận 2 chạm vào một chương khác:
-[bài 12 mục 12](bai_12_chinh_sach_tien_te_va_tai_khoa.md#12--chính-sách-tài-khoá-cũng-chạm-vào-tổng-cung).
+[bài 12 mục 12](bai_12_chinh_sach_tien_te_va_tai_khoa.md#12-chính-sách-tài-khoá-cũng-chạm-vào-tổng-cung).
 Ở đó sách rất thận trọng — *"chắc chắn là một khả năng lý thuyết, nhưng đa số không xem đây là
 trường hợp bình thường"*. Ở đây, cùng lập luận ấy được một phe dùng làm vũ khí chính. ⚠️ Cùng một
 cuốn sách, hai giọng — vì mục 12 là **phần trình bày**, còn mục này là **phần tranh luận**.
@@ -272,12 +285,14 @@ cuốn sách, hai giọng — vì mục 12 là **phần trình bày**, còn mụ
 Bối cảnh (tr. 569): FOMC họp **mỗi sáu tuần**, quyết định tăng / giảm / giữ lãi suất ngắn hạn. Luật
 Cục Dự trữ Liên bang năm **1977** bổ sung cho Luật năm **1913**, yêu cầu Fed:
 
+> [!quote]
 > *"sẽ duy trì tăng trưởng dài hạn của các đại lượng tiền tệ song hành với mức tiềm năng dài hạn của
 > nền kinh tế để gia tăng sản xuất, nhằm thúc đẩy một cách hữu hiệu các mục tiêu tối đa hóa việc
 > làm, ổn định giá cả và điều tiết mức lãi suất dài hạn."*
 
-⚠️ *"Nhưng đạo luật này **không cụ thể làm thế nào để đánh giá sức mạnh của các mục tiêu khác nhau
-này**, cũng như không cho chúng ta biết Fed làm thế nào để theo đuổi mục tiêu gì mà nó chọn."*
+> [!warning]
+> *"Nhưng đạo luật này **không cụ thể làm thế nào để đánh giá sức mạnh của các mục tiêu khác nhau
+> này**, cũng như không cho chúng ta biết Fed làm thế nào để theo đuổi mục tiêu gì mà nó chọn."*
 
 ### Ủng hộ quy tắc — hai vấn đề, rất khác nhau (tr. 570)
 
@@ -289,7 +304,7 @@ trì trật tự kinh tế cho ngân hàng trung ương thì *"rất ít các h�
 trước bầu cử — sản lượng và việc làm tăng **trước**, lạm phát đến **sau** bầu cử.
 
 ⭐ Sự chênh lệch thời gian đó **không ngẫu nhiên**: nó chính là cấu trúc **A → B → C** của
-[bài 13 mục 8](bai_13_lam_phat_va_that_nghiep.md#8--đường-đi-a--b--c-vì-sao-đánh-đổi-chỉ-là-tạm-thời),
+[bài 13 mục 8](bai_13_lam_phat_va_that_nghiep.md#8-đường-đi-a--b--c-vì-sao-đánh-đổi-chỉ-là-tạm-thời),
 và nhiệm kỳ bầu cử vừa khớp với đoạn A → B.
 
 **(2) Sự không nhất quán của chính sách theo thời gian.** Đây là lập luận tinh hơn:
@@ -303,6 +318,7 @@ NHTW tuyên bố mục tiêu lạm phát zero
 ⟹ kỳ vọng lạm phát cao ⟹ đường Phillips ngắn hạn ở vị trí XẤU HƠN
 ```
 
+> [!quote] tr. 570
 > *"Do vậy, người dân luôn kỳ vọng lạm phát cao hơn những gì các nhà hoạch định chính sách cam kết
 > là họ đang cố gắng đạt được."* (tr. 570)
 
@@ -321,6 +337,7 @@ Lập luận chính là **tính linh hoạt**, và sách kê ra một danh sách
 | **10/1987** | thị trường chứng khoán giảm **22% chỉ trong một ngày** |
 | 2007–2009 | giá nhà sụp, việc tịch thu tài sản, hệ thống tài chính gặp vấn đề nghiêm trọng |
 
+> [!quote]
 > *"Một nhà thiết kế quy tắc chính sách có lẽ không thể xem xét trước được tất cả sự thuần khiết và
 > cụ thể về sự đáp lại của chính sách một cách đúng đắn."*
 
@@ -334,25 +351,26 @@ từng có"* — **mà không cần quy tắc nào**.
 
 ⟹ Đòn kết:
 
+> [!quote]
 > *"Bất kỳ nỗ lực nào nhằm thay thế sự tùy nghi bằng làm theo quy tắc đều phải đối mặt với một nhiệm
 > vụ khó khăn đó là phải **cụ thể hóa thành một quy tắc rõ ràng**."*
 
-### 📚 Lạm phát mục tiêu — hộp "Bạn có biết" tr. 572
+> [!note] Lạm phát mục tiêu — hộp "Bạn có biết" tr. 572
+>
+> Sách giới thiệu một **giải pháp trung dung** đang được nhiều ngân hàng trung ương dùng:
+>
+> - **lạm phát mục tiêu** = công bố mục đích về tỷ lệ lạm phát trong một vài năm tiếp theo
+> - *"không phải là một cam kết theo một quy tắc cứng nhắc"* — thường là một **khoảng biến thiên**
+>   (ví dụ 1–3%), và cho phép điều chỉnh nếu có cú sốc bất ngờ
+> - ⭐ lợi ích chính là **tính giải trình**: *"khi một ngân hàng trung ương được chỉ đạo đơn giản là
+>   'thực hiện đúng nhiệm vụ', ngân hàng trung ương thật khó có thể giải trình được"*
+> - *"lạm phát mục tiêu là sự dung hòa trong cuộc tranh luận về quy tắc hay tùy nghi"*
+>
+> ⚠️ Sách ghi rõ Fed **không** theo lạm phát mục tiêu rõ ràng, *"mặc dù một số các nhà bình luận thường
+> đề nghị rằng Fed nên định một mức mục tiêu lạm phát ẩn ngầm khoảng 2%"*, và ghi nhận Ben Bernanke là
+> người ủng hộ nổi tiếng.
 
-Sách giới thiệu một **giải pháp trung dung** đang được nhiều ngân hàng trung ương dùng:
-
-- **lạm phát mục tiêu** = công bố mục đích về tỷ lệ lạm phát trong một vài năm tiếp theo
-- *"không phải là một cam kết theo một quy tắc cứng nhắc"* — thường là một **khoảng biến thiên**
-  (ví dụ 1–3%), và cho phép điều chỉnh nếu có cú sốc bất ngờ
-- ⭐ lợi ích chính là **tính giải trình**: *"khi một ngân hàng trung ương được chỉ đạo đơn giản là
-  'thực hiện đúng nhiệm vụ', ngân hàng trung ương thật khó có thể giải trình được"*
-- *"lạm phát mục tiêu là sự dung hòa trong cuộc tranh luận về quy tắc hay tùy nghi"*
-
-⚠️ Sách ghi rõ Fed **không** theo lạm phát mục tiêu rõ ràng, *"mặc dù một số các nhà bình luận thường
-đề nghị rằng Fed nên định một mức mục tiêu lạm phát ẩn ngầm khoảng 2%"*, và ghi nhận Ben Bernanke là
-người ủng hộ nổi tiếng.
-
-### ⚠️ Một con số xuất hiện ba lần với hai giá trị
+### Một con số xuất hiện ba lần với hai giá trị
 
 Sự kiện 19/10/1987 xuất hiện **ba lần** trong sách:
 
@@ -370,13 +388,14 @@ Sự kiện 19/10/1987 xuất hiện **ba lần** trong sách:
 
 Sách nêu một quy tắc cụ thể và **tự giải thích con số** (tr. 570):
 
+> [!quote]
 > *"Ví dụ, giả sử Quốc hội đã thông qua một đạo luật yêu cầu Fed gia tăng cung tiền chính xác là 3%
 > mỗi năm. (Tại sao là 3%? Bởi vì GDP thực tăng trưởng khoảng 3% mỗi năm, và bởi vì cầu tiền tăng
 > trưởng cùng với GDP thực, tăng trưởng 3% của cung tiền xấp xỉ bằng với tỷ lệ cần thiết để tạo ra
 > sự ổn định giá cả trong dài hạn.)"*
 
 Kiểm bằng phương trình của
-[bài 8 mục 4](bai_08_tang_truong_tien_va_lam_phat.md#4--viết-năm-bước-ấy-thành-một-dòng):
+[bài 8 mục 4](bai_08_tang_truong_tien_va_lam_phat.md#4-viết-năm-bước-ấy-thành-một-dòng):
 
 $$\%\Delta M + \%\Delta V = \%\Delta P + \%\Delta Y$$
 
@@ -391,8 +410,9 @@ $$\%\Delta M + \%\Delta V = \%\Delta P + \%\Delta Y$$
 ✅ Dòng đầu cho lạm phát **đúng bằng 0** — chính xác như sách giải thích. Con số 3% không tuỳ tiện;
 nó là $\%\Delta Y$.
 
-⚠️ **Nhưng bốn dòng còn lại là lý do phe phản đối thắng ở thực tế.** Quy tắc chỉ cho kết quả mong
-muốn khi **hai** giả định cùng đúng: $V$ ổn định **và** $Y$ tăng đúng 3%.
+> [!warning] Nhưng bốn dòng còn lại là lý do phe phản đối thắng ở thực tế.
+> Quy tắc chỉ cho kết quả mong
+> muốn khi **hai** giả định cùng đúng: $V$ ổn định **và** $Y$ tăng đúng 3%.
 
 📌 Và [bài 11 mục 11](bai_11_tong_cau_va_tong_cung.md#11-đại-khủng-hoảng--và-một-phép-kiểm-mà-bài-8-chưa-làm-được)
 đã cho thấy ở Đại Khủng hoảng $V$ **giảm 20,9%** — đúng lúc cần nó nhất. Với quy tắc 3% cứng, một cú
@@ -421,11 +441,13 @@ Rồi đặt chúng lên bàn cân với **cái giá** — và cái giá thì t�
 | lạm phát cần loại bỏ | **4 điểm** | tr. 574 |
 | ⟹ sản lượng **của một năm** phải bỏ | **20%** | ✅ khớp tr. 574 |
 
+> [!quote] tr. 574–575
 > *"Người dân có lẽ là không thích mức lạm phát 4%, nhưng cũng không thực sự rõ ràng là họ sẽ sẵn
 > lòng trả **20 thu nhập một năm** để thoát khỏi tình trạng lạm phát 4% này."* (tr. 574–575)
 
-### ⚠️ Và một điều con số 20% không nói
+### Và một điều con số 20% không nói
 
+> [!quote] tr. 575
 > *"phần giảm của tổng thu nhập **tập trung vào những người lao động bị mất việc làm**. Những người
 > lao động dễ bị tổn thương này thường là những người **ít kỹ năng và thiếu kinh nghiệm**. Vì vậy,
 > phần lớn chi phí cắt giảm lạm phát trút hết cho những người có khả năng thanh toán thấp nhất."*
@@ -438,13 +460,14 @@ nhau.
 
 ### Ba lập luận cho một mức lạm phát dương (tr. 576)
 
-⚠️ Ba lập luận này nằm **chính xác ở phía đối diện** của sáu chi phí ở bài 8. Học thuộc **cả hai
-bên** mới là học xong.
+> [!warning]
+> Ba lập luận này nằm **chính xác ở phía đối diện** của sáu chi phí ở bài 8. Học thuộc **cả hai
+> bên** mới là học xong.
 
 | # | Lập luận | Nối với |
 | - | -------- | ------- |
 | 1 | **"bôi trơn bánh xe"** thị trường lao động — lương danh nghĩa khó cắt giảm, nên lạm phát dương làm **lương thực** điều chỉnh dễ hơn | [bài 6 mục 10](bai_06_that_nghiep.md#10-nguyên-nhân-4--lý-thuyết-tiền-lương-hiệu-quả) |
-| 2 | **lãi suất thực âm** trở nên khả dĩ — vì $i \not< 0$, chỉ có lạm phát dương mới cho $r = i - \pi < 0$ | [bài 12 mục 7](bai_12_chinh_sach_tien_te_va_tai_khoa.md#7--tiệm-cận-đáy-zero-và-bẫy-thanh-khoản) |
+| 2 | **lãi suất thực âm** trở nên khả dĩ — vì $i \not< 0$, chỉ có lạm phát dương mới cho $r = i - \pi < 0$ | [bài 12 mục 7](bai_12_chinh_sach_tien_te_va_tai_khoa.md#7-tiệm-cận-đáy-zero-và-bẫy-thanh-khoản) |
 | 3 | **Alan Blinder**: chi phí lạm phát vừa phải *"giống như một cơn cảm lạnh hơn là một căn bệnh ung thư đối với xã hội"* — mà ta lại *"kê toa cho nền kinh tế gánh chịu cuộc phẫu thuật này (chịu tình trạng thất nghiệp cao)"* | — |
 
 Kiểm ý (2) bằng số:
@@ -461,17 +484,17 @@ bằng 4 điểm lạm phát thường trực.
 ⭐ Đó là một sự đánh đổi **đo được**, và là lý do thực tế đa số ngân hàng trung ương chọn mục tiêu
 **dương** (~2%) chứ không chọn zero.
 
-### 📚 Và một lối thoát mà sách chỉ ra rất gọn (tr. 575)
-
-Nhiều chi phí của lạm phát có thể **giảm mà không cần giảm lạm phát**:
-
-- **chỉ số hoá luật thuế** ⟹ xoá chi phí "nghĩa vụ thuế ngoài dự định"
-- **phát hành trái phiếu chính phủ được chỉ số hoá** — *"như trong thực tế chính quyền Clinton đã
-  thực hiện vào năm 1997"* ⟹ cách ly người nắm nợ chính phủ khỏi lạm phát, và tạo tiền lệ để tư
-  nhân làm theo
-
-⭐ Đó là kiểu lập luận đáng học: khi cái giá của việc **loại bỏ** một vấn đề quá cao, hãy xem có thể
-**vô hiệu hoá tác hại** của nó rẻ hơn không.
+> [!note] Và một lối thoát mà sách chỉ ra rất gọn (tr. 575)
+>
+> Nhiều chi phí của lạm phát có thể **giảm mà không cần giảm lạm phát**:
+>
+> - **chỉ số hoá luật thuế** ⟹ xoá chi phí "nghĩa vụ thuế ngoài dự định"
+> - **phát hành trái phiếu chính phủ được chỉ số hoá** — *"như trong thực tế chính quyền Clinton đã
+>   thực hiện vào năm 1997"* ⟹ cách ly người nắm nợ chính phủ khỏi lạm phát, và tạo tiền lệ để tư
+>   nhân làm theo
+>
+> ⭐ Đó là kiểu lập luận đáng học: khi cái giá của việc **loại bỏ** một vấn đề quá cao, hãy xem có thể
+> **vô hiệu hoá tác hại** của nó rẻ hơn không.
 
 ---
 
@@ -495,14 +518,16 @@ có ra một đại lượng mà bạn biết độc lập hay không.
 
 ### (b) Gánh nặng có lớn không? — phe phản đối phản bác bằng chính số đó
 
+> [!quote] tr. 578
 > *"Nợ của một người Mỹ vào khoảng 25.000 đô la mỗi đầu người. Một người làm việc **40 năm** với thu
 > nhập **50.000 đô la** mỗi năm sẽ nhận được **2 triệu đô la** suốt cuộc đời của anh ta. Tỷ phần nợ
 > chính phủ chỉ vào khoảng **1%** của toàn bộ nguồn thu suốt đời của người này."* (tr. 578)
 
 $$\frac{25.000}{2.000.000} = \mathbf{1{,}25\%}$$
 
-⚠️ Tính ra **1,25%**; sách in *"khoảng 1%"* — làm tròn **xuống**. Không sai, nhưng khi trích nên
-dùng con số tự tính.
+> [!warning]
+> Tính ra **1,25%**; sách in *"khoảng 1%"* — làm tròn **xuống**. Không sai, nhưng khi trích nên
+> dùng con số tự tính.
 
 ⭐ **Cả hai phe đều dùng cùng một con số.** Khác nhau ở chỗ đặt nó cạnh gì:
 
@@ -525,17 +550,19 @@ ra**.
 [bài 12 mục 14](bai_12_chinh_sach_tien_te_va_tai_khoa.md#14-nhân-tố-bình-ổn-tự-động), phát biểu lại
 dưới dạng một lập luận chống quy tắc cân bằng ngân sách.
 
-⚠️ Và sách chỉ ra cái **không** được biện hộ: nợ/GDP tăng từ **26% (1980)** lên **50% (1995)** —
-*"Hoa Kỳ đã không phải trải qua một cuộc xung đột quân sự lớn nào hay cũng không có một cuộc suy
-giảm kinh tế trầm trọng nào"* (tr. 578). Lý do sách cho rất thẳng: *"phần lớn bởi vì tổng thống và
-Quốc hội thấy rằng **tăng chi tiêu chính phủ dễ hơn là tăng thuế**."*
+> [!warning]
+> Và sách chỉ ra cái **không** được biện hộ: nợ/GDP tăng từ **26% (1980)** lên **50% (1995)** —
+> *"Hoa Kỳ đã không phải trải qua một cuộc xung đột quân sự lớn nào hay cũng không có một cuộc suy
+> giảm kinh tế trầm trọng nào"* (tr. 578). Lý do sách cho rất thẳng: *"phần lớn bởi vì tổng thống và
+> Quốc hội thấy rằng **tăng chi tiêu chính phủ dễ hơn là tăng thuế**."*
 
 ---
 
-## 9. ⭐ Tiêu chí bền vững của nợ công
+## 9. Tiêu chí bền vững của nợ công
 
 Sách đưa ra tiêu chí bằng lời rồi minh hoạ bằng một phép tính (tr. 579):
 
+> [!quote]
 > *"Sản lượng thực của nền kinh tế Hoa Kỳ tăng trưởng trung bình khoảng **3%** mỗi năm. Nếu tỷ lệ
 > lạm phát là **2%** mỗi năm, thì thu nhập danh nghĩa tăng trưởng ở mức **5%** mỗi năm. Vì vậy, nợ
 > chính phủ có thể tăng 5% mỗi năm mà không làm gia tăng tỷ số nợ trên thu nhập. Năm 2009, nợ chính
@@ -544,50 +571,50 @@ Sách đưa ra tiêu chí bằng lời rồi minh hoạ bằng một phép tính
 
 ✅ $7.600 \times 5\% = \mathbf{380}$ tỷ — khớp chính xác.
 
-### 📚 Đặt nó cạnh con số ở trang sau
+> [!note] Đặt nó cạnh con số ở trang sau
+>
+> | Đại lượng | Giá trị | Nguồn |
+> | --------- | ------- | ----- |
+> | thâm hụt **bền vững** | 380 tỷ | tr. 579 |
+> | thâm hụt **thực tế 2010** | ~1.500 tỷ | tr. 580 |
+> | ⟹ **tỷ lệ** | **3,95 lần** | *bài này* |
+>
+> ⚠️ Gấp gần **4 lần**. Sách đặt hai con số ở hai trang liền nhau nhưng **không chia chúng cho nhau**.
+>
+> Sách kết rất thận trọng, và cách viết này đáng học (tr. 580):
+>
+> > *"Không một ai cho rằng sự thâm hụt ở mức độ này có thể tiếp diễn. Nhưng **zero là mục tiêu sai
+> > lầm** đối với các nhà hoạch định chính sách tài khóa. Miễn là thâm hụt ngân sách chỉ ở quy mô vừa
+> > phải, sẽ không bao giờ có một ngày thâm hụt ngân sách bị buộc phải kết thúc hay nền kinh tế bị sụp
+> > đổ."*
 
-| Đại lượng | Giá trị | Nguồn |
-| --------- | ------- | ----- |
-| thâm hụt **bền vững** | 380 tỷ | tr. 579 |
-| thâm hụt **thực tế 2010** | ~1.500 tỷ | tr. 580 |
-| ⟹ **tỷ lệ** | **3,95 lần** | *bài này* |
-
-⚠️ Gấp gần **4 lần**. Sách đặt hai con số ở hai trang liền nhau nhưng **không chia chúng cho nhau**.
-
-Sách kết rất thận trọng, và cách viết này đáng học (tr. 580):
-
-> *"Không một ai cho rằng sự thâm hụt ở mức độ này có thể tiếp diễn. Nhưng **zero là mục tiêu sai
-> lầm** đối với các nhà hoạch định chính sách tài khóa. Miễn là thâm hụt ngân sách chỉ ở quy mô vừa
-> phải, sẽ không bao giờ có một ngày thâm hụt ngân sách bị buộc phải kết thúc hay nền kinh tế bị sụp
-> đổ."*
-
-### 📚 Công thức bền vững — bài tập 5 tr. 586
-
-⚠️ **Công thức này không có trong sách.** Bài tập 5 tr. 586 hỏi: thâm hụt **12% GDP**, GDP danh
-nghĩa tăng **5%/năm** — bền vững mãi mãi không? Nếu duy trì 20 năm thì sao?
-
-Gọi $d$ = tỷ số nợ/GDP. Mỗi năm:
-
-$$d_{t+1} = \frac{d_t + \text{thâm hụt}}{1 + g} \qquad \Longrightarrow \qquad d^* = \frac{\text{thâm hụt}}{g}$$
-
-| Năm | Nợ/GDP |
-| --: | -----: |
-| 0 | 50,0% |
-| 5 | 91,1% |
-| 10 | 123,4% |
-| 15 | 148,6% |
-| 20 | **168,4%** |
-| ⟹ ∞ | **240,0%** = 12% / 5% |
-
-⟹ **Trả lời bài tập 5:** về mặt **số học** nợ **hội tụ**, không nổ ra vô hạn — vì GDP danh nghĩa
-cũng tăng. Nhưng nó hội tụ về **240% GDP**, một mức mà không nền kinh tế lớn nào từng duy trì ổn
-định.
-
-⚠️ ⭐ Và đây là chỗ mô hình này **tự phản bội chính nó**: công thức giả định $g = 5\%$ **không đổi**.
-Nhưng ở mức nợ 240% GDP thì lãi suất đối với chính phủ đó sẽ **không còn là lãi suất cũ** —
-[bài 4 mục 13](bai_04_tiet_kiem_dau_tu_he_thong_tai_chinh.md#13-chính-sách-3--thâm-hụt-thặng-dư-và-hiện-tượng-lấn-át)
-và [bài 10 mục 9](bai_10_ly_thuyet_kinh_te_mo.md#9-thí-nghiệm-3--tháo-chạy-vốn) đã nói. Một mô hình
-tuyến tính dùng để **hỏi đúng câu hỏi**, không dùng để trả lời nó.
+> [!note] Công thức bền vững — bài tập 5 tr. 586
+>
+> ⚠️ **Công thức này không có trong sách.** Bài tập 5 tr. 586 hỏi: thâm hụt **12% GDP**, GDP danh
+> nghĩa tăng **5%/năm** — bền vững mãi mãi không? Nếu duy trì 20 năm thì sao?
+>
+> Gọi $d$ = tỷ số nợ/GDP. Mỗi năm:
+>
+> $$d_{t+1} = \frac{d_t + \text{thâm hụt}}{1 + g} \qquad \Longrightarrow \qquad d^* = \frac{\text{thâm hụt}}{g}$$
+>
+> | Năm | Nợ/GDP |
+> | --: | -----: |
+> | 0 | 50,0% |
+> | 5 | 91,1% |
+> | 10 | 123,4% |
+> | 15 | 148,6% |
+> | 20 | **168,4%** |
+> | ⟹ ∞ | **240,0%** = 12% / 5% |
+>
+> ⟹ **Trả lời bài tập 5:** về mặt **số học** nợ **hội tụ**, không nổ ra vô hạn — vì GDP danh nghĩa
+> cũng tăng. Nhưng nó hội tụ về **240% GDP**, một mức mà không nền kinh tế lớn nào từng duy trì ổn
+> định.
+>
+> ⚠️ ⭐ Và đây là chỗ mô hình này **tự phản bội chính nó**: công thức giả định $g = 5\%$ **không đổi**.
+> Nhưng ở mức nợ 240% GDP thì lãi suất đối với chính phủ đó sẽ **không còn là lãi suất cũ** —
+> [bài 4 mục 13](bai_04_tiet_kiem_dau_tu_he_thong_tai_chinh.md#13-chính-sách-3--thâm-hụt-thặng-dư-và-hiện-tượng-lấn-át)
+> và [bài 10 mục 9](bai_10_ly_thuyet_kinh_te_mo.md#9-thí-nghiệm-3--tháo-chạy-vốn) đã nói. Một mô hình
+> tuyến tính dùng để **hỏi đúng câu hỏi**, không dùng để trả lời nó.
 
 ---
 
@@ -600,8 +627,9 @@ tuyến tính dùng để **hỏi đúng câu hỏi**, không dùng để trả 
 | **3** | **tái phân phối giữa các thế hệ** có thể xảy ra **mà không chạm đến nợ**: An Sinh Xã Hội thập niên 1960–70 chuyển thu nhập từ thế hệ trẻ sang thế hệ già *"mặc dù nó đã không ảnh hưởng đến nợ chính phủ"* |
 | **4** | **cha mẹ có tầm nhìn xa** có thể tự bù trừ bằng cách tiết kiệm nhiều hơn và để lại thừa kế lớn hơn. Sách trung thực: *"Hầu hết các nhà kinh tế vẫn còn nghi ngờ"* — nhưng ghi nhận nó là một khả năng |
 
-### ⭐ Phản bác 2, viết đầy đủ
+### Phản bác 2, viết đầy đủ
 
+> [!quote] tr. 578
 > *"Thâm hụt ngân sách chỉ là **một phần** của bức tranh lớn hơn về cách thức chính phủ lựa chọn để
 > tạo ra nguồn thu và chi tiêu tiền."* (tr. 578)
 
@@ -624,6 +652,7 @@ một năm đi học tăng thêm) là **khá lớn**."*
 
 Và sách gọi tên cái bẫy:
 
+> [!quote] tr. 579
 > *"Sự quan tâm một cách **phiến diện** về thâm hụt ngân sách cũng nguy hiểm bởi vì nó tách rời với
 > các chính sách khác mà chúng có thể gây nên sự tái phân phối thu nhập giữa các thế hệ."* (tr. 579)
 
@@ -633,7 +662,7 @@ dòng khác. **Tối ưu một biến số trong một hệ nhiều biến là c
 
 ---
 
-## 11. ⭐ Tranh luận 6 — thuế đánh vào tiết kiệm: số học kép
+## 11. Tranh luận 6 — thuế đánh vào tiết kiệm: số học kép
 
 Sách đưa một ví dụ số rất mạnh (tr. 580–581). Ta chạy lại từng bước.
 
@@ -648,7 +677,7 @@ Một người lao động 25 tuổi tiết kiệm **1.000 USD**, mua trái phi�
 ✅ Sách in **72.900** và **13.800** — làm tròn đến hàng trăm. Khớp.
 ✅ Giảm **81,1%** — sách in *"hay vào khoảng 80%"*.
 
-### ⭐ Vì sao thuế 40% lại cắt mất 81%? — sách không giải thích
+### Vì sao thuế 40% lại cắt mất 81%? — sách không giải thích
 
 Vì thuế đánh vào **lãi suất**, còn kết quả thì là **luỹ thừa** của lãi suất. Thuế ăn vào **phần cơ
 số** của số mũ ⟹ tác động nhân lên theo **số năm**.
@@ -668,7 +697,7 @@ nó lớn dần theo thời hạn.**
 kiệm ngắn hạn — và giải thích vì sao mọi ưu đãi thuế tiết kiệm trong đời thực (**IRA, 401(k),
 403(b), kế hoạch Keogh** — tr. 581) đều gắn với **hưu trí**.
 
-📌 Đây là [bài 5 mục 3](bai_05_cong_cu_co_ban_cua_tai_chinh.md#3--ma-thuật-của-lãi-kép-và-quy-tắc-70--hộp-bạn-có-biết-tr-316)
+📌 Đây là [bài 5 mục 3](bai_05_cong_cu_co_ban_cua_tai_chinh.md#3-ma-thuật-của-lãi-kép-và-quy-tắc-70--hộp-bạn-có-biết-tr-316)
 nhìn ngược lại: lãi kép mạnh đến đâu thì việc **cắt một mẩu lãi suất** cũng tai hại đến đó.
 
 ### Thuế hai lần — sách mô tả bằng lời, bài này viết thành công thức
@@ -676,8 +705,9 @@ nhìn ngược lại: lãi kép mạnh đến đâu thì việc **cắt một m�
 Sách (tr. 581): lợi nhuận bị đánh **thuế thu nhập doanh nghiệp**, rồi phần còn lại chia cổ tức lại
 bị đánh **thuế thu nhập cá nhân** lần hai.
 
-⚠️ **Sách không cho suất thuế nào.** Hai suất dưới đây là **của bài này**, đặt để minh hoạ cơ chế.
-Công thức thì không phụ thuộc giá trị cụ thể:
+> [!warning] Sách không cho suất thuế nào.
+> Hai suất dưới đây là **của bài này**, đặt để minh hoạ cơ chế.
+> Công thức thì không phụ thuộc giá trị cụ thể:
 
 $$t_{\text{hiệu dụng}} = 1 - (1 - t_{\text{doanh nghiệp}})(1 - t_{\text{cá nhân}})$$
 
@@ -713,6 +743,7 @@ và là chỗ hai tranh luận cuối khoá lại với nhau.
 
 Và sách chốt bằng một cảnh báo sắc (tr. 583):
 
+> [!quote]
 > *"Thay đổi thuế bằng cách giảm thuế thu nhập vốn sẽ làm giảm nguồn thu chính phủ và vì vậy kéo
 > theo thâm hụt ngân sách lớn hơn. Để tăng tiết kiệm quốc gia, một sự thay đổi luật thuế như vậy đòi
 > hỏi phải thúc đẩy tiết kiệm tư nhân nhiều hơn phần giảm của tiết kiệm chính phủ. Nếu điều này
@@ -721,10 +752,11 @@ Và sách chốt bằng một cảnh báo sắc (tr. 583):
 
 ---
 
-## 12. 📚 Hai hiệu ứng ngược chiều, viết thành số
+## 12. Hai hiệu ứng ngược chiều, viết thành số
 
-⚠️ Mục này **không có trong sách**. Sách nói hai hiệu ứng *"xấp xỉ và bù trừ nhau thì tiết kiệm sẽ
-không thay đổi"* (tr. 583) nhưng không đưa ví dụ. Một ví dụ số làm rõ ý đó.
+> [!warning]
+> Mục này **không có trong sách**. Sách nói hai hiệu ứng *"xấp xỉ và bù trừ nhau thì tiết kiệm sẽ
+> không thay đổi"* (tr. 583) nhưng không đưa ví dụ. Một ví dụ số làm rõ ý đó.
 
 Một người muốn có **đúng 100.000 USD** lúc về hưu sau 30 năm. Thuế giảm ⟹ lãi suất sau thuế tăng.
 Họ phải tiết kiệm bao nhiêu **mỗi năm**?
@@ -736,8 +768,9 @@ Họ phải tiết kiệm bao nhiêu **mỗi năm**?
 | 6% | 1.265 USD |
 | 8% | **883 USD** |
 
-⚠️ Đọc cột phải: sinh lợi **cao hơn** làm số tiền phải bỏ ra mỗi năm **giảm**. Đó chính là **hiệu
-ứng thu nhập**, và nó kéo tiết kiệm **xuống**.
+> [!warning]
+> Đọc cột phải: sinh lợi **cao hơn** làm số tiền phải bỏ ra mỗi năm **giảm**. Đó chính là **hiệu
+> ứng thu nhập**, và nó kéo tiết kiệm **xuống**.
 
 ⭐ **Hiệu ứng thay thế** kéo ngược lại: mỗi đồng bỏ ra hôm nay mua được nhiều tiêu dùng tương lai hơn
 nên đáng bỏ ra hơn. **Hai lực này đều có thật**, và độ lớn tương đối của chúng là một câu hỏi **thực
@@ -745,6 +778,7 @@ nghiệm**, không phải một câu hỏi lý thuyết.
 
 ⟹ Đó là lý do sách viết:
 
+> [!quote] tr. 582
 > *"Lý thuyết kinh tế học không cung cấp một dự đoán rõ ràng về việc liệu rằng một suất sinh lợi cao
 > hơn có làm gia tăng tiết kiệm hay không."* (tr. 582)
 
@@ -758,7 +792,7 @@ cung vốn vay dịch phải"* — mới là bước chưa chắc chắn.
 
 ---
 
-## 13. ⭐ Bản đồ — mỗi tranh luận dùng vũ khí từ bài nào
+## 13. Bản đồ — mỗi tranh luận dùng vũ khí từ bài nào
 
 Đọc bảng này theo chiều **dọc** (một tranh luận) để ôn tranh luận đó. Đọc theo chiều **ngang** (một
 bài) để thấy bài đó đã đi đến đâu.
@@ -787,20 +821,22 @@ bài) để thấy bài đó đã đi đến đâu.
 [bài 13](bai_13_lam_phat_va_that_nghiep.md) ở **hai**. Đó không phải ngẫu nhiên — chúng là ba bài mà
 chương 23 gọi tên nhiều nhất.
 
-⚠️ Và chú ý **các ô trống**: **không bài nào phủ được cả sáu.** Không có một công cụ nào trả lời
-được mọi câu hỏi chính sách. Đó là thông điệp của cả chương.
+> [!warning]
+> Và chú ý **các ô trống**: **không bài nào phủ được cả sáu.** Không có một công cụ nào trả lời
+> được mọi câu hỏi chính sách. Đó là thông điệp của cả chương.
 
 ---
 
-## 14. 💼 Góc QTKD
+## 14. Góc QTKD
 
-⚠️ Toàn bộ mục này **không có trong sách**.
+> [!warning]
+> Toàn bộ mục này **không có trong sách**.
 
 ### (a) Bốn câu hỏi áp được vào bất kỳ bản tin chính sách nào
 
 | # | Câu hỏi | Ví dụ trong bài này |
 | - | ------- | ------------------- |
-| 1 | Con số này đến từ **mô hình** nào? | số nhân 1,59 — [mục 3](#3--tranh-luận-2--hai-con-số-của-chính-quyền-obama) |
+| 1 | Con số này đến từ **mô hình** nào? | số nhân 1,59 — [mục 3](#3-tranh-luận-2--hai-con-số-của-chính-quyền-obama) |
 | 2 | **Mẫu số** là gì? | 25.000 USD hay 1,25% — [mục 8](#8-tranh-luận-5--nợ-công-kiểm-lại-từng-con-số) |
 | 3 | **Ai chịu** chi phí? | 20% sản lượng, dồn lên ai — [mục 7](#7-tranh-luận-4--lạm-phát-zero-số-học-của-cái-giá) |
 | 4 | **Giả định** nào phải đúng? | quy tắc 3% cần $V$ ổn định — [mục 6](#6-kiểm-quy-tắc-3-bằng-phương-trình-của-bài-8) |
@@ -815,11 +851,12 @@ nghe được**.
 | cắt giá 10% để tăng thị phần | biên lợi nhuận, và **giá tham chiếu** của khách |
 | cắt chi phí đào tạo để đẹp báo cáo quý | năng suất các quý sau — đúng [mục 10](#10-tranh-luận-5-tiếp--bốn-phản-bác) phản bác 2 |
 | trả chậm nhà cung cấp để đẹp dòng tiền | điều khoản lần sau, và độ tin cậy |
-| khoá giá dài hạn để giữ khách | toàn bộ rủi ro lạm phát — [bài 13 mục 17](bai_13_lam_phat_va_that_nghiep.md#17--góc-qtkd) |
+| khoá giá dài hạn để giữ khách | toàn bộ rủi ro lạm phát — [bài 13 mục 17](bai_13_lam_phat_va_that_nghiep.md#17-góc-qtkd) |
 
-⚠️ Cả bốn đều là **biến thể của tranh luận 5**: một chỉ số trong ngắn hạn nhỏ hơn đi, còn thứ mà nó
-**không đo được** thì xấu đi. Sách gọi cái bẫy này là *"sự quan tâm một cách **phiến diện**"*
-(tr. 579).
+> [!warning]
+> Cả bốn đều là **biến thể của tranh luận 5**: một chỉ số trong ngắn hạn nhỏ hơn đi, còn thứ mà nó
+> **không đo được** thì xấu đi. Sách gọi cái bẫy này là *"sự quan tâm một cách **phiến diện**"*
+> (tr. 579).
 
 ### (c) Độ trễ áp vào kế hoạch kinh doanh
 
@@ -836,10 +873,11 @@ vào chính bạn thay vì vào chính phủ.
 
 ---
 
-## 15. 📚 Đối chiếu Việt Nam
+## 15. Đối chiếu Việt Nam
 
-⚠️ Mục này **không dựa trên nguồn số liệu nào được kiểm chứng trong bài**. Nó nói về **cách đặt câu
-hỏi**, không về con số cụ thể.
+> [!warning]
+> Mục này **không dựa trên nguồn số liệu nào được kiểm chứng trong bài**. Nó nói về **cách đặt câu
+> hỏi**, không về con số cụ thể.
 
 ### (a) Sáu tranh luận, đặt lại cho một nền kinh tế đang phát triển
 
@@ -849,10 +887,10 @@ hỏi**, không về con số cụ thể.
 | 2 | tỷ trọng đầu tư công lớn ⟹ câu hỏi thành **"dự án nào"**, không phải "chi hay giảm thuế" |
 | 3 | câu hỏi thực tế là **mục tiêu trung gian**: tăng trưởng tín dụng, tỷ giá, hay lạm phát? |
 | 4 | gần như không ai đề xuất lạm phát zero; tranh luận là về **biên độ mục tiêu** — đúng như hộp *Lạm Phát Mục Tiêu* tr. 572 |
-| 5 | **trần nợ công** chính là một **quy tắc** — và [mục 9](#9--tiêu-chí-bền-vững-của-nợ-công) cho thấy quy tắc đúng phải là quy tắc về **tỷ số**, không về mức tuyệt đối |
+| 5 | **trần nợ công** chính là một **quy tắc** — và [mục 9](#9-tiêu-chí-bền-vững-của-nợ-công) cho thấy quy tắc đúng phải là quy tắc về **tỷ số**, không về mức tuyệt đối |
 | 6 | tỷ lệ tiết kiệm đã cao; nút thắt thường nằm ở **kênh dẫn vốn** ([bài 4](bai_04_tiet_kiem_dau_tu_he_thong_tai_chinh.md#5-trung-gian-tài-chính--ngân-hàng-và-quỹ-tương-hỗ)), không ở động cơ tiết kiệm |
 
-### (b) ⭐ Một câu hỏi thứ bảy mà sách không có
+### (b) Một câu hỏi thứ bảy mà sách không có
 
 Sáu tranh luận của sách đều giả định một nền kinh tế **lớn** và **tương đối đóng**.
 [Bài 9](bai_09_kinh_te_mo_khai_niem_co_ban.md) và [bài 10](bai_10_ly_thuyet_kinh_te_mo.md) cho thấy
@@ -874,12 +912,14 @@ viết cho độc giả Hoa Kỳ; mục 1 đến mục 14 chuyển được, câ
 
 ⭐ Đoạn cuối cùng của sách đáng đọc nguyên văn (tr. 583):
 
+> [!quote]
 > *"Nếu cảm thấy khó đứng về phía nào trong các tranh luận này, các bạn vẫn có thể tìm thấy một số
 > lời khuyên trong thực tế mà bản thân mình **không bị đơn độc**. Việc lựa chọn trong số các phương
 > án chính sách không phải lúc nào cũng luôn dễ dàng trong nghiên cứu kinh tế học. Thật vậy, thông
 > qua việc gạn lọc những sự đánh đổi không thể tránh khỏi mà các nhà chính sách phải đối mặt, nó có
 > thể làm cho việc lựa chọn **trở nên khó khăn hơn**."*
 
+> [!quote]
 > *"Tuy nhiên, những lựa chọn khó khăn này không nên được nhìn nhận một cách quá dễ dãi. Khi các bạn
 > nghe các nhà chính sách hay những người viết xã luận đang đề xuất một số vấn đề nghe quá tuyệt vời
 > và có vẻ như là thật vậy. Nếu những vấn đề này nghe như họ đang biếu các bạn một bữa trưa miễn
@@ -902,20 +942,22 @@ cụ không tự chọn giùm.**
 | 1 | Trước khi tin một con số, **chia nó cho một con số khác** và xem kết quả có hợp lý không | [mục 8](#8-tranh-luận-5--nợ-công-kiểm-lại-từng-con-số) — dân số suy ra 304 triệu |
 | 2 | Hỏi **mẫu số**, không chỉ tử số | [mục 8b](#8-tranh-luận-5--nợ-công-kiểm-lại-từng-con-số) — 25.000 USD hay 1,25%? |
 | 3 | Hỏi một con số trung bình **giấu ai** | [mục 7](#7-tranh-luận-4--lạm-phát-zero-số-học-của-cái-giá), [bài 6](bai_06_that_nghiep.md#3-bảng-1--con-số-tổng-thể-che-giấu-những-thế-giới-rất-khác-nhau) |
-| 4 | Hỏi **giả định nào phải đúng** thì kết luận mới đúng | [mục 6](#6-kiểm-quy-tắc-3-bằng-phương-trình-của-bài-8), [bài 10 mục 13](bai_10_ly_thuyet_kinh_te_mo.md#13--kết-luận-có-phụ-thuộc-tham-số-không) |
+| 4 | Hỏi **giả định nào phải đúng** thì kết luận mới đúng | [mục 6](#6-kiểm-quy-tắc-3-bằng-phương-trình-của-bài-8), [bài 10 mục 13](bai_10_ly_thuyet_kinh_te_mo.md#13-kết-luận-có-phụ-thuộc-tham-số-không) |
 
 ---
 
 ## 17. Code minh hoạ
 
+> [!note]
 > ⚙️ **Chạy:** cần **Python 3.10+**. Lưu file rồi gõ `python3 bai-14-sau-tranh-luan-chinh-sach.py`.
 > Không cần cài gói nào — chỉ dùng thư viện chuẩn. Output tất định.
 
 Bản gốc: [`thuc_hanh/bai-14-sau-tranh-luan-chinh-sach.py`](../thuc_hanh/bai-14-sau-tranh-luan-chinh-sach.py).
 
-⚠️ **Ranh giới:** chương 23 **không có một công thức nào**. File này chỉ làm một việc: đặt các con số
-của chương vào **các công thức của các bài trước** và xem chúng nói gì. Mọi công thức dùng ở đây đều
-có nguồn từ một bài đã học, và mọi tham số do bài này đặt ra đều được ghi rõ.
+> [!warning] Ranh giới:
+> chương 23 **không có một công thức nào**. File này chỉ làm một việc: đặt các con số
+> của chương vào **các công thức của các bài trước** và xem chúng nói gì. Mọi công thức dùng ở đây đều
+> có nguồn từ một bài đã học, và mọi tham số do bài này đặt ra đều được ghi rõ.
 
 ```python
 """Bai 14 — Sau tranh luan ve chinh sach kinh te vi mo
@@ -2476,7 +2518,7 @@ Sửa tham số trong file `.py` rồi chạy lại, quan sát cái gì đổi. 
    dùng hưu trí nhiều hơn khi giàu hơn). Hiệu ứng thu nhập còn rõ như cũ không? Bạn vừa mô hình hoá
    điều gì mà sách nói *"không cung cấp một dự đoán rõ ràng"*?
 
-8. **Viết thêm một hàm** áp bốn câu hỏi của [mục 14(a)](#14--góc-qtkd) vào **một** bản tin chính
+8. **Viết thêm một hàm** áp bốn câu hỏi của [mục 14(a)](#14-góc-qtkd) vào **một** bản tin chính
    sách thật mà bạn đọc tuần này. In ra bốn câu trả lời. Câu nào bạn **không** trả lời được từ bản
    tin đó?
 
@@ -2526,10 +2568,10 @@ Trả lời rồi mới kéo lên đối chiếu. Câu có ⭐ là câu đáng d
    đến nhân tố bình ổn tự động của các bang?
 
 6. ⭐ Nêu **bốn** lập luận của phía ủng hộ giảm thuế. Lập luận nào trong đó đã xuất hiện dưới dạng
-   một **con số** ở [mục 3](#3--tranh-luận-2--hai-con-số-của-chính-quyền-obama)?
+   một **con số** ở [mục 3](#3-tranh-luận-2--hai-con-số-của-chính-quyền-obama)?
 
 7. Giải thích **chu kỳ kinh tế chính trị**. Vì sao cấu trúc thời gian của nó khớp với A → B → C của
-   [bài 13](bai_13_lam_phat_va_that_nghiep.md#8--đường-đi-a--b--c-vì-sao-đánh-đổi-chỉ-là-tạm-thời)?
+   [bài 13](bai_13_lam_phat_va_that_nghiep.md#8-đường-đi-a--b--c-vì-sao-đánh-đổi-chỉ-là-tạm-thời)?
 
 8. ⭐⭐ Giải thích **sự không nhất quán theo thời gian** bằng năm bước. Vì sao kết cục là **không ai
    được gì**? Vì sao việc **bớt quyền** lại có thể làm cho người bớt quyền **được lợi**?
@@ -2575,7 +2617,7 @@ Trả lời rồi mới kéo lên đối chiếu. Câu có ⭐ là câu đáng d
 22. ⭐⭐ Giải thích **hiệu ứng thay thế** và **hiệu ứng thu nhập** đối với tiết kiệm. Vì sao lý thuyết
     kinh tế **không** cho một dự đoán rõ ràng? Câu đó nên dạy bạn thái độ gì?
 
-23. 💼 Bốn câu hỏi ở [mục 14(a)](#14--góc-qtkd) là gì? Áp cả bốn vào một bản tin *"gói hỗ trợ X nghìn
+23. 💼 Bốn câu hỏi ở [mục 14(a)](#14-góc-qtkd) là gì? Áp cả bốn vào một bản tin *"gói hỗ trợ X nghìn
     tỷ tạo Y việc làm"*.
 
 24. 💼 Vì sao *"đừng điều chỉnh kế hoạch sản xuất theo tin tức chính sách, hãy điều chỉnh theo đơn
@@ -2754,7 +2796,7 @@ Trả lời rồi mới kéo lên đối chiếu. Câu có ⭐ là câu đáng d
 - **Chỗ đã ghi rõ để không nhoè ranh giới sách với phần bài này viết thêm:**
   - **Chương 23 không có một công thức nào.** Mọi công thức dùng trong bài này đều **mượn từ bài
     khác**, và mỗi chỗ mượn đều ghi rõ nguồn.
-  - **[Mục 3 — suy ra $MPC = 0{,}6226$ và rò rỉ 0,2516](#3--tranh-luận-2--hai-con-số-của-chính-quyền-obama)
+  - **[Mục 3 — suy ra $MPC = 0{,}6226$ và rò rỉ 0,2516](#3-tranh-luận-2--hai-con-số-của-chính-quyền-obama)
     là của bài này.** Hai số nhân là của sách (tr. 567); công thức số nhân là của sách (tr. 520–521,
     [bài 12](bai_12_chinh_sach_tien_te_va_tai_khoa.md#9-chính-sách-tài-khoá--tác-động-số-nhân));
     phép ghép chúng lại là của bài này.
@@ -2763,18 +2805,18 @@ Trả lời rồi mới kéo lên đối chiếu. Câu có ⭐ là câu đáng d
   - **[Mục 6 — bảng kịch bản quy tắc 3%](#6-kiểm-quy-tắc-3-bằng-phương-trình-của-bài-8) là của bài
     này.** Sách giải thích con số 3% bằng lời; bài này chạy nó qua $MV = PY$ và cho thấy nó hỏng khi
     nào.
-  - **[Mục 9 — công thức $d^* = \text{thâm hụt}/g$](#9--tiêu-chí-bền-vững-của-nợ-công) không có
+  - **[Mục 9 — công thức $d^* = \text{thâm hụt}/g$](#9-tiêu-chí-bền-vững-của-nợ-công) không có
     trong sách.** Sách nêu tiêu chí bằng lời và tính một điểm (380 tỷ); bài này viết công thức tổng
     quát để trả lời bài tập 5 tr. 586. Bài này cũng chỉ ra **giới hạn** của chính công thức đó.
   - **Phép chia 1.500 / 380 = 3,95 lần** là của bài này. Hai con số nằm ở tr. 579 và tr. 580.
-  - **[Bảng chắn thuế theo thời hạn](#11--tranh-luận-6--thuế-đánh-vào-tiết-kiệm-số-học-kép) là của
+  - **[Bảng chắn thuế theo thời hạn](#11-tranh-luận-6--thuế-đánh-vào-tiết-kiệm-số-học-kép) là của
     bài này.** Sách cho **một** điểm (45 năm); bài này cho thấy con số đó là một **hàm của thời
     hạn**.
   - **Hai suất thuế 35% / 15% trong bảng thuế hai lần là của bài này** — sách **không cho suất nào**.
     Công thức $1 - (1-t_c)(1-t_p)$ thì đúng với mọi giá trị.
-  - **Toàn bộ [mục 12](#12--hai-hiệu-ứng-ngược-chiều-viết-thành-số) là của bài này.** Sách mô tả hai
+  - **Toàn bộ [mục 12](#12-hai-hiệu-ứng-ngược-chiều-viết-thành-số) là của bài này.** Sách mô tả hai
     hiệu ứng bằng lời (tr. 582–583) nhưng không đưa ví dụ số.
-  - Toàn bộ [mục 14 — Góc QTKD](#14--góc-qtkd) và [mục 15 — Đối chiếu Việt Nam](#15--đối-chiếu-việt-nam)
+  - Toàn bộ [mục 14 — Góc QTKD](#14-góc-qtkd) và [mục 15 — Đối chiếu Việt Nam](#15-đối-chiếu-việt-nam)
     nằm ngoài sách. Mục 15 **không dựa trên nguồn số liệu nào được kiểm chứng trong bài**, và **câu
     hỏi thứ bảy** ở mục 15(b) là do bài này đặt ra.
 
@@ -2793,22 +2835,22 @@ Trả lời rồi mới kéo lên đối chiếu. Câu có ⭐ là câu đáng d
 - **Liên hệ chéo:**
   - [Bài 12](bai_12_chinh_sach_tien_te_va_tai_khoa.md) — xuất hiện ở **ba** trong sáu tranh luận:
     độ trễ (TL1), số nhân (TL2), nhân tố bình ổn tự động (TL5).
-  - [Bài 13](bai_13_lam_phat_va_that_nghiep.md#8--đường-đi-a--b--c-vì-sao-đánh-đổi-chỉ-là-tạm-thời) —
+  - [Bài 13](bai_13_lam_phat_va_that_nghiep.md#8-đường-đi-a--b--c-vì-sao-đánh-đổi-chỉ-là-tạm-thời) —
     A → B → C là khung của **chu kỳ kinh tế chính trị** ở [mục 5](#5-tranh-luận-3--quy-tắc-hay-tuỳ-nghi);
     [tỷ lệ hy sinh](bai_13_lam_phat_va_that_nghiep.md#10-tỷ-lệ-hy-sinh--số-học-của-volcker) là số
     học của [mục 7](#7-tranh-luận-4--lạm-phát-zero-số-học-của-cái-giá).
-  - [Bài 8 mục 4](bai_08_tang_truong_tien_va_lam_phat.md#4--viết-năm-bước-ấy-thành-một-dòng) —
+  - [Bài 8 mục 4](bai_08_tang_truong_tien_va_lam_phat.md#4-viết-năm-bước-ấy-thành-một-dòng) —
     $MV = PY$, dùng để kiểm quy tắc 3% ở [mục 6](#6-kiểm-quy-tắc-3-bằng-phương-trình-của-bài-8).
   - [Bài 8 mục 15](bai_08_tang_truong_tien_va_lam_phat.md#15-sáu-chi-phí-của-lạm-phát) — sáu chi phí;
     [mục 7](#7-tranh-luận-4--lạm-phát-zero-số-học-của-cái-giá) đặt chúng lên bàn cân với cái giá.
   - [Bài 4 mục 13](bai_04_tiet_kiem_dau_tu_he_thong_tai_chinh.md#13-chính-sách-3--thâm-hụt-thặng-dư-và-hiện-tượng-lấn-át) —
     thâm hụt và lấn át dài hạn; nền của tranh luận 5.
-  - [Bài 5 mục 3](bai_05_cong_cu_co_ban_cua_tai_chinh.md#3--ma-thuật-của-lãi-kép-và-quy-tắc-70--hộp-bạn-có-biết-tr-316) —
-    lãi kép; [mục 11](#11--tranh-luận-6--thuế-đánh-vào-tiết-kiệm-số-học-kép) là mặt trái của nó.
+  - [Bài 5 mục 3](bai_05_cong_cu_co_ban_cua_tai_chinh.md#3-ma-thuật-của-lãi-kép-và-quy-tắc-70--hộp-bạn-có-biết-tr-316) —
+    lãi kép; [mục 11](#11-tranh-luận-6--thuế-đánh-vào-tiết-kiệm-số-học-kép) là mặt trái của nó.
   - [Bài 6 mục 3](bai_06_that_nghiep.md#3-bảng-1--con-số-tổng-thể-che-giấu-những-thế-giới-rất-khác-nhau) —
     số trung bình che giấu ai; lặp lại ở [mục 7](#7-tranh-luận-4--lạm-phát-zero-số-học-của-cái-giá).
   - [Bài 9](bai_09_kinh_te_mo_khai_niem_co_ban.md) và [bài 10](bai_10_ly_thuyet_kinh_te_mo.md) — nền
-    cho **câu hỏi thứ bảy** ở [mục 15(b)](#15--đối-chiếu-việt-nam).
+    cho **câu hỏi thứ bảy** ở [mục 15(b)](#15-đối-chiếu-việt-nam).
 
 <!-- BAN-DO -->
 

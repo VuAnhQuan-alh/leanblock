@@ -1,14 +1,15 @@
 # Bài 6 — Lợi nhuận ≠ tiền mặt
 
+> [!info] Về bài này
 > Bài học dựng từ **Phần IV — Tiền mặt là nhất**, chương 14 *Tiền mặt là một phép kiểm tra thực tế*
 > (PDF tr. 109–112) và chương 15 *Lợi nhuận ≠ tiền mặt (Và ta cần cả hai)* (PDF tr. 113–120).
-> 🎯⭐ **Vòng 1, và là bài đắt giá nhất cả cuốn.** Đây là chỗ cuốn sách trả lời câu hỏi mà nó đặt ra
+>
+> ⭐ **Vòng 1, và là bài đắt giá nhất cả cuốn.** Đây là chỗ cuốn sách trả lời câu hỏi mà nó đặt ra
 > từ trang đầu. Nếu chỉ đọc được một bài trong khoá này, đọc bài này.
-> 💼 **Góc quản trị** — ví dụ thêm cho người đi làm, **không có trong sách**.
-> 📚 **Mở rộng** — thứ sách nói lướt hoặc để trong hộp công cụ.
-> 🇻🇳 **Đối chiếu Việt Nam** — sách viết theo US GAAP, mục này nối sang số liệu Việt Nam.
-> ⚠️ — chỗ dễ hiểu sai, hoặc chỗ sách in sai.
-> 📌 **Cần đọc trước:** [Bài 0](bai_00_bat_dau_tu_dau.md) — ba báo cáo tài chính và công ty mẫu.
+>
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
+>
+> **Cần đọc trước:** [Bài 0](bai_00_bat_dau_tu_dau.md) — ba báo cáo tài chính và công ty mẫu.
 > Mục 3 dùng lại **nguyên tắc phù hợp** của [bài 2](bai_02_loi_nhuan_chi_la_du_toan.md).
 > ⚙️ **Code:** [`thuc_hanh/bai-06-loi-nhuan-khac-tien-mat.py`](../thuc_hanh/bai-06-loi-nhuan-khac-tien-mat.py)
 
@@ -23,10 +24,10 @@
 - [3. Ba lý do lợi nhuận không bằng tiền mặt](#3-ba-lý-do-lợi-nhuận-không-bằng-tiền-mặt)
 - [4. Sweet Dreams — có lãi mà hết sạch tiền](#4-sweet-dreams--có-lãi-mà-hết-sạch-tiền)
 - [5. Fine Cigar — lỗ mà tiền mặt tăng đều](#5-fine-cigar--lỗ-mà-tiền-mặt-tăng-đều)
-- [6. ⚠️ Hai bảng của chương 15 bị đảo dấu cho nhau](#6--hai-bảng-của-chương-15-bị-đảo-dấu-cho-nhau)
+- [6. Hai bảng của chương 15 bị đảo dấu cho nhau](#6-hai-bảng-của-chương-15-bị-đảo-dấu-cho-nhau)
 - [7. Cái giá của tăng trưởng — phép tính sách không làm](#7-cái-giá-của-tăng-trưởng--phép-tính-sách-không-làm)
-- [8. 💼 Góc quản trị — hai bệnh, hai bác sĩ](#8--góc-quản-trị--hai-bệnh-hai-bác-sĩ)
-- [9. 🇻🇳 Đối chiếu Việt Nam — Vinamilk 2024](#9--đối-chiếu-việt-nam--vinamilk-2024)
+- [8. Góc quản trị — hai bệnh, hai bác sĩ](#8-góc-quản-trị--hai-bệnh-hai-bác-sĩ)
+- [9. Đối chiếu Việt Nam — Vinamilk 2024](#9-đối-chiếu-việt-nam--vinamilk-2024)
 - [10. Tự thử](#10-tự-thử)
 - [11. Từ điển thuật ngữ](#11-từ-điển-thuật-ngữ)
 - [12. Câu hỏi tự kiểm tra](#12-câu-hỏi-tự-kiểm-tra)
@@ -42,6 +43,7 @@
 Sách mở phần này bằng một câu trích từ tạp chí *Fortune* số tháng Năm 2002, thời điểm hàng loạt
 doanh nghiệp Mỹ đang phá sản sau khi bong bóng dot-com nổ:
 
+> [!quote]
 > *"Các doanh nghiệp phải thắng phanh gấp vì đủ mọi lý do, song có một điều cuối cùng sẽ giết chết
 > họ: **hết tiền mặt**."* — Ram Charan và Jerry Useem, dẫn ở ch. 14 · PDF tr. 109
 
@@ -51,6 +53,7 @@ Chú ý cấu trúc câu. Nó không nói *"doanh nghiệp chết vì hết ti�
 Ba báo cáo tài chính, vậy thì cái nào cho biết doanh nghiệp sắp chết? Sách trả lời thẳng ở cuối
 chương 14:
 
+> [!quote]
 > *"…chính tiền mặt là huyết mạch của doanh nghiệp, và dòng tiền là thước đo trọng yếu cho sức khỏe
 > tài chính. Chúng ta cần con người để hoạt động kinh doanh… Chúng ta cần địa điểm kinh doanh, điện
 > thoại, điện, máy tính, các đồ dùng văn phòng, v.v… **Và chúng ta không thể dùng lợi nhuận để trả
@@ -73,6 +76,7 @@ Ba quy tắc mà sách rút ra (ch. 14 · PDF tr. 109):
       thước đo DÒNG TIỀN, không phải lợi nhuận
 ```
 
+> [!quote]
 > **Thu nhập chủ sở hữu** (*owner earnings*, còn gọi là **dòng tiền tự do** — *free cash flow*):
 > thước đo khả năng tạo ra tiền mặt của doanh nghiệp trong một khoảng thời gian, **sau khi đã trừ
 > các khoản chi đầu tư cần thiết để duy trì sức khoẻ doanh nghiệp**. — ch. 14 · PDF tr. 109
@@ -83,6 +87,7 @@ Mấy chữ cuối là điểm mấu chốt, và sách nói rõ vì sao thước
 
 Còn lý do sâu xa thì sách đặt ở PDF tr. 110, và nó nối thẳng về bài 1:
 
+> [!quote]
 > *"…ông biết nó là con số **ít chịu tác động của nghệ thuật tài chính nhất**."*
 
 ⭐ **Một phép tính sách không làm.** Sách ghi cổ phiếu hạng A của Berkshire Hathaway đạt tăng trưởng
@@ -113,9 +118,10 @@ Lý do ③ khó thấy nhất, nên hãy đo nó trên công ty mẫu ở phụ 
    Chỉ báo cáo lưu chuyển tiền tệ thấy được.
 ```
 
-⚠️ Đừng vội kết luận *"khấu hao 239 lớn hơn capex 205 nên ổn"*. Hai con số này **không** cùng loại:
-239 là con số kế toán tính theo tuổi đời tài sản mua từ nhiều năm trước; 205 là tiền thật của riêng
-năm 2005. Chúng chỉ tình cờ gần nhau. [Bài 7](bai_07_bao_cao_luu_chuyen_tien_te.md) sẽ tách bạch chỗ này.
+> [!warning]
+> Đừng vội kết luận *"khấu hao 239 lớn hơn capex 205 nên ổn"*. Hai con số này **không** cùng loại:
+> 239 là con số kế toán tính theo tuổi đời tài sản mua từ nhiều năm trước; 205 là tiền thật của riêng
+> năm 2005. Chúng chỉ tình cờ gần nhau. [Bài 7](bai_07_bao_cao_luu_chuyen_tien_te.md) sẽ tách bạch chỗ này.
 
 ---
 
@@ -140,11 +146,13 @@ Cơ chế thì tầm thường đến mức khó chịu: tháng 1 tiệm giao b�
 đợi đến **tháng 3** mới thấy tiền. Trong khi đó nhà cung cấp đòi tiền ngay từ **tháng 2**. Tiệm trả
 trước, thu sau, và khoảng cách đó là 30 ngày.
 
+> [!quote]
 > *"Chuyện gì đang xảy ra ở đây vậy? Câu trả lời là Sweet Dreams **đang phình ra**."*
 > — ch. 15 · PDF tr. 116
 
 Và câu kết luận, đáng nhớ nguyên văn:
 
+> [!quote]
 > *"Dù ví dụ về Sweet Dreams là hư cấu và đã được giản lược hết mức, song **đây chính xác là những gì
 > sẽ đẩy các doanh nghiệp có tiềm năng lợi nhuận đi đến chỗ phá sản**. Và đây cũng là một trong những
 > lý do giải thích cho việc tại sao nhiều doanh nghiệp nhỏ bại trận ngay từ năm đầu hoạt động. Lý do
@@ -170,8 +178,10 @@ cung cấp. Giá vốn 70% doanh thu, chi phí 30.000/tháng (thuê mặt bằng
 Sách gọi cơ chế này là **"phao nổi"**: cầm tiền của khách trước khi phải trả nhà cung cấp. Amazon và
 Dell sống bằng nó — và sách nhắc đích danh cả hai. Doanh nghiệp càng lớn nhanh, phao càng phình to.
 
-⚠️ Nhưng sách cảnh báo ngay ở câu sau, và đây là chỗ nhiều người đọc lướt:
+> [!warning]
+> Nhưng sách cảnh báo ngay ở câu sau, và đây là chỗ nhiều người đọc lướt:
 
+> [!quote]
 > *"…về lâu dài, **tiền mặt không phải là tấm khiên bảo vệ khỏi nguy cơ không lợi nhuận**."*
 > — ch. 15 · PDF tr. 118
 
@@ -181,7 +191,7 @@ phao.
 
 ---
 
-## 6. ⚠️ Hai bảng của chương 15 bị đảo dấu cho nhau
+## 6. Hai bảng của chương 15 bị đảo dấu cho nhau
 
 Đây là lỗi in nặng nhất trong cả cuốn sách, và nó rơi đúng vào hai bảng vừa xem.
 
@@ -202,15 +212,17 @@ Cách tự kiểm mà không cần máy tính — **đọc đoạn văn bao quan
 ⭐ **Bằng chứng chốt hạ nằm trong chính cuốn sách.** Lời giới thiệu của Alphabooks ở đầu sách kể lại
 đúng ví dụ Sweet Dreams, quy ra tiền Việt, với dấu **đúng**:
 
+> [!quote]
 > *"…bạn rút ra được rằng bạn **lỗ 2 triệu** trong tháng đầu tiên, **lãi 2 triệu** trong tháng thứ
 > hai, và **lãi 8 triệu** trong tháng thứ ba."* — Lời giới thiệu · PDF tr. 3
 
 Cùng một cuốn sách, hai chỗ, hai kết quả trái ngược. Chỗ sai là bảng ở chương 15.
 
-⚠️ **Vì sao lỗi này nặng hơn nó có vẻ.** Hai bảng ấy tồn tại **chỉ để** chứng minh một luận điểm: lợi
-nhuận và tiền mặt đi ngược chiều nhau. In sai dấu làm cả hai bảng cùng nói "lỗ thì hết tiền, lãi thì
-có tiền" — tức là đúng cái điều mà chương này muốn bác bỏ. Người đọc cẩn thận sẽ thấy chương 15
-**tự mâu thuẫn** và không hiểu tại sao.
+> [!warning] Vì sao lỗi này nặng hơn nó có vẻ.
+> Hai bảng ấy tồn tại **chỉ để** chứng minh một luận điểm: lợi
+> nhuận và tiền mặt đi ngược chiều nhau. In sai dấu làm cả hai bảng cùng nói "lỗ thì hết tiền, lãi thì
+> có tiền" — tức là đúng cái điều mà chương này muốn bác bỏ. Người đọc cẩn thận sẽ thấy chương 15
+> **tự mâu thuẫn** và không hiểu tại sao.
 
 ---
 
@@ -248,9 +260,10 @@ Cả hai đầu đều đắt hơn, nhưng vì **hai căn bệnh hoàn toàn kh�
                      Mỗi đồng doanh thu mới phải NẰM CHỜ 60 ngày mới thành tiền.
 ```
 
-⚠️ Đọc kỹ cột cuối. Nó nói rằng **một tiệm bánh có lãi, không nợ xấu, không bị cạnh tranh, vẫn cần
-nhiều vốn hơn khi nó bán được nhiều hàng hơn.** Ở 50%/tháng, lợi nhuận tháng 24 là **89,8 triệu**
-đô-la mà tiệm vẫn cần 55.750 đô-la vốn đệm. Lợi nhuận không trả được hoá đơn nào cả.
+> [!warning]
+> Đọc kỹ cột cuối. Nó nói rằng **một tiệm bánh có lãi, không nợ xấu, không bị cạnh tranh, vẫn cần
+> nhiều vốn hơn khi nó bán được nhiều hàng hơn.** Ở 50%/tháng, lợi nhuận tháng 24 là **89,8 triệu**
+> đô-la mà tiệm vẫn cần 55.750 đô-la vốn đệm. Lợi nhuận không trả được hoá đơn nào cả.
 
 ### Điều khoản thanh toán đáng giá bao nhiêu
 
@@ -289,17 +302,19 @@ Giả thuyết đó dự đoán tỷ số phải bằng đúng $1/\text{tỷ l�
 tăng thì tỷ số tụt xuống, vì 30 ngày doanh thu của tháng sau lớn hơn 30 ngày giá vốn của tháng
 trước, nên lợi thế của DSO bị bóp bớt.
 
-⚠️ Riêng dòng 40% thì hai cột bằng nhau — nhưng vì **lý do khác hẳn**. Với biên lợi nhuận gộp 60%,
-tiệm có lãi ngay ở tăng trưởng 0%, nên thứ trói buộc không còn là lỗ luỹ kế mà chỉ là khoảng trống
-ban đầu — mà khoảng trống ấy không phụ thuộc tốc độ tăng. Một con số trùng nhau vì hai lý do khác
-nhau, và đó là kiểu bẫy mà bài 1 gọi tên.
+> [!warning]
+> Riêng dòng 40% thì hai cột bằng nhau — nhưng vì **lý do khác hẳn**. Với biên lợi nhuận gộp 60%,
+> tiệm có lãi ngay ở tăng trưởng 0%, nên thứ trói buộc không còn là lỗ luỹ kế mà chỉ là khoảng trống
+> ban đầu — mà khoảng trống ấy không phụ thuộc tốc độ tăng. Một con số trùng nhau vì hai lý do khác
+> nhau, và đó là kiểu bẫy mà bài 1 gọi tên.
 
 ---
 
-## 8. 💼 Góc quản trị — hai bệnh, hai bác sĩ
+## 8. Góc quản trị — hai bệnh, hai bác sĩ
 
 Chương 15 kết bằng một lời khuyên rất thực dụng, và nó là thứ đáng mang đi họp:
 
+> [!quote]
 > *"Nếu một doanh nghiệp **có lợi nhuận nhưng lại không có tiền mặt**, thì doanh nghiệp đó cần
 > **chuyên gia tài chính** – một ai đó có khả năng tăng thêm nguồn tài chính bổ sung. Nếu một doanh
 > nghiệp **có tiền mặt nhưng không có lợi nhuận**, doanh nghiệp đó cần **chuyên môn hoạt động**,
@@ -337,28 +352,29 @@ Giữ Sweet Dreams ở tăng trưởng 50%/tháng, thử từng đơn thuốc, �
 | nâng giá: giá vốn 60% → 50% doanh thu |  37.500 |     18.250 |
 | **hạ tăng trưởng 50% → 15%/tháng**    |  41.041 |     14.709 |
 
-⚠️ Hai điều đáng chú ý. Thứ nhất: **không đơn thuốc nào làm tiệm hết cần vốn** — chúng chỉ thu nhỏ
-khoảng trống lại. Đó là bản chất của vốn lưu động, và là lý do sách dành cả Phần VII cho nó
-(bài 11).
+> [!warning]
+> Hai điều đáng chú ý. Thứ nhất: **không đơn thuốc nào làm tiệm hết cần vốn** — chúng chỉ thu nhỏ
+> khoảng trống lại. Đó là bản chất của vốn lưu động, và là lý do sách dành cả Phần VII cho nó
+> (bài 11).
 
 Thứ hai, dòng cuối: **hạ tăng trưởng cũng là một đơn thuốc**, và nó không hề yếu. Đây là kết luận mà
 không giám đốc bán hàng nào muốn nghe — nhưng nếu công ty không huy động được vốn, thì bán chậm lại
 là lựa chọn thật, không phải thất bại.
 
-### 💼 Quyết định về thời điểm — Setpoint
-
-Sách kể một ứng dụng nhỏ mà rất cụ thể. Setpoint (công ty của Joe) có **quý I lãi cao nhất** vì đơn
-hàng tự động hoá về nhiều, nhưng **tiền mặt eo hẹp** vì phải trả cấu kiện và nhà thầu. Sang quý II
-thì ngược lại: lợi nhuận giảm, nhưng tiền về vì thu được công nợ quý trước.
-
-Kết luận của họ: **mua thiết bị đầu tư vào quý II, không phải quý I** — dù quý II lợi nhuận thấp hơn.
-
-⭐ Đây là ví dụ sạch nhất trong cả cuốn về chuyện *"biết hai báo cáo khác nhau thì ra quyết định khác
-đi"*. Nhìn báo cáo kết quả kinh doanh, quý I là lúc mạnh nhất. Nhìn dòng tiền, quý I là lúc yếu nhất.
+> [!example] Quyết định về thời điểm — Setpoint
+>
+> Sách kể một ứng dụng nhỏ mà rất cụ thể. Setpoint (công ty của Joe) có **quý I lãi cao nhất** vì đơn
+> hàng tự động hoá về nhiều, nhưng **tiền mặt eo hẹp** vì phải trả cấu kiện và nhà thầu. Sang quý II
+> thì ngược lại: lợi nhuận giảm, nhưng tiền về vì thu được công nợ quý trước.
+>
+> Kết luận của họ: **mua thiết bị đầu tư vào quý II, không phải quý I** — dù quý II lợi nhuận thấp hơn.
+>
+> ⭐ Đây là ví dụ sạch nhất trong cả cuốn về chuyện *"biết hai báo cáo khác nhau thì ra quyết định khác
+> đi"*. Nhìn báo cáo kết quả kinh doanh, quý I là lúc mạnh nhất. Nhìn dòng tiền, quý I là lúc yếu nhất.
 
 ---
 
-## 9. 🇻🇳 Đối chiếu Việt Nam — Vinamilk 2024
+## 9. Đối chiếu Việt Nam — Vinamilk 2024
 
 Sách chỉ đưa hai ví dụ hư cấu ba tháng. Đây là cùng phép so sánh ấy trên một doanh nghiệp thật, số
 liệu từ báo cáo tài chính hợp nhất **đã kiểm toán**:
@@ -373,8 +389,9 @@ Cả hai đều **lớn hơn 1** — tiền về nhiều hơn lợi nhuận ghi 
 chính ở cả hai trường hợp là **khấu hao**: một khoản trừ vào lợi nhuận mà không ai trả đồng nào
 (Vinamilk: 2.163.203 triệu VND).
 
-⚠️ **Nhưng đừng vội khen con số 2,01 của công ty mẫu.** Tách ra thì thấy nó đến từ hai nguồn rất khác
-nhau:
+> [!warning] Nhưng đừng vội khen con số 2,01 của công ty mẫu.
+> Tách ra thì thấy nó đến từ hai nguồn rất khác
+> nhau:
 
 ```
    lợi nhuận thuần                            248
@@ -540,7 +557,7 @@ rồi chạy lại. Không có lời giải.
 - **Công ty Cổ phần Sữa Việt Nam (HOSE: VNM)** — Báo cáo tài chính hợp nhất đã kiểm toán cho năm
   kết thúc 31/12/2024, lập theo IFRS, trong *Báo cáo thường niên Vinamilk 2024*, tr. 180–185.
   [Nguồn gốc](https://www.vinamilk.com.vn/bao-cao-thuong-nien/bao-cao/2024/doc/vi/bctc-ifrs.pdf),
-  truy xuất 08/09/2026. Dùng ở [mục 9](#9--đối-chiếu-việt-nam--vinamilk-2024).
+  truy xuất 08/09/2026. Dùng ở [mục 9](#9-đối-chiếu-việt-nam--vinamilk-2024).
 - **Đã kiểm chứng bằng code** — [`thuc_hanh/bai-06-loi-nhuan-khac-tien-mat.py`](../thuc_hanh/bai-06-loi-nhuan-khac-tien-mat.py):
   - cả hai ví dụ Sweet Dreams và Fine Cigar được tái dựng bằng mô hình **theo ngày** và chốt bằng
     `assert` — lợi nhuận −2.000/+2.000/+8.000 và tiền 0/−22.000/−30.000; lợi nhuận −15.000/−7.500/−1.500
@@ -554,10 +571,10 @@ rồi chạy lại. Không có lời giải.
   - Mô hình mô phỏng **theo ngày** là do bài này dựng. Sách chỉ tính tay theo tháng với điều khoản
     30/60 ngày. Mô hình tái dựng đúng cả hai ví dụ, nhưng **mọi con số ngoài ba tháng đầu là ngoại suy**,
     không phải số liệu của sách.
-  - Bảng "đơn thuốc" ở [mục 8](#8--góc-quản-trị--hai-bệnh-hai-bác-sĩ) do bài này dựng; sách chỉ nêu
+  - Bảng "đơn thuốc" ở [mục 8](#8-góc-quản-trị--hai-bệnh-hai-bác-sĩ) do bài này dựng; sách chỉ nêu
     khung "hai loại chuyên môn" bằng lời, không đặt con số.
   - Cụm **"chết vì tăng trưởng"** và **"tỷ lệ chuyển lợi nhuận thành tiền"** không có trong sách.
-  - [Mục 9 — Đối chiếu Việt Nam](#9--đối-chiếu-việt-nam--vinamilk-2024) hoàn toàn nằm ngoài sách.
+  - [Mục 9 — Đối chiếu Việt Nam](#9-đối-chiếu-việt-nam--vinamilk-2024) hoàn toàn nằm ngoài sách.
 - **Liên hệ chéo:**
   - [Bài 0 mục 3](bai_00_bat_dau_tu_dau.md#3-ba-báo-cáo-tài-chính-trong-một-trang) — ba báo cáo khoá vào nhau thế nào.
   - [Bài 7](bai_07_bao_cao_luu_chuyen_tien_te.md) — đọc báo cáo lưu chuyển tiền tệ, và tính **thu nhập chủ sở hữu**.

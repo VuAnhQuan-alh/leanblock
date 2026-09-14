@@ -1,14 +1,16 @@
 # Bài 8 — Cạnh tranh độc quyền, quảng cáo và thương hiệu
 
+> [!info] Về bài này
 > Bài học dựng từ **Chương 16 — Cạnh tranh độc quyền** (tr. 370–390)
 > của *N. Gregory Mankiw — **Kinh tế học vi mô***, bản dịch của Khoa Kinh tế, **ĐH Kinh tế TP.HCM** (Cengage Learning Asia).
-> 🎯 **Vòng 1.** Bài 6 là thái cực "không ai định giá được", bài 7 là "một người định giá tất".
+>
+> **Vòng 1.** Bài 6 là thái cực "không ai định giá được", bài 7 là "một người định giá tất".
 > Bài này là **chỗ hầu hết doanh nghiệp thật đang đứng**: nhiều đối thủ, nhưng sản phẩm của bạn
 > **khác của họ đôi chút** — và chính chút khác biệt ấy là toàn bộ biên lợi nhuận của bạn.
-> 💼 **Góc QTKD** — ví dụ thêm cho ngành quản trị kinh doanh, **không có trong sách**.
-> 📚 **Mở rộng** — thứ sách nói lướt hoặc để trong hộp phụ.
-> ⚠️ — chỗ dễ hiểu sai, hoặc chỗ sách in sai.
-> 📌 **Cần đọc trước:** [Bài 6](bai_06_thi_truong_canh_tranh.md) và [Bài 7](bai_07_doc_quyen_va_phan_biet_gia.md)
+>
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
+>
+> **Cần đọc trước:** [Bài 6](bai_06_thi_truong_canh_tranh.md) và [Bài 7](bai_07_doc_quyen_va_phan_biet_gia.md)
 > — bài này là **sự lai ghép** của hai bài đó. Cũng cần
 > [bài 3, mục 2](bai_03_do_co_gian_va_dinh_gia.md#2-bốn-yếu-tố-quyết-định-độ-co-giãn-của-cầu-theo-giá).
 
@@ -23,14 +25,14 @@
 - [3. Ngắn hạn — hành xử giống hệt nhà độc quyền](#3-ngắn-hạn--hành-xử-giống-hệt-nhà-độc-quyền)
 - [4. Cân bằng dài hạn — đường cầu TIẾP TUYẾN với ATC](#4-cân-bằng-dài-hạn--đường-cầu-tiếp-tuyến-với-atc)
 - [5. So với cạnh tranh hoàn hảo — hai khác biệt](#5-so-với-cạnh-tranh-hoàn-hảo--hai-khác-biệt)
-- [6. 📚 Chênh lệch giá – chi phí biên bằng 1 chia cho độ co giãn](#6--chênh-lệch-giá--chi-phí-biên-bằng-1-chia-cho-độ-co-giãn)
+- [6. Chênh lệch giá – chi phí biên bằng 1 chia cho độ co giãn](#6-chênh-lệch-giá--chi-phí-biên-bằng-1-chia-cho-độ-co-giãn)
 - [7. Cạnh tranh độc quyền và phúc lợi xã hội](#7-cạnh-tranh-độc-quyền-và-phúc-lợi-xã-hội)
 - [8. Quảng cáo — cuộc tranh luận](#8-quảng-cáo--cuộc-tranh-luận)
 - [9. Nghiên cứu tình huống — quảng cáo và giá kính mắt](#9-nghiên-cứu-tình-huống--quảng-cáo-và-giá-kính-mắt)
-- [10. 📚 Galbraith đối đầu Hayek](#10--galbraith-đối-đầu-hayek)
+- [10. Galbraith đối đầu Hayek](#10-galbraith-đối-đầu-hayek)
 - [11. Quảng cáo như một tín hiệu chất lượng](#11-quảng-cáo-như-một-tín-hiệu-chất-lượng)
 - [12. Thương hiệu](#12-thương-hiệu)
-- [13. 💼 Khác biệt hoá đáng giá bao nhiêu — và cái giá phải trả](#13--khác-biệt-hoá-đáng-giá-bao-nhiêu--và-cái-giá-phải-trả)
+- [13. Khác biệt hoá đáng giá bao nhiêu — và cái giá phải trả](#13-khác-biệt-hoá-đáng-giá-bao-nhiêu--và-cái-giá-phải-trả)
 - [14. Code minh hoạ](#14-code-minh-hoạ)
 - [15. Tự thử](#15-tự-thử)
 - [16. Từ điển thuật ngữ](#16-từ-điển-thuật-ngữ)
@@ -47,6 +49,7 @@
 Sách mở chương bằng lời thừa nhận rằng hai chương trước là **hai thái cực**, còn thực tế nằm ở giữa
 (tr. 371):
 
+> [!quote]
 > *"Một doanh nghiệp thông thường trong một nền kinh tế phải chịu sự cạnh tranh, nhưng sự cạnh tranh đó
 > **không gay gắt đến nỗi buộc họ phải chấp nhận giá**… Một doanh nghiệp thông thường ở một mức độ nào
 > đó cũng có chút quyền lực thị trường, nhưng quyền lớn đến mức có thể sử dụng mô hình độc quyền ở
@@ -76,6 +79,7 @@ Sách mở chương bằng lời thừa nhận rằng hai chương trước là 
 
 Hai định nghĩa mới (chú thích tr. 371):
 
+> [!note]
 > **Độc quyền nhóm** (*oligopoly*): cấu trúc thị trường mà ở đó chỉ có **một vài người bán** những sản
 > phẩm tương tự hoặc đồng nhất.
 > **Cạnh tranh độc quyền** (*monopolistic competition*): cấu trúc thị trường trong đó **nhiều doanh
@@ -83,6 +87,7 @@ Hai định nghĩa mới (chú thích tr. 371):
 
 ### Tỷ lệ tập trung — thước đo mức độ thống trị
 
+> [!note]
 > **Tỷ lệ tập trung**: tỷ lệ tổng sản lượng được cung cấp bởi **bốn doanh nghiệp lớn nhất** trên thị trường.
 
 | Ngành (Hoa Kỳ)         | Tỷ lệ tập trung 4 doanh nghiệp |
@@ -93,14 +98,16 @@ Hai định nghĩa mới (chú thích tr. 371):
 | Sản xuất máy bay       |                            81% |
 | Ngũ cốc                |                            78% |
 
-⚠️ Nhưng sách nói rõ (tr. 371): *"hầu hết các ngành đều có tỷ lệ tập trung bốn doanh nghiệp **dưới 50
-phần trăm**"*. Năm ngành trên là **ngoại lệ**, không phải điển hình.
+> [!warning]
+> Nhưng sách nói rõ (tr. 371): *"hầu hết các ngành đều có tỷ lệ tập trung bốn doanh nghiệp **dưới 50
+> phần trăm**"*. Năm ngành trên là **ngoại lệ**, không phải điển hình.
 
-⚠️ **Ranh giới giữa các loại thị trường thì mờ**, và sách thừa nhận thẳng (tr. 373): *"không có con số
-màu nhiệm nào để phân biệt 'một vài' và 'nhiều'… Với 12 công ty hiện đang bán xe hơi ở Mỹ, thị trường
-này là một thị trường độc quyền nhóm hay một trường cạnh tranh? Vẫn còn nhiều tranh cãi."* Tương tự với
-"khác biệt hay y hệt": *"Các nhãn hiệu sữa khác nhau có thực sự giống nhau hay không? Câu trả lời, một
-lần nữa, là không rõ ràng."*
+> [!warning] Ranh giới giữa các loại thị trường thì mờ
+> , và sách thừa nhận thẳng (tr. 373): *"không có con số
+> màu nhiệm nào để phân biệt 'một vài' và 'nhiều'… Với 12 công ty hiện đang bán xe hơi ở Mỹ, thị trường
+> này là một thị trường độc quyền nhóm hay một trường cạnh tranh? Vẫn còn nhiều tranh cãi."* Tương tự với
+> "khác biệt hay y hệt": *"Các nhãn hiệu sữa khác nhau có thực sự giống nhau hay không? Câu trả lời, một
+> lần nữa, là không rõ ràng."*
 
 ---
 
@@ -150,6 +157,7 @@ Vì đường cầu dốc xuống, doanh nghiệp cạnh tranh độc quyền d�
 | Hình 2(a) | $P > ATC$ | **có lợi nhuận**                                             |
 | Hình 2(b) | $P < ATC$ | **thua lỗ** — điều tốt nhất làm được là **tối thiểu hoá lỗ** |
 
+> [!quote] tr. 374
 > *"Doanh nghiệp cạnh tranh độc quyền chọn mức sản lượng và mức giá giống như một doanh nghiệp độc
 > quyền. **Trong ngắn hạn, hai loại cấu trúc thị trường này giống nhau.**"* (tr. 374)
 
@@ -174,17 +182,19 @@ Vì đường cầu dốc xuống, doanh nghiệp cạnh tranh độc quyền d�
                   DỪNG khi lợi nhuận kinh tế = 0
 ```
 
-⚠️ **Chú ý khác biệt với bài 6.** Ở thị trường cạnh tranh hoàn hảo, gia nhập làm **giá thị trường**
-giảm. Ở đây, gia nhập làm **đường cầu riêng của từng doanh nghiệp dịch trái** — vì khách hàng bị chia
-ra cho nhiều lựa chọn hơn.
+> [!warning] Chú ý khác biệt với bài 6.
+> Ở thị trường cạnh tranh hoàn hảo, gia nhập làm **giá thị trường**
+> giảm. Ở đây, gia nhập làm **đường cầu riêng của từng doanh nghiệp dịch trái** — vì khách hàng bị chia
+> ra cho nhiều lựa chọn hơn.
 
-### ⭐ Điểm dừng: hai đường TIẾP TUYẾN nhau
+### Điểm dừng: hai đường TIẾP TUYẾN nhau
 
 **Hình 3, tr. 375**: ở cân bằng dài hạn, đường cầu **vừa chạm** đường ATC. Sách giải thích vì sao **bắt
 buộc** phải như vậy:
 
 ![Hình 3 — tr. 375, bản chụp giáo trình](../tai_lieu/hinh/ch16-hinh-03-tr375.png)
 
+> [!quote]
 > *"Do lợi nhuận trên mỗi đơn vị sản phẩm bán được chính là phần chênh lệch giữa giá bán (được xác định
 > trên đường cầu) và tổng chi phí bình quân, lợi nhuận tối đa bằng 0 chỉ khi hai đường này **chạm nhau
 > nhưng không cắt nhau**."*
@@ -194,6 +204,7 @@ muốn gia nhập. Nếu chúng **không chạm** nhau, mọi sản lượng đ�
 
 Và một điểm nữa mà sách nhấn mạnh là **không phải trùng hợp**:
 
+> [!quote]
 > *"sự giao nhau [giữa MR và MC] xảy ra tại **cùng một mức sản lượng** mà tại đó doanh thu biên bằng chi
 > phí biên. Việc hai điểm này cùng nằm trên một đường thẳng **không phải là một sự tình cờ**: nó là điều
 > bắt buộc."*
@@ -203,6 +214,7 @@ $-3$), và $MR = MC$ cũng xảy ra đúng tại đó.
 
 ### Hai đặc điểm của cân bằng dài hạn (tr. 375)
 
+> [!note]
 > **①** Giống thị trường **độc quyền**: **giá cao hơn chi phí biên**.
 > **②** Giống thị trường **cạnh tranh**: **giá bằng tổng chi phí bình quân**.
 
@@ -217,7 +229,7 @@ $-3$), và $MR = MC$ cũng xảy ra đúng tại đó.
 
 ![Hình 4 — tr. 376, bản chụp giáo trình](../tai_lieu/hinh/ch16-hinh-04-tr376.png)
 
-### ⭐ Khác biệt ① — Dư thừa năng lực sản xuất
+### Khác biệt ① — Dư thừa năng lực sản xuất
 
 Vì điểm tiếp tuyến nằm trên **đoạn dốc xuống** của đường ATC, sản lượng cân bằng **nhỏ hơn quy mô hiệu
 quả**:
@@ -228,17 +240,20 @@ quả**:
 | So với quy mô hiệu quả | **thấp hơn**                  | **đúng bằng**       |
 | Gọi là                 | **dư thừa năng lực sản xuất** | —                   |
 
+> [!quote] tr. 376–377
 > *"khác với doanh nghiệp cạnh tranh hoàn hảo, doanh nghiệp cạnh tranh độc quyền **có khả năng tăng mức
 > sản lượng và giảm mức tổng chi phí bình quân**. Các doanh nghiệp bỏ qua cơ hội này vì họ **cần phải
 > giảm giá bán** để bán được thêm hàng hoá."* (tr. 376–377)
 
-💼 Nói cách khác: **họ biết mình đang chạy dưới công suất, và vẫn chọn như vậy** — vì lấp đầy công suất
-đòi hỏi hạ giá nhiều hơn phần tiết kiệm được từ chi phí.
+> [!example]
+> Nói cách khác: **họ biết mình đang chạy dưới công suất, và vẫn chọn như vậy** — vì lấp đầy công suất
+> đòi hỏi hạ giá nhiều hơn phần tiết kiệm được từ chi phí.
 
-### ⭐ Khác biệt ② — Giá cao hơn chi phí biên
+### Khác biệt ② — Giá cao hơn chi phí biên
 
 Lập luận của sách rất chặt (tr. 377):
 
+> [!quote]
 > *"Điều kiện lợi nhuận bằng 0 chỉ đảm bảo rằng giá bán bằng tổng chi phí bình quân, **chứ không đảm bảo
 > việc giá bán bằng chi phí biên**. Thực ra, tại điểm cân bằng trong dài hạn, các doanh nghiệp cạnh tranh
 > độc quyền hoạt động trên **đoạn dốc xuống** của đường tổng chi phí bình quân, vì vậy **chi phí biên
@@ -247,11 +262,13 @@ Lập luận của sách rất chặt (tr. 377):
 
 Hệ quả hành vi mà sách diễn đạt rất hay:
 
+> [!quote]
 > Hỏi một doanh nghiệp: *"Anh có muốn nhìn thấy thêm một khách hàng đi vào và sẵn sàng mua sản phẩm của
 > anh tại mức giá hiện tại hay không?"*
 > - **Cạnh tranh hoàn hảo**: *"không quan tâm"* — vì $P = MC$, khách thêm mang lại lợi nhuận **bằng 0**.
 > - **Cạnh tranh độc quyền**: **luôn muốn** — vì $P > MC$, mỗi khách thêm là lợi nhuận thật.
 
+> [!quote] tr. 377
 > ⭐ *"Nói một cách hài hước, thị trường cạnh tranh độc quyền là các thị trường mà ở đó **người bán gửi
 > thiếp giáng sinh cho người mua**."* (tr. 377)
 
@@ -261,7 +278,7 @@ $P > MC$.
 
 ---
 
-## 6. 📚 Chênh lệch giá – chi phí biên bằng 1 chia cho độ co giãn
+## 6. Chênh lệch giá – chi phí biên bằng 1 chia cho độ co giãn
 
 Phần này **không có trong sách**, nhưng suy ra được từ chính $MR = MC$ và rất đáng biết vì nó biến toàn
 bộ chương thành **một con số dùng được**.
@@ -300,7 +317,8 @@ Vì $P > MC$, *"một số người tiêu dùng xác định giá trị của h�
 hơn giá bán) sẽ **không mua** hàng hoá đó"* → **tổn thất vô ích**, giống hệt độc quyền ở
 [bài 7, mục 9](bai_07_doc_quyen_va_phan_biet_gia.md#9-chi-phí-phúc-lợi-của-độc-quyền--tổn-thất-vô-ích).
 
-⚠️ **Nhưng chính sách rất khó sửa** (tr. 378), vì hai lý do:
+> [!warning] Nhưng chính sách rất khó sửa
+> (tr. 378), vì hai lý do:
 
 1. Muốn ép $P = MC$ thì phải **kiểm soát tất cả doanh nghiệp sản xuất sản phẩm khác biệt** — mà loại này
    *"rất phổ biến trong nền kinh tế"*, nên *"gánh nặng hành chính của sự kiểm soát này sẽ là rất lớn"*.
@@ -317,6 +335,7 @@ tới lợi nhuận của mình** — nhưng sự gia nhập tạo ra **hai ngo�
 | **Do sự đa dạng của sản phẩm** | **➕ tích cực** | người tiêu dùng nhận được **thặng dư** từ việc xuất hiện một sản phẩm mới |
 | **Do đánh cắp thị phần**       | **➖ tiêu cực** | các doanh nghiệp khác **mất khách và giảm lợi nhuận**                     |
 
+> [!quote]
 > *"Việc thị trường cạnh tranh độc quyền có quá ít hay quá nhiều sản phẩm sẽ **phụ thuộc vào việc loại
 > ngoại tác nào lớn hơn**."*
 
@@ -325,6 +344,7 @@ Và sách chỉ ra cả hai ngoại tác này **không tồn tại trong cạnh 
 
 ### Kết luận thận trọng của sách (tr. 379)
 
+> [!quote]
 > *"thị trường cạnh tranh độc quyền **không có tất cả các tính chất phúc lợi đáng mong muốn** của thị
 > trường cạnh tranh hoàn hảo… Tuy nhiên do **sự không đạt hiệu quả là không rõ ràng, khó đo lường và khó
 > sửa chữa**, các chính sách công không dễ dàng cải thiện được kết cục thị trường này."*
@@ -359,8 +379,9 @@ phẩm. Sản phẩm đồng nhất → không ai quảng cáo.
 | Quảng cáo làm gì        | *"tác động tới thị hiếu"*, tạo ham muốn **không có sẵn**                         | cung cấp **thông tin** — sản phẩm nào tồn tại, cửa hàng nào, giá bao nhiêu    |
 | Tác động lên cạnh tranh | làm thị trường **kém cạnh tranh hơn** — cầu **ít co giãn hơn** → giá **cao hơn** | giúp khách **tìm được giá tốt nhất** → cầu **co giãn hơn** → giá **thấp hơn** |
 
-⚠️ Chú ý: hai phía dự đoán **hai hướng ngược nhau** cho cùng một đại lượng — **độ co giãn của cầu**. Đó
-là một **câu hỏi thực chứng**, kiểm được bằng dữ liệu. Mục 9 là chỗ nó được kiểm.
+> [!warning]
+> Chú ý: hai phía dự đoán **hai hướng ngược nhau** cho cùng một đại lượng — **độ co giãn của cầu**. Đó
+> là một **câu hỏi thực chứng**, kiểm được bằng dữ liệu. Mục 9 là chỗ nó được kiểm.
 
 ---
 
@@ -371,6 +392,7 @@ là một **câu hỏi thực chứng**, kiểm được bằng dữ liệu. M�
 **Thí nghiệm tự nhiên:** thập niên **1960** ở Mỹ, các bang có luật khác nhau về quảng cáo dịch vụ nhãn
 khoa. Một số bang cho phép; nhiều bang **nghiêm cấm**. Luật bang **Florida** ghi:
 
+> [!quote]
 > *"Sẽ là phạm pháp nếu một cá nhân, doanh nghiệp hay tập đoàn nào quảng cáo một cách trực tiếp hay gián
 > tiếp bằng bất cứ phương tiện nào về giá bán hay các ưu đãi đối với gọng kính, tròng kính hoặc toàn bộ
 > mắt kính thường hay kính thuốc, hay bất cứ dịch vụ nhãn khoa nào… Điều khoản này được thông qua nhằm
@@ -387,19 +409,22 @@ này đối với quảng cáo."* — Ai được lợi từ việc cấm quản
 | Bang **KHÔNG cấm** quảng cáo |                               **$26** |
 | **Chênh lệch**               | quảng cáo làm giá giảm **khoảng 20%** |
 
+> [!quote]
 > *"Trong thị trường mắt kính, và có lẽ là trong nhiều thị trường khác nữa, **quảng cáo thúc đẩy cạnh
 > tranh và làm cho giá trở nên rẻ hơn cho người tiêu dùng**."*
 
-⚠️ Sách tự chú thích về con số: *"\$33 là giá từ năm 1963… Để đổi giá của năm 1963 sang giá đô la hiện
-tại bạn có thể nhân nó với **7**."*
+> [!warning]
+> Sách tự chú thích về con số: *"\$33 là giá từ năm 1963… Để đổi giá của năm 1963 sang giá đô la hiện
+> tại bạn có thể nhân nó với **7**."*
 
-💡 **Vì sao đây là một nghiên cứu tốt:** nó khai thác **thí nghiệm tự nhiên** — sự khác biệt luật giữa
-các bang — thay vì so sánh dữ liệu quan sát thuần tuý. Đúng cách khắc phục vấn đề nhân quả ở
-[bài 1, mục 15](bai_01_muoi_nguyen_ly_va_tu_duy_kinh_te.md#15--đọc-đồ-thị-độ-dốc-bỏ-sót-biến-nhân-quả-ngược).
+> [!example] Vì sao đây là một nghiên cứu tốt:
+> nó khai thác **thí nghiệm tự nhiên** — sự khác biệt luật giữa
+> các bang — thay vì so sánh dữ liệu quan sát thuần tuý. Đúng cách khắc phục vấn đề nhân quả ở
+> [bài 1, mục 15](bai_01_muoi_nguyen_ly_va_tu_duy_kinh_te.md#15-đọc-đồ-thị-độ-dốc-bỏ-sót-biến-nhân-quả-ngược).
 
 ---
 
-## 10. 📚 Galbraith đối đầu Hayek
+## 10. Galbraith đối đầu Hayek
 
 Hộp *"Bạn có biết"* (tr. 382) đặt hai nhà kinh tế lớn thế kỷ 20 đối diện nhau — và cuộc tranh luận này
 vượt xa chuyện quảng cáo.
@@ -414,6 +439,7 @@ vượt xa chuyện quảng cáo.
 
 Câu kết luận của Hayek mà sách trích:
 
+> [!quote]
 > *"Do mỗi nhà sản xuất đơn lẻ nghĩ rằng người tiêu dùng có thể bị thuyết phục để thích những sản phẩm
 > của họ, họ cố gắng tác động tới người tiêu dùng. Nhưng mặc dù nỗ lực này là một phần của những tác
 > động giúp hình thành thị hiếu của khách hàng, **không một nhà sản xuất nào có khả năng xác định được ý
@@ -442,24 +468,28 @@ kém mà chẳng chứa thông tin gì**.
 
 Người tiêu dùng suy luận rất hợp lý:
 
+> [!quote]
 > *"Nếu công ty Kellogg sẵn lòng trả nhiều tiền cho quảng cáo loại ngũ cốc mới này, **nó chắc hẳn phải
 > là một loại tốt**."*
 
-### ⭐ Điều ngạc nhiên nhất: NỘI DUNG quảng cáo không quan trọng
+### Điều ngạc nhiên nhất: NỘI DUNG quảng cáo không quan trọng
 
+> [!quote] tr. 383
 > *"Kellogg phát tín hiệu về chất lượng sản phẩm của họ **bằng sự sẵn lòng chi tiền** cho quảng cáo.
 > Nhưng cái mà quảng cáo muốn nói lên lại **không quan trọng bằng** sự thật là khách hàng biết rằng
 > quảng cáo này **tốn nhiều tiền**."* (tr. 383)
 
 Và hệ quả:
 
+> [!quote]
 > *"Thông tin **không nằm trong nội dung** của quảng cáo nhưng đơn giản lại nằm trong **sự tồn tại và
 > chi phí** của nó."*
 
-⚠️ **Ngưỡng hoạt động của tín hiệu — quảng cáo phải ĐỦ ĐẮT.** Sách nói rõ (tr. 383): nếu chiến dịch chỉ
-tốn **dưới 3 triệu đô la**, **cả Post lẫn Kellogg đều quảng cáo được** → *"người tiêu dùng không thể kết
-luận được chất lượng của loại ngũ cốc mới từ những thông tin được quảng cáo. Theo thời gian, người tiêu
-dùng sẽ **lờ đi** những quảng cáo rẻ tiền như vậy."*
+> [!warning] Ngưỡng hoạt động của tín hiệu — quảng cáo phải ĐỦ ĐẮT.
+> Sách nói rõ (tr. 383): nếu chiến dịch chỉ
+> tốn **dưới 3 triệu đô la**, **cả Post lẫn Kellogg đều quảng cáo được** → *"người tiêu dùng không thể kết
+> luận được chất lượng của loại ngũ cốc mới từ những thông tin được quảng cáo. Theo thời gian, người tiêu
+> dùng sẽ **lờ đi** những quảng cáo rẻ tiền như vậy."*
 
 📌 Đây cũng là lời giải cho câu hỏi *"tại sao trả tiền tỷ cho diễn viên nổi tiếng đóng quảng cáo mà nội
 dung chẳng nói gì"* — **chính khoản tiền tỷ đó là thông điệp**.
@@ -507,7 +537,7 @@ Sách kết mục này bằng câu hỏi bỏ ngỏ: *"liệu người tiêu dù
 sản phẩm thay thế tương tự hay không"* — và ghi rằng đây vẫn là tranh luận chưa ngã ngũ.
 ---
 
-## 13. 💼 Khác biệt hoá đáng giá bao nhiêu — và cái giá phải trả
+## 13. Khác biệt hoá đáng giá bao nhiêu — và cái giá phải trả
 
 ### Khác biệt hoá là công việc kéo $\lvert e \rvert$ xuống
 
@@ -535,7 +565,7 @@ phải hành động.
 | **Định nghĩa thị trường**    | bán "giải pháp trọn gói" thay vì một món hàng rời        |
 | **Thời gian**                | hợp đồng nhiều năm, dữ liệu bị khoá, đào tạo chuyên biệt |
 
-### ⚠️ Nhưng dư thừa năng lực là cái giá phải trả
+### Nhưng dư thừa năng lực là cái giá phải trả
 
 Đây là phần mà lý thuyết cạnh tranh độc quyền nói được mà chiến lược kinh doanh thường bỏ qua.
 
@@ -555,21 +585,22 @@ quả**, và ATC thực tế là **\$27** thay vì **\$22** — **đắt hơn 23
 Ngược lại, muốn chạy hết công suất thì phải bán thứ mà **nhiều người muốn giống nhau** — tức tiến về
 phía cạnh tranh hoàn hảo, nơi biên lợi nhuận mỏng.
 
-### 💼 Quảng cáo: ba câu hỏi trước khi duyệt ngân sách
-
-Từ mục 8–11, ba câu hỏi có cơ sở lý thuyết:
-
-1. **Sản phẩm của ta có khác biệt thật không?** Nếu không, quảng cáo chỉ là chi phí — sản phẩm đồng
-   nhất (bột mì, đậu phộng) **không ai quảng cáo**, và đó không phải sơ suất.
-2. **Khách có mua lại nhiều lần không?** Cơ chế tín hiệu ở mục 11 **chỉ hoạt động** khi có mua lại. Sản
-   phẩm mua một lần trong đời thì quảng cáo đắt không phát tín hiệu được gì.
-3. **Chiến dịch có đủ đắt để tách ta khỏi đối thủ kém hơn không?** Quảng cáo rẻ mà ai cũng làm được thì
-   **không truyền tin gì**, và khách hàng sẽ học cách lờ đi.
+> [!example] Quảng cáo: ba câu hỏi trước khi duyệt ngân sách
+>
+> Từ mục 8–11, ba câu hỏi có cơ sở lý thuyết:
+>
+> 1. **Sản phẩm của ta có khác biệt thật không?** Nếu không, quảng cáo chỉ là chi phí — sản phẩm đồng
+>    nhất (bột mì, đậu phộng) **không ai quảng cáo**, và đó không phải sơ suất.
+> 2. **Khách có mua lại nhiều lần không?** Cơ chế tín hiệu ở mục 11 **chỉ hoạt động** khi có mua lại. Sản
+>    phẩm mua một lần trong đời thì quảng cáo đắt không phát tín hiệu được gì.
+> 3. **Chiến dịch có đủ đắt để tách ta khỏi đối thủ kém hơn không?** Quảng cáo rẻ mà ai cũng làm được thì
+>    **không truyền tin gì**, và khách hàng sẽ học cách lờ đi.
 
 ---
 
 ## 14. Code minh hoạ
 
+> [!note]
 > ⚙️ **Chạy:** cần **Python 3.10+**. Lưu file rồi gõ `python3 bai-08-canh-tranh-doc-quyen.py`.
 > **Không cần cài gói nào.** File có sẵn tại [thuc_hanh/bai-08-canh-tranh-doc-quyen.py](../thuc_hanh/bai-08-canh-tranh-doc-quyen.py).
 

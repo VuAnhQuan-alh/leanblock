@@ -1,17 +1,18 @@
 # Bài 10 — Tính tỷ lệ hoàn vốn đầu tư
 
+> [!info] Về bài này
 > Bài học dựng từ **Phần VI — Hướng dẫn cách tính toán (và thật sự hiểu) tỷ lệ hoàn vốn đầu tư**:
 > chương 24 *Những khối đá làm nên tỷ lệ hoàn vốn đầu tư* (PDF tr. 172–178), chương 25 *Tính tỷ lệ hoàn
 > vốn đầu tư* (PDF tr. 179–189), và hộp công cụ Phần VI (PDF tr. 189–191).
-> 🔸 **Vòng 2 — và bài này CỐ TÌNH MỎNG.** Giá trị hiện tại, chiết khấu, NPV và IRR đã được dạy kỹ hơn ở
+>
+> **Vòng 2 — và bài này CỐ TÌNH MỎNG.** Giá trị hiện tại, chiết khấu, NPV và IRR đã được dạy kỹ hơn ở
 > **[EG14 bài 5](../../../houedu/eg14-kinhtevimo-macro/ly_thuyet/bai_05_cong_cu_co_ban_cua_tai_chinh.md)**. Bài này
 > **không dạy lại cơ chế chiết khấu** — nó chỉ kiểm lại từng con số của sách, rồi làm bốn thứ EG14 **không
 > có**: thời gian hoàn vốn, ngưỡng thu hồi vốn, chi phí sử dụng vốn, và phân tích độ nhạy.
-> 💼 **Góc quản trị** — ví dụ thêm cho người đi làm, **không có trong sách**.
-> 📚 **Mở rộng** — thứ sách nói lướt hoặc để trong hộp công cụ.
-> 🇻🇳 **Đối chiếu Việt Nam** — sách viết theo US GAAP, mục này nối sang thực tế Việt Nam.
-> ⚠️ — chỗ dễ hiểu sai, hoặc chỗ sách in sai.
-> 📌 **Cần đọc trước:**
+>
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
+>
+> **Cần đọc trước:**
 > [EG14 bài 5](../../../houedu/eg14-kinhtevimo-macro/ly_thuyet/bai_05_cong_cu_co_ban_cua_tai_chinh.md) *(bắt buộc —
 > toàn bộ phép chiết khấu nằm ở đó)* · [Bài 7](bai_07_bao_cao_luu_chuyen_tien_te.md) *(mọi phép tính ở đây
 > chạy trên **dòng tiền**, không phải lợi nhuận)* ·
@@ -35,9 +36,9 @@
 - [7. Ngưỡng thu hồi vốn là một QUYẾT ĐỊNH, không phải một phép tính](#7-ngưỡng-thu-hồi-vốn-là-một-quyết-định-không-phải-một-phép-tính)
 - [8. Phân tích độ nhạy — sách ra bài kiểm, ví dụ của chính sách suýt trượt](#8-phân-tích-độ-nhạy--sách-ra-bài-kiểm-ví-dụ-của-chính-sách-suýt-trượt)
 - [9. Ba phương án A/B/C — và con số sách bỏ ngỏ](#9-ba-phương-án-abc--và-con-số-sách-bỏ-ngỏ)
-- [10. 💼 Setpoint — bốn câu hỏi của người kỹ thuật, quy ra tiền](#10--setpoint--bốn-câu-hỏi-của-người-kỹ-thuật-quy-ra-tiền)
-- [11. 🇻🇳 Cùng một dự án, hai doanh nghiệp, hai quyết định ngược nhau](#11--cùng-một-dự-án-hai-doanh-nghiệp-hai-quyết-định-ngược-nhau)
-- [12. 📚 Hộp công cụ — hướng dẫn từng bước viết một đề án](#12--hộp-công-cụ--hướng-dẫn-từng-bước-viết-một-đề-án)
+- [10. Setpoint — bốn câu hỏi của người kỹ thuật, quy ra tiền](#10-setpoint--bốn-câu-hỏi-của-người-kỹ-thuật-quy-ra-tiền)
+- [11. Cùng một dự án, hai doanh nghiệp, hai quyết định ngược nhau](#11-cùng-một-dự-án-hai-doanh-nghiệp-hai-quyết-định-ngược-nhau)
+- [12. Hộp công cụ — hướng dẫn từng bước viết một đề án](#12-hộp-công-cụ--hướng-dẫn-từng-bước-viết-một-đề-án)
 - [13. Tự thử](#13-tự-thử)
 - [14. Từ điển thuật ngữ](#14-từ-điển-thuật-ngữ)
 - [15. Câu hỏi tự kiểm tra](#15-câu-hỏi-tự-kiểm-tra)
@@ -59,10 +60,10 @@ hẳn, có cả lãi kép và quy tắc 70. Nên bài này **không dạy lại 
 | --- | :---: | --- |
 | Giá trị tiền tệ theo thời gian | 24 | [EG14 bài 5 mục 2](../../../houedu/eg14-kinhtevimo-macro/ly_thuyet/bai_05_cong_cu_co_ban_cua_tai_chinh.md#2-giá-trị-hiện-tại--đo-giá-trị-của-tiền-tệ-theo-thời-gian) — **kỹ hơn** |
 | Giá trị tương lai / hiện tại | 24 | [EG14 bài 5 mục 2](../../../houedu/eg14-kinhtevimo-macro/ly_thuyet/bai_05_cong_cu_co_ban_cua_tai_chinh.md#2-giá-trị-hiện-tại--đo-giá-trị-của-tiền-tệ-theo-thời-gian) |
-| Lãi kép, quy tắc 70 | — | [EG14 bài 5 mục 3](../../../houedu/eg14-kinhtevimo-macro/ly_thuyet/bai_05_cong_cu_co_ban_cua_tai_chinh.md#3--ma-thuật-của-lãi-kép-và-quy-tắc-70--hộp-bạn-có-biết-tr-316) *(sách này **không có**)* |
+| Lãi kép, quy tắc 70 | — | [EG14 bài 5 mục 3](../../../houedu/eg14-kinhtevimo-macro/ly_thuyet/bai_05_cong_cu_co_ban_cua_tai_chinh.md#3-ma-thuật-của-lãi-kép-và-quy-tắc-70--hộp-bạn-có-biết-tr-316) *(sách này **không có**)* |
 | Rủi ro và tỷ suất sinh lợi | 24 | [EG14 bài 5 mục 7](../../../houedu/eg14-kinhtevimo-macro/ly_thuyet/bai_05_cong_cu_co_ban_cua_tai_chinh.md#7-đánh-đổi-giữa-rủi-ro-và-sinh-lợi--hình-3-tr-321) |
 | Chi phí cơ hội | 24 | [EG13 bài 1 mục 3](../../../houedu/eg13-kinhtevimo-micro/ly_thuyet/bai_01_muoi_nguyen_ly_va_tu_duy_kinh_te.md#3-nguyên-lý-2--chi-phí-của-một-thứ-là-cái-mà-bạn-từ-bỏ-để-có-được-nó) — nguyên lý 2 |
-| Chi phí chìm | — | [EG13 bài 1 mục 5](../../../houedu/eg13-kinhtevimo-micro/ly_thuyet/bai_01_muoi_nguyen_ly_va_tu_duy_kinh_te.md#5--chi-phí-chìm--hệ-quả-quan-trọng-nhất-mà-sách-để-trong-bài-tập) *(sách này **không có**)* |
+| Chi phí chìm | — | [EG13 bài 1 mục 5](../../../houedu/eg13-kinhtevimo-micro/ly_thuyet/bai_01_muoi_nguyen_ly_va_tu_duy_kinh_te.md#5-chi-phí-chìm--hệ-quả-quan-trọng-nhất-mà-sách-để-trong-bài-tập) *(sách này **không có**)* |
 | **Thời gian hoàn vốn** | 25 | ⭐ **chỉ có ở đây** — [mục 4](#4-thời-gian-hoàn-vốn--phương-pháp-eg14-không-có)–[5](#5-thời-gian-hoàn-vốn-chiết-khấu--con-số-sách-không-đưa) |
 | **Ngưỡng thu hồi vốn** | 24 | ⭐ **chỉ có ở đây** — [mục 7](#7-ngưỡng-thu-hồi-vốn-là-một-quyết-định-không-phải-một-phép-tính) |
 | **Chi phí sử dụng vốn (WACC)** | 24 | ⭐ **chỉ có ở đây** — [mục 3](#3-chi-phí-sử-dụng-vốn--phép-tính-duy-nhất-chương-24-đưa-ra) |
@@ -73,6 +74,7 @@ quanh** phép chiết khấu: **lấy số ở đâu, chọn ngưỡng nào, và
 
 Và sách nói thẳng ngay đầu ch. 25 rằng đó mới là chỗ khó:
 
+> [!quote]
 > *"Hãy nhớ rằng đây cũng là **một bài luyện nghệ thuật tài chính**. Nó quả thật rất tuyệt vời: các chuyên
 > gia tài chính có thể và thật sự phân tích các đề án, rồi đưa ra những khuyến nghị **dựa trên các giả định
 > và ước tính**… Họ thậm chí còn **thích thú với thách thức** khi tính toán **những con số không biết**, và
@@ -84,6 +86,7 @@ Và sách nói thẳng ngay đầu ch. 25 rằng đó mới là chỗ khó:
 
 Sách gọi tên ba khái niệm ở giữa chương, rồi thêm hai cái nữa ở cuối:
 
+> [!note]
 > ① giá trị tương lai · ② giá trị hiện tại · ③ tỷ suất sinh lợi yêu cầu
 > ④ chi phí cơ hội · ⑤ chi phí sử dụng vốn
 
@@ -97,6 +100,7 @@ Sách gọi tên ba khái niệm ở giữa chương, rồi thêm hai cái nữa
 ⭐ **Ba điểm phần trăm lãi suất làm số tiền gấp 2,37 lần sau 30 năm** *(chốt bằng `assert`)*. Sách đặt
 chính ví dụ này để nói về nghệ thuật tài chính:
 
+> [!quote]
 > *"Bạn giả định tỷ suất sinh lợi bình quân trong 30 năm tới là **3%, hay 6%**? **Chênh lệch giữa hai giả
 > định sẽ rất lớn**… May mắn thì việc tính toán giá trị tương lai trong khoảng thời gian xa như thế là
 > **một phỏng đoán kinh nghiệm** – một phép thực hành thể hiện tài năng nghệ thuật."* — ch. 24 · PDF tr. 174
@@ -107,24 +111,27 @@ Giá trị hiện tại, chiều ngược lại: **106.000** đô-la sau một n
 
 ⭐ **Tỷ suất sinh lợi yêu cầu = ngưỡng thu hồi vốn** *(hurdle rate)*. Sách neo nó bằng một cặp số rất dễ nhớ:
 
+> [!quote]
 > *"Bạn **có thể không** đầu tư 100.000 đô-la ngày hôm nay để nhận được **102.000** đô-la sau một năm – lãi
 > suất **2%**, nhưng **rất có thể** bạn sẽ đầu tư 100.000 đô-la ngày hôm nay để thu được **120.000** đô-la
 > một năm sau đó – **20%**."* — ch. 24 · PDF tr. 176
 
 📌 **Chi phí cơ hội** là khối đá thứ tư, và nó không phải của cuốn sách này:
 
+> [!quote]
 > *"Trong ngôn ngữ thường ngày, cụm từ này chỉ **những gì bạn phải từ bỏ** khi theo đuổi một hoạt động nhất
 > định. Nếu bạn dành toàn bộ số tiền có được cho một kỳ nghỉ xa hoa, chi phí cơ hội là **bạn không thể mua
 > xe**."* — ch. 24 · PDF tr. 177
 
 Đó là **nguyên lý 2** của Mankiw, đã học ở
 [EG13 bài 1 mục 3](../../../houedu/eg13-kinhtevimo-micro/ly_thuyet/bai_01_muoi_nguyen_ly_va_tu_duy_kinh_te.md#3-nguyên-lý-2--chi-phí-của-một-thứ-là-cái-mà-bạn-từ-bỏ-để-có-được-nó).
-[Mục 11](#11--cùng-một-dự-án-hai-doanh-nghiệp-hai-quyết-định-ngược-nhau) đo nó bằng số liệu thật.
+[Mục 11](#11-cùng-một-dự-án-hai-doanh-nghiệp-hai-quyết-định-ngược-nhau) đo nó bằng số liệu thật.
 
 ---
 
 ## 3. Chi phí sử dụng vốn — phép tính duy nhất chương 24 đưa ra
 
+> [!quote]
 > *"Các chuyên gia tài chính tính toán chi phí sử dụng vốn của doanh nghiệp theo nhiều cách: (1) tính
 > **chi phí vay nợ** (lãi suất), (2) ước tính **lợi nhuận mà cổ đông kỳ vọng** thu về, và (3) tính toán
 > **con số trung bình có điều chỉnh** từ hai con số trên."* — ch. 24 · PDF tr. 178
@@ -145,6 +152,7 @@ Giá trị hiện tại, chiều ngược lại: **106.000** đô-la sau một n
 
 Và sách hạ một **luật**, không phải một gợi ý:
 
+> [!quote]
 > *"Một vụ đầu tư có tỷ suất sinh lợi **thấp hơn** chi phí sử dụng vốn sẽ không đáp ứng được cả hai mục
 > tiêu này, vì vậy **tỷ suất sinh lợi yêu cầu luôn phải cao hơn chi phí sử dụng vốn**."*
 > — ch. 24 · PDF tr. 176
@@ -164,8 +172,10 @@ $$\text{Thời gian hoàn vốn} = \frac{3.000}{1.300\ \text{mỗi năm}} = \mat
 Bài kiểm thứ nhất của sách: *"Thời gian hoàn vốn **rõ ràng phải ngắn hơn tuổi đời của dự án**; nếu không,
 chẳng có lý do gì để đầu tư cả."* — 2,31 < 3 → qua.
 
-⚠️ Sách liệt kê **ba nhược điểm**, và cả ba đều đo được:
+> [!warning]
+> Sách liệt kê **ba nhược điểm**, và cả ba đều đo được:
 
+> [!quote]
 > ① *"không đánh giá được liệu dòng tiền **có vượt ra khỏi điểm hoà vốn** không"*
 > ② *"không cho bạn biết **tổng lợi nhuận** có thể là bao nhiêu"*
 > ③ *"**không tính đến giá trị tiền tệ theo thời gian**… đó chỉ là **so sánh táo với cam**"*
@@ -204,17 +214,19 @@ tiền **trước** khi cộng dồn.
 **biên an toàn thật chỉ còn 0,34 năm**, chứ không phải 0,69 năm như con số thô gợi ý. **Bớt một nửa**
 *(chốt bằng `assert`)*.
 
-⚠️ Nhưng thời gian hoàn vốn chiết khấu **vẫn không sửa được** nhược điểm ① và ②: nó vẫn mù tịt với mọi thứ
-xảy ra **sau** khi hoàn vốn. Chỉ NPV nhìn thấy cả chuỗi. Đó là lý do sách xếp nó là *"**quy tắc mang tính
-kinh nghiệm dạng thô sơ**, chứ không phải một phân tích tài chính hùng hồn"*.
+> [!warning]
+> Nhưng thời gian hoàn vốn chiết khấu **vẫn không sửa được** nhược điểm ① và ②: nó vẫn mù tịt với mọi thứ
+> xảy ra **sau** khi hoàn vốn. Chỉ NPV nhìn thấy cả chuỗi. Đó là lý do sách xếp nó là *"**quy tắc mang tính
+> kinh nghiệm dạng thô sơ**, chứ không phải một phân tích tài chính hùng hồn"*.
 
 ---
 
 ## 6. NPV và IRR — kiểm lại từng con số, và hai chỗ in sai
 
-⚠️ **Cơ chế chiết khấu không dạy lại ở đây** — xem
-[EG14 bài 5 mục 2](../../../houedu/eg14-kinhtevimo-macro/ly_thuyet/bai_05_cong_cu_co_ban_cua_tai_chinh.md#2-giá-trị-hiện-tại--đo-giá-trị-của-tiền-tệ-theo-thời-gian).
-Mục này **chỉ kiểm số**.
+> [!warning] Cơ chế chiết khấu không dạy lại ở đây
+> xem
+> [EG14 bài 5 mục 2](../../../houedu/eg14-kinhtevimo-macro/ly_thuyet/bai_05_cong_cu_co_ban_cua_tai_chinh.md#2-giá-trị-hiện-tại--đo-giá-trị-của-tiền-tệ-theo-thời-gian).
+> Mục này **chỉ kiểm số**.
 
 | | tính ra | sách in | |
 | --- | ---: | ---: | :---: |
@@ -223,7 +235,7 @@ Mục này **chỉ kiểm số**.
 | tổng dòng tiền thô | 3.900 | 3.900 | ✓ |
 | **IRR** *(NPV = 0)* | **14,36%** | **14,36%** | ✓ |
 
-### ⚠️ Hai chỗ sách in sai, cả hai ở cùng một đoạn giải thích IRR (tr. 186)
+### Hai chỗ sách in sai, cả hai ở cùng một đoạn giải thích IRR (tr. 186)
 
 | ngưỡng | sách in | tính đúng | lệch |
 | ---: | ---: | ---: | ---: |
@@ -234,8 +246,9 @@ Mục này **chỉ kiểm số**.
 từ 10–20%**."* Với cả hai bộ số, kết luận đó vẫn đúng, và **IRR 14,36% mà sách in cuối cùng là đúng**. Chỉ
 hai con số trung gian sai.
 
-💼 **Và đây là một bẫy mà cả hai bộ số đều dính:** nội suy tuyến tính giữa hai NPV **không** cho ra IRR, vì
-NPV là hàm **cong** của $r$, không phải đường thẳng.
+> [!example] Và đây là một bẫy mà cả hai bộ số đều dính:
+> nội suy tuyến tính giữa hai NPV **không** cho ra IRR, vì
+> NPV là hàm **cong** của $r$, không phải đường thẳng.
 
 | cách | kết quả |
 | --- | ---: |
@@ -249,6 +262,7 @@ Cả hai đều **vọt quá**. Khoảng cách càng rộng thì nội suy càng
 
 ## 7. Ngưỡng thu hồi vốn là một QUYẾT ĐỊNH, không phải một phép tính
 
+> [!quote]
 > *"Các quyết định về ngưỡng thu hồi vốn **hiếm khi là vấn đề thực hiện công thức**. Giám đốc tài chính hay
 > thủ quỹ của doanh nghiệp sẽ đánh giá **mức độ rủi ro** của một vụ đầu tư, **nguồn vốn** có thể cấp cho nó,
 > và **tình hình tổng thể** của doanh nghiệp… Sau đó, ông ta **phán đoán – hay giả định** – về ngưỡng thu
@@ -272,7 +286,7 @@ Sách cho hai quy tắc ngón tay cái: doanh nghiệp **tăng trưởng cao** d
 **Không có phép tính nào trong ch. 25 quyết định điều đó** — nó được quyết ở ch. 24, bởi **một người**, bằng
 **phán đoán**.
 
-### ⚠️ Một phép đối chiếu đáng chạy
+### Một phép đối chiếu đáng chạy
 
 Chương 24 tính **WACC = 13%**, rồi hạ luật *"tỷ suất sinh lợi yêu cầu **luôn phải cao hơn** chi phí sử dụng
 vốn"*. Chương 25 đặt ngưỡng **8%**.
@@ -290,10 +304,12 @@ khác hẳn cái ở ch. 24 *(chốt bằng `assert`)*.
 
 Sách ra bài kiểm ở **hai chỗ**, và lần nào cũng cùng một con số:
 
+> [!quote]
 > *"Thường thì việc tiến hành **một phân tích độ nhạy** là hợp lý – tức là **kiểm tra các phép tính sử dụng
 > dòng tiền tương lai bằng 80–90% phỏng đoán ban đầu**, và xem liệu phương án đầu tư đó **có còn hợp lý** hay
 > không."* — ch. 25 · PDF tr. 188
 
+> [!quote]
 > *"Tiến hành phân tích độ nhạy, và nếu có thể hãy **chứng minh ước tính đó vẫn hợp lý ngay cả nếu dòng tiền
 > không trở thành hiện thực** ở cấp độ mà bạn hi vọng."* — hộp công cụ · PDF tr. 191
 
@@ -316,11 +332,13 @@ Sách ra bài kiểm ở **hai chỗ**, và lần nào cũng cùng một con s�
 
 **Tức là dự án này trượt ở đáy dưới của chính khoảng mà sách bảo phải kiểm** *(chốt bằng `assert`)*.
 
-⚠️ Con số **350 đô-la** nghe rất vững, cho đến khi đổi ra tỷ lệ: **11,7% của vốn đầu tư**. Ước tính dòng
-tiền lệch **10,5%** là nó biến mất. **Đọc NPV trần thì không thấy điều đó; đọc NPV chia vốn đầu tư thì thấy
-ngay.**
+> [!warning]
+> Con số **350 đô-la** nghe rất vững, cho đến khi đổi ra tỷ lệ: **11,7% của vốn đầu tư**. Ước tính dòng
+> tiền lệch **10,5%** là nó biến mất. **Đọc NPV trần thì không thấy điều đó; đọc NPV chia vốn đầu tư thì thấy
+> ngay.**
 
-💼 **Nên đọc NPV kèm hai con số nữa**, và cả hai đều tính miễn phí:
+> [!example] Nên đọc NPV kèm hai con số nữa
+> , và cả hai đều tính miễn phí:
 
 | | |
 | --- | ---: |
@@ -346,6 +364,7 @@ nhất**.
 
 **Ba phương pháp, ba người thắng khác nhau:** hoàn vốn → **B** · IRR → **B** · NPV → **C**.
 
+> [!quote]
 > *"Nếu chỉ áp dụng phương pháp tính IRR, chúng ta sẽ chọn phương án B. Nhưng phép tính NPV lại nghiêng về
 > phương án C, **và đó sẽ là quyết định đúng đắn**… Mặc dù B cho tỷ suất sinh lợi cao hơn C, nhưng ta
 > **chỉ thu được lợi nhuận trong một năm**."* — ch. 25 · PDF tr. 188
@@ -365,19 +384,22 @@ $$r = \sqrt{\tfrac{4.600}{3.600}} - 1 = \mathbf{13{,}04\%}$$
 kết luận của sách **đúng, nhưng chỉ đúng trong phạm vi giả định đó**. Doanh nghiệp nào thật sự tái đầu tư
 được ở 13% thì **đảo ngược kết luận** *(chốt bằng `assert`)*.
 
-⚠️ Đó chính là **giả định âm thầm của NPV**, mà sách nói thẳng một nửa:
+> [!warning]
+> Đó chính là **giả định âm thầm của NPV**, mà sách nói thẳng một nửa:
 
+> [!quote]
 > *"Phương pháp NPV **không thể tính được** các phương án đầu tư giả định trong tương lai. Nó chỉ **định
 > được là công ty có thể tiếp tục có tỷ suất sinh lợi là 9%**."* — ch. 25 · PDF tr. 188
 
 Tức là NPV giả định mọi đồng tiền thu về đều được tái đầu tư **ở đúng ngưỡng**, không hơn.
 
-⚠️ **Sách in sai một chỗ ở đây:** *"ở phương án C, giá trị tiền tệ tính theo thời giá hiện tại cao hơn
-**phương án C**."* Vế sau phải là **phương án B**. Lỗi biên tập.
+> [!warning] Sách in sai một chỗ ở đây:
+> *"ở phương án C, giá trị tiền tệ tính theo thời giá hiện tại cao hơn
+> **phương án C**."* Vế sau phải là **phương án B**. Lỗi biên tập.
 
 ---
 
-## 10. 💼 Setpoint — bốn câu hỏi của người kỹ thuật, quy ra tiền
+## 10. Setpoint — bốn câu hỏi của người kỹ thuật, quy ra tiền
 
 Sách đóng ch. 25 bằng **một câu chuyện**, không bằng một công thức. Một giám đốc đề nghị Setpoint đầu tư
 **80.000 đô-la** làm thiết bị tự sản xuất linh kiện. Trước khi Joe kịp lên tiếng, **một chuyên gia kỹ thuật
@@ -390,12 +412,14 @@ Sách đóng ch. 25 bằng **một câu chuyện**, không bằng một công th
 | *"Ông đã tính **chi phí lao động** để vận hành thiết bị đó chưa? … có thể ông sẽ phải **tuyển thêm người vận hành** đấy."* | bước 1 — **tổng** chi phí, không chỉ giá mua |
 | *"Còn **cách chi tiêu nào hay hơn** để phát triển hoạt động kinh doanh không?"* | ⭐ **chi phí cơ hội** |
 
+> [!quote]
 > *"Sau màn chất vấn này, **vị giám đốc từ bỏ đề xuất**. Chuyên gia kỹ thuật kia **có thể không phải là
 > chuyên gia về các phép tính giá trị hiện tại thuần**, nhưng hẳn là **ông hiểu tất cả những khái niệm đó**."*
 > — ch. 25 · PDF tr. 189
 
 **Quy câu hỏi thứ nhất ra số** *(tuổi đời 5 năm và ngưỡng 9% là giả định của bài học — sách không cho)*:
 
+> [!note]
 > hệ số niên kim 5 năm @ 9% = **3,8897**
 > → thiết bị phải mang về **20.567 đô-la mỗi năm**, tức **1.714 đô-la mỗi tháng**, **chỉ để hoà vốn**
 
@@ -411,7 +435,7 @@ tính NPV. Ông ấy chỉ không để sót đồng nào** *(chốt bằng `ass
 
 ---
 
-## 11. 🇻🇳 Cùng một dự án, hai doanh nghiệp, hai quyết định ngược nhau
+## 11. Cùng một dự án, hai doanh nghiệp, hai quyết định ngược nhau
 
 Chi phí cơ hội của ch. 24 nghe rất trừu tượng cho đến khi đặt hai doanh nghiệp thật cạnh nhau. Chiếc máy
 tính của ch. 25 có **IRR 14,36%**. Đem nó đi chào hàng:
@@ -429,12 +453,13 @@ và là nguyên lý 2 của
 [EG13](../../../houedu/eg13-kinhtevimo-micro/ly_thuyet/bai_01_muoi_nguyen_ly_va_tu_duy_kinh_te.md#3-nguyên-lý-2--chi-phí-của-một-thứ-là-cái-mà-bạn-từ-bỏ-để-có-được-nó)
 *(chốt bằng `assert`)*.
 
-⚠️ Và nó là một pha **sát nút**, không phải một khoảng cách an toàn: 14,36% so với 15,24% — chỉ **0,88 điểm
-phần trăm**. Đổi một giả định nhỏ trong dự báo dòng tiền là kết luận lật. Đó đúng là
-[mục 8](#8-phân-tích-độ-nhạy--sách-ra-bài-kiểm-ví-dụ-của-chính-sách-suýt-trượt): dự án này không còn chỗ
-để sai.
+> [!warning]
+> Và nó là một pha **sát nút**, không phải một khoảng cách an toàn: 14,36% so với 15,24% — chỉ **0,88 điểm
+> phần trăm**. Đổi một giả định nhỏ trong dự báo dòng tiền là kết luận lật. Đó đúng là
+> [mục 8](#8-phân-tích-độ-nhạy--sách-ra-bài-kiểm-ví-dụ-của-chính-sách-suýt-trượt): dự án này không còn chỗ
+> để sai.
 
-### ⚠️ Ba giới hạn của phép so sánh này — phải nói rõ, không được làm ngơ
+### Ba giới hạn của phép so sánh này — phải nói rõ, không được làm ngơ
 
 1. **ROA là tỷ suất KẾ TOÁN** *(lợi nhuận / tài sản)*, **IRR là tỷ suất TIỀN MẶT**. Chúng **không cùng đơn
    vị**. Đây là một **sàn dưới thô**, không phải ngưỡng đúng chuẩn.
@@ -452,14 +477,16 @@ $$\text{chi phí lãi vay } 319.138 \;/\; \text{nợ vay } 10.442.325 = \mathbf{
 để thấy một điều: **3,1% rất rẻ so với chi phí vốn chủ** — dùng mô hình 25/75 của ch. 24 thì vế vốn chủ áp
 đảo.
 
+> [!note]
 > 🚧 **Việc còn mở:** **không tính được WACC của Vinamilk** vì không có chi phí vốn chủ sở hữu từ nguồn gốc.
 > Ước nó cần hệ số beta và lãi suất phi rủi ro Việt Nam — hai con số không nằm trong báo cáo tài chính.
 > **Đây là một lỗ hổng dữ liệu, không phải một kết luận.** Không gõ số từ báo chí.
 
 ---
 
-## 12. 📚 Hộp công cụ — hướng dẫn từng bước viết một đề án
+## 12. Hộp công cụ — hướng dẫn từng bước viết một đề án
 
+> [!quote]
 > *"Bạn đang nói chuyện với cấp trên về việc mua một thiết bị mới… Và cấp trên đột ngột kết thúc cuộc trò
 > chuyện: **'Nghe được đấy. Về viết cho tôi một bản đề xuất có tính đến tỷ lệ hoàn vốn đầu tư, và nộp cho
 > tôi chậm nhất là thứ Hai.'**"* — hộp công cụ · PDF tr. 189
@@ -469,7 +496,7 @@ Sách cho sáu bước. Rút gọn, kèm chỗ dễ hỏng nhất ở mỗi bư�
 | bước | sách nói | chỗ dễ hỏng |
 | :---: | --- | --- |
 | 1 | Hiểu **ROI ở đây nghĩa là gì**: *"chỉ là một cách nói khác đi của câu: 'Hãy chuẩn bị một bản phân tích khoản mục chi phí đầu tư cơ bản này'"* | tưởng sếp hỏi một tỷ lệ, thật ra sếp hỏi cả một phân tích |
-| 2 | **Thu thập mọi dữ liệu về chi phí**: giá mua, phí vận chuyển, phí lắp đặt, thời gian ngừng việc, thời gian khắc phục lỗi. *"Nếu phải đưa ra ước tính ở đâu, **hãy ghi chú lại**"* | chỉ lấy giá mua — [mục 10](#10--setpoint--bốn-câu-hỏi-của-người-kỹ-thuật-quy-ra-tiền) đo hậu quả |
+| 2 | **Thu thập mọi dữ liệu về chi phí**: giá mua, phí vận chuyển, phí lắp đặt, thời gian ngừng việc, thời gian khắc phục lỗi. *"Nếu phải đưa ra ước tính ở đâu, **hãy ghi chú lại**"* | chỉ lấy giá mua — [mục 10](#10-setpoint--bốn-câu-hỏi-của-người-kỹ-thuật-quy-ra-tiền) đo hậu quả |
 | 3 | **Xác định lợi ích**: tiết kiệm từ tốc độ sản xuất, giảm chỉnh sửa, số nhân công, doanh thu tăng vì khách hài lòng | *"phần đòi hỏi sự khéo léo là biến tất cả thành **ước tính dòng tiền**"* |
 | 4 | **Tìm ngưỡng thu hồi vốn của công ty** cho dạng đầu tư này, rồi tính NPV | [mục 7](#7-ngưỡng-thu-hồi-vốn-là-một-quyết-định-không-phải-một-phép-tính) — đây là bước quyết định kết quả |
 | 5 | Tính **thời gian hoàn vốn và IRR** để phòng câu hỏi | ba phương pháp có thể cho ba câu trả lời khác nhau — [mục 9](#9-ba-phương-án-abc--và-con-số-sách-bỏ-ngỏ) |
@@ -477,13 +504,15 @@ Sách cho sáu bước. Rút gọn, kèm chỗ dễ hỏng nhất ở mỗi bư�
 
 Và sách đóng phần VI bằng một lời cảnh báo về **động cơ của chính người viết đề án**:
 
+> [!quote]
 > *"Các nhà quản lý đôi khi **rất nhiệt tình** với ý tưởng viết đề xuất cho các dự án đầu tư cơ bản. Có lẽ
 > đó là bản tính của con người: tất cả chúng ta đều thích những điều mới mẻ, và thường thì việc **đánh bóng
 > các con số** để khoản đầu tư trông như thể hứa hẹn **khá dễ dàng**."* — hộp công cụ · PDF tr. 191
 
-💼 Cách đọc nó cho đúng: **người viết đề án và người phê duyệt có động cơ khác nhau**, và người viết là
-người chọn giả định. Đó là lý do sách bắt **ghi chú lại chỗ nào là ước tính** *(bước 2)* và **chạy phân tích
-độ nhạy** *(bước 6)* — hai việc duy nhất khiến giả định trở nên **kiểm được từ bên ngoài**.
+> [!example]
+> Cách đọc nó cho đúng: **người viết đề án và người phê duyệt có động cơ khác nhau**, và người viết là
+> người chọn giả định. Đó là lý do sách bắt **ghi chú lại chỗ nào là ước tính** *(bước 2)* và **chạy phân tích
+> độ nhạy** *(bước 6)* — hai việc duy nhất khiến giả định trở nên **kiểm được từ bên ngoài**.
 
 ---
 
@@ -697,7 +726,7 @@ chạy lại. Không có lời giải.
 - **Công ty Cổ phần Sữa Việt Nam (HOSE: VNM)** — Báo cáo tài chính hợp nhất đã kiểm toán 2024 theo
   IFRS, trong *Báo cáo thường niên Vinamilk 2024*, tr. 180–185.
   [Nguồn gốc](https://www.vinamilk.com.vn/bao-cao-thuong-nien/bao-cao/2024/doc/vi/bctc-ifrs.pdf),
-  truy xuất 08/09/2026. Dùng ở [mục 11](#11--cùng-một-dự-án-hai-doanh-nghiệp-hai-quyết-định-ngược-nhau).
+  truy xuất 08/09/2026. Dùng ở [mục 11](#11-cùng-một-dự-án-hai-doanh-nghiệp-hai-quyết-định-ngược-nhau).
 - **Đã kiểm chứng bằng code** — [`thuc_hanh/bai-10-tinh-ty-le-hoan-von-dau-tu.py`](../thuc_hanh/bai-10-tinh-ty-le-hoan-von-dau-tu.py):
   - giá trị tương lai 50.000 đô-la sau 30 năm ở 3% và 6% ra **121.363** và **287.175** — chốt bằng `assert`;
   - 106.000 / 1,06 = **100.000** đúng đến từng đồng — chốt bằng `assert`;

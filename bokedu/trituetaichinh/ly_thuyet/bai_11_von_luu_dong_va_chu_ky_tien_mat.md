@@ -1,18 +1,17 @@
 # Bài 11 — Vốn lưu động và chu kỳ tiền mặt
 
+> [!info] Về bài này
 > Bài học dựng từ **Phần VII — Ứng dụng trí tuệ tài chính vào thực tế quản lý vốn lưu động**: chương 26
 > *Phép ảo thuật quản lý bảng cân đối kế toán* (PDF tr. 193–196), chương 27 *Các đòn bẩy trên bảng cân đối
 > kế toán* (PDF tr. 197–202), chương 28 *Tập trung chuyển đổi tiền mặt* (PDF tr. 203–207), và hộp công cụ
 > (PDF tr. 207–208).
-> ⚠️ **Bản dịch in phần này là "PHẦN VI"**, trùng số với phần ROI. Bản gốc có 8 phần; đây là **phần VII**.
-> Xem [bài 9 mục 10](bai_09_ty_le_hieu_suat_va_dupont.md#10--chỗ-sách-in-sai-trong-chương-23).
-> 🎯⭐ **Vòng 1, dùng được ngay.** [Bài 9](bai_09_ty_le_hieu_suat_va_dupont.md) đo **ba tỷ lệ ngày riêng lẻ**.
+>
+> ⭐ **Vòng 1, dùng được ngay.** [Bài 9](bai_09_ty_le_hieu_suat_va_dupont.md) đo **ba tỷ lệ ngày riêng lẻ**.
 > Phần này cộng cả ba thành **một con số** — chu kỳ chuyển đổi tiền mặt — rồi đổi nó ra **tiền**.
-> 💼 **Góc quản trị** — ví dụ thêm cho người đi làm, **không có trong sách**.
-> 📚 **Mở rộng** — thứ sách nói lướt hoặc để trong hộp công cụ.
-> 🇻🇳 **Đối chiếu Việt Nam** — sách viết theo US GAAP, mục này nối sang thực tế Việt Nam.
-> ⚠️ — chỗ dễ hiểu sai, hoặc chỗ sách in sai.
-> 📌 **Cần đọc trước:** [Bài 4](bai_04_bang_can_doi_ke_toan.md) *(phải thu là tài sản, phải trả là nợ — mục
+>
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
+>
+> **Cần đọc trước:** [Bài 4](bai_04_bang_can_doi_ke_toan.md) *(phải thu là tài sản, phải trả là nợ — mục
 > 2 dưới đây phụ thuộc vào việc bạn nắm chắc điều này)* · [Bài 9](bai_09_ty_le_hieu_suat_va_dupont.md)
 > *(DSO, DII, DPO và cái bẫy mẫu số)*.
 > ⚙️ **Code:** [`thuc_hanh/bai-11-von-luu-dong-va-chu-ky-tien-mat.py`](../thuc_hanh/bai-11-von-luu-dong-va-chu-ky-tien-mat.py)
@@ -26,7 +25,7 @@
 <!-- MUC-LUC -->
 
 - [1. Vốn lưu động — "phép ảo thuật" và ba tài khoản bạn chạm được](#1-vốn-lưu-động--phép-ảo-thuật-và-ba-tài-khoản-bạn-chạm-được)
-- [2. ⚠️ Định nghĩa vốn lưu động — sách in ba câu, hai câu đảo ngược](#2--định-nghĩa-vốn-lưu-động--sách-in-ba-câu-hai-câu-đảo-ngược)
+- [2. Định nghĩa vốn lưu động — sách in ba câu, hai câu đảo ngược](#2-định-nghĩa-vốn-lưu-động--sách-in-ba-câu-hai-câu-đảo-ngược)
 - [3. Chu kỳ sản xuất — vốn lưu động đổi dạng, số lượng không đổi](#3-chu-kỳ-sản-xuất--vốn-lưu-động-đổi-dạng-số-lượng-không-đổi)
 - [4. Ba đòn bẩy — và chúng không bằng nhau](#4-ba-đòn-bẩy--và-chúng-không-bằng-nhau)
 - [5. "2/10 net 30" — giá thật của chiết khấu thanh toán sớm](#5-210-net-30--giá-thật-của-chiết-khấu-thanh-toán-sớm)
@@ -34,8 +33,8 @@
 - [7. DPO — nơi tài chính gặp triết lý, quy ra tiền](#7-dpo--nơi-tài-chính-gặp-triết-lý-quy-ra-tiền)
 - [8. Chu kỳ chuyển đổi tiền mặt — và ba con số "vốn lưu động" khác nhau](#8-chu-kỳ-chuyển-đổi-tiền-mặt--và-ba-con-số-vốn-lưu-động-khác-nhau)
 - [9. Công thức tắt của sách lệch ở đâu — và lệch đúng bao nhiêu](#9-công-thức-tắt-của-sách-lệch-ở-đâu--và-lệch-đúng-bao-nhiêu)
-- [10. 📚 Hộp công cụ — kỳ thu tiền, thứ DSO giấu đi](#10--hộp-công-cụ--kỳ-thu-tiền-thứ-dso-giấu-đi)
-- [11. 🇻🇳 Vinamilk — chỉ báo của sách báo động, và công thức tắt lệch ngược chiều](#11--vinamilk--chỉ-báo-của-sách-báo-động-và-công-thức-tắt-lệch-ngược-chiều)
+- [10. Hộp công cụ — kỳ thu tiền, thứ DSO giấu đi](#10-hộp-công-cụ--kỳ-thu-tiền-thứ-dso-giấu-đi)
+- [11. Vinamilk — chỉ báo của sách báo động, và công thức tắt lệch ngược chiều](#11-vinamilk--chỉ-báo-của-sách-báo-động-và-công-thức-tắt-lệch-ngược-chiều)
 - [12. Tự thử](#12-tự-thử)
 - [13. Từ điển thuật ngữ](#13-từ-điển-thuật-ngữ)
 - [14. Câu hỏi tự kiểm tra](#14-câu-hỏi-tự-kiểm-tra)
@@ -50,6 +49,7 @@
 
 Sách mở phần này bằng một lời hứa rất to, và nó đúng nghĩa đen:
 
+> [!quote]
 > *"Quản lý bảng cân đối kế toán một cách khôn ngoan cũng giống như thực hiện **một phép ảo thuật tài
 > chính**. Nó cho phép doanh nghiệp **cải thiện hiệu quả hoạt động, mà không cần thúc đẩy doanh thu hay cắt
 > giảm chi phí**."* — ch. 26 · PDF tr. 193
@@ -61,6 +61,7 @@ Sách mở phần này bằng một lời hứa rất to, và nó đúng nghĩa 
 ⭐ Và sách khoanh vùng **rất hẹp**: trong cả bảng cân đối, người ngoài tài chính chỉ chạm được vào **ba tài
 khoản**.
 
+> [!quote]
 > *"Ba tài khoản vốn lưu động mà các nhà quản lý **không làm về tài chính** thật sự tác động đến là **khoản
 > phải thu, hàng tồn kho**, và ở **mức độ hạn hẹp hơn** là các khoản phải trả."* — ch. 26 · PDF tr. 195
 
@@ -77,32 +78,37 @@ tuệ tài chính"* — vì nó là phần bảng cân đối mà người ngoà
 
 ---
 
-## 2. ⚠️ Định nghĩa vốn lưu động — sách in ba câu, hai câu đảo ngược
+## 2. Định nghĩa vốn lưu động — sách in ba câu, hai câu đảo ngược
 
 Trang 193–194 đưa **ba phát biểu** về cùng một khái niệm, cách nhau chưa tới một trang. Đọc liên tiếp
 thì chúng **mâu thuẫn nhau**.
 
 **① Định nghĩa bằng lời:**
 
+> [!quote]
 > *"Vốn lưu động là hạng mục nguồn lực, bao gồm tiền mặt, hàng tồn kho, và các khoản phải thu **trừ đi bất
 > kỳ thứ gì mà doanh nghiệp SỞ HỮU trong ngắn hạn**."* — ch. 26 · PDF tr. 193
 
-⚠️ **Sở hữu?** Trừ đi thứ mình *sở hữu* thì ra số âm. Phải là **NỢ** — những gì doanh nghiệp **nợ** trong
-ngắn hạn. **Một chữ, đảo ngược cả định nghĩa.**
+> [!warning] Sở hữu?
+> Trừ đi thứ mình *sở hữu* thì ra số âm. Phải là **NỢ** — những gì doanh nghiệp **nợ** trong
+> ngắn hạn. **Một chữ, đảo ngược cả định nghĩa.**
 
 **② Công thức, ngay dòng sau:**
 
+> [!quote]
 > *"Vốn lưu động = tài sản ngắn hạn – nợ ngắn hạn"*
 
 ✓ **Đúng.** Và chính câu này chứng minh câu ① sai.
 
 **③ Diễn giải công thức, ngay đoạn sau nữa:**
 
+> [!quote]
 > *"tài sản ngắn hạn bao gồm các khoản mục như tiền mặt, **các khoản phải trả** và hàng tồn kho. Nợ ngắn
 > hạn bao gồm **các khoản phải thu** và các nghĩa vụ ngắn hạn khác."* — ch. 26 · PDF tr. 194
 
-⚠️ **Đảo ngược hoàn toàn.** Phải thu là **tài sản** (khách nợ mình), phải trả là **nợ** (mình nợ nhà cung
-cấp). [Bài 4](bai_04_bang_can_doi_ke_toan.md) đã dùng cả một mục cho việc này.
+> [!warning] Đảo ngược hoàn toàn.
+> Phải thu là **tài sản** (khách nợ mình), phải trả là **nợ** (mình nợ nhà cung
+> cấp). [Bài 4](bai_04_bang_can_doi_ke_toan.md) đã dùng cả một mục cho việc này.
 
 **Kiểm bằng chính số liệu.** Đọc câu ③ theo đúng chữ *(một cách đọc minh hoạ — bỏ qua "các nghĩa vụ ngắn
 hạn khác")*:
@@ -115,7 +121,7 @@ hạn khác")*:
 
 ⭐ Lệch **513 triệu — 33% vốn lưu động thật**. Không phải lỗi làm tròn. Đây là **lỗi khái niệm**: nó đẩy
 người đọc gọi **tên sai** cho hai dòng lớn nhất của bảng cân đối ngắn hạn — cùng một lớp với bảy chỗ ở
-Phần V ([bài 9 mục 10](bai_09_ty_le_hieu_suat_va_dupont.md#10--chỗ-sách-in-sai-trong-chương-23))
+Phần V ([bài 9 mục 10](bai_09_ty_le_hieu_suat_va_dupont.md#10-chỗ-sách-in-sai-trong-chương-23))
 *(chốt bằng `assert`)*.
 
 ⭐ **Ba câu, ba trạng thái:** ① sai **một chữ** · ② **đúng** · ③ sai **hai dòng**. Câu đúng nằm **ở giữa**
@@ -132,6 +138,7 @@ hai câu sai — nên người đọc cẩn thận vẫn tìm được đường
          └──────────  khoản phải thu  ←──────  bán hàng  ───────┘
 ```
 
+> [!quote]
 > *"Xuyên suốt chu kỳ này, vốn lưu động **liên tục thay đổi dạng thức. Nhưng số lượng vẫn giữ nguyên** cho
 > đến khi hệ thống có thêm tiền mặt — từ, chẳng hạn như, vay nợ hoặc đầu tư vốn chủ sở hữu."*
 > — ch. 26 · PDF tr. 194
@@ -140,13 +147,15 @@ hai câu sai — nên người đọc cẩn thận vẫn tìm được đường
 tạo ra vốn lưu động bằng cách chạy vòng nhanh hơn.** Chạy nhanh hơn làm giảm **số vốn lưu động cần thiết** —
 đó là chuyện khác hẳn, và là toàn bộ nội dung [mục 8](#8-chu-kỳ-chuyển-đổi-tiền-mặt--và-ba-con-số-vốn-lưu-động-khác-nhau).
 
-📚 **Chu kỳ dịch vụ đơn giản hơn nhưng cùng hình dạng.** Sách lấy chính công ty của tác giả — Viện Business
-Literacy: *"Chu kỳ hoạt động là toàn bộ thời gian từ khâu phát triển tài liệu đào tạo ban đầu, đến hoàn tất
-các khoá đào tạo, và cuối cùng là thu hoá đơn."* Kết luận: *"cách tốt nhất để làm ra tiền trong ngành dịch
-vụ là **cung cấp dịch vụ nhanh chóng, và sau đó thu công nợ nhanh hết sức có thể**."*
+> [!note] Chu kỳ dịch vụ đơn giản hơn nhưng cùng hình dạng.
+> Sách lấy chính công ty của tác giả — Viện Business
+> Literacy: *"Chu kỳ hoạt động là toàn bộ thời gian từ khâu phát triển tài liệu đào tạo ban đầu, đến hoàn tất
+> các khoá đào tạo, và cuối cùng là thu hoá đơn."* Kết luận: *"cách tốt nhất để làm ra tiền trong ngành dịch
+> vụ là **cung cấp dịch vụ nhanh chóng, và sau đó thu công nợ nhanh hết sức có thể**."*
 
 ⭐ Và sách hạ thêm một câu rào mà cả Phần I đến V **không** hạ được:
 
+> [!quote]
 > *"Trước khi bắt đầu, chúng ta rất nên đặt lại câu hỏi **có bao nhiêu "nghệ thuật"** tham gia vào những
 > phép tính này. Trong trường hợp này, câu trả lời hay nhất có lẽ là **"một chút"**. Tiền mặt là **một số
 > cứng**, nó không dễ điều khiển. Các khoản phải thu và khoản phải trả cũng **tương đối cứng**. Hàng tồn kho
@@ -186,14 +195,16 @@ $$\frac{\text{doanh thu}}{\text{COGS}} = \frac{8.689}{6.756} = \frac{1}{1 - \tex
 
 *(chốt bằng `assert`)*
 
-💼 **Hệ quả dùng được ngay:** nếu phải chọn **một** chiến dịch và ba đòn bẩy khó ngang nhau, thì **đòn DSO
-trước**. Và **biên lợi nhuận gộp càng cao thì khoảng cách càng giãn ra** — ở một doanh nghiệp biên gộp 50%,
-một ngày DSO bằng **hai** ngày tồn kho.
+> [!example] Hệ quả dùng được ngay:
+> nếu phải chọn **một** chiến dịch và ba đòn bẩy khó ngang nhau, thì **đòn DSO
+> trước**. Và **biên lợi nhuận gộp càng cao thì khoảng cách càng giãn ra** — ở một doanh nghiệp biên gộp 50%,
+> một ngày DSO bằng **hai** ngày tồn kho.
 
 ---
 
 ## 5. "2/10 net 30" — giá thật của chiết khấu thanh toán sớm
 
+> [!quote]
 > *"Chẳng hạn, **'2/10 net 30'** có nghĩa là khách hàng sẽ được **chiết khấu 2%** nếu thanh toán hoá đơn
 > trong vòng **10 ngày** và sẽ không được hưởng chiết khấu nếu họ đợi đúng **30 ngày**… Đôi khi khoản chiết
 > khấu 1–2% có thể giúp một doanh nghiệp **đang chống đỡ với khó khăn** thu được các khoản phải thu và do
@@ -211,15 +222,17 @@ một ngày DSO bằng **hai** ngày tồn kho.
 ⭐ **"2/10 net 30" = cho khách vay tiền với lãi suất 36,7%/năm** *(tính đơn)*. Khoản 2% ấy **không phải một
 khoản giảm giá — nó là một khoản vay**, và là khoản vay **đắt nhất** trong bảng cân đối.
 
-⚠️ So với **lãi suất vay thật** của chính công ty mẫu — 191/1.714 = **11,1%/năm**
-([bài 8 mục 7](bai_08_ty_le_loi_nhuan_don_bay_thanh_toan.md#7-hai-tỷ-lệ-đòn-bẩy-và-giá-của-việc-làm-đẹp-chúng)):
-chiết khấu 2/10 **đắt gấp 3,3 lần** đi vay ngân hàng *(chốt bằng `assert`)*.
+> [!warning]
+> So với **lãi suất vay thật** của chính công ty mẫu — 191/1.714 = **11,1%/năm**
+> ([bài 8 mục 7](bai_08_ty_le_loi_nhuan_don_bay_thanh_toan.md#7-hai-tỷ-lệ-đòn-bẩy-và-giá-của-việc-làm-đẹp-chúng)):
+> chiết khấu 2/10 **đắt gấp 3,3 lần** đi vay ngân hàng *(chốt bằng `assert`)*.
 
 Muốn rút ngắn DSO 20 ngày thì **vay rồi trả lãi rẻ hơn nhiều**. Chiết khấu chỉ đáng đồng tiền khi **ngân
 hàng không cho vay** — tức là đúng lúc doanh nghiệp *"đang chống đỡ với khó khăn"*, y như sách mô tả.
 
-💼 Đọc theo kiểu khác: 2% doanh thu trên biên lợi nhuận gộp 22,2% là **9,0% lợi nhuận gộp** biến mất. Đó mới
-là nghĩa đen của *"ăn vào lợi nhuận của mình"*.
+> [!example]
+> Đọc theo kiểu khác: 2% doanh thu trên biên lợi nhuận gộp 22,2% là **9,0% lợi nhuận gộp** biến mất. Đó mới
+> là nghĩa đen của *"ăn vào lợi nhuận của mình"*.
 
 ---
 
@@ -237,6 +250,7 @@ nào.
 
 ⭐ Câu nặng nhất của chương 27 nhắm vào bộ phận sản xuất:
 
+> [!quote]
 > *"Khi hoạt động kinh doanh lắng xuống, họ **vẫn tiếp tục sản xuất hàng loạt** để duy trì hiệu quả nhà
 > máy… Họ được **đào luyện** làm vậy, được **yêu cầu** làm vậy, và được **trả lương (cộng thêm thưởng)** để
 > đạt được như vậy… **Đến chỗ làm và đọc một cuốn sách xem chừng còn hữu ích hơn** là tạo ra một sản phẩm
@@ -246,43 +260,50 @@ nào.
 đã chỉ ra ở tốc độ thay thế PPE: **một tỷ lệ có tiền thưởng gắn vào thì nó sẽ được tối ưu**, kể cả khi làm
 hỏng thứ khác.
 
-### ⚠️ Tyco — chỗ sách ước lượng thấp hơn thực tế
+### Tyco — chỗ sách ước lượng thấp hơn thực tế
 
+> [!quote]
 > *"ngày tồn kho bắt đầu theo vòng xoắn ốc vượt ra khỏi tầm kiểm soát, khiến thời gian ở **một số khu vực**
 > tăng **hơn 10 ngày**. Với một công ty đa quốc gia có doanh thu **hơn 30 tỷ đô-la**, quy mô tăng như vậy
 > có thể **vắt kiệt hàng triệu đô-la** tiền mặt!"* — ch. 28 · PDF tr. 207
 
 Đo thử, **giả định tỷ lệ giá vốn bằng công ty mẫu (77,8%)** — *giả định của bài học, sách không cho số*:
 
+> [!note]
 > COGS ≈ 23,3 tỷ → một ngày = **64,8 triệu** đô-la
 > 10 ngày tồn kho = **648 triệu** đô-la
 
 ⭐ **648 triệu — gần hai phần ba tỷ đô-la, không phải "hàng triệu".** Sách dùng đúng đơn vị nhưng nhỏ hơn
 thực tế **hai bậc độ lớn**.
 
-⚠️ **Công bằng với sách:** sách viết *"ở **một số khu vực**"*, không phải toàn tập đoàn. Nếu chỉ **10%**
-doanh thu bị ảnh hưởng thì con số về **65 triệu** — đúng là *"hàng chục triệu"*. Con số 648 là **cận trên**,
-nếu nó lan ra cả tập đoàn.
+> [!warning] Công bằng với sách:
+> sách viết *"ở **một số khu vực**"*, không phải toàn tập đoàn. Nếu chỉ **10%**
+> doanh thu bị ảnh hưởng thì con số về **65 triệu** — đúng là *"hàng chục triệu"*. Con số 648 là **cận trên**,
+> nếu nó lan ra cả tập đoàn.
 
 ---
 
 ## 7. DPO — nơi tài chính gặp triết lý, quy ra tiền
 
+> [!quote]
 > *"Khoản phải trả là **một con số rất khó dàn xếp ổn thoả**. Đó là nơi mà **tài chính gặp gỡ triết lý**."*
 > — ch. 28 · PDF tr. 203
 
-### ⚠️ Và ngay câu tiếp theo sách in sai
+### Và ngay câu tiếp theo sách in sai
 
+> [!quote]
 > sách in: *"Chỉ cân nhắc tài chính không thôi sẽ khuyến khích nhà quản lý đẩy **kỳ thu tiền bình quân
 > (DSO)** lên mức cao nhất có thể, từ đó bảo tồn được tiền mặt của doanh nghiệp."*
 
-⚠️ Phải là **DPO**. Đẩy DSO lên cao là **giữ tiền ở chỗ khách hàng** — ngược hẳn. Và **chính câu ngay sau
-đó** dùng đúng DPO: *"việc tăng DPO lên một ngày giúp tăng số dư tiền mặt… khoảng 19 triệu đô-la"*.
+> [!warning]
+> Phải là **DPO**. Đẩy DSO lên cao là **giữ tiền ở chỗ khách hàng** — ngược hẳn. Và **chính câu ngay sau
+> đó** dùng đúng DPO: *"việc tăng DPO lên một ngày giúp tăng số dư tiền mặt… khoảng 19 triệu đô-la"*.
 
 ### Câu chuyện Setpoint, và giá của một nguyên tắc
 
 Hai kỹ sư sáng lập Setpoint từng làm ở một nơi trả chậm **hơn 100 ngày**:
 
+> [!quote]
 > *"khi họ gửi bản thiết kế đi chế tạo, **không ai làm chi tiết cho họ**… Và các kỹ sư **phải trở thành
 > những kẻ đàm phán** chỉ để dự án của mình có thể chạy! Khi bắt đầu mở công ty riêng, **họ thề** sẽ không
 > bao giờ đẩy các kỹ sư của mình vào tình thế tương tự."* — ch. 28 · PDF tr. 203
@@ -301,17 +322,19 @@ lý này đặt các chướng ngại vật lên dòng lưu chuyển tiền"*. Q
 tắc, tính bằng tiền mặt**. Sách kể câu chuyện này như một điều đáng khen — và nó **đáng khen** — nhưng nó
 **không miễn phí**, và cuốn sách không đặt con số lên bàn.
 
-📚 **Sách cũng nêu ba lý do khác để không kéo DPO quá dài:** nhà cung cấp phiền lòng và **báo giá cao hơn**;
-**điểm số Dun & Bradstreet** xây một phần trên lịch sử thanh toán; và *"một tổ chức luôn thanh toán chậm có
-thể thấy mình sẽ **gặp khó khăn khi vay nợ** về sau"*.
+> [!note] Sách cũng nêu ba lý do khác để không kéo DPO quá dài:
+> nhà cung cấp phiền lòng và **báo giá cao hơn**;
+> **điểm số Dun & Bradstreet** xây một phần trên lịch sử thanh toán; và *"một tổ chức luôn thanh toán chậm có
+> thể thấy mình sẽ **gặp khó khăn khi vay nợ** về sau"*.
 
 ⭐ Và sách đưa một **chỉ báo ra quyết định** dùng được ngay:
 
+> [!quote]
 > *"nếu bạn để ý thấy DPO của công ty mình **đang tăng** — và cụ thể nếu nó **đang cao hơn DSO**, có thể
 > bạn cần đặt cho các chuyên gia tài chính của công ty **một vài câu hỏi**."* — ch. 28 · PDF tr. 204
 
 Công ty mẫu: DPO 54,5 so với DSO 54,4 — chênh **0,1 ngày**. Có, nhưng không đáng kể.
-[Mục 11](#11--vinamilk--chỉ-báo-của-sách-báo-động-và-công-thức-tắt-lệch-ngược-chiều) đem chính chỉ báo này
+[Mục 11](#11-vinamilk--chỉ-báo-của-sách-báo-động-và-công-thức-tắt-lệch-ngược-chiều) đem chính chỉ báo này
 áp lên Vinamilk, và nó **báo động**.
 
 ---
@@ -333,12 +356,14 @@ Công ty mẫu: DPO 54,5 so với DSO 54,4 — chênh **0,1 ngày**. Có, nhưng
 $$\text{Chu kỳ chuyển đổi tiền mặt} = \text{DSO} + \text{DII} - \text{DPO}
 = 54{,}4 + 74{,}2 - 54{,}5 = \mathbf{74{,}1}\ \text{ngày}$$
 
-⚠️ **Sách in *"54 ngày + 74 ngày – 55 ngày = 73 ngày"*** *(tr. 206)*. Ba số hạng đều bị làm tròn về số
-nguyên, và số 55 lấy từ **DPO** chứ không phải DSO. Dùng số của chính ch. 23: **74,1 ngày** *(chốt bằng `assert`)*.
+> [!warning] Sách in *"54 ngày + 74 ngày – 55 ngày = 73 ngày"
+> * *(tr. 206)*. Ba số hạng đều bị làm tròn về số
+> nguyên, và số 55 lấy từ **DPO** chứ không phải DSO. Dùng số của chính ch. 23: **74,1 ngày** *(chốt bằng `assert`)*.
 
-⚠️ **Và một chỗ nữa ngay dưới công thức:** *"hãy lấy thời gian thu tiền bình quân, cộng thời gian lưu kho,
-**trừ đi thời gian có thể thu tiền**"*. Vế cuối là **DPO** — thời gian được phép **TRẢ** tiền, không phải
-thu tiền. Lại một lần DSO/DPO bị lẫn.
+> [!warning] Và một chỗ nữa ngay dưới công thức:
+> *"hãy lấy thời gian thu tiền bình quân, cộng thời gian lưu kho,
+> **trừ đi thời gian có thể thu tiền**"*. Vế cuối là **DPO** — thời gian được phép **TRẢ** tiền, không phải
+> thu tiền. Lại một lần DSO/DPO bị lẫn.
 
 Rồi sách đổi chu kỳ ra **tiền**: *"lấy tỷ lệ doanh thu theo ngày **nhân với** số ngày chuyển đổi tiền mặt"*.
 
@@ -395,19 +420,22 @@ Khớp đến từng chữ số *(chốt bằng `assert`)*.
 Ngoài hai trường hợp đó, công thức tắt **luôn lệch**. Và **dấu** của độ lệch là dấu của $(\text{DII} -
 \text{DPO})$: tồn kho lâu hơn nợ thì **đội lên**, ngắn hơn thì **đội xuống**.
 
-⚠️ Ở đây: DII 74,2 > DPO 54,5 → lệch **dương 106 triệu**, tức **6,3% đội lên**. Không lớn, và con số
-*"khoảng 1,8 tỷ"* của sách vẫn đúng về **độ lớn**. Nhưng **dấu lệch đổi chiều theo doanh nghiệp** —
-[mục 11](#11--vinamilk--chỉ-báo-của-sách-báo-động-và-công-thức-tắt-lệch-ngược-chiều) cho một trường hợp lệch
-**âm** và lệch **rất lớn**.
+> [!warning]
+> Ở đây: DII 74,2 > DPO 54,5 → lệch **dương 106 triệu**, tức **6,3% đội lên**. Không lớn, và con số
+> *"khoảng 1,8 tỷ"* của sách vẫn đúng về **độ lớn**. Nhưng **dấu lệch đổi chiều theo doanh nghiệp** —
+> [mục 11](#11-vinamilk--chỉ-báo-của-sách-báo-động-và-công-thức-tắt-lệch-ngược-chiều) cho một trường hợp lệch
+> **âm** và lệch **rất lớn**.
 
-💼 **Cách dùng cho đúng:** công thức *chu kỳ × doanh thu/ngày* là **một công cụ ước lượng nhanh** để trả lời
-*"có bao nhiêu tiền đang bị giam trong vòng quay"*. Muốn con số **đúng** thì đọc thẳng từ bảng cân đối:
-**phải thu + tồn kho − phải trả**.
+> [!example] Cách dùng cho đúng:
+> công thức *chu kỳ × doanh thu/ngày* là **một công cụ ước lượng nhanh** để trả lời
+> *"có bao nhiêu tiền đang bị giam trong vòng quay"*. Muốn con số **đúng** thì đọc thẳng từ bảng cân đối:
+> **phải thu + tồn kho − phải trả**.
 
 ---
 
-## 10. 📚 Hộp công cụ — kỳ thu tiền, thứ DSO giấu đi
+## 10. Hộp công cụ — kỳ thu tiền, thứ DSO giấu đi
 
+> [!quote]
 > *"**DSO không phải là thước đo duy nhất** cần dõi theo… theo định nghĩa, DSO là **con số bình quân**."*
 > — hộp công cụ · PDF tr. 207
 
@@ -424,6 +452,7 @@ Sách dùng một ví dụ hai công ty. Dựng lại bằng số:
 ⭐ **Cùng một DSO 50 ngày.** Nhưng công ty A có **50%** công nợ quá 90 ngày, công ty B chỉ **12,5%**
 *(chốt bằng `assert`)*.
 
+> [!quote]
 > *"Con số này **có vẻ không tệ**, nhưng thực tế là công ty bạn có thể **đang gặp rắc rối lớn**, bởi vì
 > **một nửa khách hàng** dường như không thanh toán đúng hẹn."* — hộp công cụ · PDF tr. 207–208
 
@@ -432,12 +461,13 @@ tổng khoản phải thu **từ 30 đến 60 ngày**, v.v…"*. **Một tỷ l�
 phân bố.** [Bài 9 mục 4](bai_09_ty_le_hieu_suat_va_dupont.md#4-dso-dpo--và-một-quy-ước-không-nhất-quán-ngay-trong-một-chương)
 đã nêu đúng cảnh báo này từ phía ch. 23; đây là chỗ sách đưa ra **công cụ để vá**.
 
-💼 **Con số đáng theo dõi hằng tháng, và nó không có trong sách: tỷ lệ phải thu quá 90 ngày.** Nó bắt được
-cái mà DSO làm nhoè đi, và là thứ **đầu tiên** một ngân hàng hỏi khi thẩm định khoản vay vốn lưu động.
+> [!example] Con số đáng theo dõi hằng tháng, và nó không có trong sách: tỷ lệ phải thu quá 90 ngày.
+> Nó bắt được
+> cái mà DSO làm nhoè đi, và là thứ **đầu tiên** một ngân hàng hỏi khi thẩm định khoản vay vốn lưu động.
 
 ---
 
-## 11. 🇻🇳 Vinamilk — chỉ báo của sách báo động, và công thức tắt lệch ngược chiều
+## 11. Vinamilk — chỉ báo của sách báo động, và công thức tắt lệch ngược chiều
 
 | | Công ty mẫu (Mỹ, 2005) | Vinamilk (VN, 2024) |
 | --- | ---: | ---: |
@@ -449,8 +479,9 @@ cái mà DSO làm nhoè đi, và là thứ **đầu tiên** một ngân hàng h�
 ⭐ **74,1 ngày so với 21,8 ngày — ngắn hơn 52 ngày.** Vinamilk chỉ giam tiền trong vòng quay bằng **29%** so
 với công ty mẫu — chưa tới một phần ba.
 
-### ⚠️ Chỉ báo của sách báo động ở Vinamilk
+### Chỉ báo của sách báo động ở Vinamilk
 
+> [!quote]
 > *"nếu bạn để ý thấy DPO của công ty mình đang tăng — và cụ thể **nếu nó đang cao hơn DSO**, có thể bạn cần
 > đặt… một vài câu hỏi."*
 
@@ -459,8 +490,9 @@ với công ty mẫu — chưa tới một phần ba.
 | Công ty mẫu | 54,5 | 54,4 | 0,1 ngày |
 | **Vinamilk** | **78,2** | **43,7** | **34,5 NGÀY** |
 
-⚠️ **Nhưng đọc cho đúng.** Sách viết chỉ báo này cho một doanh nghiệp **đang gặp khó** — DPO tăng là triệu
-chứng thiếu tiền. Ở Vinamilk thì ngược lại:
+> [!warning] Nhưng đọc cho đúng.
+> Sách viết chỉ báo này cho một doanh nghiệp **đang gặp khó** — DPO tăng là triệu
+> chứng thiếu tiền. Ở Vinamilk thì ngược lại:
 
 - hệ số thanh toán lãi vay **30 lần** ([bài 8](bai_08_ty_le_loi_nhuan_don_bay_thanh_toan.md)) — không hề
   thiếu tiền;
@@ -705,7 +737,7 @@ rồi chạy lại. Không có lời giải.
 - **Công ty Cổ phần Sữa Việt Nam (HOSE: VNM)** — Báo cáo tài chính hợp nhất đã kiểm toán 2024 theo
   IFRS, trong *Báo cáo thường niên Vinamilk 2024*, tr. 180–185.
   [Nguồn gốc](https://www.vinamilk.com.vn/bao-cao-thuong-nien/bao-cao/2024/doc/vi/bctc-ifrs.pdf),
-  truy xuất 08/09/2026. Dùng ở [mục 11](#11--vinamilk--chỉ-báo-của-sách-báo-động-và-công-thức-tắt-lệch-ngược-chiều).
+  truy xuất 08/09/2026. Dùng ở [mục 11](#11-vinamilk--chỉ-báo-của-sách-báo-động-và-công-thức-tắt-lệch-ngược-chiều).
 - **Đã kiểm chứng bằng code** — [`thuc_hanh/bai-11-von-luu-dong-va-chu-ky-tien-mat.py`](../thuc_hanh/bai-11-von-luu-dong-va-chu-ky-tien-mat.py):
   - đọc định nghĩa vốn lưu động theo câu ③ cho **1.063** thay vì **1.576** — chốt bằng `assert`;
   - ba con số *"một ngày đáng giá"* của sách (24,1 / 18,8 / 18,8 triệu) đều khớp — chốt bằng `assert`;

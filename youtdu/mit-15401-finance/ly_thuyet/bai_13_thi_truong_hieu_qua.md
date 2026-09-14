@@ -1,12 +1,15 @@
 # Bài 13 — Thị trường hiệu quả, tài chính hành vi, và thị trường thích nghi
 
+> [!info] Về bài này
 > Bài học dựa trên **MIT 15.401 Finance Theory I** (GS. Andrew W. Lo, MIT Sloan, học kỳ thu 2008),
 > ba buổi: **Ses 18** từ `69:28` (YouTube `sMKQywwkIjQ`), **Ses 19** trọn vẹn (`a5PF2PcElV0`),
 > **Ses 20** trọn vẹn (`P03PfYgNjmw`).
 > Mốc thời gian ghi dạng `S18 mm:ss`, `S19 mm:ss`, `S20 mm:ss`.
 > Phần **📚 Lý thuyết bổ sung** là kiến thức nền video lướt qua hoặc không có.
-> ⚠️ **Video ghi tháng 12/2008** — §26 và §30 đối chiếu với 2026.
-> 📌 **Cần đọc trước:** [Bài 1](bai_01_tai_chinh_la_gi.md) (lời hứa sáu nguyên lý được trả ở §27),
+>
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
+>
+> **Cần đọc trước:** [Bài 1](bai_01_tai_chinh_la_gi.md) (lời hứa sáu nguyên lý được trả ở §27),
 > [Bài 11 — CAPM](bai_11_capm_va_beta.md) (§23 đo lại đường SML).
 
 ---
@@ -83,18 +86,21 @@ suy diễn.
 
 Lo mở đầu bằng việc thừa nhận ông đang làm ngược quy ước của cả ngành (`S18 69:46`):
 
+> [!quote]
 > *"Thông thường, thị trường hiệu quả là bài giảng được dạy ở **đầu** hầu hết các khoá tài chính
 > doanh nghiệp và tài chính nhập môn. Và lý do người ta dạy nó ở đầu là vì thật ra ta **cần** giả
 > thuyết thị trường hiệu quả để biện minh cho hầu hết những gì tôi đã dạy các bạn suốt 13 tuần qua."*
 
 Rồi ông giải thích chính xác cái gì đang treo lơ lửng (`S18 70:05`):
 
+> [!quote]
 > *"Suốt khoá này tôi cứ lặp đi lặp lại: khi ta cần một suất chiết khấu, khi ta cần một mức giá, khi
 > ta cần một giá trị — ta đi đâu? **Ra thị trường.** … Và đó là lý do ở đầu hầu hết các khoá tài
 > chính, ta thường dạy sinh viên **hãy tin vào thị trường**."*
 
 Và rồi câu định hình cả bài học này (`S18 70:41`):
 
+> [!quote]
 > *"Tôi đã **không** làm thế trong khoá này, vì tôi **không muốn các bạn tin vào thị trường**. Tôi
 > muốn các bạn học được từ kinh nghiệm rằng **khi nào nên tin thị trường, và khi nào thì không**."*
 
@@ -110,6 +116,7 @@ các bạn thấy các lỗ hổng nằm ở đâu."* Ba buổi này là phần 
 
 Và ông cảnh báo trước về bước 3, ngay cuối Ses 18 (`S18 72:04`, `S18 72:23`, `S18 72:38`):
 
+> [!quote]
 > *"Tôi có một lý thuyết, và nó **không được chấp nhận rộng rãi**. Nên tôi phải bắt đầu bằng lời từ
 > chối trách nhiệm đó. Đây là lý thuyết cưng của riêng tôi, nó không có trong sách giáo khoa nào cả
 > vì nó tương đối mới. Và nếu bạn tìm nó trên mạng, **tên tôi sẽ là cái tên duy nhất hiện ra.** Điều
@@ -139,26 +146,31 @@ Challenger Crash"*, đăng trên *Journal of Corporate Finance*.
 
 Câu Lo dùng để chốt (`S18 78:39`, `79:01`):
 
+> [!quote]
 > *"Chuyện này xảy ra trong **chưa đầy sáu tiếng**. Uỷ ban mất **sáu tháng** mới ra được cái vòng
 > chữ O và Morton Thiokol. Nếu bạn nhìn vào đồ thị này, bạn **không thấy** một vòng chữ O. Nhưng bạn
 > thấy **Morton Thiokol**. Rõ mồn một, như ngón tay cái bị sưng."*
 
+> [!quote]
 > *"Đây là trí tuệ đám đông. Đây là lý do khi bạn nhìn giá thị trường, bạn nên nhìn nó với một mức
 > độ **kinh ngạc và tôn trọng** nhất định. Bởi vì nó tổng hợp thông tin đến mức bạn không thể tin
 > nổi."*
 
-⚠️ **Một chỗ Lo nói lỏng.** Ông nói "sáu tháng" ba lần. Từ 28/1/1986 tới 9/6/1986 là **4 tháng 12
-ngày**. Con số đúng làm phép so sánh *bớt* kịch tính (4,5 tháng so với 6 tiếng thay vì 6 tháng so
-với 6 tiếng) nhưng vẫn là chênh lệch khoảng **550 lần**. Kết luận không đổi.
+> [!warning] Một chỗ Lo nói lỏng.
+> Ông nói "sáu tháng" ba lần. Từ 28/1/1986 tới 9/6/1986 là **4 tháng 12
+> ngày**. Con số đúng làm phép so sánh *bớt* kịch tính (4,5 tháng so với 6 tiếng thay vì 6 tháng so
+> với 6 tiếng) nhưng vẫn là chênh lệch khoảng **550 lần**. Kết luận không đổi.
 
-⚠️ Ở `S18 77:32` Lo đọc nhầm *"Martin Thiokol"*; đúng là **Morton Thiokol** — ông gọi đúng ở mọi
-chỗ khác. Ba nhà thầu còn lại là **Lockheed**, **Martin Marietta**, **Rockwell International**.
+> [!warning]
+> Ở `S18 77:32` Lo đọc nhầm *"Martin Thiokol"*; đúng là **Morton Thiokol** — ông gọi đúng ở mọi
+> chỗ khác. Ba nhà thầu còn lại là **Lockheed**, **Martin Marietta**, **Rockwell International**.
 
-📚 Lo nói *"nhà vật lý Richard Feynman ở trong hội đồng đó và viết một ý kiến bất đồng"*. Chính xác
-hơn: Feynman viết **Phụ lục F** của báo cáo Rogers, một phần riêng mang tên *"Personal Observations
-on the Reliability of the Shuttle"*, và đã doạ rút tên khỏi báo cáo nếu phụ lục ấy không được in.
-Đây là nơi có câu nổi tiếng: *"Với một công nghệ thành công, thực tại phải được ưu tiên hơn quan hệ
-công chúng, vì Tự Nhiên không thể bị lừa."*
+> [!note]
+> Lo nói *"nhà vật lý Richard Feynman ở trong hội đồng đó và viết một ý kiến bất đồng"*. Chính xác
+> hơn: Feynman viết **Phụ lục F** của báo cáo Rogers, một phần riêng mang tên *"Personal Observations
+> on the Reliability of the Shuttle"*, và đã doạ rút tên khỏi báo cáo nếu phụ lục ấy không được in.
+> Đây là nơi có câu nổi tiếng: *"Với một công nghệ thành công, thực tại phải được ưu tiên hơn quan hệ
+> công chúng, vì Tự Nhiên không thể bị lừa."*
 
 ---
 
@@ -187,9 +199,10 @@ một mẩu — ai đó ở Utah có họ hàng làm cho Thiokol, ai đó nhớ 
 trước, ai đó là kỹ sư biết vòng đệm cao su giòn khi lạnh — và một cơ chế gộp các mẩu đó lại thành
 **một con số**. Cơ chế đó tên là *giá*.
 
-📚 Đó cũng là lý do lập luận này mạnh hơn mọi kiểm định thống kê về hiệu quả thị trường: nó là một
-**thí nghiệm tự nhiên** có đáp án được công bố độc lập sau đó bởi một cơ quan không giao dịch chứng
-khoán.
+> [!note]
+> Đó cũng là lý do lập luận này mạnh hơn mọi kiểm định thống kê về hiệu quả thị trường: nó là một
+> **thí nghiệm tự nhiên** có đáp án được công bố độc lập sau đó bởi một cơ quan không giao dịch chứng
+> khoán.
 
 ---
 
@@ -239,14 +252,16 @@ tin đã nằm trọn trong giá từ hai phiên trước.
 Đó chính xác là cấu trúc Challenger: một cơ quan chính thức công bố kết luận **sau** khi giá đã kết
 luận, và giá không nhúc nhích vào ngày công bố.
 
-⚠️ **Khác biệt phải nói rõ.** Ở Challenger, thủ phạm **không hiển nhiên** — bốn nhà thầu ngang nhau,
-thị trường phải *chọn*. Ở 737 MAX, ai cũng biết Boeing làm ra chiếc máy bay. Cái đáng giá ở đây
-không phải "chọn đúng ai" mà là **"chọn đúng lúc"**. Bài kiểm tra dễ hơn Challenger một bậc.
+> [!warning] Khác biệt phải nói rõ.
+> Ở Challenger, thủ phạm **không hiển nhiên** — bốn nhà thầu ngang nhau,
+> thị trường phải *chọn*. Ở 737 MAX, ai cũng biết Boeing làm ra chiếc máy bay. Cái đáng giá ở đây
+> không phải "chọn đúng ai" mà là **"chọn đúng lúc"**. Bài kiểm tra dễ hơn Challenger một bậc.
 
-📚 Đối chiếu với tai nạn Lion Air JT610 ngày 29/10/2018 — chiếc MAX **đầu tiên** rơi: Boeing cũng
-giảm, AR = −5,89%, nhưng Southwest cũng −2,85% và Hexcel −1,84%. Thị trường hôm đó **rải đều** hơn.
-Một vụ rơi là tai nạn; hai vụ rơi cùng kiểu là **lỗi thiết kế** — và thị trường phản ứng đúng theo
-sự khác biệt đó.
+> [!note]
+> Đối chiếu với tai nạn Lion Air JT610 ngày 29/10/2018 — chiếc MAX **đầu tiên** rơi: Boeing cũng
+> giảm, AR = −5,89%, nhưng Southwest cũng −2,85% và Hexcel −1,84%. Thị trường hôm đó **rải đều** hơn.
+> Một vụ rơi là tai nạn; hai vụ rơi cùng kiểu là **lỗi thiết kế** — và thị trường phản ứng đúng theo
+> sự khác biệt đó.
 
 ---
 
@@ -254,6 +269,7 @@ sự khác biệt đó.
 
 Lo tóm tắt giả thuyết bằng một câu (`S18 73:26`):
 
+> [!quote]
 > *"Hiệu quả thị trường nói rằng không có bữa trưa miễn phí, không có chênh lệch giá, bạn không được
 > cái gì mà không mất gì, **giá phản ánh đầy đủ mọi thông tin sẵn có**, và không có cách nào kiếm
 > tiền trên thị trường. **Quản lý chủ động không tạo ra giá trị nào cả.**"*
@@ -262,6 +278,7 @@ Rồi ông đùa (`S18 73:44`): *"Nếu bạn thật sự tin điều này, bạ
 
 Và ở đầu Ses 19, chuyện cười kinh điển (`S19 03:09`):
 
+> [!quote] S19 03:24
 > *"Hai nhà kinh tế đi trên phố. Một người thấy tờ 100 đô la nằm dưới đất và cúi xuống nhặt. Người
 > kia nói: 'Ôi, đừng nhặt làm gì.' — 'Sao lại không?' — 'Nếu đó là tờ 100 đô **thật**, thì đã có
 > người nhặt rồi. Nên nó phải là **tiền giả**.'"*
@@ -290,9 +307,10 @@ trước cả kết luận của uỷ ban điều tra.
 
 §22 sẽ kiểm định dạng **yếu** trên 100 năm dữ liệu, bằng đúng cách Lo dùng ở Ses 20.
 
-📚 Fama tự sửa lại cách gọi này năm 1991 (*"Efficient Capital Markets: II"*) thành **kiểm định khả
-năng dự báo lợi suất**, **nghiên cứu sự kiện**, và **kiểm định thông tin riêng**. §5 của bài này là
-một *nghiên cứu sự kiện* theo đúng nghĩa Fama dùng.
+> [!note]
+> Fama tự sửa lại cách gọi này năm 1991 (*"Efficient Capital Markets: II"*) thành **kiểm định khả
+> năng dự báo lợi suất**, **nghiên cứu sự kiện**, và **kiểm định thông tin riêng**. §5 của bài này là
+> một *nghiên cứu sự kiện* theo đúng nghĩa Fama dùng.
 
 ---
 
@@ -300,6 +318,7 @@ một *nghiên cứu sự kiện* theo đúng nghĩa Fama dùng.
 
 Lo nêu vấn đề rồi hẹn lại (`S19 04:03`):
 
+> [!quote]
 > *"Nếu không ai kiếm được tiền, vậy ai là người ngoài kia đi thu thập thông tin để làm cho thị
 > trường trở nên hiệu quả? Trước hết, có một chút **nghịch lý kiểu Thiền** ở đây. Ta sẽ nói về
 > nghịch lý Thiền đó sau."*
@@ -333,20 +352,23 @@ và *dữ liệu*.
 
 Lo lật sang phía đối lập (`S19 06:07`):
 
+> [!quote]
 > *"Tài chính hành vi, đối trọng của hiệu quả thị trường, nói rằng người tham gia thị trường đơn giản
 > là **phi lý tính**. … Họ mắc đủ loại thiên lệch: **ác cảm mất mát, neo, đóng khung, quá tự tin,
 > phản ứng thái quá, bầy đàn, kế toán tinh thần**…"*
 
 Và ông tổng kết bằng một câu độc (`S19 06:47`):
 
+> [!quote]
 > *"Khi bạn nhìn xuống danh sách này và coi trọng những gì các nhà tâm lý học nói với ta, bạn sẽ kết
 > luận rằng **con người là loài ngu nhất trên trái đất.**"*
 
 ### Ác cảm mất mát, đo bằng số
 
-⚠️ Lo dẫn lại ví dụ này từ *"bài nói giới thiệu"* của ông (`S19 07:17`) chứ **không đọc lại con số**
-trong buổi 19. Nên bài học này dùng số của bản gốc đã xuất bản: **Tversky & Kahneman (1981)**,
-*"The Framing of Decisions and the Psychology of Choice"*, *Science* 211, bài toán 3 và 4.
+> [!warning]
+> Lo dẫn lại ví dụ này từ *"bài nói giới thiệu"* của ông (`S19 07:17`) chứ **không đọc lại con số**
+> trong buổi 19. Nên bài học này dùng số của bản gốc đã xuất bản: **Tversky & Kahneman (1981)**,
+> *"The Framing of Decisions and the Psychology of Choice"*, *Science* 211, bài toán 3 và 4.
 
 Hai quyết định, đưa ra **cùng lúc**:
 
@@ -379,13 +401,15 @@ bằng bản gốc **nhân lên 1.000 lần**, tức ông dùng bản đã phón
 Một hàm hữu dụng đơn điệu **không thể** sinh ra cả hai. Đó là lý do Kahneman nhận **giải Nobel kinh
 tế năm 2002** — với tư cách một **nhà tâm lý học**. Lo nhấn mạnh điều đó (`S19 10:29`):
 
+> [!quote]
 > *"Điều thú vị là Kahneman **không phải nhà kinh tế học**, ông là nhà tâm lý học. Theo một nghĩa
 > nào đó, có lẽ giải Nobel kinh tế đang phát tín hiệu cho giới kinh tế học rằng họ nên coi trọng
 > những thứ kiểu này hơn."*
 
-⚠️ Lo nói Kahneman nhận giải *"vài năm trước"* — chính xác là **2002**, tức sáu năm trước buổi giảng.
-Amos Tversky mất **2/6/1996**, sáu năm trước khi giải được trao; giải Nobel không truy tặng. Lo nói
-đúng chi tiết này.
+> [!warning]
+> Lo nói Kahneman nhận giải *"vài năm trước"* — chính xác là **2002**, tức sáu năm trước buổi giảng.
+> Amos Tversky mất **2/6/1996**, sáu năm trước khi giải được trao; giải Nobel không truy tặng. Lo nói
+> đúng chi tiết này.
 
 📌 Cập nhật 2026: **Daniel Kahneman mất ngày 27/3/2024**, thọ 90 tuổi.
 
@@ -405,6 +429,7 @@ giá trị kỳ vọng là 5.000.
 
 **Bình B** (`S19 14:20`): giống hệt bình A về mọi mặt, **trừ một điều — Lo không nói tỉ lệ**.
 
+> [!quote]
 > *"Có thể là 50/50 đỏ đen, nhưng cũng có thể là 40/60, hoặc 70/30, hoặc 85/15, hoặc 100/0. Tôi hứa
 > với bạn là có **đúng 100 viên bi** và có **nhiều nhất hai màu**, đỏ và/hoặc đen. Ngoài ra tôi
 > không nói gì thêm."*
@@ -419,16 +444,19 @@ cùng một trò chơi, người ta trả **ít hơn** cho bình B.
 
 Lo giải thích bằng hồi quy vô hạn (`S19 21:32`):
 
+> [!quote]
 > *"Tôi biết người ta hơi thích màu đỏ hơn. Nhưng vấn đề là **bạn biết tôi biết**. Và hơn nữa, **tôi
 > biết bạn biết tôi biết**, và bạn biết tôi biết bạn biết tôi biết. Khi bạn đẩy nó về vô hạn, bạn
 > ra được cái gì? **50/50.**"*
 
-⚠️ Lập luận này **không chặt**. Hồi quy vô hạn về niềm tin không hội tụ về một con số theo cách đó;
-nó đòi hỏi giả định về cấu trúc niềm tin chung mà Lo không nêu.
+> [!warning]
+> Lập luận này **không chặt**. Hồi quy vô hạn về niềm tin không hội tụ về một con số theo cách đó;
+> nó đòi hỏi giả định về cấu trúc niềm tin chung mà Lo không nêu.
 
 **Lời giải đúng đến từ một sinh viên** trong lớp, tên Brian (`S19 23:12`), khi Lo hỏi có cơ chế
 nào làm ông không thể chọn phân phối bất lợi:
 
+> [!quote]
 > AUDIENCE: *"Nếu bạn chỉ cần **tung một đồng xu** để quyết định chọn màu nào?"*
 >
 > ANDREW LO: *"Chính xác. Nếu Brian tung **đồng xu của cậu ấy**, chứ không phải đồng xu của tôi —
@@ -452,6 +480,7 @@ may mắn, mà nhờ toán học. Đây là một kết quả **minimax** cổ �
 **Kết luận phản trực giác:** *thêm* sự ngẫu nhiên (đồng xu của **chính bạn**) làm trò chơi **công
 bằng hơn**. Lo diễn đạt điều đó rồi kể tiếp phần đắt nhất (`S19 23:31`):
 
+> [!quote]
 > *"Ấy thế mà khi bạn nói với người ta điều đó, họ bảo: nghe hay đấy, **nhưng tôi vẫn không muốn
 > chơi**. Vì tôi không muốn dính vào cái bất định ấy. Và **cái đó là bẩm sinh**. Con người chúng ta
 > né tránh cái mình không biết."*
@@ -460,6 +489,7 @@ bằng hơn**. Lo diễn đạt điều đó rồi kể tiếp phần đắt nh�
 
 (`S19 24:11`)
 
+> [!quote]
 > *"Bây giờ lấy ví dụ này áp vào một công ty đang có **tài sản độc hại** trên bảng cân đối, mà bạn
 > **không biết giá trị thị trường là bao nhiêu**, vì **không có thị trường**, vì nó không giao dịch.
 > Vì bạn không biết định giá thứ chứng khoán đó thế nào, do nó chứa quá nhiều mảnh mà bạn không hình
@@ -473,11 +503,12 @@ bằng hơn**. Lo diễn đạt điều đó rồi kể tiếp phần đắt nh�
 tại sao thị trường chứng khoán hoá đóng băng năm 2008 — không phải vì rủi ro quá cao, mà vì **không
 ai biết rủi ro là bao nhiêu**.
 
-⚠️ **Lo gọi Ellsberg là "nhà tâm lý học"** (`S19 32:52`). Sai. **Daniel Ellsberg** có bằng cử nhân và
-tiến sĩ **kinh tế học** ở Harvard, làm nhà phân tích ở RAND Corporation, và bài báo gốc là
-*"Risk, Ambiguity, and the Savage Axioms"*, *Quarterly Journal of Economics* (1961) — một tạp chí
-kinh tế học. Ông nổi tiếng với thế giới rộng hơn vì **rò rỉ Hồ sơ Lầu Năm Góc năm 1971**. Ellsberg
-mất ngày **16/6/2023**.
+> [!warning] Lo gọi Ellsberg là "nhà tâm lý học"
+> (`S19 32:52`). Sai. **Daniel Ellsberg** có bằng cử nhân và
+> tiến sĩ **kinh tế học** ở Harvard, làm nhà phân tích ở RAND Corporation, và bài báo gốc là
+> *"Risk, Ambiguity, and the Savage Axioms"*, *Quarterly Journal of Economics* (1961) — một tạp chí
+> kinh tế học. Ông nổi tiếng với thế giới rộng hơn vì **rò rỉ Hồ sơ Lầu Năm Góc năm 1971**. Ellsberg
+> mất ngày **16/6/2023**.
 
 ---
 
@@ -489,6 +520,7 @@ quan trọng nhất của Ses 19.
 **Frank Knight**, *Risk, Uncertainty, and Profit* (1921), muốn giải thích vì sao một số người giàu
 đến mức phi lý. Lo dựng câu hỏi (`S19 26:42`):
 
+> [!quote]
 > *"Bill Gates có nên đáng giá 40 hay 50 tỉ đô la không? Điều đó có hợp lý không? Ông ấy có thật sự
 > **có giá trị hơn** bất kỳ ai trong chúng ta đến mức ấy không?"*
 
@@ -502,18 +534,21 @@ Câu trả lời của Knight, theo cách Lo trình bày:
 
 Lo dựng lập luận qua ngành bảo hiểm nhân thọ (`S19 27:43`):
 
+> [!quote]
 > *"Nếu bạn kể tôi nghe **15 sự kiện** về đời bạn, với 15 sự kiện đó tôi có thể xác định tuổi thọ kỳ
 > vọng của bạn **trong khoảng cộng trừ 5 năm**, với độ chính xác cực cao. Và với tôi, đó là **nhiều
 > thông tin hơn tôi cần**. Tôi không cần biết khi nào tôi sẽ chết."*
 
 Rồi ông hỏi lớp một câu không liên quan gì tới tài chính (`S19 28:27`):
 
+> [!quote]
 > *"Là nhà kinh tế học, ta luôn nói: càng nhiều thông tin càng tốt. Bạn có **thật sự tin** điều
 > đó không? Bạn có **muốn biết** khi nào mình sẽ chết không? Nếu tôi có thông tin đó, bạn có muốn
 > tôi nói cho bạn không? Ngày giờ cụ thể? Bạn có muốn biết không?"*
 
 Từ đó tới kết luận (`S19 29:11`, `S19 30:12`):
 
+> [!quote]
 > *"Ngành bảo hiểm nhân thọ hiện không phải ngành tăng trưởng. … Vì không còn nhiều lợi nhuận, do
 > người ta đã hiểu khá rõ cách dự báo tỉ lệ tử vong."*
 >
@@ -526,32 +561,37 @@ Từ đó tới kết luận (`S19 29:11`, `S19 30:12`):
 
 Một sinh viên tên Ike đặt câu hỏi hay nhất buổi (`S19 31:08`):
 
+> [!quote]
 > AUDIENCE: *"Còn **sự im lặng của nghĩa địa** thì sao? Rằng Bill Gates được bù trừ bởi hàng nghìn
 > doanh nhân đã thất bại và không còn gì?"*
 
 Lo trả lời rằng đó chính là **hệ quả** của lập luận, không phải phản bác (`S19 31:25`):
 
+> [!quote]
 > *"Vì sao lại có sự chênh lệch khủng khiếp đến thế với **một số loại** ngẫu nhiên, trong khi với các
 > loại ngẫu nhiên khác thì bạn có một đường chuông đẹp đẽ? … Cứ một Bill Gates thì có vài triệu
 > doanh nhân thất bại — là vì người ta đang nhận lấy loại ngẫu nhiên mà **không ai biết định lượng.**"*
 
 Và ông nói thẳng cái giá (`S19 31:53`, `S19 32:12`):
 
+> [!quote]
 > *"Trong lớp này, tôi cá rằng **ít nhất một người sẽ là tỉ phú trong 15 năm nữa**. Và tôi rất muốn
 > làm quen thật thân với bạn từ giờ tới lúc đó."*
 >
 > *"Nhưng mặt trái, mà tất cả các bạn nên biết: với **số doanh nhân còn lại** không kiếm được một tỉ
 > đô, bạn sẽ **không kiếm được gì cả. Số không. Bạn mất tất cả.**"*
 
-📚 **Vì sao mục này quan trọng cho cả khoá.** Bài 9–11 dựng toàn bộ bộ máy đo rủi ro bằng phương sai
-và beta. Bộ máy đó chỉ chạy được trên **rủi ro Knight** — thứ có phân phối. Với **bất định Knight**,
-phương sai không tồn tại vì phân phối không tồn tại. Nghĩa là: CAPM không sai, nó chỉ **không áp
-được** cho loại quyết định sinh ra Bill Gates. Đó là lỗ hổng đầu tiên trong bộ khung mà Lo hứa chỉ ra.
+> [!note] Vì sao mục này quan trọng cho cả khoá.
+> Bài 9–11 dựng toàn bộ bộ máy đo rủi ro bằng phương sai
+> và beta. Bộ máy đó chỉ chạy được trên **rủi ro Knight** — thứ có phân phối. Với **bất định Knight**,
+> phương sai không tồn tại vì phân phối không tồn tại. Nghĩa là: CAPM không sai, nó chỉ **không áp
+> được** cho loại quyết định sinh ra Bill Gates. Đó là lỗ hổng đầu tiên trong bộ khung mà Lo hứa chỉ ra.
 
-⚠️ **Đối chiếu số liệu.** Lo nói J.P. Morgan *"đáng giá 100 triệu đô vào thời đó"*. Khi Morgan mất
-năm 1913, di sản được định giá khoảng **80 triệu đô** (chưa kể bộ sưu tập nghệ thuật, ước thêm ~50
-triệu). Con số 100 triệu là làm tròn lên. Giai thoại nổi tiếng là John D. Rockefeller nghe con số ấy
-rồi nói: *"Nghĩ mà xem, ông ta còn không phải người giàu."*
+> [!warning] Đối chiếu số liệu.
+> Lo nói J.P. Morgan *"đáng giá 100 triệu đô vào thời đó"*. Khi Morgan mất
+> năm 1913, di sản được định giá khoảng **80 triệu đô** (chưa kể bộ sưu tập nghệ thuật, ước thêm ~50
+> triệu). Con số 100 triệu là làm tròn lên. Giai thoại nổi tiếng là John D. Rockefeller nghe con số ấy
+> rồi nói: *"Nghĩ mà xem, ông ta còn không phải người giàu."*
 
 ---
 
@@ -559,16 +599,19 @@ rồi nói: *"Nghĩ mà xem, ông ta còn không phải người giàu."*
 
 Ví dụ thứ ba Lo chiếu, rất nhanh (`S19 35:33`):
 
+> [!quote]
 > *"Đây là ví dụ rõ ràng cho thấy tất cả chúng ta đều được lập trình sẵn để **nhìn thấy những thứ ta
 > đang tìm**, và khi ta không tìm những thứ khác, ta **hoàn toàn không thấy chúng**."*
 
-📚 Lo không nêu tên. Đó là **Simons & Chabris (1999)**, *"Gorillas in Our Midst: Sustained
-Inattentional Blindness for Dynamic Events"*, *Perception* 28, 1059–1074. Người xem được yêu cầu đếm
-số lần chuyền bóng giữa các cầu thủ áo trắng; khoảng **một nửa** không nhận ra một người mặc đồ khỉ
-đột đi vào giữa khung hình, đấm ngực, rồi đi ra.
+> [!note]
+> Lo không nêu tên. Đó là **Simons & Chabris (1999)**, *"Gorillas in Our Midst: Sustained
+> Inattentional Blindness for Dynamic Events"*, *Perception* 28, 1059–1074. Người xem được yêu cầu đếm
+> số lần chuyền bóng giữa các cầu thủ áo trắng; khoảng **một nửa** không nhận ra một người mặc đồ khỉ
+> đột đi vào giữa khung hình, đấm ngực, rồi đi ra.
 
 Kết luận Lo rút ra (`S19 35:51`):
 
+> [!quote]
 > *"Ví dụ cuối này tôi đưa ra vì nó cung cấp bằng chứng **không thể chối cãi** rằng khả năng nhận
 > thức của con người là **có giới hạn**. Ta không có lý tính vô hạn theo nghĩa có thể tính, quan sát,
 > phân tích, dự báo và nhớ một lượng thông tin vô hạn."*
@@ -591,6 +634,7 @@ Giả sử bạn tin: **P(A) = 1/2** và **P(không A) = 3/4**. Tổng bằng **
 
 Lo nói trước phản ứng của lớp (`S19 37:25`):
 
+> [!quote]
 > *"Một số bạn đang cười vì bạn sẽ chẳng bao giờ có niềm tin như thế. Nhưng tôi **đảm bảo** với từng
 > người: nếu tôi đưa bạn vào một căn phòng thiếu sáng và hỏi bạn một loạt câu hỏi theo thời gian,
 > cuối cùng bạn **sẽ** thể hiện đúng loại xác suất lệch lạc như thế này, vì năng lực nhận thức của
@@ -610,6 +654,7 @@ Lo đặt **50 đô vào B1** và **25 đô vào B2**:
 | A xảy ra       |  −50 |  +75 | **+25** |
 | A không xảy ra |  +50 |  −25 | **+25** |
 
+> [!quote]
 > *"Sấp tôi thắng, ngửa bạn thua. Bất kể chuyện gì xảy ra, tôi kiếm 25 đô. … Và tôi sẽ làm đi làm
 > lại cho tới khi một trong hai chuyện xảy ra: hoặc **bạn hết tiền**, hoặc **bạn đổi niềm tin.**"*
 > — `S19 40:10`
@@ -626,11 +671,13 @@ Lo đặt **50 đô vào B1** và **25 đô vào B2**:
 
 Quét cả 99 cặp (p, 1−p): **không cặp nào** cho món lợi dương.
 
+> [!note]
 > Đó là toàn bộ nội dung của tiên đề xác suất: **không phải vì nó đẹp, mà vì ai vi phạm nó đều bị
 > rút sạch tiền.** Kết quả này thuộc về **Frank Ramsey (1926)** và **Bruno de Finetti (1931)**.
 
 **Kết luận của phe hiệu quả** (`S19 41:48`):
 
+> [!quote]
 > *"Người ta có thể phi lý tính lúc này lúc khác, và có những người phi lý tính suốt. Nhưng **chỉ cần
 > có người thông minh ngoài kia**, chỉ cần có **tiền thông minh** ngoài kia, thì chuyện đó **không
 > quan trọng**. Bởi vì xác suất sẽ được lực lượng thị trường kéo về tổng bằng 1."*
@@ -641,6 +688,7 @@ Quét cả 99 cặp (p, 1−p): **không cặp nào** cho món lợi dương.
 
 Lo tự phản biện ngay (`S19 42:22`):
 
+> [!quote]
 > *"Câu hỏi là **những lực lượng thị trường đó mạnh đến đâu**? Và tôi sẽ chỉ vào cuộc khủng hoảng hiện
 > tại để nói với bạn rằng, dù nghe hay trên giấy và ở một nơi như MIT, tôi đảm bảo với bạn điều
 > **John Maynard Keynes** nói cách đây mấy chục năm vẫn đúng: **thị trường có thể phi lý tính lâu
@@ -649,17 +697,19 @@ Lo tự phản biện ngay (`S19 42:22`):
 > *"Nói cách khác, nếu bạn là **người tỉnh táo duy nhất trong một thế giới điên**, thì **bạn** mới là
 > người có vấn đề."*
 
-⚠️ **Câu này không phải của Keynes.** Nó không xuất hiện trong bất kỳ tác phẩm, bài viết, thư từ hay
-bài phát biểu nào của Keynes. Nguồn sớm nhất truy được là **A. Gary Shilling** trên tạp chí *Forbes*
-tháng 2/1986: *"Markets can remain irrational a lot longer than you and I can remain solvent."*
+> [!warning] Câu này không phải của Keynes.
+> Nó không xuất hiện trong bất kỳ tác phẩm, bài viết, thư từ hay
+> bài phát biểu nào của Keynes. Nguồn sớm nhất truy được là **A. Gary Shilling** trên tạp chí *Forbes*
+> tháng 2/1986: *"Markets can remain irrational a lot longer than you and I can remain solvent."*
 
 Đây là một trong những câu bị gán nhầm phổ biến nhất trong tài chính, và Lo lặp lại nó nguyên vẹn.
 
-📚 Keynes **có** viết một ý gần đó, nhưng khác hẳn về sắc thái — trong *The General Theory* (1936),
-chương 12, ông mô tả đầu tư chuyên nghiệp như một **cuộc thi sắc đẹp**, nơi việc thắng không đòi hỏi
-đoán ai đẹp nhất mà đoán *người khác nghĩ ai đẹp nhất*. Câu nổi tiếng thật sự của ông là
-*"Về lâu dài, tất cả chúng ta đều đã chết"* — trong *A Tract on Monetary Reform* (1923), và nó nói
-về chính sách tiền tệ chứ không phải về nhà đầu tư vỡ nợ.
+> [!note]
+> Keynes **có** viết một ý gần đó, nhưng khác hẳn về sắc thái — trong *The General Theory* (1936),
+> chương 12, ông mô tả đầu tư chuyên nghiệp như một **cuộc thi sắc đẹp**, nơi việc thắng không đòi hỏi
+> đoán ai đẹp nhất mà đoán *người khác nghĩ ai đẹp nhất*. Câu nổi tiếng thật sự của ông là
+> *"Về lâu dài, tất cả chúng ta đều đã chết"* — trong *A Tract on Monetary Reform* (1923), và nó nói
+> về chính sách tiền tệ chứ không phải về nhà đầu tư vỡ nợ.
 
 📌 Ý Lo muốn nói **vẫn đúng**, và có bằng chứng thật để thay: quỹ **Long-Term Capital Management** sụp
 năm 1998 với hai nhà kinh tế đoạt giải Nobel trong ban lãnh đạo, đúng vì các vị thế hội tụ của họ
@@ -672,6 +722,7 @@ ai nói.
 
 Lo xin phép lớp đi đường vòng 20 phút (`S19 43:26`) và đây là chỗ buổi giảng đổi hẳn thể loại.
 
+> [!quote]
 > *"Hoá ra cái mà các nhà kinh tế gọi là **lý tính** không phải cái mà bạn và tôi hiểu là lý tính
 > trong sinh hoạt hằng ngày."* — `S19 43:40`
 
@@ -683,22 +734,26 @@ quanh để chắc chắn lấy hết u.
 
 **Sau mổ, Elliot làm mọi bài kiểm tra nhận thức đều đạt** (`S19 45:11`):
 
+> [!quote]
 > *"Họ cho anh làm bài kiểm tra tri giác, trí nhớ, IQ, khả năng học, khả năng ngôn ngữ, số học. **Mọi
 > bài kiểm tra, Elliot đều vượt qua xuất sắc**, hoặc trung bình hoặc trên trung bình rõ rệt."*
 
 **Và đời anh sụp đổ** (`S19 45:11`):
 
+> [!quote]
 > *"Vậy mà chỉ vài tuần sau khi hồi phục, anh bị **đuổi việc**, **vợ bỏ đi**, và về cơ bản anh phải
 > vào viện. Anh không thể sống một mình vì hành vi của anh trở nên quá phi lý."*
 
 **Phi lý theo nghĩa nào?** Damasio mô tả (`S19 46:00`, Lo đọc nguyên văn):
 
+> [!quote]
 > *"Khi công việc đòi hỏi ngắt một hoạt động để chuyển sang việc khác, anh vẫn có thể cứ tiếp tục,
 > dường như đánh mất mục tiêu chính. … Có thể nói bước cụ thể mà Elliot mắc kẹt vào lại đang được
 > thực hiện **quá tốt**, và **trả giá bằng toàn bộ mục đích chung**."*
 
 Và ví dụ cụ thể (`S19 46:51`):
 
+> [!quote]
 > *"Elliot được giao viết một lá thư cho khách hàng. Anh mở trình soạn thảo, và trước khi bắt đầu
 > gõ, anh phải chọn **đúng phông chữ**. Và anh mất **ba tiếng** để chọn phông chữ đó. Ba tiếng, theo
 > nghĩa đen. … Và không phải chỉ lần đầu — **mọi lá thư anh viết đều mất ba tiếng ở phần mở đầu**."*
@@ -708,6 +763,7 @@ gây xúc động mạnh. Elliot **không có phản ứng nào**. Không một 
 
 Khi Damasio hỏi anh cảm thấy thế nào (`S19 49:10`):
 
+> [!quote]
 > *"Buồn cười lắm. Sau ca mổ, tôi để ý là những thứ tôi từng thích trước kia, giờ tôi không thích
 > nữa. Ví dụ tôi từng thích bít tết, rượu vang đỏ, và nhạc Mozart. Sau mổ tôi vẫn trải nghiệm tất cả
 > những thứ đó, và **tôi không cảm thấy gì**. Tôi **biết** là mình nên thích, nhưng tôi không thích.
@@ -716,12 +772,14 @@ Khi Damasio hỏi anh cảm thấy thế nào (`S19 49:10`):
 Lo kể một mẩu đời riêng để bắc cầu (`S19 49:58`): ông mua hộp **Cracker Jacks** cho cậu con trai
 tám tuổi và ăn thử một ít, rồi nghĩ *"chà, tôi biết là mình nên thấy ngon, nhưng tôi không thấy."*
 
+> [!quote]
 > *"Hãy tưởng tượng bạn có cảm giác đó với **mọi thứ**. Mọi nỗi sợ, mọi lo âu, mọi ham muốn lớn
 > lao, toàn bộ cảm xúc của bạn — biến mất. Bạn không cảm thấy gì. Bạn thấy **tê dại bên trong**."*
 > — `S19 50:43`
 
 **Kết luận của Damasio, và của bài giảng này** (`S19 50:43`, `S19 51:29`):
 
+> [!quote]
 > *"Damasio phỏng đoán rằng cái mà ta gọi là **hành vi lý tính thật ra ĐÒI HỎI cảm xúc**. Nói cách
 > khác, **bạn phải cảm được thì mới hành động lý tính được**."*
 >
@@ -729,17 +787,19 @@ tám tuổi và ăn thử một ít, rồi nghĩ *"chà, tôi biết là mình n
 > Descartes**. Ông ấy lập luận rằng Descartes đã sai hoàn toàn. Rằng thật ra, cảm xúc là **mặt bên
 > kia của cùng một đồng xu**. Nếu bạn không cảm được, bạn không thể lý tính."*
 
-⚠️ **Một chi tiết Lo nhớ sai.** Ông nói bài kiểm tra đó là **tốc độ chớp mắt** (*eye-blink response
-rate*), và dành gần hai phút giải thích ngón bài poker và phim hoạt hình Betty Boop. Thước đo thật
-mà Damasio dùng với Elliot là **phản ứng dẫn điện của da** (*skin conductance response*, còn gọi là
-phản ứng điện da) — cùng nguyên lý với máy phát hiện nói dối. Chớp mắt phản xạ giật mình cũng là
-thước đo cảm xúc có thật trong tâm lý học, nhưng không phải thước đo trong ca Elliot.
+> [!warning] Một chi tiết Lo nhớ sai.
+> Ông nói bài kiểm tra đó là **tốc độ chớp mắt** (*eye-blink response
+> rate*), và dành gần hai phút giải thích ngón bài poker và phim hoạt hình Betty Boop. Thước đo thật
+> mà Damasio dùng với Elliot là **phản ứng dẫn điện của da** (*skin conductance response*, còn gọi là
+> phản ứng điện da) — cùng nguyên lý với máy phát hiện nói dối. Chớp mắt phản xạ giật mình cũng là
+> thước đo cảm xúc có thật trong tâm lý học, nhưng không phải thước đo trong ca Elliot.
 
-📚 Giả thuyết Damasio dựng từ ca này có tên riêng: **giả thuyết dấu ấn cơ thể** (*somatic marker
-hypothesis*), và vùng não bị cắt là **vỏ não trước trán bụng giữa** (*ventromedial prefrontal
-cortex*). Bằng chứng thực nghiệm mạnh nhất cho nó là **Iowa Gambling Task** (Bechara, Damasio,
-Damasio & Anderson, 1994), nơi bệnh nhân tổn thương vùng này tiếp tục rút bài từ các bộ bài thua lỗ
-ngay cả khi họ **nói được** rằng những bộ đó xấu.
+> [!note]
+> Giả thuyết Damasio dựng từ ca này có tên riêng: **giả thuyết dấu ấn cơ thể** (*somatic marker
+> hypothesis*), và vùng não bị cắt là **vỏ não trước trán bụng giữa** (*ventromedial prefrontal
+> cortex*). Bằng chứng thực nghiệm mạnh nhất cho nó là **Iowa Gambling Task** (Bechara, Damasio,
+> Damasio & Anderson, 1994), nơi bệnh nhân tổn thương vùng này tiếp tục rút bài từ các bộ bài thua lỗ
+> ngay cả khi họ **nói được** rằng những bộ đó xấu.
 
 ---
 
@@ -760,6 +820,7 @@ Và trật tự ưu tiên khi cơ thể suy sụp (`S19 57:14`, `S19 58:12`): n�
 não thú, còn tân vỏ não tắt **trước tiên**. Lo minh hoạ bằng câu hỏi cho lớp — nếu bạn bị tai nạn xe
 và mất máu, tầng nào tắt cuối? — và câu chốt (`S19 58:48`):
 
+> [!quote]
 > *"Từ góc nhìn tiến hoá, việc bạn **sợ và bỏ chạy thục mạng** khi đối mặt một con hổ răng kiếm có lẽ
 > quan trọng hơn việc bạn giải được phương trình vi phân. **Kể cả khi bạn học ở MIT.**"*
 
@@ -791,6 +852,7 @@ gần đúng **một năm trước** buổi giảng này.
 
 Điều này quan trọng, đừng ném cả mục đi. Luận điểm Lo cần là:
 
+> [!note]
 > **Ra quyết định là kết quả tương tác giữa hệ thống cảm xúc và hệ thống suy luận, và khi cảm xúc
 > quá mạnh, suy luận bị chèn ép.**
 
@@ -813,6 +875,7 @@ thay bản đồ.
 Lo kể một thí nghiệm (`S19 59:26`): đưa người vào máy MRI, cho họ giải bài toán số học trên màn hình
 chiếu qua gương, rồi **đâm kim vào họ** giữa chừng.
 
+> [!quote]
 > *"Bây giờ bạn nghĩ: người ta cấp tiền nghiên cứu cho cái này à? Ai chẳng biết là khi bị đâm thì
 > giải toán sẽ lâu hơn."* — `S19 60:15`
 >
@@ -821,14 +884,16 @@ chiếu qua gương, rồi **đâm kim vào họ** giữa chừng.
 > trong một khoảng thời gian. Về mặt sinh lý, bạn **không thể** giải các bài toán đó nhanh như
 > trước."* — `S19 60:54`
 
-⚠️ **Cần thận trọng với tuyên bố này.** Hiệu ứng nhận thức là có thật và có tài liệu: đau làm giảm
-chú ý và trí nhớ làm việc (Eccleston & Crombez, 1999, *Psychological Bulletin*; Moriarty, McGuire &
-Finn, 2011). Nhưng **cơ chế cụ thể** mà Lo mô tả — dòng máu tới tân vỏ não bị thu hẹp **hàng giờ**
-sau **một mũi kim** — tôi **không tìm được nguồn nào xác nhận**, và Lo không nêu bài báo. Nhận định
-tổng quát đúng; con số "hàng giờ" và cơ chế mạch máu là phần chưa xác minh được.
+> [!warning] Cần thận trọng với tuyên bố này.
+> Hiệu ứng nhận thức là có thật và có tài liệu: đau làm giảm
+> chú ý và trí nhớ làm việc (Eccleston & Crombez, 1999, *Psychological Bulletin*; Moriarty, McGuire &
+> Finn, 2011). Nhưng **cơ chế cụ thể** mà Lo mô tả — dòng máu tới tân vỏ não bị thu hẹp **hàng giờ**
+> sau **một mũi kim** — tôi **không tìm được nguồn nào xác nhận**, và Lo không nêu bài báo. Nhận định
+> tổng quát đúng; con số "hàng giờ" và cơ chế mạch máu là phần chưa xác minh được.
 
 **Ví dụ Lo dùng để chứng minh cho lớp thấy nó đang xảy ra ngay trong đầu họ** (`S19 61:36`):
 
+> [!quote]
 > *"Bao nhiêu bạn từng trải qua chuyện này? Bạn đang cố gặp một người rất hấp dẫn. Bạn nghĩ ra đủ
 > cách khôn khéo để gặp họ 'tình cờ'. … Bạn đã chuẩn bị sẵn lời thoại. … Và cuối cùng nó diễn ra.
 > Bạn gặp người đó, và ngay khi bạn mở miệng, bạn **nghe như một thằng ngốc hoàn toàn**. Bạn nói
@@ -844,11 +909,13 @@ Lo cho cả lớp làm chung (`S19 62:48`): đọc to **màu** của một loạ
 thứ nhất — từ và màu **khớp** nhau — cả lớp đọc trôi chảy: *"Đỏ, xanh lá, xanh dương, vàng, cam…"*
 (`S19 63:19`). Bảng thứ hai — từ và màu **lệch** nhau — cả lớp khựng lại và cười.
 
-📚 Thí nghiệm này có tên: **hiệu ứng Stroop**, từ **J. Ridley Stroop (1935)**, *"Studies of
-Interference in Serial Verbal Reactions"*, *Journal of Experimental Psychology* 18. Lo không nêu tên.
+> [!note]
+> Thí nghiệm này có tên: **hiệu ứng Stroop**, từ **J. Ridley Stroop (1935)**, *"Studies of
+> Interference in Serial Verbal Reactions"*, *Journal of Experimental Psychology* 18. Lo không nêu tên.
 
-⚠️ **Giải thích của Lo sai.** Ông nói (`S19 63:40`): *"khả năng ngôn ngữ nằm hoàn toàn ở tân vỏ não,
-não người. Nhưng nhận diện màu thật ra là một phần của não thú."*
+> [!warning] Giải thích của Lo sai.
+> Ông nói (`S19 63:40`): *"khả năng ngôn ngữ nằm hoàn toàn ở tân vỏ não,
+> não người. Nhưng nhận diện màu thật ra là một phần của não thú."*
 
 Cách hiểu hiện đại: **cả hai đều là chức năng của vỏ não**, và cái gây chậm là **xung đột phản ứng**
 được xử lý ở **vỏ đai trước** (*anterior cingulate cortex*) và **vỏ trước trán lưng bên** — xem
@@ -856,15 +923,17 @@ Botvinick, Braver, Barch, Carter & Cohen (2001), *Psychological Review*, và bà
 MacLeod (1991). Nguyên nhân thật là **đọc chữ đã tự động hoá** ở người biết chữ và chạy nhanh hơn
 việc gọi tên màu; hai luồng đua nhau và phải có bộ phận phân xử.
 
-⚠️ **Và một chi tiết sinh học ngược hẳn.** Lo nói *"Động vật có vú nhận diện màu rất tốt"* (`S19
-64:08`). Thật ra **phần lớn động vật có vú là lưỡng sắc** (*dichromat*) — chúng nhìn màu **kém**.
-Thị giác ba màu ở linh trưởng là một phát minh **muộn** và hiếm trong lớp Thú. Chim, nhiều loài bò
-sát và cá là **bốn sắc** (*tetrachromat*) — chúng nhìn màu **tốt hơn** động vật có vú. Nhận diện màu
-là ví dụ **tệ nhất có thể** cho một chức năng "não thú".
+> [!warning] Và một chi tiết sinh học ngược hẳn.
+> Lo nói *"Động vật có vú nhận diện màu rất tốt"* (`S19
+> 64:08`). Thật ra **phần lớn động vật có vú là lưỡng sắc** (*dichromat*) — chúng nhìn màu **kém**.
+> Thị giác ba màu ở linh trưởng là một phát minh **muộn** và hiếm trong lớp Thú. Chim, nhiều loài bò
+> sát và cá là **bốn sắc** (*tetrachromat*) — chúng nhìn màu **tốt hơn** động vật có vú. Nhận diện màu
+> là ví dụ **tệ nhất có thể** cho một chức năng "não thú".
 
-⚠️ Còn giai thoại *"màu đỏ làm bạn ăn nhiều hơn vì đó là màu của máu"* (`S19 64:43`) là **văn hoá đại
-chúng, không phải kết quả nghiên cứu vững**. Các nghiên cứu về màu và lượng ăn cho kết quả trái
-chiều; Genschow, Reutner & Wänke (2012) thậm chí tìm thấy màu đỏ làm người ta ăn và uống **ít hơn**.
+> [!warning]
+> Còn giai thoại *"màu đỏ làm bạn ăn nhiều hơn vì đó là màu của máu"* (`S19 64:43`) là **văn hoá đại
+> chúng, không phải kết quả nghiên cứu vững**. Các nghiên cứu về màu và lượng ăn cho kết quả trái
+> chiều; Genschow, Reutner & Wänke (2012) thậm chí tìm thấy màu đỏ làm người ta ăn và uống **ít hơn**.
 
 📌 Ba cảnh báo trên **không** làm hỏng phần tiếp theo. Thí nghiệm Stroop tự nó chứng minh đúng điều
 Lo cần: **có những quá trình trong đầu bạn chạy tự động và bạn không tắt được chúng bằng ý chí.**
@@ -876,6 +945,7 @@ Lo cần: **có những quá trình trong đầu bạn chạy tự động và b
 Đây là đoạn Lo gọi là *"lời khuyên tự-giúp-mình khá hữu ích"* (`S19 66:35`), và nó là phần dùng được
 ngay nhất của cả buổi.
 
+> [!quote]
 > *"Bao nhiêu bạn từng nghe câu: **'Tôi giận đến mức không nói nổi'**? Bạn nghe rồi đúng không? Bạn
 > chắc cũng từng cảm thấy thế. Đó **không chỉ là một phép ẩn dụ**. Nó đúng về mặt sinh lý."*
 > — `S19 66:56`
@@ -888,6 +958,7 @@ ngay nhất của cả buổi.
 
 Và hệ quả sâu hơn (`S19 67:58`, `S19 68:17`):
 
+> [!quote]
 > *"Sở thích của ta là tổng hoà của những tương tác này. Vì vậy chúng **không ổn định theo thời
 > gian**, cũng **không ổn định theo hoàn cảnh**."*
 >
@@ -897,6 +968,7 @@ Và hệ quả sâu hơn (`S19 67:58`, `S19 68:17`):
 
 **Quy tắc thực hành ông đưa ra** (`S19 68:47`):
 
+> [!quote]
 > *"Hãy **giữ mắt vào mục tiêu**. Nghĩa là: quyết định xem bạn muốn đạt được cái gì, rồi tự hỏi ở mỗi
 > bước — **hành động hiện tại của tôi sắp giúp hay cản trở mục tiêu đó?** Nếu bạn lái xe về nhà và có
 > ai tạt đầu bạn, và bạn muốn giơ ngón tay giữa rồi đâm xe vào họ, hãy tự hỏi: điều đó có giúp bạn
@@ -914,6 +986,7 @@ nó là một **mệnh đề kỹ thuật có hệ quả nặng**. Toàn bộ b�
 
 Lo ráp lại (`S19 69:25`):
 
+> [!quote]
 > *"Tài chính hành vi và tài chính lý tính. **Cả hai đều đúng, và cả hai đều sai.** Lý do cả hai đều
 > đúng là vì mỗi bên áp dụng cho những hoàn cảnh nhất định."*
 >
@@ -924,17 +997,20 @@ Lo ráp lại (`S19 69:25`):
 
 Và một câu phê bình sắc, dành cho chính phe hành vi (`S19 70:04`):
 
+> [!quote]
 > *"**Tài chính hành vi không phải một lý thuyết. Nó chỉ là một bộ sưu tập các dị thường.**"*
 
 **Giả thuyết thị trường thích nghi** (*adaptive markets hypothesis*, AMH) là nỗ lực biến bộ sưu tập
 đó thành lý thuyết (`S19 70:24`):
 
+> [!quote]
 > *"Cách làm là thừa nhận rằng chúng ta **vừa là sinh vật của não thú vừa là sinh vật của tân vỏ
 > não**. Tuỳ theo điều kiện thị trường, điều kiện môi trường, và quá trình ra quyết định của chính
 > mình, ta **có thể ở phe lý tính hoặc phe hành vi** ở bất kỳ thời điểm nào."*
 
 Và ông nhắc lại lời cảnh báo mở khoá (`S19 70:56`):
 
+> [!quote]
 > *"Đầu khoá học, khi khủng hoảng đang bung ra, tôi đã nói rất rõ với các bạn rằng **lý thuyết tài
 > chính sắp đi nghỉ mấy tuần**."*
 
@@ -949,9 +1025,10 @@ Và ông nhắc lại lời cảnh báo mở khoá (`S19 70:56`):
 | 5   | Mức hiệu quả của thị trường **thay đổi theo hoàn cảnh và quần thể**     |
 | 6   | Cuối cùng, thứ duy nhất quan trọng là **sống sót**                      |
 
-⚠️ Lo nói *"sáu tính chất tôi liệt kê ở cuối buổi trước"* nhưng phần cuối Ses 19 không đọc rõ đủ sáu
-mục; danh sách trên ghép từ `S20 00:32`–`01:20` cùng cách trình bày trong cuốn sách 2017 của ông.
-Đây là **tái dựng**, không phải trích nguyên văn.
+> [!warning]
+> Lo nói *"sáu tính chất tôi liệt kê ở cuối buổi trước"* nhưng phần cuối Ses 19 không đọc rõ đủ sáu
+> mục; danh sách trên ghép từ `S20 00:32`–`01:20` cùng cách trình bày trong cuốn sách 2017 của ông.
+> Đây là **tái dựng**, không phải trích nguyên văn.
 
 ---
 
@@ -963,6 +1040,7 @@ tắc kinh nghiệm ra đời như thế nào**.
 **Bài toán** (`S19 73:08`): tủ quần áo của ông có 5 áo khoác, 10 quần, 20 cà vạt, 10 áo sơ mi, 10 đôi
 tất, 4 đôi giày, 5 thắt lưng.
 
+> [!quote]
 > *"Nếu bạn chịu khó tính tổ hợp, bạn sẽ thấy tôi có **hai triệu bộ đồ khác nhau** trong tủ. …
 > Giả sử tôi mất **một giây** để đánh giá độ hợp mốt của một bộ. Tôi sẽ mất bao lâu để mặc quần áo
 > mỗi ngày? … Hoá ra là **23,1 ngày**."* — `S19 73:23`, `S19 74:02`
@@ -972,6 +1050,7 @@ tất, 4 đôi giày, 5 thắt lưng.
 **Nhưng ông mặc quần áo trong năm phút.** Vì sao? Vì ông dùng một **heuristic**. Và heuristic đó
 đến từ đâu (`S19 74:20`)?
 
+> [!quote]
 > *"Năm tôi sáu tuổi, lớn lên ở Queens, New York, siêu anh hùng của thời đó là Superman. … Một thiên
 > tài tiếp thị nào đó nghĩ ra rằng nếu in logo Superman lên một chiếc áo khoác thì sẽ bán được rất
 > nhiều cho lũ trẻ sáu tuổi. Lớn lên trong gia đình mẹ đơn thân, nhà tôi không dư tiền, nên tôi phải
@@ -979,6 +1058,7 @@ tất, 4 đôi giày, 5 thắt lưng.
 
 Rồi buổi sáng thứ Hai (`S19 75:09`):
 
+> [!quote]
 > *"Tôi dậy sớm hẳn, háo hức đi học với chiếc áo khoác đó. Tôi soi gương, tạo đủ các tư thế anh hùng,
 > ngắm mình. Và đến khi xong, tôi **muộn học 15 phút**, và phải xin giấy của mẹ để vào lớp. Tôi nhớ
 > rất rõ, đi vào lớp, lên bàn giáo viên đưa giấy, đi ngược về chỗ, tất cả những đứa khác đã ngồi
@@ -990,11 +1070,13 @@ Rồi buổi sáng thứ Hai (`S19 75:09`):
 
 **Bài học Lo rút ra** (`S19 75:57`):
 
+> [!quote]
 > *"Tôi giải được bài toán của mình nhờ **phản hồi tiêu cực rất mạnh**. … Nếu tôi giống Elliot và
 > không bao giờ có phản hồi tiêu cực, tôi sẽ **cứ mất hàng tiếng để mặc quần áo mỗi sáng**."*
 
 Và điểm cuối, về tính **phụ thuộc bối cảnh** của heuristic (`S19 76:20`):
 
+> [!quote]
 > *"Tom Cruise chắc chắn mất hơn năm phút để mặc quần áo mỗi sáng. Ông ấy chắc dành nhiều thời gian
 > chải tóc hơn tôi. Và **có lý do cho việc đó**. Với ông ấy, **heuristic đó hợp lý trong bối cảnh của
 > ông ấy, không phải trong bối cảnh của tôi.**"*
@@ -1003,8 +1085,9 @@ Và điểm cuối, về tính **phụ thuộc bối cảnh** của heuristic (`
 thích nghi với môi trường**. Đổi môi trường, quy tắc từng thắng sẽ thua. §21 mở rộng ý này thành cơ
 chế thị trường.
 
-⚠️ Chi tiết dùng để định tuổi Lo: *"42 năm sau"* sự kiện năm ông sáu tuổi → ông 48 tuổi vào tháng
-12/2008 → sinh khoảng **1960**. **Andrew Wen-Chuan Lo sinh năm 1960** tại Hồng Kông. Khớp.
+> [!warning]
+> Chi tiết dùng để định tuổi Lo: *"42 năm sau"* sự kiện năm ông sáu tuổi → ông 48 tuổi vào tháng
+> 12/2008 → sinh khoảng **1960**. **Andrew Wen-Chuan Lo sinh năm 1960** tại Hồng Kông. Khớp.
 
 ---
 
@@ -1014,6 +1097,7 @@ Ses 20 mở bằng các hệ quả của AMH, và Lo bắt đầu bằng câu ch
 một gia đình có tài sản khoảng 300 triệu đô, con cháu sống trong căn penthouse ở Park Avenue, còn bà
 nội thì ở căn hộ nhỏ dưới Lower Manhattan, đi xe buýt thay vì taxi, từ chối chuyển tới ở cùng.
 
+> [!quote]
 > *"Nghe này, Sonny. Cháu không nhớ những ngày mà bà phải **xếp hàng chờ bữa tối, không biết tới lượt
 > mình còn gì để ăn không.** Nên đừng có bảo bà rằng nhà mình có nhiều tiền hơn mức có thể tiêu."*
 > — `S20 03:58`
@@ -1023,6 +1107,7 @@ nội thì ở căn hộ nhỏ dưới Lower Manhattan, đi xe buýt thay vì ta
 
 Hệ quả kỹ thuật (`S20 05:29`, `S20 06:16`):
 
+> [!quote]
 > *"CAPM chạy được **nếu** tất cả các giả định tôi nêu là đúng. Nhưng các giả định đó dựa trên việc
 > con người hành động lý tính. **Nếu con người không hành động lý tính** vì bất cứ lý do gì … thì lý
 > thuyết sẽ **không chạy**."*
@@ -1034,6 +1119,7 @@ Hệ quả kỹ thuật (`S20 05:29`, `S20 06:16`):
 
 (`S20 10:13`)
 
+> [!quote]
 > *"Một đồng cỏ xanh đẹp trở thành chỗ ăn ưa thích của đàn cừu. Và sau một thời gian, khi lũ cừu gặm
 > cỏ, béo lên và sinh sôi, chúng tác động ngày càng nhiều lên đồng cỏ đó. Chẳng mấy chốc, với ngần
 > ấy cừu gặm trên cùng một đồng cỏ, **đồng cỏ cạn kiệt**. Và khi nó cạn kiệt, chuyện gì xảy ra với
@@ -1063,6 +1149,7 @@ trụi**.
 
 **Lập luận** (`S20 13:19`):
 
+> [!quote]
 > *"Nếu giá phản ánh đầy đủ mọi thông tin sẵn có, thì **tự tương quan bậc một của lợi suất tháng phải
 > xấp xỉ bằng 0**. Nói cách khác, tương quan giữa lợi suất tháng trước và lợi suất tháng này phải
 > **không phân biệt được với 0** về mặt thống kê. Vì nếu không, bạn sẽ có thông tin để dựng một chiến
@@ -1073,6 +1160,7 @@ S&P Composite theo tháng, **từ tháng 1/1871 tới tháng 4/2003**.
 
 **Kết luận ông rút ra** (`S20 15:28`):
 
+> [!quote]
 > *"Đồ thị này cho thấy hiệu quả thị trường, đo bằng tự tương quan bậc một — trước hết, **nó không
 > bằng 0**. Nhưng quan trọng hơn, **nó không giảm đơn điệu theo thời gian**. Thị trường **không** ngày
 > càng hiệu quả hơn. **Có một chu kỳ hiệu quả.**"*
@@ -1116,6 +1204,7 @@ rời bước đi ngẫu nhiên hơn bất kỳ lúc nào trong dữ liệu.
 **Bước 4 — Kiểm định một dự báo cụ thể của Lo.** Ở `S20 17:09` ông trả lời câu hỏi tại sao thị trường
 sắp **kém** hiệu quả hơn:
 
+> [!quote]
 > *"Chính xác. Người ta, đặc biệt là các nhà đầu tư tinh vi như quỹ đầu cơ, **đang rút khỏi thị
 > trường** vì họ đang bị thổi bay. Họ mất rất nhiều tiền. Họ không đủ tiền vận hành. Họ rút. Và cái
 > còn lại **có thể không hiệu quả bằng trước.**"*
@@ -1139,12 +1228,13 @@ phục, nhưng dao động là thứ mà 1.142 cửa sổ chồng lấn **buộc
 
 Riêng đỉnh 11/2008 thì không phải nhiễu: nó cách 0 tới **2,9 sai số chuẩn**.
 
-⚠️ **Một khác biệt tôi không tái tạo được.** Lo mô tả tự tương quan *"tăng vọt trong thập niên 1990"*
-(`S20 15:16`). Trên dữ liệu CRSP giá trị-trọng-số, đỉnh thập niên 1990 chỉ **+0,185** (9/1991), còn
-tháng 2/1996 lại là **đáy của cả thế kỷ** (−0,303). Nguyên nhân khả dĩ: bộ dữ liệu Shiller mà Lo
-dùng lấy **trung bình các giá đóng cửa trong tháng** thay vì giá cuối tháng, và phép lấy trung bình
-thời gian **tự tạo ra tự tương quan dương giả** — hiệu ứng Working (1960). Tôi ghi lại khác biệt chứ
-không kết luận ai đúng.
+> [!warning] Một khác biệt tôi không tái tạo được.
+> Lo mô tả tự tương quan *"tăng vọt trong thập niên 1990"*
+> (`S20 15:16`). Trên dữ liệu CRSP giá trị-trọng-số, đỉnh thập niên 1990 chỉ **+0,185** (9/1991), còn
+> tháng 2/1996 lại là **đáy của cả thế kỷ** (−0,303). Nguyên nhân khả dĩ: bộ dữ liệu Shiller mà Lo
+> dùng lấy **trung bình các giá đóng cửa trong tháng** thay vì giá cuối tháng, và phép lấy trung bình
+> thời gian **tự tạo ra tự tương quan dương giả** — hiệu ứng Working (1960). Tôi ghi lại khác biệt chứ
+> không kết luận ai đúng.
 
 ---
 
@@ -1156,6 +1246,7 @@ không kết luận ai đúng.
 
 Lo đưa ra một mệnh đề kiểm định được (`S20 01:41`):
 
+> [!quote]
 > *"Quan hệ đánh đổi rủi ro–lợi suất, quan hệ giữa rủi ro và tỉ suất sinh lời kỳ vọng, như đường SML
 > của CAPM — **cái đó không ổn định theo thời gian hay theo hoàn cảnh**, bởi vì sở thích cá nhân
 > không ổn định theo thời gian hay theo hoàn cảnh."*
@@ -1177,14 +1268,16 @@ chế độ theo **biến động thị trường 12 tháng trước** — một
 - Trong chế độ **căng thẳng**, năm ngũ phân xếp **đúng thứ tự beta không sai một bậc**, và độ dốc còn
   **vượt** lý thuyết 41%.
 
-📚 **Cách giải thích hợp lý nhất** là ràng buộc đòn bẩy (Frazzini & Pedersen, 2014,
-*"Betting Against Beta"*, *Journal of Financial Economics*): trong thời bình, nhà đầu tư không được
-vay đủ sẽ **mua cổ phiếu beta cao thay cho đòn bẩy**, đẩy giá chúng lên và giết phần bù. Khi biến
-động nổ ra, ai cũng phải giảm đòn bẩy cùng lúc và beta được **định giá lại dữ dội**.
+> [!note] Cách giải thích hợp lý nhất
+> là ràng buộc đòn bẩy (Frazzini & Pedersen, 2014,
+> *"Betting Against Beta"*, *Journal of Financial Economics*): trong thời bình, nhà đầu tư không được
+> vay đủ sẽ **mua cổ phiếu beta cao thay cho đòn bẩy**, đẩy giá chúng lên và giết phần bù. Khi biến
+> động nổ ra, ai cũng phải giảm đòn bẩy cùng lúc và beta được **định giá lại dữ dội**.
 
-⚠️ **Một phần là giả tạo, và phải nói rõ.** Pettengill, Sundaram & Mathur (1995) chỉ ra rằng độ dốc
-SML **đo trên lợi suất đã thực hiện** buộc phải đổi dấu theo hướng thị trường. Kiểm lại trên chính
-bộ dữ liệu này:
+> [!warning] Một phần là giả tạo, và phải nói rõ.
+> Pettengill, Sundaram & Mathur (1995) chỉ ra rằng độ dốc
+> SML **đo trên lợi suất đã thực hiện** buộc phải đổi dấu theo hướng thị trường. Kiểm lại trên chính
+> bộ dữ liệu này:
 
 |                           | Số tháng |     Độ dốc |
 | ------------------------- | -------: | ---------: |
@@ -1207,9 +1300,11 @@ tôi ngờ nhiều bạn đã bỏ qua"* (`S20 26:25`): **đau bảo vệ ta**.
 
 Ông hỏi lớp về người bị tổn thương thần kinh, và sinh viên Mike trả lời (`S20 27:05`):
 
+> [!quote]
 > AUDIENCE: *"Ở đâu đó có một bé gái **hoàn toàn không cảm thấy đau**. Và em ấy **cào rách mắt mình**.
 > Người em ấy đầy vết bầm vì em ấy **đâm sầm vào mọi thứ**."*
 
+> [!quote]
 > *"Nếu bạn không cảm được cánh tay trái, nếu nó tê, thì bạn **sẽ không biết phải rụt lại** khi cào
 > nó vào cạnh ghế sắc, hay khi bị một dụng cụ nào đó đâm phải. Bạn sẽ không biết rụt lại. Bạn có thể
 > cứ đẩy tới. Và thế là một vết xước, một vết cắt, một vết thủng. **Nếu bạn không cảm được đau, bạn
@@ -1217,6 +1312,7 @@ tôi ngờ nhiều bạn đã bỏ qua"* (`S20 26:25`): **đau bảo vệ ta**.
 
 **Áp vào khủng hoảng** (`S20 28:19`, `S20 29:02`):
 
+> [!quote]
 > *"Nếu bạn từng làm bất cứ điều gì liên quan tới việc **rút lui khỏi một rủi ro**, thì đó là vì bạn
 > đã **cảm thấy đau** — hoặc đau hiện tại, hoặc **ký ức về cơn đau trước đó**."*
 >
@@ -1227,6 +1323,7 @@ tôi ngờ nhiều bạn đã bỏ qua"* (`S20 26:25`): **đau bảo vệ ta**.
 
 (`S20 30:05`)
 
+> [!quote]
 > *"Hoá ra **lợi ích tài chính, phần thưởng bằng tiền, kích thích đúng cái mạch tưởng thưởng mà
 > cocaine kích thích.** Tôi không đùa. Đây không phải phép loại suy hay ẩn dụ. Đó là **một sự thật
 > sinh lý học.**"*
@@ -1239,22 +1336,25 @@ tôi ngờ nhiều bạn đã bỏ qua"* (`S20 26:25`): **đau bảo vệ ta**.
 > *"Có người nói kiếm tiền còn sướng hơn tình dục. Bạn biết không? Đó **không phải nói quá**."*
 > — `S20 30:56`
 
-📚 **Nguồn của tuyên bố này**, Lo không nêu: **Breiter, Aharon, Kahneman, Dale & Shizgal (2001)**,
-*"Functional Imaging of Neural Responses to Expectancy and Experience of Monetary Gains and Losses"*,
-*Neuron* 30(2), 619–639. Bài này so sánh trực tiếp với **Breiter và cộng sự (1997)** về cocaine ở
-người nghiện, và tìm thấy các vùng kích hoạt chồng lấn — nhân accumbens và vùng amygdala mở rộng
-dưới nhân đậu.
+> [!note] Nguồn của tuyên bố này
+> , Lo không nêu: **Breiter, Aharon, Kahneman, Dale & Shizgal (2001)**,
+> *"Functional Imaging of Neural Responses to Expectancy and Experience of Monetary Gains and Losses"*,
+> *Neuron* 30(2), 619–639. Bài này so sánh trực tiếp với **Breiter và cộng sự (1997)** về cocaine ở
+> người nghiện, và tìm thấy các vùng kích hoạt chồng lấn — nhân accumbens và vùng amygdala mở rộng
+> dưới nhân đậu.
 
 Chú ý đồng tác giả: **Daniel Kahneman**. Cùng người ở §8. Ông đi từ ác cảm mất mát trên giấy bút
 tới đo trực tiếp trong máy quét.
 
-⚠️ **Một điểm cần chính xác hơn Lo.** fMRI đo tín hiệu **BOLD** — mức oxy trong máu — chứ **không** đo
-dopamine. Việc quy tín hiệu BOLD ở nhân accumbens thành "giải phóng dopamine" là một bước suy diễn.
-Đo dopamine trực tiếp cần PET với chất đánh dấu raclopride. Kết luận vẫn đứng vững, nhưng câu chữ
-"não họ giải phóng dopamine" là cách nói tắt.
+> [!warning] Một điểm cần chính xác hơn Lo.
+> fMRI đo tín hiệu **BOLD** — mức oxy trong máu — chứ **không** đo
+> dopamine. Việc quy tín hiệu BOLD ở nhân accumbens thành "giải phóng dopamine" là một bước suy diễn.
+> Đo dopamine trực tiếp cần PET với chất đánh dấu raclopride. Kết luận vẫn đứng vững, nhưng câu chữ
+> "não họ giải phóng dopamine" là cách nói tắt.
 
 **Hệ quả cho quản trị rủi ro** (`S20 31:20`, `S20 35:32`):
 
+> [!quote]
 > *"Khi bạn ở trạng thái đó, khi nhân accumbens của bạn bị dopamine kích thích quá mức, sẽ **rất khó,
 > gần như bất khả**, để bạn rút lại và nói không. Nói thẳng ra, **đó chính là định nghĩa của nghiện.**"*
 >
@@ -1274,6 +1374,7 @@ tê bởi chính lợi nhuận**.
 
 Từ đó Lo rút ra một lập luận về quy định mà ông tự nhận là giới kinh tế học bỏ sót (`S20 32:05`):
 
+> [!quote]
 > *"Các nhà kinh tế lập luận rằng nhà nước nên can thiệp vì có hàng hoá công, có ngoại ứng, có thị
 > trường không đầy đủ. Nhưng tôi nghĩ giới kinh tế đã bỏ sót **động cơ hiển nhiên nhất** cho quy
 > định: **quy định là phương tiện để xã hội ngăn chính mình làm những việc mà nó biết là mình không
@@ -1281,9 +1382,11 @@ Từ đó Lo rút ra một lập luận về quy định mà ông tự nhận l�
 
 Ví dụ hài hước rồi ví dụ nghiêm túc (`S20 32:23`, `S20 32:49`):
 
+> [!quote]
 > *"Đây là lý do một số người để khoai tây chiên lên **ngăn cao nhất** trong bếp. Họ biết là không nên
 > ăn quá nhiều. … Và cách đó **không hiệu quả lắm**. Tôi có thể làm chứng cho điều đó."*
 
+> [!quote]
 > *"Ở mọi bang của nước Mỹ, ta áp **mã phòng cháy** cho người xây dựng: số lối thoát tối thiểu, biển
 > báo lối thoát có đèn nhìn rõ, chuông báo cháy, hệ thống phun nước trên trần. Tất cả những thứ đó
 > **tốn tiền**. Bạn có bao giờ tự hỏi vì sao ta lại có chúng không? Nói cách khác, **sao không để thị
@@ -1291,6 +1394,7 @@ Ví dụ hài hước rồi ví dụ nghiêm túc (`S20 32:23`, `S20 32:49`):
 
 Và câu trả lời (`S20 33:41`):
 
+> [!quote]
 > *"Bạn biết vì sao không? Vì trong cái thế giới tự-do-lựa-chọn ấy, **sẽ không ai chọn toà nhà đắt
 > hơn**. Lý do rất đơn giản: khi bạn đánh giá xác suất có hoả hoạn vào một ngày bất kỳ, bạn gán cho
 > sự kiện đó **trọng số bằng 0**."*
@@ -1305,6 +1409,7 @@ Và câu trả lời (`S20 33:41`):
 Rồi ông trả lời một sinh viên phản biện rằng tài chính vốn đã là ngành bị quản chặt nhất
 (`S20 40:00`):
 
+> [!quote]
 > *"Tôi **không** nghĩ ta nên thêm quy định. Tôi cho rằng ta **không cần nhiều quy định hơn**. Ta cần
 > quy định **tốt hơn, thông minh hơn, thích nghi hơn.**"*
 >
@@ -1313,8 +1418,9 @@ Rồi ông trả lời một sinh viên phản biện rằng tài chính vốn �
 > phe Cộng hoà làm. Bill Clinton ký.** Nên trách nhiệm chia đều cho cả hai đảng. **Đây không phải một
 > vấn đề chính trị.**"* — `S20 40:41`
 
-📚 Kiểm chứng: Glass-Steagall (1933) bị vô hiệu hoá phần lớn bởi **Đạo luật Gramm-Leach-Bliley**, ký
-ngày **12/11/1999** bởi Tổng thống Bill Clinton. Lo nói đúng cả năm lẫn người ký.
+> [!note]
+> Kiểm chứng: Glass-Steagall (1933) bị vô hiệu hoá phần lớn bởi **Đạo luật Gramm-Leach-Bliley**, ký
+> ngày **12/11/1999** bởi Tổng thống Bill Clinton. Lo nói đúng cả năm lẫn người ký.
 
 ---
 
@@ -1335,11 +1441,12 @@ Ngân hàng lớn thứ hai từng sụp đổ trong lịch sử Mỹ tính tớ
 cho câu *"ta quy định vì ta biết chính mình"* — và cho luận điểm §23 rằng cơ chế cảnh báo bị gây tê
 sau một giai đoạn dài không có đau.
 
-⚠️ **Phải công bằng với cả phía phản biện.** Việc đổ lỗi khủng hoảng 2008 cho việc bãi bỏ
-Glass-Steagall là **gây tranh cãi trong giới kinh tế**: Bear Stearns và Lehman Brothers là ngân hàng
-đầu tư **thuần tuý**, Glass-Steagall không áp cho họ; và đạo luật đó cũng không cấm việc tạo và nắm
-giữ chứng khoán bảo đảm bằng thế chấp. Lo trình bày mối liên hệ đó như hiển nhiên; nó không hiển
-nhiên. Ông **đúng** về ngày tháng và người ký, nhưng quan hệ nhân quả thì còn mở.
+> [!warning] Phải công bằng với cả phía phản biện.
+> Việc đổ lỗi khủng hoảng 2008 cho việc bãi bỏ
+> Glass-Steagall là **gây tranh cãi trong giới kinh tế**: Bear Stearns và Lehman Brothers là ngân hàng
+> đầu tư **thuần tuý**, Glass-Steagall không áp cho họ; và đạo luật đó cũng không cấm việc tạo và nắm
+> giữ chứng khoán bảo đảm bằng thế chấp. Lo trình bày mối liên hệ đó như hiển nhiên; nó không hiển
+> nhiên. Ông **đúng** về ngày tháng và người ký, nhưng quan hệ nhân quả thì còn mở.
 
 ### Tài sản độc hại và kế toán theo giá thị trường
 
@@ -1390,8 +1497,9 @@ Kết quả: **trúng một phần** (P4 đúng là cân bằng cung–cầu). H
 thích nghi**. Lo đã đặt kết luận của buổi 20 vào danh sách nguyên lý ngay từ buổi 1, rồi che nó đi.
 Đó không phải sự trùng hợp — đó là thiết kế của khoá học.
 
-⚠️ Ở `S20 43:59` Lo đọc nhãn "P5" một lần rồi gộp hai ý cuối vào cùng một câu, sau đó lại nói *"cả
-sáu nguyên lý này"*. Bảng trên tách chúng thành P5 và P6 theo đúng tài liệu chính thức của 15.401.
+> [!warning]
+> Ở `S20 43:59` Lo đọc nhãn "P5" một lần rồi gộp hai ý cuối vào cùng một câu, sau đó lại nói *"cả
+> sáu nguyên lý này"*. Bảng trên tách chúng thành P5 và P6 theo đúng tài liệu chính thức của 15.401.
 
 ---
 
@@ -1418,6 +1526,7 @@ khoá học vụt qua trước mắt"*. Dưới đây là bản đồ ông vẽ,
 
 Và câu chốt của cả khoá (`S20 51:51`):
 
+> [!quote]
 > *"Bạn có thể tin vào chúng không? Câu trả lời là **thỉnh thoảng**. Khi thị trường hiệu quả, khi
 > giá phản ánh đầy đủ mọi thông tin sẵn có, thì sức mạnh và trí tuệ của đám đông là cực kỳ thuyết
 > phục. **Nhưng có những giai đoạn mà đám đông không phải một đám đông khôn ngoan, mà là một đám đông
@@ -1521,6 +1630,7 @@ Lo kết thúc ngày 8/12/2008 bằng câu hỏi *"ai còn lại trong thị tr�
 
 `S20 38:55`:
 
+> [!quote]
 > *"Nếu bạn tìm 'adaptive markets' trên mạng, lúc này bạn sẽ **chỉ thấy tên tôi** gắn với nó. Nó chưa
 > thật sự là một lý thuyết đi vào cách nói thông thường, chứ chưa nói được chấp nhận rộng rãi. Ở thời
 > điểm này nó chỉ là **một phỏng đoán**."*
@@ -1537,6 +1647,7 @@ vọng ở `S20 39:08`: *"nhưng hy vọng là điều đó sẽ thay đổi the
 
 `S19 05:37`:
 
+> [!quote]
 > *"Tôi sẽ đưa ra một dự báo khá mạnh. Tôi dự báo rằng những gì tôi sắp nói với các bạn trong 75 phút
 > tới sẽ **thay đổi cuộc đời các bạn vĩnh viễn**. Đó là một lời hứa lớn. Nhưng các bạn sẽ cho tôi
 > biết. **Năm hay mười năm nữa, tôi muốn các bạn viết thư lại cho tôi** và nói tôi có đúng không."*
@@ -1547,6 +1658,7 @@ Bây giờ là **18 năm**. Bạn vừa đọc lại bài giảng đó.
 
 ## 30. Code minh hoạ
 
+> [!note]
 > ⚙️ **Chạy:** cần **Python 3.10+**. Lưu file rồi gõ `python3 bai-13-thi-truong-hieu-qua.py`.
 > Không cần cài gói nào — chỉ dùng thư viện chuẩn. Kết quả **tất định**: chạy hai lần giống hệt nhau.
 
@@ -1579,7 +1691,7 @@ Bây giờ là **18 năm**. Bạn vừa đọc lại bài giảng đó.
 | Yahoo Finance           | Giá đóng cửa đã điều chỉnh theo ngày: BA, GE, HXL, TDG, LUV, ^GSPC — 8/2018–3/2019 (166 phiên)            |
 | DNSE / Entrade          | VN-Index đóng cửa cuối tháng, 7/2000–9/2026 (315 điểm)                                                    |
 
-⚠️ **Hai hạn chế của dữ liệu, ghi rõ:**
+> [!warning] Hai hạn chế của dữ liệu, ghi rõ:
 
 - Ở §5, thị trường dùng **^GSPC** (chỉ số giá, không có cổ tức) so với **giá đã điều chỉnh cổ tức**
   của từng mã. Với cửa sổ một ngày, sai lệch cổ tức khoảng 0,008%/ngày — không đáng kể so với AR
@@ -2286,7 +2398,7 @@ HET KHOA HOC. Moi con so tren tinh tu du lieu ghi ro trong chinh file nay.
 | Yahoo Finance (`query2.finance.yahoo.com`)                                                           | Giá ngày BA, GE, HXL, TDG, LUV, ^GSPC 2018–2019                   |
 | DNSE / Entrade chart-api                                                                             | VN-Index đóng cửa theo ngày 2000–2026                             |
 
-⚠️ **Chưa xác minh được, ghi rõ ở đây:**
+> [!warning] Chưa xác minh được, ghi rõ ở đây:
 
 - Tuyên bố ở `S19 60:54` rằng lưu lượng máu tới tân vỏ não bị thu hẹp **hàng giờ** sau một mũi kim:
   tôi **không tìm được nguồn xác nhận** cơ chế và khoảng thời gian cụ thể đó. Hiệu ứng nhận thức

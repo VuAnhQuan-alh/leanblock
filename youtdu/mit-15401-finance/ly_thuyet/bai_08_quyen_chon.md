@@ -1,20 +1,17 @@
 # Bài 8 — Quyền chọn: đường gãy khúc, cây nhị thức, và tham số biến mất
 
+> [!info] Về bài này
 > Bài học dựng trên **ba đoạn video**: phần cuối **"Ses 10"** (`IwA7nVEwqto`, từ `62:33`),
 > **toàn bộ "Ses 11: Options II"** (`rMsu4v-UlkA`, 58:41), và phần đầu **"Ses 12: Options III &
 > Risk and Return I"** (`Q2qjnLO3I_M`, tới `53:04`) — khoá **MIT 15.401 *Finance Theory I*,
 > Fall 2008**, giảng viên **Prof. Andrew W. Lo**. Phụ đề gốc do người viết tay.
->
 > 🕑 Mốc thời gian có tiền tố buổi: `S11 19:01` = buổi 11, phút 19:01. Mỗi mốc được đối chiếu với
 > **đúng** video của nó, không gộp chung.
 >
-> 📚 **Mở rộng** — kiến thức video lướt qua hoặc bài học này bổ sung, **không có trong video**.
-> 🇻🇳 **Góc Việt Nam** — số liệu và ví dụ trong nước (mục 22), **không có trong video**.
-> ⚠️ **Phần cuối buổi 12** (`S12 53:04` trở đi) là mở đầu về rủi ro và lợi suất — thuộc
-> [bài 9](../README.md), không nằm ở đây.
-> 📌 **Cần đọc trước:** [Bài 7](bai_07_ky_han_va_tuong_lai.md) — cả bài này dựng trên đúng một
-> phép so sánh: hợp đồng tương lai **bắt buộc** thực hiện, quyền chọn thì **không**.
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
 >
+> **Cần đọc trước:** [Bài 7](bai_07_ky_han_va_tuong_lai.md) — cả bài này dựng trên đúng một
+> phép so sánh: hợp đồng tương lai **bắt buộc** thực hiện, quyền chọn thì **không**.
 > Công thức viết bằng LaTeX — mở bằng **Obsidian** hoặc VS Code + Markdown Preview Enhanced.
 
 ---
@@ -69,6 +66,7 @@ giảng và đối chiếu với dữ liệu thị trường.
 
 Manh mối quyết định nằm ở `S11 32:30`:
 
+> [!quote]
 > *"Tuần trước, tính trong phiên, chỉ số VIX — tức Biến động Ẩn — chạm đỉnh **89 %**."*
 
 VIX chỉ chạm 89 **đúng một lần trong lịch sử**: **89,53 vào thứ Sáu 24/10/2008**. Vậy "tuần
@@ -91,9 +89,10 @@ Cả ba chỉ về: buổi 11 = **thứ Hai**, thi giữa kỳ **thứ Tư 29/10
   S&P 500 ngày 29/10/2007 là **1.540,98**; ngày 3/11/2008 là **966,30** — **−37,3 %**, rơi đúng
   giữa khoảng Lo nói.
 
-⚠️ **Một khoảng trống thành thật.** Buổi 10 (15/10) và buổi 11 (27/10) cách nhau **12 ngày**,
-trong khi lớp học họp thứ Hai và thứ Tư. Nghĩa là các buổi 20/10 và 22/10 **không nằm trong bộ 20
-video MIT OCW công bố**. Bài này không giả vờ biết chuyện gì xảy ra ở đó.
+> [!warning] Một khoảng trống thành thật.
+> Buổi 10 (15/10) và buổi 11 (27/10) cách nhau **12 ngày**,
+> trong khi lớp học họp thứ Hai và thứ Tư. Nghĩa là các buổi 20/10 và 22/10 **không nằm trong bộ 20
+> video MIT OCW công bố**. Bài này không giả vờ biết chuyện gì xảy ra ở đó.
 
 Bối cảnh thị trường trong ba tuần này:
 
@@ -110,11 +109,13 @@ Bối cảnh thị trường trong ba tuần này:
 
 Lo dựng định nghĩa bằng cách đối chiếu với bài 7 (`S10 63:19`):
 
+> [!quote]
 > *"Tên gọi của chúng rất đúng, vì chúng cho bạn **lựa chọn**. Hợp đồng tương lai và kỳ hạn **buộc**
 > bạn phải giao dịch, quyền chọn thì không. Nó cho bạn **quyền, nhưng không phải nghĩa vụ**."*
 
 Rồi ông xếp quyền chọn vào chỗ của nó trong họ chứng khoán (`S10 64:11`):
 
+> [!quote]
 > *"Quyền chọn là một ví dụ cụ thể của thứ mà bây giờ các bạn đã biết dưới tên chung là **chứng
 > khoán phái sinh**. Nó có tên đó vì **giá trị của nó được suy ra từ một chứng khoán khác**."*
 
@@ -135,11 +136,13 @@ quyền chọn.
 
 Lo hỏi lớp (`S10 66:58`):
 
+> [!quote]
 > *"Hôm nay cổ phiếu giao dịch ở **60 đô**, và bạn mua quyền mua nó ở **70 đô** trong ba tháng.
 > Tờ giấy đó có giá trị gì không? **Nó vô giá trị chứ?**"*
 
 Rồi tự trả lời (`S10 67:17`):
 
+> [!quote]
 > *"Lý do tờ giấy đó **không** đáng giá 0 hôm nay là vì **có một cơ hội**, dù bạn thấy nó nhỏ đến
 > đâu, rằng điều gì đó tuyệt vời sẽ xảy ra trong ba tháng tới và giá lên **80 đô**. Và nếu lên 80
 > đô, bạn sẽ rất vui vì có quyền mua ở 70. **Vui đến mức nào? Vui 10 đô một cổ phiếu.**"*
@@ -162,6 +165,7 @@ $$C_T = \max(S_T - K,\ 0) \qquad\qquad P_T = \max(K - S_T,\ 0)$$
 
 Đây là đoạn quan trọng nhất buổi 11, và Lo nói thẳng rằng nó khó hơn vẻ ngoài (`S11 14:08`):
 
+> [!quote]
 > *"Lợi suất của cổ phiếu là **tuyến tính**. Lợi suất của quyền chọn là **phi tuyến**. Và đây là
 > một trong những ý **quan trọng và tinh tế nhất** của công cụ này. Cho tới giờ, tất cả các công
 > cụ ta xem — cổ phiếu, trái phiếu, tương lai, kỳ hạn — payoff của chúng tương đối đơn giản, theo
@@ -170,11 +174,13 @@ $$C_T = \max(S_T - K,\ 0) \qquad\qquad P_T = \max(K - S_T,\ 0)$$
 
 Rồi ông nối thẳng vào cuộc khủng hoảng đang diễn ra (`S11 14:47`):
 
+> [!quote]
 > *"Một trong những lý do hôm nay chúng ta đang ở trong khủng hoảng tài chính là vì **độ phức tạp
 > của các chứng khoán đã được tạo ra**. Và độ phức tạp đó chính là các **phi tuyến** kiểu này."*
 
 Và ông nối ngược về bài 5 (`S11 15:03`):
 
+> [!quote]
 > *"Như tôi đã nói, **bảo hiểm là một quyền chọn bán**. Nên bạn có thể dùng lý thuyết định giá
 > quyền chọn để định giá hợp đồng bảo hiểm, ví dụ **hợp đồng hoán đổi rủi ro tín dụng**. Và điều đó
 > nghĩa là **một danh mục CDS không hành xử giống một danh mục cổ phiếu hay trái phiếu**."*
@@ -199,6 +205,7 @@ phiếu không thể âm**, nên chặn trên là chính $K$. Call thì không c
 
 Và ông cảnh báo về vị thế **bán call** (`S11 16:32`):
 
+> [!quote]
 > *"Nó sẽ là ảnh gương của đường xanh… nghĩa là **phần thua của bạn là vô hạn**, còn phần thắng thì
 > rất hạn chế. Sao lại có ai muốn làm thế? Nghe như một thoả thuận tệ hại. Khác biệt là **bạn được
 > trả tiền để làm việc đó**."*
@@ -209,6 +216,7 @@ Và ông cảnh báo về vị thế **bán call** (`S11 16:32`):
 
 Đây là phép ánh xạ hay nhất trong cả ba buổi, và Lo dựng nó ở `S10 70:11`:
 
+> [!quote]
 > *"Bạn đang nắm **General Electric**, đang giao dịch ở **20 đô**, và bạn muốn chắc chắn nó không
 > bao giờ xuống dưới **18 đô**… Cách làm là **bạn mua một quyền chọn bán GE với giá thực hiện 18
 > đô**."*
@@ -227,8 +235,9 @@ Rồi ông đi từng dòng của một hợp đồng bảo hiểm (`S10 71:13`)
 Lo kết (`S10 71:49`): *"Xong. Một thứ đẹp đẽ. **Quyền chọn bán không gì khác hơn là một hợp đồng
 bảo hiểm** trên giá trị một cổ phiếu."*
 
-📚 Mục 19 chứng minh rằng đây **không phải ẩn dụ** — nó là một **đẳng thức**, và đẳng thức đó có
-tên: **ngang giá put–call**.
+> [!note]
+> Mục 19 chứng minh rằng đây **không phải ẩn dụ** — nó là một **đẳng thức**, và đẳng thức đó có
+> tên: **ngang giá put–call**.
 
 ### Ba khác biệt so với bảo hiểm thật (`S10 72:33`)
 
@@ -245,12 +254,14 @@ tên: **ngang giá put–call**.
 Một sinh viên hỏi (`S10 74:21`): mua quyền chọn bán thì có mất phần lợi khi giá lên không? Lo
 (`S10 74:41`):
 
+> [!quote]
 > *"Không, thật ra **không đúng**. Nếu bạn mua cổ phiếu và giữ nó, và bạn cũng mua một quyền chọn
 > bán, cái đó **bảo vệ phần dưới**. Còn phần trên **hoàn toàn là của bạn**. Vì khi cổ phiếu lên,
 > quyền chọn bán mất giá trị — nó **dừng ở 0**, nó không đi xuống âm."*
 
 Rồi ông đóng cái bẫy (`S10 75:17`):
 
+> [!quote]
 > *"Nghe thì bạn được cả hai đầu. **Và như các bạn đều biết, bảo hiểm thì không rẻ.** Nghe thì hay,
 > nhưng bạn phải trả tiền cho nó."*
 
@@ -264,6 +275,7 @@ quyền chọn thì **đáng giá dương ngay ngày đầu**.
 
 Lo cẩn thận tách hai đường (`S11 07:06`):
 
+> [!quote]
 > *"Trông từ biểu đồ này, quyền chọn mua giống mấy lời chào trên TV khuya — kiếm một triệu đô mà
 > **không cần vốn**. Kiểu như **không có cách nào thua**. Sao lại có thể thế được?"*
 
@@ -275,15 +287,18 @@ ngày mua tới ngày đáo hạn — dù (`S11 08:22`) *"thường thì ta bỏ
 
 Hệ quả (`S11 10:28`):
 
+> [!quote]
 > *"Giá cổ phiếu phải lên **cao hơn 20 đô một chút** thì bạn mới có lãi, sau khi trừ chi phí mua
 > quyền chọn."*
 
 **Điểm hoà vốn của quyền chọn mua không phải giá thực hiện — mà là giá thực hiện cộng phí.** Đây
 là chỗ người mới sai nhiều nhất, và mục 22 cho thấy nó gây hậu quả gì với chứng quyền ở Việt Nam.
 
-📚 Một câu hỏi rất hay từ dưới lớp (`S11 08:37`): *"Nhìn giá quyền chọn có suy ra được gì về giá
-tương lai của cổ phiếu không?"* Lo (`S11 08:51`):
+> [!note]
+> Một câu hỏi rất hay từ dưới lớp (`S11 08:37`): *"Nhìn giá quyền chọn có suy ra được gì về giá
+> tương lai của cổ phiếu không?"* Lo (`S11 08:51`):
 
+> [!quote]
 > *"Có, hoàn toàn có. Giống như trong quản trị khủng hoảng — nhìn tín phiếu kho bạc hôm nay là biết
 > nhu cầu giữ tiền mặt, giấu tiền dưới đệm, lớn tới đâu. **Nhìn quyền chọn thì bạn cảm nhận được
 > thị trường đang đi về đâu.**"*
@@ -309,6 +324,7 @@ càng hẹp thì mua càng đắt."*
 
 Rồi ông chốt ý (`S11 21:02`):
 
+> [!quote]
 > *"Bạn đang nói rằng bạn sẽ **kiếm được rất nhiều tiền nếu giá lên rất cao hoặc xuống rất thấp**.
 > Cách duy nhất bạn không kiếm được gì là nếu cổ phiếu **không làm gì cả**… Đây là ví dụ về việc
 > đặt cược **không phải rằng thị trường sẽ lên, không phải rằng thị trường sẽ xuống, mà rằng thị
@@ -316,6 +332,7 @@ Rồi ông chốt ý (`S11 21:02`):
 
 Và ngay lập tức ông chỉ ra cái bẫy (`S11 21:57`):
 
+> [!quote]
 > *"Bây giờ nó bị **đẩy xuống rất sâu**. Nói cách khác, mua một put và một call bây giờ **rất đắt**.
 > Vì sao? Vì **biến động đang rất cao**… Bạn đang mua bảo hiểm, và bây giờ mua bảo hiểm rất, rất
 > đắt. Vì **chúng ta đang ở giữa một cơn bão**. Và đó có lẽ là **thời điểm tệ nhất để mua bảo hiểm
@@ -335,6 +352,7 @@ hiểm đắt lên, và cái ngưỡng bạn phải vượt qua để có lãi c
 
 Và ông dùng nó để bình một tin thời sự (`S11 23:36`):
 
+> [!quote]
 > *"Nếu bạn là **Warren Buffett** và mua **Goldman Sachs** ba, bốn tuần trước, và lúc đó thấy đó là
 > món hời — thì đến giờ **bạn đã lỗ**. Warren Buffett đã lỗ. Mặt khác, như các bạn đều biết,
 > Buffett không đầu tư ngắn hạn."*
@@ -351,6 +369,7 @@ Khoản đầu tư đó — 5 tỷ đô cổ phiếu ưu đãi Goldman, công b�
 Lo hỏi lớp: *"Sao lại tự cắt phần lợi phía trên? Nếu chỉ mua call thôi thì bạn được hết mà."*
 Sinh viên đáp gọn (`S11 26:19`): **"Vì nó rẻ hơn."** Lo:
 
+> [!quote]
 > *"Chính xác. Nó rẻ hơn vì khi bạn bán call ở 60, **bạn nhận tiền ngay hôm nay**. Số đó giúp bạn
 > tài trợ cho cái call ở 50. Rẻ hơn, **nhưng không phải bữa trưa miễn phí**."*
 
@@ -363,6 +382,7 @@ những người lạc quan hơn tôi, và lấy tiền đó bù chi phí."*
 
 **Butterfly** (`S11 27:56`): mua call 40, **bán 2** call 50, mua call 60.
 
+> [!quote]
 > *"Payoff: nếu nó nằm trong một khoảng thì bạn được trả tiền. Nhưng nếu nó **thật sự biến động
 > mạnh** thì bạn không được trả gì. Bạn **đặt cược ngược lại biến động**."*
 
@@ -375,12 +395,14 @@ khi thị trường đứng yên. Cùng một bộ công cụ, hai niềm tin ng
 
 Lo nêu một kết quả toán học rồi đi tiếp (`S11 28:20`):
 
+> [!quote]
 > *"Với những kiểu payoff này, bạn có thể **chứng minh bằng toán học** rằng có thể tạo ra **bất kỳ
 > payoff nào khác trên đời**. Có một kết quả toán học liên quan tới **khai triển Taylor và khai
 > triển Fourier**, nói rằng **mọi chứng khoán mà bạn nghĩ ra được đều xấp xỉ được bằng một dãy call
 > và put**. Đó là một ý rất mạnh."*
 
-📚 Kết quả này có tên: **công thức Breeden–Litzenberger / Carr–Madan**. Với hàm payoff $f$ đủ trơn:
+> [!note]
+> Kết quả này có tên: **công thức Breeden–Litzenberger / Carr–Madan**. Với hàm payoff $f$ đủ trơn:
 
 $$f(S_T) = f(K_0) + f'(K_0)\,(S_T - K_0) + \int_0^{K_0} f''(K)\,P(K)\,dK + \int_{K_0}^{\infty} f''(K)\,C(K)\,dK$$
 
@@ -402,6 +424,7 @@ tưởng là mình đã hiểu**. Trừ khi bị buộc phải tự vẽ ra, b�
 Một sinh viên hỏi một câu rất sâu (`S11 29:38`): giá quyền chọn có **tự tạo ra** biến động không?
 Lo trả lời bằng cách kể về VIX (`S11 30:14`):
 
+> [!quote]
 > *"Câu hỏi đó được đặt ra ngay sau khi Black và Scholes công bố công thức. Nó tạo ra cả một dòng
 > nghiên cứu, khởi đầu bởi chính cựu Chủ nhiệm khoa của chúng ta, **Dick Schmalensee**. Ông viết
 > một bài với **Robert Trippi** về biến động ẩn của quyền chọn."*
@@ -411,6 +434,7 @@ Premia"*, *Journal of Finance*, 1978. Richard Schmalensee là Chủ nhiệm khoa
 
 Rồi Lo mô tả VIX (`S11 31:25`):
 
+> [!quote]
 > *"Giờ có một chỉ số do **Sở Giao dịch Quyền chọn Chicago** tạo ra, gọi là **VIX**, viết tắt của
 > **Volatility Implied Index**. Họ nhìn các quyền chọn trên **S&P 500** và hỏi: **biến động nào
 > nhất quán với giá quyền chọn ngang giá** trên chỉ số đó?"*
@@ -459,11 +483,13 @@ sau vẫn vậy.
 
 Lo chuyển sang phần ông thích nhất (`S11 33:43`):
 
+> [!quote]
 > *"Ngay sau khi các bài của Black, Scholes và Merton được công bố, người ta nhận ra rằng **nhìn
 > đâu cũng thấy quyền chọn**."*
 
 Rồi ông làm cú lật ngoạn mục (`S11 34:04`):
 
+> [!quote]
 > *"Tôi đã nói trước đây rằng giá cổ phiếu **không** giống quyền chọn. Xấp xỉ thì đúng. Nhưng thực
 > tế, nếu nhìn kỹ **cổ phiếu là gì**, thì **cổ phiếu chính là một quyền chọn**."*
 
@@ -474,15 +500,17 @@ $$E_T = \max(0,\ V_T - B)$$
 
 trong đó $V$ là giá trị tài sản doanh nghiệp và $B$ là mệnh giá nợ.
 
+> [!quote]
 > *"Cái đó **trông rất quen** với các bạn. Nó **chính là payoff của một quyền chọn mua**, với giá
 > thực hiện là $B$ và tài sản cơ sở là $V$."*
 
 Còn chủ nợ (`S11 36:20`): $D_T = \min(V_T,\ B) = B - \max(0,\ B - V_T)$ — tức là **trái phiếu phi
 rủi ro cộng với một vị thế bán khống quyền chọn bán**. Và (`S11 36:53`): $V = D + E$.
 
-📚 Mô hình này có tên và có tác giả: **Merton (1974)**. Lo nêu ý tưởng nhưng không đưa công thức.
-Mục 7 của [code](#23-code-minh-hoạ) chạy nó với Black–Scholes, nợ mệnh giá 100, kỳ hạn 1 năm,
-$r = 3\%$:
+> [!note]
+> Mô hình này có tên và có tác giả: **Merton (1974)**. Lo nêu ý tưởng nhưng không đưa công thức.
+> Mục 7 của [code](#23-code-minh-hoạ) chạy nó với Black–Scholes, nợ mệnh giá 100, kỳ hạn 1 năm,
+> $r = 3\%$:
 
 | Đòn bẩy $V/B$ | $\sigma_V$ | Vốn CSH $E$ | Giá nợ $D$ | Chênh lệch tín dụng |
 | ------------: | ---------: | ----------: | ---------: | ------------------: |
@@ -506,12 +534,14 @@ ngày 1/10/2008, và là lý do các cơ quan xếp hạng — vốn nhìn tài 
 
 Từ $V = D + E$, Lo mô tả một nghề (`S11 37:12`):
 
+> [!quote]
 > *"Đẳng thức này **phải** đúng. Nhưng thực tế có chênh lệch giữa giá thị trường của $D$ và của
 > $E$. Dùng lý thuyết quyền chọn và mô hình rủi ro tín dụng, các quỹ đầu cơ đã kiếm tiền bằng cách
 > **mua cổ phiếu và bán khống trái phiếu của cùng một công ty**, hoặc ngược lại."*
 
 Rồi một câu rất đáng nhớ (`S11 37:48`):
 
+> [!quote]
 > *"Muốn làm những giao dịch đó thì bạn phải có năng lực mô hình hoá tín dụng vượt trội — **chắc
 > chắn phải hơn cái mà các cơ quan xếp hạng đang làm**. Và thực tế đã có những trường hợp quỹ đầu
 > cơ **chủ động đặt cược chống lại mô hình của cơ quan xếp hạng**."*
@@ -527,6 +557,7 @@ nền của **"khoảng cách tới vỡ nợ"** mà Moody's KMV và các bàn t
 
 Lo kể chuyện riêng (`S11 38:31`):
 
+> [!quote]
 > *"Khi tôi mới về MIT hai mươi năm trước, tôi nhớ rất rõ có mấy đồng nghiệp lớn tuổi gọi **trợ lý
 > giáo sư là quyền chọn**."*
 
@@ -537,6 +568,7 @@ thì hết quyền chọn."* (`S11 39:35`)
 Rồi ông hỏi lớp: nếu tin vào định giá quyền chọn thì nên tuyển loại trợ lý giáo sư nào? Một sinh
 viên: **"Chấp nhận rủi ro."** Lo (`S11 40:12`):
 
+> [!quote]
 > *"Chấp nhận rủi ro. Bạn muốn tuyển những người **cực kỳ biến động**. Không phải về cảm xúc, hy
 > vọng thế, mà về **trí tuệ**. Vì **bạn được toàn bộ phần trên nhưng không chịu phần dưới**. Và đó
 > thật sự là cách chúng tôi và nhiều nơi khác đã tuyển người."*
@@ -597,6 +629,7 @@ nhiều lần và **không bao giờ thắng**; ông thách đấu Cardano, Ferr
 Cardano viết ***Liber de Ludo Aleae*** (*Sách về trò chơi may rủi*), và Lo đọc nguyên văn
 (`S11 46:10`):
 
+> [!quote]
 > *"Nguyên tắc căn bản nhất của mọi trò cờ bạc đơn giản là **điều kiện ngang bằng** — về đối thủ,
 > về khán giả, về tiền, về hoàn cảnh, về hộp xúc xắc, và về chính con xúc xắc. **Trong chừng mực
 > bạn rời xa sự ngang bằng đó, nếu nó có lợi cho đối thủ thì bạn là kẻ ngốc, còn nếu có lợi cho
@@ -614,11 +647,13 @@ canh bạc đều công bằng.**
 
 Lo dẫn tới một điểm ông rõ ràng rất tự hào (`S11 47:23`):
 
+> [!quote]
 > *"Bước ngẫu nhiên có một vị trí đặc biệt trong lòng các nhà kinh tế tài chính, vì hầu hết nhà
 > kinh tế đều mắc một chứng rối loạn tâm lý mà chúng tôi gọi là **ghen tị với vật lý**. Ai cũng ước
 > mình có ba định luật giải thích được 99 % hành vi. Thực tế, các nhà kinh tế có **99 định luật
 > giải thích được chừng 3 % hành vi kinh tế**."*
 
+> [!quote]
 > *"Nhưng có **đúng một** ví dụ trong lịch sử tài chính, nơi một nhà kinh tế nghĩ ra ý tưởng
 > **trước** một nhà vật lý."*
 
@@ -669,6 +704,7 @@ cho ông (`S11 52:18`) ✓.
 Poincaré — người hướng dẫn Bachelier — viết trong **bản nhận xét luận án** (Lo gọi nhầm là "thư
 giới thiệu việc làm", `S11 49:37`):
 
+> [!quote]
 > *"Cách ứng viên thu được luật Gauss là **hết sức độc đáo**… Ông phát triển nó trong một chương
 > thoạt nhìn có vẻ kỳ lạ, vì ông đặt tên nó là **'Bức xạ của Xác suất'**. Trên thực tế, tác giả
 > viện tới một so sánh với **lý thuyết giải tích về sự lan truyền của nhiệt**… Lập luận của Fourier
@@ -698,12 +734,14 @@ Trước Black–Scholes có một chuỗi thất bại đáng kể, và Lo li�
 
 Rồi Lo kể chuyện xảy ra ngay bên kia đường (`S11 54:54`):
 
+> [!quote]
 > *"Fischer Black lúc đó là tư vấn viên tại **Arthur D. Little**. Ông ấy **thậm chí không phải người
 > hàn lâm**. Toà nhà Arthur D. Little là toà nhà ngay kia — cái mà người ta không cho chúng tôi phá
 > đi, vì nó được coi là một viên ngọc kiến trúc."*
 
 Điểm nghẽn (`S11 55:32`):
 
+> [!quote]
 > *"Fischer về cơ bản đã tìm ra phương trình đó, nhưng **không giải được**, vì ông ấy **chưa bao giờ
 > nghe nói tới phương trình truyền nhiệt** — nền tảng của ông là khoa học máy tính, không phải toán.
 > Trớ trêu là Fischer Black **có bằng tiến sĩ toán ứng dụng**. Nhưng ông ấy **chưa bao giờ học vật
@@ -717,17 +755,20 @@ nhiệt thôi. Đây, giải thế này."*
 
 Lo (`S11 56:38`):
 
+> [!quote]
 > *"Họ gửi bài cho khoảng **năm tạp chí kinh tế**. **Tất cả** đều từ chối, nói rằng cái này quá
 > chuyên biệt, không phải kinh tế học, không phải tài chính, chúng tôi không biết nó là gì — **đi
 > chỗ khác**."*
 
+> [!quote]
 > *"Chỉ tới khi họ đổi được tiêu đề từ 'định giá quyền chọn' sang **'Định giá Quyền chọn và Nghĩa
 > vụ Nợ Doanh nghiệp'** thì cuối cùng bài mới được đăng."*
 
-⚠️ Tiêu đề Lo nêu là chính xác — *"The Pricing of Options and Corporate Liabilities"*, *Journal of
-Political Economy*, số tháng 5–6/1973. Nhưng con số **"khoảng năm tạp chí"** thì bài này **không
-xác minh được**; các tường thuật đã kiểm chứng chỉ ghi nhận **JPE** và **Review of Economics and
-Statistics** từ chối, và JPE nhận sau khi **Merton Miller** và **Eugene Fama** can thiệp.
+> [!warning]
+> Tiêu đề Lo nêu là chính xác — *"The Pricing of Options and Corporate Liabilities"*, *Journal of
+> Political Economy*, số tháng 5–6/1973. Nhưng con số **"khoảng năm tạp chí"** thì bài này **không
+> xác minh được**; các tường thuật đã kiểm chứng chỉ ghi nhận **JPE** và **Review of Economics and
+> Statistics** từ chối, và JPE nhận sau khi **Merton Miller** và **Eugene Fama** can thiệp.
 
 ### Hành vi đạo đức mà Lo gọi là phi thường
 
@@ -735,17 +776,20 @@ Merton đi hướng khác và tới cùng kết quả, độc lập. Bài của 
 Pricing"*, *Bell Journal of Economics and Management Science*, mùa xuân 1973 — thực ra **được nhận
 trước**. Rồi (`S11 57:28`):
 
+> [!quote]
 > *"Merton **được đăng trước**. Nhưng ông ấy **yêu cầu hoãn bài của mình lại**, vì ông muốn bài của
 > Fischer Black và Myron Scholes ra **cùng năm**. Ông cảm thấy mình đã rút ra quá nhiều trực giác
 > từ những gì Black và Scholes làm, nên **không muốn về đích trước** — như thế là không công bằng
 > với họ."*
 
+> [!quote]
 > *"Đó là **một trong những hành vi đạo đức nghề nghiệp phi thường nhất** trong ngành. Vì cả hai
 > đều thấy rõ **cái gì đang được đặt cược**."*
 
-⚠️ **Một chỗ sai về ngày.** Lo (`S11 57:55`): *"Không may là Fischer Black đã **chết vì ung thư năm
-trước đó**."* Giải Nobel trao **tháng 10/1997**; Fischer Black mất **30/8/1995** vì ung thư vòm
-họng, ở tuổi 57 — **hai năm trước**, không phải một năm.
+> [!warning] Một chỗ sai về ngày.
+> Lo (`S11 57:55`): *"Không may là Fischer Black đã **chết vì ung thư năm
+> trước đó**."* Giải Nobel trao **tháng 10/1997**; Fischer Black mất **30/8/1995** vì ung thư vòm
+> họng, ở tuổi 57 — **hai năm trước**, không phải một năm.
 
 ✅ Phần còn lại Lo kể đúng: giải không trao cho người đã mất, nhưng **thông cáo của Uỷ ban Nobel
 nêu đích danh Black**, ghi rằng công trình được phát triển *"trong sự hợp tác chặt chẽ với Fischer
@@ -761,6 +805,7 @@ Black, người đã mất ở tuổi ngoài năm mươi năm 1995."*
 
 Buổi 12 là buổi Lo trả món nợ. Ông mở đầu (`S12 01:28`):
 
+> [!quote]
 > *"Đây sẽ là mô hình định giá quyền chọn **đầu tiên mà bất kỳ ai trong các bạn từng thấy**. Các
 > bạn đều nghe nói về Black–Scholes. Nhưng lý do tôi **yêu** mô hình này là vì nó đơn giản tới mức
 > **chỉ với đại số phổ thông**, bạn tự làm được toàn bộ phần giải tích. Trong khi **kinh tế học ẩn
@@ -783,6 +828,7 @@ $C_u = \max(uS_0 - K, 0)$ và $C_d = \max(dS_0 - K, 0)$.
 
 Lo dựng nó bằng đúng cách ông đã dùng cho trái phiếu, cổ phiếu, và hợp đồng tương lai (`S12 12:50`):
 
+> [!quote]
 > *"Chúng ta sẽ làm **đúng cách đã định giá gần như mọi thứ trên đời**. Dùng lập luận kinh doanh
 > chênh lệch giá. Tôi sẽ dựng một **danh mục có payoff giống hệt quyền chọn**, và khi đó chi phí
 > dựng danh mục đó **phải chính là giá quyền chọn**."*
@@ -797,9 +843,10 @@ $$\Delta^* = \frac{C_u - C_d}{(u-d)S_0} \qquad\qquad B^* = \frac{uC_d - dC_u}{(u
 
 $$\boxed{C_0 = S_0\Delta^* + B^*}$$
 
-⚠️ **Lưu ý ký hiệu (`S12 15:37`):** Cox–Ross–Rubinstein dùng $r$ là lãi suất **gộp** — tức
-$r = 1{,}05$ cho 5 %, không phải $1+r$. Lo tự xin lỗi về chỗ này. Đừng nhầm với $r$ ròng ở bài
-2–7.
+> [!warning] Lưu ý ký hiệu (`S12 15:37`):
+> Cox–Ross–Rubinstein dùng $r$ là lãi suất **gộp** — tức
+> $r = 1{,}05$ cho 5 %, không phải $1+r$. Lo tự xin lỗi về chỗ này. Đừng nhầm với $r$ ròng ở bài
+> 2–7.
 
 ### Kiểm bằng chính ví dụ của Lo
 
@@ -823,6 +870,7 @@ quyền chọn **phải** là 5,2381 đô — nếu không, có máy in tiền.
 Đây là khoảnh khắc Lo dàn dựng công phu nhất cả khoá. Ở `S12 09:46` ông liệt kê **sáu tham số**:
 $S_0$, $K$, $u$, $d$, $p$, $r$. Rồi (`S12 10:31`):
 
+> [!quote]
 > *"Công thức định giá quyền chọn sẽ phụ thuộc vào **tất cả các tham số này trừ một**. **Một trong
 > số chúng là thừa.** Có ai đoán được là tham số nào không?"*
 
@@ -832,6 +880,7 @@ trông như thuộc về đó."*
 
 Rồi ông tiết lộ (`S12 20:35`):
 
+> [!quote]
 > *"Điều mà công thức này **không** phụ thuộc vào là **xác suất nó lên hay xuống**. Bây giờ,
 > **chuyện đó thật đáng kinh ngạc**. Kinh ngạc vì nó nói rằng **bạn và tôi có thể bất đồng** về
 > việc General Electric ngày mai lên hay xuống, **mà vẫn đồng ý** giá của một quyền chọn mua GE."*
@@ -851,6 +900,7 @@ cùng một giá quyền chọn.
 
 Lo (`S12 21:21`):
 
+> [!quote]
 > *"Nó liên quan tới một hiện tượng **rất, rất sâu**: định giá quyền chọn là định giá **độ lớn
 > tương đối của chứng khoán đó so với giá cổ phiếu**. Và một khi ta hiểu các đặc trưng cơ bản của
 > giá cổ phiếu — như nó lên xuống bao nhiêu qua $u$ và $d$ — thì **cái đó quan trọng hơn chính xác
@@ -870,6 +920,7 @@ Một sinh viên hỏi ngay (`S12 22:27`): nếu bất đồng về **$u$ và $d
 Và điều này trả lời câu hỏi *"vậy thị trường quyền chọn tồn tại bằng cách nào?"* (`S12 22:27`).
 Lo (`S12 23:20`):
 
+> [!quote]
 > *"Ta **đồng ý về $u$ và $d$**, nhưng bạn nghĩ giá sẽ lên nên bạn muốn cái call đó; tôi nghĩ giá
 > sẽ xuống nên tôi vui lòng bán cho bạn. **Ta bất đồng về $p$. Đó là thứ tạo ra thị trường.** Vẻ
 > đẹp của cách dựng này là nó cho phép ta **thống nhất được một cái giá, trong khi có lý do hoàn
@@ -902,6 +953,7 @@ Sinh viên Brian trả lời, và Lo dẫn lại chậm rãi (`S12 27:23`):
 
 Kết (`S12 28:27`):
 
+> [!quote]
 > *"Trường hợp **duy nhất** mà cổ phiếu và tín phiếu **cùng tồn tại được** trong thế giới đơn giản
 > này là khi bất đẳng thức đó đúng. **Đó là kinh tế học của công thức định giá này. Nó không liên
 > quan gì tới toán.**"*
@@ -920,20 +972,24 @@ toàn bằng lập luận rằng cả hai loại tài sản phải cùng tồn t
 Sinh viên phản đối đúng chỗ: đời thật đâu chỉ có hai kết cục. Lo trả lời bằng cách mở rộng
 (`S12 34:51`):
 
+> [!quote]
 > *"Lý do phần mở rộng này mạnh đến thế là vì **tôi chưa hề nói một kỳ là bao lâu**. Tôi chỉ nói
 > hôm nay so với ngày mai. Nhưng nó có thể là **ba phút nữa, ba femto-giây nữa, hay ba năm nữa**."*
 
+> [!quote]
 > *"Nên nếu bạn nói ta không thống nhất được $u$ và $d$ — thì thôi, đừng thống nhất. **Hãy thống
 > nhất rằng giữa bây giờ và năm phút nữa, có 256 kết cục khả dĩ.** Cái đó dễ thống nhất chứ?"*
 
 Rồi (`S12 36:21`):
 
+> [!quote]
 > *"Khi bạn cho **số kỳ tiến ra vô cùng**, đồng thời **co $u$ và $d$ nhỏ dần** để cây trở nên đủ
 > thực tế — bạn biết được gì không? **Bạn được công thức Black–Scholes.**"*
 
 Và ông đóng vòng lại với mục 13 (`S12 36:59`): nghiệm là lời giải của **phương trình đạo hàm riêng
 parabolic** — đúng phương trình truyền nhiệt của Bachelier. Rồi (`S12 37:21`):
 
+> [!quote]
 > *"Đây là thứ **Black và Scholes chưa bao giờ nghĩ tới**. Một cách tiếp cận hoàn toàn khác dẫn tới
 > **đúng cùng một kết luận**."*
 
@@ -950,13 +1006,15 @@ Mục 4 của [code](#23-code-minh-hoạ) đo tốc độ hội tụ trên **th�
 |    1.024 |      78,3483 |      −0,02 % |
 |    4.096 |      78,3626 |  **−0,01 %** |
 
-⚠️ Chú ý cột lệch **đổi dấu** giữa $n=1$ và $n=2$ rồi mới hội tụ từ dưới lên. Cây nhị thức
-**không** đơn điệu tiến về Black–Scholes — nó dao động quanh đích. Đó là lý do trong thực tế người
-ta không dùng $n$ nhỏ rồi ngoại suy.
+> [!warning]
+> Chú ý cột lệch **đổi dấu** giữa $n=1$ và $n=2$ rồi mới hội tụ từ dưới lên. Cây nhị thức
+> **không** đơn điệu tiến về Black–Scholes — nó dao động quanh đích. Đó là lý do trong thực tế người
+> ta không dùng $n$ nhỏ rồi ngoại suy.
 
 Và Lo giải thích vì sao thị trường vẫn dùng cây nhị thức chứ không dùng công thức đóng
 (`S12 37:42`):
 
+> [!quote]
 > *"Để giải các phương trình đạo hàm riêng này, trừ một số rất nhỏ ví dụ trong sách giáo khoa, bạn
 > **không giải được bằng giải tích**. Bạn phải giải bằng số. Mà nếu đằng nào cũng phải giải bằng
 > số, thì **chi bằng cứ dùng cây nhị thức** — nó đơn giản hơn nhiều về mặt tính toán."*
@@ -968,6 +1026,7 @@ lưới và tính toán phân tán.
 
 Một sinh viên hỏi bước ngẫu nhiên đi vào đâu (`S12 41:46`). Lo (`S12 42:06`):
 
+> [!quote]
 > *"Bước ngẫu nhiên **chính là giả định các phép tung đồng xu độc lập và cùng phân phối**. Nếu lợi
 > suất **tương quan theo thời gian** thì **các công thức này không chạy**. Bạn cần loại công thức
 > khác — bạn không còn có phép thử Bernoulli độc lập nữa, bạn có một **xích Markov**."*
@@ -975,7 +1034,8 @@ Một sinh viên hỏi bước ngẫu nhiên đi vào đâu (`S12 41:46`). Lo (`
 Và ông tiết lộ mình đã viết đúng bài đó (`S12 42:42`): Lo và Jiang Wang, *"Implementing Option
 Pricing Models When Asset Returns Are Predictable"*, *Journal of Finance*, 1995.
 
-⚠️ Lo nói *"chắc khoảng gần 10 năm trước"* — thực tế là **13 năm** tính từ 2008.
+> [!warning]
+> Lo nói *"chắc khoảng gần 10 năm trước"* — thực tế là **13 năm** tính từ 2008.
 
 Và biến động nằm ở đâu? Sinh viên trả lời đúng (`S12 48:43`): **khoảng cách giữa $u$ và $d$**. Lo:
 *"Chính xác. Giữ mọi thứ khác cố định, khi tôi **nới rộng khoảng cách giữa $u$ và $d$**, tôi đang
@@ -991,6 +1051,7 @@ tăng biến động."*
 
 Ở `S10 72:10` Lo nói đúng một câu rồi đi tiếp:
 
+> [!quote]
 > *"Mọi quyền chọn mua đều có thể chuyển thành một danh mục **có chứa quyền chọn bán**."*
 
 Ông không bao giờ viết ra. Đây là công thức đó:
@@ -1037,10 +1098,12 @@ ngay hôm nay** với **dòng tiền cuối kỳ bằng 0 ở mọi trạng thá
 
 Ở buổi 11 Lo hứa **hai lần** sẽ chiếu số liệu thật ở buổi sau:
 
+> [!quote]
 > `S11 09:18`: *"Sau khi tôi đưa cho các bạn công thức định giá, **buổi sau tôi sẽ chiếu giá quyền
 > chọn**. Cụ thể, ta sẽ xem giá **quyền chọn bán trên S&P 500 cho tháng tới và cho hai tháng tới**.
 > Và các bạn sẽ thấy **khác biệt rất, rất lớn** giữa hai cái đó."*
 
+> [!quote]
 > `S11 32:17`: *"Chúng ta sẽ xem nó **buổi sau, thứ Hai tới. Tôi sẽ làm việc đó ngay trong lớp**,
 > chiếu cho các bạn xem biến động đó trông thế nào."*
 
@@ -1089,10 +1152,11 @@ mạnh. Ông cảm nhận đúng độ đắt của giá, rồi quy nhầm nó c
 Hợp đồng hai tháng đắt hơn **1,72 lần**, **không phải gấp đôi** — giá quyền chọn tỷ lệ với **căn
 bậc hai của thời gian**, không tỷ lệ tuyến tính.
 
-⚠️ **Giới hạn phải nói rõ:** bảng trên giả định **biến động ẩn giống nhau ở cả hai kỳ hạn**. Ý Lo
-định chỉ ra (`S11 33:05`) là biến động ẩn kỳ hạn dài **thấp hơn**, vì thị trường kỳ vọng cơn hoảng
-loạn sẽ dịu — nhưng bài học này **không có dữ liệu chuỗi quyền chọn tháng 10/2008** để tái dựng con
-số đó. Nên ở đây chỉ trình bày **cơ chế**, không bịa số.
+> [!warning] Giới hạn phải nói rõ:
+> bảng trên giả định **biến động ẩn giống nhau ở cả hai kỳ hạn**. Ý Lo
+> định chỉ ra (`S11 33:05`) là biến động ẩn kỳ hạn dài **thấp hơn**, vì thị trường kỳ vọng cơn hoảng
+> loạn sẽ dịu — nhưng bài học này **không có dữ liệu chuỗi quyền chọn tháng 10/2008** để tái dựng con
+> số đó. Nên ở đây chỉ trình bày **cơ chế**, không bịa số.
 
 ---
 
@@ -1154,8 +1218,10 @@ PNJ, VNM, kỳ hạn 3–6 tháng.
 | Tỷ lệ chuyển đổi  | ví dụ **5:1** — 5 chứng quyền đổi 1 cổ phiếu     | 📚 không có trong quyền chọn Mỹ                    |
 | Tổ chức phát hành | **công ty chứng khoán**, không phải doanh nghiệp | ⚠️ xem dưới                                        |
 
-⚠️ **Một chỗ dễ hiểu sai, và Lo đã dựng sẵn khung để tránh.** Ở `S10 64:31` Lo phân biệt:
+> [!warning] Một chỗ dễ hiểu sai, và Lo đã dựng sẵn khung để tránh.
+> Ở `S10 64:31` Lo phân biệt:
 
+> [!quote]
 > *"Quyền chọn là chứng khoán mà bạn có thể coi như **cược thuần giữa hai bên**. **Chứng quyền
 > (warrant) là quyền chọn do một công ty phát hành trên chính cổ phiếu của mình**. Nên **cung ròng
 > của quyền chọn bằng 0**, còn cung ròng của chứng quyền thì không."*
@@ -1217,15 +1283,17 @@ Nam, bạn chỉ còn **bán khống VN30F1M**
    khoản — đúng bài học Metallgesellschaft ở [bài 7](bai_07_ky_han_va_tuong_lai.md#20-đòn-bẩy-metallgesellschaft-lme-nickel-và-niềm-tin-vào-nhà-thanh-toán-bù-trừ);
 3. **cắt luôn phần lợi phía trên** — trong khi mua quyền chọn bán thì không (`S10 74:41`).
 
-📚 Còn một quyền chọn mà rất nhiều người Việt **đang nắm mà không biết**: **ESOP**. Quyền mua cổ
-phiếu ưu đãi cho người lao động chính là một quyền chọn mua trên chính công ty mình — và mọi thứ ở
-[mục 11](#11-trợ-lý-giáo-sư-tấm-bằng-và-cách-tuyển-người) áp dụng nguyên vẹn: nó đáng giá **nhiều
-hơn** khi công ty biến động mạnh, và giá trị của nó **không** bằng chênh lệch giá hôm nay.
+> [!note]
+> Còn một quyền chọn mà rất nhiều người Việt **đang nắm mà không biết**: **ESOP**. Quyền mua cổ
+> phiếu ưu đãi cho người lao động chính là một quyền chọn mua trên chính công ty mình — và mọi thứ ở
+> [mục 11](#11-trợ-lý-giáo-sư-tấm-bằng-và-cách-tuyển-người) áp dụng nguyên vẹn: nó đáng giá **nhiều
+> hơn** khi công ty biến động mạnh, và giá trị của nó **không** bằng chênh lệch giá hôm nay.
 
 ---
 
 ## 23. Code minh hoạ
 
+> [!note]
 > ⚙️ **Chạy:** cần **Python 3.10+**. Lưu file rồi gõ `python3 bai-08-quyen-chon.py`.
 > **Không cần cài gói nào.** File có sẵn tại [thuc_hanh/bai-08-quyen-chon.py](../thuc_hanh/bai-08-quyen-chon.py).
 

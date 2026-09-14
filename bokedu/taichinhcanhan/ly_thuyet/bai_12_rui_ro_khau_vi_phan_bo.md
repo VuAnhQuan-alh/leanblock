@@ -1,23 +1,22 @@
 # Bài 12 — Rủi ro, khẩu vị rủi ro, phân bổ tài sản
 
+> [!info] Về bài này
 > Bài học dựa trên **C1 tr. 25–33** — Unit 4 (*Hồ sơ rủi ro*) Lesson 1–3 của *Tài chính cá nhân 101,
 > Class 1*. Có dùng thêm đoạn *"Hai. Khẩu vị rủi ro"* ở **C2 tr. 54** (bài blog) như minh hoạ sống.
->
 > **Cần đọc trước:** [Bài 11](bai_11_nhan_dien_lua_dao.md) — sách gọi CFD và coin là *"những kênh
 > rủi ro nhất"* (C1 tr. 32); bài này cho cái thước để đo *"rủi ro"* ấy là bao nhiêu so với sức chịu
 > của bạn. Và [bài 4](bai_04_tai_san_tieu_san_thap_tai_san.md) — tháp tài sản chia lớp an toàn /
 > tăng trưởng / mạo hiểm chính là phân bổ tài sản nhìn từ một góc khác.
->
 > **[đã cắt]:** Lesson 2 của sách (C1 tr. 28–31) là **hướng dẫn dùng app Topi**. Khoá học cắt phần
 > phụ thuộc nhà cung cấp và thay bằng **bảng câu hỏi Đại học Missouri** — chính sách đã dẫn nó ở
 > tr. 26 là *"cách 2… (uy tín)"*. Lý do ở [mục 3](#3-bốn-cách-đo-và-đã-cắt-vì-sao-bỏ-topi-thay-bằng-missouri).
->
 > **Ký hiệu:** **[bổ sung]** là kiến thức ngoài sách · **[đính chính]** là chỗ sách sai ·
 > **[đã cắt]** là phần thương mại thay bằng cách khác · **[2026]** là mục đối chiếu hiện tại.
->
 > **Code:** [`thuc_hanh/bai-12-rui-ro-khau-vi.py`](../thuc_hanh/bai-12-rui-ro-khau-vi.py)
 > — kiểm hai con số sách để trống: kỳ vọng thật của danh mục "Cân bằng", và số tiền tự do tài chính
 > đổi thế nào khi lợi suất kỳ vọng đổi. Công thức một dòng kèm theo để tự tính tay.
+>
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
 
 ---
 
@@ -64,6 +63,7 @@ biết sức chịu rồi mới bàn tới chỗ để tiền.
 
 Định nghĩa của sách gọn và đúng (C1 tr. 25):
 
+> [!quote]
 > *"Khẩu vị rủi ro… là mức độ rủi ro mà nhà đầu tư (cá nhân hoặc tổ chức) sẵn sàng chấp nhận để theo
 > đuổi các mục tiêu của mình."*
 
@@ -121,6 +121,7 @@ Một bài học phải còn dùng được khi app đổi chính sách hoặc n
 ở tr. 28 cần kiểm lại trước khi tin; còn một bảng câu hỏi học thuật thì không phụ thuộc nhà cung cấp
 nào. Nên khoá học **thay Cách 4 bằng Cách 2** — chính cái sách đã gọi là *"uy tín"*:
 
+> [!note]
 > **Bảng câu hỏi Đại học Missouri** — *Investment Risk Tolerance Assessment*, dựng trên thang **Grable
 > & Lytton (1999)**, **13 câu**, miễn phí, không cần cài app:
 > `https://pfp.missouri.edu/research/investment-risk-tolerance-assessment/`
@@ -231,6 +232,7 @@ dụ 12% ⟹ 1,5 tỷ.)*
 
 Lesson 3 (tr. 31–33) trả lời *"tại sao nên phân bổ tài sản"*, bắt đầu từ định nghĩa rủi ro (tr. 31):
 
+> [!quote]
 > *"Rủi ro (Risk) là khả năng có điều gì đó xấu xảy ra hoặc khi mọi thứ không diễn ra như kỳ vọng…
 > mất một phần hoặc toàn bộ vốn."*
 
@@ -249,6 +251,7 @@ Lesson 3 (tr. 31–33) trả lời *"tại sao nên phân bổ tài sản"*, b�
 
 Ngay giữa Lesson 3, sách viết một câu mà cả hai tập hiếm khi sắc như vậy (tr. 32):
 
+> [!quote]
 > *"Rủi ro cao chỉ tương ứng lợi tức **kỳ vọng** cao (High risk high EXPECTED return). Hãy chú ý chữ
 > KỲ VỌNG. Không có chuyện rủi ro cao tương ứng với lợi nhuận lớn."*
 

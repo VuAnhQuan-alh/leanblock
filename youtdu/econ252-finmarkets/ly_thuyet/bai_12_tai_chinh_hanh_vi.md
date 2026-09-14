@@ -1,18 +1,22 @@
 # Tài chính hành vi — Shiller phản biện Lo
 
+> [!info] Về bài này
 > Bài học dựng từ **buổi 11** khoá **Yale ECON 252 *Financial Markets*** (Xuân 2011), giảng viên
 > **Robert J. Shiller** — YouTube `chSHqogx2CI`, 7 chương, ~78 phút.
 > Mục có mốc `11 MM:SS` là **lấy từ video**, đã đối chiếu ngược với phụ đề gốc bằng script.
 > Mục có 📚 là **kiến thức bài này bổ sung**, không có trong video.
 > Mục có 🇻🇳 là **số liệu Việt Nam**, không có trong video, mọi con số đều trích nguồn.
-> ⚠️ **Video ghi Xuân 2011** — §14 và §15 đối chiếu với 2026.
-> 📌 **Nên đọc trước:** [Bài 5 — Ngân hàng đầu tư](bai_05_ngan_hang_dau_tu.md) (vốn uy tín, vòng xoáy
+>
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
+>
+> **Nên đọc trước:** [Bài 5 — Ngân hàng đầu tư](bai_05_ngan_hang_dau_tu.md) (vốn uy tín, vòng xoáy
 > ký quỹ).
 
+> [!note]
 > 🥊 **Bài này cố ý mâu thuẫn với kho bên cạnh.**
 > [Bài 13 của MIT 15.401](../../mit-15401-finance/ly_thuyet/bai_13_thi_truong_hieu_qua.md) đã dạy tài
 > chính hành vi rồi, nhưng qua lăng kính **thị trường thích nghi của Andrew Lo**. Shiller đi hướng
-> khác hẳn. [§14](#14--shiller-đối-đầu-lo--hai-cách-đọc-cùng-một-bằng-chứng) đặt hai người cạnh nhau.
+> khác hẳn. [§14](#14-shiller-đối-đầu-lo--hai-cách-đọc-cùng-một-bằng-chứng) đặt hai người cạnh nhau.
 
 Shiller mở đầu bằng một lời thú nhận hiếm thấy trong giảng đường (`11 00:53`): lĩnh vực này **vẫn còn
 gây tranh cãi**, và ông *"không hiểu hẳn vì sao người ta lại phân cực đến thế"*. Ông nói phe ông
@@ -27,19 +31,19 @@ Mười lăm năm sau, câu đó đã có câu trả lời — và câu trả l�
 1. [Adam Smith trước khi có kinh tế học](#1-adam-smith-trước-khi-có-kinh-tế-học)
 2. [Tâm lý học nhân cách, và giới hạn của nó](#2-tâm-lý-học-nhân-cách-và-giới-hạn-của-nó)
 3. [Lý thuyết triển vọng: hàm giá trị](#3-lý-thuyết-triển-vọng-hàm-giá-trị)
-4. [📚 Hàm trọng số — chỗ Shiller mô tả thiếu một nửa](#4--hàm-trọng-số--chỗ-shiller-mô-tả-thiếu-một-nửa)
+4. [📚 Hàm trọng số — chỗ Shiller mô tả thiếu một nửa](#4-hàm-trọng-số--chỗ-shiller-mô-tả-thiếu-một-nửa)
 5. [Lý thuyết hối tiếc và hành vi cờ bạc](#5-lý-thuyết-hối-tiếc-và-hành-vi-cờ-bạc)
 6. [Quá tự tin — thí nghiệm sống trong lớp](#6-quá-tự-tin--thí-nghiệm-sống-trong-lớp)
-7. [📚 Quá tự tin biến thành hoá đơn](#7--quá-tự-tin-biến-thành-hoá-đơn)
+7. [📚 Quá tự tin biến thành hoá đơn](#7-quá-tự-tin-biến-thành-hoá-đơn)
 8. [Bất hoà nhận thức, và cái giá của sự im lặng](#8-bất-hoà-nhận-thức-và-cái-giá-của-sự-im-lặng)
 9. [Neo, tính đại diện, và lây lan xã hội](#9-neo-tính-đại-diện-và-lây-lan-xã-hội)
 10. [Kế hoạch thao túng Shiller tự vạch ra trên lớp](#10-kế-hoạch-thao-túng-shiller-tự-vạch-ra-trên-lớp)
 11. [Kết luận đạo đức của Shiller](#11-kết-luận-đạo-đức-của-shiller)
-12. [⚠️ Ba chỗ cần đính chính](#12--ba-chỗ-cần-đính-chính)
-13. [📚 Khủng hoảng lặp lại đã quét qua ngành này](#13--khủng-hoảng-lặp-lại-đã-quét-qua-ngành-này)
-14. [🥊 Shiller đối đầu Lo — hai cách đọc cùng một bằng chứng](#14--shiller-đối-đầu-lo--hai-cách-đọc-cùng-một-bằng-chứng)
-15. [⚠️ Đối chiếu 2026](#15--đối-chiếu-2026)
-16. [🇻🇳 Góc Việt Nam](#16--góc-việt-nam)
+12. [⚠️ Ba chỗ cần đính chính](#12-ba-chỗ-cần-đính-chính)
+13. [📚 Khủng hoảng lặp lại đã quét qua ngành này](#13-khủng-hoảng-lặp-lại-đã-quét-qua-ngành-này)
+14. [🥊 Shiller đối đầu Lo — hai cách đọc cùng một bằng chứng](#14-shiller-đối-đầu-lo--hai-cách-đọc-cùng-một-bằng-chứng)
+15. [⚠️ Đối chiếu 2026](#15-đối-chiếu-2026)
+16. [🇻🇳 Góc Việt Nam](#16-góc-việt-nam)
 17. [Chương trình](#17-chương-trình)
 18. [Từ điển thuật ngữ](#18-từ-điển-thuật-ngữ)
 19. [Câu hỏi tự kiểm tra](#19-câu-hỏi-tự-kiểm-tra)
@@ -112,7 +116,7 @@ có APD; và giới thần kinh học tìm thấy **khác biệt ở vỏ não t
 theo một nghĩa nào đó**, nhưng nếu bạn làm kinh doanh thì bạn cũng sẽ làm thế, vì đối thủ đang làm.
 Ông gọi đây là **một trong những mâu thuẫn của xã hội chúng ta**.
 
-📌 Đoạn này là đoạn yếu nhất của buổi giảng về mặt học thuật — [§12](#12--ba-chỗ-cần-đính-chính) liệt
+📌 Đoạn này là đoạn yếu nhất của buổi giảng về mặt học thuật — [§12](#12-ba-chỗ-cần-đính-chính) liệt
 kê ba chỗ cần sửa. Nhưng câu hỏi ông đặt ra thì đúng và khó: **ranh giới giữa marketing và thao túng
 nằm ở đâu**, khi cạnh tranh buộc mọi người phải làm như nhau? Ông không trả lời, và cũng không giả vờ
 đã trả lời.
@@ -169,11 +173,12 @@ Hệ quả tài chính, mà lời giảng không tính: **canh bạc tung đồn
 ngửa.** Người theo lý thuyết triển vọng chỉ nhận khi **G ≥ 252**. Tức họ **bỏ qua một canh bạc có kỳ
 vọng dương tới 76 %** số tiền đặt cược.
 
+> [!note]
 > Đó không phải thận trọng. Đó là bỏ tiền lại trên bàn.
 
 📌 Cross-check: [§8 bài 13 MIT](../../mit-15401-finance/ly_thuyet/bai_13_thi_truong_hieu_qua.md#8-danh-sách-thiên-lệch-và-ác-cảm-mất-mát)
 cũng đo ác cảm mất mát, nhưng đặt nó trong danh sách thiên lệch của Lo. Hai bài dùng cùng một con số
-với hai kết luận khác nhau — [§14](#14--shiller-đối-đầu-lo--hai-cách-đọc-cùng-một-bằng-chứng) giải
+với hai kết luận khác nhau — [§14](#14-shiller-đối-đầu-lo--hai-cách-đọc-cùng-một-bằng-chứng) giải
 thích vì sao.
 
 ### Thiên lệch này bị khai thác thế nào
@@ -195,7 +200,7 @@ có tồn tại, nhưng **có giới hạn**.
 
 ---
 
-## 4. 📚 Hàm trọng số — chỗ Shiller mô tả thiếu một nửa
+## 4. Hàm trọng số — chỗ Shiller mô tả thiếu một nửa
 
 Phần thứ hai của lý thuyết triển vọng là **hàm trọng số** — cách tâm lý con người xử lý **xác suất**
 (`11 29:16`).
@@ -237,10 +242,11 @@ Và đây là chỗ nó khép lại chính ví dụ Shiller đưa ra ở `11 32:
 Đó là toàn bộ mô hình kinh doanh của cái máy bán bảo hiểm ở cửa lên máy bay — thứ Shiller kể là từng
 có ở khắp nơi rồi biến mất (`11 32:29`).
 
-⚠️ **Vì sao mô tả của Shiller tự mâu thuẫn.** Nếu người ta thật sự "làm tròn xác suất nhỏ về không"
-thì **sẽ không ai mua bảo hiểm chuyến bay cả**, và cũng không ai mua vé số. Chính nhánh **thổi phồng**
-— chứ không phải nhánh làm tròn — mới giải thích được cả hai hiện tượng. Mà cả hai đều là ví dụ của
-chính ông.
+> [!warning] Vì sao mô tả của Shiller tự mâu thuẫn.
+> Nếu người ta thật sự "làm tròn xác suất nhỏ về không"
+> thì **sẽ không ai mua bảo hiểm chuyến bay cả**, và cũng không ai mua vé số. Chính nhánh **thổi phồng**
+> — chứ không phải nhánh làm tròn — mới giải thích được cả hai hiện tượng. Mà cả hai đều là ví dụ của
+> chính ông.
 
 Cách đọc rộng lượng: Shiller đang mô tả một xấp xỉ tuyến tính từng khúc, và ông có nói tới nhánh
 "thổi phồng". Nhưng ông đặt nó là **trường hợp phụ** (*"nếu họ quyết định không làm tròn"*), trong khi
@@ -262,6 +268,7 @@ nữ** là con bạc cưỡng bức. Ông nói thêm: *"Tôi cá là nó đã t�
 Rồi ông làm một việc đáng chú ý: ông **không kết luận cờ bạc là bệnh lý**. Ông nói nó thường **không
 phải bệnh lý**, mà là một biểu hiện của xu hướng tìm kiếm cảm giác. Và:
 
+> [!note]
 > Thị trường chứng khoán, theo một nghĩa nào đó, là cách **kênh hành vi đó vào một việc có ích** thay
 > vì chỉ là một trò chơi.
 
@@ -270,7 +277,7 @@ khi đó cũng bảo *"đây chỉ là cờ bạc thôi"*.
 
 📌 Đây là một trong những đoạn cân bằng nhất của buổi giảng: cùng một đặc tính tâm lý vừa tạo ra
 nghiện cờ bạc, vừa tạo ra người sẵn sàng gánh rủi ro cho các doanh nghiệp mới. Thiên lệch không có dấu
-cộng hay dấu trừ cố định — nó có **bối cảnh**. Giữ ý này lại, vì [§14](#14--shiller-đối-đầu-lo--hai-cách-đọc-cùng-một-bằng-chứng)
+cộng hay dấu trừ cố định — nó có **bối cảnh**. Giữ ý này lại, vì [§14](#14-shiller-đối-đầu-lo--hai-cách-đọc-cùng-một-bằng-chứng)
 sẽ cho thấy đó chính là chỗ Shiller đứng gần Lo nhất trong cả buổi.
 
 ---
@@ -335,7 +342,7 @@ Hai tham chiếu ông đưa để đóng chương này:
 
 ---
 
-## 7. 📚 Quá tự tin biến thành hoá đơn
+## 7. Quá tự tin biến thành hoá đơn
 
 Shiller dừng ở chỗ "người ta quá tự tin". Hậu quả tài chính thì ông không tính — mà đó mới là chỗ
 người học cần con số.
@@ -353,6 +360,7 @@ dịch tốn phí.
 | **tuần một lần** |       52 | **20,80 %** |        **−12,80 %** |
 | ngày một lần     |      250 |    100,00 % |            −92,00 % |
 
+> [!note]
 > **Điểm hoà vốn: 20 vòng mua-bán một năm.** Quá mức đó, chi phí giao dịch ăn hết **toàn bộ** lợi
 > suất kỳ vọng của cổ phiếu — trước khi bạn đoán sai lần nào.
 
@@ -495,6 +503,7 @@ Với cổ phiếu 100.000 cp/ngày, giá 20.000 đ, gom 50.000 cp/ngày trong 2
 
 Đó là kết quả quan trọng nhất, và nó không hiển nhiên:
 
+> [!note]
 > **Tác động giá là đối xứng.** Đẩy giá lên bằng cách mua rồi đẩy giá xuống bằng cách bán thì bạn trả
 > lại đúng phần mình đã chiếm, trừ đi phí. **Thao túng giá không tự nó sinh ra tiền.**
 
@@ -523,18 +532,19 @@ tiến lên vị trí quan trọng trong ngành tài chính là những người
 Business Review* về nguyên lý **giá trị chia sẻ** — người quản lý nên nghĩ về việc tạo ra giá trị
 chung với xã hội, không chỉ cho cổ đông.
 
-⚠️ Ở đây có một căng thẳng bài giảng không giải quyết, và đáng chỉ ra. Ở §10, câu trả lời của Shiller
-cho "sao ta không thao túng?" là *"vì đó là thao túng"* và *"vì bạn sẽ vào tù"*. Nhưng đó là hai câu
-trả lời **khác nhau**: một là đạo đức, một là kinh tế. Và câu kinh tế **có thể đảo chiều** — nếu lãi
-ròng đủ lớn và xác suất bị bắt đủ thấp, bất đẳng thức ở [§4 bài 5](bai_05_ngan_hang_dau_tu.md) lật
-sang phía kia.
+> [!warning]
+> Ở đây có một căng thẳng bài giảng không giải quyết, và đáng chỉ ra. Ở §10, câu trả lời của Shiller
+> cho "sao ta không thao túng?" là *"vì đó là thao túng"* và *"vì bạn sẽ vào tù"*. Nhưng đó là hai câu
+> trả lời **khác nhau**: một là đạo đức, một là kinh tế. Và câu kinh tế **có thể đảo chiều** — nếu lãi
+> ròng đủ lớn và xác suất bị bắt đủ thấp, bất đẳng thức ở [§4 bài 5](bai_05_ngan_hang_dau_tu.md) lật
+> sang phía kia.
 
-**Pháp luật không xoá bỏ động cơ. Nó chỉ định giá lại động cơ.** [§16](#16--góc-việt-nam) cho thấy giá
+**Pháp luật không xoá bỏ động cơ. Nó chỉ định giá lại động cơ.** [§16](#16-góc-việt-nam) cho thấy giá
 đó ở Việt Nam là bao nhiêu.
 
 ---
 
-## 12. ⚠️ Ba chỗ cần đính chính
+## 12. Ba chỗ cần đính chính
 
 **1. Festinger là nhà tâm lý học xã hội, không phải nhà xã hội học.**
 Ở `11 57:31` Shiller gọi **Leon Festinger** là *sociologist*. Ông là **nhà tâm lý học xã hội** — một
@@ -557,7 +567,7 @@ nằm trong đúng buổi giảng về quá tự tin — nên đáng ghi lại.
 
 ---
 
-## 13. 📚 Khủng hoảng lặp lại đã quét qua ngành này
+## 13. Khủng hoảng lặp lại đã quét qua ngành này
 
 Đây là mục quan trọng nhất khi đọc lại một bài giảng tâm lý học năm 2011, vì **ngay sau đó ngành này
 trải qua cuộc khủng hoảng phương pháp lớn nhất lịch sử của nó**.
@@ -620,7 +630,7 @@ không. Chương trình của bài này dùng nó theo nghĩa thứ nhất: cài
 
 ---
 
-## 14. 🥊 Shiller đối đầu Lo — hai cách đọc cùng một bằng chứng
+## 14. Shiller đối đầu Lo — hai cách đọc cùng một bằng chứng
 
 Đây là lý do bài này **đứng riêng** thay vì vá vào kho MIT.
 
@@ -674,7 +684,7 @@ tài sản hay là tật**.
 
 ---
 
-## 15. ⚠️ Đối chiếu 2026
+## 15. Đối chiếu 2026
 
 ### 15.1 "Tôi cá là nó đã tăng" — đúng, và tăng theo cách ông không lường
 
@@ -716,11 +726,12 @@ cải thiện, khi ngôn ngữ chết đi, và khi danh mục được sắp x�
 khác, **Glottolog**, đếm tới **7.900** — chênh gần 700, chủ yếu do khác nhau ở tiêu chí "hiểu nhau
 được hay không".
 
-⚠️ Đây là một bài học phụ đắt giá, và nó làm chính thí nghiệm của Shiller **mạnh hơn**: khoảng tin cậy
-90 % lẽ ra phải bao hàm cả **sự không chắc chắn của định nghĩa**, không chỉ sự không chắc chắn của
-phép đo. Một người trả lời "từ 5.000 đến 10.000" hôm đó sẽ đúng cả năm 2011 lẫn 2026, dù bằng cả hai
-danh mục. Người trả lời "6.800 đến 7.000" thì đúng năm 2011 và sai năm 2026 — và họ sai **không phải
-vì thế giới đổi**, mà vì họ đã bỏ qua việc câu hỏi có nhiều đáp án hợp lệ.
+> [!warning]
+> Đây là một bài học phụ đắt giá, và nó làm chính thí nghiệm của Shiller **mạnh hơn**: khoảng tin cậy
+> 90 % lẽ ra phải bao hàm cả **sự không chắc chắn của định nghĩa**, không chỉ sự không chắc chắn của
+> phép đo. Một người trả lời "từ 5.000 đến 10.000" hôm đó sẽ đúng cả năm 2011 lẫn 2026, dù bằng cả hai
+> danh mục. Người trả lời "6.800 đến 7.000" thì đúng năm 2011 và sai năm 2026 — và họ sai **không phải
+> vì thế giới đổi**, mà vì họ đã bỏ qua việc câu hỏi có nhiều đáp án hợp lệ.
 
 ### 15.3 Bảng tổng kết
 
@@ -745,7 +756,7 @@ thì lệch.
 
 ---
 
-## 16. 🇻🇳 Góc Việt Nam
+## 16. Góc Việt Nam
 
 Buổi giảng này **liên quan tới Việt Nam hơn là tới thị trường Mỹ mà nó mô tả**. Lý do nằm ở cấu trúc
 thị trường.
@@ -790,9 +801,10 @@ cho cuộc chạy repo**:
 | Hậu quả                | giá rơi → phải bán tiếp              | giá rơi → tài khoản tiếp theo bị kích hoạt |
 | **Có ai vỡ nợ không?** | **không**                            | **không**                                  |
 
-⚠️ Bảng mô phỏng dây chuyền trong chương trình là **minh hoạ, không phải dự báo** — hai tham số quan
-trọng nhất là do tác giả đặt ra chứ không lấy từ số liệu. Thứ đáng tin là **hướng của cơ chế**, không
-phải con số cuối bảng.
+> [!warning]
+> Bảng mô phỏng dây chuyền trong chương trình là **minh hoạ, không phải dự báo** — hai tham số quan
+> trọng nhất là do tác giả đặt ra chứ không lấy từ số liệu. Thứ đáng tin là **hướng của cơ chế**, không
+> phải con số cuối bảng.
 
 ### 16.3 Thao túng: Việt Nam đã có bản án cho đúng kế hoạch Shiller vạch ra
 
@@ -836,17 +848,18 @@ nhưng riêng **giá của hành vi thao túng, tính bằng hình phạt hình 
 
 Dựa trên cấu trúc thị trường ở §16.1, ba thiên lệch trong bài này có sức nặng lớn hơn hẳn:
 
-1. **Quá tự tin → giao dịch quá nhiều.** [§7](#7--quá-tự-tin-biến-thành-hoá-đơn) tính ở đúng mức phí
+1. **Quá tự tin → giao dịch quá nhiều.** [§7](#7-quá-tự-tin-biến-thành-hoá-đơn) tính ở đúng mức phí
    Việt Nam: quá **20 vòng mua-bán/năm** là chi phí ăn hết lợi suất kỳ vọng. Đây là khoản lỗ **chắc
    chắn**, trả dù đoán đúng hay sai.
 2. **Tính đại diện → tin vào mẫu hình.** Và §10 cho thấy chính niềm tin đó là **nguồn tiền** cho kẻ
    thao túng. Không có người tin mẫu hình thì kế hoạch thao túng chỉ hoà vốn.
 3. **Bầy đàn cộng đòn bẩy.** §16.2 cho thấy hai thứ này nhân với nhau chứ không cộng.
 
-💡 **Ba việc kiểm tra được ngay:** (1) đếm số vòng mua-bán của bạn trong 12 tháng qua và nhân với
-0,40 %; (2) nếu đang dùng ký quỹ, tính xem giá phải rơi bao nhiêu phần trăm thì tài khoản bạn bị bán
-giải chấp; (3) với mỗi mã đang giữ, viết ra **lý do bạn tin nó tăng** và đánh dấu lý do nào là mẫu
-hình giá thay vì đặc điểm doanh nghiệp.
+> [!example] Ba việc kiểm tra được ngay:
+> (1) đếm số vòng mua-bán của bạn trong 12 tháng qua và nhân với
+> 0,40 %; (2) nếu đang dùng ký quỹ, tính xem giá phải rơi bao nhiêu phần trăm thì tài khoản bạn bị bán
+> giải chấp; (3) với mỗi mã đang giữ, viết ra **lý do bạn tin nó tăng** và đánh dấu lý do nào là mẫu
+> hình giá thay vì đặc điểm doanh nghiệp.
 
 ---
 
@@ -855,6 +868,7 @@ hình giá thay vì đặc điểm doanh nghiệp.
 📂 **[thuc_hanh/bai-12-tai-chinh-hanh-vi.py](../thuc_hanh/bai-12-tai-chinh-hanh-vi.py)** — 608 dòng,
 8 mục.
 
+> [!note]
 > ⚙️ **Chạy:** cần **Python 3.10+**. Không cần cài gói nào, không gọi mạng, không đọc file ngoài.
 > ```bash
 > python3 bai-12-tai-chinh-hanh-vi.py
@@ -1174,22 +1188,22 @@ Tat ca assert deu qua. Chay lai cho ket qua giong het.
 ==============================================================================
 ```
 
-### 💡 Tự thử
-
-1. **Mục 1** — đổi `LAMBDA` thành `1.0` (không có ác cảm mất mát). Ngưỡng chấp nhận canh bạc về đâu,
-   và con số đó có ý nghĩa gì?
-2. **Mục 2** — đổi `GAMMA` thành `1.0`. Hàm trọng số trở thành gì? Máy bán bảo hiểm chuyến bay còn
-   sống được không?
-3. **Mục 3** — nếu một sinh viên trúng 3/3, ta có kết luận được gì về họ không? Vì sao ba câu hỏi là
-   **quá ít** để đánh giá một cá nhân, nhưng đủ để đánh giá cả lớp?
-4. **Mục 4** — đổi `PHI_MUA_BP` và `PHI_BAN_BP` về `0` (môi giới miễn phí). Điểm hoà vốn về đâu? Điều
-   đó nói gì về mô hình kinh doanh của các ứng dụng giao dịch miễn phí?
-5. **Mục 5** — đặt chỉ số neo bằng 0. Bảng định giá đổi thế nào, và vì sao đà tăng giá biến mất?
-6. **Mục 6** — đổi `TUONG_QUAN_BP` thành `10_000` (cổ phiếu công ty biến động y hệt thị trường). Việc
-   dồn hết vào một mã còn nguy hiểm không? Kết quả đó nói gì về **nguồn** của rủi ro?
-7. **Mục 7** — tìm số người tin mẫu hình nhỏ nhất để kẻ thao túng lãi trên 5 %.
-8. **Mục 8** — đổi `TY_LE_KY_QUY_BAN_DAU_BP` thành `7_000` (chỉ vay 30 %). Ngưỡng bán giải chấp lùi về
-   đâu?
+> [!example] Tự thử
+>
+> 1. **Mục 1** — đổi `LAMBDA` thành `1.0` (không có ác cảm mất mát). Ngưỡng chấp nhận canh bạc về đâu,
+>    và con số đó có ý nghĩa gì?
+> 2. **Mục 2** — đổi `GAMMA` thành `1.0`. Hàm trọng số trở thành gì? Máy bán bảo hiểm chuyến bay còn
+>    sống được không?
+> 3. **Mục 3** — nếu một sinh viên trúng 3/3, ta có kết luận được gì về họ không? Vì sao ba câu hỏi là
+>    **quá ít** để đánh giá một cá nhân, nhưng đủ để đánh giá cả lớp?
+> 4. **Mục 4** — đổi `PHI_MUA_BP` và `PHI_BAN_BP` về `0` (môi giới miễn phí). Điểm hoà vốn về đâu? Điều
+>    đó nói gì về mô hình kinh doanh của các ứng dụng giao dịch miễn phí?
+> 5. **Mục 5** — đặt chỉ số neo bằng 0. Bảng định giá đổi thế nào, và vì sao đà tăng giá biến mất?
+> 6. **Mục 6** — đổi `TUONG_QUAN_BP` thành `10_000` (cổ phiếu công ty biến động y hệt thị trường). Việc
+>    dồn hết vào một mã còn nguy hiểm không? Kết quả đó nói gì về **nguồn** của rủi ro?
+> 7. **Mục 7** — tìm số người tin mẫu hình nhỏ nhất để kẻ thao túng lãi trên 5 %.
+> 8. **Mục 8** — đổi `TY_LE_KY_QUY_BAN_DAU_BP` thành `7_000` (chỉ vay 30 %). Ngưỡng bán giải chấp lùi về
+>    đâu?
 
 ---
 

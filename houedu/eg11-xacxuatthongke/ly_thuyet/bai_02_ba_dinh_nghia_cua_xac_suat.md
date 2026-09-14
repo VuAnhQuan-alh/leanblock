@@ -1,10 +1,11 @@
 # Bài 2 — Ba định nghĩa của xác suất
 
+> [!info] Về bài này
 > Bài học dựa trên **Giáo trình Xác suất Thống kê** (Tống Đình Quỳ, NXB Bách Khoa – Hà Nội), **Chương I §2**, tr. 11–18.
-> 💼 **Góc QTKD** là ví dụ thêm cho ngành Quản trị Kinh doanh, không có trong giáo trình.
-> 📚 **Mở rộng** là kiến thức nền giáo trình lướt qua.
-> ⚠️ Bài này **đính chính một lỗi in** của giáo trình ở mục 5 (bảng gieo đồng tiền, tr. 15).
-> 📌 **Cần đọc trước:** [Bài 1 — Sự kiện ngẫu nhiên và giải tích kết hợp](bai_01_su_kien_ngau_nhien_va_giai_tich_ket_hop.md)
+>
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
+>
+> **Cần đọc trước:** [Bài 1 — Sự kiện ngẫu nhiên và giải tích kết hợp](bai_01_su_kien_ngau_nhien_va_giai_tich_ket_hop.md)
 
 Bài 1 dạy **mô tả** cái gì có thể xảy ra. Bài này gắn **con số** vào đó.
 
@@ -20,7 +21,7 @@ Biết dùng cái nào khi nào chính là nội dung của bài.
 4. [Định nghĩa hình học](#4-định-nghĩa-hình-học)
 5. [Định nghĩa thống kê](#5-định-nghĩa-thống-kê)
 6. [Định nghĩa tiên đề của Kolmogorov](#6-định-nghĩa-tiên-đề-của-kolmogorov)
-7. [📚 Ba định nghĩa: chọn cái nào khi nào](#7--ba-định-nghĩa-chọn-cái-nào-khi-nào)
+7. [📚 Ba định nghĩa: chọn cái nào khi nào](#7-ba-định-nghĩa-chọn-cái-nào-khi-nào)
 8. [Code minh hoạ](#8-code-minh-hoạ)
 9. [Tự thử](#9-tự-thử)
 10. [Từ điển thuật ngữ](#10-từ-điển-thuật-ngữ)
@@ -35,6 +36,7 @@ Biết dùng cái nào khi nào chính là nội dung của bài.
 
 Giáo trình mở đầu bằng một điều kiện tiên quyết mà nhiều người đọc lướt qua (tr. 11):
 
+> [!quote]
 > "Trong mục này ta làm việc với các phép thử có kết cục **đồng khả năng**."
 
 **Đồng khả năng** (equally likely) là khái niệm chủ đạo, và cũng "khó có thể định nghĩa một cách
@@ -61,23 +63,24 @@ Giáo trình đánh giá thẳng ưu và nhược (tr. 12):
 
 Chính vì nhược điểm này mà phải có thêm hai định nghĩa nữa ở các mục sau.
 
-⚠️ **Bẫy chết người số 1 của cả môn học.** Công thức $m/n$ chỉ đúng khi $n$ kết cục **đồng khả năng**.
-Chọn sai $\Omega$ là sai toàn bộ. Mục 3 và mục 8 sẽ cho bạn thấy một trường hợp cụ thể lệch tới 35%.
+> [!warning] Bẫy chết người số 1 của cả môn học.
+> Công thức $m/n$ chỉ đúng khi $n$ kết cục **đồng khả năng**.
+> Chọn sai $\Omega$ là sai toàn bộ. Mục 3 và mục 8 sẽ cho bạn thấy một trường hợp cụ thể lệch tới 35%.
 
 Trong tính toán, ta dùng lại bốn công thức đếm của bài 1: $A_n^k$, $\overline{A}_n^k$, $P_n$, $C_n^k$.
 Đó là lý do bài 1 phải học trước.
 
-### 💼 Góc QTKD
-
-Công ty tổ chức bốc thăm trúng thưởng: thùng có 500 phiếu, trong đó 20 phiếu trúng.
-Khách hàng bốc 1 phiếu.
-
-$$P(\text{trúng}) = \frac{20}{500} = 0{,}04 = 4\%$$
-
-Điều kiện đồng khả năng ở đây có thật không? **Chỉ khi** các phiếu giống hệt nhau về kích thước,
-chất liệu, và thùng được xóc kỹ. Nếu phiếu trúng in trên giấy dày hơn, hoặc bỏ vào sau nên nằm
-trên mặt, thì $20/500$ **sai**. Đây không phải chuyện lý thuyết — đó là lý do các chương trình
-khuyến mại hợp pháp phải có biên bản niêm phong và giám sát.
+> [!example] Góc QTKD
+>
+> Công ty tổ chức bốc thăm trúng thưởng: thùng có 500 phiếu, trong đó 20 phiếu trúng.
+> Khách hàng bốc 1 phiếu.
+>
+> $$P(\text{trúng}) = \frac{20}{500} = 0{,}04 = 4\%$$
+>
+> Điều kiện đồng khả năng ở đây có thật không? **Chỉ khi** các phiếu giống hệt nhau về kích thước,
+> chất liệu, và thùng được xóc kỹ. Nếu phiếu trúng in trên giấy dày hơn, hoặc bỏ vào sau nên nằm
+> trên mặt, thì $20/500$ **sai**. Đây không phải chuyện lý thuyết — đó là lý do các chương trình
+> khuyến mại hợp pháp phải có biên bản niêm phong và giám sát.
 
 ---
 
@@ -105,9 +108,10 @@ Tính chất (v) cũng đáng để ý: nếu $A$ kéo theo $B$ thì $A$ "khó x
 nhưng nó là công cụ kiểm tra đáp án: nếu bạn tính ra $P(\text{có đúng 3 phế phẩm})$ lớn hơn
 $P(\text{có ít nhất 1 phế phẩm})$ thì chắc chắn sai ở đâu đó.
 
-⚠️ Tính chất (iii) **bắt buộc phải có điều kiện xung khắc**. Không xung khắc thì phải dùng công
-thức cộng đầy đủ $P(A+B) = P(A) + P(B) - P(AB)$ ở bài 3. Cộng bừa hai xác suất là lỗi phổ biến nhất
-trong bài thi.
+> [!warning]
+> Tính chất (iii) **bắt buộc phải có điều kiện xung khắc**. Không xung khắc thì phải dùng công
+> thức cộng đầy đủ $P(A+B) = P(A) + P(B) - P(AB)$ ở bài 3. Cộng bừa hai xác suất là lỗi phổ biến nhất
+> trong bài thi.
 
 ---
 
@@ -115,6 +119,7 @@ trong bài thi.
 
 ### Thí dụ 2.2 (tr. 12) — và cái bẫy đồng khả năng
 
+> [!note]
 > Gieo đồng thời 2 con xúc sắc **giống nhau**. Tính xác suất để tổng số chấm bằng 6.
 
 *Giải.* Phép thử có $6 \times 6 = 36$ kết cục đồng khả năng. Gọi $A$ = "tổng số chấm bằng 6",
@@ -122,9 +127,10 @@ có 5 kết cục thuận lợi: $\{1,5\}, \{2,4\}, \{3,3\}, \{4,2\}, \{5,1\}$ (
 
 $$P(A) = \frac{5}{36} \approx 0{,}1389$$
 
-⚠️ **Đây là chỗ dễ sai nhất trong toàn bài.** Đề nói hai con xúc sắc *giống nhau*, nên nhiều bạn
-tưởng $\{1,5\}$ và $\{5,1\}$ là một, và lấy $\Omega$ = 11 giá trị tổng có thể ($2, 3, \dots, 12$),
-rồi kết luận $P(A) = 1/11 \approx 0{,}0909$.
+> [!warning] Đây là chỗ dễ sai nhất trong toàn bài.
+> Đề nói hai con xúc sắc *giống nhau*, nên nhiều bạn
+> tưởng $\{1,5\}$ và $\{5,1\}$ là một, và lấy $\Omega$ = 11 giá trị tổng có thể ($2, 3, \dots, 12$),
+> rồi kết luận $P(A) = 1/11 \approx 0{,}0909$.
 
 Sai. Vì **11 giá trị tổng đó không đồng khả năng** — tổng 7 dễ ra hơn tổng 2 rất nhiều
 (6 cách so với 1 cách). Chỉ 36 cặp mới đồng khả năng. Sai số ở đây là $0{,}048$, tức lệch 35%.
@@ -134,6 +140,7 @@ như nhau. Gộp kết cục lại cho gọn hầu như luôn phá vỡ tính đ
 
 ### Thí dụ 2.3 (tr. 12–13) — một bài, ba cách hỏi
 
+> [!note]
 > Hộp có 4 bi trắng và 6 bi đỏ cùng kích cỡ. Rút hú hoạ 2 bi. Tính xác suất để trong đó có:
 > a) hai viên trắng; b) ít nhất 1 viên đỏ; c) viên **thứ hai** đỏ.
 
@@ -164,6 +171,7 @@ $$P(C) = \frac{54}{90} = \frac{3}{5}$$
 
 Giáo trình còn nêu một lối lý luận đẹp hơn nhiều:
 
+> [!quote]
 > "Do viên bi đầu **không biết màu sắc** nên thông tin về tỷ lệ màu không thay đổi với viên bi
 > thứ hai. Vậy $C$ sẽ có cùng xác suất với việc rút hú hoạ ra 1 bi đỏ từ hộp 10 viên ban đầu."
 
@@ -174,21 +182,21 @@ xác suất với viên thứ nhất. Vị trí trong dãy rút không mang thô
 quan sát các viên trước. (Nếu đề nói "biết viên đầu là trắng" thì hoàn toàn khác — đó là
 **xác suất có điều kiện**, bài 3.)
 
-### 💼 Góc QTKD
-
-Lô hàng nhập về 10 thùng, trong đó 4 thùng đạt chuẩn xuất khẩu và 6 thùng chỉ đạt chuẩn nội địa.
-Bộ phận QC lấy ngẫu nhiên 2 thùng đi kiểm.
-
-| Câu hỏi kinh doanh                                         | Tương ứng thí dụ 2.3 | Kết quả                  |
-| ---------------------------------------------------------- | -------------------- | ------------------------ |
-| Xác suất cả 2 thùng kiểm đều là hàng xuất khẩu?            | a)                   | $2/15 \approx 13{,}3\%$  |
-| Xác suất mẫu kiểm dính ít nhất 1 thùng nội địa?            | b)                   | $13/15 \approx 86{,}7\%$ |
-| Nếu kiểm lần lượt, thùng kiểm **thứ hai** là hàng nội địa? | c)                   | $3/5 = 60\%$             |
-
-Câu (b) chính là câu QC quan tâm nhất: **lấy 2 thùng thôi mà tới 86,7% khả năng phát hiện được
-hàng không đạt chuẩn xuất khẩu**. Đó là lập luận cơ bản của lấy mẫu kiểm tra chất lượng — không
-cần kiểm 100% lô hàng vẫn có độ tin cậy cao. Bài 7 (phân phối siêu bội, nhị thức) sẽ mở rộng
-lập luận này thành một quy trình lấy mẫu hoàn chỉnh.
+> [!example] Góc QTKD
+>
+> Lô hàng nhập về 10 thùng, trong đó 4 thùng đạt chuẩn xuất khẩu và 6 thùng chỉ đạt chuẩn nội địa.
+> Bộ phận QC lấy ngẫu nhiên 2 thùng đi kiểm.
+>
+> | Câu hỏi kinh doanh                                         | Tương ứng thí dụ 2.3 | Kết quả                  |
+> | ---------------------------------------------------------- | -------------------- | ------------------------ |
+> | Xác suất cả 2 thùng kiểm đều là hàng xuất khẩu?            | a)                   | $2/15 \approx 13{,}3\%$  |
+> | Xác suất mẫu kiểm dính ít nhất 1 thùng nội địa?            | b)                   | $13/15 \approx 86{,}7\%$ |
+> | Nếu kiểm lần lượt, thùng kiểm **thứ hai** là hàng nội địa? | c)                   | $3/5 = 60\%$             |
+>
+> Câu (b) chính là câu QC quan tâm nhất: **lấy 2 thùng thôi mà tới 86,7% khả năng phát hiện được
+> hàng không đạt chuẩn xuất khẩu**. Đó là lập luận cơ bản của lấy mẫu kiểm tra chất lượng — không
+> cần kiểm 100% lô hàng vẫn có độ tin cậy cao. Bài 7 (phân phối siêu bội, nhị thức) sẽ mở rộng
+> lập luận này thành một quy trình lấy mẫu hoàn chỉnh.
 
 ---
 
@@ -216,10 +224,11 @@ $S$ là đoạn 100 m đầu.
 
 $$P(A) = \frac{100}{1000} = 0{,}1$$
 
-### ⚠️ Xác suất 0 không có nghĩa là không thể
+### Xác suất 0 không có nghĩa là không thể
 
 Giáo trình nêu một hệ quả rất quan trọng của định nghĩa này (tr. 14):
 
+> [!quote]
 > "Theo cách định nghĩa này thì sự kiện có xác suất bằng 0 **vẫn có thể xảy ra** (chẳng hạn mũi
 > tên bắn trúng một điểm cho trước)."
 
@@ -233,17 +242,17 @@ vẫn phải đứt ở *một* điểm nào đó! Xác suất 0 ở đây nghĩ
 trực giác: với biến liên tục, hỏi "xác suất doanh thu đúng bằng 15.000.000 đồng" luôn cho đáp án 0.
 Câu hỏi có nghĩa phải là "xác suất doanh thu **nằm trong khoảng** 14–16 triệu".
 
-### 💼 Góc QTKD
-
-Xe giao hàng đến kho vào một thời điểm ngẫu nhiên trong khung 8h–17h (9 tiếng). Nhân viên nhận
-hàng nghỉ trưa 12h–13h.
-
-$$P(\text{xe đến lúc không có người nhận}) = \frac{1 \text{ giờ}}{9 \text{ giờ}} \approx 0{,}111$$
-
-Trên 11% chuyến hàng sẽ phải chờ. Nếu mỗi lần chờ tốn 30 phút tài xế, với 200 chuyến/tháng thì
-mất $200 \times 0{,}111 \times 0{,}5 \approx 11$ giờ công mỗi tháng — đủ để biện minh cho việc bố trí
-nhân viên trực luân phiên giờ trưa. **Xác suất hình học biến một câu hỏi mơ hồ thành một con số
-để ra quyết định.**
+> [!example] Góc QTKD
+>
+> Xe giao hàng đến kho vào một thời điểm ngẫu nhiên trong khung 8h–17h (9 tiếng). Nhân viên nhận
+> hàng nghỉ trưa 12h–13h.
+>
+> $$P(\text{xe đến lúc không có người nhận}) = \frac{1 \text{ giờ}}{9 \text{ giờ}} \approx 0{,}111$$
+>
+> Trên 11% chuyến hàng sẽ phải chờ. Nếu mỗi lần chờ tốn 30 phút tài xế, với 200 chuyến/tháng thì
+> mất $200 \times 0{,}111 \times 0{,}5 \approx 11$ giờ công mỗi tháng — đủ để biện minh cho việc bố trí
+> nhân viên trực luân phiên giờ trưa. **Xác suất hình học biến một câu hỏi mơ hồ thành một con số
+> để ra quyết định.**
 
 ---
 
@@ -281,10 +290,11 @@ Tần suất xuất hiện mặt sấp khi gieo một đồng tiền nhiều l�
 | Pearson         |       12000 |       6019 |             0,5016 |            0,5016 ✓ |
 | Pearson         |       24000 |      12012 |             0,5005 |            0,5005 ✓ |
 
-⚠️ **Đính chính.** Sách in tần suất của Buffon là **0,5080**, nhưng $2048 / 4040 = 0{,}50693\ldots$
-tức **0,5069**. Đã đối chiếu bản quét gốc trang 15 — đúng là chữ in trên giấy, không phải lỗi quét.
-Hai dòng của Pearson thì khớp hoàn toàn. Con số lịch sử của Buffon cũng là 0,5069. Khi làm bài,
-dùng 0,5069.
+> [!warning] Đính chính.
+> Sách in tần suất của Buffon là **0,5080**, nhưng $2048 / 4040 = 0{,}50693\ldots$
+> tức **0,5069**. Đã đối chiếu bản quét gốc trang 15 — đúng là chữ in trên giấy, không phải lỗi quét.
+> Hai dòng của Pearson thì khớp hoàn toàn. Con số lịch sử của Buffon cũng là 0,5069. Khi làm bài,
+> dùng 0,5069.
 
 Con số này không phá hỏng bài học — ngược lại, nó **củng cố** bài học: tần suất tiến dần về 0,5 khi
 $n$ tăng ($0{,}5069 \to 0{,}5016 \to 0{,}5005$), đúng như định nghĩa thống kê nói.
@@ -296,29 +306,30 @@ cỡ $10^{18}$–$10^{24}$.
 **Cầu nối giữa hai định nghĩa.** Vì sao tần suất lại hội tụ về đúng xác suất cổ điển? Giáo trình
 hẹn trả lời ở **luật số lớn Bernoulli** (bài 9). Đó không phải trùng hợp mà là một định lý.
 
-⚠️ **Điều kiện bắt buộc** mà giáo trình nhấn mạnh (tr. 16): các phép thử phải **lặp lại như nhau**.
-Trên thực tế điều này không dễ bảo đảm, nên "tần suất có thể phụ thuộc vào thời gian".
+> [!warning] Điều kiện bắt buộc
+> mà giáo trình nhấn mạnh (tr. 16): các phép thử phải **lặp lại như nhau**.
+> Trên thực tế điều này không dễ bảo đảm, nên "tần suất có thể phụ thuộc vào thời gian".
 
-### 💼 Góc QTKD
-
-Đây là định nghĩa mà bạn sẽ dùng **nhiều nhất** trong nghề, dù có thể không gọi tên nó.
-
-| Chỉ số kinh doanh                        | Chính là tần suất của...         |
-| ---------------------------------------- | -------------------------------- |
-| Tỷ lệ chuyển đổi (conversion rate) 2,3%  | số đơn hàng / số lượt truy cập   |
-| Tỷ lệ khách rời bỏ (churn rate) 5%/tháng | số khách huỷ / tổng khách đầu kỳ |
-| Tỷ lệ mở email (open rate) 21%           | số email được mở / số email gửi  |
-| Tỷ lệ hàng lỗi 0,3%                      | số sản phẩm lỗi / tổng sản phẩm  |
-
-Không ai đếm "kết cục đồng khả năng" để ra 2,3% cả — người ta **đo tần suất trên dữ liệu quá khứ**
-rồi dùng nó làm xác suất cho tương lai.
-
-Và cũng vì thế mà điều kiện "lặp lại như nhau" là **cảnh báo nghiêm túc cho dân marketing**:
-conversion rate đo trong tháng 12 (mùa mua sắm) không dùng được cho tháng 2. Bộ điều kiện đã đổi
-thì tần suất cũ hết giá trị. Đây là sai lầm phổ biến khi lập kế hoạch doanh số.
-
-Câu hỏi thực tế: **bao nhiêu lượt truy cập thì mới tin được con số 2,3%?** Giáo trình chưa trả lời
-ở đây; đó là nội dung của **khoảng tin cậy** (bài 11).
+> [!example] Góc QTKD
+>
+> Đây là định nghĩa mà bạn sẽ dùng **nhiều nhất** trong nghề, dù có thể không gọi tên nó.
+>
+> | Chỉ số kinh doanh                        | Chính là tần suất của...         |
+> | ---------------------------------------- | -------------------------------- |
+> | Tỷ lệ chuyển đổi (conversion rate) 2,3%  | số đơn hàng / số lượt truy cập   |
+> | Tỷ lệ khách rời bỏ (churn rate) 5%/tháng | số khách huỷ / tổng khách đầu kỳ |
+> | Tỷ lệ mở email (open rate) 21%           | số email được mở / số email gửi  |
+> | Tỷ lệ hàng lỗi 0,3%                      | số sản phẩm lỗi / tổng sản phẩm  |
+>
+> Không ai đếm "kết cục đồng khả năng" để ra 2,3% cả — người ta **đo tần suất trên dữ liệu quá khứ**
+> rồi dùng nó làm xác suất cho tương lai.
+>
+> Và cũng vì thế mà điều kiện "lặp lại như nhau" là **cảnh báo nghiêm túc cho dân marketing**:
+> conversion rate đo trong tháng 12 (mùa mua sắm) không dùng được cho tháng 2. Bộ điều kiện đã đổi
+> thì tần suất cũ hết giá trị. Đây là sai lầm phổ biến khi lập kế hoạch doanh số.
+>
+> Câu hỏi thực tế: **bao nhiêu lượt truy cập thì mới tin được con số 2,3%?** Giáo trình chưa trả lời
+> ở đây; đó là nội dung của **khoảng tin cậy** (bài 11).
 
 ---
 
@@ -378,39 +389,39 @@ Từ hệ tiên đề này chứng minh được toàn bộ 5 tính chất ở m
 Bộ ba $\{\Omega, \mathcal{A}, P\}$ gọi là **không gian xác suất**. Nhìn từ lý thuyết tập hợp, định
 nghĩa tiên đề chính là việc đưa vào $\Omega$ một **độ đo không âm, trực chuẩn, cộng tính** (tr. 18).
 
-### ⚠️ Hai điều giáo trình lưu ý
+### Hai điều giáo trình lưu ý
 
 1. **Hệ tiên đề chưa đầy đủ:** "ứng với một tập $\Omega$ có thể chọn xác suất theo nhiều cách khác
    nhau" (tr. 17). Tiên đề chỉ nói $P$ phải *thoả mãn gì*, không nói $P$ *bằng bao nhiêu*.
    Con số cụ thể vẫn phải lấy từ định nghĩa cổ điển (đếm) hoặc thống kê (đo).
 2. **Phải có đủ ba thành phần:** không chỉ $\Omega$, mà cả $\mathcal{A}$ và hàm $P$.
 
-### 💼 Góc QTKD
-
-Nghe rất trừu tượng, nhưng tiên đề chính là **quy tắc kiểm tra tính nhất quán của số liệu**.
-Một báo cáo thị phần:
-
-| Hãng     | A   | B   | C   | Khác |
-| -------- | --- | --- | --- | ---- |
-| Thị phần | 42% | 31% | 20% | 9%   |
-
-Tổng $= 102\%$. Vi phạm $(T_1)$: $P(\Omega) = 1$. Báo cáo này sai, không cần biết số liệu lấy ở đâu.
-
-Ví dụ tinh vi hơn — một khảo sát khách hàng công bố:
-
-- 60% khách hàng dùng sản phẩm trên điện thoại
-- 55% dùng trên máy tính
-- 30% dùng cả hai
-
-Kiểm bằng công thức cộng (bài 3): $P(\text{ĐT} + \text{MT}) = 0{,}60 + 0{,}55 - 0{,}30 = 0{,}85$.
-Vậy 15% khách không dùng thiết bị nào — mâu thuẫn, vì họ phải dùng *một trong hai* mới là khách hàng.
-Số "30% dùng cả hai" chắc chắn bị báo cáo thiếu.
-
-**Tiên đề Kolmogorov cho bạn quyền bác bỏ một báo cáo mà không cần điều tra lại dữ liệu gốc.**
+> [!example] Góc QTKD
+>
+> Nghe rất trừu tượng, nhưng tiên đề chính là **quy tắc kiểm tra tính nhất quán của số liệu**.
+> Một báo cáo thị phần:
+>
+> | Hãng     | A   | B   | C   | Khác |
+> | -------- | --- | --- | --- | ---- |
+> | Thị phần | 42% | 31% | 20% | 9%   |
+>
+> Tổng $= 102\%$. Vi phạm $(T_1)$: $P(\Omega) = 1$. Báo cáo này sai, không cần biết số liệu lấy ở đâu.
+>
+> Ví dụ tinh vi hơn — một khảo sát khách hàng công bố:
+>
+> - 60% khách hàng dùng sản phẩm trên điện thoại
+> - 55% dùng trên máy tính
+> - 30% dùng cả hai
+>
+> Kiểm bằng công thức cộng (bài 3): $P(\text{ĐT} + \text{MT}) = 0{,}60 + 0{,}55 - 0{,}30 = 0{,}85$.
+> Vậy 15% khách không dùng thiết bị nào — mâu thuẫn, vì họ phải dùng *một trong hai* mới là khách hàng.
+> Số "30% dùng cả hai" chắc chắn bị báo cáo thiếu.
+>
+> **Tiên đề Kolmogorov cho bạn quyền bác bỏ một báo cáo mà không cần điều tra lại dữ liệu gốc.**
 
 ---
 
-## 7. 📚 Ba định nghĩa: chọn cái nào khi nào
+## 7. Ba định nghĩa: chọn cái nào khi nào
 
 Giáo trình trình bày ba định nghĩa nối tiếp nhau nhưng không tổng kết. Bảng dưới là phần bổ sung.
 
@@ -449,6 +460,7 @@ Tiên đề bao trùm cả ba như trường hợp riêng.
 
 ## 8. Code minh hoạ
 
+> [!note]
 > ⚙️ **Chạy:** cần **Python 3.10+** (macOS/Linux có sẵn). Lưu file rồi gõ `python3 bai-02-dinh-nghia.py`.
 > Chỉ dùng thư viện chuẩn — **không cần cài gói nào**.
 

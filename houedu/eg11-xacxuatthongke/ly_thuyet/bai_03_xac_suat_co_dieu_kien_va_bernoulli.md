@@ -1,10 +1,11 @@
 # Bài 3 — Xác suất có điều kiện và công thức Bernoulli
 
+> [!info] Về bài này
 > Bài học dựa trên **Giáo trình Xác suất Thống kê** (Tống Đình Quỳ, NXB Bách Khoa – Hà Nội), **Chương I §3**, tr. 18–29.
-> 💼 **Góc QTKD** là ví dụ thêm cho ngành Quản trị Kinh doanh, không có trong giáo trình.
-> 📚 **Mở rộng** là kiến thức nền giáo trình lướt qua.
-> ⚠️ Bài này **đính chính hai lỗi in** của giáo trình: thí dụ 3.11 (tr. 27) và thí dụ 3.12 (tr. 27).
-> 📌 **Cần đọc trước:** [Bài 1](bai_01_su_kien_ngau_nhien_va_giai_tich_ket_hop.md) · [Bài 2](bai_02_ba_dinh_nghia_cua_xac_suat.md)
+>
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
+>
+> **Cần đọc trước:** [Bài 1](bai_01_su_kien_ngau_nhien_va_giai_tich_ket_hop.md) · [Bài 2](bai_02_ba_dinh_nghia_cua_xac_suat.md)
 
 Đây là bài dài nhất và **quan trọng nhất** của Chương I. Nó cho bạn bốn công cụ:
 
@@ -23,7 +24,7 @@
 5. [Năm thí dụ mẫu của giáo trình](#5-năm-thí-dụ-mẫu-của-giáo-trình)
 6. [Lược đồ và công thức Bernoulli](#6-lược-đồ-và-công-thức-bernoulli)
 7. [Ba cách xấp xỉ khi n lớn](#7-ba-cách-xấp-xỉ-khi-n-lớn)
-8. [📚 Hiệu chỉnh liên tục](#8--hiệu-chỉnh-liên-tục)
+8. [📚 Hiệu chỉnh liên tục](#8-hiệu-chỉnh-liên-tục)
 9. [Code minh hoạ](#9-code-minh-hoạ)
 10. [Tự thử](#10-tự-thử)
 11. [Từ điển thuật ngữ](#11-từ-điển-thuật-ngữ)
@@ -38,6 +39,7 @@
 
 Giáo trình mở đầu bằng một nhận xét đáng suy nghĩ (tr. 18):
 
+> [!quote]
 > "Thực ra **mọi** xác suất $P(A)$ đều là có điều kiện, vì sự kiện $A$ xảy ra khi thực hiện một bộ
 > điều kiện xác định."
 
@@ -61,6 +63,7 @@ $k \cdot P(B) = 1$, tức $k = 1/P(B)$. Thay vào ta được (3.1). ∎
 
 **Cách hiểu bằng hình ảnh — hiệu quả hơn nhớ công thức:**
 
+> [!note]
 > Biết $B$ đã xảy ra nghĩa là **thu hẹp không gian mẫu** từ $\Omega$ xuống còn $B$.
 > Rồi đếm lại trong không gian mới đó.
 
@@ -86,6 +89,7 @@ $$AB = V \Rightarrow P(A \mid B) = 0, \qquad B \Rightarrow A \ \text{ thì } \ P
 
 ### Thí dụ 3.1 (tr. 19)
 
+> [!note]
 > Gieo 2 con xúc sắc. Tính xác suất tổng số chấm bằng 6, **biết rằng** tổng đó là số chẵn.
 
 *Giải.* Ở bài 2 ta đã có $P(A) = 5/36$ với $A$ = "tổng bằng 6". Gọi $B$ = "tổng chẵn".
@@ -101,6 +105,7 @@ Thông tin có giá trị.
 
 ### Thí dụ 3.2 (tr. 19)
 
+> [!note]
 > Rút lần lượt 2 con bài từ bộ 52 con. Tìm xác suất con thứ hai là át, **biết rằng** con thứ nhất
 > đã là át.
 
@@ -108,7 +113,8 @@ Thông tin có giá trị.
 
 $$P(A_2 \mid A_1) = \frac{3}{51} = \frac{1}{17}$$
 
-⚠️ **So sánh thí dụ này với thí dụ 2.3c của bài 2** — hai bài rất giống nhau nhưng đáp số khác hẳn:
+> [!warning] So sánh thí dụ này với thí dụ 2.3c của bài 2
+> hai bài rất giống nhau nhưng đáp số khác hẳn:
 
 |                             | Thí dụ 2.3c                             | Thí dụ 3.2                                           |
 | --------------------------- | --------------------------------------- | ---------------------------------------------------- |
@@ -119,26 +125,26 @@ $$P(A_2 \mid A_1) = \frac{3}{51} = \frac{1}{17}$$
 **Bài học:** vị trí trong dãy rút *không* làm đổi xác suất; **quan sát** mới làm đổi.
 Nếu bịt mắt rút thì viên nào cũng như nhau. Mở mắt nhìn viên đầu thì viên thứ hai đổi.
 
-### 💼 Góc QTKD
-
-Đây là công thức **nền tảng của mọi phân tích phễu bán hàng (sales funnel)**.
-
-Website tháng vừa rồi: 10.000 lượt truy cập, 800 lượt thêm hàng vào giỏ, 240 đơn thanh toán thành công.
-
-$$
-\begin{aligned}
-P(\text{thêm giỏ}) &= \frac{800}{10\,000} = 8\% \\
-P(\text{thanh toán}) &= \frac{240}{10\,000} = 2{,}4\% \\
-P(\text{thanh toán} \mid \text{thêm giỏ}) &= \frac{240}{800} = 30\%
-\end{aligned}
-$$
-
-Con số thứ ba là con số **hành động được**. Nó nói: trong 100 người đã bỏ hàng vào giỏ, 70 người
-bỏ đi. Đó là chỗ mất tiền lớn nhất, và cũng là chỗ dễ sửa nhất (phí ship bất ngờ, bắt đăng ký
-tài khoản, form thanh toán rườm rà).
-
-Hai con số đầu chỉ nói "shop kém"; con số thứ ba chỉ đúng **khâu nào** kém. Đó là toàn bộ giá trị
-của xác suất có điều kiện trong kinh doanh: **thu hẹp không gian mẫu để nhìn rõ vấn đề**.
+> [!example] Góc QTKD
+>
+> Đây là công thức **nền tảng của mọi phân tích phễu bán hàng (sales funnel)**.
+>
+> Website tháng vừa rồi: 10.000 lượt truy cập, 800 lượt thêm hàng vào giỏ, 240 đơn thanh toán thành công.
+>
+> $$
+> \begin{aligned}
+> P(\text{thêm giỏ}) &= \frac{800}{10\,000} = 8\% \\
+> P(\text{thanh toán}) &= \frac{240}{10\,000} = 2{,}4\% \\
+> P(\text{thanh toán} \mid \text{thêm giỏ}) &= \frac{240}{800} = 30\%
+> \end{aligned}
+> $$
+>
+> Con số thứ ba là con số **hành động được**. Nó nói: trong 100 người đã bỏ hàng vào giỏ, 70 người
+> bỏ đi. Đó là chỗ mất tiền lớn nhất, và cũng là chỗ dễ sửa nhất (phí ship bất ngờ, bắt đăng ký
+> tài khoản, form thanh toán rườm rà).
+>
+> Hai con số đầu chỉ nói "shop kém"; con số thứ ba chỉ đúng **khâu nào** kém. Đó là toàn bộ giá trị
+> của xác suất có điều kiện trong kinh doanh: **thu hẹp không gian mẫu để nhìn rõ vấn đề**.
 
 ---
 
@@ -154,9 +160,10 @@ Thay (3.1) vào (3.2) được dạng đối xứng, dễ dùng hơn nhiều:
 
 $$P(AB) = P(A) \cdot P(B) \tag{3.3}$$
 
-⚠️ Giáo trình cảnh báo rất thật (tr. 19–20): "việc kiểm tra tính chất (3.2) trong thực tiễn
-**rất khó khăn** và trong nhiều trường hợp là **không thể**. Vì vậy dựa vào thực tế và trực giác
-mà ta thừa nhận các sự kiện độc lập trong các bài tập sau này."
+> [!warning]
+> Giáo trình cảnh báo rất thật (tr. 19–20): "việc kiểm tra tính chất (3.2) trong thực tiễn
+> **rất khó khăn** và trong nhiều trường hợp là **không thể**. Vì vậy dựa vào thực tế và trực giác
+> mà ta thừa nhận các sự kiện độc lập trong các bài tập sau này."
 
 Nói cách khác: trong bài tập, **độc lập là một giả thiết bạn được cho, không phải thứ bạn chứng minh.**
 Đề bài phải nói "các linh kiện làm việc độc lập", "kết quả mỗi lần sinh là độc lập". Không nói thì
@@ -172,6 +179,7 @@ Chú ý chữ "mọi": phải kiểm tất cả các nhóm 2 phần tử, 3 ph�
 
 ### Thí dụ 3.3 (tr. 20) — phản ví dụ của Bernstein
 
+> [!note]
 > Gieo hai lần một đồng tiền, 4 kết cục đồng khả năng ($S$ = sấp, $N$ = ngửa):
 > $\Omega = \{SS, SN, NS, NN\}$. Đặt $A = SS + SN$, $B = SS + NS$, $C = SS + NN$.
 
@@ -194,21 +202,21 @@ $$\text{độc lập tổng thể} \Longrightarrow \text{độc lập từng đ�
 Biết $A$ không nói gì về $B$; biết $A$ không nói gì về $C$. Nhưng biết **cả $A$ và $B$** thì đã biết
 chắc $C$ — thông tin nằm ở *tổ hợp*, không nằm ở từng cặp.
 
-### 💼 Góc QTKD
-
-Ba rủi ro của một chuỗi bán lẻ:
-
-- $A$ = "giá nhập nguyên liệu tăng"
-- $B$ = "chi phí vận chuyển tăng"
-- $C$ = "biên lợi nhuận tụt xuống dưới ngưỡng"
-
-Từng cặp có thể trông độc lập trên số liệu quá khứ. Nhưng $A$ và $B$ **cùng xảy ra** thì $C$ gần
-như chắc chắn. Nếu mô hình rủi ro của bạn chỉ kiểm tra tương quan từng đôi, nó sẽ báo "ba rủi ro
-độc lập" và đánh giá thấp nghiêm trọng khả năng khủng hoảng.
-
-**Đây chính là cơ chế đã gây ra khủng hoảng tài chính 2008:** các mô hình định giá chứng khoán
-đảm bảo bằng nợ giả định các khoản vay thế chấp độc lập với nhau. Từng cặp thì gần đúng; nhưng khi
-toàn thị trường nhà đất đi xuống thì tất cả cùng vỡ nợ một lúc. Độc lập từng đôi không cứu được ai.
+> [!example] Góc QTKD
+>
+> Ba rủi ro của một chuỗi bán lẻ:
+>
+> - $A$ = "giá nhập nguyên liệu tăng"
+> - $B$ = "chi phí vận chuyển tăng"
+> - $C$ = "biên lợi nhuận tụt xuống dưới ngưỡng"
+>
+> Từng cặp có thể trông độc lập trên số liệu quá khứ. Nhưng $A$ và $B$ **cùng xảy ra** thì $C$ gần
+> như chắc chắn. Nếu mô hình rủi ro của bạn chỉ kiểm tra tương quan từng đôi, nó sẽ báo "ba rủi ro
+> độc lập" và đánh giá thấp nghiêm trọng khả năng khủng hoảng.
+>
+> **Đây chính là cơ chế đã gây ra khủng hoảng tài chính 2008:** các mô hình định giá chứng khoán
+> đảm bảo bằng nợ giả định các khoản vay thế chấp độc lập với nhau. Từng cặp thì gần đúng; nhưng khi
+> toàn thị trường nhà đất đi xuống thì tất cả cùng vỡ nợ một lúc. Độc lập từng đôi không cứu được ai.
 
 ---
 
@@ -233,26 +241,26 @@ $$P\left(\prod_{i=1}^{n} A_i\right) = \prod_{i=1}^{n} P(A_i)$$
 Công thức (3.6) đọc như một câu chuyện kể theo thời gian: *xác suất để cả dây chuyền xảy ra
 = xác suất bước 1 × xác suất bước 2 khi đã có bước 1 × xác suất bước 3 khi đã có hai bước đầu × ...*
 
-### 💼 Góc QTKD
-
-Công thức (3.6) **chính là mô hình phễu bán hàng**, không cần đổi một chữ:
-
-$$
-\begin{aligned}
-P(\text{ra đơn}) &= P(\text{truy cập}) \times P(\text{xem sản phẩm} \mid \text{truy cập}) \\
-&\quad \times P(\text{thêm giỏ} \mid \text{xem}) \times P(\text{thanh toán} \mid \text{thêm giỏ})
-\end{aligned}
-$$
-
-Với số liệu $1{,}0 \times 0{,}45 \times 0{,}18 \times 0{,}30 = 0{,}0243$, tức 2,43%.
-
-Vì các thừa số đều nhỏ hơn 1, **thêm một bước vào phễu luôn làm giảm tỷ lệ chuyển đổi**.
-Đó là lý do định lượng cho nguyên tắc thiết kế "one-click checkout": mỗi bước bạn bắt khách làm thêm
-là một thừa số $< 1$ nữa nhân vào.
-
-Và nó cũng cho biết **nên tối ưu khâu nào**: cải thiện khâu $0{,}18$ lên $0{,}22$ (tăng 22% tương đối)
-làm tổng tăng lên 2,97%; trong khi cải thiện khâu $0{,}45$ lên $0{,}49$ (cũng tăng 9% tương đối)
-chỉ đưa tổng lên 2,65%. **Khâu yếu nhất không phải lúc nào cũng là khâu đáng sửa nhất — hãy nhân thử.**
+> [!example] Góc QTKD
+>
+> Công thức (3.6) **chính là mô hình phễu bán hàng**, không cần đổi một chữ:
+>
+> $$
+> \begin{aligned}
+> P(\text{ra đơn}) &= P(\text{truy cập}) \times P(\text{xem sản phẩm} \mid \text{truy cập}) \\
+> &\quad \times P(\text{thêm giỏ} \mid \text{xem}) \times P(\text{thanh toán} \mid \text{thêm giỏ})
+> \end{aligned}
+> $$
+>
+> Với số liệu $1{,}0 \times 0{,}45 \times 0{,}18 \times 0{,}30 = 0{,}0243$, tức 2,43%.
+>
+> Vì các thừa số đều nhỏ hơn 1, **thêm một bước vào phễu luôn làm giảm tỷ lệ chuyển đổi**.
+> Đó là lý do định lượng cho nguyên tắc thiết kế "one-click checkout": mỗi bước bạn bắt khách làm thêm
+> là một thừa số $< 1$ nữa nhân vào.
+>
+> Và nó cũng cho biết **nên tối ưu khâu nào**: cải thiện khâu $0{,}18$ lên $0{,}22$ (tăng 22% tương đối)
+> làm tổng tăng lên 2,97%; trong khi cải thiện khâu $0{,}45$ lên $0{,}49$ (cũng tăng 9% tương đối)
+> chỉ đưa tổng lên 2,65%. **Khâu yếu nhất không phải lúc nào cũng là khâu đáng sửa nhất — hãy nhân thử.**
 
 ---
 
@@ -284,22 +292,23 @@ Cộng đơn, trừ đôi, cộng ba, trừ bốn... dấu đan xen.
 
 **(iii) Nếu $A_1, \dots, A_n$ xung khắc từng đôi:** mọi số hạng giao đều bằng 0, chỉ còn tổng đơn.
 
-⚠️ **Lỗi sai phổ biến nhất trong bài thi:** dùng $P(A+B) = P(A) + P(B)$ khi $A$, $B$ **không** xung khắc.
-Dấu hiệu nhận biết: nếu cộng ra kết quả **lớn hơn 1** thì chắc chắn bạn đã quên trừ giao.
+> [!warning] Lỗi sai phổ biến nhất trong bài thi:
+> dùng $P(A+B) = P(A) + P(B)$ khi $A$, $B$ **không** xung khắc.
+> Dấu hiệu nhận biết: nếu cộng ra kết quả **lớn hơn 1** thì chắc chắn bạn đã quên trừ giao.
 
-### 💼 Góc QTKD
-
-Chiến dịch chạy song song 2 kênh. Facebook tiếp cận 60% khách mục tiêu, Google 55%,
-và 30% khách nhìn thấy quảng cáo trên **cả hai** kênh.
-
-$$P(\text{tiếp cận được}) = 0{,}60 + 0{,}55 - 0{,}30 = 0{,}85$$
-
-**85%, không phải 115%.** Con số 115% là thứ mà báo cáo marketing hay đưa ra khi cộng "reach"
-của từng kênh — gọi là *reach trùng lặp*. Công thức (3.7) chính là cách khử trùng lặp.
-
-Ngược lại, nếu biết reach thật là 85% mà từng kênh báo 60% và 55%, bạn **suy ngược ra** được
-mức trùng lặp: $0{,}60 + 0{,}55 - 0{,}85 = 0{,}30$. Trùng lặp 30% nghĩa là gần một nửa ngân sách
-Facebook đang chi cho người đã thấy quảng cáo Google — cơ sở để cắt ngân sách.
+> [!example] Góc QTKD
+>
+> Chiến dịch chạy song song 2 kênh. Facebook tiếp cận 60% khách mục tiêu, Google 55%,
+> và 30% khách nhìn thấy quảng cáo trên **cả hai** kênh.
+>
+> $$P(\text{tiếp cận được}) = 0{,}60 + 0{,}55 - 0{,}30 = 0{,}85$$
+>
+> **85%, không phải 115%.** Con số 115% là thứ mà báo cáo marketing hay đưa ra khi cộng "reach"
+> của từng kênh — gọi là *reach trùng lặp*. Công thức (3.7) chính là cách khử trùng lặp.
+>
+> Ngược lại, nếu biết reach thật là 85% mà từng kênh báo 60% và 55%, bạn **suy ngược ra** được
+> mức trùng lặp: $0{,}60 + 0{,}55 - 0{,}85 = 0{,}30$. Trùng lặp 30% nghĩa là gần một nửa ngân sách
+> Facebook đang chi cho người đã thấy quảng cáo Google — cơ sở để cắt ngân sách.
 
 ---
 
@@ -307,6 +316,7 @@ Facebook đang chi cho người đã thấy quảng cáo Google — cơ sở đ�
 
 ### Thí dụ 3.4 (tr. 21) — độc lập hay không, đổi cả đáp số
 
+> [!note]
 > Hai cọc bài lấy từ bộ tú lơ khơ: cọc I gồm 4 con át, cọc II gồm 4 con ka.
 > Rút ngẫu nhiên từ mỗi cọc một con. Tính xác suất: a) cả 2 con là cơ; b) có ít nhất 1 con cơ.
 > Cũng câu hỏi đó nhưng **trộn hai cọc lại** rồi rút hú hoạ 2 con.
@@ -334,6 +344,7 @@ lấy mẫu **không hoàn lại** (phụ thuộc). Với lô hàng lớn thì c
 
 ### Thí dụ 3.5 (tr. 22) — ba xạ thủ
 
+> [!note]
 > Ba xạ thủ mỗi người bắn một viên, xác suất trúng lần lượt 0,7; 0,8; 0,9.
 > a) có **đúng hai** người bắn trúng; b) có **ít nhất một** người bắn trượt.
 
@@ -361,6 +372,7 @@ $$P(B) = 1 - 0{,}7 \cdot 0{,}8 \cdot 0{,}9 = 1 - 0{,}504 = \mathbf{0{,}496}$$
 
 ### Thí dụ 3.6 (tr. 23) — mạch 4 linh kiện
 
+> [!note]
 > Mạch gồm 4 linh kiện, xác suất **hỏng** lần lượt 0,2; 0,1; 0,05; 0,02. Tìm xác suất mạng hoạt
 > động tốt, giả thiết các linh kiện làm việc độc lập và dây luôn tốt.
 
@@ -373,8 +385,9 @@ $A_1$, $A_4$ và $(A_2 + A_3)$ độc lập với nhau, nên:
 
 $$P(A) = P(A_1) \cdot P(A_2 + A_3) \cdot P(A_4) \tag{3.9}$$
 
-⚠️ **Chỗ dễ sai:** $A_2$ và $A_3$ **không xung khắc** (cả hai cùng tốt là chuyện bình thường!),
-nên phải dùng (3.7):
+> [!warning] Chỗ dễ sai:
+> $A_2$ và $A_3$ **không xung khắc** (cả hai cùng tốt là chuyện bình thường!),
+> nên phải dùng (3.7):
 
 $$P(A_2 + A_3) = 0{,}9 + 0{,}95 - 0{,}9 \cdot 0{,}95 = 0{,}995$$
 
@@ -382,9 +395,10 @@ Nếu cộng bừa sẽ ra $1{,}85 > 1$ — vô nghĩa ngay lập tức. Thay v�
 
 $$P(A) = 0{,}8 \cdot 0{,}995 \cdot 0{,}98 = \mathbf{0{,}78008}$$
 
-💼 Đọc theo ngôn ngữ quản trị: linh kiện 2 và 3 mắc **song song** (dự phòng cho nhau) nên độ tin cậy
-tổ hợp là 0,995 — cao hơn cả hai. Linh kiện 1 và 4 mắc **nối tiếp** (điểm chết đơn) nên độ tin cậy
-tổ hợp *thấp hơn* từng cái. Cả hệ chỉ đạt 78% vì linh kiện 1 yếu (80%).
+> [!example]
+> Đọc theo ngôn ngữ quản trị: linh kiện 2 và 3 mắc **song song** (dự phòng cho nhau) nên độ tin cậy
+> tổ hợp là 0,995 — cao hơn cả hai. Linh kiện 1 và 4 mắc **nối tiếp** (điểm chết đơn) nên độ tin cậy
+> tổ hợp *thấp hơn* từng cái. Cả hệ chỉ đạt 78% vì linh kiện 1 yếu (80%).
 
 **Muốn cải thiện hệ thống, hãy nhân thử:** thêm dự phòng cho linh kiện 1 (biến 0,8 thành
 $0{,}8 + 0{,}8 - 0{,}64 = 0{,}96$) đẩy cả hệ lên $0{,}96 \cdot 0{,}995 \cdot 0{,}98 = 0{,}936$.
@@ -392,6 +406,7 @@ $0{,}8 + 0{,}8 - 0{,}64 = 0{,}96$) đẩy cả hệ lên $0{,}96 \cdot 0{,}995 \
 
 ### Thí dụ 3.7 (tr. 24) — gia đình 6 con
 
+> [!note]
 > Một gia đình có 6 con. Tìm xác suất để số con trai **nhiều hơn** số con gái.
 
 *Giải.* Giáo trình dùng một mẹo đối xứng rất đẹp thay vì cộng ba trường hợp.
@@ -412,6 +427,7 @@ $$P(A) = \frac{1 - 5/16}{2} = \frac{11}{32} \approx 0{,}344$$
 
 ### Thí dụ 3.8 (tr. 25) — bài toán bỏ thư, và số $e$
 
+> [!note]
 > Viết $n$ lá thư cho $n$ người khác nhau, bỏ ngẫu nhiên vào $n$ phong bì đã ghi sẵn địa chỉ.
 > Tìm xác suất có **ít nhất một** lá thư đúng phong bì.
 
@@ -432,13 +448,15 @@ $$P(A) \approx 1 - \frac{1}{e} \approx 0{,}632$$
 **Kết quả gây bất ngờ nhất chương I:** dù có 5 lá thư hay 5 triệu lá thư, xác suất có ít nhất một
 lá về đúng địa chỉ luôn xấp xỉ **63,2%** — không giảm về 0 như trực giác mách bảo.
 
-💼 Trong QTKD kết quả này có tên là **bài toán ghép cặp ngẫu nhiên**: bốc thăm tặng quà nội bộ
-(mỗi người rút tên một đồng nghiệp), xếp ngẫu nhiên nhân viên vào ca. Xác suất "có ít nhất một
-người rút trúng tên chính mình" luôn khoảng 63% — nên nếu tổ chức Secret Santa mà không có cơ chế
-loại trừ, gần như chắc chắn phải bốc lại.
+> [!example]
+> Trong QTKD kết quả này có tên là **bài toán ghép cặp ngẫu nhiên**: bốc thăm tặng quà nội bộ
+> (mỗi người rút tên một đồng nghiệp), xếp ngẫu nhiên nhân viên vào ca. Xác suất "có ít nhất một
+> người rút trúng tên chính mình" luôn khoảng 63% — nên nếu tổ chức Secret Santa mà không có cơ chế
+> loại trừ, gần như chắc chắn phải bốc lại.
 
 ### Thí dụ 3.9 (tr. 26) — gieo $n$ lần
 
+> [!note]
 > Tìm xác suất xuất hiện **ít nhất 1 lần** hai mặt 6 chấm khi gieo $n$ lần 2 con xúc sắc.
 
 *Giải.* Một lần gieo: $P(\text{hai mặt 6}) = 1/36$. Dùng đối lập:
@@ -477,6 +495,7 @@ Giáo trình nhấn mạnh: dùng (3.10) **đơn giản hơn nhiều** so với 
 
 ### Thí dụ 3.10 (tr. 26) — và một cái bẫy đọc đề
 
+> [!note]
 > Một thiết bị có 10 chi tiết, độ tin cậy mỗi chi tiết là 0,9. Tìm xác suất **đúng 2** chi tiết
 > làm việc tốt.
 
@@ -487,12 +506,14 @@ $$P_{10}(2) = C_{10}^2 (0{,}9)^2 (0{,}1)^8 = 45 \cdot 0{,}81 \cdot 10^{-8} = 364
 Tức $0{,}0000003645$ — **cực kỳ nhỏ**. Hợp lý: mỗi chi tiết tốt tới 90%, mà đòi chỉ 2 trong 10 cái tốt
 thì phải 8 cái cùng hỏng — gần như không xảy ra.
 
-⚠️ Nhiều bạn đọc lướt thành "đúng 2 chi tiết **hỏng**" và tính $C_{10}^2(0{,}1)^2(0{,}9)^8 = 0{,}194$.
-Lệch nhau **hơn 500.000 lần**. Đọc kỹ: $p$ trong công thức phải là xác suất của **đúng cái sự kiện
-mà bạn đang đếm số lần**.
+> [!warning]
+> Nhiều bạn đọc lướt thành "đúng 2 chi tiết **hỏng**" và tính $C_{10}^2(0{,}1)^2(0{,}9)^8 = 0{,}194$.
+> Lệch nhau **hơn 500.000 lần**. Đọc kỹ: $p$ trong công thức phải là xác suất của **đúng cái sự kiện
+> mà bạn đang đếm số lần**.
 
-### Thí dụ 3.11 (tr. 27) — ⚠️ có lỗi in
+### Thí dụ 3.11 (tr. 27) — có lỗi in
 
+> [!note]
 > Một bác sỹ có xác suất chữa khỏi bệnh là 0,8. Có người nói cứ 10 người đến chữa thì **chắc chắn**
 > 8 người khỏi; điều đó đúng không?
 
@@ -500,21 +521,24 @@ mà bạn đang đếm số lần**.
 
 $$P_{10}(8) = C_{10}^8 (0{,}8)^8 (0{,}2)^2 = 45 \cdot 0{,}16777216 \cdot 0{,}04 = \mathbf{0{,}3020}$$
 
-⚠️ **Đính chính.** Sách in kết quả là **0,3108**. Đã đối chiếu bản quét gốc trang 27: công thức viết
-đúng, chỉ **kết quả số bị sai**. Giá trị đúng là **0,3020**. Khi làm bài, dùng 0,3020.
+> [!warning] Đính chính.
+> Sách in kết quả là **0,3108**. Đã đối chiếu bản quét gốc trang 27: công thức viết
+> đúng, chỉ **kết quả số bị sai**. Giá trị đúng là **0,3020**. Khi làm bài, dùng 0,3020.
 
 Điều này không phá hỏng bài học — ngược lại, **con số nhỏ hơn còn củng cố bài học**: chỉ khoảng
 **30%** khả năng có đúng 8 người khỏi. Xác suất 0,8 nói về **xu hướng dài hạn**, không phải lời hứa
 cho từng nhóm 10 người.
 
-💼 Đây là **hiểu lầm phổ biến nhất về xác suất trong kinh doanh**: "tỷ lệ chốt đơn 20%, gọi 10 cuộc
-là được 2 đơn". Sai. Với $n = 10$, $p = 0{,}2$: $P_{10}(2) = C_{10}^2(0{,}2)^2(0{,}8)^8 = 0{,}302$.
-Cũng chỉ 30%. Còn xác suất **không được đơn nào** là $(0{,}8)^{10} = 0{,}107$ — hơn 1 trên 10 nhân
-viên telesales sẽ có một ngày trắng tay dù làm đúng quy trình. Biết điều này giúp bạn không sa thải
-oan người giỏi vì một ngày xui.
+> [!example]
+> Đây là **hiểu lầm phổ biến nhất về xác suất trong kinh doanh**: "tỷ lệ chốt đơn 20%, gọi 10 cuộc
+> là được 2 đơn". Sai. Với $n = 10$, $p = 0{,}2$: $P_{10}(2) = C_{10}^2(0{,}2)^2(0{,}8)^8 = 0{,}302$.
+> Cũng chỉ 30%. Còn xác suất **không được đơn nào** là $(0{,}8)^{10} = 0{,}107$ — hơn 1 trên 10 nhân
+> viên telesales sẽ có một ngày trắng tay dù làm đúng quy trình. Biết điều này giúp bạn không sa thải
+> oan người giỏi vì một ngày xui.
 
-### Thí dụ 3.12 (tr. 27) — ⚠️ có lỗi in
+### Thí dụ 3.12 (tr. 27) — có lỗi in
 
+> [!note]
 > Tỷ lệ phế phẩm của một lô hàng là 1%. Cỡ mẫu cần chọn ra là bao nhiêu (**có hoàn lại**) sao cho
 > trong mẫu có ít nhất 1 phế phẩm với xác suất lớn hơn 0,95?
 
@@ -524,14 +548,16 @@ $$1 - 0{,}99^n > 0{,}95 \iff 0{,}05 > 0{,}99^n \iff n > \frac{\log 0{,}05}{\log 
 
 $$\frac{\log 0{,}05}{\log 0{,}99} = 298{,}0729\ldots \ \Rightarrow \ n_{\min} = \mathbf{299}$$
 
-⚠️ **Đính chính.** Sách in $\approx \mathbf{296}$. Đã đối chiếu bản quét gốc trang 27: công thức đúng,
-kết quả số sai. Giá trị đúng là 298,07, nên cỡ mẫu tối thiểu là **299**. Kiểm lại:
+> [!warning] Đính chính.
+> Sách in $\approx \mathbf{296}$. Đã đối chiếu bản quét gốc trang 27: công thức đúng,
+> kết quả số sai. Giá trị đúng là 298,07, nên cỡ mẫu tối thiểu là **299**. Kiểm lại:
 
 $$1 - 0{,}99^{298} = 0{,}949963 \ (\text{chưa đạt}), \qquad 1 - 0{,}99^{299} = 0{,}950464 \ (\text{đạt})$$
 
-💼 **Đây là bài toán cỡ mẫu QC kinh điển**, và kết quả rất phản trực giác: để **95% chắc chắn** phát
-hiện được lỗi khi tỷ lệ lỗi chỉ 1%, bạn phải kiểm **gần 300 sản phẩm**. Kiểm 100 sản phẩm chỉ cho
-$1 - 0{,}99^{100} = 63{,}4\%$ — nghĩa là hơn 1/3 khả năng lô hàng lỗi lọt qua.
+> [!example] Đây là bài toán cỡ mẫu QC kinh điển
+> , và kết quả rất phản trực giác: để **95% chắc chắn** phát
+> hiện được lỗi khi tỷ lệ lỗi chỉ 1%, bạn phải kiểm **gần 300 sản phẩm**. Kiểm 100 sản phẩm chỉ cho
+> $1 - 0{,}99^{100} = 63{,}4\%$ — nghĩa là hơn 1/3 khả năng lô hàng lỗi lọt qua.
 
 Quy tắc ngón tay cái rút ra từ công thức: **muốn 95% chắc chắn bắt được lỗi tỷ lệ $p$, cần cỡ mẫu
 khoảng $3/p$.** Lỗi 1% → 300 mẫu; lỗi 0,1% → 3.000 mẫu. Chi phí kiểm tra tăng tuyến tính khi
@@ -568,9 +594,10 @@ $$P_n(k_1, k_2) \approx \phi(x_2) - \phi(x_1), \qquad x_j = \frac{k_j - np}{\sqr
 trong đó $\phi(x) = \dfrac{1}{\sqrt{2\pi}}\displaystyle\int_0^x e^{-t^2/2}\,dt$ là **hàm Laplace**
 (tra bảng 2, tr. 232).
 
-⚠️ **Bẫy ký hiệu.** $\varphi$ (Gauss) là **hàm mật độ**; $\phi$ (Laplace) là **tích phân từ 0**,
-nên $\phi$ là hàm **lẻ** và $\phi(+\infty) = 0{,}5$ chứ không phải 1. Sách tiếng Anh thường dùng
-$\Phi(x)$ = tích phân từ $-\infty$, tức $\Phi(x) = 0{,}5 + \phi(x)$. Nhầm hai cái này là sai 0,5.
+> [!warning] Bẫy ký hiệu.
+> $\varphi$ (Gauss) là **hàm mật độ**; $\phi$ (Laplace) là **tích phân từ 0**,
+> nên $\phi$ là hàm **lẻ** và $\phi(+\infty) = 0{,}5$ chứ không phải 1. Sách tiếng Anh thường dùng
+> $\Phi(x)$ = tích phân từ $-\infty$, tức $\Phi(x) = 0{,}5 + \phi(x)$. Nhầm hai cái này là sai 0,5.
 
 **Thí dụ 3.14 (tr. 29).** Xác suất ném trúng rổ của một cầu thủ là 0,8. Trong 100 lần ném:
 a) trúng 75 lần; b) trúng không ít hơn 75 lần.
@@ -593,7 +620,8 @@ $$P_{100}(75; 100) \approx \phi(5) - \phi(-1{,}25) = 0{,}5 + 0{,}3944 = \mathbf{
 | Thí dụ 3.14a, chuẩn địa phương |        0,04388 |    0,04566 |     0,0018 |
 | Thí dụ 3.14b, chuẩn tích phân  |     **0,9125** | **0,8943** | **0,0182** |
 
-⚠️ Dòng cuối lệch tới **1,8 điểm phần trăm** — đáng kể. Vì sao? Mục 8 giải thích và sửa.
+> [!warning]
+> Dòng cuối lệch tới **1,8 điểm phần trăm** — đáng kể. Vì sao? Mục 8 giải thích và sửa.
 
 ### Chọn xấp xỉ nào
 
@@ -607,8 +635,9 @@ n lớn?
             └─ hỏi TỪ k₁ ĐẾN k₂ lần  →  chuẩn tích phân (3.14), hàm Laplace ϕ
 ```
 
-💼 **Vì sao dân QTKD vẫn cần biết?** Vì máy tính tính được (3.10) trong tích tắc, nên xấp xỉ không
-còn giá trị *tính toán*. Nhưng nó vẫn có giá trị *khái niệm*:
+> [!example] Vì sao dân QTKD vẫn cần biết?
+> Vì máy tính tính được (3.10) trong tích tắc, nên xấp xỉ không
+> còn giá trị *tính toán*. Nhưng nó vẫn có giá trị *khái niệm*:
 
 - **Poisson** cho biết: sự kiện hiếm gặp trong lượng lớn phép thử tuân theo một quy luật riêng —
   số khiếu nại/ngày, số lỗi máy/tháng, số khách vào cửa hàng/giờ. Bài 7 sẽ dạy kỹ.
@@ -617,7 +646,7 @@ còn giá trị *tính toán*. Nhưng nó vẫn có giá trị *khái niệm*:
 
 ---
 
-## 8. 📚 Hiệu chỉnh liên tục
+## 8. Hiệu chỉnh liên tục
 
 Giáo trình đưa ra công thức (3.14) mà không nhắc tới một chi tiết làm sai lệch kết quả đáng kể.
 
@@ -652,17 +681,20 @@ Hiệu chỉnh làm sai số **giảm 6 lần**.
 **Khi nào cần?** Khi $n$ nhỏ hoặc $\sqrt{npq}$ nhỏ (dưới 10), sai số 0,5 đơn vị là đáng kể.
 Khi $n$ rất lớn thì 0,5 trở nên không đáng gì.
 
-⚠️ **Khi đi thi**, làm theo giáo trình (không hiệu chỉnh) để khớp đáp án. **Khi đi làm**, nhớ có
-việc này — và tốt nhất là tính thẳng bằng công thức Bernoulli, khỏi xấp xỉ.
+> [!warning] Khi đi thi
+> , làm theo giáo trình (không hiệu chỉnh) để khớp đáp án. **Khi đi làm**, nhớ có
+> việc này — và tốt nhất là tính thẳng bằng công thức Bernoulli, khỏi xấp xỉ.
 
-💼 Điều này quan trọng trong **kiểm định A/B**: khi so sánh 2 tỷ lệ chuyển đổi trên mẫu vài trăm
-người, bỏ hiệu chỉnh liên tục có thể biến một kết quả "không có ý nghĩa thống kê" thành "có ý nghĩa"
-một cách giả tạo. Bài 12 và 13 sẽ quay lại.
+> [!example]
+> Điều này quan trọng trong **kiểm định A/B**: khi so sánh 2 tỷ lệ chuyển đổi trên mẫu vài trăm
+> người, bỏ hiệu chỉnh liên tục có thể biến một kết quả "không có ý nghĩa thống kê" thành "có ý nghĩa"
+> một cách giả tạo. Bài 12 và 13 sẽ quay lại.
 
 ---
 
 ## 9. Code minh hoạ
 
+> [!note]
 > ⚙️ **Chạy:** cần **Python 3.10+** (macOS/Linux có sẵn). Lưu file rồi gõ `python3 bai-03-dieu-kien.py`.
 > Chỉ dùng thư viện chuẩn — **không cần cài gói nào**. `statistics.NormalDist` có sẵn cho hàm Laplace.
 

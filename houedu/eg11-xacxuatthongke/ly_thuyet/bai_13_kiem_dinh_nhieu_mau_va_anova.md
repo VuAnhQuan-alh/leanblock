@@ -1,17 +1,19 @@
 # Bài 13 — Kiểm định nhiều mẫu, phân tích phương sai và kiểm định phi tham số
 
+> [!info] Về bài này
 > Bài học dựa trên **Giáo trình Xác suất Thống kê** (Tống Đình Quỳ, NXB Bách Khoa – Hà Nội), **Chương V §3–§4**, tr. 170–193.
-> 💼 **Góc QTKD** là ví dụ thêm cho ngành Quản trị Kinh doanh, không có trong giáo trình.
-> 📚 **Mở rộng** là kiến thức nền giáo trình lướt qua.
-> ⚠️ Bài này nêu **hai chỗ số liệu không nhất quán** trong thí dụ 3.3 và 3.4.
-> 📌 **Cần đọc trước:** [Bài 8](bai_08_bien_ngau_nhien_hai_chieu_va_tuong_quan.md) · [Bài 11](bai_11_uoc_luong_diem_va_khoang_tin_cay.md) · [Bài 12](bai_12_kiem_dinh_gia_thuyet_mot_mau.md)
+>
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
+>
+> **Cần đọc trước:** [Bài 8](bai_08_bien_ngau_nhien_hai_chieu_va_tuong_quan.md) · [Bài 11](bai_11_uoc_luong_diem_va_khoang_tin_cay.md) · [Bài 12](bai_12_kiem_dinh_gia_thuyet_mot_mau.md)
 
 Bài 12 so sánh **một mẫu với một con số cho trước**. Bài này so sánh **các mẫu với nhau** —
 tình huống thực tế hơn nhiều.
 
-💼 Vì trong kinh doanh, câu hỏi hầu như luôn là **so sánh**: phương án A hay B? chi nhánh nào tốt hơn?
-nhà cung cấp nào ổn định hơn? Bốn bài toán của §3 và hai bài toán của §4 phủ gần hết các so sánh
-bạn sẽ cần.
+> [!example]
+> Vì trong kinh doanh, câu hỏi hầu như luôn là **so sánh**: phương án A hay B? chi nhánh nào tốt hơn?
+> nhà cung cấp nào ổn định hơn? Bốn bài toán của §3 và hai bài toán của §4 phủ gần hết các so sánh
+> bạn sẽ cần.
 
 ## Mục lục
 
@@ -21,8 +23,8 @@ bạn sẽ cần.
 4. [Phân tích phương sai một nhân tố](#4-phân-tích-phương-sai-một-nhân-tố)
 5. [Kiểm định phù hợp](#5-kiểm-định-phù-hợp)
 6. [Kiểm định độc lập](#6-kiểm-định-độc-lập)
-7. [📚 Quy trình chọn kiểm định](#7--quy-trình-chọn-kiểm-định)
-8. [📚 Sau ANOVA thì làm gì](#8--sau-anova-thì-làm-gì)
+7. [📚 Quy trình chọn kiểm định](#7-quy-trình-chọn-kiểm-định)
+8. [📚 Sau ANOVA thì làm gì](#8-sau-anova-thì-làm-gì)
 9. [Code minh hoạ](#9-code-minh-hoạ)
 10. [Tự thử](#10-tự-thử)
 11. [Từ điển thuật ngữ](#11-từ-điển-thuật-ngữ)
@@ -51,11 +53,13 @@ Khi $H_0$ đúng thì $a_1 - a_2 = 0$, tử số còn $\overline{X} - \overline{
 
 Miền tới hạn (3.2)–(3.4) giống hệt bài toán 1 của bài 12.
 
-📚 **Mẫu số đến từ đâu?** Từ bài 9 mục 3: $V(X - Y) = VX + VY$ khi độc lập.
-Chia cho cỡ mẫu tương ứng (bài 10 mục 5) được $\sigma_1^2/n_1 + \sigma_2^2/n_2$.
+> [!note] Mẫu số đến từ đâu?
+> Từ bài 9 mục 3: $V(X - Y) = VX + VY$ khi độc lập.
+> Chia cho cỡ mẫu tương ứng (bài 10 mục 5) được $\sigma_1^2/n_1 + \sigma_2^2/n_2$.
 
-⚠️ Chú ý **cộng**, không phải trừ — dù đang tính hiệu. Trừ hai biến ngẫu nhiên độc lập làm
-phương sai **tăng**, không giảm.
+> [!warning]
+> Chú ý **cộng**, không phải trừ — dù đang tính hiệu. Trừ hai biến ngẫu nhiên độc lập làm
+> phương sai **tăng**, không giảm.
 
 ### Trường hợp 2: chưa biết $\sigma$, mẫu lớn ($n_1, n_2 > 30$)
 
@@ -69,8 +73,9 @@ $$K = \frac{(\overline{X} - \overline{Y}) - (a_1 - a_2)}
 {\sqrt{\dfrac{(n_1-1)s_1^2 + (n_2-1)s_2^2}{n_1 + n_2 - 2}\left(\dfrac{1}{n_1} + \dfrac{1}{n_2}\right)}}
 \ \sim t(n_1 + n_2 - 2)$$
 
-⚠️ **Điều kiện bắt buộc** mà giáo trình nêu rõ (tr. 171): *"nếu thêm giả thiết hai biến gốc có
-**phương sai giống nhau**"*.
+> [!warning] Điều kiện bắt buộc
+> mà giáo trình nêu rõ (tr. 171): *"nếu thêm giả thiết hai biến gốc có
+> **phương sai giống nhau**"*.
 
 **Đây là điều kiện hay bị bỏ quên nhất của cả chương.** Nếu $\sigma_1^2 \ne \sigma_2^2$ thì (3.5)
 **sai** — phải kiểm bằng bài toán 3 ở mục 3 trước, hoặc dùng cách khác (mục 7).
@@ -84,6 +89,7 @@ Bậc tự do $n_1 + n_2 - 2$: mất **hai** bậc vì ước lượng **hai** t
 
 ### Thí dụ 3.1 (tr. 171)
 
+> [!note]
 > Trọng lượng sơ sinh của trẻ có mẹ **không hút thuốc** ($n_1 = 15$, $\overline{X}_1 = 3{,}5933$,
 > $s_1 = 0{,}3707$) và **hút thuốc** ($n_2 = 14$, $\overline{X}_2 = 3{,}2029$, $s_2 = 0{,}4927$).
 > Giả sử chuẩn cùng phương sai. $\alpha = 0{,}05$: trẻ nhóm mẹ hút thuốc có nhẹ cân hơn không?
@@ -99,6 +105,7 @@ $t_{27;\,0{,}95} = 1{,}703$. Vì $2{,}42 > 1{,}703$ → **bác bỏ**: trẻ ở
 
 ### Thí dụ 3.2 (tr. 172)
 
+> [!note]
 > Năng suất lúa mỳ hai vùng: $n_1 = 9$, $\overline{X}_1 = 24{,}6$, $s_1^2 = 0{,}24$;
 > $n_2 = 16$, $\overline{X}_2 = 25{,}8$, $s_2^2 = 0{,}16$. $\alpha = 0{,}05$, có sai khác đáng kể không?
 
@@ -111,7 +118,7 @@ $|-6{,}65| > 2{,}069$ → **bác bỏ**: năng suất hai vùng **khác nhau**.
 
 (Sách in $-6{,}67$; tính chính xác được $-6{,}6453$. Chênh do làm tròn, kết luận không đổi.)
 
-### ⭐ Ba chú ý của giáo trình (tr. 172)
+### Ba chú ý của giáo trình (tr. 172)
 
 1. Nếu $n_1$, $n_2$ **khá lớn**, có thể **bỏ giả thiết chuẩn** (nhờ CLT, bài 9).
 2. Hai đối thuyết $a_1 > a_2$ và $a_1 < a_2$ **đổi cho nhau** bằng cách đổi thứ tự hai mẫu.
@@ -120,9 +127,10 @@ $|-6{,}65| > 2{,}069$ → **bác bỏ**: năng suất hai vùng **khác nhau**.
 
 ⭐ **Chú ý thứ ba rất quan trọng và hay bị bỏ sót.**
 
-💼 Ví dụ mẫu cặp: đo doanh số của **cùng 20 cửa hàng** trước và sau khi đổi cách trưng bày.
-Hai mẫu **không độc lập** (cùng cửa hàng!), nên (3.5) **sai**. Phải lấy hiệu từng cửa hàng rồi
-kiểm định một mẫu.
+> [!example]
+> Ví dụ mẫu cặp: đo doanh số của **cùng 20 cửa hàng** trước và sau khi đổi cách trưng bày.
+> Hai mẫu **không độc lập** (cùng cửa hàng!), nên (3.5) **sai**. Phải lấy hiệu từng cửa hàng rồi
+> kiểm định một mẫu.
 
 **Cách phân biệt:**
 
@@ -148,11 +156,13 @@ $$K = \frac{f_1 - f_2}{\sqrt{f(1-f)\left(\dfrac{1}{n_1} + \dfrac{1}{n_2}\right)}
 
 trong đó $f = \dfrac{m_1 + m_2}{n_1 + n_2}$ là **tần suất gộp**.
 
-⚠️ **Vì sao gộp?** Vì $H_0$ nói $p_1 = p_2$ — khi giả sử $H_0$ đúng thì chỉ có **một** tỷ lệ chung,
-ước lượng tốt nhất là gộp cả hai mẫu. Đây là cùng logic với việc bài 12 mục 6 dùng $p_0$ ở mẫu số.
+> [!warning] Vì sao gộp?
+> Vì $H_0$ nói $p_1 = p_2$ — khi giả sử $H_0$ đúng thì chỉ có **một** tỷ lệ chung,
+> ước lượng tốt nhất là gộp cả hai mẫu. Đây là cùng logic với việc bài 12 mục 6 dùng $p_0$ ở mẫu số.
 
 ### Thí dụ 3.3 (tr. 173)
 
+> [!note]
 > Lô 1: 500 sản phẩm có 50 phế phẩm. Lô 2: 400 sản phẩm có 60 phế phẩm. $\alpha = 0{,}05$.
 
 $f_1 = 0{,}1$, $f_2 = 0{,}15$, $f = \dfrac{110}{900} = 0{,}1222$:
@@ -169,7 +179,7 @@ Giáo trình nhấn mạnh một điều tinh tế (tr. 174): kiểm định hai
 *"để kết luận lô thứ nhất có chất lượng tốt hơn thì **chưa đủ**"* — phải chạy thêm kiểm định
 một phía.
 
-### ⚠️ Ghi chú về số liệu
+### Ghi chú về số liệu
 
 Giáo trình còn nêu cách tính **không gộp phương sai** và in kết quả $\approx -2{,}56$.
 Tính chính xác:
@@ -181,25 +191,25 @@ Không phải $-2{,}56$. Kết luận không đổi (vẫn bác bỏ), nhưng co
 
 Ngoài ra sách in $z_b = 1{,}654$ ở dòng dưới rồi lại dùng $1{,}645$ — lỗi đảo chữ số.
 
-### 💼 Góc QTKD — đây chính là A/B test hai nhóm
-
-|               | Nhóm A (cũ) | Nhóm B (mới) |
-| ------------- | ----------: | -----------: |
-| Lượt hiển thị |       5.000 |        5.000 |
-| Số đơn        |         150 |          185 |
-| Tỷ lệ         |       3,00% |        3,70% |
-
-$$f = \frac{335}{10\,000} = 0{,}0335, \qquad
-K = \frac{0{,}037 - 0{,}030}{\sqrt{0{,}0335 \times 0{,}9665 \times \dfrac{2}{5000}}} = 1{,}95$$
-
-$1{,}95 < 1{,}96$ → **suýt** đủ, nhưng chưa. Giá trị p = 0,051.
-
-⚠️ **Đây là tình huống nguy hiểm nhất của A/B test.** Cám dỗ rất lớn là chạy thêm vài ngày cho
-$p$ xuống dưới 0,05 — đó chính là lỗi "nhìn lén" ở bài 12 mục 9.
-
-**Cách làm đúng:** cố định cỡ mẫu trước, và nếu kết quả sát ngưỡng thì báo cáo trung thực
-*"chênh lệch ước tính +0,7 điểm phần trăm, khoảng tin cậy 95% là (−0,002; +1,4), chưa kết luận được"* —
-kèm cả khoảng tin cậy chứ không chỉ có/không.
+> [!example] Góc QTKD — đây chính là A/B test hai nhóm
+>
+> |               | Nhóm A (cũ) | Nhóm B (mới) |
+> | ------------- | ----------: | -----------: |
+> | Lượt hiển thị |       5.000 |        5.000 |
+> | Số đơn        |         150 |          185 |
+> | Tỷ lệ         |       3,00% |        3,70% |
+>
+> $$f = \frac{335}{10\,000} = 0{,}0335, \qquad
+> K = \frac{0{,}037 - 0{,}030}{\sqrt{0{,}0335 \times 0{,}9665 \times \dfrac{2}{5000}}} = 1{,}95$$
+>
+> $1{,}95 < 1{,}96$ → **suýt** đủ, nhưng chưa. Giá trị p = 0,051.
+>
+> ⚠️ **Đây là tình huống nguy hiểm nhất của A/B test.** Cám dỗ rất lớn là chạy thêm vài ngày cho
+> $p$ xuống dưới 0,05 — đó chính là lỗi "nhìn lén" ở bài 12 mục 9.
+>
+> **Cách làm đúng:** cố định cỡ mẫu trước, và nếu kết quả sát ngưỡng thì báo cáo trung thực
+> *"chênh lệch ước tính +0,7 điểm phần trăm, khoảng tin cậy 95% là (−0,002; +1,4), chưa kết luận được"* —
+> kèm cả khoảng tin cậy chứ không chỉ có/không.
 
 ---
 
@@ -220,17 +230,20 @@ $$K = \frac{s_1^2}{s_2^2} \ \sim F(n_1 - 1;\ n_2 - 1) \text{ khi } H_0 \text{ đ
 | $\sigma_1^2 \ne \sigma_2^2$ | $K < F_{n_1-1,n_2-1;\,\alpha/2}$ hoặc $K > F_{n_1-1,n_2-1;\,1-\alpha/2}$ | (3.13)    |
 | $\sigma_1^2 > \sigma_2^2$   | $K > F_{n_1-1,n_2-1;\,1-\alpha}$                                         | (3.14)    |
 
-💡 **Mẹo thực hành:** luôn đặt **phương sai lớn hơn ở tử số**. Khi đó $K > 1$ và chỉ cần tra
-phân vị bên phải, không cần bảng cho phân vị nhỏ.
+> [!example] Mẹo thực hành:
+> luôn đặt **phương sai lớn hơn ở tử số**. Khi đó $K > 1$ và chỉ cần tra
+> phân vị bên phải, không cần bảng cho phân vị nhỏ.
 
 ### Thí dụ 3.4 (tr. 175) — và quy trình hai bước
 
+> [!note]
 > Tốc độ đầu đạn của hai công ty: $n_1 = 10$, $\overline{X}_1 = 1210$, $s_1^2 = 2500$;
 > $n_2 = 10$, $\overline{X}_2 = 1175$, $s_2^2 = 3600$. $\alpha = 0{,}05$, chất lượng hai mẫu đạn
 > có giống nhau không?
 
 ⭐ **Giáo trình dạy đúng quy trình hai bước ở đây** (tr. 175):
 
+> [!quote]
 > "Muốn đưa về mô hình so sánh kỳ vọng, ta **phải có giả thiết là $X_1$ và $X_2$ cùng phương sai**.
 > Giả thiết đó **có thể được thừa nhận dựa vào bài toán 3**."
 
@@ -246,26 +259,26 @@ $$K = \frac{1210 - 1175}{\sqrt{\dfrac{9 \times 2500 + 9 \times 3600}{18}\left(\d
 
 $t_{18;\,0{,}975} = 2{,}101$. Vì $|1{,}42| < 2{,}101$ → **chấp nhận** $H_0: a_1 = a_2$.
 
-### ⚠️ Ghi chú số liệu không nhất quán
+### Ghi chú số liệu không nhất quán
 
 Đề bài ghi $s_1^2 = 2500$, nhưng phần giải viết $\dfrac{3600}{2550} = 1{,}41$ — dùng **2550**.
 Với $2500$ thì $K = 1{,}44$; với $2550$ thì $K = 1{,}4118$. Kết luận không đổi trong cả hai trường hợp.
 
-### 💼 Góc QTKD — so phương sai quan trọng không kém so trung bình
-
-| Nhà cung cấp | Thời gian giao trung bình | Độ lệch chuẩn |
-| ------------ | ------------------------: | ------------: |
-| A            |                  5,0 ngày |      0,5 ngày |
-| B            |                  5,0 ngày |      3,0 ngày |
-
-**Cùng trung bình, nhưng B tệ hơn rất nhiều.** Với A, hầu như mọi đơn về trong 4–6 ngày.
-Với B, có đơn về sau 2 ngày, có đơn sau 11 ngày — không lập kế hoạch tồn kho được.
-
-⭐ **Trong quản trị vận hành, độ ổn định thường quan trọng hơn giá trị trung bình.**
-Đó là toàn bộ triết lý của Six Sigma (bài 7 mục 5) và của sản xuất tinh gọn.
-
-⚠️ Nhưng nhớ bài 11 mục 8: ước lượng phương sai **kém chính xác hơn nhiều** so với ước lượng kỳ vọng —
-cần cỡ mẫu lớn hơn hẳn để kết luận chắc chắn về độ biến động.
+> [!example] Góc QTKD — so phương sai quan trọng không kém so trung bình
+>
+> | Nhà cung cấp | Thời gian giao trung bình | Độ lệch chuẩn |
+> | ------------ | ------------------------: | ------------: |
+> | A            |                  5,0 ngày |      0,5 ngày |
+> | B            |                  5,0 ngày |      3,0 ngày |
+>
+> **Cùng trung bình, nhưng B tệ hơn rất nhiều.** Với A, hầu như mọi đơn về trong 4–6 ngày.
+> Với B, có đơn về sau 2 ngày, có đơn sau 11 ngày — không lập kế hoạch tồn kho được.
+>
+> ⭐ **Trong quản trị vận hành, độ ổn định thường quan trọng hơn giá trị trung bình.**
+> Đó là toàn bộ triết lý của Six Sigma (bài 7 mục 5) và của sản xuất tinh gọn.
+>
+> ⚠️ Nhưng nhớ bài 11 mục 8: ước lượng phương sai **kém chính xác hơn nhiều** so với ước lượng kỳ vọng —
+> cần cỡ mẫu lớn hơn hẳn để kết luận chắc chắn về độ biến động.
 
 ---
 
@@ -280,13 +293,14 @@ $$H_0: a_1 = a_2 = \dots = a_k \quad \text{với} \quad H_1: \exists\, j_1, j_2 
 Giáo trình nói thẳng (tr. 176): *"việc tách bài toán 4 thành nhiều bài toán 1 cho **sai số rất lớn**
 và khối lượng tính toán rất đồ sộ khi $k$ lớn."*
 
-📚 Đây chính là **vấn đề so sánh bội** ở bài 12 mục 9. Với $k = 5$ nhóm, có $C_5^2 = 10$ cặp;
-chạy 10 kiểm định ở $\alpha = 0{,}05$ thì xác suất có ít nhất một kết quả sai là
-$1 - 0{,}95^{10} = \mathbf{40\%}$.
+> [!note]
+> Đây chính là **vấn đề so sánh bội** ở bài 12 mục 9. Với $k = 5$ nhóm, có $C_5^2 = 10$ cặp;
+> chạy 10 kiểm định ở $\alpha = 0{,}05$ thì xác suất có ít nhất một kết quả sai là
+> $1 - 0{,}95^{10} = \mathbf{40\%}$.
 
 **ANOVA giải quyết bằng cách kiểm tất cả cùng lúc, giữ $\alpha$ đúng 0,05.**
 
-### ⭐ Ý tưởng: tách tổng bình phương
+### Ý tưởng: tách tổng bình phương
 
 Giáo trình mô tả rất hay (tr. 176): *"các mẫu theo giả thiết đều có phân phối chuẩn **cùng phương sai**,
 và do nhiều mẫu nên ta có **nhiều cách ước lượng phương sai đó**."*
@@ -300,6 +314,7 @@ $$\underbrace{\sum_{j}\sum_{i}(x_{ij} - \overline{X})^2}_{\text{TOÀN BỘ}}
 = \underbrace{\sum_{j}(\overline{X}_j - \overline{X})^2 n_j}_{\text{GIỮA các nhóm}}
 + \underbrace{\sum_{j}\sum_{i}(x_{ij} - \overline{X}_j)^2}_{\text{TRONG nhóm}}$$
 
+> [!quote]
 > "Tổng thứ nhất bên phải đặc trưng cho sự **khác nhau giữa các nhóm**, còn tổng thứ hai —
 > **giữa các số liệu trong nội bộ các nhóm**."
 
@@ -324,11 +339,13 @@ $$K = \frac{s_1^2}{s_2^2} \ \sim F(k-1;\ n-k) \text{ khi } H_0 \text{ đúng}$$
 
 Miền tới hạn: $K > F_{k-1,\,n-k;\,1-\alpha}$ — **luôn một phía phải**.
 
-⚠️ **Vì sao chỉ một phía?** Vì nếu các nhóm khác nhau thì $s_1^2$ chỉ có thể **lớn hơn** $s_2^2$,
-không bao giờ nhỏ hơn một cách có ý nghĩa.
+> [!warning] Vì sao chỉ một phía?
+> Vì nếu các nhóm khác nhau thì $s_1^2$ chỉ có thể **lớn hơn** $s_2^2$,
+> không bao giờ nhỏ hơn một cách có ý nghĩa.
 
 ### Thí dụ 3.5 (tr. 178)
 
+> [!note]
 > Nồng độ haemoglobin ở 3 nhóm bệnh nhân mắc 3 dạng bệnh A, B, C. $\alpha = 0{,}05$.
 
 Dữ liệu thô (41 quan sát) lưu ở [haemoglobin.csv](../thuc_hanh/du_lieu/haemoglobin.csv).
@@ -340,9 +357,10 @@ Dữ liệu thô (41 quan sát) lưu ở [haemoglobin.csv](../thuc_hanh/du_lieu/
 | C        |     15 |     184,5 |          12,3000 | 0,9419 |
 | **Tổng** | **41** | **430,2** |          10,4927 |        |
 
-⚠️ Sách in $\overline{X}_1 = 8{,}7425$ trong bảng kết quả nhưng dùng **8,7125** trong phép tính.
-Tính từ dữ liệu thô: $139{,}4/16 = \mathbf{8{,}7125}$ — con số dùng trong phép tính là đúng,
-bảng in nhầm.
+> [!warning]
+> Sách in $\overline{X}_1 = 8{,}7425$ trong bảng kết quả nhưng dùng **8,7125** trong phép tính.
+> Tính từ dữ liệu thô: $139{,}4/16 = \mathbf{8{,}7125}$ — con số dùng trong phép tính là đúng,
+> bảng in nhầm.
 
 **Bảng ANOVA:**
 
@@ -358,25 +376,25 @@ bệnh **khác nhau đáng kể**.
 (Sách in $K = 50{,}5$ vì dùng $s_2^2 = 0{,}99$ đã làm tròn; tính chính xác $s_2^2 = 0{,}9989$ cho
 $K = 50{,}00$.)
 
-### 💼 Góc QTKD
-
-ANOVA trả lời các câu hỏi nhiều nhóm:
-
-| Câu hỏi                                          | Nhân tố        | Nhóm |
-| ------------------------------------------------ | -------------- | ---- |
-| Bốn chi nhánh có doanh số như nhau không?        | chi nhánh      | 4    |
-| Ba cách trưng bày có hiệu quả khác nhau không?   | cách trưng bày | 3    |
-| Năm nhà cung cấp có chất lượng như nhau không?   | nhà cung cấp   | 5    |
-| Doanh thu có khác nhau giữa các ngày trong tuần? | thứ trong tuần | 7    |
-
-⚠️ **Ba điều kiện của ANOVA — kiểm trước khi dùng:**
-
-1. **Các nhóm độc lập** với nhau.
-2. **Trong mỗi nhóm, dữ liệu chuẩn** (hoặc $n_j$ đủ lớn nhờ CLT).
-3. **Các nhóm cùng phương sai** (đồng nhất phương sai).
-
-Điều kiện 3 hay bị vi phạm nhất. Kiểm bằng bài toán 3 (mục 3) từng cặp, hoặc bằng kiểm định Levene
-(ngoài chương trình).
+> [!example] Góc QTKD
+>
+> ANOVA trả lời các câu hỏi nhiều nhóm:
+>
+> | Câu hỏi                                          | Nhân tố        | Nhóm |
+> | ------------------------------------------------ | -------------- | ---- |
+> | Bốn chi nhánh có doanh số như nhau không?        | chi nhánh      | 4    |
+> | Ba cách trưng bày có hiệu quả khác nhau không?   | cách trưng bày | 3    |
+> | Năm nhà cung cấp có chất lượng như nhau không?   | nhà cung cấp   | 5    |
+> | Doanh thu có khác nhau giữa các ngày trong tuần? | thứ trong tuần | 7    |
+>
+> ⚠️ **Ba điều kiện của ANOVA — kiểm trước khi dùng:**
+>
+> 1. **Các nhóm độc lập** với nhau.
+> 2. **Trong mỗi nhóm, dữ liệu chuẩn** (hoặc $n_j$ đủ lớn nhờ CLT).
+> 3. **Các nhóm cùng phương sai** (đồng nhất phương sai).
+>
+> Điều kiện 3 hay bị vi phạm nhất. Kiểm bằng bài toán 3 (mục 3) từng cặp, hoặc bằng kiểm định Levene
+> (ngoài chương trình).
 
 ---
 
@@ -401,11 +419,12 @@ trong đó:
 
 $$K = \sum \frac{(\text{quan sát} - \text{kỳ vọng})^2}{\text{kỳ vọng}}$$
 
+> [!quote] tr. 180
 > "Rõ ràng $K$ càng bé thì phân phối xác suất của $X$ càng gần $F(x)$." (tr. 180)
 
 Miền tới hạn (4.2): $K > \chi^2_{k-r-1;\,1-\alpha}$ — **luôn một phía phải**.
 
-### ⚠️ Ba điều kiện áp dụng
+### Ba điều kiện áp dụng
 
 1. **$n_i$ không quá bé** — giáo trình yêu cầu $n_i \ge 5$, *"có thể chấp nhận ngoại lệ cho khoảng
    đầu và cuối"*. Nếu có lớp quá nhỏ, phải **gộp** với lớp bên cạnh.
@@ -425,12 +444,14 @@ Miền tới hạn (4.2): $K > \chi^2_{k-r-1;\,1-\alpha}$ — **luôn một phí
 
 ### Thí dụ 4.1 (tr. 181)
 
+> [!note]
 > Quan sát một thiết bị có 10 trạng thái, 75 lần:
 
 | Trạng thái   | 1   | 2   | 3   | 4   | 5   | 6   | 7   | 8   | 9   | 10  |
 | ------------ | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Số lần $n_i$ | 5   | 8   | 3   | 11  | 4   | 5   | 4   | 14  | 13  | 8   |
 
+> [!note]
 > $\alpha = 0{,}05$: vai trò các trạng thái có như nhau không?
 
 $H_0$: $X$ có phân phối **đều rời rạc**, $p_i = 0{,}1$. Tần số lý thuyết $np_i = 7{,}5$ cho mọi lớp.
@@ -441,8 +462,9 @@ $r = 0$ (không ước lượng gì), bậc tự do $= 10 - 0 - 1 = 9$. $\chi^2_
 
 Vì $19{,}0 > 16{,}92$ → **bác bỏ**: các trạng thái **không đều nhau**.
 
-💼 Ứng dụng: kiểm tra xem máy quay số trúng thưởng có công bằng không, kiểm tra dữ liệu có bị làm giả
-không (định luật Benford), kiểm tra khách hàng có phân bố đều giữa các khung giờ không.
+> [!example]
+> Ứng dụng: kiểm tra xem máy quay số trúng thưởng có công bằng không, kiểm tra dữ liệu có bị làm giả
+> không (định luật Benford), kiểm tra khách hàng có phân bố đều giữa các khung giờ không.
 
 ---
 
@@ -476,6 +498,7 @@ $$K = \sum_{i}\sum_{j}\frac{(n_{ij} - e_{ij})^2}{e_{ij}}, \qquad
 
 ### Thí dụ 4.4 (tr. 185)
 
+> [!note]
 > Khảo sát màu mắt và màu tóc của 6.800 người Pháp:
 
 | Mắt \ Tóc |     Vàng |      Nâu |      Đen |    Hung | **Tổng** |
@@ -493,33 +516,33 @@ $$K_{tn} = \mathbf{1073{,}5} \ \ggg \ 12{,}59$$
 
 (Sách in 1075; tính lại từ bảng được 1073,5. Chênh do làm tròn trung gian, kết luận không đổi.)
 
-### 💼 Góc QTKD — kiểm định $\chi^2$ độc lập là công cụ dùng nhiều nhất
-
-Đây chính là **kiểm chứng bảng chéo** của bài 8 mục 2 — giờ có công cụ để nói *"khác biệt này có
-thật hay chỉ là ngẫu nhiên"*.
-
-| Bảng chéo                         | Câu hỏi                                |
-| --------------------------------- | -------------------------------------- |
-| Kênh quảng cáo × có mua/không mua | kênh nào hiệu quả hơn, hay như nhau?   |
-| Khu vực × loại sản phẩm ưa thích  | có nên làm chiến lược riêng theo vùng? |
-| Phân khúc khách × mức hài lòng    | có phân khúc nào đang bị bỏ rơi?       |
-| Ca làm việc × tỷ lệ lỗi           | ca đêm có tệ hơn thật không?           |
-
-⭐ **Nếu bác bỏ $H_0$ độc lập thì việc phân khúc là CÓ giá trị** (bài 8 mục 3 đã nói: độc lập ⟹
-phân khúc vô nghĩa). Đây là bài kiểm tra định lượng cho quyết định "có nên phân khúc không".
-
-⚠️ **Ba cảnh báo:**
-
-1. **Điều kiện $e_{ij} \ge 5$** cho hầu hết các ô. Bảng có nhiều ô nhỏ thì phải gộp nhóm.
-2. **$n$ lớn thì $K$ luôn lớn.** Với 6.800 quan sát, khác biệt nhỏ xíu cũng cho $K$ khổng lồ.
-   Đây lại là vấn đề "có ý nghĩa thống kê ≠ quan trọng thực tế" (bài 12 mục 9).
-   Nên báo cáo thêm **độ mạnh liên hệ** (ví dụ hệ số Cramér's V), không chỉ giá trị p.
-3. **$\chi^2$ chỉ nói CÓ liên hệ**, không nói liên hệ theo chiều nào. Phải nhìn bảng để diễn giải —
-   ví dụ ở đây: mắt xanh đi với tóc vàng, mắt nâu đi với tóc đen.
+> [!example] Góc QTKD — kiểm định $\chi^2$ độc lập là công cụ dùng nhiều nhất
+>
+> Đây chính là **kiểm chứng bảng chéo** của bài 8 mục 2 — giờ có công cụ để nói *"khác biệt này có
+> thật hay chỉ là ngẫu nhiên"*.
+>
+> | Bảng chéo                         | Câu hỏi                                |
+> | --------------------------------- | -------------------------------------- |
+> | Kênh quảng cáo × có mua/không mua | kênh nào hiệu quả hơn, hay như nhau?   |
+> | Khu vực × loại sản phẩm ưa thích  | có nên làm chiến lược riêng theo vùng? |
+> | Phân khúc khách × mức hài lòng    | có phân khúc nào đang bị bỏ rơi?       |
+> | Ca làm việc × tỷ lệ lỗi           | ca đêm có tệ hơn thật không?           |
+>
+> ⭐ **Nếu bác bỏ $H_0$ độc lập thì việc phân khúc là CÓ giá trị** (bài 8 mục 3 đã nói: độc lập ⟹
+> phân khúc vô nghĩa). Đây là bài kiểm tra định lượng cho quyết định "có nên phân khúc không".
+>
+> ⚠️ **Ba cảnh báo:**
+>
+> 1. **Điều kiện $e_{ij} \ge 5$** cho hầu hết các ô. Bảng có nhiều ô nhỏ thì phải gộp nhóm.
+> 2. **$n$ lớn thì $K$ luôn lớn.** Với 6.800 quan sát, khác biệt nhỏ xíu cũng cho $K$ khổng lồ.
+>    Đây lại là vấn đề "có ý nghĩa thống kê ≠ quan trọng thực tế" (bài 12 mục 9).
+>    Nên báo cáo thêm **độ mạnh liên hệ** (ví dụ hệ số Cramér's V), không chỉ giá trị p.
+> 3. **$\chi^2$ chỉ nói CÓ liên hệ**, không nói liên hệ theo chiều nào. Phải nhìn bảng để diễn giải —
+>    ví dụ ở đây: mắt xanh đi với tóc vàng, mắt nâu đi với tóc đen.
 
 ---
 
-## 7. 📚 Quy trình chọn kiểm định
+## 7. Quy trình chọn kiểm định
 
 Giáo trình trình bày sáu bài toán rời rạc. Cây quyết định này là phần bổ sung.
 
@@ -568,7 +591,7 @@ Dễ nhớ: chúng đo *"lệch bao nhiêu so với mô hình"*, mà lệch thì
 
 ---
 
-## 8. 📚 Sau ANOVA thì làm gì
+## 8. Sau ANOVA thì làm gì
 
 Giáo trình dừng ở chỗ ANOVA bác bỏ $H_0$. Nhưng kết luận *"ba nhóm khác nhau"* chưa đủ để ra quyết định —
 **nhóm nào khác nhóm nào?**
@@ -580,20 +603,21 @@ Chạy tất cả $C_k^2$ cặp bằng bài toán 1, nhưng dùng mức ý nghĩ
 
 Với $k = 3$: có 3 cặp, dùng $\alpha = 0{,}05/3 = 0{,}0167$.
 
-⚠️ Cách này **thận trọng quá mức** khi $k$ lớn — dễ bỏ lọt khác biệt thật.
+> [!warning]
+> Cách này **thận trọng quá mức** khi $k$ lớn — dễ bỏ lọt khác biệt thật.
 
 **Cách 2 — Tukey HSD** (dùng phân phối khoảng có studentised, ngoài chương trình): chuẩn mực trong
 thực hành, ít thận trọng quá mức hơn.
 
-### 💼 Và trước cả ANOVA: quan trọng hơn là VẼ ĐỒ THỊ
-
-Trước khi chạy bất kỳ kiểm định nào, hãy vẽ:
-
-- **Biểu đồ hộp (boxplot)** cho từng nhóm — thấy ngay trung vị, độ phân tán, giá trị thái quá.
-- **Biểu đồ phân tán** nếu có hai biến liên tục (bài 8 mục 9).
-
-Rất nhiều lần đồ thị cho câu trả lời trước khi kiểm định cho, và nó phát hiện được những thứ
-kiểm định bỏ sót: nhóm có hai đỉnh, giá trị nhập sai, xu hướng theo thời gian.
+> [!example] Và trước cả ANOVA: quan trọng hơn là VẼ ĐỒ THỊ
+>
+> Trước khi chạy bất kỳ kiểm định nào, hãy vẽ:
+>
+> - **Biểu đồ hộp (boxplot)** cho từng nhóm — thấy ngay trung vị, độ phân tán, giá trị thái quá.
+> - **Biểu đồ phân tán** nếu có hai biến liên tục (bài 8 mục 9).
+>
+> Rất nhiều lần đồ thị cho câu trả lời trước khi kiểm định cho, và nó phát hiện được những thứ
+> kiểm định bỏ sót: nhóm có hai đỉnh, giá trị nhập sai, xu hướng theo thời gian.
 
 ### Danh sách kiểm cho một báo cáo so sánh
 
@@ -611,6 +635,7 @@ kiểm định bỏ sót: nhóm có hai đỉnh, giá trị nhập sai, xu hư�
 
 ## 9. Code minh hoạ
 
+> [!note]
 > ⚙️ **Chạy:** cần **Python 3.10+**. Chỉ dùng thư viện chuẩn — **không cần cài gói nào**.
 > Chạy từ thư mục gốc khoá học: `cd houedu/eg11-xacxuatthongke && python3 bai-13-nhieu-mau.py`.
 > Dùng module [thuc_hanh/bang_tra.py](../thuc_hanh/bang_tra.py) (bảng $t$, $\chi^2$, $F$).

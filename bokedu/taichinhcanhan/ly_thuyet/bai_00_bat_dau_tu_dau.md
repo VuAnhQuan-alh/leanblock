@@ -1,19 +1,19 @@
 # Bài 0 — Bắt đầu từ đâu
 
+> [!info] Về bài này
 > Bài cầu nối, khoảng 40 phút. Không bám unit nào của sách — nó chốt **quy ước trích dẫn**, giải
 > thích **vì sao khoá học xếp lại thứ tự**, và giao **bài tập số 1**.
->
 > **Cần đọc trước:** không có. Đây là bài đầu tiên.
 > Nếu đã học [Trí tuệ tài chính](../../trituetaichinh/README.md) thì mục 6 sẽ quen tay — cùng một
 > kiểu bài tập, khác chỗ là lần này số ít hơn nhiều và tự kiểm được bằng đầu ngón tay.
->
 > **Ký hiệu:** môn này **không dùng biểu tượng**. **[bổ sung]** là kiến thức ngoài sách ·
 > **[đính chính]** là chỗ sách sai · **[2026]** là mục đối chiếu với hiện tại ·
 > **[đã cắt]** là phần quảng bá sản phẩm đã bỏ.
->
 > **Code:** [`thuc_hanh/bai-00-kiem-lai-sach.py`](../thuc_hanh/bai-00-kiem-lai-sach.py)
 > — máy dò lỗi của mục 6. Tính lại từng con số sách đưa ra rồi đối chiếu. Dưới 200 dòng, chỉ dùng
 > thư viện chuẩn.
+>
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
 
 ---
 
@@ -40,11 +40,13 @@
 
 Sách tự đặt phạm vi ngay Unit 1 của tập 1. Tiền có **ba bài toán**, và chỉ ba:
 
+> [!quote]
 > *"Nói về tiền, chúng ta có 3 bài toán cần giải quyết: **Kiếm tiền**… **Giữ tiền**… **Đầu tư tiền**."*
 > — C1 tr. 4
 
 Bài toán thứ hai mới là chỗ sách dồn sức:
 
+> [!quote]
 > *"Vì hầu hết đều đồng ý rằng số tiền bạn kiếm được không quan trọng bằng số tiền bạn giữ được.
 > Và khi tìm kiếm cụm từ 'tài chính cá nhân' trên Google thì đứng trước nó luôn có từ khoá 'quản lý'."*
 > — C1 tr. 4–5
@@ -311,6 +313,7 @@ người được định giá.
 **Hai, công thức giả định thu nhập chảy về vĩnh viễn.** Chia cho lãi suất là phép vốn hoá một dòng
 tiền **không bao giờ dừng**. Nhưng C2 tr. 13 nói ngược lại:
 
+> [!quote]
 > *"vốn con người sẽ giảm theo thời gian, do tuổi trẻ là giai đoạn tốt nhất cho sự học hỏi và phát
 > triển, nhưng càng lớn tuổi thì 'vốn' sẽ giảm đi liền với sức khỏe bản thân."* — C2 tr. 13
 

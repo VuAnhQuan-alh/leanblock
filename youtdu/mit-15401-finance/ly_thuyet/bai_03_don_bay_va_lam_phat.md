@@ -1,19 +1,17 @@
 # Bài 3 — Đòn bẩy và lạm phát: hai cách để một con số đúng trở thành một con số sai
 
+> [!info] Về bài này
 > Bài học dựng trên **nửa đầu** video **"Ses 4: Present Value Relations III & Fixed-Income
 > Securities I"** (`hyc8h5T76BE`, 71:49) — khoá **MIT 15.401 *Finance Theory I*, Fall 2008**,
 > giảng viên **Prof. Andrew W. Lo**. Phụ đề gốc do người viết tay.
->
 > 🕑 Mốc thời gian có tiền tố buổi: `S4 39:54` = buổi 4, phút 39:54. Bài này dùng buổi 4 từ
 > **`S4 00:00` tới `S4 42:23`**; phần còn lại (chứng khoán thu nhập cố định) thuộc [bài 4](../README.md).
 > Vài chỗ dẫn ngược sang `S1`, `S2`, `S3` — mọi mốc đều đối chiếu với **đúng** video của nó.
 >
-> 📚 **Mở rộng** — kiến thức video lướt qua hoặc bài học này bổ sung, **không có trong video**.
-> 🇻🇳 **Góc Việt Nam** — số liệu và ví dụ trong nước (mục 13), **không có trong video**.
-> ⚠️ Mục **7** ghi lại một dự đoán của Lo **đã sai ngay hôm sau**; mục **8** đối chiếu đòn bẩy với 2026.
-> 📌 **Cần đọc trước:** [Bài 2](bai_02_gia_tri_hien_tai.md) — công thức niên kim ở mục 13 và
-> khoản vay mua nhà ở mục 15 là thứ bài này mổ xẻ tiếp.
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
 >
+> **Cần đọc trước:** [Bài 2](bai_02_gia_tri_hien_tai.md) — công thức niên kim ở mục 13 và
+> khoản vay mua nhà ở mục 15 là thứ bài này mổ xẻ tiếp.
 > Công thức viết bằng LaTeX — mở bằng **Obsidian** hoặc VS Code + Markdown Preview Enhanced.
 
 ---
@@ -48,6 +46,7 @@
 
 Buổi 4 không bắt đầu bằng công thức. Nó bắt đầu bằng một bảng số (`S4 00:26`):
 
+> [!quote]
 > *"Đây là các chỉ số tài chính nổi bật của Lehman Brothers tính tới cuối năm 2007."*
 
 | Chỉ số cuối 2007       |     Giá trị |
@@ -62,6 +61,7 @@ Buổi 4 không bắt đầu bằng công thức. Nó bắt đầu bằng một 
 
 Rồi câu hỏi (`S4 01:32`):
 
+> [!quote]
 > *"Cuối năm 2007, có ai dự báo được rằng một công ty như thế này có thể **biến mất chín tháng
 > sau** không? Biến mất — ý tôi là bị xoá sổ hoàn toàn."*
 
@@ -89,15 +89,18 @@ Chuỗi bằng chứng tiếp nối [bài 2 mục 2](bai_02_gia_tri_hien_tai.md#
 
 Lo giải thích cái chết của Lehman theo cách rất khác một bản tin (`S4 24:19`):
 
+> [!quote]
 > *"Chẳng phải tự nhiên các nhân viên ngân hàng đầu tư, các nhà giao dịch tự doanh và các nhà quản
 > lý tài sản của Lehman bị **tổn thương não** rồi trở nên ngu hơn trước. Họ vẫn thông minh y như
 > cũ, vẫn tinh khôn, vẫn giàu kinh nghiệm, vẫn hiểu biết như bao giờ hết."*
 
+> [!quote]
 > *"Vấn đề là vì quy mô rủi ro họ đang gánh, có một mối lo chung về khả năng tồn tại của họ như một
 > doanh nghiệp. Và khi bạn không muốn làm ăn với họ, khi tất cả mọi người không muốn làm ăn với họ,
 > **khi không ai muốn làm ăn với họ nữa, thì họ không còn là một doanh nghiệp**. Và giá trị doanh
 > nghiệp của họ về không."* — `S4 24:38`
 
+> [!quote]
 > *"Có bài toán con gà và quả trứng ở đây. Nhưng bất kể là gà hay trứng, **khi quả trứng vỡ thì bạn
 > xong**."* — `S4 24:51`
 
@@ -109,6 +112,7 @@ và bài 2 đã nói rõ dãy `0, 0, 0, …` cũng là một tài sản hợp l�
 Cổ phiếu **62 đô cuối 2007 → 0 sau chín tháng.** Và Lo giải thích vì sao cổ đông mất sạch trong khi
 chủ nợ thì chưa chắc (`S4 23:17`):
 
+> [!quote]
 > *"Bạn ra toà và nói, tôi không thể trả nổi các giấy nợ của mình… Toà sẽ chỉ định người quản tài để
 > giám sát việc thanh lý tài sản nhằm trả cho các chủ nợ một cách trật tự. Và bạn biết ai đứng
 > **cuối hàng** không? **Cổ đông.** Đúng vậy."*
@@ -119,10 +123,12 @@ chủ nợ thì chưa chắc (`S4 23:17`):
 
 Trong cả bảng ở mục 1, Lo chỉ vào đúng một con số (`S4 02:21`):
 
+> [!quote]
 > *"Một chìa khoá cho chuyện đang xảy ra và vì sao nó có thể xảy ra là **con số này ngay đây**, tỷ
 > lệ đòn bẩy ròng. Tỷ lệ đòn bẩy ròng cho bạn biết Lehman Brothers đang phơi mình trước bao nhiêu
 > rủi ro so với lượng vốn họ thực sự đang quản lý."*
 
+> [!note]
 > **Đòn bẩy** (*leverage*) $L$ = tổng tài sản chia cho vốn chủ sở hữu:
 > $$L \;=\; \frac{A}{E} \;=\; \frac{E + D}{E}$$
 > với $A$ là tài sản, $E$ là vốn của bạn, $D$ là nợ vay.
@@ -134,7 +140,8 @@ $$\boxed{\;R_E \;=\; L \times R_A\;}$$
 Lợi suất trên **vốn của bạn** bằng đòn bẩy nhân lợi suất trên **tài sản**. Một cú xê dịch nhỏ của
 tài sản trở thành một cú xê dịch lớn của bạn.
 
-📚 **Hệ quả trực tiếp và rất đáng nhớ:** vốn chủ bị xoá sạch khi tài sản giảm đúng $1/L$.
+> [!note] Hệ quả trực tiếp và rất đáng nhớ:
+> vốn chủ bị xoá sạch khi tài sản giảm đúng $1/L$.
 
 |  Đòn bẩy | Tài sản giảm bao nhiêu thì vốn chủ về 0 |
 | -------: | --------------------------------------: |
@@ -143,6 +150,7 @@ tài sản trở thành một cú xê dịch lớn của bạn.
 |   20 : 1 |                                     5 % |
 | 30,7 : 1 |                              **3,26 %** |
 
+> [!quote]
 > ⚠️ **Lo đọc con số "ròng" — và con số "gộp" gần gấp đôi.**
 > Lo nói đòn bẩy của Lehman là **16 : 1**. Đó là *net leverage ratio* — một chỉ số **phi-GAAP do
 > chính Lehman tự định nghĩa** (tài sản ròng chia vốn chủ hữu hình, sau khi loại tiền mặt, các thoả
@@ -186,9 +194,11 @@ Một căn nhà **500.000 đô** ở khu Boston — mà Lo gọi là *"một că
 Giá nhà giảm **10 %**. Mất 50.000 đô. Câu hỏi Lo đặt ra (`S4 05:20`): **ngân hàng mất bao nhiêu
 trong 50.000 đó?**
 
+> [!quote]
 > *"Không đồng nào — vì họ đã cho bạn vay tiền và họ mong bạn trả lại. **Họ không phải cổ đông. Họ
 > không tìm cách gánh rủi ro sụt giảm.** Họ chỉ muốn lấy lại tiền của mình cộng lãi."* — `S4 05:37`
 
+> [!quote]
 > *"Khoản lỗ 50.000 đó là của bạn hết. Bạn bỏ ra 100.000 và mất 50 — **một nửa tài sản của bạn bốc
 > hơi chỉ với một cú xê dịch 10 % của giá nhà.**"* — `S4 05:51`
 
@@ -201,6 +211,7 @@ Rồi Lo đổi tham số. Ông kể chính mình mua nhà đầu tiên năm 198
 |      20 % |   100.000 $ | 400.000 $ |   5,0 × |                         **−50 %** |
 |       5 % |    25.000 $ | 475.000 $ |  20,0 × |                        **−200 %** |
 
+> [!quote]
 > *"Bạn đã mất hết rồi. Khoản lỗ 50.000 vẫn còn nguyên đó, nhưng bạn chỉ bỏ vào 25. Nên giờ bạn mất
 > sạch vốn, và **trên đó còn âm thêm 25 nữa**. Bạn không chỉ mất toàn bộ tài sản của mình — bạn mất
 > **hơn** toàn bộ. Lợi suất ròng của bạn là **âm 200 %**."* — `S4 06:39`
@@ -211,6 +222,7 @@ tiền mặt — nhưng khi có đòn bẩy thì "mất sạch" chỉ là một 
 
 Và Lo quay lại Lehman (`S4 07:28`):
 
+> [!quote]
 > *"Nếu bạn là một định chế tài chính lớn, đòn bẩy 16 trên 1, và giá trị danh mục đó giảm 10 % hay
 > 20 %, bạn có thể **đốt hết vốn rất, rất nhanh**."*
 
@@ -222,6 +234,7 @@ Câu hỏi hiển nhiên (`S4 08:18`): *"Tại sao trên đời lại có ngư�
 
 Và Lo tự trả lời bằng cách tự tố mình (`S4 08:38`):
 
+> [!quote]
 > *"20 trên 1, chính xác. Vậy là tôi từng là một nhà đầu tư dùng đòn bẩy đầy tự hào với tỷ lệ 20 : 1.
 > **Tôi thắng cả Lehman Brothers.** Tại sao tôi làm thế? Có điên không?"*
 
@@ -231,6 +244,7 @@ Câu trả lời gồm hai phần, và cả hai đều quan trọng.
 
 Nó **không phải rủi ro**. Nó là một **bộ khuếch đại** (`S4 09:22`):
 
+> [!quote]
 > *"Nếu giá nhà tăng 10 %, thì ở đòn bẩy 20 : 1, **tôi trông như một nhà quản lý quỹ đầu cơ**. Kiếm
 > được đống tiền."*
 
@@ -247,14 +261,17 @@ Nó **không phải rủi ro**. Nó là một **bộ khuếch đại** (`S4 09:2
 Đây mới là ý sâu. Một sinh viên nói ra (`S4 09:40`): *"trong quá khứ, chẳng có gì cho thấy giá sẽ
 giảm."* Lo đồng ý và diễn giải chính xác (`S4 09:55`):
 
+> [!quote]
 > *"Rủi ro của đòn bẩy 20 : 1 chỉ là rủi ro **nếu** mức dao động của giá nhà đủ lớn để có thể xoá sổ
 > tôi. Nhưng cho tới rất gần đây, giá nhà chỉ làm mỗi một việc: **đi lên**. Và không chỉ đi lên, nó
 > đi lên một cách rất mượt và có trật tự."*
 
+> [!quote]
 > *"Nếu giá nhà tăng 15 % một năm, năm nào cũng thế, bạn có thể vừa mừng vừa hơi sợ. Chuyện đó
 > không xảy ra. Giá nhà tăng, tôi không nhớ rõ — 8 %, 10 %, 7 %, 5 %, 6 %. Khá là mượt. Nên **độ
 > dao động của những khoản đầu tư đó thấp tới mức đòn bẩy chẳng làm tôi sợ chút nào.**"* — `S4 10:10`
 
+> [!quote]
 > *"Chuyện xảy ra trong hai ba năm vừa qua là **độ dao động đã vượt khỏi tầm kiểm soát**."*
 > — `S4 10:46`
 
@@ -264,9 +281,11 @@ là chuyện bình thường; đòn bẩy 5 : 1 trên một tài sản dao độ
 định nghĩa đúng"* mà Lo cài vào nguyên lý 2c ở
 [bài 1](bai_01_tai_chinh_la_gi.md#13-sáu-nguyên-lý--và-vì-sao-lo-chỉ-đưa-ba) bắt đầu có nghĩa từ đây.
 
-📚 **Và đây là lỗi logic phổ biến nhất trong tài chính**, được phát biểu ngay tại chỗ: *"chỉ vì nó
-chưa từng giảm nên nó sẽ không giảm."* Lo tóm gọn (`S4 11:21`):
+> [!note] Và đây là lỗi logic phổ biến nhất trong tài chính
+> , được phát biểu ngay tại chỗ: *"chỉ vì nó
+> chưa từng giảm nên nó sẽ không giảm."* Lo tóm gọn (`S4 11:21`):
 
+> [!quote]
 > *"Chính là việc nhìn các khoản đầu tư đi lên rồi nghĩ rằng, ồ, chúng chẳng bao giờ có thể đi xuống."*
 
 ---
@@ -279,11 +298,13 @@ mà? Bạn chỉ phải chịu chuyện đánh giá theo giá thị trường l�
 Lo dừng lại vì đó là một thuật ngữ chưa dùng lần nào (`S4 11:35`): **mark to market** — *"ghi nhận
 theo giá thị trường"*.
 
+> [!quote]
 > *"Là khi một thứ có giá trị sổ sách được đưa ra đối chiếu với thực tế, dưới dạng giá thị trường."*
 > — `S4 11:49`
 
 Và ví dụ ông chọn thì tuyệt (`S4 12:04`):
 
+> [!quote]
 > *"Ví dụ, ở buổi giảng đầu tiên, khi tôi bán đấu giá cái hộp nhỏ xíu mà các bạn không biết bên
 > trong có gì — nó **không có giá thị trường** trước đó, ít nhất là với các bạn. Nhưng chúng ta đã
 > ghi nhận nó theo giá thị trường. Ghi ở **45 đô**. Và thế là một mức giá thị trường được xác lập."*
@@ -294,6 +315,7 @@ nó là giấy tờ của Fannie/Freddie. Ở đây nó là định nghĩa của
 
 Và câu trả lời cho phản biện của sinh viên thì rất sòng phẳng (`S4 12:21`):
 
+> [!quote]
 > *"Đúng thế. Chẳng có gì to tát nếu bạn thích sống trong căn nhà đó, và bạn trả nổi khoản vay, và
 > bạn ổn. Và **hàng triệu chủ nhà đang chính xác ở tình trạng đó**. Ta không được quên điều đó. Rằng
 > khoản vay dưới chuẩn đã cho phép hàng triệu người trở thành chủ nhà, những người lẽ ra chẳng bao
@@ -308,12 +330,14 @@ cú sụt giá tạm thời không quan trọng. Chuyện gì buộc người ta
 
 Không phải giá nhà giảm. Là **dòng tiền hằng tháng** (`S4 12:36`):
 
+> [!quote]
 > *"Nhưng nếu có vấn đề về việc lãi suất tăng lên và khoản trả góp của bạn tăng theo, bởi vì bạn đã
 > nhận một **lãi suất mồi rất thấp**? Bạn có một khoản vay lãi suất điều chỉnh, vì họ bảo rằng, này,
 > anh có thể mua căn nhà này gần như không cần bỏ đồng nào. Và anh dư sức trả, vì khoản trả hằng
 > tháng của anh chỉ có **300 đô**. Rồi một năm sau, khoản trả đó là **1.000 đô**. Lúc đó mới là vấn
 > đề thật sự."* — `S4 12:57`
 
+> [!note]
 > 📌 Đây **chính xác** là cấu trúc bạn đã tính ở
 > [bài 2 mục 15](bai_02_gia_tri_hien_tai.md#15-góc-việt-nam--cái-bẫy-lãi-suất-ưu-đãi): lãi ưu đãi
 > rồi thả nổi. Ở đó khoản trả nhảy **+28,8 %**. Ở đây Lo mô tả cùng cơ chế nhảy hơn ba lần. Cùng một
@@ -321,10 +345,12 @@ Không phải giá nhà giảm. Là **dòng tiền hằng tháng** (`S4 12:36`):
 
 Rồi quyết định (`S4 13:32`):
 
+> [!quote]
 > *"Bạn có tiếp tục đổ toàn bộ thu nhập vào và sống chật vật vì một căn nhà mà bạn **sẽ không bao
 > giờ lấy lại được tiền** không? Nó đúng nghĩa là cầm tiền của mình đi đốt, vì bạn đã mất phần vốn
 > của mình rồi."*
 
+> [!quote]
 > *"Hay là bạn cắm chìa khoá vào cửa trước rồi dọn đi và nói: **này ngân hàng, tất cả là của anh.
 > Tôi đi đây.** Đó là chuyện đã xảy ra trên khắp nước Mỹ."* — `S4 13:49`
 
@@ -332,6 +358,7 @@ Rồi quyết định (`S4 13:32`):
 
 Câu hỏi tiếp theo của lớp: *"bạn có thể đến ngân hàng và nói nhà là của anh, thật à?"* (`S4 14:39`)
 
+> [!quote]
 > *"Phần lớn hợp đồng vay mua nhà là **khoản vay không truy đòi** (*non-recourse loan*), nghĩa là họ
 > có căn nhà của bạn làm tài sản bảo đảm, **nhưng đó là tất cả những gì họ có**. Họ không có đứa con
 > đầu lòng của bạn, họ không có ngón út của bạn."* — `S4 14:51`
@@ -345,10 +372,12 @@ quyền chọn.
 Cái giá phải trả thì có (`S4 15:38`): *"điểm tín dụng của bạn sẽ nát bét."* Nhưng nó hết hạn sau
 năm tới bảy năm — và Lo nói thẳng điều đó cũng không ngăn được gì (`S4 15:56`):
 
+> [!quote]
 > *"Đừng quên, đó chính là cách thị trường vay dưới chuẩn ra đời. Các bạn thấy quảng cáo trên TV
 > rồi chứ? **Không sao nếu bạn đang vỡ nợ, không sao nếu bạn không có lịch sử tín dụng, không sao
 > nếu bạn không có việc làm — chúng tôi vẫn cho bạn vay.**"*
 
+> [!quote]
 > *"Bây giờ thì không còn đúng, hoặc không còn đúng đến thế. Nhưng tới một lúc nào đó khi thị trường
 > hồi phục, **chúng ta sẽ lại thấy chuyện đó quay lại**."* — `S4 16:07`
 
@@ -360,17 +389,20 @@ năm tới bảy năm — và Lo nói thẳng điều đó cũng không ngăn đ
 
 Hai lần trong buổi 4, Lo nói Fed sắp hạ lãi suất. Lần đầu ở `S4 14:05`:
 
+> [!quote]
 > *"Ngày mai sẽ có chuyện rất đáng chú ý. Ngày mai, **gần như chắc chắn Fed sẽ hạ lãi suất**, vì họ
 > muốn giảm áp lực lên hệ thống."*
 
 Lần thứ hai, ở cuối buổi, ông nâng mức tự tin lên và giải thích **cơ sở** (`S4 70:38`):
 
+> [!quote]
 > *"Vì loại tri thức thị trường đó, tôi có thể nói với các bạn với **99,5 % độ tin cậy** rằng ngày
 > mai Fed sẽ cắt lãi suất. Làm sao tôi biết? Tôi không biết. Fed có thể không cắt. Nhưng nếu bạn
 > nhìn vào thị trường tài chính hôm nay, nhìn giá trái phiếu kho bạc hôm nay, nhìn hợp đồng tương
 > lai lãi suất Fed — tất cả các mức giá đó, **nếu bạn biết cách đọc, nếu bạn giải được mấy lá trà
 > đó** — nó sẽ nói rằng ngày mai Fed cắt lãi suất."*
 
+> [!quote]
 > *"Nên tôi muốn các bạn theo dõi ngày mai xem tôi có đúng không. **Sẽ rất mất mặt, và có thể là
 > thảm hoạ, nếu tôi sai.**"* — `S4 71:07`
 
@@ -405,9 +437,11 @@ mình. Hai bộ trọng số khác nhau.
 
 Lo tự nói câu tổng kết hay nhất cho chính mình chỉ vài phút trước đó (`S4 20:44`):
 
+> [!quote]
 > *"Nếu bạn không có bộ khung để suy nghĩ về chuyện này, thì bạn chỉ còn cách phản ứng theo **sợ hãi
 > và tham lam**. Ngay lúc này, chúng ta đang trong gọng kìm của sợ hãi."*
 
+> [!quote]
 > *"Tôi hứa với các bạn, đây là **khoảng thời gian đáng sợ nhất** mà chúng ta từng trải qua, kể cả
 > tháng 8/1998, tháng 10/1987, năm 1994, năm 2001."* — `S4 21:00`
 
@@ -427,6 +461,7 @@ phản ứng chính sách sau 2008 nhắm thẳng vào nó.
 
 Kết quả: đòn bẩy của các ngân hàng lớn Mỹ giảm mạnh so với 2007.
 
+> [!quote]
 > ⚠️ **Nhưng đừng kết luận là "đã xong".** Đòn bẩy không biến mất — nó **di chuyển**. Xem
 > [bài 1 mục 3](bai_01_tai_chinh_la_gi.md#3-bốn-thành-phần-của-hệ-thống-tài-chính): khối trung gian
 > tài chính **phi ngân hàng** nay chiếm **51 % tài sản tài chính toàn cầu** và tăng gấp đôi tốc độ
@@ -437,10 +472,11 @@ Kết quả: đòn bẩy của các ngân hàng lớn Mỹ giảm mạnh so vớ
 > do câu hỏi của Lo — *"anh phơi mình trước bao nhiêu so với vốn anh thực có?"* — vẫn là câu hỏi
 > đúng, chỉ khó trả lời hơn.
 
-📚 **Và một minh chứng gần đây rằng bài học chưa cũ:** SVB sụp năm 2023 không phải vì đòn bẩy quá
-mức theo chuẩn — mà vì **lệch kỳ hạn** trên một danh mục gần như không có rủi ro tín dụng. Chi tiết
-ở [bài 1 mục 14](bai_01_tai_chinh_la_gi.md#14-bài-giảng-này-ghi-ngay-trước-khi-lehman-sụp), và cơ
-chế đầy đủ sẽ học ở bài 5.
+> [!note] Và một minh chứng gần đây rằng bài học chưa cũ:
+> SVB sụp năm 2023 không phải vì đòn bẩy quá
+> mức theo chuẩn — mà vì **lệch kỳ hạn** trên một danh mục gần như không có rủi ro tín dụng. Chi tiết
+> ở [bài 1 mục 14](bai_01_tai_chinh_la_gi.md#14-bài-giảng-này-ghi-ngay-trước-khi-lehman-sụp), và cơ
+> chế đầy đủ sẽ học ở bài 5.
 
 ---
 
@@ -448,6 +484,7 @@ chế đầy đủ sẽ học ở bài 5.
 
 Ở phút `S4 30:16`, Lo chuyển chủ đề và trả nốt món nợ từ hai buổi trước:
 
+> [!quote]
 > *"Để tôi quay lại chỗ chúng ta kết thúc buổi trước, tức là chủ đề lạm phát."*
 
 Nhắc lại: ở [bài 2 mục 8](bai_02_gia_tri_hien_tai.md#8-vì-sao-vẫn-chiết-khấu-khi-không-có-rủi-ro),
@@ -456,6 +493,7 @@ mọi người bị rối vì nó."* Giờ là lúc.
 
 Và điều đầu tiên ông làm là **tách nó ra khỏi thứ đã học** (`S4 32:59`):
 
+> [!quote]
 > *"Ý tưởng đằng sau lạm phát là để đo **sức mua** của đồng tiền của bạn. Và cái đó **hoàn toàn khác**
 > với giá trị thời gian của tiền. Giá trị thời gian của tiền chỉ nói rằng người ta thiếu kiên nhẫn
 > và thích tiền bây giờ hơn tiền sau này. Còn lạm phát là một nhận định về **sức mua** của đồng tiền
@@ -473,18 +511,22 @@ Lo dựng hai đại lượng (`S4 31:14`):
 - $I_t$ — **chỉ số giá** của cái giỏ hàng bạn thực sự tiêu dùng: thực phẩm, quần áo, và cả
   *"giải trí, tiêu khiển và những thứ tương tự"*.
 
+> [!quote]
 > *"Việc bạn có một lượng của cải nhất định thực ra **không cho biết bạn hạnh phúc đến đâu**. Cái
 > cho biết là bạn tiêu dùng được bao nhiêu."* — `S4 31:52`
 
+> [!note]
 > 📚 Đây là lý do các nhà kinh tế đo mức sống bằng **tiêu dùng**, không phải bằng của cải. Một chi
 > tiết nhỏ nhưng nó định hình cả cách CPI được xây dựng.
 
 Và lạm phát **có thể âm** (`S4 33:20`):
 
+> [!quote]
 > *"Nó có thể đi theo cả hai hướng. Nói cách khác, hoàn toàn có thể một đô la sang năm mua được
 > **nhiều hơn** một đô la hôm nay — nếu giá giảm, như đang xảy ra với năng lượng lúc này. Dầu đang
 > dưới 100 đô một thùng. Mới vài tháng trước nó ở 130 đô."*
 
+> [!note]
 > ✅ **Kiểm:** đúng. WTI và Brent lập đỉnh lịch sử **147,02 đô/thùng ngày 11/7/2008**, rồi rơi xuống
 > dưới 100 đô vào cuối hè 2008 — tức đúng lúc Lo đang giảng. Ông đang mô tả thị trường theo thời
 > gian thực và mô tả đúng.
@@ -492,6 +534,7 @@ Và lạm phát **có thể âm** (`S4 33:20`):
 Câu đùa hay nhất buổi nằm ở đây. Lo viết chữ $\pi$ lên bảng và một sinh viên hỏi tại sao lại là pi
 (`S4 36:51`):
 
+> [!quote]
 > *"Ồ không không. Ý tôi chỉ là một biến tên là pi. **Tôi không có ý 3,14159. Chỉ ở MIT tôi mới bị
 > hỏi câu này.** Tôi từng dạy ở các trường khác và họ hỏi tôi cái ký hiệu ngộ nghĩnh đó trông giống
 > cái gì."*
@@ -500,17 +543,21 @@ Câu đùa hay nhất buổi nằm ở đây. Lo viết chữ $\pi$ lên bảng 
 
 ## 10. Danh nghĩa và thực
 
+> [!quote]
 > **Lợi suất danh nghĩa** (*nominal*): $\dfrac{W_{t+k}}{W_t} - 1$ — số tờ tiền nhiều hơn bao nhiêu.
 > Lo giải thích tên gọi ở `S4 34:23`: *"gọi là danh nghĩa vì nó chỉ đúng trên danh nghĩa."*
 
+> [!note]
 > **Lợi suất thực** (*real*): sức mua nhiều hơn bao nhiêu.
 
 Ví dụ trung tâm của Lo (`S4 35:26`): của cải tăng **10 %**, giá cả cũng tăng **10 %**.
 
+> [!quote]
 > *"Bạn có kiếm được tiền không? Bạn có tiến bộ gì không? **Bạn kiếm được tiền, nhưng bạn không tiến
 > bộ.** Bạn được 10 % trên 1.000 đô ban đầu. Nhưng thứ bạn thích ăn, thích mua, thích dùng — cũng
 > tăng 10 %."* — `S4 35:26`
 
+> [!quote]
 > *"Nên xét từ góc độ **thực** — thực nghĩa là thứ bạn thật sự quan tâm — bạn chẳng tiến bộ gì cả."*
 > — `S4 36:09`
 
@@ -521,6 +568,7 @@ $$1 + r_{\text{thực}} \;=\; \frac{1 + r_{\text{danh nghĩa}}}{1 + \pi}
 
 Lo đưa luôn dạng rút gọn (`S4 39:54`):
 
+> [!quote]
 > *"Lợi suất thực **xấp xỉ bằng** lợi suất danh nghĩa **trừ đi** tỷ lệ lạm phát — không chia cho cái
 > gì cả. **Đó là phép xấp xỉ.**"*
 
@@ -544,6 +592,7 @@ Số chính xác là **4,55 %**. Mục 14 in ra cả bảng sai lệch:
 chữ số trở lên, nó **sai nghiêm trọng** — và luôn sai theo hướng làm bạn thấy mình giàu hơn thực tế.
 Lo có nhắc tới điều này bằng một câu rất gợi (`S4 19:39`):
 
+> [!quote]
 > *"Ai đến từ một nước Mỹ Latin đều biết bóng ma lạm phát đáng sợ đến mức nào."*
 
 ---
@@ -553,12 +602,14 @@ Lo có nhắc tới điều này bằng một câu rất gợi (`S4 19:39`):
 Lo kết phần lạm phát bằng đúng một quy tắc, và ông gọi nó là thứ *"sẽ giúp bạn dù bạn làm loại tính
 toán nào"* (`S4 41:26`):
 
+> [!quote]
 > **Dòng tiền danh nghĩa phải được chiết khấu bằng lãi suất danh nghĩa.**
 > **Dòng tiền thực phải được chiết khấu bằng lãi suất thực.**
 > *"Chỉ cần nhớ có thế thôi."* — `S4 42:08`
 
 Ông cũng cho biết trong thực tế bạn sẽ gặp cái nào (`S4 41:45`):
 
+> [!quote]
 > *"Phần lớn dòng tiền bạn nhận được trong phân tích sẽ là **danh nghĩa** — tức là số tiền thật bạn
 > sẽ thấy vào những ngày đó. Nhưng thỉnh thoảng bạn có thể nhận được một dự báo lập theo giá trị
 > **thực**, tức theo sức mua."*
@@ -634,8 +685,9 @@ $$\text{Lạm phát hoà vốn} \;=\; r_{\text{trái phiếu thường}} \;-\; r
 Đây là **mức lạm phát mà thị trường đang kỳ vọng** trong kỳ hạn đó — đọc trực tiếp từ giá, đúng cái
 "quả cầu pha lê" mà Lo mô tả ở `S4 70:06`.
 
-📚 Bài 4 sẽ dựng bộ máy trích dự báo từ giá trái phiếu. Khi tới đó, nhớ rằng cùng bộ máy ấy áp lên
-cặp trái phiếu thường/TIPS thì cho ra kỳ vọng lạm phát.
+> [!note]
+> Bài 4 sẽ dựng bộ máy trích dự báo từ giá trái phiếu. Khi tới đó, nhớ rằng cùng bộ máy ấy áp lên
+> cặp trái phiếu thường/TIPS thì cho ra kỳ vọng lạm phát.
 
 ### 12. 4 Lạm phát chuyển của cải từ chủ nợ sang con nợ
 
@@ -706,13 +758,15 @@ Giờ đọc nó qua lăng kính mục 10: ở mức lạm phát 4,65 %, phép t
 hai chữ số như giai đoạn 2008 và 2011, phép trừ nhanh bắt đầu sai đáng kể, và bảng ở mục 10 cho thấy
 sai theo hướng **làm bạn tưởng mình đang lời nhiều hơn thực tế**.
 
-📚 **Việt Nam không có TIPS.** Mục 12.3 nói lãi suất thực được niêm yết công khai ở Mỹ qua TIPS. Ở
-Việt Nam không có công cụ tương đương, nên **không có cách đọc kỳ vọng lạm phát trực tiếp từ giá thị
-trường**. Đó là một phần lý do vì sao **vàng và bất động sản** giữ vai trò lá chắn lạm phát truyền
-thống trong danh mục hộ gia đình Việt Nam — như đã nêu ở [bài 1 mục 18.3](bai_01_tai_chinh_la_gi.md#18-góc-việt-nam--đọc-bộ-khung-của-lo-bằng-số-liệu-2026).
-Đó là lựa chọn hợp lý khi thiếu công cụ tài chính chuyên dụng, nhưng chúng là lá chắn **không hoàn
-hảo**: chúng có rủi ro riêng, và bài 10 sẽ cho công cụ để nói chính xác "không hoàn hảo" nghĩa là gì.
+> [!note] Việt Nam không có TIPS.
+> Mục 12.3 nói lãi suất thực được niêm yết công khai ở Mỹ qua TIPS. Ở
+> Việt Nam không có công cụ tương đương, nên **không có cách đọc kỳ vọng lạm phát trực tiếp từ giá thị
+> trường**. Đó là một phần lý do vì sao **vàng và bất động sản** giữ vai trò lá chắn lạm phát truyền
+> thống trong danh mục hộ gia đình Việt Nam — như đã nêu ở [bài 1 mục 18.3](bai_01_tai_chinh_la_gi.md#18-góc-việt-nam--đọc-bộ-khung-của-lo-bằng-số-liệu-2026).
+> Đó là lựa chọn hợp lý khi thiếu công cụ tài chính chuyên dụng, nhưng chúng là lá chắn **không hoàn
+> hảo**: chúng có rủi ro riêng, và bài 10 sẽ cho công cụ để nói chính xác "không hoàn hảo" nghĩa là gì.
 
+> [!note]
 > ⚠️ Mọi con số Việt Nam trong mục này là **mức tham khảo tại thời điểm viết bài**. Tra lại trước khi
 > dùng cho quyết định thật.
 
@@ -720,6 +774,7 @@ hảo**: chúng có rủi ro riêng, và bài 10 sẽ cho công cụ để nói 
 
 ## 14. Code minh hoạ
 
+> [!note]
 > ⚙️ **Chạy:** cần **Python 3.10+**. Lưu file rồi gõ `python3 bai-03-don-bay-va-lam-phat.py`.
 > **Không cần cài gói nào.** File có sẵn tại [thuc_hanh/bai-03-don-bay-va-lam-phat.py](../thuc_hanh/bai-03-don-bay-va-lam-phat.py).
 

@@ -1,10 +1,14 @@
 # Bài 7 — Kinh tế thị trường định hướng xã hội chủ nghĩa ở Việt Nam
 
+> [!info] Về bài này
 > Bài học dựng từ **Chương 5** (tr. 169–223) của *Giáo trình Kinh tế chính trị Mác – Lênin* (hệ không chuyên),
 > Bộ Giáo dục và Đào tạo, **NXB Chính trị Quốc gia Sự thật, 2021** (chủ biên PGS.TS. Ngô Tuấn Nghĩa).
-> 🔸 **Vòng 2.** Vận dụng toàn bộ lý luận trước vào **mô hình kinh tế của Việt Nam**: **KTTT định hướng XHCN** là gì, vì sao **tất yếu**, có **năm đặc trưng** nào, phải **hoàn thiện thể chế** ra sao, và giải quyết **quan hệ lợi ích kinh tế** thế nào.
+>
+> **Vòng 2.** Vận dụng toàn bộ lý luận trước vào **mô hình kinh tế của Việt Nam**: **KTTT định hướng XHCN** là gì, vì sao **tất yếu**, có **năm đặc trưng** nào, phải **hoàn thiện thể chế** ra sao, và giải quyết **quan hệ lợi ích kinh tế** thế nào.
 > **Ký hiệu:** **💼 Góc QTKD** = ví dụ cho ngành quản trị kinh doanh (ngoài sách, để dễ nhớ) · **📚 Mở rộng** = đào sâu ngoài sách · **⚠️** = chỗ dễ hiểu sai.
 > **Nên đọc trước:** [Bài 3](bai_03_thi_truong_va_cac_chu_the.md) (kinh tế thị trường, khuyết tật, vai trò nhà nước).
+>
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
 
 ---
 
@@ -28,9 +32,11 @@
 
 ## 1. Khái niệm và tính tất yếu
 
+> [!quote] tr. 170
 > **Kinh tế thị trường định hướng XHCN** là nền kinh tế **vận hành theo các quy luật của thị trường**, đồng thời **góp phần hướng tới** từng bước xác lập một xã hội **dân giàu, nước mạnh, dân chủ, công bằng, văn minh**; có sự **điều tiết của Nhà nước** pháp quyền XHCN do Đảng Cộng sản Việt Nam lãnh đạo. (tr. 170)
 
-⚠️ Không có nền KTTT "trừu tượng, chung chung" — mọi nền KTTT đều **gắn với một hình thái kinh tế – xã hội cụ thể**. KTTT định hướng XHCN vừa mang **đặc trưng chung** của mọi KTTT ([bài 3](bai_03_thi_truong_va_cac_chu_the.md)), vừa có **đặc trưng riêng** của Việt Nam (tr. 170–171).
+> [!warning]
+> Không có nền KTTT "trừu tượng, chung chung" — mọi nền KTTT đều **gắn với một hình thái kinh tế – xã hội cụ thể**. KTTT định hướng XHCN vừa mang **đặc trưng chung** của mọi KTTT ([bài 3](bai_03_thi_truong_va_cac_chu_the.md)), vừa có **đặc trưng riêng** của Việt Nam (tr. 170–171).
 
 **Ba lý do khiến nó là tất yếu khách quan** (tr. 174–176):
 
@@ -38,9 +44,9 @@
 2. **Do tính ưu việt của KTTT** trong phân bổ nguồn lực — phương thức **hiệu quả nhất** loài người đạt được, thúc đẩy LLSX; không mâu thuẫn với mục tiêu CNXH.
 3. **Phù hợp nguyện vọng** *dân giàu, nước mạnh, dân chủ, công bằng, văn minh* của nhân dân Việt Nam.
 
-### 💼 Góc QTKD — "luật chơi kép": vừa thị trường, vừa định hướng
-
-- Doanh nghiệp ở Việt Nam vận hành trong một **thể chế kép**: tuân **quy luật thị trường** (cung – cầu, cạnh tranh, lợi nhuận) **và** chịu **định hướng + điều tiết của Nhà nước** (chính sách, ngành ưu tiên, an sinh). Hiểu cả hai lớp này mới đọc đúng môi trường kinh doanh.
+> [!example] Góc QTKD — "luật chơi kép": vừa thị trường, vừa định hướng
+>
+> - Doanh nghiệp ở Việt Nam vận hành trong một **thể chế kép**: tuân **quy luật thị trường** (cung – cầu, cạnh tranh, lợi nhuận) **và** chịu **định hướng + điều tiết của Nhà nước** (chính sách, ngành ưu tiên, an sinh). Hiểu cả hai lớp này mới đọc đúng môi trường kinh doanh.
 
 ---
 
@@ -56,35 +62,40 @@
 | **d** | **Quan hệ phân phối** | nhiều hình thức; chủ yếu **theo kết quả lao động, hiệu quả kinh tế, mức đóng góp vốn** và qua **an sinh – phúc lợi xã hội** (phân phối theo lao động + phúc lợi phản ánh định hướng XHCN) |
 | **đ** | **Tăng trưởng gắn công bằng xã hội** | gắn tăng trưởng kinh tế với **tiến bộ và công bằng xã hội ngay trong từng chính sách**; ⚠️ **không** "hy sinh" công bằng để chạy theo tăng trưởng, cũng **không** cào bằng bình quân |
 
-📚 **Về sở hữu** (tr. 179–180): sở hữu có **nội dung kinh tế** (lợi ích từ đối tượng sở hữu) và **nội dung pháp lý** (quyền – nghĩa vụ được luật thừa nhận) — hai mặt **thống nhất biện chứng**. Quan hệ **phân phối** bị **quan hệ sở hữu quyết định** (nối lại [bài 5](bai_05_tich_luy_va_loi_nhuan_dia_to.md)).
+> [!note] Về sở hữu
+> (tr. 179–180): sở hữu có **nội dung kinh tế** (lợi ích từ đối tượng sở hữu) và **nội dung pháp lý** (quyền – nghĩa vụ được luật thừa nhận) — hai mặt **thống nhất biện chứng**. Quan hệ **phân phối** bị **quan hệ sở hữu quyết định** (nối lại [bài 5](bai_05_tich_luy_va_loi_nhuan_dia_to.md)).
 
-⚠️ **Điểm khác CNTB về công bằng xã hội** (tr. 185): ở nước tư bản, công bằng xã hội chỉ được đặt ra khi **buộc phải** xoa dịu mâu thuẫn (phương tiện duy trì chế độ); ở Việt Nam, công bằng xã hội **vừa là phương tiện vừa là mục tiêu**.
+> [!warning] Điểm khác CNTB về công bằng xã hội
+> (tr. 185): ở nước tư bản, công bằng xã hội chỉ được đặt ra khi **buộc phải** xoa dịu mâu thuẫn (phương tiện duy trì chế độ); ở Việt Nam, công bằng xã hội **vừa là phương tiện vừa là mục tiêu**.
 
-### 💼 Góc QTKD — bản đồ thành phần kinh tế mà doanh nghiệp mày nằm trong đó
-
-- **Nhiều thành phần kinh tế** = mày có thể ở khu vực **nhà nước** (DNNN, vai trò chủ đạo, đầu tư ngành then chốt), **tư nhân** (động lực quan trọng), **tập thể/hợp tác xã**, hay **FDI**. Mỗi khu vực có vai trò, ưu đãi, ràng buộc khác nhau — định vị đúng để hiểu lợi thế và giới hạn.
-- **"Kinh tế nhà nước chủ đạo + tư nhân là động lực"** = bối cảnh chính sách: nhà nước giữ ngành then chốt (điện, hạ tầng), mở rộng sân cho tư nhân ở phần còn lại — cơ hội và ranh giới của khởi nghiệp.
+> [!example] Góc QTKD — bản đồ thành phần kinh tế mà doanh nghiệp mày nằm trong đó
+>
+> - **Nhiều thành phần kinh tế** = mày có thể ở khu vực **nhà nước** (DNNN, vai trò chủ đạo, đầu tư ngành then chốt), **tư nhân** (động lực quan trọng), **tập thể/hợp tác xã**, hay **FDI**. Mỗi khu vực có vai trò, ưu đãi, ràng buộc khác nhau — định vị đúng để hiểu lợi thế và giới hạn.
+> - **"Kinh tế nhà nước chủ đạo + tư nhân là động lực"** = bối cảnh chính sách: nhà nước giữ ngành then chốt (điện, hạ tầng), mở rộng sân cho tư nhân ở phần còn lại — cơ hội và ranh giới của khởi nghiệp.
 
 ---
 
 ## 3. Hoàn thiện thể chế kinh tế thị trường
 
+> [!quote]
 > **Thể chế** là những **quy tắc, luật pháp, bộ máy quản lý và cơ chế vận hành** nhằm điều chỉnh hoạt động của con người trong một chế độ xã hội (tr. 187). **Thể chế kinh tế** gồm: hệ thống **luật pháp – quy tắc**, các **chủ thể** (thị trường, nhà nước, xã hội), và **cơ chế vận hành**.
 
 **Vì sao phải hoàn thiện** (tr. 189–190): ① thể chế còn đang phát triển, chưa đồng bộ; ② hệ thống thể chế **chưa đầy đủ**; ③ còn **kém hiệu lực, hiệu quả**.
 
 **Nội dung hoàn thiện** (khái quát, tr. 191 trở đi): hoàn thiện thể chế về **sở hữu và các thành phần kinh tế**; phát triển **đồng bộ các loại thị trường** (hàng hóa, dịch vụ, sức lao động, tài chính, bất động sản, khoa học – công nghệ); gắn với **hội nhập kinh tế quốc tế**; nâng cao vai trò **lãnh đạo của Đảng**, hiệu lực **quản lý của Nhà nước** và vai trò **làm chủ của nhân dân**.
 
-### 💼 Góc QTKD — thể chế tốt = chi phí giao dịch thấp
-
-- **Thể chế = "luật chơi"** của nền kinh tế. Thể chế **minh bạch, đồng bộ, hiệu lực** làm giảm **chi phí giao dịch, rủi ro pháp lý** cho doanh nghiệp → môi trường kinh doanh tốt. Đây là lý do cải cách thể chế (thủ tục, quyền tài sản, thực thi hợp đồng) trực tiếp ảnh hưởng năng lực cạnh tranh quốc gia.
+> [!example] Góc QTKD — thể chế tốt = chi phí giao dịch thấp
+>
+> - **Thể chế = "luật chơi"** của nền kinh tế. Thể chế **minh bạch, đồng bộ, hiệu lực** làm giảm **chi phí giao dịch, rủi ro pháp lý** cho doanh nghiệp → môi trường kinh doanh tốt. Đây là lý do cải cách thể chế (thủ tục, quyền tài sản, thực thi hợp đồng) trực tiếp ảnh hưởng năng lực cạnh tranh quốc gia.
 
 ---
 
 ## 4. Quan hệ lợi ích kinh tế
 
+> [!quote] tr. 191–192
 > **Lợi ích kinh tế** là **lợi ích vật chất** thu được khi thực hiện các hoạt động kinh tế — biểu hiện của **quan hệ sản xuất**, là **động lực trực tiếp** của các chủ thể (tr. 191–192).
 
+> [!quote] tr. 195
 > **Quan hệ lợi ích kinh tế** là sự **thiết lập những tương tác** giữa các chủ thể nhằm thực hiện lợi ích kinh tế, trong điều kiện LLSX và QHSX nhất định (tr. 195).
 
 ⭐ **Vừa thống nhất, vừa mâu thuẫn** (tr. 196–197):
@@ -96,10 +107,10 @@
 
 **Nhân tố ảnh hưởng:** trình độ LLSX; địa vị của chủ thể; chính sách phân phối thu nhập; hội nhập kinh tế quốc tế.
 
-### 💼 Góc QTKD — quan hệ chủ – thợ: vừa cùng thuyền, vừa kéo co
-
-- **Thống nhất + mâu thuẫn** = đúng bản chất **quan hệ lao động (industrial relations)**: chủ và thợ **cùng thuyền** (công ty sống thì cả hai sống) nhưng **kéo co** khi chia lợi (lương, thưởng, giờ làm). Quản trị nhân sự giỏi là **tối đa phần thống nhất, điều hòa phần mâu thuẫn** (thương lượng tập thể, chia sẻ lợi nhuận, ESOP).
-- **Hài hòa cá nhân – doanh nghiệp – xã hội** = chính là tư duy **stakeholder / ESG**: doanh nghiệp bền vững phải cân bằng lợi ích cổ đông, người lao động, cộng đồng.
+> [!example] Góc QTKD — quan hệ chủ – thợ: vừa cùng thuyền, vừa kéo co
+>
+> - **Thống nhất + mâu thuẫn** = đúng bản chất **quan hệ lao động (industrial relations)**: chủ và thợ **cùng thuyền** (công ty sống thì cả hai sống) nhưng **kéo co** khi chia lợi (lương, thưởng, giờ làm). Quản trị nhân sự giỏi là **tối đa phần thống nhất, điều hòa phần mâu thuẫn** (thương lượng tập thể, chia sẻ lợi nhuận, ESOP).
+> - **Hài hòa cá nhân – doanh nghiệp – xã hội** = chính là tư duy **stakeholder / ESG**: doanh nghiệp bền vững phải cân bằng lợi ích cổ đông, người lao động, cộng đồng.
 
 ---
 
@@ -114,9 +125,9 @@ Thị trường tự nó **không** làm hài hòa được lợi ích → cần
 | **c. Kiểm soát, ngăn ngừa quan hệ lợi ích tiêu cực** | chống **thu nhập bất hợp pháp**, tham nhũng, "lợi ích nhóm" gây hại xã hội |
 | **đ. Giải quyết mâu thuẫn trong quan hệ lợi ích** | **ngăn ngừa là chính**; khi mâu thuẫn nổ ra (đình công, tranh chấp) phải có giải pháp kịp thời, đúng nguyên tắc |
 
-### 💼 Góc QTKD — Nhà nước là "trọng tài" của sân chơi lợi ích
-
-- Bốn hướng này = **khung chính sách** mà doanh nghiệp phải nắm: bảo vệ quyền tài sản/hợp đồng (a), thuế và an sinh (b), chống cạnh tranh bẩn/tham nhũng (c), cơ chế giải quyết tranh chấp lao động (đ). Doanh nghiệp vừa **được bảo vệ** vừa **bị ràng buộc** bởi vai trò trọng tài này.
+> [!example] Góc QTKD — Nhà nước là "trọng tài" của sân chơi lợi ích
+>
+> - Bốn hướng này = **khung chính sách** mà doanh nghiệp phải nắm: bảo vệ quyền tài sản/hợp đồng (a), thuế và an sinh (b), chống cạnh tranh bẩn/tham nhũng (c), cơ chế giải quyết tranh chấp lao động (đ). Doanh nghiệp vừa **được bảo vệ** vừa **bị ràng buộc** bởi vai trò trọng tài này.
 
 ---
 

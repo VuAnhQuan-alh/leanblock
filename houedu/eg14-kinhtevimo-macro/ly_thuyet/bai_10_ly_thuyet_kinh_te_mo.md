@@ -1,16 +1,18 @@
 # Bài 10 — Lý thuyết kinh tế vĩ mô của nền kinh tế mở
 
+> [!info] Về bài này
 > Bài học dựng từ **Chương 19 — Lý thuyết kinh tế vĩ mô của nền kinh tế mở** (tr. 444–465)
 > của *N. Gregory Mankiw — **Kinh tế học vĩ mô***, bản dịch của Khoa Kinh tế, **ĐH Kinh tế TP.HCM**
 > (Cengage Learning Asia).
-> 🔸 **Vòng 2.** [Bài 9](bai_09_kinh_te_mo_khai_niem_co_ban.md) đã **định nghĩa và đo**. Bài này dựng
+>
+> **Vòng 2.** [Bài 9](bai_09_kinh_te_mo_khai_niem_co_ban.md) đã **định nghĩa và đo**. Bài này dựng
 > **mô hình**: cái gì quyết định lãi suất thực, tỷ giá thực, dòng vốn và cán cân thương mại — và chính
 > sách tác động vào chúng thế nào. Đây là bài **cuối cùng của khối dài hạn**; từ bài 11 trở đi sách bỏ
 > giả định sản lượng cho trước.
-> 💼 **Góc QTKD** — ví dụ thêm cho ngành quản trị kinh doanh, **không có trong sách**.
-> 📚 **Mở rộng** — thứ sách nói lướt hoặc để trong hộp phụ.
-> ⚠️ — chỗ dễ hiểu sai, hoặc chỗ sách in sai.
-> 📌 **Cần đọc trước:** [Bài 9](bai_09_kinh_te_mo_khai_niem_co_ban.md) **toàn bộ** — bài này dùng lại
+>
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
+>
+> **Cần đọc trước:** [Bài 9](bai_09_kinh_te_mo_khai_niem_co_ban.md) **toàn bộ** — bài này dùng lại
 > $S = I + NCO$ và $NCO = NX$ ở mọi mục; và
 > [Bài 4 mục 10](bai_04_tiet_kiem_dau_tu_he_thong_tai_chinh.md#10-thị-trường-vốn-vay--mô-hình) (thị
 > trường vốn vay của nền kinh tế đóng — bài này chỉ thêm một thành phần vào vế cầu).
@@ -24,18 +26,18 @@
 - [1. Câu hỏi mà chương này đặt ra](#1-câu-hỏi-mà-chương-này-đặt-ra)
 - [2. Hai thị trường, một biến nối](#2-hai-thị-trường-một-biến-nối)
 - [3. Cân bằng đồng thời — và mô hình bằng số](#3-cân-bằng-đồng-thời--và-mô-hình-bằng-số)
-- [4. 📚 "Thoát ra khỏi sự rối rắm giữa cung và cầu"](#4--thoát-ra-khỏi-sự-rối-rắm-giữa-cung-và-cầu)
+- [4. "Thoát ra khỏi sự rối rắm giữa cung và cầu"](#4-thoát-ra-khỏi-sự-rối-rắm-giữa-cung-và-cầu)
 - [5. Thí nghiệm 1 — thâm hụt ngân sách chính phủ](#5-thí-nghiệm-1--thâm-hụt-ngân-sách-chính-phủ)
-- [6. 📚 Đối chiếu với bài 4 — cái gì mới, cái gì không](#6--đối-chiếu-với-bài-4--cái-gì-mới-cái-gì-không)
+- [6. Đối chiếu với bài 4 — cái gì mới, cái gì không](#6-đối-chiếu-với-bài-4--cái-gì-mới-cái-gì-không)
 - [7. Thí nghiệm 2 — hạn ngạch nhập khẩu](#7-thí-nghiệm-2--hạn-ngạch-nhập-khẩu)
-- [8. 📚 Hai cú sốc, cùng một lãi suất, hai tỷ giá ngược nhau](#8--hai-cú-sốc-cùng-một-lãi-suất-hai-tỷ-giá-ngược-nhau)
+- [8. Hai cú sốc, cùng một lãi suất, hai tỷ giá ngược nhau](#8-hai-cú-sốc-cùng-một-lãi-suất-hai-tỷ-giá-ngược-nhau)
 - [9. Thí nghiệm 3 — tháo chạy vốn](#9-thí-nghiệm-3--tháo-chạy-vốn)
 - [10. Bảng tổng hợp — mọi thí nghiệm của chương và của bộ bài tập](#10-bảng-tổng-hợp--mọi-thí-nghiệm-của-chương-và-của-bộ-bài-tập)
-- [11. 📚 Ngang bằng sức mua là trường hợp đặc biệt của mô hình này](#11--ngang-bằng-sức-mua-là-trường-hợp-đặc-biệt-của-mô-hình-này)
+- [11. Ngang bằng sức mua là trường hợp đặc biệt của mô hình này](#11-ngang-bằng-sức-mua-là-trường-hợp-đặc-biệt-của-mô-hình-này)
 - [12. Các dòng vốn từ Trung Quốc](#12-các-dòng-vốn-từ-trung-quốc)
-- [13. 📚 Kết luận có phụ thuộc tham số không?](#13--kết-luận-có-phụ-thuộc-tham-số-không)
-- [14. 📚 Đối chiếu Việt Nam](#14--đối-chiếu-việt-nam)
-- [15. 💼 Góc QTKD](#15--góc-qtkd)
+- [13. Kết luận có phụ thuộc tham số không?](#13-kết-luận-có-phụ-thuộc-tham-số-không)
+- [14. Đối chiếu Việt Nam](#14-đối-chiếu-việt-nam)
+- [15. Góc QTKD](#15-góc-qtkd)
 - [16. Code minh hoạ](#16-code-minh-hoạ)
 - [17. Tự thử](#17-tự-thử)
 - [18. Từ điển thuật ngữ](#18-từ-điển-thuật-ngữ)
@@ -51,6 +53,7 @@
 
 Sách mở bằng một tình huống rất cụ thể (tr. 444):
 
+> [!quote]
 > *"Hãy tưởng tượng rằng bạn là tổng thống và bạn muốn chấm dứt tình trạng thâm hụt thương mại. Bạn sẽ
 > nên làm gì? Bạn có nên hạn chế nhập khẩu, có thể bằng cách ban hành hạn ngạch đối với hàng dệt may của
 > Trung Quốc hay xe hơi từ Nhật Bản?"*
@@ -63,7 +66,7 @@ nghiệp cho rằng thâm hụt thương mại phản ánh hiện tượng cạn
 ngoài được cho phép bán hàng hóa của họ trên thị trường Hoa Kỳ trong khi chính phủ các nước lại ngăn cản
 các doanh nghiệp Hoa Kỳ bán hàng hóa trên đất nước của họ."*
 
-### ⚠️ Hai giả định — và cả hai đều là kết luận của các bài trước
+### Hai giả định — và cả hai đều là kết luận của các bài trước
 
 Sách nêu rõ (tr. 444–445):
 
@@ -94,10 +97,12 @@ vì nó bao gồm việc **xem xét đồng thời cả hai thị trường**: t
 ⭐ **Chú ý $NCO$ xuất hiện ở cả hai dòng, và ở hai vai trò ngược nhau:** ở thị trường vốn vay nó là một
 phần của **cầu**; ở thị trường ngoại hối nó là toàn bộ **cung**.
 
+> [!quote] tr. 450
 > *"Dòng vốn ra ròng là biến số **nối kết** giữa hai thị trường."* (tr. 450)
 
 Sách giải thích tại sao (tr. 450):
 
+> [!quote]
 > *"Trên thị trường vốn vay, dòng vốn ra ròng là một phần của cầu. Một người muốn mua một tài sản nước
 > ngoài phải tài trợ khoản mua này bằng cách tìm được nguồn trên thị trường vốn vay. Trên thị trường
 > ngoại hối, dòng vốn ra ròng là nguồn cung. Một người muốn mua một tài sản của nước khác phải cung đô la
@@ -118,7 +123,7 @@ kiếm tiền trên thị trường vốn vay (cầu), rồi phải bán đô đ
 đến từ những người muốn có được vốn để mua hàng hóa vốn nội địa mà còn đến từ những người muốn có vốn
 để mua tài sản nước ngoài."*
 
-### ⚠️ Ba độ dốc, và một trong ba rất dễ nhầm
+### Ba độ dốc, và một trong ba rất dễ nhầm
 
 | Đường | Độ dốc | Vì sao |
 | ----- | ------ | ------ |
@@ -137,10 +142,11 @@ ngoài hơn **và** người nước ngoài mua nhiều tài sản Mỹ hơn —
 
 ![Hình 1 — tr. 446, bản chụp giáo trình](../tai_lieu/hinh/ch19-hinh-01-tr446.png)
 
-### ⭐ Chỗ khó nhất chương: vì sao cung đô la dốc ĐỨNG?
+### Chỗ khó nhất chương: vì sao cung đô la dốc ĐỨNG?
 
 Sách thừa nhận thẳng rằng điều này khó nuốt (tr. 448):
 
+> [!quote]
 > *"Lúc đầu có vẻ như khá lạ lẫm khi cho rằng dòng vốn ra ròng không phụ thuộc vào tỷ giá hối đoái. Rốt
 > cuộc thì ứng với một giá trị trao đổi của đô la cao hơn không chỉ làm cho hàng hóa nước ngoài rẻ hơn
 > đối với người mua Hoa Kỳ mà còn làm cho tài sản nước ngoài ít đắt đỏ hơn. Người ta có thể dự đoán rằng
@@ -148,6 +154,7 @@ Sách thừa nhận thẳng rằng điều này khó nuốt (tr. 448):
 
 Rồi đưa lập luận bù trừ (tr. 448–449):
 
+> [!quote]
 > *"Nhưng nên nhớ rằng một nhà đầu tư Hoa Kỳ cuối cùng sẽ mong muốn chuyển tài sản nước ngoài cũng như
 > lợi nhuận thu được từ các tài sản này sang đô la. Ví dụ, đô la có giá trị cao thì người Mỹ mua được cổ
 > phiếu rẻ hơn từ một công ty Nhật, nhưng khi cổ phiếu được trả cổ tức, thì những khoản thu nhập cổ tức
@@ -161,7 +168,7 @@ Rồi đưa lập luận bù trừ (tr. 448–449):
 
 ## 3. Cân bằng đồng thời — và mô hình bằng số
 
-⚠️ **Trước khi đọc tiếp, một cảnh báo quan trọng về ranh giới.**
+> [!warning] Trước khi đọc tiếp, một cảnh báo quan trọng về ranh giới.
 
 **Chương 19 không cho một con số nào.** Toàn bộ chương là bảy hình vẽ định tính. Mô hình bằng số dưới
 đây **do bài này đặt ra**, với hai điều kiện:
@@ -169,7 +176,7 @@ Rồi đưa lập luận bù trừ (tr. 448–449):
 1. cân bằng gốc ra số tròn để dễ theo dõi;
 2. mọi kết luận **định tính** của sách phải tái hiện đúng.
 
-[Mục 13](#13--kết-luận-có-phụ-thuộc-tham-số-không) kiểm điều kiện thứ hai một cách hệ thống: đổi tham số
+[Mục 13](#13-kết-luận-có-phụ-thuộc-tham-số-không) kiểm điều kiện thứ hai một cách hệ thống: đổi tham số
 thì **con số** đổi, **hướng** không đổi. Đó là điều duy nhất mô hình này hứa hẹn, và cũng là điều duy
 nhất sách tuyên bố.
 
@@ -198,6 +205,7 @@ $$S = I + NCO: \quad 2000 = 1600 + 400 \qquad\qquad NCO = NX: \quad 400 = 400$$
 
 Sách nhấn mạnh điều làm mô hình này khác mọi mô hình trước (tr. 452):
 
+> [!quote]
 > *"Cả hai mức giá có liên quan với nhau này (lãi suất thực và tỷ giá hối đoái thực) **điều chỉnh đồng
 > thời** để cân bằng giữa cung và cầu trên cả hai thị trường."*
 
@@ -217,12 +225,13 @@ nhau, nên bước 3 phải chạy ba lần theo đúng thứ tự (a) → (b) �
 
 ---
 
-## 4. 📚 "Thoát ra khỏi sự rối rắm giữa cung và cầu"
+## 4. "Thoát ra khỏi sự rối rắm giữa cung và cầu"
 
 Hộp phụ tr. 452 nhìn như một chỗ nghỉ, nhưng nó là một bài học phương pháp cho cả khoá.
 
 Sách mở bằng một câu đố (tr. 452):
 
+> [!quote]
 > *"Giả sử người chủ vườn táo quyết định mua một số táo của chính mình. Quyết định này thể hiện sự **tăng
 > lên** bên phía **cầu** táo hay **giảm đi** của phía **cung** táo? Trả lời theo cách nào cũng có thể bào
 > chữa được."*
@@ -234,6 +243,7 @@ Sách mở bằng một câu đố (tr. 452):
 | $S = I + NCO$ | $NCO$ là một phần của **cầu** vốn vay | quỹ vốn tạo ra được **dùng ở đâu** |
 | $S - NCO = I$ | $NCO$ là một sự **giảm cung** vốn vay | còn **bao nhiêu vốn** cho trong nước |
 
+> [!quote] tr. 452
 > *"Sự khác nhau này có tính **ngữ nghĩa** hơn là thực tế tồn tại hai hiện tượng."* (tr. 452)
 
 Và làm y hệt với thị trường ngoại hối: người Mỹ nhập xe Nhật có thể đọc là *"sự sụt giảm của lượng **cầu**
@@ -282,10 +292,11 @@ tư nước ngoài… **cả hành vi trong và ngoài nước đều gây nên 
 
 Kết luận sách in nghiêng (tr. 455):
 
+> [!quote]
 > *"trong một nền kinh tế mở, thâm hụt ngân sách chính phủ làm tăng lãi suất thực, lấn át đầu tư trong
 > nước, gây nên sự lên giá nội tệ, và đẩy cán cân thương mại vào trạng thái thâm hụt"*
 
-### ⭐⭐ Thâm hụt kép
+### Thâm hụt kép
 
 Sách kể ca thật (tr. 455): Reagan trúng cử 1980, *"Tổng thống và Quốc hội đã ban hành việc cắt giảm lớn
 về thuế, nhưng họ lại không giảm nhiều chi tiêu chính phủ một cách tương ứng, do vậy mà thâm hụt ngân
@@ -293,19 +304,21 @@ sách xảy ra trầm trọng."* Mô hình dự đoán thâm hụt thương mạ
 
 Hai thâm hụt đi cùng nhau đến mức có tên riêng: **thâm hụt kép**.
 
-⚠️ Nhưng sách cản ngay một cách đọc quá mạnh (tr. 455):
+> [!warning]
+> Nhưng sách cản ngay một cách đọc quá mạnh (tr. 455):
 
+> [!quote]
 > *"Tuy nhiên, chúng ta sẽ **không xem trạng thái kép này như một sự đồng nhất**, vì có nhiều nhân tố bên
 > ngoài chính sách tài khóa có thể có ảnh hưởng đến thâm hụt thương mại."*
 
 📌 Điều đó khớp với [bài 9 mục 8](bai_09_kinh_te_mo_khai_niem_co_ban.md#8-thâm-hụt-thương-mại-có-phải-vấn-đề):
 giai đoạn 1991–2000 thâm hụt thương mại lớn lên **trong khi tiết kiệm tăng**, vì đầu tư bùng nổ. Cùng
-một triệu chứng, khác nguyên nhân. [Mục 8](#8--hai-cú-sốc-cùng-một-lãi-suất-hai-tỷ-giá-ngược-nhau) sẽ
+một triệu chứng, khác nguyên nhân. [Mục 8](#8-hai-cú-sốc-cùng-một-lãi-suất-hai-tỷ-giá-ngược-nhau) sẽ
 cho thấy sự khác biệt đó lớn đến mức nào.
 
 ---
 
-## 6. 📚 Đối chiếu với bài 4 — cái gì mới, cái gì không
+## 6. Đối chiếu với bài 4 — cái gì mới, cái gì không
 
 Đáng dừng lại một mục để so, vì phần lớn nội dung mục 5 bạn đã học ở
 [bài 4 mục 13](bai_04_tiet_kiem_dau_tu_he_thong_tai_chinh.md#13-chính-sách-3--thâm-hụt-thặng-dư-và-hiện-tượng-lấn-át).
@@ -331,8 +344,9 @@ Trong mô hình số ở trên: tiết kiệm giảm 175, đầu tư chỉ giả
 miễn phí: phần vốn ấy phải trả lãi cho người nước ngoài, và cán cân thương mại xấu đi thì ngành xuất
 khẩu chịu.
 
-⚠️ Mức độ "rò rỉ" phụ thuộc **độ nhạy của $NCO$ theo lãi suất** — và đó chính là câu hỏi của bài tập 11
-tr. 465, được trả lời bằng số ở [mục 13](#13--kết-luận-có-phụ-thuộc-tham-số-không).
+> [!warning]
+> Mức độ "rò rỉ" phụ thuộc **độ nhạy của $NCO$ theo lãi suất** — và đó chính là câu hỏi của bài tập 11
+> tr. 465, được trả lời bằng số ở [mục 13](#13-kết-luận-có-phụ-thuộc-tham-số-không).
 
 ---
 
@@ -340,6 +354,7 @@ tr. 465, được trả lời bằng số ở [mục 13](#13--kết-luận-có-p
 
 Đây là mục trả lời câu hỏi mở đầu chương, và kết quả là kết quả gây sốc nhất của cả bài.
 
+> [!quote]
 > **Chính sách thương mại** (tr. 455): *"chính sách của chính phủ có ảnh hưởng trực tiếp đến số lượng
 > hàng hóa và dịch vụ mà một quốc gia xuất khẩu hay nhập khẩu."*
 
@@ -358,7 +373,7 @@ dịch chuyển cả.**
 | gốc | 5,000% | 1.600 | 400 | 400 | 1,000 |
 | **cầu đô la +150** | 5,000% **=** | 1.600 **=** | 400 **=** | **400 =** | **1,300** ↑ |
 
-### ⭐⭐ Đọc chỗ này thật kỹ
+### Đọc chỗ này thật kỹ
 
 **Tỷ giá thực lên giá 30%, mà xuất khẩu ròng không đổi một đồng nào.** ✅ `assert`.
 
@@ -367,6 +382,7 @@ Vì sao? Vì **thị trường vốn vay không ai động** → $r$ không đ�
 
 Sách giải thích chi tiết hơn (tr. 457):
 
+> [!quote]
 > *"Khi đô la tăng giá trị trên thị trường ngoại hối, hàng hóa nội địa trở nên đắt đỏ hơn so với hàng hóa
 > nước ngoài. Sự lên giá này khuyến khích nhập khẩu và gây bất lợi cho xuất khẩu, và cả hai thay đổi này
 > vận hành để **bù trừ** sự gia tăng trực tiếp của xuất khẩu ròng do hạn ngạch nhập khẩu. Cuối cùng, hạn
@@ -374,6 +390,7 @@ Sách giải thích chi tiết hơn (tr. 457):
 
 Kết luận, sách in nghiêng (tr. 457):
 
+> [!quote]
 > ⭐ *"**Chính sách thương mại không tác động đến cán cân thương mại.**"*
 
 ### Cách nhớ dễ nhất — qua đồng nhất thức
@@ -384,10 +401,11 @@ $$NX = NCO = S - I$$
 
 **Hạn ngạch không động đến $S$, không động đến $I$. Vậy nó không thể động đến $NX$.**
 
+> [!quote]
 > *"Ứng với mức tiết kiệm quốc gia và đầu tư nội địa cho trước, tỷ giá hối đoái thực điều chỉnh để giữ
 > cho cán cân thương mại không đổi, bất kể các chính sách thương mại của chính phủ được thực thi."*
 
-### ⚠️ Nhưng đừng đọc thành "chính sách thương mại không làm gì cả"
+### Nhưng đừng đọc thành "chính sách thương mại không làm gì cả"
 
 Sách nói rõ nó **có** tác động — chỉ là tác động **vi mô**, không phải vĩ mô (tr. 457):
 
@@ -399,6 +417,7 @@ Sách nói rõ nó **có** tác động — chỉ là tác động **vi mô**, k
 | Xuất khẩu ròng **máy bay** | **giảm** |
 | **Cán cân thương mại tổng quát** | **không đổi** |
 
+> [!quote] tr. 457
 > *"tác động của các chính sách thương mại thể hiện ở góc độ **kinh tế vi mô** hơn là kinh tế vĩ mô…
 > chúng thường xuất phát từ những quan tâm đến các doanh nghiệp hay các ngành công nghiệp cụ thể. Ví dụ,
 > chúng ta sẽ không lấy gì làm ngạc nhiên khi nghe một nhà điều hành của General Motors tranh luận về hạn
@@ -413,7 +432,7 @@ cả quốc gia đều hưởng lợi. Các hạn chế thương mại làm thi�
 
 ---
 
-## 8. 📚 Hai cú sốc, cùng một lãi suất, hai tỷ giá ngược nhau
+## 8. Hai cú sốc, cùng một lãi suất, hai tỷ giá ngược nhau
 
 *Mục này không có trong sách.* Nó là một hệ quả của mô hình, và nó **chỉ hiện ra khi đặt hai thí nghiệm
 cạnh nhau bằng số**.
@@ -433,7 +452,7 @@ Hai cú sốc, cả hai đều đẩy **cầu vốn vay** sang phải đúng b�
 | **(A)** tháo chạy vốn | **5,833%** | 1.517 ↓ | **567** ↑ | 567 ↑ | **0,667** ↓ |
 | **(B)** hoàn thuế đầu tư | **5,833%** | 1.717 ↑ | **367** ↓ | 367 ↓ | **1,067** ↑ |
 
-### ⭐⭐ Lãi suất giống hệt nhau. Tỷ giá đi ngược chiều nhau.
+### Lãi suất giống hệt nhau. Tỷ giá đi ngược chiều nhau.
 
 ✅ Cả hai điều này được `assert`.
 
@@ -447,7 +466,7 @@ của cầu đó:
 
 📌 **Bài học: "lãi suất tăng" một mình không đủ để biết chuyện gì đang xảy ra với tỷ giá. Phải biết lãi
 suất tăng VÌ CÁI GÌ.** Hai bản tin cùng nói "lãi suất tăng" có thể là hai câu chuyện ngược nhau hoàn
-toàn. Xem [mục 15(b)](#15--góc-qtkd).
+toàn. Xem [mục 15(b)](#15-góc-qtkd).
 
 ### Và (B) chính là lời giải bài tập 1(b) tr. 463
 
@@ -464,10 +483,12 @@ sách thuế đầu tư mà đoán ngay rằng nạn nhân của nó là ngành 
 
 ## 9. Thí nghiệm 3 — tháo chạy vốn
 
+> [!quote]
 > **Tháo chạy vốn** (tr. 458): *"sự sụt giảm lớn và bất ngờ của cầu tài sản ở một quốc gia."*
 
-⚠️ **Mục này đổi góc nhìn.** Sách nói rõ (tr. 458): *"chúng ta áp dụng mô hình nền kinh tế mở dưới góc độ
-Mexico thay vì Hoa Kỳ."*
+> [!warning] Mục này đổi góc nhìn.
+> Sách nói rõ (tr. 458): *"chúng ta áp dụng mô hình nền kinh tế mở dưới góc độ
+> Mexico thay vì Hoa Kỳ."*
 
 Bối cảnh (tr. 458): năm 1994, bất ổn chính trị ở Mexico *"bao gồm cả việc ám sát một nhà lãnh đạo chính
 trị lỗi lạc"*. Người dân *"quyết định rút một số tài sản của họ ra khỏi Mexico và di chuyển dòng tiền này
@@ -485,9 +506,10 @@ là một phần của cầu vốn vay, **cầu vốn vay cũng dịch phải**.
 
 Kết quả: **lãi suất tăng và nội tệ mất giá** — đúng hai thứ sách nêu. Sách in nghiêng (tr. 458):
 
+> [!quote]
 > *"vốn tháo chạy khỏi Mexico làm tăng lãi suất và giảm giá trị peso Mexico trên thị trường ngoại hối"*
 
-### ✅ Số liệu thật — và nó đáng nhớ
+### Số liệu thật — và nó đáng nhớ
 
 Sách in con số ở tr. 458, từ **tháng 11/1994 đến tháng 3/1995** — **bốn tháng**:
 
@@ -498,9 +520,10 @@ Sách in con số ở tr. 458, từ **tháng 11/1994 đến tháng 3/1995** — 
 
 ✅ Cả hai kiểm bằng `assert`.
 
-⚠️ **Chú ý quy ước.** Sách viết peso ở dạng **cent mỗi peso** (đô la trên ngoại tệ) — **ngược** với quy
-ước "ngoại tệ trên một đô la" của [bài 9 mục 9](bai_09_kinh_te_mo_khai_niem_co_ban.md#9-tỷ-giá-hối-đoái-danh-nghĩa).
-Đọc nhầm là kết luận lật ngược. Quy về quy ước bài 9:
+> [!warning] Chú ý quy ước.
+> Sách viết peso ở dạng **cent mỗi peso** (đô la trên ngoại tệ) — **ngược** với quy
+> ước "ngoại tệ trên một đô la" của [bài 9 mục 9](bai_09_kinh_te_mo_khai_niem_co_ban.md#9-tỷ-giá-hối-đoái-danh-nghĩa).
+> Đọc nhầm là kết luận lật ngược. Quy về quy ước bài 9:
 
 $$\frac{100}{29} = 3{,}448 \;\to\; \frac{100}{15} = 6{,}667 \text{ peso/USD} \quad (\text{cần thêm } 93{,}3\% \text{ peso cho mỗi đô la})$$
 
@@ -513,6 +536,7 @@ Kỳ là **nhỏ** vì nền kinh tế Hoa Kỳ quá lớn so với Mexico."*
 Và sách liệt kê những lần lặp lại (tr. 459–460): **châu Á 1997** (Thái Lan, Hàn Quốc, Indonesia), **Nga
 1998**, **Argentina 2002**.
 
+> [!quote]
 > *"Trong mỗi trường hợp của vốn tháo chạy này, kết cục hầu hết đều giống như những gì mà mô hình của
 > chúng ta dự đoán: **tăng lãi suất và giảm giá nội tệ**."*
 
@@ -536,7 +560,7 @@ thông tin mới.
 | **TQ ngừng mua tài sản Mỹ** | 5,833% | 1.517 ↓ | 567 ↑ | 0,667 ↓ | bài tập 9, tr. 464 |
 | Trợ giá XK, vay để trả | 5,625% | 1.538 ↓ | 375 ↓ | 1,350 ↑ | bài tập 8, tr. 464 |
 
-### ⭐ Đọc theo cặp, không đọc theo dòng
+### Đọc theo cặp, không đọc theo dòng
 
 - **Dòng 4 và 5 giống hệt nhau.** Hạn ngạch nhập khẩu và việc người Pháp bỗng chuộng rượu vang California
   là **cùng một loại cú sốc**: dịch đường cầu đô la. Cả hai đều **không đổi** $NX$. Một cái là chính sách,
@@ -550,7 +574,7 @@ thông tin mới.
 nhớ được ba loại dịch chuyển (cung vốn vay, cầu vốn vay qua $I$ hay qua $NCO$, cầu đô la) thì bạn giải
 được mọi bài tập của chương mà không cần nhớ bài nào.
 
-### ⚠️ Dòng cuối là dòng đáng chú ý nhất
+### Dòng cuối là dòng đáng chú ý nhất
 
 Bài tập 8 tr. 464: Hoa Kỳ **trợ giá xuất khẩu** nông sản, *"nhưng đất nước này không tăng thuế hay giảm
 bất kỳ khoản chi tiêu chính phủ nào khác để bù vào khoản chi tiêu này."*
@@ -567,10 +591,11 @@ chúng ta có thể giảm thâm hụt bằng cách tăng khả năng cạnh tra
 
 ---
 
-## 11. 📚 Ngang bằng sức mua là trường hợp đặc biệt của mô hình này
+## 11. Ngang bằng sức mua là trường hợp đặc biệt của mô hình này
 
 Hộp phụ tr. 449 trả lời câu hỏi mà người đọc kỹ sẽ hỏi:
 
+> [!quote] tr. 449
 > *"Tại sao chúng ta lại phát triển lý thuyết về tỷ giá hối đoái ở đây? Tại sao chúng ta đã không thực
 > hiện điều này ở chương trước?"* (tr. 449)
 
@@ -585,7 +610,7 @@ Lập luận của sách (tr. 449): PPP giả định hàng hoá *"phản ứng 
 quốc tế"*. Nếu vậy thì *"xuất khẩu ròng thực tế quá nhạy, đường cầu trong Hình 2 sẽ nằm ngang"* — và tỷ
 giá thực bị ghim cứng.
 
-### ✅ Kiểm bằng số
+### Kiểm bằng số
 
 ⭐ **Hai chương không mâu thuẫn nhau. Chương 18 là *giới hạn* của chương 19 khi độ nhạy của $NX$ tiến ra
 vô cùng.**
@@ -603,6 +628,7 @@ $X_1$ càng lớn ($NX$ càng nhạy), tỷ giá thực càng **không dịch**.
 
 Sách chốt (tr. 449):
 
+> [!quote]
 > *"chương này tập trung vào trường hợp **thực tế hơn** theo đó đường cầu ngoại hối dốc xuống. Điều này
 > cho phép khả năng tỷ giá hối đoái thực thay đổi theo thời gian, như trong thực tế nó đang xảy ra trong
 > thế giới thực của chúng ta."*
@@ -639,10 +665,11 @@ chứ không chỉ là chuyện kỹ thuật. Sách kể (tr. 460): Hoa Kỳ khu
 *"Một số các thành viên Quốc hội ngay cả đã tiến xa hơn với việc tán thành áp dụng thuế quan đánh vào
 hàng nhập khẩu từ Trung Quốc trừ phi Trung Quốc ngừng cuộc chơi 'mánh khóe tiền tệ'."*
 
-### ⚠️ Nhưng đoạn tiếp theo mới là đoạn đáng đọc nguyên văn
+### Nhưng đoạn tiếp theo mới là đoạn đáng đọc nguyên văn
 
 Sách chống lại cách kể thông thường (tr. 460–461):
 
+> [!quote]
 > *"Tác động chính sách của Trung Quốc đối với nền kinh tế Hoa Kỳ **không phải tất cả đều xấu**. Người
 > tiêu dùng Mỹ đối với hàng hóa nhập khẩu từ Trung Quốc được hưởng lợi do giá rẻ hơn. Ngoài ra, dòng vốn
 > từ Trung Quốc làm lãi suất ở Hoa Kỳ thấp hơn, kéo theo tăng đầu tư ở nền kinh tế Hoa Kỳ. Xét ở khía
@@ -657,6 +684,7 @@ trong cùng một nước**, và đó là lý do tranh luận không bao giờ d
 
 ### Và sách thừa nhận không trả lời được câu hỏi về động cơ
 
+> [!quote] tr. 461
 > *"Câu hỏi khó hơn đề cập đến những động cơ đằng sau chính sách: Tại sao các nhà lãnh đạo Trung Quốc
 > quan tâm đến việc sản xuất xuất khẩu và đầu tư ra nước ngoài hơn là sản xuất cho tiêu dùng nội địa và
 > đầu tư ở nước nhà? **Không có câu trả lời rõ ràng.** Một khả năng là Trung Quốc muốn tích lũy dự trữ
@@ -668,7 +696,7 @@ biết **động cơ**. Suy động cơ từ hệ quả là một bước nhảy
 
 ---
 
-## 13. 📚 Kết luận có phụ thuộc tham số không?
+## 13. Kết luận có phụ thuộc tham số không?
 
 *Mục này không có trong sách.* Nhưng nó **bắt buộc phải có**, vì mọi con số ở các mục trên đều do bài này
 chọn. Câu hỏi hiển nhiên: nếu chọn khác thì kết luận có đổi không?
@@ -689,7 +717,7 @@ chọn. Câu hỏi hiển nhiên: nếu chọn khác thì kết luận có đổ
 📌 **Con số thì đổi; hướng thì không.** Đó là điều duy nhất mô hình này hứa hẹn, và cũng là điều duy nhất
 sách tuyên bố. Sách không in một con số nào chính vì lý do đó.
 
-### ⚠️ Nhưng ĐỘ LỚN thì phụ thuộc — và sách hỏi đúng chuyện đó
+### Nhưng ĐỘ LỚN thì phụ thuộc — và sách hỏi đúng chuyện đó
 
 Bài tập 11 tr. 465: *"Nếu độ co giãn của dòng vốn ra ròng của Hoa Kỳ đối với mức lãi suất thực là rất
 cao, sự gia tăng tiết kiệm tư nhân sẽ có tác động lớn hay nhỏ đối với đầu tư nội địa của Hoa Kỳ?"*
@@ -710,19 +738,21 @@ tài sản ở đâu.
 
 ---
 
-## 14. 📚 Đối chiếu Việt Nam
+## 14. Đối chiếu Việt Nam
 
-⚠️ **Cảnh báo trước khi đọc.** Mục này **không có trong sách** và **không dựa trên nguồn số liệu nào được
-kiểm chứng trong bài**. Nó chỉ nêu chỗ khung của Mankiw cần chỉnh khi đem về Việt Nam và **cách tra**.
-Số liệu cụ thể hãy tra tại **Ngân hàng Nhà nước**, **Tổng cục Thống kê** và **Bộ Tài chính**.
+> [!warning] Cảnh báo trước khi đọc.
+> Mục này **không có trong sách** và **không dựa trên nguồn số liệu nào được
+> kiểm chứng trong bài**. Nó chỉ nêu chỗ khung của Mankiw cần chỉnh khi đem về Việt Nam và **cách tra**.
+> Số liệu cụ thể hãy tra tại **Ngân hàng Nhà nước**, **Tổng cục Thống kê** và **Bộ Tài chính**.
 
 ### Giả định lớn nhất cần chỉnh: vốn di chuyển tự do
 
 Mô hình chương 19 giả định **dòng vốn tự do qua biên giới** — chính là cái làm đường $NCO$ dốc xuống theo
 lãi suất. Việt Nam **kiểm soát vốn** ở nhiều mức độ, đặc biệt với dòng vốn gián tiếp.
 
-⚠️ Hệ quả trong khung của [mục 13](#13--kết-luận-có-phụ-thuộc-tham-số-không): kiểm soát vốn làm $N_1$
-(độ nhạy của $NCO$) **nhỏ đi**. Đọc bảng ở mục 13 theo chiều $N_1$ nhỏ:
+> [!warning]
+> Hệ quả trong khung của [mục 13](#13-kết-luận-có-phụ-thuộc-tham-số-không): kiểm soát vốn làm $N_1$
+> (độ nhạy của $NCO$) **nhỏ đi**. Đọc bảng ở mục 13 theo chiều $N_1$ nhỏ:
 
 - tăng tiết kiệm trong nước → **phần lớn** rơi vào đầu tư nội địa, ít chảy ra ngoài
 - nhưng cũng có nghĩa **lãi suất trong nước ít bị neo vào lãi suất thế giới hơn**
@@ -768,12 +798,12 @@ gần hơn.
   ra trong **bốn tháng**; vốn nào rút được nhanh thì vốn đó là nguồn rủi ro.
 - **Thâm hụt ngân sách so với GDP** — vế trái của mục 5.
 - **Chênh lệch lãi suất trong nước và quốc tế** cùng với **kỳ vọng tỷ giá** — đó là carry trade của
-  [bài 9 mục 14](bai_09_kinh_te_mo_khai_niem_co_ban.md#14--carry-trade--cái-bẫy-đắt-nhất-của-chương),
+  [bài 9 mục 14](bai_09_kinh_te_mo_khai_niem_co_ban.md#14-carry-trade--cái-bẫy-đắt-nhất-của-chương),
   và nó có thể chảy vào rồi chảy ra rất nhanh.
 
 ---
 
-## 15. 💼 Góc QTKD
+## 15. Góc QTKD
 
 *Mục này không có trong sách.*
 
@@ -798,7 +828,7 @@ thiện cán cân thương mại. Nhưng nó **vẫn** có ích cho ngành đư�
 
 ### (b) "Lãi suất tăng": hai câu chuyện, hai kế hoạch khác nhau
 
-[Mục 8](#8--hai-cú-sốc-cùng-một-lãi-suất-hai-tỷ-giá-ngược-nhau) cho thấy "lãi suất tăng" một mình không
+[Mục 8](#8-hai-cú-sốc-cùng-một-lãi-suất-hai-tỷ-giá-ngược-nhau) cho thấy "lãi suất tăng" một mình không
 đủ để biết gì. Áp vào việc đọc tin:
 
 | Bản tin | Tỷ giá | Ngành xuất khẩu của bạn |
@@ -820,9 +850,10 @@ Mô hình cho ba nguồn làm nội tệ **mất giá** và ba nguồn làm nó 
 | **vốn tháo chạy** ra ngoài | bùng nổ **đầu tư** trong nước |
 | nước ngoài **ngừng mua** tài sản ta | rào cản nhập khẩu / trợ giá XK |
 
-⚠️ **Chú ý dòng đầu của cả hai cột: tăng TIẾT KIỆM làm mất giá, tăng ĐẦU TƯ làm lên giá.** Hai thứ mà báo
-chí hay gộp chung thành "kinh tế khoẻ" lại đẩy tỷ giá **ngược chiều nhau**. Nếu chiến lược phòng vệ của
-bạn dựa trên "kinh tế tốt thì tiền mạnh", nó không có nền tảng nào trong mô hình này.
+> [!warning] Chú ý dòng đầu của cả hai cột: tăng TIẾT KIỆM làm mất giá, tăng ĐẦU TƯ làm lên giá.
+> Hai thứ mà báo
+> chí hay gộp chung thành "kinh tế khoẻ" lại đẩy tỷ giá **ngược chiều nhau**. Nếu chiến lược phòng vệ của
+> bạn dựa trên "kinh tế tốt thì tiền mạnh", nó không có nền tảng nào trong mô hình này.
 
 ### (d) Rủi ro chính trị không phải rủi ro trừu tượng
 
@@ -837,11 +868,12 @@ tháng**, peso mất **48%** giá trị. Nếu bạn có khoản vay ngoại t�
 | Hợp đồng xuất khẩu giá cố định | được lợi — nhưng khách có thể huỷ |
 | Tồn kho hàng nhập khẩu | giá vốn thay thế tăng mạnh |
 
-⚠️ Đọc lại [bài 7 mục 13](bai_07_he_thong_tien_te.md#13-đổ-xô-rút-tiền-và-đại-khủng-hoảng): cái giết
-doanh nghiệp là **thanh khoản**, không phải lợi nhuận. Một cú sốc tỷ giá bốn tháng **là** một cú sốc
-thanh khoản.
+> [!warning]
+> Đọc lại [bài 7 mục 13](bai_07_he_thong_tien_te.md#13-đổ-xô-rút-tiền-và-đại-khủng-hoảng): cái giết
+> doanh nghiệp là **thanh khoản**, không phải lợi nhuận. Một cú sốc tỷ giá bốn tháng **là** một cú sốc
+> thanh khoản.
 
-Và đọc lại [bài 9 mục 17(b)](bai_09_kinh_te_mo_khai_niem_co_ban.md#17--góc-qtkd): **đối khớp đồng tiền**
+Và đọc lại [bài 9 mục 17(b)](bai_09_kinh_te_mo_khai_niem_co_ban.md#17-góc-qtkd): **đối khớp đồng tiền**
 là cách phòng rẻ nhất, và nó phải làm **trước** khi tin xấu ra, không phải sau. Sau khi tin xấu ra thì
 hợp đồng kỳ hạn đắt gấp bội — nếu còn ai bán cho bạn.
 
@@ -849,16 +881,18 @@ hợp đồng kỳ hạn đắt gấp bội — nếu còn ai bán cho bạn.
 
 ## 16. Code minh hoạ
 
+> [!note]
 > ⚙️ **Chạy:** cần **Python 3.10+**. Lưu file rồi gõ `python3 bai-10-ly-thuyet-kinh-te-mo.py`.
 > Không cần cài gói nào — chỉ dùng thư viện chuẩn. Output tất định.
 
 Bản gốc: [`thuc_hanh/bai-10-ly-thuyet-kinh-te-mo.py`](../thuc_hanh/bai-10-ly-thuyet-kinh-te-mo.py).
 
-⚠️ **Chương 19 không cho một con số nào** — cả chương là bảy hình vẽ định tính. Các tham số trong code
-**do bài này đặt ra**. Mọi con số có ghi `(tr. NNN)` là số sách in và có `assert` đối chiếu (chỉ có hai:
-lãi suất Mexico và giá trị peso). Phần còn lại được kiểm bằng cách khác: `assert` rằng **hai đồng nhất
-thức** luôn đúng, và [mục 13](#13--kết-luận-có-phụ-thuộc-tham-số-không) `assert` rằng **kết luận định
-tính không đổi khi đổi tham số**.
+> [!warning] Chương 19 không cho một con số nào
+> cả chương là bảy hình vẽ định tính. Các tham số trong code
+> **do bài này đặt ra**. Mọi con số có ghi `(tr. NNN)` là số sách in và có `assert` đối chiếu (chỉ có hai:
+> lãi suất Mexico và giá trị peso). Phần còn lại được kiểm bằng cách khác: `assert` rằng **hai đồng nhất
+> thức** luôn đúng, và [mục 13](#13-kết-luận-có-phụ-thuộc-tham-số-không) `assert` rằng **kết luận định
+> tính không đổi khi đổi tham số**.
 
 ```python
 """Bai 10 — Ly thuyet kinh te vi mo cua nen kinh te mo (Mankiw, ch.19, tr. 444-465).
@@ -2404,19 +2438,19 @@ Trả lời rồi mới kéo lên đối chiếu. Câu có ⭐ là câu đáng d
     số nào. Chúng được chọn để cân bằng gốc ra số tròn và để mọi kết luận định tính của sách tái hiện
     đúng.
   - Cách kiểm thay cho việc đối chiếu số: (1) `assert` rằng **$S = I + NCO$** và **$NCO = NX$** đúng ở
-    **mỗi lần** giải mô hình; (2) [mục 13](#13--kết-luận-có-phụ-thuộc-tham-số-không) `assert` rằng ba
+    **mỗi lần** giải mô hình; (2) [mục 13](#13-kết-luận-có-phụ-thuộc-tham-số-không) `assert` rằng ba
     kết luận chính của sách đúng với **năm bộ tham số** rất khác nhau.
-  - [Mục 8 — hai cú sốc, cùng lãi suất, hai tỷ giá ngược nhau](#8--hai-cú-sốc-cùng-một-lãi-suất-hai-tỷ-giá-ngược-nhau)
+  - [Mục 8 — hai cú sốc, cùng lãi suất, hai tỷ giá ngược nhau](#8-hai-cú-sốc-cùng-một-lãi-suất-hai-tỷ-giá-ngược-nhau)
     **không có trong sách**. Nó là hệ quả của mô hình, chỉ hiện ra khi chạy hai thí nghiệm cạnh nhau bằng
     số. Sách có đủ nguyên liệu (Hình 7 và bài tập 1) nhưng không đặt chúng cạnh nhau.
-  - [Mục 6](#6--đối-chiếu-với-bài-4--cái-gì-mới-cái-gì-không) — bảng so với nền kinh tế đóng là do bài
+  - [Mục 6](#6-đối-chiếu-với-bài-4--cái-gì-mới-cái-gì-không) — bảng so với nền kinh tế đóng là do bài
     này dựng; sách nhắc mối liên hệ bằng lời ở tr. 453.
-  - [Mục 11](#11--ngang-bằng-sức-mua-là-trường-hợp-đặc-biệt-của-mô-hình-này) — bảng số cho thấy $X_1$
+  - [Mục 11](#11-ngang-bằng-sức-mua-là-trường-hợp-đặc-biệt-của-mô-hình-này) — bảng số cho thấy $X_1$
     tiến ra vô cùng thì tỷ giá thực đứng yên là **do bài này tính**; sách chỉ nêu lập luận bằng lời trong
     hộp tr. 449.
-  - Bảng số ở [mục 13](#13--kết-luận-có-phụ-thuộc-tham-số-không) trả lời bài tập 11 tr. 465 bằng số;
+  - Bảng số ở [mục 13](#13-kết-luận-có-phụ-thuộc-tham-số-không) trả lời bài tập 11 tr. 465 bằng số;
     sách chỉ đặt câu hỏi.
-  - [Mục 14 — Đối chiếu Việt Nam](#14--đối-chiếu-việt-nam) và [mục 15 — Góc QTKD](#15--góc-qtkd) nằm
+  - [Mục 14 — Đối chiếu Việt Nam](#14-đối-chiếu-việt-nam) và [mục 15 — Góc QTKD](#15-góc-qtkd) nằm
     ngoài sách. Mục 14 **không dựa trên nguồn số liệu nào được kiểm chứng trong bài**.
 
 - **Liên hệ chéo:**

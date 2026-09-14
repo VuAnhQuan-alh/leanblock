@@ -1,21 +1,20 @@
 # Bài 12 — Tổ chức có trí tuệ tài chính
 
+> [!info] Về bài này
 > Bài học dựng từ **Phần VIII — Xây dựng bộ phận (và tổ chức) có trí tuệ tài chính**: chương 29 *Xoá mù tài
 > chính và hiệu quả hoạt động của doanh nghiệp* (PDF tr. 210–215), chương 30 *Các chiến lược xoá mù tài
 > chính* (PDF tr. 216–220), chương 31 *Minh bạch tài chính: mục tiêu tối thượng* (PDF tr. 221–222), và hộp
 > công cụ *Hiểu đạo luật Sarbanes-Oxley* (PDF tr. 222–223).
-> ⚠️ **Bản dịch in phần này là "PHẦN VII"** — hệ quả của lỗi đánh số phần đã nêu ở
-> [bài 9 mục 10](bai_09_ty_le_hieu_suat_va_dupont.md#10--chỗ-sách-in-sai-trong-chương-23). Bản gốc có 8
-> phần; đây là **phần VIII**.
-> 🔸 **Vòng 2 — và là bài ĐÓNG CẢ KHOÁ.** Ba chương cuối gần như **không có số**: chúng là lập luận về
+>
+> **Vòng 2 — và là bài ĐÓNG CẢ KHOÁ.** Ba chương cuối gần như **không có số**: chúng là lập luận về
 > **văn hoá**. Nên bài này làm hai việc thêm mà các bài trước không làm:
 > [mục 9](#9-sổ-tổng-kết--mọi-chỗ-sách-in-sai) tổng kết **mọi chỗ sách in sai** mà 12 bài đã tìm ra, và
 > [mục 10](#10-kiểm-toàn-khoá--dựng-lại-mọi-khẳng-định) **dựng lại toàn bộ số liệu** để chốt lại mọi
 > khẳng định đầu mục của cả môn.
-> 💼 **Góc quản trị** — ví dụ thêm cho người đi làm, **không có trong sách**.
-> 📚 **Mở rộng** — thứ sách nói lướt hoặc để trong hộp công cụ.
-> ⚠️ — chỗ dễ hiểu sai, hoặc chỗ sách in sai.
-> 📌 **Cần đọc trước:** [bài 0](bai_00_bat_dau_tu_dau.md) *(mục 9 khép lại đúng bài tập mà bài 0 mở ra)*.
+>
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
+>
+> **Cần đọc trước:** [bài 0](bai_00_bat_dau_tu_dau.md) *(mục 9 khép lại đúng bài tập mà bài 0 mở ra)*.
 > Mọi bài còn lại đều được nhắc tới ở đây.
 > ⚙️ **Code:** [`thuc_hanh/bai-12-to-chuc-co-tri-tue-tai-chinh.py`](../thuc_hanh/bai-12-to-chuc-co-tri-tue-tai-chinh.py)
 > — quy những chỗ **đo được** ra số *(chi phí tuân thủ SOX, ba buổi dạy của Joe)*, đếm và phân loại **28 chỗ
@@ -34,10 +33,10 @@
 - [5. Ba phương pháp xoá mù tài chính, và bản đồ sang khoá này](#5-ba-phương-pháp-xoá-mù-tài-chính-và-bản-đồ-sang-khoá-này)
 - [6. Quy tắc học của người trưởng thành — và khoá này dùng sai chỗ nào](#6-quy-tắc-học-của-người-trưởng-thành--và-khoá-này-dùng-sai-chỗ-nào)
 - [7. Minh bạch tài chính — Enron nhìn từ phía nhân viên](#7-minh-bạch-tài-chính--enron-nhìn-từ-phía-nhân-viên)
-- [8. 📚 Hộp công cụ — Sarbanes-Oxley, và cái giá quy ra tỷ lệ](#8--hộp-công-cụ--sarbanes-oxley-và-cái-giá-quy-ra-tỷ-lệ)
+- [8. Hộp công cụ — Sarbanes-Oxley, và cái giá quy ra tỷ lệ](#8-hộp-công-cụ--sarbanes-oxley-và-cái-giá-quy-ra-tỷ-lệ)
 - [9. Sổ tổng kết — mọi chỗ sách in sai](#9-sổ-tổng-kết--mọi-chỗ-sách-in-sai)
 - [10. Kiểm toàn khoá — dựng lại mọi khẳng định](#10-kiểm-toàn-khoá--dựng-lại-mọi-khẳng-định)
-- [11. 🎓 Đi tiếp từ đây](#11--đi-tiếp-từ-đây)
+- [11. Đi tiếp từ đây](#11-đi-tiếp-từ-đây)
 - [12. Tự thử](#12-tự-thử)
 - [13. Từ điển thuật ngữ](#13-từ-điển-thuật-ngữ)
 - [14. Câu hỏi tự kiểm tra](#14-câu-hỏi-tự-kiểm-tra)
@@ -52,6 +51,7 @@
 
 Sách mở chương cuối bằng một phép so sánh rất gọn:
 
+> [!quote]
 > *"Bạn sẽ **không bao giờ chơi bóng rổ hay cờ thỏ cáo** mà trước tiên không tìm hiểu trò đó được chơi như
 > thế nào; **vậy thì tại sao công việc kinh doanh lại khác?**"* — ch. 29 · PDF tr. 210
 
@@ -63,6 +63,7 @@ Ba thứ bạn có được khi nắm luật chơi:
 
 ⭐ Rồi sách quay lại **luận điểm trung tâm của cả cuốn — lần cuối**:
 
+> [!quote]
 > *"các thẻ báo cáo tài chính **phần nào phản ánh hiện thực**. Nhưng chúng cũng — và **đôi khi chủ yếu** —
 > phản ánh cả những **ước tính, giả định, phỏng đoán** và tất cả các **định kiến** từ đó mà ra. (Cũng có lúc
 > chúng phản ánh **hành vi giả mạo** không lẫn đi đâu được)."* — ch. 29 · PDF tr. 210
@@ -77,6 +78,7 @@ Và biến nó thành một việc **làm được** — ba câu hỏi mang đi 
 
 ⭐ **Ba câu hỏi này là cả cuốn sách nén thành ba dòng.** Và sách dự đoán phản ứng:
 
+> [!quote]
 > *"sau khi qua được **cơn choáng váng** khi nghe thấy những đồng nghiệp **ngoài lĩnh vực tài chính** nói
 > **thứ ngôn ngữ của mình**, gần như chắc chắn họ sẽ **sẵn lòng trình bày cơ sở** cho các giả định và ước
 > tính, **và điều chỉnh chúng cho phù hợp**."* — ch. 29 · PDF tr. 210
@@ -91,6 +93,7 @@ Các tác giả dạy một nhóm chuyên viên bán hàng đọc báo cáo củ
 tiền tệ — *"chỉ cho họ thấy **két tiền mặt của công ty đã cạn kiệt ra sao** khi theo đuổi chiến lược **tăng
 trưởng qua mua lại**"* — một người bật cười:
 
+> [!quote]
 > *"Tôi đang phải **đấu tranh** với ông phó tổng giám đốc phụ trách bán hàng đến **gần cả năm nay**. Lý do
 > là, họ **thay đổi kế hoạch trả hoa hồng** của chúng tôi. Trước đây, chúng tôi thường trả **vào thời điểm
 > bán hàng**, còn bây giờ chúng tôi chỉ được trả **sau khi thu xong công nợ**. **Cuối cùng tôi cũng hiểu lý
@@ -109,15 +112,17 @@ Công ty đã đổi **cơ sở trả thưởng** từ một con số **kế to�
 [bài 11 mục 4](bai_11_von_luu_dong_va_chu_ky_tien_mat.md#4-ba-đòn-bẩy--và-chúng-không-bằng-nhau) đã đo giá
 trị của việc đó: **một ngày DSO của công ty mẫu đáng 24,14 triệu đô-la.**
 
-⚠️ **Cái đắt nhất trong câu chuyện không phải là kế hoạch mới. Là việc nó chạy một năm mà không ai giải
-thích.** Sách kết: *"ông **thật sự không để tâm** tới việc ban quản lý đã thay đổi kế hoạch… Tuy nhiên,
-**trước đó ông không hề hiểu tại sao**."* Chi phí của việc không giải thích là **một năm đối đầu**, và nó
-không nằm ở dòng nào trên báo cáo tài chính cả.
+> [!warning]
+> **Cái đắt nhất trong câu chuyện không phải là kế hoạch mới. Là việc nó chạy một năm mà không ai giải
+> thích.** Sách kết: *"ông **thật sự không để tâm** tới việc ban quản lý đã thay đổi kế hoạch… Tuy nhiên,
+> **trước đó ông không hề hiểu tại sao**."* Chi phí của việc không giải thích là **một năm đối đầu**, và nó
+> không nằm ở dòng nào trên báo cáo tài chính cả.
 
-📚 Sách cũng chỉ ra mặt trái khi thiếu minh bạch: ở một công ty, nhân viên tin rằng chia sẻ lợi nhuận *"chỉ
-được thực hiện trong những năm họ ca thán"*. Thực tế công ty có một kế hoạch thẳng thắn — nhưng *"những
-hoạt động chính trị như vậy om xòm đến độ các nhân viên **chẳng bao giờ tin kế hoạch đó là thật**"*. Liều
-thuốc giải mà sách kê: ***"ánh sáng mặt trời, sự minh bạch và truyền thông mở"*** (tr. 212).
+> [!note]
+> Sách cũng chỉ ra mặt trái khi thiếu minh bạch: ở một công ty, nhân viên tin rằng chia sẻ lợi nhuận *"chỉ
+> được thực hiện trong những năm họ ca thán"*. Thực tế công ty có một kế hoạch thẳng thắn — nhưng *"những
+> hoạt động chính trị như vậy om xòm đến độ các nhân viên **chẳng bao giờ tin kế hoạch đó là thật**"*. Liều
+> thuốc giải mà sách kê: ***"ánh sáng mặt trời, sự minh bạch và truyền thông mở"*** (tr. 212).
 
 ---
 
@@ -125,6 +130,7 @@ thuốc giải mà sách kê: ***"ánh sáng mặt trời, sự minh bạch và 
 
 Sách mượn một lập luận từ cuốn ***Warfighting*** của Thuỷ Quân Lục Chiến Hoa Kỳ (1989):
 
+> [!quote]
 > *"lính thuỷ luôn phải đối mặt với **sự bất ổn định** và những điều kiện **thay đổi nhanh chóng**. Họ
 > **hiếm khi có thể dựa vào những chỉ dẫn từ cấp trên**; thay vào đó, họ phải **tự mình ra quyết định**. Vì
 > vậy có một quy định là các chỉ huy phải **nói rõ mục tiêu chung**, và sau đó để các sĩ quan cấp thấp hơn
@@ -132,12 +138,14 @@ Sách mượn một lập luận từ cuốn ***Warfighting*** của Thuỷ Quâ
 
 ⭐ Đó là lập luận **mạnh nhất** của cả chương, và nó **không phải về đạo đức — nó về tốc độ**:
 
+> [!quote]
 > *"Các nhà quản lý phải đưa ra nhiều quyết định **hằng ngày** mà **không thể tham vấn cấp cao hơn**. Nếu họ
 > hiểu các **thông số tài chính đang gây áp lực** cho mình, họ có thể ra quyết định **nhanh và hiệu quả
 > hơn**."* — ch. 29 · PDF tr. 213
 
-💼 Đổi ra ngôn ngữ của khoá này: một người **biết chỉ số nào đang bị siết** thì tự ra được quyết định đúng
-mà không cần hỏi.
+> [!example]
+> Đổi ra ngôn ngữ của khoá này: một người **biết chỉ số nào đang bị siết** thì tự ra được quyết định đúng
+> mà không cần hỏi.
 
 | nếu chỉ số bị siết là… | thì người ở tuyến đầu tự biết… |
 | --- | --- |
@@ -155,6 +163,7 @@ với thuỷ quân lục chiến.
 
 Đến đây sách đổi đối tượng: không còn là nhà quản lý, mà là **tất cả mọi người**.
 
+> [!quote]
 > *"nếu việc các nhà quản lý hiểu tài chính có thể làm nên sự khác biệt, hãy tưởng tượng sự khác biệt đó sẽ
 > **lớn đến dường nào** nếu **tất cả mọi người** trong một bộ phận — đúng ra là tất cả mọi người trong một
 > công ty — **đều hiểu nó**."* — ch. 29 · PDF tr. 213
@@ -165,24 +174,29 @@ về sự tham gia của nhân viên:
 1. *"chia sẻ thông tin về hiệu quả hoạt động kinh doanh, các kế hoạch và mục tiêu"*;
 2. đào tạo nhân viên *"các kỹ năng hiểu công việc kinh doanh"*.
 
+> [!quote]
 > *"**Cả hai** thước đo này đều có **mối quan hệ tỷ lệ thuận** với **năng suất, sự hài lòng của khách hàng,
 > chất lượng, tốc độ, khả năng sinh lời, sức cạnh tranh** và **sự hài lòng của nhân viên**."*
 > — ch. 29 · PDF tr. 214
 
 Kèm ba tên khác: **Daniel R. Denison, Peter Drucker, Jeffrey Pfeffer**.
 
-⚠️ **Đọc cho đúng: đây là TƯƠNG QUAN, không phải NHÂN QUẢ.** Sách viết *"mối quan hệ tỷ lệ thuận"* và dừng ở
-đó — **đúng**. Doanh nghiệp khoẻ mạnh có thể vừa đủ sức đào tạo **vừa** có năng suất cao, mà đào tạo không
-phải nguyên nhân. **Sách không khẳng định quá mức, nhưng người đọc rất dễ đọc quá mức.**
+> [!warning] Đọc cho đúng: đây là TƯƠNG QUAN, không phải NHÂN QUẢ.
+> Sách viết *"mối quan hệ tỷ lệ thuận"* và dừng ở
+> đó — **đúng**. Doanh nghiệp khoẻ mạnh có thể vừa đủ sức đào tạo **vừa** có năng suất cao, mà đào tạo không
+> phải nguyên nhân. **Sách không khẳng định quá mức, nhưng người đọc rất dễ đọc quá mức.**
 
 Chuỗi nhân quả mà sách **thực sự** đề xuất thì hợp lý và kiểm được từng mắt xích:
 
+> [!note]
 > hiểu số → **tin tưởng** tăng → **biến động nhân sự** giảm → **động lực và cam kết** tăng
 
-💼 Câu chuyện **Setpoint** đóng chương, và nó là một nhân chứng không ngờ: kế toán viên của công ty — người
-*"hơn một lần nói với Joe rằng công ty sẽ **không thể trụ được** qua giai đoạn biến động này"* — cuối cùng
-thú nhận:
+> [!example]
+> Câu chuyện **Setpoint** đóng chương, và nó là một nhân chứng không ngờ: kế toán viên của công ty — người
+> *"hơn một lần nói với Joe rằng công ty sẽ **không thể trụ được** qua giai đoạn biến động này"* — cuối cùng
+> thú nhận:
 
+> [!quote]
 > *"tôi nghĩ **lý do tại sao các anh vượt qua được** những khó khăn đó là vì các anh **đã đào luyện nhân
 > viên** của mình và **chia sẻ thông tin tài chính** với họ. Khi rơi vào khó khăn, **cả công ty sát cánh bên
 > nhau** và tìm ra cách chiến đấu, vượt qua nó."* — ch. 29 · PDF tr. 215
@@ -196,6 +210,7 @@ người**."* **Minh bạch không chỉ là động lực — nó là một cơ
 
 Sách rào trước rằng đây **không phải việc làm một lần**:
 
+> [!quote]
 > *"Bạn **không thể** chỉ tổ chức khoá đào tạo **một lần rồi thôi**, hay phát một cuốn sách hướng dẫn và chờ
 > đợi mọi người được khai thông… **Xoá mù tài chính cần trở thành một phần của văn hoá doanh nghiệp.**"*
 > — ch. 30 · PDF tr. 216
@@ -215,23 +230,27 @@ Setpoint:
 nhóm làm việc được — còn lại (tỷ lệ, ROI, vốn lưu động) là phần cho người muốn đi sâu. Đó cũng là lý do
 [bài 0](bai_00_bat_dau_tu_dau.md) xếp vòng ưu tiên 🎯 / 🔸.
 
-📚 Sách còn thêm: cho **mọi người tham dự nhiều lần** *("mọi người thường phải mất nhiều thời gian mới lĩnh
-hội được vấn đề")*, và **đề nghị thành viên khác đứng lớp** — *"phong cách giảng dạy của họ có thể khác bạn
-đủ để họ có thể tiếp cận những người mà bạn không thể"*.
+> [!note]
+> Sách còn thêm: cho **mọi người tham dự nhiều lần** *("mọi người thường phải mất nhiều thời gian mới lĩnh
+> hội được vấn đề")*, và **đề nghị thành viên khác đứng lớp** — *"phong cách giảng dạy của họ có thể khác bạn
+> đủ để họ có thể tiếp cận những người mà bạn không thể"*.
 
 ### ② Họp hằng tuần với "các con số"
 
+> [!quote]
 > *"**Hai, ba con số** đo lường hiệu quả hoạt động của **đơn vị bạn** giữa các tuần và giữa các tháng là
 > gì?"* — ch. 30 · PDF tr. 217
 
 Sách gợi ý: hàng hoá gửi đi, doanh thu, số giờ tính phí, hiệu quả theo ngân sách. Rồi nâng cấp:
 
+> [!quote]
 > *"**Dự đoán** những con số này sẽ ở đâu trong tháng hoặc quý tiếp theo. Bạn sẽ ngạc nhiên khi thấy mọi
 > người bắt đầu **giữ quyền sở hữu một con số** như thế nào khi họ **đặt cược uy tín** của mình vào dự
 > đoán."* — ch. 30 · PDF tr. 217
 
 ### ③ Bảng điểm và phương tiện nghe nhìn
 
+> [!quote]
 > *"Chúng tôi luôn thắc mắc tại sao các đơn vị điều hành **không sử dụng bảng điểm đó và công khai** cho tất
 > cả mọi nhân viên."* — ch. 30 · PDF tr. 217
 
@@ -239,17 +258,19 @@ Kèm một cảnh báo rất cụ thể: *"những **đồ thị nhỏ** có th�
 chúng **sẽ bị**. Cũng như với bảng đồng hồ trên xe, hãy đảm bảo rằng bảng điểm **rõ ràng, trực diện và nằm
 ngay trước mắt** bạn."* (tr. 218)
 
-💼 Một chi tiết đáng chú ý: một công ty làm **hai** sơ đồ dòng tiền — một ghi *"con số **mục tiêu**… những
-gì mà **chi nhánh tốt nhất** của công ty sẽ làm"*, một để quản lý điền *"những con số **thật sự** của chi
-nhánh"*. Đó là **bình quân ngành nội bộ** — đúng trục so sánh thứ ba mà
-[bài 8 mục 1](bai_08_ty_le_loi_nhuan_don_bay_thanh_toan.md#1-so-với-cái-gì-kia) đã nêu, nhưng đặt trong
-cùng một công ty.
+> [!example]
+> Một chi tiết đáng chú ý: một công ty làm **hai** sơ đồ dòng tiền — một ghi *"con số **mục tiêu**… những
+> gì mà **chi nhánh tốt nhất** của công ty sẽ làm"*, một để quản lý điền *"những con số **thật sự** của chi
+> nhánh"*. Đó là **bình quân ngành nội bộ** — đúng trục so sánh thứ ba mà
+> [bài 8 mục 1](bai_08_ty_le_loi_nhuan_don_bay_thanh_toan.md#1-so-với-cái-gì-kia) đã nêu, nhưng đặt trong
+> cùng một công ty.
 
-📚 **Và một câu chuyện về đổi ngôn ngữ** (tr. 220): một giám đốc vùng bắt đầu gọi nhân viên của mình là
-***đối tác kinh doanh***. Họ đổi cả **biển hiệu bãi đậu xe** để chữ *"nhân viên"* biến mất. Các vùng khác
-học theo, rồi chủ tịch toàn quốc dùng từ đó trong bản tin nội bộ. Sách ghi nhận điều kiện đủ, không chỉ điều
-kiện cần: nhân viên tin là vì *"cũng có **nhiều điều khác nữa** cho thấy ban quản lý thật sự coi họ là đối
-tác"*.
+> [!note] Và một câu chuyện về đổi ngôn ngữ
+> (tr. 220): một giám đốc vùng bắt đầu gọi nhân viên của mình là
+> ***đối tác kinh doanh***. Họ đổi cả **biển hiệu bãi đậu xe** để chữ *"nhân viên"* biến mất. Các vùng khác
+> học theo, rồi chủ tịch toàn quốc dùng từ đó trong bản tin nội bộ. Sách ghi nhận điều kiện đủ, không chỉ điều
+> kiện cần: nhân viên tin là vì *"cũng có **nhiều điều khác nữa** cho thấy ban quản lý thật sự coi họ là đối
+> tác"*.
 
 ---
 
@@ -265,8 +286,9 @@ Sách đưa năm quy tắc (tr. 219–220). Chúng áp thẳng được vào ch�
 | **Chớ giả định** về những gì họ đã biết | [bài 0](bai_00_bat_dau_tu_dau.md) đo nền trước; mỗi bài có 📌 *"cần đọc trước"* |
 | **Đừng cố biến họ thành kế toán viên** | không dạy bút toán; cả khoá **đọc** báo cáo chứ không **lập** báo cáo |
 
-⚠️ **Và đây là chỗ khoá này đi ngược quy tắc của sách — có ý.** Sách bảo *"để bài giảng thật tập trung"*, mỗi
-buổi **30–50 phút**, **một** khái niệm. Các bài ở đây dài gấp nhiều lần thế.
+> [!warning] Và đây là chỗ khoá này đi ngược quy tắc của sách — có ý.
+> Sách bảo *"để bài giảng thật tập trung"*, mỗi
+> buổi **30–50 phút**, **một** khái niệm. Các bài ở đây dài gấp nhiều lần thế.
 
 Lý do: **sách viết cho người đứng lớp, còn đây là tài liệu tra cứu** — đọc một lần rồi quay lại từng mục.
 Hai định dạng khác nhau. **Nếu bạn dùng tài liệu này để đứng lớp thì hãy theo sách: một mục, một buổi.**
@@ -279,6 +301,7 @@ Cả khoá này nhắc Enron ở [bài 8](bai_08_ty_le_loi_nhuan_don_bay_thanh_t
 [bài 9](bai_09_ty_le_hieu_suat_va_dupont.md) *(DuPont định vị đúng cột nhưng gọi sai tên)*. Chương 31 nhìn nó
 từ một phía khác hẳn — **phía người làm thuê**:
 
+> [!quote]
 > *"Các nhân viên của Enron tưởng rằng mình đang có trong tay điều tốt đẹp: **một công ty tăng trưởng, cổ
 > phiếu lên giá nhanh, kế hoạch lương 401(k) hậu hĩnh, nhiều cơ hội thăng tiến**. Nhưng rồi mọi thứ **đột
 > ngột đổ sụp**. Chỉ trong nháy mắt, gần như tất cả các nhân viên phải **vật vờ ra đường xin việc**."*
@@ -286,14 +309,16 @@ từ một phía khác hẳn — **phía người làm thuê**:
 
 ⭐ Và rút ra kết luận **thực dụng, không đạo đức**:
 
+> [!quote]
 > *"vì những **lý do rất thực tế**, họ nên hiểu đôi điều về hoạt động tài chính của **công ty mà mình đang
 > làm việc**. **Giống như các nhà đầu tư, họ cần biết công ty đang làm ăn như thế nào.**"*
 > — ch. 31 · PDF tr. 221
 
-⚠️ **Sách cũng tự đặt giới hạn cho mình, và giới hạn đó đúng:** *"chắc chắn là những doanh nghiệp **được
-giao dịch công khai không thể** trưng cho các nhân viên xem những báo cáo tài chính hợp nhất **ngoài một lần
-mỗi quý**, khi thông tin được bố cáo cho công chúng."* — đó là **luật công bố thông tin**, không phải sự
-giấu giếm.
+> [!warning] Sách cũng tự đặt giới hạn cho mình, và giới hạn đó đúng:
+> *"chắc chắn là những doanh nghiệp **được
+> giao dịch công khai không thể** trưng cho các nhân viên xem những báo cáo tài chính hợp nhất **ngoài một lần
+> mỗi quý**, khi thông tin được bố cáo cho công chúng."* — đó là **luật công bố thông tin**, không phải sự
+> giấu giếm.
 
 Nhưng: *"họ **có thể cố gắng giải thích** những báo cáo này **khi chúng được phát đi**. Trong thời gian đó,
 họ có thể đảm bảo các nhân viên **thấy được các con số hoạt động** của phòng ban hoặc cơ sở mà mình làm
@@ -301,6 +326,7 @@ việc."*
 
 ⭐ **Câu kết của cả cuốn sách**, và nó là một ẩn dụ đáng giữ:
 
+> [!quote]
 > *"**Thông tin tài chính là hệ thần kinh** của bất kỳ một doanh nghiệp nào… **Từ quá lâu, ở mỗi doanh
 > nghiệp chỉ có một nhóm là những người duy nhất hiểu dữ liệu tài chính nói gì.** Chúng tôi cho rằng cần có
 > thêm nhiều người hiểu dữ liệu tài chính, **bắt đầu từ những nhà quản lý, rồi cuối cùng mở rộng ra toàn bộ
@@ -308,7 +334,7 @@ việc."*
 
 ---
 
-## 8. 📚 Hộp công cụ — Sarbanes-Oxley, và cái giá quy ra tỷ lệ
+## 8. Hộp công cụ — Sarbanes-Oxley, và cái giá quy ra tỷ lệ
 
 Đạo luật của Quốc hội Mỹ, **tháng 7/2002**, đáp lại chính loạt gian lận mà cả cuốn sách này kể: Enron,
 WorldCom, Tyco, Sunbeam. Sách gọi nó là *"điều luật có **tác động lớn nhất** lên vấn đề quản lý doanh
@@ -326,12 +352,14 @@ niên 1930"*.
 | buộc **hoàn trả thưởng** nếu phải báo cáo lại | [bài 2](bai_02_loi_nhuan_chi_la_du_toan.md): ghi nhận doanh thu |
 | bắt thêm **"báo cáo kiểm soát nội bộ"** hằng năm | [bài 1](bai_01_nghe_thuat_tai_chinh.md): nghệ thuật tài chính |
 
-📚 Sách kèm một con số đáng nhớ về **lý do** điều khoản cấm cho vay ra đời: một nghiên cứu của
-**Corporate Library Research Group** phát hiện các doanh nghiệp đã cho nhà điều hành vay **trên 4,5 tỷ
-đô-la** trong năm 2001, *"với mức lãi suất bằng 0 hoặc rất thấp"*.
+> [!note]
+> Sách kèm một con số đáng nhớ về **lý do** điều khoản cấm cho vay ra đời: một nghiên cứu của
+> **Corporate Library Research Group** phát hiện các doanh nghiệp đã cho nhà điều hành vay **trên 4,5 tỷ
+> đô-la** trong năm 2001, *"với mức lãi suất bằng 0 hoặc rất thấp"*.
 
-### ⚠️ Sách đưa cái giá, rồi để nguyên
+### Sách đưa cái giá, rồi để nguyên
 
+> [!quote]
 > *"việc triển khai hoạt động này **rất đắt đỏ**. Chi phí **trung bình** cho các doanh nghiệp là **5 triệu
 > đô-la**; đối với những doanh nghiệp lớn như **General Electric**, con số có thể lên tới **30 triệu
 > đô-la**."* — hộp công cụ · PDF tr. 223
@@ -352,10 +380,11 @@ nghiệp niêm yết — là **20%**.
 **Chi phí tuân thủ gần như cố định, nên nó LUỸ THOÁI: doanh nghiệp càng nhỏ thì càng đau.** Sách đưa cả hai
 con số 5 triệu và 30 triệu mà không nói điều này *(chốt bằng `assert`)*.
 
-💼 Đó là một mẫu hình dùng lại được ở **mọi quy định**: chi phí tuân thủ ít khi tỷ lệ với quy mô. Muốn biết
-một quy định mới ảnh hưởng ai nhiều nhất, hãy **chia chi phí tuân thủ cho lợi nhuận** chứ đừng nhìn con số
-tuyệt đối. Đó đúng là [bài 8 mục 1](bai_08_ty_le_loi_nhuan_don_bay_thanh_toan.md#1-so-với-cái-gì-kia):
-***"So với cái gì kia?"***
+> [!example]
+> Đó là một mẫu hình dùng lại được ở **mọi quy định**: chi phí tuân thủ ít khi tỷ lệ với quy mô. Muốn biết
+> một quy định mới ảnh hưởng ai nhiều nhất, hãy **chia chi phí tuân thủ cho lợi nhuận** chứ đừng nhìn con số
+> tuyệt đối. Đó đúng là [bài 8 mục 1](bai_08_ty_le_loi_nhuan_don_bay_thanh_toan.md#1-so-với-cái-gì-kia):
+> ***"So với cái gì kia?"***
 
 ---
 
@@ -394,10 +423,11 @@ lại.
 
 *(chốt bằng `assert`)*
 
-💼 Và đó là một **quy tắc đọc** dùng được cho mọi tài liệu tài chính, không riêng cuốn này: **lỗi tập trung ở
-chỗ có nhiều con số và ít chữ.** Phụ lục, ô công thức, bảng biểu — đó là những chỗ **không ai đọc lại thành
-câu**, nên **không ai nghe thấy nó sai**. Phần chữ chạy thì ngược lại: nó được đọc to lên trong đầu người
-biên tập.
+> [!example]
+> Và đó là một **quy tắc đọc** dùng được cho mọi tài liệu tài chính, không riêng cuốn này: **lỗi tập trung ở
+> chỗ có nhiều con số và ít chữ.** Phụ lục, ô công thức, bảng biểu — đó là những chỗ **không ai đọc lại thành
+> câu**, nên **không ai nghe thấy nó sai**. Phần chữ chạy thì ngược lại: nó được đọc to lên trong đầu người
+> biên tập.
 
 ⭐ **Và nghịch lý khép lại cả khoá học:** cuốn sách có luận điểm trung tâm là *"đừng tin các con số — chúng
 là sản phẩm của ước tính và giả định"*. **Nó tự chứng minh luận điểm đó 28 lần.**
@@ -442,7 +472,7 @@ import**: nếu gõ y nguyên theo sách thì **bảng cân đối không cân**
 
 ---
 
-## 11. 🎓 Đi tiếp từ đây
+## 11. Đi tiếp từ đây
 
 **Khoá này dạy gì, và không dạy gì.**
 
@@ -671,7 +701,7 @@ chạy lại. Không có lời giải.
       — bối cảnh 7/2002 và *"thập niên 1930"* (tr. 222); **các điều khoản**, 📚 **nghiên cứu Corporate
       Library Research Group — 4,5 tỷ đô-la cho nhà điều hành vay năm 2001**, và ⚠️ **chi phí tuân thủ
       5 triệu / 30 triệu đô-la** (tr. 223)
-  - Phụ lục, PDF tr. 224–227 — công ty mẫu, dùng ở [mục 8](#8--hộp-công-cụ--sarbanes-oxley-và-cái-giá-quy-ra-tỷ-lệ)
+  - Phụ lục, PDF tr. 224–227 — công ty mẫu, dùng ở [mục 8](#8-hộp-công-cụ--sarbanes-oxley-và-cái-giá-quy-ra-tỷ-lệ)
     và [mục 10](#10-kiểm-toàn-khoá--dựng-lại-mọi-khẳng-định)
 - **Đã kiểm chứng bằng code** — [`thuc_hanh/bai-12-to-chuc-co-tri-tue-tai-chinh.py`](../thuc_hanh/bai-12-to-chuc-co-tri-tue-tai-chinh.py):
   - chi phí tuân thủ 5 triệu đô-la đè lên doanh nghiệp lợi nhuận 25 triệu **nặng hơn tám lần** so với công

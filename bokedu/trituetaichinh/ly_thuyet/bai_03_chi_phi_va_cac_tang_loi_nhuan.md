@@ -1,14 +1,15 @@
 # Bài 3 — Chi phí và các tầng lợi nhuận
 
+> [!info] Về bài này
 > Bài học dựng từ **Phần II — Những đặc thù của báo cáo kết quả kinh doanh**: chương 7 *Chi phí và nợ
 > phải trả* (PDF tr. 54–65), chương 8 *Có nhiều kiểu lợi nhuận* (PDF tr. 66–73).
-> 🎯 **Vòng 1.** Bài 2 đã dựng dòng **doanh thu**. Bài này dựng mọi dòng **bên dưới** nó — và cho thấy
+>
+> **Vòng 1.** Bài 2 đã dựng dòng **doanh thu**. Bài này dựng mọi dòng **bên dưới** nó — và cho thấy
 > ranh giới giữa các dòng ấy là thứ **di chuyển được**.
-> 💼 **Góc quản trị** — ví dụ thêm cho người đi làm, **không có trong sách**.
-> 📚 **Mở rộng** — thứ sách nói lướt hoặc để trong hộp công cụ.
-> 🇻🇳 **Đối chiếu Việt Nam** — sách viết theo US GAAP, mục này nối sang thực tế Việt Nam.
-> ⚠️ — chỗ dễ hiểu sai, hoặc chỗ sách in sai.
-> 📌 **Cần đọc trước:** [Bài 1](bai_01_nghe_thuat_tai_chinh.md) · [Bài 2](bai_02_loi_nhuan_chi_la_du_toan.md)
+>
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
+>
+> **Cần đọc trước:** [Bài 1](bai_01_nghe_thuat_tai_chinh.md) · [Bài 2](bai_02_loi_nhuan_chi_la_du_toan.md)
 > — mục 3③ và 3④ của bài 1 đã chạm vào phân loại chi phí và khấu hao; bài này làm kỹ.
 > ⚙️ **Code:** [`thuc_hanh/bai-03-chi-phi-va-cac-tang-loi-nhuan.py`](../thuc_hanh/bai-03-chi-phi-va-cac-tang-loi-nhuan.py)
 
@@ -21,15 +22,15 @@
 - [1. Không có quy tắc bất di bất dịch nào](#1-không-có-quy-tắc-bất-di-bất-dịch-nào)
 - [2. Trên vạch, dưới vạch — và cái vạch thì di chuyển được](#2-trên-vạch-dưới-vạch--và-cái-vạch-thì-di-chuyển-được)
 - [3. Chi phí hoạt động — cholesterol của doanh nghiệp](#3-chi-phí-hoạt-động--cholesterol-của-doanh-nghiệp)
-- [4. ⚠️ COGS không phải là biến phí](#4--cogs-không-phải-là-biến-phí)
+- [4. COGS không phải là biến phí](#4-cogs-không-phải-là-biến-phí)
 - [5. Khấu hao — một giả định, không phải một số đo được](#5-khấu-hao--một-giả-định-không-phải-một-số-đo-được)
 - [6. Waste Management — cùng thủ thuật, nhân lên hai vạn lần](#6-waste-management--cùng-thủ-thuật-nhân-lên-hai-vạn-lần)
 - [7. Khoản trả một lần — cờ vàng cảnh báo](#7-khoản-trả-một-lần--cờ-vàng-cảnh-báo)
 - [8. Ba tầng lợi nhuận](#8-ba-tầng-lợi-nhuận)
 - [9. Ba cách chữa lợi nhuận thuần thấp — cái nào rẻ, cái nào nhanh](#9-ba-cách-chữa-lợi-nhuận-thuần-thấp--cái-nào-rẻ-cái-nào-nhanh)
-- [10. 📚 Hộp công cụ — chênh lệch tốt hay xấu?](#10--hộp-công-cụ--chênh-lệch-tốt-hay-xấu)
+- [10. Hộp công cụ — chênh lệch tốt hay xấu?](#10-hộp-công-cụ--chênh-lệch-tốt-hay-xấu)
 - [11. Adelphia — tạo doanh thu từ không khí](#11-adelphia--tạo-doanh-thu-từ-không-khí)
-- [12. 🇻🇳 Đối chiếu Việt Nam](#12--đối-chiếu-việt-nam)
+- [12. Đối chiếu Việt Nam](#12-đối-chiếu-việt-nam)
 - [13. Tự thử](#13-tự-thử)
 - [14. Từ điển thuật ngữ](#14-từ-điển-thuật-ngữ)
 - [15. Câu hỏi tự kiểm tra](#15-câu-hỏi-tự-kiểm-tra)
@@ -44,6 +45,7 @@
 
 Chi phí trên báo cáo kết quả kinh doanh rơi vào **hai nhóm cơ bản**:
 
+> [!quote]
 > **Giá vốn hàng bán** (*cost of goods sold*, COGS) hay **giá thành dịch vụ** (*cost of service*, COS)
 > là *"một hạng mục chi phí, bao gồm tất cả các chi phí liên quan trực tiếp đến quá trình sản xuất
 > hoặc thực hiện dịch vụ."* — ch. 7 · PDF tr. 54
@@ -53,6 +55,7 @@ Chi phí trên báo cáo kết quả kinh doanh rơi vào **hai nhóm cơ bản*
 
 Nghe thì gọn. Sách phá ngay:
 
+> [!quote]
 > *"Nếu bạn ngờ rằng quy tắc này sẽ mở ra cho bạn **hàng tấn các diễn giải**, thì bạn đã hoàn toàn
 > đúng. Bộ phận kế toán phải ra quyết định sẽ bao gồm những gì trong COGS và những gì ở các hạng mục
 > khác."* — ch. 7 · PDF tr. 54
@@ -60,18 +63,21 @@ Nghe thì gọn. Sách phá ngay:
 Một số quyết định dễ. Lương công nhân dây chuyền và nguyên vật liệu **chắc chắn vào** COGS; giấy bút
 của phòng kế toán và lương giám đốc nhân sự **chắc chắn ra**. Nhưng rồi:
 
+> [!quote]
 > *"Tiếp đó sẽ là những khoản nằm ở **vùng xám** − những khoản này thì **nhiều vô kể**. Ví dụ: Thế
 > còn lương của giám đốc nhà máy sản xuất ra sản phẩm? Lương của quản đốc nhà máy thì sao? Hoa hồng
 > bán hàng thì thế nào?"* — ch. 7 · PDF tr. 55
 
 Ai cũng tưởng đây là chỗ GAAP sẽ ra tay. Sách dập tắt hy vọng ấy bằng con số:
 
+> [!quote]
 > *"Bộ tiêu chuẩn GAAP… **dày đến 4.000 trang** và có rất nhiều quy tắc chi tiết. Bạn có thể tưởng
 > rằng GAAP sẽ quy định: 'giám đốc sản xuất không được tính' hoặc 'quản đốc thì tính'. **Không may
 > mắn như vậy**, GAAP chỉ cung cấp cho ta các **định hướng**."* — ch. 7 · PDF tr. 55
 
 Thay cho quy tắc, chỉ có hai bài kiểm tra:
 
+> [!quote]
 > *"Mấu chốt, như các kế toán viên vẫn thường nói, là **sự hợp lý và nhất quán**. Chừng nào logic của
 > doanh nghiệp vẫn còn hợp lý và chừng nào logic đó vẫn còn được áp dụng nhất quán, thì chừng đó
 > **doanh nghiệp muốn làm gì cũng được**."* — ch. 7 · PDF tr. 55
@@ -83,18 +89,21 @@ quả kinh doanh vẫn là một **phán đoán**.
 
 ## 2. Trên vạch, dưới vạch — và cái vạch thì di chuyển được
 
+> [!quote]
 > *"Từ **'vạch'** ở đây thường ám chỉ **lợi nhuận gộp**. Phía trên vạch lợi nhuận gộp của báo cáo kết
 > quả kinh doanh thường là doanh thu và giá vốn hàng bán, hoặc giá thành dịch vụ. Phía dưới vạch là
 > chi phí hoạt động, lãi vay, và thuế."* — ch. 7 · PDF tr. 57
 
 Vì sao phải phân biệt?
 
+> [!quote]
 > *"Những khoản mục **trên vạch** (trong ngắn hạn) thường **biến đổi nhiều hơn** những khoản mục dưới
 > vạch, và vì vậy thường được **ban quản lý chú ý đến hơn**."* — ch. 7 · PDF tr. 57
 
 Sách kể hai tình huống. Cái thứ nhất là bạn bị đẩy qua vạch — bộ phận phân tích kỹ thuật của một công
 ty kiến trúc bị chuyển ra khỏi COS, hoàn toàn hợp lý về mặt kế toán, nhưng:
 
+> [!quote]
 > *"Bạn và nhân viên của mình sẽ **không còn là một phần của cái gọi là 'trên vạch' nữa**. Nghĩa là
 > bạn sẽ xuất hiện một cách khác đi trên màn hình ra-đa của doanh nghiệp… Một khi bạn được định khoản
 > bên ngoài COS − 'dưới vạch' − **mức độ chú ý dành cho bạn có thể ít đi đáng kể**."* — ch. 7 · PDF tr. 56
@@ -108,6 +117,7 @@ Cái thứ hai là bạn tự đẩy cái vạch. Đây là tình huống có s�
 | chuyển "quản lý hợp đồng các đơn hàng của nhà máy" ra khỏi COGS | 25.000 |
 | **lợi nhuận gộp sau khi chuyển** | **1.005.000** |
 
+> [!quote]
 > *"Bạn kiến nghị kế toán trưởng chuyển các khoản đó vào chi phí hoạt động. Kế toán trưởng đồng ý;
 > thay đổi được tiến hành. **Bạn đạt được chỉ tiêu, và mọi người đều hân hoan.** Ngay cả một người
 > ngoài cũng có thể nhìn vào những gì đang diễn ra và **tin rằng lợi nhuận gộp đã cải thiện** − tất
@@ -131,15 +141,17 @@ lời hứa. Chuyển chi phí qua vạch **không tạo ra một đồng lời 
 Con số đáng nhớ: muốn biên lợi nhuận gộp tăng **đúng một điểm phần trăm**, phải chuyển **87 triệu**.
 Đó là **1,29% của COGS** — nhưng cũng chính là **8,2% của SG&A**.
 
-💼 Vì sao một con số lại nhỏ ở bên này và to ở bên kia: COGS lớn gấp **6,4 lần** SG&A. Nên cùng một
-bút toán, người theo dõi biên lợi nhuận gộp báo cáo *"cải thiện một điểm"*, còn người theo dõi chi phí
-chung báo cáo *"SG&A phình ra 8%"*. Hai bản tin trái ngược, cả hai đều thật.
+> [!example]
+> Vì sao một con số lại nhỏ ở bên này và to ở bên kia: COGS lớn gấp **6,4 lần** SG&A. Nên cùng một
+> bút toán, người theo dõi biên lợi nhuận gộp báo cáo *"cải thiện một điểm"*, còn người theo dõi chi phí
+> chung báo cáo *"SG&A phình ra 8%"*. Hai bản tin trái ngược, cả hai đều thật.
 
-⚠️ Sách nói thẳng là **việc này hợp pháp**: *"Một lần nữa, những thay đổi này cũng hợp pháp, miễn là
-chúng đáp ứng được bài kiểm tra hợp lý và nhất quán. Thậm chí bạn còn có thể rút một khoản mục chi phí
-ra khỏi COGS trong một tháng và kiến nghị tính gộp nó trở lại vào tháng sau."* — ch. 7 · PDF tr. 57.
-Ranh giới duy nhất là thói quen: *"việc liên tục thay đổi các quy tắc giữa các kỳ kế toán là một hình
-thức không hay."*
+> [!warning]
+> Sách nói thẳng là **việc này hợp pháp**: *"Một lần nữa, những thay đổi này cũng hợp pháp, miễn là
+> chúng đáp ứng được bài kiểm tra hợp lý và nhất quán. Thậm chí bạn còn có thể rút một khoản mục chi phí
+> ra khỏi COGS trong một tháng và kiến nghị tính gộp nó trở lại vào tháng sau."* — ch. 7 · PDF tr. 57.
+> Ranh giới duy nhất là thói quen: *"việc liên tục thay đổi các quy tắc giữa các kỳ kế toán là một hình
+> thức không hay."*
 
 📌 **Đây là mẫu hình thứ ba cùng loại trong khoá học.** [Bài 1](bai_01_nghe_thuat_tai_chinh.md) mục 3⑤
 đã cho thấy phân bổ lương làm biên gộp chạy 21,1%↔23,4% mà EBIT không đổi;
@@ -155,6 +167,7 @@ Chi phí bị loại khỏi COGS thì đi đâu? Vào **chi phí hoạt động*
 
 Sách lưu ý cách doanh nghiệp **tự chọn** mức chi tiết:
 
+> [!quote]
 > *"Microsoft chọn cách thể hiện chi phí bán hàng và chi phí marketing ở dòng riêng vì hai loại chi
 > phí này chiếm một phần đáng kể trong tổng chi phí của tập đoàn. Ngược lại, các công ty công nghệ
 > sinh học lại… gộp chung chi phí bán hàng và marketing vào chi phí G&A. Cả hai nhóm đều **tách riêng
@@ -166,6 +179,7 @@ thân cách bày báo cáo đã là một thông điệp.
 
 Còn đây là hình ảnh mà sách chọn để nói về chất lượng của nhóm chi phí này:
 
+> [!quote]
 > *"Bạn có thể coi chi phí hoạt động như **cholesterol** trong doanh nghiệp. Cholesterol tốt sẽ làm
 > bạn khỏe mạnh, nhưng cholesterol xấu sẽ làm động mạch của bạn tắc nghẽn. Chi phí hoạt động tốt sẽ
 > giúp doanh nghiệp vững mạnh, và chi phí hoạt động xấu sẽ kéo tụt kết quả kinh doanh… (Một cách gọi
@@ -177,10 +191,11 @@ Còn đây là hình ảnh mà sách chọn để nói về chất lượng củ
 
 ---
 
-## 4. ⚠️ COGS không phải là biến phí
+## 4. COGS không phải là biến phí
 
 Đây là chỗ gần như ai cũng nhầm, và sách chỉ dành cho nó một đoạn văn:
 
+> [!quote]
 > *"Bạn có thể cho rằng COGS cũng giống như **'chi phí biến đổi'** − những chi phí thay đổi theo khối
 > lượng sản xuất − và rằng chi phí hoạt động là **chi phí cố định**… **Nhưng rủi thay, mọi thứ không
 > đơn giản như vậy.** Chẳng hạn, nếu tiền lương của các quản đốc được tính vào COGS, thì khi đó khoản
@@ -212,9 +227,10 @@ nhuận thật đảo mạnh hơn dự báo **22,5%** — năm tốt thì tốt 
 tưởng. Biên lợi nhuận gộp cũng không đứng yên: mô hình thô nói mãi là 40%, thực tế chạy từ **25%** (sản
 lượng nửa) lên **45%** (sản lượng rưỡi).
 
-💼 Bất kỳ ngân sách nào viết *"doanh thu tăng 15%, giá vốn tăng 15%"* đều đang dùng mô hình thô. Cách
-kiểm rẻ nhất: hỏi kế toán xem trong COGS có bao nhiêu là **lương quản đốc, khấu hao nhà xưởng, thuê
-đất** — những thứ không nhúc khi sản lượng đổi.
+> [!example]
+> Bất kỳ ngân sách nào viết *"doanh thu tăng 15%, giá vốn tăng 15%"* đều đang dùng mô hình thô. Cách
+> kiểm rẻ nhất: hỏi kế toán xem trong COGS có bao nhiêu là **lương quản đốc, khấu hao nhà xưởng, thuê
+> đất** — những thứ không nhúc khi sản lượng đổi.
 
 ---
 
@@ -222,6 +238,7 @@ kiểm rẻ nhất: hỏi kế toán xem trong COGS có bao nhiêu là **lương
 
 Sách giới thiệu khấu hao bằng một câu cảnh báo hiếm gặp về mức độ nghiêm trọng:
 
+> [!quote]
 > *"Ở những câu khô khan trên ẩn chứa **một công cụ rất quyền năng mà các nghệ sỹ tài chính có thể ứng
 > dụng**. Nó đáng để chúng ta đi sâu vào chi tiết."* — ch. 7 · PDF tr. 59
 
@@ -238,6 +255,7 @@ Ví dụ: công ty chuyển phát, tháng đầu doanh thu 10.000, COGS 5.000, c
 
 Ba hàng in đậm là ba con số sách nêu, và cả ba đều khớp:
 
+> [!quote]
 > *"Họ có thể giả định rằng chiếc xe chỉ dùng được một năm… Cách tính này làm kết quả kinh doanh tụt
 > giảm 2.000 đô-la, và đẩy công ty từ chỗ **có lãi 1.000 đô-la thành lỗ 1.000 đô-la**. Hoặc họ giả
 > định rằng chiếc xe có thể sử dụng được trong sáu năm… lợi nhuận thuần sẽ lên đến 1.500 đô-la… chúng
@@ -247,34 +265,36 @@ Ba hàng in đậm là ba con số sách nêu, và cả ba đều khớp:
 ⭐ **Cột EBITDA không đổi — 2.000 ở cả năm dòng.** Đó chính là lý do EBITDA tồn tại. Khấu hao là dòng
 duy nhất trong bảng mà **không ai chi tiền ra cả**:
 
+> [!quote]
 > **Chi phí phi tiền mặt** (*noncash expense*): *"loại chi phí được tính cho một kỳ báo cáo kết quả
 > kinh doanh, nhưng **không được chi trả thật sự bằng tiền mặt**. Khấu hao là một ví dụ… doanh nghiệp
 > không có nghĩa vụ phải chi số tiền đó, vì thiết bị **đã được mua từ trước**."* — ch. 7 · PDF tr. 62
 
 Bỏ nó đi thì cái đòn bẩy của cả mục này tắt ngúm. Mục 8 sẽ đặt tên cho việc đó.
 
-⚠️ Nhưng **tổng chi phí cả đời xe vẫn là 36.000 đô-la** — không giả định nào đổi được. Giống hệt xe tải
-của [bài 2](bai_02_loi_nhuan_chi_la_du_toan.md) mục 2 và dự án 18 tháng của bài 2 mục 7: chỉ **dịch**,
-không **tạo ra**. Giả định khấu hao dài chỉ vay lợi nhuận của những năm sau, và món nợ đó không quỵt
-được.
+> [!warning]
+> Nhưng **tổng chi phí cả đời xe vẫn là 36.000 đô-la** — không giả định nào đổi được. Giống hệt xe tải
+> của [bài 2](bai_02_loi_nhuan_chi_la_du_toan.md) mục 2 và dự án 18 tháng của bài 2 mục 7: chỉ **dịch**,
+> không **tạo ra**. Giả định khấu hao dài chỉ vay lợi nhuận của những năm sau, và món nợ đó không quỵt
+> được.
 
-### 📚 Khấu hao vô hình, và vì sao nó không phải là mất giá
-
-*Amortization* (tài sản vô hình) và *depreciation* (tài sản hữu hình) là **cùng một ý tưởng**; sách
-thẳng thắn về việc tiếng Anh có hai từ: *"Chúng tôi không biết chắc lý do − nhưng dù vì lẽ gì, đó cũng
-là nguồn cơn gây khó hiểu."* — ch. 7 · PDF tr. 63.
-
-Chỗ đáng nhớ hơn là phân biệt giữa **kinh tế** và **kế toán**:
-
-> *"Trong kinh tế, khấu hao ngầm chỉ rằng món tài sản **mất dần giá trị** theo thời gian… Nhưng việc
-> khấu hao… trong kế toán lại mang ý nghĩa **phân bổ chi phí** nhiều hơn là khấu trừ giá trị. Chẳng
-> hạn, một chiếc xe tải có thể sẽ được khấu hao trong ba năm, cho nên giá trị kế toán của chiếc xe tải
-> đó ở cuối giai đoạn đó sẽ **bằng 0**. Nhưng nó **vẫn có giá trị nào đó trên thị trường**… Thế nên,
-> các tài sản **thường hiếm khi đáng giá như những gì được thể hiện trên sổ sách**."* — ch. 7 · PDF tr. 63
-
-Câu cuối là một trong những câu quan trọng nhất cả cuốn sách, và nó quay lại ở
-[bài 4](bai_04_bang_can_doi_ke_toan.md) khi ta đọc
-cột tài sản.
+> [!note] Khấu hao vô hình, và vì sao nó không phải là mất giá
+>
+> *Amortization* (tài sản vô hình) và *depreciation* (tài sản hữu hình) là **cùng một ý tưởng**; sách
+> thẳng thắn về việc tiếng Anh có hai từ: *"Chúng tôi không biết chắc lý do − nhưng dù vì lẽ gì, đó cũng
+> là nguồn cơn gây khó hiểu."* — ch. 7 · PDF tr. 63.
+>
+> Chỗ đáng nhớ hơn là phân biệt giữa **kinh tế** và **kế toán**:
+>
+> > *"Trong kinh tế, khấu hao ngầm chỉ rằng món tài sản **mất dần giá trị** theo thời gian… Nhưng việc
+> > khấu hao… trong kế toán lại mang ý nghĩa **phân bổ chi phí** nhiều hơn là khấu trừ giá trị. Chẳng
+> > hạn, một chiếc xe tải có thể sẽ được khấu hao trong ba năm, cho nên giá trị kế toán của chiếc xe tải
+> > đó ở cuối giai đoạn đó sẽ **bằng 0**. Nhưng nó **vẫn có giá trị nào đó trên thị trường**… Thế nên,
+> > các tài sản **thường hiếm khi đáng giá như những gì được thể hiện trên sổ sách**."* — ch. 7 · PDF tr. 63
+>
+> Câu cuối là một trong những câu quan trọng nhất cả cuốn sách, và nó quay lại ở
+> [bài 4](bai_04_bang_can_doi_ke_toan.md) khi ta đọc
+> cột tài sản.
 
 ---
 
@@ -282,12 +302,14 @@ cột tài sản.
 
 Sách nói trước rằng đừng coi mục 5 là bài tập sách vở:
 
+> [!quote]
 > *"WMI là một trong những câu chuyện doanh nghiệp thành công trong thập niên 1970-1980. Chính bởi
 > vậy, mọi người đều choáng váng khi năm 1998 công ty này thông báo mình sẽ phải trả một khoản trước
 > thuế lên đến **3,54 tỷ đô-la** từ thu nhập."* — ch. 7 · PDF tr. 60
 
 Cơ chế thì đúng bằng ví dụ xe tải, chỉ khác quy mô:
 
+> [!quote]
 > *"Họ bắt đầu chú ý trước tiên tới **đội xe gồm 20.000 xe rác, mỗi xe có giá trung bình 150.000
 > đô-la**. Tính đến thời điểm đó, đoàn xe tải đã được khấu hao từ **8 đến 10 năm**, đây là mức khấu
 > hao tiêu chuẩn của ngành. Ban điều hành quyết định, bấy nhiêu thời gian là không đủ… Khi **thêm 4
@@ -312,6 +334,7 @@ Sách để nguyên đó và không tính ra. Ta tính. Đội xe: 20.000 × 150
 
 Sách cho biết kết quả cuối:
 
+> [!quote]
 > *"Bằng cách gian lận các số liệu khấu hao xe tải và thùng rác, ban điều hành WMI đã bơm lợi nhuận
 > trước thuế của công ty lên con số khổng lồ là **716 triệu đô-la**."* — ch. 7 · PDF tr. 61
 
@@ -323,8 +346,9 @@ xấu năm 1998 — **nhiều nhất sáu năm**. Con số của riêng đội x
 Nghĩa là: con số 716 triệu **không cần một thủ thuật nào kỳ quặc cả** — chỉ cần đổi một cột trong bảng
 khấu hao, và kiên nhẫn.
 
-⚠️ *(Cửa sổ "nhiều nhất sáu năm" là **suy ra từ hai mốc của sách**; sách không nói gian lận kéo dài bao
-lâu. Con số 716 triệu và mọi đầu vào khác đều là của sách.)*
+> [!warning]
+> *(Cửa sổ "nhiều nhất sáu năm" là **suy ra từ hai mốc của sách**; sách không nói gian lận kéo dài bao
+> lâu. Con số 716 triệu và mọi đầu vào khác đều là của sách.)*
 
 Đặt cạnh khoản xử lý nợ xấu 3.540 triệu năm 1998, riêng phần khấu hao chiếm **20,2%** — đúng như sách
 nói: *"đây mới chỉ là một trong những chiêu trò họ sử dụng."*
@@ -336,6 +360,7 @@ nói: *"đây mới chỉ là một trong những chiêu trò họ sử dụng."
 Ngoài COGS và chi phí hoạt động, mỗi báo cáo còn có một nhóm hổ lốn. Phần lớn không đáng bận tâm, trừ
 một dòng:
 
+> [!quote]
 > *"Nhãn tên phổ biến nhất cho nó là **'khoản trả một lần'**."* — ch. 7 · PDF tr. 63
 
 Tiếng lóng của nghề: **taking the big bath** (gột rửa). Tên chính thức: **khoản đặc biệt**
@@ -345,6 +370,7 @@ Nó thường xuất hiện khi *"một CEO mới lên nắm quyền và muốn 
 và có thể cắt giảm biên chế"* (PDF tr. 64). Và vì GAAP buộc kế toán phải ghi nhận chi phí **ngay khi
 biết nó phát sinh, kể cả khi phải ước tính**, nên:
 
+> [!quote]
 > *"Đây thật sự là nơi cần **cắm cờ vàng cảnh báo** − một nơi tuyệt vời cho các định kiến số liệu. Nói
 > cho cùng thì bạn thực sự **ước tính** chi phí tái cơ cấu như thế nào?"* — ch. 7 · PDF tr. 64
 
@@ -355,12 +381,14 @@ biết nó phát sinh, kể cả khi phải ước tính**, nên:
 | **quá cao** | một phần khoản phí phải *"đảo ngược lại"* | kỳ sau lãi **tăng chóng mặt so với lợi nhuận thực** |
 | **quá thấp** | phải chi thêm một khoản phí nữa sau đó | kỳ sau lãi **thấp hơn so với thực tế** |
 
+> [!quote]
 > *"Người ta từng kháo nhau rằng **Al Dunlap 'Cưa Xích'**, CEO khét tiếng của Sunbeam, đã coi bộ phận
 > kế toán như một **trung tâm lợi nhuận**… (Nếu bạn nghe một nhà điều hành cấp cao nói về bộ phận kế
 > toán theo cách ấy, **công ty của bạn ắt có vấn đề**)."* — ch. 7 · PDF tr. 64
 
 Và phép thử đơn giản nhất để phát hiện lạm dụng — đếm:
 
+> [!quote]
 > *"Trong suốt giai đoạn đầu những năm 1990, **năm nào AT&T cũng thực hiện một khoản tái cơ cấu 'một
 > lần'**… Hơn nữa, nếu một công ty liên tục chi các khoản tái cơ cấu một lần đặc biệt suốt nhiều năm,
 > thì những khoản chi ấy có thể **đặc biệt** đến thế nào?"* — ch. 7 · PDF tr. 65
@@ -378,6 +406,7 @@ sách ghi nhận rằng nhiều doanh nghiệp dùng *"tất cả những thuậ
 đôi khi còn sử dụng tất cả trong cùng một tài liệu"* và cảnh báo: *"có vẻ họ đang nói về những khái
 niệm khác nhau. Nhưng **thực sự là không phải vậy**."* — ch. 8 · PDF tr. 66.
 
+> [!quote]
 > **Lợi nhuận** (*profit*): *"số tiền còn lại sau khi đã trừ tất cả các chi phí khỏi doanh thu. Có
 > **ba loại lợi nhuận cơ bản**: lợi nhuận gộp, lợi nhuận hoạt động và lợi nhuận thuần. Mỗi loại được
 > xác định bằng cách trừ khỏi doanh thu **những hạng mục chi phí nhất định**."* — ch. 8 · PDF tr. 66
@@ -397,6 +426,7 @@ Trên công ty mẫu:
 
 ### Tầng 1 — lợi nhuận gộp: bao nhiêu thì đủ?
 
+> [!quote]
 > *"Lợi nhuận gộp phải **đủ để bù chi phí hoạt động, thuế, chi phí tài chính và lợi nhuận thuần**."*
 > — ch. 8 · PDF tr. 67
 
@@ -409,9 +439,11 @@ Không có ngưỡng chung. Sách nêu ba cách hiệu chuẩn:
   nhỏ hơn… (Đó là một trong những lý do khiến **Wal-Mart** có thể tính giá thấp đến vậy)."*
 - **So với chính mình qua từng năm.** *"Nếu nó đang đi xuống, bạn có thể đặt câu hỏi tại sao."*
 
-⚠️ Nhưng trước khi hỏi tại sao, phải kiểm xem con số có thật đổi không. Sách kể một tình huống trực
-tiếp nối vào mục 2:
+> [!warning]
+> Nhưng trước khi hỏi tại sao, phải kiểm xem con số có thật đổi không. Sách kể một tình huống trực
+> tiếp nối vào mục 2:
 
+> [!quote]
 > *"Giả sử bạn là giám đốc nhân sự của một công ty nghiên cứu thị trường, và bạn nhận thấy rằng lợi
 > nhuận gộp đang có chiều hướng đi xuống… Thế là bạn và các nhân viên của mình bắt đầu lên kế hoạch
 > cắt giảm chi phí dịch vụ, thậm chí có thể sử dụng đến cả biện pháp **cắt giảm biên chế**. Nhưng khi
@@ -424,11 +456,13 @@ người thật.
 
 ### Tầng 2 — lợi nhuận hoạt động (EBIT): chìa khoá cho sự vững mạnh
 
+> [!quote]
 > **Lợi nhuận hoạt động** (*operating profit*, **EBIT** — *earnings before interest and taxes*): lợi
 > nhuận gộp trừ chi phí hoạt động, **bao gồm cả khấu hao**. — ch. 8 · PDF tr. 69
 
 Vì sao thuế và lãi vay chưa bị trừ?
 
+> [!quote]
 > *"Các khoản thuế không thực sự liên quan đến hiệu quả hoạt động… Và chi phí lãi vay thì phụ thuộc
 > vào việc doanh nghiệp lấy vốn từ vay nợ, hay từ vốn chủ sở hữu… **Cơ cấu tài chính của doanh nghiệp
 > không hề nói lên điều gì về hiệu quả của doanh nghiệp trên phương diện hoạt động.**"*
@@ -438,26 +472,28 @@ Vì sao thuế và lãi vay chưa bị trừ?
 khả năng thanh toán hoá đơn; khách hàng lớn xem độ ổn định; và *"ngay cả những nhân viên khôn ngoan
 cũng kiểm tra lợi nhuận hoạt động"* (PDF tr. 69).
 
-### 📚 Vì sao Phố Wall bỏ EBIT sang EBITDA
-
-> *"Từng có thời gian, các nhà phân tích của Phố Wall theo dõi sát sao lợi nhuận hoạt động − hay EBIT.
-> Nhưng các doanh nghiệp mà về sau bị lộ tẩy là đã gian lận **hóa ra đều dàn cảnh với các số liệu khấu
-> hao** (hãy nhớ lại câu chuyện của WMI), bởi vậy các số liệu EBIT của họ đều đáng ngờ. Chẳng bao lâu
-> sau, Phố Wall bắt đầu tập trung vào một thông số khác − **EBITDA**."* — ch. 8 · PDF tr. 69
-
-Đây là chỗ mục 5 và mục 8 khớp lại: cột EBITDA bất động qua **năm giả định khấu hao khác nhau** chính
-là lý do một chỉ số ra đời. EBITDA không "tốt hơn" — nó **miễn nhiễm với đúng một thủ thuật cụ thể**,
-và đổi lại nó giả vờ rằng tài sản không hao mòn.
-
-⚠️ Với công ty mẫu, khấu hao 239 bằng **36,7% của EBIT**. Đây không phải chi tiết nhỏ: chọn EBIT hay
-EBITDA là chênh nhau hơn một phần ba con số.
+> [!note] Vì sao Phố Wall bỏ EBIT sang EBITDA
+>
+> > *"Từng có thời gian, các nhà phân tích của Phố Wall theo dõi sát sao lợi nhuận hoạt động − hay EBIT.
+> > Nhưng các doanh nghiệp mà về sau bị lộ tẩy là đã gian lận **hóa ra đều dàn cảnh với các số liệu khấu
+> > hao** (hãy nhớ lại câu chuyện của WMI), bởi vậy các số liệu EBIT của họ đều đáng ngờ. Chẳng bao lâu
+> > sau, Phố Wall bắt đầu tập trung vào một thông số khác − **EBITDA**."* — ch. 8 · PDF tr. 69
+>
+> Đây là chỗ mục 5 và mục 8 khớp lại: cột EBITDA bất động qua **năm giả định khấu hao khác nhau** chính
+> là lý do một chỉ số ra đời. EBITDA không "tốt hơn" — nó **miễn nhiễm với đúng một thủ thuật cụ thể**,
+> và đổi lại nó giả vờ rằng tài sản không hao mòn.
+>
+> ⚠️ Với công ty mẫu, khấu hao 239 bằng **36,7% của EBIT**. Đây không phải chi tiết nhỏ: chọn EBIT hay
+> EBITDA là chênh nhau hơn một phần ba con số.
 
 ### Tầng 3 — lợi nhuận thuần: dòng dưới cùng
 
+> [!quote]
 > **Lợi nhuận thuần** (*net profit*): *"là những gì còn lại sau khi trừ khỏi doanh thu **tất cả** giá
 > thành và chi phí. Đó là lợi nhuận hoạt động sau khi trừ đi lãi vay, thuế, các khoản trả một lần và
 > bất kỳ chi phí nào còn lại."* — ch. 8 · PDF tr. 71
 
+> [!quote]
 > *"Khi có ai đó hỏi 'Kết quả kinh doanh thế nào?' thì đó **hầu như luôn là câu hỏi về lợi nhuận
 > thuần**."* — ch. 8 · PDF tr. 69
 
@@ -469,6 +505,7 @@ rất lạ khi người ta không đơn giản gọi là… Nhưng người ta k
 
 ## 9. Ba cách chữa lợi nhuận thuần thấp — cái nào rẻ, cái nào nhanh
 
+> [!quote]
 > *"Ngoài cách chơi trò tiểu xảo với sổ sách, chỉ có **ba cách** khắc phục khả dĩ cho khả năng sinh
 > lời thấp."* — ch. 8 · PDF tr. 70
 
@@ -493,17 +530,20 @@ thay đổi cần thiết ở **riêng dòng đó** để đạt mục tiêu ở
 COGS là bắp thịt lớn nhất, 77,8 xu trên mỗi đô-la doanh thu, nên một phần trăm của nó lớn hơn nhiều
 một phần trăm của bất kỳ dòng nào khác.
 
-⚠️ **Vậy sao không ai làm cách rẻ nhất?** Vì bảng trên xếp theo **độ lớn**, còn thực tế xếp theo **độ
-khó**. Cắt 0,68% COGS đòi bạn *"nghiên cứu quá trình sản xuất, tìm ra những điểm kém hiệu quả"* — vài
-quý. Cắt 4,34% SG&A chỉ cần một quyết định. Đó là toàn bộ nội dung của từ **"tức thời"** trong câu văn
-của sách.
+> [!warning] Vậy sao không ai làm cách rẻ nhất?
+> Vì bảng trên xếp theo **độ lớn**, còn thực tế xếp theo **độ
+> khó**. Cắt 0,68% COGS đòi bạn *"nghiên cứu quá trình sản xuất, tìm ra những điểm kém hiệu quả"* — vài
+> quý. Cắt 4,34% SG&A chỉ cần một quyết định. Đó là toàn bộ nội dung của từ **"tức thời"** trong câu văn
+> của sách.
 
-💼 Đặt con số 4,34% ấy vào người thật. Nếu SG&A phần lớn là lương và một nhân sự tốn 100.000 đô-la một
-năm *(giả định của bài học, sách không nêu)*, thì 46,1 triệu đô-la = **461 người**. Đó là cái giá thực
-của dòng chữ *"+10% lợi nhuận"* trên một bản trình chiếu.
+> [!example]
+> Đặt con số 4,34% ấy vào người thật. Nếu SG&A phần lớn là lương và một nhân sự tốn 100.000 đô-la một
+> năm *(giả định của bài học, sách không nêu)*, thì 46,1 triệu đô-la = **461 người**. Đó là cái giá thực
+> của dòng chữ *"+10% lợi nhuận"* trên một bản trình chiếu.
 
 Sách cảnh báo ngay sau đó, và bằng một ví dụ tự phản:
 
+> [!quote]
 > *"Tất nhiên, biện pháp cắt giảm nhân công **có thể phản tác dụng**. Tinh thần làm việc sẽ sa sút.
 > Những người giỏi mà CEO muốn giữ có thể bắt đầu muốn đi tìm việc ở nơi khác."* — ch. 8 · PDF tr. 70
 
@@ -514,19 +554,21 @@ quản trị sa thải (PDF tr. 70–71).
 
 Kết luận của chương:
 
+> [!quote]
 > *"Đối với hầu hết các doanh nghiệp, biện pháp quản lý với tầm nhìn dài hạn… sẽ hiệu quả hơn. Dĩ
 > nhiên, chi phí hoạt động cũng phải cắt giảm. Nhưng nếu đó là **mục tiêu duy nhất** mà bạn quan tâm,
 > thì có lẽ bạn **chỉ đang cố trì hoãn ngày phán quyết** mà thôi."* — ch. 8 · PDF tr. 71
 
 ---
 
-## 10. 📚 Hộp công cụ — chênh lệch tốt hay xấu?
+## 10. Hộp công cụ — chênh lệch tốt hay xấu?
 
 **Chênh lệch** (*variance*) chỉ là sự khác biệt: giữa ngân sách và thực tế, giữa tháng này và tháng
 trước. Sách khuyên dùng **tỷ lệ phần trăm** vì *"chúng mang lại cơ sở so sánh dễ dàng và nhanh chóng"*.
 
 Cái bẫy nằm ở dấu:
 
+> [!quote]
 > *"**Vấn đề nan giải duy nhất** với chênh lệch là ở việc xác định xem liệu chênh lệch đó là tốt hay
 > xấu… Đôi khi, giới tài chính tỏ ra giúp đỡ, và cho bạn biết bằng một lưu ý nhỏ rằng khi chênh lệch
 > được đặt trong dấu ngoặc… thì đó là chênh lệch bất lợi. **Nhưng thường thì bạn phải tự tìm hiểu.**"*
@@ -541,6 +583,7 @@ Cái bẫy nằm ở dấu:
 ⭐ Dòng doanh thu và dòng giá vốn **đều dương** ở cột "phép toán". Một cái là tin tốt, một cái là tin
 xấu. Cột phải đảo dấu để nói điều đó — **nhưng không phải báo cáo nào cũng làm vậy**:
 
+> [!quote]
 > *"Đôi khi dấu ngoặc đơn hay dấu trừ chỉ cho ta biết chênh lệch **trong phép toán**, chứ không chỉ ra
 > sự tốt xấu. Trong trường hợp đó, dấu ngoặc ở dòng doanh thu có khi là **tốt**, còn dấu ngoặc ở dòng
 > chi phí có thể mang ý nghĩa **xấu**."* — ch. 8 · PDF tr. 71–72
@@ -555,9 +598,10 @@ Và đây là lý do nên đọc cả hai dòng chứ không riêng dòng đầu
 Doanh thu vượt 2,2% nhưng lợi nhuận gộp chỉ vượt 1,7%, vì giá vốn cũng vượt theo. Báo ra ngoài con số
 *"doanh thu vượt kế hoạch"* là **đúng** — nó chỉ không phải tin tốt đúng bằng mức nó nghe.
 
-💼 Cách làm sách khuyên: *"tự tính toán, tìm xem những chênh lệch được cho biết là tốt hay xấu, rồi
-kiểm tra xem chúng được thể hiện như thế nào. Hãy đảm bảo rằng bạn thực hiện các phép tính cho **cả
-hai** khoản doanh thu và chi phí."*
+> [!example]
+> Cách làm sách khuyên: *"tự tính toán, tìm xem những chênh lệch được cho biết là tốt hay xấu, rồi
+> kiểm tra xem chúng được thể hiện như thế nào. Hãy đảm bảo rằng bạn thực hiện các phép tính cho **cả
+> hai** khoản doanh thu và chi phí."*
 
 ---
 
@@ -576,6 +620,7 @@ Cơ chế, theo sách (PDF tr. 72):
 5. Nhưng 26 đô-la vào **doanh thu ngay**, còn chi phí marketing thì *"được khấu hao trong nhiều năm"*
    — và **không hề có chiến dịch marketing nào**, *"theo những gì Adelphia thừa nhận"*.
 
+> [!quote]
 > *"Vì các chi phí được dẫn ra đã được khấu hao theo thời gian, nên **gần như toàn bộ 26 đô-la** thu
 > được từ mỗi hộp sẽ đi thẳng xuống dòng kết quả kinh doanh cuối cùng của Adelphia. Tác động này đã
 > thổi thu nhập của công ty từ **37 triệu đô-la năm 2000 lên 54 triệu đô-la năm 2001**."*
@@ -600,9 +645,11 @@ Câu để tự trả lời: **một công ty truyền hình cáp có lắp ng�
 thủ thuật này không cần quy mô kỳ lạ nào cả — nó chỉ cần một nhà cung cấp chịu nâng giá và một kế toán
 chịu vốn hoá khoản phí.
 
-⚠️ **Đây không phải mục 2.** Mục 2 đổi chỗ một con số có thật giữa hai dòng; mục này bịa ra một con số
-**không có thật**. Sách vạch ranh giới rất rõ:
+> [!warning] Đây không phải mục 2.
+> Mục 2 đổi chỗ một con số có thật giữa hai dòng; mục này bịa ra một con số
+> **không có thật**. Sách vạch ranh giới rất rõ:
 
+> [!quote]
 > *"**Nghệ thuật tài chính không mở rộng đến việc có thể tạo ra doanh thu và lợi nhuận từ không khí.**
 > Đồng thời, hãy tỉnh táo trước những chiêu trò kế toán muôn hình vạn trạng. Cuốn sách này sẽ không
 > trang bị cho bạn trở thành một kiểm toán viên tòa án, nhưng nó sẽ giúp bạn trở thành một nhà quản lý
@@ -612,7 +659,7 @@ Adelphia đã phá sản.
 
 ---
 
-## 12. 🇻🇳 Đối chiếu Việt Nam
+## 12. Đối chiếu Việt Nam
 
 **Ranh giới COGS/chi phí hoạt động tồn tại y hệt trong VAS**, và cũng mờ y hệt. Nhưng cách trình bày
 khác, và khác ở ba chỗ đáng nhớ.
@@ -629,9 +676,10 @@ kinh doanh"* — nhưng dòng này **đã trừ chi phí tài chính** (gồm l�
 chính**. Nó **không phải EBIT**. Muốn có EBIT theo nghĩa của mục 8, bạn phải tự cộng lãi vay trở lại,
 và lấy số lãi vay từ **thuyết minh** hoặc từ báo cáo lưu chuyển tiền tệ.
 
-⚠️ Đây là lỗi so sánh phổ biến nhất khi đọc báo cáo Việt Nam bằng khung của sách này. Trong
-[`thuc_hanh/doi_chieu_viet_nam.py`](../thuc_hanh/doi_chieu_viet_nam.py), EBIT của Vinamilk được dựng lại
-**từ lợi nhuận gộp trừ đi chi phí bán hàng, quản lý và chi phí khác** đúng vì lý do này.
+> [!warning]
+> Đây là lỗi so sánh phổ biến nhất khi đọc báo cáo Việt Nam bằng khung của sách này. Trong
+> [`thuc_hanh/doi_chieu_viet_nam.py`](../thuc_hanh/doi_chieu_viet_nam.py), EBIT của Vinamilk được dựng lại
+> **từ lợi nhuận gộp trừ đi chi phí bán hàng, quản lý và chi phí khác** đúng vì lý do này.
 
 **③ Khấu hao ở Việt Nam có khung cứng hơn.** Mục 5 dựa trên chỗ GAAP cho kế toán *"linh hoạt đáng kể"*
 về tuổi đời tài sản. Việt Nam hẹp hơn: **Thông tư 45/2013/TT-BTC** (và các văn bản sửa đổi) quy định
@@ -644,8 +692,9 @@ thì vẫn hợp pháp và vẫn đủ để dịch lợi nhuận. Câu hỏi c�
 có phạm luật không"* mà là ***"họ nằm ở đâu trong khung, và năm ngoái họ nằm ở đâu"*** — và câu trả lời
 nằm trong **thuyết minh chính sách kế toán**.
 
-💼 Ba mục cần đọc trong thuyết minh của bất kỳ báo cáo Việt Nam nào, theo đúng thứ tự bài này:
-*chính sách ghi nhận doanh thu* (bài 2) → *phân loại giá vốn* (mục 1–2) → *thời gian khấu hao* (mục 5).
+> [!example]
+> Ba mục cần đọc trong thuyết minh của bất kỳ báo cáo Việt Nam nào, theo đúng thứ tự bài này:
+> *chính sách ghi nhận doanh thu* (bài 2) → *phân loại giá vốn* (mục 1–2) → *thời gian khấu hao* (mục 5).
 
 ---
 
@@ -843,11 +892,11 @@ rồi chạy lại. Không có lời giải.
       (tr. 72–73)
   - Phụ lục, PDF tr. 223–227 — công ty mẫu, dùng ở mục 2, 8, 9, 10
 - **Thông tư 45/2013/TT-BTC** của Bộ Tài chính — chế độ quản lý, sử dụng và trích khấu hao tài sản cố
-  định; khung thời gian trích khấu hao. Nhắc ở [mục 12](#12--đối-chiếu-việt-nam).
+  định; khung thời gian trích khấu hao. Nhắc ở [mục 12](#12-đối-chiếu-việt-nam).
 - **Công ty Cổ phần Sữa Việt Nam (HOSE: VNM)** — Báo cáo tài chính hợp nhất đã kiểm toán 2024 theo
   IFRS, trong *Báo cáo thường niên Vinamilk 2024*, tr. 180–185.
   [Nguồn gốc](https://www.vinamilk.com.vn/bao-cao-thuong-nien/bao-cao/2024/doc/vi/bctc-ifrs.pdf),
-  truy xuất 08/09/2026. Dùng ở [mục 12](#12--đối-chiếu-việt-nam).
+  truy xuất 08/09/2026. Dùng ở [mục 12](#12-đối-chiếu-việt-nam).
 - **Đã kiểm chứng bằng code** — [`thuc_hanh/bai-03-chi-phi-va-cac-tang-loi-nhuan.py`](../thuc_hanh/bai-03-chi-phi-va-cac-tang-loi-nhuan.py):
   - chuyển chi phí qua vạch: **EBIT và lợi nhuận thuần không đổi** ở mọi mức chuyển, chốt bằng `assert`;
   - xe tải: ba con số của sách (−1.000 / 1.000 / 1.500 và **+50%**) khớp, chốt bằng `assert`;

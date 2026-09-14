@@ -1,18 +1,20 @@
 # Bài 10 — Lý thuyết danh mục: Markowitz và biên hiệu quả
 
+> [!info] Về bài này
 > Bài học dựa trên **MIT 15.401 Finance Theory I** (GS. Andrew W. Lo, MIT Sloan, học kỳ thu 2008),
 > ba buổi: **Ses 13** từ `45:56` (YouTube `tL7Lcl90Sc0`), **Ses 14** trọn vẹn (`J7d3vcaS9-o`, 80:36),
 > **Ses 15** tới `52:10` (`z2oQe6B1Qa4`).
 > Mốc thời gian ghi dạng `S13 mm:ss`, `S14 mm:ss`, `S15 mm:ss`.
 > Phần **📚 Lý thuyết bổ sung** là kiến thức nền video lướt qua hoặc không có.
->
 > 🏛 **Phần cuối mục 8 đến từ một khoá khác.** Ba mục `###` về **hàm hữu dụng, ngại rủi ro và
 > nghịch lý St. Petersburg** dựng trên [Yale ECON 251](https://oyc.yale.edu/economics/econ-251)
 > của John Geanakoplos, bài giảng **22** (`aGQsjueE07Y`). Mốc của phần đó ghi dạng `L22 06:51`.
 > Lý do bổ sung: mục 8 thừa nhận đo rủi ro bằng phương sai là *một lựa chọn* nhưng không đưa ra
 > được lý do lý thuyết nào — phần bổ sung đưa lý do đó, và cả cái giá của nó.
-> ⚠️ **Video ghi tháng 11/2008** — §25 đối chiếu với 2026, §22–24 chấm điểm từng dự đoán.
-> 📌 **Cần đọc trước:** [Bài 9 — Rủi ro và lợi suất](bai_09_rui_ro_va_loi_suat.md) (sai số chuẩn của kỳ vọng — §21 dựng thẳng trên đó).
+>
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
+>
+> **Cần đọc trước:** [Bài 9 — Rủi ro và lợi suất](bai_09_rui_ro_va_loi_suat.md) (sai số chuẩn của kỳ vọng — §21 dựng thẳng trên đó).
 
 ---
 
@@ -68,6 +70,7 @@ Bài này gộp ba buổi. Cả ba đều định được ngày từ chính l�
 
 [Bài 9](bai_09_rui_ro_va_loi_suat.md) đã định ngày này bằng lãi suất kho bạc 30 năm Lo đọc trên lớp. Có một con số thứ hai còn chắc hơn:
 
+> [!quote]
 > `S13 44:10` — *"biến động ngụ ý của quyền chọn S&P ngang giá, khoảng **49%**… giảm từ **80%** hai tuần trước. Đúng như tôi đã dự đoán, biến động sẽ giảm khi kết quả bầu cử rõ ràng."*
 
 | Ngày                     | VIX đóng cửa | Đọc sáng hôm sau sẽ ra khoảng         |
@@ -110,6 +113,7 @@ Tôi không giải thích được khoảng trống này — có thể là bài 
 
 Lo mở đầu bằng một quan sát ai cũng bỏ qua (`S13 47:20`):
 
+> [!quote]
 > *"Hôm nay các bạn đã ra quyết định đó rồi, dù có biết hay không. Vì nếu từ hôm qua tới hôm nay bạn không làm gì để tái cân bằng danh mục, bạn đã **chủ động quyết định** để nguyên. Cứ để nó chạy."*
 
 **Không hành động cũng là một quyết định.** Mỗi ngày bạn không đụng vào danh mục là một ngày bạn tái khẳng định bộ trọng số hiện có.
@@ -138,6 +142,7 @@ Sinh viên Andy trả lời (`S13 50:43`): *"Cổ phiếu bạn bán khống đ�
 
 Lo chốt lại (`S13 51:05`):
 
+> [!quote]
 > *"Đúng. Vậy là **không ai cho bạn vay tiền cả, nhưng có người cho bạn vay một thứ khác. Họ cho bạn vay một cổ phiếu.** Ta bán cổ phiếu vay đó đi, lấy tiền mặt bỏ vào cổ phiếu khác."*
 
 Đây là ý quan trọng nhất của cả đoạn, và Lo nhấn mạnh tới mức bảo sinh viên về nhà tự làm lại bằng số cụ thể (`S13 51:23`). Bán khống **không** phải "cá cược giá giảm" — về mặt cơ học, nó là **một khoản vay hiện vật**: bạn mượn cổ phiếu, bán nó, và cầm tiền.
@@ -154,7 +159,8 @@ Lo cũng nhắc tới một trường hợp ông cố ý không dạy (`S13 52:0
 
 Sinh viên Megan hỏi về sản phẩm này (`S13 53:36`). Lo giải thích (`S13 54:07`): **mua 130%, bán khống 30%**, cộng lại vẫn bằng 100%. Có cả biến thể 120-20 và 180-80.
 
-⚠️ Bản ghi phụ đề `S13 53:51` để sinh viên nói *"nên bạn quay về trạng thái ròng bằng **không**"*, và Lo đáp *"Đúng, chính xác."* Trạng thái ròng của 130-30 là **+100%**, không phải 0 — và chính Lo giải thích đúng như vậy ngay câu sau. Đây gần như chắc chắn là chỗ nghe nhầm khi làm phụ đề, hoặc sinh viên lỡ lời.
+> [!warning]
+> Bản ghi phụ đề `S13 53:51` để sinh viên nói *"nên bạn quay về trạng thái ròng bằng **không**"*, và Lo đáp *"Đúng, chính xác."* Trạng thái ròng của 130-30 là **+100%**, không phải 0 — và chính Lo giải thích đúng như vậy ngay câu sau. Đây gần như chắc chắn là chỗ nghe nhầm khi làm phụ đề, hoặc sinh viên lỡ lời.
 
 Lo nói ông không giải thích được vì sao **đúng con số 130-30** lại thành chuẩn (`S13 57:28`): *"vì những lý do có lẽ hơi xa đề để bàn ở đây, 130-30 dường như là điểm ngọt."*
 
@@ -179,7 +185,8 @@ Ví dụ Lo dùng để cho thấy đòn bẩy là con dao hai lưỡi (`S13 60:
 
 Lo nói *"nhà giảm 2% thì bạn mất 10% giá trị vốn"* (`S13 61:26`) — đúng chính xác: 2% × 5 = 10%.
 
-⚠️ Con số ông **không** đọc ra, nhưng cả nước Mỹ đang sống trong đó lúc ông giảng: **giá nhà giảm 20% là vốn tự có về đúng bằng 0.** Chỉ số giá nhà Case-Shiller toàn quốc từ đỉnh tháng 7/2006 tới đáy tháng 2/2012 giảm khoảng 27%. Với người mua bằng 20% tiền mặt, đó là mất sạch và còn nợ thêm.
+> [!warning]
+> Con số ông **không** đọc ra, nhưng cả nước Mỹ đang sống trong đó lúc ông giảng: **giá nhà giảm 20% là vốn tự có về đúng bằng 0.** Chỉ số giá nhà Case-Shiller toàn quốc từ đỉnh tháng 7/2006 tới đáy tháng 2/2012 giảm khoảng 27%. Với người mua bằng 20% tiền mặt, đó là mất sạch và còn nợ thêm.
 
 ---
 
@@ -187,6 +194,7 @@ Lo nói *"nhà giảm 2% thì bạn mất 10% giá trị vốn"* (`S13 61:26`) �
 
 Lo kể lại lịch sử (`S13 54:54`) rồi khẳng định một câu **sai**:
 
+> [!quote]
 > ⚠️ `S13 54:54` — *"**Chuyện này không liên quan gì tới SEC. Không liên quan gì tới luật.** Nó liên quan tới bản thân các tổ chức đang đầu tư, vì bán khống ngày xưa bị xem là rất rủi ro."*
 
 Thật ra có **hai ràng buộc pháp lý liên bang**, và chúng giải thích luôn cả câu hỏi 130-30 mà ông né ở §4.
@@ -203,6 +211,7 @@ Quy tắc này ép nhà quản lý ra quyết định đầu tư theo tính toá
 
 Dịch ra số: một quỹ có **100 đô la** tài sản ròng được bán khống hoặc vay tối đa **50 đô la**. Trần pháp lý là **150/50**.
 
+> [!quote]
 > **Và đó chính là câu trả lời cho `S13 57:28`.** 130-30 không phải "điểm ngọt" thần bí của ngành. Nó là con số nằm **an toàn bên trong trần 150/50** mà luật liên bang đặt ra từ năm 1940. Lo nói lý do "hơi xa đề"; thật ra lý do nằm ngay trong đạo luật quy định chính những quỹ ông đang nói tới.
 
 Đây cũng là lý do quỹ đầu cơ bán khống thoải mái còn quỹ tương hỗ thì không: quỹ đầu cơ được **miễn trừ** khỏi Đạo luật 1940 theo mục 3(c)(1) và 3(c)(7).
@@ -217,10 +226,12 @@ Dịch ra số: một quỹ có **100 đô la** tài sản ròng được bán k
 
 Lo đặt câu hỏi thẳng (`S13 62:24`): *"vì sao phải bận tâm tới danh mục?"* Rồi ông đưa ngay ý kiến phản bác mạnh nhất (`S13 62:40`):
 
+> [!quote]
 > *"Warren Buffett đã phê phán chính ý tưởng đa dạng hoá này. Ông nói: **hãy bỏ tất cả trứng vào một giỏ, rồi trông cái giỏ đó cho thật kỹ.** Chẳng phải thế tốt hơn sao?"*
 
 Lo trả lời (`S13 62:59`): *"Nghe thì hay, nhưng nếu bạn **không biết cách chọn đúng giỏ** thì sao?"*
 
+> [!quote] S13 63:12
 > *"Đó chính là ý tưởng đằng sau lý thuyết danh mục. **Không phải ai cũng là Warren Buffett. Không phải ai cũng muốn trở thành Warren Buffett.**"* (`S13 63:12`)
 
 Ba công dụng của danh mục (`S13 64:03`):
@@ -241,6 +252,7 @@ Ba công dụng của danh mục (`S13 64:03`):
 
 Lo kể lại lời phản bác của Buffett (`S13 73:44`) — chuyện tờ 100 đô la:
 
+> [!quote]
 > *"Nghe như chuyện tếu về nhà kinh tế học đi trên đường, thấy tờ 100 đô la, và bước thẳng qua. Có người hỏi sao không nhặt, ông ta bảo: **nếu nó là thật thì đã có người nhặt rồi.**"*
 
 Và Buffett kết (`S13 73:58`): *"tôi đã làm được, tôi đã thấy các quy luật, tôi đã khai thác chúng, và tôi có nhiều tiền hơn anh, thế đấy."*
@@ -249,6 +261,7 @@ Lo thừa nhận (`S13 74:10`): *"Khó mà cãi lại một tỷ phú bốn mư�
 
 Điều đáng chú ý nhất: Lo **không giả vờ mình thắng cuộc tranh luận này**. Ông nói thẳng (`S13 76:45`):
 
+> [!quote]
 > *"**Đó là một điều hư cấu.** Hư cấu ở chỗ bảo rằng không thể dự báo giá cổ phiếu. Nhưng nó là một điều hư cấu **khá sát với thực tế với 99% công chúng**."*
 
 §23 sẽ đo lại chính cuộc tranh luận này bằng số liệu 18 năm sau.
@@ -264,12 +277,14 @@ Toàn bộ bài 10 và bài 11 dựng trên đúng hai giả định (`S13 66:13
 
 Lo rất trung thực về việc đây là **lựa chọn**, không phải chân lý (`S13 66:29`):
 
+> [!quote]
 > *"Đó là một **giả định**. Nói cách khác, ta đang giả định sẽ đo rủi ro bằng độ lệch chuẩn… **Với một số nhà đầu tư, hai thước đo đó không phù hợp.**"*
 
 Ông nêu ví dụ đầu tư có trách nhiệm xã hội (`S13 66:46`): người không muốn bỏ tiền vào công ty gây ô nhiễm hay bóc lột lao động đang tối ưu theo một chiều thứ ba mà mô hình này không có.
 
 Lý do chọn hai thước đo này thì rất thực dụng (`S13 66:13`): *"vì lý do thuần thống kê — chúng dễ tính, và là hai đại lượng đầu tiên người ta nhìn."*
 
+> [!quote]
 > ⚠️ **`S13 68:42` — Lo nói nhầm một chữ ngay giữa câu quan trọng nhất.** Ông đọc: *"tất cả nhà đầu tư đều thích kỳ vọng cao hơn và tất cả nhà đầu tư đều thích **phương sai cao hơn**."* Ý ông là **phương sai THẤP hơn** — toàn bộ phần còn lại của ba buổi giảng, và cả slide, đều dựa trên chiều ngược lại. Đây là lỡ lời, nhưng nếu nghe mà không để ý thì hỏng cả bài.
 
 Từ hai giả định đó ra hướng đi (`S13 77:33`): **hướng tây bắc**. Bắc = lợi suất cao hơn. Tây = rủi ro thấp hơn.
@@ -280,11 +295,13 @@ Từ hai giả định đó ra hướng đi (`S13 77:33`): **hướng tây bắc
 
 Lo nêu vấn đề rồi bỏ qua (`S13 67:42`):
 
+> [!quote]
 > *"Có nhiều cách đo rủi ro… nhưng có người lập luận rằng nhìn vào độ phân tán là **lẫn lộn phía tăng với phía giảm**. Chẳng ai có vấn đề gì với rủi ro phía tăng cả. Tôi chưa gặp ai nói 'năm nay tôi kiếm quá nhiều tiền, thế thật không hay'. Nếu bạn gặp ai như thế, giới thiệu tôi với."*
 
 Ông biện minh (`S13 67:42`): với **phân phối đối xứng** như phân phối chuẩn, độ lệch chuẩn là thước đo không tồi.
 
-⚠️ Nhưng [bài 8 §14](bai_08_quyen_chon.md) đã cho thấy lợi suất cổ phiếu **không** đối xứng: đuôi trái dày hơn đuôi phải. Vậy lời biện minh này yếu hơn nó nghe.
+> [!warning]
+> Nhưng [bài 8 §14](bai_08_quyen_chon.md) đã cho thấy lợi suất cổ phiếu **không** đối xứng: đuôi trái dày hơn đuôi phải. Vậy lời biện minh này yếu hơn nó nghe.
 
 Những thước đo một phía mà Lo nhắc tới nhưng không dạy:
 
@@ -320,7 +337,8 @@ $$\mathbb{E}[\ln X]=\sum_{N\ge 1}\frac{1}{2^N}\ln\!\left(2^N\right)=\ln 2\sum_{N
 
 Tương đương chắc chắn $= e^{\ln 4} = $ **đúng 4 đồng** — chính con số Bernoulli đo được. Chương trình `assert` điều đó tới `1e-6`.
 
-⚠️ **Nhưng Bernoulli chưa giải xong.** Geanakoplos chỉ ra ngay (`L22 10:54`): nếu tiền thưởng là $2^{2^N}$ thay vì $2^N$ thì **ngay cả log cũng cho vô hạn**. Hàm hữu dụng phải vừa lõm vừa **bị chặn**, mà log thì lõm nhưng không bị chặn.
+> [!warning] Nhưng Bernoulli chưa giải xong.
+> Geanakoplos chỉ ra ngay (`L22 10:54`): nếu tiền thưởng là $2^{2^N}$ thay vì $2^N$ thì **ngay cả log cũng cho vô hạn**. Hàm hữu dụng phải vừa lõm vừa **bị chặn**, mà log thì lõm nhưng không bị chặn.
 
 ### Ngại rủi ro chính là hàm hữu dụng lõm
 
@@ -366,6 +384,7 @@ $U(x)=x-\tfrac12\alpha x^2$ có đạo hàm $U'(x)=1-\alpha x$, **âm** khi $x>1
 
 Chính ví dụ của ông chạy ở **90%** và **70%** ngưỡng bão hoà. Mô hình chỉ đúng **dưới** ngưỡng, và đó là ràng buộc thật chứ không phải chi tiết kỹ thuật. Hàm log thì không có ngưỡng này — nhưng log lại **không** cho ra dạng trung bình–phương sai.
 
+> [!quote]
 > ⇒ **Trung bình–phương sai không phải một sự thật về rủi ro.** Nó là hệ quả của một hàm hữu dụng được chọn vì dễ tính, và hàm đó có một khuyết tật lớn. Mục này mở đầu bằng việc Markowitz chọn phương sai vì "sự tiện lợi". Phần vừa rồi đo chính xác sự tiện lợi đó đắt đến đâu.
 
 📌 Cùng logic này còn cho ra **định lý quỹ tương hỗ**: trong cân bằng, mọi người đều nắm đúng một rổ — toàn bộ thị trường — pha với tiền gửi ngân hàng, chỉ khác nhau ở tỷ lệ pha (`L22 74:51`). Đó chính là kết quả [§19 của bài này](#19-biên-hiệu-quả-và-danh-mục-tiếp-tuyến) đạt tới bằng hình học, và [bài 11 §2](bai_11_capm_va_beta.md#2-từ-danh-mục-tiếp-tuyến-tới-danh-mục-thị-trường) dùng làm bàn đạp cho CAPM.
@@ -398,12 +417,14 @@ Trong $n^2$ số hạng đó:
 
 $$\sigma_{ij} = \rho_{ij}\,\sigma_i\,\sigma_j$$
 
+> [!quote]
 > Và đây là điều Markowitz được trao giải Nobel (`S14 10:25`): trong đám $n^2$ số hạng đó, **một số có thể nhỏ, thậm chí âm**. Khi đó chúng **kéo tụt** rủi ro tổng thể.
 >
 > `S14 10:43` — *"Đây là trực giác. Đây là toán học nằm dưới câu **đừng bỏ tất cả trứng vào một giỏ**."*
 
 Vì sao hiệp phương sai quan trọng hơn phương sai (`S14 12:24`):
 
+> [!quote]
 > *"Intel trông là một cổ phiếu đáng sợ vì nó rất biến động. Nhưng khi bạn có $n$ Intel trong danh mục, dù từng con đáng sợ, **thứ bạn phải để mắt là chúng tương quan với nhau ra sao**. Vì tương quan trong một danh mục $n$ cổ phiếu quan trọng hơn phương sai của từng con."*
 
 Lý do là số học thuần tuý: có $n$ phương sai nhưng có $n^2 - n$ hiệp phương sai. Với $n = 100$: 100 phương sai và **9.900** hiệp phương sai.
@@ -442,7 +463,8 @@ Lo đọc (`S14 17:22`): *"nâng lợi suất lên **1,42%**, nhưng rủi ro th
 
 Hàng cuối là hàng thú vị nhất (`S14 18:27`): bán khống 25% General Motors, lấy tiền mua thêm Motorola. Lo bình luận (`S14 18:49`): *"bán khống General Motors — mà bây giờ chắc cũng không phải ý tồi, xét tình cảnh khốn khó của họ."*
 
-⚠️ **Câu đùa đó hoá ra là lời khuyên đầu tư đúng nhất trong cả ba buổi giảng.** Xem §24.
+> [!warning] Câu đùa đó hoá ra là lời khuyên đầu tư đúng nhất trong cả ba buổi giảng.
+> Xem §24.
 
 Rủi ro của hàng đó: 11,68% so với 6,23% = **1,87 lần** — Lo nói *"gần gấp đôi"*. Đúng.
 
@@ -504,6 +526,7 @@ Ba hình dạng (`S14 40:17`):
 
 Trường hợp ρ = −1 làm Lo dừng lại (`S14 42:30`):
 
+> [!quote]
 > *"Lý do kết quả này gây sửng sốt là nó cho ta biết **tồn tại một cách lập danh mục cho lợi suất khoảng 1,39% mà không có rủi ro gì cả**… Nhân 12 lên bạn được khoảng bao nhiêu? 16% một năm? Bạn hãy chỉ cho tôi cơ hội đầu tư nào cho 16% một năm mà không rủi ro, tôi sẽ xem xét kỹ giúp bạn."*
 
 §27 giải chính xác:
@@ -512,10 +535,12 @@ Trường hợp ρ = −1 làm Lo dừng lại (`S14 42:30`):
 - Độ lệch chuẩn = **0** (kiểm bằng máy: dưới $10^{-7}$)
 - Kỳ vọng = **1,3415%/tháng = 16,10%/năm**
 
-⚠️ Con số Lo đọc — **1,39%** — hơi lệch; đáp số đúng là **1,34%**. Nhưng ngay sau đó ông tự hạ xuống *"cứ gọi là 1,3% cho thận trọng"* rồi nhân 12 ra *"16% một năm"*. Và **16,10% thì đúng là 16%**. Kết luận ông rút ra hoàn toàn chính xác.
+> [!warning]
+> Con số Lo đọc — **1,39%** — hơi lệch; đáp số đúng là **1,34%**. Nhưng ngay sau đó ông tự hạ xuống *"cứ gọi là 1,3% cho thận trọng"* rồi nhân 12 ra *"16% một năm"*. Và **16,10% thì đúng là 16%**. Kết luận ông rút ra hoàn toàn chính xác.
 
 Lo chốt lại vì sao chuyện này không xảy ra ngoài đời (`S14 43:42`):
 
+> [!quote]
 > *"**Bạn không tìm được hai tài sản tương quan âm hoàn hảo.** Nếu tìm được, có những điều kỳ diệu bạn làm được với tổ hợp đó. Và lý thuyết danh mục chính là **sách dạy nấu ăn để khai thác tương quan**."*
 
 ---
@@ -530,6 +555,7 @@ $$\omega_{\text{MOT}} = \frac{-\sigma_{\text{GM}}}{\sigma_{\text{MOT}} - \sigma_
 
 §27 tính ra: bán khống **178%** Motorola, mua **278%** General Motors, độ lệch chuẩn bằng **0**, kỳ vọng **−0,1126%/tháng = −1,35%/năm**.
 
+> [!note]
 > **Vậy cả ρ = −1 lẫn ρ = +1 đều cho danh mục phi rủi ro. Khác nhau không nằm ở rủi ro mà ở LỢI SUẤT:** một cái +16,1%/năm, một cái −1,35%/năm.
 
 Điều này làm rõ một chuyện Lo chỉ nói nửa vời. Ông bảo ρ = −1 là kinh doanh chênh lệch giá nên không thể tồn tại. Nhưng **ρ = +1 cũng vậy**, chỉ theo chiều ngược: bạn tạo được tài sản phi rủi ro lợi suất âm, nên bạn **bán khống** nó và cầm tín phiếu kho bạc (khi đó khoảng 0,4%/tháng) — vẫn là bữa trưa miễn phí.
@@ -548,6 +574,7 @@ Bài học tổng quát: **với hai tài sản có tương quan hoàn hảo the
 
 Rồi ông tháo bẫy (`S14 35:39`):
 
+> [!quote]
 > *"**Tuy nhiên** — và đây là điểm quan trọng — nếu bây giờ tôi cho phép bạn lấy trung bình có trọng số của hai cái, nếu tôi cho bạn quyền lập danh mục, thì bạn có được cái chấm này. **Cái chấm đó, mọi người trong phòng này đều phải thích hơn General Motors.** Vì nó ít rủi ro hơn GM, mà lợi suất lại cao hơn."*
 
 Danh mục đó có tên: **danh mục phương sai nhỏ nhất**. Lo không đưa công thức; nó là:
@@ -564,6 +591,7 @@ $$\omega_a^{\ast} = \frac{\sigma_b^2 - \sigma_{ab}}{\sigma_a^2 + \sigma_b^2 - 2\
 
 Trọng số: **18,49% Motorola, 81,51% General Motors.**
 
+> [!note]
 > **Cả hai chiều đều tốt hơn.** Lợi hơn **1,49 điểm phần trăm mỗi năm** và rủi ro thấp hơn **0,86 điểm**. Không dự báo, không chọn cổ phiếu, không cần biết gì về Motorola hay General Motors ngoài ba con số thống kê.
 
 Lo tổng kết đúng chỗ đó (`S14 36:56`): *"Vậy là tôi vừa làm tất cả các bạn khá giả hơn chỉ bằng mẩu kiến thức này."*
@@ -584,6 +612,7 @@ trong đó $\overline{\sigma^2}$ là **phương sai trung bình** và $\overline
 
 Lo giải thích ý nghĩa (`S14 57:05`):
 
+> [!quote]
 > *"Khi $n$ lớn lên, hoá ra **phương sai trung bình không còn quan trọng nữa**. Thứ điều khiển rủi ro danh mục của bạn chẳng liên quan gì tới phương sai của từng thành phần. Nó liên quan tới **hiệp phương sai trung bình**."*
 
 §27 đo trên số liệu thật — sáu cổ phiếu Mỹ ở sáu ngành khác nhau, tháng 2/1988 đến 8/2026 (463 tháng):
@@ -614,6 +643,7 @@ Ma trận tương quan:
 
 ## 16. Công thức Lo đọc nhầm trên lớp
 
+> [!quote]
 > ⚠️ **`S14 56:43`** — Lo đọc công thức thành:
 >
 > *"phương sai của toàn bộ danh mục bằng **phương sai trung bình cộng với $n$ nhân $(n-1)$ nhân hiệp phương sai trung bình**."*
@@ -667,6 +697,7 @@ Bảng cho thấy điều mà mắt thường không thấy: **phần lớn lợ
 
 Cái sàn 11,03%/năm đó có tên (`S14 66:32`): **rủi ro hệ thống**, hay **rủi ro thị trường**.
 
+> [!quote] S14 66:32
 > *"Đó là rủi ro mà **dù đa dạng hoá tốt đến đâu bạn cũng phải gánh**. Tất cả chúng ta, không ai bớt rủi ro hơn mức đó được, trừ khi bắt đầu nhét tiền vào đệm hoặc mua tín phiếu kho bạc."* (`S14 66:32`)
 
 Đây là khái niệm bản lề của cả khoá. Toàn bộ [bài 11 — CAPM](bai_09_rui_ro_va_loi_suat.md) dựng trên nó: nếu rủi ro riêng của từng công ty **bỏ được miễn phí**, thì thị trường không có lý do trả tiền cho ai gánh nó. Chỉ phần **không bỏ được** mới được trả công.
@@ -681,29 +712,36 @@ Kiểm chứng thực tế trên sáu mã: một cổ phiếu trung bình biến
 
 Sinh viên hỏi vì sao tương quan lại thay đổi. Lo trả lời bằng chuyện sân bay (`S14 58:58`):
 
+> [!quote]
 > *"Tương quan là **một hàm của hành vi con người**… Tối nay tôi ra sân bay, chắc chỉ cần tới trước nửa tiếng. Nhưng hai tuần nữa thì sao? **Lễ Tạ ơn.** Chẳng phải đó là một thứ Tư như mọi thứ Tư khác sao? Không. Vì bằng cách nào đó tất cả chúng ta đã cùng quyết định đi vào đúng ngày ấy."*
 
 Rồi ông chuyển sang câu trả lời thật (`S14 61:26`):
 
+> [!quote]
 > *"Khi tất cả chúng ta sợ hãi về giá trị khoản đầu tư của mình, khi mạch sợ hãi bị kích hoạt, bản năng tự nhiên — vì nó **đã được lập trình cứng vào não** — là chạy tới nơi an toàn… **Trong một rạp hát đông người, nếu bạn ngửi thấy mùi khói và có người hét 'cháy', bốn lối thoát ngoài kia sẽ hơi đông một chút.** Đó không phải khoa học tên lửa."*
 
 Và lời chỉ trích thẳng vào giới định lượng (`S14 50:51`):
 
+> [!quote]
 > *"Đó là bài học mà phần lớn người trong ngành, những người không có nền tài chính, không hề biết. Họ là nhà vật lý, nhà toán học, nhà khoa học máy tính. Họ ước lượng tương quan. **Nó là một tham số, như hằng số hấp dẫn hay số Avogadro.** Cứ thế mà cắm vào. Và chẳng ai bảo họ rằng nó có thể thay đổi. Và khi nó thay đổi, chuyện xấu xảy ra rất nhanh."*
 
 Ông áp thẳng vào khủng hoảng đang diễn ra (`S14 57:38`):
 
+> [!quote]
 > *"Nếu bạn đã giả định suốt rằng mình có một rổ lớn các khoản vay thế chấp, và các khoản vay đó **không tương quan**, thì thực chất bạn đã giả định mình gần như không có rủi ro… Nhưng khi thị trường bất động sản đi xuống **trên toàn quốc**, ai cũng bắt đầu vỡ nợ. Và các vụ tịch biên trở nên tương quan rất cao. **Chỉ sau một đêm, đúng nghĩa một đêm, rủi ro của bạn có thể vọt lên.**"*
 
 Kết luận triết học (`S14 62:17`):
 
+> [!quote]
 > *"Tương quan **không phải một đại lượng vật lý**. Đó là vấn đề với vật lý và sinh học. Vật lý có những tham số không đổi theo thời gian. Tôi ước tài chính có được như thế. Chúng tôi không có. **Chúng tôi có những tham số không phải tham số. Chúng là biến ngẫu nhiên.**"*
 
+> [!quote]
 > ⚠️ **`S14 51:06` — số Avogadro Lo đọc là "9,08 nhân 10 mũ 23".** Con số đúng là **6,02214076 × 10²³**.
 >
 > Và có một tầng mỉa mai Lo không thể biết: ông lấy số Avogadro làm ví dụ mẫu mực cho *"tham số không bao giờ đổi"*. Ngày **20/5/2019**, hệ SI được định nghĩa lại và số Avogadro trở thành một giá trị **quy ước chính xác** — nói cách khác, con số đó **đã bị con người thay đổi**, mười một năm sau bài giảng. Còn hằng số hấp dẫn $G$ thì tới nay vẫn là hằng số cơ bản **đo kém chính xác nhất** trong vật lý.
 
-⚠️ Về **chu kỳ Kondratiev** mà Lo nhắc thoáng qua (`S14 30:33`) như một ví dụ 50 năm dữ liệu: ý tưởng "sóng dài" 45–60 năm là của nhà kinh tế Nga **Nikolai Kondratiev**, người bị bắt năm 1930 và bị xử bắn ngày **17/9/1938** dưới thời Stalin. Lý thuyết này **không** thuộc dòng chính của kinh tế học hiện đại và Lo nêu nó như một minh hoạ, không phải một sự tán thành.
+> [!warning]
+> Về **chu kỳ Kondratiev** mà Lo nhắc thoáng qua (`S14 30:33`) như một ví dụ 50 năm dữ liệu: ý tưởng "sóng dài" 45–60 năm là của nhà kinh tế Nga **Nikolai Kondratiev**, người bị bắt năm 1930 và bị xử bắn ngày **17/9/1938** dưới thời Stalin. Lý thuyết này **không** thuộc dòng chính của kinh tế học hiện đại và Lo nêu nó như một minh hoạ, không phải một sự tán thành.
 
 ---
 
@@ -723,6 +761,7 @@ Toàn bộ đường đạn gọi là **biên phương sai nhỏ nhất**; nửa
 
 Với **ba tài sản trở lên**, kết quả mạnh hơn hẳn (`S15 05:16`):
 
+> [!quote]
 > *"Đường cong này gợi ý rằng **chẳng bao giờ hợp lý khi bỏ hết tiền vào một chứng khoán duy nhất**… Ta sẽ không bao giờ muốn nắm 100% IBM, hay 100% General Motors, hay 100% Motorola. Nếu ta làm thế, ta sẽ ở trên mấy cái chấm đó, và mấy cái chấm đó **không nằm trên biên hiệu quả**."*
 
 Và (`S15 06:08`): *"Ngay lập tức, ta đã rời khỏi thế giới của Warren Buffett."*
@@ -741,6 +780,7 @@ Sinh viên trả lời (`S15 18:40`): **cái mà đường thẳng tiếp xúc v
 
 $$\omega^{\ast} \;\propto\; \Sigma^{-1}(\mu - r_f\mathbf{1})$$
 
+> [!quote] S15 19:42
 > *"Tồn tại **duy nhất một** danh mục bạn có thể trộn với tín phiếu kho bạc sao cho không bao giờ có thể làm tốt hơn… Đó là danh mục mà **tất cả các bạn trong phòng này đều muốn có**. Tôi không biết gì về các bạn, không biết lý lịch, không biết mức ngại rủi ro của các bạn — **nhưng tôi không cần biết.**"* (`S15 19:42`)
 
 Đó là điều làm kết quả này khác hẳn mọi thứ trước đó. Lo lặp đi lặp lại suốt hai buổi rằng *"tuỳ khẩu vị rủi ro của bạn"* (`S14 17:46`). Bây giờ, lần đầu tiên, ông nói được một điều **không phụ thuộc khẩu vị**.
@@ -759,9 +799,11 @@ $$S = \frac{\mathbb{E}[R_p] - r_f}{\sigma_p}$$
 
 Nó có tên: **tỷ số Sharpe**, đặt theo **William F. Sharpe**.
 
+> [!quote] S15 27:47
 > *"Nhà quản lý quỹ đầu cơ thường khoe tỷ số Sharpe của họ rất tự hào. Tỷ số Sharpe đơn giản là một thước đo của đánh đổi rủi ro–lợi suất đó. Sharpe càng cao càng tốt."* (`S15 27:47`)
 
-📚 Vài chi tiết Lo không kể:
+> [!note]
+> Vài chi tiết Lo không kể:
 
 - Sharpe giới thiệu nó năm **1966** dưới tên **"tỷ số thưởng trên biến động"** (reward-to-variability ratio), không phải tên mình. Cái tên "tỷ số Sharpe" do người khác đặt.
 - Chính Sharpe viết lại năm 1994 để nhắc rằng nó thường bị dùng sai — đặc biệt là quy về năm bằng $\sqrt{12}$ với các chuỗi có tự tương quan (đúng cái bẫy ở §11).
@@ -791,6 +833,7 @@ Nó có tên: **tỷ số Sharpe**, đặt theo **William F. Sharpe**.
 
 Lo nói ra giả định quan trọng nhất rồi đi tiếp (`S14 44:24`):
 
+> [!quote]
 > *"**Tất cả những gì ta giả định là kỳ vọng và phương sai ổn định theo thời gian, và tương quan ổn định theo thời gian.** Đó là những giả định không hề tầm thường, tôi thừa nhận."*
 
 Mục này đo xem "không hề tầm thường" là bao nhiêu.
@@ -835,6 +878,7 @@ Richard Michaud đặt tên cho hiện tượng này năm **1989**: **"cỗ máy
 | Phương sai nhỏ nhất |   9,42% |      12,84% |     0,660 |       −11,19% |
 | **Chia đều 1/n**    |  11,31% |      12,42% | **0,816** |       −10,84% |
 
+> [!note]
 > **Ở cả ba cửa sổ, chia đều tiền ra sáu phần bằng nhau đánh bại danh mục tiếp tuyến "tối ưu".** Với cửa sổ 60 tháng, danh mục tiếp tuyến còn có một tháng lỗ **−218%** — tức là nó nổ tung, vì trọng số không bị chặn.
 >
 > Và ngay cả với **20 năm** dữ liệu ước lượng, Sharpe của 1/n vẫn là 0,816 so với 0,447.
@@ -882,6 +926,7 @@ Không có gì trong §21 phủ nhận §14 hay §20. Toán của Markowitz **đ
 
 Lo đặt câu hỏi:
 
+> [!quote]
 > *"Bây giờ các bạn nói tôi nghe — cho tôi một cổ phiếu mà bạn sẽ bỏ tiền vào **ngay hôm nay**. S&P đã giảm 45% so với đỉnh vài tháng trước. Thị trường đang rất tệ và không có vẻ gì khá lên."*
 
 Nhưng câu hỏi thật của ông chặt hơn (`S15 33:09`): ông muốn một cổ phiếu **tương quan âm** với thị trường.
@@ -922,7 +967,8 @@ Và mã thấp nhất chính là **Campbell's Soup** — mã Lo gạt đi bằng
 | Freddie Mac        |   0,45 |              −0,47 |
 | Campbell's Soup    |   0,11 |              −0,82 |
 
-⚠️ **Altria lãi hơn chỉ số +0,48 điểm/năm mà vẫn thua theo Sharpe.** Đó là toàn bộ nội dung bài giảng hôm ấy, minh hoạ bằng chính câu trả lời của sinh viên trong phòng.
+> [!warning] Altria lãi hơn chỉ số +0,48 điểm/năm mà vẫn thua theo Sharpe.
+> Đó là toàn bộ nội dung bài giảng hôm ấy, minh hoạ bằng chính câu trả lời của sinh viên trong phòng.
 
 Còn **Freddie Mac** — mã cả lớp cười — lãi 9,14%/năm với độ lệch chuẩn **124%/năm**, gấp **8 lần** thị trường. Nếu chỉ nhìn lợi suất thì nó "được"; nhìn theo rủi ro thì nó gần như không đầu tư được.
 
@@ -944,6 +990,7 @@ Sharpe của rổ 5 mã (0,71) **cao hơn 4 trong 5 mã riêng lẻ** — đa d�
 
 Đây là dự đoán kiểm chứng được rõ nhất trong cả ba buổi.
 
+> [!quote]
 > `S15 38:26` — *"Nếu bạn nhìn vào thành tích của Warren Buffett trong 25 hay 30 năm qua, **tỷ số Sharpe của ông ấy tốt hơn hẳn danh mục tiếp tuyến**. Vậy ông ấy đúng là đã tạo ra giá trị, nếu dùng tiêu chí này."*
 
 §27 đo Berkshire Hathaway hạng A so với S&P 500 tổng lợi suất, cắt đúng tại ngày ông nói câu đó:
@@ -954,6 +1001,7 @@ Sharpe của rổ 5 mã (0,71) **cao hơn 4 trong 5 mã riêng lẻ** — đa d�
 | **11/2008 – 8/2026** — **sau** câu nói  |     0,65 |   **0,93** | **−0,27** ❌ |
 | 2/1988 – 8/2026 — cả đoạn               |     0,67 |       0,62 |       +0,05 |
 
+> [!note]
 > **Ngày Lo nói câu đó, ông hoàn toàn đúng: Sharpe của Buffett gần gấp đôi thị trường. Trong 18 năm tiếp theo, chính tỷ số ấy thua chỉ số 0,27 điểm. Gộp cả 38 năm, lợi thế chỉ còn +0,05.**
 
 ### Chi tiết quan trọng nhất nằm ở cột nào thay đổi
@@ -965,6 +1013,7 @@ Sharpe của chỉ số **nhảy vọt**: 0,35 → 0,93.
 
 ### Và Lo đã tự báo trước điều này, hai phút sau
 
+> [!quote]
 > `S15 38:43` — *"Nhưng vấn đề là **bạn phải nhận ra các Warren Buffett TRƯỚC KHI họ trở thành Warren Buffett**. Vì sau khi họ đã thành Warren Buffett rồi, không chắc họ còn tạo thêm được chừng ấy giá trị nữa. **Mèo đã ra khỏi bao rồi.**"*
 
 Đó là phát biểu chính xác về mặt thống kê của điều số liệu 18 năm sau cho thấy. Ông đọc đúng con số, rút ra đúng kết luận, **và tự nêu đúng cái điều kiện làm con số ấy hết giá trị** — tất cả trong vòng hai phút.
@@ -978,7 +1027,8 @@ Sharpe của chỉ số **nhảy vọt**: 0,35 → 0,93.
 - Alpha trở nên **không có ý nghĩa thống kê** khi kiểm soát hai nhân tố: *betting against beta* và *quality minus junk*.
 - Kết luận của họ: lợi suất của Buffett *"không phải may mắn cũng không phải phép màu, mà là phần thưởng cho việc dùng đòn bẩy rẻ trên những cổ phiếu chất lượng cao và an toàn."*
 
-⚠️ Con số 0,79 của họ và con số 0,67 của tôi **không mâu thuẫn** — khác cửa sổ (họ 1976–2017, tôi 2/1988–8/2026). Cửa sổ của họ chứa cả thập niên 1970–80 khi Berkshire tăng mạnh nhất; cửa sổ của tôi bắt đầu từ 1988 vì đó là mốc sớm nhất có chỉ số S&P 500 tổng lợi suất.
+> [!warning]
+> Con số 0,79 của họ và con số 0,67 của tôi **không mâu thuẫn** — khác cửa sổ (họ 1976–2017, tôi 2/1988–8/2026). Cửa sổ của họ chứa cả thập niên 1970–80 khi Berkshire tăng mạnh nhất; cửa sổ của tôi bắt đầu từ 1988 vì đó là mốc sớm nhất có chỉ số S&P 500 tổng lợi suất.
 
 Ý nghĩa của bài AQR nếu đặt cạnh bài giảng này: **Buffett được giải thích bằng chính khung của Lo.** Đòn bẩy rẻ + nghiêng về nhân tố — đúng hai thứ mà lý thuyết danh mục và mô hình nhân tố mô tả được. Cuộc tranh luận ở §6 không kết thúc bằng một bên thắng, mà bằng việc phía hàn lâm mở rộng khung cho tới khi nó chứa được Buffett.
 
@@ -1003,19 +1053,22 @@ GM là cực **tây** của toàn bộ ví dụ hai tài sản. Nó là câu tr�
 | 31/3/2011    | Motors Liquidation ra khỏi phá sản; cổ phiếu phổ thông cũ **bị huỷ, cổ đông nhận được con số không**                                         |
 | 18/11/2010   | "GM mới" IPO ở 33 đô la — **cổ đông cũ không được tham gia**                                                                                 |
 
+> [!quote]
 > **Bảy tháng sau khi Lo dùng General Motors làm định nghĩa của "ít rủi ro nhất trong hai", vốn chủ sở hữu của nó bằng 0.**
 >
 > Và câu đùa ông thả ra ở `S14 18:49` — *"bán khống General Motors, mà bây giờ chắc cũng không phải ý tồi"* — hoá ra là lời khuyên đầu tư sinh lời nhất trong cả ba buổi giảng.
 
 Đây không phải để chê Lo. Đó là **minh hoạ hoàn hảo cho chính điều ông đang giảng**: độ lệch chuẩn quá khứ của một cổ phiếu không nói gì về việc công ty ấy có tồn tại hay không. Rủi ro phá sản là một chiều mà mô hình kỳ vọng–phương sai **không có chỗ để chứa**. [Bài 8 §16](bai_08_quyen_chon.md) đã cho thấy mô hình Merton (1974) xử lý đúng chiều này — bằng cách coi vốn chủ sở hữu là **quyền chọn mua** trên tài sản công ty.
 
-⚠️ Cũng vì lý do này mà dữ liệu trong §27 **không** dùng GM: chuỗi giá GM trên Yahoo Finance chỉ bắt đầu từ **tháng 11/2010** — lịch sử của công ty cũ đã bị xoá khỏi mã chứng khoán. Đó chính là **thiên lệch sống sót** ở dạng thuần khiết nhất.
+> [!warning]
+> Cũng vì lý do này mà dữ liệu trong §27 **không** dùng GM: chuỗi giá GM trên Yahoo Finance chỉ bắt đầu từ **tháng 11/2010** — lịch sử của công ty cũ đã bị xoá khỏi mã chứng khoán. Đó chính là **thiên lệch sống sót** ở dạng thuần khiết nhất.
 
 ### Motorola — vẫn còn, nhưng không còn là cùng một công ty
 
 Motorola Inc. tách làm hai ngày **4/1/2011**: **Motorola Solutions** (mã MSI, phần còn lại) và **Motorola Mobility** (mã MMI, mảng điện thoại). Motorola Mobility được Google mua năm 2012 với **12,5 tỷ đô la**, rồi bán cho Lenovo năm 2014 với **2,91 tỷ**.
 
-⚠️ Vì lý do này, §27 **không** dùng Motorola trong phần tính toán trên dữ liệu thật: cách Yahoo Finance điều chỉnh giá qua đợt tách công ty kèm gộp cổ phiếu 1:7 là thứ tôi không kiểm chứng được, nên mọi con số lợi suất dài hạn của Motorola sẽ không đáng tin. Merck và McDonald's thì vẫn nguyên vẹn và có mặt trong bộ sáu mã.
+> [!warning]
+> Vì lý do này, §27 **không** dùng Motorola trong phần tính toán trên dữ liệu thật: cách Yahoo Finance điều chỉnh giá qua đợt tách công ty kèm gộp cổ phiếu 1:7 là thứ tôi không kiểm chứng được, nên mọi con số lợi suất dài hạn của Motorola sẽ không đáng tin. Merck và McDonald's thì vẫn nguyên vẹn và có mặt trong bộ sáu mã.
 
 ### Bài học chung
 
@@ -1096,6 +1149,7 @@ Ma trận tương quan:
 | **Việt Nam** |     **29,6%/năm** |   **17,3%/năm** |      **41,5%** |     **0,353** |
 | **Mỹ**       |         22,1%/năm |       11,0%/năm |          50,1% |         0,262 |
 
+> [!note]
 > **Cổ phiếu Việt Nam vừa biến động mạnh hơn, vừa tương quan với nhau cao hơn.** Hai điều đó cộng lại cho ra kết quả kép: đa dạng hoá trong nước bỏ được **ít** rủi ro hơn (41,5% so với 50,1%), mà cái sàn còn lại thì **cao** hơn (17,3% so với 11,0%/năm).
 
 Nói cách khác: một người Việt Nam mua đủ sáu ngành khác nhau vẫn còn ôm 17,3%/năm biến động — nhiều hơn cả **một cổ phiếu Mỹ trung bình đơn lẻ trừ đi đa dạng hoá**, và gần bằng độ lệch chuẩn của cả chỉ số S&P 500 (14,86%/năm ở §22).
@@ -1110,7 +1164,8 @@ Nói cách khác: một người Việt Nam mua đủ sáu ngành khác nhau v�
 - Rủi ro tỷ giá là một nguồn biến động **mới** cộng thêm, không tự động triệt tiêu.
 - Chứng chỉ quỹ đầu tư ra nước ngoài do công ty quản lý quỹ trong nước phát hành là con đường khả thi hơn, nhưng danh mục sản phẩm còn hẹp và phí cao hơn ETF quốc tế.
 
-⚠️ Và một cảnh báo bắt buộc, nối thẳng §21: mọi con số trong bảng trên là **ước lượng từ 173 tháng**. Với $T = 173$ và σ ≈ 30%, sai số chuẩn của kỳ vọng là $30/\sqrt{173/12} = 7{,}9$ điểm phần trăm mỗi năm. Nghĩa là cột "kép/năm" ở bảng đầu mục này có sai số cỡ **±15 điểm** ở khoảng tin cậy 95%. **Đừng dùng nó để xếp hạng cổ phiếu.** Cột đáng tin hơn nhiều là cột **độ lệch chuẩn** và ma trận **tương quan** — vì như [bài 9 §11](bai_09_rui_ro_va_loi_suat.md) đã đo, chúng có sai số chuẩn nhỏ hơn hẳn.
+> [!warning]
+> Và một cảnh báo bắt buộc, nối thẳng §21: mọi con số trong bảng trên là **ước lượng từ 173 tháng**. Với $T = 173$ và σ ≈ 30%, sai số chuẩn của kỳ vọng là $30/\sqrt{173/12} = 7{,}9$ điểm phần trăm mỗi năm. Nghĩa là cột "kép/năm" ở bảng đầu mục này có sai số cỡ **±15 điểm** ở khoảng tin cậy 95%. **Đừng dùng nó để xếp hạng cổ phiếu.** Cột đáng tin hơn nhiều là cột **độ lệch chuẩn** và ma trận **tương quan** — vì như [bài 9 §11](bai_09_rui_ro_va_loi_suat.md) đã đo, chúng có sai số chuẩn nhỏ hơn hẳn.
 
 Đó cũng là lý do phần Việt Nam này chỉ rút kết luận về **rủi ro và tương quan**, không rút kết luận nào về **cổ phiếu nào đáng mua**.
 
@@ -1118,6 +1173,7 @@ Nói cách khác: một người Việt Nam mua đủ sáu ngành khác nhau v�
 
 ## 27. Code minh hoạ
 
+> [!note]
 > ⚙️ **Chạy:** cần **Python 3.11+**. Lưu file rồi gõ `python3 bai-10-ly-thuyet-danh-muc.py`. Không cần cài gói nào — toàn bộ số liệu nằm ngay trong file.
 
 |            |                                                                                       |
@@ -1140,7 +1196,8 @@ cửa sổ ước lượng**.
 
 Toàn bộ kết quả **tất định** — không có số ngẫu nhiên nào, mọi con số đọc từ dữ liệu cố định.
 
-⚠️ Khối `DU_LIEU` chiếm khoảng 420 dòng số liệu thô ngay đầu file. Đọc lướt qua nó để tới phần hàm.
+> [!warning]
+> Khối `DU_LIEU` chiếm khoảng 420 dòng số liệu thô ngay đầu file. Đọc lướt qua nó để tới phần hàm.
 
 Kết quả chạy thật:
 
@@ -1811,7 +1868,8 @@ HET. Moi con so tren tinh tu du lieu nhung trong chinh file nay.
 - Motorola Inc. tách thành Motorola Solutions và Motorola Mobility ngày 4/1/2011
 - Harry Markowitz (24/8/1927 – 22/6/2023); James Simons (25/4/1938 – 10/5/2024)
 
-⚠️ **Chưa xác minh được, ghi rõ ở đây:** con số tài sản của chiến lược 130/30 năm 2026 (§25) lấy từ báo cáo ngành, không phải số liệu được kiểm toán; các mốc 1 tỷ và 9,4 tỷ đô la sau khủng hoảng cũng vậy. Số liệu lợi suất RIEF/RIDA năm 2020 lấy từ bảng theo dõi quỹ đầu cơ do HSBC công bố và các bản tin ngành, không phải báo cáo chính thức của Renaissance Technologies.
+> [!warning] Chưa xác minh được, ghi rõ ở đây:
+> con số tài sản của chiến lược 130/30 năm 2026 (§25) lấy từ báo cáo ngành, không phải số liệu được kiểm toán; các mốc 1 tỷ và 9,4 tỷ đô la sau khủng hoảng cũng vậy. Số liệu lợi suất RIEF/RIDA năm 2020 lấy từ bảng theo dõi quỹ đầu cơ do HSBC công bố và các bản tin ngành, không phải báo cáo chính thức của Renaissance Technologies.
 
 ---
 

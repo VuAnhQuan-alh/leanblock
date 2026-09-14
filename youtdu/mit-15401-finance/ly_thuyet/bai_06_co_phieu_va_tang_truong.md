@@ -1,21 +1,16 @@
 # Bài 6 — Cổ phiếu: chiết khấu cổ tức, tăng trưởng, và giá trị của cơ hội
 
+> [!info] Về bài này
 > Bài học dựng trên **toàn bộ** video **"Ses 8: Equities"** (`cny-1yDbQno`, 75:27) — khoá
 > **MIT 15.401 *Finance Theory I*, Fall 2008**, giảng viên **Prof. Andrew W. Lo**.
 > Phụ đề gốc do người viết tay.
->
 > 🕑 Mốc thời gian có tiền tố buổi: `S8 50:39` = buổi 8, phút 50:39. Vài chỗ dẫn ngược sang
 > `S1`–`S7` — mọi mốc đều đối chiếu với **đúng** video của nó.
 >
-> 📚 **Mở rộng** — kiến thức video lướt qua hoặc bài học này bổ sung, **không có trong video**.
-> 🇻🇳 **Góc Việt Nam** — số liệu và ví dụ trong nước (mục 18), **không có trong video**.
-> ⚠️ **Buổi này hết giờ giữa chừng.** Lo hứa **hai lần** sẽ dẫn công thức nối cổ tức với lợi
-> nhuận (`S8 63:47` và `S8 64:32`) rồi chuông reo. [Mục 13](#13-phần-lo-hứa-hai-lần-rồi-hết-giờ)
-> và [mục 14](#14-tăng-trưởng-không-phải-lúc-nào-cũng-tốt) là phần đó, ghi rõ **không có trong
-> video**.
-> 📌 **Cần đọc trước:** [Bài 2](bai_02_gia_tri_hien_tai.md) — công thức vĩnh viễn và vĩnh viễn
-> tăng trưởng ở mục 11–12 là **đúng hai công thức** dùng lại nguyên vẹn ở đây.
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
 >
+> **Cần đọc trước:** [Bài 2](bai_02_gia_tri_hien_tai.md) — công thức vĩnh viễn và vĩnh viễn
+> tăng trưởng ở mục 11–12 là **đúng hai công thức** dùng lại nguyên vẹn ở đây.
 > Công thức viết bằng LaTeX — mở bằng **Obsidian** hoặc VS Code + Markdown Preview Enhanced.
 
 ---
@@ -61,6 +56,7 @@ buổi 8 đúng là về cổ phiếu.
 Bài này khác các bài trước ở một điểm: Lo gần như **không** nhắc tới khủng hoảng suốt 75 phút. Ông
 dạy lý thuyết định giá cổ phiếu từ đầu tới cuối. Rồi ở giây cuối cùng, ông thả một câu (`S8 75:08`):
 
+> [!quote]
 > ⚠️ *"Hoán đổi rủi ro tín dụng của **General Electric hôm nay được định giá 700 điểm cơ bản**. Đây
 > là một chứng khoán xếp hạng **AAA**, mà 700 điểm cơ bản tín dụng. **Điên rồ!** Nhưng lúc này người
 > ta không muốn cho vay. Nên nếu bạn muốn vay trên thị trường vốn hôm nay, chúc may mắn."*
@@ -71,15 +67,17 @@ Rồi hết giờ, và video dừng.
 lớp. [Mục 16](#16-trở-lại-ge--khi-thị-trường-đúng-và-xếp-hạng-sai) quay lại — và câu trả lời cho
 "điên rồ hay không" đến sau **năm tháng**.
 
-📚 Ba mảnh bằng chứng khác chốt ngày: Lo nhắc *"trò chơi giao dịch mà ta làm **hai tuần trước, vào
-hôm thứ Sáu đó**"* (`S8 09:48`) — đúng thứ Sáu 19/9 mà ông hứa ở `S4 56:04`; ông nói *"lãi suất trái
-phiếu kho bạc Mỹ xuống ba điểm cơ bản"* như chuyện vừa xảy ra (`S8 44:56`); và toàn bộ nội dung khớp
-lời hẹn ở cuối buổi 7.
+> [!note]
+> Ba mảnh bằng chứng khác chốt ngày: Lo nhắc *"trò chơi giao dịch mà ta làm **hai tuần trước, vào
+> hôm thứ Sáu đó**"* (`S8 09:48`) — đúng thứ Sáu 19/9 mà ông hứa ở `S4 56:04`; ông nói *"lãi suất trái
+> phiếu kho bạc Mỹ xuống ba điểm cơ bản"* như chuyện vừa xảy ra (`S8 44:56`); và toàn bộ nội dung khớp
+> lời hẹn ở cuối buổi 7.
 
-⚠️ Một chi tiết nhỏ đáng đính chính: Lo nói mức **ba điểm cơ bản** xảy ra **ngày 18/9**. Theo chuỗi
-H.15 của Fed, mức 0,03 % là **ngày 17/9/2008**; ngày 18/9 đã là 0,23 %. Chính Lo đọc con số đó
-trực tiếp trên lớp hôm 17/9 — xem [bài 4, mục 11](bai_04_trai_phieu_va_duong_cong.md#11-bảng-giá-ngày-1792008-đọc-từng-dòng).
-Không ảnh hưởng gì tới lập luận, nhưng nếu bạn tự tra thì đừng bối rối.
+> [!warning]
+> Một chi tiết nhỏ đáng đính chính: Lo nói mức **ba điểm cơ bản** xảy ra **ngày 18/9**. Theo chuỗi
+> H.15 của Fed, mức 0,03 % là **ngày 17/9/2008**; ngày 18/9 đã là 0,23 %. Chính Lo đọc con số đó
+> trực tiếp trên lớp hôm 17/9 — xem [bài 4, mục 11](bai_04_trai_phieu_va_duong_cong.md#11-bảng-giá-ngày-1792008-đọc-từng-dòng).
+> Không ảnh hưởng gì tới lập luận, nhưng nếu bạn tự tra thì đừng bối rối.
 
 ---
 
@@ -88,6 +86,7 @@ Không ảnh hưởng gì tới lập luận, nhưng nếu bạn tự tra thì �
 Lo bắt đầu bằng đúng định nghĩa của [bài 2](bai_02_gia_tri_hien_tai.md#3-tài-sản-là-gì--định-nghĩa-lại-từ-gốc)
 (`S8 00:46`):
 
+> [!quote]
 > *"Cổ phần là **quyền sở hữu** trong một công ty. Và khi bạn sở hữu một mảnh của công ty, cái bạn
 > sở hữu là **chuỗi dòng tiền** đó."*
 
@@ -100,6 +99,7 @@ Có đúng **hai** đường để tiền về tay bạn:
 
 Lo giải thích vì sao công ty tăng trưởng thường không trả cổ tức (`S8 01:05`):
 
+> [!quote]
 > *"Công ty giai đoạn đầu muốn giữ tiền mặt, vì họ có rất nhiều ý tưởng đầu tư muốn triển khai. Nên
 > mọi khoản tiền tạo ra nội bộ, họ sẽ **cày ngược trở lại** vào hoạt động hiện tại. […] Nhưng bạn
 > vẫn nhận được giá trị từ mảnh giấy đó, vì khi công ty lớn lên, khi nó đáng giá hơn, thì mảnh giấy
@@ -109,12 +109,14 @@ Lo giải thích vì sao công ty tăng trưởng thường không trả cổ t�
 
 Ở `S8 01:58` Lo nói:
 
+> [!quote]
 > *"Có hai dạng cổ tức. **Cổ tức tiền mặt hoặc cổ tức cổ phiếu, cả hai đều mang lại giá trị tăng
 > thêm.**"*
 
-⚠️ **Vế sau sai.** Cổ tức **tiền mặt** là một khoản chi trả thật — tiền rời khỏi công ty và vào tài
-khoản bạn. Cổ tức **cổ phiếu** thì không: công ty in thêm giấy và chia cho chính các cổ đông hiện
-hữu theo đúng tỷ lệ họ đang nắm.
+> [!warning] Vế sau sai.
+> Cổ tức **tiền mặt** là một khoản chi trả thật — tiền rời khỏi công ty và vào tài
+> khoản bạn. Cổ tức **cổ phiếu** thì không: công ty in thêm giấy và chia cho chính các cổ đông hiện
+> hữu theo đúng tỷ lệ họ đang nắm.
 
 Nếu bạn sở hữu 1 % công ty và **mọi người** đều nhận thêm 20 % số cổ phiếu, thì sau đó bạn vẫn sở
 hữu **đúng 1 %**. Không một đồng nào rời khỏi công ty. Về bản chất đó là một **cuộc chia tách cổ
@@ -135,6 +137,7 @@ một trong những hiểu nhầm tốn kém nhất của nhà đầu tư cá nh
 Đây là đoạn hay nhất buổi, và nó không có một công thức nào. Lo mở bằng một lời khen bất thường
 (`S8 02:16`):
 
+> [!quote]
 > *"Tôi phải nói rằng **ai đã phát minh ra cổ phần** — chuyện này từ nhiều, nhiều thế kỷ trước — thực
 > sự là một nhà sáng tạo tài chính **lỗi lạc**, bởi vì cổ phần có một khả năng cực kỳ mạnh trong việc
 > tạo động lực và khuyến khích đúng cho **mọi loại đổi mới**."*
@@ -145,6 +148,7 @@ một trong những hiểu nhầm tốn kém nhất của nhà đầu tư cá nh
 
 Cổ đông đứng **sau** chủ nợ (`S8 02:58`). Nghe thì tệ, nhưng (`S8 03:41`):
 
+> [!quote]
 > *"Nó rất thú vị nếu việc đứng thứ hai đồng nghĩa với việc bạn tiếp cận được **toàn bộ phần thượng
 > tầng** của tăng trưởng và thành công của công ty. […] Với tư cách trái chủ, phần lời của bạn bị
 > **chặn trần**. Trong khi với tư cách người nhận phần còn lại, người nắm cổ phần, bạn **không có
@@ -159,12 +163,14 @@ và ở việc bên nào bị chặn trần. Chính xác cấu trúc phân lớp
 
 `S8 04:26`:
 
+> [!quote]
 > *"Khía cạnh còn lại rất quan trọng gọi là **trách nhiệm hữu hạn** — thực tế rằng, với tư cách
 > cổ đông, **thứ nhiều nhất bạn có thể mất là tất cả.**"*
 
 Rồi ông giải thích tại sao câu đó, nghe như một lời nguyền, thực ra là một món quà (`S8 04:49`,
 `S8 05:10`):
 
+> [!quote]
 > *"Nghe có vẻ không phải một thoả thuận tốt, nhưng tin tôi đi, đó là một thoả thuận **tuyệt vời**.
 > 'Tất cả' ở đây nghĩa là tất cả những gì **bạn đã bỏ vào** — nên nó không phải theo nghĩa đen là
 > tất cả. Ví dụ, bạn **không mất mạng**. Bạn **không mất tự do**. Bạn không mất ngón út. Bạn không
@@ -172,20 +178,23 @@ Rồi ông giải thích tại sao câu đó, nghe như một lời nguyền, th
 
 Và bối cảnh lịch sử (`S8 05:31`):
 
+> [!quote]
 > *"Trước khi có công ty hiện đại và trách nhiệm hữu hạn, doanh nhân phải đối mặt với **trách nhiệm
 > vô hạn**, hoặc **bị tống vào tù** nếu vỡ nợ."*
 
 Câu chốt (`S8 07:31`):
 
+> [!quote]
 > *"Hãy thử nghĩ đổi mới sẽ ra sao nếu ta quy định rằng công ty đầu tiên của bạn thất bại thì từ đó
 > trở đi **bạn vĩnh viễn không được lập công ty nữa**. Nghĩ xem sẽ còn bao nhiêu người dám mạo hiểm
 > hay dám nhảy vào làm một việc như khởi nghiệp."*
 
-📚 Bối cảnh Lo không kể: nhà tù cho con nợ là chuyện có thật và kéo dài rất lâu. Ở Anh, **Đạo luật
-Trách nhiệm Hữu hạn 1855** và **Đạo luật Công ty Cổ phần 1856** mới cho phép nhà đầu tư thường giới
-hạn thiệt hại ở phần vốn góp; **Đạo luật Con nợ 1869** mới xoá bỏ phần lớn việc bỏ tù vì nợ. Nghĩa
-là cấu trúc pháp lý mà Lo gọi là *"bí quyết mở khoá sức mạnh của quần chúng"* (`S8 09:08`) mới chỉ
-khoảng **170 tuổi**.
+> [!note]
+> Bối cảnh Lo không kể: nhà tù cho con nợ là chuyện có thật và kéo dài rất lâu. Ở Anh, **Đạo luật
+> Trách nhiệm Hữu hạn 1855** và **Đạo luật Công ty Cổ phần 1856** mới cho phép nhà đầu tư thường giới
+> hạn thiệt hại ở phần vốn góp; **Đạo luật Con nợ 1869** mới xoá bỏ phần lớn việc bỏ tù vì nợ. Nghĩa
+> là cấu trúc pháp lý mà Lo gọi là *"bí quyết mở khoá sức mạnh của quần chúng"* (`S8 09:08`) mới chỉ
+> khoảng **170 tuổi**.
 
 ---
 
@@ -193,13 +202,15 @@ khoảng **170 tuổi**.
 
 Để minh hoạ, Lo kể một chuyện ông nghe khi còn ở Wharton (`S8 06:17`, `S8 06:35`, `S8 06:59`):
 
+> [!quote]
 > *"Nhiều năm trước, khi tôi ở Trường Wharton, tôi nghe một bài nói của người sáng lập **Domino's
 > Pizza**. Tiếc là tôi **không nhớ tên ông ấy**. […] Có người hỏi: làm sao ông biết một chuỗi pizza
 > toàn quốc sẽ thành công đến thế? Ông ấy rất thật thà. Ông nói: tôi **không** biết. Đây là **công
 > ty thứ chín** của tôi. **Tám công ty đầu đều phá sản.** Và nếu công ty này cũng phá sản, chắc tôi
 > sẽ lập công ty thứ mười."*
 
-⚠️ **Chi tiết này không khớp với lịch sử.** Người sáng lập Domino's là **Tom Monaghan**, và:
+> [!warning] Chi tiết này không khớp với lịch sử.
+> Người sáng lập Domino's là **Tom Monaghan**, và:
 
 | Lo kể                         | Số thật                                                                                                                                          |
 | ----------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -218,8 +229,9 @@ việc, rồi giành lại công ty. Hai mươi tám năm sau ông bán nó vớ
 
 Nếu là thế kỷ 18, ông đã ngồi tù. Đó chính xác là bài giảng của Lo, chỉ khác là có thật.
 
-📚 Còn ý *"những người khởi nghiệp hàng loạt cứ đi từ công ty này sang công ty khác"* (`S8 06:17`)
-thì đúng như một hiện tượng — chỉ là Monaghan không phải ví dụ cho nó.
+> [!note]
+> Còn ý *"những người khởi nghiệp hàng loạt cứ đi từ công ty này sang công ty khác"* (`S8 06:17`)
+> thì đúng như một hiện tượng — chỉ là Monaghan không phải ví dụ cho nó.
 
 ---
 
@@ -228,10 +240,12 @@ thì đúng như một hiện tượng — chỉ là Monaghan không phải ví 
 Lo quay lại chủ đề bán khống, và lần này ông thừa nhận một kết quả bất lợi từ chính lớp học của mình
 (`S8 09:29`):
 
+> [!quote]
 > *"Bán khống cho phép **thông tin không tích cực** — nhưng vẫn quan trọng — đi vào giá thị trường."*
 
 Rồi (`S8 10:03`):
 
+> [!quote]
 > *"Những bạn đã tham gia trò chơi giao dịch hai tuần trước — khi ta xem lại kết quả ở cuối khoá,
 > lúc nói về thị trường hiệu quả, tôi sẽ cho các bạn thấy rằng giá hình thành trong thị trường đó
 > **không hiệu quả lắm**. Một phần lý do là vì **chúng ta không cho phép các bạn bán khống**. Những
@@ -258,6 +272,7 @@ quan mới được thể hiện quan điểm, giá vì thế lệch lên trên.
 
 Lo phân biệt hai thị trường bằng một ẩn dụ rất dễ nhớ (`S8 10:57`, `S8 11:16`):
 
+> [!quote]
 > *"**Sơ cấp** là thị trường nơi chứng khoán được phát hành lần đầu tiên. **Thứ cấp** thì bạn có thể
 > coi là **thị trường đồ cũ**. Ta có chợ xe cũ. Ta có chợ nhà cũ. Và có chợ **chứng khoán cũ**. Tôi
 > biết các bạn không thực sự nghĩ về Sở Giao dịch New York theo cách đó, nhưng đúng là vậy. Chỉ có
@@ -268,6 +283,7 @@ các môn khác. Đáng nhớ khi bạn thấy bài học không nói gì về �
 
 Ông cũng nêu một liên hệ thực dụng cho người khởi nghiệp (`S8 13:04`):
 
+> [!quote]
 > *"Khi bạn khởi nghiệp và nhận vốn từ một quỹ đầu tư mạo hiểm, cách quỹ đó **rốt cuộc được trả tiền
 > không phải** là niềm vui được là một phần của công ty tuyệt vời của bạn, mà là việc công ty bạn
 > **lên sàn** để họ bán ra ở giá thị trường công khai."*
@@ -279,6 +295,7 @@ Nghĩa là chu kỳ IPO và chu kỳ vốn mạo hiểm dính chặt vào nhau �
 Khi sinh viên hỏi internet có góp phần làm khối lượng giao dịch tăng không, Lo kể một chuyện
 (`S8 15:00`):
 
+> [!quote]
 > *"Hồi tôi dạy Tài chính năm 2000 hay 2001, giữa buổi có một sinh viên đại học nhìn vào cái điện
 > thoại rồi chạy vụt ra ngoài. Cậu ta quay lại ngay trước khi hết giờ, mặt mày rất khổ sở. Cuối buổi
 > tôi hỏi có sao không, cậu ta nói vừa phải xử lý một **lệnh gọi ký quỹ** cho vị thế cổ phiếu đặt
@@ -291,6 +308,7 @@ cửa vì không cạnh tranh nổi với những đổi mới công nghệ này
 
 Rồi ông chốt bằng câu đắt nhất mục này (`S8 17:11`, `S8 17:26`):
 
+> [!quote]
 > *"Ngày xưa thì **quen ai** quan trọng hơn **biết gì**. Mạng lưới con ông cháu cha quan trọng hơn
 > mạng máy tính. Và người tốt nghiệp Harvard, Yale có lợi thế hơn người tốt nghiệp MIT, Caltech.
 > Điều đó đã bị **lộn ngược** trong mấy năm qua. Tôi gọi đó là **cuộc trả thù của lũ mọt sách** —
@@ -302,6 +320,7 @@ Rồi ông chốt bằng câu đắt nhất mục này (`S8 17:11`, `S8 17:26`):
 
 Lo giới thiệu mô hình định giá cổ phiếu đầu tiên trong lịch sử (`S8 17:26`, `S8 17:49`):
 
+> [!quote]
 > *"Nó **không thể đơn giản hơn**. Một mô hình mà tôi nghĩ tất cả các bạn sẽ hiểu ngay lập tức, vậy
 > mà các hệ quả của nó lại **sâu rộng và thâm thuý**. Nó gọi là **Mô hình chiết khấu cổ tức**."*
 
@@ -317,6 +336,7 @@ Ba ký hiệu, và mỗi cái đều có lý do (`S8 23:04`–`S8 24:00`):
 
 Và đây là chỗ Lo giải thích vì sao cổ phiếu khó hơn trái phiếu (`S8 27:03`):
 
+> [!quote]
 > *"Giờ các bạn sẽ hiểu vì sao tôi nói cổ phiếu phức tạp hơn công cụ thu nhập cố định nhiều. Là bởi
 > vì có **hai nguồn bất định**. Một là **suất chiết khấu**, hai là **dòng tiền**. Và hơn nữa, suất
 > chiết khấu ở đây không phải suất phi rủi ro, mà là suất **đã hiệu chỉnh rủi ro**."*
@@ -336,6 +356,7 @@ hiệu chỉnh rủi ro, và sẽ quay lại sau vài bài giảng."* Đó là b
 
 Đoạn tranh luận này chiếm gần bốn phút và là chỗ hay nhất để hiểu mô hình. Lo tuyên bố (`S8 19:02`):
 
+> [!quote]
 > *"Và nếu một công ty **không bao giờ, không bao giờ** trả cổ tức, thì nó **đáng giá 0**, đúng
 > không? Nếu nó không trả bạn đồng tiền mặt nào mãi mãi, thì đó có vẻ là một tài sản rất tệ."*
 
@@ -343,12 +364,14 @@ Lớp phản đối. Lo đáp lại từng đợt, và cách ông làm đáng h�
 
 **Phản đối 1 — "nhưng giá vẫn tăng, tôi bán đi là có lời."** (`S8 20:27`)
 
+> [!quote]
 > *"Nhưng hãy nghĩ đi. Nếu một công ty cứ tăng giá trị mãi mà **không bao giờ** chi trả, thì **tiền
 > mặt đang đi đâu**? Khi tôi nói không bao giờ, tôi nghĩa là **không bao giờ**. […] Bạn có nghĩ ra
 > công ty nào tăng giá trị liên tục mà không bao giờ, không bao giờ trả một xu nào không?"*
 
 **Phản đối 2 — "vẫn bán được cho người khác mà."** (`S8 21:14`)
 
+> [!quote]
 > *"Ồ đúng, bạn có thể kiếm lời bằng cách bán. Nhưng nếu bạn bán một chứng khoán cho ai đó, mà
 > **họ biết chắc chắn** rằng nó không bao giờ trả một đồng nào, thì cái đó gọi là **mô hình Ponzi**.
 > Nói cách khác, bạn đang bán một mảnh giấy vô giá trị cho ai đó và hy vọng rằng **họ ngu hơn bạn**
@@ -356,12 +379,14 @@ Lớp phản đối. Lo đáp lại từng đợt, và cách ông làm đáng h�
 
 **Phản đối 3 — "nếu công ty giải thể thì cổ đông vẫn được chia."** (`S8 22:00`)
 
+> [!quote]
 > *"Vậy thì nó **có** chi trả. Đó là **cổ tức thanh lý**. Thế là vi phạm điều kiện 'không bao giờ,
 > không bao giờ chi trả gì cả' của tôi rồi. **Và đó chính là điểm mấu chốt.**"*
 
 Lập luận cuối cùng của Lo (`S8 22:12`) đáng ghi lại nguyên vẹn, vì nó là thứ khiến mô hình **không
 thể bác bỏ được** theo nghĩa tốt:
 
+> [!quote]
 > *"Nếu công ty đang tăng trưởng và có giá trị, thì bạn **biết chắc** rằng: **A**, tại một thời điểm
 > nào đó nó sẽ trả cổ tức; hoặc **B**, nếu không và nó bị thanh lý, thì khi thanh lý bạn nhận được
 > phần chia theo tỷ lệ của bất cứ thứ gì còn trong công ty — mà đó **cũng là một khoản chi trả**."*
@@ -374,6 +399,7 @@ lại cổ phiếu**. Cái ông loại trừ là trường hợp **không bao gi
 
 Lo minh hoạ bằng Microsoft (`S8 18:27`):
 
+> [!quote]
 > *"Suốt nhiều năm Microsoft **không hề** trả cổ tức. Nhưng khoảng năm hay sáu năm trước, họ công bố
 > bắt đầu trả. Vì sao? Vì họ đã tích luỹ nhiều tiền mặt tới mức **không còn đủ chỗ để đầu tư số tiền
 > đó**."*
@@ -389,6 +415,7 @@ của Lo.
 
 Lo nêu một mệnh đề rồi bắt lớp tự chứng minh (`S8 29:34`):
 
+> [!quote]
 > *"Tôi sẽ phát biểu một điều, rồi yêu cầu các bạn biện minh cho nó. Mệnh đề là: **suất chiết khấu ở
 > mẫu số của mỗi phân số phải được hiệu chỉnh rủi ro sao cho phản ánh rủi ro của TỬ SỐ tương ứng**,
 > cùng với điều kiện thị trường chung. Giờ hãy biện minh cho tôi."*
@@ -396,6 +423,7 @@ Lo nêu một mệnh đề rồi bắt lớp tự chứng minh (`S8 29:34`):
 Sinh viên trả lời rằng rủi ro cao hơn thì phải được đền bù cao hơn. Lo hỏi tiếp *"Sao bạn biết?"*
 Sinh viên đáp: *"Chỉ là luật rừng thôi, em không rõ."* (`S8 30:44`) Lo bắt lấy (`S8 30:56`):
 
+> [!quote]
 > *"Bạn đúng. Đó **là** luật rừng. Nhưng ở đây, **rừng là gì**? — Chính xác, cảm ơn. **Thị
 > trường.** Thị trường là khu rừng nơi bạn cạnh tranh để giành nguồn lực khan hiếm. Và để dự án cưng
 > của bạn được cấp vốn, bạn phải đưa ra động lực đúng để người ta mua vào dự án của bạn."*
@@ -404,6 +432,7 @@ Sinh viên đáp: *"Chỉ là luật rừng thôi, em không rõ."* (`S8 30:44`)
 
 Rồi Lo kể chuyện hay nhất buổi để đóng đinh một điểm (`S8 34:36`, `S8 35:15`, `S8 35:36`):
 
+> [!quote]
 > *"Vài năm trước, có một giảng viên ở Carnegie Mellon đoạt giải Nobel, và hoá ra ông là một trong
 > những giáo sư được trả lương cao nhất trường lúc đó. Tờ báo sinh viên phỏng vấn ông: 'Thưa giáo
 > sư, ông có thấy phù hợp không khi lương ông **gấp đôi** lương những nhà vật lý cũng đoạt Nobel và
@@ -416,17 +445,21 @@ Rồi Lo kể chuyện hay nhất buổi để đóng đinh một điểm (`S8 3
 
 Lo áp ngay vào bài (`S8 35:54`):
 
+> [!quote]
 > *"Cũng y hệt với những dòng tiền này. **Không phải công ty được chọn suất chiết khấu là bao nhiêu.**
 > Câu hỏi là: cho trước mức rủi ro của dòng tiền đó, **thị trường bảo tôi** suất sinh lợi công bằng
 > là bao nhiêu? Đó là con số tôi muốn cắm vào mẫu số."*
 
-⚠️ **Tôi không xác minh được câu chuyện này** — Lo không nêu tên, và tôi không tìm được nguồn độc
-lập. Bài này trình bày nó như **chuyện Lo kể**. Nhưng luận điểm thì đứng vững mà không cần giai
-thoại, và nó lặp lại chính xác điều Lo đã nói ở [bài 2](bai_02_gia_tri_hien_tai.md#7-tỷ-giá-lấy-từ-đâu-lo-mở-phiên-đấu-giá-thứ-hai)
-về nơi lãi suất đến từ.
+> [!warning] Tôi không xác minh được câu chuyện này
+> Lo không nêu tên, và tôi không tìm được nguồn độc
+> lập. Bài này trình bày nó như **chuyện Lo kể**. Nhưng luận điểm thì đứng vững mà không cần giai
+> thoại, và nó lặp lại chính xác điều Lo đã nói ở [bài 2](bai_02_gia_tri_hien_tai.md#7-tỷ-giá-lấy-từ-đâu-lo-mở-phiên-đấu-giá-thứ-hai)
+> về nơi lãi suất đến từ.
 
-📚 Lo cũng dùng dịp này giải thích thói quen dùng nhiều tên cho cùng một thứ (`S8 70:45`):
+> [!note]
+> Lo cũng dùng dịp này giải thích thói quen dùng nhiều tên cho cùng một thứ (`S8 70:45`):
 
+> [!quote]
 > *"Lý do tôi luôn dùng bốn năm cái tên cho cùng một đại lượng là để các bạn nhạy với việc **người
 > ta nhìn con số này từ những góc khác nhau**. Khi tôi nói **chi phí vốn**, tôi đang nghĩ như một nhà
 > quản lý doanh nghiệp phân bổ tiền nội bộ. Còn với tư cách nhà đầu tư bên ngoài, tôi muốn biết
@@ -442,6 +475,7 @@ lần này áp cho cổ phiếu.
 Để trả lời câu hỏi "suất chiết khấu hiệu chỉnh rủi ro đến từ đâu", Lo dựng một thí nghiệm tư duy rất
 đặc trưng (`S8 38:48`):
 
+> [!quote]
 > *"Hãy tưởng tượng làm một **STRIP**. Các bạn biết STRIPS là gì rồi đúng không? Vậy hãy nghĩ tới
 > việc **lột từng khoản cổ tức ra**. Thí nghiệm hơi kỳ quặc, nhưng chịu khó theo tôi. Giả sử thay vì
 > một công ty, tôi tạo ra **vô số công ty**. Mỗi công ty chỉ sống đúng **một lần trả cổ tức**, sau
@@ -455,15 +489,18 @@ Rồi ông làm nó cụ thể: một mảnh giấy tài trợ công nghệ nano
 kỳ vọng **27 triệu đô**. Định giá thế nào? Lớp đề xuất tìm chứng khoán tương đương, dùng đường cong
 lãi suất, cộng chênh lệch tín dụng… Lo gạt hết (`S8 44:03`, `S8 44:16`):
 
+> [!quote]
 > *"Bạn làm thế cũng được, nhưng giờ ta đang làm mọi thứ ngày càng phức tạp. **Chẳng lẽ không có
 > cách nào dễ hơn để biết giá?** — Chính xác. **Để thị trường quyết định. Đấu giá nó đi.**"*
 
+> [!quote] S8 44:32
 > *"Giả sử ai đó sẵn sàng trả **15 triệu hôm nay** cho một dòng tiền kỳ vọng 27 triệu vào 2013. Với
 > hai con số đó, bạn **có $r$**, đúng không? $r$ được xác lập **đúng theo cách** ta xác lập $r$ cho
 > trái phiếu phi rủi ro."* (`S8 44:32`)
 
 Và câu kết luận (`S8 45:10`):
 
+> [!quote]
 > *"Lợi suất đó sẽ là một lợi suất **đã hiệu chỉnh rủi ro**. **Tôi không biết việc hiệu chỉnh rủi ro
 > đã được làm thế nào.** […] Vấn đề là **thị trường đã làm hộ chúng ta.**"*
 
@@ -477,6 +514,7 @@ tương lai, [bài 4](bai_04_trai_phieu_va_duong_cong.md#5-trái-phiếu-chiết
 Một sinh viên hỏi: nếu công thức đúng, thì mua cổ phiếu để làm gì — chẳng phải bạn phải tin nó **sai**
 mới có động cơ mua sao? (`S8 46:09`) Lo trả lời (`S8 46:37`, `S8 47:14`):
 
+> [!quote]
 > *"Câu trả lời là **không, bạn không cần**. […] Có thể bạn chỉ đơn giản muốn cái tổ hợp rủi ro và
 > phần thưởng của dòng tiền đó. Có gì sai đâu? […] Ngay cả khi mọi thứ được định giá đúng, **không
 > phải là bạn sẽ không kiếm được đồng nào**. Bạn sẽ kiếm được theo đúng suất sinh lợi thị trường
@@ -498,6 +536,7 @@ Lo đơn giản hoá dần (`S8 48:10`). Cố định cổ tức $D$ và suất 
 
 $$P_0 = \frac{D}{r}$$
 
+> [!quote] S8 48:51
 > *"Kỳ diệu thay, cái bạn nhận được là **người bạn cũ** của chúng ta — công thức vĩnh viễn."*
 > (`S8 48:51`)
 
@@ -519,6 +558,7 @@ Không có gì mới về toán. Cái mới là **cái ta cắm vào**.
 
 `S8 50:39`:
 
+> [!quote]
 > *"Và bây giờ, trong biểu thức cực kỳ đơn giản này, ta có **một lời giải thích cho bong bóng
 > công nghệ — cả việc nó phình to đến thế, lẫn việc nó vỡ**. Nếu $r$ gần $g$, nếu tốc độ tăng
 > trưởng rất lớn, bạn sẽ có một mức giá rất lớn. Và nếu có những thay đổi nhanh trong việc người ta
@@ -544,12 +584,14 @@ trưởng nhanh hơn 1 điểm phần trăm"*:
 Sinh viên hỏi $r > g$ có ý nghĩa gì ngoài chuyện toán học (`S8 51:25`). Lo giải thích (`S8 52:17`,
 `S8 52:33`):
 
+> [!quote]
 > *"Nếu tốc độ tăng trưởng nhanh hơn lãi suất, và nếu nó thật sự kéo dài **tới vô cùng**, thì rất
 > nhanh bạn sẽ **lớn hơn cả GDP của hành tinh này**. […] Chẳng mấy chốc bạn sẽ **giàu hơn cả Chúa**,
 > và ta biết chuyện đó không thể xảy ra."*
 
 Và ví dụ đối chiếu (`S8 53:03`):
 
+> [!quote]
 > *"Trung Quốc đã tăng trưởng 10 % suốt 15 năm qua. Bạn có nghĩ 10 % là bền vững không? Nếu Trung
 > Quốc tiếp tục tăng 10 %, chẳng mấy chốc **tất cả chúng ta sẽ nói tiếng Quan Thoại**."*
 
@@ -567,6 +609,7 @@ trước buổi giảng, khớp với khoảng ông nói.
 
 Ý ông muốn nói (`S8 55:00`, `S8 55:37`):
 
+> [!quote]
 > *"Nếu tạo được phản ứng hạt nhân ở nhiệt độ phòng, điều đó sẽ **xoá sổ mọi vấn đề năng lượng của
 > thế giới**, vì bạn có thể chạy xe bằng nước máy. […] Có một khoảng thời gian ngắn ta **chưa biết**,
 > và trong khoảng đó, $r - g$ trông khá nhỏ. $g$ trông rất lớn so với $r$."*
@@ -586,6 +629,7 @@ Vì sao điều này thú vị? Vì trong nhiều năm, giới phân tích chỉ
 vốn (`S8 57:02`) — y như cách bạn lấy coupon chia cho giá trái phiếu. Nhưng cổ phiếu có thêm một
 thành phần, và Lo nói về nó bằng giọng rất MIT (`S8 58:04`):
 
+> [!quote]
 > *"Biểu thức này nói một điều mà **mọi người tốt nghiệp MIT đều biết trong tim mình**: **công nghệ
 > tạo ra giá trị vượt xa những gì bạn quan sát được trong dòng tiền hiện tại.** Không chỉ cổ tức tạo
 > nên giá trị công ty, mà là **khả năng công ty lớn lên theo thời gian**. Không chỉ nhà xưởng và
@@ -597,6 +641,7 @@ thành phần, và Lo nói về nó bằng giọng rất MIT (`S8 58:04`):
 Công thức dùng $D_1$ — cổ tức **kỳ sau**. Nhưng cái bạn quan sát được là $D_0$ — cổ tức **vừa trả**
 (`S8 60:08`, `S8 60:35`, `S8 60:51`):
 
+> [!quote]
 > *"Giá tôi dùng trong ký hiệu này là **giá đã trừ cổ tức**, nghĩa là cổ tức kỳ này **đã được trả
 > rồi**. […] Nên nếu muốn dùng $D$ mà có tăng trưởng, tôi phải lấy **cổ tức gần nhất vừa được trả**
 > rồi **nhân với $(1+g)$** để ra giá trị cổ tức kỳ sau."*
@@ -616,6 +661,7 @@ $$r \;=\; \frac{D_0\,(1+g)}{P_0} \;+\; g$$
 Một sinh viên nói: *"Nếu chỉ dùng công thức vĩnh viễn $D/r$ thì **mọi cổ phiếu em nhìn đều có vẻ bị
 định giá quá cao**."* (`S8 61:55`) Lo bắt ngay:
 
+> [!quote]
 > *"Đúng vậy. Chính xác. Vì sao? Nếu bạn chỉ dùng $D/P$ thì mọi cổ phiếu trông đều bị định giá quá
 > cao. **Bạn đang thiếu cái gì?** — Đúng rồi, bạn thiếu $g$."*
 
@@ -627,8 +673,10 @@ gì cũng đắt**, khả năng cao là bạn đang quên cắm tăng trưởng 
 
 ## 13. Phần Lo hứa hai lần rồi hết giờ
 
-⚠️ **Mục này không có trong video.** Lo hứa nó **hai lần**:
+> [!warning] Mục này không có trong video.
+> Lo hứa nó **hai lần**:
 
+> [!quote] S8 64:32
 > *"Sẽ có những biểu thức khác mà ta sẽ dẫn ra **trong vài phút nữa**, dùng các đẳng thức kế toán để
 > **nối cổ tức với lợi nhuận** hoặc với dòng tiền."* (`S8 63:47`)
 >
@@ -702,7 +750,8 @@ cho **những lời hứa**, và bạn nên biết điều đó một cách tư�
 
 *Cùng một công ty, cùng một mức tăng trưởng. Chỉ khác ROE — và ba đường đi ba hướng.*
 
-⚠️ **Mục này cũng không có trong video**, và nó là hệ quả quan trọng nhất của công thức vừa dẫn.
+> [!warning] Mục này cũng không có trong video
+> , và nó là hệ quả quan trọng nhất của công thức vừa dẫn.
 
 Trực giác thông thường: giữ lại nhiều lợi nhuận hơn ⟹ tăng trưởng nhanh hơn ⟹ cổ phiếu đáng giá hơn.
 **Sai.** Hãy xem điều gì thực sự quyết định.
@@ -732,6 +781,7 @@ bằng cách tái đầu tư ở ROE 6 % trong khi cổ đông đòi 10 % đang 
 là một quyết định đầu tư, và nó chỉ đúng khi dự án có **NPV dương** — tức khi suất sinh lợi vượt chi
 phí vốn. Lo đã đặt nền cho điều này ở `S8 19:30` khi trả lời câu hỏi về hội đồng quản trị:
 
+> [!quote]
 > *"Nếu với tư cách một công ty, bạn **không biết làm gì với số tiền mình đang tạo ra**, thì trước
 > hết, điều đó gợi ý rằng có lẽ bạn **không làm đúng việc của mình** — vì với tư cách một công ty,
 > bạn được kỳ vọng nghĩ ra những cách có giá trị để kiếm tiền cho nhà đầu tư."*
@@ -745,6 +795,7 @@ cả.**"*
 Lo dành ba phút cuối buổi cho một câu hỏi thực tế: công ty đổi chính sách cổ tức bao lâu một lần?
 (`S8 71:59`)
 
+> [!quote]
 > *"Câu trả lời ngắn gọn là các công ty **không thích trả cổ tức** trừ khi họ biết chắc có thể duy
 > trì mức đó trong một khoảng thời gian dài. Lý do rất đơn giản: **khi một công ty cắt cổ tức, đó
 > được coi là tin xấu.** Dù bạn có diễn giải kiểu gì, phản ứng điển hình là 'ôi, công ty đang cạn
@@ -787,7 +838,7 @@ $r$ nằm ở **mẫu số của $r-g$**. Định giá cùng một dòng tiền 
 - chỉ tính cổ tức → **96,15 $**
 - tính cả mua lại → **38,40 $**
 
-⚠️ **Bỏ qua mua lại làm giá trị cao gấp 2,5 lần.**
+> [!warning] Bỏ qua mua lại làm giá trị cao gấp 2,5 lần.
 
 ### Nhưng logic của Lo không sai
 
@@ -799,7 +850,8 @@ và chính Lo đã bao quát trường hợp này bằng lập luận cổ tức
 Cái sai là **con số bạn cắm vào**. Nếu bạn lấy dòng "Dividends" trong báo cáo tài chính, bạn đang
 bỏ qua **khoảng 60 %** số tiền thực sự được trả về cho cổ đông. **Công thức cũ, dữ liệu mới.**
 
-📚 Ba chi tiết để không kết luận quá tay:
+> [!note]
+> Ba chi tiết để không kết luận quá tay:
 
 - **Không phải doanh nghiệp Mỹ đã ngừng trả cổ tức.** Khoảng **56,5 %** công ty trong S&P 500 vẫn
   trả cổ tức — gần như không khác 25 năm trước. Lợi suất cổ tức toàn chỉ số giảm chủ yếu vì **cơ cấu
@@ -832,8 +884,9 @@ Giờ quay lại câu cuối cùng của buổi giảng (`S8 75:08`): *"Hoán đ
 5 tỷ đô vào Goldman Sachs, cũng cổ tức 10 %, mà chính Lo đã kể ở
 [bài 5, mục 1](bai_05_duration_va_chung_khoan_hoa.md#1-hai-buổi-giảng-hai-ngày-lịch-sử) (`S6 23:38`).
 
-⚠️ Và trong chính thông cáo ngày 1/10 đó, Tổng giám đốc GE Jeff Immelt khẳng định GE vẫn **"cam kết
-với xếp hạng Triple A"**.
+> [!warning]
+> Và trong chính thông cáo ngày 1/10 đó, Tổng giám đốc GE Jeff Immelt khẳng định GE vẫn **"cam kết
+> với xếp hạng Triple A"**.
 
 ### Ai đúng: thị trường CDS hay xếp hạng tín nhiệm?
 
@@ -850,6 +903,7 @@ với xếp hạng Triple A"**.
 Ở đó, xếp hạng **quá hào phóng** với CDO. Ở đây, xếp hạng **quá chậm** với GE. Hai chiều ngược nhau,
 cùng một kết luận:
 
+> [!note]
 > **Xếp hạng tín nhiệm đi sau giá. Khi hai thứ mâu thuẫn, hãy hỏi cái nào đang được ai đó đặt tiền
 > thật vào.**
 
@@ -878,6 +932,7 @@ xây dựng thì không còn.
 trả lời rằng bạn phải chia dòng tiền thành từng đoạn và chiết khấu ngược từng đoạn (`S8 67:15`) —
 rồi ông dừng lại để nói một điều rất thẳng về nghề (`S8 65:33`, `S8 65:48`, `S8 66:02`):
 
+> [!quote]
 > *"Hãy nghĩ xem một nhà phân tích cổ phiếu phải kiếm sống thế nào. Họ phải tìm ra không chỉ suất
 > chiết khấu phù hợp — bản thân việc đó đã đủ khó — mà còn phải tìm ra **cả lộ trình cổ tức**, không
 > chỉ mức ở trạng thái dừng. […] Có rất nhiều việc phải làm. Nó khó. Nó là việc khó. Nhưng quan
@@ -885,12 +940,14 @@ rồi ông dừng lại để nói một điều rất thẳng về nghề (`S8 
 
 Rồi câu đáng nhớ nhất mục này (`S8 66:15`):
 
+> [!quote]
 > *"Hãy tưởng tượng một công việc mà bạn bước vào với hiểu biết rằng nếu bạn làm **thật xuất sắc**,
 > nếu bạn đứng đầu lớp, nếu bạn là người giỏi nhất từng làm việc này — thì bạn sẽ đúng **52 % thời
 > gian**. 52 %. Nghĩa là bạn **sai 48 %**."*
 
 Và ẩn dụ (`S8 66:31`):
 
+> [!quote]
 > *"Nó giống như làm dự báo thời tiết — nhưng là dự báo thời tiết cho **30 năm tới**, rồi lấy tổng
 > hợp tất cả các quyết định đó, bỏ vào một danh mục, và **đầu tư toàn bộ số tiền tiết kiệm cả đời**
 > vào đó."*
@@ -932,7 +989,7 @@ Giá tham chiếu được điều chỉnh **tự động** theo $P/(1+\alpha)$.
 toán chuyển từ quỹ đầu tư phát triển sang vốn điều lệ — **tổng vốn chủ sở hữu không đổi**, và
 **không một đồng tiền mặt nào** rời khỏi công ty hay vào tài khoản bạn.
 
-⚠️ **Hai hệ quả thực tế:**
+> [!warning] Hai hệ quả thực tế:
 
 1. **Tác động tâm lý.** Nhà đầu tư mới thấy giá sau điều chỉnh thấp hơn giá mua và tưởng mình lỗ,
    dẫn tới bán tháo hoặc mua thêm sai thời điểm.
@@ -954,6 +1011,7 @@ FTSE** là một trong các động lực chính — chi tiết ở
 Nhưng có một dữ kiện đáng chú ý hơn con số P/E, và nó song song đúng với chuyện trọng số ở
 [mục 15](#15-cổ-tức-không-còn-là-toàn-bộ-câu-chuyện):
 
+> [!note]
 > ⚠️ Nếu **loại Vingroup** khỏi VN-Index, thị trường năm 2025 chỉ tăng gần **17 %**, và tới cuối
 > tháng 4/2026 gần như **đứng yên**. Hiệu suất **trung vị** của 400 cổ phiếu trên HOSE chỉ đạt
 > **2,8 %**.
@@ -978,6 +1036,7 @@ và các doanh nghiệp tăng trưởng chưa chi trả (phải dùng PVGO ở [
 
 ## 19. Code minh hoạ
 
+> [!note]
 > ⚙️ **Chạy:** cần **Python 3.10+**. Lưu file rồi gõ `python3 bai-06-co-phieu-va-tang-truong.py`.
 > **Không cần cài gói nào.** File có sẵn tại [thuc_hanh/bai-06-co-phieu-va-tang-truong.py](../thuc_hanh/bai-06-co-phieu-va-tang-truong.py).
 
@@ -1446,14 +1505,16 @@ phổ thông"* (`S7 75:33`); Lo nhắc trò chơi giao dịch *"hai tuần trư�
 (`S8 09:48`) — đúng thứ Sáu 19/9 đã hẹn ở `S4 56:04`; và thương vụ GE–Berkshire ông ám chỉ ở
 `S8 75:08` được công bố đúng ngày 1/10/2008.
 
-⚠️ **Video kết thúc trước khi Lo giảng xong.** Ông hứa dẫn công thức nối cổ tức với lợi nhuận ở
-`S8 63:47` và `S8 64:32` rồi hết giờ. Tôi đã kiểm phần mở đầu buổi 9 (`i_pLF9J3QPE`): nó vào thẳng
-hợp đồng kỳ hạn và tương lai, **không** có nội dung cổ phiếu nào. Mục 13–14 của bài này bổ sung phần
-đó và **ghi rõ là không có trong video**.
+> [!warning] Video kết thúc trước khi Lo giảng xong.
+> Ông hứa dẫn công thức nối cổ tức với lợi nhuận ở
+> `S8 63:47` và `S8 64:32` rồi hết giờ. Tôi đã kiểm phần mở đầu buổi 9 (`i_pLF9J3QPE`): nó vào thẳng
+> hợp đồng kỳ hạn và tương lai, **không** có nội dung cổ phiếu nào. Mục 13–14 của bài này bổ sung phần
+> đó và **ghi rõ là không có trong video**.
 
-⚠️ Ở `S8 44:56` Lo nói lợi suất tín phiếu kho bạc chạm ba điểm cơ bản **ngày 18/9**. Theo chuỗi H.15
-của Fed, mức **0,03 %** là ngày **17/9/2008**; ngày 18/9 đã là 0,23 % — xem
-[bài 4, mục Nguồn](bai_04_trai_phieu_va_duong_cong.md#nguồn).
+> [!warning]
+> Ở `S8 44:56` Lo nói lợi suất tín phiếu kho bạc chạm ba điểm cơ bản **ngày 18/9**. Theo chuỗi H.15
+> của Fed, mức **0,03 %** là ngày **17/9/2008**; ngày 18/9 đã là 0,23 % — xem
+> [bài 4, mục Nguồn](bai_04_trai_phieu_va_duong_cong.md#nguồn).
 
 ### Dữ kiện đã kiểm
 

@@ -1,14 +1,17 @@
 # Bài 14 — Đọc doanh nghiệp bằng số: ba báo cáo, các tỷ số, và phân rã DuPont
 
+> [!info] Về bài này
 > 🏢 **PHẦN E — TÀI CHÍNH DOANH NGHIỆP.** Bài này **không đến từ video của Andrew Lo**.
 > Lo dạy 15.401 *Finance Theory I* — nửa **đầu tư** của tài chính — và chính ông chỉ người học
 > sang **15.434 Corporate Finance** cho nửa còn lại (`S20 53:30`). Phần E là nửa còn lại đó.
 > Nguồn: Brealey, Myers & Allen, *Principles of Corporate Finance*; Penman,
 > *Financial Statement Analysis and Security Valuation*; chế độ kế toán Việt Nam.
-> 📌 **Cần đọc trước:** [Bài 1 §8](bai_01_tai_chinh_la_gi.md#8-kế-toán-là-ngôn-ngữ--stock-và-flow)
+>
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
+>
+> **Cần đọc trước:** [Bài 1 §8](bai_01_tai_chinh_la_gi.md#8-kế-toán-là-ngôn-ngữ--stock-và-flow)
 > (stock và flow), [Bài 3 §2](bai_03_don_bay_va_lam_phat.md#2-đòn-bẩy--con-số-mà-bảng-cân-đối-không-hét-lên)
 > (đòn bẩy), [Bài 12 §5](bai_12_ngan_sach_von.md#5-kế-toán-không-được-thiết-kế-để-nhìn-về-tương-lai).
-> ⚠️ Số liệu cập nhật tới **báo cáo năm 2025**; phần đối chiếu chuẩn mực kế toán tính tới 2026.
 
 ---
 
@@ -80,10 +83,11 @@ Bài 14 phải đi trước, vì bốn bài sau đều cần những con số m�
 tỷ lệ nợ trên vốn chủ thì không tính được WACC; không biết ROIC thì không biết doanh nghiệp đang
 tạo hay phá giá trị.
 
-⚠️ **Điều gì thay đổi so với mười ba bài trước.** Không còn mốc `MM:SS` để đối chiếu, vì không có
-video. Đổi lại, **mọi con số trong bài này đọc từ báo cáo tài chính thật đã kiểm toán** — 73
-năm-công-ty của năm doanh nghiệp Việt Nam niêm yết, cộng báo cáo 10-K nộp lên SEC của Walmart,
-Apple và Coca-Cola. Kiểm chứng chuyển từ "đối chiếu phụ đề" sang "đối chiếu đẳng thức kế toán".
+> [!warning] Điều gì thay đổi so với mười ba bài trước.
+> Không còn mốc `MM:SS` để đối chiếu, vì không có
+> video. Đổi lại, **mọi con số trong bài này đọc từ báo cáo tài chính thật đã kiểm toán** — 73
+> năm-công-ty của năm doanh nghiệp Việt Nam niêm yết, cộng báo cáo 10-K nộp lên SEC của Walmart,
+> Apple và Coca-Cola. Kiểm chứng chuyển từ "đối chiếu phụ đề" sang "đối chiếu đẳng thức kế toán".
 
 ---
 
@@ -149,10 +153,11 @@ trình bày khác":
 tất cả, sai số lớn nhất chưa tới **0,018%** tổng tài sản — và phần sai số đó đến từ việc nguồn dữ
 liệu làm tròn ở khoảng sáu chữ số có nghĩa, không phải từ báo cáo.
 
-⚠️ **Bốn đẳng thức này chứng minh cái gì, và KHÔNG chứng minh cái gì.** Chúng chứng minh báo cáo
-**nhất quán**. Chúng **không** chứng minh báo cáo **trung thực**. Enron, Wirecard, và ở Việt Nam là
-FLC hay Tân Hoàng Minh — mọi báo cáo gian lận đều thoả cả bốn đẳng thức, vì gian lận trong kế toán
-kép luôn phải ghi hai bút toán. Đẳng thức là **ngữ pháp**, không phải **sự thật**.
+> [!warning] Bốn đẳng thức này chứng minh cái gì, và KHÔNG chứng minh cái gì.
+> Chúng chứng minh báo cáo
+> **nhất quán**. Chúng **không** chứng minh báo cáo **trung thực**. Enron, Wirecard, và ở Việt Nam là
+> FLC hay Tân Hoàng Minh — mọi báo cáo gian lận đều thoả cả bốn đẳng thức, vì gian lận trong kế toán
+> kép luôn phải ghi hai bút toán. Đẳng thức là **ngữ pháp**, không phải **sự thật**.
 
 ---
 
@@ -219,7 +224,7 @@ là một **sự thật**: cuối ngày trong tài khoản có bao nhiêu thì c
 
 Câu nói của ngành: *"Lợi nhuận là ý kiến, tiền mặt là sự thật."*
 
-📚 **Ba dấu hiệu cảnh báo đọc được ngay từ báo cáo này:**
+> [!note] Ba dấu hiệu cảnh báo đọc được ngay từ báo cáo này:
 
 1. **Lợi nhuận dương nhiều năm mà CFO âm.** Doanh nghiệp đang ghi nhận doanh thu chưa thu được
    tiền, hoặc chất hàng vào kho. Đây là dấu hiệu kinh điển đứng trước phần lớn các vụ đổ vỡ.
@@ -228,10 +233,11 @@ Câu nói của ngành: *"Lợi nhuận là ý kiến, tiền mặt là sự th�
 3. **CFF dương nhiều năm liền ở một doanh nghiệp trưởng thành.** Nó đang sống bằng tiền đi vay và
    phát hành, chứ không phải bằng kinh doanh.
 
-⚠️ Bộ dữ liệu nhúng trong bài này **không có báo cáo lưu chuyển tiền tệ** — nguồn API chỉ cho bảng
-cân đối và kết quả kinh doanh một cách ổn định. Mọi con số ở các mục sau vì thế đều tính từ hai
-báo cáo kia. Ghi rõ ở đây để bạn biết chỗ thiếu, và để bạn tự tra CFO trên báo cáo gốc khi phân
-tích thật.
+> [!warning]
+> Bộ dữ liệu nhúng trong bài này **không có báo cáo lưu chuyển tiền tệ** — nguồn API chỉ cho bảng
+> cân đối và kết quả kinh doanh một cách ổn định. Mọi con số ở các mục sau vì thế đều tính từ hai
+> báo cáo kia. Ghi rõ ở đây để bạn biết chỗ thiếu, và để bạn tự tra CFO trên báo cáo gốc khi phân
+> tích thật.
 
 ---
 
@@ -310,8 +316,9 @@ Ba vòng quay quan trọng nhất, tính năm 2025 ([code §3](#24-code-minh-ho�
 - **HPG** vòng quay tài sản **0,65** — thấp nhất bảng, vì một lò cao là khối tài sản khổng lồ không
   xoay nhanh được.
 
-⚠️ **Vòng quay không đo tốt xấu.** Nó đo **mô hình kinh doanh**. Ép một nhà máy thép quay nhanh như
-một chuỗi bán lẻ là ép một điều bất khả. So sánh chỉ có nghĩa **trong cùng ngành**.
+> [!warning] Vòng quay không đo tốt xấu.
+> Nó đo **mô hình kinh doanh**. Ép một nhà máy thép quay nhanh như
+> một chuỗi bán lẻ là ép một điều bất khả. So sánh chỉ có nghĩa **trong cùng ngành**.
 
 ---
 
@@ -347,9 +354,10 @@ trợ cho nó. Amazon và Dell nổi tiếng vì làm được điều này. Tro
 
 *PNJ giữ hàng tồn kho gần 200 ngày vì vàng và trang sức là hàng trưng bày. FPT gần như không có tồn kho nhưng cho khách nợ lâu nhất.*
 
-⚠️ Số ngày tính từ báo cáo **năm** nên nó là ảnh chụp trung bình cả năm. Ngành có mùa vụ — bán lẻ
-dịp Tết, thép theo chu kỳ xây dựng — sẽ có đỉnh điểm cao hơn hẳn con số này. Người cho vay vốn lưu
-động luôn nhìn số liệu **quý**.
+> [!warning]
+> Số ngày tính từ báo cáo **năm** nên nó là ảnh chụp trung bình cả năm. Ngành có mùa vụ — bán lẻ
+> dịp Tết, thép theo chu kỳ xây dựng — sẽ có đỉnh điểm cao hơn hẳn con số này. Người cho vay vốn lưu
+> động luôn nhìn số liệu **quý**.
 
 ---
 
@@ -377,13 +385,15 @@ khoản nợ, kể cả tiền bạn đang nợ nhà cung cấp — mà khoản 
 chỉ tính khoản **phải trả lãi**. MWG có hệ số đòn bẩy 2,53 nhưng phần lớn là chiếm dụng vốn nhà
 cung cấp; nợ vay thật là 0,90 lần vốn chủ.
 
-⚠️ **EBIT/lãi vay dưới 3 là vùng cảnh báo, dưới 1,5 là vùng nguy hiểm.** HPG ở 6,79 và MWG ở 6,87 —
-an toàn ở mức lãi suất hiện tại, nhưng cả hai đều **nhạy với lãi suất**: nếu lãi vay tăng gấp đôi,
-con số này về khoảng 3,4.
+> [!warning] EBIT/lãi vay dưới 3 là vùng cảnh báo, dưới 1,5 là vùng nguy hiểm.
+> HPG ở 6,79 và MWG ở 6,87 —
+> an toàn ở mức lãi suất hiện tại, nhưng cả hai đều **nhạy với lãi suất**: nếu lãi vay tăng gấp đôi,
+> con số này về khoảng 3,4.
 
-📚 Vì sao dùng **EBIT** chứ không phải lợi nhuận sau thuế ở tử số: lãi vay được trả **trước** thuế,
-nên tiền dùng để trả lãi là tiền chưa bị đánh thuế. Chi tiết này quay lại ở **bài 16**, khi lá chắn
-thuế từ nợ trở thành trung tâm của lý thuyết cơ cấu vốn.
+> [!note]
+> Vì sao dùng **EBIT** chứ không phải lợi nhuận sau thuế ở tử số: lãi vay được trả **trước** thuế,
+> nên tiền dùng để trả lãi là tiền chưa bị đánh thuế. Chi tiết này quay lại ở **bài 16**, khi lá chắn
+> thuế từ nợ trở thành trung tâm của lý thuyết cơ cấu vốn.
 
 ---
 
@@ -396,7 +406,7 @@ $$\text{tỷ số thanh toán hiện hành} = \frac{\text{tài sản ngắn hạ
 
 Năm 2025: PNJ 270% · VNM 193% · MWG 152% · FPT 137% · HPG 105%.
 
-⚠️ **Ba cảnh báo khi đọc con số này:**
+> [!warning] Ba cảnh báo khi đọc con số này:
 
 1. **Cao chưa chắc tốt.** Tỷ số 300% có thể nghĩa là doanh nghiệp đang ôm một đống hàng tồn kho
    không bán được, hoặc để tiền nằm chết thay vì đầu tư.
@@ -454,6 +464,7 @@ của nó chỉ gấp **1,9 lần**. Vì sao? Vì **Walmart quay vòng tài sả
 
 Đó là toàn bộ bài học:
 
+> [!note]
 > **Không có mô hình kinh doanh nào "tốt hơn". Có hai cách kiếm tiền: BÁN ĐẮT (biên dày, quay chậm)
 > hoặc BÁN NHANH (biên mỏng, quay nhanh). Cái chết là doanh nghiệp kẹt ở giữa — biên mỏng MÀ quay
 > chậm.**
@@ -536,13 +547,15 @@ của ba số, phân rã đúng phải làm theo **logarit** ([code §7](#24-cod
 rất lớn. Mua lại cổ phiếu làm giảm **mẫu số** của ROE: nó làm con số đẹp lên mà không cần bán thêm
 một chiếc điện thoại nào.
 
-⚠️ **Hệ quả thực dụng, và đây là thứ đáng mang vào phòng họp:** khi một công ty khoe *"ROE của chúng
-tôi tăng từ 20% lên 30%"*, câu hỏi đầu tiên phải là **"do biên tăng, do quay nhanh hơn, hay do vốn
-chủ giảm?"** — và DuPont trả lời được câu đó trong ba phép chia.
+> [!warning] Hệ quả thực dụng, và đây là thứ đáng mang vào phòng họp:
+> khi một công ty khoe *"ROE của chúng
+> tôi tăng từ 20% lên 30%"*, câu hỏi đầu tiên phải là **"do biên tăng, do quay nhanh hơn, hay do vốn
+> chủ giảm?"** — và DuPont trả lời được câu đó trong ba phép chia.
 
-📚 Nói cho công bằng với Apple: biên của nó cũng tăng thật (21,2% → 26,9%) và vòng quay cũng tăng
-thật. Đòn bẩy chỉ là thành phần **lớn nhất trong ba**, không phải nguyên nhân duy nhất. Đó chính là
-lý do phải phân rã thay vì kết luận vội.
+> [!note]
+> Nói cho công bằng với Apple: biên của nó cũng tăng thật (21,2% → 26,9%) và vòng quay cũng tăng
+> thật. Đòn bẩy chỉ là thành phần **lớn nhất trong ba**, không phải nguyên nhân duy nhất. Đó chính là
+> lý do phải phân rã thay vì kết luận vội.
 
 ---
 
@@ -656,9 +669,10 @@ $$\text{EVA} = (\text{ROIC} - \text{WACC}) \times \text{vốn đầu tư}$$
 |    6 | **Quên rằng mẫu số có thể âm**                   | Doanh nghiệp lỗ luỹ kế đến mức vốn chủ âm sẽ cho ROE **dương** vì âm chia âm. Con số đó vô nghĩa.                                                                         |
 |    7 | **Tin rằng tỷ số đo được chất lượng quản trị**   | Tỷ số đo **kết quả**, và kết quả trộn lẫn năng lực với may mắn ngành. Chu kỳ thép giải thích HPG nhiều hơn bất kỳ quyết định nào của ban lãnh đạo.                        |
 
-⚠️ Cái bẫy thứ 7 chính là bài học lớn nhất của [bài 13](bai_13_thi_truong_hieu_qua.md) áp vào phân
-tích doanh nghiệp: rất khó tách **kỹ năng** khỏi **may mắn** từ dữ liệu kết quả, và số quan sát bạn
-có luôn ít hơn số bạn cần.
+> [!warning]
+> Cái bẫy thứ 7 chính là bài học lớn nhất của [bài 13](bai_13_thi_truong_hieu_qua.md) áp vào phân
+> tích doanh nghiệp: rất khó tách **kỹ năng** khỏi **may mắn** từ dữ liệu kết quả, và số quan sát bạn
+> có luôn ít hơn số bạn cần.
 
 ---
 
@@ -696,9 +710,10 @@ dị thường này cũng phải chịu số phận chung: nó đã yếu đi r�
 4. **Tắm rửa lớn** *(big bath)* — dồn hết khoản xấu vào một năm đã lỗ sẵn, để các năm sau đẹp. Dấu
    vết: **một năm lỗ bất thường lớn ngay sau khi đổi tổng giám đốc**.
 
-📚 Hai công cụ sàng lọc có sẵn cho người học: **Beneish M-score** (1999) cho gian lận lợi nhuận, và
-**Altman Z-score** (1968) cho nguy cơ phá sản. Cả hai chỉ là công thức cộng có trọng số các tỷ số
-trong bài này — chúng **không kết luận** được điều gì, chỉ nói "chỗ này đáng nhìn kỹ".
+> [!note]
+> Hai công cụ sàng lọc có sẵn cho người học: **Beneish M-score** (1999) cho gian lận lợi nhuận, và
+> **Altman Z-score** (1968) cho nguy cơ phá sản. Cả hai chỉ là công thức cộng có trọng số các tỷ số
+> trong bài này — chúng **không kết luận** được điều gì, chỉ nói "chỗ này đáng nhìn kỹ".
 
 ---
 
@@ -727,11 +742,12 @@ Hệ quả:
   **CIR** (chi phí trên thu nhập), và **hệ số an toàn vốn CAR** theo Basel.
 - Chứng khoán, bảo hiểm cũng có bộ chỉ tiêu riêng vì cùng lý do.
 
-⚠️ Và [bài 3 §3](bai_03_don_bay_va_lam_phat.md#3-cùng-một-cú-giảm-10--ba-kết-cục-hoàn-toàn-khác-nhau)
-đã nói trước điều này bằng số học: **nếu tài sản của VCB mất 9,2% giá trị thì vốn chủ sở hữu về
-không.** Đó không phải lời tiên tri — đó là phép chia $1/10{,}88$. Chính con số này là lý do ngân
-hàng bị quản lý chặt hơn mọi ngành khác, và là lý do [bài 13 §24](bai_13_thi_truong_hieu_qua.md#24-vì-sao-ta-cần-quy-định--mã-phòng-cháy)
-dành cả một mục cho quy định.
+> [!warning]
+> Và [bài 3 §3](bai_03_don_bay_va_lam_phat.md#3-cùng-một-cú-giảm-10--ba-kết-cục-hoàn-toàn-khác-nhau)
+> đã nói trước điều này bằng số học: **nếu tài sản của VCB mất 9,2% giá trị thì vốn chủ sở hữu về
+> không.** Đó không phải lời tiên tri — đó là phép chia $1/10{,}88$. Chính con số này là lý do ngân
+> hàng bị quản lý chặt hơn mọi ngành khác, và là lý do [bài 13 §24](bai_13_thi_truong_hieu_qua.md#24-vì-sao-ta-cần-quy-định--mã-phòng-cháy)
+> dành cả một mục cho quy định.
 
 ---
 
@@ -774,10 +790,11 @@ Quyết định 345/QĐ-BTC vạch ba giai đoạn: **2020–2021** chuẩn bị
 cho doanh nghiệp có nhu cầu và đủ nguồn lực; **sau 2025** áp dụng **bắt buộc** cho một số nhóm đối
 tượng do Bộ Tài chính quy định.
 
-⚠️ **Tôi không xác minh được** tình trạng triển khai thực tế của giai đoạn bắt buộc tính đến thời
-điểm viết bài. Hãy tra văn bản hiện hành trước khi dựa vào mốc thời gian này. Điều chắc chắn là:
-trong giai đoạn chuyển đổi, **báo cáo theo VAS và theo IFRS của cùng một doanh nghiệp sẽ ra những
-con số khác nhau**, và bạn phải biết mình đang đọc bản nào.
+> [!warning] Tôi không xác minh được
+> tình trạng triển khai thực tế của giai đoạn bắt buộc tính đến thời
+> điểm viết bài. Hãy tra văn bản hiện hành trước khi dựa vào mốc thời gian này. Điều chắc chắn là:
+> trong giai đoạn chuyển đổi, **báo cáo theo VAS và theo IFRS của cùng một doanh nghiệp sẽ ra những
+> con số khác nhau**, và bạn phải biết mình đang đọc bản nào.
 
 ### Ba lưu ý riêng cho số liệu Việt Nam
 
@@ -805,6 +822,7 @@ Câu hỏi treo lại từ §18 — *"vốn vay đắt hay rẻ so với cái g�
 
 ## 24. Code minh hoạ
 
+> [!note]
 > ⚙️ **Chạy:** cần **Python 3.10+**. Không cần cài gói nào — chỉ dùng thư viện chuẩn.
 > Kết quả **tất định**: chạy hai lần giống hệt nhau.
 
@@ -821,7 +839,7 @@ Coca-Cola nộp lên SEC.
 dựng các tỷ số; **mục 5–7 là phần DuPont**; **mục 8 dựng ROIC và để ngỏ câu hỏi WACC**; mục 9 cho
 thấy ngân hàng nằm ngoài khung.
 
-⚠️ **Hai điều về nguồn dữ liệu, ghi rõ:**
+> [!warning] Hai điều về nguồn dữ liệu, ghi rõ:
 
 - Mã chỉ tiêu của VNDirect **không có tài liệu công khai**. Tôi xác minh chúng bằng hai cách độc
   lập: (a) **bốn đẳng thức kế toán** phải đúng trên cả 73 năm-công-ty, và (b) mã "vay ngắn hạn /
@@ -1387,7 +1405,7 @@ lời Lo ở `S20 49:12` và `S20 53:30` để đánh dấu ranh giới giữa p
 | VNDirect finfo API (`api-finfo.vndirect.com.vn/v4/financial_statements`) | báo cáo năm của MWG, VNM, FPT, HPG, PNJ, VCB |
 | SEC XBRL companyfacts (`data.sec.gov/api/xbrl/companyfacts`)             | báo cáo 10-K của Walmart, Apple, Coca-Cola   |
 
-⚠️ **Chưa xác minh được, ghi rõ ở đây:**
+> [!warning] Chưa xác minh được, ghi rõ ở đây:
 
 - **Mã chỉ tiêu của VNDirect không có tài liệu công khai.** Chúng được xác minh gián tiếp bằng bốn
   đẳng thức kế toán và bằng lãi suất ngụ ý (§24). Cách xác minh này đủ mạnh để tin, nhưng **không

@@ -1,22 +1,21 @@
 # Bài 14 — Mục tiêu SMART và ráp lại thành kế hoạch
 
+> [!info] Về bài này
 > Bài học dựa trên **C1 tr. 34–40** — Unit 5 (*Mục tiêu và lập kế hoạch*) Lesson 1–2 của *Tài chính
 > cá nhân 101, Class 1*. Đây là **bài cuối** của khoá.
->
 > **Cần đọc trước:** không phải một bài, mà **cả mười ba bài trước** — bài này ráp chúng lại. Đặc
 > biệt [bài 12](bai_12_rui_ro_khau_vi_phan_bo.md) (công thức tự do tài chính, khẩu vị) và
 > [bài 13](bai_13_kenh_dau_tu.md) (danh mục bốn kênh).
->
 > **[đã cắt]:** Lesson 2 của sách (*"5 bước lập kế hoạch tự do tài chính cùng TOPI"*, tr. 39–40) là
 > hướng dẫn dùng app. Khoá học thay bằng **bảng tính tự dựng** — và điều bất ngờ là năm bước ấy
 > **chính là cả khoá học này**. [Mục 4](#4-đã-cắt-5-bước-cùng-topi-chính-là-cả-khoá-học).
->
 > **Ký hiệu:** **[bổ sung]** ngoài sách · **[đính chính]** chỗ sách sai · **[đã cắt]** phần thương
 > mại thay bằng cách khác.
->
 > **Code:** [`thuc_hanh/bai-14-ke-hoach.py`](../thuc_hanh/bai-14-ke-hoach.py)
 > — dựng bảng kế hoạch tự do tài chính cho người ở bài 3 từ chính số của các bài trước, và tính số
 > tiền đích theo lợi suất thực. Công thức một dòng kèm theo.
+>
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
 
 ---
 
@@ -53,6 +52,7 @@ Sách mở Unit 5 bằng một lời khuyên đáng làm trước khi đọc ti�
 tiêu về tài chính mà bạn muốn trong vòng từ 1 đến 10 năm tới"* — đừng hạn chế trí tưởng tượng, rồi
 mới tinh chỉnh bằng SMART. Và một câu rất hay về động lực (tr. 34):
 
+> [!quote]
 > *"Nếu 'Tại sao' đủ lớn thì 'Làm thế nào' trở nên đơn giản."*
 
 ---
@@ -133,6 +133,7 @@ khi cắt, hãy nhìn kỹ năm bước ấy — vì **mỗi bước đúng bằ
 | **4.** Xác định mục tiêu và lập kế hoạch | mục tiêu SMART | **bài 14** (mục 2–3) |
 | **5.** Mô phỏng và đề xuất danh mục | danh mục theo khẩu vị + số đích | [bài 13](bai_13_kenh_dau_tu.md), công thức [bài 12](bai_12_rui_ro_khau_vi_phan_bo.md) |
 
+> [!quote]
 > **Cái app làm không phải phép màu — nó chỉ nhập giúp năm thứ bạn đã tự tính được.** Và chính sách
 > thừa nhận: bước 3 bảo *"xem lại 'Cách thiết lập hồ sơ rủi ro' trong các bài trước"*. Nghĩa là ngay
 > tài liệu cũng biết nội dung nằm ở bài học, không nằm ở app.

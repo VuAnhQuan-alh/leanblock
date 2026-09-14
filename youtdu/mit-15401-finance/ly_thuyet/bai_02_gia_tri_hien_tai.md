@@ -1,20 +1,18 @@
 # Bài 2 — Giá trị hiện tại: dòng tiền ở hai thời điểm là hai loại tiền tệ
 
+> [!info] Về bài này
 > Bài học dựng trên **hai video**: **"Ses 2: Present Value Relations I"** (`U03Md5enU-0`, 75:50) và
 > **"Ses 3: Present Value Relations II"** (`4F1J5Q3DiaI`, 80:12) — khoá **MIT 15.401 *Finance
 > Theory I*, Fall 2008**, giảng viên **Prof. Andrew W. Lo**. Phụ đề gốc do người viết tay.
->
 > 🕑 **Cách đọc mốc thời gian.** Bài này gộp hai buổi, nên mọi mốc đều có tiền tố:
 > `S2 45:33` = buổi 2, phút 45:33 · `S3 30:22` = buổi 3, phút 30:22. Mỗi mốc đã được đối chiếu
 > ngược với **đúng** phụ đề của video đó.
 >
-> 📚 **Mở rộng** — kiến thức video lướt qua hoặc bài học này bổ sung, **không có trong video**.
-> 🇻🇳 **Góc Việt Nam** — số liệu và ví dụ trong nước (mục 15), **không có trong video**.
-> ⚠️ Các mục đối chiếu 2026: **11** (trái phiếu vĩnh viễn của Anh đã biến mất), **2** (mốc ghi hình).
-> 📌 **Cần đọc trước:** [Bài 1](bai_01_tai_chinh_la_gi.md) — đặc biệt là
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
+>
+> **Cần đọc trước:** [Bài 1](bai_01_tai_chinh_la_gi.md) — đặc biệt là
 > [mục 17](bai_01_tai_chinh_la_gi.md#17-bốn-mảnh-lý-thuyết-buổi-1-còn-thiếu), nơi đã nêu trước
 > công thức PV và nguyên lý không-arbitrage. Bài này là chỗ hai thứ đó gặp nhau.
->
 > Công thức viết bằng LaTeX — mở bằng **Obsidian** hoặc VS Code + Markdown Preview Enhanced.
 
 ---
@@ -53,11 +51,13 @@ Buổi 2 mở đầu bằng việc trả nốt câu chuyện còn dở. Ở bài
 **$45** cho một chiếc iPod Nano giá lẻ **$149**. Ông có **hai** gói, và tung đồng xu để chọn gói nào
 bán cho lớp nào. Giờ ông tiết lộ gói kia (`S2 00:34`):
 
+> [!quote]
 > *"Gói to hơn hoá ra là một cuốn sách. Thật ra là một cuốn sách tôi mới xuất bản về quỹ đầu cơ.
 > Và hoá ra phiên đấu giá món thứ hai đó chốt ở **$60**."*
 
 Rồi có sinh viên hỏi giá bìa. Lo đáp (`S2 01:48`):
 
+> [!quote]
 > *"Cuốn sách bán lẻ **$45**. Tất nhiên là tôi có ký tặng, nên chắc điều đó làm giảm giá bán lại."*
 
 Đặt hai phiên cạnh nhau thì ra một thứ khó chịu:
@@ -71,6 +71,7 @@ Cùng một điều kiện thông tin — **bằng không** — mà một hộp 
 **trên** giá 33 %. Biến duy nhất thay đổi giữa hai phiên là **kích thước gói**. Lo nói thẳng
 (`S2 01:33`):
 
+> [!quote]
 > *"Thật ra tôi nghĩ chính là kích thước của các gói hàng, tin hay không thì tuỳ. Nên ai bảo bạn
 > rằng kích thước không quan trọng thì người đó không thực tế."*
 
@@ -83,6 +84,7 @@ tín hiệu đó vô nghĩa đến đâu.
 
 Và Lo tóm bằng một câu sẽ chạy suốt buổi học (`S2 00:56`):
 
+> [!quote]
 > *"Điều đó cho các bạn thấy sức mạnh của thông tin — hoặc của việc thiếu thông tin — trong việc
 > xác định giá trị."*
 
@@ -92,6 +94,7 @@ Và Lo tóm bằng một câu sẽ chạy suốt buổi học (`S2 00:56`):
 
 Trước khi vào bài, Lo dành gần 20 phút cho thời sự. Và đây là chỗ buổi học này trở nên đặc biệt.
 
+> [!quote]
 > *"Chuyện xảy ra cuối tuần qua là chuyện có lẽ chưa từng xảy ra kể từ thời Đại Suy thoái. Chuyện
 > xảy ra cuối tuần qua là chính phủ liên bang đã tiếp quản hai trong số các định chế tài chính do
 > nhà nước bảo trợ lớn nhất thế giới, **Fannie Mae và Freddie Mac**."* — `S2 03:15`–`S2 03:34`
@@ -113,17 +116,20 @@ giảng học kỳ Thu 2008 vào thứ Tư 3/9), và **buổi 3 là thứ Tư 10
 
 Ý nghĩa của con số đó thì lạnh người. Ở buổi 3, Lo nói về Lehman Brothers (`S3 09:47`):
 
+> [!quote]
 > *"Lehman Brothers là một tay chơi lớn trong các loại chứng khoán này, và họ đang chịu rất nhiều
 > sức ép. Giá cổ phiếu của họ đã rơi mạnh, ngay cả trong vài ngày gần đây."*
 
 Rồi ông nói tiếp (`S3 10:19`):
 
+> [!quote]
 > *"Hãy tưởng tượng nếu Freddie và Fannie không được cứu. Gần như chắc chắn Lehman sẽ sụp ngay lập
 > tức như một hiệu ứng dây chuyền."*
 
 **Lehman nộp đơn phá sản ngày 15/9/2008 — năm ngày sau buổi 3.** Lo đang nhìn thẳng vào nó và không
 biết mình đang nhìn vào cái gì.
 
+> [!note]
 > 📌 Bài 1 nay đã được cập nhật theo mốc này. Xem
 > [bài 1, mục 14](bai_01_tai_chinh_la_gi.md#14-bài-giảng-này-ghi-ngay-trước-khi-lehman-sụp).
 
@@ -131,6 +137,7 @@ biết mình đang nhìn vào cái gì.
 
 Đây là đoạn hay nhất buổi. Lo lấy nguyên màn đấu giá ở bài 1 và thay ruột hộp (`S2 07:56`):
 
+> [!quote]
 > *"Bây giờ thay vì một chiếc iPod trong gói giấy, hãy tưởng tượng gói giấy đó chứa **giấy tờ do
 > Fannie Mae hoặc Freddie Mac phát hành**. Và giờ tôi hỏi các bạn, các bạn trả giá cho tờ giấy này
 > chứ? Tôi không biết Freddie Mac hay Fannie Mae có còn tồn tại sau hai năm nữa không, nhưng tôi vẫn
@@ -138,6 +145,7 @@ biết mình đang nhìn vào cái gì.
 
 Rồi câu này (`S2 08:22`):
 
+> [!quote]
 > *"Cái bạn nhận được cho tờ giấy này, tôi cũng không thực sự biết, nên nó được gói lại. Và bạn cũng
 > không biết. **Bạn không biết. Tôi không biết. Bạn biết là tôi không biết. Và tôi biết rằng bạn biết
 > là tôi biết rằng tôi không biết.** Vậy tờ giấy đó sẽ bán được bao nhiêu? Chắc là dưới 30 xu trên
@@ -150,15 +158,17 @@ và thị trường ngừng hoạt động.
 
 Lo kết (`S2 08:36`):
 
+> [!quote]
 > *"Cái ta thấy xảy ra trong lớp học này lần trước chính xác là cái đã xảy ra ở quy mô khủng khiếp
 > hơn nhiều với hai tổ chức lớn đó."*
 
-📚 **Một chi tiết đáng chú ý cho người đọc 2026.** Ở `S2 09:56` một sinh viên hỏi chính phủ lấy tiền
-đâu ra để bảo lãnh. Lo đáp: *"Họ sở hữu máy in tiền."* Rồi sinh viên hỏi ngay: *"Vậy chắc chúng ta
-sắp bị lạm phát?"* Lo trả lời (`S2 10:09`): *"Đó là mối lo. Có thể là vấn đề. Ta sẽ phải chờ xem."*
-— Thực tế: lạm phát Mỹ **không** bùng lên sau 2008; nó ngủ yên gần 13 năm rồi mới bùng năm 2021–2022,
-vì một nguyên nhân khác (đứt gãy cung ứng hậu COVID cộng kích thích tài khoá). Câu hỏi đúng, thời
-điểm sai.
+> [!note] Một chi tiết đáng chú ý cho người đọc 2026.
+> Ở `S2 09:56` một sinh viên hỏi chính phủ lấy tiền
+> đâu ra để bảo lãnh. Lo đáp: *"Họ sở hữu máy in tiền."* Rồi sinh viên hỏi ngay: *"Vậy chắc chúng ta
+> sắp bị lạm phát?"* Lo trả lời (`S2 10:09`): *"Đó là mối lo. Có thể là vấn đề. Ta sẽ phải chờ xem."*
+> — Thực tế: lạm phát Mỹ **không** bùng lên sau 2008; nó ngủ yên gần 13 năm rồi mới bùng năm 2021–2022,
+> vì một nguyên nhân khác (đứt gãy cung ứng hậu COVID cộng kích thích tài khoá). Câu hỏi đúng, thời
+> điểm sai.
 
 ---
 
@@ -173,9 +183,11 @@ công bố toàn bộ**, và sau 17 năm là hết độc quyền (`S2 24:03`).
 
 Rồi ông xoá sạch bảng (`S2 27:51`):
 
+> [!quote]
 > *"Tôi muốn các bạn quên hết những cái đó đi. Tôi muốn các bạn nghĩ về tài sản theo một cách hoàn
 > toàn khác. Tôi muốn rút tài sản về những tính chất cốt lõi nhất của nó."*
 
+> [!note]
 > **Định nghĩa.** Một **tài sản** tại thời điểm $t$ đơn giản là một **dãy các dòng tiền hiện tại và
 > tương lai**:
 > $$\text{Tài sản}_t \;=\; \{CF_t,\; CF_{t+1},\; CF_{t+2},\; \dots\}$$
@@ -187,14 +199,17 @@ Bốn hệ quả, và Lo đi qua từng cái vì lớp học liên tục vặn:
 
 **2. Tài sản phải gắn với một thời điểm.** (`S2 29:16`)
 
+> [!quote]
 > *"Nói 'tài sản là Coca-Cola' thì chưa đủ. Bạn phải nói tài sản là **Coca-Cola hôm nay**, khác với
 > Coca-Cola mười năm trước, khác với Coca-Cola một trăm năm nữa. Đó là những tài sản khác nhau."*
 
+> [!quote]
 > *"Cái này giống nghịch lý thiền: không ai tắm hai lần trên một dòng sông, vì nước vẫn đang chảy."*
 > — `S2 29:41`
 
 **3. Là một DÃY, không phải một TỔNG.** Một sinh viên hỏi thẳng và Lo chốt thẳng (`S2 31:47`):
 
+> [!quote]
 > — *"Vậy nó là một dãy dòng tiền, không phải một tổng?"*
 > — *"Đúng, không phải tổng. Là một dãy, tức là một danh sách các dòng tiền ở các thời điểm khác
 > nhau trong tương lai."*
@@ -202,6 +217,7 @@ Bốn hệ quả, và Lo đi qua từng cái vì lớp học liên tục vặn:
 Phân biệt này quan trọng hơn vẻ ngoài của nó, và mục 4 sẽ cho thấy vì sao: **tài sản** là cái đầu
 vào, **giá trị** là cái đầu ra. Lẫn hai thứ là lỗi mà Lo phải sửa lại ở buổi sau (`S3 23:33`):
 
+> [!quote]
 > *"Bạn có thể có một con tàu vũ trụ bay lên mặt trăng. Đó là một tài sản. Giá trị của con tàu vũ
 > trụ bay lên mặt trăng — đó lại là chuyện khác."* — `S3 23:51`
 
@@ -212,11 +228,13 @@ một tài sản hợp lệ (`S2 35:06`).
 
 Lo dùng một phép ẩn dụ mà đáng nhớ (`S2 30:57`):
 
+> [!quote]
 > *"Bạn có thể coi tài sản là các phân tử hoặc nguyên tử của một lý thuyết trường thống nhất về tài
 > chính. Còn proton và electron — đó là các dòng tiền."*
 
 Và ông giải thích vì sao một định nghĩa trừu tượng đến thế lại có ích (`S2 35:28`):
 
+> [!quote]
 > *"Càng phức tạp thì bộ khung này càng quan trọng. Bởi vì dù bài toán trước mặt bạn có đáng sợ đến
 > đâu, rốt cuộc **một tài sản là một dãy dòng tiền**. Về mặt khái niệm thì đơn giản. Phần khó là tìm
 > ra các dòng tiền đó là gì."*
@@ -228,6 +246,7 @@ Và ông giải thích vì sao một định nghĩa trừu tượng đến thế
 Nếu tài sản là dãy dòng tiền, thì **định giá** là một hàm số. Lo đặt tên cho nó trước khi biết nó là
 gì — một thủ thuật ông thừa nhận là *"cái mẹo mà các nhà kinh tế học vẫn dùng"* (`S2 36:53`):
 
+> [!quote]
 > $$V_t\big(\{CF_t, CF_{t+1}, \dots\}\big) \;=\; \text{một con số}$$
 > *"Đó là một hàm nhận đầu vào là một dãy dòng tiền và nhả ra một con số, cái mà tôi sẽ gọi là giá
 > trị của tài sản tại thời điểm $t$."* — `S2 37:13`
@@ -235,9 +254,11 @@ gì — một thủ thuật ông thừa nhận là *"cái mẹo mà các nhà ki
 Rồi ông hỏi cả lớp: **một ví dụ của $V$ mà tất cả các bạn đều đã biết là gì?** Câu trả lời:
 **giá thị trường** (`S2 38:11`).
 
+> [!quote]
 > *"Vậy một ví dụ của $V_t$ là **thị trường tại thời điểm $t$**. Đó chính là cái ta làm lần trước.
 > Ta có một toán tử giá trị. Nhét một cái hộp gói giấy vào, và $45 rơi ra."* — `S2 38:35`
 
+> [!quote]
 > *"Cái ta sắp làm là **tháo tung cái hộp đó ra** xem nó chạy thế nào, và xem nó có thật sự chạy
 > không."* — `S2 38:35`
 
@@ -246,6 +267,7 @@ Rồi ông hỏi cả lớp: **một ví dụ của $V$ mà tất cả các bạ
 Trước khi tính bất cứ thứ gì, Lo bắt vẽ đường thời gian, và ông rất nghiêm túc về việc này
 (`S2 40:42`):
 
+> [!quote]
 > *"Để hiểu được giá trị của một tài sản, bạn phải biết **thời điểm** của các dòng tiền. Trong tài
 > chính, thời gian là tất cả."*
 
@@ -259,6 +281,7 @@ Trước khi tính bất cứ thứ gì, Lo bắt vẽ đường thời gian, v�
 
 Và đây là lời khuyên thực dụng nhất của cả buổi (`S2 42:43`):
 
+> [!quote]
 > *"Xem như một mẹo cho bài giữa kỳ và cuối kỳ: bất cứ khi nào phải làm một phép tính giá trị hiện
 > tại, tôi muốn thấy cái này. Tôi muốn thấy rằng bạn biết mọi thứ xảy ra lúc nào. Bởi vì **chín
 > trên mười lần bạn tính sai định giá, đó là vì bạn xếp cái này sai chỗ.**"*
@@ -278,9 +301,11 @@ chính cả lớp — và cả Lo — lúng túng giữa $T$ và $T+1$.
 
 Lo hỏi cả lớp một câu có vẻ ngớ ngẩn (`S2 44:57`):
 
+> [!quote]
 > *"Chuyện gì xảy ra khi bạn cộng **150 yên** với **300 bảng Anh**? Bằng 450 cái gì? 450 đô la à?
 > Nếu bạn tin thế thì xin gặp tôi sau giờ học, chúng ta sẽ cần làm vài giao dịch."*
 
+> [!quote]
 > *"Rõ ràng 450 chẳng có nghĩa gì. **Nó giống như cộng cân nặng của bạn với tuổi của bạn.** Con số
 > đó có thể thú vị, nhưng không có cách nào diễn giải nó."* — `S2 45:33`
 
@@ -288,12 +313,14 @@ Lo hỏi cả lớp một câu có vẻ ngớ ngẩn (`S2 44:57`):
 
 $$150\ \text{yên} + 300\ \text{bảng} = 46{.}050\ \text{yên} \;=\; 300{,}98\ \text{bảng}$$
 
+> [!note]
 > 📚 Hai con số này ngầm định tỷ giá **1 bảng = 153 yên** (vì $300 \times 153 = 45.900$, cộng 150 ra
 > 46.050; và $150/153 = 0{,}98$ bảng). Đây là số minh hoạ do Lo tự đặt — tỷ giá thật tháng 9/2008
 > quanh 190 yên/bảng. Không ảnh hưởng gì đến lập luận, nhưng nếu bạn tự tính lại thì đừng bối rối.
 
 Đơn vị được chọn làm chuẩn có tên riêng (`S2 46:58`):
 
+> [!quote]
 > **Numeraire** — *"một đơn vị tính toán, hay một chuẩn, mà ta dùng để đo mọi thứ."*
 
 Chọn yên hay bảng đều được. Nhà đầu tư Anh thì chọn bảng, nhà đầu tư Nhật thì chọn yên. **Kết luận
@@ -301,10 +328,12 @@ không đổi, chỉ đơn vị đổi.**
 
 Và giờ là cú nhảy (`S2 47:41`–`S2 48:18`):
 
+> [!quote]
 > *"Đúng cái bài tập ấy phải được áp dụng cho **tiền hôm nay so với tiền ngày mai**. Bởi vì hai thứ
 > đó không giống nhau. Nó giống như yên và bảng. Chúng không như nhau. Chúng không mua được cùng
 > một thứ. Chúng không được dùng theo cùng một cách. Chúng có thị trường khác nhau."*
 
+> [!quote]
 > *"**Dòng tiền ở các thời điểm khác nhau giống như các loại tiền tệ khác nhau.** Muốn cộng chúng
 > lại, bạn phải dùng đúng tỷ giá."*
 
@@ -315,6 +344,7 @@ Và giờ là cú nhảy (`S2 47:41`–`S2 48:18`):
 
 Và nếu bạn có $T$ kỳ, bạn có $T$ loại tiền tệ (`S2 49:43`):
 
+> [!quote]
 > *"Mỗi một ngày là một loại tiền tệ khác nhau. Và tôi cần quy đổi chúng để cộng được."*
 
 ---
@@ -330,6 +360,7 @@ với $d_0 = 1$ (đô la hôm nay quy về đô la hôm nay thì không cần đ
 
 Lo đặt tên (`S2 51:48`):
 
+> [!note]
 > **Giá trị hiện tại ròng** (*net present value*, NPV) là giá trị tại thời điểm 0 của dãy dòng tiền.
 
 Vì sao "hiện tại"? Vì đơn vị là **đô la hôm nay**. Vì sao "ròng"? Vì đã **trừ đi khoản đầu tư ban
@@ -351,15 +382,18 @@ $$NPV = -10 + 0{,}90 \times 5 + 0{,}80 \times 7 = +0{,}1\ \text{triệu đô} = 
 
 Rồi câu hỏi quản trị (`S2 62:34`):
 
+> [!quote]
 > *"Có nên nhận dự án này không? Để tôi hỏi lại: bạn có muốn 100.000 đô không? Nếu không, lại gặp
 > tôi sau giờ học, tôi sẽ giúp bạn giải quyết vấn đề này."*
 
 Và ông nối thẳng về bài 1 (`S2 62:55`):
 
+> [!quote]
 > *"Nhớ hôm đầu tiên tôi bảo rằng một khi đã định giá được thì quản trị là chuyện tầm thường chứ?
 > Tôi không đùa đâu. Đây là ví dụ. **Phần định giá là phần khó. Phần quản trị, tức là ra quyết định,
 > thì dễ — một khi bạn có đúng những con số trước mặt.**"*
 
+> [!note]
 > 📚 **Một điều Lo không nói ra ở đây, mà mục 16 sẽ kiểm.** Hai tỷ giá 0,90 và 0,80 **không** ứng
 > với một lãi suất duy nhất. Từ 0,90 suy ra $r_1 = 11{,}11\%$; từ 0,80 suy ra $r_2 = 11{,}80\%$. Ví
 > dụ của Lo ngầm giả định lãi suất **không phẳng** — tức là đã có một **đường cong lãi suất**. Đó là
@@ -371,6 +405,7 @@ Và ông nối thẳng về bài 1 (`S2 62:55`):
 
 Lo dừng lại và tự vặn mình (`S2 53:58`):
 
+> [!quote]
 > *"Tôi có một câu hỏi chưa được trả lời. Nghe thì hay đấy. Nhưng tôi vừa rút cái gì đó ra từ không
 > khí. Tôi đã rút cái gì ra từ không khí?"*
 > — *"Tỷ giá."*
@@ -379,6 +414,7 @@ Lo dừng lại và tự vặn mình (`S2 53:58`):
 Câu trả lời, lần thứ ba trong hai buổi học: **từ thị trường** (`S2 54:11`). Và Lo chứng minh ngay tại
 chỗ bằng cách mở một phiên đấu giá thứ hai (`S2 54:33`):
 
+> [!quote]
 > *"Tôi có một chứng khoán trả **$1 sau một năm kể từ hôm nay**. Ai trả tôi một xu cho tờ giấy này?
 > Ai trả 50 xu? 75 xu? 80? 90? 95? 97? 98? — Thôi được. **97 xu ăn một đô.** Đó, tỷ giá nằm ngay
 > đó. Xong."*
@@ -387,6 +423,7 @@ $$d_1 = 0{,}97 \quad\Longrightarrow\quad \$1 \text{ sau một năm } = \$0{,}97 
 
 Rồi ông nói một câu vừa đùa vừa thật (`S2 55:05`):
 
+> [!quote]
 > *"Nhân tiện, tôi rất cảm kích. Đó là rất nhiều niềm tin vào mức độ tín nhiệm của tôi. Chiết khấu
 > chỉ có 3 %."*
 
@@ -394,16 +431,19 @@ Chú ý cấu trúc lập luận, vì nó lặp lại suốt khoá: **Lo không 
 **đo** nó, bằng đúng cái cơ chế đã tạo ra con số $45 ở bài 1. Và ông nói rõ vì sao điều đó quan trọng
 (`S2 56:28`):
 
+> [!quote]
 > *"Đó là lý do các thị trường tài chính quan trọng đến thế. Vì ta cần những đầu vào đó cho quá
 > trình định giá. Nếu thị trường tài chính không tồn tại, ta không làm được việc này. Tôi sẽ phải
 > khua tay và nói, à thì bạn lấy nó từ một nguồn lý thuyết nào đó. Bạn cứ bịa ra. Nghe không thuyết
 > phục lắm. Mà đúng là không thuyết phục thật."*
 
+> [!quote]
 > *"Sức mạnh của thị trường tài chính là **trí tuệ đám đông**. Và dù bạn thích hay không, các bạn
 > chính là cái trí tuệ mà chúng ta đang khai thác."* — `S2 56:45`
 
 Cuối cùng, đổi tên (`S2 57:27`):
 
+> [!quote]
 > *"Để ý rằng các tỷ giá này đôi khi được gọi là **hệ số chiết khấu** (*discount factors*). Lý do
 > gọi thế là vì chúng thường là những số **nhỏ hơn 1**."*
 
@@ -413,15 +453,18 @@ Cuối cùng, đổi tên (`S2 57:27`):
 
 Đây là câu hỏi hay nhất mà một sinh viên đặt ra trong cả hai buổi, và Lo cũng khen thế (`S2 58:09`):
 
+> [!quote]
 > — *"Chính xác thì thầy đang chiết khấu **cái gì**, nếu mọi thứ hoàn toàn chắc chắn? Sự thiếu kiên
 > nhẫn của em à?"*
 
 Nhớ lại: từ `S2 43:17` Lo đã tuyên bố cả buổi 2 và 3 chạy trong **thế giới không có bất định**.
 Không có rủi ro vỡ nợ. Không có ngẫu nhiên. Vậy tại sao $1 sang năm lại đáng giá dưới $1?
 
+> [!quote]
 > *"Đó là **sự thiếu kiên nhẫn**. Người ta muốn tiêu dùng bây giờ chứ không phải sau này. Và do đó,
 > nếu bạn muốn bắt ai đó tiêu dùng muộn hơn, bạn phải cho họ một động lực nào đó."* — `S2 58:28`
 
+> [!quote]
 > *"Để tôi lấy được đô la của bạn ngay bây giờ và trả lại bạn sau một năm — tức là bạn không được
 > tiêu đô la đó hôm nay — thì tôi phải làm cho nó đáng để bạn chờ. Nghĩa là bạn đưa tôi 97 xu bây
 > giờ và tôi trả lại bạn $1 sang năm. **Tôi trả thêm cho bạn khoản thời gian mà bạn phải chờ.**"*
@@ -430,7 +473,8 @@ Không có rủi ro vỡ nợ. Không có ngẫu nhiên. Vậy tại sao $1 sang
 Một sinh viên khác bổ sung góc nhìn ngược lại, và Lo đồng ý ngay (`S2 59:16`): bạn cũng có thể **cho
 người đang cần dùng tiền hôm nay vay**, và tính phí họ vì đặc quyền đó.
 
-📚 **Bốn nguồn của chiết khấu — chỉ một cái áp dụng ở bài này.** Đây là chỗ dễ lẫn nhất, nên tách rõ:
+> [!note] Bốn nguồn của chiết khấu — chỉ một cái áp dụng ở bài này.
+> Đây là chỗ dễ lẫn nhất, nên tách rõ:
 
 | Nguồn                                        | Có trong bài 2 không?      | Học ở đâu    |
 | -------------------------------------------- | -------------------------- | ------------ |
@@ -442,19 +486,22 @@ người đang cần dùng tiền hôm nay vay**, và tính phí họ vì đặc
 Ngay trong buổi, một sinh viên nêu lạm phát và Lo gạt sang một bên rất dứt khoát (`S2 59:46` và
 `S2 60:50`):
 
+> [!quote]
 > *"Đúng, tôi sẽ nói đến chuyện đó ở cuối bài giảng này. Đó là một lý do khác khiến có chiết khấu.
 > Không chỉ là ưa thích thời gian."* … *"Hãy tạm gác lạm phát lại, vì tôi không muốn mọi người bị
 > rối vì nó."*
 
 Ông cũng đã trả lời sẵn một câu hỏi mà bài 1 để ngỏ (`S2 60:12`):
 
+> [!quote]
 > *"**Giảm phát có thể xảy ra. Lãi suất thực âm có thể xảy ra** trong một số giai đoạn phát triển
 > kinh tế bất thường."*
 
-⚠️ Chú ý ông nói **lãi suất thực** âm — cái đó đúng và đã xảy ra nhiều lần. Khác với lời hứa ở
-[bài 1 mục 12](bai_01_tai_chinh_la_gi.md#12-đối-chiếu-2026--chỗ-lo-nói-chắc-mà-lịch-sử-đã-bác),
-nơi ông nói **lãi suất danh nghĩa** không thể âm. Hai phát biểu khác nhau, và chỉ cái sau bị lịch sử
-bác.
+> [!warning]
+> Chú ý ông nói **lãi suất thực** âm — cái đó đúng và đã xảy ra nhiều lần. Khác với lời hứa ở
+> [bài 1 mục 12](bai_01_tai_chinh_la_gi.md#12-đối-chiếu-2026--chỗ-lo-nói-chắc-mà-lịch-sử-đã-bác),
+> nơi ông nói **lãi suất danh nghĩa** không thể âm. Hai phát biểu khác nhau, và chỉ cái sau bị lịch sử
+> bác.
 
 ---
 
@@ -462,10 +509,12 @@ bác.
 
 Mang $T$ tỷ giá theo người thì phiền. Lo muốn nén tất cả về **một** con số (`S2 70:23`):
 
+> [!quote]
 > *"Đó là chuyện đau đầu, phải mang theo $T$ con số. Hơn nữa còn có tỷ giá giữa ngày $T+k$ và $T+j$.
 > Bất kỳ hai ngày nào cũng phải có tỷ giá giữa chúng. Chẳng mấy chốc số tỷ giá bạn phải nhớ trong đầu
 > trở nên vô lý."*
 
+> [!quote]
 > *"**Đó là lý do người ta nghĩ ra đồng Euro.** Họ cố hợp nhất bớt một số tỷ giá."* — `S2 70:41`
 
 Cách nén: đi **ngược chiều**. Thay vì hỏi "$1 sang năm đáng bao nhiêu hôm nay", hỏi "$1 hôm nay đáng
@@ -503,6 +552,7 @@ Và Lo nhắc lại, lần thứ tư (`S2 70:59`): $r$ **cũng lấy từ thị 
 
 Cuối buổi 2, Lo giao bài tự luyện (`S2 73:40`):
 
+> [!quote]
 > *"Hãy tự kiểm tra mình. Nếu bạn có $100 hôm nay và $r = 7\%$, thì $100 đó đáng bao nhiêu sau ba
 > năm? Hoặc nếu bạn có $180 sau ba năm, và muốn biết nó đáng bao nhiêu **sau một năm** chứ không phải
 > sau ba năm, với $r = 8\%$, thì bằng bao nhiêu?"*
@@ -526,6 +576,7 @@ Về giả định 3, Lo lấy ví dụ rất đời (`S2 65:01`): khi bạn ra 
 
 Và ông đặt **hạn dùng** rõ ràng (`S2 65:49`):
 
+> [!quote]
 > *"Cho tới bài giảng 12 — còn xa lắm — tôi sẽ giả định các giả định này đúng. Sau bài 12 tôi sẽ
 > quay lại và **chất vấn, mở rộng và sửa lại từng cái một** một cách có hệ thống."*
 
@@ -533,6 +584,7 @@ So sánh với [hợp đồng sư phạm ở bài 1](bai_01_tai_chinh_la_gi.md#1
 Lo lại làm đúng một việc — nói trước cái gì là xấp xỉ, và nói trước khi nào sẽ tháo nó ra. Đây là
 kiểu trung thực trí tuệ đáng học theo, không chỉ trong tài chính.
 
+> [!quote]
 > ⚠️ **Một chi tiết nhỏ, kiểm cho vui.** Ở `S2 66:08` Lo nói: *"khi tôi bảo các bạn hôm khai giảng
 > rằng các bạn không chịu nổi sự thật…"*. Câu *"you can't handle the truth"* **không có** trong bản
 > ghi buổi 1. Nhiều khả năng ông nói nó ở lớp còn lại — Lo dạy **hai** lớp song song và tự nhắc điều
@@ -546,18 +598,22 @@ kiểu trung thực trí tuệ đáng học theo, không chỉ trong tài chính
 Buổi 3 dồn phần lớn thời lượng cho hai công thức. Lo giới thiệu cái thứ nhất bằng lời lẽ khá bất
 thường (`S3 29:45`):
 
+> [!quote]
 > *"…một trong những công thức đẹp nhất của cả khoá học này. Nghe có vẻ lạ khi tôi gọi một công thức
 > là đẹp."*
 
 Rồi ông mượn Paul Samuelson (`S3 30:04`):
 
+> [!quote]
 > *"Paul Samuelson, nhà kinh tế học lớn ở MIT, từng nói rằng hoặc bạn thấy lý thuyết xác suất là đẹp,
 > hoặc không. Và nếu bạn không thấy nó đẹp thì tôi thấy tiếc cho bạn. Tôi nghĩ điều tương tự cũng
 > đúng với công thức này."*
 
+> [!note]
 > **Vĩnh viễn** (*perpetuity*): một tờ giấy trả cho người cầm nó **$C$ mỗi năm, mãi mãi**, bắt đầu
 > từ **năm sau**. — `S3 30:40`
 
+> [!quote]
 > *"Nó là món quà cứ cho mãi."* — `S3 31:42`
 
 Trực giác đầu tiên của ai cũng là: trả vô hạn tiền thì phải đáng giá vô hạn. **Sai** (`S3 32:02`) —
@@ -565,6 +621,7 @@ vì giá trị hiện tại của một đô la trả ở tương lai xa **giả
 
 $$PV = \sum_{t=1}^{\infty} \frac{C}{(1+r)^t} \;=\; \boxed{\dfrac{C}{r}}$$
 
+> [!quote]
 > *"Nếu tôi có một tờ giấy trả $100 mỗi năm mãi mãi, và lãi suất là 10 %, tờ giấy đó đáng bao nhiêu?"*
 > — *"$1.000."* — *"Chính xác."* — `S3 33:53`
 
@@ -582,6 +639,7 @@ Trừ $S$ khỏi cả hai vế:
 
 $$(1+r)S - S = C \quad\Longrightarrow\quad rS = C \quad\Longrightarrow\quad S = \frac{C}{r}$$
 
+> [!note]
 > 📌 **Điều kiện hội tụ.** Phép nhân–trừ trên chỉ hợp lệ khi chuỗi hội tụ, tức khi
 > $\left|\dfrac{1}{1+r}\right| < 1$, tức khi $r > 0$. Với $r \le 0$ thì tổng phân kỳ và công thức vô
 > nghĩa. Mục 12 sẽ gặp lại đúng vấn đề này ở dạng khó chịu hơn.
@@ -594,6 +652,7 @@ không tăng giá?
 
 Lo (`S3 44:33`):
 
+> [!quote]
 > *"Nói lợi suất bằng 0 là sai. **Lợi suất từ GIÁ** bằng 0. Không có tăng giá. Nhưng trong lúc đó,
 > mỗi năm bạn vẫn nhận séc $100. Nếu tờ giấy giá $1.000 và bạn nhận $100 mỗi năm, thì lợi suất hằng
 > năm của bạn là bao nhiêu? **10 %.** Còn lãi suất là bao nhiêu? Ồ, hay nhỉ."*
@@ -606,6 +665,7 @@ báo cáo phổ biến nhất về cổ phiếu cổ tức cao.
 
 Khi bị hỏi có vĩnh viễn thật ngoài đời không, Lo đưa ra ví dụ kinh điển (`S3 34:47`):
 
+> [!quote]
 > *"Ở Vương quốc Anh có một loại trái phiếu chính phủ gọi là **console** [consol]. Trái phiếu này là
 > một vĩnh viễn. Nó trả cho người giữ một khoản cố định mỗi năm, mãi mãi. Trong trường hợp đó,
 > 'mãi mãi' nghĩa là chừng nào chính phủ Anh còn tồn tại."*
@@ -624,12 +684,13 @@ Trong hai năm 2014–2015, Kho bạc Anh mua lại **toàn bộ** trái phiếu
 
 Ngày 5/7/2015, danh mục trái phiếu chính phủ Anh **không còn một trái phiếu vĩnh viễn nào**.
 
-📚 Lý do thì rất "bài 2": các consol này có **lãi suất coupon cao** so với mặt bằng lãi suất thời
-2014–2015 (khi lãi suất chạm đáy lịch sử). Trả $C$ cố định mãi mãi trong lúc $r$ đã rơi xuống rất
-thấp nghĩa là $C/r$ **rất đắt** với người phát hành. Mua lại theo mệnh giá là món hời — đúng phép
-tính bạn vừa học. Một chi tiết vui: khoản 4 % Consolidated Loan năm 1927 đã gộp trong nó cả một
-khoản nợ từ năm 1853 của Gladstone, vốn dùng để hợp nhất vốn cổ phần của **Công ty Nam Hải** — tức
-là nước Anh vừa trả nốt tàn dư của **bong bóng Nam Hải 1720**.
+> [!note]
+> Lý do thì rất "bài 2": các consol này có **lãi suất coupon cao** so với mặt bằng lãi suất thời
+> 2014–2015 (khi lãi suất chạm đáy lịch sử). Trả $C$ cố định mãi mãi trong lúc $r$ đã rơi xuống rất
+> thấp nghĩa là $C/r$ **rất đắt** với người phát hành. Mua lại theo mệnh giá là món hời — đúng phép
+> tính bạn vừa học. Một chi tiết vui: khoản 4 % Consolidated Loan năm 1927 đã gộp trong nó cả một
+> khoản nợ từ năm 1853 của Gladstone, vốn dùng để hợp nhất vốn cổ phần của **Công ty Nam Hải** — tức
+> là nước Anh vừa trả nốt tàn dư của **bong bóng Nam Hải 1720**.
 
 Nhưng **công thức không hề sai đi**. Vĩnh viễn vẫn là công cụ trung tâm, chỉ là nó sống ở chỗ khác:
 mục 13 dùng nó để dựng công thức trả góp, và bài 6 dùng nó để định giá cổ phiếu (mô hình chiết khấu
@@ -640,6 +701,7 @@ cổ tức chính là một vĩnh viễn tăng trưởng).
 Lo đưa một ví dụ gần vĩnh viễn hơn (`S3 36:35`): Walt Disney từng phát hành **trái phiếu 100 năm**.
 Rồi ông đố (`S3 36:58`):
 
+> [!quote]
 > *"Nếu bạn lấy chuỗi vô hạn này và chỉ cộng tới số hạng thứ 100 thay vì tới vô cùng, bạn bắt được
 > bao nhiêu phần trăm tổng giá trị? Hoá ra 100 số hạng là **khá sát với vô cùng** với những mức lãi
 > suất mà ta dùng."*
@@ -648,12 +710,14 @@ Mục 16 tính chính xác. Đáp án ngắn: ở lãi suất 7,55 % thì 100 k�
 viễn. Ở 2 % thì chỉ còn **86,2 %** — nên câu "100 năm ≈ mãi mãi" **chỉ đúng khi lãi suất không quá
 thấp**, một điều kiện Lo không nêu ra.
 
-📚 **Số liệu thật về đợt phát hành đó**, để bạn có cái neo: tháng 7/1993, Disney phát hành trái phiếu
-kỳ hạn 100 năm đáo hạn **15/7/2093**, coupon **7,55 %**, ban đầu dự kiến 150 triệu đô nhưng nhu cầu
-lớn đến mức nâng lên **300 triệu**. Ba ngày sau, Coca-Cola phát hành 150 triệu đô kỳ hạn 100 năm ở
-7,455 %. Đây là những trái phiếu 100 năm đầu tiên kể từ **1954**. Báo chí gọi trái phiếu Disney là
-*"Sleeping Beauty"* — công chúa ngủ 100 năm.
+> [!note] Số liệu thật về đợt phát hành đó
+> , để bạn có cái neo: tháng 7/1993, Disney phát hành trái phiếu
+> kỳ hạn 100 năm đáo hạn **15/7/2093**, coupon **7,55 %**, ban đầu dự kiến 150 triệu đô nhưng nhu cầu
+> lớn đến mức nâng lên **300 triệu**. Ba ngày sau, Coca-Cola phát hành 150 triệu đô kỳ hạn 100 năm ở
+> 7,455 %. Đây là những trái phiếu 100 năm đầu tiên kể từ **1954**. Báo chí gọi trái phiếu Disney là
+> *"Sleeping Beauty"* — công chúa ngủ 100 năm.
 
+> [!quote]
 > ⚠️ Lo nói *"cách đây vài năm"* (`S3 36:35`). Thực ra là **1993**, tức 15 năm trước buổi giảng. Một
 > chỗ nhỏ để tập phản xạ kiểm lại số của người dạy.
 
@@ -675,11 +739,13 @@ Trực giác thì thẳng (`S3 46:33`): trừ $g$ đi làm **mẫu số nhỏ l�
 Lo giải thích khá hay bằng lời (`S3 47:40`–`S3 49:28`): nếu $r = g$ thì mọi số hạng rút gọn thành
 $C/(1+r)$, một hằng số, và cộng vô hạn hằng số thì ra vô cùng.
 
+> [!quote]
 > *"Đến một lúc nào đó nó sẽ vượt tổng GDP thế giới, rồi vượt luôn ra ngoài, rồi tới các hành tinh
 > khác trong hệ mặt trời."* — `S3 47:58`
 
 Và ví dụ ông chọn thì rất 2008 (`S3 49:46`):
 
+> [!quote]
 > *"Suốt 15 năm qua Trung Quốc tăng trưởng khoảng 10 %/năm… Điều đó không thể kéo dài mãi. Nếu nó
 > kéo dài thì không chỉ tất cả chúng ta sẽ nói tiếng Trung, mà **mọi hành tinh trong cả thiên hà này
 > cũng sẽ nói tiếng Trung**."*
@@ -688,6 +754,7 @@ Nhưng khi bị hỏi *"thế nếu $r < g$ thì sao?"*, câu trả lời của 
 *"điểm gián đoạn tại 0"* và tổng trở nên *"vô cùng hơn nữa, dù cái đó nghĩa là gì"*. Phát biểu chặt
 thì đơn giản hơn:
 
+> [!note]
 > Chuỗi $\displaystyle\sum_{t\ge1} \frac{C(1+g)^{t-1}}{(1+r)^t}$ là một **cấp số nhân** với công bội
 > $q = \dfrac{1+g}{1+r}$.
 > - $g < r \iff q < 1$: chuỗi **hội tụ**, tổng $= C/(r-g)$.
@@ -712,9 +779,11 @@ nhận mặt nó.
 Công thức thứ hai, mà Lo gọi là *"công thức yêu thích thứ hai của tôi trong cả khoá"* (`S3 52:20`) —
 và là công thức **thực dụng nhất** bạn học được ở bài này.
 
+> [!note]
 > **Niên kim** (*annuity*): một chứng khoán trả một khoản cố định mỗi năm trong **một số năm hữu
 > hạn**, rồi ngừng. — `S3 52:34`
 
+> [!quote]
 > *"Ví dụ của niên kim là một trái phiếu. Ví dụ khác là khoản vay mua ô tô. Ví dụ khác nữa là khoản
 > vay mua nhà."* — `S3 52:51`
 
@@ -723,9 +792,11 @@ và là công thức **thực dụng nhất** bạn học được ở bài này
 Lo có thể dẫn công thức bằng cùng mẹo nhân–trừ. Thay vào đó ông làm một việc hay hơn nhiều
 (`S3 55:09`):
 
+> [!quote]
 > *"Để tôi cho các bạn một thí nghiệm tư duy sẽ dẫn ra công thức này trong chưa tới một phút, không
 > cần mẹo đội tuyển toán nào cả."*
 
+> [!quote]
 > *"Giả sử bạn muốn tạo ra một niên kim nhưng không có sẵn. Một cách là **mua một vĩnh viễn, giữ nó
 > $T$ kỳ, rồi bán đi.**"* — `S3 55:33`
 
@@ -737,6 +808,7 @@ Vĩnh viễn bán ở T+1   :  ·  ·  ·  …  ·   C    C    C   …   (mãi m
 Còn lại               :  C  C  C  …  C   ·    ·    ·       = NIÊN KIM T kỳ
 ```
 
+> [!quote]
 > *"**Một niên kim là một vĩnh viễn đi mượn thời gian.**"* — `S3 56:26`
 
 Định giá giao dịch đó:
@@ -758,6 +830,7 @@ ba con đường — công thức đóng, nhân bản, cộng tay từng kỳ �
 
 Đây đúng là cái bẫy Lo cảnh báo ở mục 4 — **xếp sai thời điểm**. Xem đoạn `S3 58:12`–`S3 61:03`:
 
+> [!quote]
 > — *"Tỷ giá giữa ngày 0 và ngày $T+1$ là gì?"* — *"Theo $T$ ạ."* — *"Không. **Gần đúng, nhưng chưa
 > trúng.**"* — *"$T+1$."* …
 >
@@ -778,12 +851,14 @@ rối ở đúng chỗ này, và người dạy phải sửa lời hai lần. C�
 Lo kể lần đầu ông mua nhà (`S3 65:09`). Lãi suất hôm đó khoảng 8¾ %, nhưng **cuốn sổ tra cứu của ngân
 hàng không có mức 8¾** — chỉ có 8½ và 9.
 
+> [!quote]
 > *"Tôi chỉ dùng công thức này, bấm vài con số, và ra được khoản trả hằng tháng. Tôi bảo nhân viên
 > ngân hàng: đây, mỗi tháng tôi sẽ trả từng này. Anh ta bảo, à không, anh không thể tự làm thế được…
 > phải chờ phó tổng giám đốc cho biết con số đúng là bao nhiêu."*
 
 Phó tổng giám đốc cũng không có sổ. Họ phải gọi về chi nhánh chính để tra.
 
+> [!quote]
 > *"Và quả nhiên, khi họ trả lời, nó đúng bằng con số của tôi, **tới chữ số thập phân thứ tư**. Anh
 > ta kinh ngạc kiểu, wow, làm sao anh làm được thế? Nó chỉ đáng kinh ngạc nếu bạn không biết cái bí
 > mật rất cơ bản này."* — `S3 66:12`
@@ -792,11 +867,13 @@ Phó tổng giám đốc cũng không có sổ. Họ phải gọi về chi nhán
 
 $$C \;=\; PV \cdot \dfrac{r}{1 - (1+r)^{-T}}$$
 
-📚 **Hệ số chiết khấu niên kim.** Lo nhắc tới các bảng tra *annuity discount factor* (`S3 66:44`) —
-chính là cụm $\frac{1}{r}\left[1-(1+r)^{-T}\right]$, tách rời khỏi $C$. Biết hệ số này và số tiền vay
-thì chia ra là có khoản trả hằng tháng. *"Ngày nay ta làm trong Excel, không có gì to tát. Nhưng bạn
-vẫn nên biết cơ sở của các phép tính đó."* (`S3 68:13`)
+> [!note] Hệ số chiết khấu niên kim.
+> Lo nhắc tới các bảng tra *annuity discount factor* (`S3 66:44`) —
+> chính là cụm $\frac{1}{r}\left[1-(1+r)^{-T}\right]$, tách rời khỏi $C$. Biết hệ số này và số tiền vay
+> thì chia ra là có khoản trả hằng tháng. *"Ngày nay ta làm trong Excel, không có gì to tát. Nhưng bạn
+> vẫn nên biết cơ sở của các phép tính đó."* (`S3 68:13`)
 
+> [!note]
 > 📌 **Công thức mà Lo không đưa: niên kim tăng trưởng.** Để trọn bộ bốn dạng dòng tiền chuẩn:
 > $$PV = \frac{C}{r-g}\left[1 - \left(\frac{1+g}{1+r}\right)^{T}\right] \qquad (r \ne g)$$
 > Dùng khi khoản trả tăng đều — ví dụ một hợp đồng thuê có điều khoản tăng giá hằng năm, hoặc dòng
@@ -819,6 +896,7 @@ vẫn nên biết cơ sở của các phép tính đó."* (`S3 68:13`)
 
 Phần cuối buổi 3 chuyển sang một chủ đề mà Lo nói rõ là **quy ước**, không phải lý thuyết (`S3 68:46`):
 
+> [!quote]
 > *"Ghép lãi là chuyện quy ước. Tôi muốn giải thích quy ước đó là gì và cho các bạn một chút động cơ
 > logic của nó, để ít nhất nó không trông như tôi bịa ra từ trên trời."*
 
@@ -828,6 +906,7 @@ tiền sau **sáu tháng** thì được trả bao nhiêu?
 Cách "công bằng" theo cảm tính là chia đôi: 10 %/năm → 5 % cho nửa năm. Nhưng Lo chỉ ra hệ quả
 (`S3 70:21`):
 
+> [!quote]
 > *"Nếu bạn được trả 5 % lãi trong sáu tháng đầu, bạn rút tiền khỏi ngân hàng, rồi gửi lại **ngay phút
 > sau** và giữ tiếp sáu tháng nữa, bạn sẽ kiếm thêm 5 % trên số gốc, **cộng thêm 5 % trên 5 % của sáu
 > tháng đầu**. Bạn kiếm được lãi trên lãi."*
@@ -835,6 +914,7 @@ Cách "công bằng" theo cảm tính là chia đôi: 10 %/năm → 5 % cho nử
 Ngân hàng có thể chống lại bằng cách trả $\sqrt{1{,}10}-1$ cho mỗi nửa năm — để ghép hai kỳ lại đúng
 bằng 10 %. Nhưng (`S3 72:41`):
 
+> [!quote]
 > *"Họ không làm thế, chủ yếu vì **chẳng ai thích dính đến căn thức, trừ nha sĩ**."*
 
 Nên quy ước thắng, và sinh ra hai từ viết tắt mà bạn phải phân biệt được:
@@ -848,6 +928,7 @@ $$\text{EAR} \;=\; \left(1 + \frac{\text{APR}}{n}\right)^{n} - 1$$
 
 Và đây là điểm Lo nhấn mạnh nhất (`S3 73:16`): **ghép lãi tốt cho người gửi, xấu cho người vay.**
 
+> [!quote]
 > *"Khi họ bảo bạn muốn vay tiền à, tôi cho anh lãi suất cực tốt, 10 % thôi. Nhưng khi bạn thật sự
 > xem mình trả bao nhiêu lãi, bạn sẽ phát hiện ra thực tế là **hơn 10 %**."*
 
@@ -863,10 +944,12 @@ một kiểu.
 
 Lo kết thúc buổi 3 bằng một câu đố và **không giải** (`S3 79:08`):
 
+> [!quote]
 > *"Nếu bạn ghép lãi không phải mỗi ngày, không phải mỗi giờ, không phải mỗi phút, không phải mỗi
 > femto-giây, mà theo **lát thời gian nhỏ nhất bạn có thể nghĩ ra** — nếu bạn ghép liên tục, nếu $n$
 > tiến ra vô cùng, bạn được gì?"*
 
+> [!quote]
 > *"Hoá ra bạn thật sự nhận được **một con số**. Và con số đó thì rất kỳ quái."* — `S3 79:57`
 
 Vì bài 3 mới trả lời, còn bạn thì đang cần nó ngay để hiểu mục 16, đáp án ở đây:
@@ -929,8 +1012,9 @@ mà **bạn phải tự làm**, vì nó không nằm trên tờ rơi.
 
 ### Ba thứ khác cũng phải đưa vào phép tính
 
-📚 Chi phí ẩn — dùng đúng khung "dãy dòng tiền" ở mục 3, chúng chỉ là các dòng tiền âm ở những thời
-điểm nhất định:
+> [!note]
+> Chi phí ẩn — dùng đúng khung "dãy dòng tiền" ở mục 3, chúng chỉ là các dòng tiền âm ở những thời
+> điểm nhất định:
 
 - **Phí trả nợ trước hạn.** Shinhan Bank: 2 % trong 2 năm đầu, 1 % năm thứ ba, 0,5 % năm thứ tư. MB:
   1 % trên dư nợ còn lại trong 5 năm đầu. Nghĩa là **thoát khỏi khoản vay cũng tốn tiền**.
@@ -945,6 +1029,7 @@ Một cạm bẫy thường gặp: gói *"5,5 %/năm trong 6 tháng"* trông r�
 Nhưng gói đầu chỉ giữ mức đó **6 tháng**, còn 234 tháng còn lại chạy theo lãi thả nổi. Câu hỏi đúng
 không phải *"lãi ưu đãi bao nhiêu"* mà là:
 
+> [!note]
 > **Biên độ thả nổi là bao nhiêu, và lãi suất tham chiếu là mức nào?** Đó là hai con số quyết định
 > gần như toàn bộ số tiền bạn sẽ trả.
 
@@ -953,6 +1038,7 @@ lãi ưu đãi thấp hơn mặt bằng **không phải bữa trưa miễn phí*
 dời sang giai đoạn thả nổi, sang phí trả nợ trước hạn, hoặc sang điều khoản hoàn trả ưu đãi. Việc của
 bạn là tìm xem nó nằm ở đâu.
 
+> [!note]
 > ⚠️ Mọi con số trong mục này là **mức tham khảo tại thời điểm viết bài**, và lãi suất Việt Nam đang
 > biến động mạnh. Trước khi dùng cho quyết định thật, **tra lại số hiện hành** và yêu cầu ngân hàng
 > ghi rõ biên độ thả nổi trong hợp đồng.
@@ -961,6 +1047,7 @@ bạn là tìm xem nó nằm ở đâu.
 
 ## 16. Code minh hoạ
 
+> [!note]
 > ⚙️ **Chạy:** cần **Python 3.10+**. Lưu file rồi gõ `python3 bai-02-gia-tri-hien-tai.py`.
 > **Không cần cài gói nào.** File có sẵn tại [thuc_hanh/bai-02-gia-tri-hien-tai.py](../thuc_hanh/bai-02-gia-tri-hien-tai.py).
 
@@ -1116,6 +1203,7 @@ Gui $1,000 mot nam, lai suat cong bo (APR) = 10%
 Tat ca assert deu qua.
 ```
 
+> [!quote]
 > 📚 **Đối chiếu với con số Lo đọc miệng ở `S3 76:02`.** Lo nói ghép nửa năm cho *"$1.103"*, ghép quý
 > thêm *"$4"*, ghép tháng thêm *"$5"*. Số chính xác là **1.102,50 · 1.103,81 · 1.104,71**. Ông làm
 > tròn tới đô la khi giảng — hợp lý trên lớp, nhưng nếu bạn tự tính theo thì đừng tưởng mình sai.

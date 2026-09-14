@@ -1,15 +1,18 @@
 # Bài 18 — Định giá doanh nghiệp, M&A và giới hạn của mô hình
 
+> [!info] Về bài này
 > 🏢 **PHẦN E — TÀI CHÍNH DOANH NGHIỆP, BÀI CHÍNH CUỐI.** Bài này **không đến từ video của Andrew Lo**.
 > Nó trả lời câu hỏi mà [bài 17 §17](bai_17_chi_phi_dai_dien.md#17-đi-tiếp) để ngỏ:
 > *"vậy cả doanh nghiệp này đáng giá bao nhiêu?"*
 > Nguồn: Koller/McKinsey, *Valuation*; Damodaran, *Investment Valuation*;
 > Capen, Clapp & Campbell (1971); Roll (1986).
-> 📌 **Cần đọc trước:** [Bài 15](bai_15_wacc.md) (WACC),
+>
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
+>
+> **Cần đọc trước:** [Bài 15](bai_15_wacc.md) (WACC),
 > [Bài 6 §11](bai_06_co_phieu_va_tang_truong.md#11-vĩnh-viễn-gordon-và-bong-bóng-công-nghệ-trong-một-phép-chia) (mô hình Gordon),
 > [Bài 12](bai_12_ngan_sach_von.md) (dòng tiền và NPV),
 > [Bài 1 §6](bai_01_tai_chinh_la_gi.md#6-phiên-đấu-giá-hộp-kín--price-discovery-diễn-ra-trực-tiếp) (đấu giá).
-> ⚠️ Số liệu báo cáo tới năm **2025**; giá cổ phiếu tới tháng **9/2026**.
 
 ---
 
@@ -50,6 +53,7 @@ không bao giờ ra cùng một con số.
 | **(2) Bội số thị trường** — nhân lợi nhuận với một hệ số         | nhanh, và neo vào **giá thật** người khác đang trả | giấu hết giả định vào một con số, và *"tương tự"* là một từ rất rộng |
 | **(3) Giá giao dịch** — xem thương vụ gần nhất trả bao nhiêu     | là **tiền thật** đã đổi chủ                        | gồm cả phần bù kiểm soát và có thể gồm cả sai lầm của người mua      |
 
+> [!note]
 > Ba cách này **không** phải ba ước lượng độc lập của cùng một con số. Chúng đo ba thứ khác nhau:
 > cách (1) đo giá trị với giả định **của bạn**; cách (2) đo giá trị với giả định của **thị trường**;
 > cách (3) đo giá trị với giả định của **một người mua cụ thể**, cộng quyền kiểm soát.
@@ -71,10 +75,11 @@ chia cho chủ nợ và cổ đông.
 
 $$\text{FCFF} = \text{dòng tiền kinh doanh} + \text{lãi vay}\times(1-\tau) - \text{capex}$$
 
-⚠️ **Số hạng giữa là chỗ dễ sai nhất.** Báo cáo lưu chuyển tiền tệ Việt Nam đã **trừ** lãi vay đã trả
-ra khỏi dòng tiền kinh doanh. Nhưng lãi vay là tiền thuộc về **chủ nợ**, và FCFF phải là tiền thuộc
-về **cả hai** bên. Nên phải cộng ngược lại — và cộng phần **sau thuế**, vì phần thuế đã được lá chắn
-([bài 15 §5](bai_15_wacc.md#5-lá-chắn-thuế-và-bẫy-thuế-suất-biên-so-với-hiệu-dụng)).
+> [!warning] Số hạng giữa là chỗ dễ sai nhất.
+> Báo cáo lưu chuyển tiền tệ Việt Nam đã **trừ** lãi vay đã trả
+> ra khỏi dòng tiền kinh doanh. Nhưng lãi vay là tiền thuộc về **chủ nợ**, và FCFF phải là tiền thuộc
+> về **cả hai** bên. Nên phải cộng ngược lại — và cộng phần **sau thuế**, vì phần thuế đã được lá chắn
+> ([bài 15 §5](bai_15_wacc.md#5-lá-chắn-thuế-và-bẫy-thuế-suất-biên-so-với-hiệu-dụng)).
 
 Vinamilk, 2015–2025, tỷ đồng:
 
@@ -103,9 +108,10 @@ Chiết khấu 10 năm dự báo, rồi cộng giá trị cuối kỳ (mô hình
 Suất chiết khấu là WACC của VNM, tính lại bằng đúng phương pháp bài 15: beta **0,597**
 (R² = 0,26, 164 tháng) → Ke = 3% + 0,597 × 8% = **7,78%** → **WACC = 7,43%**.
 
-⚠️ Giả định tăng trưởng là **tôi chọn**, không đo được — và con số đầu đã **cao hơn thực tế**: doanh
-thu VNM tăng **4,7%/năm** trong 10 năm qua, không phải 6%. Tôi giữ 6% để §4 cho thấy một giả định
-lạc quan vừa phải kéo kết quả đi bao xa.
+> [!warning]
+> Giả định tăng trưởng là **tôi chọn**, không đo được — và con số đầu đã **cao hơn thực tế**: doanh
+> thu VNM tăng **4,7%/năm** trong 10 năm qua, không phải 6%. Tôi giữ 6% để §4 cho thấy một giả định
+> lạc quan vừa phải kéo kết quả đi bao xa.
 
 |                                        |                 Tỷ đồng |         % |
 | -------------------------------------- | ----------------------: | --------: |
@@ -117,6 +123,7 @@ lạc quan vừa phải kéo kết quả đi bao xa.
 | Chia 2.090 triệu cổ phiếu              | **112,5** nghìn đồng/cp |           |
 | Giá thị trường hiện tại                |  **61,9** nghìn đồng/cp |           |
 
+> [!note]
 > ⚠️⚠️ **Và đây là con số phải nhìn trước mọi con số khác: 69% giá trị nằm ở giá trị cuối kỳ** — tức
 > ở phần **sau** năm thứ 10, phần mà không ai dự báo được gì cả. Ta bỏ công dự báo 10 năm dòng tiền
 > để giải thích **31%** kết quả.
@@ -144,11 +151,13 @@ Giá trị vốn chủ VNM trên mỗi cổ phiếu (nghìn đồng), theo hai g
 
 Thấp nhất 67,9 — cao nhất 958,1. **Gấp 14,1 lần.** Giá thị trường: 61,9.
 
-⚠️ **Ở góc trên bên phải mô hình tự phát nổ:** khi WACC tiến gần g thì mẫu số (WACC − g) tiến về
-không và giá trị chạy ra vô cực. Ô đó không phải một dự báo, nó là một **lỗi của công thức Gordon**.
-Bỏ các ô có WACC − g dưới 2 điểm phần trăm thì khoảng còn lại là **67,9 đến 317,4 — vẫn gấp 4,7
-lần**.
+> [!warning] Ở góc trên bên phải mô hình tự phát nổ:
+> khi WACC tiến gần g thì mẫu số (WACC − g) tiến về
+> không và giá trị chạy ra vô cực. Ô đó không phải một dự báo, nó là một **lỗi của công thức Gordon**.
+> Bỏ các ô có WACC − g dưới 2 điểm phần trăm thì khoảng còn lại là **67,9 đến 317,4 — vẫn gấp 4,7
+> lần**.
 
+> [!quote]
 > Trong phạm vi còn lại đó, VNM vừa có thể "rẻ hơn giá thị trường 1,1 lần" vừa có thể "đắt hơn 5,1
 > lần". Và **không ô nào vô lý cả** — mỗi ô chỉ là một cách đọc hợp lệ về tương lai.
 
@@ -161,12 +170,14 @@ lần**.
 | g nhích **1 điểm phần trăm**    | **+18,0** nghìn/cp (**+16%**) |
 | WACC nhích **1 điểm phần trăm** | **+26,2** nghìn/cp (**+23%**) |
 
-⚠️ **Và nhớ rằng WACC ở đây cũng không phải sự thật.** Beta của VNM tính trên toàn bộ lịch sử là
-**0,597**, tính trên 60 tháng gần nhất là **0,345**. Chỉ đổi **cửa sổ đo**, WACC đổi từ **7,43%** sang
-**5,55%** — tức nhảy hai ô trong bảng trên, mà không ai làm gì sai cả. Đây đúng là vấn đề
-[bài 11 §16](bai_11_capm_va_beta.md#16-độ-dốc-thật-của-sml-và-capm-beta-không-của-fischer-black) và [bài 15 §9](bai_15_wacc.md#9-wacc-không-phải-một-con-số-nó-là-một-khoảng)
-đã đo.
+> [!warning] Và nhớ rằng WACC ở đây cũng không phải sự thật.
+> Beta của VNM tính trên toàn bộ lịch sử là
+> **0,597**, tính trên 60 tháng gần nhất là **0,345**. Chỉ đổi **cửa sổ đo**, WACC đổi từ **7,43%** sang
+> **5,55%** — tức nhảy hai ô trong bảng trên, mà không ai làm gì sai cả. Đây đúng là vấn đề
+> [bài 11 §16](bai_11_capm_va_beta.md#16-độ-dốc-thật-của-sml-và-capm-beta-không-của-fischer-black) và [bài 15 §9](bai_15_wacc.md#9-wacc-không-phải-một-con-số-nó-là-một-khoảng)
+> đã đo.
 
+> [!note]
 > ⇒ **DCF không sinh ra một con số. Nó sinh ra một bảng.** Ai đưa cho bạn một con số DCF mà không đưa
 > bảng này thì họ đã chọn giúp bạn hai giả định, và không nói cho bạn biết.
 
@@ -185,6 +196,7 @@ không có gì để chiết khấu — công thức Gordon trả về một s�
 | ✅ Chạy được (16)                 | MWG, VNM, FPT, PNJ, HVN, VHM, REE, SAB, MSN, HSG, GAS, PLX, GMD, DHG, BMP, VCS |
 | ❌ **Không chiết khấu được (12)** | **HPG, HAG, NVL, CTD, VIC, KDH, POW, NKG, VJC, FRT, DGW, CMG**                 |
 
+> [!note]
 > **12/28 = 43% mẫu không dùng được công thức này.**
 
 ![DCF hỏng](../hinh/bai18-dcf-hong.svg)
@@ -192,9 +204,10 @@ không có gì để chiết khấu — công thức Gordon trả về một s�
 Không phải vì họ làm ăn kém: năm 2025 **HPG lãi 15.515 tỷ** và **VIC là doanh nghiệp vốn hoá lớn nhất
 sàn**. Mà vì họ đang đầu tư mạnh hơn số tiền làm ra, nên dòng tiền tự do âm suốt giai đoạn xây.
 
-⚠️ **Đây là giới hạn thật sự của DCF sách giáo khoa, và nó ít được nói rõ:** công thức giả định doanh
-nghiệp ở **trạng thái ổn định**. Doanh nghiệp đang tăng trưởng nhanh thì chưa ở trạng thái đó, nên
-phải dự báo tay đến năm nó ổn định — tức phải **biết điều mà chính bạn đang muốn tính ra**.
+> [!warning] Đây là giới hạn thật sự của DCF sách giáo khoa, và nó ít được nói rõ:
+> công thức giả định doanh
+> nghiệp ở **trạng thái ổn định**. Doanh nghiệp đang tăng trưởng nhanh thì chưa ở trạng thái đó, nên
+> phải dự báo tay đến năm nó ổn định — tức phải **biết điều mà chính bạn đang muốn tính ra**.
 
 ---
 
@@ -225,6 +238,7 @@ $$EV = \frac{FCFF\,(1+g)}{WACC - g} \quad\Longrightarrow\quad g = \frac{WACC \ti
 | SAB |  39.597 |   3.349 |  8,46% |        0,0% |           −0,5% | **+0,5** |
 | VCS |   3.634 |   1.164 | 12,58% |  **−14,7%** |            4,7% |    −19,4 |
 
+> [!note]
 > **14/16 doanh nghiệp có g hàm ý thấp hơn tăng trưởng đã đạt được.**
 > Trung vị g hàm ý **3,60%** so với trung vị tăng trưởng doanh thu **7,23%**.
 
@@ -250,6 +264,7 @@ mô hình không bị nén.
 | dưới 6%/năm                     |    5 |            0,84% |             **−3,0** |
 | từ 10%/năm trở lên              |    5 |            6,45% |            **−12,2** |
 
+> [!note]
 > Nhóm tăng trưởng chậm lệch **−3,0 điểm**; nhóm tăng trưởng nhanh lệch **−12,2 điểm**, gấp bốn
 > lần. Đó đúng là dấu vân tay của cách đọc **(b)**: mô hình nén dòng tiền của doanh nghiệp đang đầu tư.
 
@@ -342,6 +357,7 @@ là $a\,(N-1)/(N+1)$ — một công thức đóng, **không cần mô phỏng**
 
 ![Lời nguyền người thắng cuộc](../hinh/bai18-loi-nguyen.svg)
 
+> [!note]
 > **Không ai ngốc ở đây.** Mọi bên đều ước lượng không thiên vị. Nhưng việc **thắng cuộc tự nó là
 > một tin xấu**: nó có nghĩa là bạn đã ước lượng cao hơn tất cả những người khác cùng nhìn cùng một
 > doanh nghiệp.
@@ -359,12 +375,14 @@ chính mình, và hạ **càng nhiều khi càng đông** đối thủ.
 Trực giác bình thường bảo ngược lại: càng đông đối thủ càng phải trả **cao**. Trực giác đó là cái làm
 bên mua thua.
 
-⚠️ **Một điều bảng trên không nói.** Nó giả định mọi bên mua đều định giá **cùng một thứ**. Nếu một
-bên mua thật sự có **cộng hưởng riêng** thì họ **đúng** khi trả cao hơn. §9 tách hai trường hợp đó ra.
+> [!warning] Một điều bảng trên không nói.
+> Nó giả định mọi bên mua đều định giá **cùng một thứ**. Nếu một
+> bên mua thật sự có **cộng hưởng riêng** thì họ **đúng** khi trả cao hơn. §9 tách hai trường hợp đó ra.
 
-📚 Roll (1986) gọi phần chênh không giải thích được bằng cộng hưởng là **giả thuyết kiêu ngạo**: ban
-giám đốc bên mua tin rằng **họ** nhìn ra thứ mà thị trường không nhìn ra. Đôi khi đúng. Trung bình
-thì không.
+> [!note]
+> Roll (1986) gọi phần chênh không giải thích được bằng cộng hưởng là **giả thuyết kiêu ngạo**: ban
+> giám đốc bên mua tin rằng **họ** nhìn ra thứ mà thị trường không nhìn ra. Đôi khi đúng. Trung bình
+> thì không.
 
 ---
 
@@ -385,6 +403,7 @@ Bên mua 1.000 tỷ, bên bán 300 tỷ, cộng hưởng tạo thêm 120 tỷ �
 Điểm hoà vốn của bên mua nằm ở phần bù **40%**: trả hơn thế là chuyển **toàn bộ** cộng hưởng sang
 cho cổ đông bên bán, và trả hơn nữa là chuyển cả tiền của chính mình.
 
+> [!quote]
 > **Ghép với §8 thì ra vấn đề thật sự.** Phần bù kiểm soát trong các thương vụ thực tế thường nằm
 > trong khoảng 20–40%. Nhưng bên mua **không biết** cộng hưởng thật sự bằng bao nhiêu — họ **ước
 > lượng** nó. Và §8 vừa chỉ ra rằng người **thắng** cuộc là người ước lượng **cao nhất**.
@@ -392,7 +411,8 @@ cho cổ đông bên bán, và trả hơn nữa là chuyển cả tiền của c
 > Nên câu hỏi *"thương vụ này có tạo giá trị không"* tương đương với câu *"ước lượng cộng hưởng của
 > chúng ta có cao hơn sự thật không"* — và xác suất câu trả lời là **có** tăng theo số đối thủ.
 
-📚 **Bốn nguồn cộng hưởng**, xếp theo độ dễ kiểm chứng:
+> [!note] Bốn nguồn cộng hưởng
+> , xếp theo độ dễ kiểm chứng:
 
 |     | Nguồn                            | Kiểm chứng được không                                             |
 | --- | -------------------------------- | ----------------------------------------------------------------- |
@@ -401,10 +421,11 @@ cho cổ đông bên bán, và trả hơn nữa là chuyển cả tiền của c
 | 3   | bán chéo khách hàng              | khó đo, hay không xảy ra                                          |
 | 4   | *"giá trị chiến lược"*           | **không đo được** — đây là tên gọi khác của việc không có số liệu |
 
-⚠️ Và một dạng **không** phải cộng hưởng nhưng hay bị tính nhầm là **đa dạng hoá**. Công ty A mua công
-ty B ở ngành khác để "giảm rủi ro". [Bài 10](bai_10_ly_thuyet_danh_muc.md) đã chỉ ra nhà đầu tư **tự**
-đa dạng hoá được bằng cách mua cả hai cổ phiếu, **miễn phí**. Doanh nghiệp làm hộ việc đó không tạo ra
-giá trị gì — chỉ tạo ra phí tư vấn.
+> [!warning]
+> Và một dạng **không** phải cộng hưởng nhưng hay bị tính nhầm là **đa dạng hoá**. Công ty A mua công
+> ty B ở ngành khác để "giảm rủi ro". [Bài 10](bai_10_ly_thuyet_danh_muc.md) đã chỉ ra nhà đầu tư **tự**
+> đa dạng hoá được bằng cách mua cả hai cổ phiếu, **miễn phí**. Doanh nghiệp làm hộ việc đó không tạo ra
+> giá trị gì — chỉ tạo ra phí tư vấn.
 
 ---
 
@@ -437,6 +458,7 @@ GMD là ví dụ rõ nhất: DCF nói **0,19** (đắt gấp năm lần giá tr�
 đúng giá). Lý do nằm ở §6 — GMD có FCFF bình quân chỉ 231 tỷ trên EV 31.039 tỷ vì đang xây cảng, nên
 DCF nén giá trị của nó xuống. Bội số dùng lợi nhuận kế toán nên không bị nén.
 
+> [!quote]
 > **Cách dùng đúng, và đây là kết luận của cả phần E:**
 >
 > - Dùng **DCF** để biết **giả định nào** đang quyết định kết quả — §4 và §6.
@@ -496,9 +518,10 @@ ty tương tự" chỉ có hai hoặc ba cái — không đủ để lấy trung
 trường đang công nghiệp hoá, tỷ lệ này cao hơn hẳn thị trường phát triển — nên DCF sách giáo khoa
 dùng được cho **ít hơn một nửa** số doanh nghiệp.
 
-⚠️ **Hệ quả thực hành:** ở Việt Nam, thứ tự ưu tiên nên **ngược** với sách giáo khoa. Bắt đầu bằng
-**bội số** để có mốc, dùng **DCF ngược** (§6) để biết mốc đó hàm ý gì, và chỉ làm **DCF xuôi** khi
-doanh nghiệp thật sự đã ổn định và bạn có kế hoạch đầu tư của họ.
+> [!warning] Hệ quả thực hành:
+> ở Việt Nam, thứ tự ưu tiên nên **ngược** với sách giáo khoa. Bắt đầu bằng
+> **bội số** để có mốc, dùng **DCF ngược** (§6) để biết mốc đó hàm ý gì, và chỉ làm **DCF xuôi** khi
+> doanh nghiệp thật sự đã ổn định và bạn có kế hoạch đầu tư của họ.
 
 ---
 
@@ -531,6 +554,7 @@ học sang môn 15.434 cho phần này.
 Cả mười tám bài đến đây quay quanh đúng hai câu hỏi mà [bài 1 §11](bai_01_tai_chinh_la_gi.md#11-thời-gian-và-rủi-ro--hai-thứ-làm-nên-cả-ngành)
 đã đặt ra ngay buổi đầu tiên:
 
+> [!note]
 > **Một đồng ngày mai đáng giá bao nhiêu hôm nay?** và **rủi ro đáng giá bao nhiêu?**
 
 Bài 2 trả lời câu thứ nhất bằng chiết khấu. Bài 9 đến 11 trả lời câu thứ hai bằng beta. Mọi thứ còn
@@ -553,6 +577,7 @@ và đo xem nó lớn bao nhiêu.
 
 ## 15. Code minh hoạ
 
+> [!note]
 > ⚙️ **Chạy:** cần **Python 3.10+**. Không cần cài gói nào. Kết quả **tất định**.
 
 |            |                                                                                             |
@@ -1319,7 +1344,7 @@ HET BAI 18 — HET PHAN E
 | DNSE / Entrade `chart-api` | giá đóng cửa cuối tháng của 28 cổ phiếu Việt Nam và VN-Index, 2013–2026                         |
 | VNDirect finfo API         | báo cáo kết quả kinh doanh, bảng cân đối và lưu chuyển tiền tệ 2015–2025 của 28 doanh nghiệp đó |
 
-⚠️ **Chưa xác minh được, ghi rõ ở đây:**
+> [!warning] Chưa xác minh được, ghi rõ ở đây:
 
 - **rf 3,0% và phần bù rủi ro 8,0%** kế thừa nguyên từ [bài 15 §16](bai_15_wacc.md#16-góc-việt-nam--ba-con-số-phải-tự-chọn),
   nơi đã ghi rõ chúng là **giả định**, không phải số liệu tra được. Toàn bộ cột WACC của bài này phụ

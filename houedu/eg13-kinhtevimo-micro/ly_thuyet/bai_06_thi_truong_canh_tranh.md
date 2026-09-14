@@ -1,13 +1,15 @@
 # Bài 6 — Doanh nghiệp trên thị trường cạnh tranh
 
+> [!info] Về bài này
 > Bài học dựng từ **Chương 14 — Doanh nghiệp trên thị trường cạnh tranh** (tr. 308–333)
 > của *N. Gregory Mankiw — **Kinh tế học vi mô***, bản dịch của Khoa Kinh tế, **ĐH Kinh tế TP.HCM** (Cengage Learning Asia).
-> 🎯 **Vòng 1.** Đây là bài **trả lời hai câu hỏi quản trị cụ thể nhất cả môn**: *sản xuất bao nhiêu*
+>
+> **Vòng 1.** Đây là bài **trả lời hai câu hỏi quản trị cụ thể nhất cả môn**: *sản xuất bao nhiêu*
 > và *khi nào nên dừng*. Nó cũng cho thấy đường cung ở [bài 2](bai_02_cung_va_cau.md) từ đâu mà ra.
-> 💼 **Góc QTKD** — ví dụ thêm cho ngành quản trị kinh doanh, **không có trong sách**.
-> 📚 **Mở rộng** — thứ sách nói lướt hoặc để trong hộp phụ.
-> ⚠️ — chỗ dễ hiểu sai, hoặc chỗ sách in sai.
-> 📌 **Cần đọc trước:** [Bài 5 — Chi phí sản xuất](bai_05_chi_phi_san_xuat.md). Bài này dùng lại
+>
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
+>
+> **Cần đọc trước:** [Bài 5 — Chi phí sản xuất](bai_05_chi_phi_san_xuat.md). Bài này dùng lại
 > **ATC, AVC, MC, quy mô hiệu quả** ở mọi mục — không nắm bài 5 thì không đọc được bài này.
 
 ---
@@ -21,11 +23,11 @@
 - [3. Tối đa hoá lợi nhuận — hai cách nhìn, một đáp án](#3-tối-đa-hoá-lợi-nhuận--hai-cách-nhìn-một-đáp-án)
 - [4. Vì sao đường MC CHÍNH LÀ đường cung của doanh nghiệp](#4-vì-sao-đường-mc-chính-là-đường-cung-của-doanh-nghiệp)
 - [5. Quyết định ĐÓNG CỬA trong ngắn hạn: P < AVC](#5-quyết-định-đóng-cửa-trong-ngắn-hạn-p--avc)
-- [6. 📚 Bình sữa bị đổ — và ba ví dụ về chi phí chìm](#6--bình-sữa-bị-đổ--và-ba-ví-dụ-về-chi-phí-chìm)
+- [6. Bình sữa bị đổ — và ba ví dụ về chi phí chìm](#6-bình-sữa-bị-đổ--và-ba-ví-dụ-về-chi-phí-chìm)
 - [7. Quyết định RỜI BỎ và GIA NHẬP trong dài hạn: P < ATC](#7-quyết-định-rời-bỏ-và-gia-nhập-trong-dài-hạn-p--atc)
 - [8. Lợi nhuận là một hình chữ nhật trên đồ thị](#8-lợi-nhuận-là-một-hình-chữ-nhật-trên-đồ-thị)
 - [9. Cân bằng dài hạn — vì sao lợi nhuận bị ép về 0](#9-cân-bằng-dài-hạn--vì-sao-lợi-nhuận-bị-ép-về-0)
-- [10. ⚠️ "Lợi nhuận bằng 0" nghĩa là gì — mục dễ hiểu sai nhất chương](#10--lợi-nhuận-bằng-0-nghĩa-là-gì--mục-dễ-hiểu-sai-nhất-chương)
+- [10. "Lợi nhuận bằng 0" nghĩa là gì — mục dễ hiểu sai nhất chương](#10-lợi-nhuận-bằng-0-nghĩa-là-gì--mục-dễ-hiểu-sai-nhất-chương)
 - [11. Cầu tăng: ngắn hạn giá lên, dài hạn số doanh nghiệp lên](#11-cầu-tăng-ngắn-hạn-giá-lên-dài-hạn-số-doanh-nghiệp-lên)
 - [12. Code minh hoạ](#12-code-minh-hoạ)
 - [13. Tự thử](#13-tự-thử)
@@ -43,6 +45,7 @@
 Sách nhắc lại định nghĩa từ [bài 2](bai_02_cung_va_cau.md#2-cạnh-tranh-là-gì) và **thêm một điều kiện
 thứ ba** (tr. 309):
 
+> [!quote]
 > **Thị trường cạnh tranh** (*competitive market*): thị trường với rất nhiều người mua và người bán một
 > loại hàng hoá đồng nhất, trong đó mỗi người mua và bán đều là những **người chấp nhận giá**. — chú thích tr. 309
 
@@ -53,8 +56,10 @@ thứ ba** (tr. 309):
    ③ Doanh nghiệp có thể TỰ DO GIA NHẬP hay RỜI KHỎI thị trường
 ```
 
-⚠️ **Điều kiện ③ có vai trò khác hai điều kiện đầu**, và sách nói rất rõ (tr. 309):
+> [!warning] Điều kiện ③ có vai trò khác hai điều kiện đầu
+> , và sách nói rất rõ (tr. 309):
 
+> [!quote]
 > *"Hầu hết các phân tích về doanh nghiệp cạnh tranh **không cần giả định về gia nhập hay rời khỏi thị
 > trường**, bởi vì điều kiện này là không cần thiết để doanh nghiệp trở thành những người chấp nhận giá.
 > Nhưng chúng ta sẽ thấy ở phần sau của chương này, nếu như có sự tự do gia nhập hay rời khỏi thị trường
@@ -78,6 +83,7 @@ mà Nông trại nhà Vaca làm ra và bán"* (tr. 310). Hệ quả: **tổng do
 
 Hai định nghĩa (chú thích tr. 310–311):
 
+> [!note]
 > **Doanh thu bình quân** (*average revenue*): tổng doanh thu chia cho tổng sản lượng được bán.
 > **Doanh thu biên** (*marginal revenue*): thay đổi trong doanh thu do tăng một đơn vị sản lượng bán ra.
 
@@ -127,8 +133,9 @@ $MR < P$. Đó là toàn bộ khác biệt giữa bài này và **bài 7**.
 |       |      |      |               |  *6* |  *9* |         *−3* |
 |     8 |   48 |   47 |         **1** |      |      |              |
 
-📚 Như ở bài 5, bảng này cũng có công thức đóng: chi phí biên tăng đúng 1 đô la mỗi bước, tức
-$MC(q) = q + 1$, nên
+> [!note]
+> Như ở bài 5, bảng này cũng có công thức đóng: chi phí biên tăng đúng 1 đô la mỗi bước, tức
+> $MC(q) = q + 1$, nên
 
 $$TC(Q) = 3 + \frac{Q(Q+3)}{2}$$
 
@@ -159,9 +166,10 @@ Và vì doanh nghiệp cạnh tranh có $MR = P$:
 
 $$\boxed{\text{Doanh nghiệp cạnh tranh sản xuất tại } P = MC}$$
 
-⚠️ **Đây không phải "bán càng nhiều càng tốt".** Sản lượng tối ưu là một **điểm dừng cụ thể**, và vượt
-qua nó thì lợi nhuận **giảm**. Đây là ứng dụng trực tiếp của **nguyên lý 3** ở
-[bài 1](bai_01_muoi_nguyen_ly_va_tu_duy_kinh_te.md#4-nguyên-lý-3--con-người-duy-lý-suy-nghĩ-tại-điểm-cận-biên).
+> [!warning] Đây không phải "bán càng nhiều càng tốt".
+> Sản lượng tối ưu là một **điểm dừng cụ thể**, và vượt
+> qua nó thì lợi nhuận **giảm**. Đây là ứng dụng trực tiếp của **nguyên lý 3** ở
+> [bài 1](bai_01_muoi_nguyen_ly_va_tu_duy_kinh_te.md#4-nguyên-lý-3--con-người-duy-lý-suy-nghĩ-tại-điểm-cận-biên).
 
 ---
 
@@ -174,6 +182,7 @@ nhận thấy giờ $MR > MC$, nên **tăng sản lượng** tới $Q_2$ (nơi $
 
 Sách phát biểu kết luận bằng câu in nghiêng (tr. 315):
 
+> [!quote]
 > *"Về bản chất, bởi vì **đường chi phí biên xác định mức sản lượng của hàng hoá mà doanh nghiệp sẵn
 > sàng cung ứng ra thị trường ở các mức giá khác nhau, đường chi phí biên cũng là đường cung của doanh
 > nghiệp cạnh tranh.**"*
@@ -215,11 +224,13 @@ $$\text{Đóng cửa nếu } \frac{TR}{Q} < \frac{VC}{Q} \qquad\Longleftrightarr
 Diễn giải trực quan của sách (tr. 316): doanh nghiệp so *"giá bán mà họ nhận được trên mỗi đơn vị sản
 phẩm với chi phí biến đổi bình quân phát sinh khi làm ra một đơn vị sản phẩm thông thường"*.
 
-⚠️ **Doanh nghiệp đóng cửa vẫn LỖ** — lỗ đúng bằng chi phí cố định. *"nhưng dù sao cũng đỡ hơn là tiếp
-tục sản xuất mà lỗ nặng hơn"* (tr. 316).
+> [!warning] Doanh nghiệp đóng cửa vẫn LỖ
+> lỗ đúng bằng chi phí cố định. *"nhưng dù sao cũng đỡ hơn là tiếp
+> tục sản xuất mà lỗ nặng hơn"* (tr. 316).
 
 ### ⟹ Đường cung ngắn hạn
 
+> [!quote] tr. 316, Hình 3 tr. 317
 > ⭐ *"**Đường cung ngắn hạn của doanh nghiệp cạnh tranh là một phần của đường chi phí biên, phần nằm
 > trên đường chi phí biến đổi bình quân.**"* (tr. 316, Hình 3 tr. 317)
 
@@ -227,8 +238,9 @@ tục sản xuất mà lỗ nặng hơn"* (tr. 316).
 
 ---
 
-## 6. 📚 Bình sữa bị đổ — và ba ví dụ về chi phí chìm
+## 6. Bình sữa bị đổ — và ba ví dụ về chi phí chìm
 
+> [!quote]
 > **Chi phí chìm** (*sunk cost*): những khoản chi phí đã bỏ ra và không thể thu hồi. — chú thích tr. 316
 
 Sách mở bằng hai câu ngạn ngữ: *"Không nên khóc vì đã làm đổ sữa"* và *"Chuyện gì đã qua rồi thì cứ cho
@@ -260,6 +272,7 @@ Câu trả lời là quy tắc $P < AVC$:
 | Tiền thuê mặt bằng, dụng cụ nhà bếp, bàn ghế, chén dĩa, đồ bạc | **cố định**  | ❌ *"đóng cửa nhà hàng vào buổi trưa không làm giảm các khoản chi phí này"* |
 | Giá thức ăn chuẩn bị thêm, lương nhân viên phục vụ bữa trưa    | **biến đổi** | ✅ **chỉ có khoản này**                                                     |
 
+> [!quote]
 > *"Người chủ nhà hàng sẽ ngừng phục vụ bữa trưa nếu như doanh thu từ vài ba người khách ăn trưa không
 > thể bù đắp nổi chi phí biến đổi của nhà hàng."*
 
@@ -267,7 +280,8 @@ Câu trả lời là quy tắc $P < AVC$:
 trong quá trình ra quyết định này. Sân golf mini chỉ nên được mở cửa phục vụ kinh doanh vào những thời
 điểm trong năm khi mà doanh thu lớn hơn chi phí biến đổi."*
 
-💼 Mục 11 dựng lại đúng bài toán này bằng số cho một quán ăn Việt Nam.
+> [!example]
+> Mục 11 dựng lại đúng bài toán này bằng số cho một quán ăn Việt Nam.
 
 ---
 
@@ -284,6 +298,7 @@ $$\boxed{\text{Gia nhập nếu } P > ATC}$$
 
 ### ⟹ Đường cung dài hạn
 
+> [!quote] tr. 319, Hình 4
 > ⭐ *"**Đường cung của doanh nghiệp cạnh tranh trong dài hạn là một phần của đường chi phí biên, phần
 > nằm trên đường tổng chi phí bình quân.**"* (tr. 319, Hình 4)
 
@@ -300,9 +315,10 @@ $$\boxed{\text{Gia nhập nếu } P > ATC}$$
    P > ATC          →  có LÃI → hút doanh nghiệp MỚI gia nhập
 ```
 
-⚠️ **Vùng ở giữa là vùng gây nhầm lẫn nhất.** Doanh nghiệp **đang lỗ** mà vẫn **nên tiếp tục sản xuất** —
-không phải vì lạc quan, mà vì chi phí cố định đã chìm và doanh thu còn bù được một phần. Mục 11 in ra
-bảng đầy đủ ba vùng bằng số.
+> [!warning] Vùng ở giữa là vùng gây nhầm lẫn nhất.
+> Doanh nghiệp **đang lỗ** mà vẫn **nên tiếp tục sản xuất** —
+> không phải vì lạc quan, mà vì chi phí cố định đã chìm và doanh thu còn bù được một phần. Mục 11 in ra
+> bảng đầy đủ ba vùng bằng số.
 
 ---
 
@@ -327,13 +343,15 @@ $$\text{Lợi nhuận} = TR - TC = \left(\frac{TR}{Q} - \frac{TC}{Q}\right) \tim
 | (a)    | $P > ATC$  | nằm **trên** đường ATC → **lợi nhuận dương**                           |
 | (b)    | $P < ATC$  | nằm **dưới** đường ATC → **thua lỗ**, diện tích $= (ATC - P) \times Q$ |
 
-⚠️ **Trong cả hai trường hợp, doanh nghiệp vẫn sản xuất tại $P = MC$.** Sách nói rõ ở trường hợp lỗ
-(tr. 320): *"tối đa hoá lợi nhuận hàm ý là **tối thiểu hoá khoản lỗ** bằng cách sản xuất ở mức sản lượng
-mà giá bán bằng với chi phí biên"*.
+> [!warning] Trong cả hai trường hợp, doanh nghiệp vẫn sản xuất tại $P = MC$.
+> Sách nói rõ ở trường hợp lỗ
+> (tr. 320): *"tối đa hoá lợi nhuận hàm ý là **tối thiểu hoá khoản lỗ** bằng cách sản xuất ở mức sản lượng
+> mà giá bán bằng với chi phí biên"*.
 
-💡 **Đây là điểm hay bị hiểu sai trong thực tế:** đang lỗ **không** có nghĩa là phải cắt giảm sản lượng.
-Nếu $P > AVC$, cắt sản lượng chỉ làm **lỗ nặng hơn**.
----
+> [!example] Đây là điểm hay bị hiểu sai trong thực tế:
+> đang lỗ **không** có nghĩa là phải cắt giảm sản lượng.
+> Nếu $P > AVC$, cắt sản lượng chỉ làm **lỗ nặng hơn**.
+> ---
 
 ## 9. Cân bằng dài hạn — vì sao lợi nhuận bị ép về 0
 
@@ -354,6 +372,7 @@ Sách phát biểu bằng câu in nghiêng (tr. 322):
 
 ![Hình 7 — tr. 322, bản chụp giáo trình](../tai_lieu/hinh/ch14-hinh-07-tr322.png)
 
+> [!quote]
 > *"**Kết thúc quá trình gia nhập hay rời khỏi thị trường này, những doanh nghiệp vẫn còn ở trên thị
 > trường sẽ có mức lợi nhuận kinh tế bằng 0.**"*
 
@@ -368,6 +387,7 @@ $$P = MC = ATC$$
 Và ở [bài 5](bai_05_chi_phi_san_xuat.md#7-ba-đặc-điểm-của-mọi-đường-chi-phí) ta đã biết
 **$MC = ATC$ chỉ xảy ra tại điểm ATC thấp nhất** — tức **quy mô hiệu quả**. Sách kết luận (tr. 323):
 
+> [!quote]
 > ⭐ *"**ở trạng thái cân bằng trong dài hạn của một thị trường cạnh tranh được tự do gia nhập hay rời
 > khỏi thị trường, các doanh nghiệp phải hoạt động ở mức quy mô hiệu quả của mình.**"*
 
@@ -388,10 +408,11 @@ nhuận 0**.
 
 ---
 
-## 10. ⚠️ "Lợi nhuận bằng 0" nghĩa là gì — mục dễ hiểu sai nhất chương
+## 10. "Lợi nhuận bằng 0" nghĩa là gì — mục dễ hiểu sai nhất chương
 
 Sách tự đặt câu hỏi này thành một mục riêng (tr. 322–323), vì nó **nghe rất vô lý**:
 
+> [!quote]
 > *"Bất cứ ai làm kinh doanh cũng đều muốn có lợi nhuận. Nếu như tham gia vào thị trường để rồi cuối
 > cùng lợi nhuận cũng quay về 0 thì hầu như chẳng có lý do gì để họ ở lại làm kinh doanh."*
 
@@ -407,6 +428,7 @@ Câu trả lời nằm ở chỗ **tổng chi phí trong kinh tế học bao g�
 | Công việc khác phải hy sinh | **30.000 đô la/năm** |
 | **Tổng chi phí cơ hội**     | **80.000 đô la/năm** |
 
+> [!quote]
 > *"Thậm chí nếu như lợi nhuận của anh ta tiến về 0, doanh thu từ nông trại có thể bù đắp những khoản
 > chi phí cơ hội này."*
 
@@ -432,48 +454,50 @@ phương án tốt nhất kế tiếp của mình** — không hơn, không kém
 
 ⭐ **Kết luận đắt nhất:**
 
+> [!note]
 > Trong dài hạn, cầu tăng làm tăng **SỐ DOANH NGHIỆP** và **SẢN LƯỢNG THỊ TRƯỜNG**, chứ **không** làm
 > tăng **GIÁ**.
 
 Mục 12 chạy đúng ba giai đoạn này bằng số: giá $4{,}00 \to 4{,}67 \to 4{,}00$; sản lượng thị trường
 $900 \to 1.100 \to 1.200$; số doanh nghiệp $300 \to 300 \to 400$.
 
-### 📚 Nhưng vì sao đường cung dài hạn thực tế vẫn dốc lên?
-
-Sách đưa **hai lý do** (tr. 325–326), và cả hai đều rất thực tế:
-
-**① Nguồn lực có giới hạn.** Ví dụ nông sản: *"bất cứ ai cũng có thể mua đất và bắt đầu xây dựng nông
-trại, nhưng diện tích đất đai có giới hạn. Khi ngày càng có nhiều người muốn trở thành nông dân, giá
-đất sẽ bị đẩy lên và làm tăng chi phí của các nông dân trên thị trường."*
-
-**② Doanh nghiệp có chi phí khác nhau.** Ví dụ thợ sơn: ai cũng tham gia được, *"nhưng không phải mọi
-người ai cũng có chi phí như nhau"* — người làm nhanh hơn, người có phương án dùng thời gian hiệu quả
-hơn nên **chi phí cơ hội cao hơn**. Ở bất cứ mức giá nào, **người chi phí thấp gia nhập trước**. Muốn
-có thêm cung phải **tăng giá** để kéo người chi phí cao vào.
-
-⭐ **Hệ quả rất đáng chú ý ở lý do ②** (tr. 326) — nó phá vỡ kết luận "lợi nhuận bằng 0":
-
-> *"do các doanh nghiệp có chi phí khác nhau, **một vài doanh nghiệp thậm chí vẫn có thể có lợi nhuận
-> trong dài hạn**. Trong trường hợp này, giá trên thị trường phản ánh tổng chi phí bình quân của
-> **doanh nghiệp biên** — là doanh nghiệp sẽ rời khỏi thị trường nếu giá cả trở nên thấp hơn. Doanh
-> nghiệp này có lợi nhuận bằng 0, nhưng doanh nghiệp với chi phí thấp hơn sẽ được lợi nhuận dương."*
-
-💼 **Đây là nền tảng kinh tế học của khái niệm "lợi thế cạnh tranh".** Bạn kiếm được lợi nhuận bền vững
-trong một ngành cạnh tranh **khi và chỉ khi chi phí của bạn thấp hơn doanh nghiệp biên**. Không phải
-nhờ bán đắt hơn — trong thị trường cạnh tranh bạn không bán đắt hơn được.
-
-Và câu kết của sách (tr. 326):
-
-> *"Bởi vì các doanh nghiệp có thể gia nhập hay rời khỏi thị trường trong dài hạn dễ dàng hơn là trong
-> ngắn hạn, **đường cung dài hạn thông thường co giãn hơn đường cung ngắn hạn**."*
-
-📌 Khớp đúng với [bài 3, mục 10](bai_03_do_co_gian_va_dinh_gia.md#10-độ-co-giãn-của-cung) — nhưng bây
-giờ ta biết **cơ chế** đằng sau: đó là gia nhập và rời bỏ.
+> [!note] Nhưng vì sao đường cung dài hạn thực tế vẫn dốc lên?
+>
+> Sách đưa **hai lý do** (tr. 325–326), và cả hai đều rất thực tế:
+>
+> **① Nguồn lực có giới hạn.** Ví dụ nông sản: *"bất cứ ai cũng có thể mua đất và bắt đầu xây dựng nông
+> trại, nhưng diện tích đất đai có giới hạn. Khi ngày càng có nhiều người muốn trở thành nông dân, giá
+> đất sẽ bị đẩy lên và làm tăng chi phí của các nông dân trên thị trường."*
+>
+> **② Doanh nghiệp có chi phí khác nhau.** Ví dụ thợ sơn: ai cũng tham gia được, *"nhưng không phải mọi
+> người ai cũng có chi phí như nhau"* — người làm nhanh hơn, người có phương án dùng thời gian hiệu quả
+> hơn nên **chi phí cơ hội cao hơn**. Ở bất cứ mức giá nào, **người chi phí thấp gia nhập trước**. Muốn
+> có thêm cung phải **tăng giá** để kéo người chi phí cao vào.
+>
+> ⭐ **Hệ quả rất đáng chú ý ở lý do ②** (tr. 326) — nó phá vỡ kết luận "lợi nhuận bằng 0":
+>
+> > *"do các doanh nghiệp có chi phí khác nhau, **một vài doanh nghiệp thậm chí vẫn có thể có lợi nhuận
+> > trong dài hạn**. Trong trường hợp này, giá trên thị trường phản ánh tổng chi phí bình quân của
+> > **doanh nghiệp biên** — là doanh nghiệp sẽ rời khỏi thị trường nếu giá cả trở nên thấp hơn. Doanh
+> > nghiệp này có lợi nhuận bằng 0, nhưng doanh nghiệp với chi phí thấp hơn sẽ được lợi nhuận dương."*
+>
+> 💼 **Đây là nền tảng kinh tế học của khái niệm "lợi thế cạnh tranh".** Bạn kiếm được lợi nhuận bền vững
+> trong một ngành cạnh tranh **khi và chỉ khi chi phí của bạn thấp hơn doanh nghiệp biên**. Không phải
+> nhờ bán đắt hơn — trong thị trường cạnh tranh bạn không bán đắt hơn được.
+>
+> Và câu kết của sách (tr. 326):
+>
+> > *"Bởi vì các doanh nghiệp có thể gia nhập hay rời khỏi thị trường trong dài hạn dễ dàng hơn là trong
+> > ngắn hạn, **đường cung dài hạn thông thường co giãn hơn đường cung ngắn hạn**."*
+>
+> 📌 Khớp đúng với [bài 3, mục 10](bai_03_do_co_gian_va_dinh_gia.md#10-độ-co-giãn-của-cung) — nhưng bây
+> giờ ta biết **cơ chế** đằng sau: đó là gia nhập và rời bỏ.
 
 ---
 
 ## 12. Code minh hoạ
 
+> [!note]
 > ⚙️ **Chạy:** cần **Python 3.10+**. Lưu file rồi gõ `python3 bai-06-thi-truong-canh-tranh.py`.
 > **Không cần cài gói nào.** File có sẵn tại [thuc_hanh/bai-06-thi-truong-canh-tranh.py](../thuc_hanh/bai-06-thi-truong-canh-tranh.py).
 

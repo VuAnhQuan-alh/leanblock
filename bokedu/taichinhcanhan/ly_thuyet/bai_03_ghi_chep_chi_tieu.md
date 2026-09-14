@@ -1,15 +1,15 @@
 # Bài 3 — Ghi chép chi tiêu và phương pháp Kakeibo
 
+> [!info] Về bài này
 > Bài học dựa trên **Unit 2 Lesson 1–2 của Class 1** — C1 tr. 7–10.
->
 > **Cần đọc trước:** [Bài 2](bai_02_do_hien_trang.md) — bài này cung cấp **dữ liệu** cho hai công
 > thức mà bài 2 dựng ra. Không có sổ ghi chép thì dòng tiền chỉ là con số đoán.
->
 > **Ký hiệu:** **[bổ sung]** là kiến thức ngoài sách · **[đính chính]** là chỗ sách sai ·
 > **[2026]** là mục đối chiếu với hiện tại.
->
 > **Code:** [`thuc_hanh/bai-03-ghi-chep-bao-lau.py`](../thuc_hanh/bai-03-ghi-chep-bao-lau.py)
 > — trả lời bằng số cho chỉ dẫn *"3-6 tháng"* mà sách đưa ra không kèm lý do. Mục 6.
+>
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
 
 ---
 
@@ -37,6 +37,7 @@
 
 Sách đặt tên cho Lesson 1 là *"Công việc đầu tiên"*, và câu mở đầu nói rõ vì sao:
 
+> [!quote]
 > *"Lập kế hoạch tài chính bắt đầu bằng việc ghi chép lại những khoản thu chi. Điều này khiến bạn
 > hướng sự chú tâm vào tiền bạc."* — C1 tr. 7
 
@@ -57,11 +58,13 @@ Vị trí của bài này trong mạch khoá học rất rõ:
 
 Sách nói thẳng cái giá phải trả và cái nhận lại:
 
+> [!quote]
 > *"Bạn đổi chút ít sự thoải mái hôm nay lấy sự dư dả ngày mai. Quản lý tiền không đồng nghĩa với
 > việc bạn phải 'thắt lưng buộc bụng', chỉ yêu cầu tính kỷ luật và sự kiên nhẫn."* — C1 tr. 8
 
 Và nó đặt một chỉ tiêu cụ thể — con số duy nhất trong Lesson 1, mà mục 6 sẽ đem ra kiểm:
 
+> [!quote]
 > *"Ghi chép một cách kỷ luật và kiên trì trong vòng **3-6 tháng**, bạn sẽ nhận ra hiện trạng bức
 > tranh tài chính của bản thân cũng như gia đình."* — C1 tr. 7
 
@@ -71,18 +74,21 @@ Và nó đặt một chỉ tiêu cụ thể — con số duy nhất trong Lesson
 
 Chỗ đáng khen nhất của Lesson 1 là sách **tự viết ra lời phản đối** thay vì lờ nó đi:
 
+> [!quote]
 > *"Bạn có thể nói 'Dù sao đây cũng là tiền của tôi, do tôi làm ra, tôi muốn được thoải mái trong
 > việc sử dụng tiền. Đến cuối tháng còn bao nhiêu sẽ để dành cho tiết kiệm. Tại sao phải ghi chép một
 > cách phiền phức thế làm gì?'"* — C1 tr. 7
 
 Và câu trả lời không hề lên lớp:
 
+> [!quote]
 > *"Suy nghĩ đó đúng. Bạn làm gì với tiền của bạn là việc cá nhân. Bạn không thể sai được, dĩ nhiên.
 > Chỉ là, có một cách tốt hơn."* — C1 tr. 7
 
 Lý lẽ mà sách đưa ra sau đó là **thực nghiệm**, không phải đạo đức: cách "cuối tháng còn bao nhiêu
 thì để dành" cho ra kết quả tệ.
 
+> [!quote]
 > *"Kể cả chắt bóp mấy, việc tiết kiệm của bạn cũng sẽ chập chờn tháng có tháng không, tháng nhiều
 > tháng ít."* — C1 tr. 7–8
 
@@ -93,6 +99,7 @@ chờn ấy bằng số.
 
 Đoạn tiếp theo mô tả một cơ chế tâm lý mà sách không gọi tên:
 
+> [!quote]
 > *"Sau đó, bạn sẽ nhìn lên những người xung quanh. Không phải 'nhìn sang' những người giống mình mà
 > 'nhìn lên' những người hơn mình… Bạn thoáng ghen tỵ với thành công của họ."* — C1 tr. 8
 
@@ -104,6 +111,7 @@ và người có chiếc ô tô mà tài sản ròng âm 90 triệu. **Bài 10**
 
 ## 3. Kakeibo — bốn câu hỏi
 
+> [!quote]
 > *"Kakeibo (家計簿 – kah keh boh) có nghĩa là 'Sổ ghi chép chi tiêu tài chính'. Phương pháp này có
 > nguồn gốc từ nước Nhật, do nữ nhà báo Hani Motoko sáng tạo vào năm 1904, giúp phụ nữ Nhật biết
 > cách kiểm soát hiện trạng tài chính của gia đình."* — C1 tr. 8
@@ -174,11 +182,13 @@ Hai trang liền nhau, hai lời khuyên ngược nhau.
 
 **Trang 7** — Lesson 1:
 
+> [!quote]
 > *"Hoặc bạn **nên dùng các app** quản lý tiền trên điện thoại như Money Lover, Fast Budget…"*
 > — C1 tr. 7
 
 **Trang 8** — Lesson 2, mở đầu phần Kakeibo:
 
+> [!quote]
 > *"Phương pháp này chỉ cần một quyển sổ và một cây bút để ghi chép lại mọi khoản thu chi (**không
 > sử dụng các app** quản lý tài chính hiện đại)."* — C1 tr. 8
 
@@ -188,6 +198,7 @@ Một trang bảo nên dùng app, trang sau bảo không dùng app. Sách không
 
 Sách tự cung cấp tiêu chí quyết định, ở cuối Lesson 2:
 
+> [!quote]
 > *"lợi ích lớn nhất của Kakeibo là yêu cầu bạn phải **chú tâm** vào những khoản thu chi hàng tháng
 > của mình."* — C1 tr. 10
 
@@ -215,6 +226,7 @@ Lesson 2 đưa ra hai khẳng định mạnh, cạnh nhau, không kèm nguồn n
 
 ### "Tiết kiệm được 35% tổng thu nhập"
 
+> [!quote]
 > *"Theo thống kê, bạn có thể tiết kiệm được **35%** tổng thu nhập của gia đình hoặc thu nhập cá
 > nhân khi áp dụng Kakeibo."* — C1 tr. 8
 
@@ -240,6 +252,7 @@ Cách đọc đúng con số này: coi nó là **quảng cáo cho phương pháp
 
 ### "Khoa học đã chứng minh"
 
+> [!quote]
 > *"Khoa học đã chứng minh rằng việc ghi chép bằng tay sẽ tốt hơn việc sử dụng các thiết bị công
 > nghệ."* — C1 tr. 9
 
@@ -334,6 +347,7 @@ chép có thể không chứa cái tháng tốn nhất của cả năm.
 
 ### Cách vá, suy thẳng từ mấy con số trên
 
+> [!note]
 > **Ba nhóm đầu:** lấy trung bình từ sổ ghi chép 3–6 tháng. Ổn định, ngắn thế là đủ.
 >
 > **Nhóm thứ tư:** **đừng** lấy trung bình từ sổ. Hãy ngồi liệt kê theo **năm** — Tết, cưới hỏi,
@@ -352,12 +366,14 @@ xử lý khoảng trống đó bằng hai công cụ khác nhau — quỹ chi ti
 
 Đọc lại câu hỏi 2, chú ý chữ cuối:
 
+> [!quote]
 > *"**2. Bạn muốn tiết kiệm bao nhiêu tiền?** Ghi chép lại số tiền muốn tiết kiệm vào trang tiếp
 > theo và **cất riêng khoản này trước**. Cố gắng chi tiêu làm sao để không phải sử dụng đến khoản
 > tiết kiệm."* — C1 tr. 9
 
 Bây giờ mở Class 2, trang 15, nơi sách giới thiệu một nguyên tắc như thể lần đầu:
 
+> [!quote]
 > *"thay vì trả cho người khác, chúng ta ưu tiên thanh toán cho bản thân trước tiên… hãy ưu tiên
 > trả cho bản thân theo quy tắc **'Pay yourself first'**. Quy trình mới sẽ là: Kiếm tiền − Pay your
 > self first − Chi tiêu − Bảo vệ − Đầu tư."* — C2 tr. 15

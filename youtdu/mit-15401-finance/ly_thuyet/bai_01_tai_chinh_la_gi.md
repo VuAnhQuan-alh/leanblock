@@ -1,14 +1,13 @@
 # Bài 1 — Tài chính là gì: hai thách thức, hai yếu tố, sáu nguyên lý
 
+> [!info] Về bài này
 > Bài học dựng trên video **"Ses 1: Introduction and Course Overview"**
 > — khoá **MIT 15.401 *Finance Theory I*, Fall 2008**, giảng viên **Andrew W. Lo** (MIT Sloan).
 > YouTube `HdHlfiOAJyE`, 67:05. Phụ đề gốc do người viết tay.
-> 📚 **Mở rộng** — kiến thức nền video lướt qua hoặc để dành cho các buổi sau.
-> 🇻🇳 **Góc Việt Nam** — số liệu và ví dụ trong nước, **không có trong video** (mục 7, 18).
-> ⚠️ **Video ghi học kỳ Thu 2008 — đã 18 năm.** Các mục đối chiếu với 2026: **3** (hệ thống tài chính
-> đã đổi), **9** (tiên đề cổ đông tối thượng), **12** (lãi suất âm), **13** (Lo tự phản biện),
-> **14** (chuyện gì đã xảy ra sau đó). Mục **17** bổ sung phần lý thuyết buổi 1 còn thiếu.
-> 📌 **Không cần đọc trước gì cả.** Lo nói thẳng ở `12:43`: *"tôi giả định các bạn không biết gì."*
+>
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
+>
+> **Không cần đọc trước gì cả.** Lo nói thẳng ở `12:43`: *"tôi giả định các bạn không biết gì."*
 > Toàn bộ công thức viết bằng LaTeX — mở bằng **Obsidian** hoặc VS Code + Markdown Preview Enhanced.
 
 ---
@@ -58,6 +57,7 @@ nói thêm, *"mà thật ra đúng thế, nhưng đấy không phải ý tôi"* 
 Chỗ này rất nhiều người đọc xong là bỏ chạy: *"tôi không giỏi toán, chắc tôi học nhầm lớp."*
 Lo chặn phản ứng đó ngay (`11:58`), và đây là điều quan trọng nhất của mục này:
 
+> [!quote]
 > *"Khi tôi nói toán học, tôi đang nói tới một dải rất rộng của toán học. Từ chỗ cực kỳ phức tạp
 > và sâu sắc, tới chỗ cực kỳ tầm thường và hiển nhiên."* — `12:16`
 
@@ -79,12 +79,14 @@ dụng cho **lý thuyết dây** trong vật lý (`13:58`). Trừu tượng đ�
 
 Rồi ông lập quỹ đầu cơ. Lo mô tả thành tích của Simons:
 
+> [!quote]
 > *"Ông ấy là Michael Phelps của các chiến lược đầu tư định lượng."* — `14:43`
 
 Con số Lo đưa ra: năm **2006**, tạp chí *Alpha* của Institutional Investor xếp Simons là **nhà quản
 lý quỹ đầu cơ được trả cao nhất năm**, với **1,7 tỷ đô la** (`15:02`). Lo nhấn mạnh một chi tiết mà
 người nghe hay bỏ sót:
 
+> [!quote]
 > *"Đấy không phải tài sản, đấy là thu nhập. Đấy là trên tờ W-2 của ông ta. Đấy là lương một năm."* — `15:21`
 
 Và ông làm được điều đó với một công ty gồm **75 tiến sĩ toán, vật lý, khoa học máy tính** — mà
@@ -101,6 +103,7 @@ phòng họp ở Sloan"*, nhân sự *"ít hơn số người trong startup củ
 có Charlie Munger, vài thư ký, vài kế toán và luật sư (`16:51`–`17:10`). Việc ông làm là đọc bản
 cáo bạch, báo cáo kết quả kinh doanh, bảng cân đối kế toán:
 
+> [!quote]
 > *"Và với đúng số học phổ thông, ông ấy đã dựng nên đế chế đầu tư này bằng cách nhìn vào định giá.
 > Kế toán đơn giản."* — `17:27`
 
@@ -120,6 +123,7 @@ làm CEO năm **1981** (`17:55`–`18:11`).
 Việc cắt 100.000 chỗ làm trong 5 năm là lý do ông có biệt danh **"Neutron Jack"** — như bom neutron,
 xoá sạch dân số nhưng để lại nhà cửa (`18:35`). Cùng lúc đó giá trị thị trường của GE tăng gấp bội.
 
+> [!quote]
 > ⚠️ **Tự kiểm tra số của giáo sư.** Ở `19:17` Lo nói doanh thu tăng *"gấp 4 lần rưỡi"*. Nhưng
 > $130 / 26 = 5{,}0$ đúng theo chính hai con số ông vừa đọc. Đây là một chỗ tốt để tập phản xạ
 > quan trọng nhất của cả khoá: **nghe xong thì tính lại.** (Số thực tế của GE — 27,2 tỷ năm 1981 và
@@ -132,6 +136,7 @@ là hiểu được ngôn ngữ tài chính, dù không dùng một chút nào k
 
 Ba người: một nhà hình học vi phân, một người dùng số học phổ thông, một kỹ sư. Không ai giống ai.
 
+> [!quote]
 > *"Nhưng có một thứ chung. Thứ chung đó là cả ba đều hiểu — một cách bản năng, sâu sắc, tận gốc —
 > **ngôn ngữ của tài chính**."* — `20:18`
 
@@ -170,6 +175,7 @@ Nền kinh tế dĩ nhiên còn thị trường lao động và thị trường 
 
 Điểm quan trọng — và cũng là điều khiến tài chính học được — nằm ở `22:27`:
 
+> [!quote]
 > *"Phân tích tài chính áp dụng cho tất cả các thành phần này theo đúng một cách giống hệt nhau.
 > Chỉ khi bạn áp nó vào một bối cảnh cụ thể thì thuật ngữ mới đổi, ứng dụng mới trông khác đi."*
 
@@ -201,6 +207,7 @@ quản lý — **BlackRock, Vanguard, State Street** — nắm khoảng **20–2
 S&P 500** và là cổ đông lớn nhất ở khoảng **9 trên 10** công ty trong chỉ số. Năm 2008 con số đó chỉ
 là **13,5 %**.
 
+> [!note]
 > ⚠️ Một đính chính hay bị bỏ qua: ba công ty này **không "sở hữu"** số cổ phần đó theo nghĩa hưởng
 > lợi. Họ nắm hộ cho hàng chục triệu nhà đầu tư của các quỹ. Quyền họ thực sự nắm là **quyền biểu
 > quyết** — và đó mới là chỗ đáng bàn.
@@ -215,6 +222,7 @@ trong các bài sau, **đừng chỉ hình dung một ngân hàng.**
 
 Lo hứa một lời hứa rất to ở `06:46`:
 
+> [!quote]
 > *"Hoá ra chỉ có hai. Chỉ có hai thách thức trong phân tích tài chính, và một khi bạn giải được cả
 > hai thì bạn xong. Nên nếu tình cờ bạn nghĩ ra được cả hai trước khi hết buổi hôm nay, bạn không
 > cần quay lại các buổi còn lại nữa."* — `06:46`–`07:03`
@@ -228,6 +236,7 @@ Hai thách thức đó (`22:57`):
 
 Và đây là cú lật của mục này. Lo tháo tung thách thức thứ hai ngay tại chỗ (`23:20`):
 
+> [!quote]
 > *"Quản trị sẽ là việc tìm xem trong hai khả năng thì cái nào đáng giá hơn. Rồi bạn biết gì không?
 > Bạn chọn cái đáng giá hơn. Thế thôi. Chỉ có thế."*
 
@@ -246,6 +255,7 @@ giá cộng mục tiêu.** Việc còn lại là số học.
 
 Nhưng "định giá" không dễ như nghe. Lo hỏi (`24:21`):
 
+> [!quote]
 > *"Giá trị là gì? Nước có giá trị không? Sự sống không tồn tại được nếu thiếu nó — ít nhất là sự
 > sống gốc carbon."* — `24:21`
 >
@@ -261,11 +271,12 @@ từ 1776. Nó cho thấy hai chữ "giá trị" đang trộn hai thứ khác nh
 | **Giá trị sử dụng**  | hữu ích đến đâu    | vô hạn   | gần bằng không |
 | **Giá trị trao đổi** | đổi được bao nhiêu | rất thấp | rất cao        |
 
-📚 **Bổ sung — lời giải mà Lo không đưa ra ở đây.** Kinh tế học vi mô giải nghịch lý này bằng **hữu
-dụng biên**: cái quyết định giá không phải tổng hữu dụng, mà là hữu dụng của **đơn vị cuối cùng**.
-Cốc nước thứ một nghìn trong ngày gần như vô dụng, nên nước rẻ. Viên kim cương thứ nhất thì hiếm,
-nên đắt. Toàn bộ khoá 15.401 sẽ làm điều tương tự cho tài sản tài chính: **giá là chuyện của đơn vị
-biên và của người mua biên**, không phải chuyện của tổng lợi ích.
+> [!note] Bổ sung — lời giải mà Lo không đưa ra ở đây.
+> Kinh tế học vi mô giải nghịch lý này bằng **hữu
+> dụng biên**: cái quyết định giá không phải tổng hữu dụng, mà là hữu dụng của **đơn vị cuối cùng**.
+> Cốc nước thứ một nghìn trong ngày gần như vô dụng, nên nước rẻ. Viên kim cương thứ nhất thì hiếm,
+> nên đắt. Toàn bộ khoá 15.401 sẽ làm điều tương tự cho tài sản tài chính: **giá là chuyện của đơn vị
+> biên và của người mua biên**, không phải chuyện của tổng lợi ích.
 
 Mục 6 và 7 cho thấy nguyên tắc "người mua biên" đó vận hành thật, ngay trong một giảng đường.
 
@@ -288,6 +299,7 @@ bán cho lớp nào — *"để không có chuyện tôi thiên vị lớp này 
 
 Rồi ông hỏi cả phòng: **có ai biết trong hộp có gì không?** Không ai biết. Giá trị của nó là bao nhiêu?
 
+> [!quote]
 > *"Bằng không? Âm? Không thể âm được, đúng không? Có trách nhiệm hữu hạn. Bạn không thể nợ tôi vì
 > một thứ nằm trong hộp."* — `27:53`
 
@@ -331,14 +343,17 @@ $125, Lo đính chính: **"$149, cho chính xác"** (`33:58`).
 
 ### Bài học Lo rút ra
 
+> [!quote]
 > *"Ta đã xác lập được giá trị. Nó là 45 đô la. Đó là thị trường đang vận hành. Không một ai trong
 > các bạn biết trong này có gì."* — `31:08`
 
+> [!quote]
 > *"Không biết gì, không hề có một mẩu thông tin nào, mà chúng ta đã xác lập được giá trị. Điều đó
 > thật đáng nể."* — `32:10`
 
 Rồi ông tự bác chính mình — và đây mới là ý sâu nhất của màn biểu diễn (`32:29`):
 
+> [!quote]
 > *"Nhưng không đúng là **không có** thông tin. Thực ra trong phòng này có cực kỳ nhiều thông tin.
 > Bởi vì các bạn biết một số thứ. Các bạn biết kích thước các gói hàng. Các bạn biết rằng tôi là
 > giáo sư, và nếu tôi lừa các bạn thật thì tôi sẽ gặp rắc rối với hiệu trưởng."*
@@ -350,8 +365,10 @@ diện — tất cả đều là dữ liệu, và tất cả đều được né
 
 Và chiết khấu chính là giá của phần còn thiếu (`34:34`):
 
+> [!quote]
 > *"Sự thiếu minh bạch, sự thiếu thông tin, thực sự đã **làm giảm** giá trị của món đồ đó."*
 
+> [!quote]
 > ⚠️ **Lo tự nói sai con số của mình.** Ở `37:12` ông tổng kết: *"nếu bạn muốn bán một tài sản mà
 > người mua không được nhìn, và phải bán ngay, thì chiết khấu 66% là khá công bằng."* Nhưng chiết
 > khấu thật là $104/149 = **69,8 %**. (Ở `36:58` ông nói *"khoảng một phần ba giá trị"* — cái này
@@ -396,6 +413,7 @@ Mục 19 mô phỏng cả hai lực này bằng code. Kết quả: chỉ riêng 
 đã nằm dưới $149 vì không ai được nhìn — chưa đủ để giải thích $45. Phải cộng thêm lực (b) ở mức
 $k \approx 60\%$ thì giá mới rơi xuống mức đó.
 
+> [!note]
 > ⚠️ Mô hình ở mục 19 là **mô hình đơn giản hoá do bài học này dựng**, không phải của Lo. Nó không
 > chứng minh rằng lớp học "thật sự" chừa 60 %. Nó chỉ làm một việc: cho thấy hai lực trên là **hai
 > đại lượng khác nhau** và có thể tách ra đo riêng. Đó mới là điều đáng mang đi.
@@ -438,11 +456,13 @@ nào thể hiện quan điểm, nên giá chỉ đi lên cho tới khi hết ng�
 
 Từ `38:18` Lo chuyển sang bộ khung sẽ dùng suốt 13 tuần. Điểm khởi đầu là kế toán:
 
+> [!quote]
 > *"Kế toán là ngôn ngữ, là từ vựng của tài chính, ở chỗ nó là khởi đầu của việc đo lường các khái
 > niệm kinh tế."* — `38:18`
 
 Và ông cảnh báo có **một cặp khái niệm sẽ lạ lẫm với hầu hết người học** (`38:57`):
 
+> [!quote]
 > *"Khi tôi nói **stock**, tôi không nói cổ phiếu. Ý tôi là **stock của tài sản** — mức tài sản.
 > Và **flow** là **tốc độ thay đổi** của tài sản."*
 
@@ -454,10 +474,12 @@ thôi sao?"*
 
 Giáo sư hơi khựng, thừa nhận đúng, rồi đưa ra cách hiểu trực quan hơn — **cái bồn tắm**:
 
+> [!quote]
 > *"**Stock là mức nước. Flow là tốc độ nước chảy vào bồn.**"* — `39:46`
 
 Sinh viên đó vẫn có vẻ chưa thông. Giáo sư kết luận:
 
+> [!quote]
 > *"Thôi thế này, có người thấy bồn tắm trực quan, có người thấy đạo hàm trực quan. Tuỳ mỗi người."* — `40:04`
 
 ### Ánh xạ sang hai tờ báo cáo
@@ -479,6 +501,7 @@ hai năm đầu của một sinh viên MBA.
 
 Và Lo thả một câu khiến cả phòng phải ngẩng lên (`41:26`):
 
+> [!quote]
 > *"Nhân tiện, đây là **toàn bộ** công cụ mà Warren Buffett dùng để phân tích các khoản đầu tư của
 > ông ấy. Chỉ có thế. Tin hay không thì tuỳ. Không có gì màu mè hơn."*
 
@@ -521,12 +544,14 @@ rủi ro là **1 và 5**.
 
 Và tất cả gói lại trong một câu (`42:36`):
 
+> [!quote]
 > *"Tiền mặt là dòng máu của doanh nghiệp. Nếu bạn đi theo dòng tiền, cuối cùng bạn sẽ đụng vào mọi
 > khía cạnh quan trọng của hoạt động doanh nghiệp hiện đại."*
 
 Mục tiêu cuối cùng thì Lo phát biểu gọn ở `44:03`: **tối đa hoá tài sản của cổ đông** (*maximize
 shareholder wealth*).
 
+> [!quote] 54:07, xem mục 13
 > 📚 Câu đó là **tiên đề** của khoá học, không phải kết luận. Nó có nhiều vấn đề — cổ đông nào? trong
 > bao lâu? còn các bên liên quan khác? Lo hoàn toàn biết điều này và hứa sẽ tự đục thủng bộ khung
 > của mình ở buổi cuối (`54:07`, xem mục 13).
@@ -561,6 +586,7 @@ luật.** Chính Lo cũng gọi các nguyên lý của mình là *"xấp xỉ"* 
 Đây là chỗ Lo biến bài giảng thành thứ dùng được ngay tối nay. Ông thừa nhận phần trên nghe rất lý
 thuyết, rồi yêu cầu (`44:20`):
 
+> [!quote]
 > *"Tôi muốn các bạn lấy tất cả những ý này và áp thẳng vào chính mình. Hãy nghĩ về những dòng tiền
 > đang chảy qua đời bạn. Ngay bây giờ có thể chưa nhiều, vì bạn còn đi học. Nhưng tin tôi đi, nó sẽ
 > lớn lên."*
@@ -579,6 +605,7 @@ tài chính** (`44:34`). Năm điểm ở mục 9 dịch nguyên xi:
 Ở `45:17` Lo hỏi cả lớp: *"tài sản thực lớn nhất mà tất cả các bạn đang đầu tư vào lúc này là gì?"*
 Một sinh viên đáp: *"Giáo dục."* Lo:
 
+> [!quote]
 > *"Chính xác. **Vốn con người.** Chính các bạn. Học vấn của chính các bạn."* — `45:17`
 
 Với "tái đầu tư vào tài sản thực", ông nói thẳng là gồm cả *"đầu tư vào nhà cửa hoặc vào con cái.
@@ -587,6 +614,7 @@ chuyện khác"* (`45:38`).
 
 Yêu cầu cuối của mục này (`46:36`–`46:58`):
 
+> [!quote]
 > *"Mỗi một ý tôi nêu ra, dù tôi có bảo bạn hay không, trong suốt 13 tuần tới, tôi muốn bạn cầm ý đó
 > lên và hỏi: **điều này làm đời tôi khá hơn ở chỗ nào?**"*
 
@@ -601,10 +629,12 @@ cho câu hỏi trên. Nếu không viết nổi, bạn chưa hiểu bài.
 
 Lo khẳng định: bỏ **thời gian** và **rủi ro** ra khỏi tài chính thì **không còn gì để nghiên cứu nữa.**
 
+> [!quote]
 > *"Không có thời gian và không có rủi ro, các quyết định tài chính thực ra rút gọn về phân tích
 > kinh tế vi mô cơ bản. Nếu bạn từng học một khoá kinh tế vi mô đại học — cung bằng cầu — thì bạn đã
 > học hết những gì có để học về tài chính, khi bỏ đi thời gian và rủi ro."* — `47:50`
 
+> [!quote]
 > *"Lý do duy nhất khiến tài chính thú vị, những khía cạnh khó duy nhất trong việc chúng tôi làm, là
 > vì thời gian và rủi ro."* — `48:17`
 
@@ -613,6 +643,7 @@ viên tài chính, các tạp chí tài chính và cả một ngành tài chính
 
 Và ông quy nó về hai câu mà ngay cả Buffett cũng không cần phát biểu ra lời (`49:13`):
 
+> [!quote]
 > *"Ông ấy biết rằng **1 đô la hôm nay không bằng 1 đô la sang năm**. Và ông ấy cũng biết rằng
 > **1 đô la hôm nay không rủi ro không bằng 1 đô la hôm nay có một chút rủi ro.** Kể cả chỉ một chút
 > xíu rủi ro thôi, ông ấy vẫn biết."*
@@ -633,6 +664,7 @@ Lo cũng nói rõ **trình tự dạy** (`49:41`): ba bốn tuần đầu chỉ 
 
 Ngay giữa đoạn hùng hồn về thời gian, Lo thả một lời hứa (`48:35`):
 
+> [!quote]
 > *"Trong khoảng bốn buổi nữa, tôi sẽ đưa cho các bạn một chứng minh khác cho thuyết tương đối hẹp.
 > Và chứng minh này sẽ dựa trên việc **lãi suất không thể âm**. Hoá ra có một mối liên hệ triết học
 > rất sâu giữa tài chính và vật lý."*
@@ -665,7 +697,8 @@ Bài học đáng giá hơn nhiều so với lời hứa gốc: **một tiên đ
 hiển nhiên như định luật vật lý cho tới ngày nó không còn đúng.** Hãy nhớ mục này khi tới bài 13 —
 buổi mà chính Lo tự tháo dỡ bộ khung của mình.
 
-📚 Cùng lúc, cập nhật ba nhân vật của mục 2 tính tới 2026:
+> [!note]
+> Cùng lúc, cập nhật ba nhân vật của mục 2 tính tới 2026:
 
 - **James Simons** mất ngày **10/5/2024**, thọ 86 tuổi, tài sản khoảng 31,4 tỷ đô. Quỹ Medallion
   của ông giữ mức lợi suất khoảng **66 %/năm trước phí** (≈39 % sau phí) trong giai đoạn 1988–2021 —
@@ -696,14 +729,17 @@ lại tới buổi cuối. Hiểu được vì sao ông làm thế cũng quan tr
 
 Trước hết, một cảnh báo ông đặt ngay đầu (`50:54`):
 
+> [!quote]
 > *"Thực ra tất cả các nguyên lý này đều là **xấp xỉ** của một sự thật phức tạp hơn nhiều."*
 
 ### Nguyên lý 1 — Không có bữa trưa miễn phí
 
+> [!quote]
 > *"There is no such thing as a free lunch."* — `50:54`
 
 Lo sửa lại cho chặt ngay lập tức (`51:14`):
 
+> [!quote]
 > *"Nếu bạn muốn nghiêm ngặt, nó phải viết là: **thỉnh thoảng vẫn có bữa trưa miễn phí, nhưng không
 > có chương trình bữa trưa miễn phí.** Không có chuyện miễn phí một cách hệ thống."*
 
@@ -728,6 +764,7 @@ mới dựng xong.
 
 Và câu đùa hay nhất buổi (`52:21`):
 
+> [!quote]
 > *"Nếu bạn không tin tôi, hoặc nếu bạn biết ai đó không thoả mãn các nguyên lý này, xin hãy giới
 > thiệu họ cho tôi sau giờ học. Tôi rất muốn làm quen, và làm ăn với họ."*
 
@@ -736,10 +773,12 @@ hơn nhiều tiền, bạn có thể kiếm lời từ họ mà không chịu r�
 
 ### Nguyên lý 3 — Mọi tác nhân hành động vì lợi ích của chính mình
 
+> [!quote]
 > *"All agents act to further their own self-interest."* — `52:41`
 
 Lo tự trêu ngành kinh tế học ngay sau đó (`53:04`):
 
+> [!quote]
 > *"Các nhà kinh tế học, theo cái cách rất riêng và rất khó chịu của họ, đã định nghĩa lại được sở
 > thích để lập luận rằng ngay cả **Mẹ Teresa cũng cực kỳ ích kỷ**, bởi vì hàm hữu dụng của bà là hàm
 > hữu dụng của người khác. Cho nên khi làm tất cả những việc tốt đó, Mẹ Teresa chỉ đang phục vụ lợi
@@ -755,9 +794,11 @@ tautology thành mô hình kiểm chứng được.
 Lo không giấu vì hết giờ. Ông giải thích lý do ở `53:48`–`54:26`, và đây là đoạn thẳng thắn nhất
 của cả buổi:
 
+> [!quote]
 > *"Ta sẽ **dùng** các nguyên lý đó. Nhưng đến buổi cuối tôi sẽ **chất vấn toàn bộ bộ khung mà tôi
 > đã dựng cho các bạn, và chỉ cho các bạn thấy các lỗ hổng nằm ở đâu.**"*
 
+> [!quote]
 > *"Trong 13 tuần đầu, tôi cần các bạn **tự nguyện gác lại sự hoài nghi** của mình."*
 
 Cụm *"willingly suspend your disbelief"* là thuật ngữ của sân khấu kịch: khán giả biết đó là diễn,
@@ -767,11 +808,12 @@ nhưng đồng ý tin trong hai tiếng để vở kịch chạy được.
 thứ ông sắp dạy là một xấp xỉ, rằng ông biết nó thủng ở đâu, và rằng ông sẽ tự chỉ ra các lỗ đó khi
 bạn đã đủ sức nhìn. Bạn không bị lừa — bạn được mời tham gia có ý thức.
 
-📚 **Vậy ba nguyên lý còn lại là gì?** Buổi 1 không nói, nên bài học này **không đoán**. Chúng sẽ
-xuất hiện ở buổi 20 (bài 13 của khoá này). Nếu bạn muốn đoán trước để tự kiểm tra sau, các ứng viên
-hợp lý nhất theo mạch của Lo là: đa dạng hoá, cân bằng thị trường/không có arbitrage, và tính hiệu
-quả của thị trường. **Đừng ghi ba cái này vào vở như thể chúng là của Lo** — chúng chưa được xác
-nhận.
+> [!note] Vậy ba nguyên lý còn lại là gì?
+> Buổi 1 không nói, nên bài học này **không đoán**. Chúng sẽ
+> xuất hiện ở buổi 20 (bài 13 của khoá này). Nếu bạn muốn đoán trước để tự kiểm tra sau, các ứng viên
+> hợp lý nhất theo mạch của Lo là: đa dạng hoá, cân bằng thị trường/không có arbitrage, và tính hiệu
+> quả của thị trường. **Đừng ghi ba cái này vào vở như thể chúng là của Lo** — chúng chưa được xác
+> nhận.
 
 ### Lo đã tự viết tiếp phần chất vấn — và mất chín năm
 
@@ -804,11 +846,13 @@ Có một tầng nghĩa mà người xem năm 2026 thấy còn Lo và cả giả
 
 Ở `08:42` ông nói về sáu nguyên lý:
 
+> [!quote]
 > *"Đây là những ý tưởng nền tảng đã định hình các thị trường tài chính, và là nguyên nhân gốc rễ
 > của mọi đổi mới trên thị trường tài chính, cũng như của **mọi cuộc khủng hoảng thị trường tài chính
 > mà chúng ta đã chứng kiến — kể cả những gì đang diễn ra mấy tháng qua trên thị trường thế chấp
 > dưới chuẩn.**"* — `08:56`
 
+> [!quote]
 > *"Ngay lúc này tôi đoán hầu hết các bạn biết là đang có chuyện gì đó, biết là chuyện xấu, nhưng
 > không biết vì sao, thế nào, ở đâu, khi nào, và phải làm gì. Khoảng năm buổi nữa, các bạn sẽ biết."* — `09:11`
 
@@ -817,6 +861,7 @@ Có một tầng nghĩa mà người xem năm 2026 thấy còn Lo và cả giả
 chuyên đề mới và nói *"ngày 17 tháng 9 là buổi đầu tiên"*, ở thì tương lai. Vậy buổi học này diễn ra
 **trước 17/9/2008**.
 
+> [!quote]
 > 📌 **Cập nhật sau khi dựng bài 2 — mốc đã chốt được chặt hơn nhiều.**
 > Buổi 2 mở đầu bằng việc chính phủ Mỹ tiếp quản Fannie Mae và Freddie Mac *"cuối tuần qua"*. FHFA
 > công bố quyết định đó **Chủ nhật 7/9/2008**. Cộng với việc Lo kết thúc buổi 1 bằng *"hẹn gặp lại
@@ -844,6 +889,7 @@ Lời hứa ở `09:11` — *"khoảng năm buổi nữa các bạn sẽ biết"
 (bài 4–5 của khoá này), tức là đúng lúc thị trường bên ngoài đang sụp. Rất ít tài liệu tài chính nào
 có được bối cảnh đó.
 
+> [!quote]
 > ⚠️ Vẫn đừng viết "bài giảng ghi ngày X" như một sự thật đã xác nhận. Ngày 3–4/9 là **suy ra**
 > từ ba mảnh bằng chứng ở trên, không phải từ một nguồn công bố ngày ghi hình. Mức chắc chắn cao,
 > nhưng hãy biết mình đang đứng trên cái gì.
@@ -902,10 +948,12 @@ những bài giảng cuối cùng khác. Tôi sẽ không chết đâu."*
 giới video — vì Lo thường xuyên bắt đầu chủ đề mới ở giữa buổi (`Ses 12: Options III & Risk and
 Return I`). Bản đồ đầy đủ ở [README](../README.md).
 
-📚 **Giáo trình.** Lo giao đọc **Brealey & Myers, chương 1 và 2** cho buổi sau (`10:14`). Sách đầy
-đủ là **Brealey, Myers & Allen, *Principles of Corporate Finance*, 9th ed., McGraw-Hill, 2007**.
-Lo mô tả nó thế này (`56:29`):
+> [!note] Giáo trình.
+> Lo giao đọc **Brealey & Myers, chương 1 và 2** cho buổi sau (`10:14`). Sách đầy
+> đủ là **Brealey, Myers & Allen, *Principles of Corporate Finance*, 9th ed., McGraw-Hill, 2007**.
+> Lo mô tả nó thế này (`56:29`):
 
+> [!quote]
 > *"Đây là một cuốn sách mà nếu rơi từ tầng sáu xuống trúng ai đó thì có thể giết người."*
 
 Ông nói rõ sẽ **không dạy hết sách**, chỉ các chương trong danh sách đọc (`56:48`).
@@ -920,19 +968,23 @@ buổi ôn tập, không có nhóm, không có ai chấm bài.
 
 ### Ông từ chối dùng từ "dạy"
 
+> [!quote]
 > *"Tôi đã đổi cách nói về khoá học này, và tôi **không còn mô tả việc mình làm là 'dạy'** nữa. Bởi
 > vì 'dạy' hàm ý rằng tôi có thể nhồi kiến thức vào não các bạn. Hoá ra không làm được. Và hai đứa
 > con trai tôi đã chứng minh điều đó nhiều lần rồi."* — `58:44`
 
+> [!quote]
 > *"Bạn phải **muốn** học. Bạn phải **kéo** kiến thức từ tôi sang bạn."* — `59:04`
 
 Rồi câu ông mượn của thầy toán lớp 12 của mình (`59:04`, `59:22`):
 
+> [!quote]
 > *"Toán học không phải môn thể thao để ngồi xem. Tài chính cũng vậy. **Tài chính không phải môn thể
 > thao để ngồi xem.** Bạn phải thực sự làm nó."*
 
 Và lý do tại sao (`58:24`):
 
+> [!quote]
 > *"Cách duy nhất để học tài chính là **làm** tài chính. Nếu bạn vào lớp và ngồi nghe tôi giảng, bạn
 > có thể được giải trí một tiếng rưỡi, nhưng bạn sẽ không học được gì."*
 
@@ -940,6 +992,7 @@ Và lý do tại sao (`58:24`):
 
 Lo đưa một chẩn đoán rất thẳng (`60:08`):
 
+> [!quote]
 > *"Phân tích tài chính là thứ **xa lạ với quy trình nhận thức thông thường của con người.** Không
 > ai trong các bạn được đấu dây sẵn để tính giá trị hiện tại ròng cả."*
 
@@ -954,16 +1007,19 @@ tuần 13** thì đèn bật sáng trong đầu người học. *"Vài trường
 
 Cơ chế Lo thiết kế rất đáng chú ý (`61:10`):
 
+> [!quote]
 > *"**Không có bài tập về nhà trong lớp này. Không hề.** Tuy nhiên, chúng tôi sẽ đưa các bạn một gói
 > bài tập kèm lời giải ngay từ đầu."*
 
+> [!quote]
 > *"Và tôi hứa với các bạn rằng **phần lớn câu hỏi thi sẽ lấy nguyên văn từ gói bài tập này.** Phần
 > lớn, nghĩa là hơn 50 % số điểm."* — `61:25`
 
 Lý do (`61:51`): *"chúng tôi muốn loại bỏ phần lớn nỗi sợ và lo lắng gắn với phân tích tài chính."*
 
-📚 **Gói bài tập đó vẫn còn.** OCW công bố đầy đủ **Problem Sets, Problem Set Solutions, Exams và
-Exam Solutions** của khoá này. Đây là tài nguyên giá trị nhất mà video **không** chứa — xem [Nguồn](#nguồn).
+> [!note] Gói bài tập đó vẫn còn.
+> OCW công bố đầy đủ **Problem Sets, Problem Set Solutions, Exams và
+> Exam Solutions** của khoá này. Đây là tài nguyên giá trị nhất mà video **không** chứa — xem [Nguồn](#nguồn).
 
 ### Bốn lời khuyên cuối, dịch sang bối cảnh tự học
 
@@ -976,6 +1032,7 @@ Exam Solutions** của khoá này. Đây là tài nguyên giá trị nhất mà 
 
 Và câu cuối cùng của buổi (`66:56`):
 
+> [!quote]
 > *"Tôi muốn các bạn **coi khoá học này là chuyện cá nhân**, bởi vì đó là cách duy nhất để bạn thực
 > sự học được."*
 
@@ -1015,9 +1072,11 @@ nhuận. Câu của Lo ở `42:36` — *"hãy đi theo dòng tiền"* — nghĩa
 Nguyên lý 1 ở mục 13 là khẩu hiệu. Bản kỹ thuật gồm hai phát biểu, và **đây mới là động cơ chạy toàn
 bộ phần B của khoá học**:
 
+> [!note]
 > **Luật một giá** (*law of one price*): hai tài sản cho **cùng dòng tiền trong mọi trạng thái tương
 > lai** thì phải có **cùng giá hôm nay**.
 
+> [!note]
 > **Không có cơ hội arbitrage** (*no-arbitrage*): không tồn tại danh mục nào có chi phí **≤ 0** hôm
 > nay mà lại cho dòng tiền **≥ 0** ở mọi trạng thái tương lai và **> 0** ở ít nhất một trạng thái.
 
@@ -1048,12 +1107,14 @@ $$NPV \;=\; -\,C_0 \;+\; \sum_{t=1}^{T} \frac{C_t}{(1+r)^t}$$
 
 Và **quy tắc quyết định** — chính là "chọn cái đáng giá hơn" ở mục 4, viết thành một dòng:
 
+> [!note]
 > Nhận dự án khi $NPV > 0$. Giữa nhiều phương án loại trừ nhau, chọn phương án có $NPV$ lớn nhất.
 
 Kiểm chứng ngược bằng mục 19: ở 5 %/năm, 100 đô hôm nay thành **121,54 đô** sau 4 năm. Đi ngược lại:
 
 $$PV=\frac{121{,}54}{1{,}05^{4}}=99{,}99$$
 
+> [!note]
 > ⚠️ **Vì sao lệch 1 xu chứ không tròn 100?** Vì mục 19 giữ tiền bằng **số nguyên xu** và làm tròn
 > xuống sau mỗi năm, nên nó cho 121,54 trong khi giá trị đúng là $100 \times 1{,}05^4 = 121{,}550625$.
 > Chia ngược con số đã làm tròn thì tất nhiên không về đúng 100. Đây không phải lỗi — đây chính là
@@ -1130,6 +1191,7 @@ cấp*, **hiệu lực 21/9/2026**. Quyết định công bố ngày 7/10/2025 v
 Kỳ xem xét tháng 9/2026 đưa **117 mã** Việt Nam vào bộ chỉ số GEIS. Lộ trình tăng tỷ trọng chia bốn
 đợt: **10 %** (9/2026) → **30 %** (3/2027) → **65 %** (6/2027) → **100 %** (9/2027).
 
+> [!note]
 > ⚠️ **Phân biệt số đã xảy ra với số dự báo** — thói quen này cần cho cả khoá.
 > *Đã xảy ra:* ngày hiệu lực, số mã, lộ trình tỷ trọng — do chính FTSE công bố.
 > *Dự báo:* mọi con số dòng vốn. TPS ước ~1,54 tỷ USD vốn thụ động; SSI ước tới 1,7 tỷ và cho rằng
@@ -1164,6 +1226,7 @@ Trên thị trường Việt Nam đang có những lời chào mời gửi tiế
 
 Nguyên lý 1 của Lo trả lời gọn trong một dòng — và đây có lẽ là ứng dụng thực tế đắt nhất của cả buổi:
 
+> [!note]
 > Lãi suất thị trường đang là **5,9 – 7,4 %**. Ai đó hứa **20 %** thì phần chênh **13 %** phải đến từ
 > **một nguồn nào đó**. Hãy hỏi thẳng: **nguồn đó là gì?**
 
@@ -1179,6 +1242,7 @@ bất kỳ ai mang tiền tới thì không. Toàn bộ sự khác nhau nằm �
 
 ## 19. Code minh hoạ
 
+> [!note]
 > ⚙️ **Chạy:** cần **Python 3.10+**. Lưu file rồi gõ `python3 bai-01-dinh-gia-va-dong-tien.py`.
 > **Không cần cài gói nào.** File có sẵn tại [thuc_hanh/bai-01-dinh-gia-va-dong-tien.py](../thuc_hanh/bai-01-dinh-gia-va-dong-tien.py).
 

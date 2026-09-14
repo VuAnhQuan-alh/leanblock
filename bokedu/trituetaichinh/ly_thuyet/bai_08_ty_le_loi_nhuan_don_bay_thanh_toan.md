@@ -1,15 +1,16 @@
 # Bài 8 — Tỷ lệ lợi nhuận, đòn bẩy, thanh toán
 
+> [!info] Về bài này
 > Bài học dựng từ **Phần V — Tỷ lệ: tìm hiểu ý nghĩa thật sự của các con số**: chương 19 *Sức mạnh của
 > các con số tỷ lệ* (PDF tr. 142–147), chương 20 *Các tỷ lệ lợi nhuận* (PDF tr. 148–154), chương 21
 > *Các tỷ lệ đòn bẩy* (PDF tr. 155–158), chương 22 *Các hệ số thanh toán* (PDF tr. 159–161).
-> 🎯 **Vòng 1.** Bảy bài trước dựng **ba báo cáo**. Bài này bắt đầu **dùng** chúng — và chỉ ra rằng con
+>
+> **Vòng 1.** Bảy bài trước dựng **ba báo cáo**. Bài này bắt đầu **dùng** chúng — và chỉ ra rằng con
 > số tuyệt đối không trả lời được câu hỏi nào cả.
-> 💼 **Góc quản trị** — ví dụ thêm cho người đi làm, **không có trong sách**.
-> 📚 **Mở rộng** — thứ sách nói lướt hoặc để trong hộp công cụ.
-> 🇻🇳 **Đối chiếu Việt Nam** — sách viết theo US GAAP, mục này nối sang thực tế Việt Nam.
-> ⚠️ — chỗ dễ hiểu sai, hoặc chỗ sách in sai.
-> 📌 **Cần đọc trước:** [Bài 3](bai_03_chi_phi_va_cac_tang_loi_nhuan.md) ·
+>
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
+>
+> **Cần đọc trước:** [Bài 3](bai_03_chi_phi_va_cac_tang_loi_nhuan.md) ·
 > [Bài 4](bai_04_bang_can_doi_ke_toan.md) · [Bài 7](bai_07_bao_cao_luu_chuyen_tien_te.md) — mọi tỷ lệ
 > ở đây lấy tử số từ bài 3 và mẫu số từ bài 4.
 > ⚙️ **Code:** [`thuc_hanh/bai-08-ty-le-loi-nhuan-don-bay-thanh-toan.py`](../thuc_hanh/bai-08-ty-le-loi-nhuan-don-bay-thanh-toan.py)
@@ -30,8 +31,8 @@
 - [6. Hai loại đòn bẩy, và vì sao hãng hàng không chết](#6-hai-loại-đòn-bẩy-và-vì-sao-hãng-hàng-không-chết)
 - [7. Hai tỷ lệ đòn bẩy, và giá của việc làm đẹp chúng](#7-hai-tỷ-lệ-đòn-bẩy-và-giá-của-việc-làm-đẹp-chúng)
 - [8. Ba hệ số thanh toán — và cái "kiểm thử vàng" chưa đủ vàng](#8-ba-hệ-số-thanh-toán--và-cái-kiểm-thử-vàng-chưa-đủ-vàng)
-- [9. ⚠️ Năm chỗ sách in sai trong Phần V](#9--năm-chỗ-sách-in-sai-trong-phần-v)
-- [10. 🇻🇳 Đối chiếu Việt Nam](#10--đối-chiếu-việt-nam)
+- [9. Năm chỗ sách in sai trong Phần V](#9-năm-chỗ-sách-in-sai-trong-phần-v)
+- [10. Đối chiếu Việt Nam](#10-đối-chiếu-việt-nam)
 - [11. Tự thử](#11-tự-thử)
 - [12. Từ điển thuật ngữ](#12-từ-điển-thuật-ngữ)
 - [13. Câu hỏi tự kiểm tra](#13-câu-hỏi-tự-kiểm-tra)
@@ -46,6 +47,7 @@
 
 Chương 19 đặt toàn bộ Phần V lên một câu chuyện cười:
 
+> [!quote]
 > *"Đối với một doanh nghiệp cụ thể, con số lợi nhuận thuần 10 triệu đô-la có phải là kết quả kinh doanh
 > tốt không? **Ai mà biết được?** Nó tuỳ thuộc vào quy mô doanh nghiệp, vào lợi nhuận thuần trong năm
 > trước đó và vào nhiều biến khác nữa. Nếu bạn hỏi liệu con số lợi nhuận 10 triệu đô-la là tốt hay tệ,
@@ -71,15 +73,18 @@ Chương 19 đặt toàn bộ Phần V lên một câu chuyện cười:
 
 Và đó là lý do tồn tại của cả Phần V:
 
+> [!quote]
 > *"Mỗi công thức sẽ mở ra cho bạn **một góc nhìn khác** – giống như khi ta nhìn vào **một ngôi nhà qua
 > những ô cửa ở cả bốn mặt**."* — ch. 19 · PDF tr. 147
 
-📚 **Ba trục so sánh**, theo đúng thứ tự hữu dụng: ① với **chính nó theo thời gian** · ② với **dự kiến**
-· ③ với **bình quân ngành**. Và một câu rào quan trọng: *"Hầu như sẽ có **một khoảng hợp lý**. **Chỉ khi**
-tỷ lệ vượt ra khỏi khoảng đó, như tỷ lệ DSO của Sunbeam, thì nó mới đáng chú ý."*
+> [!note] Ba trục so sánh
+> , theo đúng thứ tự hữu dụng: ① với **chính nó theo thời gian** · ② với **dự kiến**
+> · ③ với **bình quân ngành**. Và một câu rào quan trọng: *"Hầu như sẽ có **một khoảng hợp lý**. **Chỉ khi**
+> tỷ lệ vượt ra khỏi khoảng đó, như tỷ lệ DSO của Sunbeam, thì nó mới đáng chú ý."*
 
-📚 Bốn nhóm người, bốn tỷ lệ khác nhau: ngân hàng xem **nợ/vốn chủ**; quản lý cấp cao xem **biên gộp**;
-giám đốc tín dụng xem **thanh toán nhanh** của khách hàng; cổ đông xem **giá/thu nhập**.
+> [!note]
+> Bốn nhóm người, bốn tỷ lệ khác nhau: ngân hàng xem **nợ/vốn chủ**; quản lý cấp cao xem **biên gộp**;
+> giám đốc tín dụng xem **thanh toán nhanh** của khách hàng; cổ đông xem **giá/thu nhập**.
 
 ---
 
@@ -91,6 +96,7 @@ Al Dunlap về Sunbeam đầu 1997 với "phương thức hành động chuẩn 
 máy, cắt quân số **12.000 → 6.000**. Cổ phiếu tăng 50% ngay khi có tin ông ta được mời về. Rồi lên tiếp
 — và **đó chính là rắc rối**:
 
+> [!quote]
 > *"Khi các ngân hàng đầu tư quyết định bán công ty, giá công ty **cao đến độ họ khó xác định được đâu là
 > khách hàng triển vọng**. Hi vọng duy nhất của Dunlap là đẩy doanh thu và thu nhập lên tới mức có thể
 > biện minh cho mức giá cao."* — ch. 19 · PDF tr. 142–143
@@ -103,6 +109,7 @@ Sunbeam bóp méo nó. Quý IV là lúc họ sản xuất hàng mùa hè — lò
 đặt hàng từ **mùa đông**, xuất hoá đơn ngay, khách trả vào **mùa xuân** — và Sunbeam còn **thuê kho gần
 cơ sở của khách và chịu mọi chi phí lưu kho**.
 
+> [!quote]
 > *"Sunbeam đã chạy trước và ghi nhận thêm **36 triệu đô-la** doanh thu vào quý IV… Mánh khoé gian lận
 > này phát huy tác dụng đến độ nó **dễ dàng qua mặt hầu hết các nhà phân tích, đầu tư và thậm chí cả ban
 > giám đốc của Sunbeam**."* Đầu 1998 hội đồng quản trị thưởng Dunlap và ban điều hành gói cổ phiếu **38
@@ -130,8 +137,9 @@ triệu — 1,9% doanh thu — là DSO vượt 60 ngày.** Dưới hai phần tr
 Đó là lý do Shore bắt được còn hội đồng quản trị của chính Sunbeam thì không: **họ nhìn con số tuyệt đối**
 (doanh thu quý IV đẹp), **còn Shore nhìn tỷ lệ**.
 
-💼 Dấu vết mà thủ thuật này không xoá được: doanh thu và phải thu cùng tăng, còn **tiền** thì không. Đúng
-mẫu hình mà [bài 7](bai_07_bao_cao_luu_chuyen_tien_te.md) mục 9 đã chỉ ra ở phía nhà cung cấp.
+> [!example]
+> Dấu vết mà thủ thuật này không xoá được: doanh thu và phải thu cùng tăng, còn **tiền** thì không. Đúng
+> mẫu hình mà [bài 7](bai_07_bao_cao_luu_chuyen_tien_te.md) mục 9 đã chỉ ra ở phía nhà cung cấp.
 
 ---
 
@@ -142,6 +150,7 @@ Tiêu đề chương 20: ***"(Hầu hết) cao hơn thì tốt hơn"***. Hai ch�
 
 Nhưng trước đó sách rào một câu quan trọng:
 
+> [!quote]
 > *"Lợi nhuận được ghi nhận trên báo cáo kết quả kinh doanh là **sản phẩm của nghệ thuật tài chính**, và
 > bất kỳ tỷ lệ nào được tính toán dựa trên những con số này cũng **tự nó phản ánh** tất cả những ước tính
 > và giả định đó."* — ch. 20 · PDF tr. 148
@@ -160,6 +169,7 @@ Nhưng trước đó sách rào một câu quan trọng:
 
 ### Vì sao biên hoạt động mới là con số của nhà quản lý
 
+> [!quote]
 > *"Các nhà quản lý không thuộc bộ phận tài chính **không có nhiều quyền kiểm soát** đối với những khoản
 > mục mà cuối cùng sẽ được trừ đi để tính tỷ lệ lợi nhuận thuần, **như lãi vay và thuế**. Vì vậy, tỷ lệ
 > lợi nhuận hoạt động là **một chỉ báo tốt cho biết hiệu quả làm việc của các nhà quản lý**."*
@@ -168,8 +178,9 @@ Nhưng trước đó sách rào một câu quan trọng:
 Lãi vay 191 + thuế 213 = **404 triệu**, tức **62% của EBIT**, biến mất ở những dòng mà không nhà quản lý
 nào động đến được.
 
-### ⚠️ IBM — doanh thu vượt kỳ vọng mà cổ phiếu vẫn rớt
+### IBM — doanh thu vượt kỳ vọng mà cổ phiếu vẫn rớt
 
+> [!quote]
 > *"Trong một quý cách đây không lâu, IBM đã công bố con số doanh thu **khổng lồ** − lớn hơn nhiều so với
 > dự đoán – **nhưng cổ phiếu của công ty lại giảm giá**. Tại sao? Các chuyên gia phân tích để ý thấy rằng
 > tỷ lệ lợi nhuận gộp của công ty **đang lao đầu đi xuống**, và giả định IBM chắc hẳn đã **mạnh tay chiết
@@ -184,11 +195,13 @@ phải chiết khấu; ② **chi phí lao động và nguyên vật liệu tăng
 
 Đây là chỗ chương 20 khác hẳn mọi chương khác:
 
+> [!quote]
 > *"Tỷ lệ lợi nhuận gộp hay tỷ lệ lợi nhuận thuần **rất khó đạt mức cao**; bạn thường muốn chúng đạt đến
 > mức cao nhất có thể. **Nhưng ROA thì lại có thể quá cao.**"* — ch. 20 · PDF tr. 152
 
 Sách nêu **hai** nguyên nhân. Nguyên nhân thứ hai có tên:
 
+> [!quote]
 > *"**Enron** đã thành lập nhiều liên doanh thuộc sở hữu một phần của CFO **Andrew Fastow** và nhiều nhà
 > điều hành khác, sau đó 'bán lại' tài sản cho các công ty đó. Cổ phần của công ty trong lợi nhuận của
 > các liên doanh **xuất hiện trên báo cáo kết quả kinh doanh**, nhưng **tài sản thì không thể tìm thấy
@@ -208,17 +221,19 @@ Sách không đặt số. Đẩy tài sản ra khỏi bảng cân đối, giữ 
 ⭐ Đẩy **đúng một nửa** bảng cân đối ra ngoài thì ROA **gấp đôi**, từ 4,8% lên 9,6% — chốt bằng `assert`.
 **Không một đồng doanh thu hay chi phí nào thay đổi.**
 
-⚠️ **Và đây là chỗ nguy hiểm: cột cuối cùng tăng theo.** Vòng quay tổng tài sản là thước đo **hiệu suất**
-— nó cao thì trông như doanh nghiệp đang dùng tài sản rất giỏi. Phân rã DuPont (bài 9) sẽ đọc cả hai cột
-và kết luận *"hiệu suất tuyệt vời"*. **Cả hai đều bị lừa bởi cùng một bút toán.**
+> [!warning] Và đây là chỗ nguy hiểm: cột cuối cùng tăng theo.
+> Vòng quay tổng tài sản là thước đo **hiệu suất**
+> — nó cao thì trông như doanh nghiệp đang dùng tài sản rất giỏi. Phân rã DuPont (bài 9) sẽ đọc cả hai cột
+> và kết luận *"hiệu suất tuyệt vời"*. **Cả hai đều bị lừa bởi cùng một bút toán.**
 
 ⭐ Nguyên nhân thứ nhất sách nêu còn âm thầm hơn Enron: ROA cao có thể chỉ là *"doanh nghiệp **không gia
 cố tài sản** để dự phòng cho tương lai — tức là không đầu tư vào máy móc và thiết bị mới"*.
 [Bài 7](bai_07_bao_cao_luu_chuyen_tien_te.md) mục 6 đã đo điều đó trên chính công ty mẫu: capex 205 so
 với khấu hao 239. **ROA của nó đẹp lên một phần vì thế.**
 
-📚 **Vì sao ROI không có trong danh sách này?** Vì thuật ngữ có nhiều nghĩa: *"Trước đây, ROI và ROA là
-một… Nhưng hiện nay, nó còn có thể có nghĩa là tỷ lệ hoàn vốn của **một khoản đầu tư cụ thể**."* → bài 10.
+> [!note] Vì sao ROI không có trong danh sách này?
+> Vì thuật ngữ có nhiều nghĩa: *"Trước đây, ROI và ROA là
+> một… Nhưng hiện nay, nó còn có thể có nghĩa là tỷ lệ hoàn vốn của **một khoản đầu tư cụ thể**."* → bài 10.
 
 ---
 
@@ -226,6 +241,7 @@ một… Nhưng hiện nay, nó còn có thể có nghĩa là tỷ lệ hoàn v�
 
 Sách đặt câu hỏi rồi bỏ đó:
 
+> [!quote]
 > *"Công ty A có ROE cao hơn Công ty B **vì vay mượn nhiều tiền hơn** – tức là, công ty này có khoản nợ
 > phải trả lớn hơn và tỷ lệ vốn chủ sở hữu được đầu tư vào công ty cũng thấp hơn tương ứng. **Điều này là
 > tốt hay xấu?** Câu trả lời phụ thuộc vào việc liệu Công ty A đang **lao đầu vào rủi ro**, hay liệu,
@@ -274,6 +290,7 @@ Chương 21 tách rõ hai khái niệm mà cả tiếng Việt lẫn tiếng Anh
 | **Đòn bẩy hoạt động** | *"tỷ lệ giữa chi phí cố định và chi phí biến đổi"* | nhà bán lẻ mở cửa hàng to hơn; nhà sản xuất xây nhà máy lớn hơn |
 | **Đòn bẩy tài chính** | *"mức độ mà tài sản của doanh nghiệp được rót vốn mua sắm bằng nợ"* | vay ngân hàng để mua thiết bị |
 
+> [!quote]
 > *"**Ngành hàng không** là một ví dụ về một doanh nghiệp có **đòn bẩy hoạt động cao** – tất cả những
 > chiếc máy bay đó! – và **đòn bẩy tài chính cao**, bởi hầu hết các máy bay đều được rót vốn mua qua các
 > khoản nợ. **Sự kết hợp này tạo ra rủi ro lớn**, bởi nếu vì một lý do nào đó mà doanh thu giảm, các
@@ -295,7 +312,7 @@ Chương 21 tách rõ hai khái niệm mà cả tiếng Việt lẫn tiếng Anh
 một thời gian ngắn, ngành hàng không **đã mất hàng tỷ đô-la**."* Một hai tuần đóng cửa là hơn 3% doanh
 thu năm — **vừa đúng ngưỡng**.
 
-⚠️ **Hai loại đòn bẩy không làm cùng một việc:**
+> [!warning] Hai loại đòn bẩy không làm cùng một việc:
 
 - đòn bẩy **hoạt động** đổi **độ nhạy** — mỗi phần trăm doanh thu mất đi ăn sâu hơn;
 - đòn bẩy **tài chính** đổi **mức nền** — nó trừ một số cố định, bất kể doanh thu.
@@ -306,10 +323,11 @@ Cộng lại thì điểm hoà vốn bị đẩy lên **sát mức doanh thu hi�
 📌 [Bài 3](bai_03_chi_phi_va_cac_tang_loi_nhuan.md) mục 4 đã đo riêng đòn bẩy hoạt động trên một doanh
 nghiệp sản xuất: tin rằng COGS là biến phí 100% làm dẹp bẹp độ nhạy 22,5%. Đây là nửa còn lại.
 
-📚 Sách cũng nói rõ **nợ không phải điều xấu**: như vay thế chấp mua nhà, *"miễn là gia đình vay thế chấp
-trong khả năng chi trả"*. Và lãi vay được **trừ khỏi thu nhập chịu thuế** — đó là lý do *"có nhiều, rất
-nhiều doanh nghiệp có tỷ lệ nợ trên vốn chủ sở hữu cao hơn 1"*. Ngược lại, tỷ lệ **đặc biệt thấp** có thể
-biến bạn thành mục tiêu của một cuộc **mua đứt có đòn bẩy**.
+> [!note]
+> Sách cũng nói rõ **nợ không phải điều xấu**: như vay thế chấp mua nhà, *"miễn là gia đình vay thế chấp
+> trong khả năng chi trả"*. Và lãi vay được **trừ khỏi thu nhập chịu thuế** — đó là lý do *"có nhiều, rất
+> nhiều doanh nghiệp có tỷ lệ nợ trên vốn chủ sở hữu cao hơn 1"*. Ngược lại, tỷ lệ **đặc biệt thấp** có thể
+> biến bạn thành mục tiêu của một cuộc **mua đứt có đòn bẩy**.
 
 ---
 
@@ -320,12 +338,14 @@ biến bạn thành mục tiêu của một cuộc **mua đứt có đòn bẩy*
 | **Nợ trên vốn chủ sở hữu** | 2.736 / 2.457 | **1,11 lần** |
 | **Hệ số thanh toán lãi vay** | 652 / 191 | **3,41 lần** |
 
+> [!quote]
 > *"Nếu tỷ lệ này **tiến quá gần đến 1**, rõ ràng đây là dấu hiệu xấu: **hầu hết lợi nhuận của doanh
 > nghiệp sẽ chỉ đủ để trả lãi vay!**"* — ch. 21 · PDF tr. 157
 
 Rồi sách đặt câu hỏi thật: khi cả hai chệch hướng thì ban điều hành làm gì? Câu trả lời **không** phải
 "trả bớt nợ":
 
+> [!quote]
 > *"Các nghệ sĩ tài chính lại có quan điểm **hoàn toàn khác**. Chẳng hạn, họ sáng tạo ra một hình thức
 > mới, rất tuyệt là **thuê tài sản hoạt động**… Việc trả tiền thuê sẽ được tính như **một khoản chi** trên
 > báo cáo kết quả kinh doanh, nhưng **không có tài sản hay khoản nợ nào** liên quan đến tài khoản này
@@ -352,7 +372,7 @@ Lãi suất vay hiện tại = 191/1.714 = **11,1%/năm**, nên bỏ 770 nợ th
 thẳng: *"Một số doanh nghiệp sử dụng đòn bẩy quá mức **sẵn lòng chi mạnh tay** để thuê thiết bị **chỉ với
 mục đích** giữ hai tỷ lệ này nằm trong khoảng mà các ngân hàng và nhà đầu tư ưa thích."*
 
-### ⚠️ Chỗ này sách đã cũ
+### Chỗ này sách đã cũ
 
 Kể từ **IFRS 16** (hiệu lực 2019) và **ASC 842** ở Mỹ, gần như **mọi** hợp đồng thuê đều phải lên bảng cân
 đối thành *"quyền sử dụng tài sản"* và một khoản nợ thuê tương ứng. **Lỗ hổng mà chương 21 mô tả về cơ bản
@@ -374,17 +394,20 @@ Sách cho hai hệ số. Chúng khác nhau ở **đúng một dòng** — trừ 
 | Thanh toán nhanh *(kiểm thử vàng)* | 1.480 | 1.174 | **1,26 lần** |
 | 💼 Tiền / nợ ngắn hạn | 83 | 1.174 | **0,07 lần** |
 
+> [!quote]
 > *"Gần như **mọi khoản mục khác** trong hạng mục tài sản ngắn hạn hoặc là tiền mặt, hoặc **có thể dễ dàng
 > chuyển thành tiền mặt**. Chẳng hạn, hầu hết các khoản phải thu sẽ được thanh toán **trong vòng 1–2
 > tháng**, vì vậy **chúng chẳng kém gì tiền mặt**."* — ch. 22 · PDF tr. 160
 
-⚠️ **Kiểm lại chính câu đó trên số liệu của sách:** DSO = 54,4 ngày = **1,8 tháng**. Vừa khớp mép trên của
-"1–2 tháng" — **nhưng vừa khớp thôi**. Nếu DSO trôi lên 90 ngày thì câu *"chẳng kém gì tiền mặt"* không
-còn đúng, mà **hệ số thanh toán nhanh vẫn không đổi**. Nó không nhìn thấy DSO.
+> [!warning] Kiểm lại chính câu đó trên số liệu của sách:
+> DSO = 54,4 ngày = **1,8 tháng**. Vừa khớp mép trên của
+> "1–2 tháng" — **nhưng vừa khớp thôi**. Nếu DSO trôi lên 90 ngày thì câu *"chẳng kém gì tiền mặt"* không
+> còn đúng, mà **hệ số thanh toán nhanh vẫn không đổi**. Nó không nhìn thấy DSO.
 
 ⭐ Nên dòng thứ ba đáng thêm vào. Công ty mẫu có **83 triệu** tiền mặt, trong khi chi phí hoạt động bằng
 tiền là **21,71 triệu mỗi ngày**:
 
+> [!note]
 > 83 / 21,71 = **3,8 ngày** chi tiêu
 
 *(nếu không thu được đồng nào — một giả định khắc nghiệt và cố ý như thế)*
@@ -392,18 +415,20 @@ tiền là **21,71 triệu mỗi ngày**:
 ⭐ **Ba hệ số, ba bức tranh:** 2,34 lần trông **rất an toàn**; 1,26 lần trông **ổn**; 0,07 lần trông **đáng
 lo**. Chúng không mâu thuẫn — chúng trả lời ba câu hỏi khác nhau về **ba khung thời gian** khác nhau.
 
-💼 Sách cũng cảnh báo đầu kia: hệ số thanh toán ngắn hạn *"**quá cao** khi nó cho các cổ đông thấy rằng
-doanh nghiệp **đang ngồi trên đống tiền mặt** của mình"*. **Microsoft** tích gần **60 tỷ đô-la**, đến 2004
-mới *"tuyên bố trả **cổ tức một lần là 32 tỷ đô-la** cho các cổ đông"*. **Tỷ lệ cao không phải lúc nào
-cũng là lời khen.**
+> [!example]
+> Sách cũng cảnh báo đầu kia: hệ số thanh toán ngắn hạn *"**quá cao** khi nó cho các cổ đông thấy rằng
+> doanh nghiệp **đang ngồi trên đống tiền mặt** của mình"*. **Microsoft** tích gần **60 tỷ đô-la**, đến 2004
+> mới *"tuyên bố trả **cổ tức một lần là 32 tỷ đô-la** cho các cổ đông"*. **Tỷ lệ cao không phải lúc nào
+> cũng là lời khen.**
 
-⚠️ Còn đầu thấp thì dứt khoát: *"Thấp hơn 1, tất nhiên, là mức quá thấp… bạn hiểu rõ, mình sẽ **sớm hết
-tiền** vào một thời điểm nào đó trong năm tới."* Và *"hầu hết các ngân hàng sẽ **không duyệt** đơn vay vốn
-của một doanh nghiệp có hệ số thanh toán ngắn hạn gần bằng 1."*
+> [!warning]
+> Còn đầu thấp thì dứt khoát: *"Thấp hơn 1, tất nhiên, là mức quá thấp… bạn hiểu rõ, mình sẽ **sớm hết
+> tiền** vào một thời điểm nào đó trong năm tới."* Và *"hầu hết các ngân hàng sẽ **không duyệt** đơn vay vốn
+> của một doanh nghiệp có hệ số thanh toán ngắn hạn gần bằng 1."*
 
 ---
 
-## 9. ⚠️ Năm chỗ sách in sai trong Phần V
+## 9. Năm chỗ sách in sai trong Phần V
 
 Phần V in một **ô công thức** cho từng tỷ lệ. Các ô đó có nhiều lỗi hơn phần chữ.
 
@@ -419,13 +444,14 @@ Phần V in một **ô công thức** cho từng tỷ lệ. Các ô đó có nhi
 [bài 0](bai_00_bat_dau_tu_dau.md) đo được. Chúng không làm phép tính sai, nhưng chúng **dạy người đọc gọi
 tên sai cho công thức** — và đó mới là thứ cần nhớ lâu.
 
-⚠️ Còn một chỗ nữa ở ranh giới: tr. 151 in biên lợi nhuận thuần là **2,8%**, trong khi 248/8.689 =
-**2,854%**, làm tròn đúng phải là **2,9%**. Cắt chữ số thay vì làm tròn. Nhỏ, nhưng cả khoá học này dùng
-**2,9%**.
+> [!warning]
+> Còn một chỗ nữa ở ranh giới: tr. 151 in biên lợi nhuận thuần là **2,8%**, trong khi 248/8.689 =
+> **2,854%**, làm tròn đúng phải là **2,9%**. Cắt chữ số thay vì làm tròn. Nhỏ, nhưng cả khoá học này dùng
+> **2,9%**.
 
 ---
 
-## 10. 🇻🇳 Đối chiếu Việt Nam
+## 10. Đối chiếu Việt Nam
 
 Cùng chín công thức, hai doanh nghiệp cách nhau 19 năm và một đại dương:
 
@@ -456,7 +482,7 @@ Công ty mẫu dùng **đòn bẩy** để kéo ROE lên gần Vinamilk, dù ho�
 [mục 5](#5-công-ty-a-và-công-ty-b--roe-cao-hơn-chỉ-vì-vay-nhiều-hơn), gặp ngoài đời thực — chốt bằng
 `assert`.
 
-📚 **Ba lưu ý khi tính các tỷ lệ này trên báo cáo Việt Nam:**
+> [!note] Ba lưu ý khi tính các tỷ lệ này trên báo cáo Việt Nam:
 
 - **Không có dòng EBIT.** Như [bài 3](bai_03_chi_phi_va_cac_tang_loi_nhuan.md) mục 12 đã nêu, *"lợi nhuận
   thuần từ hoạt động kinh doanh"* của VAS đã trừ chi phí tài chính. Muốn tính **biên hoạt động** và **hệ
@@ -690,7 +716,7 @@ rồi chạy lại. Không có lời giải.
 - **Công ty Cổ phần Sữa Việt Nam (HOSE: VNM)** — Báo cáo tài chính hợp nhất đã kiểm toán 2024 theo
   IFRS, trong *Báo cáo thường niên Vinamilk 2024*, tr. 180–185.
   [Nguồn gốc](https://www.vinamilk.com.vn/bao-cao-thuong-nien/bao-cao/2024/doc/vi/bctc-ifrs.pdf),
-  truy xuất 08/09/2026. Dùng ở [mục 10](#10--đối-chiếu-việt-nam).
+  truy xuất 08/09/2026. Dùng ở [mục 10](#10-đối-chiếu-việt-nam).
 - **Đã kiểm chứng bằng code** — [`thuc_hanh/bai-08-ty-le-loi-nhuan-don-bay-thanh-toan.py`](../thuc_hanh/bai-08-ty-le-loi-nhuan-don-bay-thanh-toan.py):
   - ngưỡng bill-and-hold: mức ghi thêm làm DSO chạm đúng 60 ngày **dưới 2% doanh thu** — chốt bằng `assert`;
   - Enron: đẩy 2.597 ra khỏi bảng làm ROA **gấp đúng hai lần** — chốt bằng `assert`;

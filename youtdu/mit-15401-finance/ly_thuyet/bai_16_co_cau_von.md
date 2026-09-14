@@ -1,15 +1,18 @@
 # Bài 16 — Cơ cấu vốn: Modigliani, Miller và giới hạn của lá chắn thuế
 
+> [!info] Về bài này
 > 🏢 **PHẦN E — TÀI CHÍNH DOANH NGHIỆP.** Bài này **không đến từ video của Andrew Lo**.
 > Nó trả lời câu hỏi mà [bài 15 §15](bai_15_wacc.md#15-wacc-không-phải-hằng-số--và-đó-là-cửa-vào-bài-16)
 > để ngỏ: *"vay thêm thì WACC giảm — vậy vay bao nhiêu là đủ?"*
 > Nguồn: Modigliani & Miller (1958, 1963); Myers & Majluf (1984); Frank & Goyal (2009).
-> 📌 **Cần đọc trước:** [Bài 15](bai_15_wacc.md) (WACC và công thức Hamada),
+>
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
+>
+> **Cần đọc trước:** [Bài 15](bai_15_wacc.md) (WACC và công thức Hamada),
 > [Bài 14 §10](bai_14_doc_doanh_nghiep_bang_so.md#10-đòn-bẩy-và-khả-năng-trả-lãi--nối-lại-bài-3)
 > (hệ số khả năng trả lãi), [Bài 9 §6](bai_09_rui_ro_va_loi_suat.md#6-đuôi-béo-phân-phối-chuẩn-là-xấp-xỉ-không-phải-sự-thật)
 > (rủi ro nằm ở đuôi trái), [Bài 3 §3](bai_03_don_bay_va_lam_phat.md#3-cùng-một-cú-giảm-10--ba-kết-cục-hoàn-toàn-khác-nhau)
 > (đòn bẩy khuếch đại).
-> ⚠️ Số liệu Việt Nam tới báo cáo năm **2025**; số liệu Mỹ tới năm tài chính **2025**.
 
 ---
 
@@ -126,6 +129,7 @@ tiền vào túi NGAY HÔM NAY               +5,0 tỷ
 Mọi nghĩa vụ trả sau đó triệt tiêu nhau — bảng trên đã chứng minh. Tiền từ không mà ra, không rủi
 ro. Ai cũng sẽ làm, và làm đến khi giá của L tụt về 500 tỷ.
 
+> [!note]
 > **Mệnh đề I:** V(có đòn bẩy) = V(không đòn bẩy).
 > Giá trị công ty do **tài sản** quyết định, không do cách chia miếng bánh.
 
@@ -163,9 +167,10 @@ mọi mức đòn bẩy, đến tận chữ số cuối cùng mà số thực ph
 **Cái gì đã xảy ra:** bạn vay thêm tiền rẻ, nhưng đồng thời làm cho phần vốn chủ còn lại **rủi ro
 hơn**, nên cổ đông đòi suất sinh lời cao hơn. Hai hiệu ứng triệt tiêu nhau chính xác.
 
-⚠️ **Cái bẫy ngôn ngữ.** Người ta hay nói *"nợ rẻ hơn vốn chủ nên vay nhiều vào thì chi phí vốn
-giảm"*. Vế phải đúng — $K_d < K_e$ luôn đúng. Kết luận sai, vì nó quên rằng vay thêm làm $K_e$ tăng.
-Đây là sai lầm số 1 trong §15.
+> [!warning] Cái bẫy ngôn ngữ.
+> Người ta hay nói *"nợ rẻ hơn vốn chủ nên vay nhiều vào thì chi phí vốn
+> giảm"*. Vế phải đúng — $K_d < K_e$ luôn đúng. Kết luận sai, vì nó quên rằng vay thêm làm $K_e$ tăng.
+> Đây là sai lầm số 1 trong §15.
 
 ### Mệnh đề II chính là công thức Hamada
 
@@ -286,10 +291,11 @@ Việt Nam thấp hơn 20% vì ưu đãi đầu tư:
 
 Trung vị 28 doanh nghiệp: **18,0%**, so với thuế suất luật định 20%.
 
-⚠️ Đừng nhầm hai con số này. WACC dùng thuế suất **biên** (đồng lãi vay *tiếp theo* tiết kiệm được
-bao nhiêu) — chi tiết ở [bài 15 §5](bai_15_wacc.md#5-lá-chắn-thuế-và-bẫy-thuế-suất-biên-so-với-hiệu-dụng).
-Nhưng nếu doanh nghiệp đang trong kỳ miễn giảm thuế thì thuế suất biên của nó cũng thấp, và lá chắn
-gần như không tồn tại. Bảng trên là dấu hiệu cần kiểm.
+> [!warning]
+> Đừng nhầm hai con số này. WACC dùng thuế suất **biên** (đồng lãi vay *tiếp theo* tiết kiệm được
+> bao nhiêu) — chi tiết ở [bài 15 §5](bai_15_wacc.md#5-lá-chắn-thuế-và-bẫy-thuế-suất-biên-so-với-hiệu-dụng).
+> Nhưng nếu doanh nghiệp đang trong kỳ miễn giảm thuế thì thuế suất biên của nó cũng thấp, và lá chắn
+> gần như không tồn tại. Bảng trên là dấu hiệu cần kiểm.
 
 Tóm lại vế **lợi**: vài phần trăm lợi nhuận mỗi năm. Bây giờ đo vế **hại**.
 
@@ -362,8 +368,9 @@ chủ nợ. LNST năm đó: 6 tỷ trên tổng tài sản 48.111 tỷ.
    ngành bán sản phẩm cần bảo hành hoặc phụ tùng dài hạn — hàng không, ô tô, xây dựng.
 4. **Nhân sự giỏi nghỉ việc** trước khi công ty kịp xoay xở.
 
-⚠️ Ba trong bốn dạng trên xảy ra **trước** khi có bất kỳ thủ tục pháp lý nào. Đó là lý do "chi phí
-phá sản" là một cái tên tồi cho thứ này.
+> [!warning]
+> Ba trong bốn dạng trên xảy ra **trước** khi có bất kỳ thủ tục pháp lý nào. Đó là lý do "chi phí
+> phá sản" là một cái tên tồi cho thứ này.
 
 ---
 
@@ -396,6 +403,7 @@ Tỷ lệ kết cục xấu: **33,3%** ở nhóm coverage < 1, so với **4,4%**
 
 ![Đuôi trái](../hinh/bai16-duoi-trai.svg)
 
+> [!note]
 > **Đây là hình dạng của chi phí kiệt quệ.** Nó không làm kết quả **trung bình** xấu đi bao nhiêu.
 > Nó làm **đuôi trái** dày lên.
 
@@ -483,6 +491,7 @@ hiện ra ở lãi suất**. Bốn lý do:
 | (c) | $K_d$ đọc từ báo cáo là lãi suất **bình quân của nợ cũ**                                                  | trễ hơn lãi suất khoản vay **mới** — đúng cảnh báo [bài 15 §4](bai_15_wacc.md#4-chi-phí-nợ--đọc-ra-từ-báo-cáo-không-cần-hỏi-ngân-hàng) |
 | (d) | Thiên lệch sống sót lại xuất hiện                                                                         | những người lẽ ra phải trả lãi suất rất cao đã không còn trong mẫu                                                                     |
 
+> [!note]
 > ⇒ **Kết luận thực dụng cho người làm nghề ở Việt Nam:** đừng kỳ vọng thị trường tín dụng báo cho
 > bạn biết khi nào bạn vay quá nhiều. Nó sẽ không báo. Cái giá hiện ra đột ngột ở đuôi trái, đúng
 > như bảng §8.
@@ -552,9 +561,10 @@ Ngược lại, HPG có 51,7% tài sản là TSCĐ hữu hình — cao nhất m�
 **Quy mô: r = +0,527, t = +3,16.** Doanh nghiệp lớn vay nhiều hơn. Cả hai lý thuyết đều dự đoán điều
 này, nên nó không phân định được ai đúng.
 
-⚠️ **Giới hạn:** n = 28, một năm, một nước, và các doanh nghiệp này do tôi chọn. Đây là minh hoạ cho
-một **phương pháp**, không phải bằng chứng về nền kinh tế Việt Nam. Muốn kết luận thì cần toàn bộ
-sàn niêm yết và nhiều năm.
+> [!warning] Giới hạn:
+> n = 28, một năm, một nước, và các doanh nghiệp này do tôi chọn. Đây là minh hoạ cho
+> một **phương pháp**, không phải bằng chứng về nền kinh tế Việt Nam. Muốn kết luận thì cần toàn bộ
+> sàn niêm yết và nhiều năm.
 
 ---
 
@@ -681,6 +691,7 @@ Xem chuyện gì đã xảy ra sau đó: LNST **1.653 tỷ (2017) → 24 tỷ (2
 bay hơi **99%**. Nếu lúc đó CTD đang gánh chi phí lãi vay như HVN, cái năm ấy đã có thể là năm cuối
 cùng của nó.
 
+> [!quote]
 > **Đó là giá trị của "năng lực vay còn nguyên"** (*debt capacity*). Nó không hiện ra trên báo cáo
 > năm nào cả. Nó chỉ hiện ra ở năm mà bạn **cần** nó.
 
@@ -728,9 +739,10 @@ dùng.
 bẩy năm sau tốt hơn mọi biến kinh tế cộng lại. Phần lớn cơ cấu vốn ta quan sát là **thứ đã ở đó từ
 trước**, không phải kết quả của một cuộc họp tối ưu hoá.
 
-⚠️ Điểm chung của bốn lực này: chúng đều làm **suy yếu** ý tưởng "có một tỷ lệ nợ mục tiêu và doanh
-nghiệp điều chỉnh về đó". Bằng chứng thực nghiệm cho tỷ lệ mục tiêu là yếu; bằng chứng cho trật tự
-ưu tiên và quán tính thì mạnh.
+> [!warning]
+> Điểm chung của bốn lực này: chúng đều làm **suy yếu** ý tưởng "có một tỷ lệ nợ mục tiêu và doanh
+> nghiệp điều chỉnh về đó". Bằng chứng thực nghiệm cho tỷ lệ mục tiêu là yếu; bằng chứng cho trật tự
+> ưu tiên và quán tính thì mạnh.
 
 ---
 
@@ -810,7 +822,8 @@ bằng không — nhưng chi phí kiệt quệ thì **không** được giảm t
 tín dụng ngân hàng có thế chấp. Đó là lý do cột "tài sản thế chấp" trong §11 đáng lẽ phải có ý
 nghĩa — và việc nó **không** có ý nghĩa nói rằng chuyện phức tạp hơn thế.
 
-⚠️ **Ba con số tôi không xác minh được**, ghi rõ ở đây:
+> [!warning] Ba con số tôi không xác minh được
+> , ghi rõ ở đây:
 
 | Con số                             | Dùng ở                | Mức tin cậy                                                                                         |
 | ---------------------------------- | --------------------- | --------------------------------------------------------------------------------------------------- |
@@ -845,6 +858,7 @@ ba hàm mục tiêu.
 
 ## 19. Code minh hoạ
 
+> [!note]
 > ⚙️ **Chạy:** cần **Python 3.10+**. Không cần cài gói nào. Kết quả **tất định**.
 
 |            |                                                                       |
@@ -1829,7 +1843,7 @@ HET BAI 16
 | VNDirect finfo API                                                                                     | báo cáo tài chính năm 2010–2025 của 28 doanh nghiệp niêm yết Việt Nam |
 | [SEC XBRL `companyfacts`](https://www.sec.gov/search-filings/edgar-application-programming-interfaces) | dòng tiền tài trợ 2015–2025 của 12 doanh nghiệp Mỹ, từ báo cáo 10-K   |
 
-⚠️ **Chưa xác minh được, ghi rõ ở đây:**
+> [!warning] Chưa xác minh được, ghi rõ ở đây:
 
 - **Hàm $K_d(w)$ trong mô hình đánh đổi §9 là do tôi viết ra**, không phải ước lượng từ dữ liệu. §9
   chứng minh bằng chính dữ liệu rằng nó **không ước lượng được** — và đó là lý do mô hình đánh đổi

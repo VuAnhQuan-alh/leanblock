@@ -1,12 +1,14 @@
 # Bài 2 — Cung và cầu
 
+> [!info] Về bài này
 > Bài học dựng từ **Chương 4 — Các lực lượng cung và cầu trên thị trường** (tr. 77–102)
 > của *N. Gregory Mankiw — **Kinh tế học vi mô***, bản dịch của Khoa Kinh tế, **ĐH Kinh tế TP.HCM** (Cengage Learning Asia).
-> 🎯 **Vòng 1** — bài bắt buộc. Đây là mô hình mà **mọi chương còn lại đều dùng lại**.
-> 💼 **Góc QTKD** — ví dụ thêm cho ngành quản trị kinh doanh, **không có trong sách**.
-> 📚 **Mở rộng** — thứ sách nói lướt hoặc để trong hộp phụ.
-> ⚠️ — chỗ dễ hiểu sai, hoặc chỗ sách in sai.
-> 📌 **Cần đọc trước:** [Bài 1 — Mười nguyên lý và tư duy kinh tế](bai_01_muoi_nguyen_ly_va_tu_duy_kinh_te.md),
+>
+> **Vòng 1** — bài bắt buộc. Đây là mô hình mà **mọi chương còn lại đều dùng lại**.
+>
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
+>
+> **Cần đọc trước:** [Bài 1 — Mười nguyên lý và tư duy kinh tế](bai_01_muoi_nguyen_ly_va_tu_duy_kinh_te.md),
 > đặc biệt mục 15 về **dịch chuyển đường ↔ di chuyển dọc đường**.
 
 ---
@@ -20,7 +22,7 @@
 - [3. Cầu — lượng cầu, quy luật cầu, biểu cầu, đường cầu](#3-cầu--lượng-cầu-quy-luật-cầu-biểu-cầu-đường-cầu)
 - [4. Cầu thị trường là tổng của cầu cá nhân — cộng theo chiều NGANG](#4-cầu-thị-trường-là-tổng-của-cầu-cá-nhân--cộng-theo-chiều-ngang)
 - [5. Năm yếu tố làm dịch chuyển đường cầu](#5-năm-yếu-tố-làm-dịch-chuyển-đường-cầu)
-- [6. ⚠️ Dịch chuyển ĐƯỜNG hay di chuyển DỌC theo đường — chỗ sai nhiều nhất](#6--dịch-chuyển-đường-hay-di-chuyển-dọc-theo-đường--chỗ-sai-nhiều-nhất)
+- [6. Dịch chuyển ĐƯỜNG hay di chuyển DỌC theo đường — chỗ sai nhiều nhất](#6-dịch-chuyển-đường-hay-di-chuyển-dọc-theo-đường--chỗ-sai-nhiều-nhất)
 - [7. Nghiên cứu tình huống — hai cách giảm cầu thuốc lá](#7-nghiên-cứu-tình-huống--hai-cách-giảm-cầu-thuốc-lá)
 - [8. Cung — lượng cung, quy luật cung, biểu cung, đường cung](#8-cung--lượng-cung-quy-luật-cung-biểu-cung-đường-cung)
 - [9. Bốn yếu tố làm dịch chuyển đường cung](#9-bốn-yếu-tố-làm-dịch-chuyển-đường-cung)
@@ -28,7 +30,7 @@
 - [11. Thặng dư và thiếu hụt — cơ chế đưa thị trường về cân bằng](#11-thặng-dư-và-thiếu-hụt--cơ-chế-đưa-thị-trường-về-cân-bằng)
 - [12. Ba bước phân tích sự thay đổi của trạng thái cân bằng](#12-ba-bước-phân-tích-sự-thay-đổi-của-trạng-thái-cân-bằng)
 - [13. Bảng 4 — chín ô, và vì sao hai ô ghi "không rõ"](#13-bảng-4--chín-ô-và-vì-sao-hai-ô-ghi-không-rõ)
-- [14. 📚 Giá cả phân bổ nguồn lực — và tranh cãi về "giá cắt cổ"](#14--giá-cả-phân-bổ-nguồn-lực--và-tranh-cãi-về-giá-cắt-cổ)
+- [14. Giá cả phân bổ nguồn lực — và tranh cãi về "giá cắt cổ"](#14-giá-cả-phân-bổ-nguồn-lực--và-tranh-cãi-về-giá-cắt-cổ)
 - [15. Code minh hoạ](#15-code-minh-hoạ)
 - [16. Tự thử](#16-tự-thử)
 - [17. Từ điển thuật ngữ](#17-từ-điển-thuật-ngữ)
@@ -50,6 +52,7 @@ Sách mở chương bằng bốn hiện tượng tưởng chẳng liên quan (tr
 
 Điểm chung: *"Tất cả chúng đều cho thấy sự vận hành của cung và cầu."*
 
+> [!quote] tr. 77
 > **Thị trường** (*market*): một nhóm những người mua và người bán của một hàng hoá hay dịch vụ cụ thể. (tr. 77)
 
 Điều quan trọng trong định nghĩa này là nó **rất rộng**. Sách nêu hai đầu của quang phổ (tr. 78):
@@ -61,24 +64,26 @@ Sách mở chương bằng bốn hiện tượng tưởng chẳng liên quan (tr
 
 Và câu kết luận đáng nhớ về thị trường kem: *"Ngay cả khi không được tổ chức, nhóm người mua và bán kem cũng hình thành một thị trường."*
 
-⚠️ **Thị trường không cần có một cái chợ.** Nó là một **quan hệ**, không phải một địa điểm. Điều này quan trọng khi bạn đi làm: "thị trường của chúng ta" không phải cái sàn thương mại điện tử bạn đang bán, mà là tập hợp mọi người mua và mọi người bán loại sản phẩm đó.
+> [!warning] Thị trường không cần có một cái chợ.
+> Nó là một **quan hệ**, không phải một địa điểm. Điều này quan trọng khi bạn đi làm: "thị trường của chúng ta" không phải cái sàn thương mại điện tử bạn đang bán, mà là tập hợp mọi người mua và mọi người bán loại sản phẩm đó.
 
-### 💼 Góc QTKD — định nghĩa thị trường sai là sai từ gốc
-
-Câu hỏi *"thị trường của ta là gì"* quyết định mọi con số sau đó — thị phần, đối thủ, quy mô tăng trưởng.
-
-| Cách định nghĩa                                  | Thị phần của một quán cà phê | Kết luận rút ra              |
-| ------------------------------------------------ | ---------------------------- | ---------------------------- |
-| "thị trường cà phê pha máy trong bán kính 500 m" | 40%                          | *"ta đang thống lĩnh"*       |
-| "thị trường đồ uống mang đi trong quận"          | 3%                           | *"ta là người chơi nhỏ"*     |
-| "thị trường mọi thứ khách có thể uống buổi sáng" | 0,2%                         | *"ta gần như không tồn tại"* |
-
-Không có định nghĩa nào **đúng tuyệt đối**. Cái đúng là cái bao gồm **những thứ khách hàng thật sự cân nhắc thay cho sản phẩm của bạn** — tức là những **hàng hoá thay thế**, khái niệm sẽ gặp ở mục 5.
+> [!example] Góc QTKD — định nghĩa thị trường sai là sai từ gốc
+>
+> Câu hỏi *"thị trường của ta là gì"* quyết định mọi con số sau đó — thị phần, đối thủ, quy mô tăng trưởng.
+>
+> | Cách định nghĩa                                  | Thị phần của một quán cà phê | Kết luận rút ra              |
+> | ------------------------------------------------ | ---------------------------- | ---------------------------- |
+> | "thị trường cà phê pha máy trong bán kính 500 m" | 40%                          | *"ta đang thống lĩnh"*       |
+> | "thị trường đồ uống mang đi trong quận"          | 3%                           | *"ta là người chơi nhỏ"*     |
+> | "thị trường mọi thứ khách có thể uống buổi sáng" | 0,2%                         | *"ta gần như không tồn tại"* |
+>
+> Không có định nghĩa nào **đúng tuyệt đối**. Cái đúng là cái bao gồm **những thứ khách hàng thật sự cân nhắc thay cho sản phẩm của bạn** — tức là những **hàng hoá thay thế**, khái niệm sẽ gặp ở mục 5.
 
 ---
 
 ## 2. Cạnh tranh là gì
 
+> [!quote]
 > **Thị trường cạnh tranh** (*competitive market*): một thị trường có nhiều người bán và người mua, mỗi người không có khả năng ảnh hưởng đến giá thị trường. — chú thích tr. 78
 
 Sách giải thích qua thị trường kem: mỗi người bán kem *"có khả năng kiểm soát giá kem rất hạn chế"* vì người khác cũng bán loại tương tự — bán cao hơn thì mất khách, bán thấp hơn thì không có lý do gì (tr. 78).
@@ -110,10 +115,13 @@ Và sách nói thẳng vì sao vẫn giả định cạnh tranh hoàn hảo tron
 
 ## 3. Cầu — lượng cầu, quy luật cầu, biểu cầu, đường cầu
 
+> [!quote]
 > **Lượng cầu** (*quantity demanded*): lượng hàng mà người mua sẵn lòng và có khả năng mua. — chú thích tr. 79
 
-⚠️ **Hai chữ trong định nghĩa hay bị bỏ qua: "và có khả năng".** Muốn mua mà không có tiền thì **không** tính vào lượng cầu. Cầu trong kinh tế học là **mong muốn có khả năng chi trả**, không phải mong muốn suông.
+> [!warning] Hai chữ trong định nghĩa hay bị bỏ qua: "và có khả năng".
+> Muốn mua mà không có tiền thì **không** tính vào lượng cầu. Cầu trong kinh tế học là **mong muốn có khả năng chi trả**, không phải mong muốn suông.
 
+> [!quote]
 > **Quy luật cầu** (*law of demand*): với các yếu tố khác không đổi, lượng cầu của một hàng hoá **giảm khi giá của nó tăng lên**. — chú thích tr. 79
 
 Sách minh hoạ bằng chính bạn: nếu kem tăng lên 20 đô la một que, bạn sẽ mua ít hơn — *"có lẽ bạn sẽ mua sữa chua đông lạnh"*. Nếu giảm còn 0,2 đô la một que, bạn mua nhiều hơn (tr. 79).
@@ -122,6 +130,7 @@ Sách minh hoạ bằng chính bạn: nếu kem tăng lên 20 đô la một que,
 
 ![Hình 1 — tr. 80, bản chụp giáo trình](../tai_lieu/hinh/ch04-hinh-01-tr80.png)
 
+> [!quote]
 > **Biểu cầu** (*demand schedule*): một bảng thể hiện mối quan hệ giữa giá bán và lượng cầu của một hàng hoá. — chú thích tr. 80
 > **Đường cầu** (*demand curve*): đồ thị biểu diễn mối quan hệ giữa mức giá và lượng cầu của một hàng hoá. — chú thích tr. 80
 
@@ -140,8 +149,10 @@ Hai điều rút ra:
 1. Nếu kem **miễn phí**, Catherine vẫn chỉ mua **12 que mỗi tháng** — không phải vô hạn. Đây là biểu hiện của **lợi ích biên giảm dần** (bài 1, mục 4).
 2. Ở mức **3 đô la**, Catherine **không mua nữa**. Đó là **giá sẵn lòng trả cao nhất** của cô — khái niệm sẽ thành nền của **thặng dư tiêu dùng** ở bài 4.
 
-⚠️ **Quy ước trục — nhớ kỹ vì nó ngược với thói quen toán học.** Sách ghi rõ (tr. 80):
+> [!warning] Quy ước trục — nhớ kỹ vì nó ngược với thói quen toán học.
+> Sách ghi rõ (tr. 80):
 
+> [!quote]
 > *"Theo quy ước, giá bán nằm trên **trục tung** và lượng cầu nằm trên **trục hoành**."*
 
 Trong toán, biến độc lập thường nằm trục hoành. Ở đây **giá** (thứ ta coi là nguyên nhân) lại nằm **trục tung**. Đây là quy ước lịch sử của kinh tế học, và bạn phải theo, vì mọi đồ thị trong sách, trong slide giảng và trong đề thi đều vẽ như vậy.
@@ -164,25 +175,27 @@ Hình 2, tr. 81 — Catherine và Nicholas là hai người mua duy nhất trên
 |       $2,50 |         2 |   +   |        2 |   =   |          **4** |
 |       $3,00 |         0 |   +   |        1 |   =   |          **1** |
 
-⚠️ **Cộng theo chiều NGANG, không phải chiều dọc.** Sách nhấn mạnh riêng điểm này (tr. 81):
+> [!warning] Cộng theo chiều NGANG, không phải chiều dọc.
+> Sách nhấn mạnh riêng điểm này (tr. 81):
 
+> [!quote]
 > *"Lưu ý rằng chúng ta cộng các đường cầu cá nhân **theo chiều ngang** để có được đường cầu thị trường. Tức là, để tìm tổng lượng cầu tại mỗi mức giá, chúng ta cộng các lượng cầu cá nhân trên trục hoành."*
 
 Nói cách khác: **giữ nguyên giá, cộng lượng**. Cộng giá lại với nhau là vô nghĩa — không ai trả $0,00 + $0,00 = $0,00 cho hai que kem của hai người khác nhau.
 
-### 💼 Góc QTKD — đây chính là cách bạn dựng dự báo doanh số
-
-Cộng ngang là thao tác bạn làm thật khi lập kế hoạch bán hàng, chỉ là gọi tên khác:
-
-```
-   phân khúc A: ở giá 45k mua 1.200 ly/tháng
-   phân khúc B: ở giá 45k mua   800 ly/tháng   ← GIỮ NGUYÊN GIÁ
-   phân khúc C: ở giá 45k mua   500 ly/tháng
-   ────────────────────────────────────────
-   tổng cầu    ở giá 45k       2.500 ly/tháng   ← CỘNG LƯỢNG
-```
-
-Và hệ quả thực tế: **hai phân khúc có độ nhạy giá khác nhau thì đường cầu tổng sẽ gãy khúc**, không còn là đường thẳng. Đó là lý do một lần giảm giá có thể làm doanh số nhảy vọt bất ngờ — bạn vừa chạm ngưỡng chấp nhận của cả một phân khúc.
+> [!example] Góc QTKD — đây chính là cách bạn dựng dự báo doanh số
+>
+> Cộng ngang là thao tác bạn làm thật khi lập kế hoạch bán hàng, chỉ là gọi tên khác:
+>
+> ```
+>    phân khúc A: ở giá 45k mua 1.200 ly/tháng
+>    phân khúc B: ở giá 45k mua   800 ly/tháng   ← GIỮ NGUYÊN GIÁ
+>    phân khúc C: ở giá 45k mua   500 ly/tháng
+>    ────────────────────────────────────────
+>    tổng cầu    ở giá 45k       2.500 ly/tháng   ← CỘNG LƯỢNG
+> ```
+>
+> Và hệ quả thực tế: **hai phân khúc có độ nhạy giá khác nhau thì đường cầu tổng sẽ gãy khúc**, không còn là đường thẳng. Đó là lý do một lần giảm giá có thể làm doanh số nhảy vọt bất ngờ — bạn vừa chạm ngưỡng chấp nhận của cả một phân khúc.
 
 ---
 
@@ -210,15 +223,18 @@ Và hệ quả thực tế: **hai phân khúc có độ nhạy giá khác nhau t
 
 ### ① Thu nhập — hàng hoá thông thường và hàng hoá thứ cấp
 
+> [!quote]
 > **Hàng hoá thông thường** (*normal good*): với các yếu tố khác không đổi, thu nhập tăng dẫn đến cầu tăng. — chú thích tr. 82
 > **Hàng hoá thứ cấp** (*inferior good*): với các yếu tố khác không đổi, thu nhập tăng làm **giảm** cầu. — chú thích tr. 82
 
 Ví dụ của sách cho hàng thứ cấp: **xe buýt**. *"Khi thu nhập của bạn giảm, bạn ít có khả năng mua xe hơi hoặc đi taxi và khả năng bạn phải đi xe buýt sẽ lớn hơn"* (tr. 82).
 
-⚠️ **"Thứ cấp" không có nghĩa là "chất lượng kém".** Nó chỉ mô tả **chiều phản ứng với thu nhập**. Một món có thể là hàng thông thường với người này và thứ cấp với người kia.
+> [!warning] "Thứ cấp" không có nghĩa là "chất lượng kém".
+> Nó chỉ mô tả **chiều phản ứng với thu nhập**. Một món có thể là hàng thông thường với người này và thứ cấp với người kia.
 
 ### ② Giá của hàng hoá liên quan — thay thế và bổ sung
 
+> [!quote]
 > **Hàng hoá thay thế** (*substitutes*): hai hàng hoá mà khi giá của hàng hoá này tăng sẽ làm **tăng** cầu của hàng hoá kia. — chú thích tr. 82
 > **Hàng hoá bổ sung** (*complements*): hai hàng hoá mà khi giá hàng hoá này tăng thì cầu của hàng hoá kia **giảm**. — chú thích tr. 83
 
@@ -241,27 +257,28 @@ Kỳ vọng về **tương lai** ảnh hưởng cầu **hiện tại** (tr. 83):
 
 Nếu Peter tham gia cùng Catherine và Nicholas, lượng cầu thị trường cao hơn ở **mọi** mức giá (tr. 83).
 
-### 💼 Góc QTKD — bảng chẩn đoán khi doanh số tụt
-
-Khi doanh số giảm, câu hỏi đầu tiên phải là: **giá của ta có đổi không?** Vì hai nguyên nhân đó cần hai cách xử lý hoàn toàn khác nhau.
-
-| Doanh số giảm vì                 | Bản chất                               | Việc phải làm                                       |
-| -------------------------------- | -------------------------------------- | --------------------------------------------------- |
-| ta vừa tăng giá                  | **di chuyển dọc** đường cầu            | tính lại: doanh thu tăng hay giảm? (bài 3)          |
-| đối thủ giảm giá                 | dịch trái — giá **hàng thay thế** giảm | so sánh giá trị, không nhất thiết chạy đua giảm giá |
-| kinh tế khó khăn, khách thắt chi | dịch trái — **thu nhập** giảm          | nếu hàng thông thường: ra dòng phổ thông            |
-| xu hướng tiêu dùng đổi           | dịch trái — **thị hiếu**               | đổi sản phẩm, không phải đổi giá                    |
-| khách chờ đợt sale cuối tháng    | dịch trái — **kỳ vọng**                | ⚠️ chính chính sách khuyến mãi của bạn tạo ra nó     |
-| cửa hàng mới mở gần đó hút khách | **số người mua** ở khu vực bạn giảm    | mở rộng vùng phục vụ                                |
-
-Dòng **kỳ vọng** đáng suy nghĩ nhất: khuyến mãi định kỳ **dạy khách hàng chờ**. Kỳ vọng giá sẽ giảm làm cầu hiện tại dịch trái — bạn tự tay bóp doanh số của chính những tuần không giảm giá.
+> [!example] Góc QTKD — bảng chẩn đoán khi doanh số tụt
+>
+> Khi doanh số giảm, câu hỏi đầu tiên phải là: **giá của ta có đổi không?** Vì hai nguyên nhân đó cần hai cách xử lý hoàn toàn khác nhau.
+>
+> | Doanh số giảm vì                 | Bản chất                               | Việc phải làm                                       |
+> | -------------------------------- | -------------------------------------- | --------------------------------------------------- |
+> | ta vừa tăng giá                  | **di chuyển dọc** đường cầu            | tính lại: doanh thu tăng hay giảm? (bài 3)          |
+> | đối thủ giảm giá                 | dịch trái — giá **hàng thay thế** giảm | so sánh giá trị, không nhất thiết chạy đua giảm giá |
+> | kinh tế khó khăn, khách thắt chi | dịch trái — **thu nhập** giảm          | nếu hàng thông thường: ra dòng phổ thông            |
+> | xu hướng tiêu dùng đổi           | dịch trái — **thị hiếu**               | đổi sản phẩm, không phải đổi giá                    |
+> | khách chờ đợt sale cuối tháng    | dịch trái — **kỳ vọng**                | ⚠️ chính chính sách khuyến mãi của bạn tạo ra nó     |
+> | cửa hàng mới mở gần đó hút khách | **số người mua** ở khu vực bạn giảm    | mở rộng vùng phục vụ                                |
+>
+> Dòng **kỳ vọng** đáng suy nghĩ nhất: khuyến mãi định kỳ **dạy khách hàng chờ**. Kỳ vọng giá sẽ giảm làm cầu hiện tại dịch trái — bạn tự tay bóp doanh số của chính những tuần không giảm giá.
 
 ---
 
-## 6. ⚠️ Dịch chuyển ĐƯỜNG hay di chuyển DỌC theo đường — chỗ sai nhiều nhất
+## 6. Dịch chuyển ĐƯỜNG hay di chuyển DỌC theo đường — chỗ sai nhiều nhất
 
 Sách nhắc lại quy tắc từ phụ lục chương 2 (tr. 83–84), và nhắc **hai lần** (một lần cho cầu tr. 83, một lần cho cung tr. 89) — dấu hiệu cho thấy đây là chỗ sinh viên hay sai:
 
+> [!quote] tr. 83–84
 > Một đường biểu diễn thay đổi khi có sự thay đổi của một trong những biến liên quan mà sự thay đổi này **không được đo ở hai trục**. Do **giá nằm trên trục tung**, một sự thay đổi của giá sẽ cho thấy một sự **di chuyển dọc theo** đường cầu. Ngược lại, thu nhập, giá cả hàng hoá liên quan, thị hiếu, kỳ vọng và số lượng người mua **không được đo lường trên hai trục**, do đó một sự thay đổi trong những biến này sẽ làm **đường cầu dịch chuyển**. (tr. 83–84)
 
 Quy tắc rút gọn để dùng khi làm bài:
@@ -293,14 +310,17 @@ Nói gọn: **"cầu" là vị trí của cả đường; "lượng cầu" là m
 
 **Cách 1 — làm dịch chuyển cả đường cầu** (Hình 4a): thông báo công cộng, cảnh báo sức khoẻ bắt buộc trên bao bì, cấm quảng cáo thuốc lá trên tivi. Những chính sách này cắt giảm lượng cầu **tại bất cứ mức giá nào** → đường cầu dịch **sang trái**, từ $D_1$ đến $D_2$.
 
+> [!note]
 > Ở mức giá **2 đô la một gói**, lượng cầu giảm từ **20 xuống còn 10 điếu mỗi ngày** (điểm A → điểm B).
 
 **Cách 2 — làm di chuyển dọc theo đường cầu** (Hình 4b): đánh thuế sản xuất thuốc lá. Các công ty **chuyển hầu hết khoản thuế này sang người tiêu dùng** bằng cách bán giá cao hơn. Đường cầu **không đổi**; ta chỉ trượt tới một điểm khác trên nó.
 
+> [!note]
 > Giá tăng từ **2 đô la lên 4 đô la**, lượng cầu giảm từ **20 xuống còn 12 điếu mỗi ngày** (điểm A → điểm C).
 
 ### Con số cần nhớ (tr. 84–85)
 
+> [!note]
 > Giá tăng **10 phần trăm** làm giảm **4 phần trăm** lượng cầu.
 > Với **thanh thiếu niên**: mỗi 10 phần trăm tăng giá làm giảm **12 phần trăm** số trẻ vị thành niên hút thuốc.
 
@@ -325,6 +345,7 @@ Kết luận nguyên văn của sách: *"Nói cách khác, thuốc lá và cần
 
 Mọi thứ đối xứng với phần cầu, chỉ đổi chiều.
 
+> [!quote]
 > **Lượng cung** (*quantity supplied*): lượng hàng mà người bán có thể và sẵn lòng bán. — chú thích tr. 85
 > **Quy luật cung** (*law of supply*): với các yếu tố khác không đổi, lượng cung của một hàng hoá **tăng khi giá của nó tăng lên**. — chú thích tr. 85
 
@@ -344,7 +365,8 @@ Cơ chế mà sách mô tả (tr. 85): giá kem cao → bán kem có lợi nhu�
 |   $2,50 |                  4 |
 |   $3,00 |                  5 |
 
-⚠️ **Chú ý hai dòng đầu bằng 0.** Ở mức giá dưới 1 đô la, *"Ben sẽ không cung cấp kem nữa"* (tr. 85). Đường cung **không** bắt đầu từ gốc toạ độ — có một **ngưỡng giá tối thiểu** để người bán chịu bán. Ngưỡng này sẽ có tên chính thức ở bài 6: **quyết định đóng cửa**.
+> [!warning] Chú ý hai dòng đầu bằng 0.
+> Ở mức giá dưới 1 đô la, *"Ben sẽ không cung cấp kem nữa"* (tr. 85). Đường cung **không** bắt đầu từ gốc toạ độ — có một **ngưỡng giá tối thiểu** để người bán chịu bán. Ngưỡng này sẽ có tên chính thức ở bài 6: **quyết định đóng cửa**.
 
 ### Cung thị trường — Hình 6, tr. 87
 
@@ -388,33 +410,36 @@ Cộng **theo chiều ngang**, giống hệt bên cầu:
 
 **④ Số lượng người bán** (tr. 88). Ben hay Jerry nghỉ kinh doanh → cung thị trường giảm.
 
-⚠️ **Đính chính — sách in lỗi sắp chữ, tr. 88.**
+> [!warning] Đính chính — sách in lỗi sắp chữ, tr. 88.
 
 Đoạn **"Tóm lại"** của phần Cung kết thúc bằng một câu bị **ghép nhầm và lặp**:
 
+> [!quote]
 > *"Bảng 2 liệt kê các yếu tố ảnh hưởng đến việc nhà sản xuất chọn mức cung bao nhiêu **doanh nghiệp có thể đóng cửa và không bán kem nữa. Vì vậy, cung của một hàng hoá có quan hệ nghịch biến với giá các yếu tố đầu vào của nó**"*
 
 Phần in đậm là **mảnh văn bản của đoạn "Giá đầu vào" phía trên bị lặp lại**, không thuộc câu này. Câu đúng phải dừng ở:
 
+> [!quote]
 > *"Bảng 2 liệt kê các yếu tố ảnh hưởng đến việc nhà sản xuất chọn mức cung bao nhiêu."*
 
 Đã đối chiếu bản quét 300 dpi. Không đổi nội dung kiến thức, nhưng đọc tới đó mà thấy rối thì **không phải do bạn**.
 
-### 💼 Góc QTKD — bốn yếu tố này chính là bốn đòn bẩy chi phí của bạn
-
-| Yếu tố       | Đòn bẩy trong doanh nghiệp                                                                             |
-| ------------ | ------------------------------------------------------------------------------------------------------ |
-| Giá đầu vào  | đàm phán nhà cung cấp, hợp đồng dài hạn, đa dạng nguồn cung                                            |
-| Công nghệ    | tự động hoá — **dịch cả đường cung sang phải**, tức là ở **mọi** mức giá đều bán được nhiều hơn có lãi |
-| Kỳ vọng      | chính sách tồn kho: giữ hàng chờ giá lên là một quyết định **cung**, không phải quyết định kho vận     |
-| Số người bán | đối thủ mới gia nhập → đường cung ngành dịch phải → **giá thị trường giảm** (bài 6)                    |
-
-Dòng **công nghệ** là dòng đáng đầu tư nhất: giảm giá bán chỉ **trượt dọc** đường cung, còn giảm chi phí **dịch cả đường** — nó cải thiện vị thế của bạn ở mọi mức giá cùng lúc.
+> [!example] Góc QTKD — bốn yếu tố này chính là bốn đòn bẩy chi phí của bạn
+>
+> | Yếu tố       | Đòn bẩy trong doanh nghiệp                                                                             |
+> | ------------ | ------------------------------------------------------------------------------------------------------ |
+> | Giá đầu vào  | đàm phán nhà cung cấp, hợp đồng dài hạn, đa dạng nguồn cung                                            |
+> | Công nghệ    | tự động hoá — **dịch cả đường cung sang phải**, tức là ở **mọi** mức giá đều bán được nhiều hơn có lãi |
+> | Kỳ vọng      | chính sách tồn kho: giữ hàng chờ giá lên là một quyết định **cung**, không phải quyết định kho vận     |
+> | Số người bán | đối thủ mới gia nhập → đường cung ngành dịch phải → **giá thị trường giảm** (bài 6)                    |
+>
+> Dòng **công nghệ** là dòng đáng đầu tư nhất: giảm giá bán chỉ **trượt dọc** đường cung, còn giảm chi phí **dịch cả đường** — nó cải thiện vị thế của bạn ở mọi mức giá cùng lúc.
 
 ---
 
 ## 10. Cân bằng — nơi hai đường gặp nhau
 
+> [!quote]
 > **Điểm cân bằng** (*equilibrium*): tình huống mà ở đó giá thị trường làm cho lượng cung bằng lượng cầu. — chú thích tr. 89
 > **Giá cân bằng** (*equilibrium price*): mức giá làm cân bằng lượng cung và lượng cầu. — chú thích tr. 89
 > **Lượng cân bằng** (*equilibrium quantity*): lượng cung và lượng cầu tại mức giá cân bằng. — chú thích tr. 89
@@ -425,16 +450,19 @@ Với hai biểu số ở mục 4 và mục 8, giao điểm nằm ở **giá 2 �
 
 Định nghĩa bằng lời của sách, đáng thuộc (tr. 89):
 
+> [!quote]
 > *"Tại mức giá cân bằng, lượng hàng mà người mua sẵn lòng và có thể mua **chính xác bằng** lượng hàng mà người bán sẵn lòng và có thể bán."*
 
 Và vì sao gọi là **giá thị trường**: *"ở mức giá này, tất cả mọi người trên thị trường đều hài lòng: Người mua được tất cả hàng hoá họ muốn mua, và người bán cũng bán hết hàng họ muốn bán"* (tr. 89).
 
-⚠️ **"Hài lòng" ở đây là nghĩa kỹ thuật, không phải nghĩa cảm xúc.** Không ai *thích* mức giá đó; chỉ là ở mức đó, **không ai còn động cơ thay đổi hành vi**. Người mua vẫn muốn rẻ hơn, người bán vẫn muốn đắt hơn.
+> [!warning] "Hài lòng" ở đây là nghĩa kỹ thuật, không phải nghĩa cảm xúc.
+> Không ai *thích* mức giá đó; chỉ là ở mức đó, **không ai còn động cơ thay đổi hành vi**. Người mua vẫn muốn rẻ hơn, người bán vẫn muốn đắt hơn.
 
 ---
 
 ## 11. Thặng dư và thiếu hụt — cơ chế đưa thị trường về cân bằng
 
+> [!quote]
 > **Thặng dư** (*surplus*): tình huống theo đó lượng cung lớn hơn lượng cầu. — chú thích tr. 90
 > **Thiếu hụt** (*shortage*): tình huống mà trong đó lượng cầu cao hơn lượng cung. — chú thích tr. 90
 
@@ -461,20 +489,21 @@ Và vì sao gọi là **giá thị trường**: *"ở mức giá này, tất c�
 
 Sách nhấn mạnh **hai lần** rằng đây là **di chuyển dọc, không phải dịch chuyển** (tr. 90) — quay lại đúng mục 6.
 
+> [!quote]
 > **Quy luật cung và cầu** (*law of supply and demand*): giá của một hàng hoá sẽ điều chỉnh sao cho lượng cầu và lượng cung bằng nhau. — chú thích tr. 91
 
 Và một nhận xét thực tế mà sách thêm vào (tr. 90): *"Việc thị trường đạt đến trạng thái cân bằng nhanh hay chậm tuỳ thuộc vào việc giá thay đổi nhanh hay chậm."*
 
-### 💼 Góc QTKD — thặng dư và thiếu hụt trong kho của bạn
-
-Hai tình trạng này có tên khác trong doanh nghiệp, và chúng là **tín hiệu định giá**, không phải chỉ là chuyện vận hành:
-
-| Hiện tượng                                               | Kinh tế học gọi | Tín hiệu thật                             |
-| -------------------------------------------------------- | --------------- | ----------------------------------------- |
-| hàng tồn chất kho, phải xả lỗ cuối mùa                   | **thặng dư**    | giá đang **cao hơn** mức thị trường chịu  |
-| hết hàng liên tục, khách phải đặt trước, chợ đen bán lại | **thiếu hụt**   | giá đang **thấp hơn** mức thị trường chịu |
-
-⚠️ Vé xem ca nhạc "cháy trong 3 phút" rồi bán lại gấp 5 lần ngoài chợ đen **không phải** thành công marketing — đó là bằng chứng bạn **định giá thấp**, và toàn bộ phần chênh lệch đó rơi vào túi người bán lại chứ không phải bạn.
+> [!example] Góc QTKD — thặng dư và thiếu hụt trong kho của bạn
+>
+> Hai tình trạng này có tên khác trong doanh nghiệp, và chúng là **tín hiệu định giá**, không phải chỉ là chuyện vận hành:
+>
+> | Hiện tượng                                               | Kinh tế học gọi | Tín hiệu thật                             |
+> | -------------------------------------------------------- | --------------- | ----------------------------------------- |
+> | hàng tồn chất kho, phải xả lỗ cuối mùa                   | **thặng dư**    | giá đang **cao hơn** mức thị trường chịu  |
+> | hết hàng liên tục, khách phải đặt trước, chợ đen bán lại | **thiếu hụt**   | giá đang **thấp hơn** mức thị trường chịu |
+>
+> ⚠️ Vé xem ca nhạc "cháy trong 3 phút" rồi bán lại gấp 5 lần ngoài chợ đen **không phải** thành công marketing — đó là bằng chứng bạn **định giá thấp**, và toàn bộ phần chênh lệch đó rơi vào túi người bán lại chứ không phải bạn.
 
 ---
 
@@ -508,7 +537,8 @@ Hai tình trạng này có tên khác trong doanh nghiệp, và chúng là **tí
 | ②    | Chi phí cao hơn → bán ít hơn ở mọi mức giá → cung dịch **sang trái**, $S_1 \to S_2$                                                                 |
 | ③    | Ở giá cũ 2 đô la xuất hiện **thiếu hụt** → giá tăng. Cân bằng mới: **giá 2 → 2,5 đô la**, **lượng 7 → 4 que**                                       |
 
-⚠️ **So sánh hai ví dụ này cạnh nhau — đây là ý quan trọng nhất mục 12.** Cả hai đều làm **giá tăng lên 2,5 đô la**. Nhưng lượng thì **ngược nhau**: nóng làm lượng **tăng lên 10**, bão làm lượng **giảm xuống 4**.
+> [!warning] So sánh hai ví dụ này cạnh nhau — đây là ý quan trọng nhất mục 12.
+> Cả hai đều làm **giá tăng lên 2,5 đô la**. Nhưng lượng thì **ngược nhau**: nóng làm lượng **tăng lên 10**, bão làm lượng **giảm xuống 4**.
 
 Nghĩa là: **nhìn giá tăng thôi thì không biết chuyện gì đã xảy ra.** Phải nhìn **lượng** mới phân biệt được cú sốc cầu với cú sốc cung. Đây là một trong những công cụ chẩn đoán hữu ích nhất mà chương này cho bạn.
 
@@ -537,8 +567,10 @@ Kết luận nguyên văn: *"những sự kiện này chắc chắn làm giá ke
 | **Cầu tăng**      | P **tăng**<br>Q **tăng**   | P **không rõ**<br>Q **tăng** | P **tăng**<br>Q **không rõ** |
 | **Cầu giảm**      | P **giảm**<br>Q **giảm**   | P **giảm**<br>Q **không rõ** | P **không rõ**<br>Q **giảm** |
 
-📚 **Đừng học thuộc bảng này.** Nó có quy luật, và quy luật ấy chỉ có một dòng:
+> [!note] Đừng học thuộc bảng này.
+> Nó có quy luật, và quy luật ấy chỉ có một dòng:
 
+> [!note]
 > Khi hai đường dịch chuyển, đại lượng nào **được cả hai cú dịch chuyển đẩy về cùng một hướng** thì **kết luận chắc chắn**; đại lượng nào **bị đẩy về hai hướng ngược nhau** thì **không rõ**, vì kết quả phụ thuộc **biên độ** của hai cú dịch chuyển.
 
 Kiểm chứng bằng ô "cầu tăng + cung tăng":
@@ -555,18 +587,20 @@ Mục 15 để máy tự sinh lại toàn bộ Bảng 4 từ hai phương trình
 
 ---
 
-## 14. 📚 Giá cả phân bổ nguồn lực — và tranh cãi về "giá cắt cổ"
+## 14. Giá cả phân bổ nguồn lực — và tranh cãi về "giá cắt cổ"
 
 Phần kết chương (tr. 95–97) trả lời câu hỏi lớn của bài 1: **bàn tay vô hình vận hành bằng cách nào?**
 
 Ví dụ **đất ven biển** (tr. 95–97): diện tích có hạn, không phải ai cũng được hưởng. Ai sẽ được?
 
+> [!quote]
 > *"Câu trả lời là bất cứ ai sẵn sàng và có khả năng chi trả. Giá đất bên bờ biển được điều chỉnh cho đến khi lượng cầu về đất đúng bằng lượng cung."*
 
 Ví dụ **ai làm nông** (tr. 97): trong một xã hội tự do *"không có cơ quan lập kế hoạch của chính phủ để quyết định điều này"*. Việc phân bổ dựa trên quyết định của hàng triệu người lao động, và nó chạy được vì các quyết định ấy **phụ thuộc vào giá cả** — giá thực phẩm và tiền lương nông trại tự điều chỉnh để bảo đảm đủ người làm nông.
 
 Ẩn dụ khép lại chương (tr. 97):
 
+> [!quote]
 > *"Nếu một bàn tay vô hình dẫn dắt nền kinh tế thị trường, như tuyên bố nổi tiếng của Adam Smith, thì **hệ thống giá cả là chiếc đũa** mà bàn tay vô hình sử dụng để điều khiển các dàn nhạc kinh tế."*
 
 ### Theo dòng thời sự — "Điều gì sai với giá cắt cổ" (tr. 96)
@@ -594,19 +628,22 @@ Hai chức năng của việc giá tăng, theo lập luận của bài báo:
 
 Và câu chốt: kiểm soát giá cũng là một lựa chọn — *"giả sử bạn không phản đối những điều hiển nhiên như tham nhũng, xếp hàng dài, và thị trường chợ đen"*.
 
-⚠️ **Cân bằng lại — đây là một bài xã luận, không phải kết luận của sách.** Sách đặt nó trong hộp "Theo dòng thời sự" và mở đầu bằng câu *"ý kiến sau đây tán thành với phản ứng tự nhiên của thị trường"* — tức là **một quan điểm**, có phần **chuẩn tắc**. Lập luận về hiệu quả là vững; nhưng câu hỏi *"có công bằng không khi người nghèo không mua nổi nước sau thảm hoạ"* thuộc về **bình đẳng**, và bài báo không trả lời nó. Đúng cặp đánh đổi hiệu quả ↔ bình đẳng ở bài 1. Chính sách giá trần sẽ được phân tích đầy đủ ở **bài 13** (chương 6, tr. 127).
+> [!warning] Cân bằng lại — đây là một bài xã luận, không phải kết luận của sách.
+> Sách đặt nó trong hộp "Theo dòng thời sự" và mở đầu bằng câu *"ý kiến sau đây tán thành với phản ứng tự nhiên của thị trường"* — tức là **một quan điểm**, có phần **chuẩn tắc**. Lập luận về hiệu quả là vững; nhưng câu hỏi *"có công bằng không khi người nghèo không mua nổi nước sau thảm hoạ"* thuộc về **bình đẳng**, và bài báo không trả lời nó. Đúng cặp đánh đổi hiệu quả ↔ bình đẳng ở bài 1. Chính sách giá trần sẽ được phân tích đầy đủ ở **bài 13** (chương 6, tr. 127).
 
-### 💼 Góc QTKD — bài học định giá lúc khủng hoảng
+> [!example] Góc QTKD — bài học định giá lúc khủng hoảng
+>
+> Ba điều rút ra được, không cần đồng ý với bài báo:
+>
+> 1. **Hết hàng trong vài giờ là dấu hiệu định giá thấp**, không phải dấu hiệu thành công.
+> 2. Nếu vì lý do thương hiệu bạn **không** muốn tăng giá lúc khan hiếm, hãy dùng **công cụ phi giá** để thay thế chức năng phân phối: giới hạn số lượng mỗi khách, ưu tiên khách thành viên, đặt trước. Nếu không, hàng sẽ về tay người mua gom bán lại.
+> 3. **Rủi ro danh tiếng là có thật và có thể lớn hơn phần lãi thêm.** Kinh tế học nói cái gì *hiệu quả*; nó không nói khách hàng sẽ nghĩ gì về bạn năm sau.
 
-Ba điều rút ra được, không cần đồng ý với bài báo:
-
-1. **Hết hàng trong vài giờ là dấu hiệu định giá thấp**, không phải dấu hiệu thành công.
-2. Nếu vì lý do thương hiệu bạn **không** muốn tăng giá lúc khan hiếm, hãy dùng **công cụ phi giá** để thay thế chức năng phân phối: giới hạn số lượng mỗi khách, ưu tiên khách thành viên, đặt trước. Nếu không, hàng sẽ về tay người mua gom bán lại.
-3. **Rủi ro danh tiếng là có thật và có thể lớn hơn phần lãi thêm.** Kinh tế học nói cái gì *hiệu quả*; nó không nói khách hàng sẽ nghĩ gì về bạn năm sau.
 ---
 
 ## 15. Code minh hoạ
 
+> [!note]
 > ⚙️ **Chạy:** cần **Python 3.10+**. Lưu file rồi gõ `python3 bai-02-cung-va-cau.py`.
 > **Không cần cài gói nào.** File có sẵn tại [thuc_hanh/bai-02-cung-va-cau.py](../thuc_hanh/bai-02-cung-va-cau.py).
 
@@ -991,10 +1028,11 @@ Cột tiếng Anh lấy từ mục **Khái niệm then chốt** của sách (tr.
 | Thiếu hụt             | Shortage                 | tr. 90 — cầu > cung, giá **quá thấp**                        |
 | Quy luật cung và cầu  | Law of supply and demand | tr. 91                                                       |
 
-⚠️ **Đính chính — tr. 98.** Trong bảng *Khái niệm then chốt*, dòng "Lượng cầu" được dịch sang tiếng
-Anh là **"quantitive demanded"**. Đúng phải là **"quantity demanded"** — so với chính chú thích ở
-tr. 79 của sách và với dòng "Lượng cung = quantity supplied" ở tr. 99. Lỗi đánh máy; nếu bạn tra
-Google cụm sai đó sẽ không ra gì.
+> [!warning] Đính chính — tr. 98.
+> Trong bảng *Khái niệm then chốt*, dòng "Lượng cầu" được dịch sang tiếng
+> Anh là **"quantitive demanded"**. Đúng phải là **"quantity demanded"** — so với chính chú thích ở
+> tr. 79 của sách và với dòng "Lượng cung = quantity supplied" ở tr. 99. Lỗi đánh máy; nếu bạn tra
+> Google cụm sai đó sẽ không ra gì.
 
 ---
 

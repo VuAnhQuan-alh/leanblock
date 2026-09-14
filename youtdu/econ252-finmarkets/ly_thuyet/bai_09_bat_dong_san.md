@@ -1,12 +1,15 @@
 # Bất động sản — từ quyền tài sản tới MBS
 
+> [!info] Về bài này
 > Bài học dựng từ **buổi 10** khoá **Yale ECON 252 *Financial Markets*** (Xuân 2011), giảng viên
 > **Robert J. Shiller** — YouTube `y_IMH8erqds`, dài **68:38**.
 > Mục có mốc `10 MM:SS` là **lấy từ video**, đã đối chiếu ngược với phụ đề gốc bằng script.
 > Mục có 📚 là **kiến thức bài này bổ sung**, không có trong video.
 > Mục có 🇻🇳 là **số liệu Việt Nam**, không có trong video, mọi con số đều trích nguồn.
-> ⚠️ **Video ghi Xuân 2011** — §14 đối chiếu với 2026.
-> 📌 **Nên đọc trước:** [Bài 3 — Ngân hàng](bai_03_ngan_hang.md) (phần chênh lệch kỳ hạn),
+>
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
+>
+> **Nên đọc trước:** [Bài 3 — Ngân hàng](bai_03_ngan_hang.md) (phần chênh lệch kỳ hạn),
 > [Bài 4 — Chính sách tiền tệ](bai_04_chinh_sach_tien_te.md) (phần đệm vốn Basel).
 
 Đây là buổi giảng Shiller mạnh nhất trong cả khoá. Ông được Nobel 2013 cho công trình về giá tài
@@ -21,20 +24,20 @@ pháp lý**. Thiếu một trong hai thì không có tín dụng bất động s
 ## Mục lục
 
 1. [Cái tên đã nói hết: "vật cầm cố đã chết"](#1-cái-tên-đã-nói-hết-vật-cầm-cố-đã-chết)
-2. [📚 Vì sao gọi là "chết" — câu Shiller bảo ông không biết](#2--vì-sao-gọi-là-chết--câu-shiller-bảo-ông-không-biết)
+2. [📚 Vì sao gọi là "chết" — câu Shiller bảo ông không biết](#2-vì-sao-gọi-là-chết--câu-shiller-bảo-ông-không-biết)
 3. [Hạ tầng thứ nhất: phải biết ai sở hữu cái gì](#3-hạ-tầng-thứ-nhất-phải-biết-ai-sở-hữu-cái-gì)
 4. [Hạ tầng thứ hai: phải siết được tài sản](#4-hạ-tầng-thứ-hai-phải-siết-được-tài-sản)
 5. [Bất động sản thương mại: vì sao toà nhà thuộc về hợp danh](#5-bất-động-sản-thương-mại-vì-sao-toà-nhà-thuộc-về-hợp-danh)
 6. [REIT 1960 — và ba con số Shiller đọc sai](#6-reit-1960--và-ba-con-số-shiller-đọc-sai)
-7. [📚 Ngưỡng "nhà đầu tư đủ điều kiện" bị lạm phát ăn mòn](#7--ngưỡng-nhà-đầu-tư-đủ-điều-kiện-bị-lạm-phát-ăn-mòn)
+7. [📚 Ngưỡng "nhà đầu tư đủ điều kiện" bị lạm phát ăn mòn](#7-ngưỡng-nhà-đầu-tư-đủ-điều-kiện-bị-lạm-phát-ăn-mòn)
 8. [Nhà ở trước 1929: khoản vay bóng bay](#8-nhà-ở-trước-1929-khoản-vay-bóng-bay)
 9. [1934: nhà nước áp đặt khoản vay trả dần](#9-1934-nhà-nước-áp-đặt-khoản-vay-trả-dần)
 10. [Vì sao chỉ có Mỹ và Đan Mạch](#10-vì-sao-chỉ-có-mỹ-và-đan-mạch)
-11. [📚 Hệ Đan Mạch: nguyên tắc cân bằng và quyền mua lại](#11--hệ-đan-mạch-nguyên-tắc-cân-bằng-và-quyền-mua-lại)
+11. [📚 Hệ Đan Mạch: nguyên tắc cân bằng và quyền mua lại](#11-hệ-đan-mạch-nguyên-tắc-cân-bằng-và-quyền-mua-lại)
 12. [Fannie, Freddie, và lời bảo lãnh không ai viết ra](#12-fannie-freddie-và-lời-bảo-lãnh-không-ai-viết-ra)
 13. [Dây chuyền chứng khoán hoá và chỗ nó đứt](#13-dây-chuyền-chứng-khoán-hoá-và-chỗ-nó-đứt)
-14. [⚠️ Đối chiếu 2026 — năm thứ thời gian đã phán xử](#14--đối-chiếu-2026--năm-thứ-thời-gian-đã-phán-xử)
-15. [🇻🇳 Góc Việt Nam](#15--góc-việt-nam)
+14. [⚠️ Đối chiếu 2026 — năm thứ thời gian đã phán xử](#14-đối-chiếu-2026--năm-thứ-thời-gian-đã-phán-xử)
+15. [🇻🇳 Góc Việt Nam](#15-góc-việt-nam)
 16. [Chương trình](#16-chương-trình)
 17. [Từ điển thuật ngữ](#17-từ-điển-thuật-ngữ)
 18. [Câu hỏi tự kiểm tra](#18-câu-hỏi-tự-kiểm-tra)
@@ -63,10 +66,11 @@ nghĩ ra việc cầm cố, vì nếu không có nó thì bên vay có động c
 
 ---
 
-## 2. 📚 Vì sao gọi là "chết" — câu Shiller bảo ông không biết
+## 2. Vì sao gọi là "chết" — câu Shiller bảo ông không biết
 
 Shiller nói thẳng ông không biết (`10 02:05`):
 
+> [!quote]
 > *"Và tôi không hiểu vì sao người ta gọi chúng là vật cầm cố đã chết. Với tôi thì nó chẳng liên
 > quan gì tới cái chết cả."*
 
@@ -83,10 +87,11 @@ Coke đặt nó đối lập với **vif gage** ("vật cầm cố sống"): ở
 và hoa lợi đó **trừ dần vào nợ**. Đất vẫn "sống" vì vẫn sinh lợi cho việc trả nợ. Còn ở *mortuum
 vadium*, đất **không sinh lợi cho ai** trong suốt thời gian vay — nên nó "chết".
 
-⚠️ Một chi tiết nhỏ: Shiller viết lên bảng **"Mortuus vadium"** (`10 01:39`). Đúng ngữ pháp Latin
-phải là **"mortuum vadium"** — *vadium* là danh từ trung tính nên tính từ đi kèm cũng phải trung
-tính. Bản của Coke viết đúng. Không ảnh hưởng gì tới nội dung, nhưng nếu bạn tra cứu thì gõ dạng
-đúng mới ra kết quả.
+> [!warning]
+> Một chi tiết nhỏ: Shiller viết lên bảng **"Mortuus vadium"** (`10 01:39`). Đúng ngữ pháp Latin
+> phải là **"mortuum vadium"** — *vadium* là danh từ trung tính nên tính từ đi kèm cũng phải trung
+> tính. Bản của Coke viết đúng. Không ảnh hưởng gì tới nội dung, nhưng nếu bạn tra cứu thì gõ dạng
+> đúng mới ra kết quả.
 
 Vì sao đáng để ý: sự phân biệt *vif gage* / *mort gage* chính là ranh giới giữa **cho thuê tài
 chính** và **thế chấp** ngày nay. Thời trung cổ nó còn là cách lách luật cấm cho vay lấy lãi của
@@ -144,6 +149,7 @@ nước đang phát triển hôm nay. Bạn hỏi trong làng ai sở hữu mả
 gia đình ấy lâu lắm rồi"* — nhưng **lời đồn thì không dùng làm cơ sở cho giao dịch tài chính được**
 (`10 10:50`). Kết luận của Shiller gọn một câu (`10 10:40`):
 
+> [!quote]
 > ***"Anh không thể cho vay được."***
 
 ---
@@ -159,6 +165,7 @@ người ta ra khỏi nhà"* (`10 11:50`).
 
 Rồi ông nói phần mà sinh viên hay khó chịu (`10 11:55`):
 
+> [!quote]
 > *"Nghe thì có vẻ tàn nhẫn khi đuổi một người ra khỏi nhà vì họ không trả được nợ thế chấp, nhưng
 > phải nghĩ tới chiều còn lại. Nếu ta không đuổi họ ra khỏi nhà thì **sẽ chẳng ai cho vay thế chấp
 > nữa**. Phải lấy được cái nhà. Đúng không? Đó chính là ý nghĩa của thế chấp. Người ta không trả thì
@@ -192,7 +199,7 @@ người đó đã đi rồi. Người trả là **mọi người vay khác**, n
 không trả được nợ bằng cách làm chậm việc siết tài sản là một **khoản trợ cấp mà những người trả nợ
 đúng hạn phải è cổ ra gánh**, và họ không hề biết mình đang gánh.
 
-Đây là chỗ [§15](#15--góc-việt-nam) sẽ quay lại, vì Việt Nam vừa chạy đúng thí nghiệm này trong đời
+Đây là chỗ [§15](#15-góc-việt-nam) sẽ quay lại, vì Việt Nam vừa chạy đúng thí nghiệm này trong đời
 thực từ 2024 đến 2025.
 
 ---
@@ -202,6 +209,7 @@ thực từ 2024 đến 2025.
 Shiller chỉ ra cửa sổ và hỏi một câu đơn giản (`10 13:46`): mấy toà nhà kia **thuộc về ai**? Câu trả
 lời không phải "một công ty" (`10 13:55`):
 
+> [!quote]
 > *"Suốt phần lớn thế kỷ 20 và tới tận hôm nay, chúng có xu hướng được sở hữu dưới dạng **hợp
 > danh**."*
 
@@ -232,6 +240,7 @@ trách nhiệm **vô hạn** — làm ăn thua lỗ thì bị kiện; **thành v
 
 Rồi Shiller nêu lời phê bình đã dẫn tới REIT (`10 21:37`, `10 22:02`):
 
+> [!quote]
 > *"Nó đáng ra là để bảo vệ họ, tôi đoán thế. Nhưng **bảo vệ họ bằng cách bắt họ chịu thuế hai lần
 > thì bảo vệ kiểu gì?**"*
 
@@ -303,7 +312,7 @@ hướng dài hạn về **dân chủ hoá tài chính**.
 
 ---
 
-## 7. 📚 Ngưỡng "nhà đầu tư đủ điều kiện" bị lạm phát ăn mòn
+## 7. Ngưỡng "nhà đầu tư đủ điều kiện" bị lạm phát ăn mòn
 
 Shiller nói **nhà đầu tư đủ điều kiện** về cơ bản là người giàu, và ngưỡng là **có ít nhất 1 triệu
 đô la** tài sản ròng hoặc một mức thu nhập tối thiểu (`10 16:29`–`16:40`). Đúng, nhưng ông bỏ qua một
@@ -337,10 +346,11 @@ Hai câu chuyện đó khác nhau về chất:
 - Dân chủ hoá kiểu bào mòn ngưỡng **không đi kèm gì cả**. Hộ gia đình thứ 24 triệu bước vào thị
   trường riêng lẻ với đúng mức bảo vệ bằng không mà năm 1982 luật chỉ dành cho nhóm 1,8% giàu nhất.
 
-⚠️ Khi đọc bất kỳ ngưỡng bằng tiền nào trong luật tài chính, câu hỏi đầu tiên phải là: **nó có được
-neo theo lạm phát không?** Nếu không, thì con số đó đang âm thầm đổi nghĩa mỗi năm, kể cả khi không
-một nhà lập pháp nào đụng tới nó. Ngưỡng bảo hiểm tiền gửi ở [bài 3](bai_03_ngan_hang.md) là ví dụ
-ngược lại — nhiều nước có cơ chế rà soát định kỳ.
+> [!warning]
+> Khi đọc bất kỳ ngưỡng bằng tiền nào trong luật tài chính, câu hỏi đầu tiên phải là: **nó có được
+> neo theo lạm phát không?** Nếu không, thì con số đó đang âm thầm đổi nghĩa mỗi năm, kể cả khi không
+> một nhà lập pháp nào đụng tới nó. Ngưỡng bảo hiểm tiền gửi ở [bài 3](bai_03_ngan_hang.md) là ví dụ
+> ngược lại — nhiều nước có cơ chế rà soát định kỳ.
 
 ---
 
@@ -349,6 +359,7 @@ ngược lại — nhiều nước có cơ chế rà soát định kỳ.
 Chuyển sang nhà ở, mảng **lớn hơn** bất động sản thương mại (`10 28:12`). Khoảng **2/3** hộ gia đình
 Mỹ sở hữu nhà mình ở, và Shiller nhấn mạnh ngay (`10 28:41`):
 
+> [!quote]
 > *"Và tỷ lệ sở hữu nhà này là **sản phẩm của chính sách nhà nước** khuyến khích cho vay thế chấp."*
 
 Trước Đại khủng hoảng, khoản vay mua nhà điển hình có hình dạng thế này (`10 29:58`–`30:37`):
@@ -374,8 +385,9 @@ hạn hai năm, bạn tới ngân hàng và nói: tôi thất nghiệp, và nhà
 Nhà nước phải lập **Home Owners' Loan Corporation** để cứu, và cuối cùng cứu tới **20% chủ nhà Mỹ**
 (`10 29:31`–`29:38`).
 
-📚 Con số 20% cần một chú thích, và **bản ghi chính thức của Open Yale Courses cũng đã chèn đính
-chính** vào chỗ này. HOLC làm hơn **một triệu** khoản vay trong 1933–1936. Một triệu đó là:
+> [!note]
+> Con số 20% cần một chú thích, và **bản ghi chính thức của Open Yale Courses cũng đã chèn đính
+> chính** vào chỗ này. HOLC làm hơn **một triệu** khoản vay trong 1933–1936. Một triệu đó là:
 
 - ~**10 %** tổng số **nhà ở do chủ sở hữu ở, ngoài nông nghiệp**
 - ~**20 %** số nhà **đô thị CÓ thế chấp** — vì khoảng một nửa số nhà thời đó **không hề có nợ**
@@ -398,6 +410,7 @@ hai người vay, **cùng cú sốc, cùng lãi suất**:
 Cả hai đều **âm vốn**. Người trả dần âm ít hơn, nhưng đó không phải điểm chính — âm 563 hay âm 1.000
 thì cũng là âm. Khác biệt thật:
 
+> [!note]
 > **Khoản vay bóng bay biến một cú sốc giá nhà thành một sự kiện vỡ nợ bắt buộc.**
 > Khoản vay trả dần thì không: bạn chỉ mất nhà khi thật sự không trả nổi tiền hàng tháng.
 
@@ -486,6 +499,7 @@ sớm**, không giữ đủ 10 năm. Nên phải tra được: bán sau 6 năm 6
 Khoản vay lãi suất cố định dài hạn là **một phát minh, ra đời năm 1934** (`10 43:25`). Nay nó được
 chào bán ở nhiều nước. Nhưng Shiller nêu một sự thật kỳ lạ (`10 43:41`–`43:47`):
 
+> [!quote]
 > *"Tuy nhiên, **chỉ có hai nước** mà nó là loại thế chấp chủ đạo. **Mỹ và Đan Mạch.**"*
 
 Ở Canada gần như không có (`10 43:58`). Shiller nói mỗi lần ra nước ngoài ông đều hỏi tại sao, và
@@ -532,7 +546,7 @@ thật sự nghĩ tới khoản vay lãi cố định"* (`10 47:24`–`47:53`).
 
 ---
 
-## 11. 📚 Hệ Đan Mạch: nguyên tắc cân bằng và quyền mua lại
+## 11. Hệ Đan Mạch: nguyên tắc cân bằng và quyền mua lại
 
 Shiller đặt Đan Mạch ngang hàng với Mỹ rồi đi tiếp. Nhưng khoản vay lãi cố định của Đan Mạch **khác
 về cấu trúc**, và ở một điểm quan trọng thì **tốt hơn** bản Mỹ. Không nói ra chỗ này thì bức tranh bị
@@ -615,6 +629,7 @@ Kết quả là một cấu trúc lạ: **hai công ty tư nhân do chính phủ
 trên thế chấp và **bảo lãnh chống vỡ nợ** cho chúng (`10 52:03`). Và chính phủ tuyên bố rõ
 (`10 53:23`):
 
+> [!note]
 > **Đây là các công ty tư nhân. Chính phủ Mỹ KHÔNG đứng sau chúng.**
 
 Người ta không tin. Họ hỏi lại: các anh nói thế, nhưng **thật sự có ý đó không**? Nếu Fannie hay
@@ -639,15 +654,17 @@ Bush có thể nói "hoạt động khó, lẽ ra các anh phải đọc kỹ ch
 Nên chính phủ đưa cả hai vào **quyền quản lý đặc biệt** và trả nợ thay để chúng không vỡ nợ
 (`10 56:55`). Shiller rút ra bài học của cả chương (`10 57:03`):
 
+> [!quote]
 > ***"Thứ ta học được từ bài học này là bạn có thể nói cả triệu lần rằng bạn sẽ không bảo lãnh cho
 > một thứ gì đó, nhưng rốt cuộc bạn vẫn sẽ đi bảo lãnh nó."***
 
-⚠️ **Một chỗ Shiller nói sai, và ông tự sửa hai phút sau đó.** Ở `10 54:43` ông nói *"cả Fannie và
-Freddie đều **phá sản**"*. Không đúng về mặt pháp lý. Chúng **chưa bao giờ phá sản**. Ngày 6/9/2008
-chúng được đưa vào **conservatorship** — quyền quản lý đặc biệt — và đó **chính là thứ thay thế cho
-phá sản**: cơ quan quản lý tiếp quản điều hành để tránh thủ tục phá sản. Chính Shiller dùng đúng từ
-"conservatorship" ở `10 56:55`. Phân biệt này không phải chữ nghĩa: trong phá sản thì trái chủ chịu
-lỗ; trong quyền quản lý đặc biệt thì họ **được trả đủ** — và đó chính là điều đã xảy ra.
+> [!warning] Một chỗ Shiller nói sai, và ông tự sửa hai phút sau đó.
+> Ở `10 54:43` ông nói *"cả Fannie và
+> Freddie đều **phá sản**"*. Không đúng về mặt pháp lý. Chúng **chưa bao giờ phá sản**. Ngày 6/9/2008
+> chúng được đưa vào **conservatorship** — quyền quản lý đặc biệt — và đó **chính là thứ thay thế cho
+> phá sản**: cơ quan quản lý tiếp quản điều hành để tránh thủ tục phá sản. Chính Shiller dùng đúng từ
+> "conservatorship" ở `10 56:55`. Phân biệt này không phải chữ nghĩa: trong phá sản thì trái chủ chịu
+> lỗ; trong quyền quản lý đặc biệt thì họ **được trả đủ** — và đó chính là điều đã xảy ra.
 
 ### Canada — chỗ Shiller bị mắng, rồi được lịch sử xử
 
@@ -668,7 +685,7 @@ không có bong bóng lớn như Mỹ. Và ông chỉ ra vì sao bong bóng Mỹ
 Freddie *"thật ra không hề độc lập. Họ nhận lệnh từ chính phủ"* — chính phủ bảo họ tăng cho vay tới
 nhóm thu nhập thấp. **Họ đang thổi bong bóng.**
 
-[§14](#14--đối-chiếu-2026--năm-thứ-thời-gian-đã-phán-xử) sẽ cho biết ai đúng trong vụ tranh cãi này.
+[§14](#14-đối-chiếu-2026--năm-thứ-thời-gian-đã-phán-xử) sẽ cho biết ai đúng trong vụ tranh cãi này.
 
 ---
 
@@ -714,6 +731,7 @@ Shiller gọi tên nó ở `10 63:51` là *"giao dịch thiếu thiện chí"*.
 Ông diễn lại cuộc hội thoại đó (`10 66:34`–`67:53`). Người môi giới nghĩ: *"Tôi giúp gia đình này
 điền hồ sơ vay. Nhưng tôi quan tâm làm gì? Tôi bán khoản vay cho người khác rồi tôi biến."* Tệ hơn:
 
+> [!note]
 > — Thu nhập của anh chị bao nhiêu?
 > — 40.000 một năm.
 > — Anh chị định mua nhà 300.000 với thu nhập đó à? Tôi không chắc làm được...
@@ -754,7 +772,7 @@ Nhưng đó chưa phải phần tệ nhất. Xem §14.
 
 ---
 
-## 14. ⚠️ Đối chiếu 2026 — năm thứ thời gian đã phán xử
+## 14. Đối chiếu 2026 — năm thứ thời gian đã phán xử
 
 Mười lăm năm đã trôi qua. Buổi giảng này già đi **không đều**: chỗ Shiller nói dè dặt nhất thì đúng
 nhất, chỗ ông nói chắc nhất lại có vấn đề.
@@ -803,10 +821,11 @@ Ghép với §13: quy định đòi 5% trong khi ngưỡng cần thiết là **6
 đưa tỷ lệ thực tế cho **phần lớn khoản vay nhà ở** về lại **0 %** — tức hàng đầu tiên của bảng, đúng
 tình trạng trước khủng hoảng.
 
-⚠️ Cách đọc đúng: Shiller **mô tả chính xác cải cách như nó tồn tại năm 2011**. Ông không sai. Cái
-sai là ở khoảng cách giữa **luật được thông qua** và **quy định được ban hành ba năm sau**. Khi đọc
-bất kỳ tài liệu nào viết trong khoảng 2010–2014 về Dodd-Frank, phải kiểm lại quy định hướng dẫn, vì
-rất nhiều điều khoản đã bị khoét rỗng ở khâu này.
+> [!warning]
+> Cách đọc đúng: Shiller **mô tả chính xác cải cách như nó tồn tại năm 2011**. Ông không sai. Cái
+> sai là ở khoảng cách giữa **luật được thông qua** và **quy định được ban hành ba năm sau**. Khi đọc
+> bất kỳ tài liệu nào viết trong khoảng 2010–2014 về Dodd-Frank, phải kiểm lại quy định hướng dẫn, vì
+> rất nhiều điều khoản đã bị khoét rỗng ở khâu này.
 
 ### 14.3 Canada — Shiller bị mắng, rồi lịch sử xử ông đúng theo cách khó chịu nhất
 
@@ -864,7 +883,7 @@ Quy luật giống hệt [bài 4](bai_04_chinh_sach_tien_te.md): **mọi thứ c
 
 ---
 
-## 15. 🇻🇳 Góc Việt Nam
+## 15. Góc Việt Nam
 
 Buổi giảng này ánh xạ sang Việt Nam sát hơn bất kỳ buổi nào khác trong khoá, vì Việt Nam đang **thiếu
 hoặc mới có gần đây** đúng những hạ tầng Shiller mô tả.
@@ -944,24 +963,27 @@ Nhưng phát hiện quan trọng hơn nằm ở phép so sánh cuối. Nếu Vi�
 ở 9,5 %/năm, hộ này phải trả đều **18,642 triệu/tháng = 46,60 % thu nhập** — tức **vượt ngưỡng 40 %
 ngay từ đầu và KHÔNG đủ điều kiện vay**.
 
+> [!note]
 > Tác dụng thật của gói ưu đãi không phải làm khoản vay rẻ đi. Nó làm **người không đủ khả năng vay
 > trở nên đủ điều kiện trên giấy.**
 
 Shiller nói người tiêu dùng từ chối lãi cố định vì "đắt hơn" (`10 45:58`). Đọc kỹ hơn ở bối cảnh Việt
 Nam: **họ không từ chối, họ không được phép chọn.** Loại hợp đồng đó không tồn tại trên thị trường.
 
-⚠️ Và ngay cả công thức "cơ sở + biên độ" cũng không chắc chắn. Báo chí ghi nhận một khoản vay mua ô
-tô tháng 6/2025 ưu đãi 8,2 %, hết ưu đãi nhảy thẳng lên **18 %/năm** vì **biên độ bị nâng từ 3,6 %
-lên 6,6 %** — tức chính cái "biên độ cố định" cũng không cố định. Một khách hàng khác cho biết lãi
-khoản vay mua nhà tăng **ba lần trong vòng một tháng**, lên 14,8 %.
+> [!warning]
+> Và ngay cả công thức "cơ sở + biên độ" cũng không chắc chắn. Báo chí ghi nhận một khoản vay mua ô
+> tô tháng 6/2025 ưu đãi 8,2 %, hết ưu đãi nhảy thẳng lên **18 %/năm** vì **biên độ bị nâng từ 3,6 %
+> lên 6,6 %** — tức chính cái "biên độ cố định" cũng không cố định. Một khách hàng khác cho biết lãi
+> khoản vay mua nhà tăng **ba lần trong vòng một tháng**, lên 14,8 %.
 
 **VARS cảnh báo áp lực dồn về 2027–2028**, khi các khoản vay ký năm 2025 hết ưu đãi. Nếu bạn đang đọc
 bài này sau 2027, đó là dữ liệu để tự kiểm tra dự báo.
 
-💡 **Việc cần làm khi ký hợp đồng vay mua nhà:** yêu cầu ghi rõ trong hợp đồng **công thức thả nổi**
-(lãi suất tham chiếu nào, biên độ bao nhiêu), **kỳ điều chỉnh**, và **phí trả nợ trước hạn**. Rồi tự
-tính tiền trả ở mức thả nổi hiện hành, **không phải mức ưu đãi**, và hỏi: mình có trả nổi con số đó
-không?
+> [!example] Việc cần làm khi ký hợp đồng vay mua nhà:
+> yêu cầu ghi rõ trong hợp đồng **công thức thả nổi**
+> (lãi suất tham chiếu nào, biên độ bao nhiêu), **kỳ điều chỉnh**, và **phí trả nợ trước hạn**. Rồi tự
+> tính tiền trả ở mức thả nổi hiện hành, **không phải mức ưu đãi**, và hỏi: mình có trả nổi con số đó
+> không?
 
 ### 15.4 REIT: luật có từ lâu, quỹ thì có đúng một
 
@@ -1016,6 +1038,7 @@ tiếng Việt gần như từng chữ trong giai đoạn 2021–2022.
 
 📂 **[thuc_hanh/bai-09-bat-dong-san.py](../thuc_hanh/bai-09-bat-dong-san.py)** — 602 dòng, 7 mục.
 
+> [!note]
 > ⚙️ **Chạy:** cần **Python 3.10+**. Không cần cài gói nào, không gọi mạng, không đọc file ngoài.
 > ```bash
 > python3 bai-09-bat-dong-san.py
@@ -1283,18 +1306,18 @@ Tat ca assert deu qua. Chay lai cho ket qua giong het.
 ==============================================================================
 ```
 
-### 💡 Tự thử
-
-1. **Mục 1** — đổi `LAI_1920_BP` thành `1200` (12 %). Người vay trả dần có còn giữ được nhà không?
-   Chú ý: câu hỏi không phải "âm vốn bao nhiêu" mà "có bị buộc bán không".
-2. **Mục 3** — hạ `THA_NOI_BP` xuống `1000` (10 %). Cần thu nhập tối thiểu bao nhiêu để không vượt
-   ngưỡng 40 %? Đổi `THU_NHAP_HO` cho tới khi qua.
-3. **Mục 5** — đặt `GIA_KHI_VO_NO_BP = 10_000` (giả định giá nhà **không** giảm khi vỡ nợ). Bảng đổi
-   thế nào, và vì sao giả định đó sai về mặt kinh tế?
-4. **Mục 6** — tìm mức `PHI_MOI_GIOI_BP` lớn nhất mà tại đó tỷ lệ giữ lại 5 % của luật **vừa đủ** để
-   nản lòng người môi giới.
-5. **Mục 7** — dựng một quỹ **đạt cả bốn bài kiểm thật** nhưng **trượt theo lời giảng** chỉ vì bài
-   kiểm 30 % đã bị bãi bỏ.
+> [!example] Tự thử
+>
+> 1. **Mục 1** — đổi `LAI_1920_BP` thành `1200` (12 %). Người vay trả dần có còn giữ được nhà không?
+>    Chú ý: câu hỏi không phải "âm vốn bao nhiêu" mà "có bị buộc bán không".
+> 2. **Mục 3** — hạ `THA_NOI_BP` xuống `1000` (10 %). Cần thu nhập tối thiểu bao nhiêu để không vượt
+>    ngưỡng 40 %? Đổi `THU_NHAP_HO` cho tới khi qua.
+> 3. **Mục 5** — đặt `GIA_KHI_VO_NO_BP = 10_000` (giả định giá nhà **không** giảm khi vỡ nợ). Bảng đổi
+>    thế nào, và vì sao giả định đó sai về mặt kinh tế?
+> 4. **Mục 6** — tìm mức `PHI_MOI_GIOI_BP` lớn nhất mà tại đó tỷ lệ giữ lại 5 % của luật **vừa đủ** để
+>    nản lòng người môi giới.
+> 5. **Mục 7** — dựng một quỹ **đạt cả bốn bài kiểm thật** nhưng **trượt theo lời giảng** chỉ vì bài
+>    kiểm 30 % đã bị bãi bỏ.
 
 ---
 

@@ -1,12 +1,15 @@
 # Bài 8 — Biến ngẫu nhiên hai chiều và hệ số tương quan
 
+> [!info] Về bài này
 > Bài học dựa trên **Giáo trình Xác suất Thống kê** (Tống Đình Quỳ, NXB Bách Khoa – Hà Nội), **Chương III §1–§2**, tr. 79–96.
-> 💼 **Góc QTKD** là ví dụ thêm cho ngành Quản trị Kinh doanh, không có trong giáo trình.
-> 📚 **Mở rộng** là kiến thức nền giáo trình lướt qua.
-> 📌 **Cần đọc trước:** [Bài 5](bai_05_bien_ngau_nhien_va_luat_phan_phoi.md) · [Bài 6](bai_06_ky_vong_phuong_sai_va_cac_so_dac_trung.md) · [Bài 7](bai_07_cac_phan_phoi_thong_dung.md)
+>
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
+>
+> **Cần đọc trước:** [Bài 5](bai_05_bien_ngau_nhien_va_luat_phan_phoi.md) · [Bài 6](bai_06_ky_vong_phuong_sai_va_cac_so_dac_trung.md) · [Bài 7](bai_07_cac_phan_phoi_thong_dung.md)
 
 Giáo trình mở Chương III bằng lý do (tr. 79):
 
+> [!quote]
 > "Trong thực tế nhiều khi phải xét **đồng thời nhiều biến khác nhau có quan hệ tương hỗ**...
 > Việc nghiên cứu **riêng rẽ** từng khía cạnh có thể cho ta các thông tin **không đầy đủ**."
 
@@ -30,7 +33,7 @@ Bài này cho bạn hai thứ:
 6. [Hệ số tương quan](#6-hệ-số-tương-quan)
 7. [Kỳ vọng có điều kiện và hàm hồi quy](#7-kỳ-vọng-có-điều-kiện-và-hàm-hồi-quy)
 8. [Phân phối chuẩn hai chiều](#8-phân-phối-chuẩn-hai-chiều)
-9. [📚 Bốn điều hệ số tương quan không nói cho bạn](#9--bốn-điều-hệ-số-tương-quan-không-nói-cho-bạn)
+9. [📚 Bốn điều hệ số tương quan không nói cho bạn](#9-bốn-điều-hệ-số-tương-quan-không-nói-cho-bạn)
 10. [Code minh hoạ](#10-code-minh-hoạ)
 11. [Tự thử](#11-tự-thử)
 12. [Từ điển thuật ngữ](#12-từ-điển-thuật-ngữ)
@@ -100,8 +103,10 @@ $$F(x, y) = F_1(x)\,F_2(y) \tag{1.2}$$
 
 Đây chính là định nghĩa độc lập ở bài 3 ($P(AB) = P(A)P(B)$), áp cho hai sự kiện $\{X<x\}$ và $\{Y<y\}$.
 
-⚠️ **Câu quan trọng nhất của mục này** (tr. 81):
+> [!warning] Câu quan trọng nhất của mục này
+> (tr. 81):
 
+> [!quote]
 > "Nếu $X$ và $Y$ độc lập... từ các phân phối biên có thể xác định được phân phối của $(X,Y)$.
 > Tuy nhiên chúng **không đủ để xác định phân phối đồng thời nếu $X$ và $Y$ không độc lập**."
 
@@ -145,6 +150,7 @@ Chỉ cần **một** ô sai là đã phụ thuộc.
 
 ### Thí dụ 1.1 (tr. 82)
 
+> [!note]
 > Cho bảng phân phối đồng thời. Tìm luật phân phối của $X$ và $Y$, rồi tính $F(2, 3)$.
 
 | $X \backslash Y$ |        1 |        2 |        3 | **$p_1(x)$** |
@@ -157,32 +163,33 @@ Chỉ cần **một** ô sai là đã phụ thuộc.
 
 $$F(2,3) = \sum_{x_i < 2}\sum_{y_j < 3} p_{ij} = p_{11} + p_{12} = 0{,}10 + 0{,}25 = \mathbf{0{,}35}$$
 
-⚠️ Chú ý: $x_i < 2$ nên chỉ lấy $x_i = 1$; $y_j < 3$ nên chỉ lấy $y_j = 1, 2$. **Dấu ngặt.**
-Nếu dùng quy ước $\le$ (Excel) sẽ ra $1{,}00$ — sai hoàn toàn.
+> [!warning]
+> Chú ý: $x_i < 2$ nên chỉ lấy $x_i = 1$; $y_j < 3$ nên chỉ lấy $y_j = 1, 2$. **Dấu ngặt.**
+> Nếu dùng quy ước $\le$ (Excel) sẽ ra $1{,}00$ — sai hoàn toàn.
 
 **Kiểm độc lập:** $p_{11} = 0{,}10$ nhưng $p_1(1)\,p_2(1) = 0{,}45 \times 0{,}25 = 0{,}1125$.
 Khác nhau → (1.5) bị phá → **$X$ và $Y$ không độc lập**.
 
-### 💼 Góc QTKD — bảng chéo chính là phân phối đồng thời
-
-Mọi **bảng chéo** (cross-tab, pivot table) bạn dựng trong Excel đều là một bảng phân phối đồng thời,
-chỉ khác là ghi **số lượng** thay vì **tỷ lệ**. Chia cho tổng là ra ngay.
-
-Ví dụ 1.000 khách hàng, chéo theo *số lần mua/năm* ($X$) và *mức chi mỗi đơn* ($Y$, triệu đồng):
-
-| $X \backslash Y$ |     1 tr |     2 tr |     3 tr | **$p_1(x)$** |
-| ---------------- | -------: | -------: | -------: | -----------: |
-| **1 lần**        |     0,18 |     0,12 |     0,05 |     **0,35** |
-| **2 lần**        |     0,12 |     0,16 |     0,12 |     **0,40** |
-| **3 lần**        |     0,04 |     0,09 |     0,12 |     **0,25** |
-| **$p_2(y)$**     | **0,34** | **0,37** | **0,29** |     **1,00** |
-
-- Hàng lề $p_1$: *"35% khách chỉ mua 1 lần/năm"* — báo cáo tần suất mua.
-- Cột lề $p_2$: *"34% đơn hàng ở mức 1 triệu"* — báo cáo giá trị đơn.
-- Ô trong bảng: *"18% khách vừa mua ít vừa chi ít"* — **đây mới là phân khúc thật**.
-
-Hai báo cáo lề riêng rẽ **không** cho bạn biết ô 18% đó. Đúng như câu ở mục 1: biên không suy ra
-được đồng thời.
+> [!example] Góc QTKD — bảng chéo chính là phân phối đồng thời
+>
+> Mọi **bảng chéo** (cross-tab, pivot table) bạn dựng trong Excel đều là một bảng phân phối đồng thời,
+> chỉ khác là ghi **số lượng** thay vì **tỷ lệ**. Chia cho tổng là ra ngay.
+>
+> Ví dụ 1.000 khách hàng, chéo theo *số lần mua/năm* ($X$) và *mức chi mỗi đơn* ($Y$, triệu đồng):
+>
+> | $X \backslash Y$ |     1 tr |     2 tr |     3 tr | **$p_1(x)$** |
+> | ---------------- | -------: | -------: | -------: | -----------: |
+> | **1 lần**        |     0,18 |     0,12 |     0,05 |     **0,35** |
+> | **2 lần**        |     0,12 |     0,16 |     0,12 |     **0,40** |
+> | **3 lần**        |     0,04 |     0,09 |     0,12 |     **0,25** |
+> | **$p_2(y)$**     | **0,34** | **0,37** | **0,29** |     **1,00** |
+>
+> - Hàng lề $p_1$: *"35% khách chỉ mua 1 lần/năm"* — báo cáo tần suất mua.
+> - Cột lề $p_2$: *"34% đơn hàng ở mức 1 triệu"* — báo cáo giá trị đơn.
+> - Ô trong bảng: *"18% khách vừa mua ít vừa chi ít"* — **đây mới là phân khúc thật**.
+>
+> Hai báo cáo lề riêng rẽ **không** cho bạn biết ô 18% đó. Đúng như câu ở mục 1: biên không suy ra
+> được đồng thời.
 
 ---
 
@@ -207,6 +214,7 @@ Nghĩa hình học: **lấy một cột của bảng rồi chuẩn hoá để t�
 
 ### Thí dụ 1.2 (tr. 83)
 
+> [!note]
 > Tìm phân phối có điều kiện của $X$ biết $Y = 1$, ở bài toán thí dụ 1.1.
 
 $$P(X=1 \mid Y=1) = \frac{0{,}10}{0{,}25} = 0{,}40, \qquad P(X=2 \mid Y=1) = \frac{0{,}15}{0{,}25} = 0{,}60$$
@@ -224,21 +232,21 @@ Nếu chúng độc lập, hai bảng sẽ **giống hệt nhau** — đó là m
 
 $$P(X = x_i \mid y_1 < Y < y_2) = \frac{P(X = x_i;\ y_1 < Y < y_2)}{P(y_1 < Y < y_2)}$$
 
-### 💼 Góc QTKD — đây là "phân khúc khách hàng", viết bằng công thức
-
-| Ngôn ngữ xác suất                        | Ngôn ngữ kinh doanh                                 |
-| ---------------------------------------- | --------------------------------------------------- |
-| Phân phối biên $p_2(y)$                  | báo cáo tổng thể: "trung bình mỗi đơn 1,95 triệu"   |
-| Phân phối có điều kiện $p(y \mid X = 3)$ | phân khúc: "khách mua 3 lần/năm chi bao nhiêu?"     |
-| $E(Y \mid X = x)$                        | giá trị trung bình của từng phân khúc               |
-| $X$, $Y$ độc lập                         | **phân khúc vô nghĩa** — chia thế nào cũng như nhau |
-
-**Toàn bộ nghề phân tích khách hàng nằm ở dòng cuối.** Nếu $X$ và $Y$ độc lập thì chia khách theo
-$X$ chẳng cho thêm thông tin gì về $Y$ — việc phân khúc là lãng phí. Chỉ khi chúng **phụ thuộc**
-thì phân khúc mới có giá trị, và mức phụ thuộc càng mạnh thì phân khúc càng đáng tiền.
-
-Vì thế trước khi xây dựng chiến lược phân khúc, hãy **kiểm (1.5) trên dữ liệu thật** —
-hoặc dùng kiểm định độc lập $\chi^2$ ở bài 13.
+> [!example] Góc QTKD — đây là "phân khúc khách hàng", viết bằng công thức
+>
+> | Ngôn ngữ xác suất                        | Ngôn ngữ kinh doanh                                 |
+> | ---------------------------------------- | --------------------------------------------------- |
+> | Phân phối biên $p_2(y)$                  | báo cáo tổng thể: "trung bình mỗi đơn 1,95 triệu"   |
+> | Phân phối có điều kiện $p(y \mid X = 3)$ | phân khúc: "khách mua 3 lần/năm chi bao nhiêu?"     |
+> | $E(Y \mid X = x)$                        | giá trị trung bình của từng phân khúc               |
+> | $X$, $Y$ độc lập                         | **phân khúc vô nghĩa** — chia thế nào cũng như nhau |
+>
+> **Toàn bộ nghề phân tích khách hàng nằm ở dòng cuối.** Nếu $X$ và $Y$ độc lập thì chia khách theo
+> $X$ chẳng cho thêm thông tin gì về $Y$ — việc phân khúc là lãng phí. Chỉ khi chúng **phụ thuộc**
+> thì phân khúc mới có giá trị, và mức phụ thuộc càng mạnh thì phân khúc càng đáng tiền.
+>
+> Vì thế trước khi xây dựng chiến lược phân khúc, hãy **kiểm (1.5) trên dữ liệu thật** —
+> hoặc dùng kiểm định độc lập $\chi^2$ ở bài 13.
 
 ---
 
@@ -273,6 +281,7 @@ $$\varphi(x \mid y) = \frac{f(x,y)}{f_2(y)}, \qquad \psi(y \mid x) = \frac{f(x,y
 
 ### Thí dụ 1.3 (tr. 84) — phân phối đều hai chiều
 
+> [!note]
 > $f(x,y) = 1$ với $0 \le x, y \le 1$. Tính $F(x,y)$.
 
 $$F(x,y) = \begin{cases}
@@ -295,6 +304,7 @@ Với biến hai chiều, xác suất là **thể tích** (một chiều thì l�
 
 ### Thí dụ 1.5 (tr. 87)
 
+> [!note]
 > $f(x,y) = x + y$ với $0 \le x, y \le 1$. Xác định các hàm mật độ có điều kiện.
 
 *Giải.* Trước hết tìm mật độ biên theo (1.9):
@@ -305,8 +315,9 @@ Rồi theo (1.11):
 
 $$\varphi(x \mid y) = \frac{x+y}{y + 0{,}5}, \qquad \psi(y \mid x) = \frac{x+y}{x + 0{,}5}$$
 
-⚠️ Giáo trình lưu ý (tr. 87): $\varphi(x \mid y)$ là **hàm của $x$**, còn $y$ đóng vai trò **tham số**.
-Đổi $y$ thì được một hàm mật độ khác. Đây là chỗ hay lẫn.
+> [!warning]
+> Giáo trình lưu ý (tr. 87): $\varphi(x \mid y)$ là **hàm của $x$**, còn $y$ đóng vai trò **tham số**.
+> Đổi $y$ thì được một hàm mật độ khác. Đây là chỗ hay lẫn.
 
 Từ (1.11) suy ra $f(x,y) = f_2(y)\varphi(x \mid y) = f_1(x)\psi(y \mid x)$ — và nếu
 $\varphi(x \mid y) = f_1(x)$ thì ta có lại điều kiện độc lập (1.10). Rõ ràng ở đây không phải,
@@ -347,7 +358,7 @@ $$
 Hiểu tại sao: nếu $X$ lớn hơn trung bình thường đi kèm $Y$ lớn hơn trung bình, thì tích
 $(X-EX)(Y-EY)$ **dương**; trung bình của các tích dương là dương.
 
-### ⚠️ Độc lập ⟹ không tương quan, chiều ngược lại SAI
+### Độc lập ⟹ không tương quan, chiều ngược lại SAI
 
 Giáo trình nêu rõ (tr. 90): $X$, $Y$ độc lập $\Rightarrow E(XY) = EX \cdot EY \Rightarrow \mu_{XY} = 0$.
 *"Nhưng điều ngược lại **không chắc đúng**."*
@@ -363,6 +374,7 @@ Trong xác suất, các khái niệm "không liên quan" xếp theo nhiều mứ
 
 ### Thí dụ 2.2 (tr. 92) — phản ví dụ kinh điển
 
+> [!note]
 > $(X, Y)$ có mật độ $f(x,y) = \dfrac{1}{2\pi}$ trên miền $4x^2 + y^2 < 4$ (hình elip).
 > Chứng tỏ $X$, $Y$ phụ thuộc và tính $\mu_{XY}$.
 
@@ -378,6 +390,7 @@ $$\mu_{XY} = \iint xy \cdot \frac{1}{2\pi}\,dx\,dy = \frac{1}{2\pi}\int_{-1}^{1}
 
 (tích phân trong lấy theo **hàm lẻ có cận đối xứng**). Giáo trình kết luận:
 
+> [!quote]
 > "Rõ ràng $X$ và $Y$ **không tương quan, nhưng vẫn phụ thuộc nhau**."
 
 **Vì sao?** Vì quan hệ giữa chúng là quan hệ **hình dạng**, không phải quan hệ **tuyến tính**:
@@ -392,9 +405,10 @@ $$\Gamma = \begin{pmatrix} VX & \mu_{XY} \\ \mu_{YX} & VY \end{pmatrix}$$
 
 Đường chéo chính là các phương sai; ma trận **đối xứng** vì $\mu_{XY} = \mu_{YX}$.
 
-💼 Ma trận hiệp phương sai là công cụ trung tâm của **lý thuyết danh mục đầu tư** (Markowitz):
-rủi ro của một danh mục không phải tổng rủi ro từng tài sản, mà phụ thuộc vào các $\mu_{ij}$.
-Ghép hai tài sản có $\mu_{12} < 0$ làm giảm rủi ro tổng — đó là toàn bộ ý tưởng "đa dạng hoá".
+> [!example]
+> Ma trận hiệp phương sai là công cụ trung tâm của **lý thuyết danh mục đầu tư** (Markowitz):
+> rủi ro của một danh mục không phải tổng rủi ro từng tài sản, mà phụ thuộc vào các $\mu_{ij}$.
+> Ghép hai tài sản có $\mu_{12} < 0$ làm giảm rủi ro tổng — đó là toàn bộ ý tưởng "đa dạng hoá".
 
 ---
 
@@ -427,6 +441,7 @@ $$\boxed{|\rho_{XY}| \le 1}$$
 
 Giáo trình tóm tắt quan hệ (tr. 91):
 
+> [!quote]
 > "Hai biến **tương quan thì phụ thuộc** (không độc lập), nhưng **không tương quan thì chưa chắc độc lập**."
 
 ```
@@ -448,6 +463,7 @@ Giáo trình tóm tắt quan hệ (tr. 91):
 
 ### Thí dụ 2.1 (tr. 91)
 
+> [!note]
 > Tính $\mu_{XY}$ và $\rho_{XY}$ cho bảng ở thí dụ 1.1.
 
 Từ hai phân phối biên:
@@ -468,22 +484,22 @@ $$\rho_{XY} = \frac{0{,}09}{\sqrt{0{,}2475 \times 0{,}66}} = \frac{0{,}09}{0{,}4
 **Cách đọc kết quả:** $\rho = 0{,}22$ là tương quan dương **yếu**. So sánh: nếu chỉ nhìn
 $\mu_{XY} = 0{,}09$, bạn không thể nói nó mạnh hay yếu. $\rho$ cho câu trả lời ngay.
 
-### 💼 Góc QTKD — thang đọc $\rho$ trong thực tế
-
-Không có ngưỡng tuyệt đối, nhưng đây là quy ước thường dùng:
-
-| $\|\rho\|$ | Mức        | Ví dụ điển hình                      |
-| ---------- | ---------- | ------------------------------------ |
-| 0,0 – 0,2  | rất yếu    | tuổi khách hàng vs mức chi tiêu      |
-| 0,2 – 0,4  | yếu        | số lần mua vs giá trị mỗi đơn        |
-| 0,4 – 0,6  | trung bình | chi quảng cáo vs lượt truy cập       |
-| 0,6 – 0,8  | mạnh       | doanh số tháng này vs tháng trước    |
-| 0,8 – 1,0  | rất mạnh   | doanh thu vs số lượng bán (cùng giá) |
-
-⚠️ **Cảnh báo về $\rho$ rất cao trong dữ liệu kinh doanh.** Nếu bạn thấy $\rho > 0{,}95$ giữa hai
-chỉ số, nhiều khả năng chúng **đo cùng một thứ** (doanh thu và số đơn khi giá cố định), hoặc một
-cái được **tính từ** cái kia. Đó không phải phát hiện, đó là trùng lặp — và trong hồi quy bội
-(bài 14) nó gây ra vấn đề **đa cộng tuyến**.
+> [!example] Góc QTKD — thang đọc $\rho$ trong thực tế
+>
+> Không có ngưỡng tuyệt đối, nhưng đây là quy ước thường dùng:
+>
+> | $\|\rho\|$ | Mức        | Ví dụ điển hình                      |
+> | ---------- | ---------- | ------------------------------------ |
+> | 0,0 – 0,2  | rất yếu    | tuổi khách hàng vs mức chi tiêu      |
+> | 0,2 – 0,4  | yếu        | số lần mua vs giá trị mỗi đơn        |
+> | 0,4 – 0,6  | trung bình | chi quảng cáo vs lượt truy cập       |
+> | 0,6 – 0,8  | mạnh       | doanh số tháng này vs tháng trước    |
+> | 0,8 – 1,0  | rất mạnh   | doanh thu vs số lượng bán (cùng giá) |
+>
+> ⚠️ **Cảnh báo về $\rho$ rất cao trong dữ liệu kinh doanh.** Nếu bạn thấy $\rho > 0{,}95$ giữa hai
+> chỉ số, nhiều khả năng chúng **đo cùng một thứ** (doanh thu và số đơn khi giá cố định), hoặc một
+> cái được **tính từ** cái kia. Đó không phải phát hiện, đó là trùng lặp — và trong hồi quy bội
+> (bài 14) nó gây ra vấn đề **đa cộng tuyến**.
 
 ---
 
@@ -499,18 +515,20 @@ $$
 E(X \mid y^*) = \int_{-\infty}^{+\infty} x\,\varphi(x \mid y^*)\,dx \quad \text{(liên tục)}
 $$
 
-### ⭐ Cầu nối sang Chương VI
+### Cầu nối sang Chương VI
 
 Giáo trình nói rõ ý nghĩa (tr. 93):
 
+> [!quote]
 > "Kỳ vọng có điều kiện $E(Y \mid X)$ là một **hàm phụ thuộc $x$**, và trong thống kê người ta gọi là
 > **hàm hồi quy** của $Y$ đối với $X$. Đồ thị của hàm đó... có tên gọi là **đường hồi quy**."
 
 **Hồi quy — cả một chương VI của giáo trình — chính là bài toán ước lượng $E(Y \mid X = x)$ từ
 dữ liệu.** Bài 14 sẽ làm việc đó. Nhớ định nghĩa này thì hồi quy không còn là công thức trên trời.
 
-💼 Nói bằng ngôn ngữ QTKD: *"nếu tôi chi $x$ triệu quảng cáo, doanh số trung bình sẽ là bao nhiêu?"*
-Câu trả lời chính là $E(Y \mid X = x)$ — hàm hồi quy.
+> [!example]
+> Nói bằng ngôn ngữ QTKD: *"nếu tôi chi $x$ triệu quảng cáo, doanh số trung bình sẽ là bao nhiêu?"*
+> Câu trả lời chính là $E(Y \mid X = x)$ — hàm hồi quy.
 
 **Bốn tính chất (tr. 93):**
 
@@ -526,12 +544,14 @@ $$
 ⭐ **Tính chất (iv) đáng nhớ nhất.** Nó nói: *lấy trung bình của các trung bình từng phân khúc,
 có trọng số là cỡ phân khúc, thì được trung bình toàn bộ.*
 
-💼 Đây là **công cụ kiểm tra báo cáo phân khúc**: nếu trung bình các phân khúc (có trọng số) không
-khớp với trung bình tổng thể, ai đó đã tính sai hoặc bỏ sót một phân khúc. Cũng chính là công thức
-xác suất đầy đủ (bài 4) viết dưới dạng kỳ vọng.
+> [!example]
+> Đây là **công cụ kiểm tra báo cáo phân khúc**: nếu trung bình các phân khúc (có trọng số) không
+> khớp với trung bình tổng thể, ai đó đã tính sai hoặc bỏ sót một phân khúc. Cũng chính là công thức
+> xác suất đầy đủ (bài 4) viết dưới dạng kỳ vọng.
 
 ### Thí dụ 2.3 (tr. 93)
 
+> [!note]
 > Cho bảng phân phối. Tính $E(X \mid Y = 1)$ và $E(Y \mid X = 4)$.
 
 | $X \backslash Y$ |    1 |    2 |    3 |
@@ -564,10 +584,11 @@ $$f(x,y) = \frac{1}{2\pi\sigma_X\sigma_Y\sqrt{1-\rho^2}}\exp\left\{-\frac{1}{2(1
 \left[\frac{(x-a_X)^2}{\sigma_X^2} + \frac{(y-a_Y)^2}{\sigma_Y^2}
 - 2\rho\frac{(x-a_X)(y-a_Y)}{\sigma_X\sigma_Y}\right]\right\} \tag{2.4}$$
 
-### ⭐ Ngoại lệ quan trọng nhất của bài
+### Ngoại lệ quan trọng nhất của bài
 
 Giáo trình chỉ ra (tr. 95):
 
+> [!quote]
 > "Có thể chỉ ra dễ dàng nếu $X$, $Y$ **không tương quan** ($\rho = 0$) thì **giả thiết chuẩn cho phép
 > kết luận chúng là độc lập**."
 
@@ -576,9 +597,10 @@ $$\boxed{\text{Với phân phối CHUẨN hai chiều: } \ \rho = 0 \iff \text{�
 Đây là **ngoại lệ duy nhất** của cảnh báo ở mục 5. Với phân phối chuẩn, hai khái niệm trùng nhau.
 Với mọi phân phối khác, chúng khác nhau (thí dụ 2.2).
 
-⚠️ Đây cũng là **cái bẫy lớn nhất khi phân tích dữ liệu kinh doanh**: nhiều người học được rằng
-"$\rho = 0$ thì độc lập" mà quên mất vế "*nếu dữ liệu chuẩn*". Mà dữ liệu kinh doanh
-(doanh thu, thời gian chờ, số đếm) thì hầu như **không chuẩn** — bài 7 mục 5 đã nói.
+> [!warning]
+> Đây cũng là **cái bẫy lớn nhất khi phân tích dữ liệu kinh doanh**: nhiều người học được rằng
+> "$\rho = 0$ thì độc lập" mà quên mất vế "*nếu dữ liệu chuẩn*". Mà dữ liệu kinh doanh
+> (doanh thu, thời gian chờ, số đếm) thì hầu như **không chuẩn** — bài 7 mục 5 đã nói.
 
 ### Dạng ma trận
 
@@ -591,6 +613,7 @@ nhiều chiều thống trị trong thống kê và học máy.
 
 ### Thí dụ 2.4 (tr. 95) — công thức nền của hồi quy tuyến tính
 
+> [!note]
 > Tính các kỳ vọng và phương sai có điều kiện của phân phối chuẩn hai chiều.
 
 *Giải.* Giáo trình biến đổi $\varphi(x \mid y) = f(x,y)/f_2(y)$ và nhận ra kết quả **vẫn là một
@@ -624,47 +647,48 @@ $$\text{Tỷ lệ bất định được giải thích} = 1 - (1-\rho^2) = \rho^
 quanh đường hồi quy vẫn như nhau. Tính chất này gọi là **phương sai thuần nhất**
 (homoscedasticity) và là một giả thiết bắt buộc của hồi quy tuyến tính.
 
-### 💼 Góc QTKD — đọc ba con số trên
-
-Chi quảng cáo $X$ và doanh số $Y$, giả sử chuẩn hai chiều với
-$a_X = 100$ tr, $\sigma_X = 20$; $a_Y = 500$ tr, $\sigma_Y = 80$; $\rho = 0{,}6$.
-
-**Chi 130 triệu thì doanh số dự kiến bao nhiêu?**
-
-$$E(Y \mid X = 130) = 500 + 0{,}6 \cdot \frac{80}{20}(130 - 100) = 500 + 2{,}4 \cdot 30 = \mathbf{572 \text{ tr}}$$
-
-**Dự báo đó chắc chắn đến mức nào?**
-
-$$\sigma(Y \mid X) = 80\sqrt{1 - 0{,}36} = 80 \cdot 0{,}8 = 64 \text{ tr}$$
-
-Áp quy tắc $2\sigma$ (bài 7): khoảng $572 \pm 128$, tức **444 – 700 triệu** với xác suất 95%.
-
-**Đây mới là cách trình bày dự báo cho ban giám đốc.** Nói "chi 130 sẽ ra 572" là nói dối bằng
-sự chính xác giả tạo. Phải nói kèm khoảng.
-
-Và chú ý: $\rho^2 = 0{,}36$ — quảng cáo chỉ giải thích **36%** biến động doanh số. 64% còn lại
-đến từ mùa vụ, đối thủ, kinh tế vĩ mô, chất lượng sản phẩm. Một $\rho = 0{,}6$ nghe "khá mạnh"
-nhưng thực ra để lại rất nhiều điều chưa giải thích được.
+> [!example] Góc QTKD — đọc ba con số trên
+>
+> Chi quảng cáo $X$ và doanh số $Y$, giả sử chuẩn hai chiều với
+> $a_X = 100$ tr, $\sigma_X = 20$; $a_Y = 500$ tr, $\sigma_Y = 80$; $\rho = 0{,}6$.
+>
+> **Chi 130 triệu thì doanh số dự kiến bao nhiêu?**
+>
+> $$E(Y \mid X = 130) = 500 + 0{,}6 \cdot \frac{80}{20}(130 - 100) = 500 + 2{,}4 \cdot 30 = \mathbf{572 \text{ tr}}$$
+>
+> **Dự báo đó chắc chắn đến mức nào?**
+>
+> $$\sigma(Y \mid X) = 80\sqrt{1 - 0{,}36} = 80 \cdot 0{,}8 = 64 \text{ tr}$$
+>
+> Áp quy tắc $2\sigma$ (bài 7): khoảng $572 \pm 128$, tức **444 – 700 triệu** với xác suất 95%.
+>
+> **Đây mới là cách trình bày dự báo cho ban giám đốc.** Nói "chi 130 sẽ ra 572" là nói dối bằng
+> sự chính xác giả tạo. Phải nói kèm khoảng.
+>
+> Và chú ý: $\rho^2 = 0{,}36$ — quảng cáo chỉ giải thích **36%** biến động doanh số. 64% còn lại
+> đến từ mùa vụ, đối thủ, kinh tế vĩ mô, chất lượng sản phẩm. Một $\rho = 0{,}6$ nghe "khá mạnh"
+> nhưng thực ra để lại rất nhiều điều chưa giải thích được.
 
 ---
 
-## 9. 📚 Bốn điều hệ số tương quan không nói cho bạn
+## 9. Bốn điều hệ số tương quan không nói cho bạn
 
 Giáo trình định nghĩa $\rho$ và dừng ở đó. Nhưng $\rho$ là con số bị lạm dụng nhiều nhất trong
 báo cáo kinh doanh. Bốn cảnh báo dưới đây là phần bổ sung.
 
-### ⚠️ 1. $\rho$ chỉ đo quan hệ TUYẾN TÍNH
+### 1. $\rho$ chỉ đo quan hệ TUYẾN TÍNH
 
 Đã thấy ở thí dụ 2.2: quan hệ hình elip cho $\rho = 0$ dù cực kỳ phụ thuộc. Tổng quát hơn,
 mọi quan hệ **hình chữ U** đều cho $\rho \approx 0$.
 
-💼 Ví dụ thật: **giá bán và lợi nhuận**. Giá quá thấp → lỗ. Giá quá cao → không ai mua, cũng lỗ.
-Có một mức giá tối ưu ở giữa. Quan hệ này là parabol úp ngược → $\rho \approx 0$.
-Kết luận "giá không ảnh hưởng lợi nhuận" sẽ là **sai hoàn toàn**.
+> [!example]
+> Ví dụ thật: **giá bán và lợi nhuận**. Giá quá thấp → lỗ. Giá quá cao → không ai mua, cũng lỗ.
+> Có một mức giá tối ưu ở giữa. Quan hệ này là parabol úp ngược → $\rho \approx 0$.
+> Kết luận "giá không ảnh hưởng lợi nhuận" sẽ là **sai hoàn toàn**.
 
 **Cách tránh: luôn vẽ biểu đồ phân tán trước khi tính $\rho$.**
 
-### ⚠️ 2. Tương quan không phải nhân quả
+### 2. Tương quan không phải nhân quả
 
 $\rho$ cao giữa $X$ và $Y$ có thể do bốn nguyên nhân khác nhau:
 
@@ -675,28 +699,31 @@ $\rho$ cao giữa $X$ và $Y$ có thể do bốn nguyên nhân khác nhau:
    ④  ngẫu nhiên   trùng hợp, nhất là khi thử nhiều cặp
 ```
 
-💼 Ví dụ ③ rất hay gặp: *"chi quảng cáo và doanh số tương quan $\rho = 0{,}8$"* — nhưng cả hai
-đều tăng vào mùa cao điểm ($Z$ = mùa vụ). Cắt quảng cáo có thể chẳng ảnh hưởng gì.
+> [!example]
+> Ví dụ ③ rất hay gặp: *"chi quảng cáo và doanh số tương quan $\rho = 0{,}8$"* — nhưng cả hai
+> đều tăng vào mùa cao điểm ($Z$ = mùa vụ). Cắt quảng cáo có thể chẳng ảnh hưởng gì.
 
 **Cách tránh: chỉ kết luận nhân quả từ thí nghiệm có đối chứng** (A/B test), không từ dữ liệu quan sát.
 
-### ⚠️ 3. $\rho$ cực kỳ nhạy với giá trị thái quá
+### 3. $\rho$ cực kỳ nhạy với giá trị thái quá
 
 Một điểm dữ liệu bất thường có thể kéo $\rho$ từ 0 lên 0,9 hoặc ngược lại. Giống hệt vấn đề của
 trung bình ở bài 6 mục 5.
 
-💼 Một khách hàng doanh nghiệp mua đơn 5 tỷ trong tập dữ liệu toàn đơn vài triệu sẽ chi phối
-toàn bộ hệ số tương quan.
+> [!example]
+> Một khách hàng doanh nghiệp mua đơn 5 tỷ trong tập dữ liệu toàn đơn vài triệu sẽ chi phối
+> toàn bộ hệ số tương quan.
 
 **Cách tránh: vẽ biểu đồ, kiểm giá trị thái quá, thử tính lại $\rho$ khi bỏ chúng ra.**
 
-### ⚠️ 4. Nghịch lý Simpson (Simpson's paradox)
+### 4. Nghịch lý Simpson (Simpson's paradox)
 
 Tương quan tính trên toàn bộ dữ liệu có thể **ngược dấu** với tương quan tính trong từng nhóm con.
 
-💼 Ví dụ: trên toàn công ty, *thời gian đào tạo* và *hiệu suất* có $\rho < 0$ (đào tạo nhiều thì
-hiệu suất thấp?!). Nhưng trong từng phòng ban thì $\rho > 0$. Nguyên nhân: phòng ban khó nhất được
-đào tạo nhiều nhất, nhưng vẫn có hiệu suất thấp nhất. Gộp lại thì dấu đảo ngược.
+> [!example]
+> Ví dụ: trên toàn công ty, *thời gian đào tạo* và *hiệu suất* có $\rho < 0$ (đào tạo nhiều thì
+> hiệu suất thấp?!). Nhưng trong từng phòng ban thì $\rho > 0$. Nguyên nhân: phòng ban khó nhất được
+> đào tạo nhiều nhất, nhưng vẫn có hiệu suất thấp nhất. Gộp lại thì dấu đảo ngược.
 
 **Cách tránh: luôn kiểm tương quan trong từng phân khúc, không chỉ trên tổng thể.**
 Đây chính là lý do phân phối **có điều kiện** ở mục 3 quan trọng đến thế.
@@ -714,6 +741,7 @@ hiệu suất thấp?!). Nhưng trong từng phòng ban thì $\rho > 0$. Nguyên
 
 ## 10. Code minh hoạ
 
+> [!note]
 > ⚙️ **Chạy:** cần **Python 3.10+** (macOS/Linux có sẵn). Lưu file rồi gõ `python3 bai-08-hai-chieu.py`.
 > Chỉ dùng thư viện chuẩn — **không cần cài gói nào**. Chạy khoảng 1 giây.
 

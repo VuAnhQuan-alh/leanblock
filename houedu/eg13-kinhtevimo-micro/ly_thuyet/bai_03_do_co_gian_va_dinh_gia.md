@@ -1,13 +1,15 @@
 # Bài 3 — Độ co giãn và định giá
 
+> [!info] Về bài này
 > Bài học dựng từ **Chương 5 — Độ co giãn và ứng dụng** (tr. 103–126)
 > của *N. Gregory Mankiw — **Kinh tế học vi mô***, bản dịch của Khoa Kinh tế, **ĐH Kinh tế TP.HCM** (Cengage Learning Asia).
-> 🎯⭐ **Vòng 1, chương quan trọng nhất cả cuốn với người làm quản trị.** Đây là chương biến
+>
+> ⭐ **Vòng 1, chương quan trọng nhất cả cuốn với người làm quản trị.** Đây là chương biến
 > cung–cầu từ một câu chuyện định tính thành một **con số dùng được để định giá**.
-> 💼 **Góc QTKD** — ví dụ thêm cho ngành quản trị kinh doanh, **không có trong sách**.
-> 📚 **Mở rộng** — thứ sách nói lướt hoặc để trong hộp phụ.
-> ⚠️ — chỗ dễ hiểu sai, hoặc chỗ sách in sai.
-> 📌 **Cần đọc trước:** [Bài 2 — Cung và cầu](bai_02_cung_va_cau.md).
+>
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
+>
+> **Cần đọc trước:** [Bài 2 — Cung và cầu](bai_02_cung_va_cau.md).
 > Mục 15 dùng lại hồi quy ở [bài 14 môn Xác suất Thống kê](../../eg11-xacxuatthongke/ly_thuyet/bai_14_tuong_quan_va_hoi_quy.md).
 
 ---
@@ -19,9 +21,9 @@
 - [1. Vì sao cần độ co giãn — chương 4 mới chỉ nói được một nửa](#1-vì-sao-cần-độ-co-giãn--chương-4-mới-chỉ-nói-được-một-nửa)
 - [2. Bốn yếu tố quyết định độ co giãn của cầu theo giá](#2-bốn-yếu-tố-quyết-định-độ-co-giãn-của-cầu-theo-giá)
 - [3. Công thức — và quy ước bỏ dấu âm](#3-công-thức--và-quy-ước-bỏ-dấu-âm)
-- [4. ⚠️ Phương pháp trung điểm — và vì sao bắt buộc phải dùng](#4--phương-pháp-trung-điểm--và-vì-sao-bắt-buộc-phải-dùng)
+- [4. Phương pháp trung điểm — và vì sao bắt buộc phải dùng](#4-phương-pháp-trung-điểm--và-vì-sao-bắt-buộc-phải-dùng)
 - [5. Năm dạng đường cầu](#5-năm-dạng-đường-cầu)
-- [6. 📚 Độ co giãn trên thực tế — những con số đã đo được](#6--độ-co-giãn-trên-thực-tế--những-con-số-đã-đo-được)
+- [6. Độ co giãn trên thực tế — những con số đã đo được](#6-độ-co-giãn-trên-thực-tế--những-con-số-đã-đo-được)
 - [7. Tổng doanh thu và độ co giãn — ba quy tắc phải thuộc](#7-tổng-doanh-thu-và-độ-co-giãn--ba-quy-tắc-phải-thuộc)
 - [8. Độ co giãn thay đổi dọc theo một đường cầu thẳng](#8-độ-co-giãn-thay-đổi-dọc-theo-một-đường-cầu-thẳng)
 - [9. Hai độ co giãn khác của cầu](#9-hai-độ-co-giãn-khác-của-cầu)
@@ -30,7 +32,7 @@
 - [12. Ứng dụng 1 — tin tốt cho nông nghiệp lại là tin xấu cho nông dân](#12-ứng-dụng-1--tin-tốt-cho-nông-nghiệp-lại-là-tin-xấu-cho-nông-dân)
 - [13. Ứng dụng 2 — vì sao OPEC không giữ được giá dầu ở mức cao](#13-ứng-dụng-2--vì-sao-opec-không-giữ-được-giá-dầu-ở-mức-cao)
 - [14. Ứng dụng 3 — cấm ma tuý làm tăng hay giảm tội phạm?](#14-ứng-dụng-3--cấm-ma-tuý-làm-tăng-hay-giảm-tội-phạm)
-- [15. 💼 Đo độ co giãn từ dữ liệu bán hàng thật](#15--đo-độ-co-giãn-từ-dữ-liệu-bán-hàng-thật)
+- [15. Đo độ co giãn từ dữ liệu bán hàng thật](#15-đo-độ-co-giãn-từ-dữ-liệu-bán-hàng-thật)
 - [16. Code minh hoạ](#16-code-minh-hoạ)
 - [17. Tự thử](#17-tự-thử)
 - [18. Từ điển thuật ngữ](#18-từ-điển-thuật-ngữ)
@@ -47,12 +49,14 @@
 Chương 4 cho ta các phát biểu dạng *"giá tăng thì lượng cầu giảm"*. Sách chỉ ra ngay giới hạn của
 chúng (tr. 104):
 
+> [!quote]
 > *"…chúng ta đã thảo luận về **xu hướng** lượng cầu thay đổi chứ không phải là **mức độ** của sự thay đổi."*
 
 Với một nhà quản trị, "xu hướng" là thứ ai cũng biết mà không giúp được gì. Câu hỏi thật sự là:
 **giảm giá 10% thì bán thêm được bao nhiêu, và tổng thu về nhiều hơn hay ít hơn?** Đó là câu hỏi mà
 chương này trả lời.
 
+> [!quote]
 > **Độ co giãn** (*elasticity*): số đo mức độ phản ứng của lượng cầu hoặc lượng cung đối với các yếu
 > tố tác động đến nó. — chú thích tr. 104
 
@@ -64,6 +68,7 @@ giống lai mới làm năng suất tăng **20%**. Tin tốt hay tin xấu? Mụ
 
 ## 2. Bốn yếu tố quyết định độ co giãn của cầu theo giá
 
+> [!quote]
 > **Độ co giãn cầu theo giá** (*price elasticity of demand*): số đo cho biết lượng cầu của một hàng
 > hoá thay đổi như thế nào ứng với sự thay đổi về giá của hàng hoá đó, được tính bằng phần trăm thay
 > đổi trong lượng cầu chia cho phần trăm thay đổi về giá. — chú thích tr. 104
@@ -87,10 +92,11 @@ Càng **nhiều thứ thay thế được** thì cầu càng **co giãn**, vì n
 | Thiết yếu | đi khám bệnh   | **không co giãn** — giá tăng thì đi ít hơn *"một chút"*  |
 | Xa xỉ     | thuyền buồm    | **co giãn** — giá tăng thì lượng cầu *"giảm đi đáng kể"* |
 
-⚠️ **Thiết yếu hay xa xỉ không phải tính chất của món hàng.** Sách nhấn mạnh điều này (tr. 104):
-nó *"không phụ thuộc vào các tính chất nội tại của nó mà phụ thuộc vào **sở thích của người mua**"*.
-Với người đam mê thuyền buồm và ít lo về sức khoẻ, **thuyền buồm là thiết yếu** còn **đi khám bệnh
-là xa xỉ**.
+> [!warning] Thiết yếu hay xa xỉ không phải tính chất của món hàng.
+> Sách nhấn mạnh điều này (tr. 104):
+> nó *"không phụ thuộc vào các tính chất nội tại của nó mà phụ thuộc vào **sở thích của người mua**"*.
+> Với người đam mê thuyền buồm và ít lo về sức khoẻ, **thuyền buồm là thiết yếu** còn **đi khám bệnh
+> là xa xỉ**.
 
 ### ③ Định nghĩa thị trường
 
@@ -103,8 +109,9 @@ Càng **định nghĩa hẹp** thì càng **co giãn**, vì càng dễ tìm th�
                                             thay thế hoàn hảo)
 ```
 
-💼 Đây chính là lý do câu hỏi *"thị trường của ta là gì"* ở [bài 2 mục 1](bai_02_cung_va_cau.md#1-thị-trường-là-gì)
-lại quan trọng đến thế. **Định nghĩa thị trường hẹp bao nhiêu thì quyền định giá của bạn nhỏ bấy nhiêu.**
+> [!example]
+> Đây chính là lý do câu hỏi *"thị trường của ta là gì"* ở [bài 2 mục 1](bai_02_cung_va_cau.md#1-thị-trường-là-gì)
+> lại quan trọng đến thế. **Định nghĩa thị trường hẹp bao nhiêu thì quyền định giá của bạn nhỏ bấy nhiêu.**
 
 ### ④ Thời gian
 
@@ -115,8 +122,9 @@ Cầu **co giãn hơn trong dài hạn**. Ví dụ xăng của sách (tr. 105):
 | Vài tháng đầu | lượng cầu xăng *"giảm xuống rất ít"*                                                                                 |
 | Vài năm       | mua xe tiết kiệm nhiên liệu, chuyển sang giao thông công cộng, dọn đến gần chỗ làm → *"lượng cầu xăng giảm đáng kể"* |
 
-⚠️ **Hệ quả trực tiếp cho việc tăng giá:** doanh số **tháng đầu** sau khi tăng giá **không** cho bạn
-biết sự thật. Khách chưa kịp tìm thứ thay thế. Phải đo sau vài quý.
+> [!warning] Hệ quả trực tiếp cho việc tăng giá:
+> doanh số **tháng đầu** sau khi tăng giá **không** cho bạn
+> biết sự thật. Khách chưa kịp tìm thứ thay thế. Phải đo sau vài quý.
 
 ---
 
@@ -130,9 +138,11 @@ $$\text{Độ co giãn} = \frac{20\%}{10\%} = 2$$
 
 Nghĩa là *"sự thay đổi của lượng cầu lớn gấp đôi sự thay đổi của giá"*.
 
-⚠️ **Quy ước dấu.** Vì lượng cầu **nghịch biến** với giá nên con số thật ra là **âm** ($-20/+10 = -2$).
-Sách nêu quy ước rõ ràng (tr. 105):
+> [!warning] Quy ước dấu.
+> Vì lượng cầu **nghịch biến** với giá nên con số thật ra là **âm** ($-20/+10 = -2$).
+> Sách nêu quy ước rõ ràng (tr. 105):
 
+> [!quote]
 > *"Trong cuốn sách này, chúng ta thống nhất sẽ **bỏ đi dấu trừ** và thể hiện tất cả các độ co giãn
 > của cầu theo giá bằng các **số dương**. (Toán học gọi đây là **giá trị tuyệt đối**.)"*
 
@@ -140,7 +150,7 @@ Với quy ước này: **độ co giãn càng lớn nghĩa là phản ứng càn
 
 ---
 
-## 4. ⚠️ Phương pháp trung điểm — và vì sao bắt buộc phải dùng
+## 4. Phương pháp trung điểm — và vì sao bắt buộc phải dùng
 
 Đây là chỗ **mọi người tính sai đầu tiên**, và sách dành nguyên một mục cho nó (tr. 105–106).
 
@@ -177,6 +187,7 @@ $$\text{Độ co giãn của cầu theo giá} = \frac{(Q_2 - Q_1) \big/ \left[(Q
 
 📌 Nhưng chú ý câu sách viết ngay sau đó (tr. 106), rất đáng nhớ khi ôn thi:
 
+> [!quote]
 > *"Tuy nhiên trong cuốn sách này, chúng ta hiếm khi thực hiện những tính toán như vậy. Đối với hầu
 > hết các mục đích của chúng ta, độ co giãn **thể hiện điều gì** — phản ứng của lượng cầu trước sự
 > thay đổi giá cả — có vai trò **quan trọng hơn cách tính**."*
@@ -199,6 +210,7 @@ Phân loại (tr. 106–107):
 
 Quy tắc liên hệ với hình dạng (tr. 107):
 
+> [!quote]
 > *"Đường cầu càng **ít dốc**, độ co giãn càng **lớn**. Đường cầu càng **dốc**, thì độ co giãn càng **nhỏ**."*
 
 **Hình 1, tr. 107** minh hoạ cả năm, tất cả đều dùng cùng một cú tăng giá từ **4 lên 5 đô la** (tăng
@@ -214,14 +226,16 @@ Quy tắc liên hệ với hình dạng (tr. 107):
 | (d)  | co giãn                 | 100 → 50                                                                                          |     −67% |
 | (e)  | hoàn toàn co giãn       | ở giá **trên** 4 đô la lượng cầu bằng 0; ở đúng 4 đô la, người tiêu dùng mua **bất cứ lượng nào** |        — |
 
-💡 **Mẹo nhớ của chính sách (tr. 108)**, hữu ích thật:
+> [!example] Mẹo nhớ của chính sách (tr. 108)
+> , hữu ích thật:
 
+> [!quote]
 > *"Các đường cầu **không co giãn** (**I**nelastic), chẳng hạn như trong Hình 1(a), trông giống chữ
 > cái **I** [thẳng đứng]. Đây không phải là điều quan trọng, nhưng nó có thể giúp bạn trong kỳ thi tới."*
 
 ---
 
-## 6. 📚 Độ co giãn trên thực tế — những con số đã đo được
+## 6. Độ co giãn trên thực tế — những con số đã đo được
 
 Hộp **"Bạn có biết", tr. 108** cho các ước lượng thực nghiệm:
 
@@ -239,7 +253,8 @@ Bảng này minh hoạ cả bốn quy tắc ở mục 2 cùng lúc: **thiết y�
 **xa xỉ / dễ thay thế** (nhà hàng, thịt bò) nằm trên 1; và **định nghĩa hẹp** đẩy con số lên cao nhất —
 "nước giải khát" nói chung sẽ không co giãn bằng **một nhãn hiệu cụ thể** là Mountain Dew.
 
-⚠️ **Sách tự cảnh báo về chính bảng này** (tr. 108), và đây là đoạn đáng đọc kỹ:
+> [!warning] Sách tự cảnh báo về chính bảng này
+> (tr. 108), và đây là đoạn đáng đọc kỹ:
 
 1. Các kỹ thuật thống kê để ước tính *"cần tới một số giả định, và những giả định này có thể **không
    đúng trong thực tế**"*.
@@ -248,13 +263,15 @@ Bảng này minh hoạ cả bốn quy tắc ở mục 2 cùng lúc: **thiết y�
 3. Vì vậy: *"bạn cũng đừng quá ngạc nhiên nếu các nghiên cứu khác nhau **báo cáo khác nhau** về độ co
    giãn của cầu theo giá của cùng một hàng hoá."*
 
-💼 Nói cách khác: **đừng lấy một con số độ co giãn từ sách vở rồi áp vào doanh nghiệp của bạn.**
-Phải đo trên chính dữ liệu của mình — mục 15.
+> [!example]
+> Nói cách khác: **đừng lấy một con số độ co giãn từ sách vở rồi áp vào doanh nghiệp của bạn.**
+> Phải đo trên chính dữ liệu của mình — mục 15.
 
 ---
 
 ## 7. Tổng doanh thu và độ co giãn — ba quy tắc phải thuộc
 
+> [!quote]
 > **Tổng doanh thu** (*total revenue*): lượng tiền người mua chi trả cho người bán một hàng hoá,
 > được tính bằng cách nhân giá của hàng hoá với sản lượng bán ra. — chú thích tr. 108
 
@@ -284,13 +301,15 @@ Khi giá tăng, **hai lực đối nghịch nhau** tác động lên doanh thu:
 | Cầu **không co giãn** | 100 → **90** | 400 → **450** đô la | doanh thu **tăng** — A > B |
 | Cầu **co giãn**       | 100 → **70** | 400 → **350** đô la | doanh thu **giảm** — A < B |
 
-### ⭐ Ba quy tắc (tr. 110) — thuộc lòng ba dòng này
+### Ba quy tắc (tr. 110) — thuộc lòng ba dòng này
 
+> [!note]
 > - Khi cầu **không co giãn** (độ co giãn thấp hơn 1), giá và tổng doanh thu di chuyển **theo cùng một hướng**.
 > - Khi cầu **co giãn** (độ co giãn cao hơn 1), giá và tổng doanh thu di chuyển **theo hướng ngược nhau**.
 > - Nếu cầu là **co giãn đơn vị** (bằng 1), tổng doanh thu **không đổi** khi giá thay đổi.
 
-💼 **Đây là ba dòng sinh lời nhất trong cả cuốn sách.** Dịch sang ngôn ngữ kinh doanh:
+> [!example] Đây là ba dòng sinh lời nhất trong cả cuốn sách.
+> Dịch sang ngôn ngữ kinh doanh:
 
 | Nếu cầu của bạn         | thì **tăng** giá làm doanh thu | và **giảm** giá làm doanh thu |
 | ----------------------- | ------------------------------ | ----------------------------- |
@@ -300,9 +319,10 @@ Khi giá tăng, **hai lực đối nghịch nhau** tác động lên doanh thu:
 Nghĩa là **câu hỏi "nên tăng hay giảm giá" có một câu trả lời bằng số**, và con số đó là $e$.
 Không phải chuyện cảm tính hay chuyện "chiến lược".
 
-⚠️ **Nhưng doanh thu không phải lợi nhuận.** Tối đa hoá doanh thu và tối đa hoá lợi nhuận là **hai
-điểm khác nhau** — vì bán thêm hàng thì tốn thêm chi phí. Điểm tối đa hoá lợi nhuận luôn nằm ở
-**giá cao hơn** điểm tối đa hoá doanh thu. Đó là **bài 5–6** (chi phí sản xuất, MR = MC).
+> [!warning] Nhưng doanh thu không phải lợi nhuận.
+> Tối đa hoá doanh thu và tối đa hoá lợi nhuận là **hai
+> điểm khác nhau** — vì bán thêm hàng thì tốn thêm chi phí. Điểm tối đa hoá lợi nhuận luôn nằm ở
+> **giá cao hơn** điểm tối đa hoá doanh thu. Đó là **bài 5–6** (chi phí sản xuất, MR = MC).
 
 ---
 
@@ -310,10 +330,12 @@ Không phải chuyện cảm tính hay chuyện "chiến lược".
 
 Đây là ý tinh tế nhất chương, và cũng là ý bị hiểu sai nhiều nhất.
 
+> [!note]
 > **Độ dốc không đổi ≠ độ co giãn không đổi.**
 
 Sách giải thích vì sao (tr. 111):
 
+> [!quote]
 > *"Điều này xảy ra vì **độ dốc là tỷ lệ thay đổi tuyệt đối** giữa hai biến, trong khi đó **độ co giãn
 > là tỷ lệ phần trăm thay đổi** (hay tỷ lệ thay đổi tương đối) giữa hai biến."*
 
@@ -334,6 +356,7 @@ Sách giải thích vì sao (tr. 111):
 
 Quy tắc rút ra (tr. 111):
 
+> [!note]
 > Tại các điểm có **mức giá thấp và lượng cao**, đường cầu **không co giãn**.
 > Tại các điểm có **mức giá cao và lượng thấp**, đường cầu **co giãn**.
 
@@ -343,9 +366,10 @@ Và cột **tổng doanh thu** minh hoạ đúng ba quy tắc ở mục 7 (sách
 - Giá **5 đô la** (co giãn) → tăng lên 6 đô la thì doanh thu **giảm** (20 → 12). ✅ ngược hướng
 - Giữa **3 và 4 đô la** (co giãn đơn vị) → doanh thu ở hai mức giá này **bằng nhau** (24 = 24). ✅
 
-💼 **Ý nghĩa quản trị của mục này rất lớn:** *"độ co giãn của cửa hàng tôi bằng 1,8"* là một câu
-**chưa đầy đủ**. Phải hỏi: **ở vùng giá nào?** Con số đo được ở vùng giá 35–50 nghìn **không dùng
-được** cho câu hỏi "có nên bán 120 nghìn không". Mục 15 sẽ nhắc lại đúng cảnh báo này.
+> [!example] Ý nghĩa quản trị của mục này rất lớn:
+> *"độ co giãn của cửa hàng tôi bằng 1,8"* là một câu
+> **chưa đầy đủ**. Phải hỏi: **ở vùng giá nào?** Con số đo được ở vùng giá 35–50 nghìn **không dùng
+> được** cho câu hỏi "có nên bán 120 nghìn không". Mục 15 sẽ nhắc lại đúng cảnh báo này.
 
 ---
 
@@ -353,12 +377,14 @@ Và cột **tổng doanh thu** minh hoạ đúng ba quy tắc ở mục 7 (sách
 
 ### Độ co giãn của cầu theo thu nhập
 
+> [!quote]
 > **Độ co giãn cầu theo thu nhập** (*income elasticity of demand*): số đo cho biết lượng cầu của một
 > hàng hoá thay đổi như thế nào ứng với sự thay đổi trong thu nhập của người tiêu dùng. — chú thích tr. 111
 
 $$\text{Độ co giãn theo thu nhập} = \frac{\text{Phần trăm thay đổi lượng cầu}}{\text{Phần trăm thay đổi thu nhập}}$$
 
-⚠️ **Ở đây dấu KHÔNG bị bỏ** — dấu chính là thông tin:
+> [!warning] Ở đây dấu KHÔNG bị bỏ
+> dấu chính là thông tin:
 
 | Dấu       | Loại hàng                 | Ví dụ của sách  |
 | --------- | ------------------------- | --------------- |
@@ -374,6 +400,7 @@ Và ngay trong hàng thông thường, mức độ cũng rất khác nhau (tr. 1
 
 ### Độ co giãn của cầu theo giá chéo
 
+> [!quote]
 > **Độ co giãn của cầu theo giá chéo** (*cross-price elasticity of demand*): số đo cho biết lượng cầu
 > của một hàng hoá thay đổi như thế nào ứng với sự thay đổi về giá của một hàng hoá khác. — chú thích tr. 112
 
@@ -386,18 +413,18 @@ Dấu lại là thông tin, và lần này nó **định nghĩa quan hệ giữa
 | **Dương** | **thay thế** | bánh mì kẹp xúc xích ↔ hamburger — giá xúc xích tăng thì cầu hamburger tăng |
 | **Âm**    | **bổ sung**  | máy tính ↔ phần mềm — giá máy tính tăng thì cầu phần mềm giảm               |
 
-### 💼 Góc QTKD — hai con số này trả lời hai câu hỏi rất cụ thể
-
-| Câu hỏi kinh doanh                                      | Đo bằng                                                         |
-| ------------------------------------------------------- | --------------------------------------------------------------- |
-| Kinh tế suy thoái thì ngành ta bị ảnh hưởng nặng không? | **độ co giãn theo thu nhập** — càng cao càng theo chu kỳ        |
-| Nên bán thêm dòng phổ thông hay dòng cao cấp?           | độ co giãn theo thu nhập của từng dòng                          |
-| **Ai thật sự là đối thủ của ta?**                       | **độ co giãn theo giá chéo** — dương và lớn = đối thủ trực tiếp |
-| Nên bán kèm (bundle) hai sản phẩm nào?                  | giá chéo **âm** = hàng bổ sung, bán kèm hợp lý                  |
-
-⭐ Dòng thứ ba là dòng hay nhất. **Ai là đối thủ của bạn không phải là chuyện cảm nhận — nó là một
-con số đo được.** Nếu đối thủ giảm giá 10% mà doanh số bạn không nhúc nhích, họ **không** cạnh tranh
-với bạn, dù cùng bán một loại hàng.
+> [!example] Góc QTKD — hai con số này trả lời hai câu hỏi rất cụ thể
+>
+> | Câu hỏi kinh doanh                                      | Đo bằng                                                         |
+> | ------------------------------------------------------- | --------------------------------------------------------------- |
+> | Kinh tế suy thoái thì ngành ta bị ảnh hưởng nặng không? | **độ co giãn theo thu nhập** — càng cao càng theo chu kỳ        |
+> | Nên bán thêm dòng phổ thông hay dòng cao cấp?           | độ co giãn theo thu nhập của từng dòng                          |
+> | **Ai thật sự là đối thủ của ta?**                       | **độ co giãn theo giá chéo** — dương và lớn = đối thủ trực tiếp |
+> | Nên bán kèm (bundle) hai sản phẩm nào?                  | giá chéo **âm** = hàng bổ sung, bán kèm hợp lý                  |
+>
+> ⭐ Dòng thứ ba là dòng hay nhất. **Ai là đối thủ của bạn không phải là chuyện cảm nhận — nó là một
+> con số đo được.** Nếu đối thủ giảm giá 10% mà doanh số bạn không nhúc nhích, họ **không** cạnh tranh
+> với bạn, dù cùng bán một loại hàng.
 
 ---
 
@@ -405,6 +432,7 @@ với bạn, dù cùng bán một loại hàng.
 
 Đối xứng hoàn toàn với phần cầu.
 
+> [!quote]
 > **Độ co giãn của cung theo giá** (*price elasticity of supply*): số đo cho biết lượng cung của một
 > hàng hoá thay đổi như thế nào ứng với sự thay đổi về giá của hàng hoá đó. — chú thích tr. 112
 
@@ -417,7 +445,7 @@ Yếu tố quyết định: **sự linh hoạt của người bán trong việc 
 | Không thể sản xuất thêm | nhà ở bãi biển — *"gần như không thể sản xuất thêm đất được"* | **không co giãn** |
 | Sản xuất được thêm      | sách, xe hơi, truyền hình                                     | **co giãn**       |
 
-### ⭐ Nhưng yếu tố lớn nhất vẫn là THỜI GIAN
+### Nhưng yếu tố lớn nhất vẫn là THỜI GIAN
 
 Sách nói rõ đây là *"yếu tố quyết định độ co giãn của cung theo giá"* trong hầu hết thị trường (tr. 113):
 
@@ -453,35 +481,36 @@ $$\text{Độ co giãn của cung} = \frac{20\%}{10\%} = \mathbf{2{,}0}$$
 | (d)  | co giãn ($e > 1$)                  | 100 → 200                                                                                    |     +67% |
 | (e)  | hoàn toàn co giãn ($e \to \infty$) | ở đúng 4 đô la nhà sản xuất cung ở **bất cứ mức sản lượng nào**; dưới 4 đô la lượng cung = 0 |        — |
 
-### 📚 Vì sao độ co giãn của cung thường GIẢM khi sản lượng tăng
+> [!note] Vì sao độ co giãn của cung thường GIẢM khi sản lượng tăng
+>
+> **Hình 6, tr. 115** cho một trường hợp *"điển hình cho một ngành, trong đó các công ty có nhà máy với
+> công suất sản xuất hạn chế"* — và đây là phần rất sát thực tế sản xuất:
+>
+> ![Hình 6 — tr. 115, bản chụp giáo trình](../tai_lieu/hinh/ch05-hinh-06-tr115.png)
+>
+> ```
+>    SẢN LƯỢNG THẤP  (còn nhà máy, thiết bị nhàn rỗi)
+>       → chỉ cần giá nhích lên là doanh nghiệp có lãi và dùng ngay năng lực dư
+>       → cung RẤT CO GIÃN
+>              │
+>              ▼
+>    SẢN LƯỢNG CAO  (công suất đã dùng tối đa)
+>       → muốn tăng nữa phải XÂY NHÀ MÁY MỚI
+>       → giá phải tăng ĐÁNG KỂ mới bù nổi chi phí đó
+>       → cung KÉM CO GIÃN
+> ```
+>
+> Con số minh hoạ trong hình:
+>
+> | Vùng           | Giá       | Lượng     | %Δ giá | %Δ lượng | Độ co giãn              |
+> | -------------- | --------- | --------- | -----: | -------: | ----------------------- |
+> | Sản lượng thấp | $3 → $4   | 100 → 200 |    29% |      67% | **> 1** — co giãn       |
+> | Sản lượng cao  | $12 → $15 | 500 → 525 |    22% |       5% | **< 1** — không co giãn |
+>
+> 💼 Đây là hình vẽ mô tả **chính xác** cái mà bên vận hành gọi là *"đụng trần công suất"*. Trước khi
+> đụng trần, tăng sản lượng gần như miễn phí; sau khi đụng trần, mỗi đơn vị thêm đều rất đắt. Sẽ gặp
+> lại đầy đủ ở **bài 5** dưới tên **chi phí biên tăng dần**.
 
-**Hình 6, tr. 115** cho một trường hợp *"điển hình cho một ngành, trong đó các công ty có nhà máy với
-công suất sản xuất hạn chế"* — và đây là phần rất sát thực tế sản xuất:
-
-![Hình 6 — tr. 115, bản chụp giáo trình](../tai_lieu/hinh/ch05-hinh-06-tr115.png)
-
-```
-   SẢN LƯỢNG THẤP  (còn nhà máy, thiết bị nhàn rỗi)
-      → chỉ cần giá nhích lên là doanh nghiệp có lãi và dùng ngay năng lực dư
-      → cung RẤT CO GIÃN
-             │
-             ▼
-   SẢN LƯỢNG CAO  (công suất đã dùng tối đa)
-      → muốn tăng nữa phải XÂY NHÀ MÁY MỚI
-      → giá phải tăng ĐÁNG KỂ mới bù nổi chi phí đó
-      → cung KÉM CO GIÃN
-```
-
-Con số minh hoạ trong hình:
-
-| Vùng           | Giá       | Lượng     | %Δ giá | %Δ lượng | Độ co giãn              |
-| -------------- | --------- | --------- | -----: | -------: | ----------------------- |
-| Sản lượng thấp | $3 → $4   | 100 → 200 |    29% |      67% | **> 1** — co giãn       |
-| Sản lượng cao  | $12 → $15 | 500 → 525 |    22% |       5% | **< 1** — không co giãn |
-
-💼 Đây là hình vẽ mô tả **chính xác** cái mà bên vận hành gọi là *"đụng trần công suất"*. Trước khi
-đụng trần, tăng sản lượng gần như miễn phí; sau khi đụng trần, mỗi đơn vị thêm đều rất đắt. Sẽ gặp
-lại đầy đủ ở **bài 5** dưới tên **chi phí biên tăng dần**.
 ---
 
 ## 12. Ứng dụng 1 — tin tốt cho nông nghiệp lại là tin xấu cho nông dân
@@ -505,16 +534,18 @@ $$\text{trước: } 3 \times 100 = \mathbf{300} \text{ đô la} \qquad\to\qquad 
 
 **Nông dân mất 80 đô la.** Vì sao? Vì cầu về lương thực **không co giãn**:
 
+> [!quote] tr. 117
 > *"Trong thực tế, cầu về các loại thực phẩm thiết yếu như lúa mì thường không co giãn bởi vì các mặt
 > hàng này tương đối rẻ tiền và ít hàng hoá thay thế gần gũi."* (tr. 117)
 
 Giá giảm **đáng kể** trong khi lượng chỉ tăng **nhẹ** → $P \times Q$ giảm. Đúng quy tắc số 1 ở mục 7.
 
-### ⭐ Nghịch lý sâu hơn: vì sao nông dân vẫn dùng giống mới?
+### Nghịch lý sâu hơn: vì sao nông dân vẫn dùng giống mới?
 
 Sách đặt đúng câu hỏi (tr. 117): nếu giống mới làm họ nghèo đi, sao họ lại dùng nó? Câu trả lời nằm
 ở **cấu trúc thị trường cạnh tranh**:
 
+> [!quote]
 > *"Vì mỗi người nông dân chỉ là một phần nhỏ của thị trường lúa mì, họ **chấp nhận giá lúa mì do thị
 > trường quyết định**. Đối với bất cứ mức giá nào của lúa mì, sẽ tốt hơn cho họ khi sử dụng giống lai
 > mới để sản xuất và bán nhiều lúa mì hơn. Tuy nhiên, khi **tất cả** nông dân làm điều này, cung lúa
@@ -539,32 +570,35 @@ vật nuôi mà các trang trại ở Hoa Kỳ hiện nay **cao gấp đôi** s�
 Một số chương trình trợ giúp nông dân bằng cách **khuyên họ không nên trồng hết diện tích đất**. Nghe
 vô lý, nhưng đúng logic ở trên:
 
+> [!quote]
 > *"Với cầu cho các sản phẩm của họ không co giãn, nông dân, với tư cách là **một nhóm**, sẽ thu được
 > tổng doanh thu lớn hơn nếu họ cung cấp **ít hơn** cho thị trường. Không một nông dân riêng lẻ nào bỏ
 > hoang đất của họ… Nhưng nếu **tất cả** các nông dân cùng làm như vậy với nhau, mỗi người trong số họ
 > có thể thu được nhiều hơn."*
 
-⚠️ **Và câu cảnh tỉnh mà sách đặt ngay sau đó** (tr. 118) — đừng bỏ qua:
+> [!warning] Và câu cảnh tỉnh mà sách đặt ngay sau đó
+> (tr. 118) — đừng bỏ qua:
 
+> [!quote]
 > *"…điều quan trọng là hãy nhớ rằng những gì tốt cho nông dân **không nhất thiết phải tốt cho toàn bộ
 > xã hội**. Cải tiến công nghệ nông nghiệp có thể có hại cho nông dân bởi vì nó làm giảm vai trò của
 > người nông dân, nhưng nó chắc chắn là tốt cho người tiêu dùng, những người được mua thực phẩm với
 > giá rẻ hơn."*
 
-### 💼 Góc QTKD — nghịch lý này lặp lại y hệt trong nhiều ngành
-
-Cấu trúc *"cải tiến công nghệ → cung tăng → giá giảm → ngành nghèo đi"* xuất hiện ở mọi ngành có
-**cầu không co giãn** và **nhiều người bán nhỏ**:
-
-| Ngành               | Cải tiến                             | Kết cục cho người bán              |
-| ------------------- | ------------------------------------ | ---------------------------------- |
-| Vận tải hành khách  | ứng dụng gọi xe hạ chi phí điều phối | cước giảm, thu nhập tài xế/km giảm |
-| Nhiếp ảnh, thiết kế | công cụ giúp làm nhanh gấp nhiều lần | đơn giá mỗi sản phẩm giảm mạnh     |
-| Nuôi trồng thuỷ sản | giống và thức ăn tốt hơn             | được mùa mất giá                   |
-
-Bài học rút ra: **năng suất cao hơn chỉ làm bạn giàu hơn nếu bạn giữ được giá.** Muốn giữ giá thì phải
-làm cho cầu **bớt co giãn** — khác biệt hoá, thương hiệu, chuyển sang phân khúc ít thay thế. Đó là
-toàn bộ nội dung **bài 8**.
+> [!example] Góc QTKD — nghịch lý này lặp lại y hệt trong nhiều ngành
+>
+> Cấu trúc *"cải tiến công nghệ → cung tăng → giá giảm → ngành nghèo đi"* xuất hiện ở mọi ngành có
+> **cầu không co giãn** và **nhiều người bán nhỏ**:
+>
+> | Ngành               | Cải tiến                             | Kết cục cho người bán              |
+> | ------------------- | ------------------------------------ | ---------------------------------- |
+> | Vận tải hành khách  | ứng dụng gọi xe hạ chi phí điều phối | cước giảm, thu nhập tài xế/km giảm |
+> | Nhiếp ảnh, thiết kế | công cụ giúp làm nhanh gấp nhiều lần | đơn giá mỗi sản phẩm giảm mạnh     |
+> | Nuôi trồng thuỷ sản | giống và thức ăn tốt hơn             | được mùa mất giá                   |
+>
+> Bài học rút ra: **năng suất cao hơn chỉ làm bạn giàu hơn nếu bạn giữ được giá.** Muốn giữ giá thì phải
+> làm cho cầu **bớt co giãn** — khác biệt hoá, thương hiệu, chuyển sang phân khúc ít thay thế. Đó là
+> toàn bộ nội dung **bài 8**.
 
 ---
 
@@ -599,24 +633,25 @@ thời gian** (Hình 8, tr. 119):
 
 Kết luận nguyên văn (tr. 119):
 
+> [!quote]
 > *"Cartel này nhận ra rằng **tăng giá trong ngắn hạn dễ dàng hơn trong dài hạn**."*
 
 📌 Sách còn thêm một chú thích cẩn thận (tr. 118): những dao động giá dầu **trong thập kỷ đầu thế kỷ
 21** có nguyên nhân chính là **thay đổi trong nhu cầu thế giới** (kinh tế Trung Quốc phát triển nhanh,
 rồi suy thoái 2008–2009), **chứ không phải** do OPEC hạn chế cung.
 
-### 💼 Góc QTKD — "chúng ta cứ tăng giá đi, khách quen rồi"
-
-Đây chính là cái bẫy OPEC, và doanh nghiệp mắc phải rất thường xuyên:
-
-1. **Quý đầu sau khi tăng giá**: doanh số gần như không đổi. Kết luận vội: *"cầu không co giãn, tăng
-   tiếp!"*
-2. **Sau 2–4 quý**: khách đã tìm được nhà cung cấp khác, đã đổi quy trình, đã đàm phán hợp đồng mới.
-   Doanh số **rơi**, và **rất khó lấy lại** — vì họ đã tốn công chuyển đổi rồi, không quay lại nữa.
-
-⚠️ **Đo tác động của một lần tăng giá bằng số liệu một tháng là sai về mặt phương pháp**, không phải
-chỉ là thiếu kiên nhẫn. Độ co giãn ngắn hạn và dài hạn là **hai con số khác nhau**, và cái quyết định
-số phận doanh nghiệp là cái thứ hai.
+> [!example] Góc QTKD — "chúng ta cứ tăng giá đi, khách quen rồi"
+>
+> Đây chính là cái bẫy OPEC, và doanh nghiệp mắc phải rất thường xuyên:
+>
+> 1. **Quý đầu sau khi tăng giá**: doanh số gần như không đổi. Kết luận vội: *"cầu không co giãn, tăng
+>    tiếp!"*
+> 2. **Sau 2–4 quý**: khách đã tìm được nhà cung cấp khác, đã đổi quy trình, đã đàm phán hợp đồng mới.
+>    Doanh số **rơi**, và **rất khó lấy lại** — vì họ đã tốn công chuyển đổi rồi, không quay lại nữa.
+>
+> ⚠️ **Đo tác động của một lần tăng giá bằng số liệu một tháng là sai về mặt phương pháp**, không phải
+> chỉ là thiếu kiên nhẫn. Độ co giãn ngắn hạn và dài hạn là **hai con số khác nhau**, và cái quyết định
+> số phận doanh nghiệp là cái thứ hai.
 
 ---
 
@@ -639,17 +674,21 @@ chính sách** cùng nhằm giảm sử dụng ma tuý (**Hình 9, tr. 121**):
 
 Nguyên văn phần (a) trong chú thích Hình 9:
 
+> [!quote]
 > *"Nếu cầu ma tuý không co giãn, tổng số tiền mà người sử dụng ma tuý phải trả **tăng lên**, ngay cả
 > khi lượng ma tuý sử dụng giảm xuống."*
 
 Và phần (b):
 
+> [!quote]
 > *"Bởi vì cả giá và lượng giảm, số tiền mà người sử dụng ma tuý phải trả **sẽ giảm xuống**… trái ngược
 > với ngăn chặn ma tuý, giáo dục về tác hại của ma tuý có thể giảm sử dụng ma tuý **và** tội phạm liên
 > quan tới ma tuý."*
 
-⚠️ **Sách trình bày cả phản biện** (tr. 121) — đây là chỗ đáng học về cách lập luận:
+> [!warning] Sách trình bày cả phản biện
+> (tr. 121) — đây là chỗ đáng học về cách lập luận:
 
+> [!quote]
 > *"Cầu về ma tuý có thể không co giãn **trong ngắn hạn** bởi vì giá cao chỉ làm giảm mức sử dụng ma
 > tuý của người nghiện không đáng kể. Nhưng cầu có thể **co giãn hơn trong dài hạn** vì giá cao sẽ hạn
 > chế việc thử ma tuý trong giới trẻ… Trong trường hợp này, ngăn chặn ma tuý sẽ làm **tăng** tội phạm
@@ -664,7 +703,7 @@ Mục 16 chạy cả hai kịch bản bằng số để bạn thấy tổng chi 
 
 ---
 
-## 15. 💼 Đo độ co giãn từ dữ liệu bán hàng thật
+## 15. Đo độ co giãn từ dữ liệu bán hàng thật
 
 Sách dừng ở *"độ co giãn là gì"* và tự nhận *"chúng ta hiếm khi thực hiện những tính toán như vậy"*
 (tr. 106). Nhưng với người làm quản trị, **con số cụ thể mới là thứ dùng được**. Mục này là phần
@@ -687,6 +726,7 @@ $$\ln Q = \ln A + b \ln P$$
 
 Đây là một **đường thẳng** theo $\ln P$. Và điều kỳ diệu:
 
+> [!note]
 > ⭐ **Hệ số góc $b$ của hồi quy $\ln Q$ theo $\ln P$ CHÍNH LÀ độ co giãn** (mang dấu âm).
 
 Chứng minh một dòng: $\dfrac{d\ln Q}{d\ln P} = \dfrac{dQ/Q}{dP/P} = \dfrac{\%\Delta Q}{\%\Delta P}$ —
@@ -700,13 +740,13 @@ $$b = \frac{S_{xy}}{S_{xx}} = \frac{\sum (x_i - \bar{x})(y_i - \bar{y})}{\sum (x
 
 Mục 16 chạy đúng phép này trên 12 tháng dữ liệu bán hàng của một quán cà phê.
 
-### ⚠️ Ba cạm bẫy — và đây mới là phần quan trọng nhất
+### Ba cạm bẫy — và đây mới là phần quan trọng nhất
 
 Con số hồi quy trông rất thuyết phục. Ba lý do khiến nó có thể **sai hoàn toàn**:
 
 **① Bỏ sót biến.** Tháng bạn giảm giá cũng là tháng bạn chạy quảng cáo? Vậy hệ số bạn đo được là tác
 động của **giá cộng quảng cáo**, không phải của riêng giá. Đúng cái bẫy hộp quẹt – ung thư ở
-[bài 1, mục 15](bai_01_muoi_nguyen_ly_va_tu_duy_kinh_te.md#15--đọc-đồ-thị-độ-dốc-bỏ-sót-biến-nhân-quả-ngược).
+[bài 1, mục 15](bai_01_muoi_nguyen_ly_va_tu_duy_kinh_te.md#15-đọc-đồ-thị-độ-dốc-bỏ-sót-biến-nhân-quả-ngược).
 
 **② Nhân quả ngược.** Bạn giảm giá **vì** thấy bán chậm — chứ không phải bán chạy **vì** giảm giá. Khi
 đó dấu của hệ số bị bóp méo hoặc thậm chí đảo chiều.
@@ -715,29 +755,32 @@ Con số hồi quy trông rất thuyết phục. Ba lý do khiến nó có thể
 sao"* là **ngoại suy** — và mục 8 đã cho thấy độ co giãn **thay đổi dọc theo đường cầu**, nên nó gần
 như chắc chắn sai.
 
+> [!note]
 > **Cách chắc chắn nhất vẫn là A/B test có đối chứng**: chia ngẫu nhiên khách hàng (hoặc cửa hàng, hoặc
 > tuần) thành hai nhóm giá, rồi so sánh. Đó là
 > [bài 12–13 môn Xác suất Thống kê](../../eg11-xacxuatthongke/ly_thuyet/bai_13_kiem_dinh_nhieu_mau_va_anova.md).
 > Chỉ thí nghiệm mới cho phép kết luận nhân quả; dữ liệu quan sát thì không.
 
-### 💼 Làm sao để cầu BỚT co giãn — bảng hành động
+> [!example] Làm sao để cầu BỚT co giãn — bảng hành động
+>
+> Nếu đo ra $e > 1$, tăng giá sẽ mất doanh thu. Nhưng độ co giãn **không phải hằng số của tự nhiên** —
+> nó do bốn yếu tố ở mục 2 quyết định, và bạn tác động được vào cả bốn:
+>
+> | Yếu tố                | Đòn bẩy làm cầu **bớt** co giãn                                               | Học kỹ ở |
+> | --------------------- | ----------------------------------------------------------------------------- | -------- |
+> | Hàng thay thế         | khác biệt hoá sản phẩm, xây thương hiệu, tạo chi phí chuyển đổi               | bài 8    |
+> | Thiết yếu ↔ xa xỉ     | định vị sản phẩm thành *"thứ không thể thiếu"* của một công việc cụ thể       | bài 8    |
+> | Định nghĩa thị trường | chuyển từ "một loại hàng" sang "giải pháp trọn gói"                           | bài 8    |
+> | Thời gian             | hợp đồng dài hạn, gói thuê bao — **khoá khách trước khi họ kịp tìm thay thế** | bài 7    |
+>
+> ⭐ Nói ngắn: **giảm giá là cách cạnh tranh của người có $e$ lớn.** Việc của quản trị là làm cho $e$
+> nhỏ đi, chứ không phải chạy đua trong một thị trường $e$ lớn.
 
-Nếu đo ra $e > 1$, tăng giá sẽ mất doanh thu. Nhưng độ co giãn **không phải hằng số của tự nhiên** —
-nó do bốn yếu tố ở mục 2 quyết định, và bạn tác động được vào cả bốn:
-
-| Yếu tố                | Đòn bẩy làm cầu **bớt** co giãn                                               | Học kỹ ở |
-| --------------------- | ----------------------------------------------------------------------------- | -------- |
-| Hàng thay thế         | khác biệt hoá sản phẩm, xây thương hiệu, tạo chi phí chuyển đổi               | bài 8    |
-| Thiết yếu ↔ xa xỉ     | định vị sản phẩm thành *"thứ không thể thiếu"* của một công việc cụ thể       | bài 8    |
-| Định nghĩa thị trường | chuyển từ "một loại hàng" sang "giải pháp trọn gói"                           | bài 8    |
-| Thời gian             | hợp đồng dài hạn, gói thuê bao — **khoá khách trước khi họ kịp tìm thay thế** | bài 7    |
-
-⭐ Nói ngắn: **giảm giá là cách cạnh tranh của người có $e$ lớn.** Việc của quản trị là làm cho $e$
-nhỏ đi, chứ không phải chạy đua trong một thị trường $e$ lớn.
 ---
 
 ## 16. Code minh hoạ
 
+> [!note]
 > ⚙️ **Chạy:** cần **Python 3.10+**. Lưu file rồi gõ `python3 bai-03-do-co-gian.py`.
 > **Không cần cài gói nào.** File có sẵn tại [thuc_hanh/bai-03-do-co-gian.py](../thuc_hanh/bai-03-do-co-gian.py).
 
@@ -1238,10 +1281,11 @@ Cột tiếng Anh lấy từ mục **Khái niệm then chốt** của sách (tr.
 | Độ co giãn của cầu theo giá chéo | Cross-price elasticity of demand | tr. 112 — dấu **dương** = hàng thay thế                   |
 | Độ co giãn của cung theo giá     | Price elasticity of supply       | tr. 112                                                   |
 
-⚠️ **Đính chính — Hình 3, tr. 109.** Hình có hai khung con, nhưng **cả hai đều được đánh nhãn "(a)"**:
-"(a) Trường hợp cầu không co giãn" và "(a) Trường hợp cầu co giãn". Khung bên phải phải là **"(b)"** —
-chính phần chú thích của hình và đoạn văn ở tr. 110 đều gọi nó là *"Hình 3(b)"*. Đã đối chiếu bản
-quét 300 dpi. Lỗi sắp chữ, không đổi nội dung.
+> [!warning] Đính chính — Hình 3, tr. 109.
+> Hình có hai khung con, nhưng **cả hai đều được đánh nhãn "(a)"**:
+> "(a) Trường hợp cầu không co giãn" và "(a) Trường hợp cầu co giãn". Khung bên phải phải là **"(b)"** —
+> chính phần chú thích của hình và đoạn văn ở tr. 110 đều gọi nó là *"Hình 3(b)"*. Đã đối chiếu bản
+> quét 300 dpi. Lỗi sắp chữ, không đổi nội dung.
 
 ---
 
@@ -1366,7 +1410,7 @@ quét 300 dpi. Lỗi sắp chữ, không đổi nội dung.
   phải phải là **"(b)"** (chính đoạn văn tr. 110 gọi nó là *Hình 3(b)*). Đối chiếu bản quét 300 dpi.
 - **Liên hệ chéo:**
   - [Bài 2 — Cung và cầu](bai_02_cung_va_cau.md) — mô hình mà chương này đo lường.
-  - [Bài 1 — mục 15](bai_01_muoi_nguyen_ly_va_tu_duy_kinh_te.md#15--đọc-đồ-thị-độ-dốc-bỏ-sót-biến-nhân-quả-ngược) — bỏ sót biến, nhân quả ngược.
+  - [Bài 1 — mục 15](bai_01_muoi_nguyen_ly_va_tu_duy_kinh_te.md#15-đọc-đồ-thị-độ-dốc-bỏ-sót-biến-nhân-quả-ngược) — bỏ sót biến, nhân quả ngược.
   - [Bài 14 môn Xác suất Thống kê](../../eg11-xacxuatthongke/ly_thuyet/bai_14_tuong_quan_va_hoi_quy.md) — công thức hồi quy dùng ở mục 15.
   - [Bài 13 môn Xác suất Thống kê](../../eg11-xacxuatthongke/ly_thuyet/bai_13_kiem_dinh_nhieu_mau_va_anova.md) — A/B test có đối chứng.
 

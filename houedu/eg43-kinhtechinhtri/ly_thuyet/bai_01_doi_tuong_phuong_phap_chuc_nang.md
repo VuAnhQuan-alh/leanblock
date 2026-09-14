@@ -1,10 +1,13 @@
 # Bài 1 — Đối tượng, phương pháp và chức năng của Kinh tế chính trị Mác – Lênin
 
+> [!info] Về bài này
 > Bài học dựng từ **Chương 1** (tr. 11–33) của *Giáo trình Kinh tế chính trị Mác – Lênin* (hệ không chuyên),
 > Bộ Giáo dục và Đào tạo, **NXB Chính trị Quốc gia Sự thật, 2021** (chủ biên PGS.TS. Ngô Tuấn Nghĩa).
 > **Vòng 1.** Bài nhập môn: KTCT Mác – Lênin **là gì**, **ra đời thế nào**, **nghiên cứu cái gì** (đối tượng), **bằng cách nào** (phương pháp), **để làm gì** (chức năng). Đây là "khung" để đọc các chương sau (hàng hóa → giá trị thặng dư → độc quyền).
 > **Ký hiệu:** **💼 Góc QTKD** = ví dụ cho ngành quản trị kinh doanh (ngoài sách, để dễ nhớ) · **📚 Mở rộng** = đào sâu ngoài sách · **⚠️** = chỗ dễ hiểu sai.
 > **Nên đọc trước (không bắt buộc):** [Triết – Bài 9: Hình thái kinh tế – xã hội](../../eg42-triethocmaclenin/ly_thuyet/bai_09_hinh_thai_kinh_te_xa_hoi.md) — đối tượng của KTCT gắn với **lực lượng sản xuất (LLSX)** và **kiến trúc thượng tầng (KTTT)**.
+>
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
 
 ---
 
@@ -40,6 +43,7 @@ Trước Mác, khoa học này đi qua **ba trường phái lớn**, mỗi trư�
 
 Sách chốt định nghĩa chung của khoa học này (tr. 14):
 
+> [!quote] tr. 14
 > **Kinh tế chính trị là môn khoa học kinh tế nghiên cứu các quan hệ kinh tế để tìm ra các quy luật chi phối sự vận động của các hiện tượng và quá trình hoạt động kinh tế của con người, tương ứng với những trình độ phát triển nhất định của nền sản xuất xã hội.** (tr. 14)
 
 **Từ A. Smith, lý luận kinh tế rẽ làm hai dòng** (tr. 15–16):
@@ -49,19 +53,20 @@ Sách chốt định nghĩa chung của khoa học này (tr. 14):
 
 Bước nhảy vọt của Mác so với Ricardo: phát hiện **tính hai mặt của lao động sản xuất hàng hóa**, tạo tiền đề luận giải khoa học về **giá trị thặng dư** (tr. 16). Bộ *Tư bản* trình bày chỉnh thể các phạm trù: hàng hóa, tiền tệ, tư bản, giá trị thặng dư, tích lũy, tuần hoàn, chu chuyển, lợi nhuận, lợi tức, địa tô, cạnh tranh — thành các **học thuyết lớn**: học thuyết giá trị, giá trị thặng dư, tích lũy, lợi nhuận, địa tô. Cùng Mác là **Ph. Ăngghen (1820–1895)**. Sau đó **V.I. Lênin (1870–1924)** bổ sung lý luận về **độc quyền, độc quyền nhà nước** (CNTB cuối XIX – đầu XX) và **thời kỳ quá độ** → khoa học được định danh **Kinh tế chính trị Mác – Lênin** (tr. 17).
 
+> [!quote]
 > **Hộp 1.1 — Quan niệm của A. Smith về kinh tế chính trị** (tr. 20): KTCT là ngành khoa học gắn với nhà lập pháp, hướng tới **hai mục tiêu**: (1) tạo điều kiện để **người dân** tự tạo thu nhập và sinh kế; (2) tạo **nguồn ngân sách** đầy đủ cho nhà nước. Tức là làm cho **cả người dân lẫn quốc gia trở nên giàu có**.
 
-### 📚 Mở rộng — "hai dòng" đó về sau thành gì?
+> [!note] Mở rộng — "hai dòng" đó về sau thành gì?
+>
+> Dòng 1 (tâm lý – hành vi) chính là mầm của **cuộc cách mạng cận biên (marginalist revolution)** thập niên 1870: **Jevons (Anh), Menger (Áo), Walras (Pháp – Thụy Sĩ)** giải thích giá cả bằng **độ thỏa dụng cận biên** (marginal utility) của người tiêu dùng, rồi **Alfred Marshall (1890)** tổng hợp cung – cầu thành **kinh tế học tân cổ điển** — nền của **Kinh tế vi mô/vĩ mô** mày học sau này (Mankiw). Dòng 2 (Ricardo → Mác) hỏi câu khác: *giá trị từ đâu ra, quan hệ xã hội nào đứng sau nó.* Vậy **KTCT và kinh tế học không mâu thuẫn** — chúng trả lời **hai câu hỏi khác nhau** về cùng một nền kinh tế. (nội dung ngoài sách, để định vị môn học)
 
-Dòng 1 (tâm lý – hành vi) chính là mầm của **cuộc cách mạng cận biên (marginalist revolution)** thập niên 1870: **Jevons (Anh), Menger (Áo), Walras (Pháp – Thụy Sĩ)** giải thích giá cả bằng **độ thỏa dụng cận biên** (marginal utility) của người tiêu dùng, rồi **Alfred Marshall (1890)** tổng hợp cung – cầu thành **kinh tế học tân cổ điển** — nền của **Kinh tế vi mô/vĩ mô** mày học sau này (Mankiw). Dòng 2 (Ricardo → Mác) hỏi câu khác: *giá trị từ đâu ra, quan hệ xã hội nào đứng sau nó.* Vậy **KTCT và kinh tế học không mâu thuẫn** — chúng trả lời **hai câu hỏi khác nhau** về cùng một nền kinh tế. (nội dung ngoài sách, để định vị môn học)
+> [!note] Mở rộng — vì sao Mác phải "phê phán" Ricardo?
+>
+> Ricardo đã có **lý thuyết giá trị – lao động** (giá trị = lao động hao phí) nhưng **bế tắc** ở một nghịch lý: nếu mọi hàng hóa trao đổi **ngang giá**, thì nhà tư bản lấy **lợi nhuận** từ đâu? Mua đúng giá, bán đúng giá thì hòa vốn mới phải. Ricardo không gỡ được. Mác gỡ bằng **hai chìa khóa** (sẽ học kỹ ở [bài 4](bai_04_gia_tri_thang_du_nguon_goc.md)): (1) coi **sức lao động** là một **hàng hóa đặc biệt** có giá trị sử dụng là *tạo ra giá trị lớn hơn giá trị bản thân nó*; (2) **tính hai mặt của lao động** (lao động cụ thể / lao động trừu tượng). Nhờ đó chứng minh lợi nhuận (giá trị thặng dư) sinh ra **ngay trong sản xuất**, không vi phạm trao đổi ngang giá. Đây là lý do bộ *Tư bản* là bước nhảy khoa học, không chỉ "nối dài" Ricardo.
 
-### 📚 Mở rộng — vì sao Mác phải "phê phán" Ricardo?
-
-Ricardo đã có **lý thuyết giá trị – lao động** (giá trị = lao động hao phí) nhưng **bế tắc** ở một nghịch lý: nếu mọi hàng hóa trao đổi **ngang giá**, thì nhà tư bản lấy **lợi nhuận** từ đâu? Mua đúng giá, bán đúng giá thì hòa vốn mới phải. Ricardo không gỡ được. Mác gỡ bằng **hai chìa khóa** (sẽ học kỹ ở [bài 4](bai_04_gia_tri_thang_du_nguon_goc.md)): (1) coi **sức lao động** là một **hàng hóa đặc biệt** có giá trị sử dụng là *tạo ra giá trị lớn hơn giá trị bản thân nó*; (2) **tính hai mặt của lao động** (lao động cụ thể / lao động trừu tượng). Nhờ đó chứng minh lợi nhuận (giá trị thặng dư) sinh ra **ngay trong sản xuất**, không vi phạm trao đổi ngang giá. Đây là lý do bộ *Tư bản* là bước nhảy khoa học, không chỉ "nối dài" Ricardo.
-
-### 💼 Góc QTKD — cùng gốc với kinh tế học mày sẽ học
-
-- KTCT Mác – Lênin và **Kinh tế vi mô/vĩ mô** là **hai nhánh tách ra từ Adam Smith**. Học cả hai cho mày **hai lăng kính** một nền kinh tế: một bên soi *quan hệ xã hội, nguồn gốc giá trị*; một bên soi *hành vi, giá cả, cân bằng cung – cầu*. Bổ sung nhau, không chọn một bỏ một.
+> [!example] Góc QTKD — cùng gốc với kinh tế học mày sẽ học
+>
+> - KTCT Mác – Lênin và **Kinh tế vi mô/vĩ mô** là **hai nhánh tách ra từ Adam Smith**. Học cả hai cho mày **hai lăng kính** một nền kinh tế: một bên soi *quan hệ xã hội, nguồn gốc giá trị*; một bên soi *hành vi, giá cả, cân bằng cung – cầu*. Bổ sung nhau, không chọn một bỏ một.
 
 ---
 
@@ -69,10 +74,12 @@ Ricardo đã có **lý thuyết giá trị – lao động** (giá trị = lao �
 
 Mỗi trường phái xưa chỉ chọn **một khúc**: trọng thương → lưu thông; trọng nông → nông nghiệp; cổ điển → sản xuất (tr. 19). Mác khái quát cao hơn hẳn. Định nghĩa gốc (tr. 22):
 
+> [!quote] C. Mác – Ph. Ăngghen, dẫn tr. 22
 > **Đối tượng nghiên cứu của kinh tế chính trị là các quan hệ của sản xuất và trao đổi trong phương thức sản xuất mà các quan hệ đó hình thành và phát triển.** (C. Mác – Ph. Ăngghen, dẫn tr. 22)
 
 Diễn đạt đầy đủ của giáo trình (tr. 23):
 
+> [!note]
 > Đối tượng của KTCT Mác – Lênin là **các quan hệ xã hội của sản xuất và trao đổi**, được đặt trong **liên hệ biện chứng với trình độ phát triển của lực lượng sản xuất và kiến trúc thượng tầng** tương ứng của một phương thức sản xuất nhất định.
 
 Ba điều phải nắm chặt:
@@ -81,37 +88,40 @@ Ba điều phải nắm chặt:
 2. Đối tượng là **chỉnh thể thống nhất** của **bốn khâu**: **sản xuất – lưu thông (trao đổi) – phân phối – tiêu dùng** (tr. 24).
 3. ⚠️ **Đính chính cách hiểu cũ:** thời kinh tế kế hoạch hóa tập trung, nhiều người thu hẹp đối tượng chỉ còn "**quan hệ sản xuất**", rồi lại quy quan hệ sản xuất về ba mặt sở hữu – quản lý – phân phối. Giáo trình khẳng định cách hiểu đó **không sát** quan điểm kinh điển và **không hợp** với kinh tế thị trường: đối tượng đúng là **mặt xã hội của cả chỉnh thể sản xuất – lưu thông – phân phối – tiêu dùng** (tr. 23–24).
 
-📚 **Nghĩa hẹp và nghĩa rộng** (tr. 21):
+> [!note] Nghĩa hẹp và nghĩa rộng
+> (tr. 21):
 
 - **Nghĩa hẹp:** nghiên cứu quan hệ sản xuất – trao đổi trong **một** phương thức sản xuất nhất định — cách bộ *Tư bản* làm với phương thức sản xuất tư bản chủ nghĩa, mục đích là *"tìm ra quy luật vận động kinh tế của xã hội ấy"*.
 - **Nghĩa rộng** (Ph. Ăngghen, *Toàn tập*, t.20, tr.207–208): *"Kinh tế chính trị, theo nghĩa rộng nhất, là khoa học về những quy luật chi phối sự sản xuất và trao đổi những tư liệu sinh hoạt vật chất trong xã hội loài người… Bởi vậy, không thể có cùng một môn kinh tế chính trị duy nhất cho tất cả mọi nước và tất cả mọi thời đại lịch sử…; môn kinh tế chính trị, về thực chất là một môn khoa học có tính chất lịch sử."*
 
-### 📚 Mở rộng — phân biệt chặt: đối tượng của KTCT vs của Kinh tế học
+> [!note] Mở rộng — phân biệt chặt: đối tượng của KTCT vs của Kinh tế học
+>
+> Dễ lẫn, nên tách rõ:
+>
+> | | **KTCT Mác – Lênin** | **Kinh tế học (Economics)** |
+> | --- | --- | --- |
+> | Câu hỏi gốc | quan hệ **người – người** trong sản xuất & trao đổi vận động theo **quy luật** nào? | **phân bổ nguồn lực khan hiếm** cho các nhu cầu cạnh tranh sao cho hiệu quả? |
+> | Trọng tâm | **bản chất, nguồn gốc** (giá trị từ đâu, ai được – ai mất) | **cơ chế vận hành, giá cả, lựa chọn** tối ưu |
+> | Đơn vị phân tích | quan hệ **giai cấp**, quan hệ lợi ích | cá nhân/doanh nghiệp **tối đa hóa** lợi ích |
+>
+> ⚠️ Không phải cái này "đúng" cái kia "sai" — chúng **soi hai lớp khác nhau** của cùng một hiện tượng. Ví dụ giá xăng tăng: kinh tế học giải thích *cung – cầu dịch chuyển*; KTCT hỏi *quan hệ sở hữu – phân phối nào khiến ai hưởng lợi từ mức giá đó*.
 
-Dễ lẫn, nên tách rõ:
-
-| | **KTCT Mác – Lênin** | **Kinh tế học (Economics)** |
-| --- | --- | --- |
-| Câu hỏi gốc | quan hệ **người – người** trong sản xuất & trao đổi vận động theo **quy luật** nào? | **phân bổ nguồn lực khan hiếm** cho các nhu cầu cạnh tranh sao cho hiệu quả? |
-| Trọng tâm | **bản chất, nguồn gốc** (giá trị từ đâu, ai được – ai mất) | **cơ chế vận hành, giá cả, lựa chọn** tối ưu |
-| Đơn vị phân tích | quan hệ **giai cấp**, quan hệ lợi ích | cá nhân/doanh nghiệp **tối đa hóa** lợi ích |
-
-⚠️ Không phải cái này "đúng" cái kia "sai" — chúng **soi hai lớp khác nhau** của cùng một hiện tượng. Ví dụ giá xăng tăng: kinh tế học giải thích *cung – cầu dịch chuyển*; KTCT hỏi *quan hệ sở hữu – phân phối nào khiến ai hưởng lợi từ mức giá đó*.
-
-### 💼 Góc QTKD — quản trị là quản trị quan hệ, không chỉ quản trị "vật"
-
-- **"Quan hệ giữa người với người"** = quản trị doanh nghiệp thực chất là điều phối **quan hệ lợi ích** (chủ – thợ, công ty – nhà cung cấp, công ty – khách hàng), không chỉ quản máy móc, hàng tồn. Gốc của xung đột và động lực nằm ở "quan hệ".
-- **Bốn khâu sản xuất – lưu thông – phân phối – tiêu dùng** = chính là **chuỗi giá trị (value chain)**: tối ưu mỗi khâu sản xuất mà bỏ quên phân phối/tiêu dùng thì vẫn thất bại.
-- **Tính lịch sử** ("không có KTCT chung cho mọi nước, mọi thời") = **không có mô hình kinh doanh đúng cho mọi thị trường, mọi thời điểm** — nối lại "tính cụ thể của chân lý" ([Triết – Bài 8](../../eg42-triethocmaclenin/ly_thuyet/bai_08_ly_luan_nhan_thuc.md)).
+> [!example] Góc QTKD — quản trị là quản trị quan hệ, không chỉ quản trị "vật"
+>
+> - **"Quan hệ giữa người với người"** = quản trị doanh nghiệp thực chất là điều phối **quan hệ lợi ích** (chủ – thợ, công ty – nhà cung cấp, công ty – khách hàng), không chỉ quản máy móc, hàng tồn. Gốc của xung đột và động lực nằm ở "quan hệ".
+> - **Bốn khâu sản xuất – lưu thông – phân phối – tiêu dùng** = chính là **chuỗi giá trị (value chain)**: tối ưu mỗi khâu sản xuất mà bỏ quên phân phối/tiêu dùng thì vẫn thất bại.
+> - **Tính lịch sử** ("không có KTCT chung cho mọi nước, mọi thời") = **không có mô hình kinh doanh đúng cho mọi thị trường, mọi thời điểm** — nối lại "tính cụ thể của chân lý" ([Triết – Bài 8](../../eg42-triethocmaclenin/ly_thuyet/bai_08_ly_luan_nhan_thuc.md)).
 
 ---
 
 ## 3. Mục đích và quy luật kinh tế
 
+> [!quote]
 > **Mục đích** ở cấp cao nhất của KTCT là **phát hiện các quy luật** chi phối quan hệ giữa người với người trong sản xuất và trao đổi, để các chủ thể **vận dụng**, tạo động lực sáng tạo, thúc đẩy văn minh và **phát triển toàn diện** xã hội thông qua giải quyết **quan hệ lợi ích** (tr. 24). ⚠️ KTCT Mác – Lênin **không phải** chỉ là "khoa học về kinh tế hàng hóa tư bản chủ nghĩa".
 
 Định nghĩa gốc của phạm trù trung tâm (tr. 25):
 
+> [!quote] tr. 25
 > **Quy luật kinh tế là những mối liên hệ phản ánh bản chất, khách quan, lặp đi lặp lại của các hiện tượng và quá trình kinh tế** trong nền sản xuất xã hội, tương ứng với những trình độ phát triển nhất định của nền sản xuất ấy. (tr. 25)
 
 **Phân biệt quy luật kinh tế và chính sách kinh tế** (Hộp 1.2, tr. 26) — hay ra thi:
@@ -122,29 +132,29 @@ Dễ lẫn, nên tách rõ:
 | Con người làm được gì | **không thể thủ tiêu**, chỉ **nhận thức & vận dụng** | **tự đặt ra**, có thể **thay** bằng chính sách khác |
 | Khi vận dụng/áp dụng sai | con người phải **đổi hành vi** (không đổi được quy luật) | **ban hành chính sách khác** thay thế |
 
-### 📚 Mở rộng — quy luật kinh tế khác quy luật tự nhiên ở đâu?
+> [!note] Mở rộng — quy luật kinh tế khác quy luật tự nhiên ở đâu?
+>
+> Giống nhau: cả hai đều **khách quan**. Nhưng quy luật kinh tế có ba nét riêng: (1) chỉ **tác động thông qua hoạt động của con người** — những con người có **động cơ lợi ích** khác nhau (quy luật hấp dẫn thì không cần ai "hành động" vẫn đúng; quy luật giá trị chỉ hiện ra qua hành vi mua – bán của con người); (2) **mang tính lịch sử** — phần lớn quy luật kinh tế **xuất hiện và mất đi** cùng với điều kiện kinh tế sinh ra chúng (quy luật giá trị gắn với sản xuất hàng hóa; hết sản xuất hàng hóa thì hết); (3) vì đi qua lợi ích con người nên **vận dụng đúng/sai tạo hệ quả xã hội** trực tiếp.
 
-Giống nhau: cả hai đều **khách quan**. Nhưng quy luật kinh tế có ba nét riêng: (1) chỉ **tác động thông qua hoạt động của con người** — những con người có **động cơ lợi ích** khác nhau (quy luật hấp dẫn thì không cần ai "hành động" vẫn đúng; quy luật giá trị chỉ hiện ra qua hành vi mua – bán của con người); (2) **mang tính lịch sử** — phần lớn quy luật kinh tế **xuất hiện và mất đi** cùng với điều kiện kinh tế sinh ra chúng (quy luật giá trị gắn với sản xuất hàng hóa; hết sản xuất hàng hóa thì hết); (3) vì đi qua lợi ích con người nên **vận dụng đúng/sai tạo hệ quả xã hội** trực tiếp.
+> [!note] Ví dụ cơ chế (ngoài sách) — chính sách nghịch quy luật thì gãy
+>
+> Minh họa cho luận điểm "con người không thể thủ tiêu quy luật": nhà nước áp **giá trần** một mặt hàng **thấp hơn giá cân bằng** của cung – cầu (một quy luật khách quan).
+>
+> ```
+> Giá cân bằng thị trường:  25.000đ/lít  → cung 100 = cầu 100  (khớp)
+> Áp CHÍNH SÁCH giá trần:   20.000đ/lít  (nghịch quy luật cung–cầu)
+>    → người bán giảm cung còn 80 (giá thấp, bớt bán)
+>    → người mua tăng cầu lên 120 (giá rẻ, mua nhiều)
+>    → THIẾU HỤT = 120 − 80 = 40 đơn vị
+>    → hệ quả: xếp hàng, khan hàng, CHỢ ĐEN bán 30.000đ (cao hơn cả giá gốc)
+> ```
+>
+> Quy luật cung – cầu **không bị thủ tiêu**; nó "trả đũa" bằng thiếu hụt và chợ đen. Muốn hết thiếu hụt, chủ thể phải **đổi hành vi** (bỏ trần, hoặc trợ giá tăng cung) — tức **thay chính sách**, chứ không "ra lệnh" cho quy luật.
 
-### 📚 Ví dụ cơ chế (ngoài sách) — chính sách nghịch quy luật thì gãy
-
-Minh họa cho luận điểm "con người không thể thủ tiêu quy luật": nhà nước áp **giá trần** một mặt hàng **thấp hơn giá cân bằng** của cung – cầu (một quy luật khách quan).
-
-```
-Giá cân bằng thị trường:  25.000đ/lít  → cung 100 = cầu 100  (khớp)
-Áp CHÍNH SÁCH giá trần:   20.000đ/lít  (nghịch quy luật cung–cầu)
-   → người bán giảm cung còn 80 (giá thấp, bớt bán)
-   → người mua tăng cầu lên 120 (giá rẻ, mua nhiều)
-   → THIẾU HỤT = 120 − 80 = 40 đơn vị
-   → hệ quả: xếp hàng, khan hàng, CHỢ ĐEN bán 30.000đ (cao hơn cả giá gốc)
-```
-
-Quy luật cung – cầu **không bị thủ tiêu**; nó "trả đũa" bằng thiếu hụt và chợ đen. Muốn hết thiếu hụt, chủ thể phải **đổi hành vi** (bỏ trần, hoặc trợ giá tăng cung) — tức **thay chính sách**, chứ không "ra lệnh" cho quy luật.
-
-### 💼 Góc QTKD — chiến lược (chính sách) phải thuận quy luật, không cãi quy luật
-
-- **Quy luật khách quan, không thủ tiêu được** = cung – cầu, cạnh tranh, giá trị… là khách quan. Doanh nghiệp đặt giá bất chấp cầu thì ế; ép lương dưới thị trường thì mất người — y như giá trần sinh thiếu hụt.
-- **Chính sách = chủ quan, phải khớp quy luật** = **chiến lược công ty** giống "chính sách kinh tế": có thể sai. Thuận quy luật thì thành công; nghịch quy luật thì trả giá và **buộc phải sửa**. Vì thế: *nhận thức quy luật trước, ra quyết định sau.*
+> [!example] Góc QTKD — chiến lược (chính sách) phải thuận quy luật, không cãi quy luật
+>
+> - **Quy luật khách quan, không thủ tiêu được** = cung – cầu, cạnh tranh, giá trị… là khách quan. Doanh nghiệp đặt giá bất chấp cầu thì ế; ép lương dưới thị trường thì mất người — y như giá trần sinh thiếu hụt.
+> - **Chính sách = chủ quan, phải khớp quy luật** = **chiến lược công ty** giống "chính sách kinh tế": có thể sai. Thuận quy luật thì thành công; nghịch quy luật thì trả giá và **buộc phải sửa**. Vì thế: *nhận thức quy luật trước, ra quyết định sau.*
 
 ---
 
@@ -152,16 +162,19 @@ Quy luật cung – cầu **không bị thủ tiêu**; nó "trả đũa" bằng 
 
 KTCT dùng **phép biện chứng duy vật** làm nền, cộng nhiều phương pháp (lôgíc – lịch sử, thống kê, so sánh, phân tích – tổng hợp, quy nạp – diễn dịch, mô hình hóa, tổng kết thực tiễn…). Trong đó **trừu tượng hóa khoa học** là **phương pháp chủ yếu** (tr. 27). Định nghĩa gốc (tr. 28):
 
+> [!quote] tr. 28
 > **Trừu tượng hóa khoa học là phương pháp được tiến hành bằng cách nhận ra và gạt bỏ khỏi quá trình nghiên cứu những yếu tố ngẫu nhiên, những hiện tượng tạm thời, gián tiếp; trên cơ sở đó tách ra được những dấu hiệu điển hình, bền vững, ổn định, trực tiếp của đối tượng nghiên cứu** — từ đó nắm bản chất, khái quát thành phạm trù, phát hiện quy luật. (tr. 28)
 
-📚 **Vì sao phải trừu tượng hóa?** Vì kinh tế **không đưa vào phòng thí nghiệm được**, không dùng được thiết bị kỹ thuật như khoa học tự nhiên; quan hệ kinh tế lại chằng chịt vô số yếu tố. Trừu tượng hóa chính là **"phòng thí nghiệm bằng tư duy"**: cô lập cái bản chất bằng cách tạm gạt cái nhiễu (tr. 28).
+> [!note] Vì sao phải trừu tượng hóa?
+> Vì kinh tế **không đưa vào phòng thí nghiệm được**, không dùng được thiết bị kỹ thuật như khoa học tự nhiên; quan hệ kinh tế lại chằng chịt vô số yếu tố. Trừu tượng hóa chính là **"phòng thí nghiệm bằng tư duy"**: cô lập cái bản chất bằng cách tạm gạt cái nhiễu (tr. 28).
 
-⚠️ **Giới hạn** — phải gạt bỏ mà **không làm sai lệch bản chất**. Ví dụ của sách (tr. 28–29): nghiên cứu quan hệ lợi ích giữa **người lao động** và **người sử dụng sức lao động**, **có thể** gạt bỏ yếu tố *tình cảm cá nhân*, nhưng **tuyệt đối không** được gạt yếu tố **lợi ích kinh tế** — bỏ nó thì quan hệ đang xét *không còn là quan hệ lợi ích kinh tế nữa*, nghiên cứu thành vô nghĩa.
+> [!warning] Giới hạn
+> phải gạt bỏ mà **không làm sai lệch bản chất**. Ví dụ của sách (tr. 28–29): nghiên cứu quan hệ lợi ích giữa **người lao động** và **người sử dụng sức lao động**, **có thể** gạt bỏ yếu tố *tình cảm cá nhân*, nhưng **tuyệt đối không** được gạt yếu tố **lợi ích kinh tế** — bỏ nó thì quan hệ đang xét *không còn là quan hệ lợi ích kinh tế nữa*, nghiên cứu thành vô nghĩa.
 
-### 💼 Góc QTKD — xây mô hình: giữ cái cốt, bỏ cái nhiễu
-
-- **Trừu tượng hóa** = đúng kỹ năng **mô hình hóa / phân tích kinh doanh**: gạt "nhiễu" (biến động nhất thời, chi tiết vụn) để thấy **driver cốt lõi** (cấu trúc chi phí, động lực khách hàng).
-- ⚠️ **Đúng giới hạn** = "all models are wrong, but some are useful" — hữu ích chỉ khi **không cắt nhầm biến quyết định**. Bỏ yếu tố *lợi ích* khỏi phân tích thị trường thì mô hình thành rỗng, y như ví dụ của sách.
+> [!example] Góc QTKD — xây mô hình: giữ cái cốt, bỏ cái nhiễu
+>
+> - **Trừu tượng hóa** = đúng kỹ năng **mô hình hóa / phân tích kinh doanh**: gạt "nhiễu" (biến động nhất thời, chi tiết vụn) để thấy **driver cốt lõi** (cấu trúc chi phí, động lực khách hàng).
+> - ⚠️ **Đúng giới hạn** = "all models are wrong, but some are useful" — hữu ích chỉ khi **không cắt nhầm biến quyết định**. Bỏ yếu tố *lợi ích* khỏi phân tích thị trường thì mô hình thành rỗng, y như ví dụ của sách.
 
 ---
 
@@ -174,12 +187,13 @@ KTCT dùng **phép biện chứng duy vật** làm nền, cộng nhiều phươn
 | **3. Tư tưởng** | xây nền tảng tư tưởng cho người lao động tiến bộ: quý trọng lao động, củng cố niềm tin vào mục tiêu *dân giàu, nước mạnh, dân chủ, công bằng, văn minh* |
 | **4. Phương pháp luận** | làm **nền tảng lý luận** để hiểu sâu các khoa học kinh tế chuyên ngành |
 
-📚 **Làm rõ chức năng phương pháp luận** (ví dụ của sách, tr. 32): kinh tế học **cũng** nghiên cứu tiền và liệt kê **các chức năng của tiền** — nhưng để hiểu **vì sao** tiền có các chức năng ấy một cách khách quan (chứ không do "tâm lý chủ quan thừa nhận"), **cội nguồn bản chất** của tiền trong tiến trình sản xuất – trao đổi, thì phải dựa trên KTCT Mác – Lênin. Tức KTCT cấp cái **"gốc"**, kinh tế học chuyên ngành mô tả cái **"ngọn"**.
+> [!note] Làm rõ chức năng phương pháp luận
+> (ví dụ của sách, tr. 32): kinh tế học **cũng** nghiên cứu tiền và liệt kê **các chức năng của tiền** — nhưng để hiểu **vì sao** tiền có các chức năng ấy một cách khách quan (chứ không do "tâm lý chủ quan thừa nhận"), **cội nguồn bản chất** của tiền trong tiến trình sản xuất – trao đổi, thì phải dựa trên KTCT Mác – Lênin. Tức KTCT cấp cái **"gốc"**, kinh tế học chuyên ngành mô tả cái **"ngọn"**.
 
-### 💼 Góc QTKD — vì sao dân QTKD nên học KTCT
-
-- **Nhận thức + phương pháp luận** = KTCT cho **khung gốc** để hiểu tại sao thị trường vận hành thế: bản chất của **giá trị, tiền, lợi nhuận, cạnh tranh** — thứ mà kinh tế học chỉ mô tả *cách vận hành*, ít giải thích *cội nguồn*.
-- **Thực tiễn** = học để **vận dụng vào quản trị**: đọc được quy luật đằng sau biến động thị trường thì ra quyết định vững hơn, không học vẹt.
+> [!example] Góc QTKD — vì sao dân QTKD nên học KTCT
+>
+> - **Nhận thức + phương pháp luận** = KTCT cho **khung gốc** để hiểu tại sao thị trường vận hành thế: bản chất của **giá trị, tiền, lợi nhuận, cạnh tranh** — thứ mà kinh tế học chỉ mô tả *cách vận hành*, ít giải thích *cội nguồn*.
+> - **Thực tiễn** = học để **vận dụng vào quản trị**: đọc được quy luật đằng sau biến động thị trường thì ra quyết định vững hơn, không học vẹt.
 
 ---
 

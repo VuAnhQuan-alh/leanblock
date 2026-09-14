@@ -1,13 +1,12 @@
 # Ngân hàng đầu tư, shadow banking và repo
 
+> [!info] Về bài này
 > Bài học dựng từ **buổi 19** khoá **Yale ECON 252 *Financial Markets*** (Xuân 2011), giảng viên
 > **Robert J. Shiller** — YouTube `2yycGEFCNYE`.
-> ⚠️ **Chỉ dùng chương 1–4** (`00:00`–`33:04`). Ba mươi tám phút còn lại là khách mời **Jon Fougner**
-> kể chuyện nghề, không thuộc phạm vi bài này. Nội dung giảng thật chỉ **~33 phút**.
-> Mục có mốc `19 MM:SS` là **lấy từ video**, đã đối chiếu ngược với phụ đề gốc bằng script.
-> Mục có 📚 là **kiến thức bài này bổ sung**, không có trong video.
-> Mục có 🇻🇳 là **số liệu Việt Nam**, không có trong video, mọi con số đều trích nguồn.
-> 📌 **Nên đọc trước:** [Bài 3 — Ngân hàng](bai_03_ngan_hang.md) (chạy ngân hàng, bảo hiểm tiền gửi),
+>
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
+>
+> **Nên đọc trước:** [Bài 3 — Ngân hàng](bai_03_ngan_hang.md) (chạy ngân hàng, bảo hiểm tiền gửi),
 > [Bài 9 — Bất động sản](bai_09_bat_dong_san.md) (chứng khoán hoá, dây chuyền tạo lập khoản vay).
 
 Buổi này ngắn và Shiller giảng vội — ông nhìn đồng hồ ở `19 16:49` và nói đang hết giờ vì phải nhường
@@ -22,19 +21,19 @@ Bài này lấp đúng chỗ đó. Bảy trong tám mục của chương trình 
 
 1. [Ngân hàng đầu tư làm gì — và không làm gì](#1-ngân-hàng-đầu-tư-làm-gì--và-không-làm-gì)
 2. [Bảo lãnh phát hành: mua đứt hay nỗ lực cao nhất](#2-bảo-lãnh-phát-hành-mua-đứt-hay-nỗ-lực-cao-nhất)
-3. [📚 Chức năng thật: giữ cho thị trường khỏi tự sụp](#3--chức-năng-thật-giữ-cho-thị-trường-khỏi-tự-sụp)
-4. [📚 Vốn uy tín — bất đẳng thức đứng sau chữ "niềm tin"](#4--vốn-uy-tín--bất-đẳng-thức-đứng-sau-chữ-niềm-tin)
+3. [📚 Chức năng thật: giữ cho thị trường khỏi tự sụp](#3-chức-năng-thật-giữ-cho-thị-trường-khỏi-tự-sụp)
+4. [📚 Vốn uy tín — bất đẳng thức đứng sau chữ "niềm tin"](#4-vốn-uy-tín--bất-đẳng-thức-đứng-sau-chữ-niềm-tin)
 5. [Văn hoá Goldman Sachs, qua ngòi bút một người bạn](#5-văn-hoá-goldman-sachs-qua-ngòi-bút-một-người-bạn)
-6. [⚠️ Một câu về người tự kỷ cần đính chính](#6--một-câu-về-người-tự-kỷ-cần-đính-chính)
+6. [⚠️ Một câu về người tự kỷ cần đính chính](#6-một-câu-về-người-tự-kỷ-cần-đính-chính)
 7. [Glass-Steagall 1933, và việc gỡ bỏ nó năm 1999](#7-glass-steagall-1933-và-việc-gỡ-bỏ-nó-năm-1999)
-8. [📚 Shiller nói chỉ Mỹ làm — Nhật Bản đã làm từ 1948](#8--shiller-nói-chỉ-mỹ-làm--nhật-bản-đã-làm-từ-1948)
+8. [📚 Shiller nói chỉ Mỹ làm — Nhật Bản đã làm từ 1948](#8-shiller-nói-chỉ-mỹ-làm--nhật-bản-đã-làm-từ-1948)
 9. [Quy tắc Volcker và Sửa đổi Lincoln](#9-quy-tắc-volcker-và-sửa-đổi-lincoln)
 10. [Shadow banking và cuộc chạy repo](#10-shadow-banking-và-cuộc-chạy-repo)
-11. [📚 Repo 105 — thứ Shiller không nhắc tới](#11--repo-105--thứ-shiller-không-nhắc-tới)
-12. [📚 Luận điểm Gorton đã được chứng minh chưa](#12--luận-điểm-gorton-đã-được-chứng-minh-chưa)
-13. [📚 Tách bạch có làm hệ thống an toàn hơn không](#13--tách-bạch-có-làm-hệ-thống-an-toàn-hơn-không)
-14. [⚠️ Đối chiếu 2026 — bốn thứ thời gian đã phán xử](#14--đối-chiếu-2026--bốn-thứ-thời-gian-đã-phán-xử)
-15. [🇻🇳 Góc Việt Nam](#15--góc-việt-nam)
+11. [📚 Repo 105 — thứ Shiller không nhắc tới](#11-repo-105--thứ-shiller-không-nhắc-tới)
+12. [📚 Luận điểm Gorton đã được chứng minh chưa](#12-luận-điểm-gorton-đã-được-chứng-minh-chưa)
+13. [📚 Tách bạch có làm hệ thống an toàn hơn không](#13-tách-bạch-có-làm-hệ-thống-an-toàn-hơn-không)
+14. [⚠️ Đối chiếu 2026 — bốn thứ thời gian đã phán xử](#14-đối-chiếu-2026--bốn-thứ-thời-gian-đã-phán-xử)
+15. [🇻🇳 Góc Việt Nam](#15-góc-việt-nam)
 16. [Chương trình](#16-chương-trình)
 17. [Từ điển thuật ngữ](#17-từ-điển-thuật-ngữ)
 18. [Câu hỏi tự kiểm tra](#18-câu-hỏi-tự-kiểm-tra)
@@ -109,7 +108,7 @@ bảo hiểm — và bài giảng gộp chúng làm một.
 
 ---
 
-## 3. 📚 Chức năng thật: giữ cho thị trường khỏi tự sụp
+## 3. Chức năng thật: giữ cho thị trường khỏi tự sụp
 
 Đây là chỗ Shiller nói câu sâu nhất của buổi giảng rồi đi tiếp ngay (`19 08:19`–`08:52`).
 
@@ -138,6 +137,7 @@ Và hãy đọc kỹ kết cục. Nó **không phải** "nhà đầu tư mua nh�
 rút khỏi thị trường**, để lại một thị trường chỉ còn công ty xấu chào bán. Người thiệt không chỉ là
 người mua — cả nền kinh tế mất kênh huy động vốn cho những dự án đáng làm.
 
+> [!note]
 > Đó mới là lý do ngân hàng đầu tư tồn tại. Không phải để bán giúp cổ phiếu — việc đó sang thế kỷ 21
 > ai cũng làm được. Mà để **làm chứng** rằng công ty này không nằm trong nhóm 25 % kia.
 
@@ -147,10 +147,11 @@ trả tiền cho việc phân phối. Bạn trả tiền để mượn uy tín.
 
 ---
 
-## 4. 📚 Vốn uy tín — bất đẳng thức đứng sau chữ "niềm tin"
+## 4. Vốn uy tín — bất đẳng thức đứng sau chữ "niềm tin"
 
 Shiller kết phần này bằng một câu nghe như đạo đức học (`19 09:03`):
 
+> [!quote]
 > *"Tôi nghĩ ngân hàng đầu tư được dựng quanh chuyện niềm tin, nó là việc thiết lập niềm tin."*
 
 Câu đó đúng, nhưng nói thế thì không kiểm chứng được. Thật ra **niềm tin ở đây là một bất đẳng thức**,
@@ -220,6 +221,7 @@ Nhưng ông thấy nhóm hướng dẫn nội bộ thì **thẳng thắn hơn nh
 
 Rồi Shiller làm một việc đáng khen về mặt sư phạm: ông **không kết luận hộ sinh viên** (`19 15:52`).
 
+> [!quote]
 > *"Bạn có thể thấy ghê tởm nó. Kiếm tiền mà quan trọng đến thế à? Nếu bạn thấy ghê tởm thì chắc bạn
 > không nên làm cho Goldman Sachs."*
 
@@ -235,7 +237,7 @@ những hãng này, đó là cách xử lý đúng.
 
 ---
 
-## 6. ⚠️ Một câu về người tự kỷ cần đính chính
+## 6. Một câu về người tự kỷ cần đính chính
 
 Ở `19 07:22`, Shiller chuyển sang hướng nghiệp: nếu bạn đang nghĩ nên đặt mình vào đâu. Rồi ông nói
 (`19 07:30`–`07:45`) rằng nghề này **không hợp với người tự kỷ**, và nếu bạn tự kỷ thì hãy làm
@@ -272,6 +274,7 @@ ngân hàng thương mại và ngược lại. Nó **chẻ đôi ngành** và bu
 chính là đạo luật lập ra FDIC** — cơ quan bảo hiểm tiền gửi liên bang, *"đạo luật bảo hiểm tiền gửi
 cấp quốc gia thành công đầu tiên trên thế giới"*. Và hai việc đó đi liền nhau một cách logic:
 
+> [!quote] 19 17:57
 > *"Nếu anh định bảo hiểm cho các ngân hàng thương mại thì anh phải để mắt xem họ đang làm gì và ngăn
 > họ làm những việc nguy hiểm."* (`19 17:57`)
 
@@ -284,9 +287,10 @@ phải chọn. Họ chọn ngân hàng thương mại, tức **sa thải toàn b
 tập hợp lại và lập ra **Morgan Stanley**. Stanley là cựu sinh viên Yale, còn Morgan là **cháu nội**
 của J.P. Morgan.
 
-⚠️ Shiller nói *"Morgan mất khoảng năm 1911"* (`19 18:46`). **Bản ghi chính thức của Open Yale Courses
-chèn đính chính: 1913.** J.P. Morgan mất ngày 31/3/1913 tại Rome. Chi tiết "cháu nội" thì đúng — Henry
-S. Morgan là con của J.P. Morgan Jr., tức cháu nội J.P. Morgan.
+> [!warning]
+> Shiller nói *"Morgan mất khoảng năm 1911"* (`19 18:46`). **Bản ghi chính thức của Open Yale Courses
+> chèn đính chính: 1913.** J.P. Morgan mất ngày 31/3/1913 tại Rome. Chi tiết "cháu nội" thì đúng — Henry
+> S. Morgan là con của J.P. Morgan Jr., tức cháu nội J.P. Morgan.
 
 Rồi tới việc gỡ bỏ. **Đạo luật Gramm-Leach-Bliley năm 1999** bãi bỏ Glass-Steagall (`19 18:58`–
 `19:13`). Shiller tự sửa tên đạo luật giữa chừng — ông gọi là "Gramm-Leach" rồi bản ghi bổ sung chữ
@@ -300,15 +304,16 @@ Sau khủng hoảng, Glass-Steagall được nhắc lại (`19 19:54`). Câu h�
 hàng gặp rắc rối **có phải vì đã bãi bỏ Glass-Steagall không**? Nhiều người nói có, rằng trong
 Glass-Steagall có một sự khôn ngoan nội tại mà nước Mỹ đã đánh mất (`19 20:33`). Shiller để ngỏ.
 
-[§13](#13--tách-bạch-có-làm-hệ-thống-an-toàn-hơn-không) sẽ khép câu hỏi này lại — bằng một kết quả
+[§13](#13-tách-bạch-có-làm-hệ-thống-an-toàn-hơn-không) sẽ khép câu hỏi này lại — bằng một kết quả
 không giống điều cả hai phe hay giả định.
 
 ---
 
-## 8. 📚 Shiller nói chỉ Mỹ làm — Nhật Bản đã làm từ 1948
+## 8. Shiller nói chỉ Mỹ làm — Nhật Bản đã làm từ 1948
 
 Ở `19 20:43`–`21:13` Shiller đưa ra một khẳng định, có kèm rào đón:
 
+> [!quote]
 > *"Glass-Steagall bằng cách nào đó chỉ giới hạn ở nước Mỹ. Ngoài nước Mỹ, tôi không biết có nước nào
 > không, nhưng theo tôi biết thì Mỹ là nước duy nhất làm điều đó."*
 
@@ -359,6 +364,7 @@ Rồi một quy tắc thứ hai ít người biết: **Sửa đổi Lincoln**, d
 (Dân chủ, Arkansas) đề xuất — *"không liên quan gì tới Abraham Lincoln, theo tôi biết"* (`19 23:36`–
 `23:50`). Đó là **Điều 716 Dodd-Frank** (`19 23:57`). Cơ chế của nó tinh vi hơn Volcker:
 
+> [!quote] 19 24:12–24:28
 > Nó **không cấm** ngân hàng kinh doanh hợp đồng hoán đổi. Nó **chặn nhà kinh doanh hoán đổi khỏi cửa
 > sổ chiết khấu của Fed** (`19 24:12`–`24:28`).
 
@@ -394,9 +400,10 @@ hàng trăm trang văn bản pháp lý.
 Shiller nói ông nghe thuật ngữ **shadow banking** lần đầu từ người của **Pimco**, khoảng năm năm
 trước đó (`19 27:25`).
 
-📚 Chính xác hơn: người phổ biến thuật ngữ này là **Paul McCulley**, khi đó là giám đốc điều hành
-Pimco, trong bài phát biểu tại hội thảo Jackson Hole của Fed **tháng 8/2007**. Trí nhớ của Shiller
-đúng cả về nguồn lẫn khoảng thời gian.
+> [!note]
+> Chính xác hơn: người phổ biến thuật ngữ này là **Paul McCulley**, khi đó là giám đốc điều hành
+> Pimco, trong bài phát biểu tại hội thảo Jackson Hole của Fed **tháng 8/2007**. Trí nhớ của Shiller
+> đúng cả về nguồn lẫn khoảng thời gian.
 
 Định nghĩa (`19 27:52`–`28:05`): **shadow bank là doanh nghiệp hành xử như ngân hàng thương mại nhưng
 về mặt kỹ thuật thì không phải**, nên **không bị quản như ngân hàng thương mại**. Và trong nhiều
@@ -409,6 +416,7 @@ hàng thương mại. Nó phá sản năm 2008, *"và đó là khoảnh khắc t
 Vì sao nó sụp? Shiller dẫn **giáo sư Gary Gorton** ở chính Yale (`19 28:43`): Lehman, như nhiều ngân
 hàng đầu tư khác, **tài trợ cho các khoản đầu tư tự doanh bằng cách vay qua thị trường repo**. Và:
 
+> [!quote] 19 29:11
 > *"Cuộc khủng hoảng ngân hàng mà ta chứng kiến năm 2008, về cơ bản là **một cuộc chạy repo**."*
 > (`19 29:11`)
 
@@ -418,6 +426,7 @@ chất là **khoản vay ngắn hạn có tài sản bảo đảm**.
 
 Và đây là câu chốt của cả buổi (`19 30:28`–`30:43`):
 
+> [!quote]
 > ***"Nó gần như y hệt một khoản tiền gửi. Đó là những khoản vay ngắn hạn mà người ta có thể rút bất
 > kỳ lúc nào."***
 
@@ -455,6 +464,7 @@ tính**.
 
 Và có một chi tiết Shiller không nêu, khiến bức tranh còn tệ hơn:
 
+> [!note]
 > Người gửi tiền có **bảo hiểm tiền gửi** và có **Fed đứng sau**. Người cho vay repo thì **không có
 > gì**. Nên họ chạy sớm hơn, nhanh hơn, và **hợp lý hơn nhiều** so với người gửi tiết kiệm.
 
@@ -463,7 +473,7 @@ Cuộc chạy ngân hàng cổ điển trong [bài 3](bai_03_ngan_hang.md) cần
 
 ---
 
-## 11. 📚 Repo 105 — thứ Shiller không nhắc tới
+## 11. Repo 105 — thứ Shiller không nhắc tới
 
 Shiller giải thích vì sao Lehman **sụp**. Nhưng ông không trả lời câu hỏi đi trước: vì sao **không ai
 thấy nó sắp sụp**?
@@ -491,6 +501,7 @@ $$
 
 Và đây mới là con số nên dán lên tường:
 
+> [!note]
 > **50 tỷ đô đẩy ra khỏi sổ = 1,80 lần TOÀN BỘ vốn chủ sở hữu của công ty.**
 
 Chênh "1,8 lần đòn bẩy" nghe nhỏ. Nhưng xét theo thước đo duy nhất có nghĩa — số vốn đứng ra chịu lỗ
@@ -506,10 +517,11 @@ Chênh "1,8 lần đòn bẩy" nghe nhỏ. Nhưng xét theo thước đo duy nh�
 Đọc hàng cuối: ở cú rơi 8 %, sổ sách **báo cáo** nói công ty vẫn còn vốn dương, sổ sách **thật** thì
 đã âm. Cùng một cú sốc, hai kết luận ngược nhau về việc công ty còn sống hay không.
 
-⚠️ Và phần đáng lo nhất: Valukas kết luận đây **không phải lừa đảo hình sự** — thiếu bằng chứng về ý
-định lừa dối theo chuẩn của điều 10(b) Luật Chứng khoán 1934. Phía bị đơn lập luận rằng cách hạch toán
-tuân thủ chuẩn mực kế toán được chấp nhận chung và **đã được Ernst & Young thông qua**. Kỹ thuật này
-bắt nguồn từ chuẩn mực **FAS 140** do FASB ban hành năm 2000.
+> [!warning]
+> Và phần đáng lo nhất: Valukas kết luận đây **không phải lừa đảo hình sự** — thiếu bằng chứng về ý
+> định lừa dối theo chuẩn của điều 10(b) Luật Chứng khoán 1934. Phía bị đơn lập luận rằng cách hạch toán
+> tuân thủ chuẩn mực kế toán được chấp nhận chung và **đã được Ernst & Young thông qua**. Kỹ thuật này
+> bắt nguồn từ chuẩn mực **FAS 140** do FASB ban hành năm 2000.
 
 Nghĩa là cơ chế này **hợp pháp**. Đó không phải chuyện một công ty phạm luật, mà là chuyện một chuẩn
 mực kế toán cho phép con số quan trọng nhất trên báo cáo bị bóp méo vào đúng ngày duy nhất có người
@@ -517,7 +529,7 @@ mực kế toán cho phép con số quan trọng nhất trên báo cáo bị bó
 
 ---
 
-## 12. 📚 Luận điểm Gorton đã được chứng minh chưa
+## 12. Luận điểm Gorton đã được chứng minh chưa
 
 Shiller trình bày luận điểm "chạy repo" của Gorton một cách có chừng mực — ông nói *"theo Gorton và
 những người đồng tình với ông"* (`19 29:23`), tức đánh dấu rõ đây là quan điểm của một nhóm học giả,
@@ -557,7 +569,7 @@ Gorton" rồi nhớ nó thành một sự thật đã định.
 
 ---
 
-## 13. 📚 Tách bạch có làm hệ thống an toàn hơn không
+## 13. Tách bạch có làm hệ thống an toàn hơn không
 
 Shiller để ngỏ câu hỏi trung tâm của §7 (`19 20:33`): có phải trong Glass-Steagall có một sự khôn
 ngoan nội tại mà nước Mỹ đã đánh mất?
@@ -578,6 +590,7 @@ Hai dòng **đi ngược chiều nhau**, và đó là toàn bộ câu chuyện:
 - **Nhưng tách bạch cắt rủi ro người nộp thuế hơn một nửa** (5,00 % so với 11,50 %). Vì lỗ tự doanh
   không còn chạm vào được tiền gửi có bảo hiểm.
 
+> [!quote]
 > Nên câu hỏi *"tách bạch có làm hệ thống an toàn hơn không"* đặt sai. Câu đúng là: **an toàn cho
 > ai.** Gộp lại an toàn hơn cho cổ đông ngân hàng. Tách ra an toàn hơn cho người nộp thuế. Đó là hai
 > mục tiêu khác nhau, và không có cách nào tối ưu cả hai cùng lúc.
@@ -593,7 +606,7 @@ phiên bản yếu", mà là **một lựa chọn khác về mục tiêu**.
 
 ---
 
-## 14. ⚠️ Đối chiếu 2026 — bốn thứ thời gian đã phán xử
+## 14. Đối chiếu 2026 — bốn thứ thời gian đã phán xử
 
 ### 14.1 Điều 716 bị bãi bỏ sau bốn năm
 
@@ -615,6 +628,7 @@ nhỏ thị trường phái sinh, việc bãi bỏ nó tạo **tiền lệ nguy 
 — nơi quy định giữ lại 5 % bị miễn trừ QRM khoét rỗng năm 2014 — ta có một khuôn mẫu lặp lại đủ nhiều
 lần để đáng gọi tên:
 
+> [!quote]
 > **Luật được thông qua trong khủng hoảng. Quy định hướng dẫn được viết sau khủng hoảng. Khoảng cách
 > giữa hai thời điểm đó là nơi cải cách bị tháo dỡ.**
 
@@ -641,9 +655,10 @@ về cơ bản không đổi so với bản 2013. Người phản đối thì kh
 Lee** gọi đó là bước tiếp theo trong *"cuộc hành quân tới chỗ bãi bỏ Quy tắc Volcker trên thực tế"*.
 Cổ phiếu các ngân hàng lớn tăng trong ngày công bố.
 
-⚠️ Cần nói rõ giới hạn của thông tin: tôi **không xác nhận được** có đề xuất bãi bỏ chính thức nào
-trong 2025–2026. Việc bãi bỏ hoàn toàn bằng con đường ban hành quy định bị chính Dodd-Frank ràng buộc,
-nên hướng thay đổi từ trước tới nay là **giảm gánh nặng tuân thủ**, không phải xoá điều luật.
+> [!warning]
+> Cần nói rõ giới hạn của thông tin: tôi **không xác nhận được** có đề xuất bãi bỏ chính thức nào
+> trong 2025–2026. Việc bãi bỏ hoàn toàn bằng con đường ban hành quy định bị chính Dodd-Frank ràng buộc,
+> nên hướng thay đổi từ trước tới nay là **giảm gánh nặng tuân thủ**, không phải xoá điều luật.
 
 ### 14.3 "Goldman sẽ không bao giờ như xưa" — đúng một nửa, và nửa sai mới quan trọng
 
@@ -694,7 +709,7 @@ chết**, kể cả những dự đoán rất thận trọng.
 
 ---
 
-## 15. 🇻🇳 Góc Việt Nam
+## 15. Góc Việt Nam
 
 ### 15.1 Việt Nam đã có bức tường Glass-Steagall — và nó vẫn vỡ
 
@@ -729,11 +744,12 @@ phiếu là khách hàng tại SCB, và đây là **một trong những thủ đ
 phát hành. Về mặt pháp lý, đơn vị ký hợp đồng môi giới và phát hành là **Công ty Chứng khoán Tân Việt
 (TVSI)** — một pháp nhân riêng, đúng như luật yêu cầu.
 
+> [!note]
 > Bức tường đặt **đúng chỗ trên sơ đồ tổ chức**, và **sai chỗ trong thực tế** — vì nó ngăn cách
 > **pháp nhân**, chứ không ngăn cách **kênh bán hàng**.
 
 Người mua ngồi ở quầy SCB, nói chuyện với nhân viên SCB, trong chi nhánh SCB. Trong mắt họ, bên đứng
-ra làm chứng — dùng đúng khái niệm ở [§3](#3--chức-năng-thật-giữ-cho-thị-trường-khỏi-tự-sụp) — chính
+ra làm chứng — dùng đúng khái niệm ở [§3](#3-chức-năng-thật-giữ-cho-thị-trường-khỏi-tự-sụp) — chính
 là **ngân hàng mà họ tin**. Trong khi về pháp lý, ngân hàng **không bảo lãnh gì** cho trái phiếu đó.
 
 📌 Đây là bài học thiết kế quy định có giá trị vượt ra ngoài vụ án: **rào chắn pháp nhân không tự động
@@ -749,6 +765,7 @@ chức phát hành. Chênh lệch: **3 điểm phần trăm/năm**.
 Với tổn thất khi vỡ nợ 70 %, chênh 3 điểm chỉ bù được cho xác suất vỡ nợ **4,29 %/năm**. Nhưng con số
 thật sự cần nhớ là con số kia:
 
+> [!note]
 > **Phải hưởng chênh lệch 3 điểm trong 23 NĂM liên tục, không sự cố, mới bù lại được MỘT lần vỡ nợ.**
 
 Trái phiếu An Đông vỡ nợ sau khoảng **hai năm**.
@@ -757,11 +774,12 @@ Và con số bình quân **~840 triệu đồng/người** nói lên phần còn
 người chuyên nghiệp. Đó là tiền tiết kiệm cả đời, được chuyển sang một sản phẩm khác **ngay tại quầy
 người ta vào gửi**.
 
-💡 **Quy tắc thực hành:** khi một sản phẩm được chào ở quầy ngân hàng với lãi suất cao hơn tiền gửi,
-hãy hỏi đúng ba câu: (1) **Ai là tổ chức phát hành** — có phải chính ngân hàng này không? (2) **Có
-được bảo hiểm tiền gửi không?** (3) **Nếu tổ chức phát hành mất khả năng trả nợ thì tôi đòi ai?** Nếu
-câu trả lời cho câu 1 là một cái tên bạn chưa nghe bao giờ, thì phần chênh lãi suất kia là **giá của
-rủi ro**, không phải quà tặng.
+> [!example] Quy tắc thực hành:
+> khi một sản phẩm được chào ở quầy ngân hàng với lãi suất cao hơn tiền gửi,
+> hãy hỏi đúng ba câu: (1) **Ai là tổ chức phát hành** — có phải chính ngân hàng này không? (2) **Có
+> được bảo hiểm tiền gửi không?** (3) **Nếu tổ chức phát hành mất khả năng trả nợ thì tôi đòi ai?** Nếu
+> câu trả lời cho câu 1 là một cái tên bạn chưa nghe bao giờ, thì phần chênh lãi suất kia là **giá của
+> rủi ro**, không phải quà tặng.
 
 ### 15.3 Shadow banking Việt Nam: kênh đang được đưa ra ánh sáng
 
@@ -789,7 +807,7 @@ Nghiệp vụ Shiller mô tả ở §1–§2 do **công ty chứng khoán** th�
 khoán Nhà nước. Nhưng phần lớn doanh thu của các công ty chứng khoán Việt Nam đến từ **môi giới và
 cho vay ký quỹ**, không phải từ **bảo lãnh phát hành và tư vấn**.
 
-Điều đó có ý nghĩa hơn vẻ ngoài của nó. Theo mô hình ở [§4](#4--vốn-uy-tín--bất-đẳng-thức-đứng-sau-chữ-niềm-tin),
+Điều đó có ý nghĩa hơn vẻ ngoài của nó. Theo mô hình ở [§4](#4-vốn-uy-tín--bất-đẳng-thức-đứng-sau-chữ-niềm-tin),
 vốn uy tín của một tổ chức bảo lãnh chính là **giá trị hiện tại của dòng phí bảo lãnh tương lai**. Nếu
 phí bảo lãnh chỉ là một phần nhỏ trong doanh thu, thì **vốn uy tín nhỏ**, và bất đẳng thức "nói thật
 có lợi hơn nói dối" yếu đi tương ứng.
@@ -805,6 +823,7 @@ mới nổi phải mất thời gian mới tích luỹ được — và mất r�
 📂 **[thuc_hanh/bai-05-ngan-hang-dau-tu.py](../thuc_hanh/bai-05-ngan-hang-dau-tu.py)** — 591 dòng,
 8 mục.
 
+> [!note]
 > ⚙️ **Chạy:** cần **Python 3.10+**. Không cần cài gói nào, không gọi mạng, không đọc file ngoài.
 > ```bash
 > python3 bai-05-ngan-hang-dau-tu.py
@@ -1089,21 +1108,21 @@ Tat ca assert deu qua. Chay lai cho ket qua giong het.
 ==============================================================================
 ```
 
-### 💡 Tự thử
-
-1. **Mục 1** — đổi `CHIET_KHAU_MUA_DUT_BP` thành `300` (chiết khấu 3 %). Điểm hoà vốn dịch về đâu, và
-   vì sao tổ chức phát hành lại **ít** muốn bán đứt hơn?
-2. **Mục 2** — hạ `GIA_GIU_LAI_TOT` xuống `70`. Ngưỡng sụp đổi thế nào? Điều đó nói gì về những thị
-   trường mà chủ doanh nghiệp **buộc phải** huy động vốn bằng mọi giá?
-3. **Mục 3** — tìm số thương vụ mỗi năm nhỏ nhất khiến vốn uy tín đủ lớn để ngăn một món lợi 200 triệu
-   đô, giả sử thị trường chỉ trừng phạt được 20 %.
-4. **Mục 5** — giữ vốn ở 3 % nhưng hạ `TAC_DONG_GIA_BP` xuống `100`. Công ty có sống không? Kết quả đó
-   nói gì về vai trò của **thanh khoản thị trường** trong một cuộc chạy repo?
-5. **Mục 5** — tìm mức vốn thấp nhất (theo điểm cơ bản) mà công ty vẫn sống sót được.
-6. **Mục 7** — đổi phân phối lỗ để hai mảng **tương quan dương** (cùng xấu, cùng tốt). Lợi ích đa dạng
-   hoá của mô hình gộp còn không?
-7. **Mục 8** — tìm mức lãi suất trái phiếu khiến số năm hoà vốn giảm còn 10 năm. Mức đó có thực tế
-   không, và nếu có thì nó đang nói gì về tổ chức phát hành?
+> [!example] Tự thử
+>
+> 1. **Mục 1** — đổi `CHIET_KHAU_MUA_DUT_BP` thành `300` (chiết khấu 3 %). Điểm hoà vốn dịch về đâu, và
+>    vì sao tổ chức phát hành lại **ít** muốn bán đứt hơn?
+> 2. **Mục 2** — hạ `GIA_GIU_LAI_TOT` xuống `70`. Ngưỡng sụp đổi thế nào? Điều đó nói gì về những thị
+>    trường mà chủ doanh nghiệp **buộc phải** huy động vốn bằng mọi giá?
+> 3. **Mục 3** — tìm số thương vụ mỗi năm nhỏ nhất khiến vốn uy tín đủ lớn để ngăn một món lợi 200 triệu
+>    đô, giả sử thị trường chỉ trừng phạt được 20 %.
+> 4. **Mục 5** — giữ vốn ở 3 % nhưng hạ `TAC_DONG_GIA_BP` xuống `100`. Công ty có sống không? Kết quả đó
+>    nói gì về vai trò của **thanh khoản thị trường** trong một cuộc chạy repo?
+> 5. **Mục 5** — tìm mức vốn thấp nhất (theo điểm cơ bản) mà công ty vẫn sống sót được.
+> 6. **Mục 7** — đổi phân phối lỗ để hai mảng **tương quan dương** (cùng xấu, cùng tốt). Lợi ích đa dạng
+>    hoá của mô hình gộp còn không?
+> 7. **Mục 8** — tìm mức lãi suất trái phiếu khiến số năm hoà vốn giảm còn 10 năm. Mức đó có thực tế
+>    không, và nếu có thì nó đang nói gì về tổ chức phát hành?
 
 ---
 

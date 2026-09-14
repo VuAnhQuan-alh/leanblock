@@ -1,13 +1,15 @@
 # Bài 1 — Đo lường thu nhập quốc gia
 
+> [!info] Về bài này
 > Bài học dựng từ **Chương 10 — Đo lường thu nhập quốc gia** (tr. 215–238)
 > của *N. Gregory Mankiw — **Kinh tế học vĩ mô***, bản dịch của Khoa Kinh tế, **ĐH Kinh tế TP.HCM** (Cengage Learning Asia).
-> 🎯 **Vòng 1.** Đây là bài đầu tiên của phần vĩ mô thật sự. Mọi chương sau đều đứng trên GDP:
+>
+> **Vòng 1.** Đây là bài đầu tiên của phần vĩ mô thật sự. Mọi chương sau đều đứng trên GDP:
 > tăng trưởng đo bằng GDP thực, lạm phát đo bằng chỉ số giảm phát GDP, suy thoái định nghĩa bằng GDP thực.
-> 💼 **Góc QTKD** — ví dụ thêm cho ngành quản trị kinh doanh, **không có trong sách**.
-> 📚 **Mở rộng** — thứ sách nói lướt hoặc để trong hộp phụ.
-> ⚠️ — chỗ dễ hiểu sai, hoặc chỗ sách in sai.
-> 📌 **Cần đọc trước:** [Bài 0 — Từ vi mô sang vĩ mô](bai_00_tu_vi_mo_sang_vi_mo.md), mục sơ đồ chu chuyển.
+>
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
+>
+> **Cần đọc trước:** [Bài 0 — Từ vi mô sang vĩ mô](bai_00_tu_vi_mo_sang_vi_mo.md), mục sơ đồ chu chuyển.
 > Mục 13 dùng lại hệ số tương quan ở [bài 14 môn Xác suất Thống kê](../../eg11-xacxuatthongke/ly_thuyet/bai_14_tuong_quan_va_hoi_quy.md).
 
 ---
@@ -19,19 +21,19 @@
 - [1. Vì sao vĩ mô mở đầu bằng đúng một con số](#1-vì-sao-vĩ-mô-mở-đầu-bằng-đúng-một-con-số)
 - [2. Thu nhập luôn bằng chi tiêu — đồng nhất thức đầu tiên](#2-thu-nhập-luôn-bằng-chi-tiêu--đồng-nhất-thức-đầu-tiên)
 - [3. Định nghĩa GDP — mổ xẻ từng cụm từ](#3-định-nghĩa-gdp--mổ-xẻ-từng-cụm-từ)
-- [4. 📚 Ba thứ định nghĩa cố tình bỏ ra — và hệ quả](#4--ba-thứ-định-nghĩa-cố-tình-bỏ-ra--và-hệ-quả)
+- [4. Ba thứ định nghĩa cố tình bỏ ra — và hệ quả](#4-ba-thứ-định-nghĩa-cố-tình-bỏ-ra--và-hệ-quả)
 - [5. Bốn thành phần — Y = C + I + G + NX](#5-bốn-thành-phần--y--c--i--g--nx)
-- [6. ⚠️ Ba cái bẫy trong bốn thành phần](#6--ba-cái-bẫy-trong-bốn-thành-phần)
+- [6. Ba cái bẫy trong bốn thành phần](#6-ba-cái-bẫy-trong-bốn-thành-phần)
 - [7. Bảng 1 — GDP Hoa Kỳ năm 2009 nhìn từ bốn thành phần](#7-bảng-1--gdp-hoa-kỳ-năm-2009-nhìn-từ-bốn-thành-phần)
-- [8. 📚 Năm thước đo thu nhập khác — hộp "Theo dòng thời sự", tr. 222](#8--năm-thước-đo-thu-nhập-khác--hộp-theo-dòng-thời-sự-tr-222)
+- [8. Năm thước đo thu nhập khác — hộp "Theo dòng thời sự", tr. 222](#8-năm-thước-đo-thu-nhập-khác--hộp-theo-dòng-thời-sự-tr-222)
 - [9. GDP thực và GDP danh nghĩa](#9-gdp-thực-và-gdp-danh-nghĩa)
 - [10. Chỉ số giảm phát GDP](#10-chỉ-số-giảm-phát-gdp)
 - [11. GDP thực Hoa Kỳ và suy thoái — Hình 2, tr. 229](#11-gdp-thực-hoa-kỳ-và-suy-thoái--hình-2-tr-229)
 - [12. GDP có phải một thước đo tốt về phúc lợi kinh tế?](#12-gdp-có-phải-một-thước-đo-tốt-về-phúc-lợi-kinh-tế)
 - [13. GDP và chất lượng cuộc sống — Bảng 3, tr. 233](#13-gdp-và-chất-lượng-cuộc-sống--bảng-3-tr-233)
-- [14. 📚 Nền kinh tế ngầm — hộp "Theo dòng thời sự", tr. 232–233](#14--nền-kinh-tế-ngầm--hộp-theo-dòng-thời-sự-tr-232233)
-- [15. 💼 Góc QTKD — dùng GDP thế nào trong công việc thật](#15--góc-qtkd--dùng-gdp-thế-nào-trong-công-việc-thật)
-- [16. 📚 Đối chiếu Việt Nam — cách đọc số liệu GDP trong nước](#16--đối-chiếu-việt-nam--cách-đọc-số-liệu-gdp-trong-nước)
+- [14. Nền kinh tế ngầm — hộp "Theo dòng thời sự", tr. 232–233](#14-nền-kinh-tế-ngầm--hộp-theo-dòng-thời-sự-tr-232233)
+- [15. Góc QTKD — dùng GDP thế nào trong công việc thật](#15-góc-qtkd--dùng-gdp-thế-nào-trong-công-việc-thật)
+- [16. Đối chiếu Việt Nam — cách đọc số liệu GDP trong nước](#16-đối-chiếu-việt-nam--cách-đọc-số-liệu-gdp-trong-nước)
 - [17. Code minh hoạ](#17-code-minh-hoạ)
 - [18. Tự thử](#18-tự-thử)
 - [19. Từ điển thuật ngữ](#19-từ-điển-thuật-ngữ)
@@ -47,6 +49,7 @@
 
 Sách mở chương bằng một tình huống rất gần với sinh viên sắp ra trường (tr. 215):
 
+> [!quote]
 > *"Khi bạn hoàn thành việc học hành và bắt đầu tìm kiếm một công việc toàn thời gian, ở phạm vi
 > tổng quát thì kinh nghiệm tìm việc của bạn sẽ được định hình bởi những điều kiện kinh tế hiện hành."*
 
@@ -68,6 +71,7 @@ liệt kê bốn con số hay gặp trên báo (tr. 215):
 
 Sách nhắc lại hai định nghĩa ngay ở chú thích trang 215:
 
+> [!note]
 > **Kinh tế vi mô** (*microeconomics*): nghiên cứu cách thức ra quyết định của các hộ gia đình và các
 > doanh nghiệp và cách thức tương tác giữa họ trên các thị trường.
 >
@@ -77,6 +81,7 @@ Sách nhắc lại hai định nghĩa ngay ở chú thích trang 215:
 Điểm quan trọng nhất mà sinh viên hay bỏ qua nằm ở tr. 216. Vĩ mô **không phải** một môn học mới với
 bộ công cụ mới:
 
+> [!quote]
 > *"…các công cụ cơ bản về cung và cầu là trung tâm cho phân tích kinh tế vĩ mô giống như vai trò
 > trung tâm của chúng trong phân tích kinh tế vi mô."*
 
@@ -84,9 +89,10 @@ Bạn không vứt bỏ gì cả từ môn vi mô. Bạn chỉ đổi **đối t
 thị trường vốn vay, thị trường ngoại hối, thị trường "toàn bộ hàng hoá". Bài 0 đã liệt kê chính xác
 những gì mang theo được.
 
-⚠️ Nhưng sách cũng cảnh báo ngay: *"việc nghiên cứu nền kinh tế trên bình diện tổng thể đặt ra một số
-thách thức mới và hấp dẫn"* (tr. 216). Thách thức lớn nhất là **cái đúng với một doanh nghiệp có thể
-sai với cả nền kinh tế** — bài 11 sẽ gặp lại chuyện này dưới tên *nghịch lý tiết kiệm*.
+> [!warning]
+> Nhưng sách cũng cảnh báo ngay: *"việc nghiên cứu nền kinh tế trên bình diện tổng thể đặt ra một số
+> thách thức mới và hấp dẫn"* (tr. 216). Thách thức lớn nhất là **cái đúng với một doanh nghiệp có thể
+> sai với cả nền kinh tế** — bài 11 sẽ gặp lại chuyện này dưới tên *nghịch lý tiết kiệm*.
 
 ---
 
@@ -95,12 +101,14 @@ sai với cả nền kinh tế** — bài 11 sẽ gặp lại chuyện này dư�
 Đây là mệnh đề nền móng của cả môn học, và nó **không phải một giả định**. Nó đúng vì cách các biến
 được định nghĩa.
 
+> [!quote]
 > *"GDP đo lường đồng thời hai chỉ tiêu: tổng thu nhập của tất cả mọi người trong nền kinh tế và tổng
 > chi tiêu cho sản lượng hàng hóa và dịch vụ của nền kinh tế. GDP có thể đóng vai trò đo lường cả tổng
 > thu nhập và tổng chi tiêu bởi vì hai chỉ tiêu này thực sự là như nhau."* — tr. 216
 
 Lý do chỉ có một câu, và nó ngắn đến mức dễ bị lướt qua (tr. 216–217):
 
+> [!quote]
 > *"thu nhập của nền kinh tế thì cũng bằng chi tiêu của nền kinh tế đó bởi vì **mỗi giao dịch đều có
 > hai bên: người bán và người mua**."*
 
@@ -142,6 +150,7 @@ Sách vẽ lại biểu đồ đã gặp ở chương 2 (bạn đã học ở b�
 
 Sách nói rõ hệ quả (tr. 217):
 
+> [!quote]
 > *"Chúng ta có thể tính toán GDP cho nền kinh tế này theo một trong hai cách: bằng việc cộng tổng chi
 > tiêu của các hộ gia đình hoặc bằng việc cộng tổng thu nhập (tiền lương, tiền thuê và lợi nhuận) được
 > trả bởi các doanh nghiệp."*
@@ -149,11 +158,12 @@ Sách nói rõ hệ quả (tr. 217):
 Mục 1 của [code minh hoạ](#17-code-minh-hoạ) dựng một nền kinh tế đồ chơi bốn giao dịch và kiểm bằng
 `assert` rằng hai cách đếm ra đúng một con số.
 
-### ⚠️ Sơ đồ này đơn giản hoá cái gì
+### Sơ đồ này đơn giản hoá cái gì
 
 Sách tự thừa nhận ngay (tr. 218): nền kinh tế thật phức tạp hơn — hộ gia đình **nộp thuế** và **tiết
 kiệm**, chính phủ và doanh nghiệp cũng **mua** hàng hoá. Nhưng:
 
+> [!quote]
 > *"…nguyên tắc cơ bản vẫn giữ nguyên: Bất kể một hộ gia đình, chính phủ, hay doanh nghiệp mua một
 > hàng hóa hay dịch vụ, thì giao dịch đó đều có một người mua và người bán. Như vậy, đối với tổng thể
 > nền kinh tế, chi tiêu và thu nhập luôn bằng nhau."*
@@ -166,6 +176,7 @@ chỉ là cùng một câu ở tr. 218 viết lại.
 
 ## 3. Định nghĩa GDP — mổ xẻ từng cụm từ
 
+> [!quote]
 > **Tổng sản phẩm quốc nội (GDP)** (*gross domestic product*): **giá trị thị trường** của **tất cả**
 > các hàng hóa và dịch vụ **cuối cùng** **được sản xuất** trong **một quốc gia** trong **một khoảng
 > thời gian nhất định**. — chú thích tr. 218
@@ -179,16 +190,19 @@ vì gần như mọi tranh cãi về GDP đều nằm ở một trong sáu cụm
 Sách mở đầu bằng câu châm ngôn *"Bạn không thể so sánh những quả táo với những quả cam"* rồi nói:
 **GDP làm đúng như vậy.** Nó cộng táo với cam được, nhờ dùng **giá thị trường** làm quy đổi.
 
+> [!quote]
 > *"Bởi vì giá cả thị trường đo lường số tiền mà người ta sẵn lòng trả cho những hàng hóa khác nhau,
 > cho nên chúng phản ánh giá trị của những hàng hoá đó. Nếu giá của một quả táo gấp đôi giá của một
 > quả cam, thì một quả táo đóng góp nhiều gấp đôi vào GDP."* — tr. 218
 
-💼 Đây chính là khái niệm **giá sẵn lòng trả** của [bài 4 môn vi mô](../../eg13-kinhtevimo-micro/ly_thuyet/bai_04_thang_du_va_chi_phi_cua_thue.md).
-Vĩ mô không phát minh ra gì mới — nó chỉ lấy giá thị trường làm **tỷ giá quy đổi giữa các loại hàng
-hoá**, để cộng được mọi thứ vào một con số.
+> [!example]
+> Đây chính là khái niệm **giá sẵn lòng trả** của [bài 4 môn vi mô](../../eg13-kinhtevimo-micro/ly_thuyet/bai_04_thang_du_va_chi_phi_cua_thue.md).
+> Vĩ mô không phát minh ra gì mới — nó chỉ lấy giá thị trường làm **tỷ giá quy đổi giữa các loại hàng
+> hoá**, để cộng được mọi thứ vào một con số.
 
-⚠️ Và đây cũng là **lỗ hổng lớn nhất**: cái gì không có giá thị trường thì không vào được GDP. Mục 4
-và mục 12 quay lại chuyện này.
+> [!warning]
+> Và đây cũng là **lỗ hổng lớn nhất**: cái gì không có giá thị trường thì không vào được GDP. Mục 4
+> và mục 12 quay lại chuyện này.
 
 ### ② *"…của tất cả…"* (tr. 219)
 
@@ -198,6 +212,7 @@ Một chi tiết hay: **nhà ở tự sở hữu**. Nhà cho thuê thì dễ —
 vừa là thu nhập của chủ nhà. Nhưng người tự ở nhà mình thì không trả tiền thuê cho ai. Sách kể cách
 xử lý (tr. 219):
 
+> [!quote]
 > *"Chính phủ tính dịch vụ nhà ở mà chủ sở hữu đang cư trú vào GDP bằng cách **ước tính giá trị cho
 > thuê** của nó. Trong thực tế, GDP được dựa trên giả định rằng chủ sở hữu đang cho chính mình thuê nhà."*
 
@@ -210,6 +225,7 @@ Hai thứ **không** vào GDP:
 
 Và câu nổi tiếng nhất của cả chương (tr. 219):
 
+> [!quote]
 > *"…khi Karen trả tiền để Doug cắt cỏ cho cô ấy, giao dịch đó là một phần của GDP. Nếu Karen đã kết
 > hôn với Doug, thì tình huống sẽ thay đổi. Mặc dù Doug có thể tiếp tục cắt cỏ cho Karen, nhưng giá
 > trị của việc cắt cỏ bây giờ bị loại khỏi GDP bởi vì dịch vụ của Doug không còn được bán trên thị
@@ -231,9 +247,10 @@ Ví dụ của sách: International Paper sản xuất giấy → Hallmark dùng
 Lý do: *"giá trị của những hàng hóa trung gian đã được tính vào giá cả của các hàng hóa cuối cùng"*.
 Cộng cả hai là **tính trùng** — GDP sẽ tính giá trị của tờ giấy **hai lần**.
 
-⚠️ **Một ngoại lệ quan trọng** (tr. 220): nếu hàng trung gian được đưa vào **hàng tồn kho** thay vì
-dùng ngay, thì tại thời điểm đó nó **được coi là "cuối cùng"**, và tính vào GDP như một khoản đầu tư.
-Khi hàng tồn kho được bán ra sau đó, lượng tồn kho giảm đi **được trừ ra khỏi GDP**.
+> [!warning] Một ngoại lệ quan trọng
+> (tr. 220): nếu hàng trung gian được đưa vào **hàng tồn kho** thay vì
+> dùng ngay, thì tại thời điểm đó nó **được coi là "cuối cùng"**, và tính vào GDP như một khoản đầu tư.
+> Khi hàng tồn kho được bán ra sau đó, lượng tồn kho giảm đi **được trừ ra khỏi GDP**.
 
 Nếu bạn thấy quy tắc này rắc rối, hãy nhớ mục đích của nó: **GDP muốn đo giá trị được sản xuất trong
 kỳ**. Cái xe Ford lắp xong tháng 12 năm nay thì thuộc GDP năm nay, dù bán được vào tháng 3 năm sau.
@@ -253,10 +270,11 @@ Chỉ tính thứ **hiện đang được sản xuất**, không tính giao dị
 | Ford sản xuất và bán một xe mới |    ✅     |
 | bán lại một chiếc xe đã sử dụng |    ❌     |
 
-⚠️ Câu hỏi ôn tập số 6 (tr. 236) của sách kiểm đúng chỗ này: *"Nhiều năm trước đây, Peggy đã trả 500
-USD để thu âm đĩa hát. Hôm nay, cô ấy bán các album của mình với giá 100 USD. Việc này ảnh hưởng như
-thế nào đến GDP hiện tại?"* — Câu trả lời: **không ảnh hưởng** đến phần "sản xuất". Đĩa hát đã tính
-vào GDP của năm thu âm. Chỉ có **dịch vụ môi giới** (nếu có) mới là sản xuất mới của năm nay.
+> [!warning]
+> Câu hỏi ôn tập số 6 (tr. 236) của sách kiểm đúng chỗ này: *"Nhiều năm trước đây, Peggy đã trả 500
+> USD để thu âm đĩa hát. Hôm nay, cô ấy bán các album của mình với giá 100 USD. Việc này ảnh hưởng như
+> thế nào đến GDP hiện tại?"* — Câu trả lời: **không ảnh hưởng** đến phần "sản xuất". Đĩa hát đã tính
+> vào GDP của năm thu âm. Chỉ có **dịch vụ môi giới** (nếu có) mới là sản xuất mới của năm nay.
 
 ### ⑥ *"…trong phạm vi một quốc gia…"* (tr. 220)
 
@@ -269,10 +287,11 @@ vào GDP của năm thu âm. Chỉ có **dịch vụ môi giới** (nếu có) m
 
 Đây chính là chỗ **GDP khác GNP** — mục 8 nói kỹ.
 
-💼 Với Việt Nam, chữ "trong phạm vi một quốc gia" đặc biệt quan trọng: phần lớn kim ngạch xuất khẩu
-điện tử là của doanh nghiệp FDI. Sản lượng đó **vào GDP Việt Nam** (sản xuất trên lãnh thổ Việt Nam)
-nhưng phần lợi nhuận chuyển về công ty mẹ **không vào GNP Việt Nam**. Vì thế GNI của Việt Nam thấp
-hơn GDP một cách có hệ thống — điều không đúng với hầu hết các nước phát triển.
+> [!example]
+> Với Việt Nam, chữ "trong phạm vi một quốc gia" đặc biệt quan trọng: phần lớn kim ngạch xuất khẩu
+> điện tử là của doanh nghiệp FDI. Sản lượng đó **vào GDP Việt Nam** (sản xuất trên lãnh thổ Việt Nam)
+> nhưng phần lợi nhuận chuyển về công ty mẹ **không vào GNP Việt Nam**. Vì thế GNI của Việt Nam thấp
+> hơn GDP một cách có hệ thống — điều không đúng với hầu hết các nước phát triển.
 
 ### ⑦ *"…trong một khoảng thời gian nhất định…"* (tr. 220–221)
 
@@ -285,13 +304,14 @@ Thường là **một năm** hoặc **một quý**. Hai quy ước kỹ thuật 
 
 Sách nói rõ: *"Số liệu GDP được báo cáo trong các bản tin luôn được điều chỉnh theo mùa"* (tr. 221).
 
-⚠️ 💼 Suy ra một điều rất thực dụng: **đừng so quý này với quý trước bằng số liệu thô của chính công
-ty bạn.** Doanh thu quý IV cao hơn quý III chưa chắc là bạn đang tăng trưởng — có thể chỉ là Tết. So
-**cùng kỳ năm trước**, hoặc tự điều chỉnh mùa vụ.
+> [!warning]
+> 💼 Suy ra một điều rất thực dụng: **đừng so quý này với quý trước bằng số liệu thô của chính công
+> ty bạn.** Doanh thu quý IV cao hơn quý III chưa chắc là bạn đang tăng trưởng — có thể chỉ là Tết. So
+> **cùng kỳ năm trước**, hoặc tự điều chỉnh mùa vụ.
 
 ---
 
-## 4. 📚 Ba thứ định nghĩa cố tình bỏ ra — và hệ quả
+## 4. Ba thứ định nghĩa cố tình bỏ ra — và hệ quả
 
 Gộp lại từ tr. 219 và tr. 230–231, GDP bỏ ra ba nhóm, và mỗi nhóm gây một loại sai lệch khác nhau:
 
@@ -312,6 +332,7 @@ $$Y = C + I + G + NX$$
 
 Sách nhấn mạnh đây là một **đồng nhất thức**, không phải một lý thuyết (tr. 221):
 
+> [!quote]
 > *"Phương trình này là một đồng nhất thức – một phương trình phải đúng vì cách thức xác định các biến
 > trong phương trình."*
 
@@ -320,6 +341,7 @@ thứ năm, và không đô la nào nằm ngoài.
 
 ### Tiêu dùng — C
 
+> [!quote]
 > **Tiêu dùng** (*consumption*): chi tiêu của các hộ gia đình cho các hàng hóa và dịch vụ, **ngoại trừ
 > việc mua nhà ở mới**. — chú thích tr. 222
 
@@ -336,11 +358,14 @@ nhưng hệ thống tài khoản quốc gia xếp nó vào C.
 
 ### Đầu tư — I
 
+> [!quote]
 > **Đầu tư** (*investment*): chi tiêu cho **thiết bị sản xuất, hàng tồn kho và các công trình xây
 > dựng**, bao gồm cả mua nhà ở mới của các hộ gia đình. — chú thích tr. 223
 
-⚠️ **Đây là cái bẫy ngôn ngữ lớn nhất của chương.** Sách viết hẳn một đoạn cảnh báo (tr. 223):
+> [!warning] Đây là cái bẫy ngôn ngữ lớn nhất của chương.
+> Sách viết hẳn một đoạn cảnh báo (tr. 223):
 
+> [!quote]
 > *"Lưu ý rằng việc hoạch toán GDP sử dụng từ đầu tư khác với cách mà bạn có thể nghe về thuật ngữ này
 > trong trò chuyện hàng ngày. Khi bạn nghe từ **đầu tư**, bạn có thể nghĩ đến các khoản đầu tư tài
 > chính, chẳng hạn như là cổ phiếu, trái phiếu và các quỹ hỗ tương… Trái lại, bởi vì GDP đo lường chi
@@ -357,10 +382,12 @@ mua cổ phiếu.
 
 ### Mua sắm của chính phủ — G
 
+> [!quote]
 > **Mua sắm của chính phủ** (*government purchases*): chi tiêu cho hàng hóa và dịch vụ bởi chính quyền
 > địa phương, tiểu bang và liên bang. — chú thích tr. 223
 
-⚠️ **Chi chuyển nhượng không phải G.** Sách phân biệt rất rõ (tr. 224):
+> [!warning] Chi chuyển nhượng không phải G.
+> Sách phân biệt rất rõ (tr. 224):
 
 | Khoản chi của chính phủ                   | Có phải G? | Vì sao                                                                      |
 | ----------------------------------------- | :--------: | --------------------------------------------------------------------------- |
@@ -371,12 +398,14 @@ mua cổ phiếu.
 Sách gọi tên rất gọn: *"Từ quan điểm kinh tế vĩ mô, chi chuyển nhượng giống như là một loại **thuế
 âm**"* (tr. 224).
 
-💼 Hệ quả trực tiếp: khi đọc tin "chính phủ chi X nghìn tỷ cho gói hỗ trợ", phải hỏi ngay **gói đó là
-mua sắm hay chuyển nhượng**. Gói xây đường tác động vào GDP theo cách khác hẳn gói phát tiền mặt —
-bài 12 sẽ tính rõ chênh lệch này qua **số nhân chi tiêu**.
+> [!example]
+> Hệ quả trực tiếp: khi đọc tin "chính phủ chi X nghìn tỷ cho gói hỗ trợ", phải hỏi ngay **gói đó là
+> mua sắm hay chuyển nhượng**. Gói xây đường tác động vào GDP theo cách khác hẳn gói phát tiền mặt —
+> bài 12 sẽ tính rõ chênh lệch này qua **số nhân chi tiêu**.
 
 ### Xuất khẩu ròng — NX
 
+> [!quote]
 > **Xuất khẩu ròng** (*net exports*): chi tiêu của người nước ngoài cho hàng hóa được sản xuất trong
 > nước (xuất khẩu) **trừ đi** chi tiêu của cư dân trong nước cho hàng hóa nước ngoài (nhập khẩu).
 > — chú thích tr. 224
@@ -385,7 +414,7 @@ $$NX = \text{xuất khẩu} - \text{nhập khẩu}$$
 
 ---
 
-## 6. ⚠️ Ba cái bẫy trong bốn thành phần
+## 6. Ba cái bẫy trong bốn thành phần
 
 ### Bẫy 1 — "nhập khẩu làm giảm GDP"
 
@@ -408,9 +437,10 @@ C, I hoặc G — vì ba thành phần đó được đo là *tổng chi tiêu*,
 
 Mục 5 của [code minh hoạ](#17-code-minh-hoạ) chứng minh bằng `assert`.
 
-💼 Điều này **không** có nghĩa là "dùng hàng nội không giúp gì". Nó giúp — nhưng qua một cơ chế khác:
-chuyển cầu từ hàng ngoại sang hàng nội làm **tăng sản xuất trong nước**, và khi đó C-nội-địa tăng
-trong khi nhập khẩu giảm. Cái sai là lý lẽ *"vì nhập khẩu bị trừ khỏi công thức"*.
+> [!example]
+> Điều này **không** có nghĩa là "dùng hàng nội không giúp gì". Nó giúp — nhưng qua một cơ chế khác:
+> chuyển cầu từ hàng ngoại sang hàng nội làm **tăng sản xuất trong nước**, và khi đó C-nội-địa tăng
+> trong khi nhập khẩu giảm. Cái sai là lý lẽ *"vì nhập khẩu bị trừ khỏi công thức"*.
 
 ### Bẫy 2 — bán hàng tồn kho không tạo ra GDP
 
@@ -431,7 +461,8 @@ Bài tập 2b (tr. 236): *"Aunt Jane mua một ngôi nhà mới."* Sách nói r�
 mua một ngôi nhà mới là một hình thức của chi tiêu hộ gia đình và được phân loại là **đầu tư** thay vì
 tiêu dùng."*
 
-⚠️ Và nhớ chữ **mới**. Mua lại nhà cũ không vào GDP (cụm từ ⑤ ở mục 3) — chỉ có phí môi giới mới vào.
+> [!warning]
+> Và nhớ chữ **mới**. Mua lại nhà cũ không vào GDP (cụm từ ⑤ ở mục 3) — chỉ có phí môi giới mới vào.
 
 ---
 
@@ -458,8 +489,9 @@ Ba điều đáng rút ra:
    bài 9 sẽ cho thấy nó gắn chặt với dòng vốn vào Hoa Kỳ.
 3. **Bốn thành phần cộng lại đúng bằng Y.** 10.093 + 1.623 + 2.933 − 390 = 14.259. ✓
 
-⚠️ **Một chi tiết số học đáng để ý.** Sách viết dân số Hoa Kỳ 2009 là *"307 triệu người"* (tr. 224).
-Nhưng 14.259 tỷ ÷ 307 triệu = **46.446 USD**, còn Bảng 1 in **46.372 USD**. Chênh 74 USD.
+> [!warning] Một chi tiết số học đáng để ý.
+> Sách viết dân số Hoa Kỳ 2009 là *"307 triệu người"* (tr. 224).
+> Nhưng 14.259 tỷ ÷ 307 triệu = **46.446 USD**, còn Bảng 1 in **46.372 USD**. Chênh 74 USD.
 
 Đây **không phải sách in sai**: con số 46.372 ứng với dân số **307,5 triệu**, tức sách đã làm tròn dân
 số xuống "307 triệu" khi viết trong đoạn văn. Mục 3 của code kiểm lại điều này.
@@ -469,7 +501,7 @@ số xuống "307 triệu" khi viết trong đoạn văn. Mục 3 của code ki�
 
 ---
 
-## 8. 📚 Năm thước đo thu nhập khác — hộp "Theo dòng thời sự", tr. 222
+## 8. Năm thước đo thu nhập khác — hộp "Theo dòng thời sự", tr. 222
 
 Sách xếp năm thước đo theo thứ tự **từ lớn nhất đến nhỏ nhất**:
 
@@ -494,28 +526,29 @@ Ví dụ của sách (tr. 222): công dân Canada làm việc tạm thời tại
 Sách nói với hầu hết các nước hai con số *"khá giống nhau"* vì công dân trong nước làm ra hầu hết sản
 lượng nội địa.
 
-💼 ⚠️ **Nhưng với Việt Nam thì không.** Khu vực FDI đóng góp phần rất lớn vào sản lượng công nghiệp và
-xuất khẩu; lợi nhuận chuyển về công ty mẹ ở nước ngoài nằm trong GDP Việt Nam nhưng không nằm trong
-GNI Việt Nam. Vì thế **GNI Việt Nam thấp hơn GDP một cách có hệ thống** — điều ngược lại với Nhật Bản
-hay Đức, nơi thu nhập từ đầu tư ra nước ngoài làm GNI **cao hơn** GDP.
+> [!example]
+> ⚠️ **Nhưng với Việt Nam thì không.** Khu vực FDI đóng góp phần rất lớn vào sản lượng công nghiệp và
+> xuất khẩu; lợi nhuận chuyển về công ty mẹ ở nước ngoài nằm trong GDP Việt Nam nhưng không nằm trong
+> GNI Việt Nam. Vì thế **GNI Việt Nam thấp hơn GDP một cách có hệ thống** — điều ngược lại với Nhật Bản
+> hay Đức, nơi thu nhập từ đầu tư ra nước ngoài làm GNI **cao hơn** GDP.
 
 Khi so sánh "người dân giàu tới đâu", **GNI bình quân đầu người là thước đo sát hơn GDP đầu người.**
 Ngân hàng Thế giới xếp hạng nhóm thu nhập của các nước cũng dùng GNI, không dùng GDP.
 
-### 📚 Khấu hao và chữ "gross"
-
-Chữ **G** trong GDP là *gross* — **tổng**, nghĩa là **chưa trừ khấu hao**.
-
-> **Khấu hao** *"là sự hao mòn trữ lượng các nhà xưởng và thiết bị của nền kinh tế, như là xe tải bị
-> gỉ sét và máy tính bị lỗi thời."* — tr. 222
-
-Sách ghi chú một tên gọi rất gợi: trong tài khoản quốc gia của Hoa Kỳ, khấu hao được gọi là **"tiêu
-dùng vốn cố định"** (tr. 222). Cách gọi ấy nói đúng bản chất: mỗi năm nền kinh tế "ăn" mất một phần
-kho vốn của chính nó.
-
-💼 Với doanh nghiệp, đây đúng là chênh lệch giữa **EBITDA** và **EBIT**. Một nền kinh tế có GDP tăng
-nhưng khấu hao tăng nhanh hơn thì thực chất đang **nghèo đi**, giống hệt một công ty tăng doanh thu
-nhờ vắt kiệt máy móc không bảo dưỡng.
+> [!note] Khấu hao và chữ "gross"
+>
+> Chữ **G** trong GDP là *gross* — **tổng**, nghĩa là **chưa trừ khấu hao**.
+>
+> > **Khấu hao** *"là sự hao mòn trữ lượng các nhà xưởng và thiết bị của nền kinh tế, như là xe tải bị
+> > gỉ sét và máy tính bị lỗi thời."* — tr. 222
+>
+> Sách ghi chú một tên gọi rất gợi: trong tài khoản quốc gia của Hoa Kỳ, khấu hao được gọi là **"tiêu
+> dùng vốn cố định"** (tr. 222). Cách gọi ấy nói đúng bản chất: mỗi năm nền kinh tế "ăn" mất một phần
+> kho vốn của chính nó.
+>
+> 💼 Với doanh nghiệp, đây đúng là chênh lệch giữa **EBITDA** và **EBIT**. Một nền kinh tế có GDP tăng
+> nhưng khấu hao tăng nhanh hơn thì thực chất đang **nghèo đi**, giống hệt một công ty tăng doanh thu
+> nhờ vắt kiệt máy móc không bảo dưỡng.
 
 ---
 
@@ -531,6 +564,7 @@ một trong hai điều sau phải đúng:
 
 Toàn bộ mục này chỉ để tách hai thứ đó ra.
 
+> [!quote]
 > **GDP thực** (*real GDP*): sản lượng hàng hóa và dịch vụ được định giá theo **mức giá cố định**.
 > — chú thích tr. 226
 
@@ -578,12 +612,14 @@ Nền kinh tế chỉ sản xuất hai hàng hoá: **xúc xích** và **bánh m�
 
 Sách tóm lại (tr. 227):
 
+> [!quote]
 > *"Bởi vì GDP thực không bị ảnh hưởng bởi những thay đổi của giá cả, cho nên sự thay đổi của GDP thực
 > chỉ phản ánh sự thay đổi của số lượng hàng hóa và dịch vụ được sản xuất. **Vì vậy, GDP thực là thước
 > đo sản lượng hàng hóa và dịch vụ của nền kinh tế.**"*
 
 Và hệ quả cho cách đọc tin (tr. 227):
 
+> [!quote]
 > *"Khi các nhà kinh tế nói về GDP của nền kinh tế, họ thường đề cập đến GDP thực chứ không phải GDP
 > danh nghĩa. Và khi họ nói về sự tăng trưởng của nền kinh tế, họ đo lường sự tăng trưởng đó bằng sự
 > thay đổi phần trăm của GDP thực."*
@@ -598,6 +634,7 @@ GDP danh nghĩa.
 
 Có hai số rồi thì tự nhiên có số thứ ba:
 
+> [!quote]
 > **Chỉ số giảm phát GDP** (*GDP deflator*): thước đo mức giá được tính toán bằng tỷ số của GDP danh
 > nghĩa so với GDP thực nhân với 100. — chú thích tr. 227
 
@@ -611,7 +648,8 @@ $$\text{Chỉ số giảm phát GDP} = \frac{\text{GDP danh nghĩa}}{\text{GDP t
 | 2011 |        600 |  350 | (600/350) × 100 = **171**   |
 | 2012 |      1.200 |  500 | (1.200/500) × 100 = **240** |
 
-⚠️ **Chỉ số của năm cơ sở luôn bằng 100** — vì hai GDP bằng nhau ở năm đó (tr. 228).
+> [!warning] Chỉ số của năm cơ sở luôn bằng 100
+> vì hai GDP bằng nhau ở năm đó (tr. 228).
 
 ### Vì sao nó đo được giá cả
 
@@ -622,11 +660,13 @@ Sách chứng minh bằng hai thí nghiệm tưởng tượng (tr. 228):
 | **sản lượng tăng, giá không đổi** | tăng       | tăng      | **không đổi**    |
 | **giá tăng, sản lượng không đổi** | tăng       | không đổi | **tăng**         |
 
+> [!quote]
 > *"Lưu ý rằng, trong cả hai trường hợp, chỉ số giảm phát GDP phản ánh những gì đang xảy ra với **giá
 > cả**, chứ không phải với **sản lượng**."* — tr. 228
 
 ### Từ chỉ số giảm phát ra tỷ lệ lạm phát
 
+> [!note]
 > **Tỷ lệ lạm phát** là phần trăm thay đổi trong thước đo mức giá từ giai đoạn này sang giai đoạn kế tiếp.
 
 $$\text{Tỷ lệ lạm phát năm 2} = \frac{\text{Chỉ số giảm phát năm 2} - \text{Chỉ số giảm phát năm 1}}{\text{Chỉ số giảm phát năm 1}} \times 100$$
@@ -638,7 +678,7 @@ $$\text{Tỷ lệ lạm phát năm 2} = \frac{\text{Chỉ số giảm phát năm
    2012:  (240 − 171) / 171 × 100  =  40%
 ```
 
-### ⚠️ Tách tăng trưởng: nhân, không phải cộng
+### Tách tăng trưởng: nhân, không phải cộng
 
 Đồng nhất thức đúng là **phép nhân**:
 
@@ -669,6 +709,7 @@ Sách rút ra hai đặc điểm:
 
 **① GDP thực tăng theo thời gian.**
 
+> [!quote]
 > *"GDP thực của nền kinh tế Hoa Kỳ vào năm 2009 là gần gấp bốn lần so với năm 1965. Nói cách khác,
 > sản lượng hàng hóa và dịch vụ được sản xuất tại Hoa Kỳ đã tăng trung bình khoảng **3%/năm**."* — tr. 229
 
@@ -677,10 +718,13 @@ Sách rút ra hai đặc điểm:
 
 **② Tăng trưởng không ổn định.**
 
+> [!note]
 > **Suy thoái** (*recession*): thời kỳ mà GDP thực sụt giảm.
 
-⚠️ Định nghĩa "hai quý liên tiếp" — sách nói rõ đó **không phải luật**:
+> [!warning]
+> Định nghĩa "hai quý liên tiếp" — sách nói rõ đó **không phải luật**:
 
+> [!quote]
 > *"(Không hề có quy tắc cứng nhắc để khi nào thì ủy ban xác định chu kỳ kinh tế chính thức sẽ tuyên
 > bố rằng một thời kỳ suy thoái diễn ra, nhưng **một thông lệ chung** là khi GDP thực sụt giảm trong
 > hai quý liên tiếp thì được xem là suy thoái.)"* — tr. 229
@@ -695,6 +739,7 @@ tăng, lợi nhuận sụt giảm, số vụ phá sản tăng lên"*.
 
 Đoạn cuối tr. 229 là **bản đồ đường đi** cho toàn bộ những bài sau:
 
+> [!quote]
 > *"Phần lớn nội dung của kinh tế vĩ mô luôn nhằm vào mục đích giải thích sự tăng trưởng trong dài hạn
 > và sự dao động của GDP thực trong ngắn hạn. Như chúng ta sẽ thấy trong các chương tiếp theo, chúng ta
 > cần những mô hình khác nhau cho hai mục đích này."*
@@ -718,6 +763,7 @@ thanh đứng của Hình 2.
 Sách dành hẳn một mục cho câu hỏi này, và mở đầu bằng lời phê bình nổi tiếng của **Thượng nghị sĩ
 Robert Kennedy** trong chiến dịch tranh cử tổng thống **năm 1968** (tr. 230):
 
+> [!quote]
 > *"[Tổng sản phẩm quốc nội] không tính đến sức khỏe của con cái chúng ta, chất lượng giáo dục mà
 > chúng nhận được, hay niềm vui của chúng khi vui chơi. Nó không bao gồm vẻ đẹp của thơ ca hay sự bền
 > vững của các cuộc hôn nhân, sự thông minh trong những cuộc tranh luận công khai hay sự liêm chính
@@ -734,6 +780,7 @@ là chính xác"* (tr. 230). Rồi ông đưa ra một lập luận khác hẳn 
 | chất lượng giáo dục | cung cấp hệ thống giáo dục tốt hơn  |
 | vẻ đẹp của thơ ca   | dạy cho nhiều công dân hơn cách đọc |
 
+> [!quote]
 > *"GDP không trực tiếp đo lường những điều làm cho cuộc sống có giá trị, nhưng nó đo lường **khả năng
 > của chúng ta để có được nhiều đầu vào phục vụ cho một cuộc sống tốt đẹp**."* — tr. 231
 
@@ -754,12 +801,14 @@ là chính xác"* (tr. 230). Rồi ông đưa ra một lập luận khác hẳn 
                +90 người ×       0 USD/năm  →  GDP 5 triệu, đầu người 50.000
 ```
 
+> [!quote]
 > *"Rất ít người sẽ xem hai tình huống đó là tương đương nhau. GDP bình quân đầu người cho chúng ta
 > biết điều gì xảy ra với người trung bình, nhưng đằng sau một người trung bình lại là những hoàn cảnh
 > cá nhân rất khác nhau."* — tr. 231
 
 Kết luận cân bằng của sách (tr. 231):
 
+> [!quote]
 > *"GDP là một thước đo tốt về phúc lợi kinh tế cho hầu hết – chứ không phải là tất cả – các mục đích.
 > Điều quan trọng cần ghi nhớ là **GDP bao gồm những gì và những gì mà nó loại trừ ra**."*
 
@@ -797,11 +846,13 @@ Mục 11 của [code minh hoạ](#17-code-minh-hoạ) tính hệ số tương qu
 [bài 14 môn Xác suất Thống kê](../../eg11-xacxuatthongke/ly_thuyet/bai_14_tuong_quan_va_hoi_quy.md).
 Cả ba đều dương và mạnh, đúng như kết luận của sách (tr. 234):
 
+> [!quote]
 > *"Số liệu quốc tế xác nhận rằng GDP bình quân đầu người của một quốc gia có mối tương quan chặt chẽ
 > với mức sống người dân của quốc gia đó."*
 
-⚠️ **Nhưng tương quan không phải nhân quả.** Sách không nói "GDP cao *gây ra* tuổi thọ cao", và bạn
-cũng đừng nói thế. Có ít nhất ba cách giải thích cùng một bảng số:
+> [!warning] Nhưng tương quan không phải nhân quả.
+> Sách không nói "GDP cao *gây ra* tuổi thọ cao", và bạn
+> cũng đừng nói thế. Có ít nhất ba cách giải thích cùng một bảng số:
 
 ```
    GDP cao  →  tuổi thọ cao      (giàu nên mua được y tế)
@@ -814,16 +865,18 @@ như một nguyên nhân của tăng trưởng**.
 
 ---
 
-## 14. 📚 Nền kinh tế ngầm — hộp "Theo dòng thời sự", tr. 232–233
+## 14. Nền kinh tế ngầm — hộp "Theo dòng thời sự", tr. 232–233
 
 Bài báo của **Doug Campbell**, *"Truy tìm nền kinh tế ẩn"*, mở đầu bằng một cảnh rất đời: một người
 đàn ông gõ cửa nhà tác giả giữa mùa đông, hỏi *"Ông có muốn dọn tuyết ở lối đi không? Chỉ 5 USD."*
 
+> [!quote]
 > *"Thật ra, đây là một giao dịch không chính thức ngoài sổ sách, không phải trả thuế hay phải tuân
 > thủ quy định an toàn lao động."*
 
 Ước tính của bài báo:
 
+> [!quote]
 > *"…người ta thống nhất là nó khá lớn, nằm trong khoảng từ **6% đến 20% GDP**. Tính theo tỷ lệ ở giữa,
 > nó tương đương với **1,5 ngàn tỷ USD một năm**."*
 
@@ -856,7 +909,7 @@ Và Schneider cho biết ở các nước hậu Xô-viết con số còn cao hơ
 
 ---
 
-## 15. 💼 Góc QTKD — dùng GDP thế nào trong công việc thật
+## 15. Góc QTKD — dùng GDP thế nào trong công việc thật
 
 Sách viết cho người học kinh tế nói chung. Mục này là phần thêm cho người làm quản trị.
 
@@ -871,8 +924,9 @@ doanh thu danh nghĩa **+52%** trong 4 năm, nhưng sản lượng thực chỉ 
 năm doanh thu danh nghĩa **+8,7%** trong khi sản lượng thực **−0,6%** — bạn bán **ít hàng hơn** năm
 trước mà báo cáo vẫn xanh.
 
-⚠️ **Dùng chỉ số giá của chính bạn, không dùng CPI của cả nước.** Nếu bạn bán thép mà lấy CPI (rổ hàng
-tiêu dùng) để giảm phát, con số ra sẽ vô nghĩa. Bài 2 nói kỹ về chuyện chọn chỉ số.
+> [!warning] Dùng chỉ số giá của chính bạn, không dùng CPI của cả nước.
+> Nếu bạn bán thép mà lấy CPI (rổ hàng
+> tiêu dùng) để giảm phát, con số ra sẽ vô nghĩa. Bài 2 nói kỹ về chuyện chọn chỉ số.
 
 ### ② Bốn thành phần cho biết cầu của bạn đến từ đâu
 
@@ -895,7 +949,7 @@ bị và xây dựng, chịu chu kỳ nặng hơn doanh nghiệp bán hàng tiê
 3. **Bình quân hay phân phối?** (mục 12) — GDP đầu người tăng không có nghĩa khách hàng mục tiêu của
    bạn giàu lên.
 
-### ④ ⚠️ Sai lầm hay gặp nhất: dùng GDP để chọn thị trường
+### ④ Sai lầm hay gặp nhất: dùng GDP để chọn thị trường
 
 GDP cả nước tăng 6% **không** có nghĩa thị trường của bạn tăng 6%. GDP là **tổng của mọi ngành**; một
 số ngành tăng 20%, số khác co lại. Việc bạn cần không phải là dự báo GDP, mà là biết **ngành của bạn
@@ -903,13 +957,14 @@ liên hệ với GDP theo hệ số bao nhiêu** — và đó là một bài to�
 
 ---
 
-## 16. 📚 Đối chiếu Việt Nam — cách đọc số liệu GDP trong nước
+## 16. Đối chiếu Việt Nam — cách đọc số liệu GDP trong nước
 
 Sách in **năm 2014**, số liệu Hoa Kỳ đến 2009. Mục này bắc cầu sang bối cảnh Việt Nam.
 
-⚠️ **Cảnh báo:** các con số dưới đây thay đổi hằng quý và tôi ghi theo trí nhớ có giới hạn. **Hãy tra
-lại tại nguồn chính thức trước khi dùng vào báo cáo.** Cái đáng học ở mục này là **cách đọc**, không
-phải con số.
+> [!warning] Cảnh báo:
+> các con số dưới đây thay đổi hằng quý và tôi ghi theo trí nhớ có giới hạn. **Hãy tra
+> lại tại nguồn chính thức trước khi dùng vào báo cáo.** Cái đáng học ở mục này là **cách đọc**, không
+> phải con số.
 
 ### Thuật ngữ tiếng Việt so với sách
 
@@ -951,6 +1006,7 @@ Với người làm kinh doanh muốn ước lượng **sức mua**, GNI đầu 
 
 ## 17. Code minh hoạ
 
+> [!quote]
 > ⚙️ **Chạy:** cần **Python 3.10+**. Lưu file rồi gõ `python3 bai-01-do-luong-thu-nhap-quoc-gia.py`.
 > Không cần cài gói nào — chỉ dùng thư viện chuẩn. Kết quả **tất định**: chạy hai lần ra giống hệt nhau,
 > nên bạn đối chiếu được từng chữ số với khối *"Kết quả chạy thật"* bên dưới.

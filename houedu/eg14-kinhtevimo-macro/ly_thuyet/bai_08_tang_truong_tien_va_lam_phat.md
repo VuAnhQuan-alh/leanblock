@@ -1,16 +1,18 @@
 # Bài 8 — Tăng trưởng tiền và lạm phát
 
+> [!info] Về bài này
 > Bài học dựng từ **Chương 17 — Tăng trưởng tiền và lạm phát** (tr. 387–414)
 > của *N. Gregory Mankiw — **Kinh tế học vĩ mô***, bản dịch của Khoa Kinh tế, **ĐH Kinh tế TP.HCM** (Cengage Learning Asia).
-> 🎯 **Vòng 1.** [Bài 7](bai_07_he_thong_tien_te.md) hỏi *tiền ở đâu ra*. Bài này hỏi câu tiếp theo và
+>
+> **Vòng 1.** [Bài 7](bai_07_he_thong_tien_te.md) hỏi *tiền ở đâu ra*. Bài này hỏi câu tiếp theo và
 > là câu quan trọng hơn: **in nhiều thì sao?** Chương chia làm hai nửa rất rõ — nửa đầu là **nguyên
 > nhân** của lạm phát (thuyết số lượng tiền), nửa sau là **chi phí** của nó, và nửa sau khó hơn nhiều so
 > với vẻ ngoài. Đây là bài **khép lại** khối "tiền trong dài hạn".
-> 💼 **Góc QTKD** — ví dụ thêm cho ngành quản trị kinh doanh, **không có trong sách**.
-> 📚 **Mở rộng** — thứ sách nói lướt hoặc để trong hộp phụ.
-> ⚠️ — chỗ dễ hiểu sai, hoặc chỗ sách in sai.
-> 📌 **Cần đọc trước:** [Bài 2](bai_02_do_luong_chi_phi_sinh_hoat.md) (CPI, lãi suất thực),
-> [Bài 5 mục 3](bai_05_cong_cu_co_ban_cua_tai_chinh.md#3--ma-thuật-của-lãi-kép-và-quy-tắc-70--hộp-bạn-có-biết-tr-316)
+>
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
+>
+> **Cần đọc trước:** [Bài 2](bai_02_do_luong_chi_phi_sinh_hoat.md) (CPI, lãi suất thực),
+> [Bài 5 mục 3](bai_05_cong_cu_co_ban_cua_tai_chinh.md#3-ma-thuật-của-lãi-kép-và-quy-tắc-70--hộp-bạn-có-biết-tr-316)
 > (quy tắc 70 — bài này dùng lại ba lần), và [Bài 7](bai_07_he_thong_tien_te.md) (Fed đổi cung tiền bằng
 > cách nào).
 
@@ -23,7 +25,7 @@
 - [1. Vì sao chương này quan trọng](#1-vì-sao-chương-này-quan-trọng)
 - [2. Lật ngược góc nhìn — giá trị của tiền là 1/P](#2-lật-ngược-góc-nhìn--giá-trị-của-tiền-là-1p)
 - [3. Phương trình số lượng](#3-phương-trình-số-lượng)
-- [4. 📚 Viết năm bước ấy thành một dòng](#4--viết-năm-bước-ấy-thành-một-dòng)
+- [4. Viết năm bước ấy thành một dòng](#4-viết-năm-bước-ấy-thành-một-dòng)
 - [5. Phân đôi cổ điển và tính trung lập của tiền](#5-phân-đôi-cổ-điển-và-tính-trung-lập-của-tiền)
 - [6. Siêu lạm phát](#6-siêu-lạm-phát)
 - [7. Thuế lạm phát](#7-thuế-lạm-phát)
@@ -32,11 +34,11 @@
 - [10. Chi phí thứ nhất và thứ hai — mòn giày, thực đơn](#10-chi-phí-thứ-nhất-và-thứ-hai--mòn-giày-thực-đơn)
 - [11. Chi phí thứ ba — biến động giá tương đối](#11-chi-phí-thứ-ba--biến-động-giá-tương-đối)
 - [12. Lạm phát ngoài dự kiến tái phân phối của cải](#12-lạm-phát-ngoài-dự-kiến-tái-phân-phối-của-cải)
-- [13. 📚 Bài tập 5 tr. 412–413 — Bob, Rita, và điều thật sự quan trọng](#13--bài-tập-5-tr-412413--bob-rita-và-điều-thật-sự-quan-trọng)
+- [13. Bài tập 5 tr. 412–413 — Bob, Rita, và điều thật sự quan trọng](#13-bài-tập-5-tr-412413--bob-rita-và-điều-thật-sự-quan-trọng)
 - [14. Giảm phát và Phù thuỷ xứ Oz](#14-giảm-phát-và-phù-thuỷ-xứ-oz)
 - [15. Sáu chi phí của lạm phát](#15-sáu-chi-phí-của-lạm-phát)
-- [16. 💼 Góc QTKD](#16--góc-qtkd)
-- [17. 📚 Đối chiếu Việt Nam](#17--đối-chiếu-việt-nam)
+- [16. Góc QTKD](#16-góc-qtkd)
+- [17. Đối chiếu Việt Nam](#17-đối-chiếu-việt-nam)
 - [18. Code minh hoạ](#18-code-minh-hoạ)
 - [19. Tự thử](#19-tự-thử)
 - [20. Từ điển thuật ngữ](#20-từ-điển-thuật-ngữ)
@@ -52,6 +54,7 @@
 
 Sách mở bằng một cửa hàng kẹo (tr. 387):
 
+> [!quote]
 > *"Vào những năm 1930, bà tôi có một cửa hàng bánh kẹo ở Trenton, New Jersey, nơi bà bán kem cây có 2
 > cỡ. Cây kem cỡ nhỏ có giá 3 xu. Khách hàng muốn mua cây kem lớn giá 5 xu."*
 
@@ -72,14 +75,16 @@ Sách đưa ba con số ngay ở hai trang đầu, và cả ba đều đáng đ�
 $1{,}04^{70} = 15{,}57 \to 16$ lần, và $1{,}07^{10} = 1{,}967 \approx 2$.
 
 📌 Chú ý con số thứ hai: **70 chia 7 bằng 10.** Đó đúng là
-[quy tắc 70 của bài 5](bai_05_cong_cu_co_ban_cua_tai_chinh.md#3--ma-thuật-của-lãi-kép-và-quy-tắc-70--hộp-bạn-có-biết-tr-316),
+[quy tắc 70 của bài 5](bai_05_cong_cu_co_ban_cua_tai_chinh.md#3-ma-thuật-của-lãi-kép-và-quy-tắc-70--hộp-bạn-có-biết-tr-316),
 chỉ khác chiều: ở bài 5 lãi kép làm bạn giàu lên, ở đây nó ăn mòn đồng tiền trong ví bạn. **Cùng một
 phép toán, hai dấu ngược nhau.** Bài này sẽ dùng lại quy tắc 70 ba lần.
 
 ### Lạm phát không phải hằng số vũ trụ
 
-⚠️ Sách chặn ngay một định kiến (tr. 387):
+> [!warning]
+> Sách chặn ngay một định kiến (tr. 387):
 
+> [!quote]
 > *"Lạm phát dường như có tính tự nhiên và không thể né tránh đối với một người lớn lên ở Hoa Kỳ trong
 > những thập niên vừa qua, nhưng trong thực tế, điều này không hoàn toàn không thể né tránh."*
 
@@ -107,8 +112,10 @@ câu này lại — [mục 6](#6-siêu-lạm-phát) sẽ cho thấy nó là mộ
 | **Nguyên nhân** | cái gì tạo ra lạm phát? | 2–8 |
 | **Chi phí** | lạm phát gây hại thế nào? | 9–15 |
 
-⚠️ Sách báo trước rằng nửa sau **khó hơn** (tr. 388):
+> [!warning]
+> Sách báo trước rằng nửa sau **khó hơn** (tr. 388):
 
+> [!quote]
 > *"Nhưng cái giá thực sự mà lạm phát gây ra cho xã hội là gì? Câu trả lời có thể làm bạn ngạc nhiên.
 > Nhận diện các chi phí của lạm phát không phải dễ dàng như ban đầu chúng ta tưởng. Kết quả là, mặc dù
 > tất cả các nhà kinh tế học đều chỉ trích siêu lạm phát, nhưng **một số nhà kinh tế học tranh luận rằng
@@ -123,11 +130,13 @@ cướp sức mua của tôi", [mục 15](#15-sáu-chi-phí-của-lạm-phát) s
 
 Đây là câu quan trọng nhất trong toàn bộ nửa đầu chương (tr. 389):
 
+> [!quote]
 > *"Thật ra, **cái nhìn đầu tiên về lạm phát là lạm phát liên quan đến giá trị của tiền hơn là giá trị
 > của hàng hoá**."*
 
 Sách phê phán cách báo chí nói về lạm phát (tr. 389):
 
+> [!quote]
 > *"các nhà bình luận thường bị lôi cuốn sẽ chú ý vào nhiều loại giá riêng lẻ tạo nên các chỉ số giá này:
 > 'CPI đã tăng 3% trong tháng vừa qua, do giá cà phê tăng 20% và giá dầu tăng 30%'. Mặc dù phương pháp
 > này hàm chứa các thông tin thú vị về những gì đang diễn ra trong nền kinh tế, **nó cũng bỏ qua một điểm
@@ -143,6 +152,7 @@ Sách phê phán cách báo chí nói về lạm phát (tr. 389):
 
 Ví dụ của sách, cố tình đơn giản đến mức không thể hiểu sai (tr. 389):
 
+> [!quote]
 > *"Khi giá một cây kem ($P$) là 2 USD, thì giá trị của 1 đô la ($1/P$) là nửa cây kem. Khi giá ($P$)
 > tăng lên 3 USD, giá trị của 1 đô la ($1/P$) giảm xuống chỉ còn 1/3 cây kem."*
 
@@ -165,7 +175,7 @@ là cái đã dùng suốt EG13: **cung và cầu**.
 phức tạp mà hệ thống ngân hàng thương mại tạo ra và đơn giản tính lượng cung tiền như là một biến số
 chính sách do Fed kiểm soát."* Đường cung tiền vì thế **dốc đứng**.
 
-📌 Nhớ [bài 7 mục 12](bai_07_he_thong_tien_te.md#12--vì-sao-fed-không-kiểm-soát-nổi-cung-tiền): đó là
+📌 Nhớ [bài 7 mục 12](bai_07_he_thong_tien_te.md#12-vì-sao-fed-không-kiểm-soát-nổi-cung-tiền): đó là
 một giả định **biết là sai và cố ý chấp nhận**. Bài 7 vừa dành cả một mục chứng minh Fed *không* kiểm
 soát chính xác cung tiền. Ở đây ta tạm bỏ qua, vì trọng tâm là chỗ khác.
 
@@ -173,11 +183,13 @@ soát chính xác cung tiền. Ở đây ta tạm bỏ qua, vì trọng tâm là
 nhiêu"* (tr. 390). Nhiều thứ tác động đến nó (thẻ tín dụng, máy ATM, lãi suất), nhưng biến quan trọng
 nhất là **mức giá**:
 
+> [!quote] tr. 390
 > *"Mức giá càng cao, họ càng cần nhiều tiền để thực hiện giao dịch… Có nghĩa là, mức giá cao hơn (giá
 > trị của tiền thấp hơn) sẽ làm tăng lượng cầu tiền."* (tr. 390)
 
 **Cân bằng** — và đây là điều làm cả mô hình chạy (tr. 390):
 
+> [!quote]
 > *"**Trong dài hạn, mức giá chung sẽ điều chỉnh về mức mà tại đó lượng cầu tiền bằng cung tiền.**"*
 
 ### Bơm tiền: từ Hình 1 sang Hình 2 (tr. 391–392)
@@ -195,40 +207,41 @@ Sách cho Fed *"tăng gấp đôi cung tiền bằng cách in thêm tiền và d
 
 Đối xứng hoàn hảo: tiền ×2 → mức giá ×2 → giá trị tiền ×½.
 
+> [!quote]
 > **Thuyết số lượng tiền** (tr. 391): *"lượng tiền có trong nền kinh tế sẽ xác định giá trị của tiền, và
 > sự tăng trưởng của lượng tiền là nguyên nhân chính gây nên lạm phát."*
 
 Và câu của Milton Friedman mà sách trích (tr. 391): *"Lạm phát luôn là một hiện tượng tiền tệ có mặt ở
 mọi nơi"*.
 
-### 📚 Quá trình điều chỉnh — chỗ sách đi rất nhanh
-
-Sách dành một mục nhỏ cho câu hỏi "làm sao nền kinh tế đi từ A sang B" (tr. 392), rồi hoãn phần khó lại
-cho bài 11–13. Nhưng chuỗi nó mô tả đáng đọc chậm:
-
-```
-trực thăng thả tiền
-     ↓
-trong ví mọi người có NHIỀU TIỀN HƠN SỐ HỌ CẦN      ← dư cung tiền
-     ↓
-họ tìm cách thoát: mua hàng hoá, hoặc cho vay / gửi tiết kiệm
-     ↓                    (khoản vay đó giúp NGƯỜI KHÁC mua hàng)
-CẦU hàng hoá và dịch vụ TĂNG
-     ↓
-nhưng KHẢ NĂNG CUNG ỨNG không đổi — "sản lượng được xác định
-bởi lao động, vốn vật chất, vốn nhân lực, tài nguyên và công nghệ"
-     ↓
-GIÁ TĂNG
-     ↓
-giá cao hơn ⟹ mỗi giao dịch cần nhiều tiền hơn ⟹ CẦU TIỀN TĂNG
-     ↓
-cân bằng mới: lượng cầu tiền lại bằng lượng cung tiền
-```
-
-⭐ Chú ý câu chốt của sách ở giữa chuỗi (tr. 392): *"**Việc bơm tiền không thể thay thế được cho bất cứ
-thứ nào trong những thứ này.**"* Đó là toàn bộ nội dung của [bài 3](bai_03_san_xuat_va_tang_truong.md)
-được gọi lại làm nhân chứng. Cung tiền tăng, cầu hàng tăng, nhưng **số hàng thì không**. Cái duy nhất
-còn lại để điều chỉnh là giá.
+> [!note] Quá trình điều chỉnh — chỗ sách đi rất nhanh
+>
+> Sách dành một mục nhỏ cho câu hỏi "làm sao nền kinh tế đi từ A sang B" (tr. 392), rồi hoãn phần khó lại
+> cho bài 11–13. Nhưng chuỗi nó mô tả đáng đọc chậm:
+>
+> ```
+> trực thăng thả tiền
+>      ↓
+> trong ví mọi người có NHIỀU TIỀN HƠN SỐ HỌ CẦN      ← dư cung tiền
+>      ↓
+> họ tìm cách thoát: mua hàng hoá, hoặc cho vay / gửi tiết kiệm
+>      ↓                    (khoản vay đó giúp NGƯỜI KHÁC mua hàng)
+> CẦU hàng hoá và dịch vụ TĂNG
+>      ↓
+> nhưng KHẢ NĂNG CUNG ỨNG không đổi — "sản lượng được xác định
+> bởi lao động, vốn vật chất, vốn nhân lực, tài nguyên và công nghệ"
+>      ↓
+> GIÁ TĂNG
+>      ↓
+> giá cao hơn ⟹ mỗi giao dịch cần nhiều tiền hơn ⟹ CẦU TIỀN TĂNG
+>      ↓
+> cân bằng mới: lượng cầu tiền lại bằng lượng cung tiền
+> ```
+>
+> ⭐ Chú ý câu chốt của sách ở giữa chuỗi (tr. 392): *"**Việc bơm tiền không thể thay thế được cho bất cứ
+> thứ nào trong những thứ này.**"* Đó là toàn bộ nội dung của [bài 3](bai_03_san_xuat_va_tang_truong.md)
+> được gọi lại làm nhân chứng. Cung tiền tăng, cầu hàng tăng, nhưng **số hàng thì không**. Cái duy nhất
+> còn lại để điều chỉnh là giá.
 
 ---
 
@@ -237,6 +250,7 @@ còn lại để điều chỉnh là giá.
 Sách tiếp cận cùng một ý từ một góc khác (tr. 395): *"một tờ tiền đô la điển hình được dùng để mua hàng
 hoá và dịch vụ mới được sản xuất là bao nhiêu lần một năm?"*
 
+> [!quote]
 > **Vòng quay của tiền** (tr. 395): *"số lần tiền được thanh toán chuyển từ người này sang người khác."*
 
 $$V = \frac{P \times Y}{M}$$
@@ -260,10 +274,11 @@ Viết lại:
 
 $$\boxed{M \times V = P \times Y}$$
 
+> [!quote]
 > **Phương trình số lượng** (tr. 395): *"phương trình $M \times V = P \times Y$, liên quan đến lượng
 > tiền, vòng quay tiền và giá trị bằng tiền của sản lượng hàng hoá và dịch vụ của nền kinh tế."*
 
-### ⚠️ Nó là đồng nhất thức, chưa phải lý thuyết
+### Nó là đồng nhất thức, chưa phải lý thuyết
 
 Đây là chỗ dễ nhầm nhất của mục này, và đáng dừng lại.
 
@@ -284,9 +299,10 @@ khi vòng quay *"mặc dù không hoàn toàn không đổi, nhưng đã không 
 
 ![Hình 3 — tr. 396, bản chụp giáo trình](../tai_lieu/hinh/ch17-hinh-03-tr396.png)
 
-⚠️ Và sách rất cẩn thận trong cách phát biểu (tr. 396): *"do một số mục đích nghiên cứu nhất định nào đó,
-việc giả định vòng quay tiền cố định **có thể là một giả định hữu ích**."* — "có thể", "một số mục đích",
-"hữu ích". Không phải "đúng".
+> [!warning]
+> Và sách rất cẩn thận trong cách phát biểu (tr. 396): *"do một số mục đích nghiên cứu nhất định nào đó,
+> việc giả định vòng quay tiền cố định **có thể là một giả định hữu ích**."* — "có thể", "một số mục đích",
+> "hữu ích". Không phải "đúng".
 
 ### Năm bước của thuyết số lượng (tr. 396)
 
@@ -301,7 +317,7 @@ Sách phát biểu thành năm bước, và đây là bộ khung của cả nử
 
 ---
 
-## 4. 📚 Viết năm bước ấy thành một dòng
+## 4. Viết năm bước ấy thành một dòng
 
 Sách phát biểu năm bước bằng lời. Mục này viết chúng thành công thức — **không có trong sách**, nhưng suy
 ra trực tiếp từ $M \times V = P \times Y$.
@@ -326,11 +342,12 @@ $$\boxed{\text{lạm phát} \approx \text{tăng trưởng tiền} - \text{tăng 
 | 10% | 3% | 7,0% | 6,80% |
 | 50% | 3% | 47,0% | **45,63%** |
 
-⚠️ **Đọc dòng cuối trước.** Xấp xỉ bắt đầu lệch rõ khi tỷ lệ lớn (47% so với 45,63%). Với siêu lạm phát ở
-[mục 6](#6-siêu-lạm-phát) thì **bắt buộc** phải dùng công thức chính xác — sai số của phép cộng lúc đó
-không còn là làm tròn nữa.
+> [!warning] Đọc dòng cuối trước.
+> Xấp xỉ bắt đầu lệch rõ khi tỷ lệ lớn (47% so với 45,63%). Với siêu lạm phát ở
+> [mục 6](#6-siêu-lạm-phát) thì **bắt buộc** phải dùng công thức chính xác — sai số của phép cộng lúc đó
+> không còn là làm tròn nữa.
 
-### ⚠️⚠️ Bây giờ đọc dòng thứ hai. Nó là chỗ hiểu sai lớn nhất của cả chương.
+### Bây giờ đọc dòng thứ hai. Nó là chỗ hiểu sai lớn nhất của cả chương.
 
 **Tăng trưởng tiền 3%, tăng trưởng sản lượng 3% → lạm phát bằng 0.**
 
@@ -369,12 +386,14 @@ cung tiền 5%**. Đúng như dòng thứ hai của bảng trên.
 | **Biến danh nghĩa** | *"các biến được đo lường bằng đơn vị tiền tệ"* | GDP danh nghĩa, mức giá, tiền lương bằng tiền, lãi suất danh nghĩa |
 | **Biến thực** | *"các biến được đo lường bằng các đơn vị vật chất"* | GDP thực, tiền lương thực, lãi suất thực, việc làm |
 
+> [!quote]
 > **Phân đôi cổ điển** (tr. 393): *"sự phân chia theo lý thuyết thành biến danh nghĩa và biến thực."*
 
-### ⚠️ Giá tương đối là biến THỰC — đây là chỗ dễ sai
+### Giá tương đối là biến THỰC — đây là chỗ dễ sai
 
 Sách gọi nó là *"nan giải"* và giải thích rất kỹ (tr. 393):
 
+> [!quote]
 > *"Khi chúng ta nói rằng giá một giạ bắp là 2 USD hoặc giá một giạ lúa mì là 1 USD, cả hai mức giá này
 > đều là biến danh nghĩa. Nhưng còn mức giá **tương đối** thì sao? … chúng ta có thể nói rằng giá một
 > giạ bắp bằng hai giạ lúa mì. Mức giá tương đối này không được đo lường dưới dạng tiền tệ. **Khi so sánh
@@ -390,6 +409,7 @@ Cùng logic đó áp cho hai biến bạn đã biết:
 
 ### Tính trung lập của tiền
 
+> [!quote]
 > **Tính trung lập của tiền** (tr. 394): *"tuyên bố cho rằng việc thay đổi cung tiền không tác động đến
 > các biến số thực."*
 
@@ -405,10 +425,11 @@ Cùng logic đó áp cho hai biến bạn đã biết:
 | **Việc làm** | thực | **không đổi** |
 | **Giá tương đối** | thực | **không đổi** |
 
-### ⭐ Ví dụ hay nhất của cả chương
+### Ví dụ hay nhất của cả chương
 
 Sách dùng một phép so sánh mà một khi hiểu rồi thì không quên được (tr. 394):
 
+> [!quote]
 > *"Thay đổi tương tự cũng xảy ra nếu chính phủ giảm độ dài của cây thước từ 36 inch xuống còn 18 inch:
 > Với đơn vị đo lường mới, tất cả khoảng cách **được đo** (các biến danh nghĩa) sẽ gấp đôi, nhưng khoảng
 > cách **thực sự** (các biến thực) sẽ vẫn như cũ. **Đô la cũng giống như cái thước, đơn thuần chỉ là đơn
@@ -416,16 +437,18 @@ Sách dùng một phép so sánh mà một khi hiểu rồi thì không quên đ
 
 Một con đường dài 100 đơn vị cũ thành 200 đơn vị mới. Nó không dài thêm một mét nào.
 
-### ⚠️ Sách không tuyệt đối hoá — và đây là chỗ nối sang nửa sau của khoá
+### Sách không tuyệt đối hoá — và đây là chỗ nối sang nửa sau của khoá
 
 Câu tiếp theo quan trọng không kém (tr. 394):
 
+> [!quote]
 > *"Tính trung lập của tiền có hiện thực không? **Không hoàn toàn.** Thay đổi độ dài của cái thước từ 36
 > inch xuống 18 inch sẽ không quan trọng trong dài hạn nhưng lại là vấn đề lớn trong ngắn hạn, nó sẽ gây
 > ra sự lúng túng và sai lầm."*
 
 Và:
 
+> [!quote]
 > *"ngày nay hầu hết các nhà kinh tế học tin rằng trong một thời kỳ ngắn – trong vòng 1 hay 2 năm – thay
 > đổi tiền tệ ảnh hưởng đến các biến thực. **Bản thân Hume cũng nghi ngờ tính trung lập của tiền được áp
 > dụng trong ngắn hạn.**"*
@@ -440,10 +463,12 @@ sách cũng nhắc rằng trong dài hạn thì nó *"đưa ra một mô tả r�
 
 Sách mở bằng một phép so sánh đắt (tr. 397):
 
+> [!quote]
 > *"Mặc dù các cơn động đất có thể tàn phá xã hội, nhưng chúng cũng mang lại sản phẩm phụ có lợi là cung
 > cấp nhiều dữ liệu hữu ích cho các nhà nghiên cứu địa chấn… Tương tự, những lần xảy ra siêu lạm phát
 > mang lại cho các nhà kinh tế học tiền tệ những **thực nghiệm tự nhiên**."*
 
+> [!quote]
 > **Định nghĩa** (tr. 397): *"siêu lạm phát thường được định nghĩa là mức lạm phát vượt quá **50 phần
 > trăm một tháng**. Điều này nghĩa là mức giá tăng hơn 100 lần trong một năm."*
 
@@ -455,38 +480,39 @@ Sách mở bằng một phép so sánh đắt (tr. 397):
 
 Áo, Hungary, Đức, Ba Lan. Trong cả bốn, đường **cung tiền** và đường **mức giá** đi gần như song song.
 
-⚠️ Chú ý một chi tiết kỹ thuật mà sách nói rõ trong chú thích hình: đồ thị dùng **trục logarit**, và
-*"khoảng cách đều nhau trên trục tung trong đồ thị thể hiện thay đổi phần trăm đều nhau của biến"*. Đó
-là lựa chọn bắt buộc: mức giá của Đức lên tới $10^{14}$ lần. Trên trục thường, toàn bộ ba năm đầu sẽ bị
-ép bẹt vào trục hoành thành một đường thẳng.
+> [!warning]
+> Chú ý một chi tiết kỹ thuật mà sách nói rõ trong chú thích hình: đồ thị dùng **trục logarit**, và
+> *"khoảng cách đều nhau trên trục tung trong đồ thị thể hiện thay đổi phần trăm đều nhau của biến"*. Đó
+> là lựa chọn bắt buộc: mức giá của Đức lên tới $10^{14}$ lần. Trên trục thường, toàn bộ ba năm đầu sẽ bị
+> ép bẹt vào trục hoành thành một đường thẳng.
 
 Sách đọc hình rất gọn (tr. 398): *"ban đầu tăng trưởng lượng tiền ở mức vừa phải và lạm phát cũng vậy.
 Nhưng sau đó, lượng tiền trong nền kinh tế tăng trưởng ngày càng nhanh và lạm phát cũng bắt đầu tăng gần
 như đồng thời. Sau đó, khi lượng tiền ổn định lại, mức giá cũng ổn định theo."*
 
-### 📚 Zimbabwe — suy ngược từ mệnh giá tờ tiền
-
-Hộp *Bạn có biết* tr. 398 kể chuyện Zimbabwe nhưng **không cho tỷ lệ lạm phát của năm đó**. Nó cho bốn
-con số khác, và ta có thể suy ngược:
-
-| Thời điểm | Mệnh giá tờ tiền lớn nhất | Giá trị |
-| --------- | ------------------------: | ------: |
-| 1/2008 | 10 **triệu** đô la Zimbabwe | ≈ 4 USD |
-| 1/2009 | 10 **ngàn tỷ** đô la Zimbabwe | ≈ 3 USD |
-
-Giá trị của **một** đô la Zimbabwe tính bằng USD:
-
-$$\frac{4}{10^7} = 4{,}0\times10^{-7} \quad\longrightarrow\quad \frac{3}{10^{13}} = 3{,}0\times10^{-13}$$
-
-$$\text{mất giá } \approx 1{,}333{,}333 \text{ lần trong MỘT năm}$$
-
-⚠️ So với con số chính thức tháng 2/2008 mà sách dẫn — **24.000%/năm**, tức mất giá 241 lần — con số suy
-ra trên đây lớn hơn khoảng **5.500 lần**. Không mâu thuẫn: một cái là tháng 2/2008, cái kia là cả năm
-2008, và tình hình xấu đi rất nhanh trong năm. Sách cũng đã nói trước (tr. 398): *"một vài tổ chức độc
-lập còn ước tính con số cao hơn."*
-
-📌 Bài học phương pháp: **siêu lạm phát phá huỷ chính cái thước dùng để đo nó.** Số liệu chính thức mất
-ý nghĩa; mệnh giá tờ tiền lại trở thành một thước đo đáng tin hơn.
+> [!note] Zimbabwe — suy ngược từ mệnh giá tờ tiền
+>
+> Hộp *Bạn có biết* tr. 398 kể chuyện Zimbabwe nhưng **không cho tỷ lệ lạm phát của năm đó**. Nó cho bốn
+> con số khác, và ta có thể suy ngược:
+>
+> | Thời điểm | Mệnh giá tờ tiền lớn nhất | Giá trị |
+> | --------- | ------------------------: | ------: |
+> | 1/2008 | 10 **triệu** đô la Zimbabwe | ≈ 4 USD |
+> | 1/2009 | 10 **ngàn tỷ** đô la Zimbabwe | ≈ 3 USD |
+>
+> Giá trị của **một** đô la Zimbabwe tính bằng USD:
+>
+> $$\frac{4}{10^7} = 4{,}0\times10^{-7} \quad\longrightarrow\quad \frac{3}{10^{13}} = 3{,}0\times10^{-13}$$
+>
+> $$\text{mất giá } \approx 1{,}333{,}333 \text{ lần trong MỘT năm}$$
+>
+> ⚠️ So với con số chính thức tháng 2/2008 mà sách dẫn — **24.000%/năm**, tức mất giá 241 lần — con số suy
+> ra trên đây lớn hơn khoảng **5.500 lần**. Không mâu thuẫn: một cái là tháng 2/2008, cái kia là cả năm
+> 2008, và tình hình xấu đi rất nhanh trong năm. Sách cũng đã nói trước (tr. 398): *"một vài tổ chức độc
+> lập còn ước tính con số cao hơn."*
+>
+> 📌 Bài học phương pháp: **siêu lạm phát phá huỷ chính cái thước dùng để đo nó.** Số liệu chính thức mất
+> ý nghĩa; mệnh giá tờ tiền lại trở thành một thước đo đáng tin hơn.
 
 ### Và chi tiết đắt nhất của cả hộp
 
@@ -513,6 +539,7 @@ bằng không.
 
 Sách đặt câu hỏi rất đúng chỗ (tr. 398):
 
+> [!quote]
 > *"Nếu hiện tượng lạm phát được lý giải quá dễ dàng thì tại sao các quốc gia lại bị siêu lạm phát? Có
 > nghĩa là tại sao ngân hàng trung ương của những nước này chọn in quá nhiều tiền đến nỗi giá trị của
 > tiền sụt giảm nhanh chóng theo thời gian?"*
@@ -527,15 +554,17 @@ Chính phủ muốn xây đường, trả lương quân đội, trợ cấp ngư
 | 2 | **Đi vay** | bán trái phiếu chính phủ — [bài 4](bai_04_tiet_kiem_dau_tu_he_thong_tai_chinh.md#2-thị-trường-trái-phiếu) |
 | 3 | **In tiền** | *"chính phủ cũng có thể thanh toán cho các khoản chi tiêu đơn giản bằng cách in thêm số tiền mà mình cần"* (tr. 398) |
 
+> [!quote]
 > **Thuế lạm phát** (tr. 399): *"nguồn thu chính phủ có được từ việc tạo ra tiền."*
 
 Và định nghĩa thứ hai của sách, sắc hơn (tr. 399):
 
+> [!quote]
 > *"thuế lạm phát không hoàn toàn giống các loại thuế khác bởi vì **không ai sẽ nhận được hoá đơn yêu cầu
 > phải nộp loại thuế này**. Thay vào đó, chính phủ in tiền, mức giá tăng, và tiền trong ví bạn trở nên ít
 > giá trị hơn. Do vậy, **thuế lạm phát giống như một loại thuế đánh vào những người nắm giữ tiền**."*
 
-### ⭐ Đây không phải một phép ẩn dụ
+### Đây không phải một phép ẩn dụ
 
 Đó là chỗ nhiều người đọc lướt qua. Thuế lạm phát có **cơ sở thuế** thật, và cơ sở thuế đó là **chính số
 tiền bạn đang giữ**.
@@ -586,6 +615,7 @@ chính phủ"*? Vì khi ấy khoản chi của ngân sách không thể tự bi�
 
 ## 8. Hiệu ứng Fisher
 
+> [!quote]
 > **Hiệu ứng Fisher** (tr. 400): *"sự điều chỉnh theo tỷ lệ 1:1 của lãi suất danh nghĩa theo tỷ lệ lạm
 > phát."*
 
@@ -598,6 +628,7 @@ Sách viết lại nó theo chiều có ích hơn (tr. 400):
 
 $$\text{lãi suất danh nghĩa} = \text{lãi suất thực} + \text{tỷ lệ lạm phát}$$
 
+> [!quote] tr. 400
 > *"Cách viết này xem xét lãi suất danh nghĩa hữu ích hơn bởi vì các lực lượng kinh tế khác nhau xác định
 > từng thành phần của vế phải trong phương trình này."* (tr. 400)
 
@@ -610,6 +641,7 @@ $$\text{lãi suất danh nghĩa} = \text{lãi suất thực} + \text{tỷ lệ l
 
 Lập luận rất ngắn, và nó là toàn bộ mục 5 áp vào một trường hợp (tr. 400):
 
+> [!quote]
 > *"Tiền có tính trung lập trong dài hạn nên một sự thay đổi trong tăng trưởng tiền sẽ không tác động đến
 > lãi suất thực. Hơn hết, **lãi suất thực là một biến số thực**. Vì lãi suất thực không bị ảnh hưởng, nên
 > lãi suất danh nghĩa phải điều chỉnh theo tỷ lệ một – một với thay đổi của tỷ lệ lạm phát."*
@@ -619,7 +651,7 @@ Hình 5 tr. 400 vẽ lãi suất danh nghĩa (tín phiếu Kho bạc 3 tháng) v
 
 ![Hình 5 — tr. 400, bản chụp giáo trình](../tai_lieu/hinh/ch17-hinh-05-tr400.png)
 
-### ⚠️ Hai giới hạn mà sách nói rất rõ
+### Hai giới hạn mà sách nói rất rõ
 
 1. **Dài hạn, không phải ngắn hạn** (tr. 400): *"Hiệu ứng Fisher không nhất thiết phải đúng trong ngắn
    hạn bởi vì lạm phát có thể là không biết trước. Lãi suất danh nghĩa là lãi suất chi trả cho một khoản
@@ -654,7 +686,7 @@ Fisher.
 ✅ Cả 12 ô đã dựng lại từ đầu bằng một hàm duy nhất và `assert` đối chiếu với Bảng 1 tr. 405. **Khớp
 toàn bộ.**
 
-### ⭐ Đọc dòng đầu và dòng cuối cùng lúc
+### Đọc dòng đầu và dòng cuối cùng lúc
 
 **Dòng đầu**: lãi suất thực **trước thuế** giống hệt nhau — 4% ở cả hai nền kinh tế.
 **Dòng cuối**: lãi suất thực **sau thuế** là 3% và 1%.
@@ -664,6 +696,7 @@ suất thực trước thuế một chút nào.
 
 Cơ chế, bằng lời của sách (tr. 405):
 
+> [!quote]
 > *"Loại thuế thu nhập này xem tiền lãi **danh nghĩa** kiếm được từ tiền gửi tiết kiệm là thu nhập, ngay
 > cả khi một phần của lãi suất danh nghĩa đơn thuần là bù đắp cho lạm phát."*
 
@@ -690,7 +723,7 @@ Thuế suất 40%. Tính lãi suất thực **trước** và **sau** thuế:
 | b | 6% | 2% | 4% | **1,6%** |
 | c | 4% | 1% | 3% | 1,4% |
 
-⚠️ **Đọc theo cột, đừng đọc theo dòng.**
+> [!warning] Đọc theo cột, đừng đọc theo dòng.
 
 - Cột "thực **trước** thuế" xếp hạng: **a > b > c** (5 > 4 > 3)
 - Cột "thực **sau** thuế" xếp hạng: **b > c > a** (1,6 > 1,4 > 1,0)
@@ -709,6 +742,7 @@ lãi suất thực **sau** thuế.
 
 ### Chi phí mòn giày (tr. 402–403)
 
+> [!quote]
 > **Chi phí mòn giày** (tr. 402): *"nguồn lực bị lãng phí khi lạm phát khuyến khích người ta giảm việc
 > nắm giữ tiền của họ."*
 
@@ -724,45 +758,47 @@ hơn**. Ví dụ bằng số của sách (tr. 402): *"thay vì cứ mỗi bốn 
 Tổng số tiền rút cả năm **không đổi** (2.600 USD cả hai cách). Cái đổi là **số lần đi** và **lượng tiền
 nằm chết trong ví**.
 
-⚠️ Sách nói rõ tên gọi là ẩn dụ (tr. 402–403): *"chi phí thực sự của việc giảm nắm giữ tiền mặt không
-phải là sự mòn và rách giày của bạn mà là **thời gian và sự thuận tiện** bạn phải hy sinh."*
+> [!warning]
+> Sách nói rõ tên gọi là ẩn dụ (tr. 402–403): *"chi phí thực sự của việc giảm nắm giữ tiền mặt không
+> phải là sự mòn và rách giày của bạn mà là **thời gian và sự thuận tiện** bạn phải hy sinh."*
 
 Và tự đánh giá rất thật (tr. 403): *"Chi phí mòn giày của lạm phát dường như không quan trọng. Và thực ra
 điều này đúng ở nền kinh tế Hoa Kỳ."*
 
-### 📚 Bolivia 1985 — khi nó thôi không nhỏ nữa
-
-Sách trích *The Wall Street Journal* ngày 13/8/1985 về ông giáo **Edgar Miranda** ở Bolivia (tr. 403):
-
-| | |
-| --- | ---: |
-| Lương tháng | 25.000.000 peso |
-| Ngày nhận lương: 1 USD = 500.000 peso | → **50 USD** |
-| Vài ngày sau: 1 USD = 900.000 peso | → **28 USD** |
-
-**Mất 44% giá trị trong vài ngày.**
-
-⚠️ Sách in *"tiền lương của ông chỉ còn lại 27 USD"* (tr. 403). Phép chia đúng cho **27,78 USD**, làm
-tròn lên là 28. Chênh 1 USD, có lẽ do sách làm tròn xuống. Không ảnh hưởng đến lập luận.
-
-Bối cảnh sách cho (tr. 403): *"chỉ trong vòng sáu tháng, giá tăng vọt lên với tỷ lệ 38.000% một năm. Tuy
-nhiên, theo ghi nhận chính thức, tỷ lệ lạm phát năm qua lên đến 2.000%, và năm nay kỳ vọng sẽ lên đến
-8.000%"* — và so sánh: *"tỷ lệ lạm phát của Bolivia làm cho con số 370% của Israel và 1.100% của
-Argentina… trở nên nhỏ bé."*
-
-Hành vi của ông Miranda, sách gọi là *"Quy tắc Sống Còn Đầu tiên"* (tr. 403): đổi hết peso sang đô la
-**ngay trong ngày nhận lương**, trong khi vợ ông chạy vội ra chợ mua gạo và mì cho cả tháng.
-
-⭐ Và câu kết của sách là định nghĩa sắc nhất của chi phí mòn giày (tr. 403):
-
-> *"**Thời gian và nỗ lực mà Ông Miranda dùng để giảm việc nắm giữ tiền chính là sự lãng phí nguồn lực.**
-> Nếu các cơ quan tiền tệ theo đuổi một chính sách lạm phát thấp, Ông Miranda sẽ rất vui vẻ nắm giữ peso,
-> và ông có thể sử dụng thời gian và công sức của mình hiệu quả hơn."*
-
-Một người thông minh dành cả ngày để **không làm gì có ích cho ai**. Đó là chi phí.
+> [!note] Bolivia 1985 — khi nó thôi không nhỏ nữa
+>
+> Sách trích *The Wall Street Journal* ngày 13/8/1985 về ông giáo **Edgar Miranda** ở Bolivia (tr. 403):
+>
+> | | |
+> | --- | ---: |
+> | Lương tháng | 25.000.000 peso |
+> | Ngày nhận lương: 1 USD = 500.000 peso | → **50 USD** |
+> | Vài ngày sau: 1 USD = 900.000 peso | → **28 USD** |
+>
+> **Mất 44% giá trị trong vài ngày.**
+>
+> ⚠️ Sách in *"tiền lương của ông chỉ còn lại 27 USD"* (tr. 403). Phép chia đúng cho **27,78 USD**, làm
+> tròn lên là 28. Chênh 1 USD, có lẽ do sách làm tròn xuống. Không ảnh hưởng đến lập luận.
+>
+> Bối cảnh sách cho (tr. 403): *"chỉ trong vòng sáu tháng, giá tăng vọt lên với tỷ lệ 38.000% một năm. Tuy
+> nhiên, theo ghi nhận chính thức, tỷ lệ lạm phát năm qua lên đến 2.000%, và năm nay kỳ vọng sẽ lên đến
+> 8.000%"* — và so sánh: *"tỷ lệ lạm phát của Bolivia làm cho con số 370% của Israel và 1.100% của
+> Argentina… trở nên nhỏ bé."*
+>
+> Hành vi của ông Miranda, sách gọi là *"Quy tắc Sống Còn Đầu tiên"* (tr. 403): đổi hết peso sang đô la
+> **ngay trong ngày nhận lương**, trong khi vợ ông chạy vội ra chợ mua gạo và mì cho cả tháng.
+>
+> ⭐ Và câu kết của sách là định nghĩa sắc nhất của chi phí mòn giày (tr. 403):
+>
+> > *"**Thời gian và nỗ lực mà Ông Miranda dùng để giảm việc nắm giữ tiền chính là sự lãng phí nguồn lực.**
+> > Nếu các cơ quan tiền tệ theo đuổi một chính sách lạm phát thấp, Ông Miranda sẽ rất vui vẻ nắm giữ peso,
+> > và ông có thể sử dụng thời gian và công sức của mình hiệu quả hơn."*
+>
+> Một người thông minh dành cả ngày để **không làm gì có ích cho ai**. Đó là chi phí.
 
 ### Chi phí thực đơn (tr. 403–404)
 
+> [!quote]
 > **Chi phí thực đơn** (tr. 404): *"chi phí do thay đổi giá cả."*
 
 Sách liệt kê đầy đủ hơn cái tên gợi ý: *"chi phí quyết định giá mới, chi phí in danh sách và catalog giá
@@ -772,7 +808,7 @@ mới, và thậm chí cả **chi phí thương thảo với các khách hàng r
 Và một con số tần suất (tr. 403): *"doanh nghiệp Hoa Kỳ thường thay đổi giá mỗi năm một lần."*
 
 📌 Vế cuối trong danh sách trên không phải một khái niệm học thuật. Nó là **cuộc họp**. Xem
-[mục 16(a)](#16--góc-qtkd).
+[mục 16(a)](#16-góc-qtkd).
 
 ---
 
@@ -797,10 +833,11 @@ tháng cuối."*
 
 **Không ai ở nhà hàng quyết định điều này.** Giá của họ đứng yên; mọi thứ khác trượt đi bên dưới.
 
-### ⭐ Vì sao điều này quan trọng
+### Vì sao điều này quan trọng
 
 Sách trả lời bằng một đoạn nên đọc chậm (tr. 404):
 
+> [!quote]
 > *"Lý do là các nền kinh tế thị trường dựa trên **giá tương đối** để phân bổ nguồn lực khan hiếm. Người
 > tiêu dùng quyết định mua cái gì bằng cách so sánh chất lượng và giá cả của các hàng hoá và dịch vụ khác
 > nhau. Thông qua những quyết định này, họ xác định cách thức phân bổ các nhân tố sản xuất khan hiếm giữa
@@ -828,10 +865,11 @@ Sam vay **20.000 USD** lãi **7%** từ Bigbank, trả sau **10 năm**.
 | Lãi kép chính xác: $20.000 \times 1{,}07^{10}$ | **39.343 USD** |
 | Sách in | **40.000 USD** |
 
-⚠️ Chênh **1,7%**. Sách dùng lại **quy tắc 70** của
-[bài 5](bai_05_cong_cu_co_ban_cua_tai_chinh.md#3--ma-thuật-của-lãi-kép-và-quy-tắc-70--hộp-bạn-có-biết-tr-316):
-$70/7 = 10$ năm gấp đôi → $2 \times 20.000 = 40.000$. Làm tròn chấp nhận được cho lập luận, nhưng nhớ nó
-là xấp xỉ. **Đây là lần thứ ba trong bài này quy tắc 70 xuất hiện.**
+> [!warning]
+> Chênh **1,7%**. Sách dùng lại **quy tắc 70** của
+> [bài 5](bai_05_cong_cu_co_ban_cua_tai_chinh.md#3-ma-thuật-của-lãi-kép-và-quy-tắc-70--hộp-bạn-có-biết-tr-316):
+> $70/7 = 10$ năm gấp đôi → $2 \times 20.000 = 40.000$. Làm tròn chấp nhận được cho lập luận, nhưng nhớ nó
+> là xấp xỉ. **Đây là lần thứ ba trong bài này quy tắc 70 xuất hiện.**
 
 Bây giờ câu hỏi thật: **40.000 USD đó đáng giá bao nhiêu khi đến hạn?**
 
@@ -842,10 +880,11 @@ Bây giờ câu hỏi thật: **40.000 USD đó đáng giá bao nhiêu khi đế
 | đúng như dự kiến | 1,0 | 40.000 USD | hoà |
 | **giảm phát trầm trọng** | 0,7 | **57.143 USD** | **Bigbank** |
 
+> [!quote] tr. 407
 > *"Ví dụ này cho thấy rằng mức giá thay đổi **ngoài dự kiến** sẽ tái phân phối của cải giữa chủ nợ và
 > người đi vay."* (tr. 407)
 
-### ⚠️ Chữ chính là NGOÀI DỰ KIẾN
+### Chữ chính là NGOÀI DỰ KIẾN
 
 Sách nói rõ (tr. 407): *"Nếu lạm phát có thể dự báo được, thì Bigbank và Sam có thể tính đến lạm phát khi
 xác định lãi suất danh nghĩa. (Hãy nhớ lại hiệu ứng Fisher.)"*
@@ -856,6 +895,7 @@ xác định lãi suất danh nghĩa. (Hãy nhớ lại hiệu ứng Fisher.)"*
 
 Đây là chỗ chi phí thứ sáu trở nên nghiêm trọng hơn vẻ ngoài (tr. 407):
 
+> [!quote]
 > *"Lạm phát đặc biệt dễ biến động và không chắc chắn khi tỷ lệ lạm phát trung bình ở mức cao… Các nước
 > có tỷ lệ lạm phát trung bình thấp, như Đức ở cuối thế kỷ 20, có xu hướng lạm phát ổn định. Các nước có
 > tỷ lệ lạm phát trung bình cao, như nhiều nước châu Mỹ La tinh, có xu hướng lạm phát không ổn định.
@@ -869,7 +909,7 @@ ra."*
 
 ---
 
-## 13. 📚 Bài tập 5 tr. 412–413 — Bob, Rita, và điều thật sự quan trọng
+## 13. Bài tập 5 tr. 412–413 — Bob, Rita, và điều thật sự quan trọng
 
 Bài tập này xứng đáng có một mục riêng, vì nó đóng gói bài học trung tâm của cả nửa sau chương vào một
 bảng bốn dòng.
@@ -885,7 +925,7 @@ và lúa **bằng nhau** — nên rổ hàng là 1 đậu + 1 lúa. Năm 2010: �
 
 ✅ Ba tỷ lệ lạm phát kiểm bằng `assert`.
 
-### ⭐ Đọc dòng a và dòng c cạnh nhau
+### Đọc dòng a và dòng c cạnh nhau
 
 **Dòng a**: lạm phát **100%** — con số lớn nhất bảng — nhưng giá tương đối **không đổi** (vẫn 3,00) và
 **cả hai người đều không bị ảnh hưởng gì**.
@@ -929,8 +969,10 @@ Sách gọi đó là **quy tắc Friedman**.
    thu hẹp chính sách tiền tệ, sẽ làm giảm nhu cầu hàng hoá và dịch vụ nói chung của nền kinh tế. Sự sụt
    giảm tổng cầu này có thể dẫn đến giảm thu nhập và tăng thất nghiệp."*
 
-⚠️ Và câu nặng nhất của cả chương (tr. 408):
+> [!warning]
+> Và câu nặng nhất của cả chương (tr. 408):
 
+> [!quote]
 > *"Bởi vì **người đi vay thường là người nghèo hơn**, nên sự phân phối lại của cải này đặc biệt độc ác."*
 
 📌 Đó là một câu có nội dung phân phối, không chỉ hiệu quả — và nó giải thích tại sao mục tiếp theo lại
@@ -969,8 +1011,10 @@ Cách đọc của sử gia kinh tế **Hugh Rockoff**, *Tạp chí Kinh tế Ch
 | Con đường lát gạch màu vàng | **bản vị vàng** |
 | **Đôi dép BẠC của Dorothy** | **giải pháp: đồng bạc tự do** |
 
-⚠️ Và chi tiết mà sách kể rất có ý (tr. 409):
+> [!warning]
+> Và chi tiết mà sách kể rất có ý (tr. 409):
 
+> [!quote]
 > *"Khi quyển sách được chuyển thành phim vào năm 1939, các đôi dép của Dorothy được đổi từ bạc thành cao
 > su. Các nhà làm phim Hollywood thích gây ấn tượng bằng công nghệ mới làm phim màu hơn là kể một câu
 > chuyện về chính sách tiền tệ thế kỷ 19."*
@@ -981,6 +1025,7 @@ Biểu tượng trung tâm của cả câu chuyện bị xoá vì **lý do kỹ 
 
 Bryan **thua** McKinley, và Hoa Kỳ giữ bản vị vàng. Nhưng (tr. 409–410):
 
+> [!quote]
 > *"Vào năm 1898, những nhà thăm dò đã tìm ra vàng ở gần Sông Klondike ở Yukon, Canada. Sự gia tăng cung
 > vàng cũng đến từ các mỏ vàng ở Nam Phi. Kết quả là cung tiền và mức giá đã bắt đầu tăng ở Hoa Kỳ…
 > **Trong vòng 15 năm, giá cả ở Hoa Kỳ đã trở lại mức giá phổ biến của thập niên 1880**, và nông dân xử
@@ -989,21 +1034,23 @@ Bryan **thua** McKinley, và Hoa Kỳ giữ bản vị vàng. Nhưng (tr. 409–
 📌 Nông dân được điều họ muốn — **không phải nhờ chính sách, mà nhờ địa chất.** Dưới bản vị hàng hoá,
 cung tiền phụ thuộc vào việc ai đào được gì ở đâu. Đó là lý do gần như không nước nào còn dùng nó, và là
 một lập luận thầm lặng cho tiền pháp định ở
-[bài 7 mục 3](bai_07_he_thong_tien_te.md#3--tiền-hàng-hoá-và-tiền-pháp-định).
+[bài 7 mục 3](bai_07_he_thong_tien_te.md#3-tiền-hàng-hoá-và-tiền-pháp-định).
 
 ---
 
 ## 15. Sáu chi phí của lạm phát
 
-### ⚠️⚠️ Trước hết, gạt bỏ nhận thức sai phổ biến nhất
+### Trước hết, gạt bỏ nhận thức sai phổ biến nhất
 
 Sách dành hẳn một mục cho việc này, và nó là mục dễ gây khó chịu nhất của chương (tr. 401–402):
 
+> [!quote]
 > *"Nếu bạn hỏi một người bình thường tại sao lạm phát lại xấu, anh ta sẽ nói cho bạn rằng câu trả lời
 > rất hiển nhiên: lạm phát cướp mất của anh ấy sức mua của những đô la mà anh khó nhọc mới kiếm được."*
 
 Và bác bỏ (tr. 401–402):
 
+> [!quote]
 > *"Khi giá tăng, người mua hàng hoá và dịch vụ phải trả nhiều tiền hơn để mua những thứ họ cần. Nhưng
 > **đồng thời người bán hàng hoá và dịch vụ nhận được nhiều tiền hơn cho những gì họ bán**. Bởi vì hầu
 > hết mọi người tạo thu nhập bằng cách bán dịch vụ của mình, như sức lao động của họ, sự gia tăng thu
@@ -1017,11 +1064,13 @@ Ví dụ bằng số của sách (tr. 402): lương tăng **10%**, lạm phát *
 | Sách tính | 10 − 6 = **4%** thực |
 | Tính chính xác: $1{,}10/1{,}06 - 1$ | **3,77%** thực |
 
-⚠️ Chênh nhỏ, do sách dùng phép trừ thay vì phép chia. Không ảnh hưởng đến lập luận, nhưng đáng biết —
-đây là cùng loại xấp xỉ với [mục 4](#4--viết-năm-bước-ấy-thành-một-dòng).
+> [!warning]
+> Chênh nhỏ, do sách dùng phép trừ thay vì phép chia. Không ảnh hưởng đến lập luận, nhưng đáng biết —
+> đây là cùng loại xấp xỉ với [mục 4](#4-viết-năm-bước-ấy-thành-một-dòng).
 
 Và cú đánh chốt (tr. 402):
 
+> [!quote]
 > *"Nếu Fed hạ thấp tỷ lệ lạm phát từ 6% xuống 0, khoản tăng lương cho công nhân sẽ giảm từ 10% xuống còn
 > 4%. Cô ấy có thể sẽ cảm thấy ít bị cướp đi bởi lạm phát, nhưng **thu nhập thực của cô sẽ không tăng
 > nhanh hơn**."*
@@ -1069,20 +1118,23 @@ thiết."*
 
 Rồi áp vào tiền (tr. 406):
 
+> [!quote]
 > *"Công việc của Cục Dự trữ Liên bang hơi giống công việc của Cục Tiêu chuẩn (Bureau of Standards) –
 > đảm bảo độ tin cậy của đơn vị đo lường thường được sử dụng. Khi Fed tăng cung tiền và gây ra lạm phát,
 > nó làm sói mòn giá trị thực của đơn vị tính toán."*
 
 Hệ quả cụ thể mà sách chỉ ra (tr. 406) — và nó đi thẳng vào công việc kế toán:
 
+> [!quote]
 > *"các chuyên gia kế toán đo lường không chính xác lợi nhuận của doanh nghiệp khi giá cả gia tăng theo
 > thời gian… việc tính toán lợi nhuận của doanh nghiệp – sự chênh lệch giữa doanh thu và chi phí – trở
 > nên phức tạp hơn trong một nền kinh tế có lạm phát. Do đó, ở một mức độ nào đó, **lạm phát làm cho các
 > nhà đầu tư ít phân loại được doanh nghiệp thành công với doanh nghiệp không thành công**, từ đó có thể
 > gây trở ngại cho thị trường tài chính."*
 
-### ⚠️ Và sách kết luận một cách cố ý không dứt khoát
+### Và sách kết luận một cách cố ý không dứt khoát
 
+> [!quote] tr. 410
 > *"Tổng các chi phí này là cao hay thấp? Tất cả các nhà kinh tế đồng ý rằng các chi phí này trở nên rất
 > lớn trong thời kỳ siêu lạm phát. Nhưng độ lớn của chúng khi lạm phát ở mức trung bình – khi mà giá tăng
 > ít hơn 10% một năm – **vẫn còn nhiều tranh cãi**."* (tr. 410)
@@ -1093,7 +1145,7 @@ lạm phát vừa phải là thảm hoạ.
 
 ---
 
-## 16. 💼 Góc QTKD
+## 16. Góc QTKD
 
 *Mục này không có trong sách.*
 
@@ -1155,10 +1207,10 @@ thuật, quy mô nhỏ hơn.
 Với doanh nghiệp giữ vốn lưu động lớn, đây là **khoản lỗ im lặng lớn nhất trong báo cáo** — vì nó không
 xuất hiện ở dòng nào cả.
 
-⚠️ **Nhưng đừng đọc ngược thành "vậy hãy giữ thật ít tiền mặt".**
-[Bài 7 mục 13](bai_07_he_thong_tien_te.md#13-đổ-xô-rút-tiền-và-đại-khủng-hoảng) đã chỉ ra doanh nghiệp
-chết vì **thanh khoản** chứ không vì lợi nhuận. Đệm tiền mặt là **bảo hiểm**, và lạm phát là **phí bảo
-hiểm**. Câu hỏi đúng là *phí đó có đáng không*, không phải *làm sao khỏi trả phí*.
+> [!warning] Nhưng đừng đọc ngược thành "vậy hãy giữ thật ít tiền mặt".
+> [Bài 7 mục 13](bai_07_he_thong_tien_te.md#13-đổ-xô-rút-tiền-và-đại-khủng-hoảng) đã chỉ ra doanh nghiệp
+> chết vì **thanh khoản** chứ không vì lợi nhuận. Đệm tiền mặt là **bảo hiểm**, và lạm phát là **phí bảo
+> hiểm**. Câu hỏi đúng là *phí đó có đáng không*, không phải *làm sao khỏi trả phí*.
 
 ### (d) Lạm phát kỳ vọng quan trọng hơn lạm phát thực tế
 
@@ -1178,11 +1230,12 @@ không chọn được việc có cược hay không; bạn chỉ chọn đượ
 
 ---
 
-## 17. 📚 Đối chiếu Việt Nam
+## 17. Đối chiếu Việt Nam
 
-⚠️ **Cảnh báo trước khi đọc.** Mục này **không có trong sách** và **không dựa trên nguồn số liệu nào được
-kiểm chứng trong bài**. Nó chỉ nêu chỗ khung của Mankiw cần chỉnh khi đem về Việt Nam và **cách tra**.
-Số liệu cụ thể hãy tra tại **Tổng cục Thống kê** và **Ngân hàng Nhà nước Việt Nam**.
+> [!warning] Cảnh báo trước khi đọc.
+> Mục này **không có trong sách** và **không dựa trên nguồn số liệu nào được
+> kiểm chứng trong bài**. Nó chỉ nêu chỗ khung của Mankiw cần chỉnh khi đem về Việt Nam và **cách tra**.
+> Số liệu cụ thể hãy tra tại **Tổng cục Thống kê** và **Ngân hàng Nhà nước Việt Nam**.
 
 ### Thước đo: CPI, không phải chỉ số giảm phát GDP
 
@@ -1199,14 +1252,15 @@ bằng số học**, không nhất thiết là chuyện số liệu sai.
 
 | | Mô hình của chương 17 | Việt Nam cần chỉnh |
 | --- | --------------------- | ------------------ |
-| Cung tiền | Fed kiểm soát qua thị trường mở | NHNN dùng OMO **và** trần tăng trưởng tín dụng — xem [bài 7 mục 16](bai_07_he_thong_tien_te.md#16--đối-chiếu-việt-nam) |
+| Cung tiền | Fed kiểm soát qua thị trường mở | NHNN dùng OMO **và** trần tăng trưởng tín dụng — xem [bài 7 mục 16](bai_07_he_thong_tien_te.md#16-đối-chiếu-việt-nam) |
 | Nguồn cú sốc giá | chủ yếu tiền tệ (dài hạn) | thêm **giá lương thực và năng lượng nhập khẩu** — nền kinh tế mở, quy mô nhỏ |
 | Tỷ giá | không có trong chương này | kênh truyền dẫn quan trọng — đó là **bài 9–10** |
 
-⚠️ Điểm thứ hai đáng nhấn. Chương 17 là chương **dài hạn** và **nền kinh tế đóng**. Trong khung đó, lạm
-phát là hiện tượng thuần tiền tệ. Nhưng lạm phát mà bạn đọc trên báo trong một quý cụ thể có thể chủ yếu
-đến từ giá xăng dầu hoặc giá thịt lợn — những cú sốc **cung**, ngắn hạn, không phải tiền tệ. **Đừng dùng
-mô hình dài hạn để giải thích một tháng.** Sách sẽ đưa công cụ đúng cho việc đó ở bài 11.
+> [!warning]
+> Điểm thứ hai đáng nhấn. Chương 17 là chương **dài hạn** và **nền kinh tế đóng**. Trong khung đó, lạm
+> phát là hiện tượng thuần tiền tệ. Nhưng lạm phát mà bạn đọc trên báo trong một quý cụ thể có thể chủ yếu
+> đến từ giá xăng dầu hoặc giá thịt lợn — những cú sốc **cung**, ngắn hạn, không phải tiền tệ. **Đừng dùng
+> mô hình dài hạn để giải thích một tháng.** Sách sẽ đưa công cụ đúng cho việc đó ở bài 11.
 
 ### Thuế lạm phát và thói quen giữ tài sản
 
@@ -1224,7 +1278,7 @@ và nó là chi phí **thật**, dù không ai lập hoá đơn cho nó.
 - **Lạm phát cơ bản (core inflation)** — CPI loại bỏ lương thực, thực phẩm và năng lượng. Nó gần với
   "lạm phát tiền tệ" mà chương này nói đến hơn là CPI chung.
 - **Khoảng cách giữa lạm phát chung và lạm phát cơ bản** — nếu chung cao hơn hẳn, cú sốc chủ yếu là cú
-  sốc **cung**, và [mục 4](#4--viết-năm-bước-ấy-thành-một-dòng) không phải công cụ đúng để đọc nó.
+  sốc **cung**, và [mục 4](#4-viết-năm-bước-ấy-thành-một-dòng) không phải công cụ đúng để đọc nó.
 - **Tăng trưởng tín dụng và M2** so với **tăng trưởng GDP thực** — đó chính là hai vế của công thức ở mục
   4. Nếu vế trái vượt vế phải bền bỉ trong nhiều năm, thuyết số lượng tiền nói phần chênh lệch phải hiện
   ra ở đâu đó, dưới dạng giá hàng hoá hoặc giá tài sản.
@@ -1233,6 +1287,7 @@ và nó là chi phí **thật**, dù không ai lập hoá đơn cho nó.
 
 ## 18. Code minh hoạ
 
+> [!note]
 > ⚙️ **Chạy:** cần **Python 3.10+**. Lưu file rồi gõ `python3 bai-08-tang-truong-tien-va-lam-phat.py`.
 > Không cần cài gói nào — chỉ dùng thư viện chuẩn. Output tất định.
 
@@ -3002,7 +3057,7 @@ Trả lời rồi mới kéo lên đối chiếu. Câu có ⭐ là câu đáng d
   - tr. 403 — lương ông Miranda sau khi tỷ giá đổi: sách in **27 USD**, phép chia đúng cho **27,78 USD**.
   - tr. 407 — nợ của Sam: sách in **40.000 USD**, lãi kép chính xác cho **39.343 USD**. Sách dùng quy tắc
     70 ($70/7 = 10$ năm gấp đôi), tức đúng xấp xỉ của
-    [bài 5 mục 3](bai_05_cong_cu_co_ban_cua_tai_chinh.md#3--ma-thuật-của-lãi-kép-và-quy-tắc-70--hộp-bạn-có-biết-tr-316).
+    [bài 5 mục 3](bai_05_cong_cu_co_ban_cua_tai_chinh.md#3-ma-thuật-của-lãi-kép-và-quy-tắc-70--hộp-bạn-có-biết-tr-316).
   - tr. 402 — lương tăng 10% với lạm phát 6%: sách viết **4%** thực (phép trừ), phép chia chính xác cho
     **3,77%**.
 
@@ -3010,7 +3065,7 @@ Trả lời rồi mới kéo lên đối chiếu. Câu có ⭐ là câu đáng d
     ghi ra vì bài này có `assert` chạy trên số thật.
 
 - **Chỗ đã ghi rõ để không nhoè ranh giới sách với phần bài này viết thêm:**
-  - Dạng tăng trưởng của phương trình số lượng ở [mục 4](#4--viết-năm-bước-ấy-thành-một-dòng)
+  - Dạng tăng trưởng của phương trình số lượng ở [mục 4](#4-viết-năm-bước-ấy-thành-một-dòng)
     (*lạm phát = tăng trưởng tiền − tăng trưởng sản lượng*) **không có trong sách**. Sách phát biểu năm
     bước bằng lời ở tr. 396; bài này viết chúng thành công thức và kiểm rằng nó tái tạo đúng lời giải của
     bài tập 2 và 4.
@@ -3018,13 +3073,13 @@ Trả lời rồi mới kéo lên đối chiếu. Câu có ⭐ là câu đáng d
     số mệnh giá và giá trị USD mà sách in ở tr. 398. Sách **không** in tỷ lệ lạm phát của năm 2008.
   - Bảng kịch bản giá trị thực khoản nợ của Sam ở [mục 12](#12-lạm-phát-ngoài-dự-kiến-tái-phân-phối-của-cải)
     là do bài này dựng; sách mô tả bằng lời.
-  - Toàn bộ [mục 16 — Góc QTKD](#16--góc-qtkd) và [mục 17 — Đối chiếu Việt Nam](#17--đối-chiếu-việt-nam)
+  - Toàn bộ [mục 16 — Góc QTKD](#16-góc-qtkd) và [mục 17 — Đối chiếu Việt Nam](#17-đối-chiếu-việt-nam)
     nằm ngoài sách. Mục 17 **không dựa trên nguồn số liệu nào được kiểm chứng trong bài**.
 
 - **Liên hệ chéo:**
   - [Bài 7](bai_07_he_thong_tien_te.md) — Fed đổi cung tiền bằng cách nào; mục 12 của bài 7 giải thích vì
     sao giả định "cung tiền dốc đứng" ở đây là một đơn giản hoá có ý thức.
-  - [Bài 5 mục 3](bai_05_cong_cu_co_ban_cua_tai_chinh.md#3--ma-thuật-của-lãi-kép-và-quy-tắc-70--hộp-bạn-có-biết-tr-316) —
+  - [Bài 5 mục 3](bai_05_cong_cu_co_ban_cua_tai_chinh.md#3-ma-thuật-của-lãi-kép-và-quy-tắc-70--hộp-bạn-có-biết-tr-316) —
     quy tắc 70, dùng lại **ba lần** trong bài này.
   - [Bài 2 mục 12](bai_02_do_luong_chi_phi_sinh_hoat.md#12-lãi-suất-danh-nghĩa-và-lãi-suất-thực) — nền
     của hiệu ứng Fisher.

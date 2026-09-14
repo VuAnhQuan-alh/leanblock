@@ -1,15 +1,16 @@
 # Bài 5 — Vì sao bảng cân đối lại cân
 
+> [!info] Về bài này
 > Bài học dựng từ **Phần III — Bảng cân đối kế toán, nơi vén mở nhiều điều nhất**: chương 12 *Tại sao
 > bảng cân đối kế toán lại cân đối?* (PDF tr. 97–99), chương 13 *Báo cáo kết quả kinh doanh ảnh hưởng
 > đến bảng cân đối kế toán* (PDF tr. 100–107).
-> 🎯 **Vòng 1.** Bài 4 đã đi hết hai cột của bảng cân đối. Bài này trả lời câu hỏi bài 4 hứa, rồi **nối
+>
+> **Vòng 1.** Bài 4 đã đi hết hai cột của bảng cân đối. Bài này trả lời câu hỏi bài 4 hứa, rồi **nối
 > nó với báo cáo kết quả kinh doanh** — và đóng lại Phần III.
-> 💼 **Góc quản trị** — ví dụ thêm cho người đi làm, **không có trong sách**.
-> 📚 **Mở rộng** — thứ sách nói lướt hoặc để trong hộp công cụ.
-> 🇻🇳 **Đối chiếu Việt Nam** — sách viết theo US GAAP, mục này nối sang thực tế Việt Nam.
-> ⚠️ — chỗ dễ hiểu sai, hoặc chỗ sách in sai.
-> 📌 **Cần đọc trước:** [Bài 4](bai_04_bang_can_doi_ke_toan.md) — toàn bộ bài này dựng trên phương
+>
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
+>
+> **Cần đọc trước:** [Bài 4](bai_04_bang_can_doi_ke_toan.md) — toàn bộ bài này dựng trên phương
 > trình và các dòng đã dựng ở đó.
 > ⚙️ **Code:** [`thuc_hanh/bai-05-vi-sao-bang-can-doi-lai-can.py`](../thuc_hanh/bai-05-vi-sao-bang-can-doi-lai-can.py)
 > — file này **dựng một sổ kép thật**: mọi bút toán đi qua hàm `ghi()`, và hàm đó `assert` lại phương
@@ -29,9 +30,9 @@
 - [5. Lỗ liên tiếp — bao lâu thì vốn chủ sở hữu âm](#5-lỗ-liên-tiếp--bao-lâu-thì-vốn-chủ-sở-hữu-âm)
 - [6. Ba tình huống nhà quản lý — đặt số vào cả ba](#6-ba-tình-huống-nhà-quản-lý--đặt-số-vào-cả-ba)
 - [7. Ba câu hỏi đánh giá sức khoẻ — và câu hỏi thứ tư sắc hơn cả ba](#7-ba-câu-hỏi-đánh-giá-sức-khoẻ--và-câu-hỏi-thứ-tư-sắc-hơn-cả-ba)
-- [8. 📚 Hộp công cụ — "nhân viên là tài sản giá trị nhất của chúng ta"](#8--hộp-công-cụ--nhân-viên-là-tài-sản-giá-trị-nhất-của-chúng-ta)
+- [8. Hộp công cụ — "nhân viên là tài sản giá trị nhất của chúng ta"](#8-hộp-công-cụ--nhân-viên-là-tài-sản-giá-trị-nhất-của-chúng-ta)
 - [9. WorldCom — vốn hoá chi phí, nhìn từ bảng cân đối](#9-worldcom--vốn-hoá-chi-phí-nhìn-từ-bảng-cân-đối)
-- [10. 🇻🇳 Đối chiếu Việt Nam](#10--đối-chiếu-việt-nam)
+- [10. Đối chiếu Việt Nam](#10-đối-chiếu-việt-nam)
 - [11. Tự thử](#11-tự-thử)
 - [12. Từ điển thuật ngữ](#12-từ-điển-thuật-ngữ)
 - [13. Câu hỏi tự kiểm tra](#13-câu-hỏi-tự-kiểm-tra)
@@ -46,6 +47,7 @@
 
 Chương 12 mở bằng cách gạt bỏ câu trả lời mà ai cũng thuộc:
 
+> [!quote]
 > *"Nếu ở trường bạn đã được học về phương trình kế toán cơ bản, có lẽ giáo viên của bạn đã nói điều gì
 > đó đại loại như: 'Nó được gọi là bảng cân đối kế toán **bởi vì nó cân đối**.' Nhưng ngay cả khi bạn
 > viết đáp án đó vào bài thi với một ý thức cực cao, **chưa chắc bạn đã hiểu hết lý do**."*
@@ -60,6 +62,7 @@ bị bắt phải cân.
 **② Vì hai bên là hai câu hỏi khác nhau về cùng một thứ.** Một bên là *những gì doanh nghiệp sở hữu*;
 bên kia là *"**cách thức** mà doanh nghiệp thu được những gì đang sở hữu"*.
 
+> [!quote]
 > *"Vì bạn **không thể có thứ này mà không mất đi thứ kia**, nên phần 'có' và phần 'cách chúng ta có'
 > sẽ luôn cân đối. **Chúng buộc phải như thế.**"* — ch. 12 · PDF tr. 97
 
@@ -83,6 +86,7 @@ Hai giao dịch nữa sách nêu, cùng đi qua sổ kép:
 | dùng 100.000 tiền trả hết nợ vay | 100.000 | 0 | 100.000 |
 | mua thiết bị 100.000, trả trước 50.000 | 150.000 | 50.000 | 100.000 |
 
+> [!quote]
 > *"Bạn chỉ cần nhớ rõ một thực tế căn bản rằng **các giao dịch ảnh hưởng đến cả hai phần** của bảng
 > cân đối, thế là đủ. Đó là lý do bảng cân đối kế toán luôn cân đối… **nếu tài sản không cân bằng với
 > nợ phải trả và vốn chủ sở hữu, ta sẽ không thể có bảng cân đối kế toán.**"* — ch. 12 · PDF tr. 99
@@ -96,6 +100,7 @@ kiện để vật ấy tồn tại**. Một bảng lệch không phải "bảng
 
 Câu kỹ thuật nhất của chương 12 nằm lọt giữa hai ví dụ và rất dễ đọc lướt qua:
 
+> [!quote]
 > *"Vốn chủ sở hữu **chỉ** bị ảnh hưởng khi doanh nghiệp ① **lấy vốn đầu tư từ chủ sở hữu**, ② **chi
 > tiền mặt cho chủ sở hữu**, hay ③ **ghi nhận một khoản lãi hoặc lỗ**."* — ch. 12 · PDF tr. 98
 
@@ -119,9 +124,10 @@ Câu kỹ thuật nhất của chương 12 nằm lọt giữa hai ví dụ và r
 một li nào**, dù chúng làm tổng tài sản chạy từ 6.000 lên 7.100. Cả hai chiều đều chốt bằng `assert`:
 thêm một giao dịch phá luật thì file sẽ đổ.
 
-💼 **Vì sao đáng nhớ:** nó cho biết bạn **có thể** và **không thể** làm gì. Vay thêm tiền, trả bớt nợ,
-mua máy, đổi kỳ hạn với nhà cung cấp — **không việc nào trong số đó làm doanh nghiệp giàu hơn một xu**.
-Chúng chỉ đổi hình dạng bảng cân đối. Chỉ **lãi** và **lỗ** mới dịch được giá trị sổ sách.
+> [!example] Vì sao đáng nhớ:
+> nó cho biết bạn **có thể** và **không thể** làm gì. Vay thêm tiền, trả bớt nợ,
+> mua máy, đổi kỳ hạn với nhà cung cấp — **không việc nào trong số đó làm doanh nghiệp giàu hơn một xu**.
+> Chúng chỉ đổi hình dạng bảng cân đối. Chỉ **lãi** và **lỗ** mới dịch được giá trị sổ sách.
 
 📌 Đó chính là nội dung của [bài 4](bai_04_bang_can_doi_ke_toan.md) mục 3 — phép so sánh GPA — viết lại
 dưới dạng một quy tắc chặn.
@@ -132,6 +138,7 @@ dưới dạng một quy tắc chặn.
 
 Chương 13 mở bằng một câu mà sách tự gọi là bí mật:
 
+> [!quote]
 > *"Xin tiết lộ với bạn **một trong những bí mật được giữ kín nhất** của thế giới báo cáo tài chính:
 > **một thay đổi trong báo cáo này gần như luôn ảnh hưởng đến báo cáo kia.** Vì vậy, khi quản lý báo
 > cáo kết quả kinh doanh, cũng là lúc bạn **đồng thời tác động đến bảng cân đối kế toán**."*
@@ -155,12 +162,14 @@ Báo cáo kết quả kinh doanh tháng đó: doanh thu 100 − giá vốn 50 = 
 Bảng cân đối cuối tháng: tiền **0**, phải thu **100** → tổng **100**; phải trả **50**, vốn chủ **50**.
 Cả bốn con số khớp từng số với sách (PDF tr. 101), chốt bằng `assert`.
 
+> [!quote]
 > *"Như bạn thấy, khoản lợi nhuận thuần 25 đô-la **đã trở thành vốn chủ sở hữu**… Đây là thực tế ở tất
 > cả các doanh nghiệp: lãi ròng sẽ được cộng vào vốn, trừ khi nó được dùng làm cổ tức."*
 > — ch. 13 · PDF tr. 101
 
 ### Nhưng câu quan trọng nhất nằm ở dòng sau đó
 
+> [!quote]
 > *"Hãy lưu ý thêm một điều nữa ở ví dụ đơn giản này: **doanh nghiệp đã phải gồng cả tháng vì không có
 > tiền!** Họ làm ra tiền, và vốn chủ sở hữu tăng, **nhưng họ không có đồng nào trong ngân hàng**."*
 > — ch. 13 · PDF tr. 101
@@ -194,12 +203,13 @@ khách trả sau một tháng; nhà cung cấp được trả sau một tháng �
 ⭐ **Cả hai cột đều tăng** — với kỳ hạn của sách thì doanh nghiệp này không chết đói. Nhưng cột *khoảng
 cách* nở ra theo doanh thu, và nó có công thức chính xác:
 
+> [!note]
 > **khoảng cách = phải thu − phải trả = 0,5 × doanh thu tháng đó**
 
 Tháng 12: 372 = 0,5 × 743. Mỗi đồng doanh thu tăng thêm **khoá lại 0,5 đồng** trong vốn lưu động, và
 không nhả ra chừng nào còn bán được.
 
-### ⚠️ Vậy khi nào thì nó chết đói? Khi kỳ hạn lệch
+### Vậy khi nào thì nó chết đói? Khi kỳ hạn lệch
 
 Sách cho khách trả sau **đúng một tháng** — bằng y kỳ hạn của nhà cung cấp. Nới kỳ hạn thu tiền ra,
 giữ nguyên mọi thứ khác, và đo **tiền thấp nhất trong 12 tháng**:
@@ -217,9 +227,11 @@ trưởng nhanh càng cần nhiều tiền. Nhưng hàng 1 thì **phẳng** — 
 ⭐ Kết luận **không phải** "tăng trưởng nguy hiểm". Kết luận là: **độ lệch kỳ hạn quyết định, còn tăng
 trưởng chỉ khuếch đại cái độ lệch sẵn có.** Bài 6 và bài 11 sẽ đo chính xác độ lệch ấy bằng DSO và DPO.
 
-💼 Và đây là đẳng thức nối hai cột — chính là báo cáo lưu chuyển tiền tệ thu nhỏ, trước khi
-[bài 7](bai_07_bao_cao_luu_chuyen_tien_te.md) gọi tên nó:
+> [!example]
+> Và đây là đẳng thức nối hai cột — chính là báo cáo lưu chuyển tiền tệ thu nhỏ, trước khi
+> [bài 7](bai_07_bao_cao_luu_chuyen_tien_te.md) gọi tên nó:
 
+> [!note]
 > **tiền = tiền đầu kỳ + lợi nhuận luỹ kế − Δphải thu + Δphải trả − Δtồn kho**
 >
 > 25 + 990 − 743 + 372 = **643** — đúng bằng tiền thực tế tháng 12. Chốt bằng `assert`.
@@ -228,6 +240,7 @@ trưởng chỉ khuếch đại cái độ lệch sẵn có.** Bài 6 và bài 1
 
 ## 5. Lỗ liên tiếp — bao lâu thì vốn chủ sở hữu âm
 
+> [!quote]
 > *"Nếu một doanh nghiệp chịu lỗ mỗi tháng, thì cuối cùng nợ phải trả của doanh nghiệp đó sẽ **vượt quá
 > tài sản, vốn chủ sở hữu sẽ âm**. Doanh nghiệp đứng trên **bờ vực phá sản**."* — ch. 13 · PDF tr. 101
 
@@ -243,9 +256,10 @@ Sách không đặt số. Công ty mẫu có vốn chủ sở hữu 2.457 triệ
 chịu được một chuỗi năm tệ hại rất dài. Doanh nghiệp tí hon ở mục 3 chỉ có vốn chủ 50 — nó chịu được
 **đúng hai tháng** lỗ 25.
 
-⚠️ Nhưng **"vốn chủ sở hữu âm" không phải là ngày doanh nghiệp chết. Nó chết khi hết tiền.** Hai mốc đó
-khác nhau, và thường mốc **tiền** đến trước — đúng như mục 4 vừa chỉ ra. Sách viết *"đứng trên bờ vực
-phá sản"*, không viết *"đã phá sản"*.
+> [!warning]
+> Nhưng **"vốn chủ sở hữu âm" không phải là ngày doanh nghiệp chết. Nó chết khi hết tiền.** Hai mốc đó
+> khác nhau, và thường mốc **tiền** đến trước — đúng như mục 4 vừa chỉ ra. Sách viết *"đứng trên bờ vực
+> phá sản"*, không viết *"đã phá sản"*.
 
 ---
 
@@ -257,6 +271,7 @@ trên 1.714 nợ có lãi = **11,1%/năm** *(cách gộp nợ có lãi là của
 
 ### ① Giám đốc nhà máy mua nguyên liệu số lượng lớn vì có "mối tốt"
 
+> [!quote]
 > *"Rất hợp lý đúng không? **Không hẳn.** Dòng hàng tồn kho trên bảng cân đối kế toán sẽ tăng lên.
 > Khoản phải trả cũng sẽ tăng theo tương ứng. Cuối cùng, nhà máy sẽ phải rút tiền mặt ra để thanh toán
 > những khoản phải trả − **có thể là rất sớm trước khi nguyên vật liệu được dùng để tạo ra doanh
@@ -277,6 +292,7 @@ tăng từ 0,5 lên 3,0 tháng, tức **+1.408 triệu**:
 
 ### ② Giám đốc bán hàng nhắm vào khách hàng nhỏ hơn
 
+> [!quote]
 > *"Có lẽ không. Khách hàng nhỏ hơn không thể có cấp rủi ro tín dụng tốt như các khách hàng lớn. Các
 > khoản phải thu có thể tăng mạnh… Một giám đốc bán hàng có trí tuệ tài chính sẽ phải điều tra các khả
 > năng định giá: **anh ta có thể tăng thêm lợi nhuận gộp để bù đắp cho những rủi ro ngày càng tăng
@@ -299,6 +315,7 @@ không đẩy được giá lên ngần ấy, thương vụ này **làm doanh th
 
 ### ③ Giám đốc CNTT mua hệ thống máy tính mới
 
+> [!quote]
 > *"Doanh nghiệp sẽ trông vào đâu để thanh toán cho dàn thiết bị mới? Nếu doanh nghiệp được **tạo đòn
 > bẩy quá đà**… việc vay tiền để chi trả cho hệ thống mới có lẽ **không phải là ý hay**."*
 > — ch. 13 · PDF tr. 103
@@ -315,14 +332,16 @@ Hệ thống giá 200 triệu:
 vay, tiền lãi thêm là **22,3 triệu/năm** — hệ thống phải làm ra hơn ngần ấy EBIT **mỗi năm** thì mới
 bắt đầu có lãi. So với EBIT hiện tại 652, đó là **3,4%**.
 
-💼 Sách nói thẳng đây không phải việc của giám đốc CNTT: *"Đưa ra các quyết định huy động lượng vốn cần
-thiết để vận hành doanh nghiệp là công việc của **giám đốc tài chính và thủ quỹ**."* Nhưng hiểu bảng
-trên giúp ông ta chọn **đúng lúc** để đề nghị mua.
+> [!example]
+> Sách nói thẳng đây không phải việc của giám đốc CNTT: *"Đưa ra các quyết định huy động lượng vốn cần
+> thiết để vận hành doanh nghiệp là công việc của **giám đốc tài chính và thủ quỹ**."* Nhưng hiểu bảng
+> trên giúp ông ta chọn **đúng lúc** để đề nghị mua.
 
 ---
 
 ## 7. Ba câu hỏi đánh giá sức khoẻ — và câu hỏi thứ tư sắc hơn cả ba
 
+> [!quote]
 > *"Bảng cân đối kế toán **giải đáp rất nhiều câu hỏi**."* — ch. 13 · PDF tr. 104
 
 | # | câu hỏi của sách | công ty mẫu |
@@ -331,11 +350,13 @@ trên giúp ông ta chọn **đúng lúc** để đề nghị mua.
 | ② | *"Doanh nghiệp có **khả năng thanh toán hoá đơn** không? Các số liệu quan trọng ở đây là tài sản ngắn hạn, **đặc biệt là tiền mặt**, so với nợ ngắn hạn."* | TSNH/NNH = **2,34 lần** ✓<br>nhưng riêng **tiền** chỉ 83 trên 1.174 = **7,1%** ⚠️ |
 | ③ | *"**Vốn chủ sở hữu có tăng** theo thời gian không?"* | 2.375 → 2.457, tăng **82** ✓ |
 
-⚠️ Chú ý chỗ sách nhấn *"đặc biệt là tiền mặt"*. Hệ số 2,34 lần trông rất an toàn, nhưng phần lớn tài
-sản ngắn hạn là **phải thu và tồn kho**, không phải tiền. [Bài 8](bai_08_ty_le_loi_nhuan_don_bay_thanh_toan.md) tách hai con số này ra.
+> [!warning]
+> Chú ý chỗ sách nhấn *"đặc biệt là tiền mặt"*. Hệ số 2,34 lần trông rất an toàn, nhưng phần lớn tài
+> sản ngắn hạn là **phải thu và tồn kho**, không phải tiền. [Bài 8](bai_08_ty_le_loi_nhuan_don_bay_thanh_toan.md) tách hai con số này ra.
 
 ### Rồi sách hỏi thêm một câu sắc hơn hẳn ba câu trên
 
+> [!quote]
 > *"**Nếu vốn chủ sở hữu tăng, thì nguyên nhân là vì doanh nghiệp đang huy động vốn, hay là vì doanh
 > nghiệp đã tự làm ra tiền?**"* — ch. 13 · PDF tr. 104
 
@@ -350,15 +371,17 @@ cổ phiếu và 1.110 vốn bổ sung y nguyên cả hai năm. Đó là câu tr
 
 Sách đóng Phần III:
 
+> [!quote]
 > *"Bảng cân đối kế toán − giống như **bảng điểm bình quân tích luỹ** của doanh nghiệp − có lẽ là loại
 > **báo cáo quan trọng nhất**."* — ch. 13 · PDF tr. 104
 
 ---
 
-## 8. 📚 Hộp công cụ — "nhân viên là tài sản giá trị nhất của chúng ta"
+## 8. Hộp công cụ — "nhân viên là tài sản giá trị nhất của chúng ta"
 
 Sách mở hộp công cụ bằng một câu hỏi khó chịu:
 
+> [!quote]
 > *"Bạn nghe các CEO nói điều này suốt… Nhưng bạn cũng thấy một số CEO **hành xử như thể các nhân viên
 > không phải là tài sản**. Bạn có tưởng tượng ra một doanh nghiệp giảm biên chế hoặc sa thải **món tài
 > sản nào khác** − đơn giản là tống thứ đó ra đường với hi vọng rằng nó sẽ tự biết bỏ đi – không?"*
@@ -384,10 +407,12 @@ bên là văn hoá và quan điểm của doanh nghiệp và một bên là ho�
 
 Hộp công cụ thứ hai đặt ranh giới quan trọng nhất của cả Phần III:
 
+> [!quote]
 > *"Bạn có thể thấy sự khác biệt giữa 'chi phí hoạt động' (trên báo cáo kết quả kinh doanh) và 'chi phí
 > đầu tư cơ bản' (trên bảng cân đối kế toán) rất rõ ràng và dễ hiểu. **Nhưng rõ ràng là không phải
 > vậy. Thực tế là đây là tấm vải để vẽ nên bức tranh nghệ thuật tài chính.**"* — ch. 13 · PDF tr. 106
 
+> [!quote]
 > *"Chi phí đường dây [của WorldCom] được xử lý như những khoản chi phí hoạt động thông thường, nhưng
 > bạn có thể lý luận (**dù lập luận này không chính xác**) rằng một số trong đó thực ra là những khoản
 > đầu tư… Logic này đã thuyết phục được **Scott Sullivan**, giám đốc tài chính của công ty, người bắt
@@ -407,12 +432,13 @@ Hộp công cụ thứ hai đặt ranh giới quan trọng nhất của cả Ph�
 
 ⭐ Hai cột cuối **giống hệt nhau**, và đó là đẳng thức đáng nhớ:
 
+> [!note]
 > **tài sản ảo trên bảng cân đối = luỹ kế lợi nhuận đã khai khống**
 
 Chốt bằng `assert` ở mọi năm. **Bảng cân đối vẫn cân hoàn hảo suốt cả năm năm** — nó không hề "phát
 hiện" ra gian lận. Nó chỉ **phình ra ở một dòng**.
 
-### ⚠️ Và đây là chỗ phải cẩn thận
+### Và đây là chỗ phải cẩn thận
 
 Vốn hoá một khoản chi phí làm tiền chuyển từ **hoạt động kinh doanh** sang **hoạt động đầu tư** trên
 báo cáo lưu chuyển tiền tệ. Tổng tiền **không đổi**, nhưng dòng *"tiền từ HĐKD"* lại **đẹp hơn**:
@@ -427,18 +453,20 @@ báo cáo lưu chuyển tiền tệ. Tổng tiền **không đổi**, nhưng dò
 lâu đến vậy: *"Đối với Phố Wall, có vẻ như WorldCom **đột nhiên làm ra được lợi nhuận trong một ngành
 suy thoái** và mọi chuyện không bị ai phát hiện cho đến mãi sau này."*
 
-💼 Vậy bắt bằng gì? Bằng cái **không đổi được**: **tổng tiền**, và **tốc độ phình của dòng tài sản**.
-Nếu một dòng tài sản lớn nhanh hơn doanh thu năm này qua năm khác mà tổng tiền không nhúc — đó là chỗ
-cần hỏi. [Bài 7](bai_07_bao_cao_luu_chuyen_tien_te.md) sẽ dựng công cụ đó.
+> [!example]
+> Vậy bắt bằng gì? Bằng cái **không đổi được**: **tổng tiền**, và **tốc độ phình của dòng tài sản**.
+> Nếu một dòng tài sản lớn nhanh hơn doanh thu năm này qua năm khác mà tổng tiền không nhúc — đó là chỗ
+> cần hỏi. [Bài 7](bai_07_bao_cao_luu_chuyen_tien_te.md) sẽ dựng công cụ đó.
 
 Sách kết hộp công cụ bằng một câu hỏi, và nó không dành cho WorldCom:
 
+> [!quote]
 > *"Một số công ty sẽ xử lý những khoản gây bàn cãi không thường xuyên này như là chi phí đầu tư cơ bản
 > hòng đẩy thu nhập của mình tăng lên chút ít. **Công ty của bạn có như vậy không?**"* — ch. 13 · PDF tr. 107
 
 ---
 
-## 10. 🇻🇳 Đối chiếu Việt Nam
+## 10. Đối chiếu Việt Nam
 
 **① Phương trình này không có gì để đối chiếu — nó phổ quát.** Kế toán Việt Nam cũng là **ghi sổ kép**
 (Nợ / Có), và đẳng thức *tài sản = nguồn vốn* đúng y hệt. Khác biệt duy nhất là **cách bày**: mẫu B01-DN
@@ -459,10 +487,11 @@ phải bằng nhau. Bảng của Mỹ để người đọc tự cộng; bảng 
 38%**. Công ty mẫu thì phải bán được hàng và thu được nợ mới trả nổi. **Cùng một hệ số, hai tình trạng
 hoàn toàn khác nhau** — đúng lý do sách nhấn *"đặc biệt là tiền mặt"*.
 
-⚠️ Câu ③ *"vốn chủ sở hữu tăng vì huy động vốn hay tự làm ra?"* **chưa trả lời được cho Vinamilk** trong
-kho này: bộ số liệu đang có chỉ gồm bảng cân đối 2024, không có vốn chủ sở hữu 2023 để so. Đây là một
-lỗ hổng dữ liệu **có thật**, không phải kết luận — muốn trả lời thì phải lấy thêm cột so sánh từ chính
-báo cáo gốc.
+> [!warning]
+> Câu ③ *"vốn chủ sở hữu tăng vì huy động vốn hay tự làm ra?"* **chưa trả lời được cho Vinamilk** trong
+> kho này: bộ số liệu đang có chỉ gồm bảng cân đối 2024, không có vốn chủ sở hữu 2023 để so. Đây là một
+> lỗ hổng dữ liệu **có thật**, không phải kết luận — muốn trả lời thì phải lấy thêm cột so sánh từ chính
+> báo cáo gốc.
 
 **③ Câu hỏi của mục 9 có một địa chỉ cụ thể trong báo cáo Việt Nam.** Ranh giới *"chi phí hoạt động hay
 chi phí đầu tư cơ bản"* ở Việt Nam nằm giữa việc ghi thẳng vào chi phí và việc treo ở **"chi phí trả
@@ -470,9 +499,10 @@ trước dài hạn"** hoặc vốn hoá vào **tài sản cố định vô hìn
 sản cố định hữu hình) và **VAS 04** (tài sản cố định vô hình) — và như mọi điều kiện ghi nhận, chúng
 đòi một **phán đoán** về việc khoản chi có mang lại lợi ích kinh tế tương lai hay không.
 
-💼 Nên khi đọc một báo cáo Việt Nam, câu hỏi mà sách để lại — *"công ty của bạn có như vậy không?"* — có
-một cách kiểm cụ thể: **so tốc độ tăng của dòng "chi phí trả trước dài hạn" với tốc độ tăng doanh thu**.
-Nếu nó phình nhanh hơn nhiều mà không có giải thích trong thuyết minh, đó là chỗ đáng hỏi.
+> [!example]
+> Nên khi đọc một báo cáo Việt Nam, câu hỏi mà sách để lại — *"công ty của bạn có như vậy không?"* — có
+> một cách kiểm cụ thể: **so tốc độ tăng của dòng "chi phí trả trước dài hạn" với tốc độ tăng doanh thu**.
+> Nếu nó phình nhanh hơn nhiều mà không có giải thích trong thuyết minh, đó là chỗ đáng hỏi.
 
 ---
 
@@ -675,9 +705,9 @@ rồi chạy lại. Không có lời giải.
 - **Công ty Cổ phần Sữa Việt Nam (HOSE: VNM)** — Báo cáo tài chính hợp nhất đã kiểm toán 2024 theo
   IFRS, trong *Báo cáo thường niên Vinamilk 2024*, tr. 180–185.
   [Nguồn gốc](https://www.vinamilk.com.vn/bao-cao-thuong-nien/bao-cao/2024/doc/vi/bctc-ifrs.pdf),
-  truy xuất 08/09/2026. Dùng ở [mục 10](#10--đối-chiếu-việt-nam).
+  truy xuất 08/09/2026. Dùng ở [mục 10](#10-đối-chiếu-việt-nam).
 - **Chuẩn mực kế toán Việt Nam số 03 và số 04 (VAS 03, VAS 04)** — điều kiện ghi nhận tài sản cố định
-  hữu hình và vô hình. Nhắc ở [mục 10](#10--đối-chiếu-việt-nam).
+  hữu hình và vô hình. Nhắc ở [mục 10](#10-đối-chiếu-việt-nam).
 - **Đã kiểm chứng bằng code** — [`thuc_hanh/bai-05-vi-sao-bang-can-doi-lai-can.py`](../thuc_hanh/bai-05-vi-sao-bang-can-doi-lai-can.py):
   - **sổ kép `assert` phương trình sau TỪNG bút toán** — 20 bút toán trong ba mục đầu, không cái nào
     được phép làm lệch;

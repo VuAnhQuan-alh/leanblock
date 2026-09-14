@@ -1,14 +1,16 @@
 # Bài 5 — Biến ngẫu nhiên và luật phân phối xác suất
 
+> [!info] Về bài này
 > Bài học dựa trên **Giáo trình Xác suất Thống kê** (Tống Đình Quỳ, NXB Bách Khoa – Hà Nội), **Chương II §1–§2**, tr. 39–48.
-> 💼 **Góc QTKD** là ví dụ thêm cho ngành Quản trị Kinh doanh, không có trong giáo trình.
-> 📚 **Mở rộng** là kiến thức nền giáo trình lướt qua.
-> ⚠️ Bài này nêu **một khác biệt quy ước** giữa giáo trình và Excel/Python (mục 5) — nhầm là sai đáp án.
-> 📌 **Cần đọc trước:** [Bài 2](bai_02_ba_dinh_nghia_cua_xac_suat.md) · [Bài 3](bai_03_xac_suat_co_dieu_kien_va_bernoulli.md)
+>
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
+>
+> **Cần đọc trước:** [Bài 2](bai_02_ba_dinh_nghia_cua_xac_suat.md) · [Bài 3](bai_03_xac_suat_co_dieu_kien_va_bernoulli.md)
 
 Chương I làm việc với **sự kiện** — thứ mô tả bằng lời. Giáo trình mở đầu Chương II bằng lý do
 phải đổi cách làm (tr. 39):
 
+> [!quote]
 > "Tính toán bằng số vốn đã quen thuộc và dễ sử dụng trong ứng dụng, nhất là có dùng tới máy tính.
 > Khi nghiên cứu các sự kiện ngẫu nhiên, **rất bất tiện** khi mô tả và làm tính với các sự kiện."
 
@@ -23,7 +25,7 @@ Giải pháp: gắn **một con số** vào mỗi kết cục. Từ đó mọi c
 4. [Hàm của biến ngẫu nhiên](#4-hàm-của-biến-ngẫu-nhiên)
 5. [Hàm phân phối xác suất](#5-hàm-phân-phối-xác-suất)
 6. [Hàm mật độ xác suất](#6-hàm-mật-độ-xác-suất)
-7. [📚 Ba cách mô tả một biến ngẫu nhiên](#7--ba-cách-mô-tả-một-biến-ngẫu-nhiên)
+7. [📚 Ba cách mô tả một biến ngẫu nhiên](#7-ba-cách-mô-tả-một-biến-ngẫu-nhiên)
 8. [Code minh hoạ](#8-code-minh-hoạ)
 9. [Tự thử](#9-tự-thử)
 10. [Từ điển thuật ngữ](#10-từ-điển-thuật-ngữ)
@@ -63,7 +65,7 @@ Nói cách khác, biến ngẫu nhiên là **cái nhãn số** ta dán lên từ
               X là mũi tên này
 ```
 
-### ⚠️ Quy ước ký hiệu — nhớ kỹ, dùng suốt cả môn
+### Quy ước ký hiệu — nhớ kỹ, dùng suốt cả môn
 
 Giáo trình quy định rõ (tr. 39–40):
 
@@ -72,6 +74,7 @@ Giáo trình quy định rõ (tr. 39–40):
 | $X, Y, \dots$ | **biến ngẫu nhiên** — chữ HOA, mang tính ngẫu nhiên | "số chấm sẽ xuất hiện" |
 | $x, y, \dots$ | **giá trị** của biến — chữ thường, là số cụ thể     | 3                      |
 
+> [!quote]
 > "$X$ mang tính ngẫu nhiên, còn $x$ là giá trị cụ thể quan sát được khi phép thử **đã tiến hành**
 > (trong thống kê được gọi là **thể hiện** của $X$)."
 
@@ -82,27 +85,28 @@ thì vô nghĩa. Sang phần thống kê (bài 10 trở đi), phân biệt này 
 
 Giáo trình cảnh báo ngay (tr. 40):
 
+> [!quote]
 > "Việc xác định một biến ngẫu nhiên bằng **tập các giá trị** của nó rõ ràng là **chưa đủ**.
 > Bước tiếp theo là phải xác định **xác suất** của từng giá trị hoặc từng tập các giá trị."
 
 Biết "doanh thu ngày nằm trong khoảng 0 đến 50 triệu" thì chưa nói được gì. Phải biết thêm
 xác suất rơi vào từng vùng — đó là **luật phân phối**, nội dung §2.
 
-### 💼 Góc QTKD
-
-Mọi chỉ số kinh doanh bạn theo dõi hằng ngày đều là biến ngẫu nhiên:
-
-| Phép thử                  | Biến ngẫu nhiên $X$     | Tập giá trị            |
-| ------------------------- | ----------------------- | ---------------------- |
-| Một ngày kinh doanh       | số đơn hàng             | $\{0, 1, 2, \dots\}$   |
-| Một chiến dịch quảng cáo  | số lượt click           | $\{0, 1, 2, \dots\}$   |
-| Một khách hàng            | giá trị đơn hàng (đồng) | $[0, +\infty)$         |
-| Một nhân viên trong tháng | doanh số đạt được       | $[0, +\infty)$         |
-| Một lô hàng 100 sản phẩm  | số sản phẩm lỗi         | $\{0, 1, \dots, 100\}$ |
-
-Cột giữa là "cái nhãn số" ta chọn dán lên phép thử. **Chọn nhãn khác thì bài toán khác.**
-Cùng một ngày kinh doanh, có thể đặt $X$ = số đơn, hoặc $X$ = tổng doanh thu, hoặc $X$ = doanh thu
-trung bình mỗi đơn — ba biến ngẫu nhiên khác nhau, ba luật phân phối khác nhau.
+> [!example] Góc QTKD
+>
+> Mọi chỉ số kinh doanh bạn theo dõi hằng ngày đều là biến ngẫu nhiên:
+>
+> | Phép thử                  | Biến ngẫu nhiên $X$     | Tập giá trị            |
+> | ------------------------- | ----------------------- | ---------------------- |
+> | Một ngày kinh doanh       | số đơn hàng             | $\{0, 1, 2, \dots\}$   |
+> | Một chiến dịch quảng cáo  | số lượt click           | $\{0, 1, 2, \dots\}$   |
+> | Một khách hàng            | giá trị đơn hàng (đồng) | $[0, +\infty)$         |
+> | Một nhân viên trong tháng | doanh số đạt được       | $[0, +\infty)$         |
+> | Một lô hàng 100 sản phẩm  | số sản phẩm lỗi         | $\{0, 1, \dots, 100\}$ |
+>
+> Cột giữa là "cái nhãn số" ta chọn dán lên phép thử. **Chọn nhãn khác thì bài toán khác.**
+> Cùng một ngày kinh doanh, có thể đặt $X$ = số đơn, hoặc $X$ = tổng doanh thu, hoặc $X$ = doanh thu
+> trung bình mỗi đơn — ba biến ngẫu nhiên khác nhau, ba luật phân phối khác nhau.
 
 ---
 
@@ -127,30 +131,31 @@ trung bình mỗi đơn — ba biến ngẫu nhiên khác nhau, ba luật phân 
 - **Liên tục:** huyết áp của một bệnh nhân; độ dài của chi tiết máy; tuổi thọ của một loại bóng đèn
   điện tử.
 
-⚠️ **Chú ý "vô hạn đếm được" vẫn là rời rạc.** Số cuộc gọi trong một ngày về lý thuyết có thể là
-$0, 1, 2, \dots$ không giới hạn — vô hạn, nhưng vẫn **đếm được**, nên vẫn rời rạc. Ranh giới không
-nằm ở "hữu hạn hay vô hạn" mà ở **"đếm được hay lấp kín"**.
+> [!warning] Chú ý "vô hạn đếm được" vẫn là rời rạc.
+> Số cuộc gọi trong một ngày về lý thuyết có thể là
+> $0, 1, 2, \dots$ không giới hạn — vô hạn, nhưng vẫn **đếm được**, nên vẫn rời rạc. Ranh giới không
+> nằm ở "hữu hạn hay vô hạn" mà ở **"đếm được hay lấp kín"**.
 
 **Cách phân biệt trong 3 giây:** giữa hai giá trị kề nhau có giá trị nào khác không?
 
 - Số đơn hàng: giữa 3 và 4 **không có gì** → rời rạc.
 - Doanh thu: giữa 3.000.000 và 3.000.001 có 3.000.000,5 → liên tục.
 
-### 💼 Góc QTKD — ranh giới thường bị mờ trong thực tế
-
-**Tiền là rời rạc hay liên tục?** Về bản chất, doanh thu tính bằng đồng là **rời rạc** (không có
-0,5 đồng). Nhưng vì bước nhảy (1 đồng) quá nhỏ so với độ lớn (triệu đồng), người ta **coi như liên tục**
-để dùng được tích phân và phân phối chuẩn.
-
-Ngược lại: **thời gian là liên tục**, nhưng nếu chỉ đo tới phút thì trong thực hành lại xử lý như
-rời rạc.
-
-**Quy tắc thực hành:** nếu số giá trị có thể có **lớn hơn vài chục**, hãy mô hình hoá bằng biến liên
-tục — dễ tính hơn nhiều mà sai số không đáng kể. Nếu chỉ vài giá trị (số sao đánh giá 1–5, số sản
-phẩm trong đơn hàng), giữ nguyên rời rạc.
-
-⚠️ Nhưng **khi tính tiền thì luôn dùng số nguyên** trong code (đồng, xu), vì phép cộng số thực
-tích luỹ sai số. Bài 10 sẽ nhắc lại chi tiết.
+> [!example] Góc QTKD — ranh giới thường bị mờ trong thực tế
+>
+> **Tiền là rời rạc hay liên tục?** Về bản chất, doanh thu tính bằng đồng là **rời rạc** (không có
+> 0,5 đồng). Nhưng vì bước nhảy (1 đồng) quá nhỏ so với độ lớn (triệu đồng), người ta **coi như liên tục**
+> để dùng được tích phân và phân phối chuẩn.
+>
+> Ngược lại: **thời gian là liên tục**, nhưng nếu chỉ đo tới phút thì trong thực hành lại xử lý như
+> rời rạc.
+>
+> **Quy tắc thực hành:** nếu số giá trị có thể có **lớn hơn vài chục**, hãy mô hình hoá bằng biến liên
+> tục — dễ tính hơn nhiều mà sai số không đáng kể. Nếu chỉ vài giá trị (số sao đánh giá 1–5, số sản
+> phẩm trong đơn hàng), giữ nguyên rời rạc.
+>
+> ⚠️ Nhưng **khi tính tiền thì luôn dùng số nguyên** trong code (đồng, xu), vì phép cộng số thực
+> tích luỹ sai số. Bài 10 sẽ nhắc lại chi tiết.
 
 ---
 
@@ -179,9 +184,10 @@ $$
 Tính chất (ii) là **cách kiểm tra bài làm nhanh nhất**: lập xong bảng, cộng hàng dưới lại,
 phải bằng đúng 1.
 
-⚠️ Giáo trình lưu ý (tr. 41): $p(x) = 0$ với mọi $x$ **không nằm trong** tập giá trị của $X$.
-Chẳng hạn với xúc sắc, $p(8) = 0$. Hàm xác suất xác định trên cả $\mathbb{R}$, chỉ khác 0 tại hữu hạn
-(hoặc đếm được) điểm.
+> [!warning]
+> Giáo trình lưu ý (tr. 41): $p(x) = 0$ với mọi $x$ **không nằm trong** tập giá trị của $X$.
+> Chẳng hạn với xúc sắc, $p(8) = 0$. Hàm xác suất xác định trên cả $\mathbb{R}$, chỉ khác 0 tại hữu hạn
+> (hoặc đếm được) điểm.
 
 ### Thí dụ 2.1 (tr. 41) — phân phối đều
 
@@ -196,6 +202,7 @@ chính thức cho nó.
 
 ### Thí dụ 2.2 (tr. 41) — bắn tới khi trúng
 
+> [!note]
 > Một xạ thủ chỉ có **3 viên đạn**. Anh ta bắn từng phát cho đến khi trúng mục tiêu thì dừng,
 > biết xác suất trúng của mỗi lần bắn là 0,6. Lập bảng phân phối của **số đạn cần bắn**.
 
@@ -213,8 +220,9 @@ $$
 | ------ | --- | ---- | ---- |
 | $p(x)$ | 0,6 | 0,24 | 0,16 |
 
-⚠️ **Chỗ tinh tế nhất của thí dụ này** — giáo trình giải thích rõ: *"nếu viên thứ hai vẫn trượt,
-thì **dù viên thứ ba kết quả thế nào**, $p_3$ vẫn bằng $P(X = 3) = 0{,}4^2 = 0{,}16$."*
+> [!warning] Chỗ tinh tế nhất của thí dụ này
+> giáo trình giải thích rõ: *"nếu viên thứ hai vẫn trượt,
+> thì **dù viên thứ ba kết quả thế nào**, $p_3$ vẫn bằng $P(X = 3) = 0{,}4^2 = 0{,}16$."*
 
 Vì hết đạn thì buộc phải dừng, nên $X = 3$ xảy ra ngay khi hai phát đầu trượt — không cần biết
 phát 3 trúng hay không. Nếu ghi $p_3 = 0{,}4^2 \cdot 0{,}6 = 0{,}096$ thì tổng chỉ được 0,936,
@@ -222,6 +230,7 @@ tính chất (ii) sập ngay.
 
 ### Thí dụ 2.3 (tr. 41) — bắn 3 phát, đếm số trúng
 
+> [!note]
 > Một xạ thủ **bắn 3 phát**, xác suất trúng mỗi phát là 0,6. Lập bảng phân phối của **số đạn trúng**.
 
 *Giải.* Đây đúng là lược đồ Bernoulli ở bài 3 với $n = 3$, $p = 0{,}6$:
@@ -244,18 +253,18 @@ khác nhau:
 **Bài học:** cùng một phép thử vật lý, đặt nhãn số khác nhau ra biến ngẫu nhiên khác nhau.
 Đọc đề phải xác định **chính xác $X$ đếm cái gì**.
 
-### 💼 Góc QTKD
-
-Đúng hai kịch bản trên, dịch sang telesales:
-
-|                  | "Gọi tới khi chốt được đơn thì dừng" | "Gọi đủ 20 cuộc trong ca" |
-| ---------------- | ------------------------------------ | ------------------------- |
-| $X$              | số cuộc gọi cần thực hiện            | số đơn chốt được          |
-| Câu hỏi quản trị | *chi phí trung bình mỗi đơn*         | *sản lượng ca làm việc*   |
-| Dùng để          | định giá chi phí thu hút khách (CAC) | lập kế hoạch doanh số     |
-
-Cùng một đội telesales, hai chỉ số này trả lời hai câu hỏi quản trị khác nhau — và cần hai luật
-phân phối khác nhau để tính.
+> [!example] Góc QTKD
+>
+> Đúng hai kịch bản trên, dịch sang telesales:
+>
+> |                  | "Gọi tới khi chốt được đơn thì dừng" | "Gọi đủ 20 cuộc trong ca" |
+> | ---------------- | ------------------------------------ | ------------------------- |
+> | $X$              | số cuộc gọi cần thực hiện            | số đơn chốt được          |
+> | Câu hỏi quản trị | *chi phí trung bình mỗi đơn*         | *sản lượng ca làm việc*   |
+> | Dùng để          | định giá chi phí thu hút khách (CAC) | lập kế hoạch doanh số     |
+>
+> Cùng một đội telesales, hai chỉ số này trả lời hai câu hỏi quản trị khác nhau — và cần hai luật
+> phân phối khác nhau để tính.
 
 ---
 
@@ -263,11 +272,13 @@ phân phối khác nhau để tính.
 
 Giáo trình nêu một nhận xét quan trọng (tr. 42):
 
+> [!quote]
 > "**Hàm của một hoặc nhiều biến ngẫu nhiên vẫn tiếp tục là một biến ngẫu nhiên.** Trong trường hợp
 > biến rời rạc việc tìm luật phân phối của một biến hàm như vậy thường **dễ hơn** so với biến liên tục."
 
 ### Thí dụ 2.4 (tr. 42)
 
+> [!note]
 > Cho $X$: $-1, 0, 1$ với xác suất $0{,}3; 0{,}4; 0{,}3$ và $Y$: $1, 2$ với xác suất $0{,}3; 0{,}7$.
 > Lập bảng phân phối của: a) $X^2$; b) $X + Y$.
 
@@ -297,9 +308,10 @@ $$P(Z = 2) = P(X=0; Y=2) + P(X=1; Y=1) = 0{,}4 \cdot 0{,}7 + 0{,}3 \cdot 0{,}3 =
 **Phép toán này gọi là tích chập (convolution)** — cộng hai biến ngẫu nhiên độc lập.
 Cách làm: xét mọi cặp $(x_i, y_j)$, nhân xác suất, rồi gom theo tổng.
 
-💼 Trong QTKD, đây là cách **cộng doanh thu của hai chi nhánh**, **cộng số lỗi của hai dây chuyền**,
-hay **gộp rủi ro của hai dự án**. Chú ý điều kiện độc lập: nếu hai chi nhánh cùng chịu ảnh hưởng của
-một chiến dịch quảng cáo chung thì **không** được nhân xác suất như trên.
+> [!example]
+> Trong QTKD, đây là cách **cộng doanh thu của hai chi nhánh**, **cộng số lỗi của hai dây chuyền**,
+> hay **gộp rủi ro của hai dự án**. Chú ý điều kiện độc lập: nếu hai chi nhánh cùng chịu ảnh hưởng của
+> một chiến dịch quảng cáo chung thì **không** được nhân xác suất như trên.
 
 ---
 
@@ -313,7 +325,7 @@ nhiên tuỳ ý, nhất là trường hợp biến liên tục"*. Với biến l
 
 $$F(x) = P(X < x), \qquad x \in \mathbb{R} \tag{2.1}$$
 
-### ⚠️ KHÁC BIỆT QUY ƯỚC — đọc kỹ mục này
+### KHÁC BIỆT QUY ƯỚC — đọc kỹ mục này
 
 **Giáo trình dùng dấu $<$ NGẶT.** Sách tiếng Anh, Excel, Python, R, và hầu hết tài liệu quốc tế
 dùng dấu $\le$:
@@ -392,8 +404,9 @@ Giáo trình nhận xét (tr. 43): *"$X$ có bao nhiêu giá trị thì $F(x)$ c
 loại 1**"* — 3 giá trị, 3 bậc nhảy. Và **độ cao mỗi bậc chính là $p(x_i)$**. Đó là cách đọc ngược
 bảng phân phối từ đồ thị.
 
-### ⚠️ Một câu thẳng thắn đáng nhớ
+### Một câu thẳng thắn đáng nhớ
 
+> [!quote] tr. 44
 > "Nếu ta biết được hàm phân phối xác suất có nghĩa là **xác định hoàn toàn** biến ngẫu nhiên.
 > Tuy nhiên trong thực tế cũng phải thấy rằng việc **tìm được $F(x)$ là rất khó, nếu không nói là
 > hầu như không thể làm được**." (tr. 44)
@@ -404,6 +417,7 @@ vài con số đặc trưng (kỳ vọng, phương sai).
 
 ### Thí dụ 2.6 (tr. 45)
 
+> [!note]
 > Cho $F(x) = \begin{cases} 0, & x < 2 \\ a(x-2)^2, & 2 \le x \le 4 \\ 1, & x > 4 \end{cases}$
 > Xác định $a$ và tính $P(2 < X < 3)$.
 
@@ -416,23 +430,23 @@ Dùng (2.2): $P(2 < X < 3) = F(3) - F(2) = \frac14 (3-2)^2 - 0 = \mathbf{\frac14
 **Kỹ thuật cần nhớ:** với biến liên tục, hằng số trong $F(x)$ luôn tìm được bằng **điều kiện liên tục
 ở hai đầu mút** — hoặc tương đương, $F(-\infty) = 0$ và $F(+\infty) = 1$.
 
-### 💼 Góc QTKD
-
-Với dữ liệu kinh doanh rời rạc, $F(x)$ trả lời trực tiếp các câu hỏi hằng ngày. Ví dụ số đơn hàng
-mỗi ngày của một shop:
-
-| Số đơn $x$   | 0    | 1    | 2    | 3    | 4    | 5    |
-| ------------ | ---- | ---- | ---- | ---- | ---- | ---- |
-| $p(x)$       | 0,05 | 0,15 | 0,30 | 0,25 | 0,15 | 0,10 |
-| $P(X \le x)$ | 0,05 | 0,20 | 0,50 | 0,75 | 0,90 | 1,00 |
-
-- *"Xác suất hôm nay được ít nhất 3 đơn?"* $= 1 - P(X \le 2) = 1 - 0{,}50 = \mathbf{50\%}$
-- *"Xác suất được từ 2 đến 4 đơn?"* $= P(X \le 4) - P(X \le 1) = 0{,}90 - 0{,}20 = \mathbf{70\%}$
-- *"Ngày tệ nhất trong 10% số ngày là bao nhiêu đơn?"* → tìm $x$ nhỏ nhất với $P(X \le x) \ge 0{,}10$
-  → **1 đơn**. Đây là **phân vị 10%**, khái niệm dùng để đặt ngưỡng cảnh báo.
-
-Hàng $P(X \le x)$ chính là thứ dùng để **đặt mục tiêu và ngưỡng cảnh báo**: đặt KPI ở phân vị 75%
-là mục tiêu thách thức nhưng đạt được 1/4 số ngày.
+> [!example] Góc QTKD
+>
+> Với dữ liệu kinh doanh rời rạc, $F(x)$ trả lời trực tiếp các câu hỏi hằng ngày. Ví dụ số đơn hàng
+> mỗi ngày của một shop:
+>
+> | Số đơn $x$   | 0    | 1    | 2    | 3    | 4    | 5    |
+> | ------------ | ---- | ---- | ---- | ---- | ---- | ---- |
+> | $p(x)$       | 0,05 | 0,15 | 0,30 | 0,25 | 0,15 | 0,10 |
+> | $P(X \le x)$ | 0,05 | 0,20 | 0,50 | 0,75 | 0,90 | 1,00 |
+>
+> - *"Xác suất hôm nay được ít nhất 3 đơn?"* $= 1 - P(X \le 2) = 1 - 0{,}50 = \mathbf{50\%}$
+> - *"Xác suất được từ 2 đến 4 đơn?"* $= P(X \le 4) - P(X \le 1) = 0{,}90 - 0{,}20 = \mathbf{70\%}$
+> - *"Ngày tệ nhất trong 10% số ngày là bao nhiêu đơn?"* → tìm $x$ nhỏ nhất với $P(X \le x) \ge 0{,}10$
+>   → **1 đơn**. Đây là **phân vị 10%**, khái niệm dùng để đặt ngưỡng cảnh báo.
+>
+> Hàng $P(X \le x)$ chính là thứ dùng để **đặt mục tiêu và ngưỡng cảnh báo**: đặt KPI ở phân vị 75%
+> là mục tiêu thách thức nhưng đạt được 1/4 số ngày.
 
 ---
 
@@ -485,8 +499,9 @@ $$
 điểm đó có **độ tập trung xác suất cao**. Giống mật độ dân số — không phải số người tại một điểm
 (bằng 0!), mà là số người trên một đơn vị diện tích quanh điểm đó.
 
-⚠️ **$f(x)$ KHÔNG phải xác suất.** Nó có thể **lớn hơn 1**. Chỉ có *diện tích dưới nó* mới là xác suất.
-Ví dụ biến đều trên $[0; 0{,}1]$ có $f(x) = 10$ trên khoảng đó. Đây là chỗ nhầm rất phổ biến.
+> [!warning] $f(x)$ KHÔNG phải xác suất.
+> Nó có thể **lớn hơn 1**. Chỉ có *diện tích dưới nó* mới là xác suất.
+> Ví dụ biến đều trên $[0; 0{,}1]$ có $f(x) = 10$ trên khoảng đó. Đây là chỗ nhầm rất phổ biến.
 
 |                   | Rời rạc           | Liên tục          |
 | ----------------- | ----------------- | ----------------- |
@@ -498,6 +513,7 @@ Ví dụ biến đều trên $[0; 0{,}1]$ có $f(x) = 10$ trên khoảng đó. �
 
 ### Thí dụ 2.7 (tr. 46)
 
+> [!note]
 > $f(x) = \begin{cases} a\cos x, & x \in [-\frac{\pi}{2}; \frac{\pi}{2}] \\ 0, & \text{ngoài ra} \end{cases}$
 > a) Tìm $a$ và xác định $F(x)$. b) Tính $P\!\left(\frac{\pi}{4} < X < \pi\right)$.
 
@@ -526,6 +542,7 @@ $$P\!\left(\tfrac{\pi}{4} < X < \pi\right) = F(\pi) - F\!\left(\tfrac{\pi}{4}\ri
 
 ### Thí dụ 2.8 (tr. 47) — phân phối mũ sinh ra từ đâu
 
+> [!note]
 > Xác suất phân rã của một nguyên tử chất phóng xạ trong khoảng thời gian $dt$ khá bé là $\lambda\,dt$
 > (giả sử sự phân rã **không phụ thuộc vào quá khứ**). Xác định: a) xác suất phân rã trong khoảng
 > thời gian $t$; b) hàm mật độ của thời điểm phân rã.
@@ -550,16 +567,18 @@ $$f(t) = \begin{cases} 0, & t < 0 \\ \lambda e^{-\lambda t}, & t \ge 0 \end{case
 **Điểm cốt lõi cần rút ra — tính "không nhớ" (memoryless):** giả thiết "phân rã không phụ thuộc
 quá khứ" là **toàn bộ** nguyên nhân sinh ra dạng hàm mũ. Không có giả thiết ấy thì không ra $e^{-\lambda t}$.
 
-💼 Trong QTKD, phân phối mũ mô tả **thời gian chờ giữa hai sự kiện độc lập**: thời gian giữa hai
-khách vào cửa hàng, thời gian tới lần hỏng máy tiếp theo, thời gian tới cuộc gọi tiếp theo vào tổng đài.
+> [!example]
+> Trong QTKD, phân phối mũ mô tả **thời gian chờ giữa hai sự kiện độc lập**: thời gian giữa hai
+> khách vào cửa hàng, thời gian tới lần hỏng máy tiếp theo, thời gian tới cuộc gọi tiếp theo vào tổng đài.
 
-⚠️ Nhưng phải kiểm giả thiết "không nhớ": máy móc **có** hao mòn (máy chạy 10 năm dễ hỏng hơn máy mới),
-nên phân phối mũ **không** phù hợp cho tuổi thọ thiết bị cơ khí. Với chúng phải dùng
-**phân phối Weibull** (Weibull) — sẽ gặp ở bài 6 thí dụ 3.8.
+> [!warning]
+> Nhưng phải kiểm giả thiết "không nhớ": máy móc **có** hao mòn (máy chạy 10 năm dễ hỏng hơn máy mới),
+> nên phân phối mũ **không** phù hợp cho tuổi thọ thiết bị cơ khí. Với chúng phải dùng
+> **phân phối Weibull** (Weibull) — sẽ gặp ở bài 6 thí dụ 3.8.
 
 ---
 
-## 7. 📚 Ba cách mô tả một biến ngẫu nhiên
+## 7. Ba cách mô tả một biến ngẫu nhiên
 
 Giáo trình giới thiệu ba công cụ ở ba mục riêng mà không tổng kết. Bảng này là phần bổ sung.
 
@@ -590,24 +609,25 @@ Giáo trình giới thiệu ba công cụ ở ba mục riêng mà không tổng 
 **Chỉ có $F(x)$ dùng được cho cả hai** — đó là lý do giáo trình gọi nó là công cụ tổng quát nhất,
 và cũng là lý do phần thống kê sau này làm việc chủ yếu với $F(x)$.
 
-### 💼 Ba cách này trong công cụ thật
-
-| Khái niệm      | Excel                        | Python (`statistics.NormalDist`)   |
-| -------------- | ---------------------------- | ---------------------------------- |
-| $p(x)$ rời rạc | `BINOM.DIST(x, n, p, FALSE)` | `math.comb(n,x)*p**x*(1-p)**(n-x)` |
-| $F(x)$ rời rạc | `BINOM.DIST(x, n, p, TRUE)`  | cộng dồn                           |
-| $f(x)$ chuẩn   | `NORM.DIST(x, μ, σ, FALSE)`  | `NormalDist(μ,σ).pdf(x)`           |
-| $F(x)$ chuẩn   | `NORM.DIST(x, μ, σ, TRUE)`   | `NormalDist(μ,σ).cdf(x)`           |
-
-Tham số cuối `TRUE/FALSE` trong Excel chính là **"tích luỹ hay không"** — tức chọn $F$ hay $p/f$.
-Nhầm tham số này là lỗi Excel phổ biến nhất khi làm bài xác suất.
-
-⚠️ Nhớ lại mục 5: Excel dùng $P(X \le x)$, giáo trình dùng $P(X < x)$.
+> [!example] Ba cách này trong công cụ thật
+>
+> | Khái niệm      | Excel                        | Python (`statistics.NormalDist`)   |
+> | -------------- | ---------------------------- | ---------------------------------- |
+> | $p(x)$ rời rạc | `BINOM.DIST(x, n, p, FALSE)` | `math.comb(n,x)*p**x*(1-p)**(n-x)` |
+> | $F(x)$ rời rạc | `BINOM.DIST(x, n, p, TRUE)`  | cộng dồn                           |
+> | $f(x)$ chuẩn   | `NORM.DIST(x, μ, σ, FALSE)`  | `NormalDist(μ,σ).pdf(x)`           |
+> | $F(x)$ chuẩn   | `NORM.DIST(x, μ, σ, TRUE)`   | `NormalDist(μ,σ).cdf(x)`           |
+>
+> Tham số cuối `TRUE/FALSE` trong Excel chính là **"tích luỹ hay không"** — tức chọn $F$ hay $p/f$.
+> Nhầm tham số này là lỗi Excel phổ biến nhất khi làm bài xác suất.
+>
+> ⚠️ Nhớ lại mục 5: Excel dùng $P(X \le x)$, giáo trình dùng $P(X < x)$.
 
 ---
 
 ## 8. Code minh hoạ
 
+> [!note]
 > ⚙️ **Chạy:** cần **Python 3.10+** (macOS/Linux có sẵn). Lưu file rồi gõ `python3 bai-05-bien-ngau-nhien.py`.
 > Chỉ dùng thư viện chuẩn — **không cần cài gói nào**.
 

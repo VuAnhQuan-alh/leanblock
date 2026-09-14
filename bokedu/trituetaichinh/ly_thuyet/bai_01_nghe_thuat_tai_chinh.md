@@ -1,16 +1,17 @@
 # Bài 1 — Nghệ thuật tài chính
 
+> [!info] Về bài này
 > Bài học dựng từ **Phần I — Nghệ thuật tài chính (và tại sao nghệ thuật tài chính lại quan trọng)**:
 > chương 1 *Không phải lúc nào cũng có thể tin tưởng các con số* (PDF tr. 9–15), chương 2 *Xác định
 > các giả định, ước tính, và định kiến* (PDF tr. 16–22), chương 3 *Tại sao phải tăng cường trí tuệ
 > tài chính?* (PDF tr. 23–31), và hộp công cụ *Nhận về những gì bạn mong muốn* (PDF tr. 32–34).
-> 🎯 **Vòng 1.** Đây là bài đặt nền cho mười một bài còn lại. Nó không dạy một con số nào —
+>
+> **Vòng 1.** Đây là bài đặt nền cho mười một bài còn lại. Nó không dạy một con số nào —
 > nó dạy **thái độ** khi nhìn con số.
-> 💼 **Góc quản trị** — ví dụ thêm cho người đi làm, **không có trong sách**.
-> 📚 **Mở rộng** — thứ sách nói lướt hoặc để trong hộp công cụ.
-> 🇻🇳 **Đối chiếu Việt Nam** — sách viết theo US GAAP, mục này nối sang thực tế Việt Nam.
-> ⚠️ — chỗ dễ hiểu sai, hoặc chỗ sách in sai.
-> 📌 **Cần đọc trước:** [Bài 0](bai_00_bat_dau_tu_dau.md) — ba báo cáo tài chính và công ty mẫu.
+>
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
+>
+> **Cần đọc trước:** [Bài 0](bai_00_bat_dau_tu_dau.md) — ba báo cáo tài chính và công ty mẫu.
 > ⚙️ **Code:** [`thuc_hanh/bai-01-nghe-thuat-tai-chinh.py`](../thuc_hanh/bai-01-nghe-thuat-tai-chinh.py)
 
 ---
@@ -23,10 +24,10 @@
 - [2. Vì sao con số buộc phải "mềm"](#2-vì-sao-con-số-buộc-phải-mềm)
 - [3. Bảy chỗ con số có thể nhảy — mà không ai phạm luật](#3-bảy-chỗ-con-số-có-thể-nhảy--mà-không-ai-phạm-luật)
 - [4. Cứng hay mềm](#4-cứng-hay-mềm)
-- [5. 📚 Ba con số của Phần I — kiểm lại](#5--ba-con-số-của-phần-i--kiểm-lại)
-- [6. 💼 Góc quản trị — ai thật sự ra quyết định](#6--góc-quản-trị--ai-thật-sự-ra-quyết-định)
-- [7. 📚 Hộp công cụ — nhận về những gì bạn mong muốn](#7--hộp-công-cụ--nhận-về-những-gì-bạn-mong-muốn)
-- [8. 🇻🇳 Đối chiếu Việt Nam](#8--đối-chiếu-việt-nam)
+- [5. Ba con số của Phần I — kiểm lại](#5-ba-con-số-của-phần-i--kiểm-lại)
+- [6. Góc quản trị — ai thật sự ra quyết định](#6-góc-quản-trị--ai-thật-sự-ra-quyết-định)
+- [7. Hộp công cụ — nhận về những gì bạn mong muốn](#7-hộp-công-cụ--nhận-về-những-gì-bạn-mong-muốn)
+- [8. Đối chiếu Việt Nam](#8-đối-chiếu-việt-nam)
 - [9. Tự thử](#9-tự-thử)
 - [10. Từ điển thuật ngữ](#10-từ-điển-thuật-ngữ)
 - [11. Câu hỏi tự kiểm tra](#11-câu-hỏi-tự-kiểm-tra)
@@ -43,6 +44,7 @@ Sách mở đầu bằng các vụ gian lận, nhưng **gian lận không phải
 để bạn thấy vùng ngoài rìa — công ty phần mềm gửi *"những thùng các-tông rỗng ngay trước khi kết
 quý"* (khách trả lại, nhưng lúc đó đã sang quý khác) — rồi lập tức chuyển hướng:
 
+> [!quote]
 > *"…nhiều doanh nghiệp có những cách đánh bóng sổ sách **hoàn toàn hợp pháp**. Tuy vậy, những công
 > cụ hợp pháp này không mạnh bằng những mánh khóe gian lận thẳng tay: chúng không thể làm cho một
 > công ty phá sản trông như một công ty ăn nên làm ra… **Nhưng những gì chúng có thể làm được thật
@@ -53,6 +55,7 @@ xám hợp pháp** — nơi không ai phạm luật mà con số vẫn nhảy.
 
 Sách đoán trước phản ứng của người đọc, và nói thẳng ra hộ:
 
+> [!quote]
 > *"Mọi hoạt động khác trong công việc kinh doanh — như marketing, nghiên cứu và phát triển, quản lý
 > nhân sự, xây dựng chiến lược — đều mang tính chủ quan thấy rõ… Vậy còn tài chính? Và cả kế toán
 > nữa? **Chắc chắn các con số mà những bộ phận này tạo ra đều khách quan, trắng đen rõ ràng, miễn
@@ -60,6 +63,7 @@ Sách đoán trước phản ứng của người đọc, và nói thẳng ra h�
 
 Rồi bác bỏ nó bằng một câu mà đáng nhớ nguyên văn:
 
+> [!quote]
 > *"**Tài chính — kế toán không phải là thực tế, mà là phản ánh thực tế**, và tính chính xác của sự
 > phản ánh đó phụ thuộc vào năng lực của kế toán viên và chuyên gia tài chính trong việc đưa ra
 > những giả định và ước tính hợp lý."* — ch. 1 · PDF tr. 10
@@ -71,6 +75,7 @@ Rồi bác bỏ nó bằng một câu mà đáng nhớ nguyên văn:
 Không phải vì kế toán viên lười hay bất lương. Sách đưa ra lý do có tính cấu trúc — họ **không thể
 biết**:
 
+> [!quote]
 > *"…ngay cả những người đang kiểm soát các con số cũng không thể biết hết mọi điều. Họ không thể
 > biết chính xác mỗi ngày các thành viên trong doanh nghiệp làm gì, thế nên họ không biết chính xác
 > phải phân bổ chi phí ra sao. Họ không thể biết chính xác một thiết bị sẽ hoạt động trong bao lâu,
@@ -88,9 +93,11 @@ biết**:
    ⟹  kết quả là một ĐỊNH KIẾN — con số nghiêng về một hướng
 ```
 
-⚠️ **Từ "định kiến" ở đây không phải lời buộc tội.** Sách dừng lại hẳn một đoạn để nói rõ, và đây là
-chỗ người đọc hay hiểu sai nhất:
+> [!warning] Từ "định kiến" ở đây không phải lời buộc tội.
+> Sách dừng lại hẳn một đoạn để nói rõ, và đây là
+> chỗ người đọc hay hiểu sai nhất:
 
+> [!quote]
 > *"Xin các bạn đừng hiểu lầm rằng chúng tôi sử dụng từ 'định kiến' để công kích sự liêm chính của
 > bất kỳ ai. (Trong số những người bạn thân thiết của chúng tôi, có nhiều người cũng là kế toán và
 > một trong hai chúng tôi, Joe, thực chất còn có chức danh CFO trên danh thiếp). Ở giác độ liên quan
@@ -179,8 +186,9 @@ khai bớt chi phí và **xếp các chi phí hoạt động vào chi phí đầ
 
 Chỉ một bút toán phân loại lại 100 triệu: EBIT **+12,3%**, lợi nhuận thuần **+17,4%**.
 
-⚠️ **Nhưng tiền mặt thì không nhúc nhích một đồng nào.** Khoản 100 triệu vẫn rời khỏi tài khoản ngân
-hàng y hệt như trước. Nó chỉ đổi **chỗ đứng** trên báo cáo lưu chuyển tiền tệ:
+> [!warning] Nhưng tiền mặt thì không nhúc nhích một đồng nào.
+> Khoản 100 triệu vẫn rời khỏi tài khoản ngân
+> hàng y hệt như trước. Nó chỉ đổi **chỗ đứng** trên báo cáo lưu chuyển tiền tệ:
 
 ```
    tiền từ hoạt động kinh doanh    498  →  598    (+100, trông khoẻ hơn)
@@ -209,10 +217,11 @@ Công ty mẫu có tài sản 2.230 và khấu hao 239, tức tuổi đời ng�
 ⭐ Kéo tuổi đời từ 9,3 lên 20 năm làm lợi nhuận thuần **tăng 28%**. Không bán thêm một món hàng nào.
 Không cắt một đồng chi phí nào. Chỉ là một phán đoán về việc máy bay bay được bao lâu.
 
-⚠️ **Và phán đoán đó có thể đúng.** Sách không nói các hãng hàng không gian lận — máy bay **thật sự**
-bền hơn dự kiến. Điểm của sách tinh tế hơn: một phán đoán hợp lý vẫn là một phán đoán, và nó kéo
-theo hệ quả — *"nhà đầu tư quyết định mua nhiều cổ phiếu hơn, các vị giám đốc điều hành của các hãng
-hàng không tính toán thấy khả năng có thể tăng lương hậu hĩnh hơn."*
+> [!warning] Và phán đoán đó có thể đúng.
+> Sách không nói các hãng hàng không gian lận — máy bay **thật sự**
+> bền hơn dự kiến. Điểm của sách tinh tế hơn: một phán đoán hợp lý vẫn là một phán đoán, và nó kéo
+> theo hệ quả — *"nhà đầu tư quyết định mua nhiều cổ phiếu hơn, các vị giám đốc điều hành của các hãng
+> hàng không tính toán thấy khả năng có thể tăng lương hậu hĩnh hơn."*
 
 ### ⑤ Phân bổ lương — "định kiến nhân đôi"
 
@@ -239,8 +248,9 @@ Vậy thì sao? Sách trả lời bằng thuật ngữ **"định kiến nhân �
       → ĐỊNH GIÁ QUÁ THẤP, và TUYỂN THÊM người để làm một thứ thật ra không lãi như vẻ
 ```
 
-⚠️ Đây là chỗ nguy hiểm nhất của cả Phần I: **một bút toán không làm đổi lợi nhuận của công ty, nhưng
-làm đổi hai quyết định lớn.** Nếu chỉ nhìn dòng cuối, bạn sẽ không thấy gì cả.
+> [!warning]
+> Đây là chỗ nguy hiểm nhất của cả Phần I: **một bút toán không làm đổi lợi nhuận của công ty, nhưng
+> làm đổi hai quyết định lớn.** Nếu chỉ nhìn dòng cuối, bạn sẽ không thấy gì cả.
 
 ### ⑥ Ba phương pháp định giá, ba câu trả lời
 
@@ -261,9 +271,10 @@ số vào, định giá chính công ty mẫu:
 ⭐ Cùng một doanh nghiệp, cùng một ngày, cùng một bộ báo cáo — **chênh nhau 2,0 lần**. Và **không con
 số nào trong bảng là sai**.
 
-⚠️ Người **bán** sẽ trích con số cao nhất. Người **mua** sẽ trích con số thấp nhất. Cả hai đều đang
-dùng một phương pháp được thừa nhận. Sách chốt: *"phần lớn khía cạnh nghệ thuật ở đây nằm ở việc
-**lựa chọn** phương pháp định giá."*
+> [!warning]
+> Người **bán** sẽ trích con số cao nhất. Người **mua** sẽ trích con số thấp nhất. Cả hai đều đang
+> dùng một phương pháp được thừa nhận. Sách chốt: *"phần lớn khía cạnh nghệ thuật ở đây nằm ở việc
+> **lựa chọn** phương pháp định giá."*
 
 ### ⑦ Joe và chiếc máy tính 5.000 đô-la
 
@@ -283,8 +294,9 @@ dễ dàng đưa ra một phân tích cho thấy rõ rằng công ty **nên** mu
 Phản biện của cấp trên là câu hay nhất chương 3: Joe có thể **mất** một giờ mỗi ngày *"vì giờ đây anh
 có thể dễ dàng lướt web và tải nhạc về nghe."*
 
-💼 Bài học không phải "đừng tin đề xuất của người khác". Mà là: **mọi đề xuất ROI đều có một giả định
-chịu trách nhiệm cho phần lớn kết quả.** Việc của bạn là tìm ra nó.
+> [!example]
+> Bài học không phải "đừng tin đề xuất của người khác". Mà là: **mọi đề xuất ROI đều có một giả định
+> chịu trách nhiệm cho phần lớn kết quả.** Việc của bạn là tìm ra nó.
 
 ---
 
@@ -292,6 +304,7 @@ chịu trách nhiệm cho phần lớn kết quả.** Việc của bạn là tì
 
 Sách gói cả Phần I vào một câu, và đây là câu đáng thuộc:
 
+> [!quote]
 > *"Có trí tuệ tài chính nghĩa là hiểu được khi nào các con số là **'cứng'** — có căn cứ chắc chắn và
 > tương đối ít gây tranh cãi, và lúc nào chúng **'mềm'** — tức là, phụ thuộc nhiều vào các phán đoán
 > chủ quan."* — ch. 1 · PDF tr. 12
@@ -310,12 +323,13 @@ Xếp lại bảy trường hợp trên theo độ cứng:
 
 ⭐ Chú ý: **không dòng nào trong bảng là gian lận.** Sách vạch ranh giới rất rõ:
 
+> [!quote]
 > *"…**không cần phải 'xào nấu' sổ sách**, người ta luôn có thể tìm ra nhiều kẽ hở để làm cho các con
 > số trông có vẻ thế này hoặc thế khác."* — ch. 1 · PDF tr. 11
 
 ---
 
-## 5. 📚 Ba con số của Phần I — kiểm lại
+## 5. Ba con số của Phần I — kiểm lại
 
 | Sách nói | Kiểm |
 | --- | --- |
@@ -323,17 +337,19 @@ Xếp lại bảy trường hợp trên theo độ cứng:
 | Tyco mua **600 công ty trong 2 năm**, *"mỗi ngày làm việc mua ít nhất một công ty"* | 2 × 52 × 5 = 520 ngày làm việc; 600/520 = **1,15 công ty/ngày** ✓ sách nói đúng, và còn nói giảm |
 | Lợi thế thương mại: mua công ty tài sản thuần 1 triệu với giá 3 triệu → ghi **2 triệu** | ✓ khớp |
 
-📚 Con số thứ ba đáng nhớ hơn vẻ ngoài của nó. **Lợi thế thương mại là tài sản không cầm nắm được** —
-không bán lại được lúc cấp thiết. Đó chính là lý do sách nêu: khi Tyco mua 600 công ty, lợi thế
-thương mại trên bảng cân đối *"tăng cao đến mức khiến các ngân hàng bắt đầu lo ngại"*, và họ buộc
-Tyco dừng mua lại. Chiến lược của công ty bị chặn bởi **một dòng trên bảng cân đối kế toán**.
+> [!note]
+> Con số thứ ba đáng nhớ hơn vẻ ngoài của nó. **Lợi thế thương mại là tài sản không cầm nắm được** —
+> không bán lại được lúc cấp thiết. Đó chính là lý do sách nêu: khi Tyco mua 600 công ty, lợi thế
+> thương mại trên bảng cân đối *"tăng cao đến mức khiến các ngân hàng bắt đầu lo ngại"*, và họ buộc
+> Tyco dừng mua lại. Chiến lược của công ty bị chặn bởi **một dòng trên bảng cân đối kế toán**.
 
 ---
 
-## 6. 💼 Góc quản trị — ai thật sự ra quyết định
+## 6. Góc quản trị — ai thật sự ra quyết định
 
 Chương 3 có một cảnh báo mà hầu như không sách tài chính nào nói thẳng như vậy:
 
+> [!quote]
 > *"Nếu thiếu đi những kiến thức như vậy, điều gì sẽ xảy ra? Rất đơn giản: **người của bộ phận tài
 > chính kế toán sẽ điều khiển các quyết định.** Chúng tôi sử dụng từ 'điều khiển' là vì khi các quyết
 > định được đưa ra dựa trên các con số, và khi các con số lại dựa trên các giả định và ước tính của
@@ -343,28 +359,28 @@ Chương 3 có một cảnh báo mà hầu như không sách tài chính nào n�
 Mấy chữ trong ngoặc mới là điểm chính. Đây **không** phải thuyết âm mưu về phòng tài chính. Đó là hệ
 quả cơ học: ai đặt giả định, người đó lái quyết định — dù không hề muốn.
 
-### 💼 Câu hỏi "trong bao lâu và ở nhiệt độ nào?"
+> [!example] Câu hỏi "trong bao lâu và ở nhiệt độ nào?"
+>
+> Ví dụ hay nhất trong Phần I, và là thứ mang đi họp được ngay. Ở Ford Motor, Joe và nhóm tài chính
+> trình bày kết quả cho một giám đốc marketing cấp cao. Ông này nhìn thẳng vào họ:
+>
+> > *"Trước khi tôi mở những báo cáo tài chính này ra, tôi cần biết… **trong bao lâu và ở nhiệt độ
+> > nào?**"* — ch. 3 · PDF tr. 27
+>
+> Joe hiểu ra và đáp: *"Vâng thưa sếp, chúng được xử lý trong hai tiếng đồng hồ ở 350 độ."* Vị giám đốc
+> nói: *"Tốt, giờ thì tôi đã biết các anh xử lý chúng bao lâu. Chúng ta bắt đầu nào."*
+>
+> ⭐ Cách đùa ấy làm được ba việc cùng lúc, và đó là lý do nó đáng học:
+>
+> 1. nói cho phòng tài chính biết ông **hiểu** có giả định trong đó — nên đừng giấu;
+> 2. mở đường để hỏi *"con số này chắc chắn đến đâu?"* mà **không** thành ra buộc tội ai;
+> 3. kết quả: nhóm tài chính *"yên tâm giải thích nguồn gốc của con số"*, và ông ra quyết định **có
+>    cảm giác yên tâm**.
+>
+> Sau đó ông vẫn **dùng** các con số ấy. Mục tiêu chưa bao giờ là bác bỏ báo cáo — mà là biết mình đang
+> đứng trên nền gì.
 
-Ví dụ hay nhất trong Phần I, và là thứ mang đi họp được ngay. Ở Ford Motor, Joe và nhóm tài chính
-trình bày kết quả cho một giám đốc marketing cấp cao. Ông này nhìn thẳng vào họ:
-
-> *"Trước khi tôi mở những báo cáo tài chính này ra, tôi cần biết… **trong bao lâu và ở nhiệt độ
-> nào?**"* — ch. 3 · PDF tr. 27
-
-Joe hiểu ra và đáp: *"Vâng thưa sếp, chúng được xử lý trong hai tiếng đồng hồ ở 350 độ."* Vị giám đốc
-nói: *"Tốt, giờ thì tôi đã biết các anh xử lý chúng bao lâu. Chúng ta bắt đầu nào."*
-
-⭐ Cách đùa ấy làm được ba việc cùng lúc, và đó là lý do nó đáng học:
-
-1. nói cho phòng tài chính biết ông **hiểu** có giả định trong đó — nên đừng giấu;
-2. mở đường để hỏi *"con số này chắc chắn đến đâu?"* mà **không** thành ra buộc tội ai;
-3. kết quả: nhóm tài chính *"yên tâm giải thích nguồn gốc của con số"*, và ông ra quyết định **có
-   cảm giác yên tâm**.
-
-Sau đó ông vẫn **dùng** các con số ấy. Mục tiêu chưa bao giờ là bác bỏ báo cáo — mà là biết mình đang
-đứng trên nền gì.
-
-### ❓ Bốn câu mang đi hỏi phòng tài chính
+### Bốn câu mang đi hỏi phòng tài chính
 
 Bốn câu hỏi của chương 2, viết lại thành thứ hỏi được trong một cuộc họp thật:
 
@@ -377,19 +393,21 @@ Bốn câu hỏi của chương 2, viết lại thành thứ hỏi được tron
 4. **Tác động là gì?** — *"Có quyết định nào — giá bán, tuyển dụng, ngân sách — đang dựa trên chính
    con số này không?"*
 
-⚠️ Chương 3 liệt kê **bốn rào cản** sẽ gặp, và đoán trước cả cái khó chịu nhất: *"cấp trên không muốn
-bạn đặt câu hỏi về các con số"*. Lời khuyên của sách là **cứ tiếp tục** — vì thường thì chính cấp
-trên cũng đang lo lắng về kiến thức tài chính của mình.
+> [!warning]
+> Chương 3 liệt kê **bốn rào cản** sẽ gặp, và đoán trước cả cái khó chịu nhất: *"cấp trên không muốn
+> bạn đặt câu hỏi về các con số"*. Lời khuyên của sách là **cứ tiếp tục** — vì thường thì chính cấp
+> trên cũng đang lo lắng về kiến thức tài chính của mình.
 
 Còn rào cản đầu tiên thì sách gạt đi rất gọn:
 
+> [!quote]
 > *"Có thể một rào cản trong số đó là bạn ghét toán, sợ toán… Bạn có thể ngạc nhiên khi biết, **phần
 > lớn các hoạt động tài chính chỉ liên quan đến phép cộng và phép trừ.** Khi dân tài chính thực sự
 > hứng thú, họ mới thực hiện phép nhân và phép chia."* — ch. 3 · PDF tr. 29
 
 ---
 
-## 7. 📚 Hộp công cụ — nhận về những gì bạn mong muốn
+## 7. Hộp công cụ — nhận về những gì bạn mong muốn
 
 Hộp công cụ cuối Phần I (PDF tr. 32–34) đổi giọng hẳn: từ *"hiểu con số"* sang *"dùng con số cho
 chính mình"*.
@@ -410,7 +428,8 @@ tiền mặt — *"dòng tiền tự do của công ty đủ để tăng lương
 ⭐ Câu thứ ba là câu sắc nhất, và nó nối thẳng tới [bài 6](bai_06_loi_nhuan_khac_tien_mat.md): nó
 không hỏi công ty **có lãi** không, mà hỏi công ty **có trả nổi lương** không. Hai câu hỏi khác nhau.
 
-📚 Hộp này cũng giới thiệu **ba người giữ tiền**, và phân biệt của sách rất gọn:
+> [!note]
+> Hộp này cũng giới thiệu **ba người giữ tiền**, và phân biệt của sách rất gọn:
 
 | Chức danh | Nhìn ra ngoài hay vào trong | Việc chính |
 | --- | --- | --- |
@@ -418,12 +437,13 @@ không hỏi công ty **có lãi** không, mà hỏi công ty **có trả nổi 
 | **Thủ quỹ** (treasurer) | **ra ngoài** | quan hệ ngân hàng, quản lý dòng tiền, cơ cấu vốn, quan hệ đầu tư |
 | **Kế toán trưởng** (controller) | **vào trong** | báo cáo tài chính chính xác, kiểm soát nội bộ, phân tích kinh doanh |
 
-💼 Biết ai làm gì là biết **hỏi ai**. Câu hỏi về khấu hao và phân bổ chi phí → kế toán trưởng. Câu hỏi
-về ngưỡng thu hồi vốn và tiền có sẵn để đầu tư → thủ quỹ.
+> [!example]
+> Biết ai làm gì là biết **hỏi ai**. Câu hỏi về khấu hao và phân bổ chi phí → kế toán trưởng. Câu hỏi
+> về ngưỡng thu hồi vốn và tiền có sẵn để đầu tư → thủ quỹ.
 
 ---
 
-## 8. 🇻🇳 Đối chiếu Việt Nam
+## 8. Đối chiếu Việt Nam
 
 Sách viết theo GAAP của Mỹ. Ranh giới hợp pháp ở Việt Nam do khung khác quy định — nhưng **khoảng
 trống phán đoán thì không biến mất**, vì nó bắt nguồn từ chỗ *"kế toán viên không thể biết hết mọi
@@ -433,11 +453,13 @@ Bằng chứng đo được, và nó nằm sẵn trong kho này: **Vinamilk côn
 năm 2024** — một theo VAS, một theo IFRS. Tổng tài sản theo IFRS là **56.993 tỷ đồng**; con số VAS mà
 báo chí trích thì khác. Cùng một công ty, cùng một ngày, hai con số.
 
-⚠️ Đó **không phải lỗi của ai**, và cũng không phải hai bộ sổ. Đó đúng là điều chương 1 mô tả: *"tài
-chính — kế toán không phải là thực tế, mà là phản ánh thực tế"* — và khi đổi khung phản ánh thì hình
-ảnh đổi theo.
+> [!warning]
+> Đó **không phải lỗi của ai**, và cũng không phải hai bộ sổ. Đó đúng là điều chương 1 mô tả: *"tài
+> chính — kế toán không phải là thực tế, mà là phản ánh thực tế"* — và khi đổi khung phản ánh thì hình
+> ảnh đổi theo.
 
-💼 Hệ quả thực dụng cho người đọc báo cáo ở Việt Nam:
+> [!example]
+> Hệ quả thực dụng cho người đọc báo cáo ở Việt Nam:
 
 - **Luôn hỏi báo cáo lập theo khung nào** trước khi so sánh hai doanh nghiệp. So một công ty báo cáo
   IFRS với một công ty báo cáo VAS là so hai thước đo khác nhau.
@@ -446,9 +468,10 @@ chính — kế toán không phải là thực tế, mà là phản ánh thực 
 - **Chú ý các con số "mềm" nhất trước.** Theo bảng ở mục 4: doanh thu kỳ này, khấu hao, ranh giới
   đầu tư/hoạt động, và giá trị doanh nghiệp.
 
-📚 Sách có nhắc một thứ hoàn toàn của Mỹ mà Việt Nam không có tương đương trực tiếp: **Sarbanes-Oxley**
-(2002), đạo luật ra đời để đáp lại chính những vụ Enron và WorldCom trong bài này. Nó ở hộp công cụ
-cuối sách — bài 12.
+> [!note]
+> Sách có nhắc một thứ hoàn toàn của Mỹ mà Việt Nam không có tương đương trực tiếp: **Sarbanes-Oxley**
+> (2002), đạo luật ra đời để đáp lại chính những vụ Enron và WorldCom trong bài này. Nó ở hộp công cụ
+> cuối sách — bài 12.
 
 ---
 
@@ -611,7 +634,7 @@ lại. Không có lời giải.
 - **Công ty Cổ phần Sữa Việt Nam (HOSE: VNM)** — Báo cáo tài chính hợp nhất đã kiểm toán 2024 theo
   IFRS, trong *Báo cáo thường niên Vinamilk 2024*, tr. 180–185.
   [Nguồn gốc](https://www.vinamilk.com.vn/bao-cao-thuong-nien/bao-cao/2024/doc/vi/bctc-ifrs.pdf),
-  truy xuất 08/09/2026. Dùng ở [mục 8](#8--đối-chiếu-việt-nam).
+  truy xuất 08/09/2026. Dùng ở [mục 8](#8-đối-chiếu-việt-nam).
 - **Đã kiểm chứng bằng code** — [`thuc_hanh/bai-01-nghe-thuat-tai-chinh.py`](../thuc_hanh/bai-01-nghe-thuat-tai-chinh.py):
   - Thuế suất hiệu dụng **suy ngược từ chính báo cáo** của công ty mẫu ($213/461$), và hàm tính lại
     báo cáo được chốt bằng `assert`: không đổi giả định nào thì phải ra đúng 1.933 / 652 / 248.
@@ -624,12 +647,12 @@ lại. Không có lời giải.
   - Mức lương 40 đô-la/giờ và 250 ngày làm việc ở ⑦, các bội số P/E và cặp chiết khấu/tăng trưởng ở
     ⑥, kỳ khấu hao 5 năm ở ③ — đều **do bài này chọn**, sách không nêu.
   - Bảng "cứng / mềm" ở [mục 4](#4-cứng-hay-mềm) do bài này dựng; sách chỉ nêu cặp khái niệm bằng lời.
-  - Bốn câu hỏi *"mang đi hỏi phòng tài chính"* ở [mục 6](#6--góc-quản-trị--ai-thật-sự-ra-quyết-định)
+  - Bốn câu hỏi *"mang đi hỏi phòng tài chính"* ở [mục 6](#6-góc-quản-trị--ai-thật-sự-ra-quyết-định)
     là diễn giải của bài này từ bốn câu hỏi trừu tượng của chương 2.
-  - [Mục 8 — Đối chiếu Việt Nam](#8--đối-chiếu-việt-nam) hoàn toàn nằm ngoài sách. Bài **không** dẫn
+  - [Mục 8 — Đối chiếu Việt Nam](#8-đối-chiếu-việt-nam) hoàn toàn nằm ngoài sách. Bài **không** dẫn
     con số tổng tài sản theo VAS của Vinamilk vì chưa lấy được bản VAS từ nguồn gốc.
 - **Liên hệ chéo:**
-  - [Bài 0 mục 5](bai_00_bat_dau_tu_dau.md#5--gaap-vas-và-ifrs--sách-viết-theo-khung-nào) — GAAP 4.000 trang mà vẫn để lại khoảng trống.
+  - [Bài 0 mục 5](bai_00_bat_dau_tu_dau.md#5-gaap-vas-và-ifrs--sách-viết-theo-khung-nào) — GAAP 4.000 trang mà vẫn để lại khoảng trống.
   - [Bài 6](bai_06_loi_nhuan_khac_tien_mat.md) — vì sao tiền mặt là con số ít "nghệ thuật" nhất.
   - [Bài 2](bai_02_loi_nhuan_chi_la_du_toan.md) — nguyên tắc phù hợp và ghi nhận doanh thu, làm kỹ.
   - [Bài 3](bai_03_chi_phi_va_cac_tang_loi_nhuan.md) — chi phí, nợ phải trả, và ranh giới

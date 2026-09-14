@@ -1,12 +1,15 @@
 # Tài chính công và phi lợi nhuận
 
+> [!info] Về bài này
 > Bài học dựng từ **buổi 22** khoá **Yale ECON 252 *Financial Markets*** (Xuân 2011), giảng viên
 > **Robert J. Shiller** — YouTube `YAO0St7mPQM`, dài **72:28**.
 > Mục có mốc `22 MM:SS` là **lấy từ video**, đã đối chiếu ngược với phụ đề gốc bằng script.
 > Mục có 📚 là **kiến thức bài này bổ sung**, không có trong video.
 > Mục có 🇻🇳 là **số liệu Việt Nam**, không có trong video, mọi con số đều trích nguồn.
-> ⚠️ **Video ghi Xuân 2011** — §18 đối chiếu với 2026.
-> 📌 **Nên đọc trước:** [Bài 7 — Nhà quản lý quỹ](bai_07_quan_ly_quy.md) (phần quỹ hiến tặng Yale và
+>
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
+>
+> **Nên đọc trước:** [Bài 7 — Nhà quản lý quỹ](bai_07_quan_ly_quy.md) (phần quỹ hiến tặng Yale và
 > danh mục Bảo hiểm xã hội Việt Nam), [Bài 10 — Quy định và tự quản](bai_10_quy_dinh_tu_quan.md)
 > (phần cuộc đua xuống đáy giữa các quốc gia).
 
@@ -19,11 +22,12 @@ Buổi này có bốn phần rời nhau: tổ chức phi lợi nhuận, nhà nư
 chính quyền địa phương, và bảo hiểm xã hội. Chúng dính vào nhau bằng đúng một sợi, và Shiller chỉ nói
 ra sợi đó ở phút thứ bảy mươi (`22 70:01`):
 
+> [!quote]
 > ***"Rốt cuộc, công nghệ dẫn dắt tài chính, và hệ thống phản ứng theo những thay đổi của công
 > nghệ."***
 
 Nếu bạn chỉ giữ lại một câu từ bài này thì giữ câu đó. [§17](#17-bismarck-1880--luận-điểm-hay-nhất-của-cả-khoá)
-là chỗ ông chứng minh nó, và [§16](#16--speenhamland-và-eitc--cùng-một-bài-toán-cách-nhau-190-năm) là
+là chỗ ông chứng minh nó, và [§16](#16-speenhamland-và-eitc--cùng-một-bài-toán-cách-nhau-190-năm) là
 chỗ bài học này chứng minh nó lần nữa ở một hồ sơ ông không dùng.
 
 ---
@@ -31,24 +35,24 @@ chỗ bài học này chứng minh nó lần nữa ở một hồ sơ ông khôn
 ## Mục lục
 
 1. [Hầu như không ai làm được gì một mình](#1-hầu-như-không-ai-làm-được-gì-một-mình)
-2. [⚠️ Ba phản ví dụ — và cả ba đều hỏng ở chi tiết](#2--ba-phản-ví-dụ--và-cả-ba-đều-hỏng-ở-chi-tiết)
+2. [⚠️ Ba phản ví dụ — và cả ba đều hỏng ở chi tiết](#2-ba-phản-ví-dụ--và-cả-ba-đều-hỏng-ở-chi-tiết)
 3. [Phi lợi nhuận: 1,6 triệu tổ chức, và vì sao](#3-phi-lợi-nhuận-16-triệu-tổ-chức-và-vì-sao)
 4. [Bốn người ông lấy làm ví dụ — mười lăm năm sau](#4-bốn-người-ông-lấy-làm-ví-dụ--mười-lăm-năm-sau)
 5. [Hai bệnh viện New Haven: vì sao phải đi tìm một dòng tu](#5-hai-bệnh-viện-new-haven-vì-sao-phải-đi-tìm-một-dòng-tu)
 6. [Nhà nước đã sở hữu sẵn một phần khu vực tư — bằng thuế](#6-nhà-nước-đã-sở-hữu-sẵn-một-phần-khu-vực-tư--bằng-thuế)
-7. [⚠️ 35 cộng 12 không bằng 47](#7--35-cộng-12-không-bằng-47)
+7. [⚠️ 35 cộng 12 không bằng 47](#7-35-cộng-12-không-bằng-47)
 8. [TEPCO — *"có một kế hoạch ở đây"*, và phép tính nói không](#8-tepco--có-một-kế-hoạch-ở-đây-và-phép-tính-nói-không)
 9. [General Motors — chỗ Shiller bác lại chính mình ở buổi 9](#9-general-motors--chỗ-shiller-bác-lại-chính-mình-ở-buổi-9)
 10. [Ngân sách vận hành và ngân sách vốn](#10-ngân-sách-vận-hành-và-ngân-sách-vốn)
-11. [⚠️ "Địa phương chi gấp đôi liên bang" — sai ở mẫu số](#11--địa-phương-chi-gấp-đôi-liên-bang--sai-ở-mẫu-số)
+11. [⚠️ "Địa phương chi gấp đôi liên bang" — sai ở mẫu số](#11-địa-phương-chi-gấp-đôi-liên-bang--sai-ở-mẫu-số)
 12. [Phá sản đô thị: Chương 9, và hai mươi bảy tháng sau bài giảng](#12-phá-sản-đô-thị-chương-9-và-hai-mươi-bảy-tháng-sau-bài-giảng)
-13. [⚠️ Trái phiếu miễn thuế — Shiller viện dẫn nhầm Hiến pháp](#13--trái-phiếu-miễn-thuế--shiller-viện-dẫn-nhầm-hiến-pháp)
+13. [⚠️ Trái phiếu miễn thuế — Shiller viện dẫn nhầm Hiến pháp](#13-trái-phiếu-miễn-thuế--shiller-viện-dẫn-nhầm-hiến-pháp)
 14. [Yale vay tiền để làm gì](#14-yale-vay-tiền-để-làm-gì)
 15. [Bảo hiểm xã hội — danh sách, và một chữ hụt](#15-bảo-hiểm-xã-hội--danh-sách-và-một-chữ-hụt)
-16. [📚 Speenhamland và EITC — cùng một bài toán, cách nhau 190 năm](#16--speenhamland-và-eitc--cùng-một-bài-toán-cách-nhau-190-năm)
+16. [📚 Speenhamland và EITC — cùng một bài toán, cách nhau 190 năm](#16-speenhamland-và-eitc--cùng-một-bài-toán-cách-nhau-190-năm)
 17. [Bismarck 1880 — luận điểm hay nhất của cả khoá](#17-bismarck-1880--luận-điểm-hay-nhất-của-cả-khoá)
-18. [⚠️ Đối chiếu 2026](#18--đối-chiếu-2026)
-19. [🇻🇳 Góc Việt Nam](#19--góc-việt-nam)
+18. [⚠️ Đối chiếu 2026](#18-đối-chiếu-2026)
+19. [🇻🇳 Góc Việt Nam](#19-góc-việt-nam)
 20. [Chương trình](#20-chương-trình)
 21. [Từ điển thuật ngữ](#21-từ-điển-thuật-ngữ)
 22. [Câu hỏi tự kiểm tra](#22-câu-hỏi-tự-kiểm-tra)
@@ -59,6 +63,7 @@ chỗ bài học này chứng minh nó lần nữa ở một hồ sơ ông khôn
 
 Shiller đặt luận điểm mở bằng cách nói ngược lại điều người ta hay nghĩ (`22 00:48`):
 
+> [!quote]
 > *"Gần như mọi thứ tốt đẹp mà chúng ta làm đều được làm **như một phần của một đội**. Khó mà nghĩ ra
 > được thứ gì mà bạn một mình làm được."*
 
@@ -84,7 +89,7 @@ nó.** Đó là thứ làm một luận điểm đứng được.
 
 ---
 
-## 2. ⚠️ Ba phản ví dụ — và cả ba đều hỏng ở chi tiết
+## 2. Ba phản ví dụ — và cả ba đều hỏng ở chi tiết
 
 Luận điểm của Shiller ở [§1](#1-hầu-như-không-ai-làm-được-gì-một-mình) đúng. Nhưng cả ba minh hoạ đều
 sai chi tiết, và điều thú vị là **sửa lại thì luận điểm mạnh lên chứ không yếu đi.**
@@ -126,6 +131,7 @@ Nghĩa là đã có một **thị trường lao động** cho việc gìn giữ 
 Định nghĩa Shiller đưa ra rất gọn (`22 03:56`): tổ chức phi lợi nhuận là tổ chức **có mục đích ghi
 trong điều lệ khác với việc kiếm tiền**. Và đặc điểm cấu trúc quyết định (`22 05:13`):
 
+> [!quote]
 > *"Nó **không có chủ sở hữu**, theo nghĩa không có cổ đông. Lợi nhuận quay lại tổ chức để phục vụ
 > mục đích của nó."*
 
@@ -142,15 +148,17 @@ Quy mô (`22 05:40`–`22 06:22`):
 | Anh *(ông tự ghi chú "có thể đã cũ")* |        120.000 |
 | Tỷ trọng trong GDP Mỹ                 | *"khoảng 4 %"* |
 
-⚠️ Con số 4 % nên đọc kèm một chú thích, và đây là một bài học về **mẫu số** chứ không phải một lỗi.
-Các ước tính thông dụng khác đặt khu vực phi lợi nhuận Mỹ ở khoảng **5,4–5,6 % GDP**. Chênh lệch đến
-từ chỗ **đếm cái gì**: tài khoản quốc gia chỉ đếm "tổ chức phi lợi nhuận phục vụ hộ gia đình", còn
-các thống kê của ngành đếm mọi tổ chức miễn thuế, kể cả bệnh viện và đại học. Khi đọc bất kỳ con số
-"% GDP" nào, câu hỏi đầu tiên luôn là ai nằm trong tử số.
+> [!warning]
+> Con số 4 % nên đọc kèm một chú thích, và đây là một bài học về **mẫu số** chứ không phải một lỗi.
+> Các ước tính thông dụng khác đặt khu vực phi lợi nhuận Mỹ ở khoảng **5,4–5,6 % GDP**. Chênh lệch đến
+> từ chỗ **đếm cái gì**: tài khoản quốc gia chỉ đếm "tổ chức phi lợi nhuận phục vụ hộ gia đình", còn
+> các thống kê của ngành đếm mọi tổ chức miễn thuế, kể cả bệnh viện và đại học. Khi đọc bất kỳ con số
+> "% GDP" nào, câu hỏi đầu tiên luôn là ai nằm trong tử số.
 
 Lý do Shiller đưa ra cho việc Mỹ có nhiều đến thế thì thuộc về văn hoá chính trị, không phải tài
 chính (`22 06:04`):
 
+> [!quote]
 > *"Nó quay về những ý tưởng lập quốc của nước này: chúng ta **không để nhà nước điều hành mọi thứ**.
 > Chúng ta tự làm, bằng sáng kiến của chính mình."*
 
@@ -175,13 +183,15 @@ Shiller kể:
 
 Và đây là câu quan trọng nhất của cả mục (`22 08:53`):
 
+> [!quote]
 > *"Bạn có thể thấy khó mà thuyết phục được chính phủ làm việc đó, nhưng **ông ấy thì cứ làm thôi**.
 > Ông ấy không cần nói chuyện với chính phủ."*
 
 Rồi lý do Tufano nói với ông (`22 09:07`): *"khi tôi nói tôi là phi lợi nhuận, **cả bầu không khí đổi
 hẳn**, vì họ biết tôi không kiếm lời từ chuyện này."*
 
-⚠️ **Và rồi chính phủ đã làm.** [§18](#18--đối-chiếu-2026) kể phần tiếp theo.
+> [!warning] Và rồi chính phủ đã làm.
+> [§18](#18-đối-chiếu-2026) kể phần tiếp theo.
 
 ### Dean Karlan — *Innovations for Poverty Action*
 
@@ -197,7 +207,8 @@ Người đặt ra khái niệm **doanh nhân xã hội**. Shiller kể ông h�
 (`22 11:16`), dạy ở Trường Luật Stanford rồi **bỏ dạy** để theo đuổi tổ chức phi lợi nhuận của mình
 (`22 11:34`).
 
-⚠️ Hai chỗ cần sửa và bổ sung:
+> [!warning]
+> Hai chỗ cần sửa và bổ sung:
 
 - Shiller nói *"Ashoka là một cái tên **tiếng Hindi**"* (`22 11:05`). Đó là tên **tiếng Phạn**
   (*aśoka*, nghĩa là "không sầu muộn"). Phần còn lại ông nói đúng: **Ashoka Đại đế**, hoàng đế Maurya
@@ -223,6 +234,7 @@ Rồi Shiller nêu đúng chỗ mà toàn bộ mục này hướng tới (`22 13
 công đoàn giáo viên sẽ không thích, và nhiều người sẽ nói một người học toán ở Yale *"thật ra không
 đủ tư cách dạy trẻ nhỏ, vì họ chưa học chương trình sư phạm."* Và (`22 13:35`):
 
+> [!quote]
 > *"Nhưng ở đây, nơi chúng ta sống trong một xã hội đề cao khu vực phi lợi nhuận, **bạn không cần
 > thuyết phục chính phủ**. Bạn thuyết phục bất kỳ ai chịu tài trợ, và thế là bạn làm được."*
 
@@ -234,9 +246,10 @@ mà một số tiến bộ lớn nhất của chúng ta được tạo ra"* (`22
 không phải để làm rẻ hơn hay tử tế hơn — nó tồn tại để làm những việc mà **chưa có đủ đồng thuận** để
 nhà nước làm.
 
-⚠️ Vế còn lại của lập luận ấy thì Shiller không nói, và [§18](#18--đối-chiếu-2026) sẽ chỉ ra:
-**không cần đồng thuận để bắt đầu thì cũng không có cơ chế nào bắt phải dừng lại khi bằng chứng quay
-đầu.**
+> [!warning]
+> Vế còn lại của lập luận ấy thì Shiller không nói, và [§18](#18-đối-chiếu-2026) sẽ chỉ ra:
+> **không cần đồng thuận để bắt đầu thì cũng không có cơ chế nào bắt phải dừng lại khi bằng chứng quay
+> đầu.**
 
 ---
 
@@ -263,12 +276,14 @@ thiên thần Raphael**, được nhiều tôn giáo công nhận, nghĩa là *"
 
 Rồi Shiller đặt câu hỏi mà cả mục xoay quanh (`22 17:11`):
 
+> [!quote]
 > *"Vậy vì sao họ lại tìm tới Dòng Nữ tu Bác ái? **Sao họ không lập luôn một bệnh viện vì lợi
 > nhuận?** Họ hoàn toàn có thể bỏ qua các nữ tu. Mối liên hệ ở đâu?"*
 
 Ông trả lời và nói rõ đó là suy đoán — *"tôi không biết hết lý do của họ, nhưng tôi ngờ rằng"*
 (`22 17:23`):
 
+> [!quote]
 > *"khi bạn liên kết với một tổ chức tôn giáo, nó mang lại cho tổ chức **một cảm giác về sứ mệnh đạo
 > đức và mục đích xã hội** mà nếu không thì nó không có. Và nó làm rõ ràng rằng đây là phi lợi
 > nhuận, và **khuyến khích người ta quyên góp**."*
@@ -292,6 +307,7 @@ thường khá mập mờ."*
 
 Đây là ý tưởng trung tâm của nửa sau buổi giảng, và nó được phát biểu bằng một câu (`22 19:58`):
 
+> [!quote]
 > *"Thuế thu nhập doanh nghiệp trên thực tế là một dạng **quốc hữu hoá một phần** toàn bộ các công ty
 > tư nhân trong nước."*
 
@@ -307,20 +323,22 @@ xảy ra. [§8](#8-tepco--có-một-kế-hoạch-ở-đây-và-phép-tính-nói-
 
 Và ông nêu vì sao không nước nào đẩy tỷ lệ lên cao hơn (`22 22:03`):
 
+> [!quote]
 > *"Nếu anh đánh thuế lợi nhuận quá cao thì **doanh nghiệp sẽ rời khỏi nước anh**."*
 
 📌 Đó chính xác là mô hình **cuộc đua xuống đáy** ở
 [bài 10 §14](bai_10_quy_dinh_tu_quan.md#14-tầng-5--quốc-tế-nơi-không-ai-ra-lệnh-được), với doanh
-nghiệp là người chơi và quốc gia là khu vực pháp lý. [§18](#18--đối-chiếu-2026) cho biết thế giới đã
+nghiệp là người chơi và quốc gia là khu vực pháp lý. [§18](#18-đối-chiếu-2026) cho biết thế giới đã
 trả lời câu này bằng cách nào — và câu trả lời khớp với dự đoán của mô hình chứ không khớp với dự
 đoán của Shiller.
 
 ---
 
-## 7. ⚠️ 35 cộng 12 không bằng 47
+## 7. 35 cộng 12 không bằng 47
 
 Shiller đọc bảng thuế các nước rồi làm một phép cộng trên lớp (`22 20:12`–`22 20:29`):
 
+> [!quote]
 > *"Ở Mỹ, hiện tại nó là **35 % liên bang**, và tới **12 % bang và địa phương**, tuỳ bang. Nên nó cao
 > tới **47 %** — về cơ bản là một nửa. Nên bạn có thể nói chính phủ Mỹ đã **quốc hữu hoá gần một
 > nửa** khu vực tư nhân."*
@@ -347,7 +365,7 @@ Chênh **4,20 điểm phần trăm**. Không đủ để phá luận điểm, nh
 một nửa"* mà là **hơn hai phần năm** — và trong hai nước duy nhất có hai tầng thuế, phép cộng thẳng
 đều thổi phồng.
 
-Cột cuối là chuyện của [§18](#18--đối-chiếu-2026).
+Cột cuối là chuyện của [§18](#18-đối-chiếu-2026).
 
 ---
 
@@ -377,6 +395,7 @@ tháng 3/2011, 25 tỷ đô = **2.050 tỷ yên** = 2,05 nghìn tỷ. *"Vài ngh
 
 Rồi Shiller đi tới chỗ ông muốn (`22 25:18`–`22 25:31`):
 
+> [!quote]
 > *"Đó là lý do người ta thu thuế lợi nhuận doanh nghiệp — Nhật Bản đang thu 40 %, và số đó **có thể
 > dùng để bù đắp thiệt hại** mà chính phủ Nhật giờ phải trả. **Nên tất cả có vẻ đúng. Có một kế hoạch
 > ở đây.**"*
@@ -402,6 +421,7 @@ thuế lợi nhuận 40,60 %                              81 tỷ yên/năm
 **Hai trăm sáu mươi lăm năm** thuế lợi nhuận của chính công ty đó. Và đó là giả định công ty vẫn làm
 ăn có lãi, trong khi thực tế nó vừa mất toàn bộ nhà máy và đang bị kiện đòi bồi thường.
 
+> [!note]
 > Không có kế hoạch nào cả. **Thuế lợi nhuận doanh nghiệp không được thiết kế để bù thảm hoạ hạt
 > nhân, và số học cho thấy nó không thể.**
 
@@ -448,9 +468,9 @@ Rồi ông đọc cơ cấu sở hữu của GM mới (`22 29:15`–`22 30:18`):
 | Công đoàn Công nhân Ô tô (UAW) |                             17,5 % |
 | Trái chủ                       | phần còn lại, **cộng chứng quyền** |
 
-### ⚠️ Và đây là chỗ đáng chú ý nhất của cả bài
+### Và đây là chỗ đáng chú ý nhất của cả bài
 
-[Bài 8 §16](bai_08_co_phieu_dinh_che.md#16--đối-chiếu-2026) đã đính chính Shiller về
+[Bài 8 §16](bai_08_co_phieu_dinh_che.md#16-đối-chiếu-2026) đã đính chính Shiller về
 đúng vụ này. Ở **buổi 9**, ông nói chính phủ Mỹ mua **cổ phần ưu đãi** của GM *"để giữ khoảng cách,
 vì đây là nước Mỹ. Đây là một nước tư bản. Nếu Mỹ mua cổ phần phổ thông thì giống như quốc hữu hoá
 công ty."*
@@ -458,6 +478,7 @@ công ty."*
 Ở **buổi 22**, mười ba buổi sau, chính ông đọc lên bảng: **chính phủ Mỹ sở hữu 60,8 % cổ phần phổ
 thông của GM mới**, và gọi thẳng đó là *"một tổ chức thuộc sở hữu nhà nước"* (`22 30:38`).
 
+> [!note]
 > **Khoá học tự bác lại chính nó.** Không cần nguồn ngoài, không cần tra cứu. Hai buổi giảng của cùng
 > một người, cách nhau vài tuần, nói ngược nhau về cùng một sự kiện — và bản ở buổi 22 là bản đúng.
 
@@ -466,14 +487,16 @@ cách phát hiện là đối chiếu chéo, không phải tin tưởng.**
 
 Shiller rút ra bài học tổng quát ngay sau đó (`22 31:06`):
 
+> [!quote]
 > *"Các công ty phải tự nghĩ về mình như — kể cả ở một nước tư bản kiểu mẫu như nước Mỹ — **một phần
 > là tổ chức nhà nước**."*
 
-📚 Ông nhắc thêm **phá sản cá nhân** (`22 31:25`) như một dạng nhà nước tham gia quản lý rủi ro, và
-nói *"luật phá sản mới mà Quốc hội thông qua vài năm trước có xu hướng hạn chế khả năng đó"*
-(`22 31:58`). Đạo luật ông nói tới là **Đạo luật Ngăn ngừa Lạm dụng Phá sản và Bảo vệ Người tiêu dùng
-2005**, thứ đã đưa vào **bài kiểm tra thu nhập** buộc nhiều người phải đi theo Chương 13 (trả dần)
-thay vì Chương 7 (xoá nợ).
+> [!note]
+> Ông nhắc thêm **phá sản cá nhân** (`22 31:25`) như một dạng nhà nước tham gia quản lý rủi ro, và
+> nói *"luật phá sản mới mà Quốc hội thông qua vài năm trước có xu hướng hạn chế khả năng đó"*
+> (`22 31:58`). Đạo luật ông nói tới là **Đạo luật Ngăn ngừa Lạm dụng Phá sản và Bảo vệ Người tiêu dùng
+> 2005**, thứ đã đưa vào **bài kiểm tra thu nhập** buộc nhiều người phải đi theo Chương 13 (trả dần)
+> thay vì Chương 7 (xoá nợ).
 
 Và ông chốt phần này bằng một câu đáng nhớ (`22 32:26`): *"toàn bộ ý niệm công so với tư là một ý
 niệm phức tạp. **Cái có vẻ là công ở thời điểm này sẽ có vẻ là tư ở thời điểm khác.**"*
@@ -495,8 +518,9 @@ vay. Vậy sao? Câu trả lời là chỗ hay nhất của cả phần (`22 39:
 | Có phải cân bằng không | **CÓ** — theo hiến pháp bang | **KHÔNG**                                              |
 | Có được vay không      | không                        | **có, và họ vay thường xuyên** (`22 40:14`)            |
 
-⚠️ Chi tiết cần sửa: Shiller nói *"**mọi** bang ở Mỹ"* có quy tắc ngân sách cân bằng. **Vermont thì
-không.** Bốn mươi chín bang có, dưới nhiều dạng khác nhau; Vermont là ngoại lệ duy nhất.
+> [!warning]
+> Chi tiết cần sửa: Shiller nói *"**mọi** bang ở Mỹ"* có quy tắc ngân sách cân bằng. **Vermont thì
+> không.** Bốn mươi chín bang có, dưới nhiều dạng khác nhau; Vermont là ngoại lệ duy nhất.
 
 ### Thị trấn 30 người vay 100 triệu đô
 
@@ -504,6 +528,7 @@ không.** Bốn mươi chín bang có, dưới nhiều dạng khác nhau; Vermon
 mới lập, hiện có **30 người**, nhưng sẽ thành **20.000 người** trong 20–30 năm. Kỹ sư nói hệ thống
 thoát nước phải làm **một lần**, giá **100 triệu đô** (`22 41:38`).
 
+> [!quote]
 > *"Vậy bạn làm gì? Bạn có thể nói, chúng tôi không trả nổi. Thị trấn này chỉ có 30 người sống. Kiếm
 > đâu ra 100 triệu? **Hiển nhiên là bạn đi vay.**"*
 
@@ -520,6 +545,7 @@ Rồi ông nói *"và điều đó là công bằng và chính đáng"* — và 
 
 Năm đầu gánh nặng bằng **mười một lần** thu nhập cả hộ. Năm thứ 25 còn **1,63 %**.
 
+> [!note]
 > Đó là toàn bộ lý do phải tách ngân sách vốn khỏi ngân sách vận hành. **Không phải để dễ vay hơn —
 > mà để chi phí rơi xuống đúng những người sử dụng công trình.** Ba mươi người hôm nay không thể trả,
 > và họ cũng **không nên** trả: họ không phải người dùng nó.
@@ -531,10 +557,11 @@ mươi người đầu tiên phải trả cho trục chính của cả thành ph
 
 ---
 
-## 11. ⚠️ "Địa phương chi gấp đôi liên bang" — sai ở mẫu số
+## 11. "Địa phương chi gấp đôi liên bang" — sai ở mẫu số
 
 Ngay trước ví dụ thị trấn, Shiller đưa ra một con số (`22 37:08`):
 
+> [!quote]
 > *"Chính quyền bang và địa phương chi khoảng **gấp đôi** số tiền mà chính phủ liên bang Mỹ chi."*
 
 [Mục 3 của chương trình](#20-chương-trình) đối chiếu. ⚠️ Các con số dưới đây là **bậc độ lớn**, đủ để
@@ -572,7 +599,7 @@ trường công, sở cứu hoả, sở cảnh sát, phần lớn công viên."*
 là thứ người dân **nhìn thấy**. Còn chi liên bang thì phần lớn là **chuyển tiền** — an sinh xã hội, y
 tế, lãi nợ — không cần mấy nhân sự và không ai nhìn thấy.
 
-📌 [Bài 8 §12](bai_08_co_phieu_dinh_che.md#12--một-con-số-ròng-giấu-được-dòng-chảy-lớn-cỡ-nào) đã gặp đúng cái bẫy này
+📌 [Bài 8 §12](bai_08_co_phieu_dinh_che.md#12-một-con-số-ròng-giấu-được-dòng-chảy-lớn-cỡ-nào) đã gặp đúng cái bẫy này
 ở một hồ sơ khác: một con số ròng giấu được hai dòng lớn. Ở đây không phải số ròng mà là **số người
 so với số tiền** — và chúng kể hai câu chuyện ngược nhau về cùng một nhà nước.
 
@@ -587,6 +614,7 @@ Bộ luật Phá sản** (`22 43:06`).
 Ông chỉ ra vì sao phá sản đô thị khác phá sản doanh nghiệp (`22 43:21`): thành phố **không có cổ
 đông**, nhưng **có quyền đánh thuế** — và ngay đó là vòng xoáy (`22 43:36`):
 
+> [!quote]
 > *"Có một câu hỏi là nên đánh thuế người dân trong một thành phố phá sản đến mức nào. **Nếu đánh
 > nặng quá thì họ sẽ bỏ đi hết.** Nên đó là một bài toán tinh tế."*
 
@@ -611,21 +639,23 @@ Shiller nói tiếp (`22 43:44`): *"may là chưa có nhiều vụ phá sản đ
 thật sự hiểu vì sao."* Ông kể **New York 1975** (`22 44:10`) — thành phố suýt tuyên bố phá sản nhưng
 được bang New York cứu, rồi liên bang cứu *"tuy miễn cưỡng và có độ trễ"*.
 
-📚 Có một phần lời giải cho chỗ ông nói *"không chắc mình hiểu vì sao"*: **Chương 9 đòi bang phải cho
-phép.** Một thành phố không thể tự nộp đơn — luật bang phải trao quyền đó, và chỉ khoảng một nửa số
-bang trao. Đó là lý do cấu trúc khiến số vụ ít, chứ không phải vì các thành phố khoẻ hơn doanh
-nghiệp.
+> [!note]
+> Có một phần lời giải cho chỗ ông nói *"không chắc mình hiểu vì sao"*: **Chương 9 đòi bang phải cho
+> phép.** Một thành phố không thể tự nộp đơn — luật bang phải trao quyền đó, và chỉ khoảng một nửa số
+> bang trao. Đó là lý do cấu trúc khiến số vụ ít, chứ không phải vì các thành phố khoẻ hơn doanh
+> nghiệp.
 
 Ông cũng nói về **quỹ ngày mưa** (`22 44:48`) và nhận xét rằng *"gần đây phần lớn các quỹ ngày mưa đã
 cạn"* (`22 45:18`) — vì cuộc khủng hoảng tài chính chính là ngày mưa đó.
 
-⚠️ **Và rồi chuyện xảy ra.** Shiller nói *"người ta đang bồn chồn nghĩ rằng có thể sẽ có vài vụ"*
-(`22 45:50`). Xem [§18](#18--đối-chiếu-2026): trong **hai mươi bảy tháng** kể từ bài giảng này, vụ
-phá sản đô thị lớn nhất lịch sử nước Mỹ được nộp đơn.
+> [!warning] Và rồi chuyện xảy ra.
+> Shiller nói *"người ta đang bồn chồn nghĩ rằng có thể sẽ có vài vụ"*
+> (`22 45:50`). Xem [§18](#18-đối-chiếu-2026): trong **hai mươi bảy tháng** kể từ bài giảng này, vụ
+> phá sản đô thị lớn nhất lịch sử nước Mỹ được nộp đơn.
 
 ---
 
-## 13. ⚠️ Trái phiếu miễn thuế — Shiller viện dẫn nhầm Hiến pháp
+## 13. Trái phiếu miễn thuế — Shiller viện dẫn nhầm Hiến pháp
 
 Trái phiếu chính quyền địa phương ở Mỹ được **miễn thuế thu nhập liên bang** đối với người nắm giữ
 (`22 46:06`). Bản ghi Open Yale Courses chèn thêm một chú thích cho chính xác: *phần lớn* là miễn
@@ -633,6 +663,7 @@ thuế, có một số ngoại lệ.
 
 Rồi Shiller giải thích **vì sao** (`22 46:27`):
 
+> [!quote]
 > *"Đó là vì **trong hiến pháp có nói** rằng có sự tách biệt giữa liên bang và bang. Liên bang không
 > thể đánh thuế bang, nên họ không đánh thuế trái phiếu đô thị của bạn."*
 
@@ -686,6 +717,7 @@ $$
 \text{phần tổ chức phát hành giữ} \;=\; \frac{\text{bậc thuế người cận biên}}{\text{bậc thuế người thực sự mua}}
 $$
 
+> [!note]
 > **Miễn thuế trái phiếu đô thị là một khoản trợ cấp có rò rỉ.** Càng nhiều người mua ở bậc thuế cao
 > hơn người cận biên, càng nhiều tiền ngân sách chảy vào túi họ thay vì vào trường học và hệ thống
 > thoát nước.
@@ -712,6 +744,7 @@ Rồi ông hỏi câu hiển nhiên (`22 48:09`): *"Sao Yale lại đi vay tiề
 Câu trả lời ông đưa ra (`22 48:22`): vì Yale **vay được ở mức lãi suất được trợ cấp thuế**. Và rồi
 ông dựng nguyên một phép kinh doanh chênh lệch (`22 49:10`):
 
+> [!quote]
 > *"Yale có thể phát hành nợ đó, rồi dùng tiền đi đầu tư vào những thứ lợi suất cao có chịu thuế, mà
 > nó cũng sẽ không phải trả thuế trên những thứ đó."*
 
@@ -738,15 +771,17 @@ Chênh                                  8,60 điểm phần trăm
 x 2,5 tỷ                  ->     215 triệu đô/năm
 ```
 
-📚 Điều luật Shiller mô tả đúng bản chất mà không gọi tên là **Điều 148 Bộ luật Thuế vụ Mỹ**: trái
-phiếu miễn thuế mà tiền thu được đem đầu tư kiếm chênh lệch thì bị coi là **trái phiếu kinh doanh
-chênh lệch** và **mất tư cách miễn thuế**.
+> [!note]
+> Điều luật Shiller mô tả đúng bản chất mà không gọi tên là **Điều 148 Bộ luật Thuế vụ Mỹ**: trái
+> phiếu miễn thuế mà tiền thu được đem đầu tư kiếm chênh lệch thì bị coi là **trái phiếu kinh doanh
+> chênh lệch** và **mất tư cách miễn thuế**.
 
 Tỷ lệ đáng nhớ: **quy định này chặn một khoản gấp bảy lần khoản trợ cấp mà nó cho phép giữ.** Đó là
 lý do nó tồn tại — không có nó thì mọi tổ chức phi lợi nhuận đều trở thành một quỹ đầu cơ vay nợ rẻ.
 
-⚠️ Toàn bộ lập luận trên dựa vào một câu của Shiller ở `22 48:55`: *"Yale không phải trả thuế trên cả
-hai."* Câu đó **giờ không còn đúng nguyên vẹn** — xem [§18](#18--đối-chiếu-2026).
+> [!warning]
+> Toàn bộ lập luận trên dựa vào một câu của Shiller ở `22 48:55`: *"Yale không phải trả thuế trên cả
+> hai."* Câu đó **giờ không còn đúng nguyên vẹn** — xem [§18](#18-đối-chiếu-2026).
 
 📌 [Bài 7](bai_07_quan_ly_quy.md) đã chỉ ra lợi thế **cơ cấu** duy nhất mà David Swensen tự nêu tên
 là *"chúng tôi không phải trả thuế"*. Mục này đo cái giá của nó ở một hồ sơ khác: **bên nợ của bảng
@@ -774,6 +809,7 @@ người sống sót (`22 55:50`). Nếu bố mẹ bạn mất khi bạn còn nh
 nhập. Shiller hỏi lớp (`22 56:12`): *"Các bạn không biết mình có cái này, đúng không?"* Rồi ông chỉ
 ra vì sao (`22 57:01`):
 
+> [!quote]
 > *"Người bán bảo hiểm nhân thọ **không muốn nhắc bạn** rằng bạn đã có sẵn một hợp đồng bảo hiểm nhân
 > thọ từ nhà nước, vì bạn có thể sẽ nói: thôi, tôi đủ rồi. Nên họ đặt cho nó một cái tên khác, và họ
 > chắc sẽ không nhắc bạn rằng bạn có nó."*
@@ -786,10 +822,11 @@ mua bảo hiểm ngay lập tức."* Đó là lý do cấu trúc khiến nhà n�
 do đạo đức. Cùng cơ chế với
 [bài 2](bai_02_bao_hiem.md).
 
-⚠️ **Chữ hụt.** Shiller nói *"Mỹ hiện có khoảng **40 triệu** người không có bảo hiểm y tế"*
-(`22 58:03`). Con số của Cục Thống kê Dân số Mỹ cho năm 2010 là **49,9 triệu** — tức **16,3 %** dân
-số. Ông hụt khoảng một phần năm. Điều đó không làm hỏng luận điểm ("Mỹ chậm chân") mà làm nó **nhẹ đi
-so với sự thật**.
+> [!warning] Chữ hụt.
+> Shiller nói *"Mỹ hiện có khoảng **40 triệu** người không có bảo hiểm y tế"*
+> (`22 58:03`). Con số của Cục Thống kê Dân số Mỹ cho năm 2010 là **49,9 triệu** — tức **16,3 %** dân
+> số. Ông hụt khoảng một phần năm. Điều đó không làm hỏng luận điểm ("Mỹ chậm chân") mà làm nó **nhẹ đi
+> so với sự thật**.
 
 Và ông tự sửa một chỗ trên lớp mà bản ghi Open Yale Courses phải chèn đính chính (`22 52:45`): ông
 nói thuế luỹ tiến *"đánh người thu nhập cao ở mức **thấp** hơn"* rồi nói tiếp — đó là lỡ lời, ý là
@@ -797,7 +834,7 @@ nói thuế luỹ tiến *"đánh người thu nhập cao ở mức **thấp** h
 
 ---
 
-## 16. 📚 Speenhamland và EITC — cùng một bài toán, cách nhau 190 năm
+## 16. Speenhamland và EITC — cùng một bài toán, cách nhau 190 năm
 
 Shiller kể hai thứ này ở hai chỗ khác nhau của buổi giảng, cách nhau tám phút, và **không nối chúng
 lại**. Chúng là cùng một bài toán.
@@ -809,6 +846,7 @@ phải **có thu nhập kiếm được** thì mới nhận được. Bạn khô
 **Speenhamland**, `22 60:55`–`22 61:58`: ở Anh cuối những năm 1700, người ta quyết định có một **mức
 sống tối thiểu** mà ai cũng phải kiếm được, và ai kiếm ít hơn thì được bù phần chênh. Rồi:
 
+> [!quote] 22 61:26, 22 61:44
 > *"Vấn đề là **nó không chạy được**. Quá nhiều người khai rằng họ kiếm được ít hơn mức sống đã định,
 > và thị trấn phát hiện ra mình đang bị lừa. […] **Vấn đề là họ không xác định được chính xác thu
 > nhập thật của một người là bao nhiêu.**"* (`22 61:26`, `22 61:44`)
@@ -829,6 +867,7 @@ Dưới mức sàn, thuế suất biên của Speenhamland là **đúng 100 %**.
 
 EITC đặt con số đó ở **−40 %**: kiếm thêm một đô thì được thêm 40 xu. Dấu **âm**, không phải dương.
 
+> [!quote]
 > Cả hai đều là "bù thu nhập cho người nghèo". Khác biệt duy nhất là **một tỷ lệ**.
 
 ### Và vì sao 1795 không làm được cái mà 1975 làm được
@@ -839,6 +878,7 @@ của một người là bao nhiêu."*
 Một tỷ lệ tích luỹ 40 % **đòi hỏi** biết thu nhập kiếm được là bao nhiêu. Một mức sàn thì **không đòi
 hỏi gì cả** — chỉ cần biết người đó **khai** bao nhiêu.
 
+> [!note]
 > Nên Speenhamland là thiết kế **duy nhất khả thi** với công nghệ thông tin năm 1795, và thuế suất
 > biên 100 % là **hệ quả bắt buộc** của nó, không phải một sai lầm của người thiết kế.
 
@@ -846,8 +886,9 @@ hỏi gì cả** — chỉ cần biết người đó **khai** bao nhiêu.
 áp cho một hồ sơ mà ông không áp. **Công nghệ thông tin không chỉ cho phép làm bảo hiểm xã hội — nó
 quyết định hình dạng của nó.**
 
-⚠️ Một chỗ cần thận trọng khi kể chuyện Speenhamland. Shiller kể nó như một **thị trấn nhỏ tự quyết
-định** rồi tự bỏ vì bị lừa. Hai chỗ cần chỉnh:
+> [!warning]
+> Một chỗ cần thận trọng khi kể chuyện Speenhamland. Shiller kể nó như một **thị trấn nhỏ tự quyết
+> định** rồi tự bỏ vì bị lừa. Hai chỗ cần chỉnh:
 
 - Đó là quyết định của **các thẩm phán hạt Berkshire** họp tại quán trọ Pelican ở Speenhamland ngày
   **6/5/1795**, đặt ra một thang trợ cấp, và nó **lan ra phần lớn miền nam nước Anh** — không phải
@@ -872,6 +913,7 @@ không có bảo hiểm xã hội ở đâu cả"* (`22 59:38`).
 
 Và (`22 60:11`):
 
+> [!quote]
 > *"Nước đáng chú ý nhất vì đã **phát minh ra** bảo hiểm xã hội là nước Đức dưới thời **Otto von
 > Bismarck**, thập niên **1880**. Và tôi nghĩ nó xảy ra ở đó trước tiên là **vì công nghệ thông
 > tin**."*
@@ -885,6 +927,7 @@ Chỗ tờ Times thấy bất khả thi nhất là **hưu trí** (`22 63:16`–`
 làm việc, rồi **30, 40 năm sau** hệ thống phải nhớ họ đã đóng bao nhiêu và trả lương hưu suốt phần
 đời còn lại. *"Họ phải giữ hồ sơ suốt 40 năm."*
 
+> [!quote] 22 63:57
 > *"Nhưng nó đã không đổ bể."* (`22 63:57`)
 
 ### Danh sách công nghệ
@@ -905,20 +948,23 @@ mà **chưa ai từng làm được**? Ông trả lời bằng một danh sách 
 
 Và chi tiết cuối cùng là chi tiết hay nhất buổi giảng (`22 69:19`):
 
+> [!quote]
 > *"Có bưu điện ở mọi thị trấn, và **hệ thống an sinh xã hội vận hành qua bưu điện**. Bạn tới bưu
 > điện đóng tiền an sinh xã hội, họ đưa bạn **những con tem**, bạn **dán chúng lên một tấm thẻ**, và
 > đó là cách bạn chứng minh mình đã đóng."*
 
-📚 Đây không phải hình ảnh ẩn dụ. Công nhân Đức mua *Invalidenmarken* — tem bảo hiểm tàn tật — và dán
-vào *Quittungskarte*, thẻ biên nhận. **Đó là toàn bộ cơ sở dữ liệu của hệ thống hưu trí quốc gia đầu
-tiên trên thế giới: giấy, tem, và hồ sơ ở bưu điện.**
+> [!note]
+> Đây không phải hình ảnh ẩn dụ. Công nhân Đức mua *Invalidenmarken* — tem bảo hiểm tàn tật — và dán
+> vào *Quittungskarte*, thẻ biên nhận. **Đó là toàn bộ cơ sở dữ liệu của hệ thống hưu trí quốc gia đầu
+> tiên trên thế giới: giấy, tem, và hồ sơ ở bưu điện.**
 
-⚠️ Một chỗ cần chỉnh trong danh sách. Shiller nói (`22 68:37`) nước Đức *"nổi tiếng về các trường
-quản trị và trường kinh doanh"* như một điều kiện. Các **Handelshochschule** của Đức được lập từ
-**Leipzig 1898** trở đi — tức **sau** toàn bộ hệ thống luật thập niên 1880 từ 10 đến 25 năm. Cái Đức
-**đã có** trước 1880 là một thứ khác và cổ hơn: bộ máy công chức được đào tạo bài bản trong **khoa
-học hành chính - tài chính công** *(Kameralwissenschaft)*, môn đã dạy ở các đại học Đức từ thế kỷ 18.
-Sửa lại thì lập luận của ông **vững hơn**, vì nó chỉ đúng thứ có mặt trước sự kiện.
+> [!warning]
+> Một chỗ cần chỉnh trong danh sách. Shiller nói (`22 68:37`) nước Đức *"nổi tiếng về các trường
+> quản trị và trường kinh doanh"* như một điều kiện. Các **Handelshochschule** của Đức được lập từ
+> **Leipzig 1898** trở đi — tức **sau** toàn bộ hệ thống luật thập niên 1880 từ 10 đến 25 năm. Cái Đức
+> **đã có** trước 1880 là một thứ khác và cổ hơn: bộ máy công chức được đào tạo bài bản trong **khoa
+> học hành chính - tài chính công** *(Kameralwissenschaft)*, môn đã dạy ở các đại học Đức từ thế kỷ 18.
+> Sửa lại thì lập luận của ông **vững hơn**, vì nó chỉ đúng thứ có mặt trước sự kiện.
 
 Về mốc pháp lý, ba đạo luật của Bismarck: **bảo hiểm y tế 1883**, **bảo hiểm tai nạn 1884**, **bảo
 hiểm tuổi già và tàn tật 1889** — đúng như Shiller nói là ba loại và trong thập niên 1880. ⚠️ Nhưng
@@ -927,31 +973,32 @@ làm công ăn lương**, còn nông dân và người tự làm thì phải đ�
 
 Và câu chốt của cả buổi (`22 70:01`):
 
+> [!quote]
 > ***"Rốt cuộc, công nghệ dẫn dắt tài chính, và hệ thống phản ứng theo những thay đổi của công
 > nghệ."***
 
-### 📚 Con số mà ai cũng dùng sai khi kể chuyện này
-
-Luật 1889 đặt tuổi nghỉ hưu là **70**. Câu người ta hay nói tiếp là: *"hồi đó kỳ vọng sống chỉ 40
-tuổi, nên gần như không ai nhận được lương hưu."*
-
-**Kết luận đúng, lập luận sai** — và [mục 8 của chương trình](#20-chương-trình) chỉ ra vì sao, bằng
-một mô hình minh hoạ hai giai đoạn (⚠️ **không phải** bảng sống chết của nước Đức):
-
-```
-Tỷ lệ chết trước tuổi 1                 25,00 %
-Ai qua tuổi 1 thì sống tới                  55 tuổi
-
-Kỳ vọng sống LÚC SINH                     41,3 tuổi
-Kỳ vọng sống CỦA NGƯỜI 20 TUỔI              55 tuổi
-```
-
-Nhìn con số 41,3 thì tuổi hưu 70 nghe như trò đùa. Nhưng **41,3 bị tử vong sơ sinh kéo xuống, và trẻ
-sơ sinh thì không đóng bảo hiểm xã hội.** Câu hỏi thật là: một người **20 tuổi đang đi làm** có sống
-tới 70 không?
-
-Kết luận vẫn đúng — nhưng chỉ khi đi qua **kỳ vọng sống có điều kiện**, tính từ tuổi bắt đầu đi làm.
-Đây là lỗi phổ biến nhất trong mọi tranh luận về tuổi nghỉ hưu, và nó xuất hiện ở cả hai phía.
+> [!note] Con số mà ai cũng dùng sai khi kể chuyện này
+>
+> Luật 1889 đặt tuổi nghỉ hưu là **70**. Câu người ta hay nói tiếp là: *"hồi đó kỳ vọng sống chỉ 40
+> tuổi, nên gần như không ai nhận được lương hưu."*
+>
+> **Kết luận đúng, lập luận sai** — và [mục 8 của chương trình](#20-chương-trình) chỉ ra vì sao, bằng
+> một mô hình minh hoạ hai giai đoạn (⚠️ **không phải** bảng sống chết của nước Đức):
+>
+> ```
+> Tỷ lệ chết trước tuổi 1                 25,00 %
+> Ai qua tuổi 1 thì sống tới                  55 tuổi
+>
+> Kỳ vọng sống LÚC SINH                     41,3 tuổi
+> Kỳ vọng sống CỦA NGƯỜI 20 TUỔI              55 tuổi
+> ```
+>
+> Nhìn con số 41,3 thì tuổi hưu 70 nghe như trò đùa. Nhưng **41,3 bị tử vong sơ sinh kéo xuống, và trẻ
+> sơ sinh thì không đóng bảo hiểm xã hội.** Câu hỏi thật là: một người **20 tuổi đang đi làm** có sống
+> tới 70 không?
+>
+> Kết luận vẫn đúng — nhưng chỉ khi đi qua **kỳ vọng sống có điều kiện**, tính từ tuổi bắt đầu đi làm.
+> Đây là lỗi phổ biến nhất trong mọi tranh luận về tuổi nghỉ hưu, và nó xuất hiện ở cả hai phía.
 
 ### Số học của một lời hứa hưu trí
 
@@ -992,6 +1039,7 @@ Nó hỏng ở chỗ khác. Đọc bảng theo chiều ngược lại:
 trái phiếu chính phủ trong nước**, và bài đó cũng chỉ ra **vì sao** danh mục phải như vậy — một quỹ
 **buộc phải** chi trả đúng hạn mỗi tháng thì không được phép bán tài sản ở đáy.
 
+> [!note]
 > Ràng buộc thật **không phải** con số 2,39 %. Ràng buộc thật là: **chính nghĩa vụ chi trả đều đặn đã
 > loại bỏ cái danh mục có thể đạt 2,39 %.** Hai bài học khớp vào nhau đúng ở chỗ này.
 
@@ -1004,7 +1052,7 @@ hưởng — đều là một nỗ lực đưa M về lại gần con số mà B
 
 ---
 
-## 18. ⚠️ Đối chiếu 2026
+## 18. Đối chiếu 2026
 
 ### 18.1 Bốn người ông lấy làm ví dụ
 
@@ -1015,12 +1063,13 @@ hưởng — đều là một nỗ lực đưa M về lại gần con số mà B
 | **Bill Drayton** | Ashoka                                            | Vẫn điều hành; "doanh nhân xã hội" thành thuật ngữ chuẩn toàn cầu                                                                                                                                                                                                                                                              |
 | **Wendy Kopp**   | TFA, đang lớn                                     | Rời ghế điều hành TFA năm 2013, sang làm **Teach For All**. ⚠️ Quy mô TFA **co lại mạnh** so với đỉnh khoảng 6.000 giáo viên năm 2013.                                                                                                                                                                                          |
 
-⚠️ Hai dòng cuối bảng là vế còn lại của lập luận ở
-[§4](#4-bốn-người-ông-lấy-làm-ví-dụ--mười-lăm-năm-sau). Shiller ca ngợi việc **không cần thuyết phục
-chính phủ** để bắt đầu. Nhưng cũng chính vì thế mà **không có cơ chế nào bắt phải dừng lại** khi bằng
-chứng quay đầu: TFA co lại vì thị trường tài trợ và tuyển dụng đổi ý, chứ không vì một cuộc rà soát
-nào. Và IPA hứng đòn từ một quyết định chính trị mà nó không có tiếng nói — đúng cái phụ thuộc mà mô
-hình phi lợi nhuận được cho là tránh được.
+> [!warning]
+> Hai dòng cuối bảng là vế còn lại của lập luận ở
+> [§4](#4-bốn-người-ông-lấy-làm-ví-dụ--mười-lăm-năm-sau). Shiller ca ngợi việc **không cần thuyết phục
+> chính phủ** để bắt đầu. Nhưng cũng chính vì thế mà **không có cơ chế nào bắt phải dừng lại** khi bằng
+> chứng quay đầu: TFA co lại vì thị trường tài trợ và tuyển dụng đổi ý, chứ không vì một cuộc rà soát
+> nào. Và IPA hứng đòn từ một quyết định chính trị mà nó không có tiếng nói — đúng cái phụ thuộc mà mô
+> hình phi lợi nhuận được cho là tránh được.
 
 Còn Tufano thì là ca ngược lại, và là ca đẹp nhất: **tổ chức phi lợi nhuận chứng minh ý tưởng, rồi
 nhà nước luật hoá nó.** Đó là chuỗi mà Shiller mô tả — chỉ là ông không kịp thấy đoạn cuối.
@@ -1040,6 +1089,7 @@ số đã giảm hơn một phần tư kể từ bài giảng.
 Và câu *"nếu đánh thuế quá cao thì doanh nghiệp sẽ rời đi"* (`22 22:03`) đã có lời đáp — **không phải
 lời đáp Shiller hình dung**:
 
+> [!note]
 > Thế giới không hài hoà hoá tỷ lệ. Nó đặt một **SÀN 15 %** — **Trụ cột Hai của OECD**, EU áp dụng từ
 > **2024**. Trả thấp hơn sàn ở nước A thì nước B được quyền thu phần thiếu.
 
@@ -1110,21 +1160,22 @@ Nên hướng đi Shiller mô tả đã xảy ra, đạt đỉnh, rồi bị đ�
 | *"Cái có vẻ là công lúc này sẽ có vẻ là tư lúc khác"*        | ✅ TEPCO xác nhận                                                                                                  |
 | Ngân sách vốn tách khỏi ngân sách vận hành                   | ✅ nguyên vẹn — và đã có trong luật Việt Nam                                                                       |
 | Ranh giới vì lợi nhuận / phi lợi nhuận là mập mờ             | ✅ nguyên vẹn                                                                                                      |
-| **Công nghệ dẫn dắt tài chính**                              | ✅ nguyên vẹn, và [§16](#16--speenhamland-và-eitc--cùng-một-bài-toán-cách-nhau-190-năm) chứng minh nó thêm một lần |
+| **Công nghệ dẫn dắt tài chính**                              | ✅ nguyên vẹn, và [§16](#16-speenhamland-và-eitc--cùng-một-bài-toán-cách-nhau-190-năm) chứng minh nó thêm một lần |
 
 Quy luật của cả kho vẫn đúng: **cơ chế thì sống, tham số thì chết.**
 
 ---
 
-## 19. 🇻🇳 Góc Việt Nam
+## 19. Góc Việt Nam
 
 Ba trong bốn mảnh ghép của buổi giảng đều có ở Việt Nam. Mảnh còn thiếu là **mảnh đầu tiên** — đúng
 cái Shiller dành nửa buổi để nói.
 
 ### 19.1 Mật độ tổ chức phi lợi nhuận
 
-⚠️ Các con số dưới đây là **bậc độ lớn**; hai bên đếm hai thứ khác nhau — Mỹ đếm mọi tổ chức miễn
-thuế, Việt Nam đếm quỹ có giấy phép — nên chỉ đọc bậc độ lớn, đừng đọc con số.
+> [!warning]
+> Các con số dưới đây là **bậc độ lớn**; hai bên đếm hai thứ khác nhau — Mỹ đếm mọi tổ chức miễn
+> thuế, Việt Nam đếm quỹ có giấy phép — nên chỉ đọc bậc độ lớn, đừng đọc con số.
 
 | Nước                                      | Số tổ chức | Trên 1 triệu dân |
 | ----------------------------------------- | ---------: | ---------------: |
@@ -1213,7 +1264,7 @@ Nâng trần từ 60 % lên 120 % mở thêm khoảng **72.000 tỷ đồng** d�
 cùng một logic với ví dụ thị trấn ở [§10](#10-ngân-sách-vận-hành-và-ngân-sách-vốn) — khả năng trả nợ
 lớn lên cùng với cơ sở thuế, nên trần cũng phải lớn lên theo. Một trần tuyệt đối sẽ bị lạm phát bào
 mòn, đúng như ngưỡng nhà đầu tư ở
-[bài 9 §7](bai_09_bat_dong_san.md#7--ngưỡng-nhà-đầu-tư-đủ-điều-kiện-bị-lạm-phát-ăn-mòn).
+[bài 9 §7](bai_09_bat_dong_san.md#7-ngưỡng-nhà-đầu-tư-đủ-điều-kiện-bị-lạm-phát-ăn-mòn).
 
 ### 19.5 Chỗ Việt Nam đã làm đúng cái Shiller mô tả — và không ai gọi tên
 
@@ -1273,9 +1324,10 @@ Chín mục, mỗi mục làm nốt một phép tính mà bài giảng nêu ra b
 |    8 | Kỳ vọng sống lúc sinh là con số **sai**, và số học của lời hứa hưu trí |
 |    9 | 🇻🇳 Doanh nghiệp xã hội, bao phủ BHXH, và trần nợ địa phương             |
 
-⚠️ Mọi con số **không phải** của Shiller — số liệu 2026, số liệu Việt Nam, ước tính thiệt hại
-Fukushima — đều được đánh dấu `⚠` ngay tại chỗ trong output và liệt nguồn ở [mục Nguồn](#nguồn). Vài con
-số là **bậc độ lớn**, đủ để so tỷ lệ chứ không đủ để trích một mình; chỗ nào như vậy đều ghi rõ.
+> [!warning]
+> Mọi con số **không phải** của Shiller — số liệu 2026, số liệu Việt Nam, ước tính thiệt hại
+> Fukushima — đều được đánh dấu `⚠` ngay tại chỗ trong output và liệt nguồn ở [mục Nguồn](#nguồn). Vài con
+> số là **bậc độ lớn**, đủ để so tỷ lệ chứ không đủ để trích một mình; chỗ nào như vậy đều ghi rõ.
 
 Kết quả chạy thật:
 
@@ -1791,23 +1843,23 @@ Tat ca assert deu qua. Chay lai cho ket qua giong het.
 ==============================================================================
 ```
 
-### 💡 Tự thử
-
-1. **Mục 1** — thêm một nước có hai tầng thuế vào `NUOC_KHAC` với tỷ lệ trên 30 % ở cả hai tầng.
-   Khoảng cách giữa "cộng thẳng" và "gộp đúng" lớn lên hay nhỏ đi? Vì sao?
-2. **Mục 2** — đặt `TEPCO_LOI_NHUAN_TY_YEN = 1_000` (gấp năm lần). Số năm thuế cần thiết còn bao
-   nhiêu, và con số đó có làm đổi kết luận không?
-3. **Mục 4** — đổi `NAM_DAY_DAN` thành `50` (dân tới chậm gấp đôi). Thị trấn có còn tránh được vỡ nợ
-   không? Chú ý: câu hỏi không phải "tổng nợ bao nhiêu" mà "năm nào gánh nặng vượt ngưỡng".
-4. **Mục 5** — đặt `BAC_CAN_BIEN_BP = 3_500` (người cận biên ở bậc cao nhất). Khoản rò rỉ ra nhà đầu
-   tư thành bao nhiêu? Suy ra: muốn giảm rò rỉ thì nên làm gì với **cung** trái phiếu miễn thuế?
-5. **Mục 6** — tìm mức `THUE_QUY_HIEN_TANG_BP` nhỏ nhất khiến phép kinh doanh chênh lệch **hết lãi**
-   hoàn toàn.
-6. **Mục 7** — đổi `EITC_TY_LE_VAO_BP` thành `10_000` (tích luỹ 100 %). Thuế suất biên trong đoạn
-   tích luỹ là bao nhiêu, và thiết kế đó có vấn đề gì?
-7. **Mục 8** — đặt `TU_VONG_SO_SINH_BP = 0`. Kỳ vọng sống lúc sinh và kỳ vọng sống của người 20 tuổi
-   bằng nhau chưa? Đó là lý do vì sao ở nước phát triển ngày nay hai con số gần nhau hơn nhiều.
-8. **Mục 8** — tìm số năm đóng tối thiểu để hệ thống tự cân bằng ở lợi suất thực 1 % với M = 20.
+> [!example] Tự thử
+>
+> 1. **Mục 1** — thêm một nước có hai tầng thuế vào `NUOC_KHAC` với tỷ lệ trên 30 % ở cả hai tầng.
+>    Khoảng cách giữa "cộng thẳng" và "gộp đúng" lớn lên hay nhỏ đi? Vì sao?
+> 2. **Mục 2** — đặt `TEPCO_LOI_NHUAN_TY_YEN = 1_000` (gấp năm lần). Số năm thuế cần thiết còn bao
+>    nhiêu, và con số đó có làm đổi kết luận không?
+> 3. **Mục 4** — đổi `NAM_DAY_DAN` thành `50` (dân tới chậm gấp đôi). Thị trấn có còn tránh được vỡ nợ
+>    không? Chú ý: câu hỏi không phải "tổng nợ bao nhiêu" mà "năm nào gánh nặng vượt ngưỡng".
+> 4. **Mục 5** — đặt `BAC_CAN_BIEN_BP = 3_500` (người cận biên ở bậc cao nhất). Khoản rò rỉ ra nhà đầu
+>    tư thành bao nhiêu? Suy ra: muốn giảm rò rỉ thì nên làm gì với **cung** trái phiếu miễn thuế?
+> 5. **Mục 6** — tìm mức `THUE_QUY_HIEN_TANG_BP` nhỏ nhất khiến phép kinh doanh chênh lệch **hết lãi**
+>    hoàn toàn.
+> 6. **Mục 7** — đổi `EITC_TY_LE_VAO_BP` thành `10_000` (tích luỹ 100 %). Thuế suất biên trong đoạn
+>    tích luỹ là bao nhiêu, và thiết kế đó có vấn đề gì?
+> 7. **Mục 8** — đặt `TU_VONG_SO_SINH_BP = 0`. Kỳ vọng sống lúc sinh và kỳ vọng sống của người 20 tuổi
+>    bằng nhau chưa? Đó là lý do vì sao ở nước phát triển ngày nay hai con số gần nhau hơn nhiều.
+> 8. **Mục 8** — tìm số năm đóng tối thiểu để hệ thống tự cân bằng ở lợi suất thực 1 % với M = 20.
 
 ---
 
@@ -1920,7 +1972,7 @@ Tat ca assert deu qua. Chay lai cho ket qua giong het.
 10. Một thị trấn 30 người vay 100 triệu đô để làm hệ thống thoát nước. Giải thích vì sao đó **không phải** hành vi liều lĩnh — bằng khái niệm ngân sách vốn, và bằng câu hỏi *ai là người dùng công trình*.
 11. Trong bảng §12, dân số tối thiểu để gánh nặng không vượt 5 % thu nhập hộ là **6.505 người** — một phần ba kế hoạch. Con số đó nói gì về **sai số dự báo** mà một dự án hạ tầng chịu được? Dưới ngưỡng đó thì cơ chế gì bắt đầu chạy?
 12. Shiller nói *"địa phương chi gấp đôi liên bang"*. Đo bằng tiền ra 0,89 lần, đo bằng người ra 6,77 lần. **Cả hai đều đúng** — giải thích vì sao, bằng bản chất của chi liên bang.
-13. Vì sao trần nợ của TP.HCM là một **tỷ lệ trên nguồn thu** chứ không phải một con số tuyệt đối? Liên hệ với ngưỡng nhà đầu tư đủ điều kiện ở [bài 9 §7](bai_09_bat_dong_san.md#7--ngưỡng-nhà-đầu-tư-đủ-điều-kiện-bị-lạm-phát-ăn-mòn).
+13. Vì sao trần nợ của TP.HCM là một **tỷ lệ trên nguồn thu** chứ không phải một con số tuyệt đối? Liên hệ với ngưỡng nhà đầu tư đủ điều kiện ở [bài 9 §7](bai_09_bat_dong_san.md#7-ngưỡng-nhà-đầu-tư-đủ-điều-kiện-bị-lạm-phát-ăn-mòn).
 
 **Về trái phiếu miễn thuế**
 

@@ -1,16 +1,18 @@
 # Bài 7 — Hệ thống tiền tệ
 
+> [!info] Về bài này
 > Bài học dựng từ **Chương 16 — Hệ thống tiền tệ** (tr. 359–386)
 > của *N. Gregory Mankiw — **Kinh tế học vĩ mô***, bản dịch của Khoa Kinh tế, **ĐH Kinh tế TP.HCM** (Cengage Learning Asia).
-> 🎯 **Vòng 1.** Bài 1–6 nói về **nền kinh tế thực** trong dài hạn: sản lượng, giá cả, tăng trưởng,
+>
+> **Vòng 1.** Bài 1–6 nói về **nền kinh tế thực** trong dài hạn: sản lượng, giá cả, tăng trưởng,
 > tiết kiệm, thất nghiệp. Suốt sáu bài đó tiền chỉ là **cái thước** — nó có sẵn, ai đó phát hành, xong.
 > Bài này lật cái thước lên xem mặt sau: **tiền ở đâu ra, ai in nó, và ai thực sự điều khiển được
 > lượng của nó.** Đây là bài **mở màn** cho cả khối tiền tệ (bài 7–8) và là nền cho toàn bộ phần
 > ngắn hạn (bài 11–13).
-> 💼 **Góc QTKD** — ví dụ thêm cho ngành quản trị kinh doanh, **không có trong sách**.
-> 📚 **Mở rộng** — thứ sách nói lướt hoặc để trong hộp phụ.
-> ⚠️ — chỗ dễ hiểu sai, hoặc chỗ sách in sai.
-> 📌 **Cần đọc trước:** [Bài 4](bai_04_tiet_kiem_dau_tu_he_thong_tai_chinh.md) mục 3–5 (ngân hàng là
+>
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
+>
+> **Cần đọc trước:** [Bài 4](bai_04_tiet_kiem_dau_tu_he_thong_tai_chinh.md) mục 3–5 (ngân hàng là
 > **trung gian tài chính**, bảng cân đối kế toán) và
 > [Bài 5](bai_05_cong_cu_co_ban_cua_tai_chinh.md) mục 6 (**rủi ro đạo đức**) — bài này dùng lại cả hai
 > gần như nguyên xi.
@@ -23,20 +25,20 @@
 
 - [1. Vì sao chương này quan trọng](#1-vì-sao-chương-này-quan-trọng)
 - [2. Tiền là gì — ba chức năng](#2-tiền-là-gì--ba-chức-năng)
-- [3. 📚 Tiền hàng hoá và tiền pháp định](#3--tiền-hàng-hoá-và-tiền-pháp-định)
+- [3. Tiền hàng hoá và tiền pháp định](#3-tiền-hàng-hoá-và-tiền-pháp-định)
 - [4. Đo lượng tiền — M1 và M2](#4-đo-lượng-tiền--m1-và-m2)
 - [5. Cục Dự trữ Liên bang](#5-cục-dự-trữ-liên-bang)
 - [6. Ngân hàng dự trữ 100 phần trăm — không tạo ra tiền](#6-ngân-hàng-dự-trữ-100-phần-trăm--không-tạo-ra-tiền)
 - [7. Dự trữ một phần — ngân hàng tạo ra tiền](#7-dự-trữ-một-phần--ngân-hàng-tạo-ra-tiền)
 - [8. Số nhân tiền](#8-số-nhân-tiền)
-- [9. 📚 Số nhân thật khi công chúng giữ tiền mặt](#9--số-nhân-thật-khi-công-chúng-giữ-tiền-mặt)
+- [9. Số nhân thật khi công chúng giữ tiền mặt](#9-số-nhân-thật-khi-công-chúng-giữ-tiền-mặt)
 - [10. Vốn tự có và đòn bẩy](#10-vốn-tự-có-và-đòn-bẩy)
 - [11. Bốn công cụ kiểm soát tiền tệ của Fed](#11-bốn-công-cụ-kiểm-soát-tiền-tệ-của-fed)
-- [12. ⚠️ Vì sao Fed không kiểm soát nổi cung tiền](#12--vì-sao-fed-không-kiểm-soát-nổi-cung-tiền)
+- [12. Vì sao Fed không kiểm soát nổi cung tiền](#12-vì-sao-fed-không-kiểm-soát-nổi-cung-tiền)
 - [13. Đổ xô rút tiền và Đại Khủng hoảng](#13-đổ-xô-rút-tiền-và-đại-khủng-hoảng)
 - [14. Lãi suất liên ngân hàng](#14-lãi-suất-liên-ngân-hàng)
-- [15. 💼 Góc QTKD](#15--góc-qtkd)
-- [16. 📚 Đối chiếu Việt Nam](#16--đối-chiếu-việt-nam)
+- [15. Góc QTKD](#15-góc-qtkd)
+- [16. Đối chiếu Việt Nam](#16-đối-chiếu-việt-nam)
 - [17. Code minh hoạ](#17-code-minh-hoạ)
 - [18. Tự thử](#18-tự-thử)
 - [19. Từ điển thuật ngữ](#19-từ-điển-thuật-ngữ)
@@ -52,12 +54,14 @@
 
 Sách mở chương bằng một cảnh rất tầm thường (tr. 359):
 
+> [!quote]
 > *"Khi bạn bước vào nhà hàng để dùng bữa, bạn sẽ nhận được thứ gì đó có giá trị – đó là no bụng. Để
 > thanh toán cho bữa ăn này, bạn phải đưa cho nhà hàng một vài tờ giấy màu xanh cũ kỹ được trang trí
 > bằng các ký hiệu lạ mắt, các toà nhà của chính phủ và chân dung của những người Mỹ nổi tiếng quá cố."*
 
 Rồi hỏi câu hỏi thật: **tại sao chuyện đó lại chạy được?**
 
+> [!quote] tr. 359
 > *"Dù tiền giấy không có giá trị thực chất, nhà hàng vẫn tin chắc rằng sẽ có một người thứ ba nào đó
 > chấp nhận nó để đổi lấy một thứ gì đó có giá trị cho nhà hàng trong tương lai. Và người thứ ba này
 > cũng tin chắc rằng sẽ có người thứ tư nào đó chấp nhận tờ tiền này, với nhận thức rằng sẽ có người
@@ -90,6 +94,7 @@ người chuyên môn hoá cái mà họ làm tốt nhất và nâng cao mức s
 
 Sách nói rõ vị trí của chương (tr. 360):
 
+> [!quote]
 > *"Chương này sẽ đặt nền móng để thực hiện tất cả các phân tích đó."*
 
 Nói cách khác: **bài 7 không có kết luận chính sách nào cả.** Nó chỉ định nghĩa và mô tả cơ chế. Toàn
@@ -102,17 +107,20 @@ bộ hệ quả nằm ở bài 8 (lạm phát), bài 12 (chính sách tiền t�
 
 Sách bắt đầu bằng cách gạt bỏ nghĩa thông thường của từ "tiền" (tr. 360):
 
+> [!quote]
 > *"Khi bạn đọc tin thấy rằng tỷ phú Bill Gates có rất nhiều tiền, bạn biết điều đó có nghĩa là gì: Ông
 > ấy quá giàu đến nỗi ông có thể gần như mua bất cứ thứ gì ông muốn. Theo nghĩa này, thuật ngữ **tiền**
 > được dùng với hàm ý sự giàu có hay của cải."*
 
 Rồi thay bằng định nghĩa hẹp (tr. 360):
 
+> [!quote]
 > **Tiền** *là "một loại tài sản trong nền kinh tế mà con người thường dùng để mua hàng hoá và dịch vụ
 > từ người khác."*
 
 Và giải thích ngay tại sao Bill Gates không "có nhiều tiền" theo nghĩa này (tr. 360):
 
+> [!quote]
 > *"nếu bạn tình cờ sở hữu phần lớn cổ phần của Công ty Microsoft như Bill Gates, bạn sẽ rất giàu có,
 > nhưng số tài sản này không được xem là tiền. Bạn sẽ không thể ăn uống hoặc mua quần áo bằng tài sản
 > này nếu trước hết không chuyển nó thành tiền."*
@@ -125,7 +133,8 @@ Và giải thích ngay tại sao Bill Gates không "có nhiều tiền" theo ngh
 | **Đơn vị tính toán** | *"một thước đo con người sử dụng để niêm yết giá và ghi nhận nợ"* | áo sơ mi 30 USD, hamburger 3 USD |
 | **Phương tiện lưu giữ giá trị** | *"thứ mà con người có thể dùng để chuyển sức mua từ hiện tại sang tương lai"* | giữ tiền hôm nay, mua hàng tháng sau |
 
-⚠️ **Ranh giới quan trọng nhất của mục này nằm ở chức năng thứ ba** — và nó là chỗ dễ nhầm nhất.
+> [!warning] Ranh giới quan trọng nhất của mục này nằm ở chức năng thứ ba
+> và nó là chỗ dễ nhầm nhất.
 
 Sách nói thẳng (tr. 361): *"Tiền không phải là vật lưu giữ giá trị duy nhất trong nền kinh tế: Một người
 có thể chuyển sức mua từ hiện tại sang tương lai bằng cách nắm giữ các tài sản không phải là tiền như cổ
@@ -137,9 +146,11 @@ Nghĩa là **chức năng thứ ba không phân biệt được tiền với tà
 
 📌 Sách đặt tên cho khoảng cách đó (tr. 361):
 
+> [!quote]
 > **Tính thanh khoản** *là "sự dễ dàng chuyển đổi thành trung gian trao đổi của nền kinh tế mà một tài
 > sản có thể thực hiện được."*
 
+> [!quote]
 > *"Tiền là tài sản có tính thanh khoản cao nhất, nhưng nó lại không phải là một phương tiện dự trữ giá
 > trị hoàn hảo. Khi giá cả tăng lên, giá trị của tiền giảm đi."*
 
@@ -148,10 +159,11 @@ Nghĩa là **chức năng thứ ba không phân biệt được tiền với tà
 [bài 2 mục 12](bai_02_do_luong_chi_phi_sinh_hoat.md#12-lãi-suất-danh-nghĩa-và-lãi-suất-thực): tiền mặt
 là tài sản có **lãi suất danh nghĩa bằng 0**, nên **lãi suất thực của nó luôn bằng âm tỷ lệ lạm phát**.
 
-### ⚠️ Thẻ tín dụng không phải là tiền
+### Thẻ tín dụng không phải là tiền
 
 Đây là hộp *Bạn có biết* của sách (tr. 363), và nó xứng đáng nằm ở phần chính.
 
+> [!quote]
 > *"thẻ tín dụng thực ra không phải là phương tiện thanh toán, mà là phương tiện thanh toán trả chậm.
 > Khi mua một bữa ăn bằng thẻ tín dụng, ngân hàng phát hành thẻ sẽ trả tiền cho nhà hàng khi đến hạn
 > thanh toán."*
@@ -165,12 +177,12 @@ Số dư đứng sau nó **là** một bộ phận của cung tiền.
 
 📌 Sách còn thêm một quan sát tinh (tr. 363): người có thẻ tín dụng nắm giữ **ít tiền mặt hơn**, nên
 *"việc áp dụng và tính phổ biến ngày càng tăng của thẻ tín dụng có thể làm giảm lượng tiền mà mọi người
-quyết định nắm giữ."* Ghi nhớ câu này — đến [mục 9](#9--số-nhân-thật-khi-công-chúng-giữ-tiền-mặt) nó
+quyết định nắm giữ."* Ghi nhớ câu này — đến [mục 9](#9-số-nhân-thật-khi-công-chúng-giữ-tiền-mặt) nó
 biến thành một tham số làm số nhân tiền nhảy.
 
 ---
 
-## 3. 📚 Tiền hàng hoá và tiền pháp định
+## 3. Tiền hàng hoá và tiền pháp định
 
 Sách chia hai loại (tr. 362):
 
@@ -189,8 +201,10 @@ Hai ví dụ tiền hàng hoá của sách rất đáng nhớ, vì cả hai đ�
 - **Thuốc lá ở Moscow khi Liên Xô sụp đổ cuối thập niên 1980** — *"thuốc lá bắt đầu trở thành tiền tệ
   được ưa thích ở Moscow thay thế cho đồng rúp."*
 
-⚠️ Chi tiết quan trọng nhất của cả mục này nằm ở đoạn tiếp theo, và rất dễ đọc lướt qua (tr. 362):
+> [!warning]
+> Chi tiết quan trọng nhất của cả mục này nằm ở đoạn tiếp theo, và rất dễ đọc lướt qua (tr. 362):
 
+> [!quote]
 > *"Trong cả hai trường hợp trên, ngay cả những người không hút thuốc lá cũng vui vẻ nhận thuốc lá khi
 > trao đổi vì biết rằng họ có thể sử dụng thuốc lá này để mua các hàng hoá và dịch vụ khác."*
 
@@ -200,6 +214,7 @@ giá trị ở mục 1.
 
 Và sách chốt luôn (tr. 362–363):
 
+> [!quote]
 > *"Mặc dù chính phủ là cơ quan đóng vai trò trung tâm trong việc thiết lập và điều hành hệ thống tiền
 > pháp định (ví dụ truy tố những kẻ làm tiền giả), nhưng để hệ thống tiền tệ hoạt động thành công, cũng
 > cần có những nhân tố khác nữa. Nói rộng hơn, sự chấp nhận tiền pháp định cũng còn phụ thuộc vào những
@@ -226,6 +241,7 @@ nợ tại cửa hàng"* (tr. 364).
 
 Rồi đến chỗ mờ. Sách thừa nhận thẳng (tr. 364):
 
+> [!quote]
 > *"Trong nền kinh tế phức hợp như của chúng ta hiện nay, khó có thể phân định rõ ràng tài sản nào được
 > gọi là tiền và tài sản nào thì không. Tiền xu trong túi bạn rõ ràng là một phần của trữ lượng tiền và
 > toà nhà Empire State Building rõ ràng không phải là tiền, nhưng có rất nhiều tài sản nằm giữa hai thái
@@ -253,6 +269,7 @@ Vài tỷ lệ đáng để trong đầu:
 
 Sách dặn đừng sa đà (tr. 364):
 
+> [!quote]
 > *"Trong cuốn sách này, chúng ta không cần quá chú trọng đến sự khác biệt giữa các số đo về tiền. Sẽ
 > không có thảo luận nào xoay quanh vấn đề sự khác biệt giữa M1 và M2."*
 
@@ -285,6 +302,7 @@ lại ở bài 8 và bài 9.
 Sách lập luận rất gọn (tr. 365): *"Bất cứ khi nào một nền kinh tế dựa vào hệ thống tiền pháp định như
 nền kinh tế Hoa Kỳ, thì phải có một cơ quan nào đó chịu trách nhiệm điều hành hệ thống này."*
 
+> [!quote] tr. 365
 > **Ngân hàng trung ương**: *"một định chế được thành lập để giám sát hoạt động của hệ thống ngân hàng
 > và điều tiết lượng tiền trong nền kinh tế"* (tr. 365).
 
@@ -301,8 +319,10 @@ nền kinh tế Hoa Kỳ, thì phải có một cơ quan nào đó chịu trách
 | Cơ cấu vùng | Hội đồng ở Washington D.C + **12 Ngân hàng Dự trữ Liên bang khu vực** |
 | FOMC | 7 thống đốc + **5** trong 12 chủ tịch khu vực; họp **sáu tuần một lần** |
 
-⚠️ **Vì sao nhiệm kỳ 14 năm?** Sách trả lời thẳng và câu này quan trọng hơn vẻ ngoài của nó (tr. 366):
+> [!warning] Vì sao nhiệm kỳ 14 năm?
+> Sách trả lời thẳng và câu này quan trọng hơn vẻ ngoài của nó (tr. 366):
 
+> [!quote]
 > *"Cũng giống như các thẩm phán liên bang được hưởng nhiệm kỳ suốt đời để tách họ ra khỏi chính trị,
 > các thống đốc của Fed có nhiệm kỳ dài để tránh cho họ chịu các áp lực chính trị trong ngắn hạn khi họ
 > hoạch định chính sách tiền tệ."*
@@ -326,13 +346,15 @@ giao dịch của Fed New York"* (tr. 367).
 Sách gọi nhiệm vụ thứ hai là *"nhiệm vụ quan trọng hơn"*, và mô tả nó bằng một hình ảnh cố tình ngây thơ
 (tr. 367):
 
+> [!quote]
 > *"bạn có thể tưởng tượng rằng Fed in ra những tờ đô la, sau đó dùng máy bay trực thăng thả chúng xuống
 > khắp Hoa Kỳ. Tương tự như vậy, bạn cũng có thể hình dung ra việc Fed sử dụng một chiếc máy hút bụi
 > khổng lồ để hút bớt các tờ đô la trong ví của mọi người."*
 
-⚠️ Sách nói ngay đó là hình ảnh sai lệch: *"trên thực tế các phương pháp mà Fed sử dụng để làm thay đổi
-cung tiền phức tạp và tinh tế hơn thế nhiều"*. Mục 7–11 chính là chỗ sách trả lại độ phức tạp đó. Nhưng
-hãy giữ hình ảnh trực thăng lại — bài 8 sẽ dùng nó để giải thích tại sao "in tiền" dẫn tới lạm phát.
+> [!warning]
+> Sách nói ngay đó là hình ảnh sai lệch: *"trên thực tế các phương pháp mà Fed sử dụng để làm thay đổi
+> cung tiền phức tạp và tinh tế hơn thế nhiều"*. Mục 7–11 chính là chỗ sách trả lại độ phức tạp đó. Nhưng
+> hãy giữ hình ảnh trực thăng lại — bài 8 sẽ dùng nó để giải thích tại sao "in tiền" dẫn tới lạm phát.
 
 **Công cụ cơ bản** được nêu ngay ở đây (tr. 367): **nghiệp vụ thị trường mở** — mua và bán **trái phiếu
 chính phủ Hoa Kỳ** (sách nhắc: *"trái phiếu chính phủ Hoa Kỳ là món chứng chỉ nợ của chính phủ liên
@@ -352,6 +374,7 @@ ra khỏi Fed vào tay công chúng = cung tiền tăng.
 
 Sách thừa nhận rằng phần trên **chưa đủ** (tr. 368):
 
+> [!quote]
 > *"Mặc dù sự lý giải cung tiền này là đúng, nhưng chưa đầy đủ. Cụ thể, nó chưa đề cập đến vai trò trọng
 > tâm của các ngân hàng thương mại trong hệ thống tiền tệ."*
 
@@ -365,6 +388,7 @@ nào cả.**
 
 Bước hai: có một ngân hàng, nhưng nó **chỉ nhận gửi, không cho vay**. Toàn bộ tiền gửi nằm trong két.
 
+> [!quote] tr. 368
 > **Dự trữ**: *"khoản tiền gửi mà ngân hàng nhận được nhưng không cho vay ra ngoài"* (tr. 368).
 
 Vì tất cả tiền gửi đều là dự trữ, đây là **ngân hàng dự trữ 100%**. Bảng cân đối (sách gọi là **tài khoản
@@ -384,6 +408,7 @@ Cung tiền bây giờ:
 | Trước | 100 | 0 | **100** |
 | Sau | 0 | 100 | **100** |
 
+> [!quote] tr. 369
 > *"Mỗi USD tiền gửi vào ngân hàng sẽ làm giảm một USD tiền mặt và làm tăng tiền gửi không kỳ hạn một
 > lượng đúng như thế, cho nên cung tiền không thay đổi. Vì vậy, **nếu các ngân hàng giữ toàn bộ khoản
 > tiền gửi dưới dạng dự trữ, thì họ sẽ không tác động tới cung tiền**."* (tr. 369)
@@ -398,12 +423,14 @@ ta thấy đúng cái thứ đó gây ra hiệu ứng.
 
 Sách để chính các chủ ngân hàng nghĩ ra bước tiếp theo (tr. 369):
 
+> [!quote]
 > *"Việc để cho toàn bộ tiền nằm nhàn rỗi trong két sắt là không cần thiết. Tại sao lại không sử dụng
 > một phần số đó để cho vay và kiếm lời bằng cách tính lãi trên khoản vay?"*
 
 Vì sao làm được? Vì *"nếu các khoản tiền gửi mới gần bằng số tiền rút ra, thì Ngân Hàng Quốc Gia Thứ Nhất
 chỉ cần giữ một phần tiền gửi dưới dạng dự trữ."* Đó là **ngân hàng dự trữ một phần**.
 
+> [!note]
 > **Tỷ lệ dự trữ** = tỷ phần của tiền gửi mà ngân hàng giữ dưới dạng dự trữ.
 
 Nó do hai thứ quyết định (tr. 369): **dự trữ bắt buộc** do Fed đặt ra (mức tối thiểu), cộng với **dự trữ
@@ -427,6 +454,7 @@ tiền:
 | Trước khi cho vay | 0 | 100 | **100** |
 | Sau khi cho vay | 90 *(trong tay người vay)* | 100 *(vẫn của người gửi)* | **190** |
 
+> [!quote] tr. 370
 > *"khi các ngân hàng thương mại chỉ giữ một phần tiền gửi dưới dạng dự trữ, họ đã tạo ra tiền."* (tr. 370)
 
 ### Vòng thứ hai và ba (tr. 371)
@@ -460,10 +488,11 @@ Sách nhắc rằng nó không phải vô hạn (tr. 371): *"mặc dù quá trì
 nhưng nó không tạo ra lượng tiền vô hạn."* Chuỗi $100 \times (1 + 0{,}9 + 0{,}9^2 + \dots)$ hội tụ về
 $100/0{,}1 = 1.000$.
 
-### ⚠️⚠️ Chỗ hiểu sai nguy hiểm nhất của cả bài
+### Chỗ hiểu sai nguy hiểm nhất của cả bài
 
 Sách chặn nó ngay tại chỗ (tr. 370):
 
+> [!quote]
 > *"Trước hết, quá trình tạo tiền này của hệ thống ngân hàng dự trữ một phần có vẻ quá tuyệt vời: Có vẻ
 > như ngân hàng tạo ra tiền từ không khí. Để làm cho quá trình tạo tiền này bớt vẻ thần diệu đi, chúng
 > ta hãy nhớ rằng khi Ngân Hàng Quốc Gia Thứ Nhất cho vay một phần dự trữ và tạo ra tiền, **nó không tạo
@@ -471,6 +500,7 @@ Sách chặn nó ngay tại chỗ (tr. 370):
 
 Vì sao? Vì **mỗi tài sản mới đi kèm đúng một nghĩa vụ mới**:
 
+> [!quote] tr. 370
 > *"khi một ngân hàng tạo ra tài sản là tiền, nó cũng tạo ra nghĩa vụ trả nợ tương ứng cho người đi vay
 > khoản tiền được tạo ra này. Vào cuối của quá trình tạo tiền này, nền kinh tế có khả năng thanh khoản
 > cao hơn, hiểu theo nghĩa có nhiều phương tiện trao đổi hơn, nhưng **nền kinh tế không có nhiều của cải
@@ -484,12 +514,14 @@ tiền. Ngân hàng tạo **thanh khoản**, không tạo **vốn**. Cái tạo 
 
 ## 8. Số nhân tiền
 
+> [!quote] tr. 372
 > **Số nhân tiền**: *"số tiền mà hệ thống ngân hàng tạo ra được từ mỗi đô la dự trữ"* (tr. 372).
 
 Sách cho công thức và cả **cách nhớ tại sao nó lại là nghịch đảo** (tr. 372):
 
 $$\text{số nhân tiền} = \frac{1}{R}$$
 
+> [!quote]
 > *"Công thức nghịch đảo để tính số nhân tiền này là có ý nghĩa. Nếu một ngân hàng có 1.000 USD tiền
 > gửi, tỷ lệ dự trữ 1/10 (10%) hàm ý nó phải dự trữ 100 USD. Số nhân tiền chỉ đảo ngược ý tưởng này: nếu
 > toàn bộ hệ thống ngân hàng nắm giữ tổng cộng 100 USD dự trữ, thì tổng lượng tiền gửi của hệ thống chỉ
@@ -502,6 +534,7 @@ $$\text{số nhân tiền} = \frac{1}{R}$$
 | 10% | 10 | 10 USD |
 | 5% | 20 | 20 USD |
 
+> [!quote] tr. 372
 > *"tỷ lệ dự trữ càng cao, lượng tiền mà các ngân hàng cho vay từ tiền gửi càng ít và số nhân tiền càng
 > nhỏ."* (tr. 372)
 
@@ -510,13 +543,14 @@ phải một mô hình khác; nó là **trường hợp riêng** của mô hình
 
 ---
 
-## 9. 📚 Số nhân thật khi công chúng giữ tiền mặt
+## 9. Số nhân thật khi công chúng giữ tiền mặt
 
 Công thức $1/R$ có một giả định ngầm mà chương 16 **không viết ra**: mọi đồng cho vay đều được **gửi lại
 hết** vào ngân hàng. Không ai giữ đồng nào trong ví.
 
 Sách nhận ra vấn đề này — nhưng phát biểu nó bằng lời, ở tận tr. 378, dưới dạng "vấn đề của Fed":
 
+> [!quote]
 > *"Vấn đề thứ nhất là, Fed không kiểm soát được lượng tiền mà các hộ gia đình quyết định nắm giữ dưới
 > dạng tiền gửi tại các ngân hàng."*
 
@@ -541,8 +575,9 @@ Và đây là chỗ nó cắn:
 | 0,50 | 2,50 |
 | 1,00 | 1,82 |
 
-⚠️ **Chỉ cần $c = 0{,}15$ — tức công chúng giữ 15 xu tiền mặt trên mỗi đồng tiền gửi — số nhân đã tụt từ
-10 xuống 4,60. Mất 54% sức tạo tiền, mà Fed không làm gì cả.**
+> [!warning]
+> **Chỉ cần $c = 0{,}15$ — tức công chúng giữ 15 xu tiền mặt trên mỗi đồng tiền gửi — số nhân đã tụt từ
+> 10 xuống 4,60. Mất 54% sức tạo tiền, mà Fed không làm gì cả.**
 
 Con số đó không phải một tình huống giả tưởng xa vời. Nó là chìa khoá của
 [mục 13](#13-đổ-xô-rút-tiền-và-đại-khủng-hoảng).
@@ -563,7 +598,8 @@ Elmendyn có 2.000 tờ 1 USD. Cung tiền là bao nhiêu nếu:
 | d | tất cả là tiền gửi, $R = 10\%$ | 20.000 $ |
 | e | **nửa tiền mặt nửa tiền gửi, $R = 10\%$** | **?** |
 
-⚠️ Câu (e) mơ hồ, và hai cách đọc cho hai đáp số khác hẳn nhau:
+> [!warning]
+> Câu (e) mơ hồ, và hai cách đọc cho hai đáp số khác hẳn nhau:
 
 | Cách đọc | Lập luận | Đáp số |
 | -------- | -------- | -----: |
@@ -600,9 +636,11 @@ trong cả chương.
 
 Sách thú nhận rằng mô hình ở mục 7 đã đơn giản hoá quá tay (tr. 372):
 
+> [!quote]
 > *"Trong thực tế, ngân hàng nhận các nguồn lực tài chính không chỉ là tiền gửi mà còn phát hành cổ phiếu
 > và trái phiếu giống như các doanh nghiệp khác."*
 
+> [!quote] tr. 372
 > **Vốn tự có của ngân hàng**: *"các nguồn lực mà những người chủ sở hữu của một ngân hàng cùng góp vào
 > định chế này"* (tr. 372).
 
@@ -621,6 +659,7 @@ Tổng            1.000$      |  Tổng            1.000$
 
 Sách giải thích tại sao hai vế **luôn** bằng nhau, và câu này đáng nhớ (tr. 373):
 
+> [!quote]
 > *"Chẳng có phép thuật nào trong sự cân bằng này. Nó cân bằng bởi vì giá trị của vốn chủ sở hữu, theo
 > định nghĩa, bằng giá trị của tổng tài sản của ngân hàng trừ đi giá trị của tổng nợ."*
 
@@ -629,11 +668,13 @@ thích toàn bộ phần còn lại của mục này.
 
 ### Đòn bẩy
 
+> [!quote] tr. 373
 > **Đòn bẩy**: *"sử dụng tiền vay để bổ sung cho các dòng tiền hiện hữu nhằm mục đích đầu tư"* (tr. 373).
 > **Tỷ số đòn bẩy**: *"tỷ số tổng tài sản trên vốn tự có của ngân hàng"* (tr. 373).
 
 $$\text{tỷ số đòn bẩy} = \frac{1.000}{50} = 20$$
 
+> [!quote] tr. 373
 > *"Tỷ số đòn bẩy bằng 20 có nghĩa là với mỗi đồng đô la chủ sở hữu ngân hàng góp vào, ngân hàng có 20
 > USD tài sản. Trong số 20 USD tài sản đó, 19 USD được tài trợ từ tiền đi vay."* (tr. 373)
 
@@ -648,16 +689,18 @@ Bây giờ là chỗ có ý nghĩa. Tài sản dao động, **nợ thì không**
 | −7% | 930 | 950 | −20 | −140% | **MẤT KHẢ NĂNG THANH TOÁN** |
 | −10% | 900 | 950 | −50 | −200% | **MẤT KHẢ NĂNG THANH TOÁN** |
 
+> [!quote] tr. 374
 > *"khi tỷ lệ đòn bẩy là 20, thì chỉ cần 5% gia tăng giá trị tài sản sẽ làm vốn chủ sở hữu tăng 100%."*
 > (tr. 374)
 
 Và chiều ngược, sách gọi là *"kết quả rất đáng buồn"*:
 
+> [!quote] tr. 374
 > *"Nếu giá trị tài sản giảm nhiều hơn 5%, tài sản của ngân hàng sẽ giảm xuống còn thấp hơn nợ của nó.
 > Trong trường hợp này, ngân hàng sẽ rơi vào tình trạng **mất khả năng thanh toán** và nó không thể thanh
 > toán đầy đủ cho chủ nợ và người gửi tiền."* (tr. 374)
 
-### ⭐ Quy tắc một dòng
+### Quy tắc một dòng
 
 $$\text{tài sản giảm } x\% \text{ xoá sạch vốn khi } x \ge \frac{1}{\text{đòn bẩy}}$$
 
@@ -673,6 +716,7 @@ lỗ giống hệt nhau — mà **chỉ vì A có nhiều đệm hơn**.
 
 ### Yêu cầu vốn tối thiểu và cuộc khủng hoảng 2008–2009
 
+> [!quote] tr. 374
 > **Yêu cầu vốn tối thiểu**: *"quy định của chính phủ chỉ định cụ thể về tổng số vốn tối thiểu của một
 > ngân hàng"* (tr. 374).
 
@@ -741,6 +785,7 @@ sản sang % biến động vốn chủ sở hữu.** Nhớ cái này, quên h�
 
 Sách nói ngay rằng sự kiểm soát này là **gián tiếp** (tr. 375):
 
+> [!quote]
 > *"Bởi vì các ngân hàng tạo ra tiền trong một hệ thống ngân hàng dự trữ một phần, nên sự kiểm soát cung
 > tiền của Fed có tính chất gián tiếp. Khi quyết định thay đổi cung tiền, Fed phải xem xét hành động của
 > mình sẽ vận hành như thế nào thông qua hệ thống ngân hàng."*
@@ -758,6 +803,7 @@ Và chia công cụ thành **hai nhóm theo đúng cấu trúc của công thứ
 
 ### Vì sao nghiệp vụ thị trường mở là công cụ chính (tr. 375–376)
 
+> [!quote]
 > *"Nghiệp vụ thị trường mở rất dễ thực hiện. Trên thực tế, việc mua bán trái phiếu chính phủ của Fed
 > trên thị trường trái phiếu quốc gia giống như các giao dịch mà bất kỳ cá nhân nào thực hiện cho danh
 > mục đầu tư của mình… Ngoài ra, Fed có thể sử dụng nghiệp vụ thị trường mở để thay đổi cung tiền trên
@@ -766,8 +812,10 @@ Và chia công cụ thành **hai nhóm theo đúng cấu trúc của công thứ
 
 Ba tính chất: **dễ, chia nhỏ được, không cần luật mới.** Ba công cụ kia thiếu ít nhất một trong ba.
 
-⚠️ Chú ý cơ chế mà sách mô tả (tr. 375), vì nó dùng lại đúng số nhân của mục 8:
+> [!warning]
+> Chú ý cơ chế mà sách mô tả (tr. 375), vì nó dùng lại đúng số nhân của mục 8:
 
+> [!quote]
 > *"Một phần trong số tiền mới này được giữ dưới dạng tiền mặt, phần còn lại được gửi vào các ngân hàng.
 > Mỗi đô la mới được giữ dưới dạng tiền mặt làm tăng cung tiền đúng 1 đô la. **Mỗi đô la mới được gửi vào
 > ngân hàng làm tăng cung tiền nhiều hơn 1 đô la** vì nó làm tăng dự trữ và nhờ đó tăng lượng tiền mà hệ
@@ -781,10 +829,11 @@ Ba tính chất: **dễ, chia nhỏ được, không cần luật mới.** Ba c�
 | **Tối thiểu** | 10 triệu $ | người bán giữ hết bằng tiền mặt, **hoặc** ngân hàng giữ hết làm dự trữ dư |
 
 **Khoảng cách 10 lần** giữa tối đa và tối thiểu — và Fed không quyết định được nó nằm ở đâu. Đó là nội
-dung của [mục 12](#12--vì-sao-fed-không-kiểm-soát-nổi-cung-tiền).
+dung của [mục 12](#12-vì-sao-fed-không-kiểm-soát-nổi-cung-tiền).
 
 ### Lãi suất chiết khấu (tr. 376)
 
+> [!quote] tr. 376
 > **Lãi suất chiết khấu**: *"lãi suất của các khoản vay mà Fed cho ngân hàng thương mại vay"* (tr. 376).
 
 Cơ chế: lãi suất chiết khấu **cao** → ngân hàng ngại vay Fed → dự trữ hệ thống giảm → cung tiền giảm.
@@ -815,26 +864,29 @@ vì nhiều ngân hàng có dự trữ dư"* (một ngân hàng đang giữ th�
 
 **Trả lãi cho dự trữ** — công cụ mới nhất:
 
+> [!quote] tr. 377
 > *"Theo truyền thống, các ngân hàng không được hưởng lãi suất trên khoản dự trữ mà họ nắm giữ. Tuy
 > nhiên, vào tháng 10/2008, Fed bắt đầu trả lãi cho dự trữ."* (tr. 377)
 
 Lãi trả cho dự trữ **cao** → giữ dự trữ có lời hơn cho vay → $r$ tăng → số nhân giảm → cung tiền giảm.
 
-⚠️ Sách kết thúc mục này bằng một câu thận trọng đáng khen, và đừng bỏ qua nó: *"Do Fed mới trả lãi cho
-dự trữ được một thời gian khá ngắn thôi nên chưa rõ công cụ mới này có thực sự hiệu quả trong điều hành
-chính sách tiền tệ không."* Sách in năm 2010 — nó đang mô tả một công cụ mới **hai năm tuổi** và nói
-thẳng là chưa biết. Đó là cách trung thực để viết một cuốn giáo trình.
+> [!warning]
+> Sách kết thúc mục này bằng một câu thận trọng đáng khen, và đừng bỏ qua nó: *"Do Fed mới trả lãi cho
+> dự trữ được một thời gian khá ngắn thôi nên chưa rõ công cụ mới này có thực sự hiệu quả trong điều hành
+> chính sách tiền tệ không."* Sách in năm 2010 — nó đang mô tả một công cụ mới **hai năm tuổi** và nói
+> thẳng là chưa biết. Đó là cách trung thực để viết một cuốn giáo trình.
 
 Bài tập 12 tr. 386 khép mục này lại rất gọn: $R = 20\%$, Fed muốn mở rộng cung tiền **40 triệu USD**. Số
 nhân = 5, nên Fed phải **MUA** $40 / 5 = $ **8 triệu USD** trái phiếu.
 
 ---
 
-## 12. ⚠️ Vì sao Fed không kiểm soát nổi cung tiền
+## 12. Vì sao Fed không kiểm soát nổi cung tiền
 
 Sách dành hẳn một mục cho chuyện này (tr. 378), và nó là mục quan trọng nhất của chương đối với người
 đọc thời nay.
 
+> [!quote]
 > *"Fed không kiểm soát cung tiền một cách chính xác. Fed phải vật lộn với hai vấn đề từng nảy sinh bởi
 > vì phần lớn cung tiền là do hệ thống ngân hàng dự trữ một phần tạo ra."*
 
@@ -875,9 +927,11 @@ hàng rút tiền đời thực, nhưng có thể bạn đã nhìn thấy cảnh
 It's a Wonderful Life."* Rồi lập tức đưa một ca thật: **Northern Rock, Anh, 2007** — *"kết quả là cuối
 cùng thì nó được mua lại bởi chính phủ."*
 
-⚠️⚠️ **Định nghĩa sắc nhất của cả chương nằm ở đây** (tr. 379), và nó là thứ đáng mang ra khỏi bài này
-nhất:
+> [!warning]
+> ⚠️ **Định nghĩa sắc nhất của cả chương nằm ở đây** (tr. 379), và nó là thứ đáng mang ra khỏi bài này
+> nhất:
 
+> [!quote]
 > *"Ngay cả khi các ngân hàng thực sự có **khả năng thanh toán** (hiểu theo nghĩa họ có nhiều tài sản
 > hơn nợ), thì họ cũng không có đủ tiền mặt để trả cho mọi người muốn rút tiền ra ngay lập tức."*
 
@@ -896,6 +950,7 @@ giá của mô hình đó.
 
 Sách cho **một** con số, và nó là con số cần nhớ:
 
+> [!quote]
 > *"Từ năm 1929 đến 1933, cung tiền giảm 28%, mặc dù Cục Dự trữ Liên bang **không thực hiện biện pháp
 > thu hẹp tiền tệ nào**."*
 
@@ -912,10 +967,11 @@ Xuất phát từ $c = 0{,}15$, $r = 0{,}10$ → $m = 4{,}60$; đích là $m = 3
 | **chỉ** ngân hàng tăng dự trữ phòng thân | 0,150 | **0,197** | 3,312 |
 | cả hai cùng xảy ra *(thực tế là vậy)* | 0,220 | 0,145 | 3,342 |
 
-⚠️ **Hai con số xuất phát $c = 0{,}15$ và $r = 0{,}10$ là do bài này đặt ra, không có trong sách.** Sách
-chỉ cho con số 28% và mô tả cơ chế bằng lời. Bảng trên trả lời câu hỏi "vậy thì hành vi phải đổi tới mức
-nào" — độ lớn phụ thuộc điểm xuất phát, nhưng **kết luận định tính thì không**: mỗi biến một mình phải
-dịch rất mạnh, còn hai biến cùng dịch thì mỗi cái chỉ cần nhích một chút.
+> [!warning] Hai con số xuất phát $c = 0{,}15$ và $r = 0{,}10$ là do bài này đặt ra, không có trong sách.
+> Sách
+> chỉ cho con số 28% và mô tả cơ chế bằng lời. Bảng trên trả lời câu hỏi "vậy thì hành vi phải đổi tới mức
+> nào" — độ lớn phụ thuộc điểm xuất phát, nhưng **kết luận định tính thì không**: mỗi biến một mình phải
+> dịch rất mạnh, còn hai biến cùng dịch thì mỗi cái chỉ cần nhích một chút.
 
 Chuỗi nhân quả, đúng theo lời sách (tr. 379):
 
@@ -938,6 +994,7 @@ và bài 11–13.
 
 ### FDIC, và cái giá của nó
 
+> [!quote] tr. 379
 > *"Chính phủ liên bang hiện đã thực hiện chế độ bảo hiểm tiền gửi ở hầu hết các ngân hàng, chủ yếu thông
 > qua Công ty Bảo hiểm Tiền gửi Liên bang (FDIC). Người gửi tiền không đổ xô đến ngân hàng bởi vì họ tin
 > rằng ngay cả nếu ngân hàng của họ phá sản, FDIC sẽ trả cho họ số tiền tương ứng."* (tr. 379)
@@ -945,8 +1002,10 @@ và bài 11–13.
 Bảo hiểm tiền gửi cắt vòng xoáy **ngay ở bước đầu**: nếu không có lý do để rút, thì $c$ không tăng, và
 cả chuỗi không khởi động.
 
-⚠️ Nhưng sách không quên ghi hoá đơn (tr. 379):
+> [!warning]
+> Nhưng sách không quên ghi hoá đơn (tr. 379):
 
+> [!quote]
 > *"Chính sách bảo hiểm tiền gửi của chính phủ cũng có giá của nó: các chủ ngân hàng có tiền gửi được bảo
 > hiểm thường có quá ít động cơ để phòng tránh rủi ro khi cho vay."*
 
@@ -967,6 +1026,7 @@ chữa mong manh → bảo hiểm sinh ra rủi ro đạo đức → yêu cầu 
 Sách viết mục này dưới dạng hỏi–đáp (tr. 379–381), vì nó biết bạn đọc báo tài chính sẽ gặp con số này
 mỗi ngày mà không hiểu.
 
+> [!quote] tr. 380
 > **Lãi suất liên ngân hàng**: *"lãi suất ngắn hạn mà các ngân hàng thương mại cho vay qua đêm lẫn nhau"*
 > (tr. 380).
 
@@ -981,23 +1041,26 @@ lãi suất liên ngân hàng thường xấp xỉ nhau."*
 
 Đây là câu hỏi bạn nên hỏi, và sách trả lời thẳng (tr. 380):
 
+> [!quote]
 > *"Hoàn toàn không. Mặc dù chỉ có các ngân hàng thương mại mới trực tiếp vay từ thị trường liên ngân
 > hàng, nhưng tác động kinh tế của thị trường này lớn hơn rất nhiều. Do các bộ phận của hệ thống tài
 > chính có quan hệ chặt chẽ với nhau, nên lãi suất của các khoản vay khác nhau tương quan chặt chẽ với
 > nhau. Vì thế, **khi lãi suất liên ngân hàng tăng hay giảm, các lãi suất khác cũng thường biến động theo
 > cùng hướng**."*
 
-### ⭐ Hai mặt của một vấn đề
+### Hai mặt của một vấn đề
 
 Đây là ý chốt của cả chương, và nó là chỗ nhiều người đọc báo hiểu sai (tr. 381):
 
+> [!quote]
 > *"Các quyết định của FOMC thay đổi lãi suất mục tiêu đối với lãi suất liên ngân hàng cũng là những
 > quyết định thay đổi cung tiền. Đây là hai mặt của một vấn đề. Nếu những thứ khác không đổi, **giảm lãi
 > suất liên ngân hàng mục tiêu hàm ý một sự gia tăng cung tiền** và gia tăng lãi suất liên ngân hàng mục
 > tiêu hàm ý thu hẹp cung tiền."*
 
-⚠️ **Không tồn tại lựa chọn "hạ lãi suất mà không bơm tiền".** Fed đạt mức lãi suất mục tiêu **bằng cách**
-mua trái phiếu — tức bằng cách bơm dự trữ. Cơ chế, theo lời sách (tr. 380):
+> [!warning] Không tồn tại lựa chọn "hạ lãi suất mà không bơm tiền".
+> Fed đạt mức lãi suất mục tiêu **bằng cách**
+> mua trái phiếu — tức bằng cách bơm dự trữ. Cơ chế, theo lời sách (tr. 380):
 
 ```
 Fed MUA trái phiếu trên thị trường mở
@@ -1019,7 +1082,7 @@ Báo chí thường nói về vế thứ nhất vì nó dễ hình dung; giáo t
 
 ---
 
-## 15. 💼 Góc QTKD
+## 15. Góc QTKD
 
 *Mục này không có trong sách.*
 
@@ -1044,10 +1107,11 @@ Cùng một dự án: tài sản **10.000 triệu VND**. Hai cách tài trợ:
 Đòn bẩy ở đây = 10.000 / 2.000 = **5**, và bạn thấy đúng hệ số 5 xuất hiện: mỗi điểm phần trăm lệch của
 lợi nhuận trên tài sản thành **năm** điểm lệch của ROE.
 
-⚠️ Chú ý dòng 1.200 tr: hai cột **bằng nhau**. Đó là điểm mà tỷ suất sinh lợi trên tài sản (12%) đúng
-bằng lãi vay (12%). Trên mức đó, vay có lợi; dưới mức đó, vay có hại. Đây là cùng một logic với
-[đường cầu vốn vay ở bài 4](bai_04_tiet_kiem_dau_tu_he_thong_tai_chinh.md#10-thị-trường-vốn-vay--mô-hình) và
-[quy tắc NPV ở bài 5](bai_05_cong_cu_co_ban_cua_tai_chinh.md#10--góc-qtkd--bốn-công-cụ-dùng-được-ngay), nhìn từ phía bảng cân đối.
+> [!warning]
+> Chú ý dòng 1.200 tr: hai cột **bằng nhau**. Đó là điểm mà tỷ suất sinh lợi trên tài sản (12%) đúng
+> bằng lãi vay (12%). Trên mức đó, vay có lợi; dưới mức đó, vay có hại. Đây là cùng một logic với
+> [đường cầu vốn vay ở bài 4](bai_04_tiet_kiem_dau_tu_he_thong_tai_chinh.md#10-thị-trường-vốn-vay--mô-hình) và
+> [quy tắc NPV ở bài 5](bai_05_cong_cu_co_ban_cua_tai_chinh.md#10-góc-qtkd--bốn-công-cụ-dùng-được-ngay), nhìn từ phía bảng cân đối.
 
 ⭐ Câu hỏi đúng **không phải** "vay có tốt không". Nó là: **"dòng tiền của tôi dao động bao nhiêu quanh
 ngưỡng 960?"** Nếu doanh thu của bạn đều như nước máy, đòn bẩy 5 là an toàn. Nếu nó là ngành theo mùa,
@@ -1059,6 +1123,7 @@ ngân hàng A, nó chỉ mỏng hơn.
 
 Định nghĩa ở [mục 13](#13-đổ-xô-rút-tiền-và-đại-khủng-hoảng) đáng chép ra dán lên tường:
 
+> [!note]
 > tài sản nhiều hơn nợ **vẫn có thể sụp**, nếu tiền không về kịp lúc phải trả.
 
 Doanh nghiệp y hệt. Bạn có thể có 5 tỷ khoản phải thu và 3 tỷ khoản phải trả — trên giấy rất khoẻ — mà
@@ -1092,18 +1157,20 @@ Vì các lãi suất *"tương quan chặt chẽ với nhau"* (tr. 380), nên kh
 bạn sẽ nhích theo — chỉ là chậm hơn vài tuần đến vài tháng. Vài tuần đó là thời gian bạn có để chốt lãi
 suất, đảo kỳ hạn, hoặc hoãn một khoản đầu tư.
 
-⚠️ Và nhớ [hai mặt của một vấn đề](#14-lãi-suất-liên-ngân-hàng): khi bạn nghe "ngân hàng trung ương hạ
-lãi suất", điều đó **đồng nghĩa** với "cung tiền đang được nới". Bài 8 sẽ cho bạn biết hệ quả thứ hai
-của vế sau — và nó không hoàn toàn dễ chịu.
+> [!warning]
+> Và nhớ [hai mặt của một vấn đề](#14-lãi-suất-liên-ngân-hàng): khi bạn nghe "ngân hàng trung ương hạ
+> lãi suất", điều đó **đồng nghĩa** với "cung tiền đang được nới". Bài 8 sẽ cho bạn biết hệ quả thứ hai
+> của vế sau — và nó không hoàn toàn dễ chịu.
 
 ---
 
-## 16. 📚 Đối chiếu Việt Nam
+## 16. Đối chiếu Việt Nam
 
-⚠️ **Cảnh báo trước khi đọc.** Mục này **không có trong sách** và không dựa trên một nguồn số liệu nào
-được kiểm chứng trong bài. Nó chỉ nêu **những chỗ khung của Mankiw cần chỉnh khi đem về Việt Nam**, và
-**cách tra**, chứ không đưa con số. Mọi số liệu cụ thể hãy tra tại **Ngân hàng Nhà nước Việt Nam (NHNN)**
-và **Tổng cục Thống kê**.
+> [!warning] Cảnh báo trước khi đọc.
+> Mục này **không có trong sách** và không dựa trên một nguồn số liệu nào
+> được kiểm chứng trong bài. Nó chỉ nêu **những chỗ khung của Mankiw cần chỉnh khi đem về Việt Nam**, và
+> **cách tra**, chứ không đưa con số. Mọi số liệu cụ thể hãy tra tại **Ngân hàng Nhà nước Việt Nam (NHNN)**
+> và **Tổng cục Thống kê**.
 
 ### Ai đóng vai Fed
 
@@ -1130,7 +1197,8 @@ dạng khác: nghiệp vụ thị trường mở (OMO), tái cấp vốn/tái ch
 Nhưng Việt Nam còn dùng một công cụ mà chương 16 **không hề nhắc đến**: **hạn mức tăng trưởng tín dụng**
 ("room tín dụng") giao cho từng ngân hàng.
 
-⚠️ Đây là khác biệt về **loại**, không phải về mức độ:
+> [!warning]
+> Đây là khác biệt về **loại**, không phải về mức độ:
 
 | | Công cụ của Fed | Room tín dụng |
 | --- | --------------- | ------------- |
@@ -1152,10 +1220,11 @@ bơm thanh khoản để chặn vòng xoáy ở bước đầu.
 Việt Nam cũng có **Bảo hiểm tiền gửi Việt Nam**, đóng vai trò tương tự FDIC, với **hạn mức chi trả có
 giới hạn**.
 
-⚠️ Con số hạn mức đó thay đổi theo thời gian — **hãy tra trên trang của Bảo hiểm tiền gửi Việt Nam, đừng
-tin trí nhớ của ai.** Và hiểu ý nghĩa của việc nó **có** giới hạn: phần tiền gửi vượt hạn mức **không**
-được bảo hiểm, nên với khoản tiền lớn, câu hỏi "ngân hàng này khoẻ đến đâu" vẫn là câu hỏi của bạn, không
-phải của cơ quan bảo hiểm.
+> [!warning]
+> Con số hạn mức đó thay đổi theo thời gian — **hãy tra trên trang của Bảo hiểm tiền gửi Việt Nam, đừng
+> tin trí nhớ của ai.** Và hiểu ý nghĩa của việc nó **có** giới hạn: phần tiền gửi vượt hạn mức **không**
+> được bảo hiểm, nên với khoản tiền lớn, câu hỏi "ngân hàng này khoẻ đến đâu" vẫn là câu hỏi của bạn, không
+> phải của cơ quan bảo hiểm.
 
 ### Đô la hoá và vàng
 
@@ -1171,6 +1240,7 @@ dùng vàng/USD để lưu giữ. Bài 8 sẽ giải thích cái gì phá chức
 
 ## 17. Code minh hoạ
 
+> [!note]
 > ⚙️ **Chạy:** cần **Python 3.10+**. Lưu file rồi gõ `python3 bai-07-he-thong-tien-te.py`. Không cần cài
 > gói nào — chỉ dùng thư viện chuẩn. Output tất định: chạy bao nhiêu lần cũng ra một thứ.
 
@@ -2338,7 +2408,7 @@ Trả lời rồi mới kéo xuống đối chiếu với bài. Câu có ⭐ là
     bắt buộc"* và *"Yêu cầu dự trữ bắt buộc"*.
 
 - **Chỗ đã ghi rõ để không nhoè ranh giới video/sách với phần bài này viết thêm:**
-  - Công thức số nhân đầy đủ $m = (1+c)/(c+r)$ ở [mục 9](#9--số-nhân-thật-khi-công-chúng-giữ-tiền-mặt)
+  - Công thức số nhân đầy đủ $m = (1+c)/(c+r)$ ở [mục 9](#9-số-nhân-thật-khi-công-chúng-giữ-tiền-mặt)
     **không có trong chương 16**. Sách chỉ nêu vấn đề bằng lời ở tr. 378. Bài này viết nó ra thành công
     thức và kiểm rằng $c = 0$ cho lại đúng $1/R$ của sách.
   - Hai giá trị xuất phát $c = 0{,}15$, $r = 0{,}10$ ở [mục 13](#13-đổ-xô-rút-tiền-và-đại-khủng-hoảng)
@@ -2346,8 +2416,8 @@ Trả lời rồi mới kéo xuống đối chiếu với bài. Câu có ⭐ là
     đổi bao nhiêu", và độ lớn của đáp số phụ thuộc điểm xuất phát — chỉ kết luận định tính là không đổi.
   - Hai cách đọc bài tập 11(e) tr. 386 và kết luận rằng đề mơ hồ là **nhận định của bài này**, không phải
     của sách.
-  - Bảng ROE ở [mục 15](#15--góc-qtkd) và toàn bộ mục đó nằm ngoài sách.
-  - [Mục 16 — Đối chiếu Việt Nam](#16--đối-chiếu-việt-nam) nằm ngoài sách và **không dựa trên nguồn số
+  - Bảng ROE ở [mục 15](#15-góc-qtkd) và toàn bộ mục đó nằm ngoài sách.
+  - [Mục 16 — Đối chiếu Việt Nam](#16-đối-chiếu-việt-nam) nằm ngoài sách và **không dựa trên nguồn số
     liệu nào được kiểm chứng trong bài**; nó chỉ nêu khung và chỗ tra.
 
 - **Liên hệ chéo:**

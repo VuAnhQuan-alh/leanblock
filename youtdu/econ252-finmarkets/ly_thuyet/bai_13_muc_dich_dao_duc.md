@@ -1,5 +1,6 @@
 # Mục đích, đạo đức, và dân chủ hoá tài chính
 
+> [!info] Về bài này
 > Bài học dựng từ **buổi 23** — bài giảng kết của khoá (YouTube `2_pDTWgJg94`, dài **75:12**) — và
 > **buổi 19 chương 5–8**, khách mời **Jon Fougner**, cựu sinh viên chính lớp này (YouTube
 > `2yycGEFCNYE`, dài **71:15**) — khoá **Yale ECON 252 *Financial Markets*** (Xuân 2011), giảng viên
@@ -8,8 +9,10 @@
 > script, **kiểm riêng từng buổi**.
 > Mục có 📚 là **kiến thức bài này bổ sung**, không có trong video.
 > Mục có 🇻🇳 là **số liệu Việt Nam**, không có trong video, mọi con số đều trích nguồn.
-> ⚠️ **Video ghi Xuân 2011** — §17 đối chiếu với 2026.
-> 📌 **Nên đọc trước:** [Bài 1 — Tài chính là hạ tầng xã hội](bai_01_ha_tang_xa_hoi.md) (phần gắn chỉ
+>
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
+>
+> **Nên đọc trước:** [Bài 1 — Tài chính là hạ tầng xã hội](bai_01_ha_tang_xa_hoi.md) (phần gắn chỉ
 > số lạm phát), [Bài 2 — Bảo hiểm](bai_02_bao_hiem.md) (phần rủi ro hết độc lập),
 > [Bài 11 — Tài chính công](bai_11_tai_chinh_cong.md) (phần phi lợi nhuận).
 
@@ -17,6 +20,7 @@
 nghĩa tư bản tài chính"*. Ông mở đầu bằng cách nói rõ bài này khác các bài trước (`23 00:18`): nó
 không thêm kỹ thuật, nó **tổng kết** — và ông nói thẳng luận điểm ông muốn để lại (`23 03:24`):
 
+> [!quote]
 > *"Tài chính **không phải là một mục đích tự thân, nó là một công cụ**. Và bạn nên xây dựng cuộc đời
 > mình quanh một loại mục đích nào đó. […] Đó là chỗ ý nghĩa của cuộc sống đến từ."*
 
@@ -25,10 +29,11 @@ giàu và nghèo · thế kỷ tới · dân chủ hoá tài chính · sự nghi
 
 Nhưng bài giảng có một **câu trung tâm** mà cả khoá dẫn tới, và nó nằm ở `23 51:10`:
 
+> [!quote]
 > ***"Bất bình đẳng phần lớn là do thất bại trong quản trị rủi ro."***
 
-[§16](#16--bất-bình-đẳng-phần-lớn-đến-từ-không-quản-trị-được-rủi-ro--đo-thử-câu-đó) đo câu đó và thấy
-nó **đúng**, theo một nghĩa mạnh hơn ông phát biểu. [§15](#15--bảo-hiểm-sinh-kế--và-vì-sao-không-ai-bán-thứ-shiller-bảo-ta-làm-được)
+[§16](#16-bất-bình-đẳng-phần-lớn-đến-từ-không-quản-trị-được-rủi-ro--đo-thử-câu-đó) đo câu đó và thấy
+nó **đúng**, theo một nghĩa mạnh hơn ông phát biểu. [§15](#15-bảo-hiểm-sinh-kế--và-vì-sao-không-ai-bán-thứ-shiller-bảo-ta-làm-được)
 chỉ ra vì sao chương trình nghị sự dựa trên nó vẫn chưa thành hiện thực sau mười lăm năm. Hai mục
 đó, đọc cạnh nhau, là kết luận thật của cả khoá học.
 
@@ -42,18 +47,18 @@ chỉ ra vì sao chương trình nghị sự dựa trên nó vẫn chưa thành 
 4. [Malthus — và tại sao Shiller bảo vệ nhầm nửa](#4-malthus--và-tại-sao-shiller-bảo-vệ-nhầm-nửa)
 5. [Nature Conservancy — đoạn Shiller tính đúng từng bước](#5-nature-conservancy--đoạn-shiller-tính-đúng-từng-bước)
 6. [Hợp đồng tài chính sống sót qua đổi thay chế độ](#6-hợp-đồng-tài-chính-sống-sót-qua-đổi-thay-chế-độ)
-7. [⚠️ Zaibatsu — tịch thu mà không cần một chữ ký nào](#7--zaibatsu--tịch-thu-mà-không-cần-một-chữ-ký-nào)
+7. [⚠️ Zaibatsu — tịch thu mà không cần một chữ ký nào](#7-zaibatsu--tịch-thu-mà-không-cần-một-chữ-ký-nào)
 8. [Lý thuyết tài chính: hai thứ tưởng trái nhau](#8-lý-thuyết-tài-chính-hai-thứ-tưởng-trái-nhau)
 9. [Giàu, nghèo, và "cuộc chiến ba mươi năm"](#9-giàu-nghèo-và-cuộc-chiến-ba-mươi-năm)
 10. [Marx, Merton, và giai tầng "quốc tế hoá"](#10-marx-merton-và-giai-tầng-quốc-tế-hoá)
 11. [Dân chủ hoá tài chính, và người không trả lời điện thoại](#11-dân-chủ-hoá-tài-chính-và-người-không-trả-lời-điện-thoại)
 12. [Ba thứ Shiller muốn phát minh](#12-ba-thứ-shiller-muốn-phát-minh)
-13. [Số học của "một lần" so với "mỗi lần"](#13--số-học-của-một-lần-so-với-mỗi-lần)
+13. [Số học của "một lần" so với "mỗi lần"](#13-số-học-của-một-lần-so-với-mỗi-lần)
 14. [Sự nghiệp — và ba thứ Shiller nói về may rủi](#14-sự-nghiệp--và-ba-thứ-shiller-nói-về-may-rủi)
-15. [Bảo hiểm sinh kế — và vì sao không ai bán thứ Shiller bảo "ta làm được"](#15--bảo-hiểm-sinh-kế--và-vì-sao-không-ai-bán-thứ-shiller-bảo-ta-làm-được)
-16. ["Bất bình đẳng phần lớn đến từ không quản trị được rủi ro" — đo thử câu đó](#16--bất-bình-đẳng-phần-lớn-đến-từ-không-quản-trị-được-rủi-ro--đo-thử-câu-đó)
-17. [⚠️ Đối chiếu 2026](#17--đối-chiếu-2026)
-18. [🇻🇳 Góc Việt Nam](#18--góc-việt-nam)
+15. [Bảo hiểm sinh kế — và vì sao không ai bán thứ Shiller bảo "ta làm được"](#15-bảo-hiểm-sinh-kế--và-vì-sao-không-ai-bán-thứ-shiller-bảo-ta-làm-được)
+16. ["Bất bình đẳng phần lớn đến từ không quản trị được rủi ro" — đo thử câu đó](#16-bất-bình-đẳng-phần-lớn-đến-từ-không-quản-trị-được-rủi-ro--đo-thử-câu-đó)
+17. [⚠️ Đối chiếu 2026](#17-đối-chiếu-2026)
+18. [🇻🇳 Góc Việt Nam](#18-góc-việt-nam)
 19. [Chương trình](#19-chương-trình)
 20. [Từ điển thuật ngữ](#20-từ-điển-thuật-ngữ)
 21. [Câu hỏi tự kiểm tra](#21-câu-hỏi-tự-kiểm-tra)
@@ -64,6 +69,7 @@ chỉ ra vì sao chương trình nghị sự dựa trên nó vẫn chưa thành 
 
 Shiller mở đầu bằng hai câu về phương pháp đáng giữ (`23 00:56`):
 
+> [!quote]
 > *"Tài chính **giống như một ngôn ngữ**. Mà thật ra nó **là** một ngôn ngữ. Có rất nhiều thuật ngữ,
 > và đằng sau thuật ngữ là các khái niệm, và tôi muốn các bạn ngâm mình trong đó."*
 
@@ -72,6 +78,7 @@ qua một thứ, vì tôi nghĩ các bạn **phải biết** cái tài liệu đ
 
 Và phép so sánh ông chọn cho mục tiêu của khoá học (`23 04:19`):
 
+> [!quote]
 > *"Rốt cuộc, điều tôi muốn làm trong khoá này là, có thể không phải dạy bạn **chế tạo** một chiếc
 > xe, mà là dạy bạn **lái một chiếc xe tải** — thứ gì đó lớn và mạnh — và đưa bạn vượt qua những
 > chuyện đơn giản."*
@@ -95,6 +102,7 @@ Unger, ***Living High and Letting Die*** — *Sống cao sang và để mặc ng
 
 Trang đầu cuốn sách yêu cầu người đọc làm một việc, ngay lập tức (`23 08:02`):
 
+> [!quote]
 > *"Vì sao bạn không lấy sổ séc ra ngay bây giờ và gửi 100 đô la cho unicef.org? Bởi vì ước tính, tính
 > đến 1996, là UNICEF có thể **cứu một mạng trẻ em với 3 đô la**. Nên bạn sẽ cứu được mạng sống của
 > **33 đứa trẻ** bằng tấm séc 100 đô của bạn."*
@@ -105,6 +113,7 @@ viết tấm séc nào. Nên ông vào unicef.org và gửi **đúng 100 đô la
 
 Và câu hỏi ông đặt ra sau đó là câu hỏi của cả mục (`23 09:22`):
 
+> [!quote]
 > ***"Vì sao tôi lại dừng ở 100 đô la? Vì sao hầu hết chúng ta không làm việc đó?"***
 
 Ông đưa ra chẩn đoán tâm lý (`23 09:41`): nếu bạn **nhìn thấy** một đứa trẻ đang chết, cảm xúc sẽ đẩy
@@ -116,7 +125,7 @@ cớ chúng ta đưa ra** để không làm việc đó (`23 10:02`).
 được chú ý" mà [bài 12](bai_12_tai_chinh_hanh_vi.md) mô tả trong đầu tư. Shiller nói thẳng ông coi
 chủ đề này nằm ở *"chỗ giao giữa triết học và tâm lý học"* (`23 10:23`).
 
-### ⚠️ Ba đô la ấy giờ là bao nhiêu
+### Ba đô la ấy giờ là bao nhiêu
 
 Đây là con số quan trọng nhất của mục, và nó đã đổi.
 [Mục 1 của chương trình](#19-chương-trình) tính:
@@ -129,33 +138,34 @@ chủ đề này nằm ở *"chỗ giao giữa triết học và tâm lý học"
 | ⚠️ Ước tính chi phí **biên** hôm nay của các tổ chức hiệu quả nhất |                               **3.000–5.500 đô** |
 | **Tăng thực, sau khi loại lạm phát**                              |                                  **503–921 lần** |
 
+> [!note]
 > **Lời kêu gọi 100 đô la của năm 1996, hôm nay là lời kêu gọi 99.000 đến 181.500 đô la.**
 
 Và 100 đô hôm nay mua được **0,018 đến 0,033** mạng người.
 
-### 📚 Vì sao giá tăng — và đó không phải tin xấu
-
-Nếu bạn xếp mọi can thiệp theo giá và làm **cái rẻ nhất trước**, thì chi phí biên **bắt buộc** phải
-tăng. Đó là một đồng nhất thức, không phải một thất bại. Bù nước điện giải và tiêm chủng đại trà là
-những can thiệp rẻ nhất loài người từng tìm ra, và chúng **đã được làm gần hết**.
-
-Chương trình minh hoạ bằng một bậc thang 10 can thiệp từ 3 đô tới 3.000 đô:
-
-|  Bậc | Chi phí **biên** | Chi phí **trung bình** tích luỹ |
-| ---: | ---------------: | ------------------------------: |
-|    1 |          3,00 đô |                         3,00 đô |
-|    5 |         64,64 đô |                        23,61 đô |
-|   10 |  **3.000,82 đô** |                   **559,75 đô** |
-
-Chi phí biên ở bậc cuối cao gấp **5,36 lần** chi phí trung bình của cả bậc thang.
-
-Nên con số cũ **không** bác bỏ công việc đã làm — ngược lại. Ba đô la là giá **biên** của năm 1996,
-và nó rẻ đến thế **chính vì** lúc đó còn rất nhiều việc dễ chưa ai nhặt. Con số hôm nay đắt hơn là
-bằng chứng rằng phần dễ đã làm xong.
-
-Nhưng nó đổi câu hỏi đạo đức của Unger về chất. Năm 1996 ông hỏi: vì sao bạn không bỏ ra 100 đô để
-cứu 33 mạng? Hôm nay câu hỏi đó là: vì sao bạn không bỏ ra **99 nghìn** đô? Đó là một câu hỏi khác
-hẳn — và Shiller đã nêu đúng chỗ khó nhất khi ông tự hỏi *"vì sao tôi lại dừng ở 100 đô la?"*
+> [!note] Vì sao giá tăng — và đó không phải tin xấu
+>
+> Nếu bạn xếp mọi can thiệp theo giá và làm **cái rẻ nhất trước**, thì chi phí biên **bắt buộc** phải
+> tăng. Đó là một đồng nhất thức, không phải một thất bại. Bù nước điện giải và tiêm chủng đại trà là
+> những can thiệp rẻ nhất loài người từng tìm ra, và chúng **đã được làm gần hết**.
+>
+> Chương trình minh hoạ bằng một bậc thang 10 can thiệp từ 3 đô tới 3.000 đô:
+>
+> |  Bậc | Chi phí **biên** | Chi phí **trung bình** tích luỹ |
+> | ---: | ---------------: | ------------------------------: |
+> |    1 |          3,00 đô |                         3,00 đô |
+> |    5 |         64,64 đô |                        23,61 đô |
+> |   10 |  **3.000,82 đô** |                   **559,75 đô** |
+>
+> Chi phí biên ở bậc cuối cao gấp **5,36 lần** chi phí trung bình của cả bậc thang.
+>
+> Nên con số cũ **không** bác bỏ công việc đã làm — ngược lại. Ba đô la là giá **biên** của năm 1996,
+> và nó rẻ đến thế **chính vì** lúc đó còn rất nhiều việc dễ chưa ai nhặt. Con số hôm nay đắt hơn là
+> bằng chứng rằng phần dễ đã làm xong.
+>
+> Nhưng nó đổi câu hỏi đạo đức của Unger về chất. Năm 1996 ông hỏi: vì sao bạn không bỏ ra 100 đô để
+> cứu 33 mạng? Hôm nay câu hỏi đó là: vì sao bạn không bỏ ra **99 nghìn** đô? Đó là một câu hỏi khác
+> hẳn — và Shiller đã nêu đúng chỗ khó nhất khi ông tự hỏi *"vì sao tôi lại dừng ở 100 đô la?"*
 
 ---
 
@@ -182,6 +192,7 @@ trong khi trẻ em đang chết khắp thế giới, đều là xấu xa."*
 
 Trích dẫn Sumner ông đọc trên lớp (`23 14:35`):
 
+> [!quote]
 > *"Những khoản lợi lớn của một nhà tư bản lớn trong một nhà nước hiện đại phải được xếp vào mục
 > **tiền công của người điều hành**. Bất cứ ai tin rằng một doanh nghiệp lớn có tính công nghiệp có
 > thể khởi sự mà không cần lao động thì hẳn có rất ít kinh nghiệm sống. Cứ để ai đó thử xây một tuyến
@@ -191,9 +202,10 @@ Trích dẫn Sumner ông đọc trên lớp (`23 14:35`):
 Shiller rào rất rõ (`23 15:14`): *"Tôi không rõ mình có hoàn toàn đồng ý với Sumner không, nhưng ông
 ấy có một điểm."* Và điểm đó ông phát biểu lại thành câu riêng của mình (`23 15:59`):
 
+> [!quote]
 > *"gần như có một **mệnh lệnh đạo đức phải khởi nghiệp**."*
 
-📚 **Hai chi tiết về Sumner mà Shiller không nhắc, và cả hai đều quan trọng.**
+> [!note] Hai chi tiết về Sumner mà Shiller không nhắc, và cả hai đều quan trọng.
 
 **Một.** Sumner là **người dẫn đầu chủ nghĩa Darwin xã hội ở Mỹ**. Đọc trích đoạn trên mà không biết
 điều đó thì mất mất bối cảnh: lập luận "lợi nhuận của nhà tư bản là tiền công cho việc điều hành"
@@ -238,16 +250,18 @@ Nguồn gốc của cảm giác đó, theo ông, là **Thomas Malthus**, *An Ess
 Shiller gọi đó là **"quy luật ảm đạm"** của Malthus và nói rõ *"ông ấy không gọi nó như thế, nhưng
 tôi sẽ trích ông"* (`23 19:00`) — một sự thận trọng đáng khen.
 
-📚 Cụm từ **"khoa học ảm đạm"** *(the dismal science)* thì không phải của Malthus mà của **Thomas
-Carlyle**, năm **1849**. Và bối cảnh của nó gần như luôn bị kể sai: Carlyle đặt ra cụm đó trong bài
-*Occasional Discourse on the Negro Question*, để **công kích các nhà kinh tế học vì họ phản đối chế
-độ nô lệ**. Kinh tế học "ảm đạm" theo nghĩa của Carlyle là vì nó khăng khăng rằng mọi người đều bình
-đẳng trên thị trường lao động.
+> [!note]
+> Cụm từ **"khoa học ảm đạm"** *(the dismal science)* thì không phải của Malthus mà của **Thomas
+> Carlyle**, năm **1849**. Và bối cảnh của nó gần như luôn bị kể sai: Carlyle đặt ra cụm đó trong bài
+> *Occasional Discourse on the Negro Question*, để **công kích các nhà kinh tế học vì họ phản đối chế
+> độ nô lệ**. Kinh tế học "ảm đạm" theo nghĩa của Carlyle là vì nó khăng khăng rằng mọi người đều bình
+> đẳng trên thị trường lao động.
 
 ### Chỗ Shiller đặt cược, và số học nói ngược lại
 
 Sau khi trình bày Malthus, Shiller đưa ra phán quyết của mình (`23 22:36`):
 
+> [!quote]
 > *"Tôi nghĩ **phần yếu nhất trong lập luận của Malthus là bước cuối cùng** — khi nói rằng kết quả
 > nhất thiết phải là một thế giới ảm đạm."*
 
@@ -268,6 +282,7 @@ mà, này, nó ở với chúng ta mãi mãi rồi, suốt cả lịch sử."*
 
 Malthus nói 25 năm. Thực tế **75 năm** — chậm hơn **gấp ba**.
 
+> [!note]
 > **Chính tiền đề là thứ đã sai, và sai xa.** Shiller chọn đúng mục tiêu để công, chỉ là mục tiêu đó
 > không phải mục tiêu dễ nhất.
 
@@ -275,7 +290,7 @@ Malthus có rào *"khi không bị kiểm chế"*. Nhưng điều đã xảy ra 
 kiềm chế dân số như ông tiên liệu — mà là **mức sinh tự giảm** khi thu nhập và giáo dục tăng. Đó là
 một cơ chế **không có trong mô hình của ông**, và cũng không có trong bản bào chữa của Shiller.
 
-### ⚠️ Và đến 2026 thì nó không chỉ chậm lại — nó đảo đầu
+### Và đến 2026 thì nó không chỉ chậm lại — nó đảo đầu
 
 Shiller dẫn đồng nghiệp Yale **Robert Wyman** và khoá *Global Problems of Population Growth* trên
 Open Yale (`23 19:50`), với ước tính *"thế giới thêm một tỷ người mỗi mười hai năm"* (`23 20:53`).
@@ -284,6 +299,7 @@ Con số đó **đúng tại thời điểm đó**: từ 6 lên 7 tỷ mất 199
 Nhưng dự báo hiện hành của Liên Hợp Quốc là dân số thế giới **đạt đỉnh khoảng 10,3 tỷ vào thập niên
 2080 rồi giảm**. Tốc độ từ nay tới đỉnh: **0,40 %/năm**, rồi về 0 và âm.
 
+> [!note]
 > **Một dãy cấp số nhân không đạt đỉnh. Dãy này đạt đỉnh. Nên nó không phải cấp số nhân, và chưa bao
 > giờ là cấp số nhân.**
 
@@ -293,7 +309,7 @@ không được thực thi tốt lắm."* Trung Quốc **bỏ chính sách một
 rồi **ba con năm 2021**, và từ 2023 chuyển sang **trợ cấp sinh đẻ**. Dân số Trung Quốc **đạt đỉnh năm
 2021** và giảm mỗi năm kể từ đó.
 
-[§17 Việt Nam](#18--góc-việt-nam) cho thấy điều tương tự xảy ra ở đây, và nhanh hơn.
+[§17 Việt Nam](#18-góc-việt-nam) cho thấy điều tương tự xảy ra ở đây, và nhanh hơn.
 
 ---
 
@@ -307,6 +323,7 @@ Sau khi bác Malthus, Shiller chuyển sang phần xây dựng: kể cả khi ch
 Conservation Society, African Wildlife Foundation, Jane Goodall Institute, Diane Fossey Gorilla Fund.
 Rồi ông nói câu hay nhất của cả mục (`23 25:15`):
 
+> [!quote]
 > *"Bạn nghĩ mấy con khỉ đột ngoài kia là hoang dã, nhưng **có tài chính và có hậu thuẫn** cho chúng.
 > Người ta đã gom tiền. **Có ai đó đang quản lý một quỹ hiến tặng cho lũ khỉ đột. Đây là tài chính
 > sáng tạo.**"*
@@ -331,36 +348,36 @@ km²** — con số ông đọc chỉ lệch 0,7 %.
 📌 Đây là một đoạn hiếm trong cả khoá học: Shiller làm một phép tính nhiều bước trên lớp và **không
 sai bước nào**. Sau mười hai bài đầy đính chính, chỗ này đáng ghi lại.
 
-### 📚 Bước ông không đi: đất là phần rẻ
-
-|              |                |
-| ------------ | -------------: |
-| Tổng tài sản | 5.600 triệu đô |
-| Trên một km² |  **11.200 đô** |
-
-Nhưng **mua đất là chi phí một lần. Giữ đất là chi phí vĩnh viễn** — chính Shiller mô tả cơ chế đó
-(`23 28:05`) khi nói phải *"có một người quản lý rừng vận hành nó"*. Người quản lý rừng đó phải được
-trả lương mỗi năm, mãi mãi.
-
-Quỹ hiến tặng cần có để trả vĩnh viễn cho **1 km²**, theo chi phí quản lý và tỷ lệ rút:
-
-| Chi phí quản lý/km²/năm | rút 3 % |    rút 4 % | rút 5 % |
-| ----------------------: | ------: | ---------: | ------: |
-|                  100 đô |   3.333 |      2.500 |   2.000 |
-|                  500 đô |  16.666 |     12.500 |  10.000 |
-|            **1.000 đô** |  33.333 | **25.000** |  20.000 |
-|                5.000 đô | 166.666 |    125.000 | 100.000 |
-
-Ở mức quản lý 1.000 đô/km²/năm và rút 4 %, quỹ cần **25.000 đô/km²** — gấp **2,23 lần** giá mua chính
-mảnh đất đó.
-
-> **Đất là phần rẻ. Thứ đắt tiền là lời hứa giữ nó mãi mãi.**
-
-Và đó chính là lý do Shiller gọi đây là **tài chính** chứ không phải từ thiện. Một tổ chức bảo tồn
-không thể chỉ gọi tiền mua đất — nó phải gọi đủ để **một quỹ** sinh lợi trả chi phí giữ đất cho đến
-hết thời gian. Đó là cùng một bài toán với quỹ hiến tặng đại học ở [bài 7](bai_07_quan_ly_quy.md):
-chi tiêu vĩnh viễn từ một khối vốn hữu hạn. Chỉ khác người thụ hưởng — ở đây là những loài không bỏ
-phiếu được.
+> [!note] Bước ông không đi: đất là phần rẻ
+>
+> |              |                |
+> | ------------ | -------------: |
+> | Tổng tài sản | 5.600 triệu đô |
+> | Trên một km² |  **11.200 đô** |
+>
+> Nhưng **mua đất là chi phí một lần. Giữ đất là chi phí vĩnh viễn** — chính Shiller mô tả cơ chế đó
+> (`23 28:05`) khi nói phải *"có một người quản lý rừng vận hành nó"*. Người quản lý rừng đó phải được
+> trả lương mỗi năm, mãi mãi.
+>
+> Quỹ hiến tặng cần có để trả vĩnh viễn cho **1 km²**, theo chi phí quản lý và tỷ lệ rút:
+>
+> | Chi phí quản lý/km²/năm | rút 3 % |    rút 4 % | rút 5 % |
+> | ----------------------: | ------: | ---------: | ------: |
+> |                  100 đô |   3.333 |      2.500 |   2.000 |
+> |                  500 đô |  16.666 |     12.500 |  10.000 |
+> |            **1.000 đô** |  33.333 | **25.000** |  20.000 |
+> |                5.000 đô | 166.666 |    125.000 | 100.000 |
+>
+> Ở mức quản lý 1.000 đô/km²/năm và rút 4 %, quỹ cần **25.000 đô/km²** — gấp **2,23 lần** giá mua chính
+> mảnh đất đó.
+>
+> > **Đất là phần rẻ. Thứ đắt tiền là lời hứa giữ nó mãi mãi.**
+>
+> Và đó chính là lý do Shiller gọi đây là **tài chính** chứ không phải từ thiện. Một tổ chức bảo tồn
+> không thể chỉ gọi tiền mua đất — nó phải gọi đủ để **một quỹ** sinh lợi trả chi phí giữ đất cho đến
+> hết thời gian. Đó là cùng một bài toán với quỹ hiến tặng đại học ở [bài 7](bai_07_quan_ly_quy.md):
+> chi tiêu vĩnh viễn từ một khối vốn hữu hạn. Chỉ khác người thụ hưởng — ở đây là những loài không bỏ
+> phiếu được.
 
 ---
 
@@ -368,6 +385,7 @@ phiếu được.
 
 Đây là đoạn phân tích mạnh nhất của buổi giảng, và Shiller đặt nó rất rõ (`23 30:22`):
 
+> [!quote]
 > *"Tôi muốn nhấn mạnh rằng **các thu xếp tài chính có khả năng tồn tại và sống sót qua chiến tranh
 > và thảm hoạ**."*
 
@@ -376,6 +394,7 @@ phiếu được.
 *"Nên nghe cứ như đây chỉ là chuyện của nhà nước. Nhưng tôi nghĩ đó là cách nhìn sai."* Cách nhìn
 đúng (`23 31:17`):
 
+> [!quote]
 > *"Bạn nên nghĩ về tài chính như **con người thu xếp với con người**, còn nhà nước thì hữu ích, họ
 > **cưỡng chế** một hợp đồng, nhưng họ **không quyết định** hợp đồng."*
 
@@ -394,15 +413,16 @@ Và ông rất công bằng — ông liệt kê ngay các phản ví dụ (`23 3
 hữu hoá dầu Iran, **Nasser** ở Ai Cập, và **Indira Gandhi** ở Ấn Độ với *"những vụ quốc hữu hoá trên
 diện rộng mà trên thực tế là tịch thu"*.
 
-📚 Một chi tiết Shiller không biết hoặc không nhắc, và nó rất đắt: khoản bồi thường chiến tranh của
-Đức mà ông nói *"những người hoài nghi đã đúng, Đức chưa bao giờ trả nổi"* (`23 32:54`) — **Đức trả
-xong khoản cuối cùng ngày 3 tháng 10 năm 2010**, tức **sáu tháng trước bài giảng này**. Đó là khoản
-thanh toán cuối trên các trái phiếu phát hành để tài trợ bồi thường, khép lại một nghĩa vụ **92
-năm**. Nguyên tắc của ông đúng hơn cả ông tưởng.
+> [!note]
+> Một chi tiết Shiller không biết hoặc không nhắc, và nó rất đắt: khoản bồi thường chiến tranh của
+> Đức mà ông nói *"những người hoài nghi đã đúng, Đức chưa bao giờ trả nổi"* (`23 32:54`) — **Đức trả
+> xong khoản cuối cùng ngày 3 tháng 10 năm 2010**, tức **sáu tháng trước bài giảng này**. Đó là khoản
+> thanh toán cuối trên các trái phiếu phát hành để tài trợ bồi thường, khép lại một nghĩa vụ **92
+> năm**. Nguyên tắc của ông đúng hơn cả ông tưởng.
 
 ---
 
-## 7. ⚠️ Zaibatsu — tịch thu mà không cần một chữ ký nào
+## 7. Zaibatsu — tịch thu mà không cần một chữ ký nào
 
 Ngay sau ba ví dụ thành công, Shiller kể ví dụ thứ tư — và ví dụ này làm hỏng chính nguyên tắc ông
 vừa dựng (`23 35:54`–`23 37:35`).
@@ -410,18 +430,21 @@ vừa dựng (`23 35:54`–`23 37:35`).
 Sau Thế chiến II, Mỹ không định tịch thu tài sản của người giàu nói chung. Nhưng ở Nhật có các gia tộc
 sở hữu công nghiệp gọi là **zaibatsu**, bị cho là đã ủng hộ chiến tranh. Nên Mỹ muốn phá vỡ chúng.
 
+> [!quote] 23 36:57
 > *"Nên điều nước Mỹ đã làm là **buộc các gia tộc này đổi phần sở hữu công nghiệp ở Nhật lấy trái
 > phiếu chính phủ ghi bằng yên**. Và rồi chính phủ Nhật có một cuộc siêu lạm phát khổng lồ và **xoá
 > sạch họ**."* (`23 36:57`)
 
 Rồi Shiller nói ra chính xác điều cần nói, và không quay lại sửa nguyên tắc (`23 37:16`):
 
+> [!quote]
 > ***"Nên nó không thực sự là một cuộc tịch thu. Chính phủ Mỹ không cố ý tịch thu tài sản của
 > zaibatsu, nhưng trên thực tế họ đã làm đúng thế."***
 
-⚠️ Ông kể **"bốn gia tộc lớn"** rồi quên mất một (`23 36:27`): *"Mitsubishi, Yasuda — còn ai nữa nhỉ?
-Mitsui — và tôi đang nghĩ tới cái gì ấy nhỉ? Nó không có trong ghi chú của tôi."* 📚 Cái tên thứ tư
-là **Sumitomo**.
+> [!warning]
+> Ông kể **"bốn gia tộc lớn"** rồi quên mất một (`23 36:27`): *"Mitsubishi, Yasuda — còn ai nữa nhỉ?
+> Mitsui — và tôi đang nghĩ tới cái gì ấy nhỉ? Nó không có trong ghi chú của tôi."* 📚 Cái tên thứ tư
+> là **Sumitomo**.
 
 ### Số học của cuộc tịch thu không tên
 
@@ -453,7 +476,7 @@ Chỉ cần lạm phát 216 %/năm trong bốn năm là một trái phiếu danh
 không phải con số hiếm trong lịch sử — nó là con số **bình thường** của một nền kinh tế vừa thua
 chiến tranh.
 
-### 🇻🇳 Và Việt Nam đã chạy đúng cơ chế đó, mạnh hơn
+### Và Việt Nam đã chạy đúng cơ chế đó, mạnh hơn
 
 Dùng chính số liệu lạm phát mà [bài 1](bai_01_ha_tang_xa_hoi.md) đã ghi:
 
@@ -467,6 +490,7 @@ Dùng chính số liệu lạm phát mà [bài 1](bai_01_ha_tang_xa_hoi.md) đã
 Một khoản tiết kiệm danh nghĩa ở Việt Nam mất **nhiều hơn** tài sản của các gia tộc zaibatsu — trong
 **ba** năm thay vì bốn, và không ai gọi đó là tịch thu.
 
+> [!quote]
 > **Nguyên tắc của Shiller đúng về hình thức và có thể sai về thực chất.** Và thứ phân biệt hai
 > trường hợp chính là thứ [bài 1](bai_01_ha_tang_xa_hoi.md) dành nửa bài để nói: **gắn chỉ số lạm
 > phát**. Một trái phiếu gắn chỉ số giá sống sót qua cả hai; một trái phiếu danh nghĩa chỉ sống sót
@@ -487,6 +511,7 @@ cùng nhau."*
 
 Rồi ông nói câu sắc nhất của mục (`23 38:35`):
 
+> [!quote]
 > *"Một số người trong tài chính toán học rất phản đối tài chính hành vi, vì nó làm rối cái thế giới
 > của họ. Nhưng thật ra tôi nghĩ **họ nên coi nó là sự cứu rỗi của mình**, vì không có tài chính hành
 > vi thì họ **gần như trở nên không liên quan**."*
@@ -513,6 +538,7 @@ thêm cảm giác rằng ta đang sống trong một thế giới **ngày càng 
 (`23 40:12`). Luận điểm của họ, theo Shiller: thế giới đang bị phân cực bởi **quyền lực chính trị của
 các định chế tài chính**, và họ gọi nó là **"cuộc chiến ba mươi năm"** (`23 40:49`):
 
+> [!quote]
 > *"Cuộc chiến ba mươi năm là **cuộc chiến chống lại người dân thế giới, do cộng đồng tài chính tiến
 > hành trong các hành lang của Quốc hội và Nghị viện, bằng vận động hành lang.**"*
 
@@ -525,14 +551,16 @@ Shiller phản ứng rất cân bằng (`23 42:22`): *"tôi nghĩ ở một mứ
 thể họ nói quá, nhưng tôi nghĩ đó là một mối lo, và tôi nghĩ chúng ta **có các thiết chế dân chủ** và
 ta có thể ứng phó."*
 
-⚠️ **Hai lỗi trong một mệnh đề.** Shiller nói *"**Paul Pearson**, người ở **Đại học Stanford**"*
-(`23 40:12`). Tên đúng là **Paul Pierson**, và ông ở **Đại học California, Berkeley** — không phải
-Stanford. Jacob Hacker thì đúng là ở khoa khoa học chính trị Yale.
+> [!warning] Hai lỗi trong một mệnh đề.
+> Shiller nói *"**Paul Pearson**, người ở **Đại học Stanford**"*
+> (`23 40:12`). Tên đúng là **Paul Pierson**, và ông ở **Đại học California, Berkeley** — không phải
+> Stanford. Jacob Hacker thì đúng là ở khoa khoa học chính trị Yale.
 
 Rồi Shiller kể một mẩu tự vấn rất người về **J.P. Morgan** (`23 43:22`–`23 44:23`). Ông đang ăn tối
 trong toà nhà Morgan xây cho mình ở Manhattan, và nghĩ: *"J.P. Morgan có xấu xa không? Người ta đang
 chết đói trên thế giới, còn ông ta xây một biệt thự cho mình."* Rồi ông nghĩ tiếp:
 
+> [!quote]
 > *"Nhưng rồi tôi ngẫm thêm — **ở đây, chính tôi đang ăn tối trong biệt thự của ông ta. Ông ta đi
 > rồi.** Và trong toàn cục thì nó có thực sự tệ đến thế không?"*
 
@@ -546,6 +574,7 @@ bạn có thể xem ông ta như một kẻ xây đài kỷ niệm cho chính m�
 
 Shiller trích **Marx** nguyên văn (`23 45:11`–`23 45:37`):
 
+> [!quote]
 > *"Không phải vì ông ta là một nhà lãnh đạo công nghiệp mà một người trở thành nhà tư bản. Ngược lại,
 > ông ta là nhà lãnh đạo công nghiệp **bởi vì** ông ta là nhà tư bản. Quyền lãnh đạo công nghiệp là
 > một thuộc tính của tư bản, hệt như trong thời phong kiến các chức năng tướng lĩnh và quan toà là
@@ -554,6 +583,7 @@ Shiller trích **Marx** nguyên văn (`23 45:11`–`23 45:37`):
 Và ông phản biện bằng đúng một câu, câu này chính là hạt nhân của toàn bộ luận điểm riêng của ông
 (`23 45:41`):
 
+> [!quote]
 > *"Marx nghĩ rằng sở hữu tư bản giống như chìa khoá dẫn tới cuộc sống tốt, và dân chúng bị loại khỏi
 > nó. Nhưng […] **không phải bản chất của chủ nghĩa tư bản là một giai tầng xã hội nào đó thống trị
 > tư bản. Ta có thể có một chủ nghĩa tư bản được chia ra […] thuộc về mọi người, và không có một giai
@@ -576,21 +606,24 @@ Merton nghiên cứu một thị trấn nhỏ ở Mỹ và tìm ra hai loại ng
 
 Rồi Shiller mở rộng nó ra quy mô thế giới (`23 49:19`):
 
+> [!quote]
 > *"Có một **giai tầng quốc tế hoá toàn cầu** rồi. […] Những người khắp thế giới đang học nói tiếng
 > Anh giỏi — đó là ngôn ngữ thế giới — những người đi khắp thế giới, và **những người thạo tài
 > chính**, họ đang phát triển thành một giai tầng xã hội."*
 
 Và ông nêu hệ quả, và đây là câu bắc cầu sang mục sau (`23 50:14`):
 
+> [!quote]
 > *"Tôi nghĩ những **thù địch mà chúng ta đang cảm thấy hiện nay** có liên quan tới việc **người quốc
 > tế hoá biết và hiểu tài chính, và họ có luật sư và cố vấn. Phần còn lại của dân số cảm thấy bị loại
 > ra khỏi đó.**"*
 
-📚 Một chỉnh nhỏ về Merton: phân loại của ông là về **các kiểu người có ảnh hưởng** *(influentials)*
-mà ông phỏng vấn ở thị trấn — trong công trình về "các dạng ảnh hưởng: bản địa và quốc tế hoá", công
-bố trong *Social Theory and Social Structure* (1949). Shiller nói *"có thực sự hai giai tầng người"*,
-rộng hơn một chút so với thứ Merton đo. Nhưng phần mở rộng ra quy mô toàn cầu thì là đóng góp của
-chính Shiller, và đọc lại năm 2026 thì nó **đứng vững một cách khó chịu**.
+> [!note]
+> Một chỉnh nhỏ về Merton: phân loại của ông là về **các kiểu người có ảnh hưởng** *(influentials)*
+> mà ông phỏng vấn ở thị trấn — trong công trình về "các dạng ảnh hưởng: bản địa và quốc tế hoá", công
+> bố trong *Social Theory and Social Structure* (1949). Shiller nói *"có thực sự hai giai tầng người"*,
+> rộng hơn một chút so với thứ Merton đo. Nhưng phần mở rộng ra quy mô toàn cầu thì là đóng góp của
+> chính Shiller, và đọc lại năm 2026 thì nó **đứng vững một cách khó chịu**.
 
 ---
 
@@ -605,6 +638,7 @@ trị rủi ro của mình**, nên họ không gặp rắc rối."*
 
 Rồi câu trung tâm của cả khoá học (`23 51:10`):
 
+> [!quote]
 > ***"Bất bình đẳng phần lớn là do thất bại trong quản trị rủi ro."***
 
 Và ông rào ngay, rất trung thực (`23 51:21`): *"Ý tôi là, **một phần bất bình đẳng là do những thứ
@@ -651,8 +685,8 @@ của thang thu nhập: một ngưỡng danh nghĩa, và một phép chia quyế
 Shiller nối sang **Elizabeth Warren** và **Cục Bảo vệ Tài chính Người tiêu dùng** (`23 54:01`), và kể
 rằng bà *"chỉ đang tạm quyền — tôi quên mất chức danh chính xác của bà là gì"*, vì *"những nhà vận
 động hành lang […] kiên quyết phản đối việc đưa bà lên làm người đứng đầu"* (`23 55:00`). Xem
-[bài 10 §18](bai_10_quy_dinh_tu_quan.md#16--đối-chiếu-2026) về số phận của cơ quan này, và
-[§17](#17--đối-chiếu-2026) dưới đây về số phận của bà.
+[bài 10 §18](bai_10_quy_dinh_tu_quan.md#16-đối-chiếu-2026) về số phận của cơ quan này, và
+[§17](#17-đối-chiếu-2026) dưới đây về số phận của bà.
 
 ---
 
@@ -661,6 +695,7 @@ rằng bà *"chỉ đang tạm quyền — tôi quên mất chức danh chính x
 Từ `23 55:26` tới `23 62:05`, Shiller trình bày chương trình nghị sự của riêng ông — ba sản phẩm tài
 chính chưa tồn tại. Ông phân biệt rõ cách tiếp cận của mình với Warren (`23 55:50`):
 
+> [!quote]
 > *"Tôi đang cố nghĩ một cách sáng tạo và mở rộng, **không nghĩ theo hướng trừng phạt**, như Elizabeth
 > Warren thường làm. Quan điểm của bà thiên về: có những kẻ bóc lột cần bị quản lý. Nhưng tôi nghĩ,
 > có lẽ có **thứ gì đó tích cực** ta có thể làm."*
@@ -673,6 +708,7 @@ có sẵn — sang thứ nó không phủ.
 Lập luận của ông (`23 57:32`): *"Phần lớn các mối đe doạ tới sinh kế **không phải do sự kiện y tế**.
 Đó là các sự kiện kinh tế."* Và ví dụ ông chọn là ví dụ của đúng tuần đó (`23 57:47`):
 
+> [!quote]
 > *"Bạn 40 tuổi, bạn đã được đào tạo, giả sử, về kỹ thuật hạt nhân, rồi ta có thảm hoạ Fukushima hay
 > Sendai, và rồi đột nhiên **không chính phủ nào trên thế giới muốn xây nhà máy hạt nhân nữa**. Nên
 > bạn đây, 40 tuổi, đang tới đỉnh, đáng lẽ đang kiếm được thu nhập cao, nhưng giờ nó **vô dụng**.
@@ -689,7 +725,7 @@ trước. Nhưng **nhà cháy thường xuyên đến mức nào? Không thườ
 là gì? **Là mất giá trị kinh tế của căn nhà.** Và cái đó thì **không được bảo hiểm ở bất kỳ đâu trên
 thế giới**. Vì sao không? Ta bảo hiểm được mà."*
 
-[§15](#15--bảo-hiểm-sinh-kế--và-vì-sao-không-ai-bán-thứ-shiller-bảo-ta-làm-được) trả lời câu "vì sao
+[§15](#15-bảo-hiểm-sinh-kế--và-vì-sao-không-ai-bán-thứ-shiller-bảo-ta-làm-được) trả lời câu "vì sao
 không" đó.
 
 ### 3. Khoản vay tự điều chỉnh liên tục *(continuous workout mortgage)*
@@ -700,6 +736,7 @@ hộ gia đình đang bên bờ vỡ nợ thế chấp — *"tức khoảng gầ
 
 Và ông chẩn đoán đúng chỗ hỏng của các chương trình cứu trợ (`23 61:37`):
 
+> [!quote]
 > *"Vấn đề còn lại của việc cơ cấu lại là, **ngay cả khi người ta được cơ cấu lại khoản vay, họ vẫn
 > vỡ nợ**, vì mọi thứ còn tệ hơn về sau. Bạn đã được một lần rồi, quay lại xin lần nữa thì họ nói
 > 'anh đùa à'. Và chương trình HAMP của chính quyền Obama chỉ cho **một lần** cơ cấu lại cho mỗi gia
@@ -708,7 +745,7 @@ Và ông chẩn đoán đúng chỗ hỏng của các chương trình cứu tr�
 
 ---
 
-## 13. 📚 Số học của "một lần" so với "mỗi lần"
+## 13. Số học của "một lần" so với "mỗi lần"
 
 [Mục 6 của chương trình](#19-chương-trình) dựng hai người vay giống hệt nhau: khoản vay 300.000 đô,
 6 %, 30 năm; thu nhập 5.000 đô/tháng; ⚠️ ngưỡng vỡ nợ khi trả vượt 45 % thu nhập. Hai cú sốc thu
@@ -722,6 +759,7 @@ nhập: **giảm 25 % ở tháng 12**, rồi **giảm 15 % ở tháng 36**.
 | **36** |  3.188 $ |       1.688 $ | **52,94 %** | **VỠ NỢ**  |  **1.434 $** |    45,00 % |
 |     48 |  3.188 $ |       1.688 $ |     52,94 % | VỠ NỢ      |      1.434 $ |    45,00 % |
 
+> [!note]
 > Người vay theo HAMP vỡ nợ ở tháng 36. **Không phải vì cú sốc thứ hai lớn hơn cú sốc thứ nhất — nó
 > NHỎ hơn.** Mà vì quyền cơ cấu lại đã dùng hết ở cú sốc thứ nhất.
 
@@ -731,7 +769,8 @@ Người vay theo khoản vay tự điều chỉnh liên tục không vỡ nợ,
 ngang với **liên tục**: một quyền phải nộp đơn mới có là một quyền có phí truy cập, đúng như câu
 chuyện 1.000 đô ở [§11](#11-dân-chủ-hoá-tài-chính-và-người-không-trả-lời-điện-thoại).
 
-⚠️ **Và điều đó đã xảy ra, chín năm sau, dưới một cái tên khác.** Xem [§17](#17--đối-chiếu-2026).
+> [!warning] Và điều đó đã xảy ra, chín năm sau, dưới một cái tên khác.
+> Xem [§17](#17-đối-chiếu-2026).
 
 ---
 
@@ -744,6 +783,7 @@ mục đích tốt."*
 
 Rồi ông bác một cách sống mà cuốn sách của Unger gợi ý (`23 63:23`):
 
+> [!quote]
 > *"Tôi có thể sống như một tu sĩ, đúng không? Tôi có thể nhận một công việc ở quán bánh mì kẹp, rồi
 > cho hết tiền cho UNICEF. Bằng cách nào đó nó không thấy… bạn **biết mình có năng lực**, và bạn muốn
 > thấy chúng nở hoa. […] Đó là lý do tôi nghĩ bạn **không nên** lật bánh mì kẹp rồi cho tiền đi. […]
@@ -755,8 +795,9 @@ quay về Bangladesh và lập **Grameen Bank**"*, bắt đầu cho vay vi mô n
 chèn đính chính: bản thân Grameen Bank thành lập năm **1983**). *"Grameen hình như nghĩa là 'thuộc về
 làng' trong tiếng Bengal."*
 
-Cơ chế Shiller mô tả (`23 66:02`) — và ghi nhớ nó, vì [§17 Việt Nam](#18--góc-việt-nam) sẽ quay lại:
+Cơ chế Shiller mô tả (`23 66:02`) — và ghi nhớ nó, vì [§17 Việt Nam](#18-góc-việt-nam) sẽ quay lại:
 
+> [!quote]
 > *"Thường thì họ cho vay **theo nhóm phụ nữ** — phụ nữ nghèo — nhưng ông cho vay **cả nhóm** và nói
 > rằng **cả nhóm cùng chịu trách nhiệm về khoản nợ**, đó là cách duy nhất chúng tôi làm được. […] Rồi
 > họ tương tác với nhau và **buộc nhau phải cư xử đúng**."*
@@ -770,6 +811,7 @@ hoà bình**."* (`23 66:51`)
 
 **Một — hãy tự định vị theo lịch sử, không theo vòng đời của mình** (`23 72:47`):
 
+> [!quote]
 > *"Có một xu hướng là người ta tự định vị theo **vòng đời của chính mình**. Họ nghĩ: chuyện gì đang
 > xảy ra bây giờ? À, tôi là sinh viên năm ba ở Yale, và năm sau tôi sẽ nộp đơn cao học. **Bạn nên
 > nghĩ**: đây là một thời điểm trong lịch sử, khi Trung Đông đang thay đổi nhanh chóng, các nước mới
@@ -788,10 +830,12 @@ Rồi ông kể chuyện của chính mình (`23 71:32`): *"nhân tiện, tôi b
 Thật là may."* Ông đang nghe radio và uống bia cùng bạn bè, và khi đọc tới số 350 thì *"tôi nghĩ chắc
 mình đã bỏ lỡ ngày sinh của mình. Không thể nào tôi lại ở dưới xa thế này."*
 
+> [!quote] 23 72:03
 > *"Và đó là một phần câu chuyện thành công của tôi."* (`23 72:03`)
 
 **Ba — Kinh Thánh.** Ông kết cả khoá học bằng Truyền đạo 9:11 (`23 74:17`):
 
+> [!quote]
 > *"Ta xây lại và thấy dưới mặt trời rằng cuộc chạy đua **không thuộc về kẻ nhanh**, cuộc chiến không
 > thuộc về kẻ mạnh, bánh cũng chẳng thuộc về người khôn, của cải chẳng thuộc về người thông sáng, ơn
 > huệ chẳng thuộc về người có tài — nhưng **thời thế và cơ may xảy đến cho tất cả**."*
@@ -799,58 +843,61 @@ mình đã bỏ lỡ ngày sinh của mình. Không thể nào tôi lại ở d�
 Và ông kể rằng ông đã cho khắc câu đó bằng tiếng Latin — *"tempus casumque in omnibus"* — trên bàn
 làm việc ở nhà (`23 74:43`).
 
-⚠️ Một chi tiết nhỏ: Shiller nói sách Truyền đạo được viết *"khoảng 500 hay 600 năm trước Công
-nguyên"* (`23 74:14`). Giới nghiên cứu hiện xếp nó vào khoảng **thế kỷ 3 trước Công nguyên**, dựa
-trên các từ mượn tiếng Ba Tư và lớp Aramaic trong văn bản — muộn hơn ông nói khoảng 250–350 năm.
+> [!warning]
+> Một chi tiết nhỏ: Shiller nói sách Truyền đạo được viết *"khoảng 500 hay 600 năm trước Công
+> nguyên"* (`23 74:14`). Giới nghiên cứu hiện xếp nó vào khoảng **thế kỷ 3 trước Công nguyên**, dựa
+> trên các từ mượn tiếng Ba Tư và lớp Aramaic trong văn bản — muộn hơn ông nói khoảng 250–350 năm.
 
 Câu cuối cùng của cả khoá học (`23 74:56`):
 
+> [!quote]
 > *"Đây thực sự là một khoá học về **quản trị rủi ro**, cũng như về kinh doanh và về việc tạo ra một
 > tinh thần hợp tác. Tôi muốn truyền đạt cho các bạn rằng **chúng ta có một công nghệ cho việc đó**,
 > và nó nên là một phần cuộc đời các bạn."*
 
-### 📚 Và cái xổ số ấy không thực sự ngẫu nhiên
-
-[Mục 5 của chương trình](#19-chương-trình) đo ba thứ.
-
-**Cái giá của một quả bóng nhựa.** ⚠️ Với thu nhập 60.000 đô/năm trong 40 năm, chiết khấu 3 %, giá
-trị hiện tại cả sự nghiệp là **1.428.492 đô**. Mức giảm 15 % mà Angrist đo được đáng **214.273 đô**.
-Một quả bóng bốc ra khỏi thùng quyết định khoản đó.
-
-**Con số của chính Shiller.** Xác suất bốc được từ 362 trở lên: 5/366 = **1,37 %**.
-
-**Và chỗ ông không kể.** Xổ số 1969 **không ngẫu nhiên**. Các viên nang được bỏ vào thùng **theo
-tháng** và trộn không đủ, nên các tháng cuối năm nằm ở trên và bị bốc ra sớm hơn.
-
-|                                                          |                        |
-| -------------------------------------------------------- | ---------------------: |
-| ⚠️ Tương quan quan sát giữa ngày trong năm và số bốc được |             **−0,226** |
-| Kỳ vọng nếu thật sự ngẫu nhiên                           |                      0 |
-| Độ lệch chuẩn của tương quan mẫu, 1/√365                 |                  0,052 |
-| **Lệch**                                                 | **4,32 độ lệch chuẩn** |
-| Người sinh tháng 12 so với tháng 1: số thứ tự thấp hơn   |             **75 bậc** |
-
-Thấp hơn nghĩa là **bị gọi sớm hơn**. Người sinh cuối năm có xác suất ra trận cao hơn người sinh đầu
-năm, một cách có hệ thống.
-
-Bằng chứng của Angrist vẫn đứng — ông kiểm soát tháng sinh. Nhưng:
-
-> Chính cái cơ chế được dùng để **đại diện cho sự ngẫu nhiên thuần tuý** thì **không** ngẫu nhiên
-> thuần tuý. Nó thiên vị một cách có hệ thống, và không ai phát hiện ra cho tới khi các nhà thống kê
-> ngồi xuống tính tương quan.
+> [!note] Và cái xổ số ấy không thực sự ngẫu nhiên
 >
-> Nên câu Kinh Thánh cần một vế thứ hai: **cơ may thì có thật, nhưng nhiều thứ ta *gọi là* cơ may
-> hoá ra là một cấu trúc chưa ai đo.**
+> [Mục 5 của chương trình](#19-chương-trình) đo ba thứ.
+>
+> **Cái giá của một quả bóng nhựa.** ⚠️ Với thu nhập 60.000 đô/năm trong 40 năm, chiết khấu 3 %, giá
+> trị hiện tại cả sự nghiệp là **1.428.492 đô**. Mức giảm 15 % mà Angrist đo được đáng **214.273 đô**.
+> Một quả bóng bốc ra khỏi thùng quyết định khoản đó.
+>
+> **Con số của chính Shiller.** Xác suất bốc được từ 362 trở lên: 5/366 = **1,37 %**.
+>
+> **Và chỗ ông không kể.** Xổ số 1969 **không ngẫu nhiên**. Các viên nang được bỏ vào thùng **theo
+> tháng** và trộn không đủ, nên các tháng cuối năm nằm ở trên và bị bốc ra sớm hơn.
+>
+> |                                                          |                        |
+> | -------------------------------------------------------- | ---------------------: |
+> | ⚠️ Tương quan quan sát giữa ngày trong năm và số bốc được |             **−0,226** |
+> | Kỳ vọng nếu thật sự ngẫu nhiên                           |                      0 |
+> | Độ lệch chuẩn của tương quan mẫu, 1/√365                 |                  0,052 |
+> | **Lệch**                                                 | **4,32 độ lệch chuẩn** |
+> | Người sinh tháng 12 so với tháng 1: số thứ tự thấp hơn   |             **75 bậc** |
+>
+> Thấp hơn nghĩa là **bị gọi sớm hơn**. Người sinh cuối năm có xác suất ra trận cao hơn người sinh đầu
+> năm, một cách có hệ thống.
+>
+> Bằng chứng của Angrist vẫn đứng — ông kiểm soát tháng sinh. Nhưng:
+>
+> > Chính cái cơ chế được dùng để **đại diện cho sự ngẫu nhiên thuần tuý** thì **không** ngẫu nhiên
+> > thuần tuý. Nó thiên vị một cách có hệ thống, và không ai phát hiện ra cho tới khi các nhà thống kê
+> > ngồi xuống tính tương quan.
+> >
+> > Nên câu Kinh Thánh cần một vế thứ hai: **cơ may thì có thật, nhưng nhiều thứ ta *gọi là* cơ may
+> > hoá ra là một cấu trúc chưa ai đo.**
 
 ---
 
-## 15. 📚 Bảo hiểm sinh kế — và vì sao không ai bán thứ Shiller bảo "ta làm được"
+## 15. Bảo hiểm sinh kế — và vì sao không ai bán thứ Shiller bảo "ta làm được"
 
 Shiller hỏi thẳng ở `23 59:35`: *"Vì sao không? Ta bảo hiểm được mà."*
 [Mục 7 của chương trình](#19-chương-trình) trả lời, và câu trả lời **không nằm ở phí**.
 
-⚠️ Lấy đúng ví dụ của ông: kỹ sư hạt nhân 40 tuổi, còn 25 năm làm việc, thu nhập 120.000 đô/năm, mất
-40 % thu nhập nếu nghề bị xoá sổ, xác suất 2 %/năm.
+> [!warning]
+> Lấy đúng ví dụ của ông: kỹ sư hạt nhân 40 tuổi, còn 25 năm làm việc, thu nhập 120.000 đô/năm, mất
+> 40 % thu nhập nếu nghề bị xoá sổ, xác suất 2 %/năm.
 
 |                                                 |                                      |
 | ----------------------------------------------- | -----------------------------------: |
@@ -880,6 +927,7 @@ khoản mất mỗi năm NẾU xảy ra      48.000 đô
 -> phí cao gấp 2,12 lần chính thứ được bảo hiểm
 ```
 
+> [!note]
 > Trả mỗi năm một khoản **lớn hơn cả khoản mất** để phòng một sự kiện 2 %/năm thì không ai mua. Nên
 > sản phẩm này không tồn tại — **không phải vì không ai nghĩ ra, mà vì rủi ro nghề nghiệp không độc
 > lập.**
@@ -892,15 +940,16 @@ Và đó cũng là lý do **bảo hiểm giá nhà** của ông không cất cá
 cho **mọi** người trong thành phố. Shiller đã tự trả lời câu hỏi "vì sao không?" của mình ở một bài
 giảng khác mà không nối hai chỗ lại.
 
-⚠️ Nhưng lời giải **không phải** bỏ cuộc. Nó là chuyển rủi ro ra khỏi bảng cân đối của một công ty bảo
-hiểm, sang một thị trường đủ lớn để hấp thụ — tức **chứng khoán hoá** nó. Đó chính là lý do Shiller
-đã dành nhiều năm để dựng **chỉ số giá nhà Case-Shiller** và **hợp đồng tương lai trên chỉ số đó** —
-xem [bài 6](bai_06_so_giao_dich.md) và [bài 9](bai_09_bat_dong_san.md). Ông biết lời giải; ông chỉ
-không nói nó ở chỗ này.
+> [!warning]
+> Nhưng lời giải **không phải** bỏ cuộc. Nó là chuyển rủi ro ra khỏi bảng cân đối của một công ty bảo
+> hiểm, sang một thị trường đủ lớn để hấp thụ — tức **chứng khoán hoá** nó. Đó chính là lý do Shiller
+> đã dành nhiều năm để dựng **chỉ số giá nhà Case-Shiller** và **hợp đồng tương lai trên chỉ số đó** —
+> xem [bài 6](bai_06_so_giao_dich.md) và [bài 9](bai_09_bat_dong_san.md). Ông biết lời giải; ông chỉ
+> không nói nó ở chỗ này.
 
 ---
 
-## 16. 📚 "Bất bình đẳng phần lớn đến từ không quản trị được rủi ro" — đo thử câu đó
+## 16. "Bất bình đẳng phần lớn đến từ không quản trị được rủi ro" — đo thử câu đó
 
 Đây là câu ở `23 51:10`, và cả khoá dẫn tới nó.
 [Mục 8 của chương trình](#19-chương-trình) dựng một mô hình đúng như ông mô tả — ⚠️ tham số nêu rõ,
@@ -930,13 +979,14 @@ Bây giờ hỏi câu của Shiller: nếu bảo hiểm được cú sốc thì 
 |                       50 % |              0,065 |         0,255 |
 |                  **100 %** |              0,025 |     **0,158** |
 
+> [!note]
 > **Bảo hiểm hết cú sốc thì bất bình đẳng đo bằng độ lệch chuẩn giảm 63,24 % — mà không động đến một
 > đồng thuế nào, không phân phối lại một đồng nào giữa người giàu và người nghèo.**
 
 Đó là lập luận mạnh nhất của cả khoá học, và nó **không phải lập luận chính trị**. Nó là một đồng nhất
 thức về phương sai.
 
-Nhưng đặt cạnh [§15](#15--bảo-hiểm-sinh-kế--và-vì-sao-không-ai-bán-thứ-shiller-bảo-ta-làm-được) thì ta
+Nhưng đặt cạnh [§15](#15-bảo-hiểm-sinh-kế--và-vì-sao-không-ai-bán-thứ-shiller-bảo-ta-làm-được) thì ta
 có cả hai nửa của sự thật:
 
 |         |                                                          |
@@ -955,13 +1005,13 @@ kiểu Bismarck); và bài này nói vì sao phần còn lại vẫn chưa có a
 
 ---
 
-## 17. ⚠️ Đối chiếu 2026
+## 17. Đối chiếu 2026
 
 ### 17.1 Ba đề xuất của Shiller — cái nào đã thành hiện thực
 
 | Đề xuất                              | Trạng thái 2026                                                                                                                           |
 | ------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------- |
-| **Bảo hiểm sinh kế**                 | ❌ vẫn không tồn tại như một sản phẩm. [§15](#15--bảo-hiểm-sinh-kế--và-vì-sao-không-ai-bán-thứ-shiller-bảo-ta-làm-được) giải thích vì sao. |
+| **Bảo hiểm sinh kế**                 | ❌ vẫn không tồn tại như một sản phẩm. [§15](#15-bảo-hiểm-sinh-kế--và-vì-sao-không-ai-bán-thứ-shiller-bảo-ta-làm-được) giải thích vì sao. |
 | **Bảo hiểm giá nhà**                 | ❌ vẫn không có ở quy mô nào                                                                                                               |
 | **Khoản vay tự điều chỉnh liên tục** | ✅ **đã xảy ra, dưới một cái tên khác**                                                                                                    |
 
@@ -990,7 +1040,7 @@ Shiller hy vọng bà được làm người đứng đầu cơ quan bà đề x
 
 - Bà **không bao giờ** được bổ nhiệm; Obama đề cử **Richard Cordray** tháng 7/2011.
 - Bà ra tranh cử **Thượng viện Massachusetts** và **thắng năm 2012**, nhậm chức 2013.
-- Số phận của chính cơ quan đó thì [bài 10 §18](bai_10_quy_dinh_tu_quan.md#16--đối-chiếu-2026) đã kể.
+- Số phận của chính cơ quan đó thì [bài 10 §18](bai_10_quy_dinh_tu_quan.md#16-đối-chiếu-2026) đã kể.
 
 ### 17.3 Muhammad Yunus — vòng cung kịch tính nhất cả khoá
 
@@ -1007,10 +1057,11 @@ chuyện đang xảy ra ngay tuần đó:
 **Bài giảng này ghi vào đúng lúc Yunus đang bị bãi nhiệm**, và mười ba năm sau ông trở thành người
 đứng đầu nhà nước. Đó là vòng cung tiểu sử kịch tính nhất của bất kỳ ai xuất hiện trong cả khoá học.
 
-⚠️ **Và bằng chứng về chính tài chính vi mô cũng đã đổi.** Sáu thí nghiệm ngẫu nhiên có đối chứng
-công bố cùng lúc trên *American Economic Journal: Applied Economics* tháng 1/2015 tìm thấy tác động
-**khiêm tốn và hỗn hợp**: có tác động tới đầu tư kinh doanh và quyền tự quyết, nhưng **không** có tác
-động chuyển hoá lên thu nhập, tiêu dùng, y tế hay giáo dục.
+> [!warning] Và bằng chứng về chính tài chính vi mô cũng đã đổi.
+> Sáu thí nghiệm ngẫu nhiên có đối chứng
+> công bố cùng lúc trên *American Economic Journal: Applied Economics* tháng 1/2015 tìm thấy tác động
+> **khiêm tốn và hỗn hợp**: có tác động tới đầu tư kinh doanh và quyền tự quyết, nhưng **không** có tác
+> động chuyển hoá lên thu nhập, tiêu dùng, y tế hay giáo dục.
 
 📌 Và đây là chỗ nối rất đẹp: một trong những người dẫn dắt chương trình nghiên cứu đó là **Dean
 Karlan** — chính người mà Shiller nêu làm ví dụ tổ chức phi lợi nhuận ở
@@ -1054,9 +1105,9 @@ nữa."* Mười lăm năm đã trôi qua.
 | -------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
 | *"Tài chính không phải mục đích tự thân, nó là công cụ"* | ✅ nguyên vẹn                                                                                               |
 | Mệnh lệnh đạo đức phải làm ra thứ gì đó                  | ✅ nguyên vẹn                                                                                               |
-| Hợp đồng tài chính sống sót qua đổi thay chế độ          | ⚠️ đúng về hình thức; [§7](#7--zaibatsu--tịch-thu-mà-không-cần-một-chữ-ký-nào) là ngoại lệ có cơ chế        |
+| Hợp đồng tài chính sống sót qua đổi thay chế độ          | ⚠️ đúng về hình thức; [§7](#7-zaibatsu--tịch-thu-mà-không-cần-một-chữ-ký-nào) là ngoại lệ có cơ chế        |
 | Giai tầng quốc tế hoá so với bản địa                     | ✅ nguyên vẹn, và ngày càng đúng                                                                            |
-| **Bất bình đẳng đến từ thất bại quản trị rủi ro**        | ✅ [§16](#16--bất-bình-đẳng-phần-lớn-đến-từ-không-quản-trị-được-rủi-ro--đo-thử-câu-đó) đo được và ủng hộ nó |
+| **Bất bình đẳng đến từ thất bại quản trị rủi ro**        | ✅ [§16](#16-bất-bình-đẳng-phần-lớn-đến-từ-không-quản-trị-được-rủi-ro--đo-thử-câu-đó) đo được và ủng hộ nó |
 | Malthus và cấp số nhân                                   | ❌ tiền đề đã sai, và đã đảo dấu                                                                            |
 | May rủi định hình cuộc đời                               | ✅ nguyên vẹn — kể cả khi công cụ đo nó cũng thiên vị                                                       |
 
@@ -1064,7 +1115,7 @@ Quy luật của cả kho, phát biểu lần cuối: **cơ chế thì sống, t
 
 ---
 
-## 18. 🇻🇳 Góc Việt Nam
+## 18. Góc Việt Nam
 
 ### 18.1 Malthus đảo đầu trong một đời người
 
@@ -1079,6 +1130,7 @@ thí nghiệm ngược lại, và nhanh:
 | Mỗi thế hệ còn                  |              **90,95 %** thế hệ trước |
 | **Giảm một nửa sau**            |                **8 thế hệ = 240 năm** |
 
+> [!note]
 > Malthus nói **gấp đôi mỗi 25 năm**. Việt Nam năm 2024: **giảm một nửa mỗi 240 năm**. Cùng một đại
 > lượng, **đổi dấu**.
 
@@ -1087,10 +1139,11 @@ hoặc hai con, trao quyền quyết định số con cho từng gia đình. Tru
 2015. Cả hai đều là cùng một sự đảo chiều mà Shiller mô tả ở chiều ngược khi còn nói về *"chính sách
 một con"* (`23 20:32`).
 
-⚠️ Điều đáng lo với Việt Nam không phải là dân số giảm — mà là **tốc độ già hoá**. Việt Nam bước vào
-giai đoạn già hoá dân số từ 2011 và sẽ thành dân số già trong khoảng hai thập kỷ, một trong những
-chuyển đổi nhanh nhất thế giới. Nối với [bài 11 §17](bai_11_tai_chinh_cong.md#19--góc-việt-nam): số
-học lời hứa hưu trí ở đó giả định một tháp dân số; tháp đó đang đổi hình rất nhanh.
+> [!warning]
+> Điều đáng lo với Việt Nam không phải là dân số giảm — mà là **tốc độ già hoá**. Việt Nam bước vào
+> giai đoạn già hoá dân số từ 2011 và sẽ thành dân số già trong khoảng hai thập kỷ, một trong những
+> chuyển đổi nhanh nhất thế giới. Nối với [bài 11 §17](bai_11_tai_chinh_cong.md#19-góc-việt-nam): số
+> học lời hứa hưu trí ở đó giả định một tháp dân số; tháp đó đang đổi hình rất nhanh.
 
 ### 18.2 Bảo hiểm thất nghiệp **không phải** bảo hiểm sinh kế
 
@@ -1102,12 +1155,12 @@ Việt Nam có bảo hiểm thất nghiệp từ Luật Việc làm 2013, và **
 | ⚠️ Đóng góp                                                                                                                    | **2 %** lương (1 % người lao động + 1 % chủ sử dụng) |
 | ⚠️ Hưởng                                                                                                                       |        **60 %** lương bình quân, **tối đa 12 tháng** |
 | Tổng quyền lợi tối đa                                                                                                         |                                  **7,2 tháng lương** |
-| Tổn thất ở kịch bản [§15](#15--bảo-hiểm-sinh-kế--và-vì-sao-không-ai-bán-thứ-shiller-bảo-ta-làm-được) (nghề bị xoá sổ, 25 năm) |                                  **120 tháng lương** |
+| Tổn thất ở kịch bản [§15](#15-bảo-hiểm-sinh-kế--và-vì-sao-không-ai-bán-thứ-shiller-bảo-ta-làm-được) (nghề bị xoá sổ, 25 năm) |                                  **120 tháng lương** |
 | **Bảo hiểm thất nghiệp phủ được**                                                                                             |                                  **6,00 %** tổn thất |
 
 Đó **không phải một lỗi thiết kế**. Bảo hiểm thất nghiệp được thiết kế để phủ **quãng chuyển tiếp
 giữa hai công việc**, chứ không phải phủ việc **một nghề biến mất**. Hai rủi ro khác nhau — và rủi ro
-thứ hai thì **chưa nước nào bảo hiểm**, vì [§15](#15--bảo-hiểm-sinh-kế--và-vì-sao-không-ai-bán-thứ-shiller-bảo-ta-làm-được).
+thứ hai thì **chưa nước nào bảo hiểm**, vì [§15](#15-bảo-hiểm-sinh-kế--và-vì-sao-không-ai-bán-thứ-shiller-bảo-ta-làm-được).
 
 ### 18.3 Grameen kiểu Việt Nam
 
@@ -1140,9 +1193,10 @@ cho biết con đường nào đi được xa hơn về quy mô vốn.
 ### 18.4 Một cảnh báo đọc từ §7
 
 [Bài 1](bai_01_ha_tang_xa_hoi.md) đã ghi lại lạm phát 1986–1988.
-[§7](#7--zaibatsu--tịch-thu-mà-không-cần-một-chữ-ký-nào) tính ra: một khoản tiết kiệm danh nghĩa mất
+[§7](#7-zaibatsu--tịch-thu-mà-không-cần-một-chữ-ký-nào) tính ra: một khoản tiết kiệm danh nghĩa mất
 **99,45 %** giá trị thực trong ba năm. Không một hợp đồng nào bị huỷ. Không một lệnh nào được ký.
 
+> [!quote]
 > Nên khi đọc câu của Shiller — *"hợp đồng tài chính sống sót qua đổi thay chế độ"* (`23 30:36`) —
 > hãy đọc kèm câu hỏi: **hợp đồng đó được viết bằng ĐƠN VỊ gì?**
 
@@ -1182,8 +1236,9 @@ python3 thuc_hanh/bai-13-muc-dich-dao-duc.py
 |    8 | *"Bất bình đẳng phần lớn đến từ không quản trị được rủi ro"* — đo thử  |
 |    9 | 🇻🇳 Malthus đảo đầu, bảo hiểm thất nghiệp, và Grameen kiểu Việt          |
 
-⚠️ Mọi con số **không phải** của Shiller đều được đánh dấu `⚠` ngay tại chỗ trong output và liệt nguồn
-ở [§22](#nguồn). Vài con số là **bậc độ lớn**, đủ để so tỷ lệ chứ không đủ để trích một mình.
+> [!warning]
+> Mọi con số **không phải** của Shiller đều được đánh dấu `⚠` ngay tại chỗ trong output và liệt nguồn
+> ở [§22](#nguồn). Vài con số là **bậc độ lớn**, đủ để so tỷ lệ chứ không đủ để trích một mình.
 
 Kết quả chạy thật:
 
@@ -1724,23 +1779,23 @@ Tat ca assert deu qua. Chay lai cho ket qua giong het.
 ==============================================================================
 ```
 
-### 💡 Tự thử
-
-1. **Mục 1** — đổi `SO_BAC` thành `20`. Khoảng cách giữa chi phí biên và chi phí trung bình lớn lên
-   hay nhỏ đi? Điều đó nói gì về việc đọc con số "chi phí trung bình" của một tổ chức từ thiện?
-2. **Mục 2** — tìm chu kỳ gấp đôi mà Malthus lẽ ra phải viết để dự báo của ông khớp thực tế 2026.
-3. **Mục 3** — tìm mức `CHI_PHI_QUAN_LY` mà tại đó quỹ cần có **bằng đúng** giá mua đất, ở tỷ lệ rút
-   4 %. Trên mức đó thì tổ chức bảo tồn đang tiêu vào vốn.
-4. **Mục 4** — đặt `NHAT_SO_NAM = 10`. Tỷ lệ lạm phát mỗi năm cần thiết để xoá 99 % đổi thế nào, và
-   vì sao thời gian lại quan trọng đến vậy?
-5. **Mục 5** — tìm mức `TUONG_QUAN_BP` nhỏ nhất (về trị tuyệt đối) mà tại đó độ lệch vẫn vượt 2 độ
-   lệch chuẩn. So với −0,226 thì con số đó cho biết gì về mức độ nghiêm trọng của sai sót năm 1969?
-6. **Mục 6** — đảo thứ tự hai cú sốc trong `CU_SOC` (15 % trước, 25 % sau). Người vay theo HAMP có
-   còn vỡ nợ không, và vào tháng nào? Vì sao **thứ tự** lại quan trọng?
-7. **Mục 7** — tìm mức `XAC_SUAT_BP` mà tại đó phí trong thế giới tương quan bằng đúng khoản mất mỗi
-   năm. Dưới mức đó sản phẩm có bán được không?
-8. **Mục 8** — đặt `VAR_CU_SOC = 1`. Sau bao nhiêu năm thì cú sốc vượt quá một nửa phương sai? So với
-   40 năm ở tham số gốc, điều đó nói gì về các nghề **ổn định**?
+> [!example] Tự thử
+>
+> 1. **Mục 1** — đổi `SO_BAC` thành `20`. Khoảng cách giữa chi phí biên và chi phí trung bình lớn lên
+>    hay nhỏ đi? Điều đó nói gì về việc đọc con số "chi phí trung bình" của một tổ chức từ thiện?
+> 2. **Mục 2** — tìm chu kỳ gấp đôi mà Malthus lẽ ra phải viết để dự báo của ông khớp thực tế 2026.
+> 3. **Mục 3** — tìm mức `CHI_PHI_QUAN_LY` mà tại đó quỹ cần có **bằng đúng** giá mua đất, ở tỷ lệ rút
+>    4 %. Trên mức đó thì tổ chức bảo tồn đang tiêu vào vốn.
+> 4. **Mục 4** — đặt `NHAT_SO_NAM = 10`. Tỷ lệ lạm phát mỗi năm cần thiết để xoá 99 % đổi thế nào, và
+>    vì sao thời gian lại quan trọng đến vậy?
+> 5. **Mục 5** — tìm mức `TUONG_QUAN_BP` nhỏ nhất (về trị tuyệt đối) mà tại đó độ lệch vẫn vượt 2 độ
+>    lệch chuẩn. So với −0,226 thì con số đó cho biết gì về mức độ nghiêm trọng của sai sót năm 1969?
+> 6. **Mục 6** — đảo thứ tự hai cú sốc trong `CU_SOC` (15 % trước, 25 % sau). Người vay theo HAMP có
+>    còn vỡ nợ không, và vào tháng nào? Vì sao **thứ tự** lại quan trọng?
+> 7. **Mục 7** — tìm mức `XAC_SUAT_BP` mà tại đó phí trong thế giới tương quan bằng đúng khoản mất mỗi
+>    năm. Dưới mức đó sản phẩm có bán được không?
+> 8. **Mục 8** — đặt `VAR_CU_SOC = 1`. Sau bao nhiêu năm thì cú sốc vượt quá một nửa phương sai? So với
+>    40 năm ở tham số gốc, điều đó nói gì về các nghề **ổn định**?
 
 ---
 
@@ -1798,7 +1853,7 @@ Tat ca assert deu qua. Chay lai cho ket qua giong het.
    khác ở chỗ nào, và vì sao Shiller không sửa nguyên tắc sau khi kể nó?
 10. Trái phiếu zaibatsu mất 98,82 %; tiết kiệm ở Việt Nam 1986–88 mất 99,45 %. Cả hai đều **không** bị
     tịch thu. Thứ gì lẽ ra đã cứu được cả hai?
-11. Trong bảng ở [§13](#13--số-học-của-một-lần-so-với-mỗi-lần), cú sốc thứ hai **nhỏ hơn** cú sốc thứ
+11. Trong bảng ở [§13](#13-số-học-của-một-lần-so-với-mỗi-lần), cú sốc thứ hai **nhỏ hơn** cú sốc thứ
     nhất nhưng lại là cú giết người vay. Giải thích bằng cơ chế, không bằng con số.
 12. Vì sao Shiller nhấn mạnh **tự động** ngang với **liên tục**? Nối câu trả lời với câu chuyện 1.000
     đô tiền luật sư ở [§11](#11-dân-chủ-hoá-tài-chính-và-người-không-trả-lời-điện-thoại).
@@ -1806,7 +1861,7 @@ Tat ca assert deu qua. Chay lai cho ket qua giong het.
     lệch đến từ **một** giả định. Là giả định gì, và nó thuộc về bài nào của kho này?
 14. Phí phải trả mỗi năm cao gấp 2,12 lần khoản mất mỗi năm nếu sự kiện xảy ra. Vì sao con số đó là
     dấu chấm hết cho sản phẩm, chứ không chỉ là "đắt"?
-15. Trong mô hình ở [§16](#16--bất-bình-đẳng-phần-lớn-đến-từ-không-quản-trị-được-rủi-ro--đo-thử-câu-đó),
+15. Trong mô hình ở [§16](#16-bất-bình-đẳng-phần-lớn-đến-từ-không-quản-trị-được-rủi-ro--đo-thử-câu-đó),
     tỷ trọng cú sốc tăng từ 13,79 % lên 86,49 % theo thời gian. Cơ chế nào tạo ra sự dịch chuyển đó?
     Mô hình có giả định mọi người tài năng như nhau không?
 16. Bảo hiểm hết cú sốc thì bất bình đẳng giảm 63 % **mà không phân phối lại đồng nào**. Vì sao đó là

@@ -1,13 +1,15 @@
 # Bài 6 — Thất nghiệp
 
+> [!info] Về bài này
 > Bài học dựng từ **Chương 15 — Thất nghiệp** (tr. 331–358)
 > của *N. Gregory Mankiw — **Kinh tế học vĩ mô***, bản dịch của Khoa Kinh tế, **ĐH Kinh tế TP.HCM** (Cengage Learning Asia).
-> 🎯 **Vòng 1.** Bài 3 nói mức sống phụ thuộc **năng suất**. Bài này nói về yếu tố còn trực tiếp hơn:
+>
+> **Vòng 1.** Bài 3 nói mức sống phụ thuộc **năng suất**. Bài này nói về yếu tố còn trực tiếp hơn:
 > **có bao nhiêu người được làm việc.** Đây cũng là bài cuối của khối "nền kinh tế thực trong dài hạn".
-> 💼 **Góc QTKD** — ví dụ thêm cho ngành quản trị kinh doanh, **không có trong sách**.
-> 📚 **Mở rộng** — thứ sách nói lướt hoặc để trong hộp phụ.
-> ⚠️ — chỗ dễ hiểu sai, hoặc chỗ sách in sai.
-> 📌 **Cần đọc trước:** [Bài 0](bai_00_tu_vi_mo_sang_vi_mo.md) mục 5 (điểm D bên trong đường giới hạn),
+>
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
+>
+> **Cần đọc trước:** [Bài 0](bai_00_tu_vi_mo_sang_vi_mo.md) mục 5 (điểm D bên trong đường giới hạn),
 > [Bài 3](bai_03_san_xuat_va_tang_truong.md) mục 5 (năng suất). Mục 7–9 dùng lại **giá sàn** của
 > [EG13 bài 13](../../eg13-kinhtevimo-micro/ly_thuyet/bai_13_chinh_phu_can_thiep_thi_truong.md).
 
@@ -20,15 +22,15 @@
 - [1. Vì sao chương này quan trọng](#1-vì-sao-chương-này-quan-trọng)
 - [2. Đo lường thất nghiệp — ba nhóm và ba công thức](#2-đo-lường-thất-nghiệp--ba-nhóm-và-ba-công-thức)
 - [3. Bảng 1 — con số tổng thể che giấu những thế giới rất khác nhau](#3-bảng-1--con-số-tổng-thể-che-giấu-những-thế-giới-rất-khác-nhau)
-- [4. ⚠️ Tỷ lệ thất nghiệp đếm thiếu và đếm thừa cái gì](#4--tỷ-lệ-thất-nghiệp-đếm-thiếu-và-đếm-thừa-cái-gì)
-- [5. ⚠️⚠️ Nghịch lý thời gian thất nghiệp](#5--nghịch-lý-thời-gian-thất-nghiệp)
+- [4. Tỷ lệ thất nghiệp đếm thiếu và đếm thừa cái gì](#4-tỷ-lệ-thất-nghiệp-đếm-thiếu-và-đếm-thừa-cái-gì)
+- [5. Nghịch lý thời gian thất nghiệp](#5-nghịch-lý-thời-gian-thất-nghiệp)
 - [6. Bốn nguyên nhân của thất nghiệp dài hạn](#6-bốn-nguyên-nhân-của-thất-nghiệp-dài-hạn)
 - [7. Nguyên nhân 1 — tìm việc, và bảo hiểm thất nghiệp](#7-nguyên-nhân-1--tìm-việc-và-bảo-hiểm-thất-nghiệp)
 - [8. Nguyên nhân 2 — luật lương tối thiểu](#8-nguyên-nhân-2--luật-lương-tối-thiểu)
 - [9. Nguyên nhân 3 — công đoàn và thương lượng tập thể](#9-nguyên-nhân-3--công-đoàn-và-thương-lượng-tập-thể)
 - [10. Nguyên nhân 4 — lý thuyết tiền lương hiệu quả](#10-nguyên-nhân-4--lý-thuyết-tiền-lương-hiệu-quả)
-- [11. 💼 Góc QTKD — bốn nguyên nhân, đọc ngược lại cho người tuyển dụng](#11--góc-qtkd--bốn-nguyên-nhân-đọc-ngược-lại-cho-người-tuyển-dụng)
-- [12. 📚 Đối chiếu Việt Nam](#12--đối-chiếu-việt-nam)
+- [11. Góc QTKD — bốn nguyên nhân, đọc ngược lại cho người tuyển dụng](#11-góc-qtkd--bốn-nguyên-nhân-đọc-ngược-lại-cho-người-tuyển-dụng)
+- [12. Đối chiếu Việt Nam](#12-đối-chiếu-việt-nam)
 - [13. Code minh hoạ](#13-code-minh-hoạ)
 - [14. Tự thử](#14-tự-thử)
 - [15. Từ điển thuật ngữ](#15-từ-điển-thuật-ngữ)
@@ -44,6 +46,7 @@
 
 Sách mở bằng một câu rất thẳng (tr. 331):
 
+> [!quote]
 > *"Mất việc có thể là sự kiện kinh tế tồi tệ nhất trong cuộc đời một con người. Hầu như mọi người đều
 > dựa vào thu nhập từ sức lao động của mình để trang trải cuộc sống và nhiều người cũng cảm thấy hài lòng
 > về những thành quả cá nhân này. Mất việc dẫn đến **giảm mức sống ở hiện tại, lo lắng hơn về tương lai
@@ -51,6 +54,7 @@ Sách mở bằng một câu rất thẳng (tr. 331):
 
 Và nối thẳng vào bài 3 (tr. 331):
 
+> [!quote]
 > *"Yếu tố tác động rõ hơn đến mức sống của một quốc gia là **số lượng người thất nghiệp** của quốc gia đó.
 > Người dân muốn làm việc nhưng không thể tìm được việc sẽ không đóng góp vào quá trình sản xuất ra hàng
 > hóa và dịch vụ của nền kinh tế."*
@@ -67,14 +71,17 @@ Sách chia rất rõ ngay từ đầu (tr. 331):
 | **Tỷ lệ thất nghiệp tự nhiên** | *"lượng thất nghiệp mà nền kinh tế đó **thường trải qua**"* | **bài này** |
 | **Thất nghiệp chu kỳ** | *"lượng thất nghiệp biến động hàng năm xung quanh tỷ lệ tự nhiên"* | bài 11–13 |
 
-⚠️ **Chữ "tự nhiên" rất dễ gây hiểu sai.** Sách cảnh báo thẳng (tr. 331–332):
+> [!warning] Chữ "tự nhiên" rất dễ gây hiểu sai.
+> Sách cảnh báo thẳng (tr. 331–332):
 
+> [!quote]
 > *"…chữ **tự nhiên** sẽ không hàm ý tỷ lệ thất nghiệp là **đáng mong đợi**. Nó cũng không hàm ý rằng tỷ
 > lệ thất nghiệp **cố định** theo thời gian hay **không liên quan gì đến chính sách** kinh tế. Nó chỉ có
 > nghĩa rằng thất nghiệp này sẽ **không biến động nhiều ngay cả trong dài hạn**."*
 
 ### Kết luận sách báo trước — và nó không dễ chịu
 
+> [!quote]
 > *"…thất nghiệp trong dài hạn **không xuất phát từ một vấn đề riêng lẻ với một giải pháp riêng lẻ**.
 > Thay vào đó, thất nghiệp dài hạn phản ánh nhiều loại vấn đề liên hệ với nhau. Kết quả là sẽ **không có
 > cách nào dễ dàng** để các nhà hoạch định chính sách vừa giảm tỷ lệ thất nghiệp tự nhiên của nền kinh tế
@@ -95,10 +102,11 @@ gia đình** (*Điều tra Dân số Hiện hành*) — tr. 332.
 | **Thất nghiệp** | sẵn sàng làm việc, **đã tìm việc trong bốn tuần trước đó**, nhưng không có việc | kể cả người **đang chờ được gọi lại** làm việc sau khi bị cho nghỉ |
 | **Không trong lực lượng lao động** | không thuộc hai nhóm trên | sinh viên toàn thời gian, người nội trợ, người nghỉ hưu |
 
-⚠️ **Chú ý cụm "đã tìm việc trong bốn tuần trước đó".** Muốn làm việc mà **đã thôi tìm** thì **không** được
-tính là thất nghiệp. Mục 4 quay lại chỗ này.
+> [!warning] Chú ý cụm "đã tìm việc trong bốn tuần trước đó".
+> Muốn làm việc mà **đã thôi tìm** thì **không** được
+> tính là thất nghiệp. Mục 4 quay lại chỗ này.
 
-### Ba công thức — và ⚠️ hai mẫu số khác nhau
+### Ba công thức — và hai mẫu số khác nhau
 
 $$\text{Lực lượng lao động} = \text{Số người có việc làm} + \text{Số người thất nghiệp}$$
 
@@ -125,8 +133,9 @@ Mục 1 của [code minh hoạ](#13-code-minh-hoạ) kiểm cả bốn con số 
 
 ⭐ **Hai tỷ lệ dùng hai mẫu số khác nhau.** Nhầm mẫu số là lỗi phổ biến nhất khi làm bài tập chương này.
 
-📚 Bài tập 2 tr. 353 (số liệu 4/2010) được giải trong code: dân số trưởng thành **237.329.000**, lực lượng
-lao động **154.715.000**, tham gia **65,2%**, thất nghiệp **9,9%** — cao hơn cả năm 2009.
+> [!note]
+> Bài tập 2 tr. 353 (số liệu 4/2010) được giải trong code: dân số trưởng thành **237.329.000**, lực lượng
+> lao động **154.715.000**, tham gia **65,2%**, thất nghiệp **9,9%** — cao hơn cả năm 2009.
 
 ---
 
@@ -159,45 +168,47 @@ Ba so sánh sách chỉ ra (tr. 334):
    ③  THANH THIẾU NIÊN tham gia LLLĐ thấp hơn và thất nghiệp cao hơn NHIỀU
 ```
 
-⚠️ **Tỷ lệ chung năm 2009 là 9,3%. Nhưng trong cùng năm đó các nhóm trải từ 6,8% đến 46,0% — chênh 6,8 lần.**
+> [!warning] Tỷ lệ chung năm 2009 là 9,3%. Nhưng trong cùng năm đó các nhóm trải từ 6,8% đến 46,0% — chênh 6,8 lần.
 
-💼 Hệ quả rất thực dụng: nếu bạn tuyển **lao động phổ thông trẻ**, thị trường lao động của bạn **không
-phải** thị trường mà bạn đọc thấy trên báo. Con số 9,3% không mô tả tình hình tuyển dụng của bạn.
+> [!example]
+> Hệ quả rất thực dụng: nếu bạn tuyển **lao động phổ thông trẻ**, thị trường lao động của bạn **không
+> phải** thị trường mà bạn đọc thấy trên báo. Con số 9,3% không mô tả tình hình tuyển dụng của bạn.
 
-### 📚 Nam và nữ trong lực lượng lao động — Hình 3, tr. 336
-
-![Hình 3 — tr. 336, bản chụp giáo trình](../tai_lieu/hinh/ch15-hinh-03-tr336.png)
-
-| | 1950 | 2009 |
-| --- | ---: | ---: |
-| Nữ tham gia LLLĐ  | **33%** | **59%** |
-| Nam tham gia LLLĐ | **87%** | **72%** |
-
-Nguyên nhân **nữ tăng** (tr. 335–336): công nghệ mới (máy giặt, máy sấy, tủ lạnh, tủ đông, máy rửa chén)
-giảm thời gian việc nhà; kiểm soát sinh sản cải tiến giảm số con; thay đổi thái độ chính trị và xã hội.
-
-![Hình 2 — tr. 335, bản chụp giáo trình](../tai_lieu/hinh/ch15-hinh-02-tr335.png)
-
-⚠️ Nhưng sách nói **nam giảm khó hiểu hơn**, và nêu ba lý do (tr. 336):
-
-```
-   ① nam thanh niên ngày nay HỌC lâu hơn cha ông họ
-   ② nam lớn tuổi NGHỈ HƯU SỚM hơn và SỐNG LÂU hơn
-   ③ nhiều phụ nữ đi làm hơn ⟹ nhiều NGƯỜI CHA Ở NHÀ chăm con
-```
-
-⭐ Cả ba nhóm — sinh viên toàn thời gian, người nghỉ hưu, người cha ở nhà — **đều được tính ngoài lực
-lượng lao động**. Tức là "tham gia LLLĐ giảm" không đồng nghĩa "tình hình xấu đi".
+> [!note] Nam và nữ trong lực lượng lao động — Hình 3, tr. 336
+>
+> ![Hình 3 — tr. 336, bản chụp giáo trình](../tai_lieu/hinh/ch15-hinh-03-tr336.png)
+>
+> | | 1950 | 2009 |
+> | --- | ---: | ---: |
+> | Nữ tham gia LLLĐ  | **33%** | **59%** |
+> | Nam tham gia LLLĐ | **87%** | **72%** |
+>
+> Nguyên nhân **nữ tăng** (tr. 335–336): công nghệ mới (máy giặt, máy sấy, tủ lạnh, tủ đông, máy rửa chén)
+> giảm thời gian việc nhà; kiểm soát sinh sản cải tiến giảm số con; thay đổi thái độ chính trị và xã hội.
+>
+> ![Hình 2 — tr. 335, bản chụp giáo trình](../tai_lieu/hinh/ch15-hinh-02-tr335.png)
+>
+> ⚠️ Nhưng sách nói **nam giảm khó hiểu hơn**, và nêu ba lý do (tr. 336):
+>
+> ```
+>    ① nam thanh niên ngày nay HỌC lâu hơn cha ông họ
+>    ② nam lớn tuổi NGHỈ HƯU SỚM hơn và SỐNG LÂU hơn
+>    ③ nhiều phụ nữ đi làm hơn ⟹ nhiều NGƯỜI CHA Ở NHÀ chăm con
+> ```
+>
+> ⭐ Cả ba nhóm — sinh viên toàn thời gian, người nghỉ hưu, người cha ở nhà — **đều được tính ngoài lực
+> lượng lao động**. Tức là "tham gia LLLĐ giảm" không đồng nghĩa "tình hình xấu đi".
 
 ---
 
-## 4. ⚠️ Tỷ lệ thất nghiệp đếm thiếu và đếm thừa cái gì
+## 4. Tỷ lệ thất nghiệp đếm thiếu và đếm thừa cái gì
 
 Sách đặt câu hỏi thẳng ở tiêu đề mục (tr. 336): *"Có phải tỷ lệ thất nghiệp đo lường được khái niệm thất
 nghiệp chúng ta muốn lượng hoá?"*
 
 ### Nguồn gốc của vấn đề: dòng người ra vào rất lớn
 
+> [!quote]
 > *"Hơn **một phần ba** số người thất nghiệp là những người mới tham gia lực lượng lao động… Gần như
 > **một nửa** tất cả các đợt thất nghiệp kết thúc khi người thất nghiệp **rời lực lượng lao động**."*
 > — tr. 337
@@ -212,69 +223,72 @@ người đó **bỏ cuộc**.
 | **Đếm thừa** | người khai thất nghiệp nhưng không thật sự tìm việc (để nhận trợ cấp), hoặc đang làm việc **"dưới bàn"** để tránh thuế | tỷ lệ có vẻ **cao** hơn thực tế |
 | **Đếm thiếu** | **lao động nản chí** | tỷ lệ có vẻ **thấp** hơn thực tế |
 
+> [!quote]
 > **Lao động nản chí** (*discouraged workers*): những người mong muốn có một công việc nhưng **đã từ bỏ
 > việc tìm kiếm việc làm**. — chú thích tr. 337
 
+> [!quote]
 > *"Những người này… **không hiện diện trong thống kê thất nghiệp**, mặc dù họ thực sự là những người lao
 > động không có việc."*
 
-### 📚 Sáu chỉ số của BLS — Bảng 2, tr. 337
+> [!note] Sáu chỉ số của BLS — Bảng 2, tr. 337
+>
+> ![Bảng 2 — tr. 337, bản chụp giáo trình](../tai_lieu/hinh/ch15-bang-02-tr337.png)
+>
+> | Mã | Nội dung | |
+> | -- | -------- | - |
+> | **U-1** | thất nghiệp từ 15 tuần trở lên | hẹp nhất |
+> | **U-2** | mất việc + vừa kết thúc việc tạm thời | |
+> | **U-3** | tổng số thất nghiệp — **tỷ lệ thất nghiệp chính thức** | ← con số trên báo |
+> | **U-4** | U-3 + **lao động nản chí** | |
+> | **U-5** | U-3 + toàn bộ công nhân không việc (*marginally attached*) | |
+> | **U-6** | U-5 + người làm **bán thời gian vì lý do kinh tế** | rộng nhất |
+>
+> Sách kết rất cân trọng (tr. 338):
+>
+> > *"Rốt cuộc tốt nhất là nên xem tỷ lệ thất nghiệp chính thức như là một chỉ số đo lường tình trạng không
+> > việc làm **hữu ích nhưng không hoàn hảo**."*
 
-![Bảng 2 — tr. 337, bản chụp giáo trình](../tai_lieu/hinh/ch15-bang-02-tr337.png)
+> [!example] Cách đọc tin cho đúng
+>
+> ⚠️ *"Thất nghiệp giảm"* có **hai** cách xảy ra, ngược nhau hoàn toàn:
+>
+> ```
+>    người ta TÌM ĐƯỢC VIỆC        →  tin TỐT
+>    người ta BỎ CUỘC, rời LLLĐ    →  tin XẤU
+>    ⟹ cả hai đều làm con số U-3 GIẢM
+> ```
+>
+> 📌 **Luôn nhìn kèm tỷ lệ tham gia lực lượng lao động.** Nếu tỷ lệ thất nghiệp **và** tỷ lệ tham gia cùng
+> giảm, đó là tin xấu chứ không phải tin tốt.
 
-| Mã | Nội dung | |
-| -- | -------- | - |
-| **U-1** | thất nghiệp từ 15 tuần trở lên | hẹp nhất |
-| **U-2** | mất việc + vừa kết thúc việc tạm thời | |
-| **U-3** | tổng số thất nghiệp — **tỷ lệ thất nghiệp chính thức** | ← con số trên báo |
-| **U-4** | U-3 + **lao động nản chí** | |
-| **U-5** | U-3 + toàn bộ công nhân không việc (*marginally attached*) | |
-| **U-6** | U-5 + người làm **bán thời gian vì lý do kinh tế** | rộng nhất |
-
-Sách kết rất cân trọng (tr. 338):
-
-> *"Rốt cuộc tốt nhất là nên xem tỷ lệ thất nghiệp chính thức như là một chỉ số đo lường tình trạng không
-> việc làm **hữu ích nhưng không hoàn hảo**."*
-
-### 💼 Cách đọc tin cho đúng
-
-⚠️ *"Thất nghiệp giảm"* có **hai** cách xảy ra, ngược nhau hoàn toàn:
-
-```
-   người ta TÌM ĐƯỢC VIỆC        →  tin TỐT
-   người ta BỎ CUỘC, rời LLLĐ    →  tin XẤU
-   ⟹ cả hai đều làm con số U-3 GIẢM
-```
-
-📌 **Luôn nhìn kèm tỷ lệ tham gia lực lượng lao động.** Nếu tỷ lệ thất nghiệp **và** tỷ lệ tham gia cùng
-giảm, đó là tin xấu chứ không phải tin tốt.
-
-### 📚 Số việc làm — hai cuộc khảo sát khác nhau, hộp tr. 340
-
-BLS công bố **hai** con số cùng lúc, từ **hai** khảo sát khác nhau:
-
-| Khảo sát | Quy mô | Đo được | Không đo được |
-| -------- | ------ | ------- | ------------- |
-| **hộ gia đình** | 60.000 hộ | ai có việc, ai **đang tìm việc** | — |
-| **doanh nghiệp** | 160.000 DN, ~40 triệu lao động | số việc làm; mẫu lớn hơn nên **đáng tin hơn** | ❌ số người **thất nghiệp** |
-
-⚠️ Sách nêu hai lý do hai khảo sát cho kết quả khác nhau (tr. 340):
-
-```
-   • một người làm bán thời gian ở HAI công ty
-     → khảo sát hộ gia đình đếm là MỘT NGƯỜI có việc
-     → khảo sát doanh nghiệp đếm là HAI VIỆC LÀM
-   • một người điều hành doanh nghiệp nhỏ CỦA CHÍNH MÌNH
-     → khảo sát hộ gia đình: CÓ việc làm
-     → khảo sát doanh nghiệp: KHÔNG xuất hiện (chỉ tính người trong bảng lương)
-```
+> [!note] Số việc làm — hai cuộc khảo sát khác nhau, hộp tr. 340
+>
+> BLS công bố **hai** con số cùng lúc, từ **hai** khảo sát khác nhau:
+>
+> | Khảo sát | Quy mô | Đo được | Không đo được |
+> | -------- | ------ | ------- | ------------- |
+> | **hộ gia đình** | 60.000 hộ | ai có việc, ai **đang tìm việc** | — |
+> | **doanh nghiệp** | 160.000 DN, ~40 triệu lao động | số việc làm; mẫu lớn hơn nên **đáng tin hơn** | ❌ số người **thất nghiệp** |
+>
+> ⚠️ Sách nêu hai lý do hai khảo sát cho kết quả khác nhau (tr. 340):
+>
+> ```
+>    • một người làm bán thời gian ở HAI công ty
+>      → khảo sát hộ gia đình đếm là MỘT NGƯỜI có việc
+>      → khảo sát doanh nghiệp đếm là HAI VIỆC LÀM
+>    • một người điều hành doanh nghiệp nhỏ CỦA CHÍNH MÌNH
+>      → khảo sát hộ gia đình: CÓ việc làm
+>      → khảo sát doanh nghiệp: KHÔNG xuất hiện (chỉ tính người trong bảng lương)
+> ```
 
 ---
 
-## 5. ⚠️⚠️ Nghịch lý thời gian thất nghiệp
+## 5. Nghịch lý thời gian thất nghiệp
 
 Đây là kết quả tinh tế nhất của cả chương. Sách phát biểu nó bằng chữ in nghiêng (tr. 338):
 
+> [!quote]
 > *"**Hầu như các đợt thất nghiệp đều ngắn, và hầu hết số lượng thất nghiệp quan sát tại bất kỳ thời điểm
 > nào là dài hạn.**"*
 
@@ -300,8 +314,9 @@ tuần, còn người ngắn hạn chỉ xuất hiện **một** tuần rồi bi
 Code kiểm thêm rằng đây **không** phải trường hợp đặc biệt — với mọi tổ hợp thông số, tỷ lệ đợt ngắn luôn
 rất cao (84%–99%). **Nghịch lý này là đặc tính của cách đếm**, không phải của số liệu.
 
-### ⚠️ Hệ quả chính sách — sách nói rất thẳng
+### Hệ quả chính sách — sách nói rất thẳng
 
+> [!quote]
 > *"Đa số mọi người khi thất nghiệp sẽ sớm tìm được việc làm. Nhưng hầu hết vấn đề thất nghiệp của nền
 > kinh tế xuất phát từ **một số tương đối ít** những người không có việc làm trong thời gian dài."* — tr. 338
 
@@ -319,13 +334,14 @@ Sách chia thành **hai loại** (chú thích tr. 339):
 | **Thất nghiệp cọ xát** | *"xảy ra vì người lao động **tốn thời gian** để tìm kiếm công việc phù hợp với sở thích và khả năng của mình"* | ① tìm việc | **ngắn** |
 | **Thất nghiệp cơ cấu** | *"xảy ra vì một số thị trường lao động **không cung cấp đủ việc làm** cho tất cả những người tìm việc"* | ② lương tối thiểu · ③ công đoàn · ④ tiền lương hiệu quả | **dài** |
 
-### ⚠️ Phân biệt hai loại — sách nói rất gọn ở tr. 345
+### Phân biệt hai loại — sách nói rất gọn ở tr. 345
 
 ```
    CỌ XÁT:  công nhân TÌM công việc   — việc CÓ đủ, chỉ chưa khớp
    CƠ CẤU:  công nhân ĐỢI công việc   — lương trên cân bằng nên việc KHÔNG đủ
 ```
 
+> [!quote]
 > *"Trái lại, khi tiền lương ở trên mức cân bằng, lượng cung lao động vượt quá lượng cầu lao động, và
 > công nhân thất nghiệp vì họ phải **đợi** công việc đến."* — tr. 345
 
@@ -338,6 +354,7 @@ mức cân bằng. Khác nhau chỉ ở **ai** giữ nó ở đó.
 
 ## 7. Nguyên nhân 1 — tìm việc, và bảo hiểm thất nghiệp
 
+> [!quote]
 > **Tìm việc** (*job search*): quá trình người lao động tìm công việc thích hợp với sở thích và khả năng
 > của mình. — chú thích tr. 339
 
@@ -368,8 +385,9 @@ Ví dụ giá dầu của sách (tr. 340) rất hay vì nó **hai chiều cùng 
    ⟹ tổng số việc làm có thể không đổi, nhưng vẫn sinh ra thất nghiệp cọ xát
 ```
 
-### ⚠️ Bảo hiểm thất nghiệp **làm tăng** thất nghiệp — và sách thừa nhận thẳng
+### Bảo hiểm thất nghiệp **làm tăng** thất nghiệp — và sách thừa nhận thẳng
 
+> [!quote]
 > **Bảo hiểm thất nghiệp** (*unemployment insurance*): chương trình của chính phủ góp phần duy trì một
 > phần thu nhập cho người lao động khi họ bị thất nghiệp. — chú thích tr. 342
 
@@ -378,6 +396,7 @@ bị **sa thải có nguyên nhân**, hoặc **mới tham gia** lực lượng l
 
 Cơ chế — đây là **Nguyên lý 4** (con người phản ứng với động cơ khuyến khích):
 
+> [!quote]
 > *"Vì khoản tiền nhận được khi thất nghiệp sẽ chấm dứt khi người lao động tìm được việc làm mới, người
 > thất nghiệp sẽ **ít có nỗ lực kiếm việc hơn** và có xu hướng **không quan tâm đến các công việc kém hấp
 > dẫn**."* — tr. 342
@@ -397,8 +416,9 @@ Nó cho thấy chính sách thay đổi **hành vi**, không chỉ thay đổi t
 Một bằng chứng khác (tr. 342): khi người thất nghiệp **hết tiêu chuẩn** nhận trợ cấp (sau 6 tháng hoặc
 một năm), *"xác suất họ tìm được việc mới tăng lên rõ rệt"*.
 
-### ⚠️ Nhưng sách **không** kết luận "nên bỏ"
+### Nhưng sách **không** kết luận "nên bỏ"
 
+> [!quote]
 > *"Hầu hết các nhà kinh tế đồng ý rằng xóa bỏ bảo hiểm thất nghiệp có thể làm **giảm** lượng thất nghiệp
 > trong nền kinh tế. Nhưng các nhà kinh tế **không thống nhất** được việc thay đổi chính sách này sẽ làm
 > tăng hay giảm **phúc lợi kinh tế** của quốc gia."* — tr. 343
@@ -441,7 +461,7 @@ làm 1.000:
 | **120** | **840** | **1.120** | **280** | **25,0%** |
 | 150 | 600 | 1.300 | 700 | 53,8% |
 
-### ⭐ Tách thất nghiệp làm **hai** phần — chỗ hay bị bỏ sót
+### Tách thất nghiệp làm **hai** phần — chỗ hay bị bỏ sót
 
 Ở lương sàn 120:
 
@@ -452,33 +472,35 @@ làm 1.000:
    TỔNG THẤT NGHIỆP                                =  280 người
 ```
 
-⚠️ Một phần đáng kể người thất nghiệp **không phải** người bị đuổi việc, mà là người **trước đây không tìm
-việc**, nay thấy lương hấp dẫn nên vào tìm. Hình 4 thể hiện đúng điều đó: $L_S$ nằm bên **phải** $L_E$.
+> [!warning]
+> Một phần đáng kể người thất nghiệp **không phải** người bị đuổi việc, mà là người **trước đây không tìm
+> việc**, nay thấy lương hấp dẫn nên vào tìm. Hình 4 thể hiện đúng điều đó: $L_S$ nằm bên **phải** $L_E$.
 
-### 📚 Ai thực sự nhận lương tối thiểu — hộp "Bạn có biết", tr. 344
+> [!note] Ai thực sự nhận lương tối thiểu — hộp "Bạn có biết", tr. 344
+>
+> Nghiên cứu của Bộ Lao động công bố năm 2010 (số liệu 2009; tháng 7 năm đó lương tối thiểu tăng từ
+> **6,55 USD** lên **7,25 USD/giờ**):
+>
+> | | |
+> | --- | ---: |
+> | nam giới làm theo giờ nhận ≤ lương tối thiểu | ~4% |
+> | nữ giới làm theo giờ nhận ≤ lương tối thiểu | ~6% |
+> | người hưởng lương tối thiểu **dưới 25 tuổi** | ~**một nửa** |
+> | thanh niên (16–19) làm việc nhận ≤ mức tối thiểu | **19%** |
+> | người **từ 25 tuổi trở lên** nhận ≤ mức tối thiểu | **3%** |
+> | người làm **bán** thời gian nhận mức tối thiểu | 11% |
+> | người làm **toàn** thời gian nhận mức tối thiểu | 2% |
+> | ngành có tỷ lệ cao nhất: **công nghiệp giải trí** | **21%** |
+>
+> ⭐ Sách kết luận (tr. 344): luật lương tối thiểu *"chỉ tác động đến nhóm lao động **ít kỹ năng và ít kinh
+> nghiệm**… Lương cân bằng của họ có xu hướng thấp và do đó thường **dưới** mức lương tối thiểu."*
+>
+> ⚠️ Sách cũng ghi chú một điểm phương pháp (tr. 344): con số thực có thể bị lệch vì luật *"không được thực
+> thi tốt"* ở một số nơi, và vì *"một số công nhân làm tròn số xuống khi báo cáo mức lương của họ"*.
 
-Nghiên cứu của Bộ Lao động công bố năm 2010 (số liệu 2009; tháng 7 năm đó lương tối thiểu tăng từ
-**6,55 USD** lên **7,25 USD/giờ**):
+### Bài học tổng quát — sách in nghiêng ở tr. 344
 
-| | |
-| --- | ---: |
-| nam giới làm theo giờ nhận ≤ lương tối thiểu | ~4% |
-| nữ giới làm theo giờ nhận ≤ lương tối thiểu | ~6% |
-| người hưởng lương tối thiểu **dưới 25 tuổi** | ~**một nửa** |
-| thanh niên (16–19) làm việc nhận ≤ mức tối thiểu | **19%** |
-| người **từ 25 tuổi trở lên** nhận ≤ mức tối thiểu | **3%** |
-| người làm **bán** thời gian nhận mức tối thiểu | 11% |
-| người làm **toàn** thời gian nhận mức tối thiểu | 2% |
-| ngành có tỷ lệ cao nhất: **công nghiệp giải trí** | **21%** |
-
-⭐ Sách kết luận (tr. 344): luật lương tối thiểu *"chỉ tác động đến nhóm lao động **ít kỹ năng và ít kinh
-nghiệm**… Lương cân bằng của họ có xu hướng thấp và do đó thường **dưới** mức lương tối thiểu."*
-
-⚠️ Sách cũng ghi chú một điểm phương pháp (tr. 344): con số thực có thể bị lệch vì luật *"không được thực
-thi tốt"* ở một số nơi, và vì *"một số công nhân làm tròn số xuống khi báo cáo mức lương của họ"*.
-
-### ⭐⭐ Bài học tổng quát — sách in nghiêng ở tr. 344
-
+> [!quote]
 > *"**Nếu mức lương được giữ trên mức cân bằng vì bất cứ lý do gì, kết quả sẽ là thất nghiệp.**"*
 
 📌 Luật lương tối thiểu chỉ là **một** trong ba lý do. Hai lý do còn lại — công đoàn (mục 9) và tiền lương
@@ -505,16 +527,19 @@ hiệu quả (mục 10) — dùng **cùng một hình vẽ**.
 
 ### Cơ chế — giống hệt lương tối thiểu
 
+> [!quote]
 > *"Công đoàn là một loại **liên minh phía người bán theo kiểu cartel**."* — tr. 345
 
 Kết quả điển hình (tr. 346): đoàn viên nhận thu nhập cao hơn **10 đến 20%** so với người không tham gia
 công đoàn. Và:
 
+> [!quote]
 > *"Khi nâng mức lương trên mức cân bằng thị trường, công đoàn làm **tăng lượng cung** lao động và **giảm
 > lượng cầu** lao động và do đó **tạo ra thất nghiệp**."*
 
-### ⚠️ Ai được, ai mất — đoạn sắc nhất của mục này
+### Ai được, ai mất — đoạn sắc nhất của mục này
 
+> [!quote]
 > *"…công đoàn thường bị coi là nguyên nhân gây ra xung đột giữa những **nhóm người lao động khác nhau** –
 > giữa những **người nội bộ** nhận được lương công đoàn cao và những **người bên ngoài** không có việc làm."*
 > — tr. 346
@@ -530,22 +555,22 @@ Và cơ chế lan toả sang khu vực không có công đoàn:
       không trong công đoàn thì CHỊU CHI PHÍ"
 ```
 
-### 📚 Vì sao công đoàn được **miễn** luật chống độc quyền — tr. 346
+> [!note] Vì sao công đoàn được **miễn** luật chống độc quyền — tr. 346
+>
+> Một chi tiết thể chế đáng nhớ:
+>
+> ```
+>    doanh nghiệp bán hàng tương tự thoả thuận TĂNG GIÁ
+>       →  "âm mưu kìm hãm thương mại"  →  bị kiện dân sự VÀ hình sự
+>    công đoàn thoả thuận tập thể về LƯƠNG
+>       →  ĐƯỢC MIỄN TRỪ khỏi các luật này
+> ```
+>
+> Lý do các nhà làm luật đưa ra: *"người lao động cần quyền lực thị trường lớn hơn khi thương lượng với
+> người sử dụng lao động."* Công cụ pháp lý: **Đạo luật Wagner năm 1935** và **Uỷ ban Quan hệ Lao động Quốc
+> gia (NLRB)**.
 
-Một chi tiết thể chế đáng nhớ:
-
-```
-   doanh nghiệp bán hàng tương tự thoả thuận TĂNG GIÁ
-      →  "âm mưu kìm hãm thương mại"  →  bị kiện dân sự VÀ hình sự
-   công đoàn thoả thuận tập thể về LƯƠNG
-      →  ĐƯỢC MIỄN TRỪ khỏi các luật này
-```
-
-Lý do các nhà làm luật đưa ra: *"người lao động cần quyền lực thị trường lớn hơn khi thương lượng với
-người sử dụng lao động."* Công cụ pháp lý: **Đạo luật Wagner năm 1935** và **Uỷ ban Quan hệ Lao động Quốc
-gia (NLRB)**.
-
-### ⚠️ Sách trình bày **cả hai phía** — không kết luận một chiều
+### Sách trình bày **cả hai phía** — không kết luận một chiều
 
 | Phê phán (tr. 347) | Ủng hộ (tr. 347) |
 | ------------------ | ---------------- |
@@ -559,22 +584,25 @@ Sách kết: *"công đoàn có thể **có ích trong một số trường hợ
 
 ## 10. Nguyên nhân 4 — lý thuyết tiền lương hiệu quả
 
+> [!quote]
 > **Tiền lương hiệu quả** (*efficiency wages*): mức lương **trên** mức cân bằng mà **doanh nghiệp trả**
 > để tăng năng suất lao động. — chú thích tr. 348
 
-### ⚠️ Khác biệt quan trọng với mục 8 và 9
+### Khác biệt quan trọng với mục 8 và 9
 
 ```
    lương tối thiểu và công đoàn  →  NGĂN CẢN doanh nghiệp giảm lương
    tiền lương hiệu quả           →  doanh nghiệp TỰ NGUYỆN giữ lương cao
 ```
 
+> [!quote]
 > *"Lý thuyết tiền lương hiệu quả tuyên bố rằng những ràng buộc như vậy đối với các doanh nghiệp là
 > **không cần thiết** trong nhiều trường hợp vì doanh nghiệp có thể **có lợi nhiều hơn** nếu giữ mức lương
 > trên mức cân bằng."* — tr. 348
 
-### ⭐ Nghịch lý trung tâm
+### Nghịch lý trung tâm
 
+> [!quote]
 > *"Ý nghĩa sâu sắc của lý thuyết tiền lương hiệu quả là **trả lương cao có thể mang lại lợi nhuận** vì có
 > thể làm tăng năng suất lao động của người lao động."* — tr. 348
 
@@ -595,6 +623,7 @@ máy Ford"*.
 
 Kết quả thật mà sách ghi lại:
 
+> [!quote]
 > *"Số bỏ việc giảm, vắng mặt giảm và năng suất tăng. Công nhân làm việc hiệu quả đến nỗi **chi phí sản
 > xuất của Ford thấp hơn mặc dù lương cao hơn**."*
 
@@ -619,8 +648,9 @@ Mục 9 của [code minh hoạ](#13-code-minh-hoạ) dựng một **mô hình mi
    ⟹ trả lương GẤP 2 LẦN mà tổng chi phí lao động GIẢM 11%
 ```
 
-### ⭐ Vì sao là Ford mà không phải công ty khác — tr. 350
+### Vì sao là Ford mà không phải công ty khác — tr. 350
 
+> [!quote]
 > *"…quyết định của Ford liên quan chặt chẽ đến việc sử dụng **dây chuyền lắp ráp**. Công nhân làm việc
 > trong một dây chuyền lắp ráp liên quan với nhau rất chặt chẽ. **Nếu một công nhân vắng mặt hay làm việc
 > chậm, các công nhân khác khó có thể hoàn thành công việc của họ.**"*
@@ -631,7 +661,7 @@ Công việc độc lập, thay người dễ → ít có lý do.
 
 ---
 
-## 11. 💼 Góc QTKD — bốn nguyên nhân, đọc ngược lại cho người tuyển dụng
+## 11. Góc QTKD — bốn nguyên nhân, đọc ngược lại cho người tuyển dụng
 
 ### ① Trước khi tăng lương để giữ người, hãy tính con số này
 
@@ -653,7 +683,8 @@ Với 50 vị trí, thử tăng lương và xem tỷ lệ nghỉ việc giảm:
 | 10% | 25% |   900.000.000 | 487.500.000 | 1.387.500.000 |
 | 25% | 15% | 2.250.000.000 | 292.500.000 | 2.542.500.000 |
 
-⚠️ **Trong ví dụ này, tăng lương KHÔNG hoà vốn.** Chi phí lương tăng nhanh hơn phần tiết kiệm được.
+> [!warning] Trong ví dụ này, tăng lương KHÔNG hoà vốn.
+> Chi phí lương tăng nhanh hơn phần tiết kiệm được.
 
 ⭐ Đó **không** phải kết luận "tiền lương hiệu quả là sai". Đó là kết luận rằng **nhánh ② một mình thường
 không đủ**. Ford hưởng lợi từ **cả bốn nhánh** cùng lúc — đặc biệt nhánh ④ nhờ dây chuyền lắp ráp.
@@ -670,7 +701,7 @@ lương chứ không phải 2,6 tháng, kết luận sẽ đảo chiều.
 | **công đoàn** | thương lượng **tập thể** khác hẳn thương lượng cá nhân — chuẩn bị khác nhau |
 | **lương hiệu quả** | trả **trên** thị trường có thể **rẻ hơn**, nhất là khi công việc phụ thuộc lẫn nhau |
 
-### ③ ⚠️ Đừng dùng tỷ lệ thất nghiệp quốc gia làm chuẩn tuyển dụng
+### ③ Đừng dùng tỷ lệ thất nghiệp quốc gia làm chuẩn tuyển dụng
 
 Từ [mục 3](#3-bảng-1--con-số-tổng-thể-che-giấu-những-thế-giới-rất-khác-nhau): cùng năm 2009, tỷ lệ chung
 9,3% nhưng các nhóm trải từ 6,8% đến 46,0%. Thị trường lao động của bạn được xác định bởi **kỹ năng, độ
@@ -685,15 +716,16 @@ tr. 341.
 
 ---
 
-## 12. 📚 Đối chiếu Việt Nam
+## 12. Đối chiếu Việt Nam
 
-⚠️ **Cảnh báo:** phần này nằm ngoài sách và tôi ghi theo trí nhớ có giới hạn. **Hãy tra lại nguồn chính
-thức trước khi dùng vào báo cáo.**
+> [!warning] Cảnh báo:
+> phần này nằm ngoài sách và tôi ghi theo trí nhớ có giới hạn. **Hãy tra lại nguồn chính
+> thức trước khi dùng vào báo cáo.**
 
-### ⚠️ Tỷ lệ thất nghiệp công bố của Việt Nam thường rất thấp — và điều đó **không** có nghĩa là mọi thứ tốt
+### Tỷ lệ thất nghiệp công bố của Việt Nam thường rất thấp — và điều đó **không** có nghĩa là mọi thứ tốt
 
 Con số thất nghiệp công bố ở Việt Nam thường thấp hơn nhiều so với các nước phát triển. Lý do nằm gọn
-trong [mục 4](#4--tỷ-lệ-thất-nghiệp-đếm-thiếu-và-đếm-thừa-cái-gì):
+trong [mục 4](#4-tỷ-lệ-thất-nghiệp-đếm-thiếu-và-đếm-thừa-cái-gì):
 
 ```
    định nghĩa "thất nghiệp" đòi hỏi ĐANG TÌM VIỆC và KHÔNG LÀM GÌ CẢ
@@ -739,6 +771,7 @@ hỏi mà sách nói rõ là **các nhà kinh tế chưa thống nhất**.
 
 ## 13. Code minh hoạ
 
+> [!note]
 > ⚙️ **Chạy:** cần **Python 3.10+**. Lưu file rồi gõ `python3 bai-06-that-nghiep.py`.
 > Không cần cài gói nào — chỉ dùng thư viện chuẩn. Kết quả **tất định**.
 > Bản đầy đủ nằm ở [`thuc_hanh/bai-06-that-nghiep.py`](../thuc_hanh/bai-06-that-nghiep.py).
@@ -1917,10 +1950,10 @@ Kết quả chạy thật:
   - Bảng năng suất theo lương của Ford ở [mục 10](#10-nguyên-nhân-4--lý-thuyết-tiền-lương-hiệu-quả) là **số
     liệu do bài này đặt ra**, không phải của sách. Sách chỉ mô tả kết quả bằng lời (bỏ việc giảm, vắng mặt
     giảm, năng suất tăng, chi phí sản xuất thấp hơn).
-  - Bài toán chi phí thay người ở [mục 11①](#11--góc-qtkd--bốn-nguyên-nhân-đọc-ngược-lại-cho-người-tuyển-dụng)
+  - Bài toán chi phí thay người ở [mục 11①](#11-góc-qtkd--bốn-nguyên-nhân-đọc-ngược-lại-cho-người-tuyển-dụng)
     hoàn toàn nằm ngoài sách, và **kết luận của nó là "không hoà vốn"** — được giữ nguyên chứ không chỉnh
     số cho ra kết quả đẹp.
-  - [Mục 12 — Đối chiếu Việt Nam](#12--đối-chiếu-việt-nam) nằm ngoài sách.
+  - [Mục 12 — Đối chiếu Việt Nam](#12-đối-chiếu-việt-nam) nằm ngoài sách.
 - **Liên hệ chéo:**
   - [Bài 0 mục 5](bai_00_tu_vi_mo_sang_vi_mo.md#5-đường-giới-hạn-khả-năng-sản-xuất--nền-móng-của-ngắn-hạn--dài-hạn) — thất nghiệp là điểm D bên trong đường giới hạn.
   - [Bài 3 mục 5](bai_03_san_xuat_va_tang_truong.md#5-năng-suất--lời-giải-trong-một-từ) — năng suất, biến trung tâm của tiền lương hiệu quả.

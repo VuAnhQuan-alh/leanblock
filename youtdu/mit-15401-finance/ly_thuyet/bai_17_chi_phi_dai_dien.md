@@ -1,16 +1,19 @@
 # Bài 17 — Chi phí đại diện, quản trị công ty và chính sách chi trả
 
+> [!info] Về bài này
 > 🏢 **PHẦN E — TÀI CHÍNH DOANH NGHIỆP.** Bài này **không đến từ video của Andrew Lo**.
 > Nó trả lời hai câu hỏi mà [bài 16 §18](bai_16_co_cau_von.md#18-đi-tiếp) để ngỏ:
 > *vì sao Apple mua lại 748 tỷ USD cổ phiếu thay vì giữ tiền?* và
 > *vì sao HVN chạy với D/E 5,1 suốt bảy năm mà không ai ngăn?*
 > Nguồn: Jensen & Meckling (1976); Myers (1977); Jensen (1986); Miller & Modigliani (1961);
 > Lintner (1956).
-> 📌 **Cần đọc trước:** [Bài 16](bai_16_co_cau_von.md) (cơ cấu vốn và kiệt quệ),
+>
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
+>
+> **Cần đọc trước:** [Bài 16](bai_16_co_cau_von.md) (cơ cấu vốn và kiệt quệ),
 > [Bài 8 §10](bai_08_quyen_chon.md#10-quyền-chọn-ở-khắp-nơi-vốn-chủ-sở-hữu-là-một-quyền-chọn-mua) (quyền chọn),
 > [Bài 14 §5](bai_14_doc_doanh_nghiep_bang_so.md#5-báo-cáo-lưu-chuyển-tiền-tệ--báo-cáo-khó-nói-dối-nhất)
 > (báo cáo lưu chuyển tiền tệ).
-> ⚠️ Số liệu Mỹ tới năm tài chính **2025**; số liệu Việt Nam tới báo cáo năm **2025**.
 
 ---
 
@@ -100,14 +103,16 @@ Nhà đầu tư không ngốc. Họ biết chuyện này sẽ xảy ra, nên h�
 | Nên họ định giá công ty 900 tỷ                          |              họ chỉ trả **720 tỷ** |
 | **Người sáng lập mất**                                  | **80 tỷ ngay tại bàn bán cổ phần** |
 
+> [!quote]
 > ⇒ Đó là lý do **quản trị công ty không phải trò chơi tổng bằng không** giữa "cổ đông" và "ban giám
 > đốc". Ràng buộc được mình một cách **đáng tin** thì người sáng lập **bán được giá cao hơn**. Cả hai
 > bên cùng được lợi.
 
-📚 Ba cơ chế ràng buộc, và cả ba đều tốn tiền: **hội đồng quản trị độc lập · kiểm toán độc lập · trả
-lương bằng cổ phiếu**. Jensen và Meckling gọi tổng của ba khoản này, cộng với phần bổng lộc **còn
-lại** không ngăn được, là **chi phí đại diện**. Nó không bao giờ bằng không — mục tiêu là làm nó nhỏ,
-không phải làm nó biến mất.
+> [!note]
+> Ba cơ chế ràng buộc, và cả ba đều tốn tiền: **hội đồng quản trị độc lập · kiểm toán độc lập · trả
+> lương bằng cổ phiếu**. Jensen và Meckling gọi tổng của ba khoản này, cộng với phần bổng lộc **còn
+> lại** không ngăn được, là **chi phí đại diện**. Nó không bao giờ bằng không — mục tiêu là làm nó nhỏ,
+> không phải làm nó biến mất.
 
 ---
 
@@ -141,15 +146,17 @@ trên thì họ hưởng trọn.
 
 ![Chuyển rủi ro](../hinh/bai17-chuyen-rui-ro.svg)
 
+> [!note]
 > **Vốn chủ của một công ty có nợ CHÍNH LÀ một quyền chọn mua** trên tài sản, giá thực hiện bằng
 > mệnh giá nợ — đúng cấu trúc payoff của [bài 8 §10](bai_08_quyen_chon.md#10-quyền-chọn-ở-khắp-nơi-vốn-chủ-sở-hữu-là-một-quyền-chọn-mua).
 > Và giá quyền chọn **tăng theo biến động**. Nên cổ đông của một công ty sắp vỡ nợ có động cơ **mua
 > thêm biến động**.
 
-⚠️ Không ai phạm pháp ở đây. Không ai nói dối. Đây là hai người cùng nhìn một dự án qua **hai hàm
-thanh toán khác nhau**. Đó là lý do hợp đồng vay có **điều khoản ràng buộc** (*covenants*): giới hạn
-đòn bẩy, cấm bán tài sản, cấm trả cổ tức quá mức. Các điều khoản đó **tốn tiền** — chúng cũng hạn
-chế cả những việc đáng lẽ nên làm. Đó là chi phí đại diện của nợ.
+> [!warning]
+> Không ai phạm pháp ở đây. Không ai nói dối. Đây là hai người cùng nhìn một dự án qua **hai hàm
+> thanh toán khác nhau**. Đó là lý do hợp đồng vay có **điều khoản ràng buộc** (*covenants*): giới hạn
+> đòn bẩy, cấm bán tài sản, cấm trả cổ tức quá mức. Các điều khoản đó **tốn tiền** — chúng cũng hạn
+> chế cả những việc đáng lẽ nên làm. Đó là chi phí đại diện của nợ.
 
 ---
 
@@ -171,6 +178,7 @@ cả hai trạng thái**. NPV = **+10 tỷ**. Nên làm.
 Cổ đông được thêm 15 tỷ giá trị kỳ vọng, nhưng phải bỏ ra 20 tỷ. Lãi ròng của **riêng cổ đông:
 −5 tỷ**.
 
+> [!note]
 > **Dự án có NPV +10 tỷ bị từ chối.**
 
 Tiền đi đâu? **Sang chủ nợ.** Trong trạng thái xấu, 30 tỷ mới làm giá trị nợ tăng từ 60 lên 90 tỷ.
@@ -181,9 +189,10 @@ Cổ đông bỏ tiền, chủ nợ hưởng.
 thích được: công ty kiệt quệ **cắt đầu tư vào dự án tốt**. Không phải vì họ không nhìn ra dự án. Mà
 vì lợi ích của dự án chảy sang người khác.
 
-⚠️ Và nó giải thích vì sao **gói cứu trợ bằng cho vay thêm thường thất bại**: tiền mới vào làm tăng
-giá trị của **nợ cũ** trước khi làm được gì khác. Muốn hiệu quả thì phải **xoá nợ hoặc bơm vốn chủ**,
-không phải cho vay thêm.
+> [!warning]
+> Và nó giải thích vì sao **gói cứu trợ bằng cho vay thêm thường thất bại**: tiền mới vào làm tăng
+> giá trị của **nợ cũ** trước khi làm được gì khác. Muốn hiệu quả thì phải **xoá nợ hoặc bơm vốn chủ**,
+> không phải cho vay thêm.
 
 ---
 
@@ -207,6 +216,7 @@ Nhà đầu tư giữ 10 cổ phiếu:
 7 cp × 10 = 70 tỷ, cộng 30 tỷ tiền mặt = **100 tỷ**. Y hệt. Ngược lại, không muốn nhận cổ tức? Lấy
 tiền đó mua thêm cổ phiếu.
 
+> [!note]
 > ⇒ **Mệnh đề MM về cổ tức:** trong thị trường không ma sát, chính sách cổ tức **không** ảnh hưởng
 > giá trị. Giá trị đến từ **đầu tư**, không từ cách chia tiền.
 
@@ -215,8 +225,9 @@ với trái phiếu, [bài 8 §19](bai_08_quyen_chon.md#19-ngang-giá-putcall--c
 chọn, [bài 16 §2](bai_16_co_cau_von.md#2-định-lý-modigliani-và-miller--đòn-bẩy-tự-chế) với đòn bẩy,
 và giờ với cổ tức.
 
-⚠️ **Và cũng cùng một cách dùng.** MM không nói cổ tức không quan trọng. MM nói *nếu* bốn giả định
-đúng thì nó không quan trọng:
+> [!warning] Và cũng cùng một cách dùng.
+> MM không nói cổ tức không quan trọng. MM nói *nếu* bốn giả định
+> đúng thì nó không quan trọng:
 
 |    # | Giả định                     | Vỡ ở đâu                              |
 | ---: | ---------------------------- | ------------------------------------- |
@@ -239,9 +250,10 @@ thì mất 0,05 tỷ. **Chênh 50 lần.**
 Đó là một lý do rất thật để nhà đầu tư cá nhân Việt Nam thích **mua lại cổ phiếu** hơn **cổ tức
 tiền mặt** — và cũng là lý do thuế không bao giờ trung lập giữa hai kênh chi trả.
 
-⚠️ Thuế suất trên **lãi vốn** thì không tồn tại ở Việt Nam: nhà nước thu theo **giá trị giao dịch**,
-nên người bán lỗ vẫn nộp thuế. Đây là một đặc điểm cần nhớ khi so sánh với sách giáo khoa Mỹ, nơi
-lãi vốn dài hạn có thuế suất riêng và lỗ được khấu trừ.
+> [!warning]
+> Thuế suất trên **lãi vốn** thì không tồn tại ở Việt Nam: nhà nước thu theo **giá trị giao dịch**,
+> nên người bán lỗ vẫn nộp thuế. Đây là một đặc điểm cần nhớ khi so sánh với sách giáo khoa Mỹ, nơi
+> lãi vốn dài hạn có thuế suất riêng và lỗ được khấu trừ.
 
 ---
 
@@ -281,6 +293,7 @@ Trung vị: **cổ tức mượt hơn lợi nhuận 2,8 lần.** Tổng cộng *
 Năm 2020 Exxon **lỗ 22,4 tỷ USD** — năm tệ nhất lịch sử công ty — và vẫn trả cổ tức **14,9 tỷ USD**,
 gần như y hệt năm trước đó. Rồi năm 2022 lãi 55,7 tỷ, gấp 2,4 lần năm 2019, và cổ tức vẫn **14,9**.
 
+> [!note]
 > Cổ tức không phải một biến số điều chỉnh hằng năm. Nó là một **cam kết**. Cắt cổ tức là thứ ban
 > giám đốc tránh bằng mọi giá, kể cả vay tiền để trả.
 
@@ -317,11 +330,12 @@ Lintner 1956 (28 doanh nghiệp Mỹ, 1947–1953): $c \approx 0{,}30$, $r \appr
 sự kéo cổ tức về một mục tiêu. Nhưng cả hai tham số đều **nhỏ hơn**: điều chỉnh **chậm hơn** và mục
 tiêu **thấp hơn** năm 1956.
 
-⚠️ **Một lưu ý phương pháp không được bỏ qua.** Chạy hồi quy này bằng cách gộp thẳng các doanh nghiệp
-lại cho ra kết quả **vô nghĩa** — $c$ âm. Lý do: gộp thẳng thì hệ số của $D_{t-1}$ đo chênh lệch
-**quy mô giữa các công ty** (IBM trả 6 tỷ, Ford trả 0,4 tỷ) chứ không đo hành vi điều chỉnh **bên
-trong** từng công ty. Phải chuẩn hoá theo quy mô rồi khử trung bình trong từng công ty — tức **hiệu
-ứng cố định**. Chương trình làm đúng thế, và ghi rõ lý do ngay trong hàm.
+> [!warning] Một lưu ý phương pháp không được bỏ qua.
+> Chạy hồi quy này bằng cách gộp thẳng các doanh nghiệp
+> lại cho ra kết quả **vô nghĩa** — $c$ âm. Lý do: gộp thẳng thì hệ số của $D_{t-1}$ đo chênh lệch
+> **quy mô giữa các công ty** (IBM trả 6 tỷ, Ford trả 0,4 tỷ) chứ không đo hành vi điều chỉnh **bên
+> trong** từng công ty. Phải chuẩn hoá theo quy mô rồi khử trung bình trong từng công ty — tức **hiệu
+> ứng cố định**. Chương trình làm đúng thế, và ghi rõ lý do ngay trong hàm.
 
 ### Rồi đổi một chữ trong định nghĩa, và mọi thứ đảo ngược
 
@@ -330,6 +344,7 @@ Chạy lại **đúng phương trình đó, đúng 200 quan sát đó**, chỉ �
 
 $$c = 0{,}507 \quad (t = +8{,}61) \qquad r = 24\%$$
 
+> [!note]
 > **Tốc độ điều chỉnh tăng từ 0,153 lên 0,507 — gấp 3,3 lần.**
 
 Đọc câu đó cho kỹ. Cùng một nhóm doanh nghiệp, cùng những năm đó, cùng một mẫu. Nếu chỉ nhìn **cổ
@@ -375,12 +390,14 @@ năm 2016, bật lên 171 năm 2025.
 
 ![Hai kênh chi trả](../hinh/bai17-co-tuc-vs-mua-lai.svg)
 
-⚠️ **Một cảnh báo về cách đọc bảng này.** "Mua lại cổ phiếu" **không** đồng nghĩa với "trả tiền cho
-cổ đông". Một phần đáng kể chỉ để **bù lại** số cổ phiếu phát hành cho nhân viên — tức nó giữ cho số
-lượng cổ phiếu không tăng, chứ không làm giảm. Dữ liệu SEC ở mức này không tách được hai phần đó,
-nên con số 171 tỷ là **cận trên** của lượng tiền thật sự về tay cổ đông hiện hữu.
+> [!warning] Một cảnh báo về cách đọc bảng này.
+> "Mua lại cổ phiếu" **không** đồng nghĩa với "trả tiền cho
+> cổ đông". Một phần đáng kể chỉ để **bù lại** số cổ phiếu phát hành cho nhân viên — tức nó giữ cho số
+> lượng cổ phiếu không tăng, chứ không làm giảm. Dữ liệu SEC ở mức này không tách được hai phần đó,
+> nên con số 171 tỷ là **cận trên** của lượng tiền thật sự về tay cổ đông hiện hữu.
 
-📚 **Vì sao mua lại tăng mạnh từ những năm 1980**, xếp theo sức nặng bằng chứng:
+> [!note] Vì sao mua lại tăng mạnh từ những năm 1980
+> , xếp theo sức nặng bằng chứng:
 
 1. **Linh hoạt** — §8 đã đo bằng số: c = 0,51 so với 0,15.
 2. **Thuế** — ở Mỹ trước 2003, cổ tức bị đánh thuế theo biểu thu nhập thông thường còn lãi vốn dài
@@ -417,6 +434,7 @@ bậc thang của trật tự ưu tiên. Bài này xem **bước đầu tiên** 
 | **Tổng trả cho cổ đông**   | **64,3** |
 | Đầu tư vào tài sản cố định | **14,7** |
 
+> [!note]
 > **Trả cho cổ đông gấp 4,4 lần số tiền bỏ vào nhà máy.** Và **102%** toàn bộ dòng tiền kinh
 > doanh bảy năm đó đi ra ngoài.
 
@@ -449,6 +467,7 @@ và họ được trả lương theo cái gì"**.
 Jensen đặt một câu hỏi khác hẳn mọi câu hỏi trước đó về cổ tức. Không phải "cổ đông thích nhận tiền
 khi nào", mà:
 
+> [!note]
 > **Tiền mặt nằm trong tay ban giám đốc thì có an toàn không?**
 
 Ông gọi phần tiền còn lại sau khi đã làm hết dự án NPV dương là **dòng tiền tự do**, và lập luận rằng
@@ -497,10 +516,11 @@ Chênh **2,3 lần**, và **đúng hướng Jensen dự đoán**.
 
 ![Chi trả và tăng trưởng](../hinh/bai17-chi-tra-vn.svg)
 
-⚠️ **Nhưng tương quan thì không đủ mạnh để khẳng định:** Pearson r = −0,260 (t = −1,35), Spearman
-r = −0,234 (t = −1,20). Với n = 27, cả hai đều **không** đạt mức ý nghĩa thống kê thông thường.
-Trung vị hai nhóm chênh rõ ràng, nhưng đó không phải bằng chứng — đó là một **gợi ý**. Nói mạnh hơn
-thế là nói quá dữ liệu.
+> [!warning] Nhưng tương quan thì không đủ mạnh để khẳng định:
+> Pearson r = −0,260 (t = −1,35), Spearman
+> r = −0,234 (t = −1,20). Với n = 27, cả hai đều **không** đạt mức ý nghĩa thống kê thông thường.
+> Trung vị hai nhóm chênh rõ ràng, nhưng đó không phải bằng chứng — đó là một **gợi ý**. Nói mạnh hơn
+> thế là nói quá dữ liệu.
 
 ### Hai trường hợp lệch khỏi mọi quy luật
 
@@ -510,6 +530,7 @@ thế là nói quá dữ liệu.
 [Bài 16 §11](bai_16_co_cau_von.md#11-cuộc-đua-ngựa--dữ-liệu-việt-nam-chọn-bên-nào) đo được đòn bẩy
 của VIC: **68,9%**, cao nhất mẫu, với hệ số trả lãi **1,9 lần**.
 
+> [!note]
 > Trả tiền cho cổ đông bằng tiền đi vay là một quyết định **phân phối giữa chủ nợ và cổ đông**, không
 > phải một quyết định đầu tư. Đó chính xác là cái mà điều khoản ràng buộc ở §3 sinh ra để ngăn.
 
@@ -564,6 +585,7 @@ Có ít nhất ba lý do **hoàn toàn hợp lệ** khiến dòng tiền âm mà
 Nhưng ba lý do đó **không xoá bỏ** câu hỏi quản trị. Chúng trả lời câu *"vì sao dòng tiền âm"*, chứ
 không trả lời câu *"vậy tiền trả cổ tức lấy ở đâu"*. Và đó mới là câu hỏi của hội đồng quản trị.
 
+> [!note]
 > ⇒ **Một quy tắc đọc rút ra:** trước khi tin một tỷ lệ chi trả, hãy chia **dòng tiền kinh doanh** cho
 > **lợi nhuận**. Nếu tỷ số đó dưới 1 nhiều năm liền, thì cổ tức đang được trả bằng một thứ khác chứ
 > không phải bằng tiền công ty làm ra. [Bài 14 §5](bai_14_doc_doanh_nghiep_bang_so.md#5-báo-cáo-lưu-chuyển-tiền-tệ--báo-cáo-khó-nói-dối-nhất)
@@ -577,11 +599,13 @@ Sách giáo khoa Mỹ dạy vấn đề đại diện theo mô tả của Berle 
 triệu cổ đông nhỏ, không ai đủ động lực giám sát, nên ban giám đốc tự do. Đó là **vấn đề loại I**:
 ban giám đốc đối lại cổ đông.
 
-⚠️ **Ở Việt Nam — và phần lớn châu Á — cấu trúc ngược lại.** Sở hữu **tập trung**: nhà nước, tập đoàn
-mẹ nước ngoài, hoặc gia đình sáng lập nắm tỷ lệ chi phối. Cổ đông lớn **không** thiếu động lực giám
-sát — họ ngồi ngay trong hội đồng quản trị. Nên vấn đề loại I gần như biến mất, và **vấn đề loại II**
-xuất hiện thay chỗ:
+> [!warning] Ở Việt Nam — và phần lớn châu Á — cấu trúc ngược lại.
+> Sở hữu **tập trung**: nhà nước, tập đoàn
+> mẹ nước ngoài, hoặc gia đình sáng lập nắm tỷ lệ chi phối. Cổ đông lớn **không** thiếu động lực giám
+> sát — họ ngồi ngay trong hội đồng quản trị. Nên vấn đề loại I gần như biến mất, và **vấn đề loại II**
+> xuất hiện thay chỗ:
 
+> [!note]
 > **Cổ đông kiểm soát đối lại cổ đông thiểu số.**
 
 Các dạng nó xuất hiện, xếp theo mức khó phát hiện:
@@ -597,16 +621,18 @@ Dạng cuối cùng đáng chú ý vì nó tái tạo **chính xác** bài toán
 quyền quyết định đầy đủ — tức $a$ nhỏ trong khi vẫn nắm nút bấm. Jensen và Meckling dự đoán bổng lộc
 sẽ bị tiêu; ở đây "bổng lộc" mang hình dạng giao dịch với bên liên quan.
 
-⚠️ **Điều tôi không kiểm được bằng dữ liệu này.** Bộ số liệu của bài chỉ có báo cáo tài chính, không
-có cơ cấu sở hữu, không có thuyết minh giao dịch bên liên quan. Nhận định ở mục này dựa trên cấu trúc
-thị trường chứ **không** phải trên bảng số nào tôi tính ra. Muốn kiểm thì phải đọc **thuyết minh báo
-cáo tài chính, mục "giao dịch với các bên liên quan"** — nó nằm ở cuối báo cáo kiểm toán và gần như
-không ai đọc.
+> [!warning] Điều tôi không kiểm được bằng dữ liệu này.
+> Bộ số liệu của bài chỉ có báo cáo tài chính, không
+> có cơ cấu sở hữu, không có thuyết minh giao dịch bên liên quan. Nhận định ở mục này dựa trên cấu trúc
+> thị trường chứ **không** phải trên bảng số nào tôi tính ra. Muốn kiểm thì phải đọc **thuyết minh báo
+> cáo tài chính, mục "giao dịch với các bên liên quan"** — nó nằm ở cuối báo cáo kiểm toán và gần như
+> không ai đọc.
 
-📚 **Khung pháp lý hiện hành** (nêu để biết chỗ tra, không phải để thay tư vấn pháp lý): Luật Doanh
-nghiệp 59/2020/QH14 quy định về người quản lý, giao dịch với người có liên quan, và quyền của cổ đông
-sở hữu từ 5%; Luật Chứng khoán 54/2019/QH14 và các nghị định hướng dẫn quy định về công bố thông tin
-và quản trị công ty đại chúng.
+> [!note] Khung pháp lý hiện hành
+> (nêu để biết chỗ tra, không phải để thay tư vấn pháp lý): Luật Doanh
+> nghiệp 59/2020/QH14 quy định về người quản lý, giao dịch với người có liên quan, và quyền của cổ đông
+> sở hữu từ 5%; Luật Chứng khoán 54/2019/QH14 và các nghị định hướng dẫn quy định về công bố thông tin
+> và quản trị công ty đại chúng.
 
 ---
 
@@ -659,6 +685,7 @@ Phần E đã dựng xong bộ công cụ:
 
 Còn đúng một câu hỏi chưa trả lời, và nó là câu mà mọi câu trên gộp lại để phục vụ:
 
+> [!note]
 > **Vậy cả doanh nghiệp này đáng giá bao nhiêu?**
 
 Bài 18 trả lời. Nó lấy dòng tiền tự do của §11, chiết khấu bằng WACC của bài 15, dùng cơ cấu vốn của
@@ -670,6 +697,7 @@ khác nhau, và câu hỏi vì sao chúng khác nhau.
 
 ## 18. Code minh hoạ
 
+> [!note]
 > ⚙️ **Chạy:** cần **Python 3.10+**. Không cần cài gói nào. Kết quả **tất định**.
 
 |            |                                                                                   |
@@ -1474,7 +1502,7 @@ HET BAI 17
 | [SEC XBRL `companyfacts`](https://www.sec.gov/search-filings/edgar-application-programming-interfaces) | lợi nhuận, dòng tiền, capex, cổ tức, mua lại cổ phiếu, phát hành nợ và cổ phiếu của 17 doanh nghiệp Mỹ, 2009–2025, từ báo cáo 10-K |
 | VNDirect finfo API                                                                                     | báo cáo kết quả kinh doanh và **báo cáo lưu chuyển tiền tệ** năm 2015–2025 của 28 doanh nghiệp niêm yết Việt Nam                   |
 
-⚠️ **Chưa xác minh được, ghi rõ ở đây:**
+> [!warning] Chưa xác minh được, ghi rõ ở đây:
 
 - **Mục §14 không dựa trên dữ liệu của bài.** Bộ số liệu chỉ có báo cáo tài chính, không có cơ cấu sở
   hữu và không có thuyết minh giao dịch bên liên quan. Nhận định về vấn đề đại diện loại II dựa trên

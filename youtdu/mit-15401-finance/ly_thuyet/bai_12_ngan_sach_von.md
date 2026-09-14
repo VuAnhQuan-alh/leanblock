@@ -1,11 +1,14 @@
 # Bài 12 — Hoạch định ngân sách vốn: dòng tiền, lá chắn thuế, và bốn cách IRR hỏng
 
+> [!info] Về bài này
 > Bài học dựa trên **MIT 15.401 Finance Theory I** (GS. Andrew W. Lo, MIT Sloan, học kỳ thu 2008),
 > hai buổi: **Ses 17** từ `21:49` (YouTube `JE80wLNIhjE`), **Ses 18** tới `69:28` (`sMKQywwkIjQ`).
 > Mốc thời gian ghi dạng `S17 mm:ss`, `S18 mm:ss`.
 > Phần **📚 Lý thuyết bổ sung** là kiến thức nền video lướt qua hoặc không có.
-> ⚠️ **Video ghi tháng 11–12/2008** — §21 đối chiếu với 2026.
-> 📌 **Cần đọc trước:** [Bài 11 — CAPM](bai_11_capm_va_beta.md) (suất chiết khấu của bài này đến thẳng từ đó).
+>
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
+>
+> **Cần đọc trước:** [Bài 11 — CAPM](bai_11_capm_va_beta.md) (suất chiết khấu của bài này đến thẳng từ đó).
 
 ---
 
@@ -65,6 +68,7 @@ Ses 18 kết thúc bằng `S18 79:16` *"Thứ Tư tôi sẽ nói với các bạ
 
 Lo mở đầu phần này bằng một yêu cầu rất rõ ràng (`S17 22:20`):
 
+> [!quote]
 > *"Tôi muốn các bạn **đổi góc nhìn**. Từ trước tới giờ ta nhìn thị trường từ vị trí của **nhà đầu tư** — hoặc Warren Buffett, hoặc nhà đầu tư thấm nhuần lý thuyết danh mục. Bây giờ tôi muốn các bạn nói rằng mình là một **giám đốc tài chính doanh nghiệp**, hoặc một quản lý dự án… Bạn **không** chủ yếu cố đánh bại thị trường, bạn cũng **không** chủ yếu cố đầu tư tài sản của mình. Bạn đang cố ra quyết định về việc có nên nhận một dự án hay không."*
 
 Đây là bản lề của cả khoá học. Mười một bài trước dùng thị trường để **định giá**. Từ đây, ta dùng thị trường để **quyết định**.
@@ -77,6 +81,7 @@ Và Lo nói rõ đâu là phần ông giúp được, đâu là không (`S17 29:
 | **Suất chiết khấu** | **bài 11** | *"bây giờ các bạn biết dùng điều chỉnh rủi ro để tính suất chiết khấu phù hợp"* |
 | **Quyền chọn chiến lược** | bạn          | *"bây giờ các bạn hiểu cách dùng định giá quyền chọn"* (bài 8)                  |
 
+> [!quote]
 > `S17 30:00` — *"Tôi đã nói với các bạn từ đầu khoá rằng **tài chính là ngôn ngữ của kinh doanh**. Đây là ý tôi. **Bạn thậm chí không thể bàn về một quyết định nếu không nói được ngôn ngữ tài chính**, nếu không đánh giá dự án trong khung này."*
 
 ---
@@ -103,6 +108,7 @@ Cái làm quy tắc trên dùng được (`S17 27:04`):
 
 $$\text{NPV}(A + B) = \text{NPV}(A) + \text{NPV}(B)$$
 
+> [!quote] S17 27:04
 > *"Nhờ một thứ gọi là **tính cộng giá trị**, ta có thể ra quyết định phân bổ nguồn lực đơn giản bằng cách chọn những dự án có NPV dương lớn. **Bạn không phải lo về tương tác giữa các dự án trừ khi có tương tác thật sự** liên quan tới quyết định của bạn."* (`S17 27:04`)
 
 §23 kiểm bằng số:
@@ -125,6 +131,7 @@ Quy trình Lo khuyến nghị (`S17 27:50`): xét dự án **độc lập** trư
 
 Chi tiết dễ bỏ qua nhất trong công thức là chỉ số dưới của $r$ (`S17 26:26`):
 
+> [!quote]
 > *"Các bạn để ý tôi dùng $r_1$ cho dòng tiền 1, và $r_T$ cho dòng tiền T. Nghĩa là **hai dòng tiền khác nhau của cùng một dự án có thể mang hai rủi ro khác nhau**."*
 
 §23 cho thấy điều này không phải chi tiết vụn vặt. Với dự án A và ba suất chiết khấu thật 4% / 8% / 16%:
@@ -146,12 +153,14 @@ Chú ý hàng giữa: **dùng trung bình cộng của ba suất không cho ra �
 
 Đây là đoạn triết lý sắc nhất của Ses 17, và nó giải thích **vì sao** phải dùng dòng tiền chứ không phải lợi nhuận kế toán.
 
+> [!quote]
 > `S17 30:45` — *"Một điều tôi nghĩ chưa được nhấn mạnh đủ là khi bạn nhìn vào số liệu kế toán, bạn đang nhìn vào những con số **không phải biến ngẫu nhiên. Chúng đã được hiện thực hoá rồi.** Không có bất định nào trong những gì bảng cân đối kế toán hay báo cáo kết quả kinh doanh nói. **Nó nói về quá khứ.** Và kế toán viên thì ghét bất định."*
 
 Và (`S17 31:23`): *"Đó là điều một kế toán viên giỏi sẽ làm — hiểu chỗ nào đặt chi phí và doanh thu vào đúng ô để mọi thứ khớp nhau. **Kế toán không có khả năng. Nó không được thiết kế để quản lý và phản ánh bất định.**"*
 
 Ví dụ ông đưa nối thẳng về [bài 7](bai_07_ky_han_va_tuong_lai.md) (`S17 31:44`):
 
+> [!quote]
 > *"Các bạn đã nghe cụm **khoản mục ngoại bảng**, đúng không? Ví dụ hợp đồng hoán đổi rủi ro tín dụng, hay hợp đồng tương lai. Nếu bạn tham gia một giao dịch tương lai, ngay lúc tham gia thì NPV của hợp đồng tương lai bằng bao nhiêu?"* — Sinh viên: *"Không."* — *"**Đúng. Và vì thế nó không lên bảng cân đối kế toán, vì nó không phải tài sản cũng không phải nợ.** Nó là cả hai, hoặc chẳng là gì, tuỳ cách bạn nhìn."*
 
 Nhưng (`S17 32:16`): *"**việc ký một thoả thuận như thế có tác động rất lớn tới rủi ro tương lai của bạn.**"*
@@ -164,9 +173,10 @@ Lo cẩn thận không biến đây thành lời chê kế toán (`S17 32:46`): 
 
 Lo nhắc tới chuẩn mực đang gây tranh cãi dữ dội lúc đó (`S17 36:33`):
 
+> [!quote]
 > *"Ngay lúc này, **trung tâm của cuộc tranh luận trong khủng hoảng tài chính** là khái niệm kế toán theo giá trị hợp lý, **FAS 157**, quy định bạn phải dùng giá trị thị trường để cập nhật tài sản và nợ. Và đó là một quy định mới đã tạo ra một số vấn đề, vì giá trị thị trường trong thời kỳ căng thẳng có thể rơi rất nhanh."*
 
-📚 **Chuyện gì đã xảy ra:**
+> [!note] Chuyện gì đã xảy ra:
 
 |                                            |                                                                                                                                                                      |
 | ------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -219,10 +229,12 @@ Lo nói vậy ở `S17 46:42`. §23 đo:
 - Ngưỡng hoà vốn theo **dòng tiền**: **9,61%**
 - Ngưỡng hoà vốn theo **lợi nhuận kế toán**: **0,00%**
 
+> [!note]
 > Với bất kỳ chi phí vốn nào **giữa 0% và 9,61%**, hai cách tính cho **hai quyết định ngược nhau**. Đó là toàn bộ khoảng chi phí vốn thực tế của một doanh nghiệp lớn.
 
 Lo giải thích lá chắn thuế bằng một hình ảnh (`S17 43:20`):
 
+> [!quote]
 > *"Khấu hao là một chi phí bạn **được trừ**, thuần tuý vì luật thuế. Và vì được trừ nên bạn **không phải nộp chừng ấy thuế**. Nó giống một **tấm thẻ ra tù miễn phí**. Tấm thẻ đó đáng giá bao nhiêu? Đáng giá đúng chừng này."*
 
 Và (`S17 44:21`): *"**Hãy nhìn vào tiền. Đừng nhìn vào con số kế toán, hãy nhìn vào tiền.** Làm thế thì bạn sẽ không bao giờ sai."*
@@ -237,6 +249,7 @@ Và (`S17 44:21`): *"**Hãy nhìn vào tiền. Đừng nhìn vào con số kế 
 
 Lo nhắc tới khấu hao nhanh dần rồi đi tiếp (`S17 37:52`):
 
+> [!quote]
 > *"Ngay cả khi cỗ máy vẫn chạy tốt, có những trường hợp bạn được giả định rằng **một nửa cỗ máy bốc hơi sau một năm**. Sao lại thế? Đó là một công cụ kế toán mà Quốc hội thông qua từ nhiều năm trước để cho doanh nghiệp đẩy nhanh khấu hao và nhờ đó được lợi về thuế."*
 
 Câu hỏi ông không hỏi: **được lợi bao nhiêu?** Tổng số tiền được trừ là như nhau — chỉ khác thời điểm.
@@ -259,6 +272,7 @@ Câu hỏi ông không hỏi: **được lợi bao nhiêu?** Tổng số tiền 
 | Nhanh dần      |                       **274.112** |
 | **Chênh lệch** | **+28.329** (nhiều hơn **11,5%**) |
 
+> [!note]
 > Cùng số tiền được trừ, cùng cỗ máy, cùng thuế suất. **Chỉ vì được trừ sớm hơn mà dự án đáng giá thêm 28.329 đô la** — gần 3% giá trị cỗ máy.
 
 Đó là lý do khấu hao nhanh dần là một công cụ chính sách hiệu quả: nó **không cho doanh nghiệp thêm đồng trợ cấp nào**, nó chỉ đổi thời điểm. Ngân sách nhà nước mất ít hơn nhiều so với một khoản trợ cấp trực tiếp cùng tác dụng.
@@ -269,11 +283,13 @@ Câu hỏi ông không hỏi: **được lợi bao nhiêu?** Tổng số tiền 
 
 Nguyên tắc thứ ba của Lo (`S17 34:33`), nghe đơn giản nhất mà khó nhất:
 
+> [!quote]
 > *"**Dùng dòng tiền quy được cho dự án.** Nghĩa là bạn phải so sánh doanh nghiệp **có** dự án với doanh nghiệp **không có** dự án, rồi nhìn vào chênh lệch… **Rất, rất dễ quên một số dòng tiền** hoặc đi kèm dự án hoặc phải chi ra nếu nhận dự án. Và trong nhiều trường hợp, những chỗ sót đó ảnh hưởng rất lớn tới việc có nên nhận dự án hay không."*
 
 Lời khuyên của ông thì thẳng thắn (`S17 35:11`): *"cuối cùng thì **luyện tập, luyện tập, luyện tập**."*
 
-📚 Danh sách những khoản hay bị quên, Lo không liệt kê nhưng đây là chuẩn của ngành:
+> [!note]
+> Danh sách những khoản hay bị quên, Lo không liệt kê nhưng đây là chuẩn của ngành:
 
 | Phải tính                                                    | Không được tính                                                         |
 | ------------------------------------------------------------ | ----------------------------------------------------------------------- |
@@ -284,7 +300,8 @@ Lời khuyên của ông thì thẳng thắn (`S17 35:11`): *"cuối cùng thì 
 
 Vốn lưu động đúng là câu hỏi một sinh viên nêu (`S17 48:10`), và Lo xác nhận phải tính **tác động tăng thêm ròng** của nó.
 
-⚠️ Mục "chi phí lãi vay" đáng nhấn mạnh: nó là lỗi phổ biến nhất. Suất chiết khấu đã phản ánh chi phí tài trợ; trừ lãi vay ra khỏi dòng tiền **rồi lại** chiết khấu bằng chi phí vốn là tính chi phí nợ hai lần.
+> [!warning]
+> Mục "chi phí lãi vay" đáng nhấn mạnh: nó là lỗi phổ biến nhất. Suất chiết khấu đã phản ánh chi phí tài trợ; trừ lãi vay ra khỏi dòng tiền **rồi lại** chiết khấu bằng chi phí vốn là tính chi phí nợ hai lần.
 
 ---
 
@@ -292,16 +309,19 @@ Vốn lưu động đúng là câu hỏi một sinh viên nêu (`S17 48:10`), v�
 
 Lo cảnh báo một lỗi rất phổ biến (`S17 52:41`):
 
+> [!quote]
 > *"Rất nhiều quản lý doanh nghiệp bỏ qua điểm này. **Họ nghĩ nếu mình ở một bộ phận thì bộ phận đó có một chi phí vốn, và từ đó trở đi cứ dùng nó cho MỌI THỨ bộ phận ấy làm.** Nhưng nếu bộ phận đó đang làm một thứ rất khác với thứ nó khởi đầu thì sao?"*
 
 Ví dụ ông đưa (`S17 53:12`) là một chuyện có thật: **Bloomberg** — công ty dữ liệu và công nghệ — quyết định mở mảng **xuất bản sách**, Bloomberg Press.
 
+> [!quote]
 > `S17 54:04` — *"**Ngành của Bloomberg không phải xuất bản.** Họ là nhà cung cấp thông tin, họ là công ty công nghệ. Bội số của một công ty công nghệ không giống bội số của một công ty xuất bản."*
 
 Giải pháp, do sinh viên Courtney nêu (`S17 55:52`): *"tìm các công ty tương đương, xem beta của họ."*
 
 Và chọn công ty nào? Sinh viên Louis trả lời (`S17 57:07`): **John Wiley & Sons**, chứ không phải McGraw-Hill — *"vì McGraw-Hill không phải nhà xuất bản thuần tuý."*
 
+> [!quote]
 > `S17 57:22` — *"Chính xác. McGraw-Hill có rất nhiều mảng khác ngoài xuất bản."* Sinh viên nêu tên: **Standard & Poor's**. — *"Đúng. McGraw-Hill sở hữu Standard & Poor's."*
 
 Khái niệm này có tên: **công ty thuần tuý** (pure play).
@@ -323,10 +343,12 @@ Lo đọc **12,7%** (`S17 60:10`). §23 tính: $5 + 1{,}29 \times 6 = 12{,}74\%$
 | Wiley 12,74% (**đúng**) | **+2.089.450** | **NHẬN**   |
 | Bloomberg 14,60% (sai)  |     −1.585.737 | BỎ         |
 
+> [!note]
 > Chênh **3,68 triệu đô la**, và **hai quyết định ngược nhau**. Dùng sai suất chiết khấu không làm lệch kết quả — nó **đảo ngược** kết quả.
 
 Lo cũng nói rõ cách làm nghiêm túc (`S17 59:09`):
 
+> [!quote]
 > *"Cái tôi đưa cho các bạn không phải một công thức nấu ăn dùng được trong mọi hoàn cảnh, mà là một **cách tiếp cận**… Tìm các công ty ở cả hai đầu quang phổ: nhỏ và lớn, thuần tuý và tập đoàn, ước lượng chi phí vốn cho tất cả. Rồi nói: với dải kết quả này, chúng tôi cho rằng chi phí vốn phù hợp nằm ở đây."*
 
 ---
@@ -335,6 +357,7 @@ Lo cũng nói rõ cách làm nghiêm túc (`S17 59:09`):
 
 Lo dành gần mười phút cho quyết định của Bloomberg, và kết lại (`S17 63:37`):
 
+> [!quote]
 > *"Bloomberg thật ra đã ra một quyết định khá tốt, ít nhất là ở góc độ khởi động được nó. **Có sinh lời hay không thì ai mà biết? Nó mới chỉ tồn tại vài năm.**"*
 
 **Câu trả lời đến sau mười sáu tháng.**
@@ -346,11 +369,13 @@ Lo dành gần mười phút cho quyết định của Bloomberg, và kết lạ
 | Tháng 12/2009    | Bloomberg mua lại *BusinessWeek*                                                                                   |
 | **Tháng 3/2010** | **Bloomberg Press trở thành một dấu ấn của John Wiley & Sons.** Bloomberg rời mảng xuất bản sách |
 
+> [!note]
 > **Công ty Lo dùng làm chuẩn so sánh chính là công ty cuối cùng đã tiếp quản dự án.**
 
 Đó là một sự trùng hợp hiếm có, nhưng nó không hề ngẫu nhiên về mặt kinh tế. Chính lập luận "công ty thuần tuý" của Lo giải thích tại sao: nếu **beta của Wiley** là beta đúng cho hoạt động này, thì Wiley cũng là bên có **lợi thế so sánh** để vận hành nó. Bloomberg mang vào một chi phí vốn sai và không có gì bù lại được điều đó.
 
-⚠️ Sự kiện này cũng có mặt trái đáng ghi. Sau khi tiếp quản, Wiley gửi thư cho hàng trăm tác giả Bloomberg Press dưới dạng **sửa đổi hợp đồng làm giảm tỷ lệ nhuận bút**; một kiểm toán độc lập do Authors Guild thuê tính ra mức giảm **24%–43%** khi áp lên doanh số thực tế. Lo là một trong những tác giả đó.
+> [!warning]
+> Sự kiện này cũng có mặt trái đáng ghi. Sau khi tiếp quản, Wiley gửi thư cho hàng trăm tác giả Bloomberg Press dưới dạng **sửa đổi hợp đồng làm giảm tỷ lệ nhuận bút**; một kiểm toán độc lập do Authors Guild thuê tính ra mức giảm **24%–43%** khi áp lên doanh số thực tế. Lo là một trong những tác giả đó.
 
 ### Và McGraw-Hill
 
@@ -358,6 +383,7 @@ Lo dùng McGraw-Hill làm ví dụ phản diện: *"không phải nhà xuất b�
 
 Tám năm sau, công ty **tự giải quyết** vấn đề đó: ngày **27/4/2016**, McGraw Hill Financial đổi tên thành **S&P Global Inc.**, mã chứng khoán **SPGI**. Tổng giám đốc Douglas Peterson nói gọn: *"Không còn sách giáo khoa nữa."* Mảng giáo dục đã bị bán cho Apollo Global Management từ 2013.
 
+> [!quote]
 > Chẩn đoán của Lo — *"McGraw-Hill không phải công ty thuần tuý"* — đúng tới mức chính công ty đã sửa nó, bằng cách trở thành công ty thuần tuý **ở chiều ngược lại**: bỏ xuất bản, giữ dữ liệu tài chính, và đổi tên theo mảng còn lại.
 
 ---
@@ -391,6 +417,7 @@ Tám năm sau, công ty **tự giải quyết** vấn đề đó: ngày **27/4/2
 
 Lo giải thích (`S17 74:37`):
 
+> [!quote]
 > *"Lý do bạn chiết khấu năm đầu về năm 0 ở lãi suất phi rủi ro là vì **rủi ro khoan trượt là hoàn toàn đa dạng hoá được**. Đó là rủi ro riêng lẻ thuần tuý. Không có beta. **Mỏ dầu dưới lòng đất không biết đang là thị trường tăng giá hay giảm giá. Chúng không quan tâm. Chúng ở đó hoặc không ở đó.**"*
 
 Và (`S17 78:03`): *"**Đây chính là điệu nhảy jig của Ireland** — nhảy trên cái sàn treo khi lau kính. Bạn sẽ không được trả thêm cho nó."* — nối thẳng về [bài 11 §12](bai_11_capm_va_beta.md).
@@ -413,6 +440,7 @@ Và (`S17 78:03`): *"**Đây chính là điệu nhảy jig của Ireland** — n
 |         1,00 |                11,00% |     15.015.015 |        −858.001 |
 |         2,50 |                20,00% |     13.888.889 |      −1.984.127 |
 
+> [!quote]
 > Câu hỏi *"rủi ro thăm dò có hệ thống hay không"* đáng giá **gần hai triệu đô la** trên một mỏ dầu. Và nó không phải câu hỏi kỹ thuật về địa chất — nó là câu hỏi về **tương quan với thị trường**.
 
 ### Kiểm tra sắc bén của sinh viên Andy
@@ -428,12 +456,14 @@ Andy hỏi (`S17 76:27`): nếu **biết chắc** có đủ dầu để thu về
 
 Và ông đưa ra lập luận quyết định (`S17 77:03`):
 
+> [!quote]
 > *"Giả sử bạn là Saudi Aramco và thay vì làm **một** mỏ, bạn làm **một trăm** mỏ. Khi đó bạn đã đa dạng hoá qua đủ loại đồng xu, và **luật số lớn** sẽ biến khoản thu về thành một thứ gần như không rủi ro."*
 
 ### Câu chuyện Saudi Aramco
 
 Lo kể (`S17 71:11`) rằng ông từng đưa bài toán này cho lớp Sloan Fellows — các lãnh đạo cấp cao 15–30 năm kinh nghiệm. Một người ở cuối phòng nói: *"Xin lỗi giáo sư Lo, nhưng tôi không nhớ là chúng tôi đã dùng phân tích này khi làm thăm dò dầu khí."*
 
+> [!quote] S17 72:04
 > *"Và người đó nói: 'Tôi là **phó chủ tịch cấp cao phụ trách thăm dò dầu khí của Saudi Aramco**.' Đây là công ty dầu lớn nhất thế giới, và ông ta là người phụ trách khoan những cái lỗ đó. Ông ấy nói họ **không** làm phân tích này, nhưng sẽ thử vì thấy nó rất hợp lý. **Nói thật là hơi đáng sợ.**"* (`S17 72:04`)
 
 Đây không phải chuyện cười vào ngành dầu khí. Nó minh hoạ một điều nghiêm túc: khoảng cách giữa lý thuyết tài chính và thực hành doanh nghiệp năm 2008 vẫn còn rộng ngay cả ở những công ty lớn nhất thế giới.
@@ -449,12 +479,14 @@ Lo đùa một câu (`S18 03:46`) rồi trả lời nghiêm túc. Có hai lý do
 1. **Quán tính văn hoá** (`S18 04:02`) — các phương pháp đó có trước NPV.
 2. **Chúng nắm bắt một loại rủi ro khác** (`S18 04:40`):
 
+> [!quote] S18 04:58
 > *"Ta đã nói về rất nhiều loại rủi ro. Rủi ro thị trường, rủi ro ước lượng, rủi ro tín dụng. Nhưng **rủi ro quan trọng nhất với tất cả các bạn khi bắt đầu đi làm là gì?**"* — Sinh viên: *"Rủi ro sự nghiệp."* — *"Chính xác."*
 >
 > *"**Rủi ro sự nghiệp có lẽ là rủi ro quan trọng nhất dưới góc nhìn của người ra quyết định. Và vài thước đo tôi sắp mô tả tập trung vào rủi ro sự nghiệp hơn là rủi ro của nhà đầu tư hay cổ đông.**"* (`S18 04:58`)
 
 Rồi ông nói rõ nghĩa vụ (`S18 05:15`):
 
+> [!quote]
 > *"Điều tôi muốn các bạn tập trung vào khi làm việc là **tối đa hoá giá trị công ty dưới góc nhìn của chủ sở hữu**. Các bạn là **người đại diện** của chủ sở hữu… **Nhưng trên thực tế, cách người ta hành xử thường khác đi.**"*
 
 Đây là một trong những đoạn trung thực nhất của cả khoá. Lo không giả vờ rằng lý thuyết mô tả được thực tế. Ông nói: đây là điều **đúng**, đây là điều người ta **làm**, và đây là **lý do** khoảng cách tồn tại. Đó chính là vấn đề người đại diện, và nó giải thích hầu hết những gì còn lại của bài này.
@@ -467,6 +499,7 @@ Rồi ông nói rõ nghĩa vụ (`S18 05:15`):
 
 Lo chỉ ra khuyết tật ngay lập tức (`S18 06:28`):
 
+> [!quote]
 > *"Ngay lập tức bạn thấy có vấn đề, vì ta đang **cộng dòng tiền ở các kỳ khác nhau**. Tôi hy vọng đến giờ, nhìn vào một biểu thức như thế các bạn thấy khó chịu về mặt nhận thức. **Nó giống như cộng bảng Anh với yên Nhật.** Nhớ hôm đầu tiên chứ? Ba bảng cộng hai mươi lăm yên là bao nhiêu? Tôi chịu."*
 
 §23 dựng ba dự án:
@@ -477,10 +510,12 @@ Lo chỉ ra khuyết tật ngay lập tức (`S18 06:28`):
 | **B dài, NPV dương** | **5 năm** |               5 năm |  **+559** | **NHẬN** |
 | C đều, NPV dương     |     3 năm |               3 năm |      +119 | NHẬN     |
 
+> [!note]
 > Dự án A hoàn vốn **nhanh nhất** mà NPV **âm**. Dự án B mất **lâu nhất** mà NPV dương lớn nhất. **Xếp hạng theo hoàn vốn cho ra kết quả ngược hẳn với NPV.**
 
 Lý do (`S18 08:20`): hoàn vốn **bỏ qua mọi dòng tiền sau kỳ hoàn vốn**. Dự án A có một khoản chi 800 đô la ở năm 3 — sau kỳ hoàn vốn — và thước đo này không nhìn thấy nó.
 
+> [!quote] S18 08:20
 > *"Bạn có thể có một dự án… sau kỳ hoàn vốn, ở một thời điểm tương lai nào đó, nó tạo ra **dòng tiền âm cực lớn**. Tất cả những thứ đó bị hoàn vốn bỏ qua."* (`S18 08:20`)
 
 ### Nhưng Lo cũng bênh vực nó
@@ -496,6 +531,7 @@ Và ông thừa nhận điều kiện để nó đúng (`S18 13:12`): dòng ti�
 
 Lời khuyên thực dụng nhất của cả bài (`S18 13:59`):
 
+> [!quote]
 > *"Chắc chắn sẽ có người hỏi bạn: **thời gian hoàn vốn là bao nhiêu?** Bạn cần biết câu trả lời. **Nói 'giáo sư 401 của tôi bảo cái đó vô nghĩa' thì không đủ.** Bạn phải có câu trả lời, rồi mới lập luận rằng hoàn vốn không tóm hết được những đặc điểm ta quan tâm."*
 
 ---
@@ -528,6 +564,7 @@ Vấn đề nằm ở **xếp hạng**:
 
 Lo dùng đúng ví dụ này (`S18 15:59`):
 
+> [!quote]
 > *"Nếu các bạn đưa tôi 1 đô la và tôi đưa lại 2 đô la, chỉ số sinh lời là 2. Trông sẽ rất đẹp so với khoản đầu tư vào Berkshire Hathaway 20 năm trước, vì cái đó có thể không cho chỉ số sinh lời như thế. **Nhưng Warren Buffett kiếm được nhiều hơn một đô la rất nhiều.**"*
 
 ---
@@ -538,24 +575,28 @@ Lo dùng đúng ví dụ này (`S18 15:59`):
 
 Lo đặt câu hỏi mà không ai trong lớp từng nghĩ tới (`S18 18:06`):
 
+> [!quote]
 > *"Lý do các nhà kinh tế học, và nhà kinh tế tài chính, tập trung vào **lợi suất**? Điều đó có bao giờ khiến các bạn thấy lạ không? Khi nói chuyện với doanh nhân, họ nói bằng **số tiền**. Còn nhà kinh tế tài chính thì diễn đạt mọi thứ bằng **tỷ lệ**. Cả khoá này ta đã dành phần lớn thời gian cho $r$, chứ không phải $v$."*
 
 Lớp thử vài câu trả lời — bỏ đơn vị, so sánh được giữa các quy mô. Lo đều gạt: *"nhưng sao không so đô la với đô la?"* (`S18 19:41`).
 
 Rồi ông tự trả lời (`S18 23:26`):
 
+> [!quote]
 > *"Ẩn dưới cách tiếp cận đó là một **niềm tin**. Niềm tin đó là: **ta có thể đầu tư bao nhiêu tiền tuỳ ý mà vẫn nhận được những lợi suất ấy.**… Ta đang giả định quy mô không quan trọng, theo nghĩa dù đầu tư một trăm đô la, hay một trăm triệu, hay một trăm tỷ, ta vẫn nhận được cùng lợi suất. **Và sự thật là điều đó đơn giản không đúng. Quy mô tuyệt đối có quan trọng.**"*
 
 Ví dụ ông đưa (`S18 24:44`): đổ thêm vài tỷ vào **công nghệ nano** năm 2008 thì không ảnh hưởng mấy vì công nghệ còn mới. Nhưng đổ 2 tỷ đô la vào *"phần mềm tầng giữa quản lý cơ chế điều khiển máy chủ tệp"* trong một tháng? *"Chúc may mắn."*
 
 Kết luận (`S18 25:37`):
 
+> [!quote]
 > *"Tất cả những gì ta làm trong khoá này **bỏ qua quy mô** dưới góc độ rủi ro–lợi suất. Nhưng có một lĩnh vực mà quy mô **tuyệt đối** quan trọng: **NPV**."*
 
 ### Hệ quả: CAPM không áp cho nhà đầu tư lớn
 
 Lo nói thẳng (`S18 29:48`):
 
+> [!quote]
 > *"Nhân tiện, **lý thuyết đó không áp dụng cho một số nhà đầu tư lớn nhất hiện nay.** Ví dụ một số quỹ đầu tư quốc gia, một số quỹ hưu công. **Họ không thể đầu tư theo những nguyên tắc cơ bản của lý thuyết danh mục.** Vì khi họ triển khai vốn, họ đang tìm chỗ đặt vài tỷ đô la vào một khoản đầu tư duy nhất. Quản lý danh mục 250 tỷ thì **không đủ giờ trong ngày** để loay hoay phân bổ 5 triệu chỗ này, 10 triệu chỗ kia."*
 
 Đặt cạnh [bài 11 §3](bai_11_capm_va_beta.md): CAPM được suy ra với giả định mỗi nhà đầu tư **nhỏ** và **nhận giá như đã cho**. Với những chủ thể lớn nhất trên thị trường, giả định đó vỡ — họ **là** giá.
@@ -566,6 +607,7 @@ Lo mô tả logic đầu tư tới điểm hoà (`S18 28:46`): *"bạn sẽ cứ
 
 Rồi (`S18 29:00`):
 
+> [!quote]
 > ⚠️ *"**Mà nhân tiện, đó chính là điều chúng ta đã làm với thị trường thế chấp dưới chuẩn.** Đó là lý do ta đang ở trong cuộc khủng hoảng này. Chúng ta về cơ bản đã chạy ngành đó tới chết, **và còn hơn thế nữa**."*
 
 ---
@@ -585,7 +627,8 @@ Bốn điều kiện để IRR tương đương NPV (`S18 36:53`):
 3. Chi phí cơ hội của vốn **như nhau mọi kỳ**
 4. Ngưỡng so sánh đặt **đúng bằng** chi phí cơ hội của vốn
 
-⚠️ Các ví dụ dưới đây do tôi dựng để tái hiện đúng các bệnh Lo mô tả; ông không đọc con số cụ thể trên lớp.
+> [!warning]
+> Các ví dụ dưới đây do tôi dựng để tái hiện đúng các bệnh Lo mô tả; ông không đọc con số cụ thể trên lớp.
 
 ### (a) Khoản vay — phải đảo ngược xếp hạng (`S18 38:01`)
 
@@ -594,6 +637,7 @@ Bốn điều kiện để IRR tương đương NPV (`S18 36:53`):
 | V1        | +1.000 | −1.200 | **20,00%** |    −90,91 |
 | V2        | +1.000 | −1.500 | **50,00%** |   −363,64 |
 
+> [!quote]
 > IRR cao hơn (50%) là khoản vay **đắt hơn**. Với khoản vay, bạn muốn IRR **thấp**. Quy tắc *"chọn IRR cao nhất"* cho ra đúng đáp án ngược.
 
 ### (b) Không tồn tại nghiệm thực (`S18 39:13`)
@@ -606,6 +650,7 @@ Biệt thức $= (-3000)^2 - 4(2500)(1000) = 9.000.000 - 10.000.000 = \mathbf{-1
 
 **Âm.** Hai nghiệm đều là số phức: $x = 0{,}6000 \pm 0{,}2000i$. §23 quét lưới và tìm được **0 nghiệm thực**.
 
+> [!quote] S18 43:34
 > *"Tôi thách các bạn nói cho tôi biết quyết định đầu tư đúng là gì khi nhìn vào những số phức đó. **Không thể làm được.**"* (`S18 43:34`)
 
 Nhưng NPV thì vẫn tính được bình thường: ở 10% là **+338,84**. Dự án này có NPV dương và **không có IRR**.
@@ -626,6 +671,7 @@ Dòng tiền `[−1.000, +6.000, −11.000, +6.000]`. §23 tìm được **ba** 
 | **200%** |  **0,00** |
 |     300% |    −93,75 |
 
+> [!quote] S18 45:47
 > *"Đường NPV cắt trục hoành một lần, hai lần, **ba lần**. Bạn thích cái nào? Chọn cái lớn nhất? Hay nhỏ nhất? Hay lấy trung bình? **Tôi chịu.**"* (`S18 45:47`)
 
 ### (d) Bỏ qua quy mô (`S18 38:20`)
@@ -648,7 +694,8 @@ Hai lý do ông đưa:
 
 Và ông chỉ ra mâu thuẫn (`S18 48:27`): *"Nhưng cuối cùng thì một nhà đầu tư mạo hiểm cũng vẫn **phải nhìn vào quy mô**. Tôi có một tỷ đô la phải giải ngân."*
 
-⚠️ Chỗ IRR hỏng ngay cả với vốn tư nhân: **tài trợ tầng lửng** (`S18 47:23`) — khi có thêm vòng góp vốn về sau, dòng tiền âm xuất hiện ở giữa và cả bốn điều kiện sụp đổ.
+> [!warning]
+> Chỗ IRR hỏng ngay cả với vốn tư nhân: **tài trợ tầng lửng** (`S18 47:23`) — khi có thêm vòng góp vốn về sau, dòng tiền âm xuất hiện ở giữa và cả bốn điều kiện sụp đổ.
 
 ---
 
@@ -656,6 +703,7 @@ Và ông chỉ ra mâu thuẫn (`S18 48:27`): *"Nhưng cuối cùng thì một n
 
 Ở cuối phần IRR, Lo đưa ra một nhận xét (`S18 62:14`):
 
+> [!quote]
 > ⚠️ *"Nhân tiện, **số lượng và bản chất các nghiệm của đa thức** hoá ra liên quan tới một bài toán rất, rất, rất nổi tiếng và khó, chưa giải được, gọi là **giả thuyết Riemann zeta**."*
 
 **Điều này không đúng, theo hai cách.**
@@ -682,9 +730,11 @@ Thứ thật sự chi phối số **IRR thực** là **quy tắc dấu Descartes
 
 Quy tắc giữ trong mọi trường hợp. Và nó cho ngay quy tắc thực hành: **một dòng tiền chỉ đổi dấu một lần thì có nhiều nhất một IRR** — đó chính là điều kiện 1 của Lo, phát biểu chặt chẽ hơn.
 
-📚 Kết quả mạnh hơn nữa là **điều kiện Norstrøm (1972)**: nếu dãy dòng tiền **cộng dồn** chỉ đổi dấu đúng một lần và tổng cuối cùng khác 0, thì IRR là **duy nhất**. Đây là điều kiện đủ dễ kiểm nhất trong thực tế.
+> [!note]
+> Kết quả mạnh hơn nữa là **điều kiện Norstrøm (1972)**: nếu dãy dòng tiền **cộng dồn** chỉ đổi dấu đúng một lần và tổng cuối cùng khác 0, thì IRR là **duy nhất**. Đây là điều kiện đủ dễ kiểm nhất trong thực tế.
 
-⚠️ Giả thuyết Riemann thì vẫn chưa được chứng minh tính tới 2026, và vẫn là một trong bảy Bài toán Thiên niên kỷ của Viện Clay. Nó chỉ không liên quan gì tới việc chọn dự án.
+> [!warning]
+> Giả thuyết Riemann thì vẫn chưa được chứng minh tính tới 2026, và vẫn là một trong bảy Bài toán Thiên niên kỷ của Viện Clay. Nó chỉ không liên quan gì tới việc chọn dự án.
 
 ---
 
@@ -700,9 +750,11 @@ Lo chiếu một khảo sát (`S18 50:53`), *"khoảng năm năm trước"* so v
 
 Ông ghi công cho một chỗ rất cụ thể (`S18 53:13`):
 
+> [!quote]
 > *"Phần lớn điều đó, nếu bạn muốn biết nó đến từ đâu, là nhờ **Brealey và Myers**. Cuốn giáo trình các bạn đang dùng có lẽ là **giáo trình tài chính doanh nghiệp lớn đầu tiên từng được viết**, từ thập niên 1980. Stu Myers và Dick Brealey viết nó vì lúc đó **không có gì khác** ứng với các nguyên lý tài chính hiện đại."*
 
-📚 **So với khảo sát chuẩn của ngành.** Nghiên cứu được trích dẫn nhiều nhất về câu hỏi này là **Graham & Harvey (2001)**, *"The Theory and Practice of Corporate Finance: Evidence from the Field"*, Journal of Financial Economics 60:187–243, khảo sát **392 giám đốc tài chính**:
+> [!note] So với khảo sát chuẩn của ngành.
+> Nghiên cứu được trích dẫn nhiều nhất về câu hỏi này là **Graham & Harvey (2001)**, *"The Theory and Practice of Corporate Finance: Evidence from the Field"*, Journal of Financial Economics 60:187–243, khảo sát **392 giám đốc tài chính**:
 
 | Phương pháp        | Graham & Harvey (dữ liệu 2/1999) | Lo đọc |
 | ------------------ | -------------------------------: | -----: |
@@ -710,7 +762,8 @@ Lo chiếu một khảo sát (`S18 50:53`), *"khoảng năm năm trước"* so v
 | NPV                |                        **74,9%** |  > 65% |
 | Thời gian hoàn vốn |                        **56,7%** |  > 80% |
 
-⚠️ Hai bộ số không khớp, và **thứ tự cũng ngược**: Graham & Harvey xếp IRR trên NPV, Lo nói NPV đã vượt IRR.
+> [!warning]
+> Hai bộ số không khớp, và **thứ tự cũng ngược**: Graham & Harvey xếp IRR trên NPV, Lo nói NPV đã vượt IRR.
 
 Một phần khác biệt gần như chắc chắn nằm ở **cách hỏi**: Graham & Harvey hỏi *"luôn luôn hoặc gần như luôn luôn dùng"*, còn khảo sát trên slide của Lo có thể hỏi *"có dùng"*. Với câu hỏi lỏng hơn thì hoàn vốn đạt trên 80% là hoàn toàn hợp lý. Tôi **không kết luận Lo sai** — tôi chỉ ghi rằng nguồn tham chiếu chuẩn của ngành cho con số khác, và Lo không nêu tên khảo sát ông dùng.
 
@@ -722,9 +775,11 @@ Một phần khác biệt gần như chắc chắn nằm ở **cách hỏi**: Gr
 
 Ngay đầu Ses 18 (`S18 01:07`), một sinh viên hỏi về **giá trị hiện tại điều chỉnh**. Lo trả lời:
 
+> [!quote]
 > *"Cả giáo trình lẫn thực hành tốt nhất đều khuyến nghị dùng **giá trị hiện tại điều chỉnh**, về cơ bản là điều chỉnh cho những thứ như thuế, tương tác giữa các dự án, phương án chiến lược, tính quyền chọn… **Với bây giờ thì NPV là đáp án đúng**, nhưng khi học sâu hơn về cách điều chỉnh, các bạn sẽ muốn dùng chúng."*
 
-📚 Ý tưởng của APV (Stewart Myers, 1974) là **tách bạch**:
+> [!note]
+> Ý tưởng của APV (Stewart Myers, 1974) là **tách bạch**:
 
 $$\text{APV} = \underbrace{\text{NPV của dự án nếu tài trợ hoàn toàn bằng vốn chủ}}_{\text{giá trị hoạt động}} \;+\; \underbrace{\text{giá trị hiện tại của các hiệu ứng tài trợ}}_{\text{chủ yếu là lá chắn thuế lãi vay}}$$
 
@@ -736,7 +791,8 @@ Vì sao nó tốt hơn cách gộp mọi thứ vào một suất chiết khấu:
 | Lá chắn thuế lãi vay     | gộp trong suất chiết khấu  | tính **riêng, hiện rõ**                       |
 | Hợp với                  | doanh nghiệp ổn định       | mua lại bằng đòn bẩy, dự án có tài trợ ưu đãi |
 
-⚠️ Bài này **không** dạy WACC — Lo cũng không dạy trong hai buổi này. Suất chiết khấu ở đây đến thẳng từ CAPM ([bài 11](bai_11_capm_va_beta.md)) và là **chi phí vốn chủ sở hữu** cho một dự án được xem như tài trợ toàn bộ bằng vốn chủ. Đó là lý do §9 dùng beta của Wiley trực tiếp mà không tháo đòn bẩy.
+> [!warning]
+> Bài này **không** dạy WACC — Lo cũng không dạy trong hai buổi này. Suất chiết khấu ở đây đến thẳng từ CAPM ([bài 11](bai_11_capm_va_beta.md)) và là **chi phí vốn chủ sở hữu** cho một dự án được xem như tài trợ toàn bộ bằng vốn chủ. Đó là lý do §9 dùng beta của Wiley trực tiếp mà không tháo đòn bẩy.
 
 ---
 
@@ -744,26 +800,31 @@ Vì sao nó tốt hơn cách gộp mọi thứ vào một suất chiết khấu:
 
 Lo kết thúc phần ngân sách vốn bằng một cảnh báo về chính khung ông vừa dạy (`S18 58:26`):
 
+> [!quote]
 > *"Và các bạn đừng làm người trịch thượng về chuyện này. **Đừng nói với người ta rằng NPV là con đường duy nhất.** Hãy nhận ra rằng có những yếu tố rủi ro và lợi ích khác mà hoàn vốn, IRR, hay chỉ số sinh lời có thể nắm bắt được."*
 
 Và (`S18 59:06`): *"Có rất nhiều cân nhắc khác mà bạn không nên quên — **chính trị, xã hội, văn hoá, triển khai**."*
 
 Một sinh viên hỏi cụ thể (`S18 63:12`): nếu tôi là nhà đầu tư mua cổ phiếu niêm yết, chẳng phải mọi cân nhắc đó đã nằm trong giá rồi sao? Lo lấy một ví dụ đang nóng hổi (`S18 64:02`):
 
+> [!quote]
 > *"Nhìn chuyện xảy ra với **Bear Stearns** so với **Lehman Brothers**. Rất khó hiểu vì sao lại như thế. Bear Stearns bị coi là **quá lớn để sụp** nên được đưa vào một cú hạ cánh mềm với JP Morgan. Lehman, ở một số khía cạnh còn lớn hơn và còn đan xen rộng hơn trong hệ thống tài chính, thì **bị để cho sụp. Tôi không hiểu nổi điều đó dưới góc độ kinh tế.**"*
 
 Phỏng đoán của ông — và ông ghi rõ là **phỏng đoán thuần tuý** (`S18 65:06`):
 
+> [!quote]
 > *"Lý do Lehman Brothers bị bỏ mặc là vì có quá nhiều chỉ trích và phản ứng dữ dội sau vụ Bear Stearns, đến mức cả Bộ Tài chính lẫn Cục Dự trữ Liên bang cho rằng làm lại lần nữa là **không thể chấp nhận về mặt chính trị**. Vì nếu làm lại, họ sẽ bị kỳ vọng làm lại nữa, và nữa, và nữa."*
 
 Rồi ông tự lật lại lập luận của mình (`S18 65:37`):
 
+> [!quote]
 > *"Nhưng để thấy độ phức tạp của chiều chính trị: **giờ đây khi Lehman đã sụp và gây ra hậu quả thảm khốc như vậy, có lẽ giờ mới thật sự là không thể để bất kỳ công ty nào sụp.** Vì người ta sẽ nói: nhớ Lehman Brothers chứ? Tốt hơn là đừng làm thế nữa."*
 
 Lo cũng đưa một ví dụ chính trị **nội bộ** dễ áp dụng hơn (`S18 66:29`): bạn là quản lý bộ phận mới được tổng giám đốc thuê về để xoay chuyển tình thế. Quý đầu tiên, bạn đề xuất một kế hoạch tái cấu trúc. *"Nhiều khả năng tổng giám đốc sẽ đồng ý — dù chẳng biết gì về việc đề xuất đó khôn hay dại, tốt hay xấu."* Vì sao? *"Người ta vừa thuê bạn để làm việc đó, nên họ phải cho bạn hưởng lợi ích của sự nghi ngờ một thời gian trước khi siết cương lại."*
 
 Và ông tự chỉ trích chính nghề của mình (`S18 67:45`):
 
+> [!quote]
 > *"Nhà kinh tế học có một thói rất xấu, kể cả tôi. **Chúng tôi nghĩ mọi thứ đều là kinh tế.** Có người nói rằng **với người cầm búa thì mọi thứ trông đều giống cái đinh.** Và tôi đồng ý. Là nhà kinh tế, tôi có những công cụ mà tôi nghĩ áp dụng được cho mọi thứ. Và có một nguy hiểm là… **chỉ sau khi bị đập vào đầu bởi một loạt thất bại của lý thuyết**, bạn mới bắt đầu nhận ra có thể còn thứ khác ngoài kia đang giải thích hành vi."*
 
 Đó chính là cầu nối sang **bài 13** — buổi cuối về thị trường hiệu quả, tài chính hành vi, và khoa học thần kinh nhận thức.
@@ -791,7 +852,8 @@ Nhận xét chung: **các dự đoán về phương pháp của Lo đều đúng
 
 Áp đúng phương pháp §9 — dùng beta của công ty thuần tuý cùng ngành. Beta lấy từ [bài 11 §23](bai_11_capm_va_beta.md), đo so với VN-Index, 173 tháng.
 
-⚠️ Lãi suất phi rủi ro **3%** và phần bù rủi ro thị trường **8%** dưới đây là **giả định minh hoạ**, không phải số liệu tôi đo được. Mục này cho thấy kết quả nhạy đến mức nào với chính hai giả định đó.
+> [!warning]
+> Lãi suất phi rủi ro **3%** và phần bù rủi ro thị trường **8%** dưới đây là **giả định minh hoạ**, không phải số liệu tôi đo được. Mục này cho thấy kết quả nhạy đến mức nào với chính hai giả định đó.
 
 | Mã  | Ngành        | Beta | Chi phí vốn = 3 + β × 8 |
 | --- | ------------ | ---: | ----------------------: |
@@ -813,6 +875,7 @@ Một dự án: chi **100 tỷ đồng**, thu **16 tỷ/năm** trong 10 năm.
 | VCB                       |      11,22% |      −6.633.790.782 | BỎ         |
 | HPG                       |      12,50% | **−11.431.918.186** | BỎ         |
 
+> [!note]
 > **Cùng một dòng tiền.** Chỉ đổi beta từ 0,56 sang 1,19, NPV đổi **21,2 tỷ đồng** và quyết định lật từ NHẬN sang BỎ. Đây chính là lỗi Lo cảnh báo ở `S17 52:41`, đo bằng tiền Việt.
 
 ### Và chính hai giả định kia còn nhạy hơn
@@ -826,6 +889,7 @@ Giữ beta cố định ở 1,00, thay đổi lãi suất phi rủi ro và phầ
 |       **4%** |     −1,7 |     −5,8 |  −9,6 | −13,2 | −16,5 |
 |       **5%** |     −5,8 |     −9,6 | −13,2 | −16,5 | −19,7 |
 
+> [!note]
 > NPV chạy từ **+7,4 tỷ tới −19,7 tỷ** chỉ trong dải giả định hợp lý này. **Không phải dòng tiền, mà chính mẫu số mới là nguồn bất định lớn nhất.**
 
 Đây đúng là điều [bài 9 §11](bai_09_rui_ro_va_loi_suat.md) đã đo: kỳ vọng là đại lượng **khó ước lượng nhất**, và phần bù rủi ro thị trường chính là một kỳ vọng. Với 79 năm dữ liệu Mỹ, khoảng tin cậy 95% của nó là **[3,6% ; 12,4%]** — rộng hơn cả bảng trên. Với Việt Nam, chuỗi số liệu ngắn hơn nhiều.
@@ -841,21 +905,25 @@ Hệ quả thực hành: **đừng báo cáo một con số NPV duy nhất.** B�
 
 Thuế suất thu nhập doanh nghiệp chuẩn của Việt Nam là **20%**, đúng một nửa mức Lo dùng.
 
+> [!note]
 > Hệ quả trực tiếp: **lá chắn thuế khấu hao ở Việt Nam chỉ đáng giá một nửa so với ví dụ của Lo.** Quyết định đầu tư vào tài sản cố định vì thế ít phụ thuộc vào lịch khấu hao hơn, và §7 — giá trị của khấu hao nhanh dần — cũng chỉ còn một nửa sức nặng.
 
-📚 Khung pháp lý hiện hành để đối chiếu:
+> [!note]
+> Khung pháp lý hiện hành để đối chiếu:
 
 |               |                                                                                                                                                                                                                                                      |
 | ------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Thuế suất** | Luật Thuế thu nhập doanh nghiệp số **67/2025/QH15**, hiệu lực **1/10/2025**: chuẩn **20%**; **17%** cho doanh nghiệp nhỏ (doanh thu 3–50 tỷ đồng/năm); **15%** cho doanh nghiệp siêu nhỏ (dưới 3 tỷ). Không áp cho công ty con của tập đoàn lớn      |
 | **Khấu hao**  | **Thông tư 45/2013/TT-BTC** — ngưỡng vốn hoá 30 triệu đồng; ba phương pháp: **đường thẳng**, **số dư giảm dần có điều chỉnh**, **theo sản lượng**; khung thời gian tối thiểu–tối đa theo Phụ lục 1; mỗi tài sản chỉ được đổi phương pháp **một lần** |
 
-⚠️ Cần kiểm lại: Nghị định 320/2025/NĐ-CP và các thông tư ban hành theo luật thuế mới có sửa đổi phần khấu hao của Thông tư 45/2013 hay không — cơ sở pháp lý gốc của thông tư này (Luật 14/2008) đã bị thay thế.
+> [!warning]
+> Cần kiểm lại: Nghị định 320/2025/NĐ-CP và các thông tư ban hành theo luật thuế mới có sửa đổi phần khấu hao của Thông tư 45/2013 hay không — cơ sở pháp lý gốc của thông tư này (Luật 14/2008) đã bị thay thế.
 
 ---
 
 ## 23. Code minh hoạ
 
+> [!note]
 > ⚙️ **Chạy:** cần **Python 3.11+**. Lưu file rồi gõ `python3 bai-12-ngan-sach-von.py`. Không cần cài gói nào.
 
 |            |                                                                             |
@@ -1471,7 +1539,7 @@ HET. Moi con so tren tinh tu du lieu va gia dinh ghi ro trong chinh file nay.
 - Luật Thuế thu nhập doanh nghiệp số **67/2025/QH15**, hiệu lực 1/10/2025 — thuế suất chuẩn 20%, bậc ưu đãi 17% và 15%
 - **Thông tư 45/2013/TT-BTC** — quản lý, sử dụng và trích khấu hao tài sản cố định
 
-⚠️ **Chưa xác minh được, ghi rõ ở đây:**
+> [!warning] Chưa xác minh được, ghi rõ ở đây:
 
 - Khảo sát Lo chiếu ở `S18 50:53` (hoàn vốn > 80%, IRR 65%) **không được nêu tên** trên lớp, và con số không khớp Graham & Harvey (2001). Tôi đối chiếu với khảo sát chuẩn của ngành và ghi khả năng khác biệt do cách hỏi, chứ **không** kết luận Lo sai (§18).
 - Beta 1,29 của John Wiley & Sons và mọi dòng tiền dự án ở §9 và §22 là **giả định minh hoạ** — Lo chỉ đọc beta và chi phí vốn, không đưa dòng tiền.

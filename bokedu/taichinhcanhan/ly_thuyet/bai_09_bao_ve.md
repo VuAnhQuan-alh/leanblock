@@ -1,20 +1,19 @@
 # Bài 9 — Bảo vệ: lạm phát, quỹ khẩn cấp, bảo hiểm
 
+> [!info] Về bài này
 > Bài học dựa trên **C2 tr. 39–47** — Unit 4, Lesson 1 đến Lesson 3 của *Tài chính cá nhân 101,
 > Class 2*. (Lesson 4 về Ponzi bắt đầu ở tr. 47 và thuộc **bài 11**.)
->
 > **Cần đọc trước:** [Bài 8](bai_08_vay_va_tra_no.md) — bài này là thứ lẽ ra đã chặn khoản vay
 > 13 triệu ở tháng Tết. Và [bài 6](bai_06_thue_thu_nhap_ca_nhan.md), vì mục 6 dùng lại đúng dòng
 > **1% bảo hiểm thất nghiệp** đã bị trừ khỏi lương ở đó.
->
 > **Ký hiệu:** **[bổ sung]** là kiến thức ngoài sách · **[đính chính]** là chỗ sách sai ·
 > **[2026]** là mục đối chiếu với hiện tại.
->
 > **Về phần pháp lý:** mục 6 và mục 12 dẫn văn bản, tra ngày **09/09/2026**. Luật đổi thì con số
 > đổi — kiểm lại ngày tra trước khi tin.
->
 > **Code:** [`thuc_hanh/bai-09-bao-ve.py`](../thuc_hanh/bai-09-bao-ve.py)
 > — Unit 4 định nghĩa nhiều, phân loại nhiều, nhưng gần như không tính gì. Tệp này tính hộ.
+>
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
 
 ---
 
@@ -48,6 +47,7 @@
 Unit 4 đặt ba chủ đề cạnh nhau — lạm phát, quỹ khẩn cấp, bảo hiểm — như ba bài rời. Chúng không
 rời. Chúng là **cùng một câu hỏi ở ba quy mô**:
 
+> [!note]
 > Có một khoản tiền sắp mất đi. Ai chịu?
 
 | Quy mô tổn thất | Ai chịu | Công cụ |
@@ -71,6 +71,7 @@ lời câu đó bằng số.
 C2 tr. 39–43. Định nghĩa của sách gọn và đúng: **sự tăng giá liên tục của hàng hoá dịch vụ theo
 thời gian và sự mất giá của một loại tiền tệ.** Và câu quan trọng nhất, ở tr. 39:
 
+> [!quote]
 > *"Bạn trông thấy giá tăng. Thực tế, sức mua của đồng tiền bị giảm xuống theo thời gian."*
 
 Đây là cách nhìn đúng: bạn không nghèo đi vì phở đắt lên, bạn nghèo đi vì **tiền của bạn nhỏ lại**.
@@ -102,6 +103,7 @@ thức lợi suất thực ở [mục 5](#5-bổ-sung-lạm-phát-nối-thẳng-
 
 tr. 39 mở đầu bằng một ví dụ đời thường:
 
+> [!quote]
 > *"Năm ngoái bạn ra đầu ngõ ăn bát phở 25 ngàn, thì giờ giá nó lên 35-40 ngàn."*
 
 **Năm ngoái → giờ.** Một năm. Đem chính con số ấy xếp vào chính bảng của sách ở trang sau:
@@ -303,6 +305,7 @@ Quy định hiện hành (**Luật Việc làm 2025**, hiệu lực 01/01/2026):
 
 **Trợ cấp = 60% × 18,10tr = 10,86tr/tháng**, trong khi sàn chi thiết yếu là **10,37tr/tháng**.
 
+> [!note]
 > **Trợ cấp thất nghiệp phủ được 105% phần chi thiết yếu.**
 
 | Đã đóng BHTN | Được hưởng | Tổng tiền nhận | Che được mấy tháng chi |
@@ -339,6 +342,7 @@ Mục sau cho thấy phép trừ này rút ngắn thời gian xây quỹ đi **m
 
 tr. 45 khuyên để quỹ ở ngân hàng và nói hai câu, cách nhau vài dòng:
 
+> [!quote]
 > *"Bạn có thể chọn kỳ hạn 6 tháng và tự động cho số tiền lãi nhập gốc."*
 >
 > *"vì đây là khoản dự phòng nên tiêu chí tiện lợi, nhanh chóng sẽ được ưu tiên hơn lãi suất"*
@@ -415,6 +419,7 @@ Vay nóng 20%/năm thì quỹ khẩn cấp vừa "sinh lời" 20% ở đúng kho
 C2 tr. 45–47. Sách mở bằng hình ảnh hay nhất của cả hai tập: bộ áo mưa trong cốp xe. Không mang vì
 biết chắc trời mưa, mang vì *"nhỡ lúc nào đó"*. Rồi câu định nghĩa gọn:
 
+> [!quote]
 > *"Bảo hiểm là thứ bạn mua và bạn ước rằng không bao giờ mình phải dùng đến."*
 
 Về bảo hiểm nhân thọ, sách nêu bốn ý ở tr. 47, và ba trong bốn ý đều đúng:
@@ -487,6 +492,7 @@ năm.**
 
 tr. 47 đưa ba con số trong cùng một đoạn:
 
+> [!quote]
 > *"Nếu bạn đang chu cấp cho gia đình và thu nhập tháng của bạn khoảng 10 triệu trở lên, hãy cân
 > nhắc tìm hiểu về Bảo hiểm nhân thọ. Mức đóng định kỳ 1 triệu đồng/tháng không quá khó."*
 

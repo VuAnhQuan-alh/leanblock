@@ -1,22 +1,19 @@
 # Bài 4 — Trái phiếu I: đọc tương lai từ một bảng giá
 
+> [!info] Về bài này
 > Bài học dựng trên **nửa sau** video **"Ses 4: Present Value Relations III & Fixed-Income
 > Securities I"** (`hyc8h5T76BE`, 71:49) và **toàn bộ** video **"Ses 5: Fixed-Income Securities II"**
 > (`yrmqYNvvIzs`, 79:10) — khoá **MIT 15.401 *Finance Theory I*, Fall 2008**, giảng viên
 > **Prof. Andrew W. Lo**. Phụ đề gốc do người viết tay.
->
 > 🕑 Mốc thời gian có tiền tố buổi: `S4 47:25` = buổi 4, phút 47:25. Bài này dùng buổi 4 từ
 > **`S4 42:23` tới hết**, và buổi 5 **toàn bộ**. Vài chỗ dẫn ngược sang `S1`, `S2`, `S3` — mọi mốc
 > đều đối chiếu với **đúng** video của nó.
 >
-> 📚 **Mở rộng** — kiến thức video lướt qua hoặc bài học này bổ sung, **không có trong video**.
-> 🇻🇳 **Góc Việt Nam** — số liệu và ví dụ trong nước (mục 18), **không có trong video**.
-> ⚠️ Mục **7** ghi lại việc Lo tự chấm điểm dự đoán sai của chính mình; mục **8** ghi một câu
-> khẳng định của ông **bị bác sau 85 ngày**; mục **14** đối chiếu với 2026.
-> 📌 **Cần đọc trước:** [Bài 2](bai_02_gia_tri_hien_tai.md) — ẩn dụ tỷ giá và luật một giá là
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
+>
+> **Cần đọc trước:** [Bài 2](bai_02_gia_tri_hien_tai.md) — ẩn dụ tỷ giá và luật một giá là
 > nền của toàn bộ bài này. [Bài 3](bai_03_don_bay_va_lam_phat.md) — dự đoán mà Lo tự chấm điểm ở
 > mục 7 là dự đoán ông đưa ra ở cuối bài 3.
->
 > Công thức viết bằng LaTeX — mở bằng **Obsidian** hoặc VS Code + Markdown Preview Enhanced.
 
 ---
@@ -56,11 +53,13 @@
 
 Ở phút `S4 42:23`, giữa buổi giảng, Lo sang trang:
 
+> [!quote]
 > *"Xong bài giảng 3 rồi, ta chuyển sang bài 4 — chứng khoán thu nhập cố định. Và đây chính là
 > tâm điểm của phần lớn sự đổ vỡ trên thị trường lúc này."*
 
 Rồi ông nói một câu nghe như quảng cáo nhưng hoá ra đúng nguyên văn (`S4 43:28`):
 
+> [!quote]
 > *"Các bạn giờ đã biết tất cả những gì cần biết để định giá gần như bất kỳ chứng khoán thu nhập
 > cố định nào — miễn là không có vỡ nợ. Không có bất định. Nhớ nhé, ta nói không có bất định cho
 > tới bài 12."*
@@ -70,6 +69,7 @@ là một chuỗi dòng tiền, và giá trị của nó là tổng giá trị h
 chuỗi dòng tiền **được ghi sẵn trên giấy**. Về mặt định giá, đó là loại chứng khoán **dễ nhất trên
 đời** (`S4 45:42`):
 
+> [!quote]
 > *"Không thể đơn giản hơn một mảnh giấy ghi: mỗi năm vào ngày này, tôi sẽ trả anh 10.000 đô."*
 
 **Vậy tại sao còn ba bài giảng nữa cho chủ đề này?**
@@ -81,6 +81,7 @@ khấu năm 1 bằng `r`, năm 2 bằng `r`, năm 30 cũng bằng `r`.
 
 Lo nói thẳng ở `S5 10:40`:
 
+> [!quote]
 > *"Lãi suất có thể khác nhau tuỳ theo chân trời thời gian. Lãi suất một năm không giống lãi suất
 > năm năm, bởi vì thị trường có kỳ vọng khác nhau về việc nền kinh tế sẽ ra sao."*
 
@@ -90,6 +91,7 @@ và bạn chỉ cần biết chia hai số cho nhau là đọc được.
 
 Lo gọi nó bằng cái tên to nhất mà một nhà kinh tế lượng dám dùng (`S4 70:06`):
 
+> [!quote]
 > *"Đây là thứ gần với một quả cầu pha lê nhất mà các bạn sẽ từng chạm tới. Tôi nói nghiêm túc.
 > Nhìn vào giá, bạn có thể biết tương lai."*
 
@@ -119,12 +121,14 @@ nhất tôi kiếm được"* (`S4 46:58`):
 
 Rồi (`S4 47:53`):
 
+> [!quote]
 > *"Những con số này làm thị trường cổ phiếu trông nhỏ bé. Ta vẫn quen tập trung phân tích cổ
 > phiếu, và ta phấn khích khi Google định thâu tóm Yahoo. Nhưng quy mô thị trường cổ phiếu bị
 > chứng khoán thu nhập cố định làm cho lu mờ."*
 
 Ông thòng thêm một câu rất Lo (`S4 48:20`):
 
+> [!quote]
 > *"Đây là so táo với cam. Tôi chỉ đang nói rằng táo nhiều hơn cam rất nhiều."*
 
 Ba quan sát ông rút ra từ hai biểu đồ tiếp theo, và cả ba đều quan trọng cho việc hiểu 2008:
@@ -140,6 +144,7 @@ nhất, bỏ xa các mảng khác. Và điều đó kéo dài tới 2007, rồi 
 
 **c) To không có nghĩa là dễ bán.** Đây là điểm tinh tế nhất và cũng là điểm ít ai nói (`S4 51:15`):
 
+> [!quote]
 > *"Khác với cổ phiếu giao dịch suốt ngày, chúng ta **không** có một sàn giao dịch trái phiếu có tổ
 > chức như NYSE. Có trái phiếu được giao dịch mỗi phút trong ngày, nhưng thường không phải cùng một
 > mã."*
@@ -147,9 +152,10 @@ nhất, bỏ xa các mảng khác. Và điều đó kéo dài tới 2007, rồi 
 Và (`S4 52:03`): *"Những chứng khoán phức tạp như CDO, MBS còn giao dịch thưa hơn nữa, vì chúng
 phức tạp và không dễ biết giá của chúng từ phút này sang phút khác."*
 
-⚠️ **Giữ câu này lại.** Nó là một nửa lời giải thích cho toàn bộ 2008: khi bạn phải *mark to market*
-(bài 3, mục 5) một thứ **không có giá thị trường**, thì con số bạn ghi vào sổ là một ước lượng — và
-khi thị trường hoảng, ước lượng đó rơi thẳng đứng.
+> [!warning] Giữ câu này lại.
+> Nó là một nửa lời giải thích cho toàn bộ 2008: khi bạn phải *mark to market*
+> (bài 3, mục 5) một thứ **không có giá thị trường**, thì con số bạn ghi vào sổ là một ước lượng — và
+> khi thị trường hoảng, ước lượng đó rơi thẳng đứng.
 
 ---
 
@@ -181,10 +187,11 @@ tập trung kiểu NYSE — điều đó đến 2026 vẫn đúng. Nhưng hai th
   cả rổ trái phiếu như một lô), đã biến một phần lớn thị trường trái phiếu doanh nghiệp Mỹ thành
   điện tử.
 
-⚠️ Nhưng lưu ý điều **không** đổi: **minh bạch giá ≠ thanh khoản.** Bạn biết giá gần nhất không có
-nghĩa là bạn bán được ngay ở giá đó. Tháng 3/2020 thị trường trái phiếu kho bạc Mỹ — thị trường
-thanh khoản nhất hành tinh — vẫn kẹt cứng tới mức Fed phải mua vào hàng trăm tỷ đô trong vài tuần.
-Câu của Lo ở `S4 52:03` chưa hết hạn.
+> [!warning]
+> Nhưng lưu ý điều **không** đổi: **minh bạch giá ≠ thanh khoản.** Bạn biết giá gần nhất không có
+> nghĩa là bạn bán được ngay ở giá đó. Tháng 3/2020 thị trường trái phiếu kho bạc Mỹ — thị trường
+> thanh khoản nhất hành tinh — vẫn kẹt cứng tới mức Fed phải mua vào hàng trăm tỷ đô trong vài tuần.
+> Câu của Lo ở `S4 52:03` chưa hết hạn.
 
 ---
 
@@ -208,6 +215,7 @@ sống qua:
 
 Lo giải thích khái niệm "mua trái phiếu" bằng một trò đùa của giới học thuật (`S4 53:11`):
 
+> [!quote]
 > *"Thỉnh thoảng đi ăn trưa với đồng nghiệp trong nhóm tài chính, một ông sẽ nói: tôi bán cho anh
 > một trái phiếu được không, hôm nay tôi chưa ra máy ATM. Đó là cách giáo sư tài chính nói chuyện,
 > tiếc thay."*
@@ -217,6 +225,7 @@ chủ nợ.
 
 Rồi ông chỉ vào chỗ đang cháy (`S4 54:25`):
 
+> [!quote]
 > *"Sự đổ vỡ đang diễn ra ở khâu **trung gian**. Nỗ lực chống đỡ tài chính cho Fannie Mae, Freddie
 > Mac, Lehman, Merrill và các tổ chức khác thực chất là nhằm cứu một hỗn hợp giữa trung gian và
 > người phát hành. Bởi vì nếu không cứu nhóm này, thì nhóm kia — nhà đầu tư — sẽ lãnh đủ."*
@@ -225,6 +234,7 @@ Rồi ông chỉ vào chỗ đang cháy (`S4 54:25`):
 
 Lo đưa ra ẩn dụ hay nhất buổi (`S4 55:17`):
 
+> [!quote]
 > *"Với tư cách nhà tạo lập, họ rốt cuộc phải ôm rủi ro trên sổ sách của chính mình. Nói chung đó
 > không phải ý hay. Thế giới lý tưởng là bạn làm **người thu phí cầu đường**, thu phí xe chạy qua
 > chạy lại. Bạn không ôm rủi ro nào cả. Nhưng nếu **không phải ai cũng muốn chạy qua rồi chạy
@@ -236,6 +246,7 @@ hướng giá. Nhưng để làm được vậy, hai chiều phải cân. Khi c�
 
 Lo minh hoạ bằng ngày 19/10/1987 (`S4 55:49`, `S4 56:34`, `S4 57:04`):
 
+> [!quote]
 > *"Sáng hôm đó, các chuyên gia sàn — những người có nhiệm vụ tạo lập thị trường — đến lúc 9 giờ 30
 > và bị áp đảo bởi tất cả mọi người đều muốn bán. Nên họ mua. Và khi họ mua, giá thế nào? Tiếp tục
 > giảm. Nghĩa là càng nhiều người muốn bán. Nên họ mua tiếp. Cứ thế, suốt cả ngày. Thứ họ mua buổi
@@ -243,9 +254,10 @@ Lo minh hoạ bằng ngày 19/10/1987 (`S4 55:49`, `S4 56:34`, `S4 57:04`):
 > trong số họ bị xoá sạch vốn chỉ vì cú giảm 20 % trong một ngày — trong khi họ chỉ đang làm đúng
 > việc của mình."*
 
-⚠️ **Số chính xác:** ngày thứ Hai 19/10/1987, **DJIA giảm 508,32 điểm, tức 22,61 %**, đóng cửa ở
-1.738,74. **S&P 500 giảm 20,47 %.** Lo nói *"khoảng 20 %"* — đúng cho S&P 500, hơi thấp so với Dow.
-Đây vẫn là mức giảm một ngày lớn nhất lịch sử thị trường Mỹ, vượt xa 12,82 % của 29/10/1929.
+> [!warning] Số chính xác:
+> ngày thứ Hai 19/10/1987, **DJIA giảm 508,32 điểm, tức 22,61 %**, đóng cửa ở
+> 1.738,74. **S&P 500 giảm 20,47 %.** Lo nói *"khoảng 20 %"* — đúng cho S&P 500, hơi thấp so với Dow.
+> Đây vẫn là mức giảm một ngày lớn nhất lịch sử thị trường Mỹ, vượt xa 12,82 % của 29/10/1929.
 
 Câu **"họ cũng dùng đòn bẩy"** là chỗ bài 3 nối vào bài 4: cùng một cơ chế, khác nhân vật. Người
 tạo lập thị trường không đặt cược hướng giá, nhưng vì họ dùng đòn bẩy, **họ vẫn chết vì hướng giá.**
@@ -262,6 +274,7 @@ này từ nguồn độc lập** — nó có mọi dấu hiệu của một truy
 Lo bắt đầu định giá bằng **trái phiếu coupon** ba năm, coupon 5 %, mệnh giá 1.000 $ (`S4 60:14`).
 Ông giải thích cả cái tên (`S4 61:17`):
 
+> [!quote]
 > *"Vì sao gọi là trái phiếu coupon? Ngày xưa trái phiếu là một tờ giấy thật, và ở mép dưới có
 > những phiếu nhỏ. Bạn cắt phiếu ra rồi gửi qua bưu điện. Mỗi năm gửi một lần, hoặc hai lần một
 > năm, bạn nhận lại 50 đô."*
@@ -270,12 +283,14 @@ Rồi ông hỏi "cái này đáng giá bao nhiêu?" và một sinh viên trả 
 Lo hỏi tiếp cách xác định giá trị thị trường, và nhận được **hai** câu trả lời (`S4 62:56`,
 `S4 63:13`):
 
+> [!quote]
 > *"Tính giá trị hiện tại ròng, NPV. Đó là một câu trả lời. Đó là câu trả lời đúng theo sách giáo
 > khoa. Còn cách nào khác? — **Qua thị trường.** Chính xác. Đấu giá nó đi."*
 
 Và ông chốt lại bằng đúng ẩn dụ tỷ giá của [bài 2](bai_02_gia_tri_hien_tai.md#5-phép-ẩn-dụ-trung-tâm-hai-thời-điểm-là-hai-loại-tiền-tệ)
 (`S4 63:27`):
 
+> [!quote]
 > *"Nhưng khi làm vậy, cái ta đang làm chính là tính giá trị hiện tại. Cách làm là tìm ra giá của
 > **một đô ở năm 1**, tính theo hôm nay. Giá của một đô ở năm 2, tính theo hôm nay. Và một đô ở năm
 > 3. Lấy các tỷ giá đó rồi quy tất cả các loại tiền khác nhau về đô-la hôm nay."*
@@ -284,12 +299,14 @@ Trước khi làm chuyện phức tạp, ông đơn giản hoá tối đa. Ông 
 **lạm phát, tín dụng, thời điểm, thanh khoản, tỷ giá** (`S4 64:32`) — rồi gạt hết bốn cái đi
 (`S4 65:33`):
 
+> [!quote]
 > *"Trong vài bài giảng tới tôi muốn giữ mọi thứ đơn giản và chỉ nói về **nợ không rủi ro**. Không
 > rủi ro theo nghĩa không vỡ nợ. Cụ thể là trái phiếu chính phủ Mỹ. Vì bạn luôn có thể in đô-la ra
 > để trả chủ nợ."*
 
 Và ông không quên chú thích cho chính mình (`S4 65:51`):
 
+> [!quote]
 > *"Những đồng đô-la đó có thể không đáng giá như bạn muốn nếu in quá nhiều — nhưng tạm thời ta
 > không quan tâm tới vỡ nợ."*
 
@@ -301,12 +318,14 @@ $$P_{0,t} \;=\; \frac{F}{(1+r_{0,t})^{\,t}}$$
 
 Lo giải thích tại sao có chữ "chiết khấu" trong tên (`S4 66:25`):
 
+> [!quote]
 > *"Nếu mệnh giá là 1.000 đô và không có gì ở giữa, thì giá hôm nay **không thể** lớn hơn 1.000 đô,
 > vì tiền hôm nay đáng giá hơn tiền năm sau. Nên giá hôm nay sẽ thấp hơn 1.000. Nó nằm ở mức chiết
 > khấu so với 1.000 — do đó có tên trái phiếu chiết khấu thuần."*
 
 Và rồi câu quan trọng nhất của cả mục (`S4 69:25`):
 
+> [!quote]
 > *"Quan hệ này thực sự tuyệt vời, bởi nếu bạn có **hai trong ba biến** của phương trình, bạn có
 > biến thứ ba. Cho tôi biết mệnh giá và lãi suất, bạn có giá. Cho tôi biết giá và mệnh giá, bạn có
 > lãi suất. Cho tôi lãi suất và giá, bạn tính ra mệnh giá."*
@@ -315,6 +334,7 @@ Và rồi câu quan trọng nhất của cả mục (`S4 69:25`):
 thật, **cái bạn quan sát được là giá**, không phải lãi suất. Lãi suất không phải một con số ai đó
 công bố — nó là thứ bạn **suy ngược ra từ giá**. Lo nói rõ ở `S5 11:16`:
 
+> [!quote]
 > *"Làm sao ta biết các lãi suất này là bao nhiêu? — **Thị trường.** Chính xác. Cách làm không phải
 > là nghĩ về lãi suất, mà là **đấu giá** những mảnh giấy trả 1.000 đô sau một năm, 1.000 đô sau hai
 > năm... rồi xem giá đấu ra là bao nhiêu. Có giá rồi, có mệnh giá rồi, ta giải ngược ra `r`."*
@@ -329,6 +349,7 @@ hành trái phiếu **có coupon** (`S4 67:00`).
 
 Lo kể giải pháp như một câu chuyện (`S4 67:21`):
 
+> [!quote]
 > *"Rồi một kỹ sư tài chính thông minh nào đó nói: đây là việc tôi sẽ làm. Tôi sẽ mua thật nhiều
 > trái phiếu coupon của kho bạc, rồi phát hành các trái phiếu chiết khấu khớp đúng với từng khoản
 > coupon. Nói cách khác, tôi sẽ **lột** các coupon ra và chào bán chúng như những chứng khoán riêng
@@ -339,6 +360,7 @@ Lo kể giải pháp như một câu chuyện (`S4 67:21`):
 
 Rồi ông rút ra bài học nghề nghiệp (`S4 68:44`):
 
+> [!quote]
 > *"Có rất nhiều ý tưởng mà với bạn thì có vẻ hiển nhiên nhưng với thị trường thì không. Và
 > **không có bằng sáng chế cho ý tưởng hay**. Không ai độc quyền ý tưởng hay. Bạn hoàn toàn có thể
 > tạo ra giá trị khổng lồ bằng một giải pháp mà bạn tưởng là quá đơn giản, nhưng nó giải quyết vấn
@@ -364,10 +386,11 @@ nó: từ 1982 đến 1985 khu vực tư nhân đã lột khoảng **57 tỷ đ�
 tưởng "hiển nhiên" đó, trước khi chính phủ nhìn ra và tự làm — và khi chính phủ làm thì TIGRs và
 CATS chết sạch.
 
-📚 Có một chi tiết Lo bỏ qua nhưng đáng nhớ: **hai ông lớn chỉ đặt tên con vật.** TIGRs (hổ), CATS
-(mèo). Đó không phải đùa — vì các sản phẩm này mang **thương hiệu riêng**, không hoán đổi được cho
-nhau, nên chính cái tên hay ho ấy là nguyên nhân khiến chúng thất bại. Bài học phụ: trong thị trường
-tài chính, **tiêu chuẩn hoá đánh bại khác biệt hoá.**
+> [!note]
+> Có một chi tiết Lo bỏ qua nhưng đáng nhớ: **hai ông lớn chỉ đặt tên con vật.** TIGRs (hổ), CATS
+> (mèo). Đó không phải đùa — vì các sản phẩm này mang **thương hiệu riêng**, không hoán đổi được cho
+> nhau, nên chính cái tên hay ho ấy là nguyên nhân khiến chúng thất bại. Bài học phụ: trong thị trường
+> tài chính, **tiêu chuẩn hoá đánh bại khác biệt hoá.**
 
 ---
 
@@ -379,6 +402,7 @@ Cuối buổi 4, Lo đưa ra dự đoán đã ghi ở [bài 3, mục 7](bai_03_d
 
 Buổi 5 mở đầu như thế này (`S5 00:28`):
 
+> [!quote]
 > *"Trước khi bắt đầu bài hôm nay, tôi muốn nói vài lời về tin tức, bởi vì lần trước, hôm thứ Hai,
 > **chúng ta** đã nói — hay đúng hơn là **tôi** đã nói — rằng Fed sẽ cắt lãi suất. [CẢ LỚP CƯỜI]"*
 
@@ -386,12 +410,14 @@ Cái dấu **[LAUGHTER]** đó nằm trong phụ đề gốc. Sinh viên đã th
 
 Ông kể tiếp (`S5 00:47`):
 
+> [!quote]
 > *"Và thực tế, nếu bạn nhìn dữ liệu hôm thứ Hai, nhìn hợp đồng tương lai lãi suất Fed và các hợp
 > đồng tài chính khác, thị trường đã định giá vào việc Fed sẽ cắt ít nhất 25 điểm cơ bản, và một xác
 > suất hợp lý là cắt 50. Và tất nhiên, họ **không làm cả hai**. Họ giữ nguyên lãi suất."*
 
 ### Việc Fed làm thay vì cắt lãi suất
 
+> [!quote] S5 01:03
 > *"Nhưng họ **có** làm gì đó. Họ làm gì? Có ai biết không? — Một khoản vay. Bao nhiêu?
 > **85 tỷ đô**, mà kể cả với chỗ bạn bè thì đó vẫn là rất nhiều tiền. [CƯỜI]"* (`S5 01:03`)
 
@@ -400,12 +426,14 @@ sẽ cắt lãi suất.
 
 Lo dựng câu hỏi của buổi học từ nghịch lý này (`S5 02:36`):
 
+> [!quote]
 > *"Lehman Brothers sụp, và Fed làm gì? **Không gì cả.** Vậy nếu Fed không làm gì cho Lehman, mà
 > lại cấp khoản vay 85 tỷ cho AIG, thì phải có gì đó khác nhau. Ý tôi là, ta có thể kiểm tra xem
 > Ben Bernanke có ông anh vợ làm ở AIG không, nhưng tôi không nghĩ đó là lý do."*
 
 Câu trả lời ông đưa ra (`S5 07:26`, `S5 07:45`) — và ông ghi rõ *"đây là suy đoán"*:
 
+> [!quote]
 > *"Fed quyết định rằng vấn đề không phải **giá** của vốn mà là **sự sẵn có** của vốn. Nói cách
 > khác, họ lo về một cuộc khủng hoảng tín dụng, một khủng hoảng thanh khoản. Và AIG là một tay chơi
 > rất quan trọng ở khía cạnh đó — rõ ràng quan trọng hơn Lehman nhiều. AIG cung cấp lượng bảo hiểm
@@ -413,6 +441,7 @@ Câu trả lời ông đưa ra (`S5 07:26`, `S5 07:45`) — và ông ghi rõ *"�
 
 Rồi ông chỉ ra cơ chế dây chuyền, và đây là chỗ hay nhất (`S5 08:27`):
 
+> [!quote]
 > *"Nếu bạn là một quỹ hưu trí, bạn **bị luật buộc** chỉ được nắm tài sản hạng đầu tư. Nếu vì bất
 > kỳ lý do gì các tài sản đó rơi xuống dưới hạng đầu tư, thì theo luật bạn **buộc phải bán**. Bây
 > giờ, bạn nghĩ chuyện gì sẽ xảy ra với thị trường nếu tất cả mọi người cùng một lúc quyết định
@@ -432,16 +461,18 @@ Cứu AIG không phải cứu AIG — là cứu cái nhãn xếp hạng.
 | Kết thúc                          | Bộ Tài chính bán nốt cổ phần tháng 12/2012, ở giá 32,50 $/cp             |
 | Kết quả tài chính                 | **lãi 22,7 tỷ $** — Fed lãi 17,7 tỷ, Bộ Tài chính lãi 5,0 tỷ             |
 
-⚠️ **Đừng đọc con số 22,7 tỷ như một lời biện minh.** Đó là lợi nhuận **danh nghĩa**, không tính chi
-phí cơ hội của vốn và không tính giá trị của bảo lãnh ngầm mà nhà nước đã trao. Có thời điểm Văn
-phòng Ngân sách Quốc hội (CBO) dự báo khoản cứu trợ này sẽ **lỗ 14 tỷ đô**. Việc nó rốt cuộc có lãi
-là kết quả của diễn biến thị trường, không phải bằng chứng rằng quyết định lúc đó là đúng — đúng
-tinh thần bài học ở mục dưới đây.
+> [!warning] Đừng đọc con số 22,7 tỷ như một lời biện minh.
+> Đó là lợi nhuận **danh nghĩa**, không tính chi
+> phí cơ hội của vốn và không tính giá trị của bảo lãnh ngầm mà nhà nước đã trao. Có thời điểm Văn
+> phòng Ngân sách Quốc hội (CBO) dự báo khoản cứu trợ này sẽ **lỗ 14 tỷ đô**. Việc nó rốt cuộc có lãi
+> là kết quả của diễn biến thị trường, không phải bằng chứng rằng quyết định lúc đó là đúng — đúng
+> tinh thần bài học ở mục dưới đây.
 
 ### Điều Lo tự rút ra
 
 Đây là đoạn quan trọng nhất buổi 5, và tôi để nguyên văn (`S5 06:50`):
 
+> [!quote]
 > *"Hôm thứ Hai, tôi khẳng định rằng giá thị trường đang nói với chúng ta: sẽ có một đợt cắt lãi
 > suất của Fed. Rõ ràng là **sai**. Mà đó là một bài học rất hay, bởi vì điều này cho ta thấy rằng
 > **giá thị trường có chứa thông tin, nhưng như tôi đã nói lần trước, chúng không phải một quả cầu
@@ -457,21 +488,25 @@ một bài quảng cáo. Và mục 14 sẽ đem chính quả cầu ấy đi cân
 
 Giữa buổi, một sinh viên hỏi một câu rất hay (`S5 09:00`):
 
+> [!quote]
 > *"Có một chuyện đơn giản mà em không hiểu. Làm sao lãi suất lại có thể thấp hơn tỷ lệ lạm phát?"*
 
 Lo trả lời phần đầu **hoàn toàn đúng** (`S5 09:14`) — và nó chính là [bài 3](bai_03_don_bay_va_lam_phat.md#10-danh-nghĩa-và-thực):
 
+> [!quote]
 > *"Về nguyên tắc thì không nên kéo dài. Nhưng trong ngắn hạn thì chắc chắn có thể. Và điều đó có
 > nghĩa là **lãi suất thực đang âm**, hoặc nền kinh tế đang co lại."*
 
 Sinh viên hỏi tiếp: *"Vậy lúc này, 1 đô một năm nữa có giá hơn 1 đô hôm nay?"* Lo đáp (`S5 09:29`):
 
+> [!quote]
 > *"Nếu tính cả lạm phát thì đúng — **theo giá trị thực**, không phải theo giá trị danh nghĩa.*
 > ***Bạn không bao giờ có thể có lãi suất danh nghĩa âm.*** *Đúng không? Trừ khi có ai đó đang đốt
 > tiền."*
 
-⚠️ **Đây là lần thứ hai Lo nói câu này trong khoá.** Lần đầu ở buổi 1, và [bài 1, mục 12](bai_01_tai_chinh_la_gi.md)
-đã bác lại bằng ECB, SNB, BOJ. Nhưng lần này chuyện còn ngoạn mục hơn nhiều, vì:
+> [!warning] Đây là lần thứ hai Lo nói câu này trong khoá.
+> Lần đầu ở buổi 1, và [bài 1, mục 12](bai_01_tai_chinh_la_gi.md)
+> đã bác lại bằng ECB, SNB, BOJ. Nhưng lần này chuyện còn ngoạn mục hơn nhiều, vì:
 
 **Nó bị bác ngay trong chính thị trường mà ông đang chiếu lên màn hình, sau 85 ngày.**
 
@@ -489,20 +524,22 @@ Và trên thị trường **sơ cấp**, ba phiên đấu giá tín phiếu 4 tu
 kết thúc **đúng bằng 0,00 %** — trái phiếu được phát hành **ngang mệnh giá**, tức nhà đầu tư bỏ ra
 32 tỷ đô để một tháng sau nhận lại đúng 32 tỷ đô, không một xu lãi.
 
-⚠️ **Một chi tiết phải nói cho chính xác:** các phiên **đấu giá** không âm — Kho bạc Mỹ không nhận
-giá thầu âm cho chứng khoán danh nghĩa, và quy định năm 2009 sau đó ghi rõ mức bỏ thầu phải là số
-dương hoặc bằng không. Lãi suất **âm** xảy ra ở **thị trường thứ cấp**, nơi người ta mua đi bán lại.
-Đó là chỗ con số −0,01 % ở trên đến từ.
+> [!warning] Một chi tiết phải nói cho chính xác:
+> các phiên **đấu giá** không âm — Kho bạc Mỹ không nhận
+> giá thầu âm cho chứng khoán danh nghĩa, và quy định năm 2009 sau đó ghi rõ mức bỏ thầu phải là số
+> dương hoặc bằng không. Lãi suất **âm** xảy ra ở **thị trường thứ cấp**, nơi người ta mua đi bán lại.
+> Đó là chỗ con số −0,01 % ở trên đến từ.
 
 **Vì sao ai đó chịu trả tiền để được cho chính phủ vay?** Vì hai lý do rất thực tế: (a) giữ 32 tỷ đô
 tiền mặt cũng tốn tiền — kho, bảo hiểm, và rủi ro ngân hàng giữ hộ bị phá sản; (b) nhiều tổ chức
 **bị luật buộc** phải nắm tín phiếu kho bạc làm tài sản thế chấp. Khi nhu cầu bắt buộc gặp nguồn
 cung hạn chế, giá vượt mệnh giá, và lợi suất chui xuống dưới 0.
 
-📚 Cái Lo bỏ sót không phải một chi tiết kỹ thuật mà là một giả định: **ông ngầm cho rằng tiền mặt
-luôn là lựa chọn thay thế miễn phí.** Nếu bạn luôn có thể giữ tiền giấy với chi phí bằng 0, thì
-đúng, không ai chịu lãi suất âm. Nhưng với 32 tỷ đô thì tiền giấy **không** miễn phí. Ranh giới đó
-có tên: **"mức sàn tiền giấy hiệu dụng"** (*effective lower bound*), và nó nằm dưới 0, không bằng 0.
+> [!note]
+> Cái Lo bỏ sót không phải một chi tiết kỹ thuật mà là một giả định: **ông ngầm cho rằng tiền mặt
+> luôn là lựa chọn thay thế miễn phí.** Nếu bạn luôn có thể giữ tiền giấy với chi phí bằng 0, thì
+> đúng, không ai chịu lãi suất âm. Nhưng với 32 tỷ đô thì tiền giấy **không** miễn phí. Ranh giới đó
+> có tên: **"mức sàn tiền giấy hiệu dụng"** (*effective lower bound*), và nó nằm dưới 0, không bằng 0.
 
 Bài học rút ra không phải "Lo dốt" — mà là: **một điều kiện không kênh hoá luôn kèm theo một giả
 định ngầm về công nghệ giao dịch.** Ở bài 2, luật một giá dựa vào giả định "bạn mua bán được tự do".
@@ -515,6 +552,7 @@ kết luận vỡ theo. Đây là mẫu hình sẽ lặp lại suốt phần quy
 
 Lo cảnh báo trước (`S5 37:17`):
 
+> [!quote]
 > *"Bài giảng này có rất nhiều ký hiệu, nhưng không nhiều thách thức khái niệm. Bởi vì mọi thách
 > thức khái niệm đã được giải quyết khi ta nói về quy tắc giá trị hiện tại ròng."*
 
@@ -555,22 +593,26 @@ r_{0,t} \;=\; \left[\prod_{k=1}^{t}(1+R_k)\right]^{1/t} - 1$$
 
 Lo diễn đạt bằng một câu (`S5 16:08`):
 
+> [!quote]
 > *"Bạn có thể nghĩ về $r$ nhỏ như một **trung bình nhân** của các $R$ lớn."*
 
-⚠️ **Trung bình *nhân*, không phải trung bình cộng.** Với lãi suất nhỏ thì hai cái gần bằng nhau,
-nhưng khác biệt lớn dần khi lãi suất cao — cùng cơ chế đã gặp ở [bài 3](bai_03_don_bay_va_lam_phat.md#10-danh-nghĩa-và-thực)
-với công thức Fisher xấp xỉ.
+> [!warning] Trung bình *nhân*, không phải trung bình cộng.
+> Với lãi suất nhỏ thì hai cái gần bằng nhau,
+> nhưng khác biệt lớn dần khi lãi suất cao — cùng cơ chế đã gặp ở [bài 3](bai_03_don_bay_va_lam_phat.md#10-danh-nghĩa-và-thực)
+> với công thức Fisher xấp xỉ.
 
 ### Vì sao phải bận tâm
 
 Lo nói thẳng lý do (`S5 14:23`):
 
+> [!quote]
 > *"Ta **không quan sát được** các $R$ này. Nên đây là hư cấu thuần tuý, theo nghĩa những gì tôi
 > đang viết. Đó là lý thuyết. Tôi không nói rằng ta biết các $R$ lớn ấy là bao nhiêu. Nhưng tôi biết
 > chúng tồn tại."*
 
 Rồi (`S5 16:43`):
 
+> [!quote]
 > *"Cái $r$ nhỏ — thứ ta **quan sát được** — chứa thông tin về diễn biến lãi suất tương lai. Bên
 > trong $r$ nhỏ là tất cả các $R$ lớn — ít nhất là kỳ vọng ngày hôm nay về chúng."*
 
@@ -601,6 +643,7 @@ vốn, lợi suất của chân trời 5 kỳ."* Con số khớp — mục 19 ch
 
 Đây là chỗ Lo phải mượn máy tính của sinh viên (`S5 21:31`):
 
+> [!quote]
 > *"Tôi không mang máy tính, nhưng chắc chắn các bạn có. Ai chia hộ tôi phép này được không? Lấy
 > 0,967 chia cho 0,927. Được bao nhiêu? — 1,04. Trừ đi 1. **4 %.** Cho tôi thêm vài chữ số nữa
 > được không? — 4,314."*
@@ -613,11 +656,13 @@ Cái $F$ triệt tiêu, $(1+R_1)$ triệt tiêu, còn đúng $1+R_2$.
 
 Lo chốt (`S5 22:35`):
 
+> [!quote]
 > *"Ẩn trong giá của một trái phiếu hai năm và một trái phiếu một năm — ẩn trong đó là một **dự
 > báo** về lợi suất, hay chi phí vay, giữa năm 1 và năm 2."*
 
-⚠️ Số đúng là **4,3150 %**; sinh viên đọc 4,314 do làm tròn. Không đáng kể, nhưng nếu bạn tự bấm máy
-và ra 4,315 thì đừng nghĩ mình sai.
+> [!warning]
+> Số đúng là **4,3150 %**; sinh viên đọc 4,314 do làm tròn. Không đáng kể, nhưng nếu bạn tự bấm máy
+> và ra 4,315 thì đừng nghĩ mình sai.
 
 Kiểm chứng quan hệ trung bình nhân: $R_1 = 3{,}4126\%$, $R_2 = 4{,}3150\%$, trung bình nhân
 $= \sqrt{1{,}034126 \times 1{,}043150} - 1 = 3{,}8628\%$ — **đúng bằng** $r_{0,2}$ tính thẳng từ giá
@@ -640,6 +685,7 @@ Vẽ $r_{0,t}$ theo $t$, ta được thứ Lo gọi tên ở `S5 23:15`: **cấu
 
 Rồi Lo làm việc mà giáo trình không làm được: ông mở trình duyệt (`S5 24:15`).
 
+> [!quote]
 > *"Tôi đang ở trang Bloomberg. Đây là bản công khai, tôi không có giấy phép gì đặc biệt. Bấm vào
 > market data, rồi rates and bonds, bạn sẽ ra đúng trang này."*
 
@@ -661,6 +707,7 @@ Giờ đọc lại lời Lo và đối chiếu từng câu:
 
 **✅ "Ba điểm cơ bản."** (`S5 25:14`)
 
+> [!quote]
 > *"Chỗ ta đang đứng hôm nay, với lãi suất 3 tháng, là gần bằng 0. Thực ra là **ba điểm cơ bản**,
 > ba điểm cơ bản cho tín phiếu kho bạc 3 tháng."*
 
@@ -669,6 +716,7 @@ lớp, không chuẩn bị trước.
 
 **✅ "Đường xanh và đường cam khác nhau, và khác ở đầu ngắn."** (`S5 26:18`)
 
+> [!quote]
 > *"Nhìn khoảng cách giữa đường xanh và đường cam. Đường cam là hôm qua. Có khác biệt. Có khác biệt
 > rõ rệt **ở đầu ngắn**, nghĩa là rất nhiều người đang đi mua tín phiếu kho bạc lúc này, có lẽ ngay
 > khi chúng ta đang nói chuyện."*
@@ -679,6 +727,7 @@ tập trung vào đúng một chỗ trú.**
 
 **✅ Cơ chế giá.** Lo hỏi lớp vì sao lợi suất thấp thế, và dẫn tới câu trả lời (`S5 25:45`):
 
+> [!quote]
 > *"**Giá cực kỳ cao.** Đúng vậy. Giá bằng khoản trả sau 3 tháng chia cho $1+r$. Nếu $r$ hoá ra bé
 > tí xíu, thì chỉ vì giá rất cao. Vì sao giá lại cao? — Vì trái phiếu kho bạc Mỹ là thứ an toàn để
 > nắm giữ lúc này."*
@@ -688,6 +737,7 @@ Người ta tranh nhau mua, giá bị đẩy sát mệnh giá, và lợi suất 
 
 **✅ Hình dạng.** (`S5 28:11`)
 
+> [!quote]
 > *"Đường cong đi lên rất dốc sau ba tháng đầu. Có một cú tăng lớn ở độ dốc, rồi sau đó thoải dần.
 > Đó là dấu hiệu của một cuộc **chạy trốn về chất lượng** hay chạy trốn về thanh khoản trong ngắn
 > hạn."*
@@ -697,6 +747,7 @@ năm còn lại. Đúng như ông mô tả.
 
 **✅ Diễn giải.** (`S5 28:29`)
 
+> [!quote]
 > *"Thị trường kỳ vọng rằng theo thời gian, khi mọi thứ lắng xuống, lãi suất sẽ đi lên, vì một trong
 > hai lý do. Hoặc có áp lực lạm phát, hoặc sẽ có những hệ quả kinh tế của những gì đang xảy ra hôm
 > nay, và điều đó rốt cuộc đẩy lãi suất lên."*
@@ -707,11 +758,13 @@ Giữ câu này. **Mục 14 sẽ đem nó đi chấm điểm.**
 
 Một sinh viên người Argentina hỏi một câu rất sắc (`S5 28:50`):
 
+> [!quote]
 > *"Ở nước em, khi có khủng hoảng thì lãi suất **tăng**, vì xác suất vỡ nợ tăng. Còn ở đây em thấy
 > ngược lại."*
 
 Trả lời của Lo (`S5 29:13`, `S5 29:49`) là một trong những đoạn giá trị nhất buổi:
 
+> [!quote]
 > *"Đúng vậy. Nó tuỳ vào **bản chất** của cuộc khủng hoảng. Ở một số nước, phản ứng điển hình của cơ
 > quan tiền tệ là bơm tiền mặt ngập thị trường, vì đó là cách họ đối phó với thiếu thanh khoản. Khi
 > làm vậy, bạn khuyến khích lạm phát, và đó là lý do lãi suất tăng ở những nền kinh tế đó. Nước Mỹ,
@@ -738,6 +791,7 @@ $$\frac{P_{0,\,t-1}}{P_{0,\,t}} \;-\; 1 \;=\; f_{t-1,\,t}$$
 
 Và đặt tên (`S5 38:13`):
 
+> [!quote]
 > *"Nó được gọi là **lãi suất kỳ hạn** hôm nay giữa ngày $t-1$ và $t$. Nó là một dự báo về lãi suất
 > giao ngay tương lai giữa hai ngày đó."*
 
@@ -755,11 +809,13 @@ Lo tự nhận là chúng gây rối (`S5 39:14`), và bảng sau là chỗ đá
 bạn biết hôm nay còn cái kia thì không.** Lãi suất kỳ hạn là **phỏng đoán tốt nhất của thị trường**
 về lãi suất giao ngay tương lai. Lo diễn đạt (`S5 38:31`):
 
+> [!quote]
 > *"Ta không biết lãi suất tương lai sẽ là bao nhiêu. Nó bất định. Nhưng hôm nay, **ẩn trong giá hôm
 > nay là một dự báo** về cái tương lai chưa biết đó, và ta gọi dự báo ấy là lãi suất kỳ hạn."*
 
 Và ông không quên lời khuyên thực dụng nhất buổi (`S5 40:58`):
 
+> [!quote]
 > 💡 *"Mỗi lần gặp một bài toán kiểu này, **hãy vẽ trục thời gian**. Không thì bạn sẽ rối tung không
 > cứu được."*
 
@@ -769,6 +825,7 @@ Và ông không quên lời khuyên thực dụng nhất buổi (`S5 40:58`):
 
 Đây là ví dụ hay nhất buổi 5, và Lo dẫn nó rất cẩn thận (`S5 41:56`):
 
+> [!quote]
 > *"Bạn là giám đốc tài chính của một công ty đa quốc gia đặt ở Mỹ, và bạn sẽ nhận 10 triệu đô sau
 > một năm nữa, từ hoạt động ở nước ngoài. Nhưng bạn phải trả cổ tức vào **hai** năm nữa. Bạn không
 > muốn cầm số tiền đó rồi loay hoay với nó. Bạn không biết lãi suất khi đó sẽ ra sao. Cái bạn muốn
@@ -793,6 +850,7 @@ $$f_{1,2} = \frac{(1{,}07)^2}{1{,}05} - 1 = \frac{1{,}1449}{1{,}05} - 1 = \mathb
 
 Lo dừng lại để giải thích con số 9,524 triệu vì nó trông kỳ quặc (`S5 51:14`):
 
+> [!quote]
 > *"9,524 triệu là **giá trị hiện tại** của 10 triệu đô hôm nay, ở lãi suất 5 %."*
 
 Đúng vậy: $10{.}000{.}000 / 1{,}05 = 9{.}523{.}810$. Bạn vay đúng số tiền mà một năm sau, cả gốc lẫn
@@ -812,6 +870,7 @@ vệ đầu tiên của khoá học, và nó sẽ quay lại đầy đủ ở b�
 
 **2. Ai nên làm và ai không nên.** Câu này rất Lo (`S5 49:54`, `S5 50:55`):
 
+> [!quote]
 > *"Tôi không phải nhà quản lý quỹ đầu cơ. Tôi không phải trader. Tôi không muốn đặt cược vào lãi
 > suất tương lai. Tôi chỉ muốn **giải xong bài toán của mình**. […] Nếu bạn nghĩ lãi suất sẽ tăng
 > nhiều hơn thị trường nghĩ, thì bạn có thể chờ. Nhưng lúc đó **bạn đang trở thành nhà đầu cơ lãi
@@ -821,6 +880,7 @@ vệ đầu tiên của khoá học, và nó sẽ quay lại đầy đủ ở b�
 **3. Vì sao không mua một hợp đồng phái sinh cho nhanh?** Một sinh viên hỏi đúng câu đó. Lo trả lời
 (`S5 52:21`):
 
+> [!quote]
 > *"Có, bạn hoàn toàn có thể ký một hợp đồng kỳ hạn. Nhưng vấn đề là làm cách này **quá đơn giản**.
 > Sao lại không? Và nếu đơn giản thì nhiều khả năng nó **rẻ**. Nếu phức tạp, đó là lúc bạn phải trả
 > tiền. […] Tôi rất sẵn lòng cấu trúc một sản phẩm phái sinh cho bạn. Và tới lúc xong việc, tôi sẽ
@@ -833,6 +893,7 @@ ngành sản phẩm cấu trúc sống nhờ việc khách hàng không biết �
 
 Lo còn thòng thêm cho nhẹ (`S5 53:24`), sau khi một sinh viên hỏi lấy đâu ra 10 triệu:
 
+> [!quote]
 > *"Có một câu đùa cũ của Steve Martin: tôi sẽ chỉ cho bạn cách kiếm một triệu đô mà không đóng
 > thuế. Bước một, kiếm một triệu đô."*
 
@@ -840,6 +901,7 @@ Lo còn thòng thêm cho nhẹ (`S5 53:24`), sau khi một sinh viên hỏi lấ
 
 Ngay sau ví dụ, Lo nói (`S5 51:31`):
 
+> [!quote]
 > *"Đây là minh hoạ tốt cho cái tôi vẫn nói: tài chính không phải môn thể thao để ngồi xem. Tôi cho
 > rằng tất cả các bạn đều hiểu các bài giảng về giá trị hiện tại, về giá trị thời gian của tiền, và
 > chuyện phải dùng đúng tỷ giá. Nghe thì khá đơn giản. Nhưng đưa nó vào thực hành thì không dễ —
@@ -865,23 +927,27 @@ Cuối buổi, Lo điểm danh các lý thuyết giải thích **vì sao** đư�
 
 Cộng thêm cả một họ mô hình toán, mà Lo giới thiệu với chút tự hào nhà trường (`S5 69:17`):
 
+> [!quote]
 > *"Mô hình nổi tiếng nhất được phát triển bởi chính **John Cox và Steve Ross** của chúng ta. Mô
 > hình Cox–Ingersoll–Ross về cấu trúc kỳ hạn của lãi suất có lẽ là mô hình đường cong lãi suất nổi
 > tiếng nhất."*
 
-📚 Chú thích: mô hình CIR công bố năm **1985** trên *Econometrica*, đồng tác giả với **Jonathan
-Ingersoll** (Đại học Yale) — người mà Lo bỏ tên khi nói miệng nhưng vẫn nằm trong tên mô hình. Cox
-và Ross đều ở MIT Sloan; Stephen Ross mất ngày **3/3/2017**.
+> [!note]
+> Chú thích: mô hình CIR công bố năm **1985** trên *Econometrica*, đồng tác giả với **Jonathan
+> Ingersoll** (Đại học Yale) — người mà Lo bỏ tên khi nói miệng nhưng vẫn nằm trong tên mô hình. Cox
+> và Ross đều ở MIT Sloan; Stephen Ross mất ngày **3/3/2017**.
 
 ### Rồi Lo hạ một câu
 
 `S5 72:34`:
 
+> [!quote]
 > *"Và để cho các bạn biết giới học thuật đang ở đâu hôm nay: **không mô hình nào trong số này chạy
 > được.** Không mô hình nào giải thích trọn vẹn được chuyển động của đường cong lãi suất."*
 
 Và ông biến nó thành cơ hội (`S5 72:54`):
 
+> [!quote]
 > *"Đó là một cơ hội tuyệt vời cho các bạn. Vì nếu bạn có một mô hình chạy được, bạn có thể làm rất
 > tốt. Bạn có thể biến một chút xíu năng lực dự báo thành một khối tài sản khổng lồ, rất nhanh, ở
 > Phố Wall."*
@@ -891,6 +957,7 @@ Scholes cũng không, thực ra"* (`S5 73:39`), vì công thức công bố **19
 Chicago (CBOE) khai trương ngày **26/4/1973**, và ai cũng dùng công thức đó ngay từ đầu. Ông kết
 (`S5 74:10`):
 
+> [!quote]
 > *"Tôi tin là **có** những mô hình cấu trúc kỳ hạn chạy khá tốt ngoài kia. Chúng không được công
 > bố. Chúng được giữ như **Coca-Cola của thị trường tài chính**. Chúng là bí mật kinh doanh."*
 
@@ -915,11 +982,12 @@ Fed New York công bố ước lượng phần bù kỳ hạn hằng ngày. Dùn
 thấp hơn kỳ vọng lãi suất ngắn hạn để được nắm trái phiếu 10 năm.** Tức là họ **trả thêm** để cho
 vay dài, đúng ngược điều Lý thuyết Ưa thích thanh khoản khẳng định.
 
-📚 Lưu ý phương pháp: phần bù kỳ hạn **không quan sát được trực tiếp** — nó là sản phẩm của một mô
-hình. Mô hình ACM (Adrian–Crump–Moench, Fed New York) cho con số hơi khác Kim–Wright, có lúc lệch
-50–100 điểm cơ bản. Nhưng **dấu** thì cả hai mô hình đồng ý, và đó là điều đang được kiểm. Nếu Lo
-giảng bài này năm 2026, câu *"không mô hình nào chạy được"* vẫn nguyên giá trị — chỉ là giờ ta có
-số liệu để nói cụ thể mô hình nào sai ở chỗ nào.
+> [!note]
+> Lưu ý phương pháp: phần bù kỳ hạn **không quan sát được trực tiếp** — nó là sản phẩm của một mô
+> hình. Mô hình ACM (Adrian–Crump–Moench, Fed New York) cho con số hơi khác Kim–Wright, có lúc lệch
+> 50–100 điểm cơ bản. Nhưng **dấu** thì cả hai mô hình đồng ý, và đó là điều đang được kiểm. Nếu Lo
+> giảng bài này năm 2026, câu *"không mô hình nào chạy được"* vẫn nguyên giá trị — chỉ là giờ ta có
+> số liệu để nói cụ thể mô hình nào sai ở chỗ nào.
 
 ### Kiểm chứng thứ hai: đem quả cầu pha lê đi chấm điểm
 
@@ -971,7 +1039,8 @@ nghiệm — mọi lần đảo ngược kéo dài kể từ thập niên 1970 �
 không.** Tính tới tháng 9/2026, đã **25 tháng** kể từ khi đường cong trở lại bình thường, vượt xa
 mọi độ trễ lịch sử, mà suy thoái không tới.
 
-⚠️ Hai lưu ý để không kết luận quá tay:
+> [!warning]
+> Hai lưu ý để không kết luận quá tay:
 
 - **"Dài nhất lịch sử" nên đọc là "dài nhất trong chuỗi số liệu".** Phần lớn nghiên cứu chỉ dùng dữ
   liệu từ 1976. Đường cong Mỹ từng đảo ngược khoảng 700 ngày trước cú sụp 1929 — nằm ngoài chuỗi
@@ -992,6 +1061,7 @@ hụt — chỉ là bài học này có thêm số liệu để đóng đinh.
 
 Quay lại trái phiếu coupon. Lo nói cách nghĩ đúng (`S5 55:24`):
 
+> [!quote]
 > *"Bạn luôn có thể nhìn một trái phiếu coupon như một **gói các trái phiếu chiết khấu**. Đó là
 > ngược lại của STRIPS. STRIPS lấy một trái phiếu coupon rồi chẻ nó thành những trái phiếu chiết
 > khấu nhỏ. Thì ngược lại, trái phiếu coupon thực chất chỉ là một tập hợp các trái phiếu chiết khấu
@@ -1003,9 +1073,10 @@ $$P_0 \;=\; \sum_{t=1}^{T} \frac{C_t}{(1+r_{0,t})^{\,t}}$$
 
 Mỗi dòng tiền chiết khấu bằng **lãi suất của đúng kỳ hạn của nó**. Đó là cách đúng.
 
-📚 Một chi tiết thể chế Lo nhắc ở `S4 59:57` và `S5 56:16`: **trái phiếu coupon Mỹ thường trả nửa
-năm một lần.** Nên "coupon 3 %" nghĩa là 3 % **mỗi sáu tháng**, không phải mỗi năm. Bài này bỏ qua
-chi tiết đó cho gọn, nhưng khi tính bằng số liệu thật thì phải nhớ.
+> [!note]
+> Một chi tiết thể chế Lo nhắc ở `S4 59:57` và `S5 56:16`: **trái phiếu coupon Mỹ thường trả nửa
+> năm một lần.** Nên "coupon 3 %" nghĩa là 3 % **mỗi sáu tháng**, không phải mỗi năm. Bài này bỏ qua
+> chi tiết đó cho gọn, nhưng khi tính bằng số liệu thật thì phải nhớ.
 
 ### Vì sao vẫn có Y
 
@@ -1015,12 +1086,14 @@ $$P_0 \;=\; \sum_{t=1}^{T} \frac{C_t}{(1+Y)^{\,t}}$$
 
 Lo định nghĩa (`S5 57:43`):
 
+> [!quote]
 > *"$Y$ đó được gọi là **lợi suất** của trái phiếu ấy. Nó là lãi suất duy nhất mà nếu lãi suất là
 > hằng số suốt thời gian, sẽ làm cho giá trị hiện tại của toàn bộ coupon và gốc bằng đúng giá hiện
 > tại."*
 
 Ông so với khoản vay mua nhà — nối thẳng vào [bài 2, mục 13](bai_02_gia_tri_hien_tai.md) (`S5 58:07`):
 
+> [!quote]
 > *"Rõ ràng, khi bạn nhận một khoản vay cố định 5,98 %, bạn biết lãi suất sẽ **không** thực sự là
 > 5,98 % mãi mãi. Lãi suất thay đổi hằng năm. Nhưng 5,98 % đó là một **trung bình** của cả kỳ 30 năm
 > bạn đi vay."*
@@ -1030,6 +1103,7 @@ một sự thật về lãi suất.** Y phụ thuộc cả vào coupon, nên hai
 khác nhau sẽ có Y khác nhau dù đối mặt cùng một đường cong. Lo nói rõ điều này khi quay lại biểu đồ
 Bloomberg (`S5 62:26`):
 
+> [!quote]
 > *"Cái được vẽ ở đây **không phải** $r$ nhỏ. Nó là $Y$ của các trái phiếu coupon."*
 
 ### Một chỗ Lo nói quá tay về toán
@@ -1037,17 +1111,20 @@ Bloomberg (`S5 62:26`):
 Giải ngược $Y$ từ giá là giải một **phương trình đa thức bậc $T$**. Lo dẫn dắt bằng câu hỏi kiểu đố
 vui (`S5 59:52`):
 
+> [!quote]
 > *"Với đa thức bậc $t$, trước hết bạn có bao nhiêu nghiệm? — $t$. Và trong số đó, bao nhiêu nghiệm
 > **chắc chắn** là số thực? — Đúng rồi. **Không có bảo đảm nào là có nghiệm thực cả.**"*
 
 Rồi (`S5 60:30`):
 
+> [!quote]
 > *"Với trái phiếu, nơi mọi khoản coupon đều dương và gốc dương và giá dương, hoá ra bạn **có** ít
 > nhất một nghiệm thực. Vấn đề là trong **một số trường hợp, bạn có nhiều nghiệm thực**. Và khi đó
 > rất khó biết lợi suất nào là đúng."*
 
-⚠️ **Với trái phiếu coupon thông thường, điều này không xảy ra. $Y$ là DUY NHẤT.** Lý do đơn giản
-hơn cả quy tắc dấu Descartes: nếu **mọi** dòng tiền sau thời điểm 0 đều dương, thì
+> [!warning] Với trái phiếu coupon thông thường, điều này không xảy ra. $Y$ là DUY NHẤT.
+> Lý do đơn giản
+> hơn cả quy tắc dấu Descartes: nếu **mọi** dòng tiền sau thời điểm 0 đều dương, thì
 
 $$P(Y) = \sum_{t=1}^{T} \frac{C_t}{(1+Y)^t}$$
 
@@ -1060,9 +1137,10 @@ mua lại kèm phí, hoặc một dự án phải bỏ thêm vốn ở giữa v�
 điển, và nó sẽ quay lại đúng nghĩa ở bài 12 (hoạch định ngân sách vốn). Áp cảnh báo đó cho một trái
 phiếu coupon thường là áp nhầm chỗ.
 
-📚 Vì sao chuyện này đáng đính chính: nếu bạn tin lợi suất đáo hạn có thể mơ hồ, bạn sẽ không dám
-dùng phương pháp chia đôi để giải nó — trong khi đó là cách chuẩn, an toàn và tất định, đúng vì hàm
-đơn điệu.
+> [!note]
+> Vì sao chuyện này đáng đính chính: nếu bạn tin lợi suất đáo hạn có thể mơ hồ, bạn sẽ không dám
+> dùng phương pháp chia đôi để giải nó — trong khi đó là cách chuẩn, an toàn và tất định, đúng vì hàm
+> đơn điệu.
 
 ---
 
@@ -1070,11 +1148,13 @@ dùng phương pháp chia đôi để giải nó — trong khi đó là cách ch
 
 Lo kết thúc buổi 5 bằng cách khép vòng tròn về STRIPS (`S5 75:22`):
 
+> [!quote]
 > *"Bạn có một trái phiếu 3 năm coupon 5 %, và có thể chứng minh rằng nó **đồng nhất** với 50 tờ
 > STRIPS 1 năm, 50 tờ STRIPS 2 năm, và 1.050 tờ STRIPS 3 năm, mỗi tờ trả 1 đô ở năm 1, 2 và 3."*
 
 Rồi ông hỏi câu quan trọng (`S5 76:03`):
 
+> [!quote]
 > *"Điều này có một hệ quả rất mạnh. Giá của trái phiếu 3 năm coupon 5 % **buộc phải** bằng chi phí
 > mua 50 tờ STRIPS 1 năm, 50 tờ 2 năm và 1.050 tờ 3 năm. **Vì sao** phải bằng?"*
 
@@ -1093,18 +1173,21 @@ Lo dựng nó từng bước (`S5 76:59` → `S5 78:21`). Giả sử trái phi�
 
 Lo giải thích bán khống cho những ai chưa gặp (`S5 77:18`):
 
+> [!quote]
 > *"Làm sao tôi bán được thứ tôi không sở hữu? — **Bán khống.** Đúng vậy. Bán khống là khi bạn không
 > sở hữu chứng khoán, bạn **mượn** nó từ một nhà môi giới, rồi bán đi, và bạn thu tiền về. Vì bạn đã
 > mượn, tới lúc nào đó bạn phải trả lại."*
 
 Và ông chốt (`S5 78:21`):
 
+> [!quote]
 > *"Bạn kiếm được tiền hôm nay, nhưng bạn **không còn nghĩa vụ nào nữa**, bởi vì thứ bạn nhận từ
 > STRIPS chính là thứ bạn dùng để trả coupon cho trái phiếu bạn đã bán. Nên bạn không còn nghĩa vụ,
 > mà lại có một đống tiền trước mặt. Khá là ngon."*
 
 Rồi lập luận phản chứng (`S5 78:37`, `S5 78:52`):
 
+> [!quote]
 > *"Và nếu bạn làm việc đó thật nhiều lần, đống tiền đó lớn dần. Rõ ràng ta biết chuyện đó không dễ.
 > Và nếu nó không dễ, thì có nghĩa **giả thiết của ta — rằng trái phiếu đắt hơn gói STRIPS — không
 > thể đúng.** Đảo ngược logic thì được lập luận tương tự theo chiều kia. Vậy khả năng duy nhất là
@@ -1118,6 +1201,7 @@ ngang giá put–call và Black–Scholes (bài 8).
 
 Câu cuối cùng của buổi giảng là một lời hẹn (`S5 79:05`):
 
+> [!quote]
 > *"Lần tới, tôi sẽ chỉ cho các bạn thấy rằng **một chút đại số tuyến tính** cho phép các bạn kiếm
 > cả đống tiền bằng cách so sánh đủ loại trái phiếu với nhau."*
 
@@ -1133,10 +1217,11 @@ Lo kể chuyện hai sinh viên MIT định khởi nghiệp bằng thẻ tín d�
 người mười thẻ, mỗi thẻ vay 1.000 đô — được 100.000 đô. Lo phản đối là lãi 18 %/năm, và sinh viên
 đáp: *"đó là vốn mạo hiểm rẻ nhất anh từng thấy."* Rồi Lo nói (`S5 66:15`):
 
+> [!quote]
 > *"Và họ đúng, bởi vì **đó là những khoản vay không truy đòi**. Chúng không lấy phần nào của công
 > ty bạn."*
 
-⚠️ **Dùng sai thuật ngữ, và sai theo hướng nguy hiểm.**
+> [!warning] Dùng sai thuật ngữ, và sai theo hướng nguy hiểm.
 
 | Thuật ngữ                           | Nghĩa đúng                                                  | Thẻ tín dụng |
 | ----------------------------------- | ----------------------------------------------------------- | ------------ |
@@ -1156,6 +1241,7 @@ không được nhầm.
 
 Ở `S5 60:10`, sau khi nói "số thực", Lo đùa:
 
+> [!quote]
 > *"Hoá ra có những con số thực sự không tồn tại trong thực tế. Chúng được gọi là số phức. Và chúng
 > khá là phức tạp, nên tôi sẽ không nói về chúng. [CƯỜI]"*
 
@@ -1173,10 +1259,12 @@ Lần này ông nói **"thập niên 1980"**, chính xác hơn lần ở buổi 
 đỉnh tuần **9/10/1981**; năm 1986 trung bình **10,19 %**. Câu ở buổi 5 đứng vững; câu ở buổi 4 thì
 không.
 
-📚 Điều ông rút ra thì đúng và đáng nhớ (`S5 64:15`, `S5 65:04`): lợi suất tín phiếu kho bạc một năm
-**năm 1982 là 12 %**, và có lúc kỳ hạn dài chạm 16–17 %. So với mức 2008, *"lãi suất vay hiện nay
-rất rất thấp theo chuẩn lịch sử"*. Ông dùng nó để khuyến khích sinh viên khởi nghiệp (`S5 65:24`):
+> [!note]
+> Điều ông rút ra thì đúng và đáng nhớ (`S5 64:15`, `S5 65:04`): lợi suất tín phiếu kho bạc một năm
+> **năm 1982 là 12 %**, và có lúc kỳ hạn dài chạm 16–17 %. So với mức 2008, *"lãi suất vay hiện nay
+> rất rất thấp theo chuẩn lịch sử"*. Ông dùng nó để khuyến khích sinh viên khởi nghiệp (`S5 65:24`):
 
+> [!quote]
 > *"Nếu bạn đang nghĩ tới huy động vốn, bạn có thể thấy nản với thị trường hôm nay. Nhưng hãy nhìn
 > lãi suất và tự hỏi: mình muốn khởi nghiệp hôm nay, hay năm 1982?"*
 
@@ -1205,9 +1293,9 @@ tuần 9–13/3/2026, Kho bạc Nhà nước gọi thầu 13.500 tỷ đồng �
 chỉ trúng thầu **560 tỷ — 4,15 %** kế hoạch, và **toàn bộ tập trung ở kỳ hạn 10 năm**. Ba kỳ hạn còn
 lại **không có giao dịch nào**.
 
-⚠️ **Không có giao dịch thì không có giá; không có giá thì không có lãi suất giao ngay để suy ra.**
-Cả bộ máy ở mục 9–12 — $R$ lớn, $r$ nhỏ, lãi suất kỳ hạn — cần một đường cong **liên tục và có giao
-dịch thật**. Ở Việt Nam, kỳ hạn 10 năm là điểm chuẩn gần như duy nhất luôn có thanh khoản.
+> [!warning] Không có giao dịch thì không có giá; không có giá thì không có lãi suất giao ngay để suy ra.
+> Cả bộ máy ở mục 9–12 — $R$ lớn, $r$ nhỏ, lãi suất kỳ hạn — cần một đường cong **liên tục và có giao
+> dịch thật**. Ở Việt Nam, kỳ hạn 10 năm là điểm chuẩn gần như duy nhất luôn có thanh khoản.
 
 ### b) Nhưng bộ máy vẫn dùng được ở chỗ nó có số
 
@@ -1256,6 +1344,7 @@ lầm sẽ tốn tiền thật.
 
 ## 19. Code minh hoạ
 
+> [!note]
 > ⚙️ **Chạy:** cần **Python 3.10+**. Lưu file rồi gõ `python3 bai-04-trai-phieu-va-duong-cong.py`.
 > **Không cần cài gói nào.** File có sẵn tại [thuc_hanh/bai-04-trai-phieu-va-duong-cong.py](../thuc_hanh/bai-04-trai-phieu-va-duong-cong.py).
 

@@ -1,14 +1,16 @@
 # Bài 5 — Các công cụ cơ bản của tài chính
 
+> [!info] Về bài này
 > Bài học dựng từ **Chương 14 — Các công cụ cơ bản của tài chính** (tr. 313–330)
 > của *N. Gregory Mankiw — **Kinh tế học vĩ mô***, bản dịch của Khoa Kinh tế, **ĐH Kinh tế TP.HCM** (Cengage Learning Asia).
-> 🎯⭐ **Vòng 1, chương sinh lời nhất cả cuốn với người làm quản trị.** Đây là chương duy nhất
+>
+> ⭐ **Vòng 1, chương sinh lời nhất cả cuốn với người làm quản trị.** Đây là chương duy nhất
 > mà mọi công cụ **dùng được ngay** — không cần chờ đến khi bạn làm chính sách vĩ mô. Giá trị hiện tại,
 > lãi kép, đo lường rủi ro, định giá tài sản: bốn thứ bạn sẽ dùng trong mọi quyết định đầu tư còn lại của đời.
-> 💼 **Góc QTKD** — ví dụ thêm cho ngành quản trị kinh doanh, **không có trong sách**.
-> 📚 **Mở rộng** — thứ sách nói lướt hoặc để trong hộp phụ.
-> ⚠️ — chỗ dễ hiểu sai, hoặc chỗ sách in sai.
-> 📌 **Cần đọc trước:** [Bài 4](bai_04_tiet_kiem_dau_tu_he_thong_tai_chinh.md) — cổ phiếu, trái phiếu,
+>
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
+>
+> **Cần đọc trước:** [Bài 4](bai_04_tiet_kiem_dau_tu_he_thong_tai_chinh.md) — cổ phiếu, trái phiếu,
 > thị trường vốn vay. Mục 5 dùng lại **độ lệch chuẩn** của
 > [bài 6 môn Xác suất Thống kê](../../eg11-xacxuatthongke/ly_thuyet/bai_06_ky_vong_phuong_sai_va_cac_so_dac_trung.md).
 
@@ -20,15 +22,15 @@
 
 - [1. Hai yếu tố nằm sau mọi quyết định tài chính](#1-hai-yếu-tố-nằm-sau-mọi-quyết-định-tài-chính)
 - [2. Giá trị hiện tại — đo giá trị của tiền tệ theo thời gian](#2-giá-trị-hiện-tại--đo-giá-trị-của-tiền-tệ-theo-thời-gian)
-- [3. 📚 Ma thuật của lãi kép và quy tắc 70 — hộp "Bạn có biết", tr. 316](#3--ma-thuật-của-lãi-kép-và-quy-tắc-70--hộp-bạn-có-biết-tr-316)
+- [3. Ma thuật của lãi kép và quy tắc 70 — hộp "Bạn có biết", tr. 316](#3-ma-thuật-của-lãi-kép-và-quy-tắc-70--hộp-bạn-có-biết-tr-316)
 - [4. Tính không thích rủi ro](#4-tính-không-thích-rủi-ro)
 - [5. Thị trường bảo hiểm — và hai vấn đề của nó](#5-thị-trường-bảo-hiểm--và-hai-vấn-đề-của-nó)
 - [6. Đa dạng hoá — Hình 2, tr. 320](#6-đa-dạng-hoá--hình-2-tr-320)
 - [7. Đánh đổi giữa rủi ro và sinh lợi — Hình 3, tr. 321](#7-đánh-đổi-giữa-rủi-ro-và-sinh-lợi--hình-3-tr-321)
 - [8. Định giá tài sản — phân tích cơ bản](#8-định-giá-tài-sản--phân-tích-cơ-bản)
 - [9. Giả thuyết thị trường hiệu quả](#9-giả-thuyết-thị-trường-hiệu-quả)
-- [10. 💼 Góc QTKD — bốn công cụ dùng được ngay](#10--góc-qtkd--bốn-công-cụ-dùng-được-ngay)
-- [11. 📚 Đối chiếu Việt Nam](#11--đối-chiếu-việt-nam)
+- [10. Góc QTKD — bốn công cụ dùng được ngay](#10-góc-qtkd--bốn-công-cụ-dùng-được-ngay)
+- [11. Đối chiếu Việt Nam](#11-đối-chiếu-việt-nam)
 - [12. Code minh hoạ](#12-code-minh-hoạ)
 - [13. Tự thử](#13-tự-thử)
 - [14. Từ điển thuật ngữ](#14-từ-điển-thuật-ngữ)
@@ -56,11 +58,13 @@ Rồi nó rút gọn tất cả xuống **hai yếu tố** (tr. 313):
    ghép hai thứ trên  ⟹  ĐỊNH GIÁ TÀI SẢN            →  mục 8–10
 ```
 
+> [!quote]
 > **Tài chính** (*finance*): lĩnh vực nghiên cứu cách thức đưa ra các quyết định liên quan đến việc phân
 > bổ các nguồn lực **theo thời gian** và **xử lý rủi ro**. — chú thích tr. 313
 
 Sách nói rõ lý do phải nắm hai thứ này (tr. 313):
 
+> [!quote]
 > *"…hệ thống tài chính liên quan đến các quyết định và hành động mà chúng ta thực hiện ngày hôm nay và
 > sẽ tác động đến cuộc sống của chúng ta trong tương lai. **Nhưng chúng ta không thể biết trước được
 > tương lai**… các quyết định đó được dựa trên dự đoán về kết quả có khả năng xảy ra. Tuy nhiên, kết quả
@@ -95,6 +99,7 @@ sách nói thẳng như thế.
 
 $$\text{Giá trị tương lai} = (1+r)^N \times X \qquad\qquad \text{Giá trị hiện tại} = \frac{X}{(1+r)^N}$$
 
+> [!quote]
 > Quá trình đi tìm giá trị hiện tại của một khoản tiền tương lai được gọi là **chiết khấu**. — tr. 315
 
 Mục 1 của [code minh hoạ](#12-code-minh-hoạ) kiểm cả ba con số sách in:
@@ -105,7 +110,7 @@ Mục 1 của [code minh hoạ](#12-code-minh-hoạ) kiểm cả ba con số sá
 | $200/(1{,}05)^{10} = $ **123 USD** | 122,78 ✓ |
 | $200/(1{,}08)^{10} = $ **93 USD** | 92,64 ✓ |
 
-### ⭐ Câu trả lời **đổi chiều** khi lãi suất đổi
+### Câu trả lời **đổi chiều** khi lãi suất đổi
 
 ```
    lãi 5%:  200 USD sau 10 năm  →  hiện tại 123 USD  >  100  →  CHỜ
@@ -127,6 +132,7 @@ Nhà máy giá **100 triệu USD** hôm nay, mang lại **200 triệu USD** sau 
 | 5% | 122,8 triệu | **+22,8** | LÀM |
 | 8% |  92,6 triệu | **−7,4**  | BỎ  |
 
+> [!quote]
 > *"Như vậy, khái niệm về giá trị hiện tại giúp giải thích lý do **đầu tư** và vì vậy **lượng cầu vốn vay
 > sẽ giảm khi lãi suất tăng lên**."* — tr. 316
 
@@ -140,10 +146,12 @@ giải thích từ bên trong. Bài 4 nói nó dốc xuống; bài này cho bi�
 | **A** | 20.000 USD/năm × 50 năm = **1.000.000 USD** | **276.000 USD** |
 | **B** | nhận ngay | **400.000 USD** ← lớn hơn |
 
+> [!quote]
 > *"Một triệu USD có vẻ như nhiều tiền hơn, nhưng dòng tiền tương lai một khi được chiết khấu về hiện tại
 > lại có **giá trị thấp hơn nhiều**."* — tr. 317
 
-⚠️ **Vì sao "1 triệu" lại chỉ đáng 276 nghìn?** Code cho thấy phần lớn chuỗi thanh toán gần như vô giá trị:
+> [!warning] Vì sao "1 triệu" lại chỉ đáng 276 nghìn?
+> Code cho thấy phần lớn chuỗi thanh toán gần như vô giá trị:
 
 | Khoản 20.000 USD của năm | Đáng giá hôm nay | Còn lại bao nhiêu phần |
 | ------------------------: | ---------------: | ---------------------: |
@@ -157,7 +165,7 @@ giải thích từ bên trong. Bài 4 nói nó dốc xuống; bài này cho bi�
 
 ---
 
-## 3. 📚 Ma thuật của lãi kép và quy tắc 70 — hộp "Bạn có biết", tr. 316
+## 3. Ma thuật của lãi kép và quy tắc 70 — hộp "Bạn có biết", tr. 316
 
 ### Finn và Quinn
 
@@ -172,16 +180,18 @@ họ sống tăng trưởng **1%** so với **3%** một năm.
 Code kiểm cả hai bằng `assert` — khớp. Sách kết: *"Vì chênh lệch 2 điểm phần trăm của tốc độ tăng trưởng
 đó mà mức lương của Quinn nhiều hơn **hai lần** mức lương của Finn."*
 
-📌 Bạn đã gặp đúng số học này ở [bài 3 mục 3](bai_03_san_xuat_va_tang_truong.md#3--quy-tắc-70--vì-sao-2năm-không-hề-nhỏ).
+📌 Bạn đã gặp đúng số học này ở [bài 3 mục 3](bai_03_san_xuat_va_tang_truong.md#3-quy-tắc-70--vì-sao-2năm-không-hề-nhỏ).
 Khác biệt là ở đó nó nói về **quốc gia**; ở đây nó nói về **lương của chính bạn**.
 
 ### Quy tắc 70 — lần này sách **gọi tên** nó
 
+> [!quote]
 > *"…nếu một biến tăng trưởng với tỷ lệ **x** phần trăm mỗi năm thì biến đó sẽ tăng gấp đôi trong khoảng
 > **70/x** năm."* — tr. 316
 
-⚠️ Ở [bài 3](bai_03_san_xuat_va_tang_truong.md) tôi phải ghi chú rằng sách *dùng* quy tắc này mà không
-gọi tên. Đến chương 14 thì sách **có** gọi tên và đưa công thức. Nếu bạn cần trích dẫn, hãy trích tr. 316.
+> [!warning]
+> Ở [bài 3](bai_03_san_xuat_va_tang_truong.md) tôi phải ghi chú rằng sách *dùng* quy tắc này mà không
+> gọi tên. Đến chương 14 thì sách **có** gọi tên và đưa công thức. Nếu bạn cần trích dẫn, hãy trích tr. 316.
 
 ### Ben Franklin — và một cảnh báo về chính quy tắc 70
 
@@ -194,9 +204,10 @@ Năm **1791** Franklin mất, để lại **5.000 USD** đầu tư trong **200 n
 
 Sách in *"tương đương với khoảng **5 tỷ USD**"*. ✓
 
-⚠️ **Nhưng tính chính xác bằng lãi kép chỉ ra 3,76 tỷ USD.** Quy tắc 70 **phóng đại 1,39 lần**. Lý do:
-$70/7 = 10$ năm chỉ là **xấp xỉ** (chính xác là 10,24 năm), và sai số đó bị **nhân lên qua 20 lần gấp đôi
-liên tiếp**.
+> [!warning] Nhưng tính chính xác bằng lãi kép chỉ ra 3,76 tỷ USD.
+> Quy tắc 70 **phóng đại 1,39 lần**. Lý do:
+> $70/7 = 10$ năm chỉ là **xấp xỉ** (chính xác là 10,24 năm), và sai số đó bị **nhân lên qua 20 lần gấp đôi
+> liên tiếp**.
 
 ⭐ **Quy tắc 70 rất tốt để nhẩm trong đầu, nhưng đừng dùng nó cho 200 năm.**
 
@@ -220,6 +231,7 @@ chiều ngược lại:** chênh một chút ở **tốc độ**, kéo dài đ�
 
 ## 4. Tính không thích rủi ro
 
+> [!quote]
 > **Tính không thích rủi ro** (*risk aversion*): sự không ưa thích về tính không chắc chắn. — chú thích tr. 317
 
 ### Ví dụ tung đồng xu — tr. 317
@@ -231,11 +243,13 @@ chiều ngược lại:** chênh một chút ở **tốc độ**, kéo dài đ�
 
 Canh bạc **công bằng** — của cải kỳ vọng không đổi. Nhưng hầu hết mọi người **từ chối**. Vì sao?
 
+> [!quote]
 > *"Đối với một người không thích rủi ro, **nỗi đau mất 1.000 USD là lớn hơn nhiều so với niềm vui từ
 > việc chiến thắng 1.000 USD**."* — tr. 317
 
 ### Cơ chế: thoả dụng biên giảm dần — Hình 1, tr. 317
 
+> [!quote]
 > ⚠️ **Hình 1 không có trong bản in này.** Văn bản tr. 317 dẫn *"như biểu đồ về hàm thỏa
 > dụng ở Hình 1"*, nhưng chỗ lẽ ra in Hình 1 thì bản dịch **in lặp Hình 2** — cùng một hình
 > *Đa dạng hoá giảm thiểu rủi ro* xuất hiện **hai lần**, ở tr. 318 và tr. 320. Vì vậy mục này
@@ -244,6 +258,7 @@ Canh bạc **công bằng** — của cải kỳ vọng không đổi. Nhưng h�
 Sách dùng **hàm thoả dụng** — *"thang đo lường sự chủ quan của một người về tính sẵn lòng hay độ thoả mãn"*.
 Tính chất then chốt:
 
+> [!quote]
 > *"**Của cải của một người càng nhiều thì độ thoả dụng của anh ta nhận được từ việc có thêm một USD sẽ
 > ít đi.** Do vậy, hàm thoả dụng trong hình trở nên thoải hơn khi của cải tăng lên."*
 
@@ -284,6 +299,7 @@ Ba mục tiếp theo.
 
 Sách nói thẳng bảo hiểm **không** làm giảm rủi ro (tr. 318):
 
+> [!quote]
 > *"Theo quan điểm của nền kinh tế nói chung, vai trò của bảo hiểm **không phải là để loại bỏ** những rủi
 > ro vốn có trong cuộc sống mà để **phân tán chúng** một cách hiệu quả hơn."*
 
@@ -300,7 +316,7 @@ trong một đám cháy. Nhưng nếu điều không may đó xảy ra thì các
 ⭐ Và một câu rất thẳng (tr. 318): *"theo một nghĩa nào đó, mỗi hợp đồng bảo hiểm là **một canh bạc**…
 Trong hầu hết các năm, bạn sẽ phải trả phí bảo hiểm mà không nhận lại được gì ngoại trừ **sự an tâm**."*
 
-### ⚠️ Hai vấn đề cản trở — tr. 318–319
+### Hai vấn đề cản trở — tr. 318–319
 
 | Vấn đề | Định nghĩa của sách | Xảy ra **khi nào** |
 | ------ | ------------------- | ------------------ |
@@ -314,6 +330,7 @@ toàn được khách rủi ro cao/thấp, và không giám sát được hành 
 
 ⭐ Hệ quả rất cụ thể (tr. 319):
 
+> [!quote]
 > *"Giá bảo hiểm cao là lý do tại sao một số người đặc biệt là những người **tự nhận thức mình là rủi ro
 > thấp** thì sẽ quyết định không mua nó."*
 
@@ -328,10 +345,11 @@ khách còn lại **rủi ro hơn nữa**. (Bạn đã gặp vòng xoáy này �
 
 ![Hình 2 — tr. 320, bản chụp giáo trình](../tai_lieu/hinh/ch14-hinh-02-tr320.png)
 
-### ⚠️ Enron, 2002 — vì sao đây không phải chuyện lý thuyết
+### Enron, 2002 — vì sao đây không phải chuyện lý thuyết
 
 Sách mở mục này bằng một câu chuyện thật (tr. 319). Enron phá sản, ban giám đốc bị truy tố. Nhưng:
 
+> [!quote]
 > *"…phần buồn nhất của câu chuyện lại liên quan đến hàng nghìn nhân viên cấp dưới. Họ **không chỉ bị mất
 > việc làm mà còn bị mất số tiền tiết kiệm** của mình. Các nhân viên này đã có khoảng **hai phần ba** các
 > quỹ hưu trí của họ là cổ phiếu Enron, thứ đã trở nên không còn giá trị."*
@@ -339,16 +357,18 @@ Sách mở mục này bằng một câu chuyện thật (tr. 319). Enron phá s�
 ⭐ Họ vi phạm **hai lần cùng lúc**: vốn nhân lực (công việc) **và** vốn tài chính (tiết kiệm) đều đặt vào
 **một** công ty. Khi công ty sập, cả hai mất cùng lúc.
 
+> [!quote]
 > **Đa dạng hoá rủi ro** (*diversification*): việc giảm rủi ro đạt được bằng cách thay thế một rủi ro đơn
 > lẻ bằng một số lượng lớn những rủi ro nhỏ hơn và không có liên quan với nhau. — chú thích tr. 319
 
-### ⚠️⚠️ Hai loại rủi ro — chỗ quan trọng nhất mục này
+### Hai loại rủi ro — chỗ quan trọng nhất mục này
 
 | Loại | Định nghĩa (chú thích tr. 320) | Đa dạng hoá xử lý được? |
 | ---- | ------------------------------- | :---------------------: |
 | **Rủi ro doanh nghiệp có tính đặc thù** | loại rủi ro mà nó chỉ tác động đến **một** công ty riêng lẻ | ✅ **có** |
 | **Rủi ro thị trường** | loại rủi ro tác động đến **tất cả** các công ty trên thị trường chứng khoán | ❌ **không bao giờ** |
 
+> [!quote]
 > *"Ví dụ, khi nền kinh tế suy thoái thì hầu hết các công ty giảm bán hàng, lợi nhuận giảm và sinh lợi cổ
 > phiếu thấp. Đa dạng hoá làm giảm rủi ro của việc sở hữu cổ phiếu nhưng **không loại bỏ hẳn rủi ro đó**."*
 
@@ -373,10 +393,11 @@ $\sigma(n) = \sqrt{20^2 + (49^2-20^2)/n}$ và so với ba con số trên:
    10 → 20      → mô hình cho 9%, sách nói 13%      ⚠ KHÔNG khớp
 ```
 
-⚠️ **Mô hình đơn giản này khớp hai mốc đầu nhưng không khớp mốc thứ ba.** Con số 13% của sách đọc từ một
-**nghiên cứu thực nghiệm cụ thể** (Meir Statman, *"How Many Stocks Make a Diversified Portfolio?"*,
-*Journal of Financial and Quantitative Analysis* 22, tháng 9/1987 — ghi ở nguồn của Hình 2), không phải
-từ một công thức.
+> [!warning] Mô hình đơn giản này khớp hai mốc đầu nhưng không khớp mốc thứ ba.
+> Con số 13% của sách đọc từ một
+> **nghiên cứu thực nghiệm cụ thể** (Meir Statman, *"How Many Stocks Make a Diversified Portfolio?"*,
+> *Journal of Financial and Quantitative Analysis* 22, tháng 9/1987 — ghi ở nguồn của Hình 2), không phải
+> từ một công thức.
 
 📌 **Dùng mô hình để hiểu HÌNH DẠNG đường cong; đừng dùng nó để tra số.** Và hình dạng mới là thứ đáng nhớ:
 rủi ro giảm **rất nhanh** ở những cổ phiếu đầu, rồi gần như **phẳng**. Cổ phiếu thứ 40 gần như không giúp gì.
@@ -391,6 +412,7 @@ rủi ro giảm **rất nhanh** ở những cổ phiếu đầu, rồi gần nh�
 
 ### Số liệu hai thế kỷ
 
+> [!quote]
 > *"Trong hai thế kỷ qua, cổ phiếu được trả sinh lợi thực trung bình khoảng **8% mỗi năm** trong khi trái
 > phiếu chính phủ ngắn hạn trả sinh lợi thực chỉ **3% mỗi năm**."* — tr. 321
 
@@ -413,10 +435,11 @@ rủi ro giảm **rất nhanh** ở những cổ phiếu đầu, rồi gần nh�
 đến $(20;8\%)$. **Không có bữa ăn miễn phí:** mỗi 1 điểm phần trăm độ lệch chuẩn thêm vào mua được đúng
 **0,25 điểm phần trăm** sinh lợi.
 
-### ⚠️⚠️ "8% trung bình" nghĩa là gì — chỗ hầu hết mọi người hiểu sai
+### "8% trung bình" nghĩa là gì — chỗ hầu hết mọi người hiểu sai
 
 Sách tính rõ ngay trong ngoặc (tr. 321):
 
+> [!quote]
 > *"…một biến ngẫu nhiên bình thường chỉ nằm trong biên độ cộng trừ **hai độ lệch chuẩn** của nó trung
 > bình khoảng **95%**."*
 
@@ -429,6 +452,7 @@ có thể từ **−32% đến +48%**, và **5% số năm còn nằm ngoài** kh
 
 ### Sách từ chối đưa lời khuyên — và đó là điều đúng
 
+> [!quote]
 > *"Nhận thức việc đánh đổi giữa rủi ro và sinh lợi tự bản thân chúng **không mách bảo cho một người nên
 > làm thế nào**. Việc lựa chọn một sự kết hợp cụ thể giữa rủi ro và sinh lợi phụ thuộc vào khả năng chấp
 > nhận rủi ro của một người, nó phản ánh **sở thích riêng** của người đó."* — tr. 322
@@ -450,9 +474,11 @@ Ghép mục 2 (thời gian) với mục 4–7 (rủi ro), ta trả lời đượ
    giá bán  =  giá trị   →  ĐỊNH GIÁ THOẢ ĐÁNG
 ```
 
-⚠️ Sách nói ngay chỗ khó: *"Điều này nói có vẻ dễ hơn làm. Nghiên cứu về giá thì dễ: Bạn có thể xem nó
-trên báo chí. **Định giá giá trị của doanh nghiệp mới là phần khó.**"*
+> [!warning]
+> Sách nói ngay chỗ khó: *"Điều này nói có vẻ dễ hơn làm. Nghiên cứu về giá thì dễ: Bạn có thể xem nó
+> trên báo chí. **Định giá giá trị của doanh nghiệp mới là phần khó.**"*
 
+> [!quote]
 > **Phân tích cơ bản** (*fundamental analysis*): nghiên cứu các báo cáo kế toán của công ty và những triển
 > vọng tương lai để xác định giá trị công ty đó. — chú thích tr. 322
 
@@ -500,6 +526,7 @@ hơn. Cùng một cổ phiếu, cùng một giá, hai kết luận ngược nhau
 Sách đưa ra một đề xuất nghe điên rồ (tr. 323): thay vì phân tích, hãy chọn 20 cổ phiếu **ngẫu nhiên** —
 *"đặt các trang chứng khoán lên bảng thông báo của mình và ném phi tiêu vào trang chứng khoán"*.
 
+> [!quote]
 > **Giả thuyết thị trường hiệu quả** (*efficient markets hypothesis*): lý thuyết cho rằng giá cả tài sản
 > phản ánh **tất cả các thông tin có sẵn công khai** về giá trị của tài sản đó. — chú thích tr. 323
 
@@ -528,6 +555,7 @@ Lập luận chỉ dài một dòng và rất đẹp (tr. 324):
    ⟹ thay đổi giá cổ phiếu cũng không dự báo được
 ```
 
+> [!quote]
 > *"Nếu giả thuyết thị trường hiệu quả là chính xác, **không có ý nghĩa gì cho việc tiêu tốn nhiều giờ
 > nghiên cứu các trang kinh doanh** để quyết định hai mươi cổ phiếu nào bổ sung vào danh mục đầu tư của
 > bạn… Điều tốt nhất bạn có thể làm là mua một **danh mục đầu tư đa dạng**."* — tr. 324
@@ -544,7 +572,7 @@ Trong **15 năm** kết thúc tháng 6/2010:
 Lý do sách nêu: *"họ thực hiện giao dịch mua bán thường xuyên hơn, chịu nhiều **chi phí thương mại** hơn
 và bởi vì họ tính **phí cao** hơn."*
 
-### ⭐ 1,25 điểm phần trăm/năm là bao nhiêu tiền?
+### 1,25 điểm phần trăm/năm là bao nhiêu tiền?
 
 Mục 8 của [code minh hoạ](#12-code-minh-hoạ) chạy 1 tỷ đồng qua hai kịch bản:
 
@@ -559,7 +587,7 @@ Mục 8 của [code minh hoạ](#12-code-minh-hoạ) chạy 1 tỷ đồng qua h
 với ví dụ thuế ở [bài 4 mục 11](bai_04_tiet_kiem_dau_tu_he_thong_tai_chinh.md#11-chính-sách-1--khuyến-khích-tiết-kiệm)
 — chỉ đổi tên biến.
 
-### ⚠️ Còn 25% nhà quản lý **đánh bại** thị trường thì sao?
+### Còn 25% nhà quản lý **đánh bại** thị trường thì sao?
 
 Phép thử của sách (tr. 325):
 
@@ -568,6 +596,7 @@ Phép thử của sách (tr. 325):
    số người được CẢ 10 LẦN ngửa = 5.000 / 2¹⁰ ≈ 5 người
 ```
 
+> [!quote]
 > *"…5 người đó có lẽ có một kỹ năng tung đồng xu ngoại lệ nhưng họ vẫn gặp khó khăn trong việc **lặp lại
 > thành công đó**."*
 
@@ -578,9 +607,10 @@ Ví dụ thật (*Wall Street Journal*, 3/1/2008, dẫn ở tr. 325):
 | trong 8 năm **1999–2006** | chỉ **31** quỹ tương hỗ đánh bại S&P 500 **mỗi năm** |
 | năm **2007** | chỉ **14/31** quỹ đó làm tốt hơn — tức **45%**, gần đúng tỷ lệ ngẫu nhiên |
 
+> [!quote]
 > *"Thành quả ngoại lệ trong quá khứ **không là lý do** của thành công tương lai."*
 
-### ⚠️ Nhưng sách **không** tuyệt đối hoá — mục "Tính phi lý của thị trường", tr. 325–326
+### Nhưng sách **không** tuyệt đối hoá — mục "Tính phi lý của thị trường", tr. 325–326
 
 Sách dành hẳn một mục cho phía phản biện:
 
@@ -589,11 +619,13 @@ Sách dành hẳn một mục cho phía phản biện:
 | **John Maynard Keynes** (1930s) | thị trường tài sản được thúc đẩy bởi **"tâm lý bầy đàn"** — *"những làn sóng bất hợp lý về sự lạc quan và bi quan"* |
 | **Alan Greenspan** (1990s, Chủ tịch Fed) | thị trường chứng khoán tăng vọt phản ánh *"**sự thịnh vượng một cách bất hợp lý**"* |
 
+> [!quote]
 > **Bong bóng đầu cơ:** *"Bất cứ khi nào giá của một tài sản tăng lên trên những gì được xem là giá trị cơ
 > bản của nó thì thị trường được cho là đang trải qua tình trạng **bong bóng đầu cơ**."*
 
 Và một quan sát rất sắc (tr. 326) về vì sao bong bóng có thể tồn tại:
 
+> [!quote]
 > *"…ngày hôm nay một người có thể sẵn sàng trả cao hơn giá trị của một cổ phiếu **nếu người đó mong đợi
 > người khác trả cao hơn vào ngày mai**. Khi bạn định giá một cổ phiếu, bạn phải ước tính không chỉ giá
 > trị của doanh nghiệp mà cả việc **người khác nghĩ doanh nghiệp có giá trị như thế nào** trong tương lai."*
@@ -606,7 +638,7 @@ thể tận dụng lợi thế của thực tế này; tuy nhiên… **đánh b�
 
 ---
 
-## 10. 💼 Góc QTKD — bốn công cụ dùng được ngay
+## 10. Góc QTKD — bốn công cụ dùng được ngay
 
 ### ① NPV và ngưỡng sinh lợi nội bộ (IRR)
 
@@ -631,7 +663,7 @@ Mục 9 của [code minh hoạ](#12-code-minh-hoạ) chạy một dự án 5 nă
    ⟹ IRR = 16,12%
 ```
 
-### ② ⚠️ Ba cảnh báo khi dùng NPV — sách không nói, nhưng bạn sẽ cần
+### ② Ba cảnh báo khi dùng NPV — sách không nói, nhưng bạn sẽ cần
 
 1. **Dòng tiền dự báo là DỰ BÁO.** NPV chính xác đến ba chữ số thập phân từ một dự báo ±30% là **sự chính
    xác giả tạo**. Hãy chạy dải kịch bản, đừng chạy một con số.
@@ -649,6 +681,7 @@ Bài tập 4 tr. 329, giải ở mục 7 của code:
 | Trái phiếu **A** (20 năm) | 4.021 | 2.067 | **−48,6%** |
 | Trái phiếu **B** (40 năm) | 2.021 |   534 | **−73,6%** |
 
+> [!quote]
 > *"Giá trị của một trái phiếu **giảm** khi lãi suất tăng, và trái phiếu với thời hạn **lâu hơn** là nhạy
 > cảm **nhiều hơn** với những thay đổi lãi suất."* — đáp án câu c
 
@@ -656,8 +689,9 @@ Bài tập 4 tr. 329, giải ở mục 7 của code:
 suất**, khác hẳn **rủi ro tín dụng** của
 [bài 4 mục 2](bai_04_tiet_kiem_dau_tu_he_thong_tai_chinh.md#2-thị-trường-trái-phiếu).
 
-💼 Áp cho doanh nghiệp: một khoản vay **lãi suất cố định dài hạn** là bảo hiểm chống lãi suất tăng —
-và là gánh nặng nếu lãi suất giảm. Bên nào chịu rủi ro là điều khoản đàm phán được.
+> [!example]
+> Áp cho doanh nghiệp: một khoản vay **lãi suất cố định dài hạn** là bảo hiểm chống lãi suất tăng —
+> và là gánh nặng nếu lãi suất giảm. Bên nào chịu rủi ro là điều khoản đàm phán được.
 
 ### ④ Bốn thứ dùng được ngay
 
@@ -679,15 +713,17 @@ Bài học Enron ở [mục 6](#6-đa-dạng-hoá--hình-2-tr-320) đọc cho do
 | **một** thị trường địa lý | suy thoái vùng đó là suy thoái của bạn |
 | lương **và** cổ phiếu thưởng cùng một công ty | đúng lỗi của nhân viên Enron |
 
-⚠️ Nhưng nhớ **rủi ro thị trường không đa dạng hoá được**: có mười khách hàng cũng không cứu bạn khỏi một
-cuộc suy thoái chung. Đó là thứ phải chuẩn bị bằng **thanh khoản**, không phải bằng đa dạng hoá.
+> [!warning]
+> Nhưng nhớ **rủi ro thị trường không đa dạng hoá được**: có mười khách hàng cũng không cứu bạn khỏi một
+> cuộc suy thoái chung. Đó là thứ phải chuẩn bị bằng **thanh khoản**, không phải bằng đa dạng hoá.
 
 ---
 
-## 11. 📚 Đối chiếu Việt Nam
+## 11. Đối chiếu Việt Nam
 
-⚠️ **Cảnh báo:** phần này nằm ngoài sách và tôi ghi theo trí nhớ có giới hạn. **Hãy tra lại nguồn chính
-thức trước khi dùng vào báo cáo.**
+> [!warning] Cảnh báo:
+> phần này nằm ngoài sách và tôi ghi theo trí nhớ có giới hạn. **Hãy tra lại nguồn chính
+> thức trước khi dùng vào báo cáo.**
 
 ### Lãi suất chiết khấu ở Việt Nam **cao hơn** ví dụ trong sách
 
@@ -702,7 +738,7 @@ Sách dùng 5–8%. Ở Việt Nam, chi phí vốn của doanh nghiệp thườn
 
 ⭐ Đây là một cách giải thích bằng số học cho hiện tượng ai cũng thấy: **doanh nghiệp ở nước có lãi suất
 cao thì thiển cận hơn**, không phải vì họ kém tầm nhìn mà vì toán học ép họ như vậy. Và nó nối thẳng vào
-[bài 3 mục 19](bai_03_san_xuat_va_tang_truong.md#19--đối-chiếu-việt-nam) — vì sao khó chuyển sang tăng
+[bài 3 mục 19](bai_03_san_xuat_va_tang_truong.md#19-đối-chiếu-việt-nam) — vì sao khó chuyển sang tăng
 trưởng dựa trên công nghệ.
 
 ### Quỹ chỉ số và giả thuyết thị trường hiệu quả ở thị trường mới nổi
@@ -717,8 +753,9 @@ phân tích theo dõi mỗi công ty. Trụ cột ① của lập luận **yếu
 | thanh khoản | cao | tập trung ở một số mã lớn |
 
 📌 Nghĩa là: ở thị trường kém hiệu quả hơn, **về lý thuyết** phân tích cơ bản có giá trị hơn. Nhưng
-⚠️ **điều đó không có nghĩa là bạn sẽ thắng** — nó chỉ có nghĩa là ai đó có thể thắng. Bài học đồng xu ở
-mục 9 vẫn nguyên giá trị: đừng nhầm may mắn với kỹ năng, kể cả của chính mình.
+> [!warning] điều đó không có nghĩa là bạn sẽ thắng
+> nó chỉ có nghĩa là ai đó có thể thắng. Bài học đồng xu ở
+> mục 9 vẫn nguyên giá trị: đừng nhầm may mắn với kỹ năng, kể cả của chính mình.
 
 ### Rủi ro đạo đức và lựa chọn ngược trong bảo hiểm
 
@@ -731,6 +768,7 @@ hiểm của **tất cả mọi người** sẽ tăng.
 
 ## 12. Code minh hoạ
 
+> [!note]
 > ⚙️ **Chạy:** cần **Python 3.10+**. Lưu file rồi gõ `python3 bai-05-cong-cu-co-ban-cua-tai-chinh.py`.
 > Không cần cài gói nào — chỉ dùng thư viện chuẩn. Kết quả **tất định**.
 > Bản đầy đủ nằm ở [`thuc_hanh/bai-05-cong-cu-co-ban-cua-tai-chinh.py`](../thuc_hanh/bai-05-cong-cu-co-ban-cua-tai-chinh.py).
@@ -1814,18 +1852,18 @@ Kết quả chạy thật:
 - **Chỗ đã ghi rõ để không nhoè ranh giới:**
   - ⚠️ **Quy tắc 70 phóng đại 1,39 lần** trong ví dụ Franklin: $2^{20}\times 5.000 = 5{,}24$ tỷ nhưng lãi
     kép chính xác chỉ cho **3,76 tỷ**. Sách in "khoảng 5 tỷ" — đúng theo quy tắc 70, nhưng đó **là** một
-    xấp xỉ, và bài này nói rõ vì sao. Ghi ở [mục 3](#3--ma-thuật-của-lãi-kép-và-quy-tắc-70--hộp-bạn-có-biết-tr-316).
+    xấp xỉ, và bài này nói rõ vì sao. Ghi ở [mục 3](#3-ma-thuật-của-lãi-kép-và-quy-tắc-70--hộp-bạn-có-biết-tr-316).
   - ⚠️ Mô hình đa dạng hoá ở [mục 6](#6-đa-dạng-hoá--hình-2-tr-320) là **do bài này dựng**. Nó khớp hai mốc
     đầu của sách (49% và "giảm một nửa") nhưng **không khớp** mốc "thêm 13%" — con số đó đọc từ nghiên cứu
     Statman 1987, không phải từ công thức. Đã nói rõ trong bài và trong code.
   - Dạng hàm thoả dụng $U=\sqrt{W}$ ở [mục 4](#4-tính-không-thích-rủi-ro) lấy từ **bài tập 9 tr. 329** của
     chính sách; Hình 1 chỉ vẽ định tính.
-  - Thuật ngữ **IRR** ở [mục 10①](#10--góc-qtkd--bốn-công-cụ-dùng-được-ngay) **không có trong sách** —
+  - Thuật ngữ **IRR** ở [mục 10①](#10-góc-qtkd--bốn-công-cụ-dùng-được-ngay) **không có trong sách** —
     sách chỉ hỏi "ngưỡng chính xác cho lãi suất" ở bài tập 1b tr. 328.
-  - [Mục 11 — Đối chiếu Việt Nam](#11--đối-chiếu-việt-nam) hoàn toàn nằm ngoài sách.
+  - [Mục 11 — Đối chiếu Việt Nam](#11-đối-chiếu-việt-nam) hoàn toàn nằm ngoài sách.
 - **Liên hệ chéo:**
   - [Bài 4](bai_04_tiet_kiem_dau_tu_he_thong_tai_chinh.md) — cổ phiếu, trái phiếu, quỹ tương hỗ, thị trường vốn vay.
-  - [Bài 3 mục 3](bai_03_san_xuat_va_tang_truong.md#3--quy-tắc-70--vì-sao-2năm-không-hề-nhỏ) — quy tắc 70 áp cho tăng trưởng quốc gia.
+  - [Bài 3 mục 3](bai_03_san_xuat_va_tang_truong.md#3-quy-tắc-70--vì-sao-2năm-không-hề-nhỏ) — quy tắc 70 áp cho tăng trưởng quốc gia.
   - [Bài 2 mục 12](bai_02_do_luong_chi_phi_sinh_hoat.md#12-lãi-suất-danh-nghĩa-và-lãi-suất-thực) — lãi suất thực, biến dùng để chiết khấu.
   - Thông tin bất cân xứng (lựa chọn ngược, rủi ro đạo đức): [EG13 bài 11](../../eg13-kinhtevimo-micro/ly_thuyet/bai_11_thong_tin_bat_can_xung.md).
   - Độ lệch chuẩn: [bài 6 môn Xác suất Thống kê](../../eg11-xacxuatthongke/ly_thuyet/bai_06_ky_vong_phuong_sai_va_cac_so_dac_trung.md).

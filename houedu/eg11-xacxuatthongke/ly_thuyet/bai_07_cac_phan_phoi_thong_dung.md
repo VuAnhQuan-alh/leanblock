@@ -1,10 +1,11 @@
 # Bài 7 — Các phân phối thông dụng
 
+> [!info] Về bài này
 > Bài học dựa trên **Giáo trình Xác suất Thống kê** (Tống Đình Quỳ, NXB Bách Khoa – Hà Nội), **Chương II §4**, tr. 56–78.
-> 💼 **Góc QTKD** là ví dụ thêm cho ngành Quản trị Kinh doanh, không có trong giáo trình.
-> 📚 **Mở rộng** là kiến thức nền giáo trình lướt qua.
-> ⚠️ Mục 8 nêu **một chỗ thiếu nhất quán** trong thí dụ 4.5 của giáo trình (tr. 69).
-> 📌 **Cần đọc trước:** [Bài 5](bai_05_bien_ngau_nhien_va_luat_phan_phoi.md) · [Bài 6](bai_06_ky_vong_phuong_sai_va_cac_so_dac_trung.md)
+>
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
+>
+> **Cần đọc trước:** [Bài 5](bai_05_bien_ngau_nhien_va_luat_phan_phoi.md) · [Bài 6](bai_06_ky_vong_phuong_sai_va_cac_so_dac_trung.md)
 
 Bài 5 và 6 dạy **cách mô tả** một biến ngẫu nhiên bất kỳ. Bài này đưa ra **danh mục các mẫu có sẵn**:
 khoảng một chục phân phối bao phủ gần hết các tình huống thực tế.
@@ -25,7 +26,7 @@ Fisher) là toàn bộ công cụ của phần thống kê từ bài 11 trở đ
 6. [Quy chuẩn và cách tra bảng](#6-quy-chuẩn-và-cách-tra-bảng)
 7. [Xấp xỉ nhị thức bằng chuẩn](#7-xấp-xỉ-nhị-thức-bằng-chuẩn)
 8. [Bốn phân phối của phần thống kê](#8-bốn-phân-phối-của-phần-thống-kê)
-9. [📚 Cây quyết định chọn phân phối](#9--cây-quyết-định-chọn-phân-phối)
+9. [📚 Cây quyết định chọn phân phối](#9-cây-quyết-định-chọn-phân-phối)
 10. [Code minh hoạ](#10-code-minh-hoạ)
 11. [Tự thử](#11-tự-thử)
 12. [Từ điển thuật ngữ](#12-từ-điển-thuật-ngữ)
@@ -59,25 +60,26 @@ $$f(x) = \begin{cases} \dfrac{1}{b-a}, & x \in [a; b] \\[6pt] 0, & x \notin [a; 
 
 $$EX = \frac{a+b}{2}, \qquad VX = \frac{(b-a)^2}{12}$$
 
-⚠️ Chú ý $f(x) = \frac{1}{b-a}$ **có thể lớn hơn 1** — nếu $b - a < 1$. Đúng như cảnh báo ở bài 5
-mục 6: mật độ không phải xác suất.
+> [!warning]
+> Chú ý $f(x) = \frac{1}{b-a}$ **có thể lớn hơn 1** — nếu $b - a < 1$. Đúng như cảnh báo ở bài 5
+> mục 6: mật độ không phải xác suất.
 
 Giáo trình nhấn mạnh (tr. 57): *"Phân phối đều $\mathcal{U}([0;1])$ có vai trò **rất quan trọng**
 trong mô phỏng các số ngẫu nhiên."* Đó chính là hàm `random.random()` bạn dùng ở bài 2 — mọi số
 ngẫu nhiên khác đều sinh ra từ nó qua các phép biến đổi.
 
-### 💼 Góc QTKD
-
-Phân phối đều là **giả định mặc định khi bạn không biết gì** ngoài khoảng giá trị:
-
-- Ước tính thời gian hoàn thành dự án: "từ 3 đến 5 tháng" mà không có thông tin gì thêm
-  → $\mathcal{U}([3;5])$, kỳ vọng 4 tháng.
-- Bốc thăm, quay số trúng thưởng, chọn mẫu ngẫu nhiên → đều rời rạc.
-- Thời điểm khách đến trong khung giờ mở cửa (bài 2 mục 4) → đều liên tục.
-
-⚠️ Nhưng đây là **giả định yếu nhất trong danh mục**. Trong quản trị dự án, người ta thường dùng
-**phân phối tam giác** (thêm giá trị "khả năng cao nhất") hoặc **PERT** thay cho đều — vì thực tế
-hiếm khi mọi giá trị đồng khả năng.
+> [!example] Góc QTKD
+>
+> Phân phối đều là **giả định mặc định khi bạn không biết gì** ngoài khoảng giá trị:
+>
+> - Ước tính thời gian hoàn thành dự án: "từ 3 đến 5 tháng" mà không có thông tin gì thêm
+>   → $\mathcal{U}([3;5])$, kỳ vọng 4 tháng.
+> - Bốc thăm, quay số trúng thưởng, chọn mẫu ngẫu nhiên → đều rời rạc.
+> - Thời điểm khách đến trong khung giờ mở cửa (bài 2 mục 4) → đều liên tục.
+>
+> ⚠️ Nhưng đây là **giả định yếu nhất trong danh mục**. Trong quản trị dự án, người ta thường dùng
+> **phân phối tam giác** (thêm giá trị "khả năng cao nhất") hoặc **PERT** thay cho đều — vì thực tế
+> hiếm khi mọi giá trị đồng khả năng.
 
 ---
 
@@ -141,6 +143,7 @@ Chú ý điều kiện **cùng $p$** — gộp hai nhà cung cấp có tỷ lệ
 
 ### Thí dụ 4.1 (tr. 59)
 
+> [!note]
 > $X \sim B(5; 0{,}25)$. Lập bảng phân phối, rồi tính: a) $P(X > 3)$; b) $P(X \ge 1)$; c) $P(X < 4)$.
 
 | $x$    | 0      | 1          | 2      | 3      | 4      | 5      |
@@ -154,21 +157,22 @@ Chú ý điều kiện **cùng $p$** — gộp hai nhà cung cấp có tỷ lệ
 Giáo trình chỉ ra $x = 1$ có xác suất lớn nhất, vậy **mốt của $X$ bằng 1**, và trong ứng dụng người ta
 gọi là **"số lần xuất hiện chắc chắn nhất"**.
 
-⚠️ Chú ý mốt $= 1$ trong khi $EX = np = 1{,}25$ — không trùng nhau, vì phân phối này lệch phải
-($p < 0{,}5$). Đúng như bài 6 mục 5 dự đoán.
+> [!warning]
+> Chú ý mốt $= 1$ trong khi $EX = np = 1{,}25$ — không trùng nhau, vì phân phối này lệch phải
+> ($p < 0{,}5$). Đúng như bài 6 mục 5 dự đoán.
 
-### 💼 Góc QTKD — phân phối được dùng nhiều thứ hai
-
-| Bài toán                                        | $n$ | $p$              |
-| ----------------------------------------------- | --- | ---------------- |
-| Trong 100 khách vào shop, bao nhiêu người mua?  | 100 | tỷ lệ chuyển đổi |
-| Trong 50 email gửi đi, bao nhiêu email được mở? | 50  | open rate        |
-| Trong 200 sản phẩm, bao nhiêu cái lỗi?          | 200 | tỷ lệ lỗi        |
-| Trong 30 khách hàng, bao nhiêu người gia hạn?   | 30  | tỷ lệ gia hạn    |
-
-⚠️ **Điều kiện hay bị vi phạm nhất là "độc lập"**: nếu 100 khách vào shop trong cùng một chương trình
-khuyến mại thì họ **không** độc lập — cùng chịu một cú hích chung. Khi đó phương sai thực tế
-**lớn hơn** $npq$, và mọi ước lượng rủi ro dựa trên nhị thức đều lạc quan quá mức.
+> [!example] Góc QTKD — phân phối được dùng nhiều thứ hai
+>
+> | Bài toán                                        | $n$ | $p$              |
+> | ----------------------------------------------- | --- | ---------------- |
+> | Trong 100 khách vào shop, bao nhiêu người mua?  | 100 | tỷ lệ chuyển đổi |
+> | Trong 50 email gửi đi, bao nhiêu email được mở? | 50  | open rate        |
+> | Trong 200 sản phẩm, bao nhiêu cái lỗi?          | 200 | tỷ lệ lỗi        |
+> | Trong 30 khách hàng, bao nhiêu người gia hạn?   | 30  | tỷ lệ gia hạn    |
+>
+> ⚠️ **Điều kiện hay bị vi phạm nhất là "độc lập"**: nếu 100 khách vào shop trong cùng một chương trình
+> khuyến mại thì họ **không** độc lập — cùng chịu một cú hích chung. Khi đó phương sai thực tế
+> **lớn hơn** $npq$, và mọi ước lượng rủi ro dựa trên nhị thức đều lạc quan quá mức.
 
 ---
 
@@ -195,10 +199,11 @@ Vì thế Poisson còn được gọi là **"luật của các sự kiện hiế
 
 $$\boxed{EX = VX = \lambda}$$
 
-⚠️ **Đây là dấu hiệu nhận biết Poisson trên dữ liệu thật.** Nếu bạn có dữ liệu đếm (số khiếu nại/ngày,
-số lỗi/lô) và thấy **trung bình mẫu ≈ phương sai mẫu**, rất có thể nó là Poisson. Nếu phương sai
-**lớn hơn hẳn** trung bình (gọi là *quá phân tán*, overdispersion), Poisson **không** phù hợp —
-thường là do dữ liệu bị vón cục (khiếu nại đến theo đợt sau một sự cố).
+> [!warning] Đây là dấu hiệu nhận biết Poisson trên dữ liệu thật.
+> Nếu bạn có dữ liệu đếm (số khiếu nại/ngày,
+> số lỗi/lô) và thấy **trung bình mẫu ≈ phương sai mẫu**, rất có thể nó là Poisson. Nếu phương sai
+> **lớn hơn hẳn** trung bình (gọi là *quá phân tán*, overdispersion), Poisson **không** phù hợp —
+> thường là do dữ liệu bị vón cục (khiếu nại đến theo đợt sau một sự cố).
 
 **Mốt (tr. 61).** $\lambda - 1 \le \text{mốt} \le \lambda$:
 
@@ -207,6 +212,7 @@ thường là do dữ liệu bị vón cục (khiếu nại đến theo đợt s
 
 ### Thí dụ 4.2 (tr. 61)
 
+> [!note]
 > Vận chuyển 5000 chai rượu vào kho, xác suất vỡ mỗi chai là 0,0004. Tính xác suất có **không quá
 > 1 chai** bị vỡ.
 
@@ -219,23 +225,23 @@ Giá trị nhị thức đúng là $0{,}40597$ — lệch $0{,}000054$. Xấp x�
 Vì $\lambda = 2$ nguyên nên có **hai mốt**: 1 và 2, mỗi cái xác suất $0{,}2707$.
 Đó là số chai có khả năng vỡ nhiều nhất.
 
-### 💼 Góc QTKD — phân phối của "chuyện hiếm nhưng vẫn xảy ra"
-
-| Bài toán                              | $\lambda$                  |
-| ------------------------------------- | -------------------------- |
-| Số khách vào cửa hàng trong 1 giờ     | lượng khách trung bình/giờ |
-| Số cuộc gọi vào tổng đài trong 5 phút | trung bình/5 phút          |
-| Số khiếu nại trong 1 tháng            | trung bình/tháng           |
-| Số lỗi trong 1 lô hàng lớn            | $n \times$ tỷ lệ lỗi       |
-| Số tai nạn lao động trong 1 quý       | trung bình/quý             |
-
-**Ứng dụng lớn nhất: bài toán xếp hàng và bố trí nhân sự.** Nếu trung bình 6 khách/giờ ($\lambda = 6$),
-xác suất có hơn 10 khách trong một giờ nào đó là $1 - P(X \le 10) \approx 4{,}3\%$ — nghĩa là cứ
-khoảng 23 giờ làm việc lại có một giờ quá tải nếu bạn chỉ bố trí nhân sự phục vụ 10 khách/giờ.
-
-⚠️ **Quy tắc cộng của Poisson:** nếu $X_1 \sim P(\lambda_1)$, $X_2 \sim P(\lambda_2)$ độc lập thì
-$X_1 + X_2 \sim P(\lambda_1 + \lambda_2)$. Nhờ vậy bạn **đổi được đơn vị thời gian tự do**:
-trung bình 6 khách/giờ → 1 khách/10 phút → 48 khách/ngày 8 tiếng. Chỉ cần nhân $\lambda$.
+> [!example] Góc QTKD — phân phối của "chuyện hiếm nhưng vẫn xảy ra"
+>
+> | Bài toán                              | $\lambda$                  |
+> | ------------------------------------- | -------------------------- |
+> | Số khách vào cửa hàng trong 1 giờ     | lượng khách trung bình/giờ |
+> | Số cuộc gọi vào tổng đài trong 5 phút | trung bình/5 phút          |
+> | Số khiếu nại trong 1 tháng            | trung bình/tháng           |
+> | Số lỗi trong 1 lô hàng lớn            | $n \times$ tỷ lệ lỗi       |
+> | Số tai nạn lao động trong 1 quý       | trung bình/quý             |
+>
+> **Ứng dụng lớn nhất: bài toán xếp hàng và bố trí nhân sự.** Nếu trung bình 6 khách/giờ ($\lambda = 6$),
+> xác suất có hơn 10 khách trong một giờ nào đó là $1 - P(X \le 10) \approx 4{,}3\%$ — nghĩa là cứ
+> khoảng 23 giờ làm việc lại có một giờ quá tải nếu bạn chỉ bố trí nhân sự phục vụ 10 khách/giờ.
+>
+> ⚠️ **Quy tắc cộng của Poisson:** nếu $X_1 \sim P(\lambda_1)$, $X_2 \sim P(\lambda_2)$ độc lập thì
+> $X_1 + X_2 \sim P(\lambda_1 + \lambda_2)$. Nhờ vậy bạn **đổi được đơn vị thời gian tự do**:
+> trung bình 6 khách/giờ → 1 khách/10 phút → 48 khách/ngày 8 tiếng. Chỉ cần nhân $\lambda$.
 
 ---
 
@@ -245,6 +251,7 @@ trung bình 6 khách/giờ → 1 khách/10 phút → 48 khách/ngày 8 tiếng. 
 
 Giáo trình mở đầu bằng đúng chỗ nhị thức hỏng (tr. 61):
 
+> [!quote]
 > "Một trong các giả thiết của phân phối nhị thức là **sự độc lập** của các phép thử... Một trường hợp
 > cổ điển là việc **chọn mẫu không hoàn lại**, trong đó xác suất **không còn là hằng số** nữa."
 
@@ -264,7 +271,7 @@ Chú ý: **kỳ vọng giống hệt nhị thức**, chỉ phương sai khác �
 $\dfrac{N-n}{N-1} < 1$, gọi là **hệ số hiệu chỉnh tổng thể hữu hạn**. Lấy mẫu không hoàn lại
 luôn **ít phân tán hơn** lấy có hoàn lại.
 
-### ⚠️ Điều kiện xấp xỉ: $N > 10n$
+### Điều kiện xấp xỉ: $N > 10n$
 
 **Thí dụ 4.3 (tr. 62).** Hộp 15 bóng có 5 bóng kém. Chọn ngẫu nhiên 10 bóng (không hoàn lại).
 
@@ -280,8 +287,9 @@ nhị thức."*
 
 Ở đây $N = 15$ trong khi $10n = 100$ — vi phạm nặng. Sai lệch tới **0,139**.
 
-💼 **Đây là quy tắc quan trọng nhất cho lấy mẫu QC:** kiểm 50 sản phẩm từ lô 1.000 ($N = 1000 > 500$) →
-dùng nhị thức thoải mái. Kiểm 50 sản phẩm từ lô 100 → **bắt buộc dùng siêu bội**.
+> [!example] Đây là quy tắc quan trọng nhất cho lấy mẫu QC:
+> kiểm 50 sản phẩm từ lô 1.000 ($N = 1000 > 500$) →
+> dùng nhị thức thoải mái. Kiểm 50 sản phẩm từ lô 100 → **bắt buộc dùng siêu bội**.
 
 ### Hình học — đếm số lần thất bại trước lần thành công đầu tiên
 
@@ -293,9 +301,10 @@ $X$ là **số lần không xuất hiện trước lần xuất hiện đầu ti
 
 $$EX = \frac{q}{p}, \qquad VX = \frac{q}{p^2}$$
 
-⚠️ **Chú ý quy ước.** Giáo trình đếm **số lần thất bại** ($x$ bắt đầu từ 0). Nhiều sách khác đếm
-**số lần thử** ($x$ bắt đầu từ 1), khi đó $EX = 1/p$. Chênh nhau đúng 1. Khi làm bài, đọc kỹ đề
-hỏi "số lần thất bại" hay "số lần thử".
+> [!warning] Chú ý quy ước.
+> Giáo trình đếm **số lần thất bại** ($x$ bắt đầu từ 0). Nhiều sách khác đếm
+> **số lần thử** ($x$ bắt đầu từ 1), khi đó $EX = 1/p$. Chênh nhau đúng 1. Khi làm bài, đọc kỹ đề
+> hỏi "số lần thất bại" hay "số lần thử".
 
 ### Nhị thức âm
 
@@ -335,19 +344,19 @@ Giáo trình vẽ sơ đồ này (tr. 64) nhưng bản quét mờ. Dựng lại:
 **Đọc sơ đồ:** mọi phân phối rời rạc trong chương trình đều sinh ra từ **một** phép thử Bernoulli,
 khác nhau ở **cách lặp** và **cái được đếm**.
 
-### 💼 Góc QTKD
-
-| Phân phối       | Câu hỏi kinh doanh                                        |
-| --------------- | --------------------------------------------------------- |
-| **Nhị thức**    | "Gọi 50 cuộc, chốt được mấy đơn?"                         |
-| **Hình học**    | "Phải gọi bao nhiêu cuộc mới chốt được đơn đầu tiên?"     |
-| **Nhị thức âm** | "Phải gọi bao nhiêu cuộc để đủ chỉ tiêu 5 đơn?"           |
-| **Siêu bội**    | "Lô 100 sản phẩm có 8 lỗi, kiểm 20 cái bắt được mấy lỗi?" |
-| **Poisson**    | "Giờ tới có bao nhiêu khách vào?"                         |
-
-**Hình học trả lời câu hỏi chi phí thu hút khách hàng (CAC).** Tỷ lệ chốt $p = 0{,}1$ →
-$EX = q/p = 9$ lần thất bại, tức trung bình **10 cuộc gọi mỗi đơn**. Nếu mỗi cuộc tốn 15 phút thì
-CAC theo thời gian là 2,5 giờ/đơn. Đó là con số để so với biên lợi nhuận.
+> [!example] Góc QTKD
+>
+> | Phân phối       | Câu hỏi kinh doanh                                        |
+> | --------------- | --------------------------------------------------------- |
+> | **Nhị thức**    | "Gọi 50 cuộc, chốt được mấy đơn?"                         |
+> | **Hình học**    | "Phải gọi bao nhiêu cuộc mới chốt được đơn đầu tiên?"     |
+> | **Nhị thức âm** | "Phải gọi bao nhiêu cuộc để đủ chỉ tiêu 5 đơn?"           |
+> | **Siêu bội**    | "Lô 100 sản phẩm có 8 lỗi, kiểm 20 cái bắt được mấy lỗi?" |
+> | **Poisson**    | "Giờ tới có bao nhiêu khách vào?"                         |
+>
+> **Hình học trả lời câu hỏi chi phí thu hút khách hàng (CAC).** Tỷ lệ chốt $p = 0{,}1$ →
+> $EX = q/p = 9$ lần thất bại, tức trung bình **10 cuộc gọi mỗi đơn**. Nếu mỗi cuộc tốn 15 phút thì
+> CAC theo thời gian là 2,5 giờ/đơn. Đó là con số để so với biên lợi nhuận.
 
 ---
 
@@ -362,9 +371,10 @@ $$f(x) = \frac{1}{\sigma\sqrt{2\pi}}\,e^{-\frac{(x-a)^2}{2\sigma^2}}, \qquad x \
 
 Hai tham số $a$ và $\sigma^2$ **chính là** $EX$ và $VX$; $\sigma$ là độ lệch chuẩn.
 
-⚠️ **Ký hiệu.** Giáo trình dùng $a$ cho kỳ vọng; sách quốc tế dùng $\mu$. Cùng một thứ.
-Cũng chú ý viết $N(a, \sigma^2)$ — tham số thứ hai là **phương sai**, không phải độ lệch chuẩn.
-(Python `NormalDist(mu, sigma)` nhận **độ lệch chuẩn** — dễ nhầm.)
+> [!warning] Ký hiệu.
+> Giáo trình dùng $a$ cho kỳ vọng; sách quốc tế dùng $\mu$. Cùng một thứ.
+> Cũng chú ý viết $N(a, \sigma^2)$ — tham số thứ hai là **phương sai**, không phải độ lệch chuẩn.
+> (Python `NormalDist(mu, sigma)` nhận **độ lệch chuẩn** — dễ nhầm.)
 
 **Ba tính chất từ đồ thị hình chuông (tr. 65):**
 
@@ -389,7 +399,7 @@ bè ngang ra thì phải thấp xuống.
         EX = med = mốt = a
 ```
 
-### ⭐ Quy tắc 3 sigma (4.10)
+### Quy tắc 3 sigma (4.10)
 
 $$
 \begin{aligned}
@@ -407,6 +417,7 @@ hầu như chắc chắn $X$ nhận giá trị trong lân cận $3\sigma$ của 
 
 ### Thí dụ 4.4 (tr. 66)
 
+> [!note]
 > Độ dài chi tiết máy $X \sim N(20; 0{,}5^2)$ (cm). Tính xác suất độ dài:
 > a) lớn hơn 20cm; b) bé hơn 19,5cm; c) lớn hơn 21,5cm.
 
@@ -428,30 +439,30 @@ Giáo trình bình luận: *"xác suất không đáng kể"*.
 **Kỹ thuật cần nhớ:** khi mốc rơi đúng vào $\pm 1\sigma, \pm 2\sigma, \pm 3\sigma$, dùng quy tắc
 $3\sigma$ + tính đối xứng là ra ngay, **không cần tra bảng**.
 
-### 💼 Góc QTKD — vì sao chuẩn ở khắp nơi
-
-Phân phối chuẩn xuất hiện tự nhiên khi một đại lượng là **tổng của nhiều yếu tố nhỏ độc lập** —
-đó là nội dung **định lý giới hạn trung tâm** (bài 9).
-
-| Đại lượng                   | Tổng của những gì                         |
-| --------------------------- | ----------------------------------------- |
-| Chiều cao người             | hàng nghìn gene + dinh dưỡng + môi trường |
-| Sai số đo lường             | nhiều nguồn nhiễu nhỏ                     |
-| Doanh thu ngày của siêu thị | hàng trăm giao dịch độc lập               |
-| Điểm thi của một lớp đông   | nhiều yếu tố nhỏ về năng lực, may rủi     |
-
-⚠️ **Nhưng đừng lạm dụng.** Những đại lượng **KHÔNG** chuẩn:
-
-- **Thu nhập, giá trị đơn hàng, giá nhà** — lệch phải mạnh (bài 6 mục 5), thường là *log-chuẩn*.
-- **Số đếm** (số đơn, số lỗi) — rời rạc, không âm, thường Poisson.
-- **Lợi suất tài chính** — đuôi nặng, $\beta_2 > 3$ (bài 6 mục 6).
-
-**Cách kiểm nhanh:** dữ liệu có âm được không? Nếu không (doanh thu, thời gian, số lượng) mà
-$\sigma$ lại lớn so với trung bình, thì gần như chắc chắn **không** chuẩn.
-
-**💼 Ứng dụng trực tiếp: kiểm soát chất lượng Six Sigma.** Tên gọi đến từ chính công thức (4.10):
-đặt giới hạn dung sai ở $\pm 6\sigma$ thì tỷ lệ lỗi chỉ còn khoảng 3,4 phần triệu.
-Ví dụ tính dung sai ở mục sau chính là mô hình thu nhỏ của việc này.
+> [!example] Góc QTKD — vì sao chuẩn ở khắp nơi
+>
+> Phân phối chuẩn xuất hiện tự nhiên khi một đại lượng là **tổng của nhiều yếu tố nhỏ độc lập** —
+> đó là nội dung **định lý giới hạn trung tâm** (bài 9).
+>
+> | Đại lượng                   | Tổng của những gì                         |
+> | --------------------------- | ----------------------------------------- |
+> | Chiều cao người             | hàng nghìn gene + dinh dưỡng + môi trường |
+> | Sai số đo lường             | nhiều nguồn nhiễu nhỏ                     |
+> | Doanh thu ngày của siêu thị | hàng trăm giao dịch độc lập               |
+> | Điểm thi của một lớp đông   | nhiều yếu tố nhỏ về năng lực, may rủi     |
+>
+> ⚠️ **Nhưng đừng lạm dụng.** Những đại lượng **KHÔNG** chuẩn:
+>
+> - **Thu nhập, giá trị đơn hàng, giá nhà** — lệch phải mạnh (bài 6 mục 5), thường là *log-chuẩn*.
+> - **Số đếm** (số đơn, số lỗi) — rời rạc, không âm, thường Poisson.
+> - **Lợi suất tài chính** — đuôi nặng, $\beta_2 > 3$ (bài 6 mục 6).
+>
+> **Cách kiểm nhanh:** dữ liệu có âm được không? Nếu không (doanh thu, thời gian, số lượng) mà
+> $\sigma$ lại lớn so với trung bình, thì gần như chắc chắn **không** chuẩn.
+>
+> **💼 Ứng dụng trực tiếp: kiểm soát chất lượng Six Sigma.** Tên gọi đến từ chính công thức (4.10):
+> đặt giới hạn dung sai ở $\pm 6\sigma$ thì tỷ lệ lỗi chỉ còn khoảng 3,4 phần triệu.
+> Ví dụ tính dung sai ở mục sau chính là mô hình thu nhỏ của việc này.
 
 ---
 
@@ -472,9 +483,10 @@ Khi $X \sim N(a; \sigma^2)$ thì $Z \sim N(0; 1)$ — gọi là **phân phối c
 
 $$f(z) = \frac{1}{\sqrt{2\pi}}e^{-z^2/2}$$
 
-⚠️ Giáo trình lưu ý (tr. 68): *"$Z$ chỉ có phân phối chuẩn khi biến $X$ tương ứng tuân theo luật chuẩn,
-tuy nhiên **$Z$ luôn có kỳ vọng 0 và phương sai 1**."* Quy chuẩn luôn làm được; nhưng chỉ ra chuẩn
-khi $X$ vốn đã chuẩn.
+> [!warning]
+> Giáo trình lưu ý (tr. 68): *"$Z$ chỉ có phân phối chuẩn khi biến $X$ tương ứng tuân theo luật chuẩn,
+> tuy nhiên **$Z$ luôn có kỳ vọng 0 và phương sai 1**."* Quy chuẩn luôn làm được; nhưng chỉ ra chuẩn
+> khi $X$ vốn đã chuẩn.
 
 **Hàm phân phối qua hàm Laplace (4.15):**
 
@@ -491,17 +503,20 @@ $$P(|X - a| < \varepsilon) = 2\phi\!\left(\frac{\varepsilon}{\sigma}\right)$$
 
 ### Ví dụ dung sai (tr. 68)
 
+> [!note]
 > Vẫn chi tiết máy $N(20; 0{,}5^2)$, dung sai của máy là $\varepsilon = 1{,}25$. Tính tỷ lệ chính phẩm.
 
 $$P(|X - 20| < 1{,}25) = 2\phi\!\left(\frac{1{,}25}{0{,}5}\right) = 2\phi(2{,}5) = 2 \cdot 0{,}4938 = \mathbf{0{,}9876}$$
 
+> [!quote] tr. 68
 > "Ở đây xác suất này có ý nghĩa là **tỷ lệ chính phẩm** của chiếc máy đã cho bằng 98,76%." (tr. 68)
 
-💼 Đây là **bài toán trung tâm của quản trị chất lượng**: cho dung sai kỹ thuật, tính tỷ lệ đạt chuẩn.
-Đảo lại cũng dùng được: muốn tỷ lệ chính phẩm 99,9%, cần $2\phi(\varepsilon/\sigma) = 0{,}999$
-→ $\varepsilon/\sigma = 3{,}29$ → hoặc nới dung sai, hoặc **giảm $\sigma$** bằng cách cải tiến máy.
+> [!example]
+> Đây là **bài toán trung tâm của quản trị chất lượng**: cho dung sai kỹ thuật, tính tỷ lệ đạt chuẩn.
+> Đảo lại cũng dùng được: muốn tỷ lệ chính phẩm 99,9%, cần $2\phi(\varepsilon/\sigma) = 0{,}999$
+> → $\varepsilon/\sigma = 3{,}29$ → hoặc nới dung sai, hoặc **giảm $\sigma$** bằng cách cải tiến máy.
 
-### ⚠️ Bẫy ký hiệu — ba hàm dễ nhầm
+### Bẫy ký hiệu — ba hàm dễ nhầm
 
 | Ký hiệu      | Tên                 | Định nghĩa                                           | Giá trị tại $+\infty$ | Bảng                |
 | ------------ | ------------------- | ---------------------------------------------------- | --------------------- | ------------------- |
@@ -546,6 +561,7 @@ Tương tự với Poisson (tr. 70): $\dfrac{X - \lambda}{\sqrt{\lambda}} \xrigh
 
 ### Thí dụ 4.5 (tr. 69) — và hiệu chỉnh liên tục
 
+> [!note]
 > $X \sim B(20; 0{,}4)$, tính $P(4 < X < 13)$.
 
 $np = 8$, $npq = 4{,}8$, $\sqrt{npq} = 2{,}1909$.
@@ -560,6 +576,7 @@ Giáo trình nhận xét (tr. 69): *"do $n = 20$ vẫn chưa thật lớn, trong
 
 $$P(\alpha < X < \beta) \approx \phi\!\left(\frac{\beta + 0{,}5 - np}{\sqrt{npq}}\right) - \phi\!\left(\frac{\alpha - 0{,}5 - np}{\sqrt{npq}}\right)$$
 
+> [!quote] tr. 70
 > "Việc cộng thêm vào $+0{,}5$ và $-0{,}5$ chính là **yếu tố hiệu chỉnh khi xấp xỉ một biến rời rạc
 > bằng biến liên tục**." (tr. 70)
 
@@ -568,7 +585,7 @@ $$P(4 < X < 13) \approx \phi(2{,}51) + \phi(1{,}60) = \mathbf{0{,}9743}$$
 Đây chính là **hiệu chỉnh liên tục** đã giới thiệu ở bài 3 mục 8 — giáo trình có dùng ở đây,
 chỉ không dùng ở chương I.
 
-### ⚠️ Một chỗ thiếu nhất quán trong giáo trình
+### Một chỗ thiếu nhất quán trong giáo trình
 
 Giáo trình ghi: *"kết quả thật của xác suất này là **0,978**"*. Nhưng tính bằng máy:
 
@@ -627,8 +644,9 @@ $$\frac{1}{\sigma^2}\sum_{i=1}^{n}\left(X_i - \overline{X}\right)^2 \sim \chi^2(
 Giáo trình giải thích chỗ **mất một bậc tự do**: *"do ta thay thế $a$ bằng $\overline{X}$, vì vậy
 bậc tự do của phân phối đã bớt đi 1."*
 
-⚠️ **Đây là lý do sâu xa của việc chia cho $n-1$ thay vì $n$** khi tính phương sai mẫu — bài 10
-sẽ quay lại. Ước lượng $a$ từ chính dữ liệu đã "tiêu" mất một bậc tự do.
+> [!warning] Đây là lý do sâu xa của việc chia cho $n-1$ thay vì $n$
+> khi tính phương sai mẫu — bài 10
+> sẽ quay lại. Ước lượng $a$ từ chính dữ liệu đã "tiêu" mất một bậc tự do.
 
 ### Student $t(n)$
 
@@ -646,9 +664,10 @@ Giáo trình cho mốc thực hành (tr. 72): *"khi $n > 30$, đồ thị của 
 Đồ thị $t(n)$ giống chuẩn nhưng **thấp hơn ở giữa và đuôi dày hơn** — phản ánh sự bất định thêm do
 phải ước lượng $\sigma$ từ mẫu.
 
-⚠️ Trường hợp $n = 1$ cho **phân phối Cauchy** — giáo trình lưu ý đây là *"phân phối **không có mômen
-nào**"*, tức không có kỳ vọng, không có phương sai. Một quái vật toán học hữu ích để nhớ rằng
-"mọi phân phối đều có trung bình" là sai.
+> [!warning]
+> Trường hợp $n = 1$ cho **phân phối Cauchy** — giáo trình lưu ý đây là *"phân phối **không có mômen
+> nào**"*, tức không có kỳ vọng, không có phương sai. Một quái vật toán học hữu ích để nhớ rằng
+> "mọi phân phối đều có trung bình" là sai.
 
 Bảng phân vị $t(n)$: bảng 3, tr. 233.
 
@@ -676,8 +695,9 @@ $$EX = \frac{r}{\lambda}, \qquad VX = \frac{r}{\lambda^2}$$
 
 Tính chất: $X \sim \gamma(p,\lambda)$, $Y \sim \gamma(q,\lambda)$ độc lập $\Rightarrow X+Y \sim \gamma(p+q,\lambda)$.
 
-⚠️ **Khi $r = 1$ ta được phân phối mũ $\mathcal{E}(\lambda)$** (thí dụ 2.8, bài 5) —
-*"có nhiều ứng dụng trong lý thuyết độ tin cậy"*.
+> [!warning] Khi $r = 1$ ta được phân phối mũ $\mathcal{E}(\lambda)$
+> (thí dụ 2.8, bài 5) —
+> *"có nhiều ứng dụng trong lý thuyết độ tin cậy"*.
 
 ### Quan hệ giữa bốn phân phối
 
@@ -710,7 +730,7 @@ Tính chất: $X \sim \gamma(p,\lambda)$, $Y \sim \gamma(q,\lambda)$ độc lậ
 
 ---
 
-## 9. 📚 Cây quyết định chọn phân phối
+## 9. Cây quyết định chọn phân phối
 
 Giáo trình trình bày mười mấy phân phối mà không có bảng tra cứu tổng hợp. Đây là phần bổ sung.
 
@@ -775,6 +795,7 @@ Giáo trình trình bày mười mấy phân phối mà không có bảng tra c�
 
 ## 10. Code minh hoạ
 
+> [!note]
 > ⚙️ **Chạy:** cần **Python 3.10+** (macOS/Linux có sẵn). Lưu file rồi gõ `python3 bai-07-phan-phoi.py`.
 > Chỉ dùng thư viện chuẩn — **không cần cài gói nào**. `statistics.NormalDist` lo phần phân phối chuẩn.
 

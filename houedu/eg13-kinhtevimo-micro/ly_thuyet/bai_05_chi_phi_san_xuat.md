@@ -1,13 +1,15 @@
 # Bài 5 — Chi phí sản xuất
 
+> [!info] Về bài này
 > Bài học dựng từ **Chương 13 — Chi phí sản xuất** (tr. 283–307)
 > của *N. Gregory Mankiw — **Kinh tế học vi mô***, bản dịch của Khoa Kinh tế, **ĐH Kinh tế TP.HCM** (Cengage Learning Asia).
-> 🎯 **Vòng 1.** Đây là bài mở đầu **Phần V — Hành vi doanh nghiệp**, và là **bộ công cụ** mà bài 6, 7,
+>
+> **Vòng 1.** Đây là bài mở đầu **Phần V — Hành vi doanh nghiệp**, và là **bộ công cụ** mà bài 6, 7,
 > 8, 9 đều dùng lại. Không nắm chương này thì không đọc được bốn bài sau.
-> 💼 **Góc QTKD** — ví dụ thêm cho ngành quản trị kinh doanh, **không có trong sách**.
-> 📚 **Mở rộng** — thứ sách nói lướt hoặc để trong hộp phụ.
-> ⚠️ — chỗ dễ hiểu sai, hoặc chỗ sách in sai.
-> 📌 **Cần đọc trước:** [Bài 1, mục 3–4](bai_01_muoi_nguyen_ly_va_tu_duy_kinh_te.md#3-nguyên-lý-2--chi-phí-của-một-thứ-là-cái-mà-bạn-từ-bỏ-để-có-được-nó)
+>
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
+>
+> **Cần đọc trước:** [Bài 1, mục 3–4](bai_01_muoi_nguyen_ly_va_tu_duy_kinh_te.md#3-nguyên-lý-2--chi-phí-của-một-thứ-là-cái-mà-bạn-từ-bỏ-để-có-được-nó)
 > (chi phí cơ hội và tư duy biên). Bài này là phiên bản đầy đủ của hai nguyên lý đó.
 
 ---
@@ -25,7 +27,7 @@
 - [7. Ba đặc điểm của mọi đường chi phí](#7-ba-đặc-điểm-của-mọi-đường-chi-phí)
 - [8. Ngắn hạn và dài hạn — ranh giới cố định/biến đổi là ranh giới THỜI GIAN](#8-ngắn-hạn-và-dài-hạn--ranh-giới-cố-địnhbiến-đổi-là-ranh-giới-thời-gian)
 - [9. Lợi thế và bất lợi thế kinh tế theo quy mô](#9-lợi-thế-và-bất-lợi-thế-kinh-tế-theo-quy-mô)
-- [10. 💼 Ba con số, ba câu hỏi — và cái bẫy định giá theo chi phí](#10--ba-con-số-ba-câu-hỏi--và-cái-bẫy-định-giá-theo-chi-phí)
+- [10. Ba con số, ba câu hỏi — và cái bẫy định giá theo chi phí](#10-ba-con-số-ba-câu-hỏi--và-cái-bẫy-định-giá-theo-chi-phí)
 - [11. Bảng 3 — tóm tắt toàn bộ từ vựng chi phí](#11-bảng-3--tóm-tắt-toàn-bộ-từ-vựng-chi-phí)
 - [12. Code minh hoạ](#12-code-minh-hoạ)
 - [13. Tự thử](#13-tự-thử)
@@ -42,6 +44,7 @@
 
 Sách mở chương bằng một câu hiếm thấy trong giáo trình (tr. 284):
 
+> [!quote]
 > *"Một lưu ý nho nhỏ: chủ đề này hơi khô khan và mang tính kỹ thuật. Thành thật mà nói, bạn có thể
 > cảm thấy chán. Nhưng tài liệu này cung cấp **một nền tảng quan trọng** cho những chủ đề hấp dẫn tiếp
 > theo sau đó."*
@@ -51,6 +54,7 @@ MC, quy mô hiệu quả — mà mọi quyết định sản xuất và định 
 
 Toàn chương xoay quanh một mục tiêu duy nhất mà sách giả định cho doanh nghiệp (tr. 284):
 
+> [!quote]
 > *"các nhà kinh tế giả định rằng mục tiêu của các doanh nghiệp là **tối đa hoá lợi nhuận**, và họ thấy
 > rằng giả định này thường đúng trong hầu hết mọi trường hợp."*
 
@@ -58,6 +62,7 @@ $$\text{Lợi nhuận} = \text{Tổng doanh thu} - \text{Tổng chi phí}$$
 
 Ba định nghĩa nền (chú thích tr. 284):
 
+> [!note]
 > **Tổng doanh thu** (*total revenue*): khoản thu của doanh nghiệp khi bán sản phẩm đầu ra.
 > **Tổng chi phí** (*total cost*): giá trị thị trường của những đầu vào mà doanh nghiệp sử dụng để sản xuất.
 > **Lợi nhuận** (*profit*): tổng doanh thu trừ đi tổng chi phí.
@@ -74,6 +79,7 @@ Sách gọi thẳng về nguyên lý 2 ở [bài 1](bai_01_muoi_nguyen_ly_va_tu_
 *"Chi phí của một thứ gì đó là tất cả những gì chúng ta từ bỏ để có được nó"* (tr. 285). Khi nhà kinh
 tế nói **chi phí sản xuất**, họ **đã tính luôn chi phí cơ hội**.
 
+> [!quote]
 > **Chi phí sổ sách** (*explicit costs*): những chi phí cho yếu tố đầu vào đòi hỏi doanh nghiệp phải
 > bỏ tiền ra chi trả. — chú thích tr. 285
 > **Chi phí ẩn** (*implicit costs*): những chi phí đầu vào không đòi hỏi doanh nghiệp phải chi tiền ra
@@ -95,8 +101,9 @@ Ví dụ mà sách dùng để cho thấy chi phí ẩn **thật sự ảnh hư�
 lập trình viên của Caroline tăng từ **100 lên 500 đô la một giờ**, cô có thể quyết định *"chi phí vận
 hành việc kinh doanh bánh quy bơ là quá lớn"* và **đóng cửa nhà máy** để đi lập trình toàn thời gian.
 
-⚠️ Chú ý: **không có dòng tiền nào thay đổi** trong sổ sách của tiệm bánh, nhưng quyết định thì đảo
-ngược. Đó là bằng chứng chi phí ẩn là chi phí **thật**.
+> [!warning]
+> Chú ý: **không có dòng tiền nào thay đổi** trong sổ sách của tiệm bánh, nhưng quyết định thì đảo
+> ngược. Đó là bằng chứng chi phí ẩn là chi phí **thật**.
 
 ---
 
@@ -124,6 +131,7 @@ toán, không đổi chi phí thật của việc dùng 300.000 đô la vào ti�
 
 ## 4. Lợi nhuận kinh tế và lợi nhuận kế toán
 
+> [!quote]
 > **Lợi nhuận kinh tế** (*economic profit*): tổng doanh thu trừ đi tổng chi phí, bao gồm **cả** chi phí
 > sổ sách **và** chi phí ẩn. — chú thích tr. 286
 > **Lợi nhuận kế toán** (*accounting profit*): tổng doanh thu trừ đi **chỉ** chi phí sổ sách. — chú thích tr. 287
@@ -148,6 +156,7 @@ toán, không đổi chi phí thật của việc dùng 300.000 đô la vào ti�
 
 ⭐ **Hệ quả bắt buộc phải nhớ:**
 
+> [!note]
 > **Lợi nhuận kế toán LUÔN LỚN HƠN lợi nhuận kinh tế** (trừ khi chi phí ẩn bằng 0).
 
 Và ý nghĩa của lợi nhuận kinh tế, theo sách (tr. 287):
@@ -161,23 +170,24 @@ Và ý nghĩa của lợi nhuận kinh tế, theo sách (tr. 287):
 trường cạnh tranh, doanh nghiệp gia nhập khi lợi nhuận kinh tế dương và rời đi khi âm, cho tới khi
 **lợi nhuận kinh tế bằng 0**.
 
-⚠️ **"Lợi nhuận kinh tế bằng 0" KHÔNG có nghĩa là "làm không công".** Nó nghĩa là doanh thu vừa đủ bù
-mọi chi phí cơ hội — tức chủ doanh nghiệp đang kiếm **đúng bằng** phương án tốt nhất kế tiếp của mình.
-Đây là chỗ nhầm phổ biến nhất trong cả môn học.
+> [!warning] "Lợi nhuận kinh tế bằng 0" KHÔNG có nghĩa là "làm không công".
+> Nó nghĩa là doanh thu vừa đủ bù
+> mọi chi phí cơ hội — tức chủ doanh nghiệp đang kiếm **đúng bằng** phương án tốt nhất kế tiếp của mình.
+> Đây là chỗ nhầm phổ biến nhất trong cả môn học.
 
-### 💼 Góc QTKD — ba khoản chi phí ẩn mà báo cáo của bạn không ghi
-
-Mục 12 tính đầy đủ một bảng lãi–lỗ hai cách. Ba khoản thường bị bỏ sót nhất:
-
-| Khoản ẩn                    | Cách ước lượng                                               |
-| --------------------------- | ------------------------------------------------------------ |
-| **Vốn chủ sở hữu**          | vốn × lợi suất phương án an toàn (gửi ngân hàng, trái phiếu) |
-| **Mặt bằng tự có**          | giá thuê thị trường của chính mặt bằng đó                    |
-| **Công sức người sáng lập** | mức lương bạn nhận được nếu đi làm thuê cùng vị trí          |
-
-⭐ **Bài kiểm tra nhanh:** nếu bạn cộng ba khoản trên vào và lợi nhuận thành **âm**, doanh nghiệp của
-bạn đang **phá huỷ giá trị** — dù báo cáo tài chính vẫn màu xanh. Bạn đang bù lỗ bằng chính tài sản và
-thời gian của mình.
+> [!example] Góc QTKD — ba khoản chi phí ẩn mà báo cáo của bạn không ghi
+>
+> Mục 12 tính đầy đủ một bảng lãi–lỗ hai cách. Ba khoản thường bị bỏ sót nhất:
+>
+> | Khoản ẩn                    | Cách ước lượng                                               |
+> | --------------------------- | ------------------------------------------------------------ |
+> | **Vốn chủ sở hữu**          | vốn × lợi suất phương án an toàn (gửi ngân hàng, trái phiếu) |
+> | **Mặt bằng tự có**          | giá thuê thị trường của chính mặt bằng đó                    |
+> | **Công sức người sáng lập** | mức lương bạn nhận được nếu đi làm thuê cùng vị trí          |
+>
+> ⭐ **Bài kiểm tra nhanh:** nếu bạn cộng ba khoản trên vào và lợi nhuận thành **âm**, doanh nghiệp của
+> bạn đang **phá huỷ giá trị** — dù báo cáo tài chính vẫn màu xanh. Bạn đang bù lỗ bằng chính tài sản và
+> thời gian của mình.
 
 ---
 
@@ -185,10 +195,12 @@ thời gian của mình.
 
 Từ đây sách chuyển sang **cơ chế**: chi phí đến từ đâu.
 
-⚠️ **Giả định quan trọng của cả phần này** (tr. 288): *"quy mô nhà máy của Caroline là **cố định** và
-Caroline có thể thay đổi sản lượng… bằng cách duy nhất là thay đổi số lượng công nhân"*. Sách nói rõ
-đây là **ngắn hạn**; dài hạn sẽ bàn ở mục 10.
+> [!warning] Giả định quan trọng của cả phần này
+> (tr. 288): *"quy mô nhà máy của Caroline là **cố định** và
+> Caroline có thể thay đổi sản lượng… bằng cách duy nhất là thay đổi số lượng công nhân"*. Sách nói rõ
+> đây là **ngắn hạn**; dài hạn sẽ bàn ở mục 10.
 
+> [!quote]
 > **Hàm sản xuất** (*production function*): mối quan hệ giữa sản lượng đầu vào được sử dụng để tạo ra
 > hàng hoá và sản lượng đầu ra của hàng hoá đó. — chú thích tr. 288
 > **Sản lượng biên** (*marginal product*): gia tăng trong sản lượng do tăng một đơn vị đầu vào. — chú thích tr. 289
@@ -217,12 +229,13 @@ Caroline có thể thay đổi sản lượng… bằng cách duy nhất là tha
 
 Sản lượng biên đi **50 → 40 → 30 → 20 → 10 → 5**. Lý do sách đưa ra rất cụ thể (tr. 290):
 
+> [!quote]
 > *"khi chỉ có một vài công nhân được thuê, họ dễ dàng sử dụng các thiết bị trong nhà bếp của Caroline.
 > Khi số lượng công nhân tăng lên, những công nhân mới vào sẽ phải chia sẻ thiết bị và làm việc trong
 > môi trường chật chội hơn. Thậm chí là **nhà bếp trở nên quá chật chội đến nỗi mọi người bắt đầu vướng
 > tay vướng chân nhau**."*
 
-### ⭐ Hai mặt của một đồng xu
+### Hai mặt của một đồng xu
 
 **Hình 2, tr. 289** đặt cạnh nhau hàm sản xuất (a) và đường tổng chi phí (b). Sách nói rõ chúng là
 *"hai mặt của một đồng xu"* (tr. 290):
@@ -255,6 +268,7 @@ trọng nhất chương.
 
 Bốn định nghĩa (chú thích tr. 292–293):
 
+> [!note]
 > **Chi phí cố định** (*fixed costs*): chi phí không đổi theo sản lượng.
 > **Chi phí biến đổi** (*variable costs*): chi phí thay đổi theo sản lượng.
 > **Tổng chi phí bình quân** (*average total cost*): tổng chi phí chia cho sản lượng.
@@ -290,19 +304,21 @@ Cùng với hai thước đo phụ: $AFC = FC/Q$ và $AVC = VC/Q$, và $ATC = AF
 |            |         |            |             |       |       |            |         *2,10* |
 |         10 |   15,00 |       3,00 |       12,00 |  0,30 |  1,20 |   **1,50** |                |
 
-📚 **Một quan sát không có trong sách nhưng rất hữu ích:** bảng này không phải số ngẫu nhiên. Chi phí
-biên tăng **đều đúng 0,20 đô la** mỗi ly, tức $MC(q) = 0{,}10 + 0{,}20q$. Từ đó suy ra công thức đóng
-cho toàn bảng:
+> [!note] Một quan sát không có trong sách nhưng rất hữu ích:
+> bảng này không phải số ngẫu nhiên. Chi phí
+> biên tăng **đều đúng 0,20 đô la** mỗi ly, tức $MC(q) = 0{,}10 + 0{,}20q$. Từ đó suy ra công thức đóng
+> cho toàn bảng:
 
 $$VC(Q) = 0{,}10 \cdot Q \cdot (Q+2) \qquad TC(Q) = 3 + 0{,}10 \cdot Q \cdot (Q+2)$$
 
 Mục 12 dùng đúng công thức này để **sinh lại toàn bộ Bảng 2** và đối chiếu từng ô với bản in — khớp
 10/10 dòng.
 
-⚠️ **Chú ý vị trí của chi phí biên trong bảng.** Sách viết rõ (tr. 293): *"chi phí biên xuất hiện nằm
-ở lưng chừng giữa hai cột và nó thể hiện sự thay đổi trong tổng chi phí khi sản lượng đầu ra tăng từ
-mức độ này sang mức độ khác"*. Nó **không thuộc về một sản lượng**, mà thuộc về **bước đi giữa hai
-sản lượng**.
+> [!warning] Chú ý vị trí của chi phí biên trong bảng.
+> Sách viết rõ (tr. 293): *"chi phí biên xuất hiện nằm
+> ở lưng chừng giữa hai cột và nó thể hiện sự thay đổi trong tổng chi phí khi sản lượng đầu ra tăng từ
+> mức độ này sang mức độ khác"*. Nó **không thuộc về một sản lượng**, mà thuộc về **bước đi giữa hai
+> sản lượng**.
 
 ---
 
@@ -313,6 +329,7 @@ nghiệp** (tr. 297):
 
 ![Hình 4 — tr. 294, bản chụp giáo trình](../tai_lieu/hinh/ch13-hinh-04-tr294.png)
 
+> [!note]
 > - Sớm muộn gì thì **chi phí biên cũng sẽ tăng** khi sản lượng đầu ra tăng.
 > - **Đường tổng chi phí bình quân có dạng hình chữ U.**
 > - **Đường chi phí biên cắt đường tổng chi phí bình quân tại điểm thấp nhất** của đường tổng chi phí bình quân.
@@ -335,6 +352,7 @@ Vì $ATC = AFC + AVC$, và hai thành phần đi **ngược chiều nhau**:
    ATC          giảm trước, tăng sau  ⟹  hình chữ U
 ```
 
+> [!quote]
 > **Quy mô hiệu quả** (*efficient scale*): mức sản lượng mà tại đó tổng chi phí bình quân thấp nhất.
 > — chú thích tr. 295
 
@@ -344,18 +362,22 @@ Với Conrad, quy mô hiệu quả là **5 hay 6 ly cà phê mỗi giờ**, ATC 
 
 Đây là quan hệ đẹp nhất chương, và sách phát biểu nó bằng hai câu in nghiêng (tr. 295–296):
 
+> [!quote]
 > *"**Bất cứ khi nào mà chi phí biên nhỏ hơn tổng chi phí bình quân, thì tổng chi phí bình quân đang
 > giảm dần. Bất cứ khi nào mà chi phí biên lớn hơn tổng chi phí bình quân, tổng chi phí bình quân đang
 > tăng dần.**"*
 
-💡 **Phép ẩn dụ của sách rất hay** (tr. 296):
+> [!example] Phép ẩn dụ của sách rất hay
+> (tr. 296):
 
+> [!note]
 > Tổng chi phí bình quân giống như **điểm trung bình tích luỹ**. Chi phí biên giống như **điểm của môn
 > học kế tiếp** mà bạn sẽ nhận được. Nếu điểm môn kế tiếp **thấp hơn** điểm trung bình, điểm trung bình
 > sẽ bị **kéo xuống**. Nếu **cao hơn**, điểm trung bình được **nâng lên**.
 
 Và hệ quả logic:
 
+> [!quote]
 > ⭐ *"đường chi phí biên sẽ đi qua **điểm thấp nhất** của đường tổng chi phí bình quân"*
 
 Vì trước giao điểm MC < ATC nên ATC giảm; sau giao điểm MC > ATC nên ATC tăng. Chỗ chuyển từ giảm sang
@@ -368,14 +390,15 @@ trò **then chốt** trong việc phân tích hoạt động của các doanh ng
 Mục 12 kiểm quy tắc này bằng số cho **cả 9 bước** của bảng Conrad: mọi bước đều đúng, và MC(6) = ATC(6)
 = 1,30 đô la đúng tại quy mô hiệu quả.
 
-### 📚 Đường chi phí "điển hình" thực tế phức tạp hơn
+> [!note] Đường chi phí "điển hình" thực tế phức tạp hơn
+>
+> Sách thừa nhận ví dụ Conrad là **đơn giản hoá** (tr. 296). Trong nhiều doanh nghiệp, *"nhân viên thứ
+> hai hay thứ ba có thể mang lại mức sản lượng biên lớn hơn người đầu tiên, bởi vì làm việc nhóm có thể
+> phân chia công việc và nhiệm vụ một cách hiệu quả hơn là một cá nhân"*.
+>
+> Nên **Hình 5 (tr. 297)** vẽ đường chi phí điển hình hơn: MC **giảm một đoạn** rồi mới tăng, AVC cũng
+> vậy. Nhưng **ba đặc điểm ở trên vẫn đúng**.
 
-Sách thừa nhận ví dụ Conrad là **đơn giản hoá** (tr. 296). Trong nhiều doanh nghiệp, *"nhân viên thứ
-hai hay thứ ba có thể mang lại mức sản lượng biên lớn hơn người đầu tiên, bởi vì làm việc nhóm có thể
-phân chia công việc và nhiệm vụ một cách hiệu quả hơn là một cá nhân"*.
-
-Nên **Hình 5 (tr. 297)** vẽ đường chi phí điển hình hơn: MC **giảm một đoạn** rồi mới tăng, AVC cũng
-vậy. Nhưng **ba đặc điểm ở trên vẫn đúng**.
 ---
 
 ![Hình 5 — tr. 297, bản chụp giáo trình](../tai_lieu/hinh/ch13-hinh-05-tr297.png)
@@ -384,6 +407,7 @@ vậy. Nhưng **ba đặc điểm ở trên vẫn đúng**.
 
 Đây là ý mà sinh viên hay bỏ qua, nhưng nó quyết định cách đọc mọi con số chi phí:
 
+> [!quote] tr. 297
 > **Ranh giới phân chia tổng chi phí thành chi phí cố định và chi phí biến đổi phụ thuộc vào độ dài
 > thời gian.** (tr. 297)
 
@@ -417,8 +441,10 @@ trước đó."*
 | **Ngắn hạn** — chỉ thuê thêm công nhân ở nhà máy cũ | 1.200 xe/ngày | **12.000 đô la** |
 | **Dài hạn** — mở rộng cả nhà máy lẫn nhân công      | 1.200 xe/ngày | **10.000 đô la** |
 
-⚠️ **Đính chính — tr. 298.** Sách viết:
+> [!warning] Đính chính — tr. 298.
+> Sách viết:
 
+> [!quote]
 > *"Khi Ford muốn gia tăng sản lượng từ 1.000 lên **2.000** chiếc xe hơi mỗi ngày…"*
 
 Con số **2.000** là **sai**, đúng phải là **1.200**:
@@ -436,9 +462,10 @@ Sách cũng nói **mất bao lâu để "chuyển sang dài hạn"** thì không
 nhà máy rộng lớn hơn. Ngược lại, một người quản lý quán cà phê có thể mua một máy chế biến cà phê khác
 **trong vòng một vài ngày**."*
 
-💼 **Đây là câu hỏi thực tế bạn phải tự trả lời cho doanh nghiệp mình:** *"chi phí nào của ta là cố
-định trong 3 tháng? trong 1 năm? trong 3 năm?"* — ba câu trả lời khác nhau, và chúng dẫn tới ba quyết
-định khác nhau khi cầu sụt.
+> [!example] Đây là câu hỏi thực tế bạn phải tự trả lời cho doanh nghiệp mình:
+> *"chi phí nào của ta là cố
+> định trong 3 tháng? trong 1 năm? trong 3 năm?"* — ba câu trả lời khác nhau, và chúng dẫn tới ba quyết
+> định khác nhau khi cầu sụt.
 
 ---
 
@@ -446,6 +473,7 @@ nhà máy rộng lớn hơn. Ngược lại, một người quản lý quán cà
 
 Ba định nghĩa (chú thích tr. 299):
 
+> [!note]
 > **Lợi thế kinh tế theo quy mô** (*economies of scale*): tổng chi phí bình quân trong dài hạn **giảm**
 > khi sản lượng tăng.
 > **Bất lợi thế kinh tế theo quy mô** (*diseconomies of scale*): tổng chi phí bình quân trong dài hạn
@@ -463,29 +491,29 @@ Và **nguyên nhân** — đây mới là phần đáng nhớ:
 Đó cũng là lý do đường dài hạn có **dạng chữ U**: ở sản lượng thấp, chuyên môn hoá thắng; ở sản lượng
 cao, vấn đề phối hợp thắng.
 
-### 📚 Nhà máy sản xuất đinh ghim của Adam Smith (tr. 300)
-
-Hộp *"Bạn có biết"* dẫn lại đoạn nổi tiếng trong *Bàn về bản chất và nguồn gốc của sự giàu có của các
-quốc gia* — cùng cuốn sách 1776 đã gặp ở [bài 1](bai_01_muoi_nguyen_ly_va_tu_duy_kinh_te.md#7-nguyên-lý-5-6-7--con-người-tương-tác-với-nhau):
-
-> *"Một người rút dây, một người kéo thẳng nó ra, người thứ ba cắt, người thứ tư bám lỗ, người thứ năm
-> đập vào đầu sợi dây để tạo thành đầu kim, để làm được đầu ghim cần có hai hay ba thao tác; làm ra nó
-> là một công đoạn kỳ diệu, đánh bóng nó lại là một công đoạn khác, thậm chí việc đóng hộp cũng là một
-> công đoạn riêng."*
-
-Con số Smith đưa ra: nhờ chuyên môn hoá, mỗi công nhân tạo ra **hàng ngàn chiếc mỗi ngày**; nếu làm
-độc lập, *"họ chắc chắn không thể nào làm nổi **20 chiếc** mỗi ngày, thậm chí còn không được chiếc
-nào"*.
-
-Ngạn ngữ Việt mà bản dịch mở đầu hộp này bằng: **"Nhất nghệ tinh, nhất thân vinh."**
-
-💼 Ví dụ hiện đại mà sách nêu: xây nhà. *"hầu hết mọi người sẽ tìm nhà thầu xây dựng: người đó sẽ đi
-thuê thợ mộc, thợ ống nước, thợ điện, thợ sơn"* — chuyên môn hoá vẫn là lý do chính khiến xã hội hiện
-đại thịnh vượng.
+> [!note] Nhà máy sản xuất đinh ghim của Adam Smith (tr. 300)
+>
+> Hộp *"Bạn có biết"* dẫn lại đoạn nổi tiếng trong *Bàn về bản chất và nguồn gốc của sự giàu có của các
+> quốc gia* — cùng cuốn sách 1776 đã gặp ở [bài 1](bai_01_muoi_nguyen_ly_va_tu_duy_kinh_te.md#7-nguyên-lý-5-6-7--con-người-tương-tác-với-nhau):
+>
+> > *"Một người rút dây, một người kéo thẳng nó ra, người thứ ba cắt, người thứ tư bám lỗ, người thứ năm
+> > đập vào đầu sợi dây để tạo thành đầu kim, để làm được đầu ghim cần có hai hay ba thao tác; làm ra nó
+> > là một công đoạn kỳ diệu, đánh bóng nó lại là một công đoạn khác, thậm chí việc đóng hộp cũng là một
+> > công đoạn riêng."*
+>
+> Con số Smith đưa ra: nhờ chuyên môn hoá, mỗi công nhân tạo ra **hàng ngàn chiếc mỗi ngày**; nếu làm
+> độc lập, *"họ chắc chắn không thể nào làm nổi **20 chiếc** mỗi ngày, thậm chí còn không được chiếc
+> nào"*.
+>
+> Ngạn ngữ Việt mà bản dịch mở đầu hộp này bằng: **"Nhất nghệ tinh, nhất thân vinh."**
+>
+> 💼 Ví dụ hiện đại mà sách nêu: xây nhà. *"hầu hết mọi người sẽ tìm nhà thầu xây dựng: người đó sẽ đi
+> thuê thợ mộc, thợ ống nước, thợ điện, thợ sơn"* — chuyên môn hoá vẫn là lý do chính khiến xã hội hiện
+> đại thịnh vượng.
 
 ---
 
-## 10. 💼 Ba con số, ba câu hỏi — và cái bẫy định giá theo chi phí
+## 10. Ba con số, ba câu hỏi — và cái bẫy định giá theo chi phí
 
 Chương này cho bạn **ba con số**, và chúng trả lời **ba câu hỏi khác nhau**. Nhầm lẫn giữa chúng là
 sai lầm định giá phổ biến nhất trong thực tế.
@@ -496,8 +524,9 @@ sai lầm định giá phổ biến nhất trong thực tế.
 | **ATC tại sản lượng kế hoạch** | *"Bán giá nào thì hoà vốn ở sản lượng đó?"*                                      | mục 6                                                                                                                 |
 | **Quy mô hiệu quả**            | *"Nếu chọn được, tôi nên nhắm sản lượng nào?"*                                   | mục 7                                                                                                                 |
 
-⚠️ **Không con nào trong ba con số trên trả lời câu hỏi "nên bán giá bao nhiêu".** Câu đó cần thêm
-**đường cầu** ([bài 3](bai_03_do_co_gian_va_dinh_gia.md)) và quy tắc **MR = MC** (bài 6, bài 7).
+> [!warning] Không con nào trong ba con số trên trả lời câu hỏi "nên bán giá bao nhiêu".
+> Câu đó cần thêm
+> **đường cầu** ([bài 3](bai_03_do_co_gian_va_dinh_gia.md)) và quy tắc **MR = MC** (bài 6, bài 7).
 
 ### Cái bẫy cost-plus pricing
 
@@ -552,6 +581,7 @@ riêng, đội ngũ biên chế đông) có **đòn bẩy hoạt động cao** �
 
 ## 12. Code minh hoạ
 
+> [!note]
 > ⚙️ **Chạy:** cần **Python 3.10+**. Lưu file rồi gõ `python3 bai-05-chi-phi-san-xuat.py`.
 > **Không cần cài gói nào.** File có sẵn tại [thuc_hanh/bai-05-chi-phi-san-xuat.py](../thuc_hanh/bai-05-chi-phi-san-xuat.py).
 

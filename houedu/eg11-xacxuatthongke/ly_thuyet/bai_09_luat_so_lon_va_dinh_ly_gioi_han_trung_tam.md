@@ -1,13 +1,15 @@
 # Bài 9 — Hàm của biến ngẫu nhiên, luật số lớn và định lý giới hạn trung tâm
 
+> [!info] Về bài này
 > Bài học dựa trên **Giáo trình Xác suất Thống kê** (Tống Đình Quỳ, NXB Bách Khoa – Hà Nội), **Chương III §3–§4**, tr. 96–112.
-> 💼 **Góc QTKD** là ví dụ thêm cho ngành Quản trị Kinh doanh, không có trong giáo trình.
-> 📚 **Mở rộng** là kiến thức nền giáo trình lướt qua.
-> ⚠️ Bài này **đính chính một lỗi in** của giáo trình: thí dụ 4.1b (tr. 107).
-> 📌 **Cần đọc trước:** [Bài 6](bai_06_ky_vong_phuong_sai_va_cac_so_dac_trung.md) · [Bài 7](bai_07_cac_phan_phoi_thong_dung.md) · [Bài 8](bai_08_bien_ngau_nhien_hai_chieu_va_tuong_quan.md)
+>
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
+>
+> **Cần đọc trước:** [Bài 6](bai_06_ky_vong_phuong_sai_va_cac_so_dac_trung.md) · [Bài 7](bai_07_cac_phan_phoi_thong_dung.md) · [Bài 8](bai_08_bien_ngau_nhien_hai_chieu_va_tuong_quan.md)
 
 Đây là bài **khép lại phần xác suất** và **mở ra phần thống kê**. Giáo trình nói rõ (tr. 103):
 
+> [!quote]
 > "Các định lý giới hạn và luật số lớn **rất có ý nghĩa trong thực tiễn**. Nó tạo ra **cơ sở cho các
 > ứng dụng của thống kê toán học** sau này."
 
@@ -29,7 +31,7 @@ Không có hai định lý này thì cả phần thống kê là vô căn cứ.
 5. [Bất đẳng thức Chebyshev](#5-bất-đẳng-thức-chebyshev)
 6. [Luật số lớn](#6-luật-số-lớn)
 7. [Định lý giới hạn trung tâm](#7-định-lý-giới-hạn-trung-tâm)
-8. [📚 Vì sao hai định lý này là nền của cả phần thống kê](#8--vì-sao-hai-định-lý-này-là-nền-của-cả-phần-thống-kê)
+8. [📚 Vì sao hai định lý này là nền của cả phần thống kê](#8-vì-sao-hai-định-lý-này-là-nền-của-cả-phần-thống-kê)
 9. [Code minh hoạ](#9-code-minh-hoạ)
 10. [Tự thử](#10-tự-thử)
 11. [Từ điển thuật ngữ](#11-từ-điển-thuật-ngữ)
@@ -48,6 +50,7 @@ Không có hai định lý này thì cả phần thống kê là vô căn cứ.
 
 **Thí dụ 3.1 (tr. 96).**
 
+> [!note]
 > $X$ có phân phối: $-2, -1, 0, 1, 2$ với xác suất $0{,}1;\ 0{,}2;\ 0{,}3;\ 0{,}2;\ 0{,}2$.
 > Xác định luật phân phối của $Z = X^2$ và tìm $EZ$.
 
@@ -91,6 +94,7 @@ giữ cho tổng xác suất vẫn bằng 1. Dấu trị tuyệt đối để m�
 
 **Thí dụ 3.3 (tr. 98) — kết quả quan trọng nhất mục này.**
 
+> [!note]
 > $X \sim N(m; \sigma^2)$. Tìm luật phân phối của $Y = aX + b$ với $a, b \in \mathbb{R}$.
 
 *Giải.* $\psi(y) = \dfrac{y-b}{a}$, $\psi'(y) = \dfrac1a$. Thay vào (3.1) và rút gọn, giáo trình
@@ -98,15 +102,17 @@ giữ cho tổng xác suất vẫn bằng 1. Dấu trị tuyệt đối để m�
 
 $$EY = am + b, \qquad VY = a^2\sigma^2$$
 
+> [!quote] tr. 98
 > "Như vậy một **hàm tuyến tính của biến ngẫu nhiên chuẩn vẫn bảo toàn tính phân phối chuẩn**." (tr. 98)
 
 ⭐ Đây chính là điều làm phép **quy chuẩn** ở bài 7 mục 6 hợp lệ: $Z = \dfrac{X-a}{\sigma}$
 là một hàm tuyến tính, nên $Z$ vẫn chuẩn. Không có tính chất này thì cả bảng tra hàm Laplace
 vô dụng.
 
-💼 Hệ quả kinh doanh: nếu doanh thu chuẩn thì **lợi nhuận = doanh thu × biên − chi phí cố định**
-cũng chuẩn (vì là hàm tuyến tính). Nhưng nếu bạn nhân hai biến ngẫu nhiên với nhau
-(doanh thu = số đơn × giá trị đơn) thì **không** còn chuẩn — phép nhân không tuyến tính.
+> [!example]
+> Hệ quả kinh doanh: nếu doanh thu chuẩn thì **lợi nhuận = doanh thu × biên − chi phí cố định**
+> cũng chuẩn (vì là hàm tuyến tính). Nhưng nếu bạn nhân hai biến ngẫu nhiên với nhau
+> (doanh thu = số đơn × giá trị đơn) thì **không** còn chuẩn — phép nhân không tuyến tính.
 
 ---
 
@@ -125,6 +131,7 @@ $$P(Z = z_k) = \sum_i p_1(x_i)\,p_2(z_k - x_i) \tag{3.2}$$
 
 **Thí dụ 3.3 (tr. 99).** *(Giáo trình đánh trùng số hiệu với thí dụ ở mục 1 — chú ý khi tra.)*
 
+> [!note]
 > Cho luật phân phối đồng thời của $(X, Y)$, xác định luật phân phối của $X + Y$.
 
 | $X \backslash Y$ |    2 |    3 |    4 |
@@ -145,17 +152,20 @@ P(Z=7) &= P(3,4) = 0{,}20
 \end{aligned}
 $$
 
-⚠️ Chú ý bài này **không** cần giả thiết độc lập — đề cho sẵn bảng đồng thời. Chỉ khi phải suy ra
-bảng đồng thời từ hai bảng biên mới cần độc lập.
+> [!warning]
+> Chú ý bài này **không** cần giả thiết độc lập — đề cho sẵn bảng đồng thời. Chỉ khi phải suy ra
+> bảng đồng thời từ hai bảng biên mới cần độc lập.
 
 ### Thí dụ 3.4 (tr. 100) — tổng hai Poisson
 
+> [!note]
 > $X \sim P(\lambda)$, $Y \sim P(\mu)$ độc lập. Tìm luật phân phối của $Z = X + Y$.
 
 *Giải.* Theo (3.2), nhân và chia vế phải với $z!$, giáo trình biến đổi được:
 
 $$P(Z = z) = \frac{e^{-(\lambda+\mu)}(\lambda+\mu)^z}{z!}$$
 
+> [!quote]
 > "Hệ thức cuối cho thấy $Z = X + Y$ cũng tuân theo luật Poisson với tham số $\lambda + \mu$."
 
 Đây chính là **tính cộng được** đã nêu ở bài 7 mục 3, giờ được chứng minh.
@@ -172,6 +182,7 @@ Phép toán này gọi là **tích chập** (convolution), ký hiệu $f_1 * f_2
 
 ### Thí dụ 3.5 (tr. 101) — hai biến đều cộng lại thành tam giác
 
+> [!note]
 > $X$, $Y$ độc lập cùng $\sim \mathcal{U}([0;1])$. Tìm mật độ của $Z = X + Y$.
 
 *Giải.* Chia theo khoảng, giáo trình được:
@@ -198,8 +209,9 @@ Biến $Z$ này gọi là **phân phối tam giác** hay **phân phối Simpson*
 hình tam giác — đã có đỉnh, đã đối xứng. Cộng ba biến sẽ ra đường cong trơn hơn nữa; cộng nhiều
 biến thì tiến về hình chuông. Mục 7 sẽ phát biểu chính xác.
 
-💼 Ứng dụng: **phân phối tam giác được dùng rộng rãi trong quản trị dự án** (thay cho đều, như đã
-nhắc ở bài 7 mục 1) vì nó cho phép nêu ba con số: tối thiểu, khả năng cao nhất, tối đa.
+> [!example]
+> Ứng dụng: **phân phối tam giác được dùng rộng rãi trong quản trị dự án** (thay cho đều, như đã
+> nhắc ở bài 7 mục 1) vì nó cho phép nêu ba con số: tối thiểu, khả năng cao nhất, tối đa.
 
 ---
 
@@ -207,6 +219,7 @@ nhắc ở bài 7 mục 1) vì nó cho phép nêu ba con số: tối thiểu, kh
 
 Giáo trình nêu vấn đề thực tế (tr. 102):
 
+> [!quote]
 > "Việc xác định luật phân phối của $Z$ khá phức tạp. Trong thực tế nhiều khi ta **chỉ cần quan tâm
 > đến các số đặc trưng** của $Z$ là đủ."
 
@@ -222,15 +235,17 @@ $$E(X+Y) = EX + EY, \qquad X,Y \text{ độc lập} \Rightarrow E(XY) = EX \cdot
 
 $$X, Y \text{ độc lập} \Rightarrow V(X+Y) = VX + VY$$
 
-📚 **Bổ sung — điều kiện có thể nới lỏng.** Bài 6 mục 4 có ghi lời hứa của giáo trình:
-*"điều kiện độc lập là khá chặt, sau này ở chương III ta thấy có thể giảm nhẹ"*. Đây là câu trả lời:
+> [!note] Bổ sung — điều kiện có thể nới lỏng.
+> Bài 6 mục 4 có ghi lời hứa của giáo trình:
+> *"điều kiện độc lập là khá chặt, sau này ở chương III ta thấy có thể giảm nhẹ"*. Đây là câu trả lời:
 
 $$\boxed{V(X + Y) = VX + VY + 2\mu_{XY}}$$
 
 Nên chỉ cần $\mu_{XY} = 0$ (**không tương quan**) là đủ, không cần độc lập hoàn toàn.
 Vì độc lập ⟹ không tương quan (bài 8 mục 5), điều kiện mới **yếu hơn thật sự**.
 
-💼 Công thức này là **công thức rủi ro danh mục đầu tư**. Ghép hai tài sản:
+> [!example]
+> Công thức này là **công thức rủi ro danh mục đầu tư**. Ghép hai tài sản:
 
 - $\mu_{12} > 0$ (cùng lên cùng xuống) → rủi ro tổng **lớn hơn** tổng rủi ro riêng lẻ;
 - $\mu_{12} = 0$ → cộng đơn thuần;
@@ -279,11 +294,12 @@ Hay dùng với $k = 2$ (hội tụ trung bình bình phương).
    Mũi tên = "kéo theo".  Chiều ngược lại nói chung SAI.
 ```
 
-⚠️ Vì sao phải phân biệt? Vì **luật số lớn** dùng hội tụ theo **xác suất**, còn **định lý giới hạn
-trung tâm** dùng hội tụ theo **luật** — hai loại kết luận khác nhau về bản chất. Giáo trình lưu ý
-điều này ở tr. 107.
+> [!warning]
+> Vì sao phải phân biệt? Vì **luật số lớn** dùng hội tụ theo **xác suất**, còn **định lý giới hạn
+> trung tâm** dùng hội tụ theo **luật** — hai loại kết luận khác nhau về bản chất. Giáo trình lưu ý
+> điều này ở tr. 107.
 
-📚 **Nói bằng lời cho dễ nhớ:**
+> [!note] Nói bằng lời cho dễ nhớ:
 
 | Kiểu          | Nói gì                                                       |
 | ------------- | ------------------------------------------------------------ |
@@ -315,7 +331,7 @@ không giảm:
 $$\le \int_{|x-a|\ge\varepsilon} \frac{(x-a)^2}{\varepsilon^2}f(x)dx
 \le \frac{1}{\varepsilon^2}\int_{-\infty}^{+\infty}(x-a)^2 f(x)dx = \frac{\sigma^2}{\varepsilon^2} \qquad \blacksquare$$
 
-### ⭐ Vì sao bất đẳng thức "yếu" này lại quan trọng
+### Vì sao bất đẳng thức "yếu" này lại quan trọng
 
 Giáo trình nói (tr. 108): *"Mặc dù (4.7) – (4.8) được chứng minh khá đơn giản, song chúng có
 **ý nghĩa rất to lớn** để dùng làm cơ sở cho các ứng dụng của thống kê."*
@@ -334,16 +350,19 @@ Cái giá phải trả: chặn rất lỏng. Giáo trình chỉ ra ngay:
 Giáo trình nhận xét (tr. 108): với $\varepsilon = 3\sigma$ ta có $P(|X-a| < 3\sigma) \ge 1 - \frac19 \approx 0{,}9$
 — *"ít nhất bằng 0,9"*, trong khi với phân phối chuẩn con số thật là **0,9973**.
 
-⚠️ Nếu chọn $\varepsilon < \sigma$ thì bất đẳng thức trở nên **tầm thường** (chặn > 1, không nói gì).
+> [!warning]
+> Nếu chọn $\varepsilon < \sigma$ thì bất đẳng thức trở nên **tầm thường** (chặn > 1, không nói gì).
 
 **Cách nghĩ đúng về Chebyshev:**
 
+> [!note]
 > Nó là **bảo đảm tối thiểu** khi bạn không biết gì về phân phối. Biết thêm (ví dụ: phân phối chuẩn)
 > thì có kết quả tốt hơn nhiều. Không biết gì thì đây là tất cả những gì bạn có.
 
-💼 Trong quản trị rủi ro, Chebyshev cho **giới hạn xấu nhất tuyệt đối**: dù lợi suất phân phối
-kiểu gì, xác suất lệch quá $3\sigma$ không bao giờ vượt 11%. Câu này đúng kể cả với phân phối
-đuôi nặng — nơi giả định chuẩn thất bại thảm hại (bài 6 mục 6).
+> [!example]
+> Trong quản trị rủi ro, Chebyshev cho **giới hạn xấu nhất tuyệt đối**: dù lợi suất phân phối
+> kiểu gì, xác suất lệch quá $3\sigma$ không bao giờ vượt 11%. Câu này đúng kể cả với phân phối
+> đuôi nặng — nơi giả định chuẩn thất bại thảm hại (bài 6 mục 6).
 
 ---
 
@@ -371,6 +390,7 @@ $$P\big(|\overline{X} - E\overline{X}| < \varepsilon\big) \ge 1 - \frac{V\overli
 
 $$\overline{X} \xrightarrow{xs} a$$
 
+> [!quote] tr. 109
 > "Sự kiện này cho phép ta **ước lượng kỳ vọng bằng trung bình cộng các kết quả đo đạc độc lập**." (tr. 109)
 
 ⭐ **Đây là lý do tồn tại của toàn bộ ngành thống kê.** Ta không biết $a$; ta đo $n$ lần rồi lấy
@@ -388,6 +408,7 @@ Chứng minh: là trường hợp riêng của định lý 2 với $X_i \sim B(p
 
 ⭐ Giáo trình kết luận (tr. 109):
 
+> [!quote]
 > "đó chính là **cơ sở cho định nghĩa thống kê của xác suất** đã đưa ra ở chương I."
 
 **Vòng tròn khép lại.** Ở bài 2 mục 5, ta *chấp nhận* rằng tần suất ổn định quanh một hằng số và
@@ -395,27 +416,28 @@ lấy nó làm xác suất. Bây giờ điều đó được **chứng minh** �
 
 Và giáo trình khép §4 bằng một câu tổng kết đẹp (tr. 110):
 
+> [!quote]
 > "Như vậy tổng của một số khá lớn các biến ngẫu nhiên **tương đối tuỳ ý** lại trở nên tuân theo
 > **một số quy luật xác định**."
 
-### 💼 Góc QTKD — luật số lớn ai được lợi
-
-| Ai                       | Lặp bao nhiêu lần               | Luật số lớn có hiệu lực?       |
-| ------------------------ | ------------------------------- | ------------------------------ |
-| Công ty bảo hiểm         | hàng triệu hợp đồng             | ✅ lợi nhuận gần như chắc chắn |
-| Sòng bạc / xổ số         | hàng triệu ván                  | ✅ (bài 6 thí dụ 3.4)          |
-| Sàn thương mại điện tử   | hàng triệu đơn                  | ✅ tỷ lệ hoàn hàng rất ổn định |
-| Quỹ đầu tư chỉ số        | hàng nghìn cổ phiếu × nhiều năm | ✅ một phần                    |
-| **Người mua vé số**      | vài chục lần                    | ❌                             |
-| **Startup gọi vốn**      | 1 lần                           | ❌                             |
-| **Bạn chọn nghề nghiệp** | 1 lần                           | ❌                             |
-
-⚠️ **Bài học quản trị quan trọng nhất:** luật số lớn chỉ giúp **bên lặp lại nhiều lần**.
-Với quyết định **làm một lần**, kỳ vọng gần như vô dụng — phải nhìn tình huống xấu nhất và
-khả năng chịu đựng.
-
-Đó cũng là lý do bảo hiểm tồn tại được: công ty bảo hiểm ở phía "lặp nhiều lần", khách hàng
-ở phía "một lần". Hai bên đều có lợi dù kỳ vọng của khách hàng là âm.
+> [!example] Góc QTKD — luật số lớn ai được lợi
+>
+> | Ai                       | Lặp bao nhiêu lần               | Luật số lớn có hiệu lực?       |
+> | ------------------------ | ------------------------------- | ------------------------------ |
+> | Công ty bảo hiểm         | hàng triệu hợp đồng             | ✅ lợi nhuận gần như chắc chắn |
+> | Sòng bạc / xổ số         | hàng triệu ván                  | ✅ (bài 6 thí dụ 3.4)          |
+> | Sàn thương mại điện tử   | hàng triệu đơn                  | ✅ tỷ lệ hoàn hàng rất ổn định |
+> | Quỹ đầu tư chỉ số        | hàng nghìn cổ phiếu × nhiều năm | ✅ một phần                    |
+> | **Người mua vé số**      | vài chục lần                    | ❌                             |
+> | **Startup gọi vốn**      | 1 lần                           | ❌                             |
+> | **Bạn chọn nghề nghiệp** | 1 lần                           | ❌                             |
+>
+> ⚠️ **Bài học quản trị quan trọng nhất:** luật số lớn chỉ giúp **bên lặp lại nhiều lần**.
+> Với quyết định **làm một lần**, kỳ vọng gần như vô dụng — phải nhìn tình huống xấu nhất và
+> khả năng chịu đựng.
+>
+> Đó cũng là lý do bảo hiểm tồn tại được: công ty bảo hiểm ở phía "lặp nhiều lần", khách hàng
+> ở phía "một lần". Hai bên đều có lợi dù kỳ vọng của khách hàng là âm.
 
 ---
 
@@ -432,7 +454,7 @@ $$P_n(k_1;k_2) \approx \phi(x_2) - \phi(x_1), \quad x_i = \frac{k_i - np}{\sqrt{
 Điều kiện: *"khá tốt khi $np > 5$ hoặc $nq > 5$. Nếu $p$ càng gần 0,5 đồ thị của phân phối nhị thức
 càng rất gần chuẩn."*
 
-### ⭐ Định lý giới hạn trung tâm (Lindeberg – Lévy, 1922)
+### Định lý giới hạn trung tâm (Lindeberg – Lévy, 1922)
 
 **Định lý (tr. 106).** Giả sử $\{X_n\}$ là dãy biến ngẫu nhiên **độc lập, cùng phân phối**,
 với $EX_n = m$ và $VX_n = \sigma^2$ với mọi $n$. Khi đó
@@ -443,6 +465,7 @@ $$\frac{\overline{X} - m}{\sigma/\sqrt{n}} \ \xrightarrow{\ L\ } \ N(0;1)
 
 **Ý nghĩa, theo lời giáo trình (tr. 106):**
 
+> [!quote]
 > "Khi có **nhiều nhân tố ngẫu nhiên tác động** (sao cho **không có nhân tố nào vượt trội lấn át**
 > các nhân tố khác) thì kết quả của chúng có dạng **phân phối tiệm cận chuẩn**."
 
@@ -453,7 +476,7 @@ $$\frac{\overline{X} - m}{\sigma/\sqrt{n}} \ \xrightarrow{\ L\ } \ N(0;1)
 3. **Nó giải thích vì sao phân phối chuẩn ở khắp nơi** — bất cứ đại lượng nào là tổng của nhiều
    ảnh hưởng nhỏ độc lập đều tiệm cận chuẩn (đã nhắc ở bài 7 mục 5).
 
-⚠️ **Ba điều kiện dễ bị vi phạm trong thực tế:**
+> [!warning] Ba điều kiện dễ bị vi phạm trong thực tế:
 
 - **Độc lập** — dữ liệu chuỗi thời gian (doanh thu tháng liên tiếp) thường tự tương quan.
 - **Cùng phân phối** — gộp dữ liệu từ nhiều nguồn khác nhau.
@@ -463,8 +486,9 @@ $$\frac{\overline{X} - m}{\sigma/\sqrt{n}} \ \xrightarrow{\ L\ } \ N(0;1)
 Điều kiện thứ ba là chỗ hay bị bỏ quên nhất, và cũng là chỗ dữ liệu kinh doanh hay vi phạm nhất
 (quy luật 80/20).
 
-### Thí dụ 4.1 (tr. 106) — ⚠️ có lỗi in
+### Thí dụ 4.1 (tr. 106) — có lỗi in
 
+> [!note]
 > Một quả đậu có trọng lượng trung bình 15 g, độ lệch chuẩn 3 g. Túi 100 quả đạt **loại A** nếu
 > trọng lượng ít nhất 1,5 kg.
 > a) Lấy ngẫu nhiên một túi, xác suất túi đó đạt loại A?
@@ -488,9 +512,10 @@ P(X \le 15) \approx \phi\!\left(\frac{15-20}{\sqrt{10}}\right) - \phi\!\left(\fr
 = \phi(6{,}32) - \phi(1{,}58) = 0{,}5 - 0{,}443 = \mathbf{0{,}057}
 $$
 
-⚠️ **Đính chính.** Sách in kết quả cuối là **0,017**. Nhưng $0{,}5 - 0{,}443 = \mathbf{0{,}057}$ —
-lỗi ở **phép trừ cuối cùng**. Đã đối chiếu bản quét gốc trang 107: dòng in nguyên văn là
-`≈ φ(6,32) − φ(1,58) = 0,5 − 0,443 = 0,017`. Mọi bước trước đó đều đúng.
+> [!warning] Đính chính.
+> Sách in kết quả cuối là **0,017**. Nhưng $0{,}5 - 0{,}443 = \mathbf{0{,}057}$ —
+> lỗi ở **phép trừ cuối cùng**. Đã đối chiếu bản quét gốc trang 107: dòng in nguyên văn là
+> `≈ φ(6,32) − φ(1,58) = 0,5 − 0,443 = 0,017`. Mọi bước trước đó đều đúng.
 
 Kiểm bằng máy: giá trị nhị thức đúng $P(X \le 15) = \mathbf{0{,}0769}$.
 
@@ -503,31 +528,31 @@ Kiểm bằng máy: giá trị nhị thức đúng $P(X \le 15) = \mathbf{0{,}07
 
 Hiệu chỉnh liên tục (bài 3 mục 8, bài 7 mục 7) đưa sai số từ 0,020 xuống **0,0005**.
 
-### 💼 Góc QTKD — CLT là thứ khiến khảo sát 1.000 người hoạt động
-
-Giá trị đơn hàng của một shop **rất lệch phải**: 80% đơn 200k, 15% đơn 1 triệu, 5% đơn 10 triệu.
-
-$$EX = 810\text{k}, \qquad \sigma = 2\,127\text{k}, \qquad \frac{\sigma}{EX} = 2{,}63$$
-
-Một biến cực kỳ phân tán và **không hề chuẩn**. Nhưng theo CLT, **giá trị đơn trung bình** của $n$ đơn:
-
-| Số đơn $n$ | $\sigma$ của trung bình |
-| ---------: | ----------------------: |
-|          1 |                  2.127k |
-|         30 |                    388k |
-|        300 |                    123k |
-|      3.000 |                     39k |
-
-Với 3.000 đơn/tháng, giá trị đơn trung bình dao động chỉ $\pm 39$k quanh 810k — **dự báo được**,
-dù từng đơn thì hoàn toàn không.
-
-⭐ **Đây là lý do bài 11 (khoảng tin cậy) và bài 12 (kiểm định) dùng được cho mọi loại dữ liệu
-kinh doanh**, kể cả dữ liệu lệch nặng. Ta không cần dữ liệu gốc chuẩn — chỉ cần **trung bình mẫu**
-chuẩn, và CLT bảo đảm điều đó.
+> [!example] Góc QTKD — CLT là thứ khiến khảo sát 1.000 người hoạt động
+>
+> Giá trị đơn hàng của một shop **rất lệch phải**: 80% đơn 200k, 15% đơn 1 triệu, 5% đơn 10 triệu.
+>
+> $$EX = 810\text{k}, \qquad \sigma = 2\,127\text{k}, \qquad \frac{\sigma}{EX} = 2{,}63$$
+>
+> Một biến cực kỳ phân tán và **không hề chuẩn**. Nhưng theo CLT, **giá trị đơn trung bình** của $n$ đơn:
+>
+> | Số đơn $n$ | $\sigma$ của trung bình |
+> | ---------: | ----------------------: |
+> |          1 |                  2.127k |
+> |         30 |                    388k |
+> |        300 |                    123k |
+> |      3.000 |                     39k |
+>
+> Với 3.000 đơn/tháng, giá trị đơn trung bình dao động chỉ $\pm 39$k quanh 810k — **dự báo được**,
+> dù từng đơn thì hoàn toàn không.
+>
+> ⭐ **Đây là lý do bài 11 (khoảng tin cậy) và bài 12 (kiểm định) dùng được cho mọi loại dữ liệu
+> kinh doanh**, kể cả dữ liệu lệch nặng. Ta không cần dữ liệu gốc chuẩn — chỉ cần **trung bình mẫu**
+> chuẩn, và CLT bảo đảm điều đó.
 
 ---
 
-## 8. 📚 Vì sao hai định lý này là nền của cả phần thống kê
+## 8. Vì sao hai định lý này là nền của cả phần thống kê
 
 Giáo trình khẳng định điều này ở tr. 103 nhưng không giải thích cụ thể. Đây là phần bổ sung.
 
@@ -576,6 +601,7 @@ Làm sao nói được gì về $a$?
 
 ## 9. Code minh hoạ
 
+> [!note]
 > ⚙️ **Chạy:** cần **Python 3.10+** (macOS/Linux có sẵn). Lưu file rồi gõ `python3 bai-09-luat-so-lon.py`.
 > Chỉ dùng thư viện chuẩn — **không cần cài gói nào**. Chạy khoảng 7 giây (có mô phỏng).
 > Mọi mô phỏng dùng **seed cố định** nên chạy lại ra kết quả y hệt.

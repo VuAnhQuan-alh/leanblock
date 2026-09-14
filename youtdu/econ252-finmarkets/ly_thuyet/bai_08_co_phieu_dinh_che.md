@@ -1,10 +1,13 @@
 # Cổ phiếu nhìn từ góc định chế
 
+> [!info] Về bài này
 > Bài học dựng từ **buổi 9** (*"Corporate Stocks"*, `78_GRGjlL6E`, 76:36) của **Yale ECON 252 — Financial Markets, Xuân 2011**, giảng viên **Robert J. Shiller**.
 > Mốc ghi dạng `09 47:14` = **buổi 9, phút 47:14**. Toàn bộ mốc đã đối chiếu ngược với phụ đề gốc bằng script.
 > Mục có 📚 là **kiến thức bổ sung**, không có trong video. Mục có 🇻🇳 là **số liệu Việt Nam**, không có trong video.
-> ⚠️ **Video ghi tháng 2/2011.** Mục 16 đối chiếu với 2026.
-> 📌 **Nên đọc trước:** [Bài 1 — Tài chính là hạ tầng xã hội](bai_01_ha_tang_xa_hoi.md), phần trách nhiệm hữu hạn. Mục 17 nối thẳng vào mục 18 của bài đó.
+>
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
+>
+> **Nên đọc trước:** [Bài 1 — Tài chính là hạ tầng xã hội](bai_01_ha_tang_xa_hoi.md), phần trách nhiệm hữu hạn. Mục 17 nối thẳng vào mục 18 của bài đó.
 
 ---
 
@@ -13,20 +16,20 @@
 1. [Bài giảng này khác các bài khác thế nào](#1-bài-giảng-này-khác-các-bài-khác-thế-nào)
 2. [Công ty của chính Shiller, và bài học ông rút ra](#2-công-ty-của-chính-shiller-và-bài-học-ông-rút-ra)
 3. [Chia đều cả thị trường chứng khoán Mỹ cho dân](#3-chia-đều-cả-thị-trường-chứng-khoán-mỹ-cho-dân)
-4. [📚 Con số Shiller không tính: 160.000 đô ấy sống được bao lâu](#4--con-số-shiller-không-tính-160000-đô-ấy-sống-được-bao-lâu)
+4. [📚 Con số Shiller không tính: 160.000 đô ấy sống được bao lâu](#4-con-số-shiller-không-tính-160000-đô-ấy-sống-được-bao-lâu)
 5. [Cấu trúc: cổ đông, hội đồng quản trị, và nghĩa vụ trung thành](#5-cấu-trúc-cổ-đông-hội-đồng-quản-trị-và-nghĩa-vụ-trung-thành)
-6. [⚠️ Chợ chứng khoán ở quảng trường La Mã — chuyện có thật hay không](#6--chợ-chứng-khoán-ở-quảng-trường-la-mã--chuyện-có-thật-hay-không)
+6. [⚠️ Chợ chứng khoán ở quảng trường La Mã — chuyện có thật hay không](#6-chợ-chứng-khoán-ở-quảng-trường-la-mã--chuyện-có-thật-hay-không)
 7. [Cổ tức: thứ duy nhất làm nên giá trị một cổ phiếu](#7-cổ-tức-thứ-duy-nhất-làm-nên-giá-trị-một-cổ-phiếu)
-8. [📚 Mô hình Lintner, và vì sao cổ tức mượt hơn lợi nhuận](#8--mô-hình-lintner-và-vì-sao-cổ-tức-mượt-hơn-lợi-nhuận)
+8. [📚 Mô hình Lintner, và vì sao cổ tức mượt hơn lợi nhuận](#8-mô-hình-lintner-và-vì-sao-cổ-tức-mượt-hơn-lợi-nhuận)
 9. [Cổ tức hay mua lại cổ phiếu — và một câu Shiller nói nhầm](#9-cổ-tức-hay-mua-lại-cổ-phiếu--và-một-câu-shiller-nói-nhầm)
-10. [📚 Pha loãng: quy tắc chính xác mà bài giảng gọi là "không hiển nhiên"](#10--pha-loãng-quy-tắc-chính-xác-mà-bài-giảng-gọi-là-không-hiển-nhiên)
+10. [📚 Pha loãng: quy tắc chính xác mà bài giảng gọi là "không hiển nhiên"](#10-pha-loãng-quy-tắc-chính-xác-mà-bài-giảng-gọi-là-không-hiển-nhiên)
 11. [Trật tự ưu tiên: Myers 1984 đấu Fama–French 2005](#11-trật-tự-ưu-tiên-myers-1984-đấu-famafrench-2005)
-12. [📚 Một con số RÒNG giấu được dòng chảy lớn cỡ nào](#12--một-con-số-ròng-giấu-được-dòng-chảy-lớn-cỡ-nào)
+12. [📚 Một con số RÒNG giấu được dòng chảy lớn cỡ nào](#12-một-con-số-ròng-giấu-được-dòng-chảy-lớn-cỡ-nào)
 13. [Hai bảng cân đối: Xerox hấp hối và Microsoft đang lên](#13-hai-bảng-cân-đối-xerox-hấp-hối-và-microsoft-đang-lên)
-14. [📚 Chênh lệch giá thị trường và giá sổ sách là một dự báo đọc được](#14--chênh-lệch-giá-thị-trường-và-giá-sổ-sách-là-một-dự-báo-đọc-được)
-15. [📚 Ngưỡng thanh lý thật — vì sao giá sổ sách không phải cái sàn](#15--ngưỡng-thanh-lý-thật--vì-sao-giá-sổ-sách-không-phải-cái-sàn)
-16. [⚠️ Đối chiếu 2026](#16--đối-chiếu-2026)
-17. [🇻🇳 Góc Việt Nam: kênh vốn cổ phần bé bằng nửa kênh tín dụng](#17--góc-việt-nam-kênh-vốn-cổ-phần-bé-bằng-nửa-kênh-tín-dụng)
+14. [📚 Chênh lệch giá thị trường và giá sổ sách là một dự báo đọc được](#14-chênh-lệch-giá-thị-trường-và-giá-sổ-sách-là-một-dự-báo-đọc-được)
+15. [📚 Ngưỡng thanh lý thật — vì sao giá sổ sách không phải cái sàn](#15-ngưỡng-thanh-lý-thật--vì-sao-giá-sổ-sách-không-phải-cái-sàn)
+16. [⚠️ Đối chiếu 2026](#16-đối-chiếu-2026)
+17. [🇻🇳 Góc Việt Nam: kênh vốn cổ phần bé bằng nửa kênh tín dụng](#17-góc-việt-nam-kênh-vốn-cổ-phần-bé-bằng-nửa-kênh-tín-dụng)
 18. [Chương trình](#18-chương-trình)
 19. [Từ điển thuật ngữ](#19-từ-điển-thuật-ngữ)
 20. [Câu hỏi tự kiểm tra](#20-câu-hỏi-tự-kiểm-tra)
@@ -43,9 +46,9 @@ Và Shiller dạy nó theo cách không giống ai. Ông không bắt đầu t�
 
 | Ông nói                                                                         | Mục trả lời bằng số                                                             |
 | ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
-| *"160.000 đô một lần thôi — có đưa họ khỏi nghèo không? Không."* (`09 14:47`)   | [Mục 4](#4--con-số-shiller-không-tính-160000-đô-ấy-sống-được-bao-lâu)           |
-| *"Bạn luôn phải xét đến pha loãng… **không bao giờ hiển nhiên**."* (`09 46:57`) | [Mục 10](#10--pha-loãng-quy-tắc-chính-xác-mà-bài-giảng-gọi-là-không-hiển-nhiên) |
-| *"Nghĩa là họ có **một giá trị nào đó khác**."* (`09 75:34`)                    | [Mục 14](#14--chênh-lệch-giá-thị-trường-và-giá-sổ-sách-là-một-dự-báo-đọc-được)  |
+| *"160.000 đô một lần thôi — có đưa họ khỏi nghèo không? Không."* (`09 14:47`)   | [Mục 4](#4-con-số-shiller-không-tính-160000-đô-ấy-sống-được-bao-lâu)           |
+| *"Bạn luôn phải xét đến pha loãng… **không bao giờ hiển nhiên**."* (`09 46:57`) | [Mục 10](#10-pha-loãng-quy-tắc-chính-xác-mà-bài-giảng-gọi-là-không-hiển-nhiên) |
+| *"Nghĩa là họ có **một giá trị nào đó khác**."* (`09 75:34`)                    | [Mục 14](#14-chênh-lệch-giá-thị-trường-và-giá-sổ-sách-là-một-dự-báo-đọc-được)  |
 
 Cả ba lần, con số tồn tại và tính được. Bài này tính chúng.
 
@@ -61,10 +64,12 @@ Năm **1991**, một cựu sinh viên MBA của ông — **Allan Weiss** — đ�
 
 Rồi đến câu hỏi thật:
 
+> [!quote] 09 02:13–02:26
 > *"Chỉ có mỗi ông doanh nhân là bỏ tiền. **Đó là cách người ta làm.** Ông ấy bỏ tiền vào công ty. Số còn lại chúng tôi chỉ đồng ý bỏ thời gian. Vậy câu hỏi là, chia công ty thế nào?"* (`09 02:13`–`02:26`)
 
 Và ông thừa nhận ngay là họ không giải được:
 
+> [!quote] 09 02:41
 > *"Bạn biết chúng tôi làm gì không? **Chúng tôi chia đều bốn phần** và lập công ty."* (`09 02:41`)
 
 Dù ông biết mình sẽ bỏ ít thời gian hơn hẳn Weiss — người thực sự điều hành. Lý do ông đưa ra (`09 03:32`): *"Chúng tôi nghĩ, mỗi người sẽ đóng góp theo cách của mình. Không quyết được ai quan trọng hơn."*
@@ -75,21 +80,25 @@ Bán cho **Fiserv năm 2002** với **12 nhân viên**; sau đó S&P mua chỉ s
 
 **Một — hãy biết ơn luật sư** (`09 03:19`):
 
+> [!quote]
 > *"Vì tôi chưa bao giờ lập công ty và không biết chuyện gì sẽ xảy ra. […] Họ có vẻ **đoán trước được mọi xung đột của chúng tôi** và họ viết ra."*
 
 **Hai — xung đột là mặc định, không phải sự cố** (`09 04:26`):
 
+> [!quote]
 > *"Đây là chuyện xảy ra trong một công ty. Ai đó không làm việc chăm bằng người khác, rồi sinh ra oán giận."*
 
 **Ba — và đây là câu đắt nhất buổi giảng** (`09 04:35`):
 
+> [!quote]
 > *"**Thuốc bôi là thêm cổ phần.** Nếu một người làm nhiều hơn người kia, chuyện được đưa ra họp hội đồng, và ai đó nói: thôi cho anh này thêm cổ phần. Người ta gọi là **thưởng**."*
 
 Đọc kỹ câu đó thì nó không phải một mẹo quản trị. Nó là **định nghĩa chức năng của cổ phần**: một đơn vị chia nhỏ được, cấp thêm được, dùng để **hoà giải các bất đồng mà không cần định giá lại công sức của ai**. Ta không phải quyết định Weiss đáng giá gấp mấy lần Shiller — ta chỉ dịch chuyển vài phần trăm.
 
 Đó là lý do Shiller kết (`09 04:53`): *"Và tôi nghĩ nhiều người trên thế giới đã khám phá ra điều đó, và đó là lý do công ty cổ phần là một cấu phần quan trọng đến thế của nền kinh tế."*
 
-> 🔗 So với [bài 1 mục 9](bai_01_ha_tang_xa_hoi.md#9--vì-sao-trách-nhiệm-hữu-hạn-là-phát-minh-nó-đổi-dấu-của-đa-dạng-hoá): ở đó cổ phần là công cụ **giới hạn lỗ**. Ở đây nó là công cụ **phân xử đóng góp**. Cùng một phát minh, hai chức năng khác hẳn — và chức năng thứ hai không cần thị trường nào cả.
+> [!note]
+> 🔗 So với [bài 1 mục 9](bai_01_ha_tang_xa_hoi.md#9-vì-sao-trách-nhiệm-hữu-hạn-là-phát-minh-nó-đổi-dấu-của-đa-dạng-hoá): ở đó cổ phần là công cụ **giới hạn lỗ**. Ở đây nó là công cụ **phân xử đóng góp**. Cùng một phát minh, hai chức năng khác hẳn — và chức năng thứ hai không cần thị trường nào cả.
 
 ---
 
@@ -109,6 +118,7 @@ Mỹ gấp châu Á – Thái Bình Dương **3,9 lần**; Shiller nói *"gần 
 
 Rồi ông làm phép chia (`09 09:27`):
 
+> [!quote]
 > *"Cứ làm tròn thành 12 nghìn tỷ, và có khoảng 300 triệu người Mỹ năm 2008. **Đó là 40.000 đô một đầu người** […] Với một gia đình bốn người, đó là **160.000 đô**. Cái đó không mua nổi một căn nhà, nên nó không lớn đến thế."*
 
 Và ông xếp nó cạnh những thứ khác trong chính bảng cân đối của Cục Dự trữ Liên bang (`09 13:52`, `09 14:15`):
@@ -127,13 +137,14 @@ Shiller tự nhận xét (`09 14:22`): *"Tôi đang tự làm nhỏ chủ đề 
 
 Rồi ông đi tới kết luận chính trị (`09 14:34`):
 
+> [!quote]
 > *"Giả sử ta nói: hãy tịch thu toàn bộ cổ phiếu của người giàu và chia đều cho tất cả. Một gia đình nghèo sẽ được 160.000 đô, **một lần duy nhất**. Nhớ là một lần duy nhất — nó là một **lượng tích**, không phải một khoản mỗi năm. Vậy nó có đưa họ ra khỏi nghèo không? Không, nếu bạn phải sống nốt đời bằng 160.000 đô."*
 
 Đúng. Nhưng ông không đưa con số, và con số làm luận điểm mạnh hơn hẳn.
 
 ---
 
-## 4. 📚 Con số Shiller không tính: 160.000 đô ấy sống được bao lâu
+## 4. Con số Shiller không tính: 160.000 đô ấy sống được bao lâu
 
 Biến lượng tích thành dòng chảy — tức hỏi *"rút bao nhiêu mỗi năm thì tiêu được mãi"* — rồi đặt cạnh **ngưỡng nghèo Mỹ 2011 cho gia đình bốn người: 22.350 USD/năm**.
 
@@ -146,15 +157,18 @@ Biến lượng tích thành dòng chảy — tức hỏi *"rút bao nhiêu mỗ
 
 Ở mức rút 4 %/năm — mức thông dụng trong hoạch định hưu trí — chia đều **toàn bộ thị trường chứng khoán Mỹ** cho mọi gia đình cho ra **6.400 USD/năm**.
 
+> [!quote]
 > **Kết luận của Shiller đúng, và mạnh hơn cách ông nói.** Vấn đề không phải *"không đủ để thoát nghèo"*. Vấn đề là nó **không đi được một phần ba quãng đường tới chính ngưỡng nghèo**.
 
 Ngay cả ở tỷ lệ rút 7 %/năm — mức không bền vững — nó vẫn chỉ vừa chạm **một nửa** ngưỡng nghèo.
 
 Đó là lý do câu tiếp theo của Shiller đáng nhớ (`09 15:01`):
 
+> [!quote]
 > *"Nên lời giải cho nghèo đói không phải là phân phối lại cổ phiếu. Tôi nghĩ lời giải cho nghèo đói là **làm cho các thị trường này chạy tốt hơn, để ta sản xuất ra nhiều hơn**."*
 
-⚠️ Đọc câu này cho đúng phạm vi. Nó **không** nói bất bình đẳng không quan trọng, cũng không nói phân phối lại là vô ích nói chung. Nó nói một điều hẹp và kiểm chứng được: **kho cổ phiếu quá nhỏ để phân phối lại một lần giải quyết được nghèo.** Phân phối lại **thu nhập** là một câu hỏi hoàn toàn khác, và bảng trên không nói gì về nó.
+> [!warning]
+> Đọc câu này cho đúng phạm vi. Nó **không** nói bất bình đẳng không quan trọng, cũng không nói phân phối lại là vô ích nói chung. Nó nói một điều hẹp và kiểm chứng được: **kho cổ phiếu quá nhỏ để phân phối lại một lần giải quyết được nghèo.** Phân phối lại **thu nhập** là một câu hỏi hoàn toàn khác, và bảng trên không nói gì về nó.
 
 ---
 
@@ -166,12 +180,14 @@ Phần lõi thể chế của buổi giảng (`09 15:46`–`24:06`).
 
 **Và từ *equity*.** Ông tra Từ điển Oxford và nói từ này dùng theo nghĩa "cổ phần" chỉ từ khoảng **1904**, và là **từ Mỹ** (`09 12:27`). Rồi ông giải thích vì sao lại là chữ đó (`09 12:44`):
 
+> [!quote]
 > *"Tôi nghĩ **equity nghĩa là bình đẳng và công bằng**, nên ý nó là: **mỗi cổ phần đều ngang nhau**. Chúng ta đang đối xử với mọi người một cách bình đẳng."*
 
 Câu đó nghe như một chú thích từ nguyên vô hại. **Nó không vô hại** — mục 17 cho thấy luật Việt Nam cố ý phá vỡ đúng chỗ này.
 
 **Dân chủ cổ đông** (`09 17:35`): cổ đông bầu **hội đồng quản trị**, và đó là *"dân chủ cổ đông, lấy cảm hứng từ dân chủ chính trị"*. Nhưng ông nói ngay chỗ khác (`09 17:47`):
 
+> [!quote]
 > *"Nó không dân chủ theo nghĩa **mỗi người** có quyền bầu. Nó là **mỗi cổ phần** có quyền bầu."*
 
 **Hội đồng quản trị làm gì.** Shiller mô tả rất thực (`09 18:38`–`22:25`):
@@ -185,12 +201,14 @@ Và ông nói thẳng lý do người ta nhận việc đó (`09 21:36`): *"Bạ
 
 **Cơ chế thật sự hiệu quả** (`09 22:30`):
 
+> [!quote]
 > *"Hội đồng sẽ nói chuyện riêng với nhau và bảo: cái ông CEO này có làm tốt thật không? […] Rồi ai đó nói, ta có thể kiếm CEO mới. Làm đi. **Và thế là ông kia bay ngay lập tức**, nếu họ bỏ phiếu tại cuộc họp."*
 
 Đây là chỗ Shiller kể chuyện **Carl Icahn** từng tới lớp này (`09 23:02`) — một *"kẻ phá hội đồng khét tiếng"* chuyên mua đủ cổ phần để vào hội đồng, chọn các công ty *"hội đồng kém hiệu quả, không thực sự chú ý, kiểu lười"*, rồi *"đưa ra những phát biểu gây sốc, kiểu: sa thải CEO ngay bây giờ, thằng này là đồ bỏ"*.
 
 Shiller không tán thành hẳn (`09 24:01`): *"Không phải ai cũng đồng ý với cách diễn giải của Carl Icahn. Ông ấy là người gây tranh cãi."* Nhưng ông đưa nó vào như **ví dụ về dân chủ cổ đông hoạt động**, chứ không phải hỏng.
 
+> [!note]
 > 🔗 Đối chiếu với [bài 7 mục 4](bai_07_quan_ly_quy.md#4-nghĩa-vụ-tín-thác-và-quy-tắc-người-thận-trọng): ở đó nghĩa vụ tín thác được **luật viết ra** và Shiller chỉ ra nó đẻ ra hành vi bắt chước. Ở đây nghĩa vụ trung thành được **thực thi bằng phiếu bầu**, và cơ chế thực thi là một người khó chịu mua đủ cổ phần để ngồi vào phòng họp. Hai kiểu kỷ luật rất khác nhau.
 
 **Và có công ty không có cổ đông** (`09 24:22`): Yale là một **công ty phi lợi nhuận** — có hội đồng, họp đều, giống mọi công ty khác, chỉ **không có cổ đông**. Nên hội đồng Yale *"không có nghĩa vụ trung thành với cổ đông, vì không có cổ đông nào"* (`09 25:27`).
@@ -199,10 +217,11 @@ Nhưng Shiller nói thêm một điều tinh (`09 26:02`): *"chúng không phả
 
 ---
 
-## 6. ⚠️ Chợ chứng khoán ở quảng trường La Mã — chuyện có thật hay không
+## 6. Chợ chứng khoán ở quảng trường La Mã — chuyện có thật hay không
 
 Ở `09 16:34` Shiller nói:
 
+> [!quote]
 > *"Thật ra công ty cổ phần có từ La Mã cổ đại, ở đó chúng được gọi là **publicani**, và **họ có một thị trường chứng khoán ở quảng trường La Mã** — nhưng chúng không bao giờ được phép sinh sôi."*
 
 Đây không phải chuyện ông bịa. Đó là **quan điểm được nhiều người chấp nhận** khi ông giảng, dựa chủ yếu vào công trình của Ulrike Malmendier, và dựa vào một câu của Cicero trong *In Vatinium* 12.29: *partes illo tempore carissimae* — "cổ phần lúc ấy giá rất cao".
@@ -222,6 +241,7 @@ Nhưng Shiller nói thêm một điều tinh (`09 26:02`): *"chúng không phả
 
 Điều đó **không** làm hỏng luận điểm của Shiller. Ông đưa La Mã ra để nói: *"Luật khuyến khích chúng không tạo ra một làn sóng công ty mới. Chúng rất ít. **Mãi tới thế kỷ 19 công ty cổ phần mới thực sự quan trọng.**"* (`09 16:53`). Vế đó vẫn đúng — và nếu La Mã còn ít giao dịch hơn ta tưởng thì nó **càng đúng hơn**.
 
+> [!note]
 > 💡 Đây là ví dụ tốt cho việc đọc bất kỳ khoá học nào cũ hơn mười năm: chỗ dễ hỏng nhất không phải lý thuyết, mà là **những giai thoại lịch sử hay** — vì chúng được truyền lại mà ít ai kiểm.
 
 ---
@@ -230,8 +250,10 @@ Nhưng Shiller nói thêm một điều tinh (`09 26:02`): *"chúng không phả
 
 Đây là chỗ Shiller nói một câu mà phần lớn người mua cổ phiếu sẽ thấy khó chịu (`09 32:21`):
 
+> [!quote]
 > *"Đây là một hiểu nhầm rất phổ biến. Nhiều người nghĩ bạn mua cổ phiếu **vì giá sẽ lên**. Ừ thì, giá sẽ lên **chỉ vì** người ta nghĩ có nhiều cổ tức hơn đang tới."*
 
+> [!quote] 09 32:40
 > *"Giá đáng lẽ phải là **giá trị hiện tại của cổ tức kỳ vọng trong tương lai**. Nên **giá trị thật của một công ty nằm hoàn toàn trong cổ tức**."* (`09 32:40`)
 
 Ông rào một câu — *"và ta sẽ chất vấn điều này sau"* (`09 32:38`) — vì ông là người dành cả sự nghiệp chứng minh giá dao động mạnh hơn mức cổ tức biện minh được. Nhưng ông vẫn đặt nó làm điểm khởi hành, và đúng.
@@ -240,6 +262,7 @@ Nhưng Shiller nói thêm một điều tinh (`09 26:02`): *"chúng không phả
 
 Và Shiller lại kể chuyện công ty mình (`09 30:27`):
 
+> [!quote]
 > *"Chúng tôi cho cổ phần cho tất cả nhân viên để tạo động lực. Ai cũng là cổ đông. […] Rồi có người nói: các nhân viên này đang tự hỏi cổ phần của họ có đáng gì không. **Có khi nếu nhận được một tờ séc qua bưu điện, họ sẽ thấy đỡ hơn.**"*
 
 Đó là lý do thật để trả cổ tức, và nó không nằm trong sách giáo khoa nào: **cổ tức là bằng chứng vật lý rằng cổ phần có thật.**
@@ -248,28 +271,32 @@ Và Shiller lại kể chuyện công ty mình (`09 30:27`):
 
 Shiller giải thích (`09 33:18`):
 
+> [!quote]
 > *"Khi họ trả cổ tức, giá cổ phiếu nói chung **rơi**. Vì sao? Vì công ty **đáng giá ít hơn**. Họ có số tiền đó và họ đã trả ra, nên nó phải rơi đúng bằng số đã trả chia cho số cổ phần."*
 
 Người ta đánh dấu chữ **x** cạnh giá — **ex-dividend** — để nói *"cú giảm bạn vừa thấy không có gì đáng lo"* (`09 33:52`).
 
 **Và đây là một trò lừa bị coi là phi đạo đức** (`09 34:23`):
 
+> [!quote]
 > *"Vài môi giới sẽ nói: sao anh không mua ngay bây giờ, vì nếu mua ngay bây giờ anh sẽ được cổ tức. Họ sắp trả cổ tức trong ba ngày nữa. Nhanh lên mua đi. **Cái đó gọi là 'bán cổ tức' và bị coi là phi đạo đức** để một môi giới nói với bạn, vì nó thực sự không quan trọng."*
 
 Mục 9 chạy ra con số: chênh lệch bằng **đúng không**.
 
 ---
 
-## 8. 📚 Mô hình Lintner, và vì sao cổ tức mượt hơn lợi nhuận
+## 8. Mô hình Lintner, và vì sao cổ tức mượt hơn lợi nhuận
 
 Shiller dẫn **John Lintner** — giáo sư Harvard Business School, và một trong những người phát minh CAPM (`09 54:11`). Lintner đi **phỏng vấn** những người thực sự ra quyết định cổ tức, và thấy *"không thể tóm tắt được tất cả những gì họ nói"* (`09 54:59`).
 
 Nhưng có một thứ lặp lại ở mọi cuộc phỏng vấn (`09 55:48`):
 
+> [!quote]
 > *"Một điều chúng tôi **không bao giờ** muốn làm là cắt cổ tức. Một khi đã bắt đầu trả, nếu dừng, nó sẽ gây rất nhiều chú ý."*
 
 Và Shiller giải thích bằng một phép so sánh rất hay với chính sinh viên trong phòng (`09 55:58`):
 
+> [!quote]
 > *"Các bạn còn trẻ. Các bạn không có việc làm. Không ai phàn nàn. […] Nhưng một khi đã bắt đầu đi làm rồi bỏ việc, nó trông tệ. Nếu bạn 40 tuổi và nói 'tôi bỏ ngang', nó trông tệ hơn là bạn làm thế ở tuổi này. **Công ty cũng vậy.**"*
 
 Lintner dựng nó thành mô hình (`09 57:33`):
@@ -301,7 +328,7 @@ Và bảng thứ hai, vì nó mới là cái hội đồng quản trị thật s
 
 ### Và đây là chỗ nối với bài 7
 
-Đây là **cùng một bộ lọc bậc nhất** với "làm mượt thẩm định giá" ở [bài 7 mục 15](bai_07_quan_ly_quy.md#15--swensen-tự-chỉ-ra-con-số-đẹp-nhất-của-mình-bị-thổi-phồng). Cùng công thức, cùng tác dụng: biến một chuỗi động đậy thành một chuỗi phẳng.
+Đây là **cùng một bộ lọc bậc nhất** với "làm mượt thẩm định giá" ở [bài 7 mục 15](bai_07_quan_ly_quy.md#15-swensen-tự-chỉ-ra-con-số-đẹp-nhất-của-mình-bị-thổi-phồng). Cùng công thức, cùng tác dụng: biến một chuỗi động đậy thành một chuỗi phẳng.
 
 Nhưng **địa vị của chúng ngược nhau**:
 
@@ -312,7 +339,8 @@ Nhưng **địa vị của chúng ngược nhau**:
 
 Vì sao khác nhau? Vì **cắt cổ tức tốn kém cho hội đồng**. Chính cái giá đó làm cho việc **tăng** cổ tức trở thành một lời hứa đáng tin. Một tín hiệu chỉ có giá trị khi phát nó ra có thể thiệt — và đó là khác biệt giữa một con số mượt vì **bị** làm mượt và một con số mượt vì có người **dám chịu trách nhiệm**.
 
-⚠️ Shiller cũng nêu một xu hướng (`09 58:57`): tỷ lệ chi trả *"từng thường là 60–70 %"* năm 1900 và giảm dần suốt thế kỷ. Xem [mục 16](#16--đối-chiếu-2026) cho tình hình 2026 — và vì sao con số đó gây hiểu nhầm nếu bỏ mua lại cổ phiếu ra ngoài.
+> [!warning]
+> Shiller cũng nêu một xu hướng (`09 58:57`): tỷ lệ chi trả *"từng thường là 60–70 %"* năm 1900 và giảm dần suốt thế kỷ. Xem [mục 16](#16-đối-chiếu-2026) cho tình hình 2026 — và vì sao con số đó gây hiểu nhầm nếu bỏ mua lại cổ phiếu ra ngoài.
 
 ---
 
@@ -352,16 +380,19 @@ Môi giới nói: *"mua ngay đi, ba ngày nữa công ty trả cổ tức, mua 
 
 Cả hai đều trả đúng bằng cái nhận về. **Chênh lệch bằng không.** Môi giới đang bán cho bạn một con số kế toán, không phải một món lợi.
 
-⚠️ Shiller cũng nói (`09 49:44`) rằng thuế cổ tức và thuế lãi vốn khi đó *"bằng nhau"*, nên động cơ thuế cho mua lại đã yếu đi. Điều đó đúng cho 2011; xem [mục 16](#16--đối-chiếu-2026).
+> [!warning]
+> Shiller cũng nói (`09 49:44`) rằng thuế cổ tức và thuế lãi vốn khi đó *"bằng nhau"*, nên động cơ thuế cho mua lại đã yếu đi. Điều đó đúng cho 2011; xem [mục 16](#16-đối-chiếu-2026).
 
 ---
 
-## 10. 📚 Pha loãng: quy tắc chính xác mà bài giảng gọi là "không hiển nhiên"
+## 10. Pha loãng: quy tắc chính xác mà bài giảng gọi là "không hiển nhiên"
 
 Shiller đặt bài toán rất rõ (`09 47:14`): công ty có 1 triệu cổ phiếu, phát hành thêm 1 triệu ở giá 10 USD. Bạn có 1.000 cổ phiếu.
 
+> [!quote] 09 47:41
 > *"Ý nghĩ đầu tiên của tôi là tôi không thích chuyện đó. Tôi sở hữu 1/1.000 công ty, giờ tụt còn một nửa."* (`09 47:41`)
 
+> [!quote] 09 47:47
 > *"Nhưng họ sẽ nói: mặt khác, chúng ta bán 10 đô một cổ phiếu, nên công ty sẽ có 10 triệu đô để đầu tư. Nên dù tỷ lệ của bạn bị pha loãng, **công ty đáng giá hơn**."* (`09 47:47`)
 
 Rồi ông kết (`09 48:07`): *"Và nên **nó không bao giờ hiển nhiên**. Bạn luôn phải xét đến pha loãng."*
@@ -378,6 +409,7 @@ Rồi ông kết (`09 48:07`): *"Và nên **nó không bao giờ hiển nhiên**
 
 Điểm hoà vốn: công ty trị giá **đúng 10 triệu USD** trước phát hành — tức đúng bằng giá phát hành nhân số cổ phiếu cũ.
 
+> [!note]
 > **Quy tắc:** phát hành thêm cổ phiếu làm cổ đông cũ **giàu lên khi và chỉ khi giá phát hành cao hơn giá trị mỗi cổ phiếu trước khi phát hành.**
 
 Và đó là lý do **"pha loãng" là một từ gây hiểu nhầm**. Tỷ lệ sở hữu của bạn giảm trong **mọi** trường hợp — luôn tụt từ 1/1.000 xuống 1/2.000, bất kể giá phát hành. Nhưng **giá trị** phần sở hữu đó có thể tăng. Hai thứ đó không liên quan.
@@ -396,6 +428,7 @@ Shiller dựng một cuộc tranh luận học thuật (`09 39:29`–`46:31`), v
 
 Shiller đưa ngay **Karl Marx** ra làm cực đoan của lời phàn nàn đó, trích *Tư bản* (`09 40:44`):
 
+> [!quote]
 > *"Vì tài sản ở đây tồn tại dưới dạng cổ phần, sự vận động và chuyển nhượng của nó trở thành **thuần tuý kết quả của cờ bạc trên sàn chứng khoán, nơi cá bé bị cá mập nuốt và cừu bị sói sàn chứng khoán nuốt**."*
 
 Rồi ông nhận xét khô khan (`09 41:18`): *"Đó là quan điểm của Marx, nhưng **ngay cả ở các nước cộng sản, quan điểm đó có vẻ cũng không còn chiếm ưu thế nữa**."*
@@ -414,19 +447,22 @@ Myers gọi đó là **Lý thuyết Trật tự Ưu tiên** (`09 43:32`): công 
 
 Ông dẫn **Eugene Fama và Kenneth French** (*Journal of Financial Economics*, **2005**), và chỗ hổng họ chỉ ra là **một chữ** (`09 45:32`):
 
+> [!quote]
 > *"Khi Myers nói chỉ 6 % tài trợ doanh nghiệp đến từ phát hành cổ phần, họ đang nói về **cổ phần RÒNG** — tức tổng bán cổ phiếu mới của các công ty **trừ đi** mua lại cổ phiếu của các công ty. Nên nó bình quân ra thành một con số thấp."*
 
 Và con số thật (`09 45:59`):
 
+> [!quote]
 > *"Trong chính những năm Myers nghiên cứu, 1973 đến 1982, **67 % công ty Mỹ phát hành cổ phiếu mới mỗi năm**. Và ở những năm sau đó, tỷ lệ còn tăng lên. Từ 1993 đến 2002, nó là **86 %**."*
 
 Kết luận của Shiller (`09 46:31`): *"Nên tôi nghĩ ta nên kết luận rằng các công ty **thực sự có** dùng tài trợ bằng vốn cổ phần, kể cả công ty lớn. Và thị trường chứng khoán quan trọng cho việc **khám phá giá**."*
 
-⚠️ **Ghi chú trung thực.** Kết luận chính của Fama–French kiểm chứng được: phần lớn công ty phát hành hoặc mua lại cổ phần mỗi năm, các đợt thường lớn, và **hơn một nửa** số công ty vi phạm trật tự ưu tiên trong giai đoạn 1973–2002. Nhưng **bản tách theo từng giai đoạn 67 % / 86 % là theo Shiller đọc lại trên lớp**, và **không tra cứu được** hai con số đó từ nguồn mở. Hãy đọc chúng như **bậc độ lớn**.
+> [!warning] Ghi chú trung thực.
+> Kết luận chính của Fama–French kiểm chứng được: phần lớn công ty phát hành hoặc mua lại cổ phần mỗi năm, các đợt thường lớn, và **hơn một nửa** số công ty vi phạm trật tự ưu tiên trong giai đoạn 1973–2002. Nhưng **bản tách theo từng giai đoạn 67 % / 86 % là theo Shiller đọc lại trên lớp**, và **không tra cứu được** hai con số đó từ nguồn mở. Hãy đọc chúng như **bậc độ lớn**.
 
 ---
 
-## 12. 📚 Một con số RÒNG giấu được dòng chảy lớn cỡ nào
+## 12. Một con số RÒNG giấu được dòng chảy lớn cỡ nào
 
 Điểm Fama–French chỉ ra không phải một chi tiết kỹ thuật. Nó là một cái bẫy tổng quát, và đáng tách riêng ra.
 
@@ -442,6 +478,7 @@ Con số 6 % của Myers là **ròng**: tổng phát hành trừ tổng mua lạ
 
 Mọi dòng đều cho ra **đúng 6 % ròng**. Nhưng dòng đầu và dòng cuối mô tả **hai thế giới khác hẳn nhau**: một nơi hầu như không ai động đến cổ phần, và một nơi dòng tiền cổ phần chảy ào ào theo cả hai chiều.
 
+> [!note]
 > **Một con số ròng không bao giờ cho biết dòng chảy lớn cỡ nào.**
 > **Nó chỉ cho biết HAI dòng chảy chênh nhau bao nhiêu.**
 > Muốn biết quy mô thì phải hỏi riêng từng chiều.
@@ -456,6 +493,7 @@ Nên "trật tự ưu tiên" **không sai về số liệu**. Nó dùng con số
 
 Shiller dành phần ba buổi giảng để đọc bảng cân đối tải từ **sec.gov** (`09 61:50`). Và ông chỉ ra một quyền lợi mà ít người dùng (`09 62:24`):
 
+> [!quote]
 > *"Bảng cân đối của **bất kỳ công ty đại chúng nào** đều có trên mạng. Và nó được cập nhật **ba tháng một lần**."*
 
 Rồi ông nói cái giá của việc niêm yết (`09 62:52`): *"Khi bạn lên sàn, **SEC ngồi trên lưng bạn** và nói: giờ anh phải nộp những bảng cân đối quý đó."*
@@ -466,7 +504,8 @@ Lịch sử ngắn (`09 59:09`–`61:46`): thành lập **1906** với tên **Ha
 
 Rồi thập niên 1990, **máy sao chụp kỹ thuật số** ra đời — và **không phải của Xerox** (`09 61:30`). Công ty *"suýt sụp"*.
 
-⚠️ Shiller nói *"Xerox nghĩa là **khô** trong tiếng Hy Lạp"* (`09 61:03`). Gần đúng: **xeros** (ξηρός) mới nghĩa là khô, và *xerography* = "viết khô". "Xerox" là **tên thương mại đặt ra** từ xerography, không phải một từ Hy Lạp.
+> [!warning]
+> Shiller nói *"Xerox nghĩa là **khô** trong tiếng Hy Lạp"* (`09 61:03`). Gần đúng: **xeros** (ξηρός) mới nghĩa là khô, và *xerography* = "viết khô". "Xerox" là **tên thương mại đặt ra** từ xerography, không phải một từ Hy Lạp.
 
 **Anne Mulcahy** được thuê làm CEO năm **2001** và được ghi công đã cứu Xerox (`09 63:07`).
 
@@ -493,7 +532,8 @@ Bảng **cân**: tổng tài sản = tổng nghĩa vụ + vốn chủ sở hữu
 
 Shiller đọc vốn hoá Xerox là 16.400 (`09 68:05`) và Microsoft là 221.000 (`09 75:27`) — cả hai khớp.
 
-⚠️ **Nhưng ông nói Microsoft "hơn NĂM LẦN vốn chủ sở hữu"** (`09 75:30`). Tính ra **4,60 lần**. Gần bốn rưỡi, không phải hơn năm.
+> [!warning] Nhưng ông nói Microsoft "hơn NĂM LẦN vốn chủ sở hữu"
+> (`09 75:30`). Tính ra **4,60 lần**. Gần bốn rưỡi, không phải hơn năm.
 
 ### Điều Shiller không chỉ ra: Mulcahy đã làm gì
 
@@ -504,13 +544,14 @@ Shiller đọc vốn hoá Xerox là 16.400 (`09 68:05`) và Microsoft là 221.00
 
 Đọc hai dòng này cạnh nhau mới ra chuyện: **tài sản gần như không đổi, vốn chủ sở hữu tăng 2,4 lần.** Nghĩa là bà không làm công ty lớn hơn — bà **trả bớt nợ**.
 
+> [!note]
 > Cứu một công ty hấp hối không phải là làm nó to ra, mà là **gỡ phần nghĩa vụ để ra khỏi phần tài sản**.
 
 Và Shiller đánh giá bà rất công bằng (`09 63:16`): *"Bà cứu nó khỏi tuyệt chủng, nhưng bà không đưa nó trở lại Nifty Fifty."*
 
 ---
 
-## 14. 📚 Chênh lệch giá thị trường và giá sổ sách là một dự báo đọc được
+## 14. Chênh lệch giá thị trường và giá sổ sách là một dự báo đọc được
 
 Microsoft: vốn hoá 220.922 triệu, sổ sách 48.000 triệu. Chênh **172.922 triệu USD**. Shiller nói (`09 75:34`): *"Nghĩa là họ có một giá trị nào đó khác."* Rồi hết giờ.
 
@@ -529,6 +570,7 @@ Với $r = 9\,\%$ (chi phí vốn chủ sở hữu) và $g = 3\,\%$:
 
 **Và chú ý mốc 1,00:**
 
+> [!quote]
 > Nếu $ROE = r$ thì $P/B = 1$. Nên **"giá bằng sổ sách" không có nghĩa là "định giá công bằng"**. Nó có nghĩa là thị trường nghĩ công ty này sẽ kiếm được **đúng bằng chi phí vốn** của nó — tức **tạo ra giá trị bằng không**. Dưới 1 là **phá huỷ giá trị**.
 
 ### Nhưng phải xem độ nhạy trước khi tin
@@ -547,10 +589,11 @@ Cách dùng đúng: **cố định $r$ và $g$, rồi so sánh các công ty v�
 
 ---
 
-## 15. 📚 Ngưỡng thanh lý thật — vì sao giá sổ sách không phải cái sàn
+## 15. Ngưỡng thanh lý thật — vì sao giá sổ sách không phải cái sàn
 
 Shiller đưa một lập luận hay ở `09 68:47`–`69:25`: nếu vốn hoá tụt xuống dưới vốn chủ sở hữu sổ sách, ai đó sẽ mua cả công ty, đóng cửa, bán sạch tài sản và bỏ túi phần chênh.
 
+> [!quote] 09 69:10
 > *"Tôi mua công ty giá 5 tỷ. Tôi bảo tất cả: các anh bị sa thải hết. Chúng ta ngừng kinh doanh. Tôi bán nó đi. Tôi thu về 11,9 tỷ. **Tôi đã nhân đôi tiền.**"* (`09 69:10`)
 
 Và ông kết (`09 69:56`): CEO nào cũng *"mỗi sáng theo dõi vốn hoá của mình và so với vốn chủ sở hữu"*, vì nếu giá rơi xuống dưới thì *"họ đang trong nguy cơ bị thanh lý"*.
@@ -582,30 +625,33 @@ Ba điều:
 
 Shiller có linh cảm đúng. Ông nói ngay sau đó (`09 69:25`):
 
+> [!quote]
 > *"Vốn chủ sở hữu là một con số **buồn cười**, vì nó đầy ước lượng. Và nếu bạn thử bán chính chỗ bất động sản đó đúng giá ghi ở đây, bạn sẽ gặp vấn đề."*
 
 Ông có linh cảm nhưng không đặt con số lên. Bảng trên là con số.
 
-> 🔗 Cùng cơ chế với [bài 1 mục 10](bai_01_ha_tang_xa_hoi.md#10--phần-lỗ-đi-đâu-và-ai-trả-lại-tiền): chủ nợ đứng trước cổ đông trong hàng, và đòn bẩy quyết định cổ đông còn gì. Ở bài 1 nhìn từ phía chủ nợ; ở đây nhìn từ phía cổ đông.
+> [!note]
+> 🔗 Cùng cơ chế với [bài 1 mục 10](bai_01_ha_tang_xa_hoi.md#10-phần-lỗ-đi-đâu-và-ai-trả-lại-tiền): chủ nợ đứng trước cổ đông trong hàng, và đòn bẩy quyết định cổ đông còn gì. Ở bài 1 nhìn từ phía chủ nợ; ở đây nhìn từ phía cổ đông.
 
 ---
 
-## 16. ⚠️ Đối chiếu 2026
+## 16. Đối chiếu 2026
 
 | Trong video (2/2011)                                                                              | Tình hình 9/2026                                                                                                                                                                                                                                          |
 | ------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Chính phủ Mỹ mua cổ phần ưu đãi của GM** *"để giữ khoảng cách, vì đây là nước Mỹ"* (`09 52:43`) | ⚠️ **Ngược lại.** Xem dưới                                                                                                                                                                                                                                 |
-| *"Thị trường La Mã cổ đại ở quảng trường"* (`09 16:34`)                                           | ⚠️ Nghiên cứu 2016 kết luận **không chống đỡ được bằng nguồn sơ cấp** — xem [mục 6](#6--chợ-chứng-khoán-ở-quảng-trường-la-mã--chuyện-có-thật-hay-không)                                                                                                    |
+| *"Thị trường La Mã cổ đại ở quảng trường"* (`09 16:34`)                                           | ⚠️ Nghiên cứu 2016 kết luận **không chống đỡ được bằng nguồn sơ cấp** — xem [mục 6](#6-chợ-chứng-khoán-ở-quảng-trường-la-mã--chuyện-có-thật-hay-không)                                                                                                    |
 | Microsoft *"hơn năm lần vốn chủ sở hữu"*, giá 26 USD (`09 75:30`)                                 | Tính ra 4,60 lần. Và Microsoft 2026 lớn hơn nhiều bậc — nhưng bài học không đổi                                                                                                                                                                           |
 | Xerox *"đang ổn, nhưng khập khiễng"* (`09 70:20`)                                                 | Xerox tách đôi năm 2017 (Xerox + Conduent); vẫn nhỏ hơn thời hoàng kim rất nhiều                                                                                                                                                                          |
 | Thuế cổ tức và thuế lãi vốn *"bằng nhau"* (`09 49:44`)                                            | Vẫn cùng biểu ở Mỹ cho cổ tức đủ điều kiện, nhưng **mua lại vẫn được ưa hơn** vì nó **hoãn** thuế; và Mỹ áp thuế tiêu thụ đặc biệt **1 %** lên mua lại cổ phiếu từ 2023                                                                                   |
-| Tỷ lệ chi trả *"từng 60–70 % năm 1900, nay giảm"* (`09 58:57`)                                    | ⚠️ Đúng cho **riêng cổ tức**, nhưng gây hiểu nhầm: cộng **mua lại cổ phiếu** vào thì tổng chi trả của doanh nghiệp Mỹ đã quay lại mức lịch sử. Chính [mục 12](#12--một-con-số-ròng-giấu-được-dòng-chảy-lớn-cỡ-nào) giải thích vì sao đo một chiều thì lệch |
+| Tỷ lệ chi trả *"từng 60–70 % năm 1900, nay giảm"* (`09 58:57`)                                    | ⚠️ Đúng cho **riêng cổ tức**, nhưng gây hiểu nhầm: cộng **mua lại cổ phiếu** vào thì tổng chi trả của doanh nghiệp Mỹ đã quay lại mức lịch sử. Chính [mục 12](#12-một-con-số-ròng-giấu-được-dòng-chảy-lớn-cỡ-nào) giải thích vì sao đo một chiều thì lệch |
 | Anne Mulcahy đang được ghi công (`09 63:07`)                                                      | Bà nghỉ CEO năm 2009, rời hội đồng 2010 — trước bài giảng này                                                                                                                                                                                             |
 
 ### Chỗ sai lớn nhất: General Motors
 
 Shiller kể (`09 52:43`–`53:39`):
 
+> [!quote]
 > *"Khi General Motors gặp khủng hoảng, chính phủ Mỹ cứu nó. **Cái họ làm là mua cổ phần ưu đãi.** […] Vì sao chính phủ làm thế? Tôi nghĩ chính phủ **muốn không phải là cổ đông**, không phải là người bỏ phiếu ở GM. Họ muốn giữ khoảng cách, **vì đây là nước Mỹ. Đây là một nước tư bản.** Nếu Mỹ mua cổ phần phổ thông của General Motors thì **giống như quốc hữu hoá công ty**."*
 
 **Thực tế ngược lại.** Bộ Tài chính Mỹ bỏ **49,5 tỷ USD** và nhận:
@@ -629,7 +675,7 @@ Còn câu tiếp theo (`09 53:39`) *"GM đứng dậy được và mua lại c�
 
 **Vì sao chỗ này đáng sửa kỹ:** Shiller dùng GM để minh hoạ một nguyên tắc — chính phủ chọn công cụ tài chính để **không** can thiệp vào quản trị. Nguyên tắc đó hay, và cổ phần ưu đãi **đúng là** công cụ cho việc đó (không có phiếu bầu — như chính ông mô tả ở `09 51:56`). Nhưng ở GM, chính phủ đã **không** chọn con đường ấy. Nó nắm quyền kiểm soát đa số, dùng quyền đó, thoát ra sau bốn năm, và chịu lỗ 10,5 tỷ. Ví dụ dạy nguyên tắc ngược lại với nguyên tắc nó được dùng để dạy.
 
-### ✅ Và mười ba buổi sau, chính Shiller sửa lại
+### Và mười ba buổi sau, chính Shiller sửa lại
 
 Không cần nguồn ngoài để xác nhận đính chính trên. **Khoá học tự bác lại chính nó.**
 
@@ -652,7 +698,7 @@ cùng một sự kiện — và bản ở buổi 22 là bản đúng.
 
 ---
 
-## 17. 🇻🇳 Góc Việt Nam: kênh vốn cổ phần bé bằng nửa kênh tín dụng
+## 17. Góc Việt Nam: kênh vốn cổ phần bé bằng nửa kênh tín dụng
 
 Cả buổi 9 nói về **công ty cổ phần** — bán cổ phần để gọi vốn, pha loãng, hội đồng quản trị, cách người ta vào và ra khỏi một doanh nghiệp. Câu hỏi cho Việt Nam là: **kênh đó to bằng bao nhiêu?**
 
@@ -670,10 +716,11 @@ Nên toàn bộ cơ chế Shiller dạy trong buổi 9 — cái cơ chế mà ô
 
 ### Và đây là chỗ nối với bài 1
 
-[Bài 1 mục 18](bai_01_ha_tang_xa_hoi.md#18--góc-việt-nam-trách-nhiệm-hữu-hạn-bị-hợp-đồng-vay-lấy-lại) đo được **93,5 % khoản vay ở Việt Nam đòi tài sản thế chấp** — thường là sổ đỏ nhà riêng của chủ doanh nghiệp. Mục này đo được **kênh vốn cổ phần chỉ bằng một phần hai kênh tín dụng**.
+[Bài 1 mục 18](bai_01_ha_tang_xa_hoi.md#18-góc-việt-nam-trách-nhiệm-hữu-hạn-bị-hợp-đồng-vay-lấy-lại) đo được **93,5 % khoản vay ở Việt Nam đòi tài sản thế chấp** — thường là sổ đỏ nhà riêng của chủ doanh nghiệp. Mục này đo được **kênh vốn cổ phần chỉ bằng một phần hai kênh tín dụng**.
 
 Ghép lại:
 
+> [!note]
 > Người sáng lập không có đất thì **không vay được**. Và thị trường cổ phần lẽ ra là đường thay thế thì **bé bằng nửa**.
 >
 > Đó không phải hai vấn đề — đó là **một vấn đề nhìn từ hai phía**.
@@ -684,12 +731,13 @@ Ghép lại:
 
 Chính sách đặt mục tiêu vốn hoá **vượt 100 % GDP năm 2026**. Cần thêm **2,82 triệu tỷ đồng** — tăng **28 %** so với cuối 2025.
 
-Nhưng chú ý: **năm 2021 thị trường từng vượt 120 % GDP** rồi rớt lại. Nên đây không phải mức chưa bao giờ đạt, mà là mức **chưa giữ được**. Hai chuyện đó cần hai cách chữa khác nhau — và [bài 7 mục 17](bai_07_quan_ly_quy.md#17--góc-việt-nam-quỹ-hưu-trí-ở-chế-độ-1950-và-tiền-lẻ-vào-đúng-đỉnh) cho thấy chuyện gì xảy ra với nhà đầu tư cá nhân trong lần lên rồi rớt đó.
+Nhưng chú ý: **năm 2021 thị trường từng vượt 120 % GDP** rồi rớt lại. Nên đây không phải mức chưa bao giờ đạt, mà là mức **chưa giữ được**. Hai chuyện đó cần hai cách chữa khác nhau — và [bài 7 mục 17](bai_07_quan_ly_quy.md#17-góc-việt-nam-quỹ-hưu-trí-ở-chế-độ-1950-và-tiền-lẻ-vào-đúng-đỉnh) cho thấy chuyện gì xảy ra với nhà đầu tư cá nhân trong lần lên rồi rớt đó.
 
 ### Và một chỗ luật Việt Nam khác hẳn cái Shiller mô tả
 
 Nhớ lại `09 17:21`:
 
+> [!quote]
 > *"Trong hầu hết công ty, mọi cổ đông đều bình đẳng. **Đó là lý do ta gọi nó là equity.** Một cổ phần, một phiếu bầu."*
 
 **Luật Doanh nghiệp 2020, Điều 116** tạo ra đúng cái ngược lại: **cổ phần ưu đãi biểu quyết** — có **nhiều** phiếu bầu hơn cổ phần phổ thông. Chỉ **cổ đông sáng lập** và **tổ chức được Chính phủ uỷ quyền** được nắm.
@@ -719,6 +767,7 @@ Nên câu của Shiller — *"ta gọi nó là equity vì mọi cổ phần bìn
 
 Toàn bộ con số trong bài này được tính ra ở **[`thuc_hanh/bai-08-co-phieu-dinh-che.py`](../thuc_hanh/bai-08-co-phieu-dinh-che.py)** — 875 dòng, 9 mục, không thư viện ngoài.
 
+> [!note]
 > ⚙️ **Chạy:** cần **Python 3.10+**. `python3 bai-08-co-phieu-dinh-che.py`. Không cần cài gói nào, không gọi mạng, không đọc file ngoài. Kết quả **tất định**.
 
 Ba quyết định thiết kế đáng nói:
@@ -1191,12 +1240,12 @@ Het. Moi con so tren deu duoc tinh ra, khong con so nao go tay.
 ==============================================================================
 ```
 
-### 💡 Tự thử
-
-1. Ở mục 1, đổi `NGUONG_NGHEO_2011` sang ngưỡng nghèo Mỹ mới nhất, và đổi `VON_HOA_MY_TY` sang vốn hoá hiện tại. Tỷ lệ "so với ngưỡng nghèo" tăng hay giảm? Điều đó nói gì về việc thị trường chứng khoán tăng nhanh hơn hay chậm hơn ngưỡng nghèo?
-2. Ở mục 4, đổi `XEROX["no_dai"]` từ 7.800 xuống 3.000 (giữ nguyên tổng tài sản, giảm nghĩa vụ khác cho cân). Ngưỡng thu hồi xoá sạch cổ đông dịch bao nhiêu? Ước lượng trước khi chạy.
-3. Ở mục 6, đổi `TAU_BP` từ 5.000 (50 %) lên 8.000 (80 %) nhưng giữ `rho = 0,30`. Số lần cắt cổ tức có đổi không? Độ lớn mỗi lần cắt thì sao? Vì sao hai câu trả lời khác nhau?
-4. Ở mục 3, thử tìm cặp $(r, g)$ nào làm ROE ngụ ý của **Xerox** bằng đúng chi phí vốn $r$. Điều đó tương ứng với tỷ số Giá/Sổ sách bằng bao nhiêu?
+> [!example] Tự thử
+>
+> 1. Ở mục 1, đổi `NGUONG_NGHEO_2011` sang ngưỡng nghèo Mỹ mới nhất, và đổi `VON_HOA_MY_TY` sang vốn hoá hiện tại. Tỷ lệ "so với ngưỡng nghèo" tăng hay giảm? Điều đó nói gì về việc thị trường chứng khoán tăng nhanh hơn hay chậm hơn ngưỡng nghèo?
+> 2. Ở mục 4, đổi `XEROX["no_dai"]` từ 7.800 xuống 3.000 (giữ nguyên tổng tài sản, giảm nghĩa vụ khác cho cân). Ngưỡng thu hồi xoá sạch cổ đông dịch bao nhiêu? Ước lượng trước khi chạy.
+> 3. Ở mục 6, đổi `TAU_BP` từ 5.000 (50 %) lên 8.000 (80 %) nhưng giữ `rho = 0,30`. Số lần cắt cổ tức có đổi không? Độ lớn mỗi lần cắt thì sao? Vì sao hai câu trả lời khác nhau?
+> 4. Ở mục 3, thử tìm cặp $(r, g)$ nào làm ROE ngụ ý của **Xerox** bằng đúng chi phí vốn $r$. Điều đó tương ứng với tỷ số Giá/Sổ sách bằng bao nhiêu?
 
 ---
 
@@ -1387,6 +1436,7 @@ Het. Moi con so tren deu duoc tinh ra, khong con so nao go tay.
 | Việt Nam: dư nợ tín dụng trên 18,40 triệu tỷ đồng (24/12/2025), tăng 17,87 %; tỷ lệ tín dụng/GDP ~145–147 % năm 2025                                                                                                         | [QĐND](https://www.qdnd.vn/kinh-te/tin-tuc/tinh-toi-cuoi-nam-2025-du-no-tin-dung-nen-kinh-te-dat-hon-18-4-trieu-ty-dong-1019163) · [Thời báo Tài chính Việt Nam — tỷ lệ tín dụng/GDP](https://thoibaotaichinhvietnam.vn/ty-le-tin-dung-gdp-van-leo-doc-yeu-cau-nang-chat-va-dieu-huong-dong-von-202195-202195.html)                                                                                                                           |
 | Luật Doanh nghiệp 2020 Điều 114–118: các loại cổ phần; Điều 116 cổ phần ưu đãi biểu quyết — nhiều phiếu hơn, chỉ cổ đông sáng lập và tổ chức được Chính phủ uỷ quyền, thời hạn 3 năm với cổ đông sáng lập, cấm chuyển nhượng | [Thư viện Pháp luật — quyền của cổ đông ưu đãi biểu quyết](https://thuvienphapluat.vn/chinh-sach-phap-luat-moi/vn/ho-tro-phap-luat/tu-van-phap-luat/46215/quyen-cua-co-dong-so-huu-co-phan-uu-dai-bieu-quyet) · [LuatVietnam](https://luatvietnam.vn/doanh-nghiep/co-phan-uu-dai-bieu-quyet-la-gi-561-93473-article.html)                                                                                                                     |
 
+> [!note]
 > ⚠️ **Về hai con số 67 % và 86 % ở mục 11.** Chúng là **Shiller đọc lại Fama–French trên lớp** (`09 45:59`, `09 46:20`). Kết luận chính của bài báo thì kiểm chứng được từ phần tóm tắt — phần lớn công ty phát hành hoặc mua lại cổ phần mỗi năm, các đợt thường lớn và không phải do túng quẫn, và **hơn một nửa** số công ty vi phạm trật tự ưu tiên trong 1973–2002 — nhưng bản tách theo từng giai đoạn con thì **không tra cứu được** từ nguồn mở. Hãy đọc hai con số đó như **bậc độ lớn**, không phải số liệu đã kiểm.
 
 ---

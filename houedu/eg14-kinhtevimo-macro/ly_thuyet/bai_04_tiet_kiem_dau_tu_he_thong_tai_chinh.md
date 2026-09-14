@@ -1,13 +1,15 @@
 # Bài 4 — Tiết kiệm, đầu tư và hệ thống tài chính
 
+> [!info] Về bài này
 > Bài học dựng từ **Chương 13 — Tiết kiệm, đầu tư và hệ thống tài chính** (tr. 288–312)
 > của *N. Gregory Mankiw — **Kinh tế học vĩ mô***, bản dịch của Khoa Kinh tế, **ĐH Kinh tế TP.HCM** (Cengage Learning Asia).
-> 🎯 **Vòng 1.** Bài 3 nói **vốn quyết định mức sống**. Bài này trả lời câu hỏi bài 3 bỏ ngỏ:
+>
+> **Vòng 1.** Bài 3 nói **vốn quyết định mức sống**. Bài này trả lời câu hỏi bài 3 bỏ ngỏ:
 > **ai chuyển tiền tiết kiệm của người này thành vốn đầu tư của người kia, và cái gì điều tiết dòng đó?**
-> 💼 **Góc QTKD** — ví dụ thêm cho ngành quản trị kinh doanh, **không có trong sách**.
-> 📚 **Mở rộng** — thứ sách nói lướt hoặc để trong hộp phụ.
-> ⚠️ — chỗ dễ hiểu sai, hoặc chỗ sách in sai.
-> 📌 **Cần đọc trước:** [Bài 1](bai_01_do_luong_thu_nhap_quoc_gia.md) mục 5 ($Y = C+I+G+NX$),
+>
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
+>
+> **Cần đọc trước:** [Bài 1](bai_01_do_luong_thu_nhap_quoc_gia.md) mục 5 ($Y = C+I+G+NX$),
 > [Bài 2](bai_02_do_luong_chi_phi_sinh_hoat.md) mục 12 (lãi suất thực), [Bài 3](bai_03_san_xuat_va_tang_truong.md) mục 9–11 (sinh lợi giảm dần).
 > Mô hình ở mục 10 dùng lại **ba bước phân tích cung–cầu** của [EG13 bài 2](../../eg13-kinhtevimo-micro/ly_thuyet/bai_02_cung_va_cau.md).
 
@@ -20,19 +22,19 @@
 - [1. Câu hỏi của chương](#1-câu-hỏi-của-chương)
 - [2. Thị trường trái phiếu](#2-thị-trường-trái-phiếu)
 - [3. Thị trường cổ phiếu](#3-thị-trường-cổ-phiếu)
-- [4. 📚 Ba con số nhà phân tích cổ phiếu theo dõi — hộp "Bạn có biết", tr. 293](#4--ba-con-số-nhà-phân-tích-cổ-phiếu-theo-dõi--hộp-bạn-có-biết-tr-293)
+- [4. Ba con số nhà phân tích cổ phiếu theo dõi — hộp "Bạn có biết", tr. 293](#4-ba-con-số-nhà-phân-tích-cổ-phiếu-theo-dõi--hộp-bạn-có-biết-tr-293)
 - [5. Trung gian tài chính — ngân hàng và quỹ tương hỗ](#5-trung-gian-tài-chính--ngân-hàng-và-quỹ-tương-hỗ)
-- [6. 📚 Khủng hoảng tài chính — sáu yếu tố, tr. 295](#6--khủng-hoảng-tài-chính--sáu-yếu-tố-tr-295)
+- [6. Khủng hoảng tài chính — sáu yếu tố, tr. 295](#6-khủng-hoảng-tài-chính--sáu-yếu-tố-tr-295)
 - [7. Từ Y = C + I + G + NX đến S = I](#7-từ-y--c--i--g--nx-đến-s--i)
 - [8. Tiết kiệm tư nhân, tiết kiệm chính phủ, thâm hụt và thặng dư](#8-tiết-kiệm-tư-nhân-tiết-kiệm-chính-phủ-thâm-hụt-và-thặng-dư)
-- [9. ⚠️ "Tiết kiệm" không phải "đầu tư"](#9--tiết-kiệm-không-phải-đầu-tư)
+- [9. "Tiết kiệm" không phải "đầu tư"](#9-tiết-kiệm-không-phải-đầu-tư)
 - [10. Thị trường vốn vay — mô hình](#10-thị-trường-vốn-vay--mô-hình)
 - [11. Chính sách 1 — khuyến khích tiết kiệm](#11-chính-sách-1--khuyến-khích-tiết-kiệm)
 - [12. Chính sách 2 — khuyến khích đầu tư](#12-chính-sách-2--khuyến-khích-đầu-tư)
 - [13. Chính sách 3 — thâm hụt, thặng dư và hiện tượng lấn át](#13-chính-sách-3--thâm-hụt-thặng-dư-và-hiện-tượng-lấn-át)
 - [14. Lịch sử nợ chính phủ Hoa Kỳ — Hình 5, tr. 306](#14-lịch-sử-nợ-chính-phủ-hoa-kỳ--hình-5-tr-306)
-- [15. 💼 Góc QTKD — nơi chương này chạm vào công việc](#15--góc-qtkd--nơi-chương-này-chạm-vào-công-việc)
-- [16. 📚 Đối chiếu Việt Nam](#16--đối-chiếu-việt-nam)
+- [15. Góc QTKD — nơi chương này chạm vào công việc](#15-góc-qtkd--nơi-chương-này-chạm-vào-công-việc)
+- [16. Đối chiếu Việt Nam](#16-đối-chiếu-việt-nam)
 - [17. Code minh hoạ](#17-code-minh-hoạ)
 - [18. Tự thử](#18-tự-thử)
 - [19. Từ điển thuật ngữ](#19-từ-điển-thuật-ngữ)
@@ -48,6 +50,7 @@
 
 Sách mở bằng một tình huống nói thẳng với sinh viên sắp ra trường (tr. 288):
 
+> [!quote]
 > *"Hãy tưởng tượng là bạn mới vừa tốt nghiệp đại học… và bạn quyết định bắt đầu công việc kinh doanh
 > riêng của mình – thành lập một công ty dự báo về kinh tế. Trước khi bạn kiếm được tiền từ việc bán
 > những sản phẩm dự báo của mình, bạn phải chịu các khoản chi phí đáng kể để thành lập doanh nghiệp."*
@@ -62,6 +65,7 @@ Bạn phải mua máy tính, bàn ghế, tủ hồ sơ. Tiền ở đâu ra? Hai
 Trong cả hai trường hợp, kết luận giống nhau (tr. 288): *"đầu tư của bạn vào máy tính và thiết bị văn
 phòng đang được tài trợ bởi **tiết kiệm của những người khác**."*
 
+> [!quote]
 > **Hệ thống tài chính** (*financial system*): một nhóm các định chế trong nền kinh tế giúp kết nối
 > tiết kiệm của người này với đầu tư của người khác. — chú thích tr. 288
 
@@ -70,6 +74,7 @@ phòng đang được tài trợ bởi **tiết kiệm của những người kh
 Bài 3 kết luận: tỷ lệ tiết kiệm cao → vốn nhiều hơn → năng suất và mức sống cao hơn. Nhưng sách thừa
 nhận đã bỏ qua một mắt xích (tr. 289):
 
+> [!quote]
 > *"Tuy nhiên, ở chương trước không giải thích làm thế nào mà nền kinh tế kết hợp tiết kiệm và đầu tư
 > lại với nhau. Lúc nào cũng có một số người muốn tiết kiệm một phần từ thu nhập của họ cho tương lai,
 > và những người khác muốn vay tiền để tài trợ cho các khoản đầu tư nhằm tạo lập và phát triển kinh
@@ -100,6 +105,7 @@ Intel** vay. Gửi tiết kiệm ngân hàng = bạn cho **ngân hàng** vay, r�
 
 ## 2. Thị trường trái phiếu
 
+> [!quote]
 > **Trái phiếu** (*bond*): giấy chứng nhận nợ. — chú thích tr. 290
 
 Sách mô tả rất đời (tr. 290): *"Một cách đơn giản, trái phiếu là tờ giấy ghi nợ (tôi nợ bạn – IOU)."*
@@ -121,6 +127,7 @@ hoặc có thể bán trái phiếu sớm hơn cho người khác."*
 
 #### ① Kỳ hạn
 
+> [!quote]
 > Kỳ hạn = *"độ dài thời gian của trái phiếu đến khi trái phiếu đáo hạn."*
 
 Từ vài tháng đến ba mươi năm. 📚 Và một ngoại lệ thú vị: *"Chính phủ Anh đã từng phát hành loại trái
@@ -132,6 +139,7 @@ dài hạn cần tiền sớm thì *"anh ta có thể bán trái phiếu cho ng�
 
 #### ② Rủi ro tín dụng
 
+> [!quote]
 > Rủi ro tín dụng = *"khả năng mà người vay không thể hoàn trả lãi hoặc vốn gốc."* Thất bại trong việc
 > trả nợ gọi là **vỡ nợ**.
 
@@ -145,13 +153,14 @@ tổ chức tư nhân khác nhau như **Standard & Poor's**."*
 
 #### ③ Xử lý thuế
 
+> [!quote]
 > Xử lý thuế = *"cách mà các luật thuế áp dụng lên lãi suất kiếm được từ trái phiếu."*
 
 Tiền lãi từ hầu hết trái phiếu **bị đánh thuế thu nhập**. Nhưng **trái phiếu đô thị** — do chính quyền
 địa phương phát hành — thì *"người chủ của trái phiếu không bị bắt buộc phải trả thuế thu nhập liên
 bang trên phần thu nhập lãi"*. Kết quả: chúng *"thường được trả lãi suất thấp hơn"*.
 
-### ⚠️ Đừng bao giờ so hai trái phiếu bằng lãi suất danh nghĩa
+### Đừng bao giờ so hai trái phiếu bằng lãi suất danh nghĩa
 
 Mục 3 của [code minh hoạ](#17-code-minh-hoạ) tính bằng số, dùng đúng thuế suất 33% mà sách dùng ở tr. 301:
 
@@ -160,13 +169,15 @@ Mục 3 của [code minh hoạ](#17-code-minh-hoạ) tính bằng số, dùng đ
    trái phiếu đô thị, miễn thuế               →  chỉ cần trên 6,03% là LỢI HƠN
 ```
 
-💼 Một trái phiếu đô thị trả **6,5%** đánh bại một trái phiếu công ty trả **9%** đối với người ở khung
-thuế 33%. Con số danh nghĩa nhỏ hơn hẳn mà vẫn thắng.
+> [!example]
+> Một trái phiếu đô thị trả **6,5%** đánh bại một trái phiếu công ty trả **9%** đối với người ở khung
+> thuế 33%. Con số danh nghĩa nhỏ hơn hẳn mà vẫn thắng.
 
 ---
 
 ## 3. Thị trường cổ phiếu
 
+> [!quote]
 > **Cổ phiếu** (*stock*): một quyền hay sự xác nhận sở hữu một phần doanh nghiệp. — chú thích tr. 291
 
 Nếu Intel bán tổng cộng 1.000.000 cổ phiếu thì *"từng cổ phiếu này đại diện quyền sở hữu 1/1.000.000
@@ -179,7 +190,7 @@ của doanh nghiệp."*
    bán TRÁI PHIẾU →  tài trợ bằng VAY NỢ            (debt finance)
 ```
 
-### ⭐ Bảng so sánh — chỗ đáng thuộc nhất mục này
+### Bảng so sánh — chỗ đáng thuộc nhất mục này
 
 Sách viết (tr. 291):
 
@@ -193,23 +204,26 @@ Sách viết (tr. 291):
 Sách tóm một câu (tr. 291): *"So với trái phiếu, người nắm giữ cổ phiếu có **rủi ro cao hơn và lợi
 nhuận tiềm năng cao hơn**."*
 
-### ⚠️ Công ty không nhận tiền khi cổ phiếu đổi chủ
+### Công ty không nhận tiền khi cổ phiếu đổi chủ
 
 Chi tiết này rất hay bị hiểu nhầm (tr. 291):
 
+> [!quote]
 > *"Sau khi một công ty phát hành cổ phiếu bằng cách bán các cổ phiếu ra công chúng, thì những cổ phiếu
 > này được giao dịch giữa các cổ đông trên thị trường chứng khoán có tổ chức. Trong những giao dịch này,
 > **bản thân các công ty không nhận được tiền** khi cổ phiếu của họ được chuyển nhượng."*
 
-📌 Đây chính là lý do ở [mục 9](#9--tiết-kiệm-không-phải-đầu-tư), mua cổ phiếu được xếp là **tiết kiệm**
+📌 Đây chính là lý do ở [mục 9](#9-tiết-kiệm-không-phải-đầu-tư), mua cổ phiếu được xếp là **tiết kiệm**
 chứ không phải **đầu tư**.
 
 ### Giá cổ phiếu là gì
 
+> [!quote]
 > *"Bởi vì cổ phiếu đại diện cho quyền sở hữu ở công ty, nguồn cầu về cổ phiếu (và do đó, mức giá của
 > chúng) phản ánh nhận thức của mọi người về **lợi nhuận tương lai** của công ty."* — tr. 291
 
-📚 **Chỉ số chứng khoán** = số bình quân giá của các loại chứng khoán. Hai chỉ số sách nêu (tr. 292):
+> [!note] Chỉ số chứng khoán
+> = số bình quân giá của các loại chứng khoán. Hai chỉ số sách nêu (tr. 292):
 
 | Chỉ số | Dựa trên | Từ năm |
 | ------ | -------- | ------ |
@@ -221,7 +235,7 @@ chứng khoán này được xem gần giống như là **các chỉ số về c
 
 ---
 
-## 4. 📚 Ba con số nhà phân tích cổ phiếu theo dõi — hộp "Bạn có biết", tr. 293
+## 4. Ba con số nhà phân tích cổ phiếu theo dõi — hộp "Bạn có biết", tr. 293
 
 | Con số | Là gì |
 | ------ | ----- |
@@ -231,12 +245,14 @@ chứng khoán này được xem gần giống như là **các chỉ số về c
 
 ### Cách đọc P/E — theo đúng lời sách
 
+> [!quote]
 > *"Trong lịch sử, hệ số P/E tiêu biểu là **15**. Tỷ số P/E cao hơn nghĩa là cổ phiếu của công ty đó là
 > **đắt tương đối** so với thu nhập gần đây của nó; điều này có nghĩa là hoặc là mọi người kỳ vọng vào
 > thu nhập tăng lên trong tương lai **hoặc** cổ phiếu đó bị đánh giá cao."*
 
-⚠️ Chú ý chữ **"hoặc"**. P/E cao có **hai** cách giải thích trái ngược, và con số P/E một mình **không**
-cho bạn biết là cách nào. Đây là điểm mà rất nhiều lời khuyên đầu tư trên mạng bỏ qua.
+> [!warning]
+> Chú ý chữ **"hoặc"**. P/E cao có **hai** cách giải thích trái ngược, và con số P/E một mình **không**
+> cho bạn biết là cách nào. Đây là điểm mà rất nhiều lời khuyên đầu tư trên mạng bỏ qua.
 
 Sách cũng nêu hai kiểu người dùng số liệu này khác nhau hoàn toàn:
 
@@ -254,6 +270,7 @@ Sách cũng nêu hai kiểu người dùng số liệu này khác nhau hoàn to�
 
 Vì sao một cửa hàng tạp hoá nhỏ không phát hành trái phiếu như Intel? Sách trả lời rất thực tế (tr. 292):
 
+> [!quote]
 > *"Hầu hết những người mua cổ phiếu và trái phiếu thích mua chúng từ các công ty niêm yết là những công
 > ty lớn, quen thuộc hơn. Do đó, một cửa hàng tạp hóa nhỏ thường tài trợ cho việc mở rộng sản xuất bằng
 > việc **vay nợ từ ngân hàng địa phương**."*
@@ -267,6 +284,7 @@ Ngân hàng có **hai** chức năng, và chức năng thứ hai mới là thứ
 
 ⭐ Sách giải thích vì sao chức năng 2 quan trọng (tr. 292):
 
+> [!quote]
 > *"Các cổ phiếu và trái phiếu, giống như các khoản tiền gửi ngân hàng, là **dự trữ giá trị** khả dĩ
 > cho của cải mà mọi người tích lũy được từ tiết kiệm quá khứ, nhưng tiếp cận của cải này là **không dễ
 > dàng, không rẻ và không nhanh chóng** như khi chỉ cần viết một ngân phiếu hoặc sử dụng thẻ ghi nợ."*
@@ -275,6 +293,7 @@ Ngân hàng có **hai** chức năng, và chức năng thứ hai mới là thứ
 
 ### Quỹ tương hỗ — tr. 293–294
 
+> [!quote]
 > **Quỹ tương hỗ** (*mutual fund*): định chế bán cổ phần ra công chúng và sử dụng số thu nhập này để mua
 > danh mục các cổ phiếu và trái phiếu. — chú thích tr. 293
 
@@ -285,8 +304,9 @@ khối tài sản mỗi năm.
 
 **Ưu điểm 2 — quản lý chuyên nghiệp.** …nhưng đây là chỗ sách nói ngược lại lẽ thường:
 
-### ⭐ Sách hoài nghi chính ưu điểm thứ hai — tr. 294
+### Sách hoài nghi chính ưu điểm thứ hai — tr. 294
 
+> [!quote]
 > *"Tuy nhiên, các nhà kinh tế học tài chính thường **hoài nghi** về lập luận thứ hai này. Với hàng ngàn
 > nhà quản lý chuyên nghiệp chú ý kỹ đến triển vọng của từng công ty, giá của cổ phiếu thường phản ánh
 > tốt giá trị thực của công ty. Kết quả là, **rất khó để "đánh bại thị trường"** bằng cách mua cổ phiếu
@@ -299,13 +319,14 @@ quản lý chuyên nghiệp với các giao dịch chủ động."*
 Lý do rất đơn giản: *"các quỹ này giữ các **chi phí thấp** bằng cách giảm thiểu mua bán và không thuê
 mướn các nhà quản lý chuyên nghiệp."*
 
-💼 Áp cho tiền của chính bạn: với phí 0,5%–2%/năm và **30 năm**, mục 5 của
-[code minh hoạ](#17-code-minh-hoạ) cho thấy chênh lệch phí không phải "mất 1,5%" — nó lấy đi một phần
-rất lớn số tiền cuối cùng. Cùng số học với ví dụ thuế ở tr. 301.
+> [!example]
+> Áp cho tiền của chính bạn: với phí 0,5%–2%/năm và **30 năm**, mục 5 của
+> [code minh hoạ](#17-code-minh-hoạ) cho thấy chênh lệch phí không phải "mất 1,5%" — nó lấy đi một phần
+> rất lớn số tiền cuối cùng. Cùng số học với ví dụ thuế ở tr. 301.
 
 ---
 
-## 6. 📚 Khủng hoảng tài chính — sáu yếu tố, tr. 295
+## 6. Khủng hoảng tài chính — sáu yếu tố, tr. 295
 
 Hộp *"Bạn có biết"* liệt kê sáu yếu tố của khủng hoảng 2008–2009, và chúng tạo thành một **vòng tròn**:
 
@@ -344,10 +365,11 @@ nền kinh tế khác"*, không giao thương, không vay mượn quốc tế. D
 
 $$Y = C + I + G$$
 
-⚠️ Sách rất thẳng thắn về việc giả định này **không đúng**: *"Các nền kinh tế trong thực tế là các nền
-kinh tế mở."* Nhưng nó *"là sự đơn giản hóa hữu ích, theo đó chúng ta có thể học được một số bài học
-nhằm áp dụng cho tất cả các nền kinh tế."* Và nó *"áp dụng hoàn hảo cho các nền kinh tế trên thế giới
-(vì thương mại giữa các hành tinh là chưa phổ biến)."*
+> [!warning]
+> Sách rất thẳng thắn về việc giả định này **không đúng**: *"Các nền kinh tế trong thực tế là các nền
+> kinh tế mở."* Nhưng nó *"là sự đơn giản hóa hữu ích, theo đó chúng ta có thể học được một số bài học
+> nhằm áp dụng cho tất cả các nền kinh tế."* Và nó *"áp dụng hoàn hảo cho các nền kinh tế trên thế giới
+> (vì thương mại giữa các hành tinh là chưa phổ biến)."*
 
 📌 [Bài 10](bai_10_ly_thuyet_kinh_te_mo.md) sẽ bỏ giả định này ra và làm lại toàn bộ mô hình.
 
@@ -355,6 +377,7 @@ nhằm áp dụng cho tất cả các nền kinh tế."* Và nó *"áp dụng ho
 
 $$Y - C - G = I$$
 
+> [!quote]
 > **Tiết kiệm quốc gia** (*national saving*), hay chỉ là **tiết kiệm**, ký hiệu $S$: phần còn lại của
 > tổng thu nhập của nền kinh tế sau khi chi cho tiêu dùng và chi mua sắm của chính phủ. — chú thích tr. 297
 
@@ -362,14 +385,17 @@ $$\boxed{S = I}$$
 
 Sách nhấn mạnh bằng chữ in nghiêng (tr. 298):
 
+> [!quote]
 > *"**Vì nền kinh tế là một tổng thể, tiết kiệm phải bằng với đầu tư.**"*
 
-⚠️ **Đây không phải một phát hiện, cũng không phải một giả thuyết cần kiểm chứng.** Nó đúng vì cách các
-biến được định nghĩa — hệt như $Y = C+I+G+NX$ ở [bài 1](bai_01_do_luong_thu_nhap_quoc_gia.md#5-bốn-thành-phần--y--c--i--g--nx).
-Mục 1 của [code minh hoạ](#17-code-minh-hoạ) kiểm bằng `assert`.
+> [!warning] Đây không phải một phát hiện, cũng không phải một giả thuyết cần kiểm chứng.
+> Nó đúng vì cách các
+> biến được định nghĩa — hệt như $Y = C+I+G+NX$ ở [bài 1](bai_01_do_luong_thu_nhap_quoc_gia.md#5-bốn-thành-phần--y--c--i--g--nx).
+> Mục 1 của [code minh hoạ](#17-code-minh-hoạ) kiểm bằng `assert`.
 
 Nhưng sách hỏi ngay câu hỏi thật sự đáng giá (tr. 298):
 
+> [!quote]
 > *"Các cơ chế nào nằm đằng sau đồng nhất thức này? Cái gì phối hợp những người quyết định tiết kiệm bao
 > nhiêu với những người quyết định đầu tư bao nhiêu? **Câu trả lời là hệ thống tài chính.**"*
 
@@ -399,16 +425,18 @@ Mục 1 của [code minh hoạ](#17-code-minh-hoạ) chạy ba trạng thái ng�
    T = 1.300  →  T − G = −300  (thâm hụt)  →  S = 1.900 − 300 = 1.600
 ```
 
-⚠️ Nhìn dòng cuối: thâm hụt **kéo $S$ xuống** mặc dù tiết kiệm tư nhân **tăng** (từ 1.300 lên 1.900).
-Vì sao? Vì thuế thấp hơn để lại nhiều thu nhập khả dụng hơn cho hộ gia đình. Nhưng phần tăng đó
-**không bù đủ** phần chính phủ vay mất. Đó chính là cơ chế của [mục 13](#13-chính-sách-3--thâm-hụt-thặng-dư-và-hiện-tượng-lấn-át).
+> [!warning]
+> Nhìn dòng cuối: thâm hụt **kéo $S$ xuống** mặc dù tiết kiệm tư nhân **tăng** (từ 1.300 lên 1.900).
+> Vì sao? Vì thuế thấp hơn để lại nhiều thu nhập khả dụng hơn cho hộ gia đình. Nhưng phần tăng đó
+> **không bù đủ** phần chính phủ vay mất. Đó chính là cơ chế của [mục 13](#13-chính-sách-3--thâm-hụt-thặng-dư-và-hiện-tượng-lấn-át).
 
 ---
 
-## 9. ⚠️ "Tiết kiệm" không phải "đầu tư"
+## 9. "Tiết kiệm" không phải "đầu tư"
 
 Sách dành hẳn một mục cho việc này, và mở bằng lời cảnh báo (tr. 298):
 
+> [!quote]
 > *"Thuật ngữ **tiết kiệm** và **đầu tư** đôi lúc có thể nhầm lẫn. Hầu hết mọi người sử dụng những thuật
 > ngữ này tình cờ và đôi khi thay thế cho nhau. Ngược lại, những nhà kinh tế học vĩ mô… sử dụng các
 > thuật ngữ này **cẩn thận và rõ ràng**."*
@@ -425,7 +453,7 @@ Sách dành hẳn một mục cho việc này, và mở bằng lời cảnh báo
 Sách nói thẳng về Larry (tr. 298): *"Larry có thể tự nghĩ rằng anh đang **"đầu tư"** tiền, nhưng các nhà
 kinh tế vĩ mô gọi hành động của Larry là **tiết kiệm chứ không phải đầu tư**."*
 
-### ⭐ Quy tắc một dòng
+### Quy tắc một dòng
 
 ```
    ĐẦU TƯ = mua VỐN MỚI VỪA ĐƯỢC TẠO RA
@@ -437,8 +465,9 @@ kinh tế vĩ mô gọi hành động của Larry là **tiết kiệm chứ khô
 Đây là lý do [mục 3](#3-thị-trường-cổ-phiếu) nhấn mạnh: khi cổ phiếu đổi chủ trên sàn, **công ty không
 nhận được đồng nào** — nên không có vốn mới nào được tạo ra.
 
-### ⚠️ $S = I$ đúng cho cả nền kinh tế, **sai** cho từng người
+### $S = I$ đúng cho cả nền kinh tế, **sai** cho từng người
 
+> [!quote]
 > *"Tiết kiệm của Larry có thể lớn hơn đầu tư của anh ta… Tiết kiệm của Moe có thể nhỏ hơn đầu tư của
 > anh ta, và anh ta có thể vay ngân hàng cho khoản thiếu hụt."* — tr. 298
 
@@ -451,12 +480,13 @@ của hệ thống tài chính, phát biểu bằng ngôn ngữ kế toán.
 
 Sách gộp **toàn bộ** hệ thống tài chính thành **một** thị trường duy nhất (tr. 299):
 
+> [!quote]
 > **Thị trường vốn vay** (*market for loanable funds*): thị trường gồm những người tiết kiệm cung ứng
 > nguồn vốn vay và những người vay có nhu cầu vay vốn. — chú thích tr. 299
 
 Sách thừa nhận thẳng đây là đơn giản hoá: *"Giả định về một loại thị trường tài chính, dĩ nhiên là không
 thực tế."* Nhưng nhắc lại bài học chương 2 (bạn đã đọc ở
-[bài 0 mục 11](bai_00_tu_vi_mo_sang_vi_mo.md#11--vai-trò-của-giả-định--vì-sao-vĩ-mô-có-hai-bộ-mô-hình)):
+[bài 0 mục 11](bai_00_tu_vi_mo_sang_vi_mo.md#11-vai-trò-của-giả-định--vì-sao-vĩ-mô-có-hai-bộ-mô-hình)):
 *"nghệ thuật trong việc xây dựng mô hình kinh tế là đơn giản hóa thế giới để giải thích chúng."*
 
 ### Cung và cầu
@@ -491,10 +521,11 @@ Cơ chế điều chỉnh giống hệt mọi thị trường bạn đã học �
    lãi suất CAO  hơn cân bằng  →  THỪA vốn vay       →  người cho vay GIẢM lãi suất
 ```
 
-### ⚠️ "Lãi suất" ở đây là lãi suất **thực**
+### "Lãi suất" ở đây là lãi suất **thực**
 
 Sách nói rõ (tr. 300):
 
+> [!quote]
 > *"Do đó, cung và cầu vốn vay phụ thuộc vào **lãi suất thực** (hơn là lãi suất danh nghĩa), và cân bằng
 > trong Hình 1 nên được hiểu là xác định lãi suất thực của nền kinh tế. Phần còn lại của chương này, khi
 > chúng ta thấy thuật ngữ **lãi suất**, nên nhớ là chúng ta đang nói về **lãi suất thực**."*
@@ -503,7 +534,7 @@ Sách nói rõ (tr. 300):
 Lý do: *"lạm phát làm xói mòn giá trị của tiền theo thời gian"*, nên lãi suất thực mới là *"tiền lãi thực
 của tiết kiệm và chi phí thực của khoản vay"*.
 
-### ✅ Bốn hình của sách nhất quán với nhau — đã kiểm
+### Bốn hình của sách nhất quán với nhau — đã kiểm
 
 Mục 4 của [code minh hoạ](#17-code-minh-hoạ) tìm **một** cặp đường tuyến tính duy nhất tái tạo **cả bốn**
 hình (Hình 1–4, tr. 300–304), với **cùng một** độ lớn dịch chuyển 600 tỷ:
@@ -549,8 +580,9 @@ Một người **25 tuổi** tiết kiệm **1.000 USD**, mua trái phiếu kỳ
 
 Mục 5 của [code minh hoạ](#17-code-minh-hoạ) kiểm cả hai bằng `assert` — **khớp từng con số**.
 
-⚠️ Một chi tiết số học: $9\% \times (1 - 33\%) = 6{,}03\%$, sách **làm tròn thành 6%**. Code dùng đúng
-con số 6% của sách để hai kết quả đối chiếu được.
+> [!warning]
+> Một chi tiết số học: $9\% \times (1 - 33\%) = 6{,}03\%$, sách **làm tròn thành 6%**. Code dùng đúng
+> con số 6% của sách để hai kết quả đối chiếu được.
 
 ⭐ **Thuế suất 33% nhưng lấy đi 57% số tiền cuối kỳ.** Lý do là **lãi kép**: thuế không ăn một lần vào
 gốc, nó ăn vào **tốc độ tăng**, mỗi năm một chút, trong ba mươi năm.
@@ -571,15 +603,17 @@ gốc, nó ăn vào **tốc độ tăng**, mỗi năm một chút, trong ba mư�
 | ② hướng nào? | sang **PHẢI** — tiết kiệm bị đánh thuế nhẹ hơn nên hộ gia đình tiết kiệm nhiều hơn |
 | ③ cân bằng mới? | lãi suất **5% → 4%**, vốn vay **1.200 → 1.600 tỷ** |
 
+> [!quote]
 > *"…nếu cải cách các luật thuế khuyến khích tiết kiệm nhiều hơn, kết quả là mức **lãi suất thấp hơn và
 > đầu tư cao hơn**."* — tr. 302
 
 ![Hình 2 — tr. 302, bản chụp giáo trình](../tai_lieu/hinh/ch13-hinh-02-tr302.png)
 
-### ⚠️ Nhưng sách nói ngay rằng đây là vấn đề gây tranh cãi
+### Nhưng sách nói ngay rằng đây là vấn đề gây tranh cãi
 
 Đây là chỗ sách trung thực nhất trong cả chương (tr. 302):
 
+> [!quote]
 > *"Phân tích về ảnh hưởng của việc gia tăng tiết kiệm này được chấp nhận rộng rãi trong những nhà kinh
 > tế, tuy nhiên vẫn có ít sự đồng thuận về loại thuế nào nên được thay đổi."*
 
@@ -606,15 +640,17 @@ hoặc mua máy móc thiết bị mới"* (tr. 302–303).
 | ② hướng nào? | sang **PHẢI** |
 | ③ cân bằng mới? | lãi suất **5% → 6%**, vốn vay **1.200 → 1.400 tỷ** |
 
+> [!quote]
 > *"…nếu cải cách của luật thuế khuyến khích đầu tư nhiều hơn, kết quả là **lãi suất sẽ tăng lên và
 > lượng tiết kiệm sẽ nhiều hơn**."* — tr. 303
 
 ![Hình 3 — tr. 303, bản chụp giáo trình](../tai_lieu/hinh/ch13-hinh-03-tr303.png)
 
-⚠️ Chú ý: các hộ gia đình tiết kiệm nhiều hơn **không phải** vì đường cung dịch, mà vì *"sự di chuyển
-dọc theo đường cung"* do lãi suất cao hơn.
+> [!warning]
+> Chú ý: các hộ gia đình tiết kiệm nhiều hơn **không phải** vì đường cung dịch, mà vì *"sự di chuyển
+> dọc theo đường cung"* do lãi suất cao hơn.
 
-### ⚠️⚠️ Chỗ dễ nhầm nhất cả chương — phân biệt chính sách 1 và 2
+### Chỗ dễ nhầm nhất cả chương — phân biệt chính sách 1 và 2
 
 ```
    GIỐNG NHAU:  cả hai đều là "ưu đãi thuế"
@@ -638,6 +674,7 @@ dọc theo đường cung"* do lãi suất cao hơn.
 
 ## 13. Chính sách 3 — thâm hụt, thặng dư và hiện tượng lấn át
 
+> [!quote]
 > **Thâm hụt ngân sách** = chi tiêu chính phủ vượt mức tổng thu thuế. Chính phủ tài trợ bằng cách **vay
 > trên thị trường trái phiếu**, và tích luỹ các khoản vay quá khứ gọi là **nợ chính phủ**. — tr. 303
 
@@ -649,13 +686,15 @@ dọc theo đường cung"* do lãi suất cao hơn.
 
 ![Hình 4 — tr. 304, bản chụp giáo trình](../tai_lieu/hinh/ch13-hinh-04-tr304.png)
 
+> [!quote]
 > **Hiện tượng lấn át** (*crowding out*): sự giảm sút của đầu tư do chính phủ đi vay. — chú thích tr. 305
 
+> [!quote]
 > *"Khi chính phủ làm giảm tiết kiệm quốc gia bởi thâm hụt ngân sách, **lãi suất tăng và đầu tư giảm**.
 > Vì đầu tư có vai trò quan trọng cho tăng trưởng kinh tế trong dài hạn, thâm hụt ngân sách chính phủ
 > làm giảm tốc tăng trưởng của nền kinh tế."* — tr. 305
 
-### ⭐ Lấn át **không bao giờ** là 100% — mục 6 của code tách rõ
+### Lấn át **không bao giờ** là 100% — mục 6 của code tách rõ
 
 ```
    chính phủ vay thêm:            600 tỷ
@@ -670,27 +709,28 @@ dọc theo đường cung"* do lãi suất cao hơn.
 📌 Phần bù đó **càng nhỏ khi đường cung càng dựng đứng** — tức khi người dân ít phản ứng với lãi suất.
 Đây là một câu hỏi thực nghiệm, không phải câu hỏi lý thuyết.
 
-### 📚 Vì sao thâm hụt dịch **cung** chứ không phải **cầu**? — tr. 305
-
-Sách tự đặt câu hỏi này và trả lời rất sòng phẳng: rốt cuộc chính phủ vẫn phải **bán trái phiếu**, tức
-là đi vay. Sao "chính phủ vay" thì dịch cung, còn "hộ gia đình vay mua nhà" thì dịch cầu?
-
-Câu trả lời nằm ở **định nghĩa** của "vốn vay":
-
-| Nếu "vốn vay" định nghĩa là… | Thì thâm hụt… |
-| ---------------------------- | ------------- |
-| *"dòng nguồn lực sẵn có để tài trợ cho đầu tư **tư nhân**"* (cách sách dùng) | làm **giảm CUNG** |
-| *"dòng nguồn lực sẵn có từ tiết kiệm **tư nhân**"* | làm **tăng CẦU** |
-
-> *"Thay đổi trong việc giải thích thuật ngữ sẽ gây ra thay đổi ngữ nghĩa trong cách chúng ta mô tả mô
-> hình, tuy nhiên **những mấu chốt từ phân tích là giống nhau**: Trong cả hai trường hợp, thâm hụt ngân
-> sách làm tăng lãi suất, do đó lấn át những người vay tư nhân."* — tr. 305
-
-⭐ Một bài học phương pháp đáng giá: khi hai người cãi nhau về "đường nào dịch", rất có thể họ đang dùng
-**hai định nghĩa khác nhau** cho cùng một trục — và kết luận thật thì giống hệt nhau.
+> [!note] Vì sao thâm hụt dịch **cung** chứ không phải **cầu**? — tr. 305
+>
+> Sách tự đặt câu hỏi này và trả lời rất sòng phẳng: rốt cuộc chính phủ vẫn phải **bán trái phiếu**, tức
+> là đi vay. Sao "chính phủ vay" thì dịch cung, còn "hộ gia đình vay mua nhà" thì dịch cầu?
+>
+> Câu trả lời nằm ở **định nghĩa** của "vốn vay":
+>
+> | Nếu "vốn vay" định nghĩa là… | Thì thâm hụt… |
+> | ---------------------------- | ------------- |
+> | *"dòng nguồn lực sẵn có để tài trợ cho đầu tư **tư nhân**"* (cách sách dùng) | làm **giảm CUNG** |
+> | *"dòng nguồn lực sẵn có từ tiết kiệm **tư nhân**"* | làm **tăng CẦU** |
+>
+> > *"Thay đổi trong việc giải thích thuật ngữ sẽ gây ra thay đổi ngữ nghĩa trong cách chúng ta mô tả mô
+> > hình, tuy nhiên **những mấu chốt từ phân tích là giống nhau**: Trong cả hai trường hợp, thâm hụt ngân
+> > sách làm tăng lãi suất, do đó lấn át những người vay tư nhân."* — tr. 305
+>
+> ⭐ Một bài học phương pháp đáng giá: khi hai người cãi nhau về "đường nào dịch", rất có thể họ đang dùng
+> **hai định nghĩa khác nhau** cho cùng một trục — và kết luận thật thì giống hệt nhau.
 
 ### Thặng dư ngân sách — ngược lại hoàn toàn
 
+> [!quote]
 > *"…thặng dư ngân sách làm tăng nguồn cung vốn vay, giảm lãi suất và khuyến khích đầu tư. Đầu tư cao
 > hơn, nghĩa là tích lũy vốn nhiều hơn và tăng trưởng kinh tế nhanh hơn."* — tr. 305
 
@@ -713,8 +753,9 @@ Hình 5 vẽ nợ liên bang theo **phần trăm GDP** từ **1790**.
 | 2001 | ~33% | sau các năm thặng dư cuối thập niên 1990 |
 | 2010 | ~62% | sau khủng hoảng tài chính |
 
-### ⚠️ Vì sao dùng tỷ lệ nợ/GDP chứ không phải số tuyệt đối
+### Vì sao dùng tỷ lệ nợ/GDP chứ không phải số tuyệt đối
 
+> [!quote]
 > *"Bởi vì GDP là thước đo tương đối của cơ sở tính thuế của chính phủ, tỷ lệ nợ/GDP giảm chỉ ra rằng
 > nợ chính phủ đang thu hẹp so với **khả năng tăng thu thuế** của chính phủ."* — tr. 306
 
@@ -723,14 +764,16 @@ Hình 5 vẽ nợ liên bang theo **phần trăm GDP** từ **1790**.
    nợ 1.000 tỷ  với nền kinh tế  2.000 tỷ  →  50%   khó hơn nhiều
 ```
 
-📌 Và nhớ [bài 1 mục 16](bai_01_do_luong_thu_nhap_quoc_gia.md#16--đối-chiếu-việt-nam--cách-đọc-số-liệu-gdp-trong-nước):
+📌 Và nhớ [bài 1 mục 16](bai_01_do_luong_thu_nhap_quoc_gia.md#16-đối-chiếu-việt-nam--cách-đọc-số-liệu-gdp-trong-nước):
 **đánh giá lại GDP làm mọi tỷ lệ có GDP ở mẫu số nhảy**, mà chẳng có gì thay đổi trong nền kinh tế thật.
 
 ### Thủ phạm chính: chiến tranh
 
+> [!quote]
 > *"Trong suốt lịch sử, nguyên nhân chính của các thay đổi trong nợ chính phủ là **chiến tranh**."* — tr. 306
 
-📚 Và sách đưa **hai lý do ủng hộ** việc vay nợ để tài trợ chiến tranh (tr. 306), điều khá bất ngờ:
+> [!note]
+> Và sách đưa **hai lý do ủng hộ** việc vay nợ để tài trợ chiến tranh (tr. 306), điều khá bất ngờ:
 
 1. **Giữ thuế suất ổn định.** Không có tài trợ bằng nợ, *"thuế suất sẽ phải tăng lên nhanh chóng trong
    suốt chiến tranh, và do đó sẽ dẫn đến suy giảm đáng kể trong hiệu quả kinh tế."*
@@ -738,10 +781,11 @@ Hình 5 vẽ nợ liên bang theo **phần trăm GDP** từ **1790**.
    thế hệ sau"* — những người *"thụ hưởng lợi ích có được từ một thế hệ phải chiến đấu để chống lại kẻ
    xâm lược nước ngoài."*
 
-### ⚠️ Hai lần tăng nợ **không** phải do chiến tranh
+### Hai lần tăng nợ **không** phải do chiến tranh
 
 **① 1980–1993: từ 26% lên 50%.** Sách kể rất thẳng (tr. 307):
 
+> [!quote]
 > *"Khi tổng thống Ronald Reagan nhậm chức năm 1981, ông đã cam kết một chính phủ tinh gọn và thuế thấp
 > hơn. Tuy nhiên, ông nhận thấy rằng việc **cắt giảm chi tiêu chính phủ gặp nhiều khó khăn chính trị hơn
 > so với việc cắt giảm thuế**."*
@@ -752,12 +796,13 @@ hàng đầu, và ngân sách *"cuối cùng đã chuyển thành thặng dư"*.
 **② Từ 2008: khủng hoảng tài chính.** Ba lý do sách nêu cho giai đoạn Bush đầu thập niên 2000 (cắt giảm
 thuế 2001, suy thoái 2001, chi tiêu an ninh sau 11/9 và chiến tranh Iraq/Afghanistan), rồi:
 
+> [!quote]
 > *"Vào năm 2009 và 2010, thâm hụt ngân sách của chính phủ liên bang là khoảng **10 phần trăm GDP**,
 > mức thâm hụt lớn nhất kể từ Chiến tranh Thế giới thứ II."* — tr. 307
 
 ---
 
-## 15. 💼 Góc QTKD — nơi chương này chạm vào công việc
+## 15. Góc QTKD — nơi chương này chạm vào công việc
 
 ### ① Đường cầu vốn vay là **danh sách dự án của chính bạn**
 
@@ -775,9 +820,10 @@ Mục 8 của [code minh hoạ](#17-code-minh-hoạ) dựng một công ty có s
 quy luật trừu tượng, mà vì mỗi dự án có một **ngưỡng sinh lợi** riêng, và lãi suất cao hơn cắt bỏ dần
 từng dự án một.
 
-⚠️ Và "hiện tượng lấn át" thôi trừu tượng ngay: khi thâm hụt ngân sách đẩy lãi suất từ 5% lên 6%, công
-ty bạn chuyển từ 5 dự án xuống 4. Trên đồ thị đó là một đường dịch. Trong đời sống đó là **một cuộc họp
-trong đó một dự án cụ thể bị gạch khỏi kế hoạch năm sau**.
+> [!warning]
+> Và "hiện tượng lấn át" thôi trừu tượng ngay: khi thâm hụt ngân sách đẩy lãi suất từ 5% lên 6%, công
+> ty bạn chuyển từ 5 dự án xuống 4. Trên đồ thị đó là một đường dịch. Trong đời sống đó là **một cuộc họp
+> trong đó một dự án cụ thể bị gạch khỏi kế hoạch năm sau**.
 
 ### ② Vay nợ hay bán cổ phần — bảng ở mục 3, đọc từ phía doanh nghiệp
 
@@ -797,10 +843,10 @@ mạnh** (theo mùa, theo chu kỳ) mà vay nặng là công thức của phá s
 1. **Lãi suất này là danh nghĩa hay thực?** (mục 10) — nếu lạm phát 5% và bạn vay 8% danh nghĩa, chi phí
    thực chỉ 3%. Nhưng nếu lạm phát bất ngờ về 1%, chi phí thực nhảy lên 7%.
 2. **Kỳ hạn có khớp với dòng tiền của tài sản không?** (mục 2①) — vay ngắn hạn để mua tài sản dài hạn là
-   nguyên nhân của yếu tố ③ trong khủng hoảng tài chính ([mục 6](#6--khủng-hoảng-tài-chính--sáu-yếu-tố-tr-295)).
+   nguyên nhân của yếu tố ③ trong khủng hoảng tài chính ([mục 6](#6-khủng-hoảng-tài-chính--sáu-yếu-tố-tr-295)).
 3. **Nếu lãi suất tăng 2 điểm, dự án còn dương không?** — nhìn lại bảng ở mục 15①.
 
-### ④ ⚠️ Lãi kép cắt cả hai chiều
+### ④ Lãi kép cắt cả hai chiều
 
 Mục 5 cho thấy **thuế 33% lấy đi 57% số tiền cuối kỳ sau 30 năm**. Cùng số học đó áp cho:
 
@@ -815,10 +861,11 @@ với người làm quản trị.
 
 ---
 
-## 16. 📚 Đối chiếu Việt Nam
+## 16. Đối chiếu Việt Nam
 
-⚠️ **Cảnh báo:** số liệu dưới đây tôi ghi theo trí nhớ có giới hạn. **Hãy tra lại nguồn chính thức trước
-khi dùng vào báo cáo.** Cái đáng học ở mục này là **cách áp khung phân tích**.
+> [!warning] Cảnh báo:
+> số liệu dưới đây tôi ghi theo trí nhớ có giới hạn. **Hãy tra lại nguồn chính thức trước
+> khi dùng vào báo cáo.** Cái đáng học ở mục này là **cách áp khung phân tích**.
 
 ### Hệ thống tài chính Việt Nam nghiêng hẳn về **trung gian**, không phải **thị trường**
 
@@ -861,14 +908,16 @@ Tỷ lệ nợ công/GDP của Việt Nam ở mức trung bình so với khu v�
 khi ngân sách phát hành trái phiếu chính phủ khối lượng lớn, ngân hàng thương mại mua vào, và phần vốn
 đó **không** còn để cho doanh nghiệp vay.
 
-⚠️ Và nhắc lại bẫy ở [bài 1](bai_01_do_luong_thu_nhap_quoc_gia.md#16--đối-chiếu-việt-nam--cách-đọc-số-liệu-gdp-trong-nước):
-việc **đánh giá lại quy mô GDP năm 2019** đã làm tỷ lệ nợ công/GDP giảm đáng kể **chỉ vì mẫu số lớn lên**.
-Số nợ tuyệt đối không hề giảm một đồng nào.
+> [!warning]
+> Và nhắc lại bẫy ở [bài 1](bai_01_do_luong_thu_nhap_quoc_gia.md#16-đối-chiếu-việt-nam--cách-đọc-số-liệu-gdp-trong-nước):
+> việc **đánh giá lại quy mô GDP năm 2019** đã làm tỷ lệ nợ công/GDP giảm đáng kể **chỉ vì mẫu số lớn lên**.
+> Số nợ tuyệt đối không hề giảm một đồng nào.
 
 ---
 
 ## 17. Code minh hoạ
 
+> [!note]
 > ⚙️ **Chạy:** cần **Python 3.10+**. Lưu file rồi gõ `python3 bai-04-tiet-kiem-dau-tu-he-thong-tai-chinh.py`.
 > Không cần cài gói nào — chỉ dùng thư viện chuẩn. Kết quả **tất định**.
 > Bản đầy đủ nằm ở [`thuc_hanh/bai-04-tiet-kiem-dau-tu-he-thong-tai-chinh.py`](../thuc_hanh/bai-04-tiet-kiem-dau-tu-he-thong-tai-chinh.py).
@@ -1707,7 +1756,7 @@ Kết quả chạy thật:
     Code dùng đúng 6% của sách để đối chiếu được với 5.743 USD. Không phải lỗi in — là làm tròn.
   - Phương trình cung–cầu cụ thể ở mục 10 là **do bài này dựng**; sách chỉ vẽ bốn hình định tính. Mọi kết
     luận rút ra đều trùng khớp với các mệnh đề sách phát biểu bằng lời.
-  - [Mục 16 — Đối chiếu Việt Nam](#16--đối-chiếu-việt-nam) hoàn toàn nằm ngoài sách.
+  - [Mục 16 — Đối chiếu Việt Nam](#16-đối-chiếu-việt-nam) hoàn toàn nằm ngoài sách.
 - **Liên hệ chéo:**
   - [Bài 1](bai_01_do_luong_thu_nhap_quoc_gia.md) mục 5 — $Y = C+I+G+NX$, xuất phát điểm của mục 7.
   - [Bài 2](bai_02_do_luong_chi_phi_sinh_hoat.md) mục 12 — lãi suất thực, biến của mô hình ở mục 10.

@@ -1,18 +1,18 @@
 # Bài 4 — Tài sản, tiêu sản, tháp tài sản
 
+> [!info] Về bài này
 > Bài học dựa trên **Unit 3 của Class 1** — C1 tr. 16–24. Phần bảng cân đối ở tr. 18 đã làm ở
 > [bài 2](bai_02_do_hien_trang.md#3-tài-sản-ròng--bước-2-và-bảng-cân-đối-cá-nhân); bài này lo hai
 > lesson còn lại.
->
 > **Cần đọc trước:** [Bài 2](bai_02_do_hien_trang.md) — bài này trả lời câu hỏi mà bài 2 để ngỏ:
 > **cái gì được tính là tài sản**, và xếp chúng theo thứ tự nào.
->
 > **Ký hiệu:** **[bổ sung]** là kiến thức ngoài sách · **[đính chính]** là chỗ sách sai ·
 > **[2026]** là mục đối chiếu với hiện tại.
->
 > **Code:** [`thuc_hanh/bai-04-thap-tai-san.py`](../thuc_hanh/bai-04-thap-tai-san.py)
 > — làm đúng bài tập mà C1 tr. 24 giao, và thêm phép kiểm cho nguyên tắc mà sách nêu ở tr. 21
 > nhưng không cho công cụ.
+>
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
 
 ---
 
@@ -38,12 +38,14 @@
 
 Unit 3 mở đầu bằng cách nhắc định nghĩa nổi tiếng nhất của thể loại này:
 
+> [!quote]
 > *"Bắt đầu từ cuốn sách 'Rich dad poor dad', Robert Kiyosaki đưa ra khái niệm **tài sản** (asset)
 > là những gì mang tiền vào túi bạn, còn **tiêu sản** (liability) là những gì lấy tiền trong túi bạn
 > ra."* — C1 tr. 16
 
 Rồi bác nó ngay:
 
+> [!quote]
 > *"Định nghĩa như vậy dễ hiểu nhưng **sơ sài**, vì đã bỏ qua những loại tài sản vô hình, đồng thời
 > dẫn đến một cuộc tranh luận không dứt cho câu hỏi 'Ngôi nhà là tài sản hay tiêu sản'."* — C1 tr. 16
 
@@ -58,6 +60,7 @@ nghĩa của khái niệm).
 **Hai, thay thế bằng cái tốt hơn.** Sách bỏ phép phân đôi và thay bằng một định nghĩa rộng cộng một
 phép chia:
 
+> [!quote]
 > *"**Tài sản (Assets) là những gì tạo ra lợi ích trong tương lai.** Tài sản chia làm 2 loại là Tài
 > sản đầu tư và Tài sản tiêu dùng."* — C1 tr. 16
 
@@ -95,6 +98,7 @@ sách vừa bảo là sơ sài. Cặp từ cần nhớ là **tài sản đầu t
 [Bài 2](bai_02_do_hien_trang.md#3-tài-sản-ròng--bước-2-và-bảng-cân-đối-cá-nhân) đã nêu và hẹn làm
 kỹ ở đây:
 
+> [!quote]
 > *"**Nợ (Liabilities) là các khoản vay để tạo ra tài sản.**"* — C1 tr. 17
 
 Vế "để tạo ra tài sản" là chỗ hẹp. Ba khoản nợ rất thật không lọt qua được:
@@ -124,6 +128,7 @@ thế nào.
 
 **Trang 20–21**, sách giới thiệu tháp tài sản và chia nó làm **bốn tầng**:
 
+> [!quote]
 > *"Một mô hình tháp tài sản cơ bản có thể chia làm **4 tầng** bao gồm: **Tầng 1: Bảo vệ**…
 > **Tầng 2: Lập kế hoạch**… **Tầng 3: Mục tiêu ưu tiên**… **Tầng 4: Tài sản cho thế hệ sau**."*
 > — C1 tr. 20–21
@@ -131,6 +136,7 @@ thế nào.
 **Trang 21**, ngay sau đó, mục *"Nguyên tắc xây dựng"* liệt kê một thứ tự khác hẳn — **năm lớp**,
 tên khác:
 
+> [!quote]
 > *"Một tháp tài sản được xem là bền vững khi bạn xây dần từ đế lên với phần bên dưới càng rộng
 > càng tốt. Bắt đầu với **Lớp tài sản vô hình**, sau đó lên dần là **Lớp bảo vệ**, **Lớp tạo thu
 > nhập**, **Lớp tăng trưởng**. Trên đỉnh tháp là **Lớp rủi ro** với phần trăm phân bổ ít nhất."*
@@ -207,6 +213,7 @@ Hai điều kiện lọc mà sách đặt ra cho việc xếp tài sản vào th
 
 **Một, chỉ tính thứ nắm giữ lâu dài.**
 
+> [!quote]
 > *"Bạn sẽ chỉ đưa vào đây những tài sản nắm giữ lâu dài. Chúng ta sẽ không tính các cổ phiếu hay
 > các loại tài sản mà bạn liên tục giao dịch, trading ngắn hạn."* — C1 tr. 21
 
@@ -216,6 +223,7 @@ lằn ranh: tài sản là thứ *nắm giữ*, không phải thứ *xoay vòng*
 
 **Hai, xây từ đáy lên.**
 
+> [!quote]
 > *"Một tháp tài sản được xem là bền vững khi bạn xây dần từ đế lên với **phần bên dưới càng rộng
 > càng tốt**."* — C1 tr. 21
 
@@ -237,6 +245,7 @@ tiêu tối thiểu"* (C1 tr. 21). **Bài 9** làm kỹ, kèm tiêu chí chọn 
 
 Sách kết thúc Unit 3 bằng một bài tập:
 
+> [!quote]
 > *"Tính toán mỗi lớp tài sản hiện tại chiếm bao nhiêu phần trăm trong cấu trúc tháp tài sản của
 > bạn? Vẽ hình dáng tháp tài sản cá nhân."* — C1 tr. 24
 
@@ -245,6 +254,7 @@ một phép kiểm rõ ràng — **mỗi lớp phải rộng hơn lớp ngay tr�
 
 ### A. Người mà chính sách mô tả ở tr. 19–20
 
+> [!quote]
 > *"Khi có một khoản tiền nhàn rỗi, họ đưa ngay vào Lớp rủi ro nhất như Cổ phiếu penny, Chứng khoán
 > phái sinh, Forex, Crypto…"* — C1 tr. 19
 
@@ -299,6 +309,7 @@ làm đúng như sách bảo, gần như luôn cho ra hình tháp đẹp.
 
 Nên câu hỏi có ích không phải *"tháp của tôi có cân không"*. Nó là hai câu khác:
 
+> [!note]
 > **(1)** Sáu phần trăm hữu hình kia có xếp đúng thứ tự không? — đó là chỗ tháp A và tháp B khác
 > nhau, và là chỗ người ta thật sự phá sản.
 >
@@ -315,6 +326,7 @@ nói phần lớn tài sản của bạn **nằm ở đó**.
 
 Sách đưa ra cách định giá lớp đáy:
 
+> [!quote]
 > *"Thu nhập hàng tháng của bạn là bao nhiêu? Ví dụ: giả sử anh A có mức lương 10 triệu đồng/tháng.
 > Nhân con số đó với 12… là 120 triệu đồng. Lãi suất ngân hàng tại thời điểm này là 9%/năm. Bằng
 > phép tính nhân chéo đơn giản, ta có con số **1,3 tỷ**."* — C1 tr. 22–23
@@ -327,6 +339,7 @@ Phép tính đúng: $120 \text{ triệu} \div 9\% = 1{,}33$ tỷ. Sách cũng r�
 
 Chia thu nhập cho lãi suất là phép vốn hoá một dòng tiền **không bao giờ dừng**. Nhưng C2 nói ngược:
 
+> [!quote]
 > *"vốn con người sẽ giảm theo thời gian, do tuổi trẻ là giai đoạn tốt nhất cho sự học hỏi và phát
 > triển, nhưng càng lớn tuổi thì 'vốn' sẽ giảm đi liền với sức khỏe bản thân."* — C2 tr. 13
 
@@ -371,6 +384,7 @@ hơn hẳn. Ai làm phép tính này hôm nay bằng lãi suất hôm nay sẽ r
 Đừng dùng nó như một **giá trị**. Dùng nó như một **thước đo tương đối**, và sách gợi đúng cách
 dùng đó ở câu ngay sau:
 
+> [!quote]
 > *"Nó trả về một kết quả mà nếu bạn không hài lòng về điều này, bạn sẽ có động lực để thay đổi
 > định giá bản thân."* — C1 tr. 23
 

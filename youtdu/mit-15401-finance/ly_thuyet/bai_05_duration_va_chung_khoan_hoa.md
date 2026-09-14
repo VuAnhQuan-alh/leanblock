@@ -1,13 +1,12 @@
 # Bài 5 — Trái phiếu II: luật một giá, đo rủi ro, và cỗ máy tạo AAA
 
+> [!info] Về bài này
 > Bài học dựng trên **toàn bộ** hai video **"Ses 6: Fixed-Income Securities III"**
 > (`AtT59jxU9es`, 79:45) và **"Ses 7: Fixed-Income Securities IV"** (`ZWKnK9LIETA`, 75:33) —
 > khoá **MIT 15.401 *Finance Theory I*, Fall 2008**, giảng viên **Prof. Andrew W. Lo**.
 > Phụ đề gốc do người viết tay.
->
 > 🕑 Mốc thời gian có tiền tố buổi: `S6 57:29` = buổi 6, phút 57:29. Vài chỗ dẫn ngược sang
 > `S1`–`S5` — mọi mốc đều đối chiếu với **đúng** video của nó.
->
 > 🏛 **Phần cuối mục 10 đến từ một khoá khác.** Năm mục `###` về **quyền trả trước** và **lồi âm**
 > dựng trên [Yale ECON 251](https://oyc.yale.edu/economics/econ-251) của John Geanakoplos, bài
 > giảng **17** (`rH-0KBgQk2E`), **18** (`qbEsK92KpQI`), **20** (`gXrCrXuU2_g`) và
@@ -16,16 +15,13 @@
 > tới quyền chọn nằm sẵn bên trong mỗi món; và mục 8 dạy duration như một thước đo rủi ro mà không
 > nói nó cũng chính là **tỷ lệ phòng hộ**. Xem thêm [bài 20](bai_20_chu_ky_don_bay.md).
 >
-> 📚 **Mở rộng** — kiến thức video lướt qua hoặc bài học này bổ sung, **không có trong video**.
-> 🇻🇳 **Góc Việt Nam** — số liệu và ví dụ trong nước (mục 19), **không có trong video**.
-> ⚠️ Mục **6** ghi lại một dự đoán chính sách của Lo mà nghiên cứu sau đó **xác nhận là đúng**;
-> mục **11** và **18** đối chiếu với 2026.
-> 📌 **Cần đọc trước:** [Bài 4](bai_04_trai_phieu_va_duong_cong.md) — lãi suất giao ngay, lợi suất
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
+>
+> **Cần đọc trước:** [Bài 4](bai_04_trai_phieu_va_duong_cong.md) — lãi suất giao ngay, lợi suất
 > đáo hạn và gói STRIPS là nền của mọi thứ ở đây.
-> 📌 **Bài 1 có nợ bạn một lời hứa.** [Mục 14 của bài 1](bai_01_tai_chinh_la_gi.md) kể vụ SVB rồi
+> **Bài 1 có nợ bạn một lời hứa.** [Mục 14 của bài 1](bai_01_tai_chinh_la_gi.md) kể vụ SVB rồi
 > viết *"toàn bộ đoạn trên là nội dung bài 5"*. [Mục 11](#11-duration-không-phải-chuyện-cũ--svb-2023)
 > trả món nợ đó.
->
 > Công thức viết bằng LaTeX — mở bằng **Obsidian** hoặc VS Code + Markdown Preview Enhanced.
 
 ---
@@ -74,22 +70,25 @@ hai đều rơi đúng vào những ngày mà bây giờ nằm trong sách giáo
 
 Bằng chứng cho ngày buổi 7 nằm ngay trong lời Lo (`S7 01:30`):
 
+> [!quote]
 > *"Nó **đang được bỏ phiếu ngay lúc chúng ta nói chuyện**. Nên hy vọng ta sẽ biết kết quả vào cuối
 > buổi học, hoặc cuối ngày hôm nay. Nếu nó không được thông qua, các bạn nghĩ chuyện gì sẽ xảy ra
 > với lãi suất ba tháng?"*
 
-⚠️ **Nó không được thông qua.** Chiều hôm đó, **Hạ viện bác TARP với tỷ lệ 228–205**. Chỉ số Dow
-Jones rơi **777,68 điểm (−6,98 %)** — cú giảm theo điểm lớn nhất lịch sử tính tới lúc đó. S&P 500
-mất gần 9 %. Chỉ số biến động VIX lập đỉnh mọi thời đại.
+> [!warning] Nó không được thông qua.
+> Chiều hôm đó, **Hạ viện bác TARP với tỷ lệ 228–205**. Chỉ số Dow
+> Jones rơi **777,68 điểm (−6,98 %)** — cú giảm theo điểm lớn nhất lịch sử tính tới lúc đó. S&P 500
+> mất gần 9 %. Chỉ số biến động VIX lập đỉnh mọi thời đại.
 
 Lo đặt câu hỏi cho lớp, rồi lớp tan, rồi câu trả lời tới trong vòng vài giờ.
 
-📚 Ba mảnh bằng chứng khác chốt lịch, để bạn tự kiểm: Lo hẹn *"thứ Năm, mùng 2 tháng 10, từ 5 giờ 30
-tới 7 giờ"* cho một toạ đàm của Sloan (`S7 06:56`); ông thảo luận thương vụ **Wachovia–Citigroup**
-công bố sáng 29/9 (`S7 09:13`); và ông kết thúc bằng *"hẹn gặp lại vào **thứ Tư**"* (`S7 75:33`) —
-tức buổi 8 là 1/10. Còn buổi 6 thì Lo mở đầu bằng *"có câu hỏi nào từ buổi trước không, buổi đó là
-**một tuần trước**. Mong các bạn đã nghỉ ngơi tốt."* (`S6 00:00`) — buổi 5 là thứ Tư 17/9, nên buổi
-6 là thứ Tư 24/9, và **lớp thứ Hai 22/9 đã không diễn ra**.
+> [!note]
+> Ba mảnh bằng chứng khác chốt lịch, để bạn tự kiểm: Lo hẹn *"thứ Năm, mùng 2 tháng 10, từ 5 giờ 30
+> tới 7 giờ"* cho một toạ đàm của Sloan (`S7 06:56`); ông thảo luận thương vụ **Wachovia–Citigroup**
+> công bố sáng 29/9 (`S7 09:13`); và ông kết thúc bằng *"hẹn gặp lại vào **thứ Tư**"* (`S7 75:33`) —
+> tức buổi 8 là 1/10. Còn buổi 6 thì Lo mở đầu bằng *"có câu hỏi nào từ buổi trước không, buổi đó là
+> **một tuần trước**. Mong các bạn đã nghỉ ngơi tốt."* (`S6 00:00`) — buổi 5 là thứ Tư 17/9, nên buổi
+> 6 là thứ Tư 24/9, và **lớp thứ Hai 22/9 đã không diễn ra**.
 
 Lịch bảy buổi đầu giờ đã đủ: **3–4/9 · 8/9 · 10/9 · 15/9 · 17/9 · 24/9 · 29/9/2008.**
 
@@ -101,6 +100,7 @@ Lịch bảy buổi đầu giờ đã đủ: **3–4/9 · 8/9 · 10/9 · 15/9 ·
 17/9 với lợi suất tín phiếu kho bạc 3 tháng ở **3 điểm cơ bản**. Lo quay lại đúng biểu đồ đó ở cả
 hai buổi này, và biến nó thành một dụng cụ đo (`S7 01:45`):
 
+> [!quote]
 > *"Bạn có thể coi đây như một **cái nhiệt kế**. Đo nhiệt độ của nền kinh tế. Khá kinh ngạc, phải
 > không? Nó cho bạn thấy thị trường tài chính rất động, và bạn thực sự học được rất nhiều từ giá
 > thị trường."*
@@ -121,22 +121,26 @@ lợi suất tăng **vì** giá giảm, và giá giảm vì cơn tranh mua đã 
 **Đầu dài thì ngược lại.** Lợi suất 30 năm **tăng** từ 4,0 % lên 4,37 % trong một tuần. Một sinh
 viên đưa ra lời giải thích, và Lo nhận ngay (`S6 06:13`):
 
+> [!quote]
 > *"Có lẽ họ lo về **lạm phát** hơn. Chính phủ vừa hứa 700 tỷ đô."* — *"Được, vậy lạm phát giờ đã
 > được đưa vào giá, chỉ trong bảy ngày qua."*
 
 Rồi ông hỏi câu quan trọng nhất mục này (`S6 06:37`):
 
+> [!quote]
 > *"Vậy thì — giá hôm nay đúng, hay giá tuần trước đúng? Đầu ngắn của đường cong lãi suất là hợp lý
 > ở 41 điểm cơ bản hôm nay, hay thực ra hợp lý ở 3 điểm cơ bản tuần trước?"*
 
 Và ông tự trả lời (`S6 06:56`):
 
+> [!quote]
 > *"**Không có câu trả lời cho câu hỏi đó, vì không có câu trả lời đúng.** Những mức giá này là
 > phản ánh kỳ vọng hiện tại của tất cả người tham gia thị trường. Đúng hay sai, nó phản ánh tổng hoà
 > của trí tuệ, hoặc nỗi sợ, hoặc lòng tham của thị trường."*
 
 Và ông nối thẳng về **buổi 1** (`S6 07:18`):
 
+> [!quote]
 > *"Ta muốn moi ra thông tin nằm trong giá, nhưng bạn phải hiểu rằng **đây chính là loại giá không
 > hoàn hảo mà ta đã tạo ra trong ngày đầu tiên**, khi các bạn đấu giá cái gói nhỏ đó. Hoá ra bạn may
 > mắn và mua được một chiếc iPod với 45 đô. Nhưng nó đã có thể đi theo hướng khác. Và thực tế, ở lớp
@@ -157,10 +161,11 @@ con số "3 điểm cơ bản" của Lo **đúng từng điểm cơ bản** vớ
 | 24/9 | 3 tháng **0,41 %** · 30 năm **4,37 %** | 0,49 % · 4,40 % |
 | 29/9 | 3 tháng **0,71 %** · 30 năm **4,22 %** | 0,94 % · 4,13 % |
 
-📚 Đây **không** phải lỗi của ai. Lo đang mở Bloomberg **trực tiếp giữa buổi học**, còn H.15 là ảnh
-chụp tại một thời điểm cố định cuối ngày. Ngày 29/9 lãi suất chạy loạn cả ngày — chính Lo nói *"sáng
-nay có lúc đầu ngắn trên 1 %, giờ đã lùi về"* (`S7 00:45`), và buổi chiều Hạ viện bác TARP khiến
-tiền tháo chạy vào kho bạc lần nữa.
+> [!note]
+> Đây **không** phải lỗi của ai. Lo đang mở Bloomberg **trực tiếp giữa buổi học**, còn H.15 là ảnh
+> chụp tại một thời điểm cố định cuối ngày. Ngày 29/9 lãi suất chạy loạn cả ngày — chính Lo nói *"sáng
+> nay có lúc đầu ngắn trên 1 %, giờ đã lùi về"* (`S7 00:45`), và buổi chiều Hạ viện bác TARP khiến
+> tiền tháo chạy vào kho bạc lần nữa.
 
 Bài học nhỏ nhưng rất thực dụng: **"lợi suất ngày 29/9/2008" không phải một con số duy nhất.**
 Khi bạn đọc một con số thị trường trong báo cáo, hỏi ngay: *chốt phiên, hay lúc mấy giờ?* Vào những
@@ -172,6 +177,7 @@ ngày bình thường câu hỏi đó vô nghĩa. Vào những ngày quan trọn
 
 Lo dừng bài giảng để hỏi lớp một câu (`S6 08:08`):
 
+> [!quote]
 > *"Có chuyện rất quan trọng đã xảy ra tuần trước. Và tôi không biết bao nhiêu bạn thực sự nghe
 > thấy. Bộ Tài chính chắc chắn biết, Fed cũng biết, nhưng **báo chí không làm nổi bật nó theo cách
 > mà tôi nghĩ đáng lẽ phải làm**, xét mức độ quan trọng. Có ai biết tôi đang nói về chuyện gì không?"*
@@ -179,6 +185,7 @@ Lo dừng bài giảng để hỏi lớp một câu (`S6 08:08`):
 Sinh viên đoán lệnh cấm bán khống — Lo nói đó là chuyện khác, sẽ quay lại cuối buổi. Rồi có người
 trả lời đúng (`S6 09:42`):
 
+> [!quote]
 > *"Một trong những quỹ thị trường tiền tệ lớn đã **vỡ mệnh giá**."* — *"Vỡ mệnh giá, chính xác. Quỹ
 > nào? — **Quỹ Reserve.**"*
 
@@ -186,12 +193,14 @@ trả lời đúng (`S6 09:42`):
 
 Lo giải thích cho lớp — và cách ông giải thích đáng chép lại (`S6 10:51`):
 
+> [!quote]
 > *"Quỹ thị trường tiền tệ được cho là an toàn tới mức khi bạn bỏ 1 đô vào, thì ít nhất khi rút ra
 > bạn phải nhận lại được 1 đô. **Vỡ mệnh giá** nghĩa là nếu bạn rút, có khả năng thứ bạn rút được
 > **ít hơn 1 đô**."*
 
 Và vì sao đó không phải chuyện nhỏ (`S6 11:07`):
 
+> [!quote]
 > *"Nghĩ về ngân hàng — khi bạn bỏ tiền vào tài khoản thanh toán, bạn **kỳ vọng** lấy được tiền ra,
 > có thể không nhiều lãi, thậm chí không lãi nếu mọi chuyện không thuận, nhưng bạn kỳ vọng nhận lại
 > **đúng số vốn**. Quỹ thị trường tiền tệ cũng y hệt vậy. Người ta dùng nó **như thể** đó là tài
@@ -199,6 +208,7 @@ Và vì sao đó không phải chuyện nhỏ (`S6 11:07`):
 
 Con số cụ thể (`S6 14:35`):
 
+> [!quote]
 > *"Vỡ mệnh giá trong trường hợp này nghĩa là nếu bạn bỏ vào 1 đô, khi rút ra tuần trước bạn nhận
 > được **97 xu**. Bạn mất 3 xu trên mỗi đô — nghe có vẻ không nhiều, nhưng nếu bạn ra máy ATM của
 > Bank of America và cứ mỗi đô gửi vào bạn rút ra được 97 xu, bạn sẽ khá cáu."*
@@ -214,12 +224,13 @@ Con số cụ thể (`S6 14:35`):
 | Yêu cầu rút | **25 tỷ đô** ngay ngày 15/9; **vượt 40 tỷ** trong hai ngày                            |
 | Đóng băng   | 19/9 nộp đơn lên SEC xin **ngưng toàn bộ quyền rút**                                  |
 
-⚠️ Lo nói *"ước tính, tôi nghĩ là **90 tỷ đô** đã rời khỏi các quỹ này trong một tuần"* (`S6 14:51`).
-Con số thật **lớn hơn nhiều**: khoảng **300 tỷ đô** rút khỏi các quỹ *prime* trong vòng một tuần;
-một nghiên cứu của Yale tính tổng cuộc tháo chạy trên toàn thị trường quỹ thị trường tiền tệ là
-**439 tỷ đô**. Trong "tháng khủng hoảng" 2/9–7/10/2008, tài sản của các quỹ **chỉ nắm giấy tờ chính
-phủ** tăng **409 tỷ đô (+44 %)** — đúng bức tranh Lo mô tả: tiền không biến mất, nó **chạy sang chỗ
-trú**.
+> [!warning]
+> Lo nói *"ước tính, tôi nghĩ là **90 tỷ đô** đã rời khỏi các quỹ này trong một tuần"* (`S6 14:51`).
+> Con số thật **lớn hơn nhiều**: khoảng **300 tỷ đô** rút khỏi các quỹ *prime* trong vòng một tuần;
+> một nghiên cứu của Yale tính tổng cuộc tháo chạy trên toàn thị trường quỹ thị trường tiền tệ là
+> **439 tỷ đô**. Trong "tháng khủng hoảng" 2/9–7/10/2008, tài sản của các quỹ **chỉ nắm giấy tờ chính
+> phủ** tăng **409 tỷ đô (+44 %)** — đúng bức tranh Lo mô tả: tiền không biến mất, nó **chạy sang chỗ
+> trú**.
 
 Lo không có con số đúng lúc đó — không ai có, chuyện mới xảy ra tám ngày. Điều đáng chú ý là ông
 đọc đúng **cơ chế** trước khi có số liệu.
@@ -228,12 +239,14 @@ Lo không có con số đúng lúc đó — không ai có, chuyện mới xảy 
 
 Đây là luận điểm hay nhất của cả bài, và Lo lặp lại nó ở buổi 7 (`S7 13:08`):
 
+> [!quote]
 > *"Lý do khiến cơ quan quản lý và chính phủ **cuối cùng** phải hành động **không phải** vì Lehman
 > sụp, hay AIG sụp, hay bất kỳ tổ chức lớn nào khác sụp. Lý do cuối cùng đẩy họ qua mép để làm một
 > việc thực sự lớn là vì **quỹ Reserve — một quỹ thị trường tiền tệ bán lẻ — đã vỡ mệnh giá.**"*
 
 Lo dựng cơ chế lan truyền (`S6 12:05`, `S6 12:25`):
 
+> [!quote]
 > *"Nếu nhà đầu tư cá nhân, người tiêu dùng bình thường, hoảng sợ về tài khoản quỹ tiền tệ của họ,
 > họ sẽ **đồng loạt** làm cái đã xảy ra tuần trước: rút những khoản tiền khổng lồ ra. Và như tôi đã
 > nói, **không doanh nghiệp nào chịu nổi việc toàn bộ vốn bị rút cùng một lúc.** Nếu điều đó xảy ra,
@@ -242,13 +255,15 @@ Lo dựng cơ chế lan truyền (`S6 12:05`, `S6 12:25`):
 
 Và ẩn dụ (`S6 16:00`):
 
+> [!quote]
 > *"Ai từng xem phim về thế giới động vật kiểu đàn trâu rừng chạy loạn — khi cả đàn đã lồng lên thì
 > rất khó chỉ đứng đó nói: bình tĩnh nào, dừng lại đi, chậm thôi. Bạn không làm thế được nữa khi nó
 > đã bắt đầu. Nên **bạn phải chặn nó trước khi nó tới điểm tới hạn**."*
 
-📚 Chính phủ Mỹ làm đúng điều Lo mô tả: **19/9/2008** Bộ Tài chính lập **Chương trình Bảo lãnh Tạm
-thời cho Quỹ Thị trường Tiền tệ**, dùng Quỹ Bình ổn Tỷ giá 50 tỷ đô làm hậu thuẫn — bảo hiểm cho
-quỹ tiền tệ đúng cách FDIC bảo hiểm tiền gửi, y như Lo mô tả ở `S6 12:59`.
+> [!note]
+> Chính phủ Mỹ làm đúng điều Lo mô tả: **19/9/2008** Bộ Tài chính lập **Chương trình Bảo lãnh Tạm
+> thời cho Quỹ Thị trường Tiền tệ**, dùng Quỹ Bình ổn Tỷ giá 50 tỷ đô làm hậu thuẫn — bảo hiểm cho
+> quỹ tiền tệ đúng cách FDIC bảo hiểm tiền gửi, y như Lo mô tả ở `S6 12:59`.
 
 ---
 
@@ -256,19 +271,23 @@ quỹ tiền tệ đúng cách FDIC bảo hiểm tiền gửi, y như Lo mô t�
 
 Ở phút `S6 28:19` Lo bắt đầu bài giảng thật, và ông quay về nguyên lý đã nêu từ buổi 1:
 
+> [!quote] S6 28:52
 > *"Đây là **luật một giá**. Ý tưởng rất đơn giản. Đơn giản tới mức bạn có thể nghĩ nó hiển nhiên,
 > nhưng nó có những hệ quả cực kỳ mạnh."* (`S6 28:52`)
 
+> [!quote] S6 29:21
 > *"**Hai dòng tiền giống hệt nhau phải có cùng một mức giá thị trường.**"* (`S6 29:21`)
 
 Ông nối ngay với định nghĩa tài sản ở [bài 2](bai_02_gia_tri_hien_tai.md#3-tài-sản-là-gì--định-nghĩa-lại-từ-gốc)
 (`S6 29:21`):
 
+> [!quote]
 > *"Nhớ rằng khi ta nghĩ về một tài sản, ta nghĩ về nó như **một chuỗi dòng tiền**. Tài sản là như
 > thế. Nên tôi chỉ đang nói: khi có hai tài sản giống hệt nhau, chúng phải có cùng giá."*
 
 Và tầm quan trọng (`S6 29:36`):
 
+> [!quote]
 > *"Nguyên lý này là **một trong những ý tưởng quan trọng nhất trong toàn bộ tài chính hiện đại**,
 > vì nó dẫn tới việc định giá đủ mọi loại chứng khoán, bao gồm **tất cả** các sản phẩm phái sinh
 > từng được định giá trên Phố Wall."*
@@ -277,10 +296,12 @@ Và tầm quan trọng (`S6 29:36`):
 
 Một sinh viên chất vấn (`S6 29:56`):
 
+> [!quote]
 > *"Nhưng thầy có phải thêm điều kiện rằng đó là **ở trạng thái cân bằng** không?"*
 
 Lo trả lời (`S6 30:09`, `S6 30:32`, `S6 30:49`):
 
+> [!quote]
 > *"Không, không. Tôi **không** cần thêm điều kiện gì cả. Thứ nhất, vì đây là một nước tự do và tôi
 > không phải làm gì mà tôi không muốn. Nhưng quan trọng hơn, là vì tôi **không muốn** giới hạn nó
 > vào cân bằng. Cân bằng nghĩa là cung bằng cầu, đúng không? Tôi **không quan tâm** cung và cầu.
@@ -305,6 +326,7 @@ viên gạch đó.
 Vì sao chỉ cần một giả định nhỏ như vậy? Vì nếu luật bị vi phạm thì có tiền miễn phí, và Lo dựng
 lập luận từng bước (`S6 31:13`):
 
+> [!quote]
 > *"Nếu bạn chỉ cho tôi hai dòng tiền giống hệt nhau mà bán ở hai mức giá khác nhau — trước hết,
 > **đừng nói với ai ngoài tôi.**"*
 
@@ -314,6 +336,7 @@ lập luận từng bước (`S6 31:13`):
 | 2    | Bán tài sản **đắt** | thu tiền, nhiều hơn số chi                                       |
 | 3    | Ngồi im             | mọi dòng tiền tương lai **triệt tiêu** vì hai bên giống hệt nhau |
 
+> [!quote] S6 31:52
 > *"Từ thời điểm đó trở đi tôi **không còn rủi ro nào, và thực tế cũng không còn nghĩa vụ nào**. Tôi
 > có thể quên vụ đó đi, cầm tiền và tiêu. Vì tôi đã mua và bán những dòng tiền giống hệt nhau."*
 > (`S6 31:35`)
@@ -323,6 +346,7 @@ lập luận từng bước (`S6 31:13`):
 
 Lo nhấn ba lần vào chi tiết mà người mới học hay bỏ qua (`S6 37:14`, `S6 37:44`, `S6 37:59`):
 
+> [!quote] S6 38:14, S6 38:31
 > *"Bạn phải bỏ ra bao nhiêu tiền của chính mình cho giao dịch này? — **Không đồng nào**, bởi vì thứ
 > bạn mua được **tài trợ hoàn toàn bởi thứ bạn bán**. Và trên nữa, bạn còn dư một ít."*
 >
@@ -336,13 +360,15 @@ Lo nhấn ba lần vào chi tiết mà người mới học hay bỏ qua (`S6 37
 
 Khi giá thị trường không khớp lý thuyết, ông không thấy lý thuyết bị đe doạ (`S6 35:29`):
 
+> [!quote]
 > *"Nếu chúng không cùng giá, thì thay vì buồn bã và nghi ngờ rằng lý thuyết tài chính có vấn đề,
 > **điều hào hứng nhất với một giáo sư tài chính là thấy lý thuyết này sụp đổ** — bởi vì khi đó ta
 > có thể ra thị trường giao dịch và kiếm tiền. Nên nếu luật một giá thất bại, đừng gọi điện phàn nàn
 > với tôi. Hãy gọi điện **kể cho tôi nghe nó ở đâu** để tôi tận dụng."*
 
-📚 **Mục 20 của bài này dựng đúng giao dịch đó bằng số**, với ba trái phiếu thật: bỏ 0 đồng, thu
-**1,14 đô** ngay hôm nay, và mọi dòng tiền năm 1 và năm 2 triệt tiêu **chính xác về 0**.
+> [!note] Mục 20 của bài này dựng đúng giao dịch đó bằng số
+> , với ba trái phiếu thật: bỏ 0 đồng, thu
+> **1,14 đô** ngay hôm nay, và mọi dòng tiền năm 1 và năm 2 triệt tiêu **chính xác về 0**.
 
 ---
 
@@ -350,18 +376,21 @@ Khi giá thị trường không khớp lý thuyết, ông không thấy lý thuy
 
 Một sinh viên hỏi về chi phí giao dịch, và Lo dùng nó để dẫn tới điểm nóng nhất buổi (`S6 40:16`):
 
+> [!quote]
 > *"Một dạng chi phí giao dịch **không phải là con số** mà là một **ma sát**. Bạn cần **làm được**
 > việc gì thì mới thực hiện được giao dịch này?"* — *"Phải **bán khống** được."*
 
 Đúng vậy: bước 2 của mục 5 là **bán một thứ bạn không sở hữu**. Bạn mượn nó từ nhà môi giới, bán
 đi, thu tiền, rồi trả lại sau. Nếu không bán khống được thì (`S6 41:18`, `S6 41:37`):
 
+> [!quote]
 > *"Lập luận kênh hoá này dựa vào việc bạn bán được thứ bạn không sở hữu. **Nếu tôi không cho phép
 > bạn bán khống, lập luận này không còn chạy nữa.** Và điều đó nghĩa là quan hệ định giá này — vế
 > trái phải bằng vế phải — **bay ra ngoài cửa sổ**."*
 
 Rồi câu của cả bài (`S6 41:57`):
 
+> [!quote]
 > *"Trong vài tuần tới và có thể vài tháng tới, **lý thuyết tài chính sẽ đi nghỉ phép**, bởi vì
 > chính phủ đã đình chỉ bán khống với một số chứng khoán."*
 
@@ -372,6 +401,7 @@ sàn bổ sung thêm trong những ngày sau lên **gần 1.000 mã**. Lệnh c�
 
 Lo nêu lý do chính trị đằng sau (`S6 43:10`):
 
+> [!quote] S6 43:28
 > *"Vấn đề với phương án kia thiên về chính trị. Vấn đề chính trị là: chúng ta muốn **những kẻ xấu
 > xa** này, những người bán khống đang đẩy giá chứng khoán tài chính xuống, phải dừng hành vi tồi tệ
 > của họ. Nên ta sẽ ra luật cấm. Điều đó có thể hợp lý từ góc nhìn chính trị, nhưng **không hợp lý
@@ -382,6 +412,7 @@ Lo nêu lý do chính trị đằng sau (`S6 43:10`):
 Sinh viên tên Megan hỏi tại sao không **tăng chi phí** bán khống thay vì cấm hẳn (`S6 42:17`). Lo
 nhận ngay (`S6 42:35`):
 
+> [!quote]
 > *"Đó là một phương án thay thế **tuyệt vời**. Tôi nghĩ nó đã tốt hơn nhiều. Bạn hoàn toàn đúng."*
 
 Ông giải thích rằng thị trường đã có sẵn cơ chế: cổ phiếu **khó mượn** (*hard-to-borrow*) bị tính
@@ -414,6 +445,7 @@ giới mà cả khoá học này nên dạy bạn tôn trọng.
 Một sinh viên chỉ ra rằng ngay cả khi cấm bán khống, **người đang sở hữu** trái phiếu đắt vẫn có thể
 bán nó đi và mua gói rẻ hơn. Lo khen và mở rộng (`S6 47:20`, `S6 48:08`):
 
+> [!quote] S6 48:40
 > *"Người sở hữu trái phiếu coupon có thể nói: trái phiếu của tôi đáng 110, nhưng tôi lấy được đúng
 > dòng tiền đó bằng cách mua một mớ trái phiếu chiết khấu, mà chỉ tốn 100. Tôi bán trái phiếu coupon
 > ở 110, mua 100 đô trái phiếu chiết khấu, và tôi vừa kiếm 10 đô."*
@@ -432,6 +464,7 @@ phép lệch — và lệch bao lâu tuỳ vào việc còn bao nhiêu người 
 
 Lo nâng cấp bài toán (`S6 49:41`):
 
+> [!quote]
 > *"Thay vì nhìn một trái phiếu, nếu ta nhìn **cả một rổ** trái phiếu coupon thì sao?"*
 
 Đặt vấn đề:
@@ -452,6 +485,7 @@ Rồi Lo dẫn lớp qua đại số phổ thông (`S6 53:00`–`S6 54:19`):
 
 Và đây là chỗ đại số biến thành tiền (`S6 55:41`, `S6 56:31`, `S6 56:54`):
 
+> [!quote]
 > *"Nếu ta thêm trái phiếu thứ ba, và hai mức lợi suất đã dùng cho hai trái phiếu đầu **không** phù
 > hợp với trái phiếu thứ ba, thì có gì đó sai. Nghĩa là **giá của trái phiếu thứ ba không thoả mãn**
 > quan hệ đó. Đó là **bằng chứng của định giá sai**."*
@@ -469,6 +503,7 @@ tính** thật: ma trận khả nghịch, trị riêng (`S6 57:09`).
 
 Lo kể (`S6 57:29`, `S6 58:05`, `S6 58:25`):
 
+> [!quote]
 > *"Thập niên 1970, một số người tốt nghiệp MIT được Salomon Brothers tuyển. Họ biết rất ít về chứng
 > khoán thu nhập cố định. […] Và họ không giải ba phương trình hai ẩn — họ giải **200 phương trình
 > 30 ẩn**. Vào thập niên 70 chuyện đó không dễ, vì chưa có máy tính cá nhân, chưa có Excel."*
@@ -481,7 +516,7 @@ Lo kể (`S6 57:29`, `S6 58:05`, `S6 58:25`):
 
 Hoạt động này có tên: **kênh hoá thu nhập cố định** (`S6 58:48`).
 
-📚 **Số thật, và câu chuyện đầy đủ:**
+> [!note] Số thật, và câu chuyện đầy đủ:
 
 |                   |                                                                                                            |
 | ----------------- | ---------------------------------------------------------------------------------------------------------- |
@@ -490,11 +525,12 @@ Hoạt động này có tên: **kênh hoá thu nhập cố định** (`S6 58:48`
 | Bối cảnh          | nhóm kênh hoá của Salomon lãi ~**400 triệu đô** năm đó và có thoả thuận hưởng **15 %** lợi nhuận giao dịch |
 | Biệt danh báo chí | *"Salomon's $23 million man"*                                                                              |
 
-⚠️ **Và đây là phần Lo không kể — vì năm 2008 nó chưa phải chuyện để kể trong buổi này.** Hilibrand
-rời Salomon cùng John Meriwether để đồng sáng lập **Long-Term Capital Management**. LTCM sụp năm
-1998. Phần vốn của các sáng lập viên rơi từ **1,8 tỷ đô xuống 27 triệu**. Theo Roger Lowenstein
-trong *When Genius Failed*, Hilibrand — trước đó tài sản gần nửa tỷ đô — tỉnh dậy trắng tay và
-**nợ 24 triệu đô**.
+> [!warning] Và đây là phần Lo không kể — vì năm 2008 nó chưa phải chuyện để kể trong buổi này.
+> Hilibrand
+> rời Salomon cùng John Meriwether để đồng sáng lập **Long-Term Capital Management**. LTCM sụp năm
+> 1998. Phần vốn của các sáng lập viên rơi từ **1,8 tỷ đô xuống 27 triệu**. Theo Roger Lowenstein
+> trong *When Genius Failed*, Hilibrand — trước đó tài sản gần nửa tỷ đô — tỉnh dậy trắng tay và
+> **nợ 24 triệu đô**.
 
 Cùng một người, cùng một phương pháp, hai kết cục cách nhau chín năm. Chênh lệch không nằm ở toán
 mà ở **đòn bẩy** ([bài 3](bai_03_don_bay_va_lam_phat.md)) và ở **tương quan** — thứ mà mục 15 của
@@ -502,9 +538,10 @@ bài này sắp mổ xẻ. LTCM chết vì các vị thế lẽ ra độc lập 
 xảy ra với CDO. Và Lo nhắc tới LTCM ở `S7 28:32` như một vết lồi trên biểu đồ chênh lệch tín dụng
 mà không dừng lại — nhưng bạn thì nên dừng.
 
-⚠️ Lo còn nói *"siêu máy tính đầu tiên từng được lắp trên Phố Wall, một chiếc **Cray-2**, được lắp ở
-Salomon Brothers"* (`S6 60:47`). Tôi **không xác minh được** khẳng định này từ nguồn độc lập; bài này
-trình bày nó như **chuyện Lo kể**, không phải dữ kiện đã kiểm.
+> [!warning]
+> Lo còn nói *"siêu máy tính đầu tiên từng được lắp trên Phố Wall, một chiếc **Cray-2**, được lắp ở
+> Salomon Brothers"* (`S6 60:47`). Tôi **không xác minh được** khẳng định này từ nguồn độc lập; bài này
+> trình bày nó như **chuyện Lo kể**, không phải dữ kiện đã kiểm.
 
 Và một cảnh báo thực dụng (`S6 59:22`): *"Đây là thứ bạn dứt khoát **không nên thử ở nhà**. Tôi biết
 các bạn có MATLAB và nghịch được ma trận nghịch đảo, nhưng còn cả đống ma sát, chi phí giao dịch và
@@ -520,18 +557,21 @@ khiếm khuyết khác phải nhét vào phân tích."*
 
 Nửa sau buổi 6 đổi chủ đề: **đo rủi ro**. Lo đặt câu hỏi rất cơ học (`S6 61:45`, `S6 62:52`):
 
+> [!quote]
 > *"Tôi muốn nhìn giá thị trường của một trái phiếu như một **hàm số** có đầu vào và đầu ra là giá.
 > Rồi hỏi: **dao động ở đầu vào tạo ra dao động bao nhiêu ở đầu ra?** […] Thứ tôi đang nói tới là
 > **độ dốc** của đường này."*
 
 Ông giải thích tại sao trái phiếu dài nhạy hơn (`S6 64:43`):
 
+> [!quote]
 > *"Suất chiết khấu bạn dùng, cái $1+r$ này, bạn nâng nó lên **luỹ thừa 30** chứ không phải luỹ thừa
 > ¼. Và thứ nằm ở mẫu số được nâng lên luỹ thừa 30 thì khi bạn động vào mẫu số một chút, tác động
 > lớn hơn nhiều."*
 
 Rồi ông đặt tên (`S6 63:23`):
 
+> [!quote]
 > *"Nó được gọi là **duration**, đặt theo tên **Macaulay**, người đầu tiên đề xuất nó như một cách
 > đo mức rủi ro của trái phiếu."*
 
@@ -558,6 +598,7 @@ suất. Ngược lại, nếu toàn bộ khoản trả nằm **xa tít trong tư
 
 Vì bạn không nắm một trái phiếu, bạn nắm **một danh mục** (`S6 68:48`):
 
+> [!quote] S6 69:21
 > *"Khi nhà đầu tư trái phiếu nhìn một danh mục — và **đây là điểm mấu chốt**, họ nhìn danh mục bởi
 > vì đó là thứ họ đầu tư vào. Khi bạn bỏ tiền vào quỹ thị trường tiền tệ hay quỹ trái phiếu, bạn
 > không bỏ vào **một** trái phiếu, bạn bỏ vào **cả một tập**. Câu hỏi tự nhiên là: danh mục đó nhạy
@@ -584,10 +625,11 @@ D_{\text{mod}} = \frac{7{,}1324}{1{,}03} = \mathbf{6{,}9247}$$
 
 ✅ Lo đọc **7,13** và **6,92** trên lớp. Cả hai khớp. Mục 20 tính lại toàn bộ bảng bằng code.
 
-📚 Ông cũng cho một cách dùng thực dụng (`S6 71:12`): *"nếu lợi suất tăng 1/10 phần trăm, tức 10
-điểm cơ bản, giá trái phiếu sẽ giảm 68 điểm cơ bản."* Con số chính xác là **−69,0 điểm cơ bản** —
-Lo cắt bớt chữ số khi đọc miệng. Không đáng kể, nhưng nếu bạn tự tính và ra 69 thì đừng nghi ngờ
-mình.
+> [!note]
+> Ông cũng cho một cách dùng thực dụng (`S6 71:12`): *"nếu lợi suất tăng 1/10 phần trăm, tức 10
+> điểm cơ bản, giá trái phiếu sẽ giảm 68 điểm cơ bản."* Con số chính xác là **−69,0 điểm cơ bản** —
+> Lo cắt bớt chữ số khi đọc miệng. Không đáng kể, nhưng nếu bạn tự tính và ra 69 thì đừng nghi ngờ
+> mình.
 
 ---
 
@@ -595,6 +637,7 @@ mình.
 
 Ngay giữa câu, Lo tự bắt lỗi mình (`S6 70:49`):
 
+> [!quote]
 > *"Vậy duration khoảng **7,13 năm**. Nên duration là một phép đo có đơn vị là năm, hoặc đơn vị nửa
 > năm. **Xin lỗi — 7,13 đơn vị nửa năm.**"*
 
@@ -624,6 +667,7 @@ suất mỗi kỳ**, không phải lợi suất năm.
 Duration là **đạo hàm bậc nhất**. Nó là một đường thẳng tiếp xúc với một đường cong — nên nó chỉ
 đúng cho những cú dịch chuyển nhỏ. Lo thêm số hạng thứ hai (`S6 72:14`):
 
+> [!quote]
 > *"Convexity là một phép đo rủi ro khác. Nó là **đạo hàm bậc hai**. Thứ nó đo là **bản thân độ nhạy
 > thay đổi thế nào**."*
 
@@ -639,6 +683,7 @@ Lo bình luận (`S6 74:06`): *"Nhìn thì có thể như một biểu thức ki
 Lo tự kiểm nghiệm ở đầu buổi 7 bằng cách đổi lợi suất từ 6 % lên 8 % rồi so xấp xỉ với định giá lại
 thật (`S7 18:32`, `S7 18:49`):
 
+> [!quote]
 > *"Bây giờ ta có máy tính số tốc độ cao tính được tất cả trong tích tắc, bạn thấy khác biệt. Nó
 > **lệch khoảng một xu**. Một xu thì không to. Nhưng khi bạn xử lý hàng tỷ đô thì một xu là con số
 > khá đáng kể."*
@@ -655,6 +700,7 @@ thật (`S7 18:32`, `S7 18:49`):
 
 Và ông cho lời khuyên dùng nó thế nào (`S7 19:03`, `S7 19:20`):
 
+> [!quote]
 > *"Tôi **không** cho rằng bạn nên dùng convexity và duration để định giá trái phiếu. Nhưng như một
 > cách **nhanh và bẩn** để có trực giác về mức rủi ro của một danh mục trái phiếu, thì hai câu bạn
 > nên hỏi người ta là: **duration bao nhiêu, và convexity bao nhiêu.**"*
@@ -663,12 +709,14 @@ Và ông cho lời khuyên dùng nó thế nào (`S7 19:03`, `S7 19:20`):
 
 Đây là đoạn tinh tế nhất buổi 6, và nó gieo hạt cho bài 8. Lo hỏi lớp (`S6 77:20`):
 
+> [!quote]
 > *"Ta biết nếu lãi suất **tăng** thì giá trái phiếu giảm. Nhưng nếu **độ biến động** của lãi suất
 > tăng — như đã tăng trong mấy tuần qua — thì sao? Nó làm trái phiếu **đáng giá hơn hay kém hơn**?"*
 
 Nhìn vào công thức: số hạng convexity là $\tfrac{1}{2} V (\Delta y)^2$. Vì nó có **bình phương**, nó
 **luôn dương** dù lãi suất lên hay xuống. Nên (`S6 78:24`):
 
+> [!quote]
 > *"Nếu bình phương thay đổi lợi suất **tăng lên**, các yếu tố khác không đổi — mà các yếu tố khác
 > thì chẳng bao giờ không đổi, nhưng nhà kinh tế thích nói vậy — thì nó thực sự làm trái phiếu
 > **đáng giá hơn**. Ở khía cạnh này, **sở hữu một trái phiếu giống như sở hữu một quyền chọn**. Các
@@ -684,8 +732,10 @@ một quyền chọn, ở đâu bạn thấy nó thì ở đó có quyền chọ
 Mục 20 in bảng sai số theo năm mức cú sốc, và số hạng convexity **luôn cộng vào** — bạn nhìn thấy
 dấu vân tay đó trực tiếp bằng số.
 
-📚 Lo cũng giải thích tại sao cả bộ máy này ra đời (`S6 75:08`, `S6 75:42`):
+> [!note]
+> Lo cũng giải thích tại sao cả bộ máy này ra đời (`S6 75:08`, `S6 75:42`):
 
+> [!quote]
 > *"Bạn có thể nghĩ: sao phải đi đường vòng dài thế, không dùng Excel rồi đổi lãi suất và tính lại
 > được à? **Hôm nay thì được, nhưng thập niên 1970 thì không.** […] Nhớ chuyện tôi kể về lần đi vay
 > mua nhà 20 năm trước, khi nhân viên tín dụng không tính nổi khoản trả hằng tháng của tôi và phải
@@ -736,6 +786,7 @@ rồi **108** ở năm cuối, và năm 1933 gần như mọi nông dân đến 
 
 Geanakoplos hỏi cả lớp người vay nên mong gì, và câu trả lời làm hầu hết mọi người ngạc nhiên:
 
+> [!quote] L17 62:57
 > *"Phần lớn chủ nhà nghĩ họ đang cầu cho lãi suất giảm, nhưng họ hiểu ngược hết cả. Họ không nhận
 > ra rằng hiện giá các khoản phải trả trong tương lai sẽ **tăng** lên. Họ nên mong lãi suất **tăng**,
 > nên mong có một đợt lạm phát lớn — đó mới là lúc họ kiếm được tiền."* (`L17 62:57`)
@@ -831,9 +882,10 @@ ai phòng hộ được từng đường. **Nhưng không cần.**
 hai nhánh về đúng giá trị của nút đó. Lặp lại đến hết loạt thì **42,04 được chốt chắc chắn**. Chương
 trình `assert` cả hai điều — cược công bằng, và sau cược thì hai nhánh bằng nhau — ở **cả 16 nút**.
 
-⚠️ **Chú ý hướng đặt cược.** Để giữ 42,04 bạn phải cược **chống lại chính đội mình tin sẽ thắng**.
-Geanakoplos nói thẳng đó là lý do nhiều người từ chối phòng hộ (`L20 18:03`): nó lấy bớt phần thắng
-để bù cho phần thua.
+> [!warning] Chú ý hướng đặt cược.
+> Để giữ 42,04 bạn phải cược **chống lại chính đội mình tin sẽ thắng**.
+> Geanakoplos nói thẳng đó là lý do nhiều người từ chối phòng hộ (`L20 18:03`): nó lấy bớt phần thắng
+> để bù cho phần thua.
 
 📌 **Và đây là điều kiện cần.** Phòng hộ động chỉ chạy được nếu bạn **ghi nhận theo giá thị trường**
 mỗi bước — không biết vị thế đang đáng bao nhiêu thì không biết phải cược bao nhiêu.
@@ -940,6 +992,7 @@ ngay ở giá sổ sách.
 
 Cho tới đây, cả bài 4 và bài 5 chỉ nói về nợ **không vỡ nợ**. Buổi 7 bỏ giả định đó (`S7 20:35`):
 
+> [!quote]
 > *"Nợ có rủi ro khác về bản chất, theo nghĩa **có khả năng bạn không được trả lại tiền**."*
 
 Thị trường tự dựng ra cơ chế đo (`S7 20:55`): **xếp hạng tín nhiệm**, do **Moody's, S&P và Fitch**
@@ -953,13 +1006,15 @@ công bố. Ranh giới quan trọng nhất là giữa **hạng đầu tư** và
 | Baa          | trung bình — **ngưỡng cuối của hạng đầu tư** |
 | Ba trở xuống | **dưới hạng đầu tư**                         |
 
-📚 Lo minh hoạ ranh giới Baa bằng một hình ảnh học đường (`S7 27:04`): *"đây kiểu như điểm 65 ở cấp
-hai cấp ba"* — tức vừa đủ qua.
+> [!note]
+> Lo minh hoạ ranh giới Baa bằng một hình ảnh học đường (`S7 27:04`): *"đây kiểu như điểm 65 ở cấp
+> hai cấp ba"* — tức vừa đủ qua.
 
 ### "Trái phiếu đáng lẽ phải nhàm chán"
 
 Đây là câu đáng nhớ nhất mục này (`S7 22:46`, `S7 23:07`):
 
+> [!quote]
 > *"Trừ vài chiến lược kỳ dị như kênh hoá thu nhập cố định, **hầu hết người ta đầu tư vào trái
 > phiếu không phải vì muốn lợi suất hấp dẫn**. Muốn lợi suất hấp dẫn thì bỏ tiền vào cổ phiếu, bất
 > động sản, vốn tư nhân. **Trái phiếu đáng lẽ phải nhàm chán.** Bạn bỏ tiền vào, năm năm sau lấy
@@ -973,6 +1028,7 @@ phiếu rác xuất hiện với **Michael Milken** và **Drexel Burnham Lambert
 
 Đoạn này gieo hạt cho bài 8 và bài 12 (`S7 23:46`, `S7 24:04`):
 
+> [!quote]
 > *"Càng rủi ro thì nó càng **bớt giống nợ và giống vốn chủ sở hữu hơn**. Nghĩ về quy trình phá
 > sản: nếu bạn nắm một trái phiếu doanh nghiệp rủi ro và công ty tuyên bố phá sản, họ không trả được
 > lãi cho bạn — thì ít nhất về mặt lý thuyết, **bạn, người nắm trái phiếu, trở thành người nắm vốn
@@ -982,10 +1038,11 @@ phiếu rác xuất hiện với **Michael Milken** và **Drexel Burnham Lambert
 Và cái giá của việc đó (`S7 24:26`): *"Tức là lợi suất trở nên ngẫu nhiên và bạn không biết mình sẽ
 nhận được gì. **Mỗi ngày là một bất ngờ. Món quà cứ tặng mãi không thôi.**"*
 
-📚 Bảng lợi suất theo hạng: hạng thấp hơn trả cao hơn, đơn giản vì xác suất vỡ nợ cao hơn
-(`S7 25:29`). Và ở dưới hạng đầu tư (`S7 26:03`): *"lợi suất 15 % hay 20 % — bạn không nghĩ trái
-phiếu cho được 15–20 %, nhưng có, **nếu có 5 % hoặc 10 % khả năng bạn không nhận được gì cả**. Khi
-được trả thì bạn được trả hậu, nhưng bạn không phải lúc nào cũng được trả."*
+> [!note]
+> Bảng lợi suất theo hạng: hạng thấp hơn trả cao hơn, đơn giản vì xác suất vỡ nợ cao hơn
+> (`S7 25:29`). Và ở dưới hạng đầu tư (`S7 26:03`): *"lợi suất 15 % hay 20 % — bạn không nghĩ trái
+> phiếu cho được 15–20 %, nhưng có, **nếu có 5 % hoặc 10 % khả năng bạn không nhận được gì cả**. Khi
+> được trả thì bạn được trả hậu, nhưng bạn không phải lúc nào cũng được trả."*
 
 ---
 
@@ -1012,6 +1069,7 @@ khá đáng kể**."*
 
 **Cách đọc 2 — có quá nhiều tiền.** (`S7 29:52`)
 
+> [!quote]
 > *"Chính xác. **Rất nhiều tiền.** Rất nhiều tiền sẵn sàng cho vay vào đủ mọi dự án rủi ro mà
 > không mấy kỳ vọng được trả phần bù lớn hơn. […] Vì có quá nhiều tiền, có sự gia tăng cung vốn quá
 > lớn, nên phần bù mà số vốn đó đòi được **không thể lớn**, đơn giản vì cạnh tranh cung vốn cho các
@@ -1019,15 +1077,17 @@ khá đáng kể**."*
 
 Và Lo chốt bằng câu giải thích toàn bộ cuộc khủng hoảng trong mười từ (`S7 31:05`):
 
+> [!quote]
 > *"Một phần lý do khiến chúng ta rơi vào khó khăn tài chính hiện tại là vì **có quá nhiều tiền
 > đuổi theo quá ít cơ hội thực sự tốt**."*
 
 📌 Ghép nó với [bài 3](bai_03_don_bay_va_lam_phat.md) thì thành một chuỗi nhân quả hoàn chỉnh: nhiều
 tiền → chênh lệch tín dụng bị nén → đòn bẩy rẻ → đòn bẩy nhiều → tài sản giảm nhẹ cũng xoá sạch vốn.
 
-📚 Lo cũng nhắc rằng chênh lệch tín dụng **không chỉ** chứa rủi ro vỡ nợ (`S7 31:29`): còn có **hiệu
-ứng thuế**, và một **phần bù rủi ro thị trường** — trả cho việc giá dao động, chứ không phải cho
-việc vỡ nợ. Phần bù rủi ro thị trường đó là chủ đề bài 9–11.
+> [!note]
+> Lo cũng nhắc rằng chênh lệch tín dụng **không chỉ** chứa rủi ro vỡ nợ (`S7 31:29`): còn có **hiệu
+> ứng thuế**, và một **phần bù rủi ro thị trường** — trả cho việc giá dao động, chứ không phải cho
+> việc vỡ nợ. Phần bù rủi ro thị trường đó là chủ đề bài 9–11.
 
 ---
 
@@ -1039,6 +1099,7 @@ việc vỡ nợ. Phần bù rủi ro thị trường đó là chủ đề bài 
 
 Đây là mười lăm phút giá trị nhất của cả hai buổi. Lo hứa trước (`S7 35:21`):
 
+> [!quote]
 > *"Trong khoảng 10–15 phút, tôi sẽ minh hoạ cho tất cả các bạn **bản chất của vấn đề trong thị
 > trường thế chấp dưới chuẩn**. Chỉ cần chừng đó thôi. Đi tới tận cùng thì có thể mất nhiều năm.
 > Nhưng ít nhất để hiểu chuyện gì đang xảy ra, tôi sẽ làm ví dụ rất đơn giản này."*
@@ -1053,16 +1114,19 @@ Một trái phiếu rủi ro trả **1.000 $** nếu trả được, và **0 $**
 Lo giả sử lãi suất phi rủi ro bằng 0 cho gọn (`S7 38:02`), rồi lấy **hai** trái phiếu như vậy. Và
 ông nói thẳng vấn đề (`S7 38:45`, `S7 39:03`):
 
+> [!quote]
 > *"Tỷ lệ vỡ nợ 10 % là khá rủi ro. […] Với mức 10 %, trái phiếu này sẽ được xếp **dưới Baa**. Nó
 > dưới hạng đầu tư. Nên bạn sẽ không kiếm được nhiều người muốn mua."*
 
 ### Bước 2 — gom vào một rổ, và giả định then chốt
 
+> [!quote] S7 39:23
 > *"Giờ tôi sẽ cho các bạn xem một chút **phép thuật**."* (`S7 39:23`)
 
 Gom hai trái phiếu vào một pháp nhân duy nhất (`S7 39:42`). Rồi — và đây là chỗ mọi thứ về sau xoay
 quanh (`S7 40:22`):
 
+> [!quote]
 > ⚠️ *"Và ta hãy giả định, cho tiện lập luận, rằng việc vỡ nợ của hai trái phiếu này **không tương
 > quan**. Thực tế tôi sẽ giả định đây là **hai lần tung đồng xu riêng biệt, và là hai đồng xu khác
 > nhau** — cùng xác suất ra mặt ngửa 90 %, nhưng chúng không liên quan gì đến nhau. Chúng độc lập."*
@@ -1071,6 +1135,7 @@ quanh (`S7 40:22`):
 
 ### Bước 3 — cắt lớp
 
+> [!quote] S7 42:05
 > *"Đây là **nét thiên tài**."* (`S7 42:05`)
 
 Phát hành hai tờ giấy mới, mỗi tờ mệnh giá 1.000 $ — **tổng không đổi**. Khác biệt duy nhất là
@@ -1079,8 +1144,10 @@ Phát hành hai tờ giấy mới, mỗi tờ mệnh giá 1.000 $ — **tổng k
 - **Lớp cao cấp** (*senior tranche*) được trả **trước**.
 - **Lớp thấp cấp** (*junior tranche*) chỉ được trả nếu còn tiền sau khi lớp cao cấp đã đủ.
 
-📚 Lo chú thích cái tên, và chú thích ấy có sức nặng riêng vào tháng 9/2008 (`S7 42:42`):
+> [!note]
+> Lo chú thích cái tên, và chú thích ấy có sức nặng riêng vào tháng 9/2008 (`S7 42:42`):
 
+> [!quote]
 > *"**Tranche**, tôi tin là tiếng Pháp của **chiến hào** — nghe có vẻ hợp thời hơn nhiều so với
 > trước đây. Chúng ta đang tự đào chiến hào cho mình."*
 
@@ -1106,6 +1173,7 @@ trị nào. Tất cả những gì tôi làm là **phân bổ lại** giá trị
 
 **2. Không ai bị lừa.** (`S7 45:47`)
 
+> [!quote]
 > *"Chừng nào nhà đầu tư **biết cấu trúc**, thì không ai được hời cũng không ai bị hớ. **Không có
 > gian lận nào ở đây.** Chúng ta giải thích cho nhà đầu tư, nên tất cả các bạn đều thấy các xác suất
 > này."*
@@ -1116,13 +1184,15 @@ thứ quỹ đầu cơ đi tìm. Cả hai bên đều thoả mãn (`S7 51:08`, `
 
 Lo còn thêm một tầng nữa, với một câu đùa mà tháng 9/2008 chẳng ai cười nổi (`S7 51:28`):
 
+> [!quote]
 > *"Và nếu họ vẫn thấy lo về cấu trúc rất rất an toàn này — hãy **bảo hiểm** nó. Kiếm một công ty
 > bảo hiểm lớn, ổn định, ồ tôi không biết nữa, có lẽ là **AIG**, và nhờ họ bảo hiểm rằng mấy tờ này
 > sẽ không vỡ nợ. […] Khi đó chúng được gọi là **siêu cao cấp**. **Quỹ hưu trí mê thứ này.** Họ mua
 > với số lượng cực lớn."*
 
-📚 Và đó là lời giải cho câu hỏi của [bài 4, mục 7](bai_04_trai_phieu_va_duong_cong.md#7-ngày-1792008--lo-mở-buổi-học-bằng-cách-tự-nhận-mình-sai):
-tại sao Fed cứu AIG mà bỏ Lehman. AIG là thứ giữ cho cái nhãn AAA đứng vững.
+> [!note]
+> Và đó là lời giải cho câu hỏi của [bài 4, mục 7](bai_04_trai_phieu_va_duong_cong.md#7-ngày-1792008--lo-mở-buổi-học-bằng-cách-tự-nhận-mình-sai):
+> tại sao Fed cứu AIG mà bỏ Lehman. AIG là thứ giữ cho cái nhãn AAA đứng vững.
 
 Lo tổng kết vì sao thị trường bùng nổ (`S7 52:45`): tiền từ **quỹ hưu trí** đổ vào lớp cao cấp, tiền
 từ **quỹ đầu cơ** đổ vào lớp thấp cấp, và cộng lại nó mang vào ngành này *"nhiều tiền hơn bao giờ
@@ -1130,6 +1200,7 @@ hết."*
 
 Và ông kiên quyết bảo vệ ý tưởng gốc (`S7 54:53`, `S7 55:30`):
 
+> [!quote]
 > *"Bạn thấy đấy, đây là **một ý tưởng tuyệt vời** — và nó thực sự tuyệt vời, vì nó tăng đáng kể
 > **năng lực chịu rủi ro của cả nền kinh tế**. Và nó làm rất nhiều người khá lên. Ngay lúc này ta
 > đang giữa khủng hoảng và chỉ tập trung vào mặt tiêu cực. Nhưng đừng quên quá nhanh rằng quá trình
@@ -1146,11 +1217,13 @@ dùng sai với một công cụ tự nó xấu.**
 
 Lo hỏi lớp *"Vậy chỗ nào sai?"* (`S7 56:34`) — và một sinh viên tìm ra trước khi ông kịp nói:
 
+> [!quote]
 > *"Giả định thầy đưa ra là chúng **không tương quan**. Chẳng phải khả năng chúng tương quan là cao
 > hơn sao?"*
 
 Lo đáp (`S7 56:53`):
 
+> [!quote]
 > *"Thế đấy, **lúc nào cũng có người sẵn sàng phá đám cả hội**. Bạn hoàn toàn đúng. Đó chính là chỗ
 > câu chuyện trở nên thú vị."*
 
@@ -1168,6 +1241,7 @@ Nếu hai trái phiếu vỡ nợ **cùng lúc và trả đủ cùng lúc**, th�
 
 Lo dừng lại ở đúng chỗ (`S7 57:38`):
 
+> [!quote]
 > *"Cái lớp từng là AAA, cái lớp từng có xác suất vỡ nợ dưới 1 %, cái lớp được cho là an toàn tới
 > mức đủ loại tổ chức bảo thủ có thể ôm — lớp đó vừa **tăng rủi ro lên gấp mười lần**. Xác suất vỡ
 > nợ đi từ 1 % lên 10 %."*
@@ -1177,6 +1251,7 @@ cả những gì bạn làm là lấy hai tờ giấy rồi cắt chúng thành 
 
 **Đây là toàn bộ cuộc khủng hoảng, và nó đáng nói lại thật chậm:**
 
+> [!note]
 > **Không một trái phiếu gốc nào thay đổi. Không ai vỡ nợ thêm. Không dòng tiền nào khác đi. Chỉ có
 > MỘT THAM SỐ trong một mô hình đổi giá trị — và một tờ giấy AAA trở thành một tờ giấy rủi ro gấp
 > mười lần.**
@@ -1185,6 +1260,7 @@ cả những gì bạn làm là lấy hai tờ giấy rồi cắt chúng thành 
 
 Lo giải thích bằng ẩn dụ hay nhất buổi (`S7 59:06`, `S7 59:29`):
 
+> [!quote]
 > *"Khi thị trường nhà ở quay đầu — như nó đã làm **ngay sau tháng 6/2006** — điều đó tạo ra một cú
 > lệch khổng lồ trong thị trường tín dụng, bởi vì **thứ vốn không tương quan bỗng nhiên tương quan
 > rất cao**."*
@@ -1197,6 +1273,7 @@ Lo giải thích bằng ẩn dụ hay nhất buổi (`S7 59:06`, `S7 59:29`):
 
 Và số liệu mà mọi mô hình lúc đó dựa vào (`S7 68:03`):
 
+> [!quote]
 > ⚠️ *"Trong 30 năm qua, thị trường nhà ở Mỹ **chưa bao giờ giảm quá 1 % hay 2 % trong một năm**.
 > Nói gì đến chuyện giảm 10 % trong 12 tháng vừa rồi. Đó là một cú sốc rất lớn với hệ thống."*
 
@@ -1208,6 +1285,7 @@ là thứ mà kết quả nhạy cảm nhất.
 
 Lo nói (`S7 67:10`):
 
+> [!quote]
 > *"Ngay cả khi bạn cố tỏ ra thận trọng và nói: thôi, tương quan có lẽ không bằng 0, cứ cho nó là,
 > ồ tôi không biết, **25 %** đi — dù lịch sử cho thấy tương quan có lẽ thấp hơn thế nhiều. Nếu bạn
 > dùng một con số nhân tạo như 25 % hay 30 %, bạn **vẫn** sẽ không tránh được cú lệch mà ta thấy vài
@@ -1226,6 +1304,7 @@ Lo đọc cho lớp nghe một trích đoạn từ tạp chí *The Economist*, �
 trị Rủi ro một định chế tài chính lớn** (`S7 60:07`). Đây là tài liệu quý nhất trong cả hai buổi, vì
 nó là lời của một người **ở trong** thảm hoạ, viết **giữa lúc** thảm hoạ đang diễn ra.
 
+> [!quote] S7 62:34
 > *"Như hầu hết các ngân hàng, chúng tôi sở hữu một danh mục gồm nhiều lớp khác nhau của các nghĩa
 > vụ nợ có bảo đảm (CDO) — vốn là các gói chứng khoán được bảo đảm bằng tài sản. Chiến lược kinh
 > doanh và chiến lược rủi ro của chúng tôi là **mua các rổ tài sản, chủ yếu là trái phiếu, cất chúng
@@ -1253,10 +1332,12 @@ nó là lời của một người **ở trong** thảm hoạ, viết **giữa l
 
 Rồi Lo nói bốn từ (`S7 62:48`):
 
+> [!quote]
 > *"**Ông ấy vẫn chưa hiểu.**"*
 
 Và giải thích (`S7 62:48`, `S7 63:04`, `S7 63:18`):
 
+> [!quote]
 > *"Ví dụ số học tôi vừa cho các bạn xem **giải thích chính xác** chuyện đã xảy ra. Chuyện đã xảy ra
 > là **các tương quan, vốn được giả định bằng 0, hoá ra không bằng 0**. Và khi mọi thứ thay đổi, khi
 > tương quan thay đổi, điều đó làm thay đổi rủi ro. Và khi rủi ro thay đổi, nó làm thay đổi định giá
@@ -1276,6 +1357,7 @@ hai chuyển động mà vị CRO gọi là "hoàn toàn phản trực giác". B
 
 Lo cho biết ai đã thắng (`S7 72:49`):
 
+> [!quote]
 > *"Một trong những khoản chi trả lớn nhất lịch sử ngành quỹ đầu cơ đã xảy ra năm ngoái, cho một nhà
 > quản lý quỹ ở New York tên **John Paulson**. Tôi nghĩ ông ta được trả — chuyện này có trên Wall
 > Street Journal, các bạn tra được — khoảng **3 hay 4 tỷ đô**. Đó là **thu nhập** năm ngoái của ông
@@ -1336,7 +1418,8 @@ Thay vì chờ gom đủ dữ liệu lịch sử về vỡ nợ thật — vốn
 đầy một thập kỷ**, và cả thập kỷ ấy là giai đoạn **giá nhà chỉ đi lên**. Đương nhiên tương quan vỡ
 nợ đo được trong cửa sổ đó là rất thấp. Cú sụp bất động sản gần nhất nằm **hoàn toàn ngoài** cửa sổ.
 
-📚 Ba điều nên biết để không kết luận quá tay:
+> [!note]
+> Ba điều nên biết để không kết luận quá tay:
 
 - **Mô hình không sai.** Nó là một mô hình copula hợp lệ. Cái sai là **tham số** và việc coi tương
   quan như một **hằng số** thay vì thứ thay đổi theo trạng thái thị trường.
@@ -1361,6 +1444,7 @@ không, con số bạn in ra là một phép ngoại suy chứ không phải m�
 Lo đặt hai câu hỏi ở `S7 65:21` — chúng **độc lập** không, và chúng **khách quan** không? Ông trả
 lời: độc lập thì có, về mặt sở hữu. Còn khách quan thì (`S7 65:41`):
 
+> [!quote]
 > *"S&P, Moody's và Fitch là **doanh nghiệp**, mà doanh nghiệp thì nói chung cố kiếm tiền. Muốn kiếm
 > tiền thì phải có doanh thu, muốn có doanh thu thì phải có nhiều khách hàng. Nên câu hỏi là: rốt
 > cuộc họ có phát xếp hạng quá dễ dãi so với mức đáng lẽ phải làm, vì họ muốn nhiều việc hơn không?
@@ -1374,16 +1458,18 @@ lời: độc lập thì có, về mặt sở hữu. Còn khách quan thì (`S7 
 | **S&P** dàn xếp với Bộ Tư pháp Mỹ và 19 bang        |  **1,375 tỷ $** | **2/2015** |
 | **Moody's** dàn xếp với Bộ Tư pháp, 21 bang và D.C. | **864 triệu $** | **1/2017** |
 
-📚 Trong thoả thuận, Moody's **thừa nhận** đã không tuân thủ chính các tiêu chuẩn của mình khi xếp
-hạng một số chứng khoán, dù không có kết luận vi phạm pháp luật. S&P thừa nhận rằng năm 2005 lãnh
-đạo đã **trì hoãn** việc áp dụng mô hình mới vốn sẽ cho ra xếp hạng tiêu cực hơn. Khoản phạt của
-Moody's tương đương khoảng **một phần ba** lợi nhuận hãng kiếm được trong bốn năm trước khủng hoảng.
+> [!note]
+> Trong thoả thuận, Moody's **thừa nhận** đã không tuân thủ chính các tiêu chuẩn của mình khi xếp
+> hạng một số chứng khoán, dù không có kết luận vi phạm pháp luật. S&P thừa nhận rằng năm 2005 lãnh
+> đạo đã **trì hoãn** việc áp dụng mô hình mới vốn sẽ cho ra xếp hạng tiêu cực hơn. Khoản phạt của
+> Moody's tương đương khoảng **một phần ba** lợi nhuận hãng kiếm được trong bốn năm trước khủng hoảng.
 
-⚠️ Nhưng lưu ý điều Lo nói ở `S7 66:50` vẫn đúng tới nay: *"rất khó lập một tổ chức xếp hạng mới,
-vì cơ quan quản lý đòi hỏi những tiêu chuẩn gần như bất khả thi với một công ty khởi nghiệp."* Cấu
-trúc thị trường **về cơ bản không đổi**: ba hãng vẫn thống trị. Đạo luật Dodd-Frank (2010) có gỡ bỏ
-các tham chiếu tới xếp hạng trong quy định liên bang và lập Văn phòng Xếp hạng Tín nhiệm tại SEC,
-nhưng mô hình *người phát hành trả tiền* — gốc rễ của xung đột lợi ích Lo mô tả — vẫn nguyên.
+> [!warning]
+> Nhưng lưu ý điều Lo nói ở `S7 66:50` vẫn đúng tới nay: *"rất khó lập một tổ chức xếp hạng mới,
+> vì cơ quan quản lý đòi hỏi những tiêu chuẩn gần như bất khả thi với một công ty khởi nghiệp."* Cấu
+> trúc thị trường **về cơ bản không đổi**: ba hãng vẫn thống trị. Đạo luật Dodd-Frank (2010) có gỡ bỏ
+> các tham chiếu tới xếp hạng trong quy định liên bang và lập Văn phòng Xếp hạng Tín nhiệm tại SEC,
+> nhưng mô hình *người phát hành trả tiền* — gốc rễ của xung đột lợi ích Lo mô tả — vẫn nguyên.
 
 ### Quỹ thị trường tiền tệ
 
@@ -1396,10 +1482,11 @@ vá lỗi hệ thống:
 | **2014** | **NAV thả nổi** cho quỹ *prime* dành cho tổ chức + cho phép **phí thanh khoản và cổng chặn rút**                         | ⚠️ cổng chặn phản tác dụng       |
 | **2023** | **bỏ cổng chặn**, thay bằng **phí thanh khoản bắt buộc** khi rút ròng vượt ngưỡng; nâng mạnh yêu cầu tài sản thanh khoản | thông qua với tỷ lệ sát sao 3–2 |
 
-⚠️ Chỗ đáng học nhất: cơ chế "cổng chặn" của năm 2014 **làm tình hình tệ hơn**. Vì cổng chặn được
-kích hoạt khi tài sản thanh khoản tuần rơi xuống dưới 30 %, nhà đầu tư học được cách **rút trước** khi
-quỹ chạm ngưỡng — đúng cái nó định ngăn. Tháng 3/2020 điều đó tái diễn. Cải cách 2023 chuyển sang
-phí tính theo **dòng rút ròng trong ngày**, để không còn ngưỡng nào đáng chạy trước.
+> [!warning]
+> Chỗ đáng học nhất: cơ chế "cổng chặn" của năm 2014 **làm tình hình tệ hơn**. Vì cổng chặn được
+> kích hoạt khi tài sản thanh khoản tuần rơi xuống dưới 30 %, nhà đầu tư học được cách **rút trước** khi
+> quỹ chạm ngưỡng — đúng cái nó định ngăn. Tháng 3/2020 điều đó tái diễn. Cải cách 2023 chuyển sang
+> phí tính theo **dòng rút ròng trong ngày**, để không còn ngưỡng nào đáng chạy trước.
 
 Đây là mẫu hình đáng nhớ, và nó lặp lại chính xác điều xảy ra với lệnh cấm bán khống ở mục 6:
 **một quy định thiết kế để chặn cơn hoảng loạn có thể tạo ra chính cơn hoảng loạn ấy, nếu nó tạo ra
@@ -1424,6 +1511,7 @@ nó kiếm tiền là chỗ nó cứu ngân hàng. Đó là một dữ kiện đ
 
 📌 Và nhớ khung Lo đưa ra ở `S7 05:32` — nó vẫn là cách đúng để nghĩ về mọi gói cứu trợ:
 
+> [!quote]
 > *"Nó là gói **giải cứu**, chắc chắn. Nhưng nó là một khoản 'bailout' hay một **khoản đầu tư khôn
 > ngoan** thì chỉ phụ thuộc vào **giá** — giá bạn mua được, và giá bạn bán ra sau này."*
 
@@ -1465,11 +1553,13 @@ an toàn**.
 cao hơn. Đó là lý do Nghị định 65 nhắc thẳng tới việc **giám sát liên thông giữa thị trường tài
 chính và tín dụng ngân hàng**, và tại sao tiêu chuẩn "nhà đầu tư chuyên nghiệp" trở thành tâm điểm.
 
-⚠️ Nhưng chú ý diễn biến chính sách: quy định "nhà đầu tư chuyên nghiệp" bị **ngưng hiệu lực** bởi
-Nghị định 08/2023 cho tới hết 31/12/2023, vì nếu siết ngay giữa lúc khủng hoảng thì không còn ai mua
-và doanh nghiệp không đảo được nợ. **Đó chính xác là thế lưỡng nan mà Lo mô tả bằng ẩn dụ phòng cấp
-cứu** (`S7 07:27`):
+> [!warning]
+> Nhưng chú ý diễn biến chính sách: quy định "nhà đầu tư chuyên nghiệp" bị **ngưng hiệu lực** bởi
+> Nghị định 08/2023 cho tới hết 31/12/2023, vì nếu siết ngay giữa lúc khủng hoảng thì không còn ai mua
+> và doanh nghiệp không đảo được nợ. **Đó chính xác là thế lưỡng nan mà Lo mô tả bằng ẩn dụ phòng cấp
+> cứu** (`S7 07:27`):
 
+> [!quote]
 > *"Giống như một bệnh nhân vào phòng cấp cứu và đang chảy máu, mà nguyên nhân chảy máu là do lạm
 > dụng ma tuý và đủ thứ tệ hại cho sức khoẻ. Lúc đó bạn **không** muốn giảng một bài về dinh dưỡng
 > tốt và tác hại của chất kích thích. **Bạn phải cầm máu đã.** Rồi trong vài tuần vài tháng sau, bạn
@@ -1493,6 +1583,7 @@ cứu** (`S7 07:27`):
 
 ## 20. Code minh hoạ
 
+> [!note]
 > ⚙️ **Chạy:** cần **Python 3.10+**. Lưu file rồi gõ `python3 bai-05-duration-va-chung-khoan-hoa.py`.
 > **Không cần cài gói nào.** File có sẵn tại [thuc_hanh/bai-05-duration-va-chung-khoan-hoa.py](../thuc_hanh/bai-05-duration-va-chung-khoan-hoa.py).
 

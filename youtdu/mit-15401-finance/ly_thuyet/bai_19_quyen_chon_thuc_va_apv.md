@@ -1,14 +1,17 @@
 # Bài 19 — Quyền chọn thực và APV: hai chỗ bộ công cụ tiêu chuẩn hỏng
 
+> [!info] Về bài này
 > 🏢 **PHẦN E — PHỤ LỤC.** Bài này **không đến từ video của Andrew Lo**.
 > Nó lấp hai lỗ hổng tìm ra khi đối chiếu khoá này với giáo trình
 > [MIT 15.402 *Finance Theory II*](https://ocw.mit.edu/courses/15-402-finance-theory-ii-spring-2003/pages/lecture-notes/)
 > — phần tiếp chính thức của 15.401.
 > Nguồn: Myers (1974); Harris & Pringle (1985); McDonald & Siegel (1986); Dixit & Pindyck (1994).
-> 📌 **Cần đọc trước:** [Bài 8 §15](bai_08_quyen_chon.md#15-cây-nhị-thức-dựng-một-danh-mục-trả-đúng-như-quyền-chọn) (cây nhị thức),
+>
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
+>
+> **Cần đọc trước:** [Bài 8 §15](bai_08_quyen_chon.md#15-cây-nhị-thức-dựng-một-danh-mục-trả-đúng-như-quyền-chọn) (cây nhị thức),
 > [Bài 12](bai_12_ngan_sach_von.md) (NPV), [Bài 15 §11](bai_15_wacc.md#11-beta-có-đòn-bẩy-và-không-đòn-bẩy--công-thức-hamada) (Hamada),
 > [Bài 18 §4](bai_18_dinh_gia_doanh_nghiep.md#4-hai-tham-số-không-ai-đo-được-quyết-định-tất-cả) (độ nhạy).
-> ⚠️ Số liệu báo cáo tới năm **2025**; giá cổ phiếu tới tháng **9/2026**.
 
 ---
 
@@ -51,6 +54,7 @@ Sau khi viết xong bài 18, tôi lấy [danh sách bài giảng của MIT 15.40
 
 Hai mục còn thiếu **không rời rạc**. Chúng là hai câu trả lời cho cùng một câu hỏi:
 
+> [!note]
 > **Bộ công cụ tiêu chuẩn hỏng ở đâu?**
 
 | Công cụ           | Giả định ẩn                                                          | Vỡ khi nào                                                         | Cái vá          |
@@ -86,6 +90,7 @@ Cột cuối là chênh **thực sự tính ra**: bằng không tuyệt đối. 
 Hai cách cho cùng một con số vì chúng là **cùng một phép tính, sắp xếp khác nhau**. WACC nhét lá
 chắn thuế vào **mẫu số**; APV để nó ở **tử số**. Khi tỷ trọng nợ không đổi thì không có gì khác biệt.
 
+> [!quote]
 > ⇒ Nên câu hỏi đúng không phải *"cách nào chính xác hơn"* mà là *"khi nào tỷ trọng nợ không còn
 > không đổi"* — vì đó là lúc hai cách tách ra. §5 trả lời.
 
@@ -121,6 +126,7 @@ dùng thì **có**:
 | **Hamada**       | $\beta_U \times [1 + (1-\tau)\,D/E]$ | **MỨC nợ** cố định tính bằng tiền, không đổi mãi mãi → lá chắn chắc chắn như chính khoản nợ → chiết khấu tại $K_d$ → sinh ra thừa số $(1-\tau)$ |
 | **Tái cân bằng** | $\beta_U \times [1 + D/E]$           | **TỶ TRỌNG nợ** cố định → lá chắn rủi ro ngang dự án → chiết khấu tại $K_a$ → không có thừa số đó                                               |
 
+> [!note]
 > **Và đây là một mâu thuẫn trong chính bài 15:** bài 15 dùng công thức WACC — giả định **tỷ
 > trọng** nợ cố định — nhưng gỡ đòn bẩy cho beta bằng Hamada — giả định **mức** nợ cố định. Hai giả
 > định đó không thể cùng đúng.
@@ -155,6 +161,7 @@ Nên đây **không** phải một lỗi làm hỏng kết quả bài 15. Nó l�
 thức trong cùng một phép tính dựa trên hai giả định loại trừ nhau. Sách giáo khoa hay dùng cả hai mà
 không nói ra điều đó.
 
+> [!note]
 > ⇒ **Quy tắc chọn**, đơn giản hơn về lý thuyết:
 > - Công ty giữ **tỷ lệ nợ mục tiêu** (đa số công ty niêm yết) → **tái cân bằng**
 > - Khoản nợ có **lịch trả cố định**, không tái cấp vốn → **Hamada**
@@ -195,20 +202,22 @@ Giờ thử làm bằng WACC. Vấn đề: tỷ trọng nợ thay đổi từng 
 Ba cách chọn, ba kết quả, và **không cách nào đúng** — vì công thức WACC giả định một thứ mà thương
 vụ này không có: một tỷ trọng nợ không đổi.
 
+> [!note]
 > **Đó là lý do APV tồn tại.** Nó không cần biết tỷ trọng nợ là bao nhiêu. Nó chỉ cần **dư nợ từng
 > năm**, mà trong một thương vụ vay nợ thì lịch đó nằm ngay trong hợp đồng.
 
-📚 **Ba trường hợp APV là lựa chọn đúng, không phải lựa chọn đẹp:**
+> [!note] Ba trường hợp APV là lựa chọn đúng, không phải lựa chọn đẹp:
 
 1. mua lại bằng vốn vay, nợ trả dần theo lịch;
 2. dự án có **trợ cấp lãi suất hoặc vay ưu đãi** — hiệu ứng tài trợ không phải lá chắn thuế, nhưng
    vẫn cộng được vào như một số hạng riêng;
 3. doanh nghiệp đang tái cơ cấu, tỷ trọng nợ thay đổi mạnh vài năm tới.
 
-⚠️ **Một cảnh báo.** APV tách bạch hơn nên **nhìn** có vẻ chính xác hơn. Nó vẫn dựa trên cùng một dự
-báo dòng tiền, cùng một $K_a$ không đo được. [Bài 18 §4](bai_18_dinh_gia_doanh_nghiep.md#4-hai-tham-số-không-ai-đo-được-quyết-định-tất-cả)
-đã đo: đổi suất chiết khấu một điểm phần trăm làm giá trị đổi hai chục phần trăm. APV không sửa được
-điều đó.
+> [!warning] Một cảnh báo.
+> APV tách bạch hơn nên **nhìn** có vẻ chính xác hơn. Nó vẫn dựa trên cùng một dự
+> báo dòng tiền, cùng một $K_a$ không đo được. [Bài 18 §4](bai_18_dinh_gia_doanh_nghiep.md#4-hai-tham-số-không-ai-đo-được-quyết-định-tất-cả)
+> đã đo: đổi suất chiết khấu một điểm phần trăm làm giá trị đổi hai chục phần trăm. APV không sửa được
+> điều đó.
 
 ---
 
@@ -235,6 +244,7 @@ của cổ tức trong định giá quyền chọn cổ phiếu.
 
 ![Giá trị quyền chờ](../hinh/bai19-gia-tri-quyen-cho.svg)
 
+> [!note]
 > **Đọc hàng V = 90.** Dự án có NPV **−10** — quy tắc NPV bảo **bỏ**. Nhưng **quyền** được làm dự án
 > đó năm sau đáng **4,52** (biến động 20%) hoặc **11,88** (biến động 40%). Bỏ dự án là vứt đi số tiền
 > đó.
@@ -282,6 +292,7 @@ $$V \;\ge\; I \cdot \frac{\beta}{\beta - 1} \qquad \text{với } \beta \text{ l�
 
 ![Ngưỡng đầu tư](../hinh/bai19-nguong-dau-tu.svg)
 
+> [!note]
 > Ở biến động 20%, dự án phải **đáng giá gấp đôi** số tiền bỏ ra thì mới nên làm — tức NPV phải
 > bằng **+100% vốn đầu tư**, không phải chỉ lớn hơn không. Ở 30%: **+176%**.
 
@@ -327,6 +338,7 @@ $r = \delta$ thì $\beta = \tfrac12 + \sqrt{\tfrac14 + 2r/\sigma^2}$, và với 
 Hạ $r$ về 3% mà giữ $\delta$: ngưỡng ở 20% tụt từ 2,00 xuống **1,84** — NPV tối thiểu từ +100% xuống
 **+84%**. Còn giữ $r = \delta$ ở mức 3% thì ngưỡng **lên 2,22**.
 
+> [!quote]
 > ⇒ Kết luận **định tính** — *ngưỡng cao hơn 1 rất nhiều* — vững trước mọi lựa chọn trong bảng.
 > **Chữ số** thì không. Đừng trích "phải gấp đôi" như một hằng số; hãy trích nó kèm $r$ và $\delta$.
 > Đây đúng kỷ luật mà [bài 15 §9](bai_15_wacc.md#9-wacc-không-phải-một-con-số-nó-là-một-khoảng)
@@ -351,8 +363,9 @@ Trong ba trường hợp đó, ngưỡng tụt về gần 1 và **quy tắc NPV 
 
 §7 dùng biến động giả định. Giờ đo biến động **thật**, từ 164 tháng giá.
 
-⚠️ **Một bước không được bỏ.** Biến động đo từ giá cổ phiếu là biến động của **vốn chủ**, mà vốn chủ
-có đòn bẩy. Biến động của **tài sản** — thứ quyết định giá trị quyền chọn thực — thấp hơn:
+> [!warning] Một bước không được bỏ.
+> Biến động đo từ giá cổ phiếu là biến động của **vốn chủ**, mà vốn chủ
+> có đòn bẩy. Biến động của **tài sản** — thứ quyết định giá trị quyền chọn thực — thấp hơn:
 
 $$\sigma_{\text{tài sản}} \;\approx\; \sigma_{\text{vốn chủ}} \times \frac{E}{D+E}$$
 
@@ -374,6 +387,7 @@ $$\sigma_{\text{tài sản}} \;\approx\; \sigma_{\text{vốn chủ}} \times \fra
 - Trung vị biến động **vốn chủ**: 37,9%/năm
 - Trung vị biến động **tài sản**: **26,5%/năm** → ngưỡng **2,47×**
 
+> [!quote]
 > **Với doanh nghiệp trung vị của mẫu này, một dự án không đảo ngược được phải có NPV bằng
 > +147% vốn bỏ ra thì mới nên bấm nút.** Đó là một ngưỡng cao hơn rất nhiều so với *"NPV dương thì
 > làm"* của bài 12.
@@ -393,7 +407,7 @@ trong mẫu. Đó là đa dạng hoá của [bài 10](bai_10_ly_thuyet_danh_muc.
 tiếp ở đây: **nhà đầu tư đã đa dạng hoá đối mặt ngưỡng 1,97×, còn giám đốc điều hành một dự án đơn lẻ
 đối mặt ngưỡng 2,47×.** Cùng một dự án, hai người, hai câu trả lời — và cả hai đều đúng.
 
-⚠️ **Bốn giới hạn của bảng này:**
+> [!warning] Bốn giới hạn của bảng này:
 
 |     | Giới hạn                                                                                                 |
 | --- | -------------------------------------------------------------------------------------------------------- |
@@ -439,9 +453,10 @@ Và giữa hai đợt, kết quả của đợt 1 đã lộ ra: doanh thu **33.2
 96.505 tỷ hay không. Nếu đợt 1 thất bại, đợt 2 đã không xảy ra — và đó chính là giá trị của việc chia
 giai đoạn.
 
-⚠️ **Tôi không khẳng định đây là một quyết định có ý.** Bảng trên cho thấy một **khuôn hình** nhất
-quán với đầu tư theo giai đoạn; nó không chứng minh ban lãnh đạo đã tính giá trị quyền chọn. Cái có
-thể nói bằng số là: hai đợt tách biệt, và thông tin quan trọng đã xuất hiện giữa chúng.
+> [!warning] Tôi không khẳng định đây là một quyết định có ý.
+> Bảng trên cho thấy một **khuôn hình** nhất
+> quán với đầu tư theo giai đoạn; nó không chứng minh ban lãnh đạo đã tính giá trị quyền chọn. Cái có
+> thể nói bằng số là: hai đợt tách biệt, và thông tin quan trọng đã xuất hiện giữa chúng.
 
 ### Đo giá trị của việc chia giai đoạn
 
@@ -454,6 +469,7 @@ mỗi bên 50%: **TỐT** → cả dự án đáng 150; **XẤU** → đáng 40.
 | Chia hai giai đoạn   |          +50,0 |            **−30,0** |   **+10,0** |
 |                      |                | **GIÁ TRỊ QUYỀN BỎ** |   **+15,0** |
 
+> [!note]
 > Cam kết toàn bộ ngay cho kỳ vọng **−5,0** — âm, nên quy tắc NPV bảo **bỏ cả dự án**. Chia hai
 > giai đoạn cho **+10,0** — dương, nên **nên làm**. Cùng một dự án, cùng một dự báo, **hai kết luận
 > ngược nhau**.
@@ -462,10 +478,11 @@ Và nó giải thích một hành vi mà người học tài chính hay chê là
 trước, mở một cửa hàng trước khi mở mười, xây một dây chuyền trước khi xây ba. Đó không phải nhút
 nhát. Đó là **mua một quyền chọn**, và §7 vừa đo được quyền đó đáng giá bao nhiêu.
 
-⚠️ Chia giai đoạn **không miễn phí**. Nó thường đắt hơn: mất lợi thế quy mô, kéo dài thời gian, đối
-thủ có thể vào trước. Quy tắc đúng là **so giá trị quyền chọn với phần chi phí tăng thêm**, không
-phải mặc định chia nhỏ. Mô hình trên cũng giả định bỏ giữa chừng thì phần đã xây **không bán lại được
-đồng nào** — nếu có giá trị thanh lý thì quyền bỏ còn đáng giá hơn nữa.
+> [!warning]
+> Chia giai đoạn **không miễn phí**. Nó thường đắt hơn: mất lợi thế quy mô, kéo dài thời gian, đối
+> thủ có thể vào trước. Quy tắc đúng là **so giá trị quyền chọn với phần chi phí tăng thêm**, không
+> phải mặc định chia nhỏ. Mô hình trên cũng giả định bỏ giữa chừng thì phần đã xây **không bán lại được
+> đồng nào** — nếu có giá trị thanh lý thì quyền bỏ còn đáng giá hơn nữa.
 
 ---
 
@@ -508,6 +525,7 @@ thứ hạng**: trung vị 37,9% so với 26,5%.
 | dự án chia được thành giai đoạn          | **quyền chọn bỏ**   | §9                       |
 | đối thủ vào trước thì mất cơ hội         | NPV, quyết ngay     | §7                       |
 
+> [!note]
 > **Và đây là điều phải giữ lại khi quên hết phần còn lại:**
 >
 > APV và quyền chọn thực **không** làm kết quả chính xác hơn. Cả hai đều dùng đúng những đầu vào
@@ -563,6 +581,7 @@ các bài trước.
 
 ## 12. Code minh hoạ
 
+> [!note]
 > ⚙️ **Chạy:** cần **Python 3.10+**. Không cần cài gói nào. Kết quả **tất định**.
 
 |            |                                                                                               |
@@ -1351,7 +1370,7 @@ HET BAI 19 — PHAN E DA PHU DU GIAO TRINH 15.402
 **Dữ liệu:** dùng chung với [bài 18](bai_18_dinh_gia_doanh_nghiep.md) — giá cuối tháng 28 cổ phiếu
 Việt Nam và VN-Index từ DNSE/Entrade (2013–2026), báo cáo tài chính 2015–2025 từ VNDirect finfo API.
 
-⚠️ **Chưa xác minh được, ghi rõ ở đây:**
+> [!warning] Chưa xác minh được, ghi rõ ở đây:
 
 - **δ = 4%/năm** (chi phí của việc chờ) ở §6–§8 là **giả định của tôi**, không đo được. §8 đã nêu đây
   là tham số nhạy nhất của cả mô hình: δ cao hơn thì ngưỡng thấp hơn.

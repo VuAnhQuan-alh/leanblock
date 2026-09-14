@@ -1,20 +1,17 @@
 # Bài 7 — Hợp đồng kỳ hạn và hợp đồng tương lai: mua thứ chưa có, bằng tiền chưa trả
 
+> [!info] Về bài này
 > Bài học dựng trên **toàn bộ** video **"Ses 9: Forward and Futures Contracts I"**
 > (`i_pLF9J3QPE`, 78:57) và **phần đầu** video **"Ses 10: Forward and Futures Contracts II"**
 > (`IwA7nVEwqto`, 79:47) — khoá **MIT 15.401 *Finance Theory I*, Fall 2008**, giảng viên
 > **Prof. Andrew W. Lo**. Phụ đề gốc do người viết tay.
->
 > 🕑 Mốc thời gian có tiền tố buổi: `S9 28:19` = buổi 9, phút 28:19. Mỗi mốc được đối chiếu với
 > **đúng** video của nó, không gộp chung.
 >
-> 📚 **Mở rộng** — kiến thức video lướt qua hoặc bài học này bổ sung, **không có trong video**.
-> 🇻🇳 **Góc Việt Nam** — số liệu và ví dụ trong nước (mục 22), **không có trong video**.
-> ⚠️ **17 phút cuối buổi 10 là phần mở đầu về quyền chọn** (`S10 62:33` trở đi). Phần đó thuộc
-> [bài 8](../README.md), không nằm ở đây.
-> 📌 **Cần đọc trước:** [Bài 4](bai_04_trai_phieu_va_duong_cong.md) — **lãi suất kỳ hạn** ở mục 10
-> của bài đó và **giá kỳ hạn** ở đây là **cùng một ý tưởng**, chỉ đổi tài sản.
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
 >
+> **Cần đọc trước:** [Bài 4](bai_04_trai_phieu_va_duong_cong.md) — **lãi suất kỳ hạn** ở mục 10
+> của bài đó và **giá kỳ hạn** ở đây là **cùng một ý tưởng**, chỉ đổi tài sản.
 > Công thức viết bằng LaTeX — mở bằng **Obsidian** hoặc VS Code + Markdown Preview Enhanced.
 
 ---
@@ -79,17 +76,20 @@ Bốn manh mối, khớp nhau:
 | *"một ngày như thứ Sáu tuần trước, hay như thứ Hai"* (`S10 16:06`) | **10/10**: Dow dao động **1.018,77 điểm** trong phiên, VIX đóng cửa **69,95** — kỷ lục; **13/10**: Dow **+936,42** (+11,08 %), mức tăng điểm lớn nhất lịch sử |
 | *"ba tuần tới, lý thuyết tài chính đi nghỉ mát"* (`S10 62:16`)     | bầu cử tổng thống **thứ Ba 4/11/2008** — đúng ba tuần                                                                                                         |
 
-⚠️ **Một chỗ không khớp.** Cuối buổi 9 Lo nói *"hẹn gặp lại một tuần kể từ thứ Hai"* (`S9 78:57`)
-— tức thứ Hai 20/10. Nhưng bốn manh mối của buổi 10 đều chỉ về **thứ Tư 15/10**. Bài này chọn
-15/10 vì bốn thắng một, và ghi rõ chỗ chưa giải thích được thay vì lấp liếm.
+> [!warning] Một chỗ không khớp.
+> Cuối buổi 9 Lo nói *"hẹn gặp lại một tuần kể từ thứ Hai"* (`S9 78:57`)
+> — tức thứ Hai 20/10. Nhưng bốn manh mối của buổi 10 đều chỉ về **thứ Tư 15/10**. Bài này chọn
+> 15/10 vì bốn thắng một, và ghi rõ chỗ chưa giải thích được thay vì lấp liếm.
 
-⚠️ **Điều Lo không nhắc.** Chiều 15/10/2008, Dow rơi **733,08 điểm (−7,87 %)** — mức giảm điểm
-lớn thứ hai trong lịch sử tính đến khi đó. Ông mở lớp bằng *"thị trường cổ phiếu chắc chắn đã có
-một kỳ nghỉ vui"* (`S10 00:25`), nhắc về đợt tăng hôm thứ Hai. Cú rơi tăng tốc trong 90 phút cuối
-phiên; nhiều khả năng lớp học đã tan trước đó.
+> [!warning] Điều Lo không nhắc.
+> Chiều 15/10/2008, Dow rơi **733,08 điểm (−7,87 %)** — mức giảm điểm
+> lớn thứ hai trong lịch sử tính đến khi đó. Ông mở lớp bằng *"thị trường cổ phiếu chắc chắn đã có
+> một kỳ nghỉ vui"* (`S10 00:25`), nhắc về đợt tăng hôm thứ Hai. Cú rơi tăng tốc trong 90 phút cuối
+> phiên; nhiều khả năng lớp học đã tan trước đó.
 
-⚠️ Ở `S10 75:59` Lo nói *"thứ Hai vừa rồi S&P tăng 1.000 điểm"*. Ông đang nói về **Dow**, và con số
-thật là **936,42**. S&P 500 hôm đó tăng 104,13 điểm.
+> [!warning]
+> Ở `S10 75:59` Lo nói *"thứ Hai vừa rồi S&P tăng 1.000 điểm"*. Ông đang nói về **Dow**, và con số
+> thật là **936,42**. S&P 500 hôm đó tăng 104,13 điểm.
 
 Bối cảnh ba buổi trước: [bài 5](bai_05_duration_va_chung_khoan_hoa.md) (24/9 và 29/9) và
 [bài 6](bai_06_co_phieu_va_tang_truong.md) (1/10).
@@ -100,15 +100,18 @@ Bối cảnh ba buổi trước: [bài 5](bai_05_duration_va_chung_khoan_hoa.md)
 
 Buổi 9 mở đầu bằng một câu hỏi từ dưới lớp (`S9 06:16`):
 
+> [!quote]
 > *"Nói về minh bạch — tại sao các ngân hàng lại vận động để bỏ ghi nhận theo giá thị trường?"*
 
 Lo trả lời không vòng vo (`S9 06:28`):
 
+> [!quote]
 > *"Ý tưởng một số ngân hàng đề xuất — tạm đình chỉ ghi nhận theo giá thị trường — có lẽ là **ý
 > tưởng tệ nhất tôi từng nghe trong cả cuộc khủng hoảng này**."*
 
 Rồi ông dựng một phép ẩn dụ (`S9 06:49`):
 
+> [!quote]
 > *"Không ghi nhận theo giá thị trường giống như trong một rạp hát đông người, bạn ngửi thấy khói
 > và nhìn thấy lửa trên sân khấu — mà thay vì để mọi người ra ngoài, bạn bảo tất cả **ngồi xuống,
 > thư giãn, hít thở sâu**, để chúng tôi suy nghĩ thêm nửa tiếng nữa rồi sẽ quyết."*
@@ -117,6 +120,7 @@ Rồi ông dựng một phép ẩn dụ (`S9 06:49`):
 
 Vì cả khoá học này chỉ có một định nghĩa về giá, và ông kéo nó ra ngay tại chỗ (`S9 08:11`):
 
+> [!quote]
 > *"Cái gì quyết định giá trị của một chứng khoán? Chính xác — **thị trường**. Giá là con số mà
 > **hai người trưởng thành tự nguyện** đồng ý giao dịch. Nếu bạn không tìm được hai người trưởng
 > thành tự nguyện đồng ý giao dịch, bạn có thể nghĩ ra đủ loại con số rất thú vị, **nhưng đó không
@@ -129,6 +133,7 @@ chứng được**.
 Có sinh viên hỏi tiếp về việc SEC vừa cho phép doanh nghiệp *"dùng phán đoán của mình"*
 (`S9 07:29`). Lo (`S9 07:44`):
 
+> [!quote]
 > *"SEC muốn nói gì thì nói. Vấn đề cốt lõi là: **có thị trường nào cho các chứng khoán này ở mức
 > giá các công ty đó đưa ra không?** Tôi có thể nghĩ ý tưởng của mình là đáng giá nhất thế giới.
 > Điều đó không làm nó thành thật."*
@@ -158,6 +163,7 @@ Trước đó vài phút, một sinh viên người Argentina kể chuyện nư�
 trong một tuần, chính phủ vỡ nợ, một nửa công ty đại chúng vỡ nợ"* (`S9 02:43`) — rồi nói khủng
 hoảng tạo ra cơ hội. Lo đồng ý, và tặng lớp một ý tưởng (`S9 04:47`):
 
+> [!quote]
 > *"Chẳng phải sẽ tuyệt vời sao nếu có một website **chỉ làm mỗi việc đăng giá các giao dịch** của
 > những chứng khoán này theo thời gian? Chúng ta không có sàn giao dịch có tổ chức. Vậy nên đó là
 > ý tưởng: **tạo một cái eBay cho CDO**."*
@@ -186,12 +192,14 @@ Chi tiết về CDS và CDO: [bài 5, mục 17–20](bai_05_duration_va_chung_kh
 
 Lo mở phần bài giảng chính bằng một tình huống (`S9 09:31`):
 
+> [!quote]
 > *"Công ty bạn đặt tại Mỹ, cung cấp máy công cụ cho khách ở Đức và Brazil. Giá niêm yết bằng đồng
 > tiền của từng nước, nên biến động euro, đô la và real ảnh hưởng lớn tới doanh thu. Làm sao giảm
 > hoặc **phòng hộ** rủi ro đó?"*
 
 Rồi ông chốt cái ý thật (`S9 10:04`):
 
+> [!quote]
 > *"Bạn **không phải** công ty dự báo tỷ giá. Cái bạn muốn là **loại bỏ** thứ bất định đó đi, hoặc
 > ít nhất giảm nó tới mức không phải nghĩ tới nữa."*
 
@@ -215,6 +223,7 @@ một đồng tiền, nên chúng tự triệt tiêu."* Nhưng (`S9 13:53`) *"b�
 
 Có hai quan điểm về phái sinh, và Lo nói **cả hai đều đúng** (`S9 14:33`):
 
+> [!quote]
 > *"Một cực: phái sinh là công cụ cực kỳ hiệu quả để quản trị rủi ro. Cực kia, do chính **Warren
 > Buffett** phát biểu: phái sinh là **vũ khí huỷ diệt hàng loạt của tài chính**. Và sự thật là
 > **cả hai**. Từ uranium-238 bạn có thể làm nhà máy điện hạt nhân... hoặc một quả bom bẩn. Bản
@@ -288,6 +297,7 @@ ngỏ, thực tế đã kết thúc — theo hướng **không phòng hộ**, �
 
 Lo trích một nghiên cứu (`S9 20:23`):
 
+> [!quote]
 > *"Guay và Kothari — S.P. Kothari là giảng viên nhóm kế toán của trường, đang nghỉ phép — công bố
 > một bài cách đây khoảng năm năm, lấy mẫu ngẫu nhiên **413 công ty lớn** với dòng tiền bình quân
 > khoảng **700 triệu đô**. **57 %** số đó dùng phái sinh năm **1997**."*
@@ -300,10 +310,11 @@ $413 \times 57\% = 235$. Hai con số là hai mặt của cùng một mẫu.
 Lo dự đoán (`S9 21:08`): *"nếu khảo sát lại hôm nay, tôi đoán con số 57 % đã tăng lên khá nhiều.
 Nhưng tôi không biết chắc."*
 
-📚 **Điều đáng chú ý hơn mà Lo không nhắc**, và chính là kết luận của bài báo: với công ty trung
-vị trong mẫu, **toàn bộ danh mục phái sinh** chỉ tạo ra tối đa **15 triệu đô** dòng tiền hiện tại
-nếu lãi suất, tỷ giá và giá hàng hoá **cùng lúc** biến động ba độ lệch chuẩn. Công ty trung vị nắm
-phái sinh lãi suất hoặc tỷ giá chỉ bằng **3–6 %** tổng mức phơi nhiễm tương ứng.
+> [!note] Điều đáng chú ý hơn mà Lo không nhắc
+> , và chính là kết luận của bài báo: với công ty trung
+> vị trong mẫu, **toàn bộ danh mục phái sinh** chỉ tạo ra tối đa **15 triệu đô** dòng tiền hiện tại
+> nếu lãi suất, tỷ giá và giá hàng hoá **cùng lúc** biến động ba độ lệch chuẩn. Công ty trung vị nắm
+> phái sinh lãi suất hoặc tỷ giá chỉ bằng **3–6 %** tổng mức phơi nhiễm tương ứng.
 
 Nói cách khác: **rất nhiều công ty dùng phái sinh, nhưng dùng rất ít.** Phòng hộ doanh nghiệp
 trên thực tế là một lớp sơn mỏng, không phải bức tường.
@@ -314,6 +325,7 @@ trên thực tế là một lớp sơn mỏng, không phải bức tường.
 
 Lo định nghĩa (`S9 24:50`):
 
+> [!quote]
 > *"Hợp đồng kỳ hạn là **cam kết mua**, vào một ngày trong tương lai, một lượng nhất định hàng hoá
 > hoặc tài sản, ở **mức giá thoả thuận hôm nay**."*
 
@@ -328,6 +340,7 @@ Quy ước (`S9 25:34`):
 
 Lo tự vặn lại chính mình (`S9 26:34`):
 
+> [!quote]
 > *"Chỗ mập mờ là hợp đồng kỳ hạn **không có giá trị gì** vào ngày ký. Nói bên này trường bên kia
 > đoản nghe hơi kỳ, vì giá trị hợp đồng lúc ký là **không**. Bạn trường số không, hay đoản số
 > không — ai quan tâm?"*
@@ -338,6 +351,7 @@ cách chuẩn hoá ấy."*
 
 Ngay chỗ này Lo bắt lấy một nhầm lẫn rất dễ mắc (`S9 27:46`):
 
+> [!quote]
 > *"Cái giá tôi đang nói lên hay xuống **không phải giá kỳ hạn**. Nó là giá... xin lỗi, nó là
 > **giá giao ngay trong tương lai**."*
 
@@ -368,6 +382,7 @@ chọn cho bạn *"quyền, chứ không phải nghĩa vụ"* — đó là bài 
 
 Giả sử dầu giao ngay **100 đô/thùng**. Ta ký hợp đồng mua dầu sau sáu tháng ở **110 đô**.
 
+> [!quote]
 > *"Khi ta đã đồng ý hợp đồng đó, giá trị của thoả thuận là **không**. Nó **phải** bằng không. Vì
 > nếu không bằng không thì tôi thua bạn thắng, hoặc bạn thua tôi thắng. Nên ta sẽ **không ký**."*
 
@@ -390,15 +405,17 @@ $$F_{0,T} = S_0 (1+r)^T$$
 
 Với $S_0 = 100$, $r = 5\%$, $T = 0{,}5$: $F = 102{,}47$ đô.
 
-⚠️ **Lo dùng 110 đô làm ví dụ trong bài, nhưng 110 đô KHÔNG phải giá cân bằng** ở mức lãi suất
-5 %. NPV với bên mua là **−7,35 đô/thùng**. Ông biết điều đó — ở `S9 34:42` ông trả lời câu hỏi
-"giá kỳ hạn có phải luôn cao hơn giá hiện tại không?" bằng *"không, không nhất thiết"*. Con số 110
-là số minh hoạ, không phải kết quả tính. Bài này ghi rõ để bạn đừng học thuộc nó như một quan hệ.
+> [!warning] Lo dùng 110 đô làm ví dụ trong bài, nhưng 110 đô KHÔNG phải giá cân bằng
+> ở mức lãi suất
+> 5 %. NPV với bên mua là **−7,35 đô/thùng**. Ông biết điều đó — ở `S9 34:42` ông trả lời câu hỏi
+> "giá kỳ hạn có phải luôn cao hơn giá hiện tại không?" bằng *"không, không nhất thiết"*. Con số 110
+> là số minh hoạ, không phải kết quả tính. Bài này ghi rõ để bạn đừng học thuộc nó như một quan hệ.
 
 ### Không cần cầu nguyện ai cũng thành thật
 
 Ở `S9 44:22` Lo đóng đinh lập luận bằng một câu tuyệt vời:
 
+> [!quote]
 > *"Bạn có bao giờ thấy hợp đồng ở 200 đô/thùng không? Không, vì như thế nghĩa là **một trong hai
 > chúng ta đang rất ngu**. Mà chúng ta hoàn toàn được phép ngu — **Hiến pháp bảo đảm quyền đó**."*
 
@@ -409,6 +426,7 @@ là số minh hoạ, không phải kết quả tính. Bài này ghi rõ để b�
 Có sinh viên hỏi giá kỳ hạn có luôn cao hơn giá giao ngay không. Lo dùng câu hỏi đó để mở ra ý
 lớn (`S9 35:28`):
 
+> [!quote]
 > *"Nó cho bạn biết **thị trường đang cung cấp thông tin về tương lai**. Dự báo giá tương lai nằm
 > **ẩn** trong các giá kỳ hạn này. Đúng y như khi ta nhìn đường cong lãi suất và thấy các lãi suất
 > kỳ hạn ẩn cho việc vay mượn trong tương lai."*
@@ -421,10 +439,11 @@ Ví dụ Lo đưa (`S9 36:04`): *"nếu bạn thấy giá kỳ hạn của dầu
 hoặc người ta kỳ vọng sẽ tìm được nhiều dầu trong sáu tháng tới, hoặc có dự báo nhu cầu sẽ sụt
 mạnh."*
 
-⚠️ Nhưng bài 4 cũng đã dạy điều Lo không nhắc lại ở đây: **lãi suất kỳ hạn là dự báo tệ**. Đo lại
-bằng dữ liệu thật, sai số bình quân của dự báo lãi suất kỳ hạn là **113 điểm cơ bản**
-([bài 4, mục 11](bai_04_trai_phieu_va_duong_cong.md)). Không có lý do tin giá dầu kỳ hạn khá hơn.
-Giá kỳ hạn nói cho bạn biết **thị trường đang nghĩ gì**, không phải **điều gì sẽ xảy ra**.
+> [!warning]
+> Nhưng bài 4 cũng đã dạy điều Lo không nhắc lại ở đây: **lãi suất kỳ hạn là dự báo tệ**. Đo lại
+> bằng dữ liệu thật, sai số bình quân của dự báo lãi suất kỳ hạn là **113 điểm cơ bản**
+> ([bài 4, mục 11](bai_04_trai_phieu_va_duong_cong.md)). Không có lý do tin giá dầu kỳ hạn khá hơn.
+> Giá kỳ hạn nói cho bạn biết **thị trường đang nghĩ gì**, không phải **điều gì sẽ xảy ra**.
 
 ---
 
@@ -439,11 +458,13 @@ Lo liệt kê (`S9 36:18`) ba đặc điểm của hợp đồng kỳ hạn:
 
 Rồi đặc điểm thứ tư, cái quan trọng nhất (`S9 45:59`):
 
+> [!quote]
 > *"Vì đây là hợp đồng giữa hai bên, có **rủi ro đối tác** đáng kể — tức là có rủi ro bạn không
 > thanh toán phần của bạn, hoặc tôi không thanh toán phần của tôi."*
 
 Rồi một câu chua chát rất 2008 (`S9 46:17`):
 
+> [!quote]
 > *"Nếu bạn giao dịch với — tôi ghét phải nói câu này — nhưng với một đối tác **AAA**, thì rủi ro
 > phải là nhỏ. **Nhưng giờ ta đều biết AAA nghĩa là gì rồi.**"*
 
@@ -477,6 +498,7 @@ xuống **100 đô/tấn**.
 Lo hỏi lớp: nhà máy đậu phụ ở tình thế tốt hơn, xấu hơn, hay như cũ? Lớp trả lời "như cũ" — anh ta
 đã tự nguyện ký mà. Lo bác (`S9 53:19`), qua chính câu trả lời của một sinh viên:
 
+> [!quote]
 > *"Đúng. **Đối thủ của anh ta sẽ hạ giá đậu phụ.** Đậu nành rẻ đi rồi. Còn anh này thì trả 165 đô
 > cho thứ đáng 100 đô. Về cơ bản anh ta sẽ **phá sản**, vì đối thủ sẽ ăn hết phần của anh ta. Họ
 > sẽ bán rẻ hơn 40 %, và anh ta còn **thị phần bằng không**."*
@@ -491,6 +513,7 @@ bạc. Đây chính xác là lập luận của Homestake Mining ở [mục 5](#
 thị trường ngay bây giờ, và tôi còn hai tháng... nếu tôi cứ **bỏ đi** khỏi thoả thuận kỳ hạn này
 thì sao?"*
 
+> [!quote] S9 54:08
 > *"Về mặt pháp lý anh ta không được làm thế. Nghĩa là nếu làm, anh ta có thể bị kiện. Và từ góc
 > nhìn của anh ta: **họ kiện tôi rồi tính tiếp, hoặc tôi thực hiện hợp đồng và phá sản**. Nếu chỉ
 > có hai lựa chọn đó, tôi sẽ bẻ kèo và để họ kiện."* (`S9 54:08`)
@@ -527,6 +550,7 @@ giản hơn?"* (`S9 59:36`)
 
 Lo trả lời chính mình (`S9 59:36`):
 
+> [!quote]
 > *"Có cách xử lý **tất cả** các phản đối của các bạn — **tất cả**. Hãy tạo ra một hợp đồng mới,
 > gọi là **hợp đồng tương lai**. Hợp đồng tương lai giống hệt hợp đồng kỳ hạn, trừ vài ngoại lệ."*
 
@@ -541,6 +565,7 @@ Lo trả lời chính mình (`S9 59:36`):
 
 Lo dựng nó bằng chính ví dụ đậu nành (`S9 64:28`):
 
+> [!quote]
 > *"Vậy thì hãy thoả thuận thế này. **Tại sao chúng ta không đồng ý rằng mỗi ngày, ta ký một hợp
 > đồng mới với một giá kỳ hạn mới, rồi chỉ trả cho nhau phần chênh lệch, ngày qua ngày?**"*
 
@@ -553,12 +578,14 @@ hợp đồng mỗi ngày."*
 
 Nhưng kết quả (`S9 66:16`):
 
+> [!quote]
 > *"Nếu làm thế mỗi ngày, cái ta đang làm về bản chất là **luôn luôn tìm ra giá thị trường của
 > ngày hôm nay** cho việc giao đậu nành vào ngày tất toán đó. **Đó chính là ghi nhận theo giá thị
 > trường.**"*
 
 Và tại sao nó chữa được rủi ro đối tác (`S9 67:01`):
 
+> [!quote]
 > *"Rủi ro duy nhất tôi còn với bạn là rủi ro của **một ngày biến động**, không phải ba tháng. Giá
 > có thể chạy rất nhiều trong ba tháng."*
 
@@ -577,9 +604,10 @@ không giao dịch với bạn, hay bạn, hay bạn. Tôi giao dịch với **m
 Nhiều sàn là tổ chức phi lợi nhuận... trong một số trường hợp, chính các thành viên **sở hữu** nhà
 thanh toán bù trừ."*
 
-⚠️ Câu này đúng năm 2008 nhưng đã lỗi. **CME Group, ICE và Nasdaq đều là công ty đại chúng niêm
-yết vì lợi nhuận.** Mô hình sở hữu bởi thành viên đã gần như biến mất ở Mỹ. Điều này quan trọng
-hơn nghe qua — [mục 20](#20-đòn-bẩy-metallgesellschaft-lme-nickel-và-niềm-tin-vào-nhà-thanh-toán-bù-trừ) cho thấy vì sao.
+> [!warning]
+> Câu này đúng năm 2008 nhưng đã lỗi. **CME Group, ICE và Nasdaq đều là công ty đại chúng niêm
+> yết vì lợi nhuận.** Mô hình sở hữu bởi thành viên đã gần như biến mất ở Mỹ. Điều này quan trọng
+> hơn nghe qua — [mục 20](#20-đòn-bẩy-metallgesellschaft-lme-nickel-và-niềm-tin-vào-nhà-thanh-toán-bù-trừ) cho thấy vì sao.
 
 ---
 
@@ -587,6 +615,7 @@ hơn nghe qua — [mục 20](#20-đòn-bẩy-metallgesellschaft-lme-nickel-và-n
 
 Ở `S9 67:42` Lo đưa ra một khẳng định lớn rồi bỏ đi không chứng minh:
 
+> [!quote]
 > *"Khi bạn cộng hết tiền đã đổi tay trong suốt ba tháng — nếu ta ký một hợp đồng kỳ hạn mới mỗi
 > ngày, cộng hết tiền qua lại **và tính lãi suất cho đúng** — bạn biết sẽ được gì không? Về cơ bản
 > ta sẽ được **đúng cái mà một hợp đồng kỳ hạn ký ngày đầu, giữ tới đáo hạn** cho ra."*
@@ -640,6 +669,7 @@ sai số làm hỏng sổ sách chứ không làm hỏng bài giảng.
 
 Ở `S10 32:32` Lo dựng hàng rào rồi bước qua:
 
+> [!quote]
 > *"Hợp đồng tương lai gần như là hợp đồng kỳ hạn. Khác biệt duy nhất là chênh lệch lãi suất theo
 > ngày... Nhưng tổng tích luỹ sẽ **xấp xỉ như nhau**. Vậy nên cho lớp này, tôi sẽ **khẳng định**
 > rằng chúng xấp xỉ bằng nhau. Thật ra có một quan hệ khác... bạn có thể xem trong sách."*
@@ -696,12 +726,14 @@ Cuối buổi 9, Lo chiếu một hợp đồng có thật (`S9 72:27`, nhắc l
 | **Ký quỹ ban đầu**      | **4.050 đô**                                       |
 | **Ký quỹ duy trì**      | **3.000 đô**                                       |
 
-⚠️ **Một chỗ Lo đọc lệch giữa hai buổi.** Ở `S9 73:08` ông đọc giá **"76,06 đô/thùng"**; ở
-`S10 02:00` ông đọc **"75,06 đô/thùng"** — cùng một slide. Slide payoff ở `S10 06:29` ghi rõ
-**75,06**, nên đó là con số đúng và buổi 9 là chỗ đọc nhầm.
+> [!warning] Một chỗ Lo đọc lệch giữa hai buổi.
+> Ở `S9 73:08` ông đọc giá **"76,06 đô/thùng"**; ở
+> `S10 02:00` ông đọc **"75,06 đô/thùng"** — cùng một slide. Slide payoff ở `S10 06:29` ghi rõ
+> **75,06**, nên đó là con số đúng và buổi 9 là chỗ đọc nhầm.
 
-📚 **Con số Lo không đưa, nhưng làm ví dụ hay hơn hẳn:** giá dầu WTI **giao ngay** ngày 27/7/2007
-là **77,03 đô/thùng** (FRED `DCOILWTICO`).
+> [!note] Con số Lo không đưa, nhưng làm ví dụ hay hơn hẳn:
+> giá dầu WTI **giao ngay** ngày 27/7/2007
+> là **77,03 đô/thùng** (FRED `DCOILWTICO`).
 
 Vậy nghĩa là **giá tương lai (75,06) THẤP HƠN giá giao ngay (77,03)**. Thị trường đang ở trạng
 thái **bù hoãn (backwardation)**. Mục 1 của [code](#23-code-minh-hoạ) tính ngược ra tiện ích nắm
@@ -729,11 +761,13 @@ gì xảy ra nếu không gọi lại không? **Họ thanh lý hợp đồng. B�
 
 Ở buổi sau ông đóng nốt lỗ hổng (`S10 14:56`), khi sinh viên hỏi có thể bỏ ký quỹ mà đi không:
 
+> [!quote]
 > *"Trước hết, bạn chịu trách nhiệm về **toàn bộ khoản lỗ**, không phải chỉ khoản ký quỹ. Tài khoản
 > ký quỹ **không phải một khoản vay miễn truy đòi**. Họ sẽ truy tài sản của bạn."*
 
-⚠️ Đây là chỗ sửa một hiểu nhầm rất phổ biến ở Việt Nam: **ký quỹ không phải mức lỗ tối đa.** Nó
-là số tiền bạn phải có mặt trước để được vào cuộc.
+> [!warning]
+> Đây là chỗ sửa một hiểu nhầm rất phổ biến ở Việt Nam: **ký quỹ không phải mức lỗ tối đa.** Nó
+> là số tiền bạn phải có mặt trước để được vào cuộc.
 
 ---
 
@@ -742,6 +776,7 @@ là số tiền bạn phải có mặt trước để được vào cuộc.
 Đây là toàn bộ nội dung định giá của bài, và Lo dựng đúng bằng cấu trúc ông đã dùng cho trái phiếu
 và cổ phiếu (`S10 22:38`):
 
+> [!quote]
 > *"Chúng ta sẽ dùng **đúng lập luận** đã dùng để định giá mọi thứ khác. Tìm ra **hai dòng tiền
 > giống hệt nhau**. Và hai tài sản có dòng tiền giống hệt nhau thì phải có cùng — cùng cái gì?
 > **Giá.**"*
@@ -845,6 +880,7 @@ không phải trò kế toán — nó đo một thứ có thật trong thế gi�
 
 Lo dùng chỉ số S&P 500 để minh hoạ công thức, rồi kể (`S10 42:16`):
 
+> [!quote]
 > *"Ngày 19/10/1987, buổi sáng trước khi Sở Giao dịch Chứng khoán New York mở cửa, có một chênh
 > lệch **rất lớn** giữa giá giao ngay và giá tương lai. Chênh lệch đó khiến giới kinh doanh chênh
 > lệch giá xoa tay: Giáng sinh đến sớm... Họ **mua hợp đồng tương lai và bán khống cổ phiếu**. Đó
@@ -886,10 +922,11 @@ luận là "phái sinh gây ra khủng hoảng". Nếu nó chỉ **truyền dẫ
 thị trường lại với nhau, và mối nối truyền cả điều xấu lẫn điều tốt" — đúng luận điểm uranium-238
 của chính Lo ở [mục 4](#4-vì-sao-phải-phòng-hộ--bài-toán-của-người-làm-máy-công-cụ).
 
-📚 Và một chi tiết Lo bỏ qua: hôm đó **hợp đồng tương lai S&P tháng 12 giảm khoảng 27 %**, sâu hơn
-chỉ số giao ngay 20,47 %. Lý do một phần là **giá giao ngay bị cũ**: rất nhiều cổ phiếu chưa mở
-cửa giao dịch, nên chỉ số phản ánh giá của hôm trước. Chênh lệch "lớn" mà giới chênh lệch giá nhìn
-thấy **một phần là ảo ảnh do dữ liệu chậm**, và họ bán cổ phiếu dựa trên nó.
+> [!note]
+> Và một chi tiết Lo bỏ qua: hôm đó **hợp đồng tương lai S&P tháng 12 giảm khoảng 27 %**, sâu hơn
+> chỉ số giao ngay 20,47 %. Lý do một phần là **giá giao ngay bị cũ**: rất nhiều cổ phiếu chưa mở
+> cửa giao dịch, nên chỉ số phản ánh giá của hôm trước. Chênh lệch "lớn" mà giới chênh lệch giá nhìn
+> thấy **một phần là ảo ảnh do dữ liệu chậm**, và họ bán cổ phiếu dựa trên nó.
 
 ---
 
@@ -967,6 +1004,7 @@ hộ **không dùng được** nếu thiếu nó, và đó là chỗ dễ sai nh
 
 Lo kết phần này bằng một phép nhẩm (`S10 59:27`):
 
+> [!quote]
 > *"Bạn đặt ký quỹ 5 %. Mua một hợp đồng. Giả sử giá hợp đồng giảm **2,5 %**. Tỷ suất sinh lời trên
 > số tiền bạn bỏ ra là bao nhiêu? Đúng rồi, **âm 50 %**. Đó là một bước chạy rất lớn. Trong một
 > ngày."*
@@ -1072,6 +1110,7 @@ Buổi 10 có nhiều lời tiên đoán. Chấm điểm bằng dữ liệu 2026
 
 Dự đoán hay nhất của Lo lại là dự đoán khiêm tốn nhất, ở `S10 61:54`:
 
+> [!quote]
 > *"Giá hợp đồng tương lai chứa **rất nhiều** thông tin. Nhưng nhớ rằng thông tin đó **chỉ tốt bằng
 > chính các bạn** — 'các bạn' ở đây là thị trường. **Nếu thị trường gồm toàn những kẻ ngốc, giá bạn
 > nhận được sẽ là giá của kẻ ngốc.**"*
@@ -1112,13 +1151,14 @@ Vài con số khác đáng nhớ:
   lượng ⟹ **khoảng 95 %** là **nhà đầu tư cá nhân trong nước**
 - Đã có thêm hợp đồng tương lai **VN100** và trái phiếu Chính phủ
 
-⚠️ Con số 95 % là điểm khác biệt lớn nhất so với thị trường Lo mô tả. Ở Mỹ, hai phía của hợp đồng
-thường là **người phòng hộ** (hãng hàng không, nhà máy đậu phụ) và **người đầu cơ**. Ở Việt Nam,
-với 95 % là cá nhân trong nước và không có hợp đồng hàng hoá nội địa thanh khoản, hầu như **không
-có bên phòng hộ**. Cả hai phía đều là đầu cơ. Lo bảo vệ giới đầu cơ ở `S9 12:45`: *"họ cung cấp một
-dịch vụ vô cùng giá trị, họ là mặt kia của cùng một đồng xu... giống như cố vỗ tay bằng một bàn
-tay."* Ở Việt Nam thì cả hai bàn tay đều là đầu cơ — và đó là câu hỏi mở về công dụng kinh tế của
-thị trường này.
+> [!warning]
+> Con số 95 % là điểm khác biệt lớn nhất so với thị trường Lo mô tả. Ở Mỹ, hai phía của hợp đồng
+> thường là **người phòng hộ** (hãng hàng không, nhà máy đậu phụ) và **người đầu cơ**. Ở Việt Nam,
+> với 95 % là cá nhân trong nước và không có hợp đồng hàng hoá nội địa thanh khoản, hầu như **không
+> có bên phòng hộ**. Cả hai phía đều là đầu cơ. Lo bảo vệ giới đầu cơ ở `S9 12:45`: *"họ cung cấp một
+> dịch vụ vô cùng giá trị, họ là mặt kia của cùng một đồng xu... giống như cố vỗ tay bằng một bàn
+> tay."* Ở Việt Nam thì cả hai bàn tay đều là đầu cơ — và đó là câu hỏi mở về công dụng kinh tế của
+> thị trường này.
 
 ### Nhà máy đậu phụ của Lo, phiên bản Đắk Lắk
 
@@ -1165,6 +1205,7 @@ phụ của Lo, lần này đúng chiều.
 
 ## 23. Code minh hoạ
 
+> [!note]
 > ⚙️ **Chạy:** cần **Python 3.10+**. Lưu file rồi gõ `python3 bai-07-ky-han-va-tuong-lai.py`.
 > **Không cần cài gói nào.** File có sẵn tại [thuc_hanh/bai-07-ky-han-va-tuong-lai.py](../thuc_hanh/bai-07-ky-han-va-tuong-lai.py).
 

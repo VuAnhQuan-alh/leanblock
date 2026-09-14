@@ -1,16 +1,18 @@
 # Bài 14 — Tương quan và phân tích hồi quy
 
+> [!info] Về bài này
 > Bài học dựa trên **Giáo trình Xác suất Thống kê** (Tống Đình Quỳ, NXB Bách Khoa – Hà Nội), **Chương VI**, tr. 194–229.
-> 💼 **Góc QTKD** là ví dụ thêm cho ngành Quản trị Kinh doanh, không có trong giáo trình.
-> 📚 **Mở rộng** là kiến thức nền giáo trình lướt qua.
-> ⚠️ Bài này nêu **ba chỗ số liệu không khớp** trong thí dụ 1.1, 1.3 và 2.3.
-> 📌 **Cần đọc trước:** [Bài 8](bai_08_bien_ngau_nhien_hai_chieu_va_tuong_quan.md) · [Bài 11](bai_11_uoc_luong_diem_va_khoang_tin_cay.md) · [Bài 12](bai_12_kiem_dinh_gia_thuyet_mot_mau.md) · [Bài 13](bai_13_kiem_dinh_nhieu_mau_va_anova.md)
+>
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
+>
+> **Cần đọc trước:** [Bài 8](bai_08_bien_ngau_nhien_hai_chieu_va_tuong_quan.md) · [Bài 11](bai_11_uoc_luong_diem_va_khoang_tin_cay.md) · [Bài 12](bai_12_kiem_dinh_gia_thuyet_mot_mau.md) · [Bài 13](bai_13_kiem_dinh_nhieu_mau_va_anova.md)
 
 **Bài cuối của khoá học**, và cũng là bài dùng nhiều nhất trong công việc.
 
 Bài 8 mục 7 đã hẹn: *"hồi quy chính là bài toán ước lượng $E(Y \mid X = x)$ từ dữ liệu"*.
 Giờ ta làm việc đó. Giáo trình mở đầu Chương VI (tr. 194):
 
+> [!quote]
 > "Nội dung chính của chương này là **xác định sự phụ thuộc giữa các biến ngẫu nhiên**...
 > Trong trường hợp chúng không độc lập, cần xác định **mức độ phụ thuộc** và **quan hệ hàm** giữa
 > các biến."
@@ -32,7 +34,7 @@ Hai vế đó là hai nửa của bài:
 6. [Khoảng tin cậy và kiểm định hệ số](#6-khoảng-tin-cậy-và-kiểm-định-hệ-số)
 7. [Hệ số xác định](#7-hệ-số-xác-định)
 8. [Hồi quy phi tuyến và hồi quy bội](#8-hồi-quy-phi-tuyến-và-hồi-quy-bội)
-9. [📚 Bảy sai lầm khi dùng hồi quy](#9--bảy-sai-lầm-khi-dùng-hồi-quy)
+9. [📚 Bảy sai lầm khi dùng hồi quy](#9-bảy-sai-lầm-khi-dùng-hồi-quy)
 10. [Code minh hoạ](#10-code-minh-hoạ)
 11. [Tự thử](#11-tự-thử)
 12. [Từ điển thuật ngữ](#12-từ-điển-thuật-ngữ)
@@ -72,6 +74,7 @@ $$r = \frac{\displaystyle\sum_i (x_i - \overline{X})(y_i - \overline{Y})}
 
 Giáo trình cho **quy tắc thực hành** (tr. 196):
 
+> [!quote]
 > "$r$ rất khó bằng $\pm 1$ (hoặc 0). Vì vậy trong thực hành nếu $|r| > 0{,}8$ ta đã có thể coi là
 > **có mối quan hệ dạng tuyến tính** (xấp xỉ tuyến tính) giữa hai biến đang xét."
 
@@ -79,6 +82,7 @@ Giáo trình cho **quy tắc thực hành** (tr. 196):
 
 ### Thí dụ 1.1 (tr. 197)
 
+> [!note]
 > Tính các đặc trưng mẫu của 15 cặp $(x_i, y_i)$.
 
 Dữ liệu lưu ở [cap_so_lieu_15.csv](../thuc_hanh/du_lieu/cap_so_lieu_15.csv).
@@ -97,18 +101,19 @@ $$s_{y'} = s_y, \qquad r_{xy'} = r_{xy}$$
 | **$r$**         |    **−0,5422** |      −0,5417 ✓ |
 | $r^2$           |         0,2939 |       0,2934 ✓ |
 
-⚠️ **Ghi chú số liệu:** hàng "Tổng" của bảng in $\sum x_i y_i' = 2489{,}81$, nhưng dòng tính toán
-ngay bên dưới dùng **2849,81**. Cộng lại từ cột thứ sáu của chính bảng đó được **2849,81** —
-con số dùng trong phép tính là đúng, hàng Tổng in đảo hai chữ số.
+> [!warning] Ghi chú số liệu:
+> hàng "Tổng" của bảng in $\sum x_i y_i' = 2489{,}81$, nhưng dòng tính toán
+> ngay bên dưới dùng **2849,81**. Cộng lại từ cột thứ sáu của chính bảng đó được **2849,81** —
+> con số dùng trong phép tính là đúng, hàng Tổng in đảo hai chữ số.
 
 (Nếu dùng 2489,81 thì $r = -0{,}924$, khác hẳn kết quả 0,5417 mà sách công bố.)
 
-### 💼 Góc QTKD — thang đọc $r$
-
-Đã cho ở bài 8 mục 6. Nhắc lại điểm quan trọng nhất: **$r$ chỉ đo quan hệ TUYẾN TÍNH.**
-Quan hệ hình chữ U (giá bán vs lợi nhuận) cho $r \approx 0$ dù rất chặt chẽ.
-
-⭐ **Luôn vẽ biểu đồ phân tán trước khi tính $r$.**
+> [!example] Góc QTKD — thang đọc $r$
+>
+> Đã cho ở bài 8 mục 6. Nhắc lại điểm quan trọng nhất: **$r$ chỉ đo quan hệ TUYẾN TÍNH.**
+> Quan hệ hình chữ U (giá bán vs lợi nhuận) cho $r \approx 0$ dù rất chặt chẽ.
+>
+> ⭐ **Luôn vẽ biểu đồ phân tán trước khi tính $r$.**
 
 ---
 
@@ -127,11 +132,13 @@ Miền tới hạn (1.4): $|K_{tn}| > t_{n-2;\,1-\alpha/2}$.
 Giáo trình nêu ý nghĩa (tr. 201): *"Nếu giả thuyết về tính độc lập của $X$ và $Y$ chấp nhận được,
 **ít có lý do để xem xét đồng thời hai biến đó**."*
 
-💼 Nói cách khác: **kiểm định này quyết định có nên làm hồi quy hay không.** Nếu không bác bỏ được
-$H_0$, đừng vẽ đường hồi quy — nó vô nghĩa.
+> [!example]
+> Nói cách khác: **kiểm định này quyết định có nên làm hồi quy hay không.** Nếu không bác bỏ được
+> $H_0$, đừng vẽ đường hồi quy — nó vô nghĩa.
 
 ### Thí dụ 1.3 (tr. 201)
 
+> [!note]
 > $n = 8$ cặp số liệu. $\alpha = 0{,}05$: kiểm định tính độc lập.
 
 $\sum(x_i-\overline{X})^2 = 48{,}125$, $\sum(y_i-\overline{Y})^2 = 0{,}6780$,
@@ -143,12 +150,14 @@ $$K_{tn} = \frac{-0{,}0489\sqrt{6}}{\sqrt{1-0{,}0489^2}} = \mathbf{-0{,}12}$$
 
 $t_{6;\,0{,}975} = 2{,}447$. Vì $|-0{,}12| < 2{,}447$ → **chấp nhận** $H_0$: coi như độc lập.
 
-⚠️ **Ghi chú:** sách in số hạng giữa là $-0{,}2975$; tính lại từ dữ liệu được $-0{,}2795$
-(đảo hai chữ số). Nhưng $r = -0{,}0489$ mà sách công bố lại khớp với **−0,2795** — nên kết quả
-cuối cùng đúng.
+> [!warning] Ghi chú:
+> sách in số hạng giữa là $-0{,}2975$; tính lại từ dữ liệu được $-0{,}2795$
+> (đảo hai chữ số). Nhưng $r = -0{,}0489$ mà sách công bố lại khớp với **−0,2795** — nên kết quả
+> cuối cùng đúng.
 
-### ⭐ Thí dụ 1.4 (tr. 202) — bài học đáng giá nhất chương VI
+### Thí dụ 1.4 (tr. 202) — bài học đáng giá nhất chương VI
 
+> [!note]
 > Kiểm định tính độc lập cho bộ số liệu thí dụ 1.1 ($n = 15$, $r = -0{,}5417$), $\alpha = 0{,}01$.
 
 $$K_{tn} = \frac{-0{,}5417\sqrt{13}}{\sqrt{1-0{,}5417^2}} = \mathbf{-2{,}32}$$
@@ -160,6 +169,7 @@ $$K_{tn} = \frac{-0{,}5417\sqrt{13}}{\sqrt{1-0{,}5417^2}} = \mathbf{-2{,}32}$$
 
 Giáo trình bình luận thẳng thắn (tr. 202):
 
+> [!quote]
 > "Ở đây ta thấy $r = -0{,}5417$ khác khá xa 0 mà ta vẫn chưa thể khẳng định là giữa $X$ và $Y$
 > có quan hệ nào đó. Nguyên nhân cũng có thể là **kích thước mẫu quá bé** chăng?...
 > Như vậy có thể thấy rằng ước lượng hệ số tương quan **phụ thuộc tới mức độ nào vào kích thước mẫu**
@@ -173,7 +183,8 @@ Giáo trình bình luận thẳng thắn (tr. 202):
 2. **Kết luận phụ thuộc vào $\alpha$ bạn chọn.** Đây chính là lý do bài 12 mục 9 nhấn mạnh:
    **chọn $\alpha$ trước khi nhìn dữ liệu**.
 
-💼 Ngưỡng $|r|$ cần thiết để có ý nghĩa ở $\alpha = 0{,}05$ giảm nhanh theo $n$:
+> [!example]
+> Ngưỡng $|r|$ cần thiết để có ý nghĩa ở $\alpha = 0{,}05$ giảm nhanh theo $n$:
 
 |  $n$ |     $ | r | $ tối thiểu |
 | ---: | ----: |
@@ -183,8 +194,9 @@ Giáo trình bình luận thẳng thắn (tr. 202):
 |  100 | 0,197 |
 | 1000 | 0,062 |
 
-⚠️ Dòng cuối là cảnh báo: với $n = 1000$, $r = 0{,}07$ đã "có ý nghĩa thống kê" — nhưng
-$r^2 = 0{,}005$, tức mô hình giải thích được **0,5%**. Có ý nghĩa thống kê ≠ hữu ích.
+> [!warning]
+> Dòng cuối là cảnh báo: với $n = 1000$, $r = 0{,}07$ đã "có ý nghĩa thống kê" — nhưng
+> $r^2 = 0{,}005$, tức mô hình giải thích được **0,5%**. Có ý nghĩa thống kê ≠ hữu ích.
 
 ---
 
@@ -208,6 +220,7 @@ Giáo trình cho mốc: *"Trong thực hành với $n > 50$ đã có thể chấ
 
 ### Thí dụ 1.5 (tr. 203)
 
+> [!note]
 > 150 cặp số liệu thuỷ văn cho $r = 0{,}5273$. $\alpha = 0{,}05$: có thể cho rằng $\rho = 0{,}5$ không?
 
 $$Z = \frac12\ln\frac{1{,}5273}{0{,}4727} = 0{,}5864, \qquad
@@ -221,7 +234,8 @@ $|0{,}43| < 1{,}96$ → **chấp nhận** $\rho = 0{,}5$.
 
 $$K = \frac{Z_1 - Z_2}{\sqrt{VZ_1 + VZ_2}} \sim N(0;1)$$
 
-💼 Dùng để trả lời: *"quan hệ giữa chi quảng cáo và doanh số ở miền Bắc có chặt hơn ở miền Nam không?"*
+> [!example]
+> Dùng để trả lời: *"quan hệ giữa chi quảng cáo và doanh số ở miền Bắc có chặt hơn ở miền Nam không?"*
 
 ---
 
@@ -276,16 +290,18 @@ $$\boxed{\hat{a} = \frac{\sum(x_i - \overline{X})(y_i - \overline{Y})}{\sum(x_i 
 
 $$s^2 = \frac{1}{n-2}\sum_{i=1}^{n}\hat{\varepsilon}_i^2 = \frac{1}{n-2}\sum(y_i - \hat{a}x_i - \hat{b})^2$$
 
-⚠️ **Chia $n-2$**, mất **hai** bậc tự do vì ước lượng **hai** tham số $a$ và $b$.
-(So bài 10 mục 6: chia $n-1$ vì ước lượng một tham số.)
+> [!warning] Chia $n-2$
+> , mất **hai** bậc tự do vì ước lượng **hai** tham số $a$ và $b$.
+> (So bài 10 mục 6: chia $n-1$ vì ước lượng một tham số.)
 
 **Công thức tính nhanh (2.11):**
 
 $$\sum \hat{\varepsilon}_i^2 = S_{yy} - \hat{a}\,S_{xy}$$
 
-📚 Giáo trình cũng nêu (tr. 208): với giả thiết chuẩn (2.3c), **ước lượng hợp lý nhất trùng với
-bình phương cực tiểu** — hai nguyên lý khác nhau cho cùng kết quả. (Nhưng ước lượng hợp lý nhất
-của $\sigma^2$ lại chia $n$, tức **chệch** — đúng như bài 11 mục 3 đã cảnh báo.)
+> [!note]
+> Giáo trình cũng nêu (tr. 208): với giả thiết chuẩn (2.3c), **ước lượng hợp lý nhất trùng với
+> bình phương cực tiểu** — hai nguyên lý khác nhau cho cùng kết quả. (Nhưng ước lượng hợp lý nhất
+> của $\sigma^2$ lại chia $n$, tức **chệch** — đúng như bài 11 mục 3 đã cảnh báo.)
 
 **Tính chất của ước lượng (tr. 210–211):** $\hat a$, $\hat b$ là ước lượng **không chệch** và
 **hiệu quả** của $a$, $b$, với
@@ -298,6 +314,7 @@ chi khác nhau**, đừng chi đều đều.
 
 ### Thí dụ 2.1 (tr. 209)
 
+> [!note]
 > Trọng lượng cơ thể ($X$, kg) và lượng huyết tương ($Y$, lít) của 8 người đàn ông.
 > Xây dựng đường hồi quy tuyến tính mẫu.
 
@@ -314,9 +331,10 @@ $$s^2 = \frac{1}{6}(0{,}6780 - 0{,}0436 \times 8{,}96) = \mathbf{0{,}0479}, \qqu
 
 **Đọc kết quả:** mỗi kg trọng lượng cơ thể tương ứng thêm **0,0436 lít** huyết tương.
 
-⚠️ Hệ số chặn $\hat b = 0{,}0857$ nghĩa là "người nặng 0 kg có 0,086 lít huyết tương" — **vô nghĩa**.
-Đó là chuyện bình thường: hệ số chặn thường **không diễn giải được** vì $x = 0$ nằm ngoài vùng
-dữ liệu (mục 9 ý 4).
+> [!warning]
+> Hệ số chặn $\hat b = 0{,}0857$ nghĩa là "người nặng 0 kg có 0,086 lít huyết tương" — **vô nghĩa**.
+> Đó là chuyện bình thường: hệ số chặn thường **không diễn giải được** vì $x = 0$ nằm ngoài vùng
+> dữ liệu (mục 9 ý 4).
 
 ---
 
@@ -349,13 +367,15 @@ $t_{6;\,0{,}975} = 2{,}447$, $\chi^2_{6;\,0{,}975} = 14{,}449$, $\chi^2_{6;\,0{,
 | $b$        | (−2,420; 2,591)  | (−2,8049; 2,9763) ⚠️|
 | $\sigma^2$ | (0,0199; 0,2322) | (0,0199; 0,2325) ✓  |
 
-⚠️ **Ghi chú:** khoảng cho $b$ tính lại được (−2,420; 2,591), hẹp hơn con số in trong sách.
-Sách cũng in $\sum x_i^2 = 35893{,}5$ trong công thức trong khi thí dụ 2.1 cho **35983,5** —
-đảo hai chữ số. Nhưng dù dùng số nào thì kết quả vẫn không ra được (−2,8049; 2,9763).
-**Kết luận không đổi:** cả hai khoảng đều **chứa 0**, nên hệ số chặn không khác 0 có ý nghĩa.
+> [!warning] Ghi chú:
+> khoảng cho $b$ tính lại được (−2,420; 2,591), hẹp hơn con số in trong sách.
+> Sách cũng in $\sum x_i^2 = 35893{,}5$ trong công thức trong khi thí dụ 2.1 cho **35983,5** —
+> đảo hai chữ số. Nhưng dù dùng số nào thì kết quả vẫn không ra được (−2,8049; 2,9763).
+> **Kết luận không đổi:** cả hai khoảng đều **chứa 0**, nên hệ số chặn không khác 0 có ý nghĩa.
 
 ### Thí dụ 2.4 (tr. 216) — kiểm định quan trọng nhất
 
+> [!note]
 > $\alpha = 0{,}05$, kiểm định $H_0: a = 0$ với $H_1: a \ne 0$.
 
 **Tiêu chuẩn (2.19):**
@@ -366,6 +386,7 @@ $t_{6;\,0{,}975} = 2{,}447$. Vì $2{,}857 > 2{,}447$ → **bác bỏ** $H_0$.
 
 ⭐ Giáo trình giải thích ý nghĩa (tr. 216):
 
+> [!quote]
 > "Giả thuyết $H_0: a = 0$ có **ý nghĩa rất quan trọng** vì nó cho phép **chấp nhận hay bác bỏ
 > sự có mặt của biến $X$ trong mô hình** đang xét."
 
@@ -403,6 +424,7 @@ $$\boxed{r^2 = \frac{\sum(\hat{y}_i - \overline{Y})^2}{\sum(y_i - \overline{Y})^
 
 Giáo trình nêu ý nghĩa (tr. 217):
 
+> [!quote]
 > "$r^2$ cho thấy **tỷ lệ tổng bình phương sai số tiên nghiệm được giải thích bởi mô hình tuyến tính**
 > (bởi biến $X$)... $1 - r^2$ cho ta **phần không được giải thích** bởi mô hình tuyến tính."
 
@@ -416,19 +438,19 @@ Giờ ta thấy đúng đại lượng đó xuất hiện lại từ dữ liệu
 **Với thí dụ 2.1:** $r^2 = 0{,}576$ — trọng lượng cơ thể giải thích **57,6%** biến động của lượng
 huyết tương; 42,4% còn lại do các yếu tố khác (chiều cao, tuổi, thể trạng, sai số đo).
 
-### 💼 Góc QTKD — đọc $R^2$ cho đúng
-
-| $R^2$     | Trong khoa học tự nhiên | Trong kinh doanh / xã hội                               |
-| --------- | ----------------------- | ------------------------------------------------------- |
-| > 0,9     | bình thường             | **đáng nghi** — nhiều khả năng hai biến đo cùng một thứ |
-| 0,5 – 0,9 | tốt                     | rất tốt                                                 |
-| 0,2 – 0,5 | yếu                     | **bình thường, vẫn dùng được**                          |
-| < 0,2     | vô dụng                 | yếu nhưng có thể vẫn có ích nếu $a$ có ý nghĩa          |
-
-⚠️ **$R^2$ thấp không có nghĩa mô hình vô dụng.** Nếu $R^2 = 0{,}3$ nhưng hệ số $a$ có ý nghĩa
-thống kê và độ lớn đáng kể, mô hình vẫn cho biết **hướng và độ lớn tác động** — đủ để ra quyết định.
-
-⚠️ Ngược lại **$R^2$ cao không có nghĩa mô hình đúng.** Ba lý do ở mục 9.
+> [!example] Góc QTKD — đọc $R^2$ cho đúng
+>
+> | $R^2$     | Trong khoa học tự nhiên | Trong kinh doanh / xã hội                               |
+> | --------- | ----------------------- | ------------------------------------------------------- |
+> | > 0,9     | bình thường             | **đáng nghi** — nhiều khả năng hai biến đo cùng một thứ |
+> | 0,5 – 0,9 | tốt                     | rất tốt                                                 |
+> | 0,2 – 0,5 | yếu                     | **bình thường, vẫn dùng được**                          |
+> | < 0,2     | vô dụng                 | yếu nhưng có thể vẫn có ích nếu $a$ có ý nghĩa          |
+>
+> ⚠️ **$R^2$ thấp không có nghĩa mô hình vô dụng.** Nếu $R^2 = 0{,}3$ nhưng hệ số $a$ có ý nghĩa
+> thống kê và độ lớn đáng kể, mô hình vẫn cho biết **hướng và độ lớn tác động** — đủ để ra quyết định.
+>
+> ⚠️ Ngược lại **$R^2$ cao không có nghĩa mô hình đúng.** Ba lý do ở mục 9.
 
 ---
 
@@ -453,8 +475,9 @@ Tương tự với các dạng khác — **tuyến tính hoá** bằng đổi bi
 | $y = c\,x^a$            | $x' = \ln x$, $y' = \ln y$ | $y' = \ln c + a x'$ |
 | $y = \dfrac{1}{a + bx}$ | $y' = 1/y$                 | $y' = a + bx$       |
 
-💼 Dạng thứ hai (log–log) rất hay dùng trong kinh tế: hệ số $a$ chính là **độ co giãn** —
-"chi quảng cáo tăng 1% thì doanh số tăng $a$%".
+> [!example]
+> Dạng thứ hai (log–log) rất hay dùng trong kinh tế: hệ số $a$ chính là **độ co giãn** —
+> "chi quảng cáo tăng 1% thì doanh số tăng $a$%".
 
 ### Hồi quy bội (§3, tr. 221)
 
@@ -463,15 +486,17 @@ $$Y = b + a_1 X_1 + a_2 X_2 + \dots + a_k X_k + \varepsilon$$
 Giải bằng bình phương cực tiểu dưới dạng ma trận. Giáo trình cũng giới thiệu
 **tương quan bội** và **tương quan riêng** (tr. 224).
 
-⚠️ **Vấn đề mới xuất hiện khi có nhiều biến: đa cộng tuyến.**
-Nếu hai biến giải thích tương quan mạnh với nhau (bài 8 mục 6 đã cảnh báo về $r > 0{,}95$),
-các hệ số trở nên **rất không ổn định** — đổi vài quan sát là hệ số nhảy, thậm chí đổi dấu.
+> [!warning] Vấn đề mới xuất hiện khi có nhiều biến: đa cộng tuyến.
+> Nếu hai biến giải thích tương quan mạnh với nhau (bài 8 mục 6 đã cảnh báo về $r > 0{,}95$),
+> các hệ số trở nên **rất không ổn định** — đổi vài quan sát là hệ số nhảy, thậm chí đổi dấu.
 
-💼 Rất hay gặp: đưa cả "chi quảng cáo Facebook", "chi quảng cáo Google" và "tổng chi quảng cáo"
-vào cùng một mô hình. Ba biến này phụ thuộc tuyến tính hoàn toàn → mô hình vô nghĩa.
+> [!example]
+> Rất hay gặp: đưa cả "chi quảng cáo Facebook", "chi quảng cáo Google" và "tổng chi quảng cáo"
+> vào cùng một mô hình. Ba biến này phụ thuộc tuyến tính hoàn toàn → mô hình vô nghĩa.
 
-📚 **Hệ số xác định hiệu chỉnh.** Thêm biến vào **luôn** làm $R^2$ tăng, kể cả biến vô dụng.
-Vì thế phải dùng:
+> [!note] Hệ số xác định hiệu chỉnh.
+> Thêm biến vào **luôn** làm $R^2$ tăng, kể cả biến vô dụng.
+> Vì thế phải dùng:
 
 $$R^2_{\text{hiệu chỉnh}} = 1 - (1-R^2)\frac{n-1}{n-k-1}$$
 
@@ -480,7 +505,7 @@ không so $R^2$ thô. (Giáo trình không nêu công thức này.)
 
 ---
 
-## 9. 📚 Bảy sai lầm khi dùng hồi quy
+## 9. Bảy sai lầm khi dùng hồi quy
 
 Giáo trình dạy kỹ thuật; phần này bổ sung phần diễn giải — nơi hầu hết sai lầm thực tế xảy ra.
 
@@ -489,18 +514,21 @@ Giáo trình dạy kỹ thuật; phần này bổ sung phần diễn giải — 
 Đã cảnh báo ở bài 8 mục 9. Hồi quy làm sai lầm này **nặng hơn**, vì công thức $y = ax + b$ trông
 như một cơ chế nhân quả.
 
-⚠️ **Hồi quy không chứng minh nhân quả, bất kể $R^2$ cao đến đâu.** Chỉ **thí nghiệm có đối chứng**
-mới làm được.
+> [!warning] Hồi quy không chứng minh nhân quả, bất kể $R^2$ cao đến đâu.
+> Chỉ **thí nghiệm có đối chứng**
+> mới làm được.
 
-💼 *"Mỗi triệu quảng cáo mang về 2,29 triệu doanh số"* — có thể đúng, hoặc có thể chỉ là:
-công ty chi nhiều quảng cáo **vào những tháng đang bán tốt**. Chiều nhân quả ngược lại.
+> [!example]
+> *"Mỗi triệu quảng cáo mang về 2,29 triệu doanh số"* — có thể đúng, hoặc có thể chỉ là:
+> công ty chi nhiều quảng cáo **vào những tháng đang bán tốt**. Chiều nhân quả ngược lại.
 
 ### 2. Ngoại suy ra ngoài vùng dữ liệu
 
 Mô hình chỉ đáng tin **trong khoảng $x$ đã quan sát**.
 
-💼 Dữ liệu chi quảng cáo từ 20 đến 100 triệu. Dùng mô hình để dự báo khi chi **500 triệu** là sai —
-thực tế luôn có **hiệu suất giảm dần**, đường thẳng không kéo dài mãi.
+> [!example]
+> Dữ liệu chi quảng cáo từ 20 đến 100 triệu. Dùng mô hình để dự báo khi chi **500 triệu** là sai —
+> thực tế luôn có **hiệu suất giảm dần**, đường thẳng không kéo dài mãi.
 
 Đây cũng là lý do hệ số chặn $b$ thường vô nghĩa: $x = 0$ nằm ngoài vùng dữ liệu.
 
@@ -517,7 +545,8 @@ $$
 
 Khác nhau ở **số 1** dưới căn — và nó làm khoảng rộng gấp nhiều lần (mục 10 cho thấy gấp 3,4 lần).
 
-💼 **Lập kế hoạch cho tháng tới phải dùng khoảng DỰ BÁO.** Dùng khoảng tin cậy là tự lừa mình.
+> [!example] Lập kế hoạch cho tháng tới phải dùng khoảng DỰ BÁO.
+> Dùng khoảng tin cậy là tự lừa mình.
 
 ### 4. Không vẽ đồ thị
 
@@ -542,8 +571,9 @@ giả thiết (2.3a) hoặc (2.3b) bị vi phạm.
 Thêm một biến quan trọng vào mô hình có thể làm hệ số **đổi dấu**. Đây là nghịch lý Simpson
 (bài 8 mục 9) trong hồi quy.
 
-💼 *"Giá cao thì bán được nhiều hơn"* — nghe vô lý, nhưng xảy ra khi bỏ qua biến **chất lượng**:
-sản phẩm tốt vừa đắt vừa bán chạy.
+> [!example]
+> *"Giá cao thì bán được nhiều hơn"* — nghe vô lý, nhưng xảy ra khi bỏ qua biến **chất lượng**:
+> sản phẩm tốt vừa đắt vừa bán chạy.
 
 ### 6. $R^2$ cao vì lý do sai
 
@@ -580,6 +610,7 @@ Ba nguyên nhân thường gặp:
 
 ## 10. Code minh hoạ
 
+> [!note]
 > ⚙️ **Chạy:** cần **Python 3.10+**. Chỉ dùng thư viện chuẩn — **không cần cài gói nào**.
 > Chạy từ thư mục gốc khoá học: `cd houedu/eg11-xacxuatthongke && python3 bai-14-hoi-quy.py`.
 > Dùng module [thuc_hanh/bang_tra.py](../thuc_hanh/bang_tra.py).
@@ -974,20 +1005,20 @@ Bảy điểm đáng để ý:
 | Quá khớp                  | Overfitting                    | 📚 mục 9 ý 6                         |
 | Độ co giãn                | Elasticity                     | hệ số của log–log                    |
 
-### 💼 Trong Excel
-
-| Việc                             | Hàm / công cụ                         |
-| -------------------------------- | ------------------------------------- |
-| $r$                              | `CORREL(mảng_x; mảng_y)`              |
-| $\hat a$                         | `SLOPE(mảng_y; mảng_x)`               |
-| $\hat b$                         | `INTERCEPT(mảng_y; mảng_x)`           |
-| $R^2$                            | `RSQ(mảng_y; mảng_x)`                 |
-| Dự báo                           | `FORECAST.LINEAR(x₀; mảng_y; mảng_x)` |
-| Toàn bộ (kèm sai số chuẩn)       | `LINEST(...)` — công thức mảng        |
-| Báo cáo đầy đủ + biểu đồ phần dư | **Data ▸ Data Analysis ▸ Regression** |
-
-⭐ Công cụ cuối cùng in ra bảng ANOVA cho hồi quy, hệ số kèm giá trị p và khoảng tin cậy —
-đúng mọi thứ bài này dạy. Nếu chỉ nhớ một thứ từ bảng này, hãy nhớ nó.
+> [!example] Trong Excel
+>
+> | Việc                             | Hàm / công cụ                         |
+> | -------------------------------- | ------------------------------------- |
+> | $r$                              | `CORREL(mảng_x; mảng_y)`              |
+> | $\hat a$                         | `SLOPE(mảng_y; mảng_x)`               |
+> | $\hat b$                         | `INTERCEPT(mảng_y; mảng_x)`           |
+> | $R^2$                            | `RSQ(mảng_y; mảng_x)`                 |
+> | Dự báo                           | `FORECAST.LINEAR(x₀; mảng_y; mảng_x)` |
+> | Toàn bộ (kèm sai số chuẩn)       | `LINEST(...)` — công thức mảng        |
+> | Báo cáo đầy đủ + biểu đồ phần dư | **Data ▸ Data Analysis ▸ Regression** |
+>
+> ⭐ Công cụ cuối cùng in ra bảng ANOVA cho hồi quy, hệ số kèm giá trị p và khoảng tin cậy —
+> đúng mọi thứ bài này dạy. Nếu chỉ nhớ một thứ từ bảng này, hãy nhớ nó.
 
 ---
 

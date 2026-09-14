@@ -1,15 +1,15 @@
 # Bài 1 — Tài chính cá nhân là gì
 
+> [!info] Về bài này
 > Bài học dựa trên **Unit 1 của Class 1** — C1 tr. 4–6. Ba trang, khoảng 700 chữ: unit ngắn nhất
 > của cả hai tập, và là unit duy nhất nói về **toàn cảnh**.
->
 > **Cần đọc trước:** [Bài 0](bai_00_bat_dau_tu_dau.md) — quy ước trích dẫn và bản đồ khoá học.
->
 > **Ký hiệu:** **[bổ sung]** là kiến thức ngoài sách · **[đính chính]** là chỗ sách sai ·
 > **[2026]** là mục đối chiếu với hiện tại.
->
 > **Code:** [`thuc_hanh/bai-01-bao-lau-thi-den.py`](../thuc_hanh/bai-01-bao-lau-thi-den.py)
 > — lấy công thức của chính cuốn sách trả lời câu hỏi mà sách né: *bao lâu thì đến?* Mục 5.
+>
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
 
 ---
 
@@ -36,6 +36,7 @@
 
 Sách mở đầu bằng một định nghĩa mượn:
 
+> [!quote]
 > *"Định nghĩa của Wikipedia: 'Tài chính cá nhân là việc quản lý tài chính mà mỗi cá nhân hoặc một
 > gia đình thực hiện để lập ngân sách, tiết kiệm và chi tiêu các nguồn tiền mặt theo thời gian, có
 > tính đến các rủi ro tài chính và các sự kiện trong tương lai'."* — C1 tr. 4
@@ -52,6 +53,7 @@ nào, câu hỏi đầu tiên luôn là: **tra ngược về đâu?**
 
 Sách tự diễn giải lại, và bản diễn giải này mới là thứ đáng nhớ:
 
+> [!quote]
 > *"Tài chính cá nhân là những gì xoay quanh chủ đề tiền bạc của một cá nhân cụ thể."* — C1 tr. 4
 
 Ba chữ **"một cá nhân cụ thể"** đặt ra nguyên tắc chi phối cả khoá học: **không có lời khuyên tài
@@ -82,6 +84,7 @@ Cả hai tập sách đứng trên đúng ba chân:
 Ba bài toán này **không ngang hàng nhau**, và sách nói rõ bài toán nào quan trọng nhất ngay khi
 giới thiệu nó:
 
+> [!quote]
 > *"Vì hầu hết đều đồng ý rằng số tiền bạn kiếm được không quan trọng bằng số tiền bạn giữ được.
 > Và khi tìm kiếm cụm từ 'tài chính cá nhân' trên Google thì đứng trước nó luôn có từ khoá 'quản lý'."*
 > — C1 tr. 5
@@ -97,6 +100,7 @@ lương theo giờ chỉ là *cách đo tiện lợi*, không phải cái đư�
 
 Và sách đóng khung ba bài toán bằng một mệnh đề hoặc–hoặc:
 
+> [!quote]
 > *"Hoặc bạn sẽ phải lần lượt tìm đáp án cho 3 bài toán này. Hoặc bạn sẽ giống số đông ngoài kia,
 > chịu áp lực về tiền bạc hàng ngày."* — C1 tr. 5
 
@@ -104,6 +108,7 @@ Và sách đóng khung ba bài toán bằng một mệnh đề hoặc–hoặc:
 
 ## 3. Bốn bước của một kế hoạch hoàn chỉnh
 
+> [!quote]
 > *"Một kế hoạch tài chính cá nhân hoàn chỉnh bao gồm 4 bước sau:"* — C1 tr. 5
 
 | Bước | Sách viết | Làm ở bài |
@@ -148,6 +153,7 @@ bao nhiêu"* và coi con số đó là dữ kiện cho trước.
 tiền nằm ở Unit 1 của Class 2** — tức là ở cuốn thứ hai, *bên ngoài* kế hoạch bốn bước. Và Class 1
 kết thúc bằng câu:
 
+> [!quote]
 > *"Sang đến Class 2, chúng ta sẽ cùng nhau giải 3 bài toán cụ thể: kiếm tiền, giữ tiền, tạo tiền."*
 > — C1 tr. 40
 
@@ -158,6 +164,7 @@ chồng lên nhau một phần, và sách không bao giờ ghép chúng lại.
 rất nhanh. [Mục 5](#5-bổ-sung-bao-lâu-thì-đến--tính-bằng-chính-công-thức-của-sách) cho thấy trần
 đó nằm ở đâu bằng con số. Chính sách cũng thừa nhận điều này về sau, ở C2 tr. 27:
 
+> [!quote]
 > *"bạn không thể giảm chi tiêu được mãi. Chúng ta không muốn giàu có bằng cách sống tằn tiện…
 > điều quan trọng hơn cần làm là tìm cách tăng thu nhập."*
 
@@ -280,6 +287,7 @@ tính ra. Tệp đó cũng **kiểm công thức đóng bằng mô phỏng từn
 Bốn bước ở mục 3 **không phải danh sách để chọn**. Chúng có ràng buộc thứ tự, và sách phát biểu
 ràng buộc mạnh nhất ở Unit 2:
 
+> [!quote]
 > *"Điều này rất quan trọng, vì khi và chỉ khi dòng tiền dương bạn mới nên nghĩ đến việc đầu tư dài
 > hạn."* — C1 tr. 12
 
@@ -307,6 +315,7 @@ Bài 4 và bài 12 làm kỹ chỗ này.
 
 Sách đưa ra một khẳng định lạc quan và đặt nó ở vị trí trang trọng:
 
+> [!quote]
 > *"Tự do tài chính - hay cái cảnh giới mà bạn vĩnh viễn thoát khỏi ảnh hưởng của tiền bạc - là một
 > kỹ năng có thể học được."* — C1 tr. 5
 
@@ -317,6 +326,7 @@ lương — nghĩa là kết quả thật sự do **hành vi** quyết định c
 Nhưng cùng phép tính đó cũng chỉ ra **giới hạn**, và giới hạn nằm sẵn trong chính cuốn sách. C2
 tr. 19 đặt một ngưỡng cảnh báo:
 
+> [!quote]
 > *"Cảnh báo 'red flag' xuất hiện nếu NEC > 80% tổng thu nhập, lúc này bạn cần ngay lập tức tăng
 > thu, hoặc mạnh tay cắt giảm chi phí."*
 

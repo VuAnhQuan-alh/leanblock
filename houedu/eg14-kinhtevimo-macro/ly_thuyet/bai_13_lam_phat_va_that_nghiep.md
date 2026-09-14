@@ -1,16 +1,18 @@
 # Bài 13 — Sự đánh đổi ngắn hạn giữa lạm phát và thất nghiệp
 
+> [!info] Về bài này
 > Bài học dựng từ **Chương 22 — Sự đánh đổi ngắn hạn giữa lạm phát và thất nghiệp**
 > (tr. 535–559) của *N. Gregory Mankiw — **Kinh tế học vĩ mô***, bản dịch của Khoa Kinh tế,
 > **ĐH Kinh tế TP.HCM** (Cengage Learning Asia).
-> 🎯 **Vòng 1.** [Bài 12](bai_12_chinh_sach_tien_te_va_tai_khoa.md) nói chính sách **đẩy được**
+>
+> **Vòng 1.** [Bài 12](bai_12_chinh_sach_tien_te_va_tai_khoa.md) nói chính sách **đẩy được**
 > sản lượng lên. Bài này hỏi câu còn lại: **cái giá là gì, và giữ được bao lâu?**
 > Đây là chương duy nhất trong khoá kể một **câu chuyện lịch sử liên tục** — từ 1958 đến 2009 —
 > và cũng là chương duy nhất ta thấy một dự báo lý thuyết bị thực tế **kiểm chứng công khai**.
-> 💼 **Góc QTKD** — ví dụ thêm cho ngành quản trị kinh doanh, **không có trong sách**.
-> 📚 **Mở rộng** — thứ sách nói lướt hoặc để trong hộp phụ.
-> ⚠️ — chỗ dễ hiểu sai, hoặc chỗ sách in sai.
-> 📌 **Cần đọc trước:** [Bài 11](bai_11_tong_cau_va_tong_cung.md) và
+>
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
+>
+> **Cần đọc trước:** [Bài 11](bai_11_tong_cau_va_tong_cung.md) và
 > [Bài 12](bai_12_chinh_sach_tien_te_va_tai_khoa.md) **toàn bộ**;
 > [Bài 6](bai_06_that_nghiep.md#6-bốn-nguyên-nhân-của-thất-nghiệp-dài-hạn) (thất nghiệp tự nhiên);
 > [Bài 8 mục 5](bai_08_tang_truong_tien_va_lam_phat.md#5-phân-đôi-cổ-điển-và-tính-trung-lập-của-tiền)
@@ -25,21 +27,21 @@
 - [1. Chỉ số khốn khổ — câu hỏi mở chương](#1-chỉ-số-khốn-khổ--câu-hỏi-mở-chương)
 - [2. Nguồn gốc của đường Phillips](#2-nguồn-gốc-của-đường-phillips)
 - [3. AD–AS sinh ra đường Phillips — ví dụ bằng số của sách](#3-adas-sinh-ra-đường-phillips--ví-dụ-bằng-số-của-sách)
-- [4. 📚 Hệ số Okun ẩn trong chính ví dụ của sách](#4--hệ-số-okun-ẩn-trong-chính-ví-dụ-của-sách)
+- [4. Hệ số Okun ẩn trong chính ví dụ của sách](#4-hệ-số-okun-ẩn-trong-chính-ví-dụ-của-sách)
 - [5. Friedman–Phelps: đường Phillips dài hạn dốc đứng](#5-friedmanphelps-đường-phillips-dài-hạn-dốc-đứng)
 - [6. Ý nghĩa của từ "tự nhiên"](#6-ý-nghĩa-của-từ-tự-nhiên)
 - [7. Phương trình đường Phillips ngắn hạn](#7-phương-trình-đường-phillips-ngắn-hạn)
-- [8. ⭐ Đường đi A → B → C: vì sao đánh đổi chỉ là tạm thời](#8--đường-đi-a--b--c-vì-sao-đánh-đổi-chỉ-là-tạm-thời)
+- [8. Đường đi A → B → C: vì sao đánh đổi chỉ là tạm thời](#8-đường-đi-a--b--c-vì-sao-đánh-đổi-chỉ-là-tạm-thời)
 - [9. Cú sốc cung và đình lạm](#9-cú-sốc-cung-và-đình-lạm)
 - [10. Tỷ lệ hy sinh — số học của Volcker](#10-tỷ-lệ-hy-sinh--số-học-của-volcker)
-- [11. ⭐ Tỷ lệ hy sinh thực tế của Volcker](#11--tỷ-lệ-hy-sinh-thực-tế-của-volcker)
-- [12. ⭐ Cái giá phụ thuộc tốc độ kỳ vọng](#12--cái-giá-phụ-thuộc-tốc-độ-kỳ-vọng)
+- [11. Tỷ lệ hy sinh thực tế của Volcker](#11-tỷ-lệ-hy-sinh-thực-tế-của-volcker)
+- [12. Cái giá phụ thuộc tốc độ kỳ vọng](#12-cái-giá-phụ-thuộc-tốc-độ-kỳ-vọng)
 - [13. Thí nghiệm tự nhiên 1961-1973](#13-thí-nghiệm-tự-nhiên-1961-1973)
 - [14. Volcker, Greenspan và khủng hoảng 2008](#14-volcker-greenspan-và-khủng-hoảng-2008)
 - [15. Kết luận — Friedman 1968](#15-kết-luận--friedman-1968)
-- [16. 📚 Quét tham số: kết luận có bền không?](#16--quét-tham-số-kết-luận-có-bền-không)
-- [17. 💼 Góc QTKD](#17--góc-qtkd)
-- [18. 📚 Đối chiếu Việt Nam](#18--đối-chiếu-việt-nam)
+- [16. Quét tham số: kết luận có bền không?](#16-quét-tham-số-kết-luận-có-bền-không)
+- [17. Góc QTKD](#17-góc-qtkd)
+- [18. Đối chiếu Việt Nam](#18-đối-chiếu-việt-nam)
 - [19. Code minh hoạ](#19-code-minh-hoạ)
 - [20. Tự thử](#20-tự-thử)
 - [21. Từ điển thuật ngữ](#21-từ-điển-thuật-ngữ)
@@ -55,6 +57,7 @@
 
 Sách mở bằng một chỉ báo mà giới bình luận hay dùng (tr. 535):
 
+> [!note]
 > **chỉ số khốn khổ** (*misery index*) = tỷ lệ lạm phát + tỷ lệ thất nghiệp
 
 Đây là hai con số mà *"các nhà hoạch định chính sách luôn được trông chờ"* mỗi tháng khi Tổng cục
@@ -67,6 +70,7 @@ Nhưng cả khoá học đến giờ đã dạy rằng hai con số này **khôn
 | **Thất nghiệp tự nhiên** | quy định tiền lương tối thiểu, sức mạnh công đoàn, tiền lương hiệu dụng, hiệu quả tìm việc | [Bài 6](bai_06_that_nghiep.md#6-bốn-nguyên-nhân-của-thất-nghiệp-dài-hạn) |
 | **Lạm phát** | tăng trưởng cung tiền do ngân hàng trung ương kiểm soát | [Bài 8](bai_08_tang_truong_tien_va_lam_phat.md#3-phương-trình-số-lượng) |
 
+> [!quote] tr. 535
 > *"Do đó, trong dài hạn lạm phát và thất nghiệp là hai vấn đề **hầu như không liên quan đến
 > nhau**."* (tr. 535)
 
@@ -82,6 +86,7 @@ Sách in hai dữ kiện ở tr. 548, cách nhau vài dòng:
 | thập niên **1960** | 1% | 7% | **8** |
 | năm **1980** | hơn 9% | ~7% | **16** |
 
+> [!quote] tr. 548
 > *"trong thập niên 1960, đường Phillips chỉ ra rằng tỷ lệ thất nghiệp 7% có thể đi kèm với tỷ lệ
 > lạm phát chỉ 1%. Lạm phát hơn 9% là điều không thể tưởng."* (tr. 548)
 
@@ -93,6 +98,7 @@ giải thích *vì sao nó dịch* và *dịch theo quy luật gì*.
 
 📌 Và nó có hệ quả chính trị thật, sách ghi rõ (tr. 548):
 
+> [!quote]
 > *"Khi chỉ số khốn khổ năm 1980 gần như đạt mức cao lịch sử, người dân trở nên bất mãn với kết quả
 > của nền kinh tế. Chính vì sự bất mãn này mà Tổng thống Jimmy Carter thất bại trong đợt tái tranh
 > cử tháng 11/1980 và bị Ronald Reagan thay thế."*
@@ -101,8 +107,9 @@ giải thích *vì sao nó dịch* và *dịch theo quy luật gì*.
 
 ## 2. Nguồn gốc của đường Phillips
 
-⚠️ Đây là chỗ rất dễ trích sai vì có **ba cái tên, ba năm, ba vai trò khác nhau**. Sách phân biệt
-rất rõ và ta nên giữ đúng.
+> [!warning]
+> Đây là chỗ rất dễ trích sai vì có **ba cái tên, ba năm, ba vai trò khác nhau**. Sách phân biệt
+> rất rõ và ta nên giữ đúng.
 
 | Năm | Ai | Làm gì |
 | --- | -- | ------ |
@@ -110,9 +117,11 @@ rất rõ và ta nên giữ đúng.
 | **1960** | Paul Samuelson và Robert Solow, *American Economic Review* | *"Thống kê Chính sách chống Lạm phát"* — tìm thấy tương quan tương tự trong số liệu **Hoa Kỳ**, và **chính họ đặt tên** "đường Phillips" |
 | **1968** | Milton Friedman (bài phát biểu chủ tịch Hiệp hội Kinh tế Hoa Kỳ) và Edmund Phelps (độc lập) | **phủ nhận** sự đánh đổi **dài hạn** |
 
-⚠️ Sách ghi một chi tiết mà bản tóm tắt nào cũng bỏ (tr. 536): Phillips xét lạm phát theo **tiền
-lương danh nghĩa**, không phải lạm phát **giá cả**. Sách để trong ngoặc:
+> [!warning]
+> Sách ghi một chi tiết mà bản tóm tắt nào cũng bỏ (tr. 536): Phillips xét lạm phát theo **tiền
+> lương danh nghĩa**, không phải lạm phát **giá cả**. Sách để trong ngoặc:
 
+> [!quote]
 > *"(Phillips xem xét lạm phát theo tiền lương danh nghĩa không phải lạm phát giá cả, nhưng với mục
 > tiêu tìm hiểu của chúng ta, sự phân biệt này không quan trọng. Hai thước đo lạm phát này thường
 > đi đôi với nhau)."*
@@ -122,6 +131,7 @@ lương danh nghĩa**, không phải lạm phát **giá cả**. Sách để tron
 
 ### Vì sao Samuelson và Solow quan tâm đến thế
 
+> [!quote] tr. 537–538
 > *"họ tin rằng nó nắm giữ một số bài học quan trọng cho các nhà hoạch định chính sách. Cụ thể, họ
 > gợi ý rằng đường Phillips mang lại cho các nhà hoạch định chính sách **danh mục các kết quả kinh
 > tế khả dĩ**."* (tr. 537–538)
@@ -178,9 +188,11 @@ trục khác:
 | trục hoành: **sản lượng** | trục hoành: **thất nghiệp** (nghịch đảo của sản lượng) |
 | trục tung: **mức giá** $P$ | trục tung: **tốc độ tăng** của $P$ |
 
-⚠️ Dòng thứ hai là chỗ dễ trượt nhất. Đổi từ *mức* sang *tốc độ tăng* là một phép đạo hàm, và nó là
-lý do mọi kết luận của chương này đều nói về **thay đổi**, không nói về **trạng thái**.
+> [!warning]
+> Dòng thứ hai là chỗ dễ trượt nhất. Đổi từ *mức* sang *tốc độ tăng* là một phép đạo hàm, và nó là
+> lý do mọi kết luận của chương này đều nói về **thay đổi**, không nói về **trạng thái**.
 
+> [!quote] tr. 538
 > *"Vì chính sách tiền tệ và chính sách tài khóa có thể dịch chuyển đường tổng cầu, chúng cũng làm
 > dịch chuyển nền kinh tế **dọc theo** đường Phillips."* (tr. 538)
 
@@ -189,9 +201,10 @@ dọc theo** một đường, hay **cả đường đang dịch**?
 
 ---
 
-## 4. 📚 Hệ số Okun ẩn trong chính ví dụ của sách
+## 4. Hệ số Okun ẩn trong chính ví dụ của sách
 
-⚠️ Mục này **không có trong sách**, nhưng mọi nguyên liệu đều là của sách.
+> [!warning]
+> Mục này **không có trong sách**, nhưng mọi nguyên liệu đều là của sách.
 
 Hình 2 cho **cả sản lượng lẫn thất nghiệp** cho cùng hai kết cục. Sách đặt bốn con số ấy cạnh nhau
 trong một hình và không bao giờ chia chúng cho nhau. Ta chia:
@@ -209,11 +222,12 @@ khoảng **2**. Ví dụ của sách cho **2,22** — rất gần.
 ⭐ **Vì sao đáng bỏ công tính:** nó là **cầu nối giữa hai đơn vị đo**. Chương này đo cái giá của
 giảm lạm phát bằng **phần trăm sản lượng** (tỷ lệ hy sinh, [mục 10](#10-tỷ-lệ-hy-sinh--số-học-của-volcker)),
 nhưng số liệu lịch sử mà sách in ra lại là **điểm thất nghiệp** ([mục 14](#14-volcker-greenspan-và-khủng-hoảng-2008)).
-Không có hệ số này thì hai mục đó **không so sánh được với nhau** — và [mục 11](#11--tỷ-lệ-hy-sinh-thực-tế-của-volcker)
+Không có hệ số này thì hai mục đó **không so sánh được với nhau** — và [mục 11](#11-tỷ-lệ-hy-sinh-thực-tế-của-volcker)
 sẽ dùng đúng nó để làm một phép tính mà sách khẳng định bằng lời nhưng không bao giờ đặt con số.
 
-⚠️ **Ranh giới:** bốn con số đầu vào là **của sách** (Hình 2, tr. 537–538). Phép chia là **của bài
-này**.
+> [!warning] Ranh giới:
+> bốn con số đầu vào là **của sách** (Hình 2, tr. 537–538). Phép chia là **của bài
+> này**.
 
 ---
 
@@ -231,6 +245,7 @@ tăng trưởng cung tiền  ⟹ KHÔNG chạm các biến THỰC
 
 Sách trích nguyên văn Friedman (tr. 539). Đoạn này đáng đọc kỹ:
 
+> [!quote]
 > *"Cơ quan tiền tệ trực tiếp kiểm soát lượng tiền danh nghĩa, lượng nợ của mình… Về nguyên tắc, họ
 > có thể sử dụng quyền kiểm soát này để **cố định các đại lượng danh nghĩa** — như tỷ giá hối đoái,
 > mức giá, mức thu nhập quốc dân danh nghĩa, lượng tiền theo định nghĩa này hay định nghĩa khác —
@@ -246,6 +261,7 @@ Và sách chốt bằng một câu rất mạnh (tr. 540):
 
 ![Hình 3 — tr. 540, bản chụp giáo trình](../tai_lieu/hinh/ch22-hinh-03-tr540.png)
 
+> [!quote]
 > *"đường tổng cung dài hạn dốc đứng và đường Phillips dài hạn dốc đứng là **hai mặt của một vấn
 > đề**."*
 
@@ -256,6 +272,7 @@ Và sách chốt bằng một câu rất mạnh (tr. 540):
 
 Sách chốt phần này (tr. 540):
 
+> [!quote]
 > *"**Bất kể Fed theo đuổi chính sách tiền tệ nào, sản lượng và thất nghiệp đều ở mức tự nhiên của
 > chúng trong dài hạn.**"*
 
@@ -263,8 +280,10 @@ Sách chốt phần này (tr. 540):
 
 ## 6. Ý nghĩa của từ "tự nhiên"
 
-⚠️ Đây là chỗ dễ hiểu sai nhất của cả chương, và sách cảnh báo thẳng (tr. 540):
+> [!warning]
+> Đây là chỗ dễ hiểu sai nhất của cả chương, và sách cảnh báo thẳng (tr. 540):
 
+> [!quote]
 > *"tỷ lệ thất nghiệp tự nhiên **không nhất thiết** là tỷ lệ thất nghiệp **mong đợi về mặt xã
 > hội**, và tỷ lệ thất nghiệp tự nhiên cũng **không bất biến theo thời gian**."*
 
@@ -273,6 +292,7 @@ thực lên cao hơn mức cân bằng ⟹ cung lao động dư thừa ⟹ thấ
 
 ![Hình 4 — tr. 541, bản chụp giáo trình](../tai_lieu/hinh/ch22-hinh-04-tr541.png)
 
+> [!quote]
 > *"Mức thất nghiệp này là tự nhiên **không phải vì nó tốt** mà vì nó **nằm ngoài phạm vi ảnh
 > hưởng của chính sách tiền tệ**."*
 
@@ -289,6 +309,7 @@ Chính sách **khác** thì đổi được, và sách liệt kê chúng — đ�
 | bảo hiểm thất nghiệp | [mục 7](bai_06_that_nghiep.md#7-nguyên-nhân-1--tìm-việc-và-bảo-hiểm-thất-nghiệp) |
 | chương trình đào tạo nghề | [mục 7](bai_06_that_nghiep.md#7-nguyên-nhân-1--tìm-việc-và-bảo-hiểm-thất-nghiệp) |
 
+> [!quote] tr. 541
 > *"Một thay đổi chính sách làm giảm tỷ lệ thất nghiệp tự nhiên sẽ đẩy đường Phillips **dài hạn**
 > sang trái… và đường tổng cung dài hạn sẽ dịch sang phải. Nền kinh tế đạt được thất nghiệp thấp
 > hơn và sản lượng cao hơn **ở tốc độ tăng trưởng tiền và lạm phát bất kỳ**."* (tr. 541)
@@ -314,6 +335,7 @@ $$u = u^n - a \times (\pi - \pi^e)$$
 
 Sách nói rõ nó là gì (tr. 543):
 
+> [!quote]
 > *"Phương trình này (về bản chất, là cách thể hiện khác của phương trình tổng cung mà chúng ta đã
 > thấy trước đây)…"*
 
@@ -325,9 +347,10 @@ $$Y = Y^n + a(P - P^e)$$
 Cùng một cấu trúc: **biến thực = mức tự nhiên + hệ số × (bất ngờ danh nghĩa)**. Chỉ đổi $Y \to u$
 (và đảo dấu, vì thất nghiệp đi ngược sản lượng) và $P \to \pi$.
 
-⚠️ **Sách không cho giá trị của $a$.** Mô hình số trong bài này đặt $a = 0{,}5$ để có con số cụ thể.
-**Hướng** của mọi kết luận không phụ thuộc $a$; chỉ **độ lớn** thì phụ thuộc — và
-[mục 16](#16--quét-tham-số-kết-luận-có-bền-không) chứng minh điều đó bằng `assert`.
+> [!warning] Sách không cho giá trị của $a$.
+> Mô hình số trong bài này đặt $a = 0{,}5$ để có con số cụ thể.
+> **Hướng** của mọi kết luận không phụ thuộc $a$; chỉ **độ lớn** thì phụ thuộc — và
+> [mục 16](#16-quét-tham-số-kết-luận-có-bền-không) chứng minh điều đó bằng `assert`.
 
 ### Bài tập 2 tr. 557
 
@@ -352,7 +375,7 @@ nguyên văn.
 
 ---
 
-## 8. ⭐ Đường đi A → B → C: vì sao đánh đổi chỉ là tạm thời
+## 8. Đường đi A → B → C: vì sao đánh đổi chỉ là tạm thời
 
 Đây là **cơ chế trung tâm** của cả chương (Hình 5, tr. 543–544).
 
@@ -386,6 +409,7 @@ $$\pi^e_{t+1} = \pi^e_t + \lambda(\pi_t - \pi^e_t)$$
 thì vĩnh viễn. Tổng "lợi ích" thu được, đo bằng điểm-kỳ thất nghiệp dưới tự nhiên, là **3,99
 điểm-kỳ** — một con số **hữu hạn**. Cái giá: lạm phát cao hơn **4 điểm, vĩnh viễn**.
 
+> [!note]
 > **Hữu hạn đổi lấy vĩnh viễn.** Đó là cả lập luận của Friedman–Phelps, viết bằng số.
 
 📌 So với [bài 11 mục 9](bai_11_tong_cau_va_tong_cung.md#9-cú-sốc-tổng-cầu-a--b--c): cùng một chữ
@@ -393,8 +417,10 @@ cái A → B → C, cùng một logic *"ngắn hạn được, dài hạn mất"
 điểm C có **mức giá** cao hơn; ở đây, điểm C có **tốc độ tăng giá** cao hơn — và cái sau thì không
 bao giờ hết.
 
-⚠️ Và sách cảnh báo đúng cái bẫy tâm lý của điểm B (tr. 544):
+> [!warning]
+> Và sách cảnh báo đúng cái bẫy tâm lý của điểm B (tr. 544):
 
+> [!quote]
 > *"các nhà hoạch định chính sách có thể cho rằng họ đã đạt được mức thất nghiệp thấp hơn **vĩnh
 > viễn**, với cái giá là lạm phát cao hơn, đây là sự trao đổi — nếu có thể — là đáng để thực hiện."*
 
@@ -404,13 +430,15 @@ bao giờ hết.
 
 ## 9. Cú sốc cung và đình lạm
 
-⚠️ Đây là nguồn dịch chuyển **thứ hai** của đường Phillips, và nó khác hẳn nguồn thứ nhất:
+> [!warning]
+> Đây là nguồn dịch chuyển **thứ hai** của đường Phillips, và nó khác hẳn nguồn thứ nhất:
 
 | Nguồn | Cái gì đổi | Mục |
 | ----- | ---------- | --- |
-| **kỳ vọng** | $\pi^e$ trong phương trình | [mục 8](#8--đường-đi-a--b--c-vì-sao-đánh-đổi-chỉ-là-tạm-thời) |
+| **kỳ vọng** | $\pi^e$ trong phương trình | [mục 8](#8-đường-đi-a--b--c-vì-sao-đánh-đổi-chỉ-là-tạm-thời) |
 | **cú sốc cung** | chi phí sản xuất ⟹ cả đường AS **và** đường Phillips | mục này |
 
+> [!quote]
 > **Cú sốc cung** (tr. 547, chú thích): *"sự kiện trực tiếp làm thay đổi chi phí và giá cả của doanh
 > nghiệp, làm dịch chuyển đường tổng cung của nền kinh tế và đường Phillips."*
 
@@ -440,11 +468,13 @@ này chỉ vẽ lại nó trên hệ trục lạm phát–thất nghiệp.
 | không làm gì | 5,0% | 8,0% |
 | chống thất nghiệp (mở rộng cầu) | 8,0% | **6,5%** |
 
-⚠️ Đọc cột cuối cùng cột kề cuối: **không có dòng nào tốt hơn tất cả các dòng khác.** Đó là định
-nghĩa của một sự **đánh đổi tệ hơn**, chứ không phải một bài toán khó hơn.
+> [!warning]
+> Đọc cột cuối cùng cột kề cuối: **không có dòng nào tốt hơn tất cả các dòng khác.** Đó là định
+> nghĩa của một sự **đánh đổi tệ hơn**, chứ không phải một bài toán khó hơn.
 
 Sách viết chính xác điều đó (tr. 547):
 
+> [!quote]
 > *"họ phải chấp nhận tỷ lệ lạm phát cao hơn đối với tỷ lệ thất nghiệp cho trước, **hoặc** tỷ lệ
 > thất nghiệp cao hơn ứng với tỷ lệ lạm phát cho trước, **hoặc** một số kết hợp vừa thất nghiệp cao
 > hơn lẫn lạm phát cao hơn."*
@@ -457,9 +487,11 @@ viễn?** Sách trả lời: nó phụ thuộc vào **kỳ vọng** (tr. 547).
 | *"chỉ một lần thôi"* | không đổi | *"sớm quay trở lại vị trí ban đầu"* |
 | *"một kỷ nguyên mới lạm phát cao"* | **tăng** | *"vẫn ở vị trí mới, ít được mong đợi"* |
 
-⚠️ Và Fed thập niên 1970 đã làm kỳ vọng **tăng**. Sách nói rõ Fed **"thích ứng"** với cú sốc cung
-bằng cách tăng cung tiền cao hơn (tr. 547–548) — để ngăn sản lượng giảm. Đổi lại:
+> [!warning]
+> Và Fed thập niên 1970 đã làm kỳ vọng **tăng**. Sách nói rõ Fed **"thích ứng"** với cú sốc cung
+> bằng cách tăng cung tiền cao hơn (tr. 547–548) — để ngăn sản lượng giảm. Đổi lại:
 
+> [!quote]
 > *"đợt suy thoái do cú sốc cung gây ra sẽ bớt nghiêm trọng hơn so với khi không có chính sách,
 > nhưng nền kinh tế Hoa Kỳ đã đối mặt với sự đánh đổi không thuận lợi giữa lạm phát và thất nghiệp
 > **trong nhiều năm**."*
@@ -474,10 +506,12 @@ lạm phát cao.
 
 Tháng 10 năm 1979, Paul Volcker nhậm chức chủ tịch Fed khi lạm phát gần 10%.
 
+> [!quote] tr. 548
 > *"Là vệ sĩ của hệ thống tiền tệ quốc gia, ông biết mình có ít chọn lựa trừ việc theo đuổi chính
 > sách giảm lạm phát."* (tr. 548)
 
-⚠️ Sách phân biệt rõ hai từ rất dễ lẫn (tr. 549) — nên nhớ, vì nhiều bản dịch dùng lẫn:
+> [!warning]
+> Sách phân biệt rõ hai từ rất dễ lẫn (tr. 549) — nên nhớ, vì nhiều bản dịch dùng lẫn:
 
 ![Hình 10 — tr. 549, bản chụp giáo trình](../tai_lieu/hinh/ch22-hinh-10-tr549.png)
 
@@ -490,6 +524,7 @@ Chương này nói về cái **thứ nhất**.
 [Bài 8 mục 14](bai_08_tang_truong_tien_va_lam_phat.md#14-giảm-phát-và-phù-thuỷ-xứ-oz) nói về cái
 thứ hai.
 
+> [!quote]
 > **Tỷ lệ hy sinh** (*sacrifice ratio*, tr. 550, chú thích): *"số điểm phần trăm tổn thất sản lượng
 > hàng năm trong quá trình giảm lạm phát 1 điểm phần trăm."*
 > Ước lượng tiêu biểu: **5**.
@@ -514,22 +549,25 @@ Sách nêu ba lịch trình, và chúng **luôn cộng lại bằng 30%** (tr. 5
 
 ✅ Cả ba đều bằng 30%.
 
+> [!quote] tr. 550
 > *"bất kể hướng đi nào được chọn, thì việc cắt giảm lạm phát cũng không hề dễ dàng."* (tr. 550)
 
 ⭐ Và chú ý điều con số 30% **không** nói: nó không nói **ai chịu**.
-[Mục 11](#11--tỷ-lệ-hy-sinh-thực-tế-của-volcker) và
+[Mục 11](#11-tỷ-lệ-hy-sinh-thực-tế-của-volcker) và
 [bài 14](bai_14_sau_tranh_luan_chinh_sach.md) sẽ quay lại đúng chỗ này — và đó là chỗ số học này
 khác hẳn một bài toán trên giấy.
 
 ---
 
-## 11. ⭐ Tỷ lệ hy sinh thực tế của Volcker
+## 11. Tỷ lệ hy sinh thực tế của Volcker
 
-⚠️ Mục này là **phép tính của bài này**. Mọi con số đầu vào đều là **của sách**, nhưng sách không
-bao giờ nhân chúng với nhau.
+> [!warning]
+> Mục này là **phép tính của bài này**. Mọi con số đầu vào đều là **của sách**, nhưng sách không
+> bao giờ nhân chúng với nhau.
 
 Sách ghi một câu rất kín đáo (tr. 552):
 
+> [!quote]
 > *"Đa số những ước tính về tỷ lệ hy sinh dựa vào chính sách giảm lạm phát của Volcker đều **nhỏ
 > hơn** các ước tính có được từ những số liệu trước đây."*
 
@@ -541,7 +579,7 @@ Sách ghi một câu rất kín đáo (tr. 552):
 | vượt mức tự nhiên | **4 điểm** | tr. 552 |
 | số năm | **2** | tr. 552 |
 | lạm phát giảm được | gần 10% → 4% = **6 điểm** | tr. 551 |
-| hệ số Okun | **2,22** | Hình 2, tr. 537–538 → [mục 4](#4--hệ-số-okun-ẩn-trong-chính-ví-dụ-của-sách) |
+| hệ số Okun | **2,22** | Hình 2, tr. 537–538 → [mục 4](#4-hệ-số-okun-ẩn-trong-chính-ví-dụ-của-sách) |
 
 $$\text{tỷ lệ hy sinh thực tế} = \frac{4 \times 2 \times 2{,}22}{6} = \frac{17{,}8\%}{6} = \mathbf{2{,}96}$$
 
@@ -557,6 +595,7 @@ $$\text{tỷ lệ hy sinh thực tế} = \frac{4 \times 2 \times 2{,}22}{6} = \f
 
 Sách giải thích vì sao không ai đạt 0 (tr. 552):
 
+> [!quote]
 > *"mặc dù Volcker tuyên bố rằng ông sẽ nhắm chính sách tiền tệ vào việc giảm lạm phát, **phần lớn
 > dân chúng không tin ông**. Vì ít có ai tin rằng Volcker sẽ giảm lạm phát nhanh như ông làm được,
 > do đó lạm phát kỳ vọng không giảm, và đường Phillips ngắn hạn không dịch chuyển xuống nhanh như
@@ -564,6 +603,7 @@ Sách giải thích vì sao không ai đạt 0 (tr. 552):
 
 Và sách còn dẫn một bằng chứng đo được:
 
+> [!quote] tr. 552
 > *"dự báo lạm phát của các công ty dự báo thương mại đi xuống chậm hơn trong thập niên 1980 so với
 > lạm phát thực tế."* (tr. 552)
 
@@ -575,7 +615,7 @@ không tuyên bố một câu là có.
 
 ---
 
-## 12. ⭐ Cái giá phụ thuộc tốc độ kỳ vọng
+## 12. Cái giá phụ thuộc tốc độ kỳ vọng
 
 Nếu tín nhiệm quyết định cái giá, thì ta nên **đo** quan hệ đó. Bài tập 6 và 8 tr. 558 hỏi đúng
 điều này bằng ba cách khác nhau.
@@ -596,6 +636,7 @@ hoặc **rất đắt** tuỳ hoàn toàn vào một biến số nằm trong đ�
 
 ✅ $\lambda = 1{,}00$ cho tổng **0,00** — đúng là kết luận của phe kỳ vọng hợp lý (tr. 550–551):
 
+> [!quote]
 > *"Theo Sargent, tỷ lệ hy sinh có thể nhỏ hơn nhiều so với những gì mà các ước tính trước đây đề
 > cập. Thật vậy, trong trường hợp cực đoan nhất, **nó có thể là zero**."*
 
@@ -622,6 +663,7 @@ Cả ba ý đều đọc được từ **cùng một bảng trên**:
 📌 Và nó trả lời luôn **bài tập 7 tr. 558** — vì sao ngân hàng trung ương **độc lập** giảm được chi
 phí chống lạm phát:
 
+> [!quote] tr. 558
 > *"Nhiều nhà kinh tế tin rằng các nước có thể giảm chi phí giảm lạm phát bằng cách cho phép ngân
 > hàng trung ương ra quyết định chính sách tiền tệ mà không chịu sự can thiệp của các chính trị
 > gia. Tại sao có thể như vậy?"* (tr. 558)
@@ -633,8 +675,9 @@ nhỏ hơn. Một lập luận **thể chế** dựa trên một **tham số k�
 
 ## 13. Thí nghiệm tự nhiên 1961-1973
 
-⚠️ Đoạn lịch sử này phải đọc theo **đúng thứ tự thời gian**, vì cả sức nặng nằm ở chỗ: **dự báo có
-trước, số liệu xác nhận có sau.**
+> [!warning]
+> Đoạn lịch sử này phải đọc theo **đúng thứ tự thời gian**, vì cả sức nặng nằm ở chỗ: **dự báo có
+> trước, số liệu xác nhận có sau.**
 
 | Giai đoạn | Hình | Việc gì |
 | --------- | ---- | ------- |
@@ -660,27 +703,27 @@ trước, số liệu xác nhận có sau.**
 Kết quả lạm phát (tr. 545): **5–6%/năm** cuối thập niên 1960 và đầu 1970, so với **1–2%/năm** đầu
 thập niên 1960.
 
-### 📚 Ghép hai vế bằng phương trình của bài 8
-
-⚠️ Phép ghép này là **của bài này**. Sách đặt hai con số cạnh nhau nhưng không nói chúng phải khớp
-qua phương trình số lượng tiền.
-
-| Đại lượng | Đầu 1960s | 1970–72 | Chênh |
-| --------- | --------- | ------- | ----- |
-| tăng trưởng cung tiền | 7% | 13% | **+6 điểm** |
-| lạm phát | 1–2% | 5–6% | **+4 điểm** |
-
-Từ [bài 8 mục 4](bai_08_tang_truong_tien_va_lam_phat.md#4--viết-năm-bước-ấy-thành-một-dòng):
-
-$$\%\Delta P \approx \%\Delta M + \%\Delta V - \%\Delta Y$$
-
-Cung tiền tăng thêm 6 điểm nhưng lạm phát chỉ tăng thêm 4 điểm. **2 điểm còn lại phải đi đâu đó** —
-vào tăng trưởng sản lượng, hoặc vào vòng quay tiền.
-
-📌 So với [bài 11 mục 11](bai_11_tong_cau_va_tong_cung.md#11-đại-khủng-hoảng--và-một-phép-kiểm-mà-bài-8-chưa-làm-được):
-ở Đại Khủng hoảng ta thấy $V$ **giảm 20,9%**. Ở đây ta thấy một phần dư nhỏ hơn nhiều và cùng dấu.
-Kết luận chung cho cả hai: **"$V$ ổn định" là một giả định làm việc, không phải một định luật** —
-và nó sẽ trở lại lần cuối ở [bài 14](bai_14_sau_tranh_luan_chinh_sach.md) khi bàn về quy tắc 3%.
+> [!note] Ghép hai vế bằng phương trình của bài 8
+>
+> ⚠️ Phép ghép này là **của bài này**. Sách đặt hai con số cạnh nhau nhưng không nói chúng phải khớp
+> qua phương trình số lượng tiền.
+>
+> | Đại lượng | Đầu 1960s | 1970–72 | Chênh |
+> | --------- | --------- | ------- | ----- |
+> | tăng trưởng cung tiền | 7% | 13% | **+6 điểm** |
+> | lạm phát | 1–2% | 5–6% | **+4 điểm** |
+>
+> Từ [bài 8 mục 4](bai_08_tang_truong_tien_va_lam_phat.md#4-viết-năm-bước-ấy-thành-một-dòng):
+>
+> $$\%\Delta P \approx \%\Delta M + \%\Delta V - \%\Delta Y$$
+>
+> Cung tiền tăng thêm 6 điểm nhưng lạm phát chỉ tăng thêm 4 điểm. **2 điểm còn lại phải đi đâu đó** —
+> vào tăng trưởng sản lượng, hoặc vào vòng quay tiền.
+>
+> 📌 So với [bài 11 mục 11](bai_11_tong_cau_va_tong_cung.md#11-đại-khủng-hoảng--và-một-phép-kiểm-mà-bài-8-chưa-làm-được):
+> ở Đại Khủng hoảng ta thấy $V$ **giảm 20,9%**. Ở đây ta thấy một phần dư nhỏ hơn nhiều và cùng dấu.
+> Kết luận chung cho cả hai: **"$V$ ổn định" là một giả định làm việc, không phải một định luật** —
+> và nó sẽ trở lại lần cuối ở [bài 14](bai_14_sau_tranh_luan_chinh_sach.md) khi bàn về quy tắc 3%.
 
 ---
 
@@ -695,9 +738,10 @@ và nó sẽ trở lại lần cuối ở [bài 14](bai_14_sau_tranh_luan_chinh_
 | **kết quả** | lạm phát gần 10% (1981–82) → **4%** (1983–84). ✅ thành công |
 | **cái giá** | thất nghiệp ~10% năm 1982–83, *"đợt suy thoái sâu nhất ở Hoa Kỳ từ thời Đại Khủng hoảng vào những năm 1930"* |
 
-⚠️ Và sách ghi một chi tiết quan trọng: **chính sách tài khoá lúc đó đi ngược lại.** Thâm hụt thời
-Reagan **mở rộng** tổng cầu, *"có xu hướng tăng lạm phát"*. Công lao giảm lạm phát *"hoàn toàn
-thuộc về chính sách tiền tệ"* (tr. 551).
+> [!warning]
+> Và sách ghi một chi tiết quan trọng: **chính sách tài khoá lúc đó đi ngược lại.** Thâm hụt thời
+> Reagan **mở rộng** tổng cầu, *"có xu hướng tăng lạm phát"*. Công lao giảm lạm phát *"hoàn toàn
+> thuộc về chính sách tiền tệ"* (tr. 551).
 
 📌 Đó là một trường hợp thực tế của câu hỏi mở đầu
 [bài 12](bai_12_chinh_sach_tien_te_va_tai_khoa.md#1-câu-hỏi-mở-đầu-chương): hai cơ quan đọc nhau —
@@ -709,8 +753,10 @@ và ở đây, họ đã đi ngược nhau.
 
 1987–2005. *"Những biến động lạm phát và thất nghiệp là tương đối nhỏ."*
 
-⚠️ Sách rất trung thực về nguyên nhân — **không chỉ tài năng**:
+> [!warning]
+> Sách rất trung thực về nguyên nhân — **không chỉ tài năng**:
 
+> [!quote] tr. 553
 > *"Năm 1986 xảy ra bất đồng giữa các thành viên OPEC về mức sản lượng, và thỏa thuận hạn chế nguồn
 > cung lâu dài của họ bắt đầu đổ vỡ. Giá dầu giảm khoảng một nửa."*
 > …*"**vận may** dưới dạng cú sốc cung thuận lợi cũng là một phần của câu chuyện này."* (tr. 553)
@@ -718,9 +764,10 @@ và ở đây, họ đã đi ngược nhau.
 ⭐ Một cú sốc cung **thuận lợi** dịch đường Phillips **vào trong** — cả lạm phát lẫn thất nghiệp
 cùng giảm. Đó chính là câu trả lời cho câu hỏi Kiểm tra nhanh tr. 548.
 
-⚠️ Và 1989–1990: thất nghiệp giảm, lạm phát tăng ⟹ Fed **nâng lãi suất** ⟹ suy thoái nhỏ 1991–1992.
-Sách ghi rõ đây là Fed **chủ động chấp nhận một cuộc suy thoái** để tránh lặp lại sai lầm thập niên
-1960.
+> [!warning]
+> Và 1989–1990: thất nghiệp giảm, lạm phát tăng ⟹ Fed **nâng lãi suất** ⟹ suy thoái nhỏ 1991–1992.
+> Sách ghi rõ đây là Fed **chủ động chấp nhận một cuộc suy thoái** để tránh lặp lại sai lầm thập niên
+> 1960.
 
 ### Khủng hoảng 2008–2009 (Hình 13, tr. 554–555)
 
@@ -734,25 +781,28 @@ Sách ghi rõ đây là Fed **chủ động chấp nhận một cuộc suy thoá
 ⟹ tổng cầu giảm mạnh ⟹ *"nền kinh tế **trượt theo** đường Phillips **đi xuống**"*: thất nghiệp cao
 hơn nhiều, lạm phát xuống mức rất thấp.
 
-⚠️ Sách viết khi kết cục **chưa rõ**, và trung thực về điều đó (tr. 555):
+> [!warning]
+> Sách viết khi kết cục **chưa rõ**, và trung thực về điều đó (tr. 555):
 
+> [!quote]
 > *"Khi cuốn sách này được biên soạn, người ta vẫn không rõ nền kinh tế sẽ phục hồi nhanh trong bao
 > lâu từ đợt khủng hoảng này và liệu lạm phát sẽ cao hơn, thấp hơn hoặc có khả năng xảy ra giảm
 > phát hay không."*
 
-### ⭐ Sáu giai đoạn, và câu hỏi kiểm tra duy nhất đáng hỏi
+### Sáu giai đoạn, và câu hỏi kiểm tra duy nhất đáng hỏi
 
 | Giai đoạn | Cái gì dịch | Nguồn |
 | --------- | ----------- | ----- |
 | 1961–1968 | **đi dọc** theo đường | tổng cầu ([mục 3](#3-adas-sinh-ra-đường-phillips--ví-dụ-bằng-số-của-sách)) |
-| 1970–1973 | đường **dịch lên** | kỳ vọng ([mục 8](#8--đường-đi-a--b--c-vì-sao-đánh-đổi-chỉ-là-tạm-thời)) |
+| 1970–1973 | đường **dịch lên** | kỳ vọng ([mục 8](#8-đường-đi-a--b--c-vì-sao-đánh-đổi-chỉ-là-tạm-thời)) |
 | 1974–1981 | đường **dịch ra xa** | cú sốc cung ([mục 9](#9-cú-sốc-cung-và-đình-lạm)) |
 | 1982–1984 | đường **dịch xuống** | kỳ vọng giảm ([mục 10](#10-tỷ-lệ-hy-sinh--số-học-của-volcker)) |
 | 1986 | đường **dịch vào** | cú sốc cung **thuận lợi** |
 | 2008–2009 | **đi dọc** theo đường | tổng cầu sụp ([bài 12](bai_12_chinh_sach_tien_te_va_tai_khoa.md)) |
 
-⚠️ Cột giữa là câu hỏi kiểm tra duy nhất đáng hỏi khi nhìn một biểu đồ lạm phát–thất nghiệp: **đi
-dọc theo đường, hay đường dịch?**
+> [!warning]
+> Cột giữa là câu hỏi kiểm tra duy nhất đáng hỏi khi nhìn một biểu đồ lạm phát–thất nghiệp: **đi
+> dọc theo đường, hay đường dịch?**
 
 ---
 
@@ -761,6 +811,7 @@ dọc theo đường, hay đường dịch?**
 Sách kết chương bằng một đoạn trích dài của Friedman. Đoạn này đáng thuộc, vì nó chứa cả chương
 trong bốn dòng (tr. 555):
 
+> [!quote]
 > *"**Luôn có** sự đánh đổi **tạm thời** giữa lạm phát và thất nghiệp; **không có** sự đánh đổi
 > **vĩnh viễn**. Đánh đổi tạm thời không xuất phát từ **phía lạm phát**, mà từ lạm phát **ngoài dự
 > kiến**, nói chung có nghĩa là từ tỷ lệ lạm phát **đang gia tăng**. Quan niệm phổ biến cho rằng có
@@ -768,6 +819,7 @@ trong bốn dòng (tr. 555):
 > tăng"**… Tỷ lệ lạm phát **đang tăng** có thể làm giảm thất nghiệp, còn tỷ lệ lạm phát **cao** thì
 > không."*
 
+> [!quote]
 > *"Nhưng bao lâu thì là "tạm thời"?… Tôi chỉ có thể mạo hiểm đưa ra nhận định cá nhân dựa vào một
 > số nghiên cứu bằng chứng lịch sử, rằng những tác động ban đầu của tỷ lệ lạm phát cao hơn và ngoài
 > dự kiến sẽ kéo dài trong vòng **hai đến năm năm**."*
@@ -783,11 +835,12 @@ hình:
 
 ✅ A và B **cùng một tỷ lệ thất nghiệp**. "Cao" không mua được gì.
 ✅ Chỉ khi lạm phát **đang tăng** thì thất nghiệp mới xuống 2%. Và
-[mục 8](#8--đường-đi-a--b--c-vì-sao-đánh-đổi-chỉ-là-tạm-thời) đã cho thấy trạng thái C không giữ
+[mục 8](#8-đường-đi-a--b--c-vì-sao-đánh-đổi-chỉ-là-tạm-thời) đã cho thấy trạng thái C không giữ
 được.
 
 Sách chốt (tr. 555):
 
+> [!quote]
 > *"Ngày nay, gần nửa thế kỷ sau, phát biểu này vẫn tóm tắt đầy đủ quan điểm của hầu hết nhà kinh
 > tế vĩ mô."*
 
@@ -797,11 +850,12 @@ các công trình kinh tế học của họ."*
 
 ---
 
-## 16. 📚 Quét tham số: kết luận có bền không?
+## 16. Quét tham số: kết luận có bền không?
 
-⚠️ Ba tham số $u^n$, $a$, $\lambda$ đều **do bài này đặt ra**. Nếu kết luận của sách phụ thuộc vào
-việc chọn đúng chúng thì chúng vô giá trị. Ta quét năm bộ rất khác nhau và kiểm **ba mệnh đề** của
-sách bằng `assert`.
+> [!warning]
+> Ba tham số $u^n$, $a$, $\lambda$ đều **do bài này đặt ra**. Nếu kết luận của sách phụ thuộc vào
+> việc chọn đúng chúng thì chúng vô giá trị. Ta quét năm bộ rất khác nhau và kiểm **ba mệnh đề** của
+> sách bằng `assert`.
 
 | Bộ tham số | $u^n$ | $a$ | $\lambda$ | $u$ ngay sau sốc | $u$ sau 60 kỳ |
 | ---------- | ----: | --: | --------: | ---------------: | ------------: |
@@ -824,14 +878,15 @@ nghĩa của một kết luận **định tính**, và là lý do Friedman–Phe
 chưa có số liệu nào ủng hộ họ.
 
 📌 Cùng một phương pháp đã dùng ở
-[bài 10 mục 13](bai_10_ly_thuyet_kinh_te_mo.md#13--kết-luận-có-phụ-thuộc-tham-số-không). Khi mô
+[bài 10 mục 13](bai_10_ly_thuyet_kinh_te_mo.md#13-kết-luận-có-phụ-thuộc-tham-số-không). Khi mô
 hình có tham số bịa, đây là cách duy nhất để biết mình đang chứng minh gì.
 
 ---
 
-## 17. 💼 Góc QTKD
+## 17. Góc QTKD
 
-⚠️ Toàn bộ mục này **không có trong sách**.
+> [!warning]
+> Toàn bộ mục này **không có trong sách**.
 
 ### (a) Câu hỏi duy nhất đáng hỏi khi đọc số liệu lạm phát
 
@@ -849,7 +904,7 @@ không"*. Đó là Friedman 1968, dịch sang ngôn ngữ kinh doanh.
 
 ### (b) Điều khoản trượt giá chính là $\lambda$ của riêng bạn
 
-[Mục 12](#12--cái-giá-phụ-thuộc-tốc-độ-kỳ-vọng) cho thấy $\lambda$ lớn làm cú sốc **rẻ hơn**. Trong
+[Mục 12](#12-cái-giá-phụ-thuộc-tốc-độ-kỳ-vọng) cho thấy $\lambda$ lớn làm cú sốc **rẻ hơn**. Trong
 doanh nghiệp, $\lambda$ chính là tốc độ bạn chuyển được thay đổi chi phí vào giá bán.
 
 | Cơ chế | $\lambda$ hiệu dụng | Hậu quả khi có cú sốc chi phí |
@@ -859,13 +914,14 @@ doanh nghiệp, $\lambda$ chính là tốc độ bạn chuyển được thay đ
 | báo giá lại hàng quý | lớn | chuyển phần lớn |
 | điều khoản trượt giá theo CPI | ≈ 1 | chuyển gần hết sang khách |
 
-⚠️ Nhưng $\lambda$ lớn **không miễn phí**: nó chuyển rủi ro sang khách hàng, và khách hàng có thể
-đổi sang đối thủ có $\lambda$ nhỏ hơn. Đó là một sự đánh đổi giống hệt sự đánh đổi của cả chương
-này — bạn không thoát khỏi rủi ro, bạn chỉ chọn ai giữ nó.
+> [!warning]
+> Nhưng $\lambda$ lớn **không miễn phí**: nó chuyển rủi ro sang khách hàng, và khách hàng có thể
+> đổi sang đối thủ có $\lambda$ nhỏ hơn. Đó là một sự đánh đổi giống hệt sự đánh đổi của cả chương
+> này — bạn không thoát khỏi rủi ro, bạn chỉ chọn ai giữ nó.
 
 ### (c) Tín nhiệm là một tài sản đo được
 
-[Mục 11](#11--tỷ-lệ-hy-sinh-thực-tế-của-volcker): Volcker thất bại ở chỗ *"phần lớn dân chúng không
+[Mục 11](#11-tỷ-lệ-hy-sinh-thực-tế-của-volcker): Volcker thất bại ở chỗ *"phần lớn dân chúng không
 tin ông"*, và chính chỗ đó làm cái giá đội từ ~0 lên 2,96. Áp vào doanh nghiệp:
 
 ```
@@ -889,17 +945,19 @@ lãi suất tăng → cầu giảm → SẢN LƯỢNG giảm → việc làm gi�
 **Lạm phát là khâu cuối cùng.** Doanh nghiệp sẽ thấy doanh số giảm **trước khi** báo chí nói *"lạm
 phát đã hạ nhiệt"*.
 
-⚠️ Đợi đến khi tin tức xác nhận là đã trễ ít nhất một quý — và
-[bài 12 mục 13](bai_12_chinh_sach_tien_te_va_tai_khoa.md#13-nên-dùng-chính-sách-để-bình-ổn-nền-kinh-tế-không)
-đã cho biết độ trễ tiền tệ là *"ít nhất 6 tháng"*. [Mục 12](#12--cái-giá-phụ-thuộc-tốc-độ-kỳ-vọng)
-cho biết giai đoạn khó chịu kéo dài bao lâu: nó **tỷ lệ nghịch với $\lambda$**.
+> [!warning]
+> Đợi đến khi tin tức xác nhận là đã trễ ít nhất một quý — và
+> [bài 12 mục 13](bai_12_chinh_sach_tien_te_va_tai_khoa.md#13-nên-dùng-chính-sách-để-bình-ổn-nền-kinh-tế-không)
+> đã cho biết độ trễ tiền tệ là *"ít nhất 6 tháng"*. [Mục 12](#12-cái-giá-phụ-thuộc-tốc-độ-kỳ-vọng)
+> cho biết giai đoạn khó chịu kéo dài bao lâu: nó **tỷ lệ nghịch với $\lambda$**.
 
 ---
 
-## 18. 📚 Đối chiếu Việt Nam
+## 18. Đối chiếu Việt Nam
 
-⚠️ Mục này **không dựa trên nguồn số liệu nào được kiểm chứng trong bài**. Nó nói về **cách đọc**,
-không về con số cụ thể.
+> [!warning]
+> Mục này **không dựa trên nguồn số liệu nào được kiểm chứng trong bài**. Nó nói về **cách đọc**,
+> không về con số cụ thể.
 
 ### (a) Ba chỗ khung của chương khớp kém
 
@@ -907,7 +965,7 @@ không về con số cụ thể.
 | ------------------- | ---------- |
 | thất nghiệp là biến đo được và biến động | khu vực phi chính thức lớn ⟹ tỷ lệ thất nghiệp chính thức **thấp và ít biến động**, người ta điều chỉnh bằng **giờ làm và thu nhập** chứ không bằng có việc / mất việc |
 | lạm phát chủ yếu do **cầu** | rổ CPI có tỷ trọng lớn là **lương thực và năng lượng** ⟹ cú sốc **cung** chiếm tỷ trọng lớn |
-| nền kinh tế tương đối **đóng** | độ mở rất cao ⟹ **lạm phát nhập khẩu qua tỷ giá** ([bài 9](bai_09_kinh_te_mo_khai_niem_co_ban.md#10-tỷ-giá-hối-đoái-thực), [bài 10](bai_10_ly_thuyet_kinh_te_mo.md#14--đối-chiếu-việt-nam)) là kênh mạnh |
+| nền kinh tế tương đối **đóng** | độ mở rất cao ⟹ **lạm phát nhập khẩu qua tỷ giá** ([bài 9](bai_09_kinh_te_mo_khai_niem_co_ban.md#10-tỷ-giá-hối-đoái-thực), [bài 10](bai_10_ly_thuyet_kinh_te_mo.md#14-đối-chiếu-việt-nam)) là kênh mạnh |
 
 ⭐ **Hệ quả:** một biểu đồ lạm phát–thất nghiệp của Việt Nam **không nên đọc như Hình 6 của sách**.
 Biến thay thế đáng theo dõi là **khoảng cách sản lượng** và **tăng trưởng tín dụng**, không phải tỷ
@@ -915,8 +973,8 @@ lệ thất nghiệp công bố.
 
 ### (b) Nhưng cơ chế kỳ vọng thì vẫn nguyên
 
-[Mục 8](#8--đường-đi-a--b--c-vì-sao-đánh-đổi-chỉ-là-tạm-thời) và
-[mục 12](#12--cái-giá-phụ-thuộc-tốc-độ-kỳ-vọng) không dựa trên đặc điểm nào của Hoa Kỳ. Chúng chỉ
+[Mục 8](#8-đường-đi-a--b--c-vì-sao-đánh-đổi-chỉ-là-tạm-thời) và
+[mục 12](#12-cái-giá-phụ-thuộc-tốc-độ-kỳ-vọng) không dựa trên đặc điểm nào của Hoa Kỳ. Chúng chỉ
 cần ba điều:
 
 ```
@@ -933,7 +991,7 @@ của mình **đáng tin** — đó là cái duy nhất nâng được $\lambda$
 - **Lạm phát cơ bản** (loại lương thực và năng lượng) so với **lạm phát tổng**: chênh lệch lớn ⟹
   đang là cú sốc **cung**, không phải cú sốc cầu ⟹ đọc theo [mục 9](#9-cú-sốc-cung-và-đình-lạm)
 - **Kỳ vọng lạm phát** trong khảo sát doanh nghiệp — đó chính là biến số của
-  [mục 12](#12--cái-giá-phụ-thuộc-tốc-độ-kỳ-vọng)
+  [mục 12](#12-cái-giá-phụ-thuộc-tốc-độ-kỳ-vọng)
 - **Độ bao phủ của điều khoản trượt giá** trong hợp đồng của chính bạn
 - **Giá lương thực và giá năng lượng thế giới** — nguồn cú sốc cung, và là biến ngoại sinh với mọi
   chính sách trong nước
@@ -942,14 +1000,16 @@ của mình **đáng tin** — đó là cái duy nhất nâng được $\lambda$
 
 ## 19. Code minh hoạ
 
+> [!note]
 > ⚙️ **Chạy:** cần **Python 3.10+**. Lưu file rồi gõ `python3 bai-13-lam-phat-va-that-nghiep.py`.
 > Không cần cài gói nào — chỉ dùng thư viện chuẩn. Output tất định.
 
 Bản gốc: [`thuc_hanh/bai-13-lam-phat-va-that-nghiep.py`](../thuc_hanh/bai-13-lam-phat-va-that-nghiep.py).
 
-⚠️ **Ranh giới:** phương trình $u = u^n - a(\pi - \pi^e)$ là **của sách** (tr. 543). Các giá trị
-$u^n$, $a$, $\lambda$ là **do bài này đặt ra** — và [mục 16](#16--quét-tham-số-kết-luận-có-bền-không)
-quét năm bộ khác nhau để chứng minh kết luận không phụ thuộc chúng.
+> [!warning] Ranh giới:
+> phương trình $u = u^n - a(\pi - \pi^e)$ là **của sách** (tr. 543). Các giá trị
+> $u^n$, $a$, $\lambda$ là **do bài này đặt ra** — và [mục 16](#16-quét-tham-số-kết-luận-có-bền-không)
+> quét năm bộ khác nhau để chứng minh kết luận không phụ thuộc chúng.
 
 ```python
 """Bai 13 — Su danh doi ngan han giua lam phat va that nghiep
@@ -2503,7 +2563,7 @@ Tat ca assert deu qua — moi con so co (tr. NNN) deu khop sach.
 Sửa tham số trong file `.py` rồi chạy lại, quan sát cái gì đổi. Không có lời giải ở đây.
 
 1. **Đổi `A_PC` từ 0.5 lên 1.5** (thất nghiệp nhạy hơn với lạm phát ngoài dự kiến). Trong
-   [mục 8](#8--đường-đi-a--b--c-vì-sao-đánh-đổi-chỉ-là-tạm-thời), thất nghiệp ngay sau cú sốc bằng
+   [mục 8](#8-đường-đi-a--b--c-vì-sao-đánh-đổi-chỉ-là-tạm-thời), thất nghiệp ngay sau cú sốc bằng
    bao nhiêu? Con số đó có hợp lý về mặt kinh tế không? Mô hình tuyến tính có tự biết rằng thất
    nghiệp không thể âm không?
 
@@ -2530,7 +2590,7 @@ Sửa tham số trong file `.py` rồi chạy lại, quan sát cái gì đổi. 
    sách của Volcker.
 
 8. **Viết thêm một hàm** tính chỉ số khốn khổ dọc theo đường đi A → B → C của
-   [mục 8](#8--đường-đi-a--b--c-vì-sao-đánh-đổi-chỉ-là-tạm-thời). Chỉ số này cao nhất ở kỳ nào?
+   [mục 8](#8-đường-đi-a--b--c-vì-sao-đánh-đổi-chỉ-là-tạm-thời). Chỉ số này cao nhất ở kỳ nào?
    Điều đó có nghĩa gì với một chính trị gia sắp tái tranh cử?
 
 ---
@@ -2623,7 +2683,7 @@ Trả lời rồi mới kéo lên đối chiếu. Câu có ⭐ là câu đáng d
 
 20. 💼 Bạn vừa thông báo tăng giá 5% từ quý sau và đã hai lần trước đó lùi thông báo tương tự. Vì
     sao lần này sẽ **đắt hơn** với bạn so với một công ty chưa từng lùi? Trả lời bằng
-    [mục 11](#11--tỷ-lệ-hy-sinh-thực-tế-của-volcker).
+    [mục 11](#11-tỷ-lệ-hy-sinh-thực-tế-của-volcker).
 
 ---
 
@@ -2776,22 +2836,22 @@ Trả lời rồi mới kéo lên đối chiếu. Câu có ⭐ là câu đáng d
 
 - **Chỗ đã ghi rõ để không nhoè ranh giới sách với phần bài này viết thêm:**
   - **Phương trình $u = u^n - a(\pi - \pi^e)$ là của sách** (tr. 543). Giá trị $u^n = 5$, $a = 0{,}5$,
-    $\lambda = 0{,}5$ là **do bài này đặt ra**; [mục 16](#16--quét-tham-số-kết-luận-có-bền-không)
+    $\lambda = 0{,}5$ là **do bài này đặt ra**; [mục 16](#16-quét-tham-số-kết-luận-có-bền-không)
     chứng minh chúng không đổi kết luận.
   - **Công thức điều chỉnh kỳ vọng $\pi^e_{t+1} = \pi^e_t + \lambda(\pi_t - \pi^e_t)$ không có
     trong sách.** Sách mô tả cơ chế bằng lời (tr. 544); bài này viết nó thành công thức để chạy
     được đường đi A → B → C.
-  - **[Mục 4 — hệ số Okun 2,22](#4--hệ-số-okun-ẩn-trong-chính-ví-dụ-của-sách) là của bài này.**
+  - **[Mục 4 — hệ số Okun 2,22](#4-hệ-số-okun-ẩn-trong-chính-ví-dụ-của-sách) là của bài này.**
     Bốn con số đầu vào là của sách (Hình 2), phép chia là của bài này. Sách không bao giờ dùng từ
     "Okun".
-  - **[Mục 11 — tỷ lệ hy sinh thực tế 2,96](#11--tỷ-lệ-hy-sinh-thực-tế-của-volcker) là của bài
+  - **[Mục 11 — tỷ lệ hy sinh thực tế 2,96](#11-tỷ-lệ-hy-sinh-thực-tế-của-volcker) là của bài
     này.** Ba con số đầu vào nằm ở tr. 551 và tr. 552; hệ số Okun đến từ tr. 537–538. Sách khẳng
     định kết quả bằng lời (*"đều nhỏ hơn"*) nhưng không đặt con số.
-  - **[Mục 12 — bảng $\lambda$](#12--cái-giá-phụ-thuộc-tốc-độ-kỳ-vọng) là của bài này.** Sách nêu
+  - **[Mục 12 — bảng $\lambda$](#12-cái-giá-phụ-thuộc-tốc-độ-kỳ-vọng) là của bài này.** Sách nêu
     hai cực (Friedman và Sargent) nhưng không nội suy giữa chúng.
   - **Phép ghép $MV = PY$ cho giai đoạn 1970–72** ở [mục 13](#13-thí-nghiệm-tự-nhiên-1961-1973) là
     của bài này. Sách in cả hai con số nhưng không nối chúng.
-  - Toàn bộ [mục 17 — Góc QTKD](#17--góc-qtkd) và [mục 18 — Đối chiếu Việt Nam](#18--đối-chiếu-việt-nam)
+  - Toàn bộ [mục 17 — Góc QTKD](#17-góc-qtkd) và [mục 18 — Đối chiếu Việt Nam](#18-đối-chiếu-việt-nam)
     nằm ngoài sách. Mục 18 **không dựa trên nguồn số liệu nào được kiểm chứng trong bài**.
 
 - **⚠️ Ba chỗ đáng ghi chú trong bản in này:**
@@ -2821,8 +2881,8 @@ Trả lời rồi mới kéo lên đối chiếu. Câu có ⭐ là câu đáng d
     cho 1970–72.
   - [Bài 12](bai_12_chinh_sach_tien_te_va_tai_khoa.md) — công cụ dịch chuyển tổng cầu; chương này
     cho biết **cái giá** của việc dùng chúng.
-  - [Bài 14](bai_14_sau_tranh_luan_chinh_sach.md) sẽ dùng lại [mục 11](#11--tỷ-lệ-hy-sinh-thực-tế-của-volcker) và
-    [mục 12](#12--cái-giá-phụ-thuộc-tốc-độ-kỳ-vọng) làm đạn cho hai trong sáu tranh luận: *quy tắc
+  - [Bài 14](bai_14_sau_tranh_luan_chinh_sach.md) sẽ dùng lại [mục 11](#11-tỷ-lệ-hy-sinh-thực-tế-của-volcker) và
+    [mục 12](#12-cái-giá-phụ-thuộc-tốc-độ-kỳ-vọng) làm đạn cho hai trong sáu tranh luận: *quy tắc
     hay tuỳ nghi* và *lạm phát zero có phải mục tiêu đúng*.
 
 <!-- BAN-DO -->

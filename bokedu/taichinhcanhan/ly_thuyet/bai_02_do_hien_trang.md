@@ -1,17 +1,17 @@
 # Bài 2 — Đo hiện trạng: dòng tiền, tài sản ròng, bảng cân đối
 
+> [!info] Về bài này
 > Bài học gộp **ba chỗ của hai tập**: C1 tr. 10–12 (Unit 2 Lesson 3), C1 tr. 18 (Unit 3 Lesson 2),
 > và C2 tr. 15–17 (Unit 2 Lesson 1). Sách dạy cùng một khái niệm ở cả ba chỗ dưới ba cái tên khác
 > nhau — lý do gộp ở [bài 0 mục 4](bai_00_bat_dau_tu_dau.md#4-vì-sao-khoá-học-không-đi-theo-thứ-tự-sách).
->
 > **Cần đọc trước:** [Bài 1](bai_01_tai_chinh_ca_nhan_la_gi.md) — đây là **bước 1** trong bốn bước.
->
 > **Ký hiệu:** **[bổ sung]** là kiến thức ngoài sách · **[đính chính]** là chỗ sách sai ·
 > **[2026]** là mục đối chiếu với hiện tại.
->
 > **Code:** [`thuc_hanh/bai-02-do-hien-trang.py`](../thuc_hanh/bai-02-do-hien-trang.py)
 > — dựng lại ba ví dụ Net worth của C2 tr. 16, tách hai nguyên nhân làm tài sản ròng thay đổi, và
 > tính chiếc ô tô của ví dụ 2 mất bao lâu mới thoát khỏi số âm.
+>
+> **Cách đọc các khối màu:** `[!quote]` trích nguyên văn (kèm nguồn) · `[!warning]` chỗ dễ nhầm · `[!note]` mở rộng/ghi chú · `[!example]` ví dụ áp dụng (Góc QTKD / Góc đời sống — biên soạn thêm, không có trong sách).
 
 ---
 
@@ -40,6 +40,7 @@
 Bài 1 nói bước đầu tiên của kế hoạch là *"Xác định dòng tiền và giá trị tài sản"*. Sách mở bước đó
 bằng một câu rất gọn:
 
+> [!quote]
 > *"Hành động đầu tiên để cải thiện tình hình tài chính đó là biết bạn đang ở đâu."* — C1 tr. 11
 
 "Ở đâu" được đo bằng **đúng hai con số**, và chúng trả lời hai câu hỏi khác hẳn nhau:
@@ -78,6 +79,7 @@ Sách bảo lấy giấy bút ra, và liệt kê thu nhập theo **ba nguồn**:
 
 Ba khả năng, và sách xếp hạng chúng:
 
+> [!quote]
 > *"Dòng tiền yếu khi âm hoặc tình trạng qua các tháng lúc âm, lúc dương không ổn định. Dòng tiền
 > mạnh khi lớn hơn 0. Điều này rất quan trọng, vì khi và chỉ khi dòng tiền dương bạn mới nên nghĩ
 > đến việc đầu tư dài hạn."* — C1 tr. 12
@@ -90,6 +92,7 @@ dư", và nó giải thích vì sao bài 3 yêu cầu ghi chép **3–6 tháng**
 
 **Một.** Trading không phải đầu tư:
 
+> [!quote]
 > *"Nếu bạn giao dịch cổ phiếu theo cách mua đi bán lại, lợi nhuận thu được bạn nên để vào mục
 > [kinh doanh]. Bởi công việc trading được tính là một hoạt động kinh doanh."* — C1 tr. 11
 
@@ -99,6 +102,7 @@ ngừng ngồi trước bảng điện, dòng thu nhập đó dừng. Đó là �
 
 **Hai.** Sách đặt một ngưỡng cụ thể cho chữ "đầu tư":
 
+> [!quote]
 > *"Đầu tư nên hiểu là hoạt động trung và dài hạn, có thời hạn từ 3 năm trở lên."* — C1 tr. 11
 
 Con số 3 năm không thiêng liêng, nhưng việc **có một ngưỡng** thì quan trọng: nó ngăn người ta gọi
@@ -126,6 +130,7 @@ có một tháng xuất sắc, thật ra chỉ vừa đổi hình dạng tài s�
 
 Bước 2 cũng chỉ là một phép trừ:
 
+> [!quote]
 > *"hãy lấy tổng tài sản trừ đi tổng nợ. Con số bạn có lúc này là Tài sản ròng… **Tài sản ròng =
 > Tổng tài sản − Tổng nợ**"* — C1 tr. 12
 
@@ -134,6 +139,7 @@ Sách chia tài sản làm ba nhóm — **tiêu dùng** (nhà ở, ô tô), **ki
 tư. Cách chia đôi này (ba loại tài sản ↔ ba loại nợ) chính là **bảng cân đối tài chính cá nhân**,
 mà sách giới thiệu riêng ở Unit 3:
 
+> [!quote]
 > *"Đây là phiên bản đơn giản hơn của báo cáo tài chính doanh nghiệp. Cả hai đều là những công cụ
 > có thể cho thấy sức khỏe tài chính của đối tượng. Bảng cân đối tài chính cá nhân là bản phác thảo
 > tình hình tài chính của cá nhân **tại một thời điểm nhất định**."* — C1 tr. 18
@@ -145,6 +151,7 @@ Ai đã học [Trí tuệ tài chính](../../trituetaichinh/README.md) sẽ nh�
 
 Sách chốt bằng một quy tắc hai vế, và vế thứ hai sẽ quay lại ở mục 7:
 
+> [!quote]
 > *"Bạn cần luôn bảo đảm Dòng tiền thuần và Tài sản thuần luôn là con số dương."* — C1 tr. 17
 
 ### Ba cái tên cho hai khái niệm
@@ -166,6 +173,7 @@ Một chi tiết nhỏ nữa: C1 tr. 18 nói bảng cân đối *"mô tả thôn
 
 ### [đính chính] Định nghĩa nợ của sách quá hẹp
 
+> [!quote]
 > *"Nợ (Liabilities) là các khoản vay để tạo ra tài sản."* — C1 tr. 17
 
 Không phải khoản nợ nào cũng tạo ra tài sản. Vay để trả viện phí, quẹt thẻ tín dụng cho một bữa
@@ -228,6 +236,7 @@ $$
 
 Sách **đưa ra ví dụ về vế thứ hai nhưng không đặt tên cho nó**. Đây là ví dụ thứ ba của C2 tr. 16:
 
+> [!quote]
 > *"Bạn dồn tất cả tài sản vào đầu tư chứng khoán. Hôm nay giá trị cổ phiếu là 1 tỷ đồng, vì vậy
 > Net worth của bạn là 1 tỷ đồng. Nhưng ngày mai, giá cổ phiếu đi xuống còn 800 triệu thì Net worth
 > của bạn cũng sẽ chỉ còn 800 triệu."* — C2 tr. 16
@@ -292,6 +301,7 @@ Con số 10%/năm là **giả định của khoá học**, không phải của s
 
 C2 mở đầu Unit 2 bằng một câu rất Việt Nam:
 
+> [!quote]
 > *"Nhiều người Việt có thói quen hỏi 'Lương tháng bao tiền?' để đoán xem đối phương 'đắt giá' bao
 > nhiêu. Nhưng thực sự, câu hỏi đúng hơn phải là 'Net worth thế nào?'"* — C2 tr. 15
 
@@ -299,6 +309,7 @@ Sách đưa **ba lý do**:
 
 **Một — lương đo cái kiếm được, tài sản ròng đo cái giữ được.**
 
+> [!quote]
 > *"Có những người nhìn bề ngoài rất 'hoành tráng': nhà lầu, xe hơi, đi du lịch, mua sắm quanh
 > năm... Tuy nhiên, những tài sản và trải nghiệm mà họ có được đó lại đều từ tiền vay mượn, trả
 > góp, tín dụng mà ra. Net worth của họ ở mức rất thấp, hoặc thậm chí âm."* — C2 tr. 16
@@ -308,6 +319,7 @@ xe**; bảng cân đối nhìn thấy **âm 90 triệu**.
 
 **Hai — lạm phát lối sống.**
 
+> [!quote]
 > *"tập trung vào Net worth thay vì lương tháng sẽ giúp kiểm soát được nguy cơ lạm phát lối sống
 > (lifestyle creep/lifestyle inflation)… khi 'vung tiền quá trán', Net worth của bạn thậm chí có
 > thể xuống thấp hơn so với lúc bạn còn nhận mức lương cũ."* — C2 tr. 17
