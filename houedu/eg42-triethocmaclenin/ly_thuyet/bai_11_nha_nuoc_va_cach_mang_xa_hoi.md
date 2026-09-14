@@ -1,12 +1,18 @@
 # Bài 11 — Nhà nước và cách mạng xã hội
 
+> [!info] Về bài này
 > Bài học dựng từ **Chương 3, mục III** (tr. 384–418) của *Giáo trình Triết học Mác – Lênin* (hệ không chuyên),
 > Bộ Giáo dục và Đào tạo, **NXB Chính trị Quốc gia Sự thật, 2021**.
-> 🔸 **Vòng 2.** Hai "sản phẩm" trực tiếp của đấu tranh giai cấp: **nhà nước** (bộ máy giữ trật tự cho giai cấp thống trị) và **cách mạng xã hội** (bước nhảy thay hình thái kinh tế – xã hội). Đây là phần vận dụng đậm vào **Cách mạng Tháng Tám 1945** và **Nhà nước pháp quyền XHCN Việt Nam**.
-> 💼 **Góc QTKD** — ví dụ áp dụng cho ngành quản trị kinh doanh, **không có trong sách**, chỉ là phép loại suy để dễ nhớ.
-> 📚 **Mở rộng** — thứ sách nói lướt hoặc cho tên riêng mà không giải thích.
-> ⚠️ — chỗ dễ hiểu sai.
-> 📌 **Cần đọc trước:** [Bài 9](bai_09_hinh_thai_kinh_te_xa_hoi.md), [Bài 10](bai_10_giai_cap_va_dan_toc.md).
+>
+> **Vòng 2.** Hai "sản phẩm" trực tiếp của đấu tranh giai cấp: **nhà nước** (bộ máy giữ trật tự cho giai cấp thống trị) và **cách mạng xã hội** (bước nhảy thay hình thái kinh tế – xã hội). Đây là phần vận dụng đậm vào **Cách mạng Tháng Tám 1945** và **Nhà nước pháp quyền XHCN Việt Nam**.
+>
+> **Cách đọc các khối màu trong bài:**
+> - `[!quote]` — trích **nguyên văn** giáo trình (hoặc kinh điển do giáo trình dẫn), kèm số trang.
+> - `[!warning]` — chỗ **dễ hiểu sai**.
+> - `[!note]` **Mở rộng** — thứ sách nói lướt hoặc cho tên riêng mà không giải thích.
+> - `[!example]` **Góc QTKD** — ví dụ áp dụng cho ngành **quản trị kinh doanh**, *không có trong sách*, chỉ là phép loại suy để dễ nhớ.
+>
+> **Cần đọc trước:** [Bài 9](bai_09_hinh_thai_kinh_te_xa_hoi.md), [Bài 10](bai_10_giai_cap_va_dan_toc.md).
 
 ---
 
@@ -41,13 +47,15 @@ Nhà nước **không có sẵn, không vĩnh viễn** — nó ra đời và m�
 
 ### Bản chất (tr. 388–389)
 
+> [!quote] Giáo trình, tr. 389
 > **Nhà nước** về bản chất là **tổ chức chính trị của một giai cấp thống trị về mặt kinh tế** nhằm bảo vệ trật tự hiện hành và **đàn áp sự phản kháng của các giai cấp khác** — là **công cụ chuyên chính** của một giai cấp. (tr. 389)
 
-⚠️ **Không có nhà nước đứng trên hoặc đứng ngoài giai cấp.** Mọi nhà nước, dù mang hình thức nào, đều **mang bản chất giai cấp**. (Trường hợp ngoại lệ: khi hai giai cấp đấu tranh cân bằng, nhà nước tạm có mức độ độc lập tương đối — tr. 389.)
+> [!warning] Không có nhà nước đứng trên hoặc đứng ngoài giai cấp.
+> Mọi nhà nước, dù mang hình thức nào, đều **mang bản chất giai cấp**. (Trường hợp ngoại lệ: khi hai giai cấp đấu tranh cân bằng, nhà nước tạm có mức độ độc lập tương đối — tr. 389.)
 
-### 💼 Góc QTKD — thiết chế quyền lực sinh ra từ xung đột lợi ích không thể tự dàn xếp
-
-- **Nhà nước sinh ra từ mâu thuẫn không điều hoà** = trong tổ chức, các **thiết chế quyền lực chính thức** (ban điều hành, quy chế kỷ luật, cơ chế cưỡng chế nội bộ) ra đời khi các nhóm lợi ích **không thể tự dàn xếp**. Hiểu điều này để không ảo tưởng rằng "cơ chế trung lập" — cơ chế nào cũng phản ánh **ai đang nắm quyền chi phối**.
+> [!example] Góc QTKD — thiết chế quyền lực sinh ra từ xung đột lợi ích không thể tự dàn xếp
+>
+> - **Nhà nước sinh ra từ mâu thuẫn không điều hoà** = trong tổ chức, các **thiết chế quyền lực chính thức** (ban điều hành, quy chế kỷ luật, cơ chế cưỡng chế nội bộ) ra đời khi các nhóm lợi ích **không thể tự dàn xếp**. Hiểu điều này để không ảo tưởng rằng "cơ chế trung lập" — cơ chế nào cũng phản ánh **ai đang nắm quyền chi phối**.
 
 ---
 
@@ -66,9 +74,9 @@ Nhà nước **không có sẵn, không vĩnh viễn** — nó ra đời và m�
 - **Theo tính giai cấp:** chức năng **thống trị chính trị** (⭐ quyết định, chi phối) và chức năng **xã hội** (quản lý việc chung: thuỷ lợi, giao thông, y tế, giáo dục…). ⚠️ Ăngghen: *"chức năng xã hội là cơ sở của sự thống trị chính trị"* — nhà nước nào bỏ bê chức năng xã hội thì sớm muộn **sụp đổ** (ví dụ các đế chế cổ đại suy vong vì không "tưới nước cho các thung lũng") (tr. 393–394).
 - **Theo phạm vi:** chức năng **đối nội** (chủ yếu) và chức năng **đối ngoại** — hai mặt của một thể thống nhất.
 
-### 💼 Góc QTKD — "chức năng xã hội là cơ sở của sự thống trị chính trị"
-
-- **Quyền lực phải đi kèm phục vụ** = một ban lãnh đạo chỉ lo giữ quyền (thống trị) mà bỏ chức năng phục vụ (vận hành trơn tru, chăm lo lợi ích chung của tổ chức) thì **mất tính chính danh** và sụp đổ. Tương tự nhà nước lơ là chức năng xã hội — **quyền lực bền vững phải dựa trên giá trị nó tạo ra cho cộng đồng**.
+> [!example] Góc QTKD — "chức năng xã hội là cơ sở của sự thống trị chính trị"
+>
+> - **Quyền lực phải đi kèm phục vụ** = một ban lãnh đạo chỉ lo giữ quyền (thống trị) mà bỏ chức năng phục vụ (vận hành trơn tru, chăm lo lợi ích chung của tổ chức) thì **mất tính chính danh** và sụp đổ. Tương tự nhà nước lơ là chức năng xã hội — **quyền lực bền vững phải dựa trên giá trị nó tạo ra cho cộng đồng**.
 
 ---
 
@@ -79,7 +87,8 @@ Nhà nước **không có sẵn, không vĩnh viễn** — nó ra đời và m�
 - **Kiểu nhà nước** (căn cứ **bản chất giai cấp**): lịch sử có **bốn kiểu** — chủ nô quý tộc, phong kiến, tư sản, **vô sản**.
 - **Hình thức nhà nước** (cách tổ chức, thực thi quyền lực): cùng một kiểu có nhiều hình thức. Ví dụ: chủ nô có quân chủ (Xpác) và cộng hoà dân chủ (Aten); phong kiến có **tập quyền** và **phân quyền**; tư sản có cộng hoà đại nghị, cộng hoà tổng thống, quân chủ lập hiến, liên bang…
 
-⚠️ Lênin: mọi hình thức nhà nước tư sản dù khác nhau **vẫn tất yếu là "nền chuyên chính tư sản"** — nền dân chủ tư sản là **dân chủ của số ít** người có tiền, có quyền, **có giới hạn** (tr. 399–400).
+> [!warning]
+> Lênin: mọi hình thức nhà nước tư sản dù khác nhau **vẫn tất yếu là "nền chuyên chính tư sản"** — nền dân chủ tư sản là **dân chủ của số ít** người có tiền, có quyền, **có giới hạn** (tr. 399–400).
 
 **Kiểu nhà nước vô sản** là kiểu **"đặc biệt"** — nhà nước của **số đông thống trị số ít**, thực hiện **dân chủ vô sản** (dân chủ kiểu mới). Tồn tại dưới nhiều hình thức: Công xã Paris 1871, Xôviết Nga 1917, Việt Nam Dân chủ Cộng hoà… Hai chức năng cơ bản: **tổ chức, xây dựng** trật tự kinh tế – xã hội mới (quyết định) và **trấn áp** sự phản kháng của các lực lượng chống đối (tr. 400–401). ⚠️ Sách nhắc: Liên Xô và Đông Âu **để mất chính quyền** vào tay các lực lượng chính trị khác (tr. 401).
 
@@ -90,10 +99,10 @@ Nhà nước **không có sẵn, không vĩnh viễn** — nó ra đời và m�
 - Đại hội XIII nhấn mạnh: hoàn thiện thể chế, phát huy dân chủ, **coi trọng kiểm soát quyền lực**, phân công – phối hợp giữa **lập pháp, hành pháp, tư pháp**; giải quyết tốt quan hệ Nhà nước – thị trường – xã hội (tr. 403).
 - Chủ trương: đẩy mạnh **cải cách hành chính**, xây dựng "nhà nước kiến tạo, chính phủ liêm chính, hành động, phục vụ" (tr. 404).
 
-### 💼 Góc QTKD — cùng "kiểu" có thể nhiều "hình thức" tổ chức
-
-- **Kiểu vs hình thức** = cùng một **bản chất sở hữu** (ví dụ công ty cổ phần) có nhiều **mô hình quản trị** khác nhau (một tầng/hai tầng hội đồng, CEO kiêm chủ tịch hay tách bạch…). Chọn hình thức tuỳ tương quan lực lượng, văn hoá — nhưng **bản chất sở hữu quyết định**, đúng như "hình thức nhà nước chịu sự quy định của bản chất giai cấp".
-- **Kiểm soát quyền lực** (Đại hội XIII) = tinh thần **checks and balances / corporate governance**: phân công và **giám sát chéo** để quyền lực không bị lạm dụng.
+> [!example] Góc QTKD — cùng "kiểu" có thể nhiều "hình thức" tổ chức
+>
+> - **Kiểu vs hình thức** = cùng một **bản chất sở hữu** (ví dụ công ty cổ phần) có nhiều **mô hình quản trị** khác nhau (một tầng/hai tầng hội đồng, CEO kiêm chủ tịch hay tách bạch…). Chọn hình thức tuỳ tương quan lực lượng, văn hoá — nhưng **bản chất sở hữu quyết định**, đúng như "hình thức nhà nước chịu sự quy định của bản chất giai cấp".
+> - **Kiểm soát quyền lực** (Đại hội XIII) = tinh thần **checks and balances / corporate governance**: phân công và **giám sát chéo** để quyền lực không bị lạm dụng.
 
 ---
 
@@ -101,6 +110,7 @@ Nhà nước **không có sẵn, không vĩnh viễn** — nó ra đời và m�
 
 ### Nguồn gốc và bản chất (tr. 404–407)
 
+> [!quote] Giáo trình, tr. 406–407
 > **Cách mạng xã hội** (nghĩa rộng) là sự **thay đổi căn bản về chất** toàn bộ các lĩnh vực đời sống xã hội, là **bước chuyển từ một hình thái kinh tế – xã hội này lên một hình thái mới, tiến bộ hơn**. (nghĩa hẹp) là **đỉnh cao của đấu tranh giai cấp** — lật đổ chính quyền cũ, lập chính quyền mới. (tr. 406–407)
 
 - **Nguồn gốc sâu xa:** mâu thuẫn giữa **LLSX tiến bộ** và **QHSX lỗi thời** (biểu hiện xã hội = mâu thuẫn giữa giai cấp bị trị đại diện LLSX mới và giai cấp thống trị đại diện QHSX cũ).
@@ -115,7 +125,8 @@ Nhà nước **không có sẵn, không vĩnh viễn** — nó ra đời và m�
 | **Đảo chính** | một nhóm giành chính quyền nhưng **không thay đổi căn bản chế độ** → không phải cách mạng |
 | **Cải lương chủ nghĩa** | ⚠️ chủ trương **từ bỏ** đấu tranh giai cấp, tuyệt đối hoá đấu tranh nghị trường — bị Lênin phê phán là **cơ hội chủ nghĩa** |
 
-⚠️ Lênin cảnh báo: quên **ranh giới giữa cải cách và cách mạng** sẽ mắc sai lầm nghiêm trọng — nhưng ranh giới ấy "sinh động, linh hoạt", phải xác định theo từng trường hợp (tr. 408).
+> [!warning]
+> Lênin cảnh báo: quên **ranh giới giữa cải cách và cách mạng** sẽ mắc sai lầm nghiêm trọng — nhưng ranh giới ấy "sinh động, linh hoạt", phải xác định theo từng trường hợp (tr. 408).
 
 ### Tính chất, lực lượng, động lực, đối tượng (tr. 409–410)
 
@@ -124,9 +135,9 @@ Nhà nước **không có sẵn, không vĩnh viễn** — nó ra đời và m�
 - **Động lực:** giai cấp có lợi ích gắn bó, tự giác, triệt để, có khả năng lôi cuốn các lực lượng khác.
 - **Giai cấp lãnh đạo:** giai cấp có **hệ tư tưởng tiến bộ**, đại diện phương thức sản xuất tiến bộ.
 
-### 💼 Góc QTKD — "cách mạng" (thay mô hình) khác "cải cách" (chỉnh sửa bộ phận)
-
-- **Cách mạng ≠ cải cách ≠ tiến hoá** = phân biệt **chuyển đổi mô hình kinh doanh triệt để** (thay đổi về chất — như pivot toàn diện, chuyển đổi số căn bản) với **cải tiến từng quy trình** (kaizen, cải cách bộ phận) và **tiến hoá tự nhiên** của tổ chức. ⚠️ Nhầm lẫn hai cái này gây sai lầm chiến lược: dùng "cải tiến nhỏ giọt" cho một tình thế đòi hỏi "chuyển đổi căn bản", hoặc ngược lại đập đi xây lại khi chỉ cần tinh chỉnh.
+> [!example] Góc QTKD — "cách mạng" (thay mô hình) khác "cải cách" (chỉnh sửa bộ phận)
+>
+> - **Cách mạng ≠ cải cách ≠ tiến hoá** = phân biệt **chuyển đổi mô hình kinh doanh triệt để** (thay đổi về chất — như pivot toàn diện, chuyển đổi số căn bản) với **cải tiến từng quy trình** (kaizen, cải cách bộ phận) và **tiến hoá tự nhiên** của tổ chức. ⚠️ Nhầm lẫn hai cái này gây sai lầm chiến lược: dùng "cải tiến nhỏ giọt" cho một tình thế đòi hỏi "chuyển đổi căn bản", hoặc ngược lại đập đi xây lại khi chỉ cần tinh chỉnh.
 
 ---
 
@@ -140,7 +151,8 @@ Nhà nước **không có sẵn, không vĩnh viễn** — nó ra đời và m�
 2. **"Tầng lớp dưới"** — nỗi khổ của giai cấp bị áp bức trở nên **nặng nề hơn mức bình thường**.
 3. Tính tích cực của **quần chúng được nâng cao rõ rệt**, sẵn sàng hành động lịch sử độc lập.
 
-⚠️ **Tình thế cách mạng là khách quan, không phụ thuộc ý chí** — không có tình thế cách mạng thì cách mạng không nổ ra. (Cách mạng Tháng Tám: nạn đói 2 triệu người, Nhật đảo chính Pháp, Nhật đầu hàng Đồng minh — tr. 412.)
+> [!warning] Tình thế cách mạng là khách quan, không phụ thuộc ý chí
+> không có tình thế cách mạng thì cách mạng không nổ ra. (Cách mạng Tháng Tám: nạn đói 2 triệu người, Nhật đảo chính Pháp, Nhật đầu hàng Đồng minh — tr. 412.)
 
 **Nhân tố chủ quan:** ý chí, niềm tin, trình độ giác ngộ, năng lực tổ chức của lực lượng cách mạng. Khi điều kiện khách quan chín muồi, **nhân tố chủ quan quyết định** thành bại. Lênin: không phải tình thế cách mạng nào cũng nổ ra cách mạng — cần giai cấp cách mạng đủ **mạnh để "đẩy cho nó ngã"** (tr. 413). Ở Việt Nam, không có Đảng lãnh đạo, không xây dựng lực lượng vũ trang thì dù khách quan chín muồi cũng khó thắng lợi.
 
@@ -153,11 +165,12 @@ Nhà nước **không có sẵn, không vĩnh viễn** — nó ra đời và m�
 - **Bạo lực cách mạng** — hình thức khá phổ biến, vì giai cấp thống trị **không bao giờ tự nguyện** rời địa vị dù đã lỗi thời. ⚠️ Bạo lực chỉ là **công cụ, phương tiện** giành chính quyền, không phải mục đích.
 - **Phương pháp hoà bình** — giành chính quyền không dùng bạo lực **khi đủ điều kiện**: (1) giai cấp thống trị không còn/mất ý chí dùng bạo lực, (2) lực lượng cách mạng đủ mạnh. Ít khi xảy ra. ⚠️ Cảnh giác quan điểm "quá độ hoà bình" của **chủ nghĩa cơ hội hữu khuynh** (thực chất phủ định bạo lực cách mạng) (tr. 416).
 
-📚 **Liên hệ hiện nay (tr. 416–417):** các thế lực thù địch đẩy mạnh **"diễn biến hoà bình"**, lợi dụng "dân chủ", "nhân quyền"; nguy cơ **"tự diễn biến", "tự chuyển hoá"** trong nội bộ do suy thoái tư tưởng, đạo đức của một bộ phận cán bộ.
+> [!note] Mở rộng
+> **Liên hệ hiện nay (tr. 416–417):** các thế lực thù địch đẩy mạnh **"diễn biến hoà bình"**, lợi dụng "dân chủ", "nhân quyền"; nguy cơ **"tự diễn biến", "tự chuyển hoá"** trong nội bộ do suy thoái tư tưởng, đạo đức của một bộ phận cán bộ.
 
-### 💼 Góc QTKD — "tình thế + thời cơ + năng lực" quyết định một cuộc chuyển đổi
-
-- **Điều kiện khách quan + nhân tố chủ quan + thời cơ** = mô hình quyết định **khi nào** và **có nên** tiến hành một cuộc chuyển đổi lớn (thâm nhập thị trường, tái cấu trúc, thương vụ). Cần **cả ba**: thị trường chín muồi (khách quan), năng lực đội ngũ đủ mạnh (chủ quan), và **đúng thời điểm** (thời cơ — window of opportunity). Đủ điều kiện mà bỏ lỡ thời cơ thì thất bại; có thời cơ mà năng lực yếu cũng không nắm được. Đây là tinh thần **first-mover timing** và **execution capability**.
+> [!example] Góc QTKD — "tình thế + thời cơ + năng lực" quyết định một cuộc chuyển đổi
+>
+> - **Điều kiện khách quan + nhân tố chủ quan + thời cơ** = mô hình quyết định **khi nào** và **có nên** tiến hành một cuộc chuyển đổi lớn (thâm nhập thị trường, tái cấu trúc, thương vụ). Cần **cả ba**: thị trường chín muồi (khách quan), năng lực đội ngũ đủ mạnh (chủ quan), và **đúng thời điểm** (thời cơ — window of opportunity). Đủ điều kiện mà bỏ lỡ thời cơ thì thất bại; có thời cơ mà năng lực yếu cũng không nắm được. Đây là tinh thần **first-mover timing** và **execution capability**.
 
 ---
 
@@ -216,7 +229,7 @@ CÁCH MẠNG XÃ HỘI = thay đổi CĂN BẢN VỀ CHẤT, chuyển hình thá
    PHƯƠNG PHÁP: BẠO LỰC(phổ biến, là công cụ) / HOÀ BÌNH(hiếm, đủ 2 điều kiện)
    ⇒ CÁCH MẠNG THÁNG TÁM 1945: dân chủ tư sản kiểu mới, Đảng lãnh đạo
 
-💼 QTKD: thiết chế quyền lực sinh từ xung đột không dàn xếp được · quyền lực phải đi kèm phục vụ ·
+QTKD: thiết chế quyền lực sinh từ xung đột không dàn xếp được · quyền lực phải đi kèm phục vụ ·
    kiểu(sở hữu) vs hình thức(quản trị) + checks-and-balances · "chuyển đổi mô hình" ≠ "cải tiến bộ phận" ·
    tình thế + thời cơ + năng lực quyết định một cuộc chuyển đổi lớn
 ═══════════════════════════════════════════════════════════════════════════════

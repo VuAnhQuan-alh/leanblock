@@ -1,12 +1,20 @@
 # Bài 1 — Triết học và vấn đề cơ bản của triết học
 
-> Bài học dựng từ **Chương 1, mục I** (tr. 12–47) của *Giáo trình Triết học Mác – Lênin* (hệ không chuyên),
-> Bộ Giáo dục và Đào tạo, **NXB Chính trị Quốc gia Sự thật, 2021**.
-> 🎯 **Vòng 1** — bài nền, học kỹ. Toàn bộ khoá học đứng trên bốn khái niệm của bài này: **thế giới quan, vấn đề cơ bản, duy vật/duy tâm, biện chứng/siêu hình**.
-> 💼 **Góc QTKD** — ví dụ áp dụng cho ngành quản trị kinh doanh, **không có trong sách**, chỉ là phép loại suy để dễ nhớ.
-> 📚 **Mở rộng** — thứ sách nói lướt hoặc cho tên riêng mà không giải thích.
-> ⚠️ — chỗ dễ hiểu sai.
-> 📌 **Cần đọc trước:** không có. Đây là bài đầu tiên.
+> [!info] Về bài này
+> Bài học dựng từ **Chương 1, mục I** (tr. 12–47) của *Giáo trình Triết học Mác – Lênin* (hệ không
+> chuyên), Bộ Giáo dục và Đào tạo, **NXB Chính trị Quốc gia Sự thật, 2021**.
+>
+> **Vòng 1** — bài nền, học kỹ. Toàn bộ khoá đứng trên bốn khái niệm của bài này: **thế giới quan,
+> vấn đề cơ bản, duy vật/duy tâm, biện chứng/siêu hình**.
+>
+> **Cách đọc các khối màu trong bài:**
+> - `[!quote]` — trích **nguyên văn** giáo trình (hoặc kinh điển do giáo trình dẫn), kèm số trang.
+> - `[!warning]` — chỗ **dễ hiểu sai**.
+> - `[!note]` **Mở rộng** — thứ sách nói lướt hoặc cho tên riêng mà không giải thích.
+> - `[!example]` **Góc QTKD** — ví dụ áp dụng cho ngành **quản trị kinh doanh**, *không có trong
+>   sách*, chỉ là phép loại suy để dễ nhớ.
+>
+> **Cần đọc trước:** không có. Đây là bài đầu tiên.
 
 ---
 
@@ -46,23 +54,26 @@ mơ hồ, phi lôgích... thành những huyền thoại".
 
 Triết học chỉ xuất hiện khi nhận thức đạt tới một trình độ mới:
 
+> [!quote] Giáo trình, tr. 13
 > Sự phát triển của **tư duy trừu tượng và năng lực khái quát** trong quá trình nhận thức sẽ đến lúc
 > làm cho các quan điểm, quan niệm chung nhất về thế giới và về vai trò của con người trong thế giới
-> đó hình thành — đó là lúc triết học xuất hiện. (tr. 13)
+> đó hình thành — đó là lúc triết học xuất hiện.
 
 Cơ chế cốt lõi (tr. 14–15): tri thức con người ban đầu là **cụ thể, riêng lẻ, cảm tính**; đến một giai
 đoạn nó phải được **tổng hợp, trừu tượng hoá, khái quát hoá** thành khái niệm, phạm trù, quy luật, luận
 thuyết "đủ sức phổ quát để giải thích thế giới". Triết học ra đời để đáp ứng nhu cầu đó.
 
+> [!quote] Giáo trình, tr. 15
 > **Nguồn gốc nhận thức của triết học** = sự hình thành và phát triển của **tư duy trừu tượng**, của
-> **năng lực khái quát** trong nhận thức của con người. (tr. 15)
+> **năng lực khái quát** trong nhận thức của con người.
 
 ### Nguồn gốc xã hội (tr. 15–18)
 
 Nhận thức trừu tượng là điều kiện *cần*, nhưng chưa *đủ*. Triết học "không ra đời trong xã hội mông
 muội dã man". Sách dẫn C. Mác:
 
-> "Triết học không treo lơ lửng ở ngoài thế giới, cũng như bộ óc không tồn tại bên ngoài con người." (C. Mác, dẫn tr. 15)
+> [!quote] C. Mác, dẫn tr. 15
+> "Triết học không treo lơ lửng ở ngoài thế giới, cũng như bộ óc không tồn tại bên ngoài con người."
 
 Triết học chỉ ra đời khi xã hội đã có (tr. 15–17):
 
@@ -83,26 +94,25 @@ Triết học chỉ ra đời khi xã hội đã có (tr. 15–17):
 Thuật ngữ *triết gia* (**philosophos**) lần đầu xuất hiện ở **Heraclitus (Hêraclit)**, chỉ người nghiên
 cứu về bản chất của sự vật (tr. 17).
 
-⚠️ **Chú ý một hệ quả mà sách nhấn mạnh và sẽ dùng lại suốt khoá:** vì ra đời trong xã hội đã có giai
-cấp và nhà nước, **triết học mang tính giai cấp sâu sắc — nó "công khai tính đảng"**, phục vụ lợi ích
-của những giai cấp, lực lượng xã hội nhất định (tr. 18). Đây là luận điểm nền của cả chủ nghĩa duy vật
-lịch sử ở Chương 3.
+> [!warning] Một hệ quả sách nhấn mạnh và dùng lại suốt khoá
+> Vì ra đời trong xã hội đã có giai cấp và nhà nước, **triết học mang tính giai cấp sâu sắc — nó "công
+> khai tính đảng"**, phục vụ lợi ích của những giai cấp, lực lượng xã hội nhất định (tr. 18). Đây là
+> luận điểm nền của cả chủ nghĩa duy vật lịch sử ở Chương 3.
 
-### 💼 Góc QTKD — dữ liệu rời rạc chỉ thành "chiến lược" khi được khái quát
-
-Cơ chế "nguồn gốc nhận thức" mô tả chính xác con đường từ **số liệu** lên **tư duy chiến lược** trong
-một doanh nghiệp:
-
-| Tầng | Trong nhận thức (sách) | Trong quản trị |
-| --- | --- | --- |
-| Cảm tính, rời rạc | tri thức cụ thể, riêng lẻ | từng con số bán hàng, từng phản hồi khách lẻ |
-| Khái quát hoá | rút ra quy luật chung | "khách khu vực A nhạy giá; khách B trung thành với thương hiệu" |
-| Hệ thống, phổ quát | luận thuyết, thế giới quan | triết lý kinh doanh, chiến lược định vị |
-
-Nhân viên bán hàng thấy **cây** (từng đơn hàng); nhà quản trị phải thấy **rừng** (quy luật thị trường).
-Đó đúng là bước nhảy "trừu tượng hoá, khái quát hoá" mà sách nói tới. Một công ty ngập trong dashboard
-nhưng không ai khái quát thành nguyên tắc ra quyết định thì vẫn đang ở tầng "tư duy huyền thoại" — giải
-thích doanh số bằng cảm giác và giai thoại.
+> [!example] Góc QTKD — dữ liệu rời rạc chỉ thành "chiến lược" khi được khái quát
+> Cơ chế "nguồn gốc nhận thức" mô tả chính xác con đường từ **số liệu** lên **tư duy chiến lược** trong
+> một doanh nghiệp:
+>
+> | Tầng | Trong nhận thức (sách) | Trong quản trị |
+> | --- | --- | --- |
+> | Cảm tính, rời rạc | tri thức cụ thể, riêng lẻ | từng con số bán hàng, từng phản hồi khách lẻ |
+> | Khái quát hoá | rút ra quy luật chung | "khách khu vực A nhạy giá; khách B trung thành với thương hiệu" |
+> | Hệ thống, phổ quát | luận thuyết, thế giới quan | triết lý kinh doanh, chiến lược định vị |
+>
+> Nhân viên bán hàng thấy **cây** (từng đơn hàng); nhà quản trị phải thấy **rừng** (quy luật thị trường).
+> Đó đúng là bước nhảy "trừu tượng hoá, khái quát hoá" mà sách nói tới. Một công ty ngập trong dashboard
+> nhưng không ai khái quát thành nguyên tắc ra quyết định thì vẫn đang ở tầng "tư duy huyền thoại" — giải
+> thích doanh số bằng cảm giác và giai thoại.
 
 ---
 
@@ -131,23 +141,24 @@ mọi định nghĩa đều bao hàm (tr. 21–22):
 
 Từ đó, định nghĩa gắn với chủ nghĩa Mác – Lênin (tr. 22) — **học thuộc, đây là định nghĩa trung tâm**:
 
+> [!quote] Định nghĩa trung tâm, tr. 22
 > **Triết học là hệ thống quan điểm lý luận chung nhất về thế giới và vị trí con người trong thế giới
-> đó, là khoa học về những quy luật vận động, phát triển chung nhất của tự nhiên, xã hội và tư duy.** (tr. 22)
+> đó, là khoa học về những quy luật vận động, phát triển chung nhất của tự nhiên, xã hội và tư duy.**
 
-⚠️ Sách nói rõ ngay sau đó: **"Không phải mọi triết học đều là khoa học."** Mọi học thuyết triết học
-đều *đóng góp* cho sự hình thành tri thức khoa học, là những "mắt khâu", "vòng khâu" trên đường phát
-triển — nhưng bản thân chúng không đương nhiên là khoa học (tr. 22). Trình độ khoa học của một học
-thuyết phụ thuộc đối tượng, hệ tri thức và hệ phương pháp của nó.
+> [!warning] "Không phải mọi triết học đều là khoa học"
+> Sách nói rõ ngay sau đó (tr. 22): mọi học thuyết triết học đều *đóng góp* cho sự hình thành tri thức
+> khoa học, là những "mắt khâu", "vòng khâu" trên đường phát triển — nhưng bản thân chúng không đương
+> nhiên là khoa học. Trình độ khoa học của một học thuyết phụ thuộc đối tượng, hệ tri thức và hệ phương
+> pháp của nó.
 
-### 💼 Góc QTKD — điều phân biệt triết học với tôn giáo cũng phân biệt "quyết định dựa dữ liệu" với "quyết định theo niềm tin"
-
-Sách nhấn một ranh giới: triết học và tôn giáo cùng vẽ "bức tranh tổng quát về thế giới", nhưng tôn
-giáo dựa trên **niềm tin**, còn triết học dùng **công cụ lý tính, tiêu chuẩn lôgích, kinh nghiệm** (tr. 20).
-
-Đó chính là ranh giới giữa hai kiểu ra quyết định quản trị. "Tôi *tin* sản phẩm này sẽ bán chạy" là
-phát biểu kiểu niềm tin. "Thử nghiệm A/B trên 2.000 khách cho tỷ lệ chuyển đổi 4,1% so với 2,8%" là
-phát biểu kiểu lý tính. Nhà quản trị giỏi không cấm trực giác — sách cũng không phủ nhận vai trò niềm
-tin — nhưng biết **khoản nào đang được quyết bằng bằng chứng và khoản nào đang được quyết bằng niềm tin**.
+> [!example] Góc QTKD — ranh giới triết học/tôn giáo cũng là ranh giới "quyết định dựa dữ liệu" vs "theo niềm tin"
+> Sách nhấn một ranh giới: triết học và tôn giáo cùng vẽ "bức tranh tổng quát về thế giới", nhưng tôn
+> giáo dựa trên **niềm tin**, còn triết học dùng **công cụ lý tính, tiêu chuẩn lôgích, kinh nghiệm** (tr. 20).
+>
+> Đó chính là ranh giới giữa hai kiểu ra quyết định quản trị. "Tôi *tin* sản phẩm này sẽ bán chạy" là
+> phát biểu kiểu niềm tin. "Thử nghiệm A/B trên 2.000 khách cho tỷ lệ chuyển đổi 4,1% so với 2,8%" là
+> phát biểu kiểu lý tính. Nhà quản trị giỏi không cấm trực giác — sách cũng không phủ nhận vai trò niềm
+> tin — nhưng biết **khoản nào đang được quyết bằng bằng chứng và khoản nào đang được quyết bằng niềm tin**.
 
 ---
 
@@ -190,9 +201,10 @@ Các mốc sách nêu (cần nhớ vài cái tên):
 
 ### Thế giới quan là gì (tr. 27–29)
 
+> [!quote] Giáo trình, tr. 28
 > **Thế giới quan** là khái niệm triết học chỉ **hệ thống các tri thức, quan điểm, tình cảm, niềm tin,
 > lý tưởng xác định về thế giới và về vị trí của con người** (bao hàm cả cá nhân, xã hội và nhân loại)
-> trong thế giới đó. (tr. 28)
+> trong thế giới đó.
 
 Nguồn gốc từ nguyên: từ Đức *"Weltanschauung"*, lần đầu được **Kant** dùng trong *Phê phán năng lực
 phán đoán* (**1790**) (tr. 28).
@@ -223,22 +235,22 @@ Sách đưa bốn lý do — đây là dạng câu hỏi ôn tập kinh điển:
    tự giác hay không.
 4. **Thứ tư:** thế giới quan triết học **quy định** mọi thế giới quan và quan niệm khác.
 
-### 💼 Góc QTKD — "triết lý kinh doanh" chính là thế giới quan của một tổ chức
+> [!example] Góc QTKD — "triết lý kinh doanh" chính là thế giới quan của một tổ chức
+> Định nghĩa "hệ thống quan điểm định hướng hành động, thiếu nó thì không có phương hướng" mô tả gần
+> như nguyên văn vai trò của **tầm nhìn – sứ mệnh – giá trị cốt lõi** trong doanh nghiệp.
+>
+> - Một công ty **không có triết lý kinh doanh rõ** thì mỗi phòng ban ra quyết định theo một "thế giới
+>   quan" riêng: sales muốn giảm giá lấy số, thương hiệu muốn giữ giá cao, tài chính muốn siết chi — không
+>   có hạt nhân chung để phân xử. Đúng cảnh "thiếu thế giới quan, không có phương hướng".
+> - Trật tự **tri thức → niềm tin → lý tưởng** cũng đúng cho văn hoá doanh nghiệp: một khẩu hiệu ("khách
+>   hàng là số một") chỉ trở thành **niềm tin** của nhân viên khi đã được **thực tiễn kiểm nghiệm** — tức
+>   khi họ thấy công ty thật sự bênh khách hàng kể cả lúc tốn tiền. Dán slogan lên tường mà thực tiễn làm
+>   ngược lại thì nó không bao giờ thành niềm tin, đúng như sách nói.
 
-Định nghĩa "hệ thống quan điểm định hướng hành động, thiếu nó thì không có phương hướng" mô tả gần như
-nguyên văn vai trò của **tầm nhìn – sứ mệnh – giá trị cốt lõi** trong doanh nghiệp.
-
-- Một công ty **không có triết lý kinh doanh rõ** thì mỗi phòng ban ra quyết định theo một "thế giới
-  quan" riêng: sales muốn giảm giá lấy số, thương hiệu muốn giữ giá cao, tài chính muốn siết chi — không
-  có hạt nhân chung để phân xử. Đúng cảnh "thiếu thế giới quan, không có phương hướng".
-- Trật tự **tri thức → niềm tin → lý tưởng** cũng đúng cho văn hoá doanh nghiệp: một khẩu hiệu ("khách
-  hàng là số một") chỉ trở thành **niềm tin** của nhân viên khi đã được **thực tiễn kiểm nghiệm** — tức
-  khi họ thấy công ty thật sự bênh khách hàng kể cả lúc tốn tiền. Dán slogan lên tường mà thực tiễn làm
-  ngược lại thì nó không bao giờ thành niềm tin, đúng như sách nói.
-
-⚠️ Đây là **loại suy để nhớ**, không phải đồng nhất. "Thế giới quan" trong sách là phạm trù triết học
-về toàn bộ thế giới; "triết lý kinh doanh" chỉ là một quan niệm hẹp về một tổ chức. Dùng phép so sánh
-để hiểu, đừng đem thuật ngữ triết học ra "chứng minh" cho quyết định kinh doanh.
+> [!warning] Đây là loại suy để nhớ, không phải đồng nhất
+> "Thế giới quan" trong sách là phạm trù triết học về toàn bộ thế giới; "triết lý kinh doanh" chỉ là một
+> quan niệm hẹp về một tổ chức. Dùng phép so sánh để hiểu, đừng đem thuật ngữ triết học ra "chứng minh"
+> cho quyết định kinh doanh.
 
 ---
 
@@ -247,8 +259,9 @@ về toàn bộ thế giới; "triết lý kinh doanh" chỉ là một quan ni�
 Trước khi giải quyết mọi vấn đề cụ thể, triết học buộc phải giải quyết một vấn đề nền tảng làm **điểm
 xuất phát**. Sách dẫn Ph. Ăngghen:
 
+> [!quote] Ph. Ăngghen, dẫn tr. 33
 > "Vấn đề cơ bản lớn của mọi triết học, đặc biệt là của triết học hiện đại, là vấn đề **quan hệ giữa
-> tư duy với tồn tại**." (Ph. Ăngghen, dẫn tr. 33)
+> tư duy với tồn tại**."
 
 Nói cách khác: **mối quan hệ giữa vật chất và ý thức**. Sách lưu ý một điểm hiện đại (tr. 34): dù khoa
 học phát hiện thêm bao nhiêu đối tượng lạ — *linh cảm, vô thức, hạt Quark, hạt Strangelet, trường
@@ -270,19 +283,18 @@ Vấn đề này có **hai mặt**, trả lời hai câu hỏi (tr. 34–35):
 Cách trả lời hai câu hỏi này **quy định lập trường** của một nhà triết học và xác định các trường phái
 lớn của triết học (tr. 35).
 
-### 💼 Góc QTKD — "cái nào quyết định cái nào" là câu hỏi mở đầu của mọi phân tích kinh doanh
-
-Mặt thứ nhất — *cái gì có trước, cái gì quyết định* — nghe trừu tượng, nhưng nó là đúng câu hỏi mà một
-nhà quản trị phải hỏi trước khi làm gì:
-
-- Sản phẩm quyết định thị trường, hay **thị trường (thực tại khách quan) quyết định sản phẩm**? Cách trả
-  lời "xuất phát từ thực tại khách quan" (nhu cầu có thật của khách) là tinh thần **duy vật**; cách
-  "tôi thích sản phẩm này nên thị trường phải mua" là tinh thần **duy tâm chủ quan** (xem §6).
-- Đây là gốc của tranh luận **product-driven vs market-driven**: bắt đầu từ ý tưởng trong đầu, hay bắt
-  đầu từ dữ liệu nhu cầu bên ngoài?
-
-Mặt thứ hai — *có nhận thức được không* — chính là câu hỏi "**thị trường có đoán được không, nghiên cứu
-thị trường có đáng tin không**" ở §7.
+> [!example] Góc QTKD — "cái nào quyết định cái nào" là câu hỏi mở đầu của mọi phân tích kinh doanh
+> Mặt thứ nhất — *cái gì có trước, cái gì quyết định* — nghe trừu tượng, nhưng nó là đúng câu hỏi mà một
+> nhà quản trị phải hỏi trước khi làm gì:
+>
+> - Sản phẩm quyết định thị trường, hay **thị trường (thực tại khách quan) quyết định sản phẩm**? Cách trả
+>   lời "xuất phát từ thực tại khách quan" (nhu cầu có thật của khách) là tinh thần **duy vật**; cách
+>   "tôi thích sản phẩm này nên thị trường phải mua" là tinh thần **duy tâm chủ quan** (xem §6).
+> - Đây là gốc của tranh luận **product-driven vs market-driven**: bắt đầu từ ý tưởng trong đầu, hay bắt
+>   đầu từ dữ liệu nhu cầu bên ngoài?
+>
+> Mặt thứ hai — *có nhận thức được không* — chính là câu hỏi "**thị trường có đoán được không, nghiên cứu
+> thị trường có đáng tin không**" ở §7.
 
 ---
 
@@ -290,6 +302,7 @@ thị trường có đáng tin không**" ở §7.
 
 Trả lời **mặt thứ nhất** chia các nhà triết học thành hai trường phái lớn (tr. 35):
 
+> [!quote] Giáo trình, tr. 35
 > **Duy vật:** vật chất, giới tự nhiên là cái **có trước** và **quyết định** ý thức. Nguyên nhân tận
 > cùng của mọi vận động là **nguyên nhân vật chất**.
 > **Duy tâm:** ý thức, tinh thần, ý niệm, cảm giác là cái **có trước** giới tự nhiên. Nguyên nhân tận
@@ -310,31 +323,31 @@ Trả lời **mặt thứ nhất** chia các nhà triết học thành hai trư�
 - **Duy tâm khách quan:** thừa nhận tính thứ nhất của ý thức nhưng coi đó là **thứ tinh thần khách quan**
   có trước và độc lập với con người — gọi bằng nhiều tên: *ý niệm, tinh thần tuyệt đối, lý tính thế giới*.
 
-📚 **Mở rộng — nhị nguyên luận (tr. 38).** Ngoài hai lập trường trên, có nhà triết học giải thích thế
-giới bằng **cả hai bản nguyên** vật chất và tinh thần song song — gọi là **nhị nguyên luận**, điển hình
-**Descartes (Đêcáctơ)**. Sách kết luận: nhị nguyên luận "**xét đến cùng vẫn thuộc về chủ nghĩa duy
-tâm**", vì đã thừa nhận tinh thần tồn tại độc lập không sinh ra từ vật chất. Chỉ có **hai** lập trường
-cơ bản, và *"lịch sử triết học cũng chủ yếu là lịch sử đấu tranh của hai trường phái duy vật và duy tâm"*
-(tr. 39).
+> [!note] Mở rộng — nhị nguyên luận (tr. 38)
+> Ngoài hai lập trường trên, có nhà triết học giải thích thế giới bằng **cả hai bản nguyên** vật chất và
+> tinh thần song song — gọi là **nhị nguyên luận**, điển hình **Descartes (Đêcáctơ)**. Sách kết luận:
+> nhị nguyên luận "**xét đến cùng vẫn thuộc về chủ nghĩa duy tâm**", vì đã thừa nhận tinh thần tồn tại
+> độc lập không sinh ra từ vật chất. Chỉ có **hai** lập trường cơ bản, và *"lịch sử triết học cũng chủ
+> yếu là lịch sử đấu tranh của hai trường phái duy vật và duy tâm"* (tr. 39).
 
-⚠️ Đừng lẫn **duy tâm** với **phi lý / ngớ ngẩn**. Sách nói rõ (tr. 38): chủ nghĩa duy tâm triết học là
-"sản phẩm của tư duy lý tính", nhiều nhà duy tâm là những bộ óc lớn (Hegel). Sai lầm của họ, về nhận
-thức luận, là **tuyệt đối hoá, thần thánh hoá một mặt** của quá trình nhận thức — không phải thiếu trí tuệ.
+> [!warning] Đừng lẫn "duy tâm" với "phi lý / ngớ ngẩn"
+> Sách nói rõ (tr. 38): chủ nghĩa duy tâm triết học là "sản phẩm của tư duy lý tính", nhiều nhà duy tâm
+> là những bộ óc lớn (Hegel). Sai lầm của họ, về nhận thức luận, là **tuyệt đối hoá, thần thánh hoá một
+> mặt** của quá trình nhận thức — không phải thiếu trí tuệ.
 
-### 💼 Góc QTKD — duy tâm chủ quan trong phòng họp: "thị trường phải theo ý tôi"
-
-Định nghĩa duy tâm chủ quan — *"mọi sự vật chỉ là phức hợp cảm giác của tôi"* — mô tả chính xác một
-kiểu sai lầm quản trị: lấy **cảm nhận cá nhân của người ra quyết định** thay cho thực tại khách quan.
-
-| Biểu hiện "duy tâm chủ quan" trong kinh doanh | Cách "duy vật" sửa lại |
-| --- | --- |
-| "Tôi thấy sản phẩm đẹp nên khách sẽ thích" | đo tỷ lệ chuyển đổi thật trên khách thật |
-| "Đối thủ này chẳng là gì" (vì tôi tin thế) | phân tích số liệu thị phần, năng lực đối thủ |
-| "Nhân viên chắc hài lòng" | khảo sát, tỷ lệ nghỉ việc |
-
-Tinh thần duy vật trong quản trị không phải là chối bỏ trực giác, mà là **xuất phát từ thực tại có thật
-bên ngoài mong muốn của mình**. "Duy vật biện chứng" (§8) còn đi xa hơn: thực tại đó luôn **vận động**,
-nên số liệu quý trước chưa chắc đúng quý này.
+> [!example] Góc QTKD — duy tâm chủ quan trong phòng họp: "thị trường phải theo ý tôi"
+> Định nghĩa duy tâm chủ quan — *"mọi sự vật chỉ là phức hợp cảm giác của tôi"* — mô tả chính xác một
+> kiểu sai lầm quản trị: lấy **cảm nhận cá nhân của người ra quyết định** thay cho thực tại khách quan.
+>
+> | Biểu hiện "duy tâm chủ quan" trong kinh doanh | Cách "duy vật" sửa lại |
+> | --- | --- |
+> | "Tôi thấy sản phẩm đẹp nên khách sẽ thích" | đo tỷ lệ chuyển đổi thật trên khách thật |
+> | "Đối thủ này chẳng là gì" (vì tôi tin thế) | phân tích số liệu thị phần, năng lực đối thủ |
+> | "Nhân viên chắc hài lòng" | khảo sát, tỷ lệ nghỉ việc |
+>
+> Tinh thần duy vật trong quản trị không phải là chối bỏ trực giác, mà là **xuất phát từ thực tại có thật
+> bên ngoài mong muốn của mình**. "Duy vật biện chứng" (§8) còn đi xa hơn: thực tại đó luôn **vận động**,
+> nên số liệu quý trước chưa chắc đúng quý này.
 
 ---
 
@@ -342,6 +355,7 @@ nên số liệu quý trước chưa chắc đúng quý này.
 
 Trả lời **mặt thứ hai** (tr. 39–42):
 
+> [!quote] Giáo trình, tr. 40
 > **Thuyết khả tri** (*Gnosticism*): khẳng định con người **có thể** nhận thức được bản chất sự vật.
 > Cảm giác, biểu tượng, quan niệm... về nguyên tắc là **phù hợp** với bản thân sự vật.
 > **Thuyết bất khả tri** (*Agnosticism*): con người **không thể** hiểu được bản chất đối tượng; cái ta
@@ -358,36 +372,37 @@ Các mốc cần nhớ (tr. 41):
   quan. Ở thời Phục hưng, hoài nghi luận có **vai trò tích cực** — chống lại hệ tư tưởng và quyền uy
   của Giáo hội trung cổ.
 
-📚 **Mở rộng — "vật tự nó" của Kant (tr. 42).** Kant cho rằng con người không thể biết **"vật tự nó"**
-(*Ding an sich*) — bản chất ẩn giấu của đối tượng, nằm ngoài kinh nghiệm cảm giác. Ph. Ăngghen bác lại
-bằng một lập luận **thực tiễn** rất mạnh, cần nhớ:
-
-> "Nếu chúng ta có thể chứng minh được tính chính xác của quan điểm của chúng ta về một hiện tượng tự
-> nhiên nào đó, **bằng cách tự chúng ta làm ra hiện tượng ấy**, tạo ra nó từ những điều kiện của nó...
-> thì sẽ không còn có cái 'vật tự nó' không thể nắm được của Cantơ nữa." (Ph. Ăngghen, dẫn tr. 42)
+> [!note] Mở rộng — "vật tự nó" của Kant (tr. 42)
+> Kant cho rằng con người không thể biết **"vật tự nó"** (*Ding an sich*) — bản chất ẩn giấu của đối
+> tượng, nằm ngoài kinh nghiệm cảm giác. Ph. Ăngghen bác lại bằng một lập luận **thực tiễn** rất mạnh,
+> cần nhớ:
+>
+> > [!quote] Ph. Ăngghen, dẫn tr. 42
+> > "Nếu chúng ta có thể chứng minh được tính chính xác của quan điểm của chúng ta về một hiện tượng tự
+> > nhiên nào đó, **bằng cách tự chúng ta làm ra hiện tượng ấy**, tạo ra nó từ những điều kiện của nó...
+> > thì sẽ không còn có cái 'vật tự nó' không thể nắm được của Cantơ nữa."
 
 Kết luận của khả tri luận (tr. 43): nhận thức là **một quá trình không ngừng đi sâu**, nhờ đó **"vật tự
 nó" dần biến thành "vật cho ta"**. Cái chưa biết hôm nay không phải cái *không thể biết*, chỉ là cái
 *chưa biết*.
 
-### 💼 Góc QTKD — "thị trường không đoán được" là một dạng bất khả tri
-
-Phản xạ *"thị trường biến động khôn lường, nghiên cứu làm gì cho tốn, cứ làm rồi tính"* chính là lập
-trường **bất khả tri** áp vào kinh doanh: coi bản chất nhu cầu khách hàng là cái **không thể biết**.
-
-Lập trường **khả tri** thì ngược lại, và nó khớp lạ thường với tinh thần **khởi nghiệp tinh gọn (lean
-startup)**:
-
-```
-"vật tự nó"  →  "vật cho ta"          nhu cầu khách (ẩn số)  →  hiểu dần qua thử nghiệm
-Ăngghen: hiểu bằng cách TỰ LÀM RA      Lean: build → measure → learn
-hiện tượng, tạo ra nó từ điều kiện     làm MVP, đo phản ứng thật, học, lặp lại
-```
-
-Ăngghen bác Kant bằng **thực tiễn** ("tự ta làm ra hiện tượng ấy"); người làm sản phẩm bác sự "không
-đoán được" bằng cách **tung bản thử và đo phản ứng thật** thay vì tranh cãi trong phòng họp. Khách hàng
-ban đầu là "vật tự nó" — qua từng vòng thử nghiệm, họ thành "vật cho ta". Nhận thức thị trường là **quá
-trình không ngừng đi sâu**, không phải một báo cáo làm một lần rồi xong.
+> [!example] Góc QTKD — "thị trường không đoán được" là một dạng bất khả tri
+> Phản xạ *"thị trường biến động khôn lường, nghiên cứu làm gì cho tốn, cứ làm rồi tính"* chính là lập
+> trường **bất khả tri** áp vào kinh doanh: coi bản chất nhu cầu khách hàng là cái **không thể biết**.
+>
+> Lập trường **khả tri** thì ngược lại, và nó khớp lạ thường với tinh thần **khởi nghiệp tinh gọn (lean
+> startup)**:
+>
+> ```
+> "vật tự nó"  →  "vật cho ta"          nhu cầu khách (ẩn số)  →  hiểu dần qua thử nghiệm
+> Ăngghen: hiểu bằng cách TỰ LÀM RA      Lean: build → measure → learn
+> hiện tượng, tạo ra nó từ điều kiện     làm MVP, đo phản ứng thật, học, lặp lại
+> ```
+>
+> Ăngghen bác Kant bằng **thực tiễn** ("tự ta làm ra hiện tượng ấy"); người làm sản phẩm bác sự "không
+> đoán được" bằng cách **tung bản thử và đo phản ứng thật** thay vì tranh cãi trong phòng họp. Khách hàng
+> ban đầu là "vật tự nó" — qua từng vòng thử nghiệm, họ thành "vật cho ta". Nhận thức thị trường là **quá
+> trình không ngừng đi sâu**, không phải một báo cáo làm một lần rồi xong.
 
 ---
 
@@ -399,42 +414,44 @@ tư duy đối lập nhau** (tr. 43).
 
 ### Phương pháp siêu hình (tr. 43–44)
 
+> [!quote] Giáo trình, tr. 43–44
 > **Phương pháp siêu hình** nhận thức đối tượng ở trạng thái **cô lập, tách rời** khỏi các quan hệ; coi
 > các mặt đối lập có một **ranh giới tuyệt đối**; nhận thức đối tượng ở trạng thái **tĩnh**, chỉ thừa
-> nhận biến đổi về **số lượng**, coi nguyên nhân biến đổi nằm **bên ngoài** đối tượng. (tr. 43–44)
+> nhận biến đổi về **số lượng**, coi nguyên nhân biến đổi nằm **bên ngoài** đối tượng.
 
 Sách công bằng: phương pháp này **có cội nguồn hợp lý** từ cơ học cổ điển và **có công lớn** trong phạm
 vi đó — muốn nghiên cứu một vật, trước hết phải tách nó ra khỏi liên hệ, xét ở trạng thái không đổi
 (tr. 44). Nó chỉ **sai khi bị mở rộng** sang các vấn đề về vận động và liên hệ. Ph. Ăngghen phê phán:
 
+> [!quote] Ph. Ăngghen, dẫn tr. 44
 > Phương pháp siêu hình "chỉ nhìn thấy những sự vật riêng biệt mà không nhìn thấy mối liên hệ qua lại
 > giữa những sự vật ấy, chỉ nhìn thấy sự tồn tại... mà không nhìn thấy sự phát sinh và tiêu vong...,
-> **chỉ nhìn thấy cây mà không thấy rừng**." (Ph. Ăngghen, dẫn tr. 44)
+> **chỉ nhìn thấy cây mà không thấy rừng**."
 
 ### Phương pháp biện chứng (tr. 45–46)
 
+> [!quote] Giáo trình, tr. 45
 > **Phương pháp biện chứng** nhận thức đối tượng trong các **mối liên hệ phổ biến** vốn có của nó, trong
 > sự **vận động, biến đổi** không ngừng, nằm trong khuynh hướng phát triển. Nguồn gốc của vận động là
-> **sự đấu tranh giữa các mặt đối lập của mâu thuẫn nội tại** trong bản thân sự vật. (tr. 45)
+> **sự đấu tranh giữa các mặt đối lập của mâu thuẫn nội tại** trong bản thân sự vật.
 
 Điểm sắc nhất, dễ ra đề: tư duy biện chứng **thừa nhận một chỉnh thể "vừa là nó lại vừa không phải là
 nó"**, thừa nhận cái khẳng định và cái phủ định *vừa loại trừ nhau vừa gắn bó với nhau* (tr. 46) — khác
 hẳn tư duy siêu hình dựa trên những "phản đề tuyệt đối không thể dung nhau" (hoặc tồn tại, hoặc không).
 
-### 💼 Góc QTKD — tư duy hệ thống (systems thinking) chính là tư duy biện chứng
-
-Cặp siêu hình/biện chứng là công cụ phân tích kinh doanh thực dụng nhất trong bài này:
-
-| | Nhìn **siêu hình** (tĩnh, cô lập) | Nhìn **biện chứng** (động, liên hệ) |
-| --- | --- | --- |
-| Đối thủ | "họ đang yếu, không đáng lo" | họ đang thay đổi; mâu thuẫn nội tại có thể bùng phát thành đối thủ mạnh |
-| SWOT | bảng chụp một thời điểm rồi để đó | điểm mạnh hôm nay có thể thành điểm yếu ngày mai (quy mô lớn → chậm đổi mới) |
-| Phòng ban | tối ưu từng phòng riêng lẻ | tối ưu sales có thể phá vỡ vận hành — các phần **ràng buộc lẫn nhau** |
-| Nhân sự giỏi | "giữ nguyên vì đang tốt" | con người phát triển/chán nản theo thời gian; đứng yên là thụt lùi |
-
-Câu "**chỉ thấy cây mà không thấy rừng**" của Ăngghen là lời cảnh báo kinh điển chống lối phân tích cục
-bộ. "Mâu thuẫn nội tại là nguồn gốc vận động" cũng chính là ý **mọi tổ chức đang tăng trưởng đều mang
-sẵn mầm vấn đề của giai đoạn sau** (mở rộng nhanh ↔ mất kiểm soát chất lượng) — đề tài Chương 2 sẽ đào sâu.
+> [!example] Góc QTKD — tư duy hệ thống (systems thinking) chính là tư duy biện chứng
+> Cặp siêu hình/biện chứng là công cụ phân tích kinh doanh thực dụng nhất trong bài này:
+>
+> | | Nhìn **siêu hình** (tĩnh, cô lập) | Nhìn **biện chứng** (động, liên hệ) |
+> | --- | --- | --- |
+> | Đối thủ | "họ đang yếu, không đáng lo" | họ đang thay đổi; mâu thuẫn nội tại có thể bùng phát thành đối thủ mạnh |
+> | SWOT | bảng chụp một thời điểm rồi để đó | điểm mạnh hôm nay có thể thành điểm yếu ngày mai (quy mô lớn → chậm đổi mới) |
+> | Phòng ban | tối ưu từng phòng riêng lẻ | tối ưu sales có thể phá vỡ vận hành — các phần **ràng buộc lẫn nhau** |
+> | Nhân sự giỏi | "giữ nguyên vì đang tốt" | con người phát triển/chán nản theo thời gian; đứng yên là thụt lùi |
+>
+> Câu "**chỉ thấy cây mà không thấy rừng**" của Ăngghen là lời cảnh báo kinh điển chống lối phân tích cục
+> bộ. "Mâu thuẫn nội tại là nguồn gốc vận động" cũng chính là ý **mọi tổ chức đang tăng trưởng đều mang
+> sẵn mầm vấn đề của giai đoạn sau** (mở rộng nhanh ↔ mất kiểm soát chất lượng) — đề tài Chương 2 sẽ đào sâu.
 
 ---
 
@@ -545,7 +562,7 @@ PHƯƠNG PHÁP
 
    duy vật + biện chứng  ─Mác ghép trên nền duy vật→  CHỦ NGHĨA DUY VẬT BIỆN CHỨNG
                                                        → Chương 2
-💼 QTKD: khái quát dữ liệu→chiến lược · triết lý KD = thế giới quan tổ chức ·
+QTKD: khái quát dữ liệu→chiến lược · triết lý KD = thế giới quan tổ chức ·
    thị trường quyết định sản phẩm (duy vật) · lean = "vật tự nó→vật cho ta" ·
    systems thinking = tư duy biện chứng
 ═══════════════════════════════════════════════════════════════════════════════

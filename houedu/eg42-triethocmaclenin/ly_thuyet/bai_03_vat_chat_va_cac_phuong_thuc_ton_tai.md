@@ -1,12 +1,18 @@
 # Bài 3 — Vật chất và các phương thức tồn tại của vật chất
 
+> [!info] Về bài này
 > Bài học dựng từ **Chương 2, mục I.1** (tr. 118–149) của *Giáo trình Triết học Mác – Lênin* (hệ không chuyên),
 > Bộ Giáo dục và Đào tạo, **NXB Chính trị Quốc gia Sự thật, 2021**.
-> 🎯 **Vòng 1** — bài mở đầu chủ nghĩa duy vật biện chứng. Trọng tâm: **định nghĩa vật chất của Lênin** và **nguyên tắc khách quan** rút ra từ nó.
-> 💼 **Góc QTKD** — ví dụ áp dụng cho ngành quản trị kinh doanh, **không có trong sách**, chỉ là phép loại suy để dễ nhớ.
-> 📚 **Mở rộng** — thứ sách nói lướt hoặc cho tên riêng mà không giải thích.
-> ⚠️ — chỗ dễ hiểu sai.
-> 📌 **Cần đọc trước:** [Bài 1](bai_01_triet_hoc_va_van_de_co_ban.md) (*duy vật/duy tâm*, *vấn đề cơ bản*).
+>
+> **Vòng 1** — bài mở đầu chủ nghĩa duy vật biện chứng. Trọng tâm: **định nghĩa vật chất của Lênin** và **nguyên tắc khách quan** rút ra từ nó.
+>
+> **Cách đọc các khối màu trong bài:**
+> - `[!quote]` — trích **nguyên văn** giáo trình (hoặc kinh điển do giáo trình dẫn), kèm số trang.
+> - `[!warning]` — chỗ **dễ hiểu sai**.
+> - `[!note]` **Mở rộng** — thứ sách nói lướt hoặc cho tên riêng mà không giải thích.
+> - `[!example]` **Góc QTKD** — ví dụ áp dụng cho ngành **quản trị kinh doanh**, *không có trong sách*, chỉ là phép loại suy để dễ nhớ.
+>
+> **Cần đọc trước:** [Bài 1](bai_01_triet_hoc_va_van_de_co_ban.md) (*duy vật/duy tâm*, *vấn đề cơ bản*).
 
 ---
 
@@ -85,19 +91,20 @@ nhận nguyên tử; **Bergson** định nghĩa *"vật chất là cái phi vậ
 Lênin gọi đây là **"chủ nghĩa duy tâm vật lý học"** — *"một bước ngoặt nhất thời", "thời kỳ ốm đau ngắn
 ngủi"* — và chỉ ra lối thoát (tr. 124):
 
+> [!quote] Lênin, dẫn tr. 124
 > "Tinh thần duy vật cơ bản của vật lý học... sẽ chiến thắng tất cả mọi thứ khủng hoảng, nhưng với điều
 > kiện tất yếu là **chủ nghĩa duy vật biện chứng phải thay thế chủ nghĩa duy vật siêu hình**." (Lênin, dẫn tr. 124)
 
-### 💼 Góc QTKD — khi "bản đồ cũ" vỡ, đừng phủ nhận lãnh thổ, hãy vẽ lại bản đồ
-
-Sai lầm của phái duy tâm vật lý là: khi **mô hình cũ** (nguyên tử bất biến) không mô tả được **thực tại
-mới**, họ kết luận "thực tại biến mất" thay vì "mô hình của tôi cũ rồi".
-
-Đây là cái bẫy kinh điển khi doanh nghiệp gặp **đứt gãy thị trường** (digital disruption): mô hình kinh
-doanh cũ đột nhiên không giải thích được hành vi khách hàng mới. Phản ứng sai (kiểu "duy tâm"): phủ nhận
-thực tại — *"khách hàng đang lầm", "trào lưu này sẽ qua"*. Phản ứng đúng (kiểu "duy vật biện chứng"):
-thực tại thị trường vẫn khách quan và đã đổi; **nâng cấp mô hình** để bắt kịp nó. Kodak, Nokia sụp đổ
-vì phủ nhận thực tại mới, không phải vì thực tại "biến mất".
+> [!example] Góc QTKD — khi "bản đồ cũ" vỡ, đừng phủ nhận lãnh thổ, hãy vẽ lại bản đồ
+>
+> Sai lầm của phái duy tâm vật lý là: khi **mô hình cũ** (nguyên tử bất biến) không mô tả được **thực tại
+> mới**, họ kết luận "thực tại biến mất" thay vì "mô hình của tôi cũ rồi".
+>
+> Đây là cái bẫy kinh điển khi doanh nghiệp gặp **đứt gãy thị trường** (digital disruption): mô hình kinh
+> doanh cũ đột nhiên không giải thích được hành vi khách hàng mới. Phản ứng sai (kiểu "duy tâm"): phủ nhận
+> thực tại — *"khách hàng đang lầm", "trào lưu này sẽ qua"*. Phản ứng đúng (kiểu "duy vật biện chứng"):
+> thực tại thị trường vẫn khách quan và đã đổi; **nâng cấp mô hình** để bắt kịp nó. Kodak, Nokia sụp đổ
+> vì phủ nhận thực tại mới, không phải vì thực tại "biến mất".
 
 ---
 
@@ -112,6 +119,7 @@ Lênin hoàn chỉnh bằng một **phương pháp định nghĩa đặc biệt*
 lập với ý thức** trên phương diện nhận thức luận (tr. 127). Định nghĩa kinh điển (tr. 128) — **học
 thuộc từng chữ**:
 
+> [!quote] V.I. Lênin
 > **"Vật chất là một phạm trù triết học dùng để chỉ thực tại khách quan được đem lại cho con người trong
 > cảm giác, được cảm giác của chúng ta chép lại, chụp lại, phản ánh, và tồn tại không lệ thuộc vào cảm
 > giác."** (V.I. Lênin)
@@ -128,11 +136,12 @@ thuộc từng chữ**:
      → con người CÓ THỂ nhận thức thế giới (trả lời mặt 2 — bác bất khả tri)
 ```
 
-⚠️ **Điểm tinh tế nhất, hay nhầm:** định nghĩa **không** nói vật chất là nguyên tử, khối lượng, hay bất
-kỳ dạng cụ thể nào. Nó chỉ giữ **một** dấu hiệu: *tồn tại khách quan, độc lập với ý thức*. Nhờ vậy dù
-khoa học phát hiện thêm bao nhiêu "hạt kỳ lạ", định nghĩa **vẫn đúng** — vì cái mới đó vẫn tồn tại khách
-quan (tr. 129). Sách cảnh báo hai cực: **tuyệt đối hoá tính trừu tượng** → rơi vào duy tâm; **tuyệt đối
-hoá tính cụ thể** → đồng nhất vật chất với vật thể (lỗi của duy vật trước Mác) (tr. 129).
+> [!warning] Điểm tinh tế nhất, hay nhầm:
+> định nghĩa **không** nói vật chất là nguyên tử, khối lượng, hay bất
+> kỳ dạng cụ thể nào. Nó chỉ giữ **một** dấu hiệu: *tồn tại khách quan, độc lập với ý thức*. Nhờ vậy dù
+> khoa học phát hiện thêm bao nhiêu "hạt kỳ lạ", định nghĩa **vẫn đúng** — vì cái mới đó vẫn tồn tại khách
+> quan (tr. 129). Sách cảnh báo hai cực: **tuyệt đối hoá tính trừu tượng** → rơi vào duy tâm; **tuyệt đối
+> hoá tính cụ thể** → đồng nhất vật chất với vật thể (lỗi của duy vật trước Mác) (tr. 129).
 
 Sách nhấn: xã hội loài người **cũng là một dạng vật chất** — "tồn tại xã hội" khách quan không phụ
 thuộc ý thức xã hội (tr. 129–130). Đây là cầu nối sang chủ nghĩa duy vật lịch sử (Chương 3).
@@ -143,27 +152,28 @@ thuộc ý thức xã hội (tr. 129–130). Đây là cầu nối sang chủ ng
 
 Định nghĩa vật chất không chỉ để "biết", nó sinh ra một **nguyên tắc hành động** (tr. 132):
 
+> [!quote] Giáo trình, tr. 132
 > Trong nhận thức và thực tiễn, đòi hỏi con người phải **quán triệt nguyên tắc khách quan: xuất phát từ
 > hiện thực khách quan, tôn trọng khách quan, nhận thức và vận dụng đúng quy luật khách quan.** (tr. 132)
 
 Vì vật chất có trước và độc lập với ý thức, nên ý muốn chủ quan **không thể thay thế** quy luật khách
 quan. Đối lập với nguyên tắc này là **bệnh chủ quan, duy ý chí** — lấy mong muốn áp đặt lên thực tế.
 
-### 💼 Góc QTKD — nguyên tắc khách quan là thuốc giải cho "bệnh duy ý chí" trong quản trị
-
-Đây là **Góc QTKD trung tâm của bài**. "Vật chất tồn tại khách quan, độc lập với ý thức" nghĩa là:
-thị trường, khách hàng, đối thủ, quy luật cung – cầu **tồn tại thật, bất kể sếp muốn hay không**.
-
-| Bệnh duy ý chí (áp ý muốn lên thực tại) | Nguyên tắc khách quan (xuất phát từ thực tại) |
-| --- | --- |
-| "Đặt chỉ tiêu tăng 300%, cứ quyết tâm là được" | năng lực sản xuất, dung lượng thị trường là ràng buộc khách quan |
-| "Định giá cao vì ta xứng đáng" | giá do quan hệ cung – cầu quyết định, không do ý muốn |
-| "Khách sẽ thích vì tôi thích" | hành vi khách hàng là dữ liệu khách quan phải đo |
-| "Cứ đổ tiền marketing, thị trường sẽ theo" | không đổi được quy luật, chỉ nắm và vận dụng nó |
-
-Nguyên tắc khách quan **không** cấm tham vọng — nó bắt tham vọng phải **đặt trên nền thực tại**. "Tôn
-trọng khách quan" rồi mới "phát huy tính năng động chủ quan" (ý thức) — thứ tự này sẽ hoàn chỉnh ở
-[bài 4](bai_04_y_thuc_va_quan_he_vat_chat_y_thuc.md).
+> [!example] Góc QTKD — nguyên tắc khách quan là thuốc giải cho "bệnh duy ý chí" trong quản trị
+>
+> Đây là **Góc QTKD trung tâm của bài**. "Vật chất tồn tại khách quan, độc lập với ý thức" nghĩa là:
+> thị trường, khách hàng, đối thủ, quy luật cung – cầu **tồn tại thật, bất kể sếp muốn hay không**.
+>
+> | Bệnh duy ý chí (áp ý muốn lên thực tại) | Nguyên tắc khách quan (xuất phát từ thực tại) |
+> | --- | --- |
+> | "Đặt chỉ tiêu tăng 300%, cứ quyết tâm là được" | năng lực sản xuất, dung lượng thị trường là ràng buộc khách quan |
+> | "Định giá cao vì ta xứng đáng" | giá do quan hệ cung – cầu quyết định, không do ý muốn |
+> | "Khách sẽ thích vì tôi thích" | hành vi khách hàng là dữ liệu khách quan phải đo |
+> | "Cứ đổ tiền marketing, thị trường sẽ theo" | không đổi được quy luật, chỉ nắm và vận dụng nó |
+>
+> Nguyên tắc khách quan **không** cấm tham vọng — nó bắt tham vọng phải **đặt trên nền thực tại**. "Tôn
+> trọng khách quan" rồi mới "phát huy tính năng động chủ quan" (ý thức) — thứ tự này sẽ hoàn chỉnh ở
+> [bài 4](bai_04_y_thuc_va_quan_he_vat_chat_y_thuc.md).
 
 ---
 
@@ -174,6 +184,7 @@ không gian, thời gian cũng là hình thức tồn tại** (tr. 133).
 
 ### Vận động là gì (tr. 134)
 
+> [!quote] Ăngghen, dẫn tr. 134
 > **Vận động**, theo nghĩa chung nhất, là **mọi sự biến đổi nói chung** — "bao gồm tất cả mọi sự thay
 > đổi và mọi quá trình diễn ra trong vũ trụ, kể từ sự thay đổi vị trí đơn giản cho đến tư duy." (Ăngghen, dẫn tr. 134)
 
@@ -197,11 +208,12 @@ Ba nguyên tắc của cách phân chia (tr. 137):
 2. Hình thức cao **nảy sinh trên cơ sở** và **bao hàm** hình thức thấp.
 3. Hình thức cao **khác về chất** và **không thể quy về** hình thức thấp.
 
-⚠️ **Điểm nhấn quan trọng nhất — và là câu hỏi hay ra thi:** không được **quy hình thức cao về hình
-thức thấp**. Sách phê phán thẳng **"chủ nghĩa Đácuyn xã hội"** — lấy quy luật sinh học ("đấu tranh sinh
-tồn", "chọn lọc tự nhiên") giải thích xã hội, "hạ con người xuống hàng con vật" (tr. 138–139). Lênin:
-dùng "đấu tranh sinh tồn", "đồng hoá", "dị hoá" thì *"không hiểu gì về khoa học xã hội"*, không thể dán
-nhãn "sinh vật học" lên khủng hoảng kinh tế hay đấu tranh giai cấp (tr. 139).
+> [!warning] Điểm nhấn quan trọng nhất — và là câu hỏi hay ra thi:
+> không được **quy hình thức cao về hình
+> thức thấp**. Sách phê phán thẳng **"chủ nghĩa Đácuyn xã hội"** — lấy quy luật sinh học ("đấu tranh sinh
+> tồn", "chọn lọc tự nhiên") giải thích xã hội, "hạ con người xuống hàng con vật" (tr. 138–139). Lênin:
+> dùng "đấu tranh sinh tồn", "đồng hoá", "dị hoá" thì *"không hiểu gì về khoa học xã hội"*, không thể dán
+> nhãn "sinh vật học" lên khủng hoảng kinh tế hay đấu tranh giai cấp (tr. 139).
 
 ### Vận động và đứng im (tr. 139–141)
 
@@ -209,20 +221,21 @@ nhãn "sinh vật học" lên khủng hoảng kinh tế hay đấu tranh giai c�
 chuyển hoá thành cái khác". Ăngghen: *"vận động riêng biệt có xu hướng chuyển thành cân bằng, vận động
 toàn bộ lại phá hoại sự cân bằng riêng biệt"* (tr. 140). Kết luận cặp đối lập:
 
+> [!quote] Giáo trình, tr. 140–141
 > **Vận động là tuyệt đối, đứng im là tương đối.** Nhưng đứng im "chứng thực" cho hình thức tồn tại thực
 > sự của vật chất; **không có đứng im thì không có ổn định của sự vật**, con người không nhận thức được. (tr. 140–141)
 
-### 💼 Góc QTKD — không có lợi thế vĩnh viễn; "đứng im" chỉ là ổn định tạm thời
-
-- **Vận động tuyệt đối** → thị trường, công nghệ, tổ chức **luôn biến đổi**. Không có lợi thế cạnh
-  tranh vĩnh viễn; "hào kinh tế" (moat) nào cũng bị bào mòn. Quản trị chiến lược = quản trị sự vận động.
-- **Đứng im tương đối** → nhưng cũng đừng thay đổi liên tục vô lối. Giai đoạn **ổn định** (quy trình
-  chuẩn, sản phẩm chủ lực) là cần thiết để tích luỹ — đúng như "không có đứng im thì không nhận thức
-  được sự vật". Cân bằng giữa **khai thác cái ổn định** và **thích ứng cái đang đổi**.
-- ⚠️ **Không quy vận động xã hội về sinh học.** Khẩu hiệu "thương trường là chiến trường", "cá lớn nuốt
-  cá bé", "luật rừng" nghe kêu nhưng là **chủ nghĩa Đácuyn xã hội** — bỏ qua rằng vận động xã hội (hợp
-  tác, thể chế, luật pháp, thương hiệu, niềm tin) có quy luật riêng, không rút gọn về bản năng sinh
-  tồn. Doanh nghiệp thắng dài hạn bằng thể chế và hợp tác, không chỉ bằng "ăn thịt" đối thủ.
+> [!example] Góc QTKD — không có lợi thế vĩnh viễn; "đứng im" chỉ là ổn định tạm thời
+>
+> - **Vận động tuyệt đối** → thị trường, công nghệ, tổ chức **luôn biến đổi**. Không có lợi thế cạnh
+>   tranh vĩnh viễn; "hào kinh tế" (moat) nào cũng bị bào mòn. Quản trị chiến lược = quản trị sự vận động.
+> - **Đứng im tương đối** → nhưng cũng đừng thay đổi liên tục vô lối. Giai đoạn **ổn định** (quy trình
+>   chuẩn, sản phẩm chủ lực) là cần thiết để tích luỹ — đúng như "không có đứng im thì không nhận thức
+>   được sự vật". Cân bằng giữa **khai thác cái ổn định** và **thích ứng cái đang đổi**.
+> - ⚠️ **Không quy vận động xã hội về sinh học.** Khẩu hiệu "thương trường là chiến trường", "cá lớn nuốt
+>   cá bé", "luật rừng" nghe kêu nhưng là **chủ nghĩa Đácuyn xã hội** — bỏ qua rằng vận động xã hội (hợp
+>   tác, thể chế, luật pháp, thương hiệu, niềm tin) có quy luật riêng, không rút gọn về bản năng sinh
+>   tồn. Doanh nghiệp thắng dài hạn bằng thể chế và hợp tác, không chỉ bằng "ăn thịt" đối thủ.
 
 ---
 
@@ -263,19 +276,20 @@ phân biệt hai bước:
 Sách dẫn bằng chứng khoa học (thiên văn, hoá học, sinh học – ADN/ARN, cơ học lượng tử) rằng **không có
 thế giới siêu nhiên** nào (tr. 147–148). Kết luận của Ăngghen (nhớ câu này):
 
+> [!quote] dẫn tr. 149
 > **"Tính thống nhất thực sự của thế giới là ở tính vật chất của nó, và tính vật chất này được chứng
 > minh... bằng một sự phát triển lâu dài và khó khăn của triết học và khoa học tự nhiên."** (dẫn tr. 149)
 
 Sách nhấn: **xã hội cũng là cấp độ đặc biệt của vật chất** — quan hệ vật chất xã hội tồn tại khách quan,
 nhưng con người vẫn có **vai trò năng động, sáng tạo to lớn**, "hoàn toàn không hề bất lực" (tr. 148).
 
-### 💼 Góc QTKD — tư duy hệ thống có nền: mọi bộ phận liên hệ vật chất thống nhất
-
-"Mọi bộ phận của thế giới liên hệ vật chất thống nhất, cùng chịu chi phối của quy luật khách quan" là
-cơ sở triết học của **tư duy hệ thống** trong quản trị: các phòng ban, khâu trong chuỗi cung ứng, các
-thị trường không rời rạc mà **ràng buộc nhau bằng những dòng vật chất thật** (tiền, hàng, thông tin) và
-**quy luật chung** (cung – cầu, chi phí). Tối ưu một khâu mà bỏ qua liên hệ hệ thống thường phá vỡ khâu
-khác — đây là nền của cả [bài 5 (nguyên lý về mối liên hệ phổ biến)](bai_05_hai_nguyen_ly_cua_phep_bien_chung.md).
+> [!example] Góc QTKD — tư duy hệ thống có nền: mọi bộ phận liên hệ vật chất thống nhất
+>
+> "Mọi bộ phận của thế giới liên hệ vật chất thống nhất, cùng chịu chi phối của quy luật khách quan" là
+> cơ sở triết học của **tư duy hệ thống** trong quản trị: các phòng ban, khâu trong chuỗi cung ứng, các
+> thị trường không rời rạc mà **ràng buộc nhau bằng những dòng vật chất thật** (tiền, hàng, thông tin) và
+> **quy luật chung** (cung – cầu, chi phí). Tối ưu một khâu mà bỏ qua liên hệ hệ thống thường phá vỡ khâu
+> khác — đây là nền của cả [bài 5 (nguyên lý về mối liên hệ phổ biến)](bai_05_hai_nguyen_ly_cua_phep_bien_chung.md).
 
 ---
 
@@ -337,7 +351,7 @@ PHƯƠNG THỨC TỒN TẠI
   KHÔNG GIAN–THỜI GIAN: khách quan; 3 chiều KG + 1 chiều TG (Einstein: khả biến)
 THỐNG NHẤT: thế giới thống nhất ở TÍNH VẬT CHẤT (Ăngghen) — 1 thế giới vật chất,
   mọi bộ phận liên hệ vật chất, vĩnh viễn vô tận; xã hội cũng là dạng vật chất
-💼 QTKD: bản đồ vỡ đừng phủ nhận lãnh thổ (disruption) · NGUYÊN TẮC KHÁCH QUAN
+QTKD: bản đồ vỡ đừng phủ nhận lãnh thổ (disruption) · NGUYÊN TẮC KHÁCH QUAN
    chống duy ý chí · không có lợi thế vĩnh viễn · "thương trường=chiến trường" là
    Đácuyn xã hội · tư duy hệ thống có nền
 ═══════════════════════════════════════════════════════════════════════════════

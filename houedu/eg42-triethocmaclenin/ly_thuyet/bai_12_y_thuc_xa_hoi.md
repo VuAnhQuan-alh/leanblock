@@ -1,12 +1,18 @@
 # Bài 12 — Ý thức xã hội
 
+> [!info] Về bài này
 > Bài học dựng từ **Chương 3, mục IV** (tr. 419–446) của *Giáo trình Triết học Mác – Lênin* (hệ không chuyên),
 > Bộ Giáo dục và Đào tạo, **NXB Chính trị Quốc gia Sự thật, 2021**.
-> 🔸 **Vòng 2.** Đây là "mặt tinh thần" của xã hội, áp cặp **vật chất – ý thức** ([bài 4](bai_04_y_thuc_va_quan_he_vat_chat_y_thuc.md)) lên bình diện xã hội: **tồn tại xã hội quyết định ý thức xã hội**, nhưng ý thức xã hội có **tính độc lập tương đối** — có thể lạc hậu, vượt trước, kế thừa, và tác động ngược lại. Trọng tâm ôn thi thường rơi vào **năm biểu hiện của tính độc lập tương đối**.
-> 💼 **Góc QTKD** — ví dụ áp dụng cho ngành quản trị kinh doanh, **không có trong sách**, chỉ là phép loại suy để dễ nhớ.
-> 📚 **Mở rộng** — thứ sách nói lướt hoặc cho tên riêng mà không giải thích.
-> ⚠️ — chỗ dễ hiểu sai.
-> 📌 **Cần đọc trước:** [Bài 4](bai_04_y_thuc_va_quan_he_vat_chat_y_thuc.md), [Bài 9](bai_09_hinh_thai_kinh_te_xa_hoi.md).
+>
+> **Vòng 2.** Đây là "mặt tinh thần" của xã hội, áp cặp **vật chất – ý thức** ([bài 4](bai_04_y_thuc_va_quan_he_vat_chat_y_thuc.md)) lên bình diện xã hội: **tồn tại xã hội quyết định ý thức xã hội**, nhưng ý thức xã hội có **tính độc lập tương đối** — có thể lạc hậu, vượt trước, kế thừa, và tác động ngược lại. Trọng tâm ôn thi thường rơi vào **năm biểu hiện của tính độc lập tương đối**.
+>
+> **Cách đọc các khối màu trong bài:**
+> - `[!quote]` — trích **nguyên văn** giáo trình (hoặc kinh điển do giáo trình dẫn), kèm số trang.
+> - `[!warning]` — chỗ **dễ hiểu sai**.
+> - `[!note]` **Mở rộng** — thứ sách nói lướt hoặc cho tên riêng mà không giải thích.
+> - `[!example]` **Góc QTKD** — ví dụ áp dụng cho ngành **quản trị kinh doanh**, *không có trong sách*, chỉ là phép loại suy để dễ nhớ.
+>
+> **Cần đọc trước:** [Bài 4](bai_04_y_thuc_va_quan_he_vat_chat_y_thuc.md), [Bài 9](bai_09_hinh_thai_kinh_te_xa_hoi.md).
 
 ---
 
@@ -30,15 +36,17 @@
 
 ## 1. Tồn tại xã hội quyết định ý thức xã hội
 
+> [!quote] Giáo trình, tr. 419–420
 > **Tồn tại xã hội** là **toàn bộ sinh hoạt vật chất và những điều kiện sinh hoạt vật chất** của xã hội. Ba yếu tố: **phương thức sản xuất vật chất** (cơ bản nhất), điều kiện tự nhiên – địa lý, dân số – mật độ dân số. (tr. 419–420)
 
+> [!quote] Giáo trình, tr. 421
 > **Ý thức xã hội** là **mặt tinh thần** của đời sống xã hội — xã hội **tự nhận thức** về mình, về tồn tại xã hội và hiện thực xung quanh; là bộ phận hợp thành văn hoá tinh thần. (tr. 421)
 
 **Nguyên lý gốc — tồn tại xã hội quyết định ý thức xã hội** (tr. 420–421). Mác: *"Không phải ý thức của con người quyết định tồn tại của họ; trái lại, tồn tại xã hội của họ quyết định ý thức của họ"* (tr. 420). Đây là điểm khắc phục triệt để chủ nghĩa duy tâm về lịch sử: gốc rễ của mọi tư tưởng nằm trong **điều kiện kinh tế – xã hội**. Tồn tại xã hội quyết định cả **nội dung, hình thức, xu hướng biến đổi** của ý thức xã hội. ⚠️ Nhưng ý thức xã hội **không thụ động** — nó có **tính độc lập tương đối** (mục 5).
 
-### 💼 Góc QTKD — văn hoá tổ chức sinh ra từ điều kiện thực của tổ chức
-
-- **Tồn tại xã hội quyết định ý thức xã hội** = **văn hoá, tư duy, hệ giá trị của một tổ chức** không từ trên trời rơi xuống mà **mọc lên từ điều kiện thực** (mô hình kinh doanh, cách kiếm tiền, môi trường cạnh tranh). Muốn đổi văn hoá (ý thức) mà không đổi điều kiện thực (cách vận hành, cơ chế thưởng phạt) thì khẩu hiệu chỉ nằm trên tường — nối lại quan hệ vật chất – ý thức ở [bài 4](bai_04_y_thuc_va_quan_he_vat_chat_y_thuc.md).
+> [!example] Góc QTKD — văn hoá tổ chức sinh ra từ điều kiện thực của tổ chức
+>
+> - **Tồn tại xã hội quyết định ý thức xã hội** = **văn hoá, tư duy, hệ giá trị của một tổ chức** không từ trên trời rơi xuống mà **mọc lên từ điều kiện thực** (mô hình kinh doanh, cách kiếm tiền, môi trường cạnh tranh). Muốn đổi văn hoá (ý thức) mà không đổi điều kiện thực (cách vận hành, cơ chế thưởng phạt) thì khẩu hiệu chỉ nằm trên tường — nối lại quan hệ vật chất – ý thức ở [bài 4](bai_04_y_thuc_va_quan_he_vat_chat_y_thuc.md).
 
 ---
 
@@ -60,10 +68,10 @@
 
 Tâm lý xã hội và hệ tư tưởng **tác động qua lại**: hệ tư tưởng khoa học làm "gia tăng hàm lượng trí tuệ" cho tâm lý xã hội (tr. 425).
 
-### 💼 Góc QTKD — "tâm lý đám đông" và "hệ tư tưởng chiến lược"
-
-- **Tâm lý xã hội ↔ dư luận** = **tâm lý thị trường / khách hàng** (market sentiment), tin đồn, trào lưu — nắm bắt kịp thời là lợi thế (social listening). Nhưng nó **bề mặt**, phải nâng lên **phân tích lý luận** (mô hình, chiến lược) mới thấy quy luật.
-- **Ý thức thông thường là chất liệu cho lý luận** = insight thực địa của nhân viên tuyến đầu (thông thường) là **nguyên liệu** để bộ phận chiến lược khái quát thành chính sách (lý luận). Bỏ qua tiếng nói tuyến đầu = mất chất liệu.
+> [!example] Góc QTKD — "tâm lý đám đông" và "hệ tư tưởng chiến lược"
+>
+> - **Tâm lý xã hội ↔ dư luận** = **tâm lý thị trường / khách hàng** (market sentiment), tin đồn, trào lưu — nắm bắt kịp thời là lợi thế (social listening). Nhưng nó **bề mặt**, phải nâng lên **phân tích lý luận** (mô hình, chiến lược) mới thấy quy luật.
+> - **Ý thức thông thường là chất liệu cho lý luận** = insight thực địa của nhân viên tuyến đầu (thông thường) là **nguyên liệu** để bộ phận chiến lược khái quát thành chính sách (lý luận). Bỏ qua tiếng nói tuyến đầu = mất chất liệu.
 
 ---
 
@@ -73,11 +81,12 @@ Trong xã hội có giai cấp, các giai cấp có **điều kiện vật chấ
 
 ⭐ Mác – Ăngghen: *"Trong mọi thời đại, những tư tưởng của giai cấp thống trị là những tư tưởng thống trị… Giai cấp nào chi phối những tư liệu sản xuất vật chất thì cũng chi phối luôn cả những tư liệu sản xuất tinh thần"* (tr. 426).
 
-⚠️ **Nhưng có tác động qua lại:** không chỉ giai cấp bị trị chịu ảnh hưởng tư tưởng của giai cấp thống trị, mà **ngược lại** — trong giai đoạn cách mạng lên cao, những **trí thức tiến bộ** trong giai cấp thống trị có thể **từ bỏ giai cấp xuất thân**, chuyển sang hàng ngũ giai cấp cách mạng, thậm chí thành nhà tư tưởng của giai cấp ấy (tr. 426–427).
+> [!warning] Nhưng có tác động qua lại:
+> không chỉ giai cấp bị trị chịu ảnh hưởng tư tưởng của giai cấp thống trị, mà **ngược lại** — trong giai đoạn cách mạng lên cao, những **trí thức tiến bộ** trong giai cấp thống trị có thể **từ bỏ giai cấp xuất thân**, chuyển sang hàng ngũ giai cấp cách mạng, thậm chí thành nhà tư tưởng của giai cấp ấy (tr. 426–427).
 
-### 💼 Góc QTKD — "hệ tư tưởng thống trị" và tiếng nói ngoài luồng
-
-- **Tư tưởng của nhóm nắm nguồn lực chi phối tổ chức** = trong doanh nghiệp, **hệ giá trị của ban lãnh đạo / cổ đông lớn** thường trở thành "tư tưởng thống trị". Nhà quản trị tỉnh táo cần chủ động **lắng nghe tiếng nói ngoài luồng** (nhân viên tuyến dưới, khách hàng, người bất đồng) — vì cái mới, cái tiến bộ nhiều khi đến từ đó, không phải từ "tư tưởng thống trị".
+> [!example] Góc QTKD — "hệ tư tưởng thống trị" và tiếng nói ngoài luồng
+>
+> - **Tư tưởng của nhóm nắm nguồn lực chi phối tổ chức** = trong doanh nghiệp, **hệ giá trị của ban lãnh đạo / cổ đông lớn** thường trở thành "tư tưởng thống trị". Nhà quản trị tỉnh táo cần chủ động **lắng nghe tiếng nói ngoài luồng** (nhân viên tuyến dưới, khách hàng, người bất đồng) — vì cái mới, cái tiến bộ nhiều khi đến từ đó, không phải từ "tư tưởng thống trị".
 
 ---
 
@@ -95,10 +104,10 @@ Trong xã hội có giai cấp, các giai cấp có **điều kiện vật chấ
 | **Ý thức khoa học (lý luận)** | phản ánh **chân thực, chính xác** hiện thực bằng tư duy lôgích, khái niệm, quy luật; ⭐ **đối lập bản chất với tôn giáo**; ngày nay tri thức thành **lực lượng sản xuất trực tiếp** |
 | **Ý thức triết học** | hình thức **cao nhất** của tri thức — cung cấp tri thức về thế giới như một **chỉnh thể** (thế giới quan); triết học duy vật biện chứng là thế giới quan khoa học nhất |
 
-### 💼 Góc QTKD — nhiều "lăng kính" cùng soi một tổ chức
-
-- **Bảy hình thái = bảy lăng kính** để đọc một tổ chức/xã hội: chính trị (quyền lực), pháp quyền (luật lệ), đạo đức (giá trị), thẩm mỹ (thương hiệu, thiết kế), niềm tin, khoa học (dữ liệu), triết học (tầm nhìn tổng thể). ⚠️ **Ý thức chính trị chủ đạo** = trong tổ chức, **quan hệ quyền lực** thường chi phối các "lăng kính" còn lại — hiểu điều này để không ngây thơ cho rằng quyết định chỉ dựa trên "dữ liệu thuần tuý".
-- **Đạo đức vừa giai cấp vừa toàn nhân loại** = có những chuẩn mực kinh doanh **phổ quát** (trung thực, giữ chữ tín) vượt lên lợi ích riêng — nền tảng của **uy tín và đạo đức kinh doanh** bền vững.
+> [!example] Góc QTKD — nhiều "lăng kính" cùng soi một tổ chức
+>
+> - **Bảy hình thái = bảy lăng kính** để đọc một tổ chức/xã hội: chính trị (quyền lực), pháp quyền (luật lệ), đạo đức (giá trị), thẩm mỹ (thương hiệu, thiết kế), niềm tin, khoa học (dữ liệu), triết học (tầm nhìn tổng thể). ⚠️ **Ý thức chính trị chủ đạo** = trong tổ chức, **quan hệ quyền lực** thường chi phối các "lăng kính" còn lại — hiểu điều này để không ngây thơ cho rằng quyết định chỉ dựa trên "dữ liệu thuần tuý".
+> - **Đạo đức vừa giai cấp vừa toàn nhân loại** = có những chuẩn mực kinh doanh **phổ quát** (trung thực, giữ chữ tín) vượt lên lợi ích riêng — nền tảng của **uy tín và đạo đức kinh doanh** bền vững.
 
 ---
 
@@ -126,12 +135,12 @@ Tư tưởng đời sau kế thừa đời trước → **không thể giải th
 
 Đây là biểu hiện **quan trọng nhất**. Ăngghen: điều kiện kinh tế "rốt cuộc giữ vai trò quyết định", nhưng chính trị, truyền thống, tư tưởng… **cũng đóng một vai trò nhất định**. ⚠️ Chống cả hai sai lầm: **duy tâm** (tuyệt đối hoá vai trò ý thức) và **duy vật tầm thường** (phủ nhận vai trò tích cực của ý thức). **Ý thức tiến bộ** thúc đẩy, **ý thức lạc hậu** cản trở phát triển — sức tác động mạnh hay yếu tuỳ: điều kiện lịch sử, quan hệ kinh tế, mức lan toả, và **vai trò của giai cấp cầm ngọn cờ tư tưởng đó** (tr. 446).
 
-### 💼 Góc QTKD — quán tính văn hoá, tầm nhìn đi trước, và sức mạnh của tư tưởng dẫn dắt
-
-- **① Lạc hậu** = **quán tính văn hoá (culture lag)**: công ty đã đổi mô hình nhưng **nếp nghĩ cũ vẫn níu kéo** ("xưa nay vẫn làm thế"). Đổi văn hoá cần thời gian, **không ép bằng mệnh lệnh hành chính**.
-- **② Vượt trước** = **tầm nhìn/dự báo chiến lược** đi trước thị trường (visionary) — nhưng phải dựa trên **xu hướng bản chất** (nối lại "tất nhiên" ở [bài 7](bai_07_sau_cap_pham_tru.md)), không phải mơ mộng.
-- **③ Kế thừa** = **di sản tri thức, best practice** truyền lại; văn hoá mới xây trên nền cũ, không xoá trắng.
-- **⑤ Tác động trở lại** = **tư tưởng dẫn dắt, tầm nhìn, văn hoá mạnh** thực sự thúc đẩy kết quả kinh doanh (culture eats strategy) — nhưng ⚠️ điều kiện kinh tế **rốt cuộc vẫn quyết định**; tầm nhìn hay mà mô hình kinh tế sai vẫn thất bại.
+> [!example] Góc QTKD — quán tính văn hoá, tầm nhìn đi trước, và sức mạnh của tư tưởng dẫn dắt
+>
+> - **① Lạc hậu** = **quán tính văn hoá (culture lag)**: công ty đã đổi mô hình nhưng **nếp nghĩ cũ vẫn níu kéo** ("xưa nay vẫn làm thế"). Đổi văn hoá cần thời gian, **không ép bằng mệnh lệnh hành chính**.
+> - **② Vượt trước** = **tầm nhìn/dự báo chiến lược** đi trước thị trường (visionary) — nhưng phải dựa trên **xu hướng bản chất** (nối lại "tất nhiên" ở [bài 7](bai_07_sau_cap_pham_tru.md)), không phải mơ mộng.
+> - **③ Kế thừa** = **di sản tri thức, best practice** truyền lại; văn hoá mới xây trên nền cũ, không xoá trắng.
+> - **⑤ Tác động trở lại** = **tư tưởng dẫn dắt, tầm nhìn, văn hoá mạnh** thực sự thúc đẩy kết quả kinh doanh (culture eats strategy) — nhưng ⚠️ điều kiện kinh tế **rốt cuộc vẫn quyết định**; tầm nhìn hay mà mô hình kinh tế sai vẫn thất bại.
 
 ---
 
@@ -189,7 +198,7 @@ TÍNH GIAI CẤP: "tư tưởng thống trị = tư tưởng của giai cấp th
    ⑤ TÁC ĐỘNG TRỞ LẠI tồn tại XH (quan trọng nhất; tiến bộ→thúc đẩy, lạc hậu→cản trở;
       kinh tế "rốt cuộc quyết định" — chống cả duy tâm & duy vật tầm thường)
 
-💼 QTKD: văn hoá mọc từ điều kiện thực (đổi văn hoá phải đổi cơ chế) · market sentiment ·
+QTKD: văn hoá mọc từ điều kiện thực (đổi văn hoá phải đổi cơ chế) · market sentiment ·
    7 lăng kính đọc tổ chức (quyền lực chi phối) · culture lag(①) · tầm nhìn đi trước(②) ·
    di sản best practice(③) · "culture eats strategy" nhưng kinh tế rốt cuộc quyết định(⑤)
 ═══════════════════════════════════════════════════════════════════════════════

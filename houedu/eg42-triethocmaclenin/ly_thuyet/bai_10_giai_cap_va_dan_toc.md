@@ -1,12 +1,18 @@
 # Bài 10 — Giai cấp và dân tộc
 
+> [!info] Về bài này
 > Bài học dựng từ **Chương 3, mục II** (tr. 329–383) của *Giáo trình Triết học Mác – Lênin* (hệ không chuyên),
 > Bộ Giáo dục và Đào tạo, **NXB Chính trị Quốc gia Sự thật, 2021**.
-> 🔸 **Vòng 2.** Từ hai quy luật kinh tế ở [bài 9](bai_09_hinh_thai_kinh_te_xa_hoi.md), CNDV lịch sử soi vào **quan hệ giữa người với người trong xã hội**: giai cấp (gốc kinh tế), đấu tranh giai cấp (động lực), dân tộc (cộng đồng cao nhất), và quan hệ **giai cấp – dân tộc – nhân loại**.
-> 💼 **Góc QTKD** — ví dụ áp dụng cho ngành quản trị kinh doanh, **không có trong sách**, chỉ là phép loại suy để dễ nhớ.
-> 📚 **Mở rộng** — thứ sách nói lướt hoặc cho tên riêng mà không giải thích.
-> ⚠️ — chỗ dễ hiểu sai.
-> 📌 **Cần đọc trước:** [Bài 9](bai_09_hinh_thai_kinh_te_xa_hoi.md).
+>
+> **Vòng 2.** Từ hai quy luật kinh tế ở [bài 9](bai_09_hinh_thai_kinh_te_xa_hoi.md), CNDV lịch sử soi vào **quan hệ giữa người với người trong xã hội**: giai cấp (gốc kinh tế), đấu tranh giai cấp (động lực), dân tộc (cộng đồng cao nhất), và quan hệ **giai cấp – dân tộc – nhân loại**.
+>
+> **Cách đọc các khối màu trong bài:**
+> - `[!quote]` — trích **nguyên văn** giáo trình (hoặc kinh điển do giáo trình dẫn), kèm số trang.
+> - `[!warning]` — chỗ **dễ hiểu sai**.
+> - `[!note]` **Mở rộng** — thứ sách nói lướt hoặc cho tên riêng mà không giải thích.
+> - `[!example]` **Góc QTKD** — ví dụ áp dụng cho ngành **quản trị kinh doanh**, *không có trong sách*, chỉ là phép loại suy để dễ nhớ.
+>
+> **Cần đọc trước:** [Bài 9](bai_09_hinh_thai_kinh_te_xa_hoi.md).
 
 ---
 
@@ -33,8 +39,10 @@
 
 C. Mác không "phát hiện" ra giai cấp (nhà sử học tư sản đã biết), mà chứng minh ba điều mới: (1) giai cấp chỉ **gắn với giai đoạn phát triển nhất định của sản xuất**, (2) đấu tranh giai cấp tất yếu dẫn tới **chuyên chính vô sản**, (3) chuyên chính đó chỉ là bước quá độ tới **xã hội không giai cấp** (thư gửi Vâyđơmây 1852, dẫn tr. 330).
 
-⚠️ Các nhà xã hội học tư sản định nghĩa giai cấp bằng tiêu chuẩn **chủ quan** (chức năng, lối sống, mức sống, uy tín) để **làm mờ** vấn đề sở hữu và đối kháng giai cấp. Mác đi tìm **cái gốc kinh tế**.
+> [!warning]
+> Các nhà xã hội học tư sản định nghĩa giai cấp bằng tiêu chuẩn **chủ quan** (chức năng, lối sống, mức sống, uy tín) để **làm mờ** vấn đề sở hữu và đối kháng giai cấp. Mác đi tìm **cái gốc kinh tế**.
 
+> [!quote] dẫn tr. 331–332
 > **Định nghĩa của Lênin** (*Sáng kiến vĩ đại*): *"Giai cấp là những tập đoàn người to lớn khác nhau về **địa vị** của họ trong một hệ thống sản xuất xã hội nhất định, về **quan hệ của họ đối với tư liệu sản xuất**, về **vai trò của họ trong tổ chức lao động xã hội**, và do đó khác nhau về **cách thức hưởng thụ** phần của cải xã hội mà họ được hưởng. Giai cấp là những tập đoàn người mà tập đoàn này có thể **chiếm đoạt lao động** của tập đoàn khác, do địa vị khác nhau của họ trong một chế độ kinh tế – xã hội nhất định."* (dẫn tr. 331–332)
 
 **Bốn đặc trưng** rút ra (tr. 332–334):
@@ -46,13 +54,14 @@ C. Mác không "phát hiện" ra giai cấp (nhà sử học tư sản đã bi�
 | 3 | Vai trò trong **tổ chức lao động** | ai điều hành, quản lý sản xuất |
 | 4 | Cách thức và quy mô **hưởng thụ** của cải | hệ quả của ba dấu hiệu trên |
 
+> [!quote] Giáo trình, tr. 335
 > **Thực chất của quan hệ giai cấp** là **tập đoàn này chiếm đoạt lao động của tập đoàn khác** do đối lập về địa vị trong một chế độ kinh tế — tức **quan hệ bóc lột và bị bóc lột.** (tr. 335)
 
 Giai cấp là **phạm trù kinh tế – xã hội có tính lịch sử**: xuất hiện và mất đi xét đến cùng do **nguyên nhân kinh tế**, không phải do chính trị hay tư tưởng (tr. 336).
 
-### 💼 Góc QTKD — đừng lẫn "địa vị nghề nghiệp" với "quan hệ sở hữu"
-
-- **Dấu hiệu quyết định là quan hệ với tư liệu sản xuất** = trong phân tích một tổ chức, đừng dừng ở chức danh/lối sống; hỏi **ai sở hữu, ai điều hành, ai hưởng thành quả**. Đây là gốc để hiểu cấu trúc quyền lực và phân phối lợi ích thực sự — tương tự phân tích cơ cấu cổ đông và quyền kiểm soát (ownership & control).
+> [!example] Góc QTKD — đừng lẫn "địa vị nghề nghiệp" với "quan hệ sở hữu"
+>
+> - **Dấu hiệu quyết định là quan hệ với tư liệu sản xuất** = trong phân tích một tổ chức, đừng dừng ở chức danh/lối sống; hỏi **ai sở hữu, ai điều hành, ai hưởng thành quả**. Đây là gốc để hiểu cấu trúc quyền lực và phân phối lợi ích thực sự — tương tự phân tích cơ cấu cổ đông và quyền kiểm soát (ownership & control).
 
 ---
 
@@ -70,7 +79,8 @@ NGUYÊN NHÂN TRỰC TIẾP:  xuất hiện CHẾ ĐỘ TƯ HỮU về tư liệ
 XÃ HỘI CÓ GIAI CẤP đầu tiên: CHIẾM HỮU NÔ LỆ (chủ nô – nô lệ, ~3–5 nghìn năm trước)
 ```
 
-⚠️ **Chừng nào còn tư hữu tư liệu sản xuất thì còn giai cấp và đấu tranh giai cấp; giai cấp chỉ mất khi tư hữu bị xoá bỏ hoàn toàn** (tr. 339). Chiến tranh, cướp bóc, bạo lực chỉ **đẩy nhanh** chứ không phải nguyên nhân sinh ra giai cấp.
+> [!warning] Chừng nào còn tư hữu tư liệu sản xuất thì còn giai cấp và đấu tranh giai cấp; giai cấp chỉ mất khi tư hữu bị xoá bỏ hoàn toàn
+> (tr. 339). Chiến tranh, cướp bóc, bạo lực chỉ **đẩy nhanh** chứ không phải nguyên nhân sinh ra giai cấp.
 
 ### Kết cấu xã hội – giai cấp (tr. 340–341)
 
@@ -80,9 +90,9 @@ XÃ HỘI CÓ GIAI CẤP đầu tiên: CHIẾM HỮU NÔ LỆ (chủ nô – nô
 
 Phân tích đúng kết cấu giai cấp giúp đảng của giai cấp vô sản xác định **mâu thuẫn cơ bản, đối tượng, lực lượng, đồng minh** cách mạng (tr. 341).
 
-### 💼 Góc QTKD — bản đồ các nhóm lợi ích (stakeholder mapping)
-
-- **Kết cấu giai cấp = bản đồ các nhóm lợi ích.** Nhìn một thị trường/tổ chức, xác định nhóm **cơ bản** (quyết định cuộc chơi), nhóm **mầm mống** (xu hướng lên), nhóm **tàn dư** (đang mất dần), và **trung gian** (có thể lôi kéo) — chính là **stakeholder analysis** để hoạch định chiến lược liên minh.
+> [!example] Góc QTKD — bản đồ các nhóm lợi ích (stakeholder mapping)
+>
+> - **Kết cấu giai cấp = bản đồ các nhóm lợi ích.** Nhìn một thị trường/tổ chức, xác định nhóm **cơ bản** (quyết định cuộc chơi), nhóm **mầm mống** (xu hướng lên), nhóm **tàn dư** (đang mất dần), và **trung gian** (có thể lôi kéo) — chính là **stakeholder analysis** để hoạch định chiến lược liên minh.
 
 ---
 
@@ -92,8 +102,10 @@ Phân tích đúng kết cấu giai cấp giúp đảng của giai cấp vô s�
 
 Mác – Ăngghen: *"Lịch sử tất cả các xã hội tồn tại từ trước đến ngày nay chỉ là lịch sử đấu tranh giai cấp"* (Ăngghen chú: từ khi có lịch sử **thành văn**) (tr. 342).
 
+> [!quote] Giáo trình, tr. 343
 > **Đấu tranh giai cấp** là cuộc đấu tranh của các tập đoàn người to lớn có **lợi ích căn bản đối lập** nhau trong một phương thức sản xuất. Nó **tất yếu** do đối lập lợi ích **không thể điều hoà** giữa giai cấp bị trị và giai cấp thống trị — là **hiện tượng khách quan**, không do lý thuyết hay ý muốn nào tạo ra. (tr. 343)
 
+> [!quote] Giáo trình, tr. 344
 > **Thực chất** là cuộc đấu tranh của **quần chúng lao động bị áp bức, bóc lột** chống lại giai cấp áp bức, bóc lột nhằm lật đổ ách thống trị của chúng. (tr. 344)
 
 ### Vai trò động lực (tr. 346–348)
@@ -102,10 +114,10 @@ Mác – Ăngghen: *"Lịch sử tất cả các xã hội tồn tại từ trư
 - Đỉnh cao của đấu tranh giai cấp là **cách mạng xã hội** → xoá QHSX cũ, lập QHSX mới, "**tạo địa bàn phát triển**" cho LLSX. ⚠️ **Mục đích cao nhất không phải đánh đổ một giai cấp** mà là **giải phóng LLSX** khỏi kìm hãm (tr. 344–347).
 - Đấu tranh giai cấp còn **cải tạo bản thân giai cấp cách mạng**, giúp nó trưởng thành để đáp ứng yêu cầu lịch sử.
 
-### 💼 Góc QTKD — xung đột lợi ích là tất yếu, mục tiêu là "mở đường" chứ không phải "triệt hạ"
-
-- **Đối lập lợi ích không điều hoà → xung đột tất yếu** = trong tổ chức, xung đột lợi ích (cổ đông – quản lý, chủ – thợ, các phòng ban) là **khách quan**, không thể "xoá bằng thiện chí". Quản trị là **nhận diện và xử lý** chứ không phủ nhận nó.
-- ⚠️ **Mục đích là "tạo địa bàn phát triển", không phải "hạ đối thủ"** = giải quyết xung đột nhằm **tháo gỡ cái kìm hãm năng lực**, không phải để một bên thắng bên kia. Đây là tinh thần **giải quyết xung đột hướng lợi ích chung** (interest-based negotiation) thay vì phân định thắng – thua.
+> [!example] Góc QTKD — xung đột lợi ích là tất yếu, mục tiêu là "mở đường" chứ không phải "triệt hạ"
+>
+> - **Đối lập lợi ích không điều hoà → xung đột tất yếu** = trong tổ chức, xung đột lợi ích (cổ đông – quản lý, chủ – thợ, các phòng ban) là **khách quan**, không thể "xoá bằng thiện chí". Quản trị là **nhận diện và xử lý** chứ không phủ nhận nó.
+> - ⚠️ **Mục đích là "tạo địa bàn phát triển", không phải "hạ đối thủ"** = giải quyết xung đột nhằm **tháo gỡ cái kìm hãm năng lực**, không phải để một bên thắng bên kia. Đây là tinh thần **giải quyết xung đột hướng lợi ích chung** (interest-based negotiation) thay vì phân định thắng – thua.
 
 ---
 
@@ -132,9 +144,9 @@ Ba hình thức đan xen, hỗ trợ nhau; **đấu tranh chính trị quyết �
 - **Hai nhiệm vụ chiến lược:** xây dựng thành công CNXH **và** bảo vệ vững chắc Tổ quốc; phát triển kinh tế là nhiệm vụ **trung tâm, xuyên suốt** (tr. 360).
 - **Hình thức đa dạng, phong phú:** bằng hành chính và giáo dục, cải tạo và xây dựng, kinh tế trung gian quá độ… tuỳ hoàn cảnh cụ thể.
 
-### 💼 Góc QTKD — chuyển đổi tổ chức: vừa "bảo vệ" vừa "xây dựng", ưu tiên xây dựng
-
-- **Quá độ = "ai thắng ai" giữa cái mới và cái cũ**, với hai nhiệm vụ **bảo vệ thành quả** + **xây dựng cái mới**, trong đó **xây dựng là chủ yếu** — giống một cuộc **chuyển đổi tổ chức (transformation)**: vừa giữ hoạt động lõi đang chạy (bảo vệ), vừa dựng năng lực/mô hình mới (xây dựng). Nhiều chương trình thất bại vì chỉ lo "chống cái cũ" mà quên **xây năng lực mới** — mà "năng suất mới là cái quyết định".
+> [!example] Góc QTKD — chuyển đổi tổ chức: vừa "bảo vệ" vừa "xây dựng", ưu tiên xây dựng
+>
+> - **Quá độ = "ai thắng ai" giữa cái mới và cái cũ**, với hai nhiệm vụ **bảo vệ thành quả** + **xây dựng cái mới**, trong đó **xây dựng là chủ yếu** — giống một cuộc **chuyển đổi tổ chức (transformation)**: vừa giữ hoạt động lõi đang chạy (bảo vệ), vừa dựng năng lực/mô hình mới (xây dựng). Nhiều chương trình thất bại vì chỉ lo "chống cái cũ" mà quên **xây năng lực mới** — mà "năng suất mới là cái quyết định".
 
 ---
 
@@ -157,6 +169,7 @@ THỊ TỘC ──► BỘ LẠC ──► BỘ TỘC ──► DÂN TỘC
 
 Khái niệm **dân tộc** dùng theo hai nghĩa: **nghĩa rộng** (nation = quốc gia, như Việt Nam, Pháp) và **nghĩa hẹp** (ethnie = tộc người, như Kinh, Tày, Khmer).
 
+> [!quote] Giáo trình, tr. 366–367
 > **Dân tộc** (nghĩa quốc gia) là **cộng đồng người ổn định** hình thành trong lịch sử trên cơ sở **một lãnh thổ, một ngôn ngữ, một nền kinh tế thống nhất, một nền văn hoá và tâm lý, tính cách bền vững, với một nhà nước và pháp luật thống nhất.** (tr. 366–367)
 
 | Đặc trưng | Nội dung (tr. 367–372) |
@@ -167,12 +180,13 @@ Khái niệm **dân tộc** dùng theo hai nghĩa: **nghĩa rộng** (nation = q
 | **Văn hoá – tâm lý** bền vững | "bộ gen", "căn cước" của dân tộc; **thống nhất trong đa dạng**; hội nhập nhưng **không "hoà tan"** |
 | **Nhà nước và pháp luật** thống nhất | đặc trưng của dân tộc – quốc gia; *"dân tộc nào cũng có một nhà nước và nhà nước nào cũng của một dân tộc"* |
 
-📚 **Đặc thù hình thành dân tộc Việt Nam (tr. 373):** khác châu Âu (dân tộc gắn với sự ra đời của CNTB), dân tộc Việt Nam hình thành **rất sớm**, gắn với **nhu cầu dựng nước và giữ nước**, chống ngoại xâm và trị thuỷ — từ khi Đại Việt giành độc lập (trên 1.000 năm trước) đến thời Lý – Trần, **không gắn với sự ra đời của tư bản**.
+> [!note] Mở rộng
+> **Đặc thù hình thành dân tộc Việt Nam (tr. 373):** khác châu Âu (dân tộc gắn với sự ra đời của CNTB), dân tộc Việt Nam hình thành **rất sớm**, gắn với **nhu cầu dựng nước và giữ nước**, chống ngoại xâm và trị thuỷ — từ khi Đại Việt giành độc lập (trên 1.000 năm trước) đến thời Lý – Trần, **không gắn với sự ra đời của tư bản**.
 
-### 💼 Góc QTKD — "bản sắc" là tài sản, hội nhập nhưng không hoà tan
-
-- **Văn hoá là "căn cước", hội nhập không hoà tan** = **bản sắc thương hiệu / văn hoá doanh nghiệp** là tài sản không sao chép được. Khi mở rộng ra thị trường mới (hội nhập/M&A), doanh nghiệp phải **thích nghi địa phương (localize) nhưng giữ bản sắc lõi** — mất bản sắc là "bị đồng hoá".
-- **Kinh tế là tác nhân gắn kết** = một tổ chức đa vùng/đa quốc gia được giữ thống nhất trước hết bởi **liên kết kinh tế – lợi ích chung**, không chỉ bằng khẩu hiệu.
+> [!example] Góc QTKD — "bản sắc" là tài sản, hội nhập nhưng không hoà tan
+>
+> - **Văn hoá là "căn cước", hội nhập không hoà tan** = **bản sắc thương hiệu / văn hoá doanh nghiệp** là tài sản không sao chép được. Khi mở rộng ra thị trường mới (hội nhập/M&A), doanh nghiệp phải **thích nghi địa phương (localize) nhưng giữ bản sắc lõi** — mất bản sắc là "bị đồng hoá".
+> - **Kinh tế là tác nhân gắn kết** = một tổ chức đa vùng/đa quốc gia được giữ thống nhất trước hết bởi **liên kết kinh tế – lợi ích chung**, không chỉ bằng khẩu hiệu.
 
 ---
 
@@ -186,6 +200,7 @@ Khái niệm **dân tộc** dùng theo hai nghĩa: **nghĩa rộng** (nation = q
 
 ### Nhân loại và quan hệ ba tầng (tr. 379–383)
 
+> [!quote] Giáo trình, tr. 380–381
 > **Nhân loại** là toàn thể cộng đồng người trên trái đất, thống nhất trên cơ sở **bản chất xã hội của con người** — tiêu chí phân biệt loài người với loài vật. (tr. 380–381)
 
 - Ba phạm trù có **quan hệ biện chứng**: trong xã hội có giai cấp, **lợi ích nhân loại bị chi phối bởi lợi ích giai cấp và dân tộc**; giai cấp tiến bộ đại diện dân tộc thì đồng thời thúc đẩy văn minh nhân loại; giai cấp lỗi thời thì đi ngược cả dân tộc lẫn nhân loại (tr. 381–382).
@@ -194,9 +209,9 @@ Khái niệm **dân tộc** dùng theo hai nghĩa: **nghĩa rộng** (nation = q
 
 Đảng Cộng sản Việt Nam giải quyết đúng quan hệ **lợi ích giai cấp – dân tộc – nhân loại**: mục tiêu *độc lập dân tộc gắn liền với CNXH*, phát huy **đại đoàn kết toàn dân tộc** kết hợp **sức mạnh thời đại** (tr. 383).
 
-### 💼 Góc QTKD — lồng ba tầng lợi ích: nhóm – tổ chức – xã hội
-
-- **Ba tầng lợi ích lồng nhau** = lợi ích **nhóm/phòng ban** (giai cấp), lợi ích **doanh nghiệp** (dân tộc), lợi ích **xã hội/khách hàng chung** (nhân loại). Quản trị bền vững là **xếp thẳng hàng (align)** ba tầng: nhóm nào chỉ lo lợi ích riêng chống lại lợi ích chung thì thành **lực cản** — tinh thần của **ESG / shared value**: lợi ích doanh nghiệp gắn với lợi ích xã hội.
+> [!example] Góc QTKD — lồng ba tầng lợi ích: nhóm – tổ chức – xã hội
+>
+> - **Ba tầng lợi ích lồng nhau** = lợi ích **nhóm/phòng ban** (giai cấp), lợi ích **doanh nghiệp** (dân tộc), lợi ích **xã hội/khách hàng chung** (nhân loại). Quản trị bền vững là **xếp thẳng hàng (align)** ba tầng: nhóm nào chỉ lo lợi ích riêng chống lại lợi ích chung thì thành **lực cản** — tinh thần của **ESG / shared value**: lợi ích doanh nghiệp gắn với lợi ích xã hội.
 
 ---
 
@@ -257,7 +272,7 @@ QUAN HỆ GIAI CẤP–DÂN TỘC–NHÂN LOẠI (biện chứng):
    giải phóng DÂN TỘC là tiền đề giải phóng GIAI CẤP (HCM: cách mạng vô sản)
    nhân loại là tiền đề, tác động lại → vấn đề toàn cầu; VN: độc lập DT gắn CNXH
 
-💼 QTKD: nhìn quan hệ sở hữu–kiểm soát (không chỉ chức danh) · stakeholder mapping ·
+QTKD: nhìn quan hệ sở hữu–kiểm soát (không chỉ chức danh) · stakeholder mapping ·
    xung đột lợi ích tất yếu, xử lý hướng lợi ích chung · transformation vừa giữ vừa xây ·
    bản sắc là tài sản, localize không hoà tan · align 3 tầng lợi ích (ESG/shared value)
 ═══════════════════════════════════════════════════════════════════════════════

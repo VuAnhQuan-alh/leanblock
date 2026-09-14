@@ -1,12 +1,18 @@
 # Bài 2 — Triết học Mác – Lênin và vai trò của nó trong đời sống xã hội
 
+> [!info] Về bài này
 > Bài học dựng từ **Chương 1, mục II** (tr. 48–115) của *Giáo trình Triết học Mác – Lênin* (hệ không chuyên),
 > Bộ Giáo dục và Đào tạo, **NXB Chính trị Quốc gia Sự thật, 2021**.
-> 🎯 **Vòng 1** — bài nền. Trả lời ba câu: triết học Mác **ra đời thế nào**, cuộc cách mạng nó tạo ra **là gì**, và nó **dùng để làm gì**.
-> 💼 **Góc QTKD** — ví dụ áp dụng cho ngành quản trị kinh doanh, **không có trong sách**, chỉ là phép loại suy để dễ nhớ.
-> 📚 **Mở rộng** — thứ sách nói lướt hoặc cho tên riêng mà không giải thích.
-> ⚠️ — chỗ dễ hiểu sai.
-> 📌 **Cần đọc trước:** [Bài 1 — Triết học và vấn đề cơ bản của triết học](bai_01_triet_hoc_va_van_de_co_ban.md) (cần nắm chắc *duy vật/duy tâm*, *biện chứng/siêu hình*).
+>
+> **Vòng 1** — bài nền. Trả lời ba câu: triết học Mác **ra đời thế nào**, cuộc cách mạng nó tạo ra **là gì**, và nó **dùng để làm gì**.
+>
+> **Cách đọc các khối màu trong bài:**
+> - `[!quote]` — trích **nguyên văn** giáo trình (hoặc kinh điển do giáo trình dẫn), kèm số trang.
+> - `[!warning]` — chỗ **dễ hiểu sai**.
+> - `[!note]` **Mở rộng** — thứ sách nói lướt hoặc cho tên riêng mà không giải thích.
+> - `[!example]` **Góc QTKD** — ví dụ áp dụng cho ngành **quản trị kinh doanh**, *không có trong sách*, chỉ là phép loại suy để dễ nhớ.
+>
+> **Cần đọc trước:** [Bài 1 — Triết học và vấn đề cơ bản của triết học](bai_01_triet_hoc_va_van_de_co_ban.md) (cần nắm chắc *duy vật/duy tâm*, *biện chứng/siêu hình*).
 
 ---
 
@@ -58,13 +64,13 @@ Kết luận của sách: **"Thực tiễn cách mạng của giai cấp vô s�
 học Mác"** (tr. 51). Giai cấp vô sản xuất hiện như một lực lượng chính trị độc lập đòi hỏi phải có **lý
 luận mới soi đường**.
 
-### 💼 Góc QTKD — "cầu" tạo ra "cung" cả trong thế giới ý tưởng
-
-Điểm đáng học ở đây là mô hình nhân quả của sách: một **nhu cầu thực tiễn có thật** (giai cấp vô sản
-cần lý luận) mới làm nảy sinh một sản phẩm trí tuệ tương ứng. Đây chính là logic **problem–solution
-fit**: một học thuyết (hay một sản phẩm) chỉ "ra đời tất yếu" khi có một nhu cầu thị trường thật đang
-chờ. Triết học Mác không phải sáng chế trong tháp ngà — nó khớp với một "thị trường" đang khát. Sản
-phẩm không gắn nhu cầu thật thì dù thông minh đến đâu cũng không có "tính tất yếu".
+> [!example] Góc QTKD — "cầu" tạo ra "cung" cả trong thế giới ý tưởng
+>
+> Điểm đáng học ở đây là mô hình nhân quả của sách: một **nhu cầu thực tiễn có thật** (giai cấp vô sản
+> cần lý luận) mới làm nảy sinh một sản phẩm trí tuệ tương ứng. Đây chính là logic **problem–solution
+> fit**: một học thuyết (hay một sản phẩm) chỉ "ra đời tất yếu" khi có một nhu cầu thị trường thật đang
+> chờ. Triết học Mác không phải sáng chế trong tháp ngà — nó khớp với một "thị trường" đang khát. Sản
+> phẩm không gắn nhu cầu thật thì dù thông minh đến đâu cũng không có "tính tất yếu".
 
 ---
 
@@ -115,18 +121,18 @@ duy vật, cần **nhớ đủ ba**:
 một tuần hoàn vĩnh cửu"* (tr. 56) — tức bản thân khoa học tự nhiên đã buộc phải "quay trở lại tư duy
 biện chứng".
 
-### 💼 Góc QTKD — không ai đổi mới từ mảnh đất trống; đổi mới là "kế thừa có phê phán"
-
-Toàn bộ mục này là một bài học chống hai ảo tưởng phổ biến trong kinh doanh:
-
-- **Ảo tưởng "sáng tạo từ số không".** Sách nói rõ: học thuyết vĩ đại nhất cũng là *"sự thừa kế thẳng
-và trực tiếp"* cái tốt nhất đã có. Sản phẩm/chiến lược mới luôn đứng **trên vai người khổng lồ** —
-Mác không phủ nhận Hegel, ông cải tạo Hegel. Startup không phát minh lại mọi thứ; họ lấy cái sẵn có
-rồi cải tạo một mắt xích.
-- **Ảo tưởng "sao chép nguyên xi".** Nhưng kế thừa **không phải bê nguyên**: Mác *lột bỏ cái vỏ thần
-bí*, *giữ hạt nhân hợp lý*. Học một mô hình của đối thủ mà không lột bỏ phần không hợp bối cảnh mình
-thì thành "lắp ghép cơ học" — đúng lỗi sách cảnh báo. **Benchmarking đúng nghĩa = lấy hạt nhân hợp
-lý, bỏ cái vỏ không hợp**, chứ không phải copy toàn bộ.
+> [!example] Góc QTKD — không ai đổi mới từ mảnh đất trống; đổi mới là "kế thừa có phê phán"
+>
+> Toàn bộ mục này là một bài học chống hai ảo tưởng phổ biến trong kinh doanh:
+>
+> - **Ảo tưởng "sáng tạo từ số không".** Sách nói rõ: học thuyết vĩ đại nhất cũng là *"sự thừa kế thẳng
+> và trực tiếp"* cái tốt nhất đã có. Sản phẩm/chiến lược mới luôn đứng **trên vai người khổng lồ** —
+> Mác không phủ nhận Hegel, ông cải tạo Hegel. Startup không phát minh lại mọi thứ; họ lấy cái sẵn có
+> rồi cải tạo một mắt xích.
+> - **Ảo tưởng "sao chép nguyên xi".** Nhưng kế thừa **không phải bê nguyên**: Mác *lột bỏ cái vỏ thần
+> bí*, *giữ hạt nhân hợp lý*. Học một mô hình của đối thủ mà không lột bỏ phần không hợp bối cảnh mình
+> thì thành "lắp ghép cơ học" — đúng lỗi sách cảnh báo. **Benchmarking đúng nghĩa = lấy hạt nhân hợp
+> lý, bỏ cái vỏ không hợp**, chứ không phải copy toàn bộ.
 
 ---
 
@@ -202,19 +208,18 @@ Sách cũng nhấn hai đặc trưng: **tính sáng tạo** — triết học M�
 **"kim chỉ nam cho hành động", không phải giáo điều** (tr. 77–78); và **tính nhân đạo cộng sản** — mục
 tiêu cuối là **giải phóng con người** (tr. 78).
 
-### 💼 Góc QTKD — "giải thích thế giới" vs "cải tạo thế giới": bệnh phân tích mà không hành động
-
-Câu *"vấn đề là cải tạo thế giới"* là liều thuốc cho căn bệnh **analysis paralysis**. Một bản phân
-tích thị trường 80 trang không tạo ra một đồng doanh thu; nó chỉ có giá trị khi dẫn tới **hành động cải
-tạo** thực tế (ra sản phẩm, đổi quy trình, chiếm thị phần).
-
-
-| Nguyên lý của bài                            | Ứng dụng quản trị                                                             |
-| -------------------------------------------- | ----------------------------------------------------------------------------- |
-| Thống nhất lý luận ↔ thực tiễn               | chiến lược phải gắn thực thi; KPI phải đo được và phản hồi lại chiến lược     |
-| "Kim chỉ nam, không phải giáo điều"          | SWOT, 5 Forces, BCG... là **la bàn định hướng**, không phải công thức máy móc |
-| Hệ thống mở, luôn được bổ sung bởi thực tiễn | chiến lược sống phải cập nhật theo dữ liệu mới, không "đóng khung một lần"    |
-
+> [!example] Góc QTKD — "giải thích thế giới" vs "cải tạo thế giới": bệnh phân tích mà không hành động
+>
+> Câu *"vấn đề là cải tạo thế giới"* là liều thuốc cho căn bệnh **analysis paralysis**. Một bản phân
+> tích thị trường 80 trang không tạo ra một đồng doanh thu; nó chỉ có giá trị khi dẫn tới **hành động cải
+> tạo** thực tế (ra sản phẩm, đổi quy trình, chiếm thị phần).
+>
+>
+> | Nguyên lý của bài                            | Ứng dụng quản trị                                                             |
+> | -------------------------------------------- | ----------------------------------------------------------------------------- |
+> | Thống nhất lý luận ↔ thực tiễn               | chiến lược phải gắn thực thi; KPI phải đo được và phản hồi lại chiến lược     |
+> | "Kim chỉ nam, không phải giáo điều"          | SWOT, 5 Forces, BCG... là **la bàn định hướng**, không phải công thức máy móc |
+> | Hệ thống mở, luôn được bổ sung bởi thực tiễn | chiến lược sống phải cập nhật theo dữ liệu mới, không "đóng khung một lần"    |
 
 ---
 
@@ -254,6 +259,7 @@ thể (đường lối cách mạng, đường lối đổi mới) (tr. 93–94)
 
 ## 6. Đối tượng của triết học Mác – Lênin
 
+> [!quote] Giáo trình, tr. 95
 > **Triết học Mác – Lênin** là hệ thống quan điểm **duy vật biện chứng** về tự nhiên, xã hội và tư duy —
 > **thế giới quan và phương pháp luận khoa học, cách mạng** của giai cấp công nhân và nhân dân lao động
 > trong nhận thức và cải tạo thế giới. (tr. 95)
@@ -264,8 +270,9 @@ biện chứng** (nhìn tự nhiên, tư duy) và **chủ nghĩa duy vật lịc
 **Đối tượng** (tr. 96–99): giải quyết **mối quan hệ vật chất – ý thức** trên lập trường duy vật biện
 chứng, và nghiên cứu **những quy luật vận động, phát triển chung nhất** của tự nhiên, xã hội, tư duy.
 
-⚠️ **Phân biệt rạch ròi với các khoa học cụ thể** (tr. 98). Đây là điểm bài 1 đã nói (Mác "biết dừng
-đúng chỗ"), nay được phát biểu thành quan hệ **cái chung – cái riêng**:
+> [!warning] Phân biệt rạch ròi với các khoa học cụ thể
+> (tr. 98). Đây là điểm bài 1 đã nói (Mác "biết dừng
+> đúng chỗ"), nay được phát biểu thành quan hệ **cái chung – cái riêng**:
 
 ```
 KHOA HỌC CỤ THỂ  →  quy luật trong TỪNG lĩnh vực riêng (vật lý, sinh học, kinh tế...)
@@ -290,25 +297,27 @@ duy tâm, tôn giáo, phản khoa học.
 
 ### Chức năng phương pháp luận (tr. 101)
 
+> [!quote] Giáo trình, tr. 101
 > **Phương pháp luận** là hệ thống những quan điểm, nguyên tắc chỉ đạo việc **sử dụng các phương pháp**
 > trong hoạt động nhận thức và thực tiễn. (tr. 101)
 
 Triết học Mác – Lênin thực hiện chức năng phương pháp luận **chung nhất, phổ biến nhất** — trang bị hệ
 thống khái niệm, phạm trù, quy luật làm công cụ nhận thức khoa học.
 
-⚠️ Sách cảnh báo ngay: triết học **không phải "đơn thuốc vạn năng"** giải quyết được mọi vấn đề (tr. 101).
-Muốn hiệu quả, ngoài tri thức triết học còn phải có **tri thức khoa học cụ thể và kinh nghiệm thực tiễn**.
+> [!warning]
+> Sách cảnh báo ngay: triết học **không phải "đơn thuốc vạn năng"** giải quyết được mọi vấn đề (tr. 101).
+> Muốn hiệu quả, ngoài tri thức triết học còn phải có **tri thức khoa học cụ thể và kinh nghiệm thực tiễn**.
 
-### 💼 Góc QTKD — framework là "cặp kính", không phải "đơn thuốc vạn năng"
-
-Hai chức năng này khớp chính xác vai trò của các **khung tư duy quản trị**:
-
-- **Chức năng thế giới quan ≈ "cặp kính".** Một nhà quản trị đeo "kính" tư duy hệ thống sẽ *nhìn thấy*
-các liên hệ mà người khác bỏ sót — giống thế giới quan quyết định ta thấy gì.
-- **Chức năng phương pháp luận ≈ bộ công cụ.** SWOT, Porter, BCG, OKR... là phương pháp luận chung; chúng
-**chỉ đạo cách dùng** các công cụ cụ thể (khảo sát, tài chính, thử nghiệm).
-- ⚠️ Nhưng "không phải đơn thuốc vạn năng": áp một framework mà **thiếu dữ liệu ngành và kinh nghiệm
-thực tiễn** thì ra kết luận sáo rỗng. Sách nói đúng cái bẫy của tư vấn hời hợt.
+> [!example] Góc QTKD — framework là "cặp kính", không phải "đơn thuốc vạn năng"
+>
+> Hai chức năng này khớp chính xác vai trò của các **khung tư duy quản trị**:
+>
+> - **Chức năng thế giới quan ≈ "cặp kính".** Một nhà quản trị đeo "kính" tư duy hệ thống sẽ *nhìn thấy*
+> các liên hệ mà người khác bỏ sót — giống thế giới quan quyết định ta thấy gì.
+> - **Chức năng phương pháp luận ≈ bộ công cụ.** SWOT, Porter, BCG, OKR... là phương pháp luận chung; chúng
+> **chỉ đạo cách dùng** các công cụ cụ thể (khảo sát, tài chính, thử nghiệm).
+> - ⚠️ Nhưng "không phải đơn thuốc vạn năng": áp một framework mà **thiếu dữ liệu ngành và kinh nghiệm
+> thực tiễn** thì ra kết luận sáo rỗng. Sách nói đúng cái bẫy của tư vấn hời hợt.
 
 ---
 
@@ -324,7 +333,7 @@ giải quyết vấn đề khác nhau"* (tr. 104). Ví dụ sách dùng là **th
 lập trường **duy vật** → tìm *nguyên nhân vật chất, xã hội* sinh ra tôn giáo và hạn chế dần tác động
 tiêu cực; từ lập trường **duy tâm/ý chí** → chỉ tìm cách *cấm đoán* bằng ý chí → không có kết quả.
 
-### ⚠️ Hai thái cực sai lầm cần tránh (tr. 105–109)
+### Hai thái cực sai lầm cần tránh (tr. 105–109)
 
 Sách dẫn Lênin và Đại hội VI của Đảng để cảnh báo **cả hai chiều**:
 
@@ -347,17 +356,17 @@ luận, thì sẽ không có sự nghiệp đổi mới"* (tr. 114). Triết h�
 mới tư duy — giúp giải quyết các quan hệ lớn: **kinh tế thị trường ↔ chủ nghĩa xã hội**, **đổi mới kinh
 tế ↔ đổi mới chính trị** (tr. 115).
 
-### 💼 Góc QTKD — "xuất phát điểm quyết định kết quả" và bệnh giáo điều trong quản trị
-
-- **Xuất phát điểm (giả định nền) quyết định kết luận.** Hai giám đốc nhìn cùng một sụt giảm doanh số:
-người giả định "do thị trường" và người giả định "do sản phẩm" sẽ ra hai kế hoạch trái ngược — y hệt
-cách "lập trường triết học khác nhau → giải pháp khác nhau". Nên bước đầu tiên của mọi phân tích là
-**kiểm tra giả định nền**, không phải nhảy vào chi tiết.
-- **Hai thái cực của Lênin = hai bệnh quản trị kinh điển.** Xem thường lý luận → **"chữa cháy"** triền
-miên, chạy theo vụ việc, không có chiến lược. Tuyệt đối hoá lý luận → **giáo điều**: bê nguyên "best
-practice" của công ty khác, sách vở MBA, mà bỏ qua *"kinh nghiệm cụ thể"* của chính doanh nghiệp
-mình. Câu của Lênin — nguyên lý chung phải gắn *"kinh nghiệm cụ thể của lịch sử"* — chính là lý do
-một mô hình thắng ở Mỹ có thể thua ở Việt Nam.
+> [!example] Góc QTKD — "xuất phát điểm quyết định kết quả" và bệnh giáo điều trong quản trị
+>
+> - **Xuất phát điểm (giả định nền) quyết định kết luận.** Hai giám đốc nhìn cùng một sụt giảm doanh số:
+> người giả định "do thị trường" và người giả định "do sản phẩm" sẽ ra hai kế hoạch trái ngược — y hệt
+> cách "lập trường triết học khác nhau → giải pháp khác nhau". Nên bước đầu tiên của mọi phân tích là
+> **kiểm tra giả định nền**, không phải nhảy vào chi tiết.
+> - **Hai thái cực của Lênin = hai bệnh quản trị kinh điển.** Xem thường lý luận → **"chữa cháy"** triền
+> miên, chạy theo vụ việc, không có chiến lược. Tuyệt đối hoá lý luận → **giáo điều**: bê nguyên "best
+> practice" của công ty khác, sách vở MBA, mà bỏ qua *"kinh nghiệm cụ thể"* của chính doanh nghiệp
+> mình. Câu của Lênin — nguyên lý chung phải gắn *"kinh nghiệm cụ thể của lịch sử"* — chính là lý do
+> một mô hình thắng ở Mỹ có thể thua ở Việt Nam.
 
 ---
 
@@ -428,7 +437,7 @@ LÊNIN: giải "khủng hoảng vật lý" = thay duy vật siêu hình bằng d
 VAI TRÒ: xuất phát điểm (lập trường) QUYẾT ĐỊNH kết quả
   ⚠ TRÁNH 2 THÁI CỰC: xem thường lý luận (mò mẫm) | tuyệt đối hoá (giáo điều)
   VN: "không đổi mới tư duy lý luận → không có đổi mới"
-💼 QTKD: problem–solution fit · benchmarking = giữ hạt nhân bỏ cái vỏ ·
+QTKD: problem–solution fit · benchmarking = giữ hạt nhân bỏ cái vỏ ·
    chống analysis-paralysis (cải tạo, đừng chỉ giải thích) ·
    framework = cặp kính, không phải đơn thuốc · giả định nền quyết định kết luận
 ═══════════════════════════════════════════════════════════════════════════════

@@ -1,12 +1,18 @@
 # Bài 8 — Lý luận nhận thức
 
+> [!info] Về bài này
 > Bài học dựng từ **Chương 2, mục III** (tr. 257–283) của *Giáo trình Triết học Mác – Lênin* (hệ không chuyên),
 > Bộ Giáo dục và Đào tạo, **NXB Chính trị Quốc gia Sự thật, 2021**.
-> 🎯 **Vòng 1.** Nhận thức là quá trình phản ánh **tích cực, sáng tạo** thế giới khách quan vào bộ óc, **trên cơ sở thực tiễn**. Ba trục cần nắm: (1) bản chất nhận thức, (2) vai trò thực tiễn, (3) con đường cảm tính → lý tính → thực tiễn, và (4) chân lý.
-> 💼 **Góc QTKD** — ví dụ áp dụng cho ngành quản trị kinh doanh, **không có trong sách**, chỉ là phép loại suy để dễ nhớ.
-> 📚 **Mở rộng** — thứ sách nói lướt hoặc cho tên riêng mà không giải thích.
-> ⚠️ — chỗ dễ hiểu sai.
-> 📌 **Cần đọc trước:** [Bài 4](bai_04_y_thuc_va_quan_he_vat_chat_y_thuc.md), [Bài 5](bai_05_hai_nguyen_ly_cua_phep_bien_chung.md).
+>
+> **Vòng 1.** Nhận thức là quá trình phản ánh **tích cực, sáng tạo** thế giới khách quan vào bộ óc, **trên cơ sở thực tiễn**. Ba trục cần nắm: (1) bản chất nhận thức, (2) vai trò thực tiễn, (3) con đường cảm tính → lý tính → thực tiễn, và (4) chân lý.
+>
+> **Cách đọc các khối màu trong bài:**
+> - `[!quote]` — trích **nguyên văn** giáo trình (hoặc kinh điển do giáo trình dẫn), kèm số trang.
+> - `[!warning]` — chỗ **dễ hiểu sai**.
+> - `[!note]` **Mở rộng** — thứ sách nói lướt hoặc cho tên riêng mà không giải thích.
+> - `[!example]` **Góc QTKD** — ví dụ áp dụng cho ngành **quản trị kinh doanh**, *không có trong sách*, chỉ là phép loại suy để dễ nhớ.
+>
+> **Cần đọc trước:** [Bài 4](bai_04_y_thuc_va_quan_he_vat_chat_y_thuc.md), [Bài 5](bai_05_hai_nguyen_ly_cua_phep_bien_chung.md).
 
 ---
 
@@ -45,12 +51,13 @@ Chủ nghĩa duy vật biện chứng xây dựng lý luận nhận thức trên
 3. **Khẳng định khả năng nhận thức thế giới:** *"chỉ có những cái con người chưa biết chứ không có cái gì không thể biết"* (Lênin, tr. 262) — bác bỏ thuyết bất khả tri.
 4. **Thực tiễn là tiêu chuẩn** kiểm tra hình ảnh đúng, sai; *"quan điểm về đời sống, về thực tiễn, phải là quan điểm thứ nhất và cơ bản của lý luận về nhận thức"* (Lênin, tr. 262).
 
+> [!quote] Giáo trình, tr. 266
 > **Nhận thức** = quá trình phản ánh hiện thực khách quan **một cách tích cực, chủ động, sáng tạo** bởi con người **trên cơ sở thực tiễn** mang tính lịch sử cụ thể. (tr. 266)
 
-### 💼 Góc QTKD — dữ liệu phản ánh thị trường, nhưng không phải tấm gương thụ động
-
-- **Bác bỏ bất khả tri** = tin rằng thị trường, khách hàng, đối thủ **có thể hiểu được** qua nghiên cứu — chỉ là "chưa biết" chứ không "không thể biết". Đây là nền tảng của mọi hoạt động market research.
-- **Phản ánh tích cực, không thụ động** = báo cáo, dữ liệu không tự nói lên sự thật; nhà quản trị phải **chủ động diễn giải, tái cấu trúc** dữ liệu thành hiểu biết. Cùng một bảng số, người giỏi đọc ra insight, người kém chỉ thấy con số.
+> [!example] Góc QTKD — dữ liệu phản ánh thị trường, nhưng không phải tấm gương thụ động
+>
+> - **Bác bỏ bất khả tri** = tin rằng thị trường, khách hàng, đối thủ **có thể hiểu được** qua nghiên cứu — chỉ là "chưa biết" chứ không "không thể biết". Đây là nền tảng của mọi hoạt động market research.
+> - **Phản ánh tích cực, không thụ động** = báo cáo, dữ liệu không tự nói lên sự thật; nhà quản trị phải **chủ động diễn giải, tái cấu trúc** dữ liệu thành hiểu biết. Cùng một bảng số, người giỏi đọc ra insight, người kém chỉ thấy con số.
 
 ---
 
@@ -72,15 +79,16 @@ Nhận thức là **sự phản ánh tích cực, sáng tạo** thế giới v�
 | **Kinh nghiệm ↔ lý luận** | quan sát/thí nghiệm trực tiếp (tri thức kinh nghiệm) ↔ khái quát gián tiếp qua khái niệm, phán đoán để nắm bản chất, quy luật (tri thức lý luận) |
 | **Thông thường ↔ khoa học** | hình thành **tự phát**, trực tiếp trong sinh hoạt hằng ngày ↔ hình thành **chủ động, tự giác**, phản ánh liên hệ bản chất, tất nhiên, quy luật |
 
-### 💼 Góc QTKD — kinh nghiệm thực địa và lý luận quản trị bổ sung nhau
-
-- **Nhận thức kinh nghiệm ↔ lý luận** = kinh nghiệm bán hàng thực địa (biết "làm thế nào") và lý thuyết quản trị/MBA (biết "tại sao"). Người chỉ có kinh nghiệm dễ bị giới hạn ở tình huống cũ; người chỉ có lý luận dễ xa rời thực tế. Nhà quản trị giỏi **kết hợp cả hai**.
-- **Khách thể có tính lịch sử** = "thị trường" mình đang phân tích hôm nay khác thị trường 5 năm trước — đối tượng nghiên cứu luôn dịch chuyển, nên hiểu biết phải liên tục cập nhật.
+> [!example] Góc QTKD — kinh nghiệm thực địa và lý luận quản trị bổ sung nhau
+>
+> - **Nhận thức kinh nghiệm ↔ lý luận** = kinh nghiệm bán hàng thực địa (biết "làm thế nào") và lý thuyết quản trị/MBA (biết "tại sao"). Người chỉ có kinh nghiệm dễ bị giới hạn ở tình huống cũ; người chỉ có lý luận dễ xa rời thực tế. Nhà quản trị giỏi **kết hợp cả hai**.
+> - **Khách thể có tính lịch sử** = "thị trường" mình đang phân tích hôm nay khác thị trường 5 năm trước — đối tượng nghiên cứu luôn dịch chuyển, nên hiểu biết phải liên tục cập nhật.
 
 ---
 
 ## 3. Thực tiễn là gì
 
+> [!quote] Giáo trình, tr. 266–267
 > **Thực tiễn** (tiếng Hy Lạp *praktika* — "hoạt động tích cực") là **toàn bộ những hoạt động vật chất – cảm tính, có tính lịch sử – xã hội của con người nhằm cải tạo tự nhiên và xã hội phục vụ nhân loại tiến bộ.** (tr. 266–267)
 
 Các nhà duy vật trước C. Mác **chưa ai hiểu đúng** bản chất và vai trò của thực tiễn — đây là phát hiện lớn của triết học Mác. Mác: *"Khuyết điểm chủ yếu của toàn bộ chủ nghĩa duy vật từ trước đến nay… là sự vật, hiện thực… chỉ được nhận thức dưới hình thức khách thể hay hình thức trực quan, chứ không được nhận thức là hoạt động cảm giác của con người, là thực tiễn"* (Luận cương về Phoiơbắc, tr. 266).
@@ -101,10 +109,10 @@ Các nhà duy vật trước C. Mác **chưa ai hiểu đúng** bản chất và
 
 Ba hình thức tác động qua lại; **sản xuất vật chất giữ vai trò quyết định** hai hình thức còn lại (tr. 270).
 
-### 💼 Góc QTKD — kinh doanh là một dạng thực tiễn sản xuất vật chất
-
-- **Sản xuất – kinh doanh là hình thức thực tiễn cơ bản nhất.** Mọi lý thuyết quản trị đều **bắt nguồn từ** và **quay lại phục vụ** hoạt động sản xuất – kinh doanh thực. Doanh nghiệp là nơi "thực tiễn vật chất – cảm tính" diễn ra hằng ngày.
-- **Tính mục đích + phương tiện + kết quả** (tr. 268): thực tiễn cắt theo chiều dọc gồm **mục đích → phương tiện (công cụ) → kết quả** — đúng cấu trúc của một dự án/kế hoạch kinh doanh: mục tiêu sinh từ nhu cầu, chọn nguồn lực để thực hiện, kết quả phụ thuộc mục tiêu và phương tiện.
+> [!example] Góc QTKD — kinh doanh là một dạng thực tiễn sản xuất vật chất
+>
+> - **Sản xuất – kinh doanh là hình thức thực tiễn cơ bản nhất.** Mọi lý thuyết quản trị đều **bắt nguồn từ** và **quay lại phục vụ** hoạt động sản xuất – kinh doanh thực. Doanh nghiệp là nơi "thực tiễn vật chất – cảm tính" diễn ra hằng ngày.
+> - **Tính mục đích + phương tiện + kết quả** (tr. 268): thực tiễn cắt theo chiều dọc gồm **mục đích → phương tiện (công cụ) → kết quả** — đúng cấu trúc của một dự án/kế hoạch kinh doanh: mục tiêu sinh từ nhu cầu, chọn nguồn lực để thực hiện, kết quả phụ thuộc mục tiêu và phương tiện.
 
 ---
 
@@ -119,12 +127,12 @@ Ba hình thức tác động qua lại; **sản xuất vật chất giữ vai tr
 
 **Nguyên tắc thống nhất giữa lý luận và thực tiễn** (tr. 273–274): nhận thức phải gắn với nhu cầu thực tiễn; lấy thực tiễn kiểm tra đúng – sai; **tổng kết thực tiễn** để bổ sung, phát triển lý luận. Đây chính là câu hỏi ôn tập số 6 của chương (tr. 283).
 
-### 💼 Góc QTKD — "thị trường là tiêu chuẩn của chân lý"
-
-- **Thực tiễn là tiêu chuẩn của chân lý** = **thị trường quyết định** kế hoạch nào đúng. Một chiến lược hay trên slide (tri thức) chỉ được chứng minh đúng/sai khi **đưa ra thị trường**. Đây là tinh thần của **build–measure–learn** (Lean Startup), MVP, A/B testing: đừng tranh luận suông, hãy **thử nghiệm thực tế**.
-- **Thực tiễn là động lực** = chính vấn đề kinh doanh (nhu cầu thực tiễn) thúc đẩy nghiên cứu, đổi mới. Doanh nghiệp học nhanh nhất khi **đối mặt bài toán thật**, không phải khi ngồi lý thuyết.
-- **Tổng kết thực tiễn để phát triển lý luận** = văn hoá **retrospective / after-action review**: sau mỗi dự án rút ra bài học, cập nhật quy trình. Không tổng kết thì lặp lại sai lầm.
-- ⚠️ **Tiêu chuẩn tương đối** = một lần test thành công **chưa chắc** đúng mãi; thị trường đổi thì kết luận cũ có thể sai. Đừng tuyệt đối hoá một kết quả kiểm nghiệm ngắn hạn.
+> [!example] Góc QTKD — "thị trường là tiêu chuẩn của chân lý"
+>
+> - **Thực tiễn là tiêu chuẩn của chân lý** = **thị trường quyết định** kế hoạch nào đúng. Một chiến lược hay trên slide (tri thức) chỉ được chứng minh đúng/sai khi **đưa ra thị trường**. Đây là tinh thần của **build–measure–learn** (Lean Startup), MVP, A/B testing: đừng tranh luận suông, hãy **thử nghiệm thực tế**.
+> - **Thực tiễn là động lực** = chính vấn đề kinh doanh (nhu cầu thực tiễn) thúc đẩy nghiên cứu, đổi mới. Doanh nghiệp học nhanh nhất khi **đối mặt bài toán thật**, không phải khi ngồi lý thuyết.
+> - **Tổng kết thực tiễn để phát triển lý luận** = văn hoá **retrospective / after-action review**: sau mỗi dự án rút ra bài học, cập nhật quy trình. Không tổng kết thì lặp lại sai lầm.
+> - ⚠️ **Tiêu chuẩn tương đối** = một lần test thành công **chưa chắc** đúng mãi; thị trường đổi thì kết luận cũ có thể sai. Đừng tuyệt đối hoá một kết quả kiểm nghiệm ngắn hạn.
 
 ---
 
@@ -155,7 +163,8 @@ Giai đoạn đầu, gắn liền thực tiễn, phản ánh **trực tiếp** k
 - **Tri giác:** **tổng hợp nhiều cảm giác**, cho hình ảnh **trọn vẹn hơn** về sự vật; vẫn trực tiếp.
 - **Biểu tượng:** hình thức **cao nhất, phức tạp nhất** của cảm tính; hình ảnh sự vật được **tái hiện trong óc** khi sự vật **không còn trực tiếp** tác động. Là **khâu trung gian** chuyển lên lý tính.
 
-⚠️ Cảm tính **chưa phân biệt được** cái riêng – cái chung, bản chất – hiện tượng; muốn hiểu bản chất phải chuyển lên lý tính.
+> [!warning]
+> Cảm tính **chưa phân biệt được** cái riêng – cái chung, bản chất – hiện tượng; muốn hiểu bản chất phải chuyển lên lý tính.
 
 ### Nhận thức lý tính (tr. 276–278)
 
@@ -165,22 +174,24 @@ Bắt nguồn từ trực quan sinh động, qua **tư duy trừu tượng**, ph
 - **Phán đoán:** **liên kết các khái niệm**, khẳng định hay phủ định một thuộc tính; diễn đạt bằng một mệnh đề (chủ từ – hệ từ – vị từ). Có phán đoán đơn nhất, đặc thù, phổ biến.
 - **Suy lý (suy luận):** liên kết các phán đoán theo quy tắc để rút ra **kết luận** — gồm **quy nạp** (từ cái riêng → cái chung) và **diễn dịch** (từ cái chung → cái riêng). Là phương thức đi từ cái đã biết đến cái chưa biết một cách gián tiếp.
 
-⚠️ Lý tính phản ánh sâu hơn nhưng **hàm chứa nguy cơ xa rời hiện thực** → phải **gắn với thực tiễn và được thực tiễn kiểm tra** (tr. 279).
+> [!warning]
+> Lý tính phản ánh sâu hơn nhưng **hàm chứa nguy cơ xa rời hiện thực** → phải **gắn với thực tiễn và được thực tiễn kiểm tra** (tr. 279).
 
 ### Thống nhất cảm tính – lý tính – thực tiễn (tr. 278–279)
 
 Hai giai đoạn **khác nhau nhưng thống nhất, bổ sung** cho nhau: cảm tính là **cơ sở** của lý tính (không cảm tính thì không lý tính); nhờ lý tính mới **đi sâu bản chất**. Cần tránh cả **chủ nghĩa duy cảm** (tuyệt đối hoá cảm tính) lẫn **chủ nghĩa duy lý** (tuyệt đối hoá lý tính). Mỗi vòng khâu kết thúc ở thực tiễn rồi mở ra vòng mới sâu hơn → nhận thức là quá trình **vô tận**.
 
-### 💼 Góc QTKD — từ dữ liệu thô đến insight rồi ra quyết định
-
-- **Cảm tính → lý tính** = từ **dữ liệu thô** (con số, quan sát trực tiếp — "cảm giác/tri giác") đến **insight, mô hình, khái niệm** (phân khúc khách hàng, mô hình định giá — "khái niệm, phán đoán"). Dừng ở dữ liệu thô là "duy cảm"; sa vào mô hình đẹp mà quên số liệu là "duy lý".
-- **Quy nạp ↔ diễn dịch** = từ nhiều case khách hàng khái quát thành một chiến lược (quy nạp), rồi áp chiến lược chung xuống từng thị trường (diễn dịch). Quản trị dùng cả hai chiều.
-- **Vòng khâu vô tận** = chu trình **data → insight → action → data mới**: mỗi quyết định tạo dữ liệu mới cho vòng phân tích tiếp theo. Không có "điểm cuối" — thị trường luôn buộc học lại.
+> [!example] Góc QTKD — từ dữ liệu thô đến insight rồi ra quyết định
+>
+> - **Cảm tính → lý tính** = từ **dữ liệu thô** (con số, quan sát trực tiếp — "cảm giác/tri giác") đến **insight, mô hình, khái niệm** (phân khúc khách hàng, mô hình định giá — "khái niệm, phán đoán"). Dừng ở dữ liệu thô là "duy cảm"; sa vào mô hình đẹp mà quên số liệu là "duy lý".
+> - **Quy nạp ↔ diễn dịch** = từ nhiều case khách hàng khái quát thành một chiến lược (quy nạp), rồi áp chiến lược chung xuống từng thị trường (diễn dịch). Quản trị dùng cả hai chiều.
+> - **Vòng khâu vô tận** = chu trình **data → insight → action → data mới**: mỗi quyết định tạo dữ liệu mới cho vòng phân tích tiếp theo. Không có "điểm cuối" — thị trường luôn buộc học lại.
 
 ---
 
 ## 6. Chân lý và các tính chất
 
+> [!quote] Giáo trình, tr. 279
 > **Chân lý** là **tri thức phù hợp với hiện thực khách quan và được thực tiễn kiểm nghiệm.** (tr. 279)
 
 Chân lý phải hiểu như một **quá trình**, vì bản thân sự vật vận động, biến đổi và nhận thức về nó cũng vận động (tr. 280). Chân lý có **ba tính chất** (tr. 281–282):
@@ -191,11 +202,11 @@ Chân lý phải hiểu như một **quá trình**, vì bản thân sự vật v
    - **Tuyệt đối:** tri thức phản ánh **đầy đủ, toàn diện** ở một giai đoạn lịch sử. Chân lý tuyệt đối là **tổng số** các chân lý tương đối. ⚠️ Cần chống cả hai cực: tuyệt đối hoá tính tuyệt đối (giáo điều) và tuyệt đối hoá tính tương đối (phủ nhận chân lý khách quan) (tr. 282).
 3. **Tính cụ thể:** **không có chân lý trừu tượng, chung chung**; chân lý luôn gắn với **điều kiện, hoàn cảnh, không gian, thời gian xác định**. Thoát ly điều kiện cụ thể sẽ phản ánh sai. Vì vậy phải có **quan điểm lịch sử – cụ thể** trong nhận thức và hành động (tr. 282–283) — nối lại nguyên tắc lịch sử – cụ thể ở [bài 5](bai_05_hai_nguyen_ly_cua_phep_bien_chung.md).
 
-### 💼 Góc QTKD — không có "công thức thành công" chung chung
-
-- **Tính cụ thể của chân lý** = **không có best practice đúng cho mọi doanh nghiệp.** Chiến lược đúng cho Apple có thể sai cho một startup — chân lý quản trị luôn gắn điều kiện cụ thể (ngành, quy mô, thị trường, thời điểm). Bê nguyên "công thức thành công" là vi phạm tính cụ thể.
-- **Tính tương đối** = mọi mô hình, dự báo chỉ đúng **trong giới hạn** giả định của nó ("all models are wrong, some are useful"). Đừng tuyệt đối hoá một khung phân tích.
-- **Tính khách quan** = sự thật thị trường **không đổi vì mình muốn**; số đông đồng thuận hay sếp thích **không làm** một nhận định thành đúng. Chỉ hiện thực (và thực tiễn kiểm nghiệm) mới phân xử.
+> [!example] Góc QTKD — không có "công thức thành công" chung chung
+>
+> - **Tính cụ thể của chân lý** = **không có best practice đúng cho mọi doanh nghiệp.** Chiến lược đúng cho Apple có thể sai cho một startup — chân lý quản trị luôn gắn điều kiện cụ thể (ngành, quy mô, thị trường, thời điểm). Bê nguyên "công thức thành công" là vi phạm tính cụ thể.
+> - **Tính tương đối** = mọi mô hình, dự báo chỉ đúng **trong giới hạn** giả định của nó ("all models are wrong, some are useful"). Đừng tuyệt đối hoá một khung phân tích.
+> - **Tính khách quan** = sự thật thị trường **không đổi vì mình muốn**; số đông đồng thuận hay sếp thích **không làm** một nhận định thành đúng. Chỉ hiện thực (và thực tiễn kiểm nghiệm) mới phân xử.
 
 ---
 
@@ -257,7 +268,7 @@ CON ĐƯỜNG: trực quan sinh động → tư duy trừu tượng → thực t
 CHÂN LÝ = tri thức PHÙ HỢP hiện thực + được THỰC TIỄN kiểm nghiệm
    3 tính chất: KHÁCH QUAN · (TƯƠNG ĐỐI + TUYỆT ĐỐI) · CỤ THỂ (không có CL chung chung)
 
-💼 QTKD: market research bác bất khả tri · thị trường = tiêu chuẩn chân lý (Lean/MVP/A-B) ·
+QTKD: market research bác bất khả tri · thị trường = tiêu chuẩn chân lý (Lean/MVP/A-B) ·
    data→insight→action (tránh duy cảm/duy lý) · retrospective = tổng kết thực tiễn ·
    không có "công thức thành công" chung (tính cụ thể) · mô hình chỉ đúng trong giới hạn
 ═══════════════════════════════════════════════════════════════════════════════

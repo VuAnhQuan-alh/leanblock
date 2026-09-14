@@ -1,12 +1,18 @@
 # Bài 9 — Học thuyết hình thái kinh tế – xã hội
 
+> [!info] Về bài này
 > Bài học dựng từ **Chương 3, mục I** (tr. 287–329) của *Giáo trình Triết học Mác – Lênin* (hệ không chuyên),
 > Bộ Giáo dục và Đào tạo, **NXB Chính trị Quốc gia Sự thật, 2021**.
-> 🎯 **Vòng 1.** Đây là **phát minh vĩ đại** của C. Mác, "cuộc cách mạng trong triết học về xã hội". Cốt lõi: xã hội vận động theo **quy luật khách quan**, khởi từ **sản xuất vật chất**, qua **hai quy luật cơ bản** — ① quan hệ sản xuất phù hợp trình độ lực lượng sản xuất, ② cơ sở hạ tầng quyết định kiến trúc thượng tầng — làm nên **tiến trình lịch sử – tự nhiên** của các hình thái kinh tế – xã hội.
-> 💼 **Góc QTKD** — ví dụ áp dụng cho ngành quản trị kinh doanh, **không có trong sách**, chỉ là phép loại suy để dễ nhớ.
-> 📚 **Mở rộng** — thứ sách nói lướt hoặc cho tên riêng mà không giải thích.
-> ⚠️ — chỗ dễ hiểu sai.
-> 📌 **Cần đọc trước:** [Bài 5](bai_05_hai_nguyen_ly_cua_phep_bien_chung.md), [Bài 8](bai_08_ly_luan_nhan_thuc.md).
+>
+> **Vòng 1.** Đây là **phát minh vĩ đại** của C. Mác, "cuộc cách mạng trong triết học về xã hội". Cốt lõi: xã hội vận động theo **quy luật khách quan**, khởi từ **sản xuất vật chất**, qua **hai quy luật cơ bản** — ① quan hệ sản xuất phù hợp trình độ lực lượng sản xuất, ② cơ sở hạ tầng quyết định kiến trúc thượng tầng — làm nên **tiến trình lịch sử – tự nhiên** của các hình thái kinh tế – xã hội.
+>
+> **Cách đọc các khối màu trong bài:**
+> - `[!quote]` — trích **nguyên văn** giáo trình (hoặc kinh điển do giáo trình dẫn), kèm số trang.
+> - `[!warning]` — chỗ **dễ hiểu sai**.
+> - `[!note]` **Mở rộng** — thứ sách nói lướt hoặc cho tên riêng mà không giải thích.
+> - `[!example]` **Góc QTKD** — ví dụ áp dụng cho ngành **quản trị kinh doanh**, *không có trong sách*, chỉ là phép loại suy để dễ nhớ.
+>
+> **Cần đọc trước:** [Bài 5](bai_05_hai_nguyen_ly_cua_phep_bien_chung.md), [Bài 8](bai_08_ly_luan_nhan_thuc.md).
 
 ---
 
@@ -34,6 +40,7 @@
 
 Chủ nghĩa duy vật lịch sử là **phát minh vĩ đại** của C. Mác: lần đầu tiên trong lịch sử tư tưởng, chỉ ra **những quy luật, những động lực** phát triển xã hội — đem lại "một cuộc cách mạng trong triết học về xã hội" (tr. 287).
 
+> [!quote] Giáo trình, tr. 288–289
 > **Sản xuất** là hoạt động không ngừng sáng tạo ra giá trị vật chất và tinh thần nhằm thoả mãn nhu cầu tồn tại và phát triển của con người. **Sản xuất xã hội** gồm **ba phương diện** không tách rời: sản xuất **vật chất**, sản xuất **tinh thần**, và sản xuất ra **bản thân con người**. (tr. 288–289)
 
 **Sản xuất vật chất là cơ sở của sự tồn tại và phát triển xã hội** (tr. 289–291):
@@ -42,16 +49,18 @@ Chủ nghĩa duy vật lịch sử là **phát minh vĩ đại** của C. Mác: 
 - Là **tiền đề của mọi hoạt động lịch sử**: từ quan hệ kinh tế nảy sinh mọi quan hệ xã hội khác (chính trị, pháp luật, đạo đức, tôn giáo).
 - Là **điều kiện sáng tạo ra bản thân con người**: nhờ lao động sản xuất mà con người hình thành ngôn ngữ, tư duy, tình cảm. Ăngghen: *"lao động đã sáng tạo ra bản thân con người"* (tr. 291).
 
-⚠️ **Ý nghĩa phương pháp luận** (tr. 291): để nhận thức và cải tạo xã hội phải xuất phát từ đời sống sản xuất vật chất. *Xét đến cùng, không thể dùng tinh thần để giải thích đời sống tinh thần*; muốn phát triển xã hội phải bắt đầu từ phát triển **kinh tế – vật chất**.
+> [!warning] Ý nghĩa phương pháp luận
+> (tr. 291): để nhận thức và cải tạo xã hội phải xuất phát từ đời sống sản xuất vật chất. *Xét đến cùng, không thể dùng tinh thần để giải thích đời sống tinh thần*; muốn phát triển xã hội phải bắt đầu từ phát triển **kinh tế – vật chất**.
 
-### 💼 Góc QTKD — "no economics, no everything"
-
-- **Sản xuất vật chất là nền tảng** = trong doanh nghiệp, **hoạt động tạo ra giá trị thực** (sản phẩm, dịch vụ, doanh thu) là gốc; văn hoá, thương hiệu, chính sách nhân sự đều **dựng trên** nền kinh tế đó. Công ty mất khả năng tạo giá trị thì mọi thứ khác sụp theo — đúng tinh thần "ngừng lao động thì diệt vong".
+> [!example] Góc QTKD — "no economics, no everything"
+>
+> - **Sản xuất vật chất là nền tảng** = trong doanh nghiệp, **hoạt động tạo ra giá trị thực** (sản phẩm, dịch vụ, doanh thu) là gốc; văn hoá, thương hiệu, chính sách nhân sự đều **dựng trên** nền kinh tế đó. Công ty mất khả năng tạo giá trị thì mọi thứ khác sụp theo — đúng tinh thần "ngừng lao động thì diệt vong".
 
 ---
 
 ## 2. Phương thức sản xuất: lực lượng sản xuất và quan hệ sản xuất
 
+> [!quote] Giáo trình, tr. 292
 > **Phương thức sản xuất** là cách thức con người tiến hành sản xuất vật chất ở một giai đoạn lịch sử — là **sự thống nhất giữa lực lượng sản xuất với một trình độ nhất định và quan hệ sản xuất tương ứng.** (tr. 292)
 
 Đây là hai mối quan hệ "song trùng": **con người ↔ tự nhiên** (lực lượng sản xuất) và **người ↔ người** trong sản xuất (quan hệ sản xuất).
@@ -84,12 +93,13 @@ Là **tổng hợp các quan hệ kinh tế – vật chất giữa người v�
 | **Tổ chức và quản lý** sản xuất | ai điều hành, phân công lao động — quyết định trực tiếp quy mô, tốc độ, hiệu quả |
 | **Phân phối** sản phẩm | ai hưởng bao nhiêu — "chất xúc tác" kích thích hoặc kìm hãm sản xuất |
 
-⚠️ Quan hệ **sở hữu** là gốc: *"lực lượng xã hội nào nắm phương tiện vật chất chủ yếu của sản xuất thì quyết định việc quản lý và phân phối"* (tr. 298).
+> [!warning]
+> Quan hệ **sở hữu** là gốc: *"lực lượng xã hội nào nắm phương tiện vật chất chủ yếu của sản xuất thì quyết định việc quản lý và phân phối"* (tr. 298).
 
-### 💼 Góc QTKD — con người và công nghệ (LLSX) vs mô hình sở hữu – quản lý – phân phối (QHSX)
-
-- **LLSX = năng lực tạo giá trị** của doanh nghiệp: đội ngũ (người lao động) + công nghệ, máy móc, hệ thống (tư liệu sản xuất). **Con người là nhân tố hàng đầu**, công nghệ là yếu tố động nhất — đúng với thực tế "nhân tài + công nghệ quyết định năng suất".
-- **QHSX = mô hình kinh tế nội bộ**: ai sở hữu (cổ đông, ESOP), ai quản lý (cơ cấu tổ chức), phân phối lợi ích thế nào (lương, thưởng, chia cổ tức). **Quan hệ sở hữu quyết định** ai nắm quyền và cách chia thành quả — đúng như lý thuyết cấu trúc vốn và quản trị công ty (corporate governance).
+> [!example] Góc QTKD — con người và công nghệ (LLSX) vs mô hình sở hữu – quản lý – phân phối (QHSX)
+>
+> - **LLSX = năng lực tạo giá trị** của doanh nghiệp: đội ngũ (người lao động) + công nghệ, máy móc, hệ thống (tư liệu sản xuất). **Con người là nhân tố hàng đầu**, công nghệ là yếu tố động nhất — đúng với thực tế "nhân tài + công nghệ quyết định năng suất".
+> - **QHSX = mô hình kinh tế nội bộ**: ai sở hữu (cổ đông, ESOP), ai quản lý (cơ cấu tổ chức), phân phối lợi ích thế nào (lương, thưởng, chia cổ tức). **Quan hệ sở hữu quyết định** ai nắm quyền và cách chia thành quả — đúng như lý thuyết cấu trúc vốn và quản trị công ty (corporate governance).
 
 ---
 
@@ -116,11 +126,11 @@ Là **tổng hợp các quan hệ kinh tế – vật chất giữa người v�
 2. Muốn thay QHSX phải **căn cứ trình độ LLSX**, không phải bằng **mệnh lệnh hành chính** từ trên xuống. ⚠️ Chống **tuỳ tiện, chủ quan, duy tâm, duy ý chí**.
 3. 📚 Nền **kinh tế thị trường định hướng XHCN** ở Việt Nam là sự **vận dụng** quy luật này — phát triển kinh tế nhiều thành phần cho phù hợp trình độ LLSX (tr. 304).
 
-### 💼 Góc QTKD — cơ cấu tổ chức phải phù hợp trình độ phát triển của doanh nghiệp
-
-- **LLSX quyết định QHSX** = **năng lực thực tế** (đội ngũ, công nghệ) quyết định **mô hình tổ chức** phù hợp. Startup 5 người và tập đoàn 5.000 người cần cơ cấu khác nhau.
-- ⚠️ **QHSX "vượt trước" hay "đi sau" đều kìm hãm** = áp bộ máy tập đoàn cồng kềnh lên một startup non (vượt trước) hay giữ cách quản lý "gia đình" khi công ty đã lớn (đi sau) đều **bóp nghẹt** năng lực. Đây là lý do phải **tái cấu trúc đúng lúc** — nối lại quan hệ nội dung – hình thức ở [bài 7](bai_07_sau_cap_pham_tru.md).
-- **Không thay đổi bằng mệnh lệnh** = tái cấu trúc phải căn cứ **thực trạng năng lực**, không phải sao chép mô hình công ty khác bằng "sắc lệnh từ trên xuống".
+> [!example] Góc QTKD — cơ cấu tổ chức phải phù hợp trình độ phát triển của doanh nghiệp
+>
+> - **LLSX quyết định QHSX** = **năng lực thực tế** (đội ngũ, công nghệ) quyết định **mô hình tổ chức** phù hợp. Startup 5 người và tập đoàn 5.000 người cần cơ cấu khác nhau.
+> - ⚠️ **QHSX "vượt trước" hay "đi sau" đều kìm hãm** = áp bộ máy tập đoàn cồng kềnh lên một startup non (vượt trước) hay giữ cách quản lý "gia đình" khi công ty đã lớn (đi sau) đều **bóp nghẹt** năng lực. Đây là lý do phải **tái cấu trúc đúng lúc** — nối lại quan hệ nội dung – hình thức ở [bài 7](bai_07_sau_cap_pham_tru.md).
+> - **Không thay đổi bằng mệnh lệnh** = tái cấu trúc phải căn cứ **thực trạng năng lực**, không phải sao chép mô hình công ty khác bằng "sắc lệnh từ trên xuống".
 
 ---
 
@@ -128,16 +138,18 @@ Là **tổng hợp các quan hệ kinh tế – vật chất giữa người v�
 
 Quy luật cơ bản **thứ hai** của CNDV lịch sử (tr. 304–307).
 
+> [!quote] Giáo trình, tr. 305
 > **Cơ sở hạ tầng (CSHT)** là **toàn bộ những quan hệ sản xuất** của một xã hội hợp thành **cơ cấu kinh tế** hiện thực của xã hội đó. (tr. 305)
 
+> [!quote] Giáo trình, tr. 306
 > **Kiến trúc thượng tầng (KTTT)** là **toàn bộ những quan điểm, tư tưởng** (chính trị, pháp quyền, đạo đức, tôn giáo, nghệ thuật, triết học…) **cùng những thiết chế xã hội tương ứng** (nhà nước, đảng phái, giáo hội, đoàn thể…) hình thành trên một CSHT nhất định. (tr. 306)
 
 - **Cấu trúc CSHT** gồm: QHSX **thống trị** (đặc trưng cho CSHT), QHSX **tàn dư** (của xã hội cũ), QHSX **mầm mống** (của xã hội tương lai) (tr. 306).
 - Trong KTTT, bộ phận **quyền lực mạnh nhất là nhà nước** — công cụ quyền lực chính trị đặc biệt của giai cấp thống trị (tr. 307). Trong xã hội có đối kháng giai cấp, KTTT cũng **mang tính đối kháng**.
 
-### 💼 Góc QTKD — "văn hoá và thể chế công ty mọc trên nền kinh tế của công ty"
-
-- **CSHT ↔ KTTT** = **mô hình kinh doanh và cơ cấu kinh tế** (CSHT) sinh ra **văn hoá, quy chế, hệ giá trị, bộ máy quản trị** (KTTT). Một công ty kiếm tiền bằng cắt giảm chi phí sẽ có văn hoá khác hẳn công ty kiếm tiền bằng đổi mới sáng tạo — "cơ cấu kinh tế thế nào thì thể chế, văn hoá thế ấy".
+> [!example] Góc QTKD — "văn hoá và thể chế công ty mọc trên nền kinh tế của công ty"
+>
+> - **CSHT ↔ KTTT** = **mô hình kinh doanh và cơ cấu kinh tế** (CSHT) sinh ra **văn hoá, quy chế, hệ giá trị, bộ máy quản trị** (KTTT). Một công ty kiếm tiền bằng cắt giảm chi phí sẽ có văn hoá khác hẳn công ty kiếm tiền bằng đổi mới sáng tạo — "cơ cấu kinh tế thế nào thì thể chế, văn hoá thế ấy".
 
 ---
 
@@ -163,10 +175,10 @@ Quy luật này là cơ sở khoa học nhận thức đúng **quan hệ kinh t�
 
 Đảng Cộng sản Việt Nam đổi mới **toàn diện** cả kinh tế và chính trị, lấy **đổi mới kinh tế làm trung tâm**, đổi mới chính trị **từng bước thận trọng** (tr. 316).
 
-### 💼 Góc QTKD — chiến lược quyết định cơ cấu, nhưng cơ cấu tác động lại chiến lược
-
-- **CSHT quyết định KTTT** = **mô hình kinh tế** quyết định **thể chế quản trị** — không thể áp một bộ quy chế, KPI, văn hoá **ngược lại** logic kiếm tiền của công ty. Cải cách văn hoá mà không đổi mô hình kinh doanh gốc thì "về cũ".
-- **KTTT tác động lại** = thể chế, văn hoá tốt (KTTT) có thể **thúc đẩy mạnh** mô hình kinh doanh — nhưng nếu đi ngược quy luật kinh tế (ví dụ đặt KPI phi thực tế) thì **thất bại**. "Structure follows strategy" (Chandler) chính là tinh thần CSHT quyết định KTTT.
+> [!example] Góc QTKD — chiến lược quyết định cơ cấu, nhưng cơ cấu tác động lại chiến lược
+>
+> - **CSHT quyết định KTTT** = **mô hình kinh tế** quyết định **thể chế quản trị** — không thể áp một bộ quy chế, KPI, văn hoá **ngược lại** logic kiếm tiền của công ty. Cải cách văn hoá mà không đổi mô hình kinh doanh gốc thì "về cũ".
+> - **KTTT tác động lại** = thể chế, văn hoá tốt (KTTT) có thể **thúc đẩy mạnh** mô hình kinh doanh — nhưng nếu đi ngược quy luật kinh tế (ví dụ đặt KPI phi thực tế) thì **thất bại**. "Structure follows strategy" (Chandler) chính là tinh thần CSHT quyết định KTTT.
 
 ---
 
@@ -174,6 +186,7 @@ Quy luật này là cơ sở khoa học nhận thức đúng **quan hệ kinh t�
 
 ### Phạm trù hình thái kinh tế – xã hội (tr. 317–318)
 
+> [!quote] Giáo trình, tr. 317
 > **Hình thái kinh tế – xã hội** là phạm trù cơ bản của CNDV lịch sử, chỉ **xã hội ở từng nấc thang lịch sử nhất định**, với **ba yếu tố cơ bản** gắn bó: **lực lượng sản xuất – quan hệ sản xuất (cơ sở hạ tầng) – kiến trúc thượng tầng.** (tr. 317)
 
 ```
@@ -194,9 +207,9 @@ Ba yếu tố này là sự **trừu tượng hoá** những mặt chung nhất 
 - ⚠️ **Thống nhất giữa lôgích và lịch sử**: bên cạnh phát triển **tuần tự**, có thể phát triển **"bỏ qua"** một hay vài hình thái đối với một số quốc gia — nhờ **quy luật phát triển không đều** và **quy luật kế thừa** (giao lưu, hợp tác quốc tế cho phép nước đi sau rút ngắn) (tr. 320–321).
 - 📚 **"Bỏ qua" là gì:** rút ngắn các giai đoạn, mà **cốt lõi là sự tăng trưởng nhảy vọt của lực lượng sản xuất** (tr. 321) — không phải bỏ qua bằng ý chí, mà dựa trên điều kiện khách quan của thời đại + nhân tố chủ quan của mỗi dân tộc.
 
-### 💼 Góc QTKD — mô hình "leapfrogging" (đi tắt đón đầu)
-
-- **Phát triển "bỏ qua"** = hiện tượng **leapfrogging** trong kinh doanh: nước/doanh nghiệp đi sau **nhảy thẳng** lên công nghệ mới, bỏ qua giai đoạn trung gian (ví dụ nhiều nước bỏ qua điện thoại cố định, đi thẳng lên di động; bỏ qua thẻ tín dụng, đi thẳng ví điện tử). Điều kiện: **tăng trưởng nhảy vọt của năng lực (LLSX)** — không thể "bỏ qua" bằng ý chí suông.
+> [!example] Góc QTKD — mô hình "leapfrogging" (đi tắt đón đầu)
+>
+> - **Phát triển "bỏ qua"** = hiện tượng **leapfrogging** trong kinh doanh: nước/doanh nghiệp đi sau **nhảy thẳng** lên công nghệ mới, bỏ qua giai đoạn trung gian (ví dụ nhiều nước bỏ qua điện thoại cố định, đi thẳng lên di động; bỏ qua thẻ tín dụng, đi thẳng ví điện tử). Điều kiện: **tăng trưởng nhảy vọt của năng lực (LLSX)** — không thể "bỏ qua" bằng ý chí suông.
 
 ---
 
@@ -210,16 +223,16 @@ Học thuyết hình thái KT–XH là **hòn đá tảng của khoa học xã h
 
 Học thuyết là cơ sở khoa học cho con đường **quá độ lên CNXH, bỏ qua chế độ tư bản chủ nghĩa** ở Việt Nam — hiểu đúng là *bỏ qua việc xác lập vị trí thống trị của QHSX và KTTT tư bản chủ nghĩa, nhưng **tiếp thu, kế thừa** những thành tựu kinh tế và khoa học – công nghệ mà nhân loại đạt được* (Văn kiện Đảng, dẫn tr. 323).
 
-### 📚 Mở rộng — phê phán Fukuyama và Huntington (tr. 324–329)
+> [!note] Mở rộng — phê phán Fukuyama và Huntington (tr. 324–329)
+>
+> Sách dành hẳn phần này đối thoại với hai học giả phương Tây phản bác Mác:
+>
+> - **Francis Fukuyama — "Sự kết thúc của lịch sử"** (1989/1992): sau khi Liên Xô sụp, cho rằng dân chủ tự do phương Tây là "hình thức cuối cùng" của chính quyền, lịch sử "dừng lại". ⚠️ Sách phản biện: luận điểm này **bị phê phán trên toàn thế giới** (kể cả ở Mỹ) sau khủng bố 11/9, khủng hoảng tài chính 2007–2008, phong trào Chiếm phố Wall 2011 — chủ nghĩa tư bản dù tự cải tạo vẫn mang bản chất **bóc lột, xâm chiếm, bất bình đẳng** (tr. 326).
+> - **Samuel Huntington — "Sự va chạm của các nền văn minh"** (1993): thay động lực lịch sử bằng xung đột văn hoá – tôn giáo. Sách coi đây là cố gắng thay thế học thuyết Mác nhưng không bác bỏ được vai trò nền tảng của phương thức sản xuất.
 
-Sách dành hẳn phần này đối thoại với hai học giả phương Tây phản bác Mác:
-
-- **Francis Fukuyama — "Sự kết thúc của lịch sử"** (1989/1992): sau khi Liên Xô sụp, cho rằng dân chủ tự do phương Tây là "hình thức cuối cùng" của chính quyền, lịch sử "dừng lại". ⚠️ Sách phản biện: luận điểm này **bị phê phán trên toàn thế giới** (kể cả ở Mỹ) sau khủng bố 11/9, khủng hoảng tài chính 2007–2008, phong trào Chiếm phố Wall 2011 — chủ nghĩa tư bản dù tự cải tạo vẫn mang bản chất **bóc lột, xâm chiếm, bất bình đẳng** (tr. 326).
-- **Samuel Huntington — "Sự va chạm của các nền văn minh"** (1993): thay động lực lịch sử bằng xung đột văn hoá – tôn giáo. Sách coi đây là cố gắng thay thế học thuyết Mác nhưng không bác bỏ được vai trò nền tảng của phương thức sản xuất.
-
-### 💼 Góc QTKD — kế thừa "thành tựu" mà không sao chép "mô hình"
-
-- **"Bỏ qua nhưng kế thừa thành tựu"** = tinh thần **benchmarking có chọn lọc**: học **công nghệ, kỹ thuật quản trị tiên tiến** của đối thủ/thị trường phát triển, nhưng **không bê nguyên mô hình** không phù hợp điều kiện của mình — nối lại tính cụ thể của chân lý ở [bài 8](bai_08_ly_luan_nhan_thuc.md).
+> [!example] Góc QTKD — kế thừa "thành tựu" mà không sao chép "mô hình"
+>
+> - **"Bỏ qua nhưng kế thừa thành tựu"** = tinh thần **benchmarking có chọn lọc**: học **công nghệ, kỹ thuật quản trị tiên tiến** của đối thủ/thị trường phát triển, nhưng **không bê nguyên mô hình** không phù hợp điều kiện của mình — nối lại tính cụ thể của chân lý ở [bài 8](bai_08_ly_luan_nhan_thuc.md).
 
 ---
 
@@ -282,7 +295,7 @@ PHÁT MINH VĨ ĐẠI của Mác: xã hội vận động theo QUY LUẬT KHÁCH
    có thể PHÁT TRIỂN "BỎ QUA" (cốt lõi: LLSX nhảy vọt) — VN quá độ bỏ qua TBCN
    📚 phê phán Fukuyama "kết thúc lịch sử" & Huntington "va chạm văn minh"
 
-💼 QTKD: giá trị thực là gốc · con người+công nghệ(LLSX) vs sở hữu–quản lý–phân phối(QHSX) ·
+QTKD: giá trị thực là gốc · con người+công nghệ(LLSX) vs sở hữu–quản lý–phân phối(QHSX) ·
    cơ cấu phải phù hợp quy mô (tái cấu trúc đúng lúc) · structure follows strategy ·
    leapfrogging(bỏ qua) · benchmarking kế thừa thành tựu không sao chép mô hình
 ═══════════════════════════════════════════════════════════════════════════════

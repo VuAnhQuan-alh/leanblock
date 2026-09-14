@@ -1,12 +1,18 @@
 # Bài 6 — Ba quy luật cơ bản của phép biện chứng duy vật
 
+> [!info] Về bài này
 > Bài học dựng từ **Chương 2, mục II.2.c** (tr. 234–256) của *Giáo trình Triết học Mác – Lênin* (hệ không chuyên),
 > Bộ Giáo dục và Đào tạo, **NXB Chính trị Quốc gia Sự thật, 2021**.
-> 🎯⭐ **Vòng 1 — trọng tâm thi.** Ba quy luật trả lời ba câu: phát triển diễn ra **cách nào** (lượng–chất), **do đâu** (mâu thuẫn), **theo hướng nào** (phủ định của phủ định).
-> 💼 **Góc QTKD** — ví dụ áp dụng cho ngành quản trị kinh doanh, **không có trong sách**, chỉ là phép loại suy để dễ nhớ.
-> 📚 **Mở rộng** — thứ sách nói lướt hoặc cho tên riêng mà không giải thích.
-> ⚠️ — chỗ dễ hiểu sai.
-> 📌 **Cần đọc trước:** [Bài 5 — Hai nguyên lý của phép biện chứng](bai_05_hai_nguyen_ly_cua_phep_bien_chung.md).
+>
+> ⭐ **Vòng 1 — trọng tâm thi.** Ba quy luật trả lời ba câu: phát triển diễn ra **cách nào** (lượng–chất), **do đâu** (mâu thuẫn), **theo hướng nào** (phủ định của phủ định).
+>
+> **Cách đọc các khối màu trong bài:**
+> - `[!quote]` — trích **nguyên văn** giáo trình (hoặc kinh điển do giáo trình dẫn), kèm số trang.
+> - `[!warning]` — chỗ **dễ hiểu sai**.
+> - `[!note]` **Mở rộng** — thứ sách nói lướt hoặc cho tên riêng mà không giải thích.
+> - `[!example]` **Góc QTKD** — ví dụ áp dụng cho ngành **quản trị kinh doanh**, *không có trong sách*, chỉ là phép loại suy để dễ nhớ.
+>
+> **Cần đọc trước:** [Bài 5 — Hai nguyên lý của phép biện chứng](bai_05_hai_nguyen_ly_cua_phep_bien_chung.md).
 
 ---
 
@@ -32,6 +38,7 @@
 
 ## 1. Quy luật là gì
 
+> [!quote] Giáo trình, tr. 234
 > **Quy luật** là **mối liên hệ phổ biến, khách quan, bản chất, bền vững, tất yếu** giữa các đối tượng
 > và nhất định tác động khi có các điều kiện phù hợp. (tr. 234)
 
@@ -71,12 +78,13 @@ ngưỡng → nhảy vọt về chất** (tr. 237).
 | **Điểm nút** | điểm giới hạn mà tại đó lượng thay đổi đủ để **phá vỡ độ cũ**, làm chất đổi (tr. 241) |
 | **Bước nhảy** | giai đoạn chuyển hoá cơ bản về chất, do lượng tích luỹ gây ra; **bước ngoặt**, sự gián đoạn (tr. 242) |
 
-⚠️ Hai điểm sâu, hay bị bỏ:
-- **Chất phụ thuộc cả phương thức liên kết (kết cấu), không chỉ các yếu tố.** Ví dụ kinh điển của sách:
-  **kim cương và than chì cùng là cacbon**, nhưng *phương thức liên kết* khác nhau → chất khác hẳn
-  (một cứng, một mềm) (tr. 239). Cùng con người, thay đổi *cách liên kết* trong tập thể thì tập thể có
-  thể mạnh lên hoặc yếu đi.
-- **Chất – lượng chỉ tương đối:** cái là *lượng* trong quan hệ này có thể là *chất* trong quan hệ khác (tr. 240).
+> [!warning]
+> Hai điểm sâu, hay bị bỏ:
+> - **Chất phụ thuộc cả phương thức liên kết (kết cấu), không chỉ các yếu tố.** Ví dụ kinh điển của sách:
+>   **kim cương và than chì cùng là cacbon**, nhưng *phương thức liên kết* khác nhau → chất khác hẳn
+>   (một cứng, một mềm) (tr. 239). Cùng con người, thay đổi *cách liên kết* trong tập thể thì tập thể có
+>   thể mạnh lên hoặc yếu đi.
+> - **Chất – lượng chỉ tương đối:** cái là *lượng* trong quan hệ này có thể là *chất* trong quan hệ khác (tr. 240).
 
 ### Phân loại bước nhảy (tr. 243)
 
@@ -106,23 +114,23 @@ Bốn ý (tr. 244) — trong đó **hai bệnh cần chống** là phần dễ r
    "đốt cháy giai đoạn"                       coi phát triển chỉ là tăng lượng
 ```
 
-### 💼 Góc QTKD — scale đúng thời điểm: đừng nhảy sớm, đừng bỏ lỡ điểm nút
-
-Quy luật lượng – chất là **bản đồ tăng trưởng doanh nghiệp**:
-
-- **Tích luỹ lượng → nhảy vọt chất.** Startup tích luỹ khách hàng, dữ liệu, vốn, năng lực (lượng) đến
-  ngưỡng thì **nhảy vọt về mô hình** (startup → scale-up → tập đoàn) — đổi *chất* tổ chức. Không thể
-  "nhảy" thành tập đoàn khi chưa tích đủ nền tảng.
-- **"Độ" = vùng an toàn để lớn dần; "điểm nút" = thời cơ chuyển mình.** Trong "độ", cứ tối ưu và tích
-  luỹ. Đến "điểm nút" (đủ nguồn lực, thị trường chín) thì phải **quyết đoán mở rộng/gọi vốn/tái cấu trúc**.
-- ⚠️ **Hai bệnh scale kinh điển** khớp y hai bệnh của sách:
-  - **Nôn nóng (tả khuynh):** mở 50 chi nhánh khi mô hình một chi nhánh chưa có lãi — "nhảy" khi lượng
-    chưa đủ → sụp. (Nhiều startup chết vì *premature scaling*.)
-  - **Bảo thủ (hữu khuynh):** thị trường đã chín, đối thủ đang tràn vào mà vẫn "làm nhỏ cho chắc" → bỏ
-    lỡ điểm nút, mất thời cơ.
-- **"Kim cương vs than chì":** cùng nguồn lực (cùng số nhân sự, vốn), **cơ cấu tổ chức khác nhau** cho
-  "chất" doanh nghiệp khác nhau. Tái cấu trúc (đổi *phương thức liên kết*) có thể nâng chất mà không cần
-  thêm nguồn lực.
+> [!example] Góc QTKD — scale đúng thời điểm: đừng nhảy sớm, đừng bỏ lỡ điểm nút
+>
+> Quy luật lượng – chất là **bản đồ tăng trưởng doanh nghiệp**:
+>
+> - **Tích luỹ lượng → nhảy vọt chất.** Startup tích luỹ khách hàng, dữ liệu, vốn, năng lực (lượng) đến
+>   ngưỡng thì **nhảy vọt về mô hình** (startup → scale-up → tập đoàn) — đổi *chất* tổ chức. Không thể
+>   "nhảy" thành tập đoàn khi chưa tích đủ nền tảng.
+> - **"Độ" = vùng an toàn để lớn dần; "điểm nút" = thời cơ chuyển mình.** Trong "độ", cứ tối ưu và tích
+>   luỹ. Đến "điểm nút" (đủ nguồn lực, thị trường chín) thì phải **quyết đoán mở rộng/gọi vốn/tái cấu trúc**.
+> - ⚠️ **Hai bệnh scale kinh điển** khớp y hai bệnh của sách:
+>   - **Nôn nóng (tả khuynh):** mở 50 chi nhánh khi mô hình một chi nhánh chưa có lãi — "nhảy" khi lượng
+>     chưa đủ → sụp. (Nhiều startup chết vì *premature scaling*.)
+>   - **Bảo thủ (hữu khuynh):** thị trường đã chín, đối thủ đang tràn vào mà vẫn "làm nhỏ cho chắc" → bỏ
+>     lỡ điểm nút, mất thời cơ.
+> - **"Kim cương vs than chì":** cùng nguồn lực (cùng số nhân sự, vốn), **cơ cấu tổ chức khác nhau** cho
+>   "chất" doanh nghiệp khác nhau. Tái cấu trúc (đổi *phương thức liên kết*) có thể nâng chất mà không cần
+>   thêm nguồn lực.
 
 ---
 
@@ -143,8 +151,10 @@ học thuyết về sự thống nhất của các mặt đối lập"* (dẫn t
   3. giữa chúng có **sự tương đồng, đồng nhất** → trong điều kiện phù hợp **chuyển hoá vào nhau**.
 - **Đấu tranh của các mặt đối lập:** sự tác động theo hướng bài trừ, phủ định lẫn nhau.
 
-⚠️ **Cặp tuyệt đối / tương đối — câu hỏi kinh điển** (tr. 247):
+> [!warning] Cặp tuyệt đối / tương đối — câu hỏi kinh điển
+> (tr. 247):
 
+> [!quote] dẫn tr. 247
 > **Thống nhất là tương đối** (gắn với đứng im, ổn định tạm thời); **đấu tranh là tuyệt đối** (gắn với
 > vận động không ngừng). Lênin: *"Sự phát triển là một cuộc 'đấu tranh' giữa các mặt đối lập."* (dẫn tr. 247)
 
@@ -172,19 +182,19 @@ Kết luận (tr. 250): **mâu thuẫn bên trong (thống nhất và đấu tra
 3. **Giải quyết mâu thuẫn bằng đấu tranh** giữa các mặt đối lập — *"không điều hoà mâu thuẫn cũng không
    nóng vội hay bảo thủ"*; giải quyết còn phụ thuộc điều kiện đã chín muồi hay chưa.
 
-### 💼 Góc QTKD — mâu thuẫn nội tại là động cơ tăng trưởng; xác định mâu thuẫn chủ yếu để tập trung
-
-- **Mọi tổ chức phát triển đều mang mâu thuẫn nội tại** — và đó là *động lực*, không phải điều xấu:
-  tăng trưởng ↔ kiểm soát chất lượng; đổi mới ↔ ổn định; lợi nhuận ngắn hạn ↔ đầu tư dài hạn; tập trung
-  ↔ phân quyền. **Giải quyết** các mâu thuẫn này = phát triển; **né tránh / xuê xoa** = trì trệ.
-- **Mâu thuẫn chủ yếu = nút thắt của giai đoạn.** Ở mỗi giai đoạn chỉ một vài mâu thuẫn *quyết định*.
-  Nhà quản trị giỏi **xác định mâu thuẫn chủ yếu** (bottleneck, đòn bẩy) và tập trung giải quyết nó —
-  giải quyết nó xong thì các mâu thuẫn khác dễ theo. Dàn trải giải quyết mọi thứ cùng lúc là sai.
-- **Mâu thuẫn bên trong quyết định.** Năng lực nội tại (con người, mô hình, văn hoá) quyết định số phận
-  doanh nghiệp hơn yếu tố bên ngoài (thị trường, đối thủ) — ngoại lực chỉ phát huy *qua* nội lực.
-- ⚠️ **Không điều hoà, không nóng vội:** né tránh xung đột (giả vờ "ai cũng đúng") thì mâu thuẫn tích tụ
-  bùng nổ; nhưng ép giải quyết khi *chưa chín muồi* (thiếu dữ liệu, thiếu nguồn lực) cũng hỏng. Chọn
-  đúng **thời điểm chín muồi** để giải quyết.
+> [!example] Góc QTKD — mâu thuẫn nội tại là động cơ tăng trưởng; xác định mâu thuẫn chủ yếu để tập trung
+>
+> - **Mọi tổ chức phát triển đều mang mâu thuẫn nội tại** — và đó là *động lực*, không phải điều xấu:
+>   tăng trưởng ↔ kiểm soát chất lượng; đổi mới ↔ ổn định; lợi nhuận ngắn hạn ↔ đầu tư dài hạn; tập trung
+>   ↔ phân quyền. **Giải quyết** các mâu thuẫn này = phát triển; **né tránh / xuê xoa** = trì trệ.
+> - **Mâu thuẫn chủ yếu = nút thắt của giai đoạn.** Ở mỗi giai đoạn chỉ một vài mâu thuẫn *quyết định*.
+>   Nhà quản trị giỏi **xác định mâu thuẫn chủ yếu** (bottleneck, đòn bẩy) và tập trung giải quyết nó —
+>   giải quyết nó xong thì các mâu thuẫn khác dễ theo. Dàn trải giải quyết mọi thứ cùng lúc là sai.
+> - **Mâu thuẫn bên trong quyết định.** Năng lực nội tại (con người, mô hình, văn hoá) quyết định số phận
+>   doanh nghiệp hơn yếu tố bên ngoài (thị trường, đối thủ) — ngoại lực chỉ phát huy *qua* nội lực.
+> - ⚠️ **Không điều hoà, không nóng vội:** né tránh xung đột (giả vờ "ai cũng đúng") thì mâu thuẫn tích tụ
+>   bùng nổ; nhưng ép giải quyết khi *chưa chín muồi* (thiếu dữ liệu, thiếu nguồn lực) cũng hỏng. Chọn
+>   đúng **thời điểm chín muồi** để giải quyết.
 
 ---
 
@@ -200,8 +210,10 @@ từ cái cũ) của phát triển (tr. 251).
 - **Kế thừa biện chứng:** cái mới **giữ lại có chọn lọc và cải tạo** những yếu tố còn phù hợp của cái
   cũ; loại bỏ cái lỗi thời (tr. 252).
 
-⚠️ **Đối lập cần nhớ** (tr. 253):
+> [!warning] Đối lập cần nhớ
+> (tr. 253):
 
+> [!quote]
 > **Phủ định biện chứng** (giữ lại và cải tạo hạt nhân hợp lý) ≠ **phủ định sạch trơn** (siêu hình, xoá
 > bỏ toàn bộ) và ≠ **kế thừa siêu hình** (giữ nguyên si cả cái lỗi thời).
 
@@ -232,18 +244,18 @@ Bốn ý (tr. 256):
    có ý thức** của con người.
 4. **Ủng hộ cái mới**, tạo điều kiện cho nó phát triển; **biết kế thừa có chọn lọc** cái tích cực của cái cũ.
 
-### 💼 Góc QTKD — đổi mới là "kế thừa có chọn lọc", và mô hình quay lại ở tầng cao hơn
-
-- **Phủ định biện chứng ≠ đập đi làm lại sạch trơn.** Chuyển đổi số, tái định vị thương hiệu, thay CEO —
-  cái mới thắng cái cũ nhưng phải **kế thừa** năng lực lõi, dữ liệu khách hàng, giá trị văn hoá còn phù
-  hợp. Phủ định sạch trơn (bỏ hết di sản) thường phá huỷ giá trị; kế thừa siêu hình (giữ nguyên cả cái
-  lỗi thời) thì trì trệ. Đổi mới khôn ngoan đi giữa hai cực.
-- **Đường xoáy ốc = "lặp lại ở tầng cao hơn".** Nhiều xu hướng kinh doanh quay vòng: bán trực tiếp →
-  qua đại lý/trung gian → **lại bán trực tiếp (D2C)** nhưng bằng nền tảng số, dữ liệu — *"dường như lặp
-  lại nhưng trên cơ sở cao hơn"*. Nhận ra tính xoáy ốc giúp đọc chu kỳ ngành và không nhầm "quay lại"
-  với "thụt lùi".
-- **Phát triển quanh co, có bước lùi** → đừng đánh giá một chiến lược qua một quý xấu; xu hướng dài hạn
-  mới quan trọng (nối lại nguyên lý phát triển ở [bài 5](bai_05_hai_nguyen_ly_cua_phep_bien_chung.md)).
+> [!example] Góc QTKD — đổi mới là "kế thừa có chọn lọc", và mô hình quay lại ở tầng cao hơn
+>
+> - **Phủ định biện chứng ≠ đập đi làm lại sạch trơn.** Chuyển đổi số, tái định vị thương hiệu, thay CEO —
+>   cái mới thắng cái cũ nhưng phải **kế thừa** năng lực lõi, dữ liệu khách hàng, giá trị văn hoá còn phù
+>   hợp. Phủ định sạch trơn (bỏ hết di sản) thường phá huỷ giá trị; kế thừa siêu hình (giữ nguyên cả cái
+>   lỗi thời) thì trì trệ. Đổi mới khôn ngoan đi giữa hai cực.
+> - **Đường xoáy ốc = "lặp lại ở tầng cao hơn".** Nhiều xu hướng kinh doanh quay vòng: bán trực tiếp →
+>   qua đại lý/trung gian → **lại bán trực tiếp (D2C)** nhưng bằng nền tảng số, dữ liệu — *"dường như lặp
+>   lại nhưng trên cơ sở cao hơn"*. Nhận ra tính xoáy ốc giúp đọc chu kỳ ngành và không nhầm "quay lại"
+>   với "thụt lùi".
+> - **Phát triển quanh co, có bước lùi** → đừng đánh giá một chiến lược qua một quý xấu; xu hướng dài hạn
+>   mới quan trọng (nối lại nguyên lý phát triển ở [bài 5](bai_05_hai_nguyen_ly_cua_phep_bien_chung.md)).
 
 ---
 
@@ -303,7 +315,7 @@ QUY LUẬT = mối liên hệ phổ biến, khách quan, bản chất, bền v�
    phủ định BIỆN CHỨNG (tự phủ định + KẾ THỪA) ≠ phủ định sạch trơn / kế thừa siêu hình
    ≥2 lần phủ định: A → không-A → A' ("lặp lại" nhưng TRÊN CƠ SỞ CAO HƠN)
    → ủng hộ cái mới, kế thừa có chọn lọc; phát triển quanh co, có bước lùi
-💼 QTKD: scale đúng điểm nút (tránh premature scaling & bỏ lỡ thời cơ) · tái cấu trúc
+QTKD: scale đúng điểm nút (tránh premature scaling & bỏ lỡ thời cơ) · tái cấu trúc
    đổi chất không cần thêm lực · mâu thuẫn nội tại = động cơ · xác định nút thắt chủ yếu ·
    đổi mới = kế thừa có chọn lọc · mô hình quay lại ở tầng cao hơn (D2C)
 ═══════════════════════════════════════════════════════════════════════════════

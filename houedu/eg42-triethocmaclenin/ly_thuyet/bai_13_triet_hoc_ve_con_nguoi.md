@@ -1,12 +1,18 @@
 # Bài 13 — Triết học về con người
 
+> [!info] Về bài này
 > Bài học dựng từ **Chương 3, mục V** (tr. 447–488) của *Giáo trình Triết học Mác – Lênin* (hệ không chuyên),
 > Bộ Giáo dục và Đào tạo, **NXB Chính trị Quốc gia Sự thật, 2021**.
-> 🔸 **Vòng 2.** Bài **kết** của khoá — điểm hội tụ của toàn bộ chủ nghĩa duy vật lịch sử: con người là **thực thể sinh học – xã hội**, **bản chất là tổng hoà các quan hệ xã hội**, vừa là **sản phẩm** vừa là **chủ thể** của lịch sử; từ đó là **tha hoá – giải phóng con người**, **quan hệ cá nhân – xã hội**, **vai trò quần chúng và lãnh tụ**, và tư tưởng Hồ Chí Minh về con người.
-> 💼 **Góc QTKD** — ví dụ áp dụng cho ngành quản trị kinh doanh, **không có trong sách**, chỉ là phép loại suy để dễ nhớ.
-> 📚 **Mở rộng** — thứ sách nói lướt hoặc cho tên riêng mà không giải thích.
-> ⚠️ — chỗ dễ hiểu sai.
-> 📌 **Cần đọc trước:** [Bài 9](bai_09_hinh_thai_kinh_te_xa_hoi.md), [Bài 10](bai_10_giai_cap_va_dan_toc.md).
+>
+> **Vòng 2.** Bài **kết** của khoá — điểm hội tụ của toàn bộ chủ nghĩa duy vật lịch sử: con người là **thực thể sinh học – xã hội**, **bản chất là tổng hoà các quan hệ xã hội**, vừa là **sản phẩm** vừa là **chủ thể** của lịch sử; từ đó là **tha hoá – giải phóng con người**, **quan hệ cá nhân – xã hội**, **vai trò quần chúng và lãnh tụ**, và tư tưởng Hồ Chí Minh về con người.
+>
+> **Cách đọc các khối màu trong bài:**
+> - `[!quote]` — trích **nguyên văn** giáo trình (hoặc kinh điển do giáo trình dẫn), kèm số trang.
+> - `[!warning]` — chỗ **dễ hiểu sai**.
+> - `[!note]` **Mở rộng** — thứ sách nói lướt hoặc cho tên riêng mà không giải thích.
+> - `[!example]` **Góc QTKD** — ví dụ áp dụng cho ngành **quản trị kinh doanh**, *không có trong sách*, chỉ là phép loại suy để dễ nhớ.
+>
+> **Cần đọc trước:** [Bài 9](bai_09_hinh_thai_kinh_te_xa_hoi.md), [Bài 10](bai_10_giai_cap_va_dan_toc.md).
 
 ---
 
@@ -36,11 +42,12 @@ Theo Mác, con người là một **sinh vật có tính xã hội** ở trình 
 - **Phương diện sinh học:** con người là sản phẩm của tự nhiên, "một động vật xã hội"; giới tự nhiên là **"thân thể vô cơ"** của con người (Mác) — phải phục tùng các quy luật sinh học, sinh tồn thể xác. ⚠️ Nhưng **không được tuyệt đối hoá** mặt sinh học (tr. 448).
 - **Phương diện xã hội:** ⭐ **lao động sản xuất** là hoạt động đặc trưng, là điều kiện quyết định biến con người từ động vật thành người đúng nghĩa. Mác: *"Người là giống vật duy nhất có thể bằng lao động mà thoát khỏi trạng thái thuần tuý là loài vật"* (tr. 449). Nhờ lao động và **giao tiếp xã hội**, con người có **tư duy, ý thức, ngôn ngữ**.
 
-📚 **Điểm khác biệt căn bản với con vật (tr. 450–451):** con người **sản xuất** ra tư liệu sinh hoạt của mình, con vật chỉ **hái lượm** cái có sẵn. *"Con vật chỉ tái sản xuất ra bản thân nó, còn con người thì tái sản xuất ra toàn bộ giới tự nhiên"* — lao động là dấu hiệu phân biệt căn bản, chi phối mọi khác biệt khác.
+> [!note] Mở rộng
+> **Điểm khác biệt căn bản với con vật (tr. 450–451):** con người **sản xuất** ra tư liệu sinh hoạt của mình, con vật chỉ **hái lượm** cái có sẵn. *"Con vật chỉ tái sản xuất ra bản thân nó, còn con người thì tái sản xuất ra toàn bộ giới tự nhiên"* — lao động là dấu hiệu phân biệt căn bản, chi phối mọi khác biệt khác.
 
-### 💼 Góc QTKD — con người vừa có nhu cầu sinh học, vừa là thực thể xã hội
-
-- **Không tuyệt đối hoá mặt sinh học lẫn xã hội** = quản trị nhân sự phải thấy con người **cả hai mặt**: nhu cầu vật chất – sinh tồn (lương, điều kiện làm việc — tầng dưới tháp Maslow) **và** nhu cầu xã hội – tinh thần (thuộc về, được ghi nhận, ý nghĩa công việc). Chỉ lo một mặt thì động lực không bền. Đây là nền của **động lực nội tại (intrinsic motivation)** và thiết kế công việc có ý nghĩa.
+> [!example] Góc QTKD — con người vừa có nhu cầu sinh học, vừa là thực thể xã hội
+>
+> - **Không tuyệt đối hoá mặt sinh học lẫn xã hội** = quản trị nhân sự phải thấy con người **cả hai mặt**: nhu cầu vật chất – sinh tồn (lương, điều kiện làm việc — tầng dưới tháp Maslow) **và** nhu cầu xã hội – tinh thần (thuộc về, được ghi nhận, ý nghĩa công việc). Chỉ lo một mặt thì động lực không bền. Đây là nền của **động lực nội tại (intrinsic motivation)** và thiết kế công việc có ý nghĩa.
 
 ---
 
@@ -52,6 +59,7 @@ Mác phê phán Feuerbach xem con người **trừu tượng, tách khỏi** đi
 
 ### Luận đề nổi tiếng (tr. 456)
 
+> [!quote] Mác, *Luận cương về Feuerbach*, dẫn tr. 456
 > *"Trong tính hiện thực của nó, **bản chất con người là tổng hoà những quan hệ xã hội**."* (Mác, *Luận cương về Feuerbach*, dẫn tr. 456)
 
 Cần hiểu đúng:
@@ -60,10 +68,10 @@ Cần hiểu đúng:
 2. **"Trong tính hiện thực"** — bản chất người bộc lộ và phát triển **chỉ trong các quan hệ xã hội cụ thể**, không phải cái trừu tượng bẩm sinh.
 3. Quan hệ xã hội **thay đổi thì bản chất con người thay đổi theo**. ⚠️ Đây **không phủ nhận** mặt sinh học — mặt sinh học là **tiền đề** trên đó thực thể xã hội tồn tại.
 
-### 💼 Góc QTKD — con người được định hình bởi môi trường quan hệ
-
-- **Bản chất = tổng hoà quan hệ xã hội** = **hành vi và năng lực của một người phụ thuộc lớn vào môi trường quan hệ** (đội nhóm, văn hoá, cơ chế). Cùng một người, đặt vào môi trường lành mạnh thì phát huy, đặt vào môi trường độc hại thì thui chột. Vì thế quản trị con người **không chỉ "tuyển đúng người"** mà phải **"thiết kế đúng môi trường"** — nối lại "tồn tại xã hội quyết định ý thức" ở [bài 12](bai_12_y_thuc_xa_hoi.md).
-- **Đánh giá con người phải đặt trong tổng thể quan hệ** (nguyên tắc toàn diện + lịch sử – cụ thể, [bài 5](bai_05_hai_nguyen_ly_cua_phep_bien_chung.md)): đừng phán xét một nhân sự qua **một mặt/một sự việc** tách rời hoàn cảnh.
+> [!example] Góc QTKD — con người được định hình bởi môi trường quan hệ
+>
+> - **Bản chất = tổng hoà quan hệ xã hội** = **hành vi và năng lực của một người phụ thuộc lớn vào môi trường quan hệ** (đội nhóm, văn hoá, cơ chế). Cùng một người, đặt vào môi trường lành mạnh thì phát huy, đặt vào môi trường độc hại thì thui chột. Vì thế quản trị con người **không chỉ "tuyển đúng người"** mà phải **"thiết kế đúng môi trường"** — nối lại "tồn tại xã hội quyết định ý thức" ở [bài 12](bai_12_y_thuc_xa_hoi.md).
+> - **Đánh giá con người phải đặt trong tổng thể quan hệ** (nguyên tắc toàn diện + lịch sử – cụ thể, [bài 5](bai_05_hai_nguyen_ly_cua_phep_bien_chung.md)): đừng phán xét một nhân sự qua **một mặt/một sự việc** tách rời hoàn cảnh.
 
 ---
 
@@ -71,6 +79,7 @@ Cần hiểu đúng:
 
 ### Thực chất của tha hoá (tr. 457–461)
 
+> [!quote] Giáo trình, tr. 457
 > **Tha hoá lao động:** quá trình lao động và sản phẩm của lao động — vốn để **phục vụ, phát triển** con người — bị biến thành **lực lượng đối lập, nô dịch và thống trị** chính con người. (tr. 457)
 
 - Là **hiện tượng lịch sử đặc thù**, chỉ có trong xã hội có giai cấp; **nguyên nhân là chế độ tư hữu** tư liệu sản xuất, **đẩy lên cao nhất trong CNTB** (tr. 458).
@@ -86,10 +95,10 @@ Ba luận điểm cốt lõi của Mác:
 2. **"Xã hội không thể giải phóng cho mình được, nếu không giải phóng cho mỗi cá nhân riêng biệt"** — giải phóng con người là **toàn diện**: lao động, chính trị, kinh tế, năng lực…, ở mọi cấp độ cá nhân – giai cấp – dân tộc – nhân loại (tr. 462).
 3. ⭐ **"Sự phát triển tự do của mỗi người là điều kiện cho sự phát triển tự do của tất cả mọi người"** (*Tuyên ngôn của Đảng Cộng sản*) — đạt được khi con người thoát khỏi tha hoá, xoá bỏ khác biệt thành thị – nông thôn, lao động trí óc – chân tay (tr. 463–464).
 
-### 💼 Góc QTKD — chống "tha hoá lao động", trả lại ý nghĩa cho công việc
-
-- **Tha hoá lao động** = tình trạng nhân viên **mất kết nối, làm việc như cái máy**, chỉ vì đồng lương chứ không thấy ý nghĩa — chính là **disengagement / burnout** hiện đại; dây chuyền/quy trình cứng nhắc biến người thành "một bộ phận của máy móc".
-- **Chống tha hoá = trả lại quyền tự chủ và ý nghĩa** = thiết kế công việc cho người lao động **thấy sản phẩm của mình**, có quyền tự chủ (autonomy), làm chủ (job crafting, empowerment). Đây là điều kiện để "phát triển tự do của mỗi người" — và cũng là cách tăng năng suất bền vững.
+> [!example] Góc QTKD — chống "tha hoá lao động", trả lại ý nghĩa cho công việc
+>
+> - **Tha hoá lao động** = tình trạng nhân viên **mất kết nối, làm việc như cái máy**, chỉ vì đồng lương chứ không thấy ý nghĩa — chính là **disengagement / burnout** hiện đại; dây chuyền/quy trình cứng nhắc biến người thành "một bộ phận của máy móc".
+> - **Chống tha hoá = trả lại quyền tự chủ và ý nghĩa** = thiết kế công việc cho người lao động **thấy sản phẩm của mình**, có quyền tự chủ (autonomy), làm chủ (job crafting, empowerment). Đây là điều kiện để "phát triển tự do của mỗi người" — và cũng là cách tăng năng suất bền vững.
 
 ---
 
@@ -107,9 +116,9 @@ Mỗi con người đồng thời mang: **cái cá nhân** (riêng biệt) + **t
 
 Phải giải quyết đúng quan hệ **cá nhân – xã hội**, tránh cả hai cực: **đề cao cá nhân** (đối lập cá nhân với xã hội) và **quên cá nhân** (chỉ thấy xã hội). Đánh giá một con người phải đặt vào **tổng thể các quan hệ của chính người đó** (nguyên tắc toàn diện + lịch sử – cụ thể).
 
-### 💼 Góc QTKD — cân bằng cá nhân và tập thể
-
-- **Không đề cao cá nhân, cũng không quên cá nhân** = quản trị phải cân bằng **lợi ích cá nhân** (phát triển bản thân, đãi ngộ) với **lợi ích tập thể** (mục tiêu chung). Đề cao cá nhân → mất đoàn kết, chủ nghĩa ngôi sao; quên cá nhân → thui chột sáng kiến. Tổ chức mạnh là nơi **phát triển của mỗi người thúc đẩy phát triển của cả tổ chức** (tinh thần "phát triển tự do của mỗi người là điều kiện cho tất cả").
+> [!example] Góc QTKD — cân bằng cá nhân và tập thể
+>
+> - **Không đề cao cá nhân, cũng không quên cá nhân** = quản trị phải cân bằng **lợi ích cá nhân** (phát triển bản thân, đãi ngộ) với **lợi ích tập thể** (mục tiêu chung). Đề cao cá nhân → mất đoàn kết, chủ nghĩa ngôi sao; quên cá nhân → thui chột sáng kiến. Tổ chức mạnh là nơi **phát triển của mỗi người thúc đẩy phát triển của cả tổ chức** (tinh thần "phát triển tự do của mỗi người là điều kiện cho tất cả").
 
 ---
 
@@ -117,8 +126,10 @@ Phải giải quyết đúng quan hệ **cá nhân – xã hội**, tránh cả 
 
 ### Quần chúng nhân dân là chủ thể sáng tạo lịch sử (tr. 470–474)
 
-⚠️ Sách bác bỏ hai quan điểm sai: tôn giáo (lịch sử do Thượng đế sắp đặt) và duy tâm (lịch sử do vua chúa, vĩ nhân quyết định, quần chúng chỉ là "đám đông ô hợp").
+> [!warning]
+> Sách bác bỏ hai quan điểm sai: tôn giáo (lịch sử do Thượng đế sắp đặt) và duy tâm (lịch sử do vua chúa, vĩ nhân quyết định, quần chúng chỉ là "đám đông ô hợp").
 
+> [!quote] Giáo trình, tr. 471
 > **Quần chúng nhân dân** là tập hợp đông đảo những người hoạt động trong một không gian, thời gian xác định — gồm: **người lao động** (lực lượng căn bản), quần chúng chống áp bức, và những người thúc đẩy tiến bộ xã hội. (tr. 471)
 
 **Ba vai trò** (tr. 473–474):
@@ -137,9 +148,9 @@ Phải giải quyết đúng quan hệ **cá nhân – xã hội**, tránh cả 
 - Quần chúng và phong trào **tạo điều kiện cho lãnh tụ xuất hiện**; lãnh tụ là **sản phẩm của thời đại**.
 - Chủ nghĩa Mác khẳng định **vai trò quyết định của quần chúng**, đồng thời **đánh giá cao vai trò lãnh tụ**. ⚠️ Phải chống **sùng bái cá nhân, thần thánh hoá lãnh tụ** (coi nhẹ quần chúng), đồng thời không tuyệt đối hoá quần chúng mà xem thường sáng kiến cá nhân, lãnh tụ.
 
-### 💼 Góc QTKD — tập thể sáng tạo giá trị, lãnh đạo dẫn dắt
-
-- **Quần chúng quyết định, lãnh tụ dẫn dắt** = giá trị của doanh nghiệp do **toàn thể đội ngũ** tạo ra, không phải mình CEO. Nhưng **lãnh đạo giỏi** (nhận đúng quy luật, tổ chức, truyền cảm hứng) làm khác biệt thành – bại của "phong trào". ⚠️ Chống **sùng bái lãnh đạo** (văn hoá anh hùng cá nhân, "một mình cứu công ty") — vừa méo mó thực tế vừa triệt tiêu sáng kiến tập thể. Lãnh đạo bền vững là **sản phẩm và người phục vụ** của tập thể (servant leadership).
+> [!example] Góc QTKD — tập thể sáng tạo giá trị, lãnh đạo dẫn dắt
+>
+> - **Quần chúng quyết định, lãnh tụ dẫn dắt** = giá trị của doanh nghiệp do **toàn thể đội ngũ** tạo ra, không phải mình CEO. Nhưng **lãnh đạo giỏi** (nhận đúng quy luật, tổ chức, truyền cảm hứng) làm khác biệt thành – bại của "phong trào". ⚠️ Chống **sùng bái lãnh đạo** (văn hoá anh hùng cá nhân, "một mình cứu công ty") — vừa méo mó thực tế vừa triệt tiêu sáng kiến tập thể. Lãnh đạo bền vững là **sản phẩm và người phục vụ** của tập thể (servant leadership).
 
 ---
 
@@ -153,10 +164,10 @@ Hồ Chí Minh **vận dụng sáng tạo** lý luận về con người của c
 - **Phát triển con người toàn diện** (tr. 483–485): *"Vì lợi ích mười năm thì phải trồng cây, vì lợi ích trăm năm thì phải trồng người"*; con người toàn diện = **có cả đức và tài (vừa hồng vừa chuyên)**, đức là gốc. Con người phát triển qua **tu dưỡng, rèn luyện, giáo dục và tự giáo dục** — *"Đạo đức cách mạng không phải trên trời sa xuống. Nó do đấu tranh, rèn luyện bền bỉ hằng ngày mà phát triển và củng cố"*.
 - **Quan điểm của Đảng hiện nay** (tr. 485–488): xây dựng con người Việt Nam phát triển toàn diện, hướng **chân – thiện – mỹ**; lối sống *"Mỗi người vì mọi người, mọi người vì mỗi người"*; đặt con người vào **vị trí trung tâm**, vừa là **mục tiêu** vừa là **động lực** của đổi mới. Mục tiêu *dân giàu, nước mạnh, dân chủ, công bằng, văn minh* chính là biểu hiện tập trung của **mục tiêu giải phóng con người**.
 
-### 💼 Góc QTKD — "trồng người", con người là trung tâm
-
-- **"Trồng người" – phát triển con người toàn diện** = triết lý **đầu tư dài hạn vào con người** (human capital): đào tạo, phát triển năng lực (tài) đi đôi với văn hoá, đạo đức nghề nghiệp (đức). Doanh nghiệp bền vững coi phát triển con người là **chiến lược trăm năm**, không phải chi phí ngắn hạn.
-- **Con người vừa mục tiêu vừa động lực** = tinh thần **"đặt con người vào trung tâm"** (people-centric): nhân viên và khách hàng vừa là **đích phục vụ** (mục tiêu) vừa là **nguồn lực tạo giá trị** (động lực). Đây là nền của quản trị nhân văn và phát triển bền vững.
+> [!example] Góc QTKD — "trồng người", con người là trung tâm
+>
+> - **"Trồng người" – phát triển con người toàn diện** = triết lý **đầu tư dài hạn vào con người** (human capital): đào tạo, phát triển năng lực (tài) đi đôi với văn hoá, đạo đức nghề nghiệp (đức). Doanh nghiệp bền vững coi phát triển con người là **chiến lược trăm năm**, không phải chi phí ngắn hạn.
+> - **Con người vừa mục tiêu vừa động lực** = tinh thần **"đặt con người vào trung tâm"** (people-centric): nhân viên và khách hàng vừa là **đích phục vụ** (mục tiêu) vừa là **nguồn lực tạo giá trị** (động lực). Đây là nền của quản trị nhân văn và phát triển bền vững.
 
 ---
 
@@ -218,7 +229,7 @@ HỒ CHÍ MINH: giải phóng con người gắn dân tộc–giai cấp–nhân
    con người vừa MỤC TIÊU vừa ĐỘNG LỰC; "lấy dân làm gốc"; "TRỒNG NGƯỜI";
    toàn diện = ĐỨC + TÀI (vừa hồng vừa chuyên, đức là gốc) → dân giàu nước mạnh dân chủ...
 
-💼 QTKD: người có nhu cầu sinh học + xã hội (Maslow/intrinsic) · "thiết kế đúng môi trường" ·
+QTKD: người có nhu cầu sinh học + xã hội (Maslow/intrinsic) · "thiết kế đúng môi trường" ·
    chống tha hoá = trao tự chủ & ý nghĩa (engagement) · cân bằng cá nhân–tập thể ·
    tập thể tạo giá trị, lãnh đạo phục vụ (chống sùng bái) · "trồng người"=human capital, people-centric
 ═══════════════════════════════════════════════════════════════════════════════

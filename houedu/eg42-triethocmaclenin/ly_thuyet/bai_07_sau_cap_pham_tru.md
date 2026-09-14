@@ -1,12 +1,18 @@
 # Bài 7 — Sáu cặp phạm trù cơ bản của phép biện chứng duy vật
 
+> [!info] Về bài này
 > Bài học dựng từ **Chương 2, mục II.2.b** (tr. 203–234) của *Giáo trình Triết học Mác – Lênin* (hệ không chuyên),
 > Bộ Giáo dục và Đào tạo, **NXB Chính trị Quốc gia Sự thật, 2021**.
-> 🎯 **Vòng 1.** Sáu cặp phạm trù = "công cụ" để mổ xẻ một sự vật từ sáu góc: cá biệt/phổ quát, nhân/quả, tất yếu/ngẫu nhiên, nội dung/hình thức, sâu/nông, tiềm năng/thực tại.
-> 💼 **Góc QTKD** — ví dụ áp dụng cho ngành quản trị kinh doanh, **không có trong sách**, chỉ là phép loại suy để dễ nhớ.
-> 📚 **Mở rộng** — thứ sách nói lướt hoặc cho tên riêng mà không giải thích.
-> ⚠️ — chỗ dễ hiểu sai.
-> 📌 **Cần đọc trước:** [Bài 5](bai_05_hai_nguyen_ly_cua_phep_bien_chung.md), [Bài 6](bai_06_ba_quy_luat_co_ban.md).
+>
+> **Vòng 1.** Sáu cặp phạm trù = "công cụ" để mổ xẻ một sự vật từ sáu góc: cá biệt/phổ quát, nhân/quả, tất yếu/ngẫu nhiên, nội dung/hình thức, sâu/nông, tiềm năng/thực tại.
+>
+> **Cách đọc các khối màu trong bài:**
+> - `[!quote]` — trích **nguyên văn** giáo trình (hoặc kinh điển do giáo trình dẫn), kèm số trang.
+> - `[!warning]` — chỗ **dễ hiểu sai**.
+> - `[!note]` **Mở rộng** — thứ sách nói lướt hoặc cho tên riêng mà không giải thích.
+> - `[!example]` **Góc QTKD** — ví dụ áp dụng cho ngành **quản trị kinh doanh**, *không có trong sách*, chỉ là phép loại suy để dễ nhớ.
+>
+> **Cần đọc trước:** [Bài 5](bai_05_hai_nguyen_ly_cua_phep_bien_chung.md), [Bài 6](bai_06_ba_quy_luat_co_ban.md).
 
 ---
 
@@ -32,6 +38,7 @@
 
 ## 1. Phạm trù là gì
 
+> [!quote] Giáo trình, tr. 204
 > **Phạm trù triết học** là hình thức hoạt động trí óc phổ biến của con người, là những **mô hình tư
 > tưởng phản ánh những thuộc tính và mối liên hệ vốn có** ở tất cả các đối tượng hiện thực. (tr. 204)
 
@@ -70,19 +77,20 @@ phục cả hai.
    đưa đến cái chung"* (dẫn tr. 210).
 4. **Cái đơn nhất và cái chung chuyển hoá lẫn nhau** trong những điều kiện nhất định.
 
-📚 **Mở rộng — cái đặc thù và cái phổ biến (tr. 213–215).** Ngoài "cái chung", sách nâng lên cặp **cái
-đặc thù ↔ cái phổ biến**: *cái phổ biến* là cái chung **trong bản chất, quy luật**, cùng cấp độ với
-"bản chất" (Lênin); *cái đặc thù* là cái chung của một *nhóm* cái riêng ở một giai đoạn phát triển.
+> [!note] Mở rộng — cái đặc thù và cái phổ biến (tr. 213–215).
+> Ngoài "cái chung", sách nâng lên cặp **cái
+> đặc thù ↔ cái phổ biến**: *cái phổ biến* là cái chung **trong bản chất, quy luật**, cùng cấp độ với
+> "bản chất" (Lênin); *cái đặc thù* là cái chung của một *nhóm* cái riêng ở một giai đoạn phát triển.
 
-### 💼 Góc QTKD — best practice (cái chung) chỉ sống trong doanh nghiệp cụ thể (cái riêng)
-
-- **"Cái chung chỉ tồn tại trong cái riêng"** = quy luật quản trị chung (best practice, mô hình MBA)
-  **không tồn tại lơ lửng**, nó chỉ hiện thực hoá trong *một doanh nghiệp cụ thể với cái đơn nhất của
-  nó* (văn hoá, thị trường, đội ngũ riêng). Vì thế **bê nguyên best practice** là sai — phải cá biệt
-  hoá cho phù hợp cái riêng (nối lại nguyên tắc lịch sử – cụ thể ở [bài 5](bai_05_hai_nguyen_ly_cua_phep_bien_chung.md)).
-- **Cái đơn nhất ↔ cái chung chuyển hoá** = một sáng kiến đơn lẻ ở một chi nhánh (cái đơn nhất), nếu tốt,
-  được **nhân rộng thành chuẩn toàn công ty** (thành cái chung); ngược lại một quy chuẩn chung lỗi thời
-  co lại thành ngoại lệ rồi biến mất. Đây là cơ chế của **scaling innovation** và **chuẩn hoá quy trình**.
+> [!example] Góc QTKD — best practice (cái chung) chỉ sống trong doanh nghiệp cụ thể (cái riêng)
+>
+> - **"Cái chung chỉ tồn tại trong cái riêng"** = quy luật quản trị chung (best practice, mô hình MBA)
+>   **không tồn tại lơ lửng**, nó chỉ hiện thực hoá trong *một doanh nghiệp cụ thể với cái đơn nhất của
+>   nó* (văn hoá, thị trường, đội ngũ riêng). Vì thế **bê nguyên best practice** là sai — phải cá biệt
+>   hoá cho phù hợp cái riêng (nối lại nguyên tắc lịch sử – cụ thể ở [bài 5](bai_05_hai_nguyen_ly_cua_phep_bien_chung.md)).
+> - **Cái đơn nhất ↔ cái chung chuyển hoá** = một sáng kiến đơn lẻ ở một chi nhánh (cái đơn nhất), nếu tốt,
+>   được **nhân rộng thành chuẩn toàn công ty** (thành cái chung); ngược lại một quy chuẩn chung lỗi thời
+>   co lại thành ngoại lệ rồi biến mất. Đây là cơ chế của **scaling innovation** và **chuẩn hoá quy trình**.
 
 ---
 
@@ -93,8 +101,9 @@ phục cả hai.
 - **Nguyên nhân:** sự **tương tác** giữa các mặt/sự vật gây nên những biến đổi nhất định.
 - **Kết quả:** những biến đổi xuất hiện **do** tương tác nguyên nhân gây ra.
 
-⚠️ Nguyên nhân là **tương tác**, không phải một "vật" đơn lẻ. Mối liên hệ nhân quả có tính **khách quan,
-phổ biến, tất yếu**. Ph. Ăngghen: *"hoạt động của con người là hòn đá thử vàng của tính nhân quả"* (tr. 216).
+> [!warning]
+> Nguyên nhân là **tương tác**, không phải một "vật" đơn lẻ. Mối liên hệ nhân quả có tính **khách quan,
+> phổ biến, tất yếu**. Ph. Ăngghen: *"hoạt động của con người là hòn đá thử vàng của tính nhân quả"* (tr. 216).
 
 ### Quan hệ biện chứng (tr. 217–218)
 
@@ -109,15 +118,15 @@ phổ biến, tất yếu**. Ph. Ăngghen: *"hoạt động của con người l
 2. Nguyên nhân **có trước** kết quả → tìm nguyên nhân ở các sự vật, sự kiện **xảy ra trước**.
 3. Một kết quả nhiều nguyên nhân → **không vội kết luận**, phải dựa vào nguyên nhân **chủ yếu, bên trong**.
 
-### 💼 Góc QTKD — chữa nguyên nhân gốc, không chữa triệu chứng
-
-- **"Loại bỏ hiện tượng phải loại bỏ nguyên nhân"** = nguyên tắc **root-cause analysis** (5 Whys, biểu
-  đồ xương cá): doanh số giảm (kết quả) — chữa bằng khuyến mãi (chữa triệu chứng) hay tìm nguyên nhân
-  gốc (sản phẩm lỗi thời, dịch vụ kém)? Chỉ diệt nguyên nhân gốc mới hết vấn đề.
-- **Một kết quả nhiều nguyên nhân → tìm nguyên nhân chủ yếu.** Đừng đổ lỗi cho một yếu tố dễ thấy; phân
-  tích và ưu tiên nguyên nhân *chủ yếu, bên trong* (thường là năng lực nội tại, không phải "thị trường xấu").
-- **Nhân – quả đổi chỗ = vòng phản hồi (feedback loop).** Dịch vụ tốt → khách hài lòng → doanh thu tăng
-  → tái đầu tư dịch vụ: kết quả trở thành nguyên nhân. Quản trị hệ thống là quản trị các vòng lặp này.
+> [!example] Góc QTKD — chữa nguyên nhân gốc, không chữa triệu chứng
+>
+> - **"Loại bỏ hiện tượng phải loại bỏ nguyên nhân"** = nguyên tắc **root-cause analysis** (5 Whys, biểu
+>   đồ xương cá): doanh số giảm (kết quả) — chữa bằng khuyến mãi (chữa triệu chứng) hay tìm nguyên nhân
+>   gốc (sản phẩm lỗi thời, dịch vụ kém)? Chỉ diệt nguyên nhân gốc mới hết vấn đề.
+> - **Một kết quả nhiều nguyên nhân → tìm nguyên nhân chủ yếu.** Đừng đổ lỗi cho một yếu tố dễ thấy; phân
+>   tích và ưu tiên nguyên nhân *chủ yếu, bên trong* (thường là năng lực nội tại, không phải "thị trường xấu").
+> - **Nhân – quả đổi chỗ = vòng phản hồi (feedback loop).** Dịch vụ tốt → khách hài lòng → doanh thu tăng
+>   → tái đầu tư dịch vụ: kết quả trở thành nguyên nhân. Quản trị hệ thống là quản trị các vòng lặp này.
 
 ---
 
@@ -144,15 +153,15 @@ phổ biến, tất yếu**. Ph. Ăngghen: *"hoạt động của con người l
 2. Tất nhiên **biểu hiện qua** ngẫu nhiên → muốn nắm tất nhiên phải **nghiên cứu những ngẫu nhiên**.
 3. Ngẫu nhiên có thể làm tiến trình **đột ngột biến đổi** → phải có **phương án dự phòng** cho sự cố.
 
-### 💼 Góc QTKD — chiến lược dựa trên xu hướng tất yếu, nhưng dự phòng cho rủi ro ngẫu nhiên
-
-- **Dựa vào cái tất nhiên (xu hướng bản chất), không cược vào ngẫu nhiên (may rủi).** Chiến lược dài hạn
-  phải đặt trên xu hướng tất yếu (số hoá, đô thị hoá, già hoá dân số...), không đặt trên một cú hích may
-  mắn (một video viral).
-- **Xu hướng dài hạn lộ ra qua biến động ngắn hạn** ("tất nhiên vạch đường qua ngẫu nhiên") → đọc nhiều
-  dữ liệu ngắn hạn (ngẫu nhiên) để lọc ra xu hướng thật (tất nhiên).
-- **Dự phòng cho ngẫu nhiên** = quản trị rủi ro, kịch bản dự phòng (contingency plan), bảo hiểm — vì
-  "ngẫu nhiên có thể làm tiến trình đột ngột biến đổi" (COVID, đứt gãy chuỗi cung).
+> [!example] Góc QTKD — chiến lược dựa trên xu hướng tất yếu, nhưng dự phòng cho rủi ro ngẫu nhiên
+>
+> - **Dựa vào cái tất nhiên (xu hướng bản chất), không cược vào ngẫu nhiên (may rủi).** Chiến lược dài hạn
+>   phải đặt trên xu hướng tất yếu (số hoá, đô thị hoá, già hoá dân số...), không đặt trên một cú hích may
+>   mắn (một video viral).
+> - **Xu hướng dài hạn lộ ra qua biến động ngắn hạn** ("tất nhiên vạch đường qua ngẫu nhiên") → đọc nhiều
+>   dữ liệu ngắn hạn (ngẫu nhiên) để lọc ra xu hướng thật (tất nhiên).
+> - **Dự phòng cho ngẫu nhiên** = quản trị rủi ro, kịch bản dự phòng (contingency plan), bảo hiểm — vì
+>   "ngẫu nhiên có thể làm tiến trình đột ngột biến đổi" (COVID, đứt gãy chuỗi cung).
 
 ---
 
@@ -178,14 +187,14 @@ phổ biến, tất yếu**. Ph. Ăngghen: *"hoạt động của con người l
 3. Một nội dung có thể dùng **nhiều hình thức** — Lênin phê phán cả thái độ **bảo thủ** (chỉ giữ hình
    thức cũ) lẫn thái độ **nóng vội** thay đổi hình thức tuỳ tiện.
 
-### 💼 Góc QTKD — nội dung (thực chất) quyết định, nhưng hình thức (cách tổ chức, thương hiệu) tác động lại
-
-- **Nội dung quyết định:** năng lực thật, chất lượng sản phẩm, giá trị thực (nội dung) quan trọng hơn
-  bao bì, khẩu hiệu, thương hiệu (hình thức). Đánh bóng hình thức mà nội dung rỗng thì không bền.
-- **Nhưng hình thức phù hợp thúc đẩy nội dung:** thương hiệu tốt, trải nghiệm đẹp, cơ cấu tổ chức hợp lý
-  *khuếch đại* giá trị thực. Sản phẩm tốt (nội dung) + trình bày/kênh phân phối tệ (hình thức) vẫn thất bại.
-- ⚠️ **Hình thức cũ kìm hãm nội dung mới → tái cấu trúc.** Doanh nghiệp lớn lên (nội dung mới) mà giữ bộ
-  máy, quy trình cũ (hình thức cũ) sẽ bị kìm hãm → phải **thay đổi cơ cấu tổ chức** đúng lúc.
+> [!example] Góc QTKD — nội dung (thực chất) quyết định, nhưng hình thức (cách tổ chức, thương hiệu) tác động lại
+>
+> - **Nội dung quyết định:** năng lực thật, chất lượng sản phẩm, giá trị thực (nội dung) quan trọng hơn
+>   bao bì, khẩu hiệu, thương hiệu (hình thức). Đánh bóng hình thức mà nội dung rỗng thì không bền.
+> - **Nhưng hình thức phù hợp thúc đẩy nội dung:** thương hiệu tốt, trải nghiệm đẹp, cơ cấu tổ chức hợp lý
+>   *khuếch đại* giá trị thực. Sản phẩm tốt (nội dung) + trình bày/kênh phân phối tệ (hình thức) vẫn thất bại.
+> - ⚠️ **Hình thức cũ kìm hãm nội dung mới → tái cấu trúc.** Doanh nghiệp lớn lên (nội dung mới) mà giữ bộ
+>   máy, quy trình cũ (hình thức cũ) sẽ bị kìm hãm → phải **thay đổi cơ cấu tổ chức** đúng lúc.
 
 ---
 
@@ -211,16 +220,16 @@ phổ biến, tất yếu**. Ph. Ăngghen: *"hoạt động của con người l
 1. Không dừng ở hiện tượng bên ngoài, phải **đi sâu tìm bản chất** ẩn giấu sau hiện tượng.
 2. Bản chất là thể thống nhất các mâu thuẫn → nhận thức bản chất là quá trình lâu dài, qua nhiều hiện tượng.
 
-### 💼 Góc QTKD — nhìn xuyên số liệu bề mặt để thấy bản chất
-
-- **Hiện tượng có thể xuyên tạc bản chất** → một quý doanh thu tăng (hiện tượng) có thể che giấu bản
-  chất xấu (khách hàng rời bỏ, bán tháo tồn kho). Nhà quản trị phải **nhìn xuyên số liệu bề mặt**: đọc
-  chỉ số dẫn dắt (leading indicators), cohort, chất lượng doanh thu — không bị "hiện tượng" đánh lừa.
-- **Bản chất ổn định hơn hiện tượng** → đừng phản ứng thái quá với dao động ngắn hạn (hiện tượng); tập
-  trung vào bản chất (mô hình kinh doanh, lợi thế cạnh tranh cốt lõi) vốn thay đổi chậm.
-- *"Nếu bản chất và hiện tượng đồng nhất thì mọi khoa học trở nên thừa"* — cũng đúng cho quản trị: nếu
-  nhìn báo cáo là hiểu ngay thì đã không cần phân tích. Giá trị của nhà phân tích là **đi từ hiện tượng
-  tới bản chất**.
+> [!example] Góc QTKD — nhìn xuyên số liệu bề mặt để thấy bản chất
+>
+> - **Hiện tượng có thể xuyên tạc bản chất** → một quý doanh thu tăng (hiện tượng) có thể che giấu bản
+>   chất xấu (khách hàng rời bỏ, bán tháo tồn kho). Nhà quản trị phải **nhìn xuyên số liệu bề mặt**: đọc
+>   chỉ số dẫn dắt (leading indicators), cohort, chất lượng doanh thu — không bị "hiện tượng" đánh lừa.
+> - **Bản chất ổn định hơn hiện tượng** → đừng phản ứng thái quá với dao động ngắn hạn (hiện tượng); tập
+>   trung vào bản chất (mô hình kinh doanh, lợi thế cạnh tranh cốt lõi) vốn thay đổi chậm.
+> - *"Nếu bản chất và hiện tượng đồng nhất thì mọi khoa học trở nên thừa"* — cũng đúng cho quản trị: nếu
+>   nhìn báo cáo là hiểu ngay thì đã không cần phân tích. Giá trị của nhà phân tích là **đi từ hiện tượng
+>   tới bản chất**.
 
 ---
 
@@ -250,16 +259,16 @@ phổ biến, tất yếu**. Ph. Ăngghen: *"hoạt động của con người l
 3. ⚠️ Khả năng **không tự động** thành hiện thực → phải **tạo điều kiện** và **nỗ lực chủ quan**; tránh
    cả hai cực: *tuyệt đối hoá* hoặc *xem thường* vai trò nhân tố chủ quan.
 
-### 💼 Góc QTKD — lập kế hoạch trên khả năng thực, không trên khả năng viển vông
-
-- **"Dựa vào hiện thực, không dựa vào khả năng suông."** Định giá, gọi vốn, cam kết phải dựa trên **hiện
-  thực** (doanh thu thật, năng lực thật), không dựa trên "tiềm năng thị trường 100 tỷ đô" (khả năng
-  trừu tượng). Nhiều dự án chết vì xây kế hoạch trên khả năng *hình thức/trừu tượng*.
-- **Phân biệt khả năng thực và khả năng hình thức** = phân biệt cơ hội có cơ sở tất yếu (nhu cầu thật,
-  điều kiện chín) với cơ hội "có thể có mà cũng có thể không" (đầu cơ). Đầu tư vào khả năng thực.
-- **Khả năng không tự thành hiện thực → cần điều kiện + nỗ lực.** "Chúng ta có tiềm năng" là câu vô
-  nghĩa nếu không **tạo điều kiện** (nguồn lực, thực thi). Đây là cầu nối với nguyên tắc *tôn trọng
-  khách quan + phát huy năng động chủ quan* ở [bài 4](bai_04_y_thuc_va_quan_he_vat_chat_y_thuc.md).
+> [!example] Góc QTKD — lập kế hoạch trên khả năng thực, không trên khả năng viển vông
+>
+> - **"Dựa vào hiện thực, không dựa vào khả năng suông."** Định giá, gọi vốn, cam kết phải dựa trên **hiện
+>   thực** (doanh thu thật, năng lực thật), không dựa trên "tiềm năng thị trường 100 tỷ đô" (khả năng
+>   trừu tượng). Nhiều dự án chết vì xây kế hoạch trên khả năng *hình thức/trừu tượng*.
+> - **Phân biệt khả năng thực và khả năng hình thức** = phân biệt cơ hội có cơ sở tất yếu (nhu cầu thật,
+>   điều kiện chín) với cơ hội "có thể có mà cũng có thể không" (đầu cơ). Đầu tư vào khả năng thực.
+> - **Khả năng không tự thành hiện thực → cần điều kiện + nỗ lực.** "Chúng ta có tiềm năng" là câu vô
+>   nghĩa nếu không **tạo điều kiện** (nguồn lực, thực thi). Đây là cầu nối với nguyên tắc *tôn trọng
+>   khách quan + phát huy năng động chủ quan* ở [bài 4](bai_04_y_thuc_va_quan_he_vat_chat_y_thuc.md).
 
 ---
 
@@ -315,7 +324,7 @@ PHẠM TRÙ = mô hình tư tưởng phản ánh thuộc tính, liên hệ phổ
 ⑥ KHẢ NĂNG ↔ HIỆN THỰC
    dựa vào HIỆN THỰC (không dựa khả năng suông); khả năng THỰC(tất nhiên) vs HÌNH THỨC;
    khả năng KHÔNG tự thành hiện thực → cần điều kiện + nỗ lực chủ quan
-💼 QTKD: best practice(chung) phải cá biệt hoá cho DN(riêng) · root-cause analysis ·
+QTKD: best practice(chung) phải cá biệt hoá cho DN(riêng) · root-cause analysis ·
    chiến lược trên xu hướng tất yếu + quản trị rủi ro · thực chất>bao bì nhưng hình thức
    khuếch đại · nhìn xuyên số liệu bề mặt · kế hoạch trên khả năng THỰC không viển vông
 ═══════════════════════════════════════════════════════════════════════════════
