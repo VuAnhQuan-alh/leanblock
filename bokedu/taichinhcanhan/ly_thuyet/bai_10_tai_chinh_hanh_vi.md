@@ -12,7 +12,7 @@
 > là bài **quyết định** cho bài 11: gần như mọi cái bẫy tài chính đều là một thiên kiến bị lợi dụng.
 > **Ký hiệu:** **[bổ sung]** là kiến thức ngoài sách · **[đính chính]** là chỗ sách sai ·
 > **[2026]** là mục đối chiếu với hiện tại.
-> **Code:** [`thuc_hanh/bai-10-tai-chinh-hanh-vi.py`](../thuc_hanh/bai-10-tai-chinh-hanh-vi.py)
+> **Code:** `thuc_hanh/bai-10-tai-chinh-hanh-vi.py` — *(chưa có; sẽ bổ sung — xem ghi chú ở README)*
 > — bài này ít số, nhưng ba con số nó có (lạm phát lối sống, phép nhân của "lãi 20%/tháng", và bảng
 > bất đối xứng lỗ–lãi) đều do tệp này tính. Mỗi con số kèm một công thức một dòng để tự kiểm bằng tay.
 >
@@ -369,7 +369,7 @@ này đã đặt sẵn cái tên cho từng cú đánh mà chúng dùng.
 ## 10. Tự thử
 
 Bài vòng 2, không bắt buộc code. Nhưng năm câu này đáng ngồi nghĩ — và ba câu đầu có thể kiểm bằng
-[`thuc_hanh/bai-10-tai-chinh-hanh-vi.py`](../thuc_hanh/bai-10-tai-chinh-hanh-vi.py).
+`thuc_hanh/bai-10-tai-chinh-hanh-vi.py`.
 
 1. **Phép nhân của bạn.** Tự đặt ra vài mức lãi nghe hấp dẫn — 4%/tháng, 10%/quý, 2%/tuần — và quy ra
    lãi cả năm bằng lãi kép. Mức nào vượt hẳn 8% thực của cả khoá? Con số nào khiến bạn phải dừng lại?
@@ -499,7 +499,7 @@ Bài vòng 2, không bắt buộc code. Nhưng năm câu này đáng ngồi ngh�
   chìm…) là kiến thức phổ thông của ngành, đưa vào để **gọi tên** những hiện tượng sách đã mô tả mà
   không đặt tên. Bài này **không dẫn công trình gốc** của từng thuật ngữ — nêu chúng ở mức khái niệm
   đủ dùng, không phải mức học thuật.
-- **Đã kiểm chứng bằng code** — [`thuc_hanh/bai-10-tai-chinh-hanh-vi.py`](../thuc_hanh/bai-10-tai-chinh-hanh-vi.py).
+- **Đã kiểm chứng bằng code** — `thuc_hanh/bai-10-tai-chinh-hanh-vi.py`.
   Ba bảng số của bài (lạm phát lối sống ở mục 4, phép nhân "lãi ra cả năm" ở mục 5, bất đối xứng
   lỗ–lãi ở mục 7) do tệp này tính, chạy hai lần ra giống hệt nhau. Mỗi con số kèm công thức một dòng
   để tự kiểm bằng tay: `(1 + lãi tháng)^12 − 1` và `1 / (1 − mức lỗ) − 1`.

@@ -15,7 +15,7 @@
 > **Ký hiệu:** **[bổ sung]** ngoài sách · **[đính chính]** chỗ sách sai · **[đã cắt]** phần thương
 > mại thay bằng cách khác · **[2026]** đối chiếu hiện tại.
 > **Về [2026]:** mục 5 dẫn văn bản và số liệu khủng hoảng trái phiếu, tra ngày **10/09/2026**.
-> **Code:** [`thuc_hanh/bai-13-kenh-dau-tu.py`](../thuc_hanh/bai-13-kenh-dau-tu.py)
+> **Code:** `thuc_hanh/bai-13-kenh-dau-tu.py` — *(chưa có; sẽ bổ sung — xem ghi chú ở README)*
 > — kiểm hai con số sách để trống: *"2tr/tháng vào VN30 → hàng tỷ"* thật ra ra bao nhiêu, và giá trái
 > phiếu **hội tụ về mệnh giá** khi tới hạn (ngược với sách). Công thức một dòng kèm theo.
 >
@@ -323,7 +323,7 @@ lại thành một bản kế hoạch tự do tài chính.
 ## 8. Tự thử
 
 Bài vòng 2, không bắt buộc code. Nhưng bốn câu này đáng ngồi tính —
-[`thuc_hanh/bai-13-kenh-dau-tu.py`](../thuc_hanh/bai-13-kenh-dau-tu.py) kiểm hai câu đầu.
+`thuc_hanh/bai-13-kenh-dau-tu.py` kiểm hai câu đầu.
 
 1. **"Hàng tỷ" cần lợi suất bao nhiêu.** Với 2tr/tháng trong 10 năm, tìm mức lợi suất/năm để đạt
    đúng 1 tỷ; rồi 2 tỷ. Con số đó có thực tế không? Nó nói gì về chữ *"một vài doanh nghiệp"*?
@@ -436,7 +436,7 @@ Bài vòng 2, không bắt buộc code. Nhưng bốn câu này đáng ngồi tí
   FiinGroup: 38,5% trái phiếu bất động sản chậm trả tính đến 30/6/2023.
   - [Thị trường trái phiếu doanh nghiệp thực tiễn 2022 và triển vọng 2023 — Tạp chí Ngân hàng](https://tapchinganhang.gov.vn/thi-truong-trai-phieu-doanh-nghiep-thuc-tien-nam-2022-va-trien-vong-nam-2023-10213.html)
   - [Phát triển thị trường trái phiếu doanh nghiệp sau khủng hoảng — Tạp chí Công Thương](https://ojs.tapchicongthuong.vn/vi/ojs-post/phat-trien-thi-truong-trai-phieu-doanh-nghiep-hieu-qua--an-toan--ben-vung-sau-khung-hoang-120987.htm)
-- **Đã kiểm chứng bằng code** — [`thuc_hanh/bai-13-kenh-dau-tu.py`](../thuc_hanh/bai-13-kenh-dau-tu.py).
+- **Đã kiểm chứng bằng code** — `thuc_hanh/bai-13-kenh-dau-tu.py`.
   Hai bảng số do tệp này tính, chạy hai lần ra giống hệt nhau. Công thức một dòng để tự kiểm: giá trị
   tương lai khoản góp đều `= P × ((1+i)^n − 1) / i`; giá trái phiếu chiết khấu `= mệnh giá / (1+lợi
   suất)^số năm còn lại`.

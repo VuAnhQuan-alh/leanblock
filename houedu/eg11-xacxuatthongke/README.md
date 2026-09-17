@@ -5,7 +5,7 @@ Khoá học tự soạn, dựng từ **Giáo trình Xác suất Thống kê** c�
 
 Giáo trình gốc viết cho sinh viên kỹ thuật, ví dụ toàn xúc xắc, bi, mạch điện, xạ thủ.
 Khoá này **giữ nguyên ví dụ giáo trình** để đi thi cho khớp, và **thêm một ví dụ Quản trị Kinh doanh
-ở mỗi mục** — đánh dấu 💼 — để thấy công thức đó dùng vào việc gì ở doanh nghiệp thật.
+ở mỗi mục** — trong khối `[!example]` **Góc QTKD** — để thấy công thức đó dùng vào việc gì ở doanh nghiệp thật.
 
 ---
 
@@ -15,9 +15,9 @@ Khoá này **giữ nguyên ví dụ giáo trình** để đi thi cho khớp, và
 | --------------- | --------------------------------------------------------------------------------- |
 | `tr. 12`        | trích trang số 12 của giáo trình (số trang in trên giấy, không phải số trang PDF) |
 | **Thí dụ 2.3**  | ví dụ nguyên văn của giáo trình, giữ nguyên số hiệu để tra ngược                  |
-| 💼 **Góc QTKD** | ví dụ thêm, bối cảnh kinh doanh — không có trong giáo trình                       |
-| 📚 **Mở rộng**  | kiến thức nền giáo trình lướt qua hoặc bỏ qua                                     |
-| ⚠️              | chỗ giáo trình viết dễ gây hiểu nhầm, hoặc lỗi in                                 |
+| `[!example]` **Góc QTKD** | ví dụ thêm, bối cảnh kinh doanh — không có trong giáo trình                       |
+| `[!note]` **Mở rộng**  | kiến thức nền giáo trình lướt qua hoặc bỏ qua                                     |
+| `[!warning]`              | chỗ giáo trình viết dễ gây hiểu nhầm, hoặc lỗi in                                 |
 
 Công thức viết bằng LaTeX, mở bằng **Obsidian** (hoặc VS Code + Markdown Preview Enhanced) để thấy đúng.
 

@@ -13,7 +13,7 @@
 > **[2026]** là mục đối chiếu với hiện tại.
 > **Về phần pháp lý:** mục 8 dẫn quan điểm cơ quan quản lý, tra ngày **10/09/2026**. Chính sách đổi
 > thì kiểm lại ngày tra trước khi tin.
-> **Code:** [`thuc_hanh/bai-11-nhan-dien-lua-dao.py`](../thuc_hanh/bai-11-nhan-dien-lua-dao.py)
+> **Code:** `thuc_hanh/bai-11-nhan-dien-lua-dao.py` — *(chưa có; sẽ bổ sung — xem ghi chú ở README)*
 > — hai phép tính sách bỏ trống (Ponzi gấp đôi bao nhiêu vòng thì hết người, đòn bẩy đi ngược bao
 > nhiêu thì cháy tài khoản) do tệp này tính, kèm công thức một dòng để tự kiểm.
 >
@@ -374,7 +374,7 @@ là gì, khẩu vị rủi ro của bạn đo bằng cách nào, và phân bổ 
 
 ## 10. Tự thử
 
-Sửa [`thuc_hanh/bai-11-nhan-dien-lua-dao.py`](../thuc_hanh/bai-11-nhan-dien-lua-dao.py) rồi chạy lại.
+Sửa `thuc_hanh/bai-11-nhan-dien-lua-dao.py` rồi chạy lại.
 
 1. **Ponzi hết người sau bao nhiêu vòng?** Sách nói "hai người sau nuôi một người trước". Nếu là
  **ba** người thì sao — số vòng để vượt dân số Việt Nam tăng hay giảm? In bảng cho tỷ lệ 2, 3, 5.
@@ -506,7 +506,7 @@ chuyển tiền ra nước ngoài cho giao dịch Forex là bất hợp pháp; n
 4.0"* núp bóng.
   - [*"Ma trận" Forex/CFD (kỳ cuối): Cảnh báo tiếp tay cho các hoạt động phi pháp — VnEconomy](https://vneconomy.vn/ma-tran-forex-cfd-ky-cuoi-canh-bao-tiep-tay-cho-cac-hoat-dong-phi-phap.htm)
   - [Cảnh báo nóng từ Ngân hàng Nhà nước, cách truy quét sàn giao dịch ngoại hối bất hợp pháp — Dân Việt/etime](https://etime.danviet.vn/canh-bao-nong-tu-ngan-hang-nha-nuoc-tiet-lo-cach-truy-quet-san-forex-bat-hop-phap-d1370699.html)
-- **Đã kiểm chứng bằng code** — [`thuc_hanh/bai-11-nhan-dien-lua-dao.py`](../thuc_hanh/bai-11-nhan-dien-lua-dao.py).
+- **Đã kiểm chứng bằng code** — `thuc_hanh/bai-11-nhan-dien-lua-dao.py`.
 Hai bảng số của bài do tệp này tính, chạy hai lần ra giống hệt nhau. Công thức một dòng để tự kiểm:
 số người vòng n `= 2^(n-1)` (mục 4), mức giá cháy tài khoản `= 1 / đòn bẩy` (mục 7). Các con số dân
 số (VN ~100 triệu, thế giới ~8 tỷ) là mốc tròn để so, không phải số liệu chính xác.

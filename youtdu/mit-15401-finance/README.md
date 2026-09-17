@@ -11,7 +11,8 @@ Kênh **MIT OpenCourseWare** trên YouTube, giấy phép **CC BY-NC-SA**.
 - Giáo trình Lo giao: **Brealey, Myers & Allen, *Principles of Corporate Finance*, 9th ed.,
   McGraw-Hill, 2007**
 
-> ⚠️ **Khoá này ghi học kỳ Thu 2008** — tức ngay quanh lúc Lehman Brothers sụp (15/9/2008).
+> [!warning] Khoá này ghi học kỳ Thu 2008
+> tức ngay quanh lúc Lehman Brothers sụp (15/9/2008).
 > Đó vừa là điểm mạnh (được dạy xuyên qua khủng hoảng) vừa là chỗ phải đối chiếu. Mỗi bài đều có
 > mục ⚠️ **đối chiếu 2026** cho những chỗ thời gian đã bác bỏ.
 
@@ -23,10 +24,10 @@ Kênh **MIT OpenCourseWare** trên YouTube, giấy phép **CC BY-NC-SA**.
 | ------------------ | --------------------------------------------------------------------------------------- |
 | `48:35`            | mốc thời gian trong video — **mọi mốc đều đã đối chiếu ngược với phụ đề gốc**           |
 | `S2 45:33`         | bài gộp nhiều buổi thì mốc có tiền tố buổi: `S2` = buổi 2, `S3` = buổi 3…               |
-| 📚 **Mở rộng**      | kiến thức video lướt qua, hoặc phần bài học này bổ sung thêm — **không có trong video** |
+| `[!note]` **Mở rộng**      | kiến thức video lướt qua, hoặc phần bài học này bổ sung thêm — **không có trong video** |
 | 🇻🇳 **Góc Việt Nam** | số liệu và ví dụ trong nước — **không có trong video**                                  |
-| ⚠️                  | chỗ dễ hiểu sai, chỗ video nói sai, hoặc chỗ thực tế sau 2008 đã bác lại                |
-| 💡 **Tự thử**       | bài tập sửa tham số rồi quan sát, **không kèm lời giải**                                |
+| `[!warning]`                  | chỗ dễ hiểu sai, chỗ video nói sai, hoặc chỗ thực tế sau 2008 đã bác lại                |
+| `[!example]` **Tự thử**       | bài tập sửa tham số rồi quan sát, **không kèm lời giải**                                |
 
 Công thức viết bằng LaTeX. Mở bằng **Obsidian** (hoặc VS Code + Markdown Preview Enhanced) để hiển
 thị đúng.
@@ -118,6 +119,7 @@ trùng với chính cách MIT OCW phân nhóm video trên trang khoá học.
 | 12 | [**Hoạch định ngân sách vốn — dòng tiền, lá chắn thuế, và bốn cách IRR hỏng**](ly_thuyet/bai_12_ngan_sach_von.md) | Ses 17–18 | ✅ |
 | 13 | [**Thị trường hiệu quả, tài chính hành vi, và thị trường thích nghi**](ly_thuyet/bai_13_thi_truong_hieu_qua.md) | Ses 18–20 | ✅ |
 
+> [!quote]
 > 📌 **Bài 13 không phải phần thừa.** Lo cố ý giữ lại **ba trong sáu nguyên lý nền tảng** tới tận
 > buổi cuối, và hứa sẽ *"chất vấn toàn bộ bộ khung tôi đã dựng cho các bạn, và chỉ ra các lỗ hổng
 > nằm ở đâu"* (`54:07`). Bỏ bài 13 là bỏ đúng nửa mà Lo cho là quan trọng nhất.
@@ -146,6 +148,7 @@ cho người học **quản trị kinh doanh**.
 | | **— phần F: ngoài giáo trình MIT —** | | |
 | 20 | [**🏛 Chu kỳ đòn bẩy — thứ cả khoá học này bỏ sót**](ly_thuyet/bai_20_chu_ky_don_bay.md) | Geanakoplos · Yale ECON 251 | ✅ |
 
+> [!note]
 > 🏛 **Bài 20 đến từ một khoá khác hẳn:** [Yale ECON 251 *Financial Theory*](https://oyc.yale.edu/economics/econ-251)
 > của **John Geanakoplos** (Thu 2009). Nó là bài duy nhất trong khoá **mâu thuẫn trực tiếp** với
 > các bài trước — luận điểm: mọi khoản vay có **hai** biến, lãi suất và mức thế chấp, và cả khoá
@@ -154,6 +157,7 @@ cho người học **quản trị kinh doanh**.
 > cùng phần cuối [mục 8 của bài 10](ly_thuyet/bai_10_ly_thuyet_danh_muc.md#8-đo-rủi-ro-bằng-độ-lệch-chuẩn-là-một-lựa-chọn)
 > (hàm hữu dụng, ngại rủi ro, nghịch lý St. Petersburg).
 
+> [!note]
 > 📐 **Phần E phủ đủ giáo trình [MIT 15.402 *Finance Theory II*](https://ocw.mit.edu/courses/15-402-finance-theory-ii-spring-2003/pages/lecture-notes/)** — phần tiếp
 > chính thức của 15.401, vốn chỉ có bản 2003 **không có video**. Bài 19 lấp hai mục cuối cùng
 > còn thiếu sau khi đối chiếu: *Real Options* và *APV*.

@@ -7,13 +7,15 @@ NXB Văn Học (in lần thứ tư; in lần đầu Nam Chi Tùng Thư, 1969). *
 theo đúng ba cuốn *Phê bình* của Kant.
 Tệp: `tai_lieu/Triet hoc Kant - Tran Thai Dinh.pdf`.
 
-> ⚠️ **Không có số trang giấy để trích.** Tệp là **ebook 602 trang**, không mang số trang
+> [!warning] Không có số trang giấy để trích.
+> Tệp là **ebook 602 trang**, không mang số trang
 > của bản in. Vì vậy mọi trích dẫn dùng dạng **`PDF tr. 50`** — số trang của tệp PDF trong kho.
 > Đây là cùng quy ước với khoá [Trí tuệ tài chính](../trituetaichinh/README.md).
 > Khi sách dẫn lại chính tác phẩm của Kant, sách ghi kiểu `Raison pure, tr. 33` (tức bản dịch
 > Pháp văn *Critique de la raison pure*) — bài học giữ nguyên các dẫn chiếu đó khi trích.
 
-> ⚠️ **Chính tả OCR.** Ebook quét từ bản in cũ nên rải rác lỗi nhận dạng chữ (*"Phế bình"*
+> [!warning] Chính tả OCR.
+> Ebook quét từ bản in cũ nên rải rác lỗi nhận dạng chữ (*"Phế bình"*
 > thay vì *"Phê bình"*, *"Cantơ"*, *"Hôpxơ"*…). Bài học **sửa lại chính tả** khi trích, và
 > chỉ ghi chú khi lỗi có thể gây hiểu sai.
 
@@ -24,11 +26,11 @@ Tệp: `tai_lieu/Triet hoc Kant - Tran Thai Dinh.pdf`.
 | Ký hiệu | Nghĩa |
 | --- | --- |
 | `PDF tr. 50` | trích trang 50 của tệp PDF trong kho |
-| 🧩 | mục mở đầu mỗi bài — kể chuyện + ví dụ đời thường, **trước** khi vào thuật ngữ |
-| 📚 **Mở rộng** | kiến thức nền sách nói lướt, hoặc thuật ngữ Kant cần giải thích thêm |
-| 🔗 **Nối triết Mác–Lênin** | liên hệ khái niệm Kant với môn [EG42](../../houedu/eg42-triethocmaclenin/ly_thuyet/bai_01_triet_hoc_va_van_de_co_ban.md) đang học — **không có trong sách** |
-| 💡 **Góc đời sống** | ví dụ thực tế để khái niệm trừu tượng bớt khô — **không có trong sách** |
-| ⚠️ | chỗ dễ hiểu sai, hoặc chỗ ebook in sai |
+| **Mục mở đầu** | mục mở đầu mỗi bài — kể chuyện + ví dụ đời thường, **trước** khi vào thuật ngữ |
+| `[!note]` **Mở rộng** | kiến thức nền sách nói lướt, hoặc thuật ngữ Kant cần giải thích thêm |
+| **Nối triết Mác–Lênin** | liên hệ khái niệm Kant với môn [EG42](../../houedu/eg42-triethocmaclenin/ly_thuyet/bai_01_triet_hoc_va_van_de_co_ban.md) đang học — **không có trong sách** |
+| `[!example]` **Góc đời sống** | ví dụ thực tế để khái niệm trừu tượng bớt khô — **không có trong sách** |
+| `[!warning]` | chỗ dễ hiểu sai, hoặc chỗ ebook in sai |
 
 Công thức (nếu có) viết bằng LaTeX. Mở bằng **Obsidian** (hoặc VS Code + Markdown Preview Enhanced).
 
@@ -72,7 +74,8 @@ PHẦN III— Ý NGHĨA CON NGƯỜI      (Phê bình năng lực phán đoán, 
 
 🎯 vòng 1 — học kỹ · 🔸 vòng 2 — đọc hiểu · ⭐ chương khó, trọng tâm
 
-> **Đủ 8 bài (0–7).** Mỗi bài mở đầu bằng mục 🧩 kể chuyện, rồi tới phần học thuật bám sách.
+> [!note]
+> **Đủ 8 bài (0–7).** Mỗi bài mở đầu bằng mục kể chuyện, rồi tới phần học thuật bám sách.
 
 ---
 

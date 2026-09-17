@@ -167,6 +167,13 @@ Lý lẽ cho từng bậc:
 > George Stigler gọi mô hình thị trường cạnh tranh của Smith là *"'viên ngọc quý'… 'mệnh đề thực
 > chất quan trọng nhất trong toàn bộ kinh tế học'."*
 
+> [!example] Góc đời sống — xếp hạng ba học sinh
+> Có ba bạn A, B, C. Ai "giỏi nhất"? Tuỳ bạn **đo bằng thước nào**: đo bằng **điểm Toán** thì A nhất;
+> đo bằng **chiều cao** thì C nhất; đo bằng **chạy nhanh** thì B nhất. Bảng xếp hạng **không phải sự
+> thật khách quan** — nó phụ thuộc vào cây thước bạn chọn. Cột totem của Skousen y hệt: ông chọn thước
+> "tự do kinh tế và tăng trưởng" nên Smith đứng đỉnh. Đổi thước (ví dụ "công bằng xã hội") thì thứ tự
+> có thể lộn ngược. **Luôn hỏi: tác giả đang đo bằng thước gì?**
+
 ---
 
 ## 4. Đọc cột totem có phản biện — đây là luận điểm, không phải phán quyết
@@ -260,6 +267,7 @@ Cuốn này giao với các khoá/môn có sẵn trong kho:
 | Môn trong kho | Giao ở đâu | Học kết hợp thế nào |
 | --- | --- | --- |
 | [Của cải của các dân tộc — đọc thẳng Smith](../../adamsmitccccdt/README.md) | **Bài 1 (Smith)** | Khoá này tóm Smith trong một chương; khoá kia đọc nguyên tác 5 Quyển. Đọc chéo để kiểm bản tóm của Skousen có trung thực không. |
+| [Lý thuyết tổng quát — đọc thẳng Keynes](../../keynesgeneraltheory/README.md) | **Bài 5 (Keynes)** | Khoá này tóm Keynes trong một chương; khoá kia đọc nguyên tác 6 Quyển. Skousen xếp Keynes ở giữa totem — đọc nguyên tác để tự cân. |
 | [EG43 — Kinh tế Chính trị Mác–Lênin](../../../houedu/eg43-kinhtechinhtri/README.md) | **Bài 3 (Marx)** | Hai nguồn **đối đầu** trên cùng học thuyết. EG43: giá trị thặng dư = phát hiện khoa học. Skousen: Marx "đáy totem". |
 | [EG13 — Kinh tế Vi mô (Mankiw)](../../../houedu/eg13-kinhtevimo-micro/README.md) | **Bài 1 (Smith)** | "Bàn tay vô hình" là nguyên lý số 1 của Mankiw: thị trường thường phân bổ nguồn lực tốt. |
 | [EG14 — Kinh tế Vĩ mô (Mankiw)](../../../houedu/eg14-kinhtevimo-macro/README.md) | **Bài 5 (Keynes)** | Khung "tổng cầu – tổng cung" của vĩ mô hiện đại sinh ra từ Keynes. |
@@ -381,12 +389,12 @@ EG43: Marx (bài 3) — đối đầu · Mankiw vi mô: bàn tay vô hình (bài
 | ---: | --- | --- | :---: |
 | **0** | **Nhập môn — Ba người khổng lồ, con lắc và cột totem** ← *bạn đang ở đây* | Introduction | 1 |
 | 1 | [Adam Smith và cuộc cách mạng 1776 — bàn tay vô hình](bai_01_adam_smith_1776.md) | Chương 1 | 1 · trọng tâm |
-| 2 | Từ Smith tới Marx — thịnh và suy của kinh tế học cổ điển *(chưa viết)* | Chương 2 | 2 |
-| 3 | Karl Marx nổi loạn chống chủ nghĩa tư bản *(chưa viết)* | Chương 3 | 1 · trọng tâm |
-| 4 | Từ Marx tới Keynes — kinh tế học "khoa học" trưởng thành *(chưa viết)* | Chương 4 | 2 |
-| 5 | Keynes và Đại khủng hoảng — tư bản đối mặt thử thách lớn nhất *(chưa viết)* | Chương 5 | 1 · trọng tâm |
-| 6 | Bước ngoặt kinh tế học thế kỷ 20 — Chicago, Friedman và phản công *(chưa viết)* | Chương 6 | 2 |
-| 7 | Kết luận — Adam Smith có chiến thắng Marx và Keynes? *(chưa viết)* | Chương 7 | 1 |
+| 2 | [Từ Smith tới Marx — thịnh và suy của kinh tế học cổ điển](bai_02_smith_toi_marx.md) | Chương 2 | 2 |
+| 3 | [Karl Marx nổi loạn chống chủ nghĩa tư bản](bai_03_karl_marx.md) | Chương 3 | 1 · trọng tâm |
+| 4 | [Từ Marx tới Keynes — kinh tế học "khoa học" trưởng thành](bai_04_marx_toi_keynes.md) | Chương 4 | 2 |
+| 5 | [Keynes và Đại khủng hoảng — tư bản đối mặt thử thách lớn nhất](bai_05_keynes_dai_khung_hoang.md) | Chương 5 | 1 · trọng tâm |
+| 6 | [Bước ngoặt thế kỷ 20 — đỉnh cao Keynes và cuộc phản công](bai_06_buoc_ngoat_the_ky_20.md) | Chương 6 | 2 |
+| 7 | [Kết luận — Adam Smith có chiến thắng Marx và Keynes?](bai_07_ket_luan.md) | Chương 7 | 1 |
 
 Vòng 1 = học kỹ · Vòng 2 = đọc hiểu · "trọng tâm" = chương chân dung người khổng lồ
 

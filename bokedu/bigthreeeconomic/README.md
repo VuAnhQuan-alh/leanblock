@@ -1,8 +1,9 @@
 # Ba người khổng lồ trong kinh tế học — đọc Skousen qua ba chân dung
 
 Bộ bài học dựng **từ chính cuốn sách**, không viết theo trí nhớ. Đây là **bản tóm** —
-đọc Smith/Marx/Keynes qua con mắt Skousen; muốn đọc **thẳng nguyên tác** Smith thì xem
-[Của cải của các dân tộc](../adamsmitccccdt/README.md).
+đọc Smith/Marx/Keynes qua con mắt Skousen; muốn đọc **thẳng nguyên tác** thì xem hai khoá
+nguồn: [Của cải của các dân tộc (Smith)](../adamsmitccccdt/README.md) và
+[Lý thuyết tổng quát (Keynes)](../keynesgeneraltheory/README.md).
 
 **Sách gốc:** **Mark Skousen**, ***The Big Three in Economics: Adam Smith, Karl Marx,
 and John Maynard Keynes*** — NXB M.E. Sharpe, 2007 (ISBN 978-0-7656-1694-4).
@@ -37,7 +38,7 @@ Khoá dùng **Obsidian callout** để tách bạch các loại nội dung:
 | `> [!warning]` | chỗ dễ hiểu sai, hoặc chỗ **Skousen nêu quan điểm** cần đọc có phản biện |
 | `> [!example]` **Góc đời sống** | ví dụ đời thường để khái niệm bớt khô — **không có trong sách** |
 | **Mở rộng** | kiến thức nền sách nói lướt, hoặc thuật ngữ kinh tế cần giải thích thêm |
-| **Nối môn** | liên hệ [EG43 Kinh tế Chính trị](../../houedu/eg43-kinhtechinhtri/README.md) và [Kinh tế học Mankiw](../../houedu/eg14-kinhtevimo-macro/README.md) — **không có trong sách** |
+| **Nối môn** | liên hệ hai khoá nguồn [Adam Smith](../adamsmitccccdt/README.md) & [Keynes](../keynesgeneraltheory/README.md), [EG43 Kinh tế Chính trị](../../houedu/eg43-kinhtechinhtri/README.md), [Kinh tế học Mankiw](../../houedu/eg14-kinhtevimo-macro/README.md) — **không có trong sách** |
 
 Mỗi bài mở đầu bằng mục **"Mở đầu:"** — kể chuyện + ví dụ đời thường, **trước** khi vào thuật ngữ.
 Mở bằng **Obsidian** (hoặc VS Code + Markdown Preview Enhanced) để thấy callout đúng màu.
@@ -68,7 +69,7 @@ Chương 2                  cầu nối: Ricardo, Malthus, Mill, J.B. Say       
 Chương 3                  KARL MARX — bóc lột, giá trị thặng dư, sụp đổ    → bài 3
 Chương 4                  cầu nối: cách mạng biên tế, tân cổ điển          → bài 4
 Chương 5                  KEYNES — Đại khủng hoảng, tổng cầu, nhà nước     → bài 5
-Chương 6                  Chicago, Friedman, phản công của thị trường tự do→ bài 6
+Chương 6                  đỉnh cao Keynes (Samuelson) rồi con lắc quay lại      → bài 6
 Chương 7                  Kết luận: ai thắng?                              → bài 7
 ```
 
@@ -76,17 +77,18 @@ Chương 7                  Kết luận: ai thắng?                           
 | ---: | --- | --- | :---: |
 | 0 | [Nhập môn — Ba người khổng lồ, con lắc và cột totem](ly_thuyet/bai_00_nhap_mon.md) | Introduction | 1 |
 | 1 | [Adam Smith và cuộc cách mạng 1776 — bàn tay vô hình](ly_thuyet/bai_01_adam_smith_1776.md) | Chương 1 | 1 · trọng tâm |
-| 2 | Từ Smith tới Marx — thịnh và suy của kinh tế học cổ điển | Chương 2 | 2 |
-| 3 | Karl Marx nổi loạn chống chủ nghĩa tư bản | Chương 3 | 1 · trọng tâm |
-| 4 | Từ Marx tới Keynes — kinh tế học "khoa học" trưởng thành | Chương 4 | 2 |
-| 5 | Keynes và Đại khủng hoảng — tư bản đối mặt thử thách lớn nhất | Chương 5 | 1 · trọng tâm |
-| 6 | Bước ngoặt kinh tế học thế kỷ 20 — Chicago, Friedman và phản công | Chương 6 | 2 |
-| 7 | Kết luận — Adam Smith có chiến thắng Marx và Keynes? | Chương 7 | 1 |
+| 2 | [Từ Smith tới Marx — thịnh và suy của kinh tế học cổ điển](ly_thuyet/bai_02_smith_toi_marx.md) | Chương 2 | 2 |
+| 3 | [Karl Marx nổi loạn chống chủ nghĩa tư bản](ly_thuyet/bai_03_karl_marx.md) | Chương 3 | 1 · trọng tâm |
+| 4 | [Từ Marx tới Keynes — kinh tế học "khoa học" trưởng thành](ly_thuyet/bai_04_marx_toi_keynes.md) | Chương 4 | 2 |
+| 5 | [Keynes và Đại khủng hoảng — tư bản đối mặt thử thách lớn nhất](ly_thuyet/bai_05_keynes_dai_khung_hoang.md) | Chương 5 | 1 · trọng tâm |
+| 6 | [Bước ngoặt thế kỷ 20 — đỉnh cao Keynes và cuộc phản công](ly_thuyet/bai_06_buoc_ngoat_the_ky_20.md) | Chương 6 | 2 |
+| 7 | [Kết luận — Adam Smith có chiến thắng Marx và Keynes?](ly_thuyet/bai_07_ket_luan.md) | Chương 7 | 1 |
 
 Vòng 1 = học kỹ · Vòng 2 = đọc hiểu · "trọng tâm" = chương chân dung người khổng lồ
 
 > [!note] Tiến độ
-> Đã xong **Bài 0–1**. Các bài 2–7 đang dựng dần.
+> **Hoàn thành toàn bộ Bài 0–7** (đủ Introduction + 7 chương). Mỗi bài trích `PDF tr. N` đối chiếu
+> bản gốc, dùng Obsidian callout, có ví dụ đời thường và mục đọc-có-phản-biện.
 
 ---
 
@@ -97,6 +99,9 @@ Cuốn này giao với các khoá/môn kho đang có:
 - **[Của cải của các dân tộc — đọc thẳng Adam Smith](../adamsmitccccdt/README.md):**
   khoá này tóm Smith trong **một chương** (bài 1); khoá kia đọc **nguyên tác** 5 Quyển. Đọc chéo
   để kiểm: bản tóm của Skousen có trung thực không, hay đã nhuộm màu trường phái Áo?
+- **[Lý thuyết tổng quát — đọc thẳng Keynes](../keynesgeneraltheory/README.md):**
+  khoá này tóm Keynes trong **một chương** (bài 5); khoá kia đọc **nguyên tác** 6 Quyển. Skousen
+  xếp Keynes ở giữa "cột totem" — đọc nguyên tác để tự cân xem đánh giá đó có công bằng.
 - **[EG43 — Kinh tế Chính trị Mác–Lênin](../../houedu/eg43-kinhtechinhtri/README.md):**
   bài 3 (Marx) là chỗ hai nguồn **đối đầu**. Giáo trình EG43 trình bày học thuyết giá trị thặng
   dư như phát hiện khoa học vạch trần bóc lột; Skousen xếp Marx "dưới đáy totem". Đọc song song

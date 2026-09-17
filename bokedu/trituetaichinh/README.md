@@ -7,13 +7,15 @@ Bộ bài học dựng **từ chính cuốn sách**, không viết theo trí nh�
 — bản dịch **Alphabooks / NXB Lao Động Xã Hội**, tháng 4/2014. **8 phần / 31 chương / 8 hộp công cụ / 1 phụ lục.**
 Tệp: `tai_lieu/Tri Tue Tai Chinh - Karen Berman & Joe Knight.pdf`.
 
-> ⚠️ **Không có số trang giấy để trích.** Tệp PDF là **ebook do calibre dàn lại**, 227 trang,
+> [!warning] Không có số trang giấy để trích.
+> Tệp PDF là **ebook do calibre dàn lại**, 227 trang,
 > không mang số trang của bản in 350 trang. Vì vậy mọi trích dẫn trong bài dùng dạng
 > **`ch. 23 · PDF tr. 162`** — số chương là mốc bền, số trang PDF là mốc tra được.
 > Đây là khác biệt so với [EG13](../../houedu/eg13-kinhtevimo-micro/README.md) và
 > [EG14](../../houedu/eg14-kinhtevimo-macro/README.md), nơi giáo trình có số trang in.
 
-> ⚠️ **Bản dịch đánh nhầm số phần.** Có **hai phần cùng mang số VI** (ch. 24–25 và ch. 26–28),
+> [!warning] Bản dịch đánh nhầm số phần.
+> Có **hai phần cùng mang số VI** (ch. 24–25 và ch. 26–28),
 > phần cuối ghi VII. Bản gốc có **8 phần**. Bài học đánh lại theo bản gốc.
 
 ---
@@ -23,10 +25,10 @@ Tệp: `tai_lieu/Tri Tue Tai Chinh - Karen Berman & Joe Knight.pdf`.
 | Ký hiệu | Nghĩa |
 | --- | --- |
 | `ch. 23 · PDF tr. 162` | trích chương 23, trang 162 của tệp PDF trong kho |
-| 💼 **Góc quản trị** | ví dụ thêm cho người đi làm — **không có trong sách** |
-| 📚 **Mở rộng** | kiến thức sách nói lướt, hoặc để trong hộp công cụ |
+| `[!example]` **Góc quản trị** | ví dụ thêm cho người đi làm — **không có trong sách** |
+| `[!note]` **Mở rộng** | kiến thức sách nói lướt, hoặc để trong hộp công cụ |
 | 🇻🇳 **Đối chiếu Việt Nam** | sách viết theo US GAAP; mục này nối sang VAS / Thông tư 200 |
-| ⚠️ | chỗ dễ hiểu sai, **hoặc chỗ sách in sai** (kèm đối chiếu) |
+| `[!warning]` | chỗ dễ hiểu sai, **hoặc chỗ sách in sai** (kèm đối chiếu) |
 | ❓ **Hỏi phòng tài chính** | câu hỏi mang đi hỏi được ngay ở công ty bạn |
 | 🎯 🔸 ⭐ | vòng ưu tiên — xem bảng dưới |
 
@@ -139,7 +141,7 @@ nguyên theo sách thì **bảng cân đối không cân** — xem đính chính
 
 ## Chạy code
 
-> ⚠️ **Quy ước của môn này: bài lý thuyết KHÔNG nhúng code.**
+> [!warning] Quy ước của môn này: bài lý thuyết KHÔNG nhúng code.
 > Khác với [EG13](../../houedu/eg13-kinhtevimo-micro/README.md) và [EG14](../../houedu/eg14-kinhtevimo-macro/README.md),
 > nơi mỗi bài có mục *"Code minh hoạ"* chứa nguyên một khối `python` kèm khối *"Kết quả chạy thật"*.
 > Ở đây `ly_thuyet/` chỉ có chữ, bảng và sơ đồ; code nằm trọn trong `thuc_hanh/`, bài học **trỏ tới
@@ -177,7 +179,8 @@ Cùng 14 công thức, hai doanh nghiệp cách nhau 19 năm. Ba chỗ đáng d�
 | Chu kỳ chuyển đổi tiền mặt | 74,1 ngày | **21,8 ngày** |
 | Biên lợi nhuận gộp · vòng quay tổng tài sản ⟹ ROA | 22,2% · 1,67 ⟹ 4,8% | 28,8% · 0,92 ⟹ **15,2%** |
 
-> ⚠️ **Bản IFRS, không phải bản VAS.** Vinamilk công bố song song hai bộ báo cáo. Báo chí
+> [!warning] Bản IFRS, không phải bản VAS.
+> Vinamilk công bố song song hai bộ báo cáo. Báo chí
 > Việt Nam thường trích bản VAS (tổng tài sản ~55,0 nghìn tỷ), bản IFRS ở đây cho **56.993
 > nghìn tỷ**. Chênh lệch **không phải lỗi của ai** — đó là hai khung kế toán áp lên cùng một
 > doanh nghiệp, cùng một năm. Chính là *"nghệ thuật tài chính"* mà ch. 1–3 nói tới, bằng số liệu Việt Nam.

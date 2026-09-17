@@ -11,10 +11,12 @@ Bộ bài học dựng **từ chính hai cuốn sách**, không viết theo trí
 
 Tệp nằm ở `tai_lieu/`. Cộng lại khoảng **24.000 từ**.
 
+> [!quote]
 > **Tác giả không ghi tên trong sách.** Metadata của cả hai tệp chỉ ghi `Author: Waka` — đó là
 > tên nền tảng xuất bản, không phải người viết. Phần *Bonus* ở **C2 tr. 52** dẫn "blog cá nhân của
 > tôi" là `buituananh.name`. Khoá học này gọi chung là **"sách"**, không quy cho cá nhân nào.
 
+> [!quote]
 > **Không có số trang giấy để trích.** Cả hai tệp do **calibre 8.5.0** dàn lại (metadata ghi rõ),
 > không mang số trang của bản in. Quy ước trích dẫn của môn này là `C2 tr. 33` — tập nào, trang
 > nào **trong tệp PDF ở kho**. Giống hệt tình huống của
@@ -53,6 +55,7 @@ Sách tự đặt phạm vi ngay Unit 1: tài chính cá nhân là **ba bài to�
                                                     ráp lại      →  bài 4, 14
 ```
 
+> [!quote]
 > *"hầu hết đều đồng ý rằng số tiền bạn kiếm được không quan trọng bằng số tiền bạn giữ được"*
 > — C1 tr. 4–5
 
@@ -112,9 +115,10 @@ hai tập **trùng nhau** chứ không nối tiếp nhau — tài sản ròng d�
 [13](ly_thuyet/bai_13_kenh_dau_tu.md) ·
 [14](ly_thuyet/bai_14_muc_tieu_smart.md).
 
+> [!note]
 > **Còn mở:** thư mục `thuc_hanh/` (code Python cho từng bài) mô tả ở dưới hiện chưa có trong bản
 > làm việc này — các bài lý thuyết đã trỏ sẵn tới tệp code theo quy ước, cần bổ sung code cho bài
-> 07–14. Mọi con số trong bài đều kèm công thức một dòng để tự kiểm bằng tay trong lúc chờ.
+> 10–14. Mọi con số trong bài đều kèm công thức một dòng để tự kiểm bằng tay trong lúc chờ.
 
 ---
 

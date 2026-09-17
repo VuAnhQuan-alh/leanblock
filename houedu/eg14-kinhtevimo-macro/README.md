@@ -6,11 +6,13 @@ Bộ bài học dựng **từ chính giáo trình**, không viết theo trí nh�
 — bản dịch của Khoa Kinh tế, Trường ĐH Kinh tế TP.HCM (Cengage Learning Asia, 2014). **23 chương / 9 phần**.
 Tệp: `tai_lieu/Kinh te hoc Vi mo (MacroEconomics)_Mankiw.pdf`.
 
-> ⚠️ **Lệch trang:** *trang sách N = trang PDF N + 35*. Mọi trích dẫn trong bài dùng **số trang in
+> [!warning] Lệch trang:
+> *trang sách N = trang PDF N + 35*. Mọi trích dẫn trong bài dùng **số trang in
 > trên giấy**, không phải số trang PDF. (Đã kiểm: PDF 38 = tr. 3 — trang mở đầu chương 1; PDF 250 = tr. 215 —
 > trang mở đầu chương 10.)
 
-> ⚠️ **Tên tệp PDF ghi nhầm.** Nó ghi *"Kinh te hoc **Vi mo** (MacroEconomics)"* — nội dung là **vĩ mô**.
+> [!warning] Tên tệp PDF ghi nhầm.
+> Nó ghi *"Kinh te hoc **Vi mo** (MacroEconomics)"* — nội dung là **vĩ mô**.
 > Giữ nguyên tên tệp để không làm hỏng liên kết. Xem [bài 0 mục 3](ly_thuyet/bai_00_tu_vi_mo_sang_vi_mo.md#3-hai-chỗ-dễ-gây-nhầm-ngay-từ-đầu).
 
 ---
@@ -21,16 +23,16 @@ Tệp: `tai_lieu/Kinh te hoc Vi mo (MacroEconomics)_Mankiw.pdf`.
 | ---------------------- | ------------------------------------------------------------------ |
 | `tr. 12`               | trích trang 12 của giáo trình (số in trên giấy)                    |
 | **Hình 2**, **Bảng 1** | hình/bảng nguyên bản của sách, giữ nguyên số hiệu để tra ngược     |
-| 💼 **Góc QTKD**         | ví dụ thêm cho ngành quản trị kinh doanh — **không có trong sách** |
-| 📚 **Mở rộng**          | kiến thức sách nói lướt, để trong hộp phụ, hoặc bỏ qua             |
-| ⚠️                      | chỗ dễ hiểu sai, hoặc chỗ sách in sai (kèm đối chiếu bản quét)     |
+| `[!example]` **Góc QTKD**         | ví dụ thêm cho ngành quản trị kinh doanh — **không có trong sách** |
+| `[!note]` **Mở rộng**          | kiến thức sách nói lướt, để trong hộp phụ, hoặc bỏ qua             |
+| `[!warning]`                      | chỗ dễ hiểu sai, hoặc chỗ sách in sai (kèm đối chiếu bản quét)     |
 | 🎯 🔸 ⭐                  | vòng ưu tiên cho QTKD — xem bảng bên dưới                          |
 
 Công thức viết bằng LaTeX. Mở bằng **Obsidian** (hoặc VS Code + Markdown Preview Enhanced) để hiển thị đúng.
 
 ---
 
-## ⛔ Chín chương đầu bạn đã học rồi
+## Chín chương đầu bạn đã học rồi
 
 Sách vĩ mô và sách vi mô của Mankiw **dùng chung chín chương đầu** (mười nguyên lý, cung–cầu, độ co giãn,
 thặng dư, thuế, thương mại quốc tế). Môn [Kinh tế vi mô — EG13](../eg13-kinhtevimo-micro/README.md)
@@ -161,7 +163,8 @@ python3 chen-hinh.py            # chèn vào ly_thuyet/ — chạy lại bao nhi
 Chỉ cần `pdftoppm`; không dùng thư viện Python ngoài. Ảnh là **PNG 200 DPI** — với nét mảnh của bản
 quét, PNG *nhỏ hơn* JPEG cùng độ phân giải (216 KB so với 521 KB ở một trang mẫu).
 
-> ⚠️ **Bộ dò khung không đủ tin.** Nó chọn khung xám cao nhất trên trang, nên hỏng ở ba kiểu tình
+> [!warning] Bộ dò khung không đủ tin.
+> Nó chọn khung xám cao nhất trên trang, nên hỏng ở ba kiểu tình
 > huống: trang có **hai** khung (hình + hộp *Tin tức báo chí*), hình nằm ở **trang kế bên** chỗ được
 > nhắc, và hình mà bản dịch **in thiếu**. Vì thế **cả 78 ảnh đã được duyệt bằng mắt** — nhãn
 > *"Hình N"* nằm ngay trong ảnh nên đối chiếu được với tên tệp. Chín trường hợp sai đã sửa tay qua

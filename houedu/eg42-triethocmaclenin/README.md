@@ -2,7 +2,7 @@
 
 Bộ ghi chú học tập dựng từ **Giáo trình Triết học Mác – Lênin** (dành cho bậc đại học hệ không chuyên lý luận chính trị), Bộ Giáo dục và Đào tạo, NXB Chính trị Quốc gia Sự thật, Hà Nội, 2021 — [file gốc PDF](tai_lieu/Giao-trinh-Triet-hoc-Mac-Lenin.pdf).
 
-Mỗi bài bám sát sách, trích số trang `(tr. XX)` thật, và có thêm **💼 Góc QTKD** — ví dụ áp dụng cho ngành **Quản trị kinh doanh** (không có trong sách).
+Mỗi bài bám sát sách, trích số trang `(tr. XX)` thật, và có thêm **Góc QTKD** — ví dụ áp dụng cho ngành **Quản trị kinh doanh** (không có trong sách).
 
 ## Mục lục 13 bài
 
@@ -24,4 +24,5 @@ Mỗi bài bám sát sách, trích số trang `(tr. XX)` thật, và có thêm *
 
 🎯 vòng 1 — học kỹ · 🔸 vòng 2 — đọc hiểu · ⭐ trọng tâm thi
 
+> [!quote]
 > ✅ **Đã soạn xong toàn bộ 13 bài.** Chương 2 (bài 3–8) trình bày theo mạch dễ hiểu: sách để **sáu cặp phạm trù** (tr. 203) trước **ba quy luật** (tr. 234), nhưng ở đây bài 6 = ba quy luật (⭐ trọng tâm thi), bài 7 = sáu phạm trù — mỗi bài vẫn trích đúng số trang gốc.

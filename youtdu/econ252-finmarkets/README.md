@@ -12,7 +12,8 @@ Kênh **YaleCourses** trên YouTube · Open Yale Courses, giấy phép **CC BY-N
   Financial Markets and Institutions*** — Shiller nói thẳng Modigliani là **thầy hướng dẫn luận án
   của ông ở MIT**, mất năm 2003. Đọc thêm: **Shiller, *Finance and the Good Society***.
 
-> ⚠️ **Khoá này ghi Xuân 2011** — hai năm rưỡi sau khi Lehman sụp, khi Dodd-Frank vừa ký mà chưa thi
+> [!warning] Khoá này ghi Xuân 2011
+> hai năm rưỡi sau khi Lehman sụp, khi Dodd-Frank vừa ký mà chưa thi
 > hành và Basel III còn là bản thảo. Mỗi bài đều có mục ⚠️ **đối chiếu 2026** cho những chỗ thời
 > gian đã bác bỏ.
 
@@ -22,6 +23,7 @@ Kênh **YaleCourses** trên YouTube · Open Yale Courses, giấy phép **CC BY-N
 
 Đây là điểm phải nắm trước khi đọc dòng nào. Shiller mở đầu buổi 1 (`01 00:47`):
 
+> [!quote] 01 00:59–01:03
 > *"Nó nói về xã hội chúng ta. Bạn có thể tưởng đây là khoá về giao dịch, vì tên có chữ 'thị
 > trường', nhưng nó rộng hơn thế. Tài chính, theo tôi, đúng như mô tả khoá học nói, là **một trụ
 > cột của xã hội văn minh**."* (`01 00:59`–`01:03`)
@@ -45,10 +47,10 @@ chiếu từng buổi, ở [tai_lieu/gom-nhom.md](tai_lieu/gom-nhom.md).
 | --- | --- |
 | `13 41:06` | **buổi 13, phút 41:06** — mọi mốc đều đã đối chiếu ngược với phụ đề gốc bằng script |
 | `12 ch5` | buổi 12 chỉ trích được ở **cấp chương** — xem cảnh báo dưới |
-| 📚 **Mở rộng** | kiến thức video lướt qua, hoặc phần bài học này bổ sung — **không có trong video** |
+| `[!note]` **Mở rộng** | kiến thức video lướt qua, hoặc phần bài học này bổ sung — **không có trong video** |
 | 🇻🇳 **Góc Việt Nam** | số liệu và ví dụ trong nước — **không có trong video** |
-| ⚠️ | chỗ dễ hiểu sai, chỗ video nói sai, hoặc chỗ thực tế sau 2011 đã bác lại |
-| 💡 **Tự thử** | bài tập sửa tham số rồi quan sát, **không kèm lời giải** |
+| `[!warning]` | chỗ dễ hiểu sai, chỗ video nói sai, hoặc chỗ thực tế sau 2011 đã bác lại |
+| `[!example]` **Tự thử** | bài tập sửa tham số rồi quan sát, **không kèm lời giải** |
 
 Công thức viết bằng LaTeX. Mở bằng **Obsidian** (hoặc VS Code + Markdown Preview Enhanced).
 
@@ -166,6 +168,7 @@ buổi 21. Nên gom chủ yếu là **ghép buổi khách mời vào đúng bài
 | 12 | [**Tài chính hành vi** — Shiller phản biện Lo](ly_thuyet/bai_12_tai_chinh_hanh_vi.md) | 11 | ✅ |
 | 13 | ⭐ [**Mục đích, đạo đức, dân chủ hoá tài chính**](ly_thuyet/bai_13_muc_dich_dao_duc.md) — bài giảng kết | 23 + 19 (ch5–8) | ✅ |
 
+> [!note]
 > 🥊 **Bài 12 cố ý mâu thuẫn với kho bên cạnh.**
 > [Bài 13 của MIT 15.401](../mit-15401-finance/ly_thuyet/bai_13_thi_truong_hieu_qua.md) đã dạy hành
 > vi, nhưng qua lăng kính **adaptive markets của Andrew Lo**. Shiller đi hướng khác hẳn: lý thuyết
@@ -173,6 +176,7 @@ buổi 21. Nên gom chủ yếu là **ghép buổi khách mời vào đúng bài
 > mâu thuẫn thật, và đó là thứ đáng giá nhất khi đọc hai khoá cạnh nhau — nên bài này **đứng riêng**
 > chứ không vá vào.
 
+> [!quote]
 > 🎯 **Bài 13 là chỗ Shiller đặt luận điểm riêng của ông.** *"Dân chủ hoá tài chính là cố đưa nó
 > vượt ra khỏi tầng lớp tinh hoa […] **Bất bình đẳng phần lớn đến từ việc không quản trị được rủi
 > ro.**"* (`23 50:47`–`51:13`). Đây là câu nối thẳng khoá học vào ngành quản trị kinh doanh.

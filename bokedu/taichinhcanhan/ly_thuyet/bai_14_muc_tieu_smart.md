@@ -11,7 +11,7 @@
 > **chính là cả khoá học này**. [Mục 4](#4-đã-cắt-5-bước-cùng-topi-chính-là-cả-khoá-học).
 > **Ký hiệu:** **[bổ sung]** ngoài sách · **[đính chính]** chỗ sách sai · **[đã cắt]** phần thương
 > mại thay bằng cách khác.
-> **Code:** [`thuc_hanh/bai-14-ke-hoach.py`](../thuc_hanh/bai-14-ke-hoach.py)
+> **Code:** `thuc_hanh/bai-14-ke-hoach.py` — *(chưa có; sẽ bổ sung — xem ghi chú ở README)*
 > — dựng bảng kế hoạch tự do tài chính cho người ở bài 3 từ chính số của các bài trước, và tính số
 > tiền đích theo lợi suất thực. Công thức một dòng kèm theo.
 >
@@ -213,7 +213,7 @@ Giấy bút của bạn đâu? Như sách nói ở tr. 39: **viết ra mục ti�
 
 ## 7. Tự thử
 
-Sửa [`thuc_hanh/bai-14-ke-hoach.py`](../thuc_hanh/bai-14-ke-hoach.py) rồi chạy lại.
+Sửa `thuc_hanh/bai-14-ke-hoach.py` rồi chạy lại.
 
 1. **Một mục tiêu SMART của bạn.** Viết một mục tiêu tài chính thật, rồi chấm nó theo năm chữ. Chữ
    nào bạn còn để mơ hồ? Sửa cho đủ cả năm.
@@ -317,7 +317,7 @@ Sửa [`thuc_hanh/bai-14-ke-hoach.py`](../thuc_hanh/bai-14-ke-hoach.py) rồi ch
   một bảng năm bước tự dựng từ chính các bài trước — lý do là tuổi thọ, giống
   [bài 12](bai_12_rui_ro_khau_vi_phan_bo.md#3-bốn-cách-đo-và-đã-cắt-vì-sao-bỏ-topi-thay-bằng-missouri).
   Chính sách cũng chỉ về *"các bài trước"* ở bước 3, xác nhận nội dung nằm ở bài học.
-- **Đã kiểm chứng bằng code** — [`thuc_hanh/bai-14-ke-hoach.py`](../thuc_hanh/bai-14-ke-hoach.py).
+- **Đã kiểm chứng bằng code** — `thuc_hanh/bai-14-ke-hoach.py`.
   Bảng kế hoạch và số đích do tệp này tính, chạy hai lần ra giống hệt nhau. Công thức một dòng để tự
   kiểm: số tiền tự do tài chính `= chi tiêu năm / (lợi suất − lạm phát)`.
 - **Số liệu lấy nguyên từ bài trước:** thu nhập ròng 16tr, chi thiết yếu 10,37tr (124,4tr/năm), để

@@ -12,7 +12,7 @@
 > tr. 26 là *"cách 2… (uy tín)"*. Lý do ở [mục 3](#3-bốn-cách-đo-và-đã-cắt-vì-sao-bỏ-topi-thay-bằng-missouri).
 > **Ký hiệu:** **[bổ sung]** là kiến thức ngoài sách · **[đính chính]** là chỗ sách sai ·
 > **[đã cắt]** là phần thương mại thay bằng cách khác · **[2026]** là mục đối chiếu hiện tại.
-> **Code:** [`thuc_hanh/bai-12-rui-ro-khau-vi.py`](../thuc_hanh/bai-12-rui-ro-khau-vi.py)
+> **Code:** `thuc_hanh/bai-12-rui-ro-khau-vi.py` — *(chưa có; sẽ bổ sung — xem ghi chú ở README)*
 > — kiểm hai con số sách để trống: kỳ vọng thật của danh mục "Cân bằng", và số tiền tự do tài chính
 > đổi thế nào khi lợi suất kỳ vọng đổi. Công thức một dòng kèm theo để tự tính tay.
 >
@@ -318,7 +318,7 @@ quỹ, ETF) để mỗi dòng trong danh mục mẫu ở mục 4 có nội dung 
 
 ## 9. Tự thử
 
-Sửa [`thuc_hanh/bai-12-rui-ro-khau-vi.py`](../thuc_hanh/bai-12-rui-ro-khau-vi.py) rồi chạy lại.
+Sửa `thuc_hanh/bai-12-rui-ro-khau-vi.py` rồi chạy lại.
 
 1. **Làm bảng Missouri thật.** Vào `pfp.missouri.edu`, làm 13 câu, ghi lại điểm và hồ sơ của bạn.
    Nó rơi vào cái nào trong sáu hồ sơ ở mục 4? Ba tháng sau làm lại — có đổi không?
@@ -441,7 +441,7 @@ Sửa [`thuc_hanh/bai-12-rui-ro-khau-vi.py`](../thuc_hanh/bai-12-rui-ro-khau-vi.
   [pfp.missouri.edu/research/investment-risk-tolerance-assessment](https://pfp.missouri.edu/research/investment-risk-tolerance-assessment/).
   Chính sách đã dẫn công cụ này ở tr. 26 là *"cách 2… (uy tín)"*. Bài này **không đọc bản gốc Grable
   & Lytton** — nêu tên thang để cho biết bảng câu hỏi có nguồn học thuật, không phải để trích.
-- **Đã kiểm chứng bằng code** — [`thuc_hanh/bai-12-rui-ro-khau-vi.py`](../thuc_hanh/bai-12-rui-ro-khau-vi.py).
+- **Đã kiểm chứng bằng code** — `thuc_hanh/bai-12-rui-ro-khau-vi.py`.
   Ba bảng số do tệp này tính, chạy hai lần ra giống hệt nhau. Công thức một dòng để tự kiểm: kỳ vọng
   danh mục `= Σ (tỷ trọng × lợi suất thành phần)`; số tiền tự do tài chính `= chi tiêu / (lợi suất −
   lạm phát)`; giá vốn DCA `= tổng tiền / tổng đơn vị`.

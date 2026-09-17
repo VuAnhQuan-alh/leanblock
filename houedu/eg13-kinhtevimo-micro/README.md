@@ -6,7 +6,8 @@ Bộ bài học dựng **từ chính giáo trình**, không viết theo trí nh�
 Trường ĐH Kinh tế TP.HCM (Cengage Learning Asia). 22 chương / 7 phần.
 Tệp: `tai_lieu/Kinh te hoc vi mo (MicroEconomics)_Mankiw.pdf`.
 
-> ⚠️ **Lệch trang:** *trang sách N = trang PDF N + 33*. Mọi trích dẫn trong bài dùng **số trang in
+> [!warning] Lệch trang:
+> *trang sách N = trang PDF N + 33*. Mọi trích dẫn trong bài dùng **số trang in
 > trên giấy**, không phải số trang PDF. (Đã kiểm: PDF 132 = tr. 99.)
 
 ---
@@ -17,9 +18,9 @@ Tệp: `tai_lieu/Kinh te hoc vi mo (MicroEconomics)_Mankiw.pdf`.
 | ---------------------- | ------------------------------------------------------------------ |
 | `tr. 12`               | trích trang 12 của giáo trình (số in trên giấy)                    |
 | **Hình 2**, **Bảng 1** | hình/bảng nguyên bản của sách, giữ nguyên số hiệu để tra ngược     |
-| 💼 **Góc QTKD**         | ví dụ thêm cho ngành quản trị kinh doanh — **không có trong sách** |
-| 📚 **Mở rộng**          | kiến thức sách nói lướt, để trong bài tập, hoặc bỏ qua             |
-| ⚠️                      | chỗ dễ hiểu sai, hoặc chỗ sách in sai (kèm đối chiếu bản quét)     |
+| `[!example]` **Góc QTKD**         | ví dụ thêm cho ngành quản trị kinh doanh — **không có trong sách** |
+| `[!note]` **Mở rộng**          | kiến thức sách nói lướt, để trong bài tập, hoặc bỏ qua             |
+| `[!warning]`                      | chỗ dễ hiểu sai, hoặc chỗ sách in sai (kèm đối chiếu bản quét)     |
 | 🎯 🔸 ⚪                  | vòng ưu tiên cho QTKD — xem bảng bên dưới                          |
 
 Công thức viết bằng LaTeX. Mở bằng **Obsidian** (hoặc VS Code + Markdown Preview Enhanced) để hiển thị đúng.
@@ -126,7 +127,8 @@ python3 chen-hinh.py            # chèn vào ly_thuyet/ — chạy lại bao nhi
 Chỉ cần `pdftoppm`; không dùng thư viện Python ngoài. Ảnh là **PNG 200 DPI** — với nét mảnh của bản
 quét, PNG *nhỏ hơn* JPEG cùng độ phân giải.
 
-> ⚠️ **Bộ dò khung sai khá nhiều ở môn này** — nhiều hơn hẳn EG14. Năm kiểu hỏng đã gặp:
+> [!warning] Bộ dò khung sai khá nhiều ở môn này
+> nhiều hơn hẳn EG14. Năm kiểu hỏng đã gặp:
 > trang có **hai** khung xám xếp chồng (bộ dò gộp làm một hoặc lấy nhầm khung), hình nằm ở **trang
 > kế bên** chỗ được nhắc, hình in trên **nền trắng** không có khung nào để dò, khung bị **cắt cụt**
 > đầu hoặc đuôi, và một mục mà sách **không hề có**.
