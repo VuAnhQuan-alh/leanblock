@@ -13,7 +13,7 @@ Mỗi bài bám sát sách, trích số trang `(tr. XX)` thật, và có thêm *
 | 3 | [Chủ nghĩa xã hội và thời kỳ quá độ lên CNXH](ly_thuyet/bai_03_cnxh_va_thoi_ky_qua_do.md) | C3 (tr. 86–124) | 🎯⭐ |
 | 4 | [Dân chủ xã hội chủ nghĩa](ly_thuyet/bai_04_dan_chu_xhcn.md) | C4 – I (tr. 125–140) | 🎯 |
 | 5 | [Nhà nước XHCN và nhà nước pháp quyền XHCN](ly_thuyet/bai_05_nha_nuoc_xhcn.md) | C4 – II, III (tr. 141–163) | 🎯 |
-| 6 | Cơ cấu xã hội – giai cấp và liên minh giai cấp, tầng lớp | C5 (tr. 165–193) | 🔸 |
+| 6 | [Cơ cấu xã hội – giai cấp và liên minh giai cấp, tầng lớp](ly_thuyet/bai_06_co_cau_xa_hoi_giai_cap.md) | C5 (tr. 165–193) | 🔸 |
 | 7 | Vấn đề dân tộc trong thời kỳ quá độ | C6 – I (tr. 196–213) | 🔸 |
 | 8 | Vấn đề tôn giáo; quan hệ dân tộc – tôn giáo | C6 – II, III (tr. 214–237) | 🔸 |
 | 9 | Vấn đề gia đình trong thời kỳ quá độ lên CNXH | C7 (tr. 239–269) | 🔸 |
@@ -23,4 +23,4 @@ Mỗi bài bám sát sách, trích số trang `(tr. XX)` thật, và có thêm *
 **Ký hiệu trong bài:** 💼 **Góc QTKD** = ví dụ cho ngành quản trị kinh doanh · **Góc đời sống** = ví dụ đời sống/xã hội · 📚 **Mở rộng** = đào sâu ngoài sách · ⚠️ = chỗ dễ hiểu sai. Các mục này biên soạn thêm, **không có trong sách**.
 
 > [!note]
-> 🚧 **Đang soạn.** Đã xong **bài 1–5**. Bài 6–9 sẽ thành link khi soạn xong. Trọng tâm thi: **bài 2 và 3** (sứ mệnh lịch sử GCCN; CNXH và thời kỳ quá độ).
+> 🚧 **Đang soạn.** Đã xong **bài 1–6**. Bài 7–9 sẽ thành link khi soạn xong. Trọng tâm thi: **bài 2 và 3** (sứ mệnh lịch sử GCCN; CNXH và thời kỳ quá độ).
