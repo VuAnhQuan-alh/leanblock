@@ -16,11 +16,11 @@ Mỗi bài bám sát sách, trích số trang `(tr. XX)` thật, và có thêm *
 | 6 | [Cơ cấu xã hội – giai cấp và liên minh giai cấp, tầng lớp](ly_thuyet/bai_06_co_cau_xa_hoi_giai_cap.md) | C5 (tr. 165–193) | 🔸 |
 | 7 | [Vấn đề dân tộc trong thời kỳ quá độ](ly_thuyet/bai_07_van_de_dan_toc.md) | C6 – I (tr. 196–213) | 🔸 |
 | 8 | [Vấn đề tôn giáo; quan hệ dân tộc – tôn giáo](ly_thuyet/bai_08_van_de_ton_giao.md) | C6 – II, III (tr. 214–237) | 🔸 |
-| 9 | Vấn đề gia đình trong thời kỳ quá độ lên CNXH | C7 (tr. 239–269) | 🔸 |
+| 9 | [Vấn đề gia đình trong thời kỳ quá độ lên CNXH](ly_thuyet/bai_09_van_de_gia_dinh.md) | C7 (tr. 239–269) | 🔸 |
 
 🎯 vòng 1 — học kỹ · 🔸 vòng 2 — đọc hiểu · ⭐ trọng tâm thi
 
 **Ký hiệu trong bài:** 💼 **Góc QTKD** = ví dụ cho ngành quản trị kinh doanh · **Góc đời sống** = ví dụ đời sống/xã hội · 📚 **Mở rộng** = đào sâu ngoài sách · ⚠️ = chỗ dễ hiểu sai. Các mục này biên soạn thêm, **không có trong sách**.
 
 > [!note]
-> 🚧 **Đang soạn.** Đã xong **bài 1–8**. Bài 9 sẽ thành link khi soạn xong. Trọng tâm thi: **bài 2 và 3** (sứ mệnh lịch sử GCCN; CNXH và thời kỳ quá độ).
+> ✅ **Đã soạn xong toàn bộ 9 bài.** Trọng tâm thi: **bài 2 và 3** (sứ mệnh lịch sử GCCN; CNXH và thời kỳ quá độ). Nền tảng đã học ở [Triết học](../eg42-triethocmaclenin/README.md) và [Kinh tế chính trị](../eg43-kinhtechinhtri/README.md).
