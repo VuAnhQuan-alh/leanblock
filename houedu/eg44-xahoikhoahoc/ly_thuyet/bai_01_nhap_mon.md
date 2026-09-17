@@ -336,14 +336,16 @@ PHƯƠNG PHÁP: nền = DVBC+DVLS; đặc trưng = LỊCH SỬ–LÔGÍC · kh�
 | **1** | **Nhập môn Chủ nghĩa xã hội khoa học** ← *bạn đang ở đây* | C1 | 🎯 |
 | 2 | Sứ mệnh lịch sử của giai cấp công nhân | C2 | 🎯⭐ |
 | 3 | Chủ nghĩa xã hội và thời kỳ quá độ lên CNXH | C3 | 🎯⭐ |
-| 4 | Dân chủ xã hội chủ nghĩa và Nhà nước XHCN | C4 | 🎯 |
-| 5 | Cơ cấu xã hội – giai cấp và liên minh giai cấp, tầng lớp | C5 | 🔸 |
-| 6 | Vấn đề dân tộc và tôn giáo trong thời kỳ quá độ | C6 | 🔸 |
-| 7 | Vấn đề gia đình trong thời kỳ quá độ lên CNXH | C7 | 🔸 |
+| 4 | Dân chủ xã hội chủ nghĩa | C4 | 🎯 |
+| 5 | Nhà nước XHCN và nhà nước pháp quyền XHCN | C4 | 🎯 |
+| 6 | Cơ cấu xã hội – giai cấp và liên minh giai cấp, tầng lớp | C5 | 🔸 |
+| 7 | Vấn đề dân tộc trong thời kỳ quá độ | C6 | 🔸 |
+| 8 | Vấn đề tôn giáo; quan hệ dân tộc – tôn giáo | C6 | 🔸 |
+| 9 | Vấn đề gia đình trong thời kỳ quá độ lên CNXH | C7 | 🔸 |
 
 🎯 học kỹ · 🔸 đọc hiểu · ⭐ trọng tâm thi
-Các bài 2–7 chưa soạn; sẽ thành link khi soạn xong.
+Các bài 2–9 chưa soạn; sẽ thành link khi soạn xong.
 
-Chỉ mục các môn: [Triết học Mác – Lênin](../../eg42-triethocmaclenin/ly_thuyet/bai_01_triet_hoc_va_van_de_co_ban.md) · [Kinh tế chính trị Mác – Lênin](../../eg43-kinhtechinhtri/ly_thuyet/bai_01_doi_tuong_phuong_phap_chuc_nang.md)
+Chỉ mục môn học: [README.md](../README.md)
 
 <!-- /BAN-DO -->
