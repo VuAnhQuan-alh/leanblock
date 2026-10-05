@@ -6,6 +6,7 @@
 !/bokedu/
 !/youtdu/
 !/tieng_anh/
+!/astories/
 
 /simplychain/*
 !/simplychain/ly_thuyet/
@@ -43,6 +44,13 @@
 !/youtdu/*/hinh/
 !/youtdu/*/ly_thuyet/
 !/youtdu/*/mo_rong/
-!/youtdu/*/README.md 
+!/youtdu/*/README.md
+
+# astories: sách tiếng Anh, chỉ mở bài học + README; tai_lieu/ (PDF gốc) ở ngoài git
+/astories/*
+!/astories/*/
+/astories/*/*
+!/astories/*/bai_hoc/
+!/astories/*/README.md
 
 .DS_Store
