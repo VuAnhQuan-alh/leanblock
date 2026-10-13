@@ -29,9 +29,10 @@ Nations*** (1776). Kho giữ **hai bản**:
 | `> [!warning]` | chỗ dễ hiểu sai, chỗ Smith nói sai/lỗi thời, hoặc chỗ bản dịch Việt lệch |
 | `> [!info]` | ghi chú định hướng đầu mỗi bài |
 | `> [!example]` **Góc đời sống** | ví dụ đời thường để hiểu khái niệm trừu tượng — **không có trong sách** |
-| **Mở rộng** | kiến thức nền sách nói lướt, hoặc thuật ngữ cần giải thích thêm |
+| **Phản biện & hậu Smith** | Smith sai/thiếu ở đâu, người sau (Ricardo, Marx, Keynes, kinh tế học hiện đại) sửa thế nào — **không có trong sách** |
+| **Smith nói gì · Định nghĩa · Chuỗi lập luận · Ví dụ số** | khuôn 4 bước cho mỗi khái niệm lõi (sau Góc đời sống, trước `[!warning]`); số tự dựng ghi *(số giả định)* |
 | **Nối môn** | liên hệ [Ba người khổng lồ](../bigthreeeconomic/README.md) và [EG43 Kinh tế Chính trị](../../houedu/eg43-kinhtechinhtri/README.md) — **không có trong sách** |
-| **Đối chiếu 2026** | sách viết năm 1776 — mục này soi lại bằng con mắt hôm nay |
+| **Đối chiếu 2026** | sách viết năm 1776 — mục này soi lại bằng con mắt hôm nay; mọi số liệu kèm (nguồn, ngày) |
 
 Công thức (nếu có) viết bằng LaTeX. Mở bằng **Obsidian** (hoặc VS Code + Markdown Preview Enhanced).
 
