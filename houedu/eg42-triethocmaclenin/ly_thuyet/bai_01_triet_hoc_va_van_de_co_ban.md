@@ -1,20 +1,13 @@
 # Bài 1 — Triết học và vấn đề cơ bản của triết học
 
 > [!info] Về bài này
-> Bài học dựng từ **Chương 1, mục I** (tr. 12–47) của *Giáo trình Triết học Mác – Lênin* (hệ không
-> chuyên), Bộ Giáo dục và Đào tạo, **NXB Chính trị Quốc gia Sự thật, 2021**.
+> Bài học dựng từ **Chương 1, mục I** (tr. 12–47) của *Giáo trình Triết học Mác – Lênin* (hệ không chuyên), Bộ Giáo dục và Đào tạo, **NXB Chính trị Quốc gia Sự thật, 2021**.
 >
-> **Vòng 1** — bài nền, học kỹ. Toàn bộ khoá đứng trên bốn khái niệm của bài này: **thế giới quan,
-> vấn đề cơ bản, duy vật/duy tâm, biện chứng/siêu hình**.
+> **Vòng 1 — học kỹ.** Cả khoá đứng trên bốn cặp khái niệm của bài này: **thế giới quan**, **vấn đề cơ bản** (vật chất – ý thức), **duy vật / duy tâm**, **biện chứng / siêu hình**. Bài 3–8 triển khai chi tiết chúng.
 >
-> **Cách đọc các khối màu trong bài:**
-> - `[!quote]` — trích **nguyên văn** giáo trình (hoặc kinh điển do giáo trình dẫn), kèm số trang.
-> - `[!warning]` — chỗ **dễ hiểu sai**.
-> - `[!note]` **Mở rộng** — thứ sách nói lướt hoặc cho tên riêng mà không giải thích.
-> - `[!example]` **Góc QTKD** — ví dụ áp dụng cho ngành **quản trị kinh doanh**, *không có trong
->   sách*, chỉ là phép loại suy để dễ nhớ.
+> **Cần đọc trước:** không có — đây là bài đầu tiên. Bài tiếp theo: [Bài 2 — Triết học Mác – Lênin và vai trò của nó](bai_02_triet_hoc_mac_lenin_va_vai_tro.md).
 >
-> **Cần đọc trước:** không có. Đây là bài đầu tiên.
+> **Cách đọc các khối màu:** `[!example] Tình huống` câu chuyện để phân tích (sự kiện thật có nguồn; chuyện dựng ghi *(tình huống giả định)*) · `[!quote]` trích **nguyên văn** giáo trình (hoặc kinh điển do giáo trình dẫn), kèm trang in · `[!warning]` chỗ dễ hiểu sai **bản chất** · `[!note] Mở rộng` kiến thức **ngoài giáo trình**.
 
 ---
 
@@ -38,547 +31,440 @@
 
 <!-- /MUC-LUC -->
 
+**Bố cục mục I:** 1. Khái lược về triết học — nguồn gốc (tr. 12–19), khái niệm (tr. 19–23), đối tượng (tr. 23–27), hạt nhân của thế giới quan (tr. 27–33) → 2. Vấn đề cơ bản — nội dung (tr. 33–35), duy vật và duy tâm (tr. 35–39), khả tri và bất khả tri (tr. 39–43) → 3. Biện chứng và siêu hình — khái niệm (tr. 43–46), các hình thức của phép biện chứng (tr. 46–47).
+
 ---
 
 ## 1. Triết học ra đời từ đâu — hai nguồn gốc
 
-Sách mở đầu bằng một mốc thời gian cần nhớ: triết học **ra đời ở cả phương Đông và phương Tây gần
-như cùng một thời gian, khoảng từ thế kỷ VIII đến thế kỷ VI trước Công nguyên**, tại các trung tâm
-văn minh lớn của nhân loại thời cổ đại (tr. 12). Nó không xuất hiện ngẫu nhiên, mà có **hai nguồn gốc**.
-
-### Nguồn gốc nhận thức (tr. 12–15)
-
-Ban đầu con người giải thích thế giới bằng **tư duy huyền thoại và tín ngưỡng nguyên thuỷ** — thần
-thoại, Tô tem giáo, Bái vật giáo, Saman giáo (tr. 13). Đó là cách "kết nối những hiểu biết rời rạc,
-mơ hồ, phi lôgích... thành những huyền thoại".
-
-Triết học chỉ xuất hiện khi nhận thức đạt tới một trình độ mới:
-
-> [!quote] Giáo trình, tr. 13
-> Sự phát triển của **tư duy trừu tượng và năng lực khái quát** trong quá trình nhận thức sẽ đến lúc
-> làm cho các quan điểm, quan niệm chung nhất về thế giới và về vai trò của con người trong thế giới
-> đó hình thành — đó là lúc triết học xuất hiện.
-
-Cơ chế cốt lõi (tr. 14–15): tri thức con người ban đầu là **cụ thể, riêng lẻ, cảm tính**; đến một giai
-đoạn nó phải được **tổng hợp, trừu tượng hoá, khái quát hoá** thành khái niệm, phạm trù, quy luật, luận
-thuyết "đủ sức phổ quát để giải thích thế giới". Triết học ra đời để đáp ứng nhu cầu đó.
-
-> [!quote] Giáo trình, tr. 15
-> **Nguồn gốc nhận thức của triết học** = sự hình thành và phát triển của **tư duy trừu tượng**, của
-> **năng lực khái quát** trong nhận thức của con người.
-
-### Nguồn gốc xã hội (tr. 15–18)
-
-Nhận thức trừu tượng là điều kiện *cần*, nhưng chưa *đủ*. Triết học "không ra đời trong xã hội mông
-muội dã man". Sách dẫn C. Mác:
-
-> [!quote] C. Mác, dẫn tr. 15
-> "Triết học không treo lơ lửng ở ngoài thế giới, cũng như bộ óc không tồn tại bên ngoài con người."
-
-Triết học chỉ ra đời khi xã hội đã có (tr. 15–17):
-
-```
-điều kiện xã hội để triết học ra đời
-├── sản xuất xã hội phát triển đến trình độ tương đối cao
-├── phân công lao động xã hội hình thành
-│      → đặc biệt: LAO ĐỘNG TRÍ ÓC tách khỏi lao động chân tay
-├── của cải tương đối dư thừa
-├── chế độ tư hữu về tư liệu sản xuất → giai cấp phân hoá
-└── nhà nước ra đời
-        ↓
-   tầng lớp TRÍ THỨC xuất hiện, có điều kiện và nhu cầu nghiên cứu
-        ↓
-   những "nhà thông thái" (triết gia) hệ thống hoá tri thức thời đại
-```
-
-Thuật ngữ *triết gia* (**philosophos**) lần đầu xuất hiện ở **Heraclitus (Hêraclit)**, chỉ người nghiên
-cứu về bản chất của sự vật (tr. 17).
-
-> [!warning] Một hệ quả sách nhấn mạnh và dùng lại suốt khoá
-> Vì ra đời trong xã hội đã có giai cấp và nhà nước, **triết học mang tính giai cấp sâu sắc — nó "công
-> khai tính đảng"**, phục vụ lợi ích của những giai cấp, lực lượng xã hội nhất định (tr. 18). Đây là
-> luận điểm nền của cả chủ nghĩa duy vật lịch sử ở Chương 3.
-
-> [!example] Góc QTKD — dữ liệu rời rạc chỉ thành "chiến lược" khi được khái quát
-> Cơ chế "nguồn gốc nhận thức" mô tả chính xác con đường từ **số liệu** lên **tư duy chiến lược** trong
-> một doanh nghiệp:
+> [!example] Tình huống — Thales ở thành Miletus
+> Đầu thế kỷ VI TCN, Miletus là thành bang Hy Lạp giàu có trên bờ biển Ionia (nay thuộc Thổ Nhĩ Kỳ): cảng buôn nối với Ai Cập, Lưỡng Hà; có thương nhân, chủ nô, nô lệ. Thales (khoảng 624–546 TCN) sống ở đó. Herodotus kể ông báo trước một lần nhật thực (thiên văn học ngày nay tính ra ngày 28/5/585 TCN); người đời sau kể ông đo chiều cao kim tự tháp bằng bóng nắng — mẹo hình học học từ Ai Cập. Nhưng Thales đứng đầu sử sách triết học phương Tây vì một câu hỏi: *mọi vật từ đâu mà ra?* — và câu trả lời: **từ nước**, không phải từ thần Poseidon hay Zeus.
 >
-> | Tầng | Trong nhận thức (sách) | Trong quản trị |
-> | --- | --- | --- |
-> | Cảm tính, rời rạc | tri thức cụ thể, riêng lẻ | từng con số bán hàng, từng phản hồi khách lẻ |
-> | Khái quát hoá | rút ra quy luật chung | "khách khu vực A nhạy giá; khách B trung thành với thương hiệu" |
-> | Hệ thống, phổ quát | luận thuyết, thế giới quan | triết lý kinh doanh, chiến lược định vị |
->
-> Nhân viên bán hàng thấy **cây** (từng đơn hàng); nhà quản trị phải thấy **rừng** (quy luật thị trường).
-> Đó đúng là bước nhảy "trừu tượng hoá, khái quát hoá" mà sách nói tới. Một công ty ngập trong dashboard
-> nhưng không ai khái quát thành nguyên tắc ra quyết định thì vẫn đang ở tầng "tư duy huyền thoại" — giải
-> thích doanh số bằng cảm giác và giai thoại.
+> *(Nguồn: Herodotus, Histories I.74; Aristotle, Siêu hình học A.3. Phần lớn là lời kể của người đời sau.)*
+
+**Giáo trình nói gì.**
+
+> [!quote] Triết học ra đời khi nào (tr. 12)
+> Là một loại hình nhận thức đặc thù của con người, triết học ra đời ở cả phương Đông và phương Tây gần như cùng một thời gian (khoảng từ thế kỷ VIII đến thế kỷ VI trước Công nguyên) tại các trung tâm văn minh lớn của nhân loại thời cổ đại. Ý thức triết học xuất hiện không ngẫu nhiên, mà có nguồn gốc thực tế từ tồn tại xã hội với một trình độ nhất định của sự phát triển văn minh, văn hóa và khoa học.
+
+*"Với tư cách là một hình thái ý thức xã hội, triết học có nguồn gốc nhận thức và nguồn gốc xã hội"* (tr. 12).
+
+**Nguồn gốc nhận thức.** Trước triết học là *"tư duy huyền thoại và tín ngưỡng nguyên thủy"*, đỉnh cao là thần thoại và *"những tôn giáo sơ khai như Tô tem giáo, Bái vật giáo, Saman giáo"* (tr. 12–13). Triết học là *"hình thức tư duy lý luận đầu tiên trong lịch sử tư tưởng nhân loại thay thế được cho tư duy huyền thoại và tôn giáo"* (tr. 13).
+
+> [!quote] Từ tri thức rời rạc đến cái chung (tr. 13)
+> Mối quan hệ giữa cái đã biết và cái chưa biết là đối tượng, đồng thời là động lực đòi hỏi nhận thức ngày càng quan tâm sâu sắc hơn đến cái chung, những quy luật chung. Sự phát triển của tư duy trừu tượng và năng lực khái quát trong quá trình nhận thức sẽ đến lúc làm cho các quan điểm, quan niệm chung nhất về thế giới và về vai trò của con người trong thế giới đó hình thành - đó là lúc triết học xuất hiện với tư cách là một loại hình tư duy lý luận đối lập với các giáo lý tôn giáo và triết lý huyền thoại.
+
+Triết học *"phải dựa vào các tri thức khác để khái quát"* (tr. 14); nguồn gốc nhận thức là *"sự hình thành, phát triển của tư duy trừu tượng, của năng lực khái quát"* (tr. 15).
+
+**Nguồn gốc xã hội.** *"Triết học không ra đời trong xã hội mông muội dã man"*; Mác viết: *"Triết học không treo lơ lửng ở ngoài thế giới, cũng như bộ óc không tồn tại bên ngoài con người"* (*Toàn tập*, t.1, tr.156; dẫn tr. 15). Gắn với chế độ chiếm hữu nô lệ và nhà nước là việc *"lao động trí óc đã tách khỏi lao động chân tay"* (tr. 16). Sách ghi thêm: thuật ngữ "triết học" *"được sử dụng lần đầu tiên trong trường phái Socrates (Xôcrát)"*, còn "triết gia" (*philosophos*) *"đầu tiên xuất hiện ở Heraclitus (Hêraclit)"* (tr. 17).
+
+> [!quote] Điều kiện xã hội và tính giai cấp (tr. 17–18)
+> Như vậy, triết học chỉ ra đời khi xã hội loài người đã đạt đến một trình độ tương đối cao của sản xuất xã hội, phân công lao động xã hội hình thành, của cải tương đối dư thừa, tư hữu hóa tư liệu sản xuất được luật định, giai cấp phân hóa rõ và mạnh, nhà nước ra đời. Trong một xã hội như vậy, tầng lớp trí thức xuất hiện, giáo dục và nhà trường hình thành và phát triển… Với sự tồn tại mang tính pháp lý của chế độ sở hữu tư nhân về tư liệu sản xuất, của trật tự giai cấp và của bộ máy nhà nước, triết học đã mang trong mình tính giai cấp sâu sắc, nó công khai tính đảng là phục vụ cho lợi ích của những giai cấp, những lực lượng xã hội nhất định.
+
+Hai nguồn gốc *"chỉ là sự phân chia có tính chất tương đối"* (tr. 18).
+
+**Định nghĩa.** Triết học ra đời khi có **đủ hai điều kiện**:
+
+| | Nguồn gốc nhận thức | Nguồn gốc xã hội |
+| --- | --- | --- |
+| Cốt lõi | tư duy trừu tượng, năng lực khái quát (tr. 15) | dư thừa, trí óc tách chân tay, tư hữu, giai cấp, nhà nước (tr. 16–17) |
+| Hệ quả | triết học là tư duy **lý luận**, thay huyền thoại | triết học có **tính giai cấp** (tr. 18) |
+
+**Chuỗi lập luận.** (1) Tri thức ban đầu *"cụ thể, riêng lẻ, cảm tính"* (tr. 13). (2) Khoảng cách cái đã biết – chưa biết đẩy nhận thức đi tìm **cái chung** (tr. 13). (3) Khi tư duy trừu tượng đủ mạnh, xuất hiện quan niệm chung nhất về thế giới — triết học, đối lập với huyền thoại (tr. 13). (4) Nhưng phải có xã hội dư thừa, tách lao động trí óc thì mới có người chuyên nghĩ những điều ấy (tr. 15–17). (5) Sinh ra trong xã hội có giai cấp, triết học mang tính giai cấp (tr. 18).
+
+**Soi lại tình huống — Thales.** Ông dựa vào tri thức riêng lẻ có sẵn (thiên văn Babylon, hình học Ai Cập), rồi bước sang câu hỏi về **mọi vật** — từ cái riêng lên cái chung (tr. 13). "Nước" có thể sai, nhưng giải thích thế giới bằng một thứ trong thế giới, thay cho thần thoại. Và ông sống ở một thành bang buôn bán có chủ nô, thuộc lớp người không phải cày ruộng — nguồn gốc xã hội; chính buôn bán đưa ông tới tri thức Ai Cập — hai nguồn gốc quyện nhau, đúng chữ *"tương đối"*.
+
+**Ý nghĩa phương pháp luận.** Sách không có mục riêng. Rút ra: muốn hiểu một tư tưởng, hỏi nó trả lời nhu cầu **nhận thức** nào và ra đời trong **điều kiện xã hội** nào.
+
+> [!warning] Tính giai cấp không phải giả dối
+> "Công khai tính đảng" (tr. 18) nghĩa là triết học **gắn với** lợi ích của những lực lượng xã hội nhất định — không có nghĩa mọi triết học chỉ là lời biện hộ. Câu hỏi về **nguồn gốc** của một tư tưởng và câu hỏi về **tính đúng** của nó là hai câu hỏi riêng.
 
 ---
 
 ## 2. Triết học là gì — các định nghĩa
 
-Sách đối chiếu bốn truyền thống (tr. 19–20):
-
-| Nơi | Thuật ngữ | Nghĩa gốc |
-| --- | --- | --- |
-| Trung Quốc | 哲學 *triết học* | sự truy tìm bản chất của đối tượng nhận thức, "biểu hiện cao của trí tuệ" |
-| Ấn Độ | *Dar'sana* | "chiêm ngưỡng" — con đường suy ngẫm dẫn con người đến lẽ phải |
-| Hy Lạp | *philosophia* (φιλοσοφία) | **yêu mến sự thông thái** |
-| Phương Tây nay | *philosophy* | kế thừa nghĩa gốc Hy Lạp |
-
-Điểm chung mà sách rút ra: dù ở đâu, ngay từ đầu **triết học đã là hoạt động tinh thần có trình độ
-trừu tượng hoá và khái quát hoá rất cao**, tồn tại với tư cách một **hình thái ý thức xã hội** (tr. 20).
-
-Sau khi dẫn cả *Britannica* lẫn *Từ điển bách khoa triết học Nga*, sách nêu **những nội dung chung** mà
-mọi định nghĩa đều bao hàm (tr. 21–22):
-
-- Triết học là một **hình thái ý thức xã hội**.
-- Khách thể khám phá của nó là **thế giới** (cả bên trong lẫn bên ngoài con người) trong hệ thống chỉnh thể toàn vẹn.
-- Nó giải thích mọi sự vật, hiện tượng để **tìm ra những quy luật phổ biến nhất** chi phối thế giới.
-- Tri thức triết học mang tính **hệ thống, lôgích và trừu tượng**.
-- Triết học là **hạt nhân của thế giới quan**.
-
-Từ đó, định nghĩa gắn với chủ nghĩa Mác – Lênin (tr. 22) — **học thuộc, đây là định nghĩa trung tâm**:
-
-> [!quote] Định nghĩa trung tâm, tr. 22
-> **Triết học là hệ thống quan điểm lý luận chung nhất về thế giới và vị trí con người trong thế giới
-> đó, là khoa học về những quy luật vận động, phát triển chung nhất của tự nhiên, xã hội và tư duy.**
-
-> [!warning] "Không phải mọi triết học đều là khoa học"
-> Sách nói rõ ngay sau đó (tr. 22): mọi học thuyết triết học đều *đóng góp* cho sự hình thành tri thức
-> khoa học, là những "mắt khâu", "vòng khâu" trên đường phát triển — nhưng bản thân chúng không đương
-> nhiên là khoa học. Trình độ khoa học của một học thuyết phụ thuộc đối tượng, hệ tri thức và hệ phương
-> pháp của nó.
-
-> [!example] Góc QTKD — ranh giới triết học/tôn giáo cũng là ranh giới "quyết định dựa dữ liệu" vs "theo niềm tin"
-> Sách nhấn một ranh giới: triết học và tôn giáo cùng vẽ "bức tranh tổng quát về thế giới", nhưng tôn
-> giáo dựa trên **niềm tin**, còn triết học dùng **công cụ lý tính, tiêu chuẩn lôgích, kinh nghiệm** (tr. 20).
+> [!example] Tình huống — Minh hỏi sống để làm gì
+> Minh, 34 tuổi, kỹ sư phần mềm ở TP. Hồ Chí Minh, bị cắt giảm biên chế và bắt đầu hỏi: làm việc để làm gì, cái gì đáng sống. Anh nhận bốn kiểu trả lời: một video "7 thói quen của người thành công"; mẹ khuyên lên chùa cầu an vì "năm nay có hạn"; chuyên gia tâm lý cho làm thang đo trầm cảm, đề nghị trị liệu; còn người bạn học triết chỉ hỏi lại: "Anh nghĩ con người là gì? Anh có tự do chọn không? Cái gì có giá trị tự thân?"
 >
-> Đó chính là ranh giới giữa hai kiểu ra quyết định quản trị. "Tôi *tin* sản phẩm này sẽ bán chạy" là
-> phát biểu kiểu niềm tin. "Thử nghiệm A/B trên 2.000 khách cho tỷ lệ chuyển đổi 4,1% so với 2,8%" là
-> phát biểu kiểu lý tính. Nhà quản trị giỏi không cấm trực giác — sách cũng không phủ nhận vai trò niềm
-> tin — nhưng biết **khoản nào đang được quyết bằng bằng chứng và khoản nào đang được quyết bằng niềm tin**.
+> *(Tình huống giả định.)*
+
+**Giáo trình nói gì.** Sách đối chiếu ba truyền thống (tr. 19–20): ở Trung Quốc, *triết học* (哲學) là *"biểu hiện cao của trí tuệ, là sự hiểu biết sâu sắc của con người về toàn bộ thế giới thiên - địa - nhân và định hướng nhân sinh quan cho con người"*; ở Ấn Độ, *Dar'sana* nghĩa gốc là *chiêm ngưỡng*, là *"con đường suy ngẫm để dẫn dắt con người đến với lẽ phải"*; ở Hy Lạp, *philosophia* là *yêu mến sự thông thái*. Điểm chung: ngay từ đầu triết học *"đã là hoạt động tinh thần bậc cao"*, tồn tại *"với tư cách là một hình thái ý thức xã hội"* (tr. 20).
+
+> [!quote] Tính đặc thù của nhận thức triết học (tr. 20)
+> Là loại hình tri thức đặc biệt của con người, triết học nào cũng có tham vọng xây dựng nên bức tranh tổng quát nhất về thế giới và về con người. Nhưng khác với các loại hình tri thức xây dựng thế giới quan dựa trên niềm tin và quan niệm tưởng tượng về thế giới, triết học sử dụng các công cụ lý tính, các tiêu chuẩn lôgích và những kinh nghiệm mà con người đã khám phá thực tại để diễn tả thế giới và khái quát thế giới quan bằng lý luận. Tính đặc thù của nhận thức triết học thể hiện ở đó.
+
+Sau khi dẫn *Bách khoa thư Britannica* và *Bách khoa thư triết học mới* của Viện Triết học Nga (2001), sách nêu **năm** nội dung chung các định nghĩa *"thường bao hàm"* (tr. 21–22): (1) triết học là một **hình thái ý thức xã hội**; (2) khách thể là **thế giới**, *"gồm cả thế giới bên trong và bên ngoài con người"*, như một chỉnh thể; (3) mục đích là *"tìm ra những quy luật phổ biến nhất"*; (4) *"độc lập với khoa học và khác biệt với tôn giáo"*, tri thức triết học *"mang tính hệ thống, lôgích và trừu tượng"*; (5) triết học là **hạt nhân của thế giới quan**.
+
+> [!quote] Hai định nghĩa triết học (tr. 22)
+> Triết học là hình thái đặc biệt của ý thức xã hội, được thể hiện thành hệ thống các quan điểm lý luận chung nhất về thế giới, về con người và về tư duy của con người trong thế giới ấy.
+>
+> Với sự ra đời của triết học Mác - Lênin, *triết học là hệ thống quan điểm lý luận chung nhất về thế giới và vị trí con người trong thế giới đó, là khoa học về những quy luật vận động, phát triển chung nhất của tự nhiên, xã hội và tư duy.*
+
+Phương pháp của triết học là *"xem xét thế giới như một chỉnh thể trong mối quan hệ giữa các yếu tố"*; *"Triết học là sự diễn tả thế giới quan bằng lý luận"* (tr. 22). Kèm một hạn định:
+
+> [!quote] Không phải mọi triết học là khoa học (tr. 23)
+> Không phải mọi triết học đều là khoa học. Song, các học thuyết triết học đều có đóng góp ít nhiều, nhất định cho sự hình thành tri thức khoa học triết học trong lịch sử; là những "vòng khâu", những "mắt khâu" trên "đường xoáy ốc" vô tận của lịch sử tư tưởng triết học nhân loại. Trình độ khoa học của một học thuyết triết học phụ thuộc vào sự phát triển của đối tượng nghiên cứu, hệ thống tri thức và hệ thống phương pháp nghiên cứu.
+
+**Định nghĩa.** Hai tầng: định nghĩa **chung** cho mọi triết học, và định nghĩa **gắn với Mác – Lênin** (thêm vế "là **khoa học** về những quy luật chung nhất").
+
+| | Triết học | Tôn giáo | Khoa học cụ thể | Lời khuyên sống |
+| --- | --- | --- | --- | --- |
+| Phạm vi | thế giới như **chỉnh thể** | thế giới như chỉnh thể | một lĩnh vực | một việc |
+| Dựa trên | lý tính, lôgích, kinh nghiệm (tr. 20) | niềm tin | quan sát, thí nghiệm | kinh nghiệm cá nhân |
+| Sản phẩm | hệ thống quan điểm lý luận | giáo lý | lý thuyết chuyên ngành | quy tắc hành động |
+
+**Chuỗi lập luận.** (1) Mọi truyền thống coi triết học là hiểu biết **cao, chung, có lý trí** (tr. 19–20). (2) Khác niềm tin ở công cụ, khác khoa học cụ thể ở phạm vi (tr. 20–22). (3) Nhưng có hệ thống chưa đủ để thành khoa học (tr. 23).
+
+**Soi lại tình huống — Minh.** Video là **quy tắc hành động**, không hỏi con người *là gì*. Lời mẹ là bức tranh chung về thế giới nhưng dựa trên **niềm tin**. Chuyên gia tâm lý là **khoa học cụ thể**: hữu ích, nhưng không trả lời "sống để làm gì". Câu hỏi của người bạn mới là câu hỏi triết học: chung nhất, đòi trả lời bằng lập luận, và *"định hướng nhân sinh quan"* (tr. 19) — giúp Minh sắp xếp ba nguồn kia thành một hệ thống.
+
+**Ý nghĩa phương pháp luận.** Sách không tách mục này. Rút ra ba câu hỏi để tách triết học khỏi khẩu hiệu: bàn **cái chung** hay một việc? dựa trên **lý lẽ** hay chỉ niềm tin? các ý có **thành hệ thống** không?
 
 ---
 
 ## 3. Đối tượng của triết học thay đổi trong lịch sử
 
-Đây là mục dễ bị lướt nhưng chứa một ý bản lề. **Đối tượng của triết học không cố định** — nó co lại
-theo đà các khoa học chuyên ngành tách ra (tr. 23–26).
+**Giáo trình nói gì.** *"Đối tượng của triết học là các quan hệ phổ biến và các quy luật chung nhất của toàn bộ tự nhiên, xã hội và tư duy"*, và nội dung đối tượng ấy *"cũng thay đổi trong các trường phái triết học khác nhau"* (tr. 23):
 
-```
-Cổ đại ─────────────► Trung cổ ──────────► Cận đại (XV–XVII) ────────► Mác
-"khoa học của        "nữ tì của           các khoa học chuyên         xác định LẠI
- các khoa học"        thần học"            ngành lần lượt tách ra      đối tượng cho đúng
- bao trùm mọi       triết học Kinh viện,  (toán, lý, thiên văn...)   → quy luật CHUNG NHẤT
- tri thức           phục vụ giáo lý        tham vọng "bao trùm"        của tự nhiên,
-                                            phá sản (đỉnh: Hegel)      xã hội, tư duy
-```
+- **Cổ đại**: triết học là *"hình thái cao nhất của tri thức"*; *"Nền triết học tự nhiên"* bao gồm cả toán học, vật lý học, thiên văn học (tr. 23–24). Từ đó nảy sinh quan niệm *"vừa tích cực vừa tiêu cực"* rằng *triết học là khoa học của mọi khoa học* (tr. 24).
+- **Trung cổ Tây Âu**: *"triết học trở thành nữ tì của thần học"*; *triết học tự nhiên* bị thay bằng *triết học kinh viện*, bàn *"niềm tin tôn giáo, thiên đường, địa ngục, mặc khải"* (tr. 24–25).
+- **Thế kỷ XV – XVIII**: sau *"cuộc cách mạng" Copernicus*, các khoa học thực nghiệm ra đời; *"Vấn đề đối tượng của triết học bắt đầu được đặt ra"*; chủ nghĩa duy vật lên đỉnh cao với Bacon, Hobbes, Diderot, Helvetius, Spinoza; duy tâm có *"đỉnh cao là Kant và G.W.F. Hegel"* (tr. 25–26).
+- **Hegel**: khoa học chuyên ngành *"làm phá sản tham vọng của triết học muốn đóng vai trò là "khoa học của các khoa học""*; triết học Hegel là *"học thuyết triết học cuối cùng thể hiện tham vọng đó"*, coi các khoa học riêng là *"lôgích học ứng dụng"* (tr. 26).
 
-Các mốc sách nêu (cần nhớ vài cái tên):
+> [!quote] Triết học Mác xác định lại đối tượng (tr. 26–27)
+> Hoàn cảnh kinh tế - xã hội và sự phát triển mạnh mẽ của khoa học vào đầu thế kỷ XIX đã dẫn đến sự ra đời của triết học Mác. Đoạn tuyệt triệt để với quan niệm triết học là "khoa học của các khoa học", triết học Mác xác định *đối tượng nghiên cứu của mình là tiếp tục giải quyết mối quan hệ giữa tồn tại và tư duy, giữa vật chất và ý thức trên lập trường duy vật triệt để và nghiên cứu những quy luật chung nhất của tự nhiên, xã hội và tư duy.* Các nhà triết học mácxít về sau đã đánh giá, với C. Mác, lần đầu tiên trong lịch sử, đối tượng của triết học được xác lập một cách hợp lý.
 
-- **Cổ đại:** triết học được xem là hình thái cao nhất của tri thức, bao hàm mọi lĩnh vực → nảy sinh
-  quan niệm *"triết học là khoa học của mọi khoa học"* (tr. 24). Sách dẫn S. Hawking đánh giá **I. Kant
-  (Cantơ)** đứng đầu trong số các nhà triết học vĩ đại theo nghĩa này.
-- **Trung cổ Tây Âu:** quyền lực Giáo hội bao trùm → triết học thành **"nữ tì của thần học"**, gọi là
-  **triết học Kinh viện**, chỉ bàn niềm tin tôn giáo, thiên đường, địa ngục (tr. 24).
-- **Phục hưng – cận đại:** sau "cách mạng" **Copernicus (Copécnich)**, khoa học thực nghiệm ra đời; chủ
-  nghĩa duy vật thế kỷ XVII–XVIII lên cao với **F. Bacon (Bâycơn), T. Hobbes (Hôpxơ)** ở Anh, **D.
-  Diderot (Điđơrô), C. Helvetius (Henvêtiuýt)** ở Pháp, **B. Spinoza (Xpinôda)** ở Hà Lan (tr. 25).
-  Đối lập là triết học duy tâm cổ điển Đức, đỉnh cao **Kant và G.W.F. Hegel (Hêghen)** (tr. 26).
-- **Hegel** là "học thuyết triết học cuối cùng" mang tham vọng làm khoa học của các khoa học — coi mọi
-  ngành khoa học riêng chỉ là "mắt khâu" phụ thuộc vào triết học (tr. 26).
-- **Triết học Mác** đoạn tuyệt với tham vọng đó, **lần đầu tiên xác định đối tượng một cách hợp lý**:
-  nghiên cứu *"những quy luật chung nhất của tự nhiên, xã hội và tư duy"* trên lập trường duy vật (tr. 26).
+Sách ghi nhận tranh luận còn tiếp diễn: nhiều học thuyết phương Tây hiện đại chọn đối tượng *"như mô tả những hiện tượng tinh thần, phân tích ngữ nghĩa, chú giải văn bản..."*; nhưng cái chung vẫn là *"những vấn đề chung nhất của giới tự nhiên, của xã hội và con người"* và quan hệ của tư duy con người với thế giới (tr. 27).
 
-Ý bản lề cho cả khoá: điều làm triết học Mác khác các triết học trước **không phải nói to hơn**, mà là
-**biết dừng đúng chỗ** — không giành việc của vật lý hay sinh học, chỉ giữ phần khái quát nhất.
+**Định nghĩa.** Đối tượng của triết học là **các quan hệ phổ biến và quy luật chung nhất** của tự nhiên, xã hội, tư duy; với triết học Mác, thêm vế **tiếp tục giải quyết quan hệ tồn tại – tư duy trên lập trường duy vật triệt để**.
+
+**Chuỗi lập luận.** (1) Khi tri thức còn *"tản mạn, dung hợp và sơ khai"*, triết học gánh mọi câu hỏi lý luận (tr. 13–14). (2) Sản xuất đòi hỏi tri thức chuyên sâu → khoa học chuyên ngành tách ra với đối tượng riêng (tr. 25). (3) Đất của "triết học tự nhiên cũ" co lại; tham vọng bao trùm phá sản (tr. 26). (4) Triết học tìm lại phần chỉ nó làm được: quan hệ tồn tại – tư duy và quy luật chung nhất (tr. 26–27).
+
+**Ví dụ** *(ngoài giáo trình)*. Năm 1687 Newton còn đặt tên cuốn sách cơ học của mình là *Các nguyên lý toán học của triết học tự nhiên*; tâm lý học chỉ tách khỏi triết học khi Wundt lập phòng thí nghiệm ở Leipzig năm 1879 — hai mốc của bước (2)–(3).
 
 ---
 
 ## 4. Thế giới quan — và vì sao triết học là hạt nhân của nó
 
-### Thế giới quan là gì (tr. 27–29)
-
-> [!quote] Giáo trình, tr. 28
-> **Thế giới quan** là khái niệm triết học chỉ **hệ thống các tri thức, quan điểm, tình cảm, niềm tin,
-> lý tưởng xác định về thế giới và về vị trí của con người** (bao hàm cả cá nhân, xã hội và nhân loại)
-> trong thế giới đó.
-
-Nguồn gốc từ nguyên: từ Đức *"Weltanschauung"*, lần đầu được **Kant** dùng trong *Phê phán năng lực
-phán đoán* (**1790**) (tr. 28).
-
-Ba thành phần và một trật tự cần nhớ (tr. 29):
-
-```
-tri thức ──kiểm nghiệm qua thực tiễn──► niềm tin ──phát triển cao nhất──► lý tưởng
-   │
-   └─ tri thức là cơ sở trực tiếp, NHƯNG chỉ gia nhập thế giới quan
-      KHI đã được thực tiễn kiểm nghiệm và trở thành niềm tin.
-```
-
-Điểm sách nhấn mạnh: **"thiếu thế giới quan, con người không có phương hướng hành động"** (tr. 29). Thế
-giới quan là "phương thức để con người chiếm lĩnh hiện thực".
-
-Phân loại (tr. 29–30): thế giới quan **huyền thoại → tôn giáo → khoa học/triết học**. Trong đó thế giới
-quan chung nhất, phổ biến nhất, dùng trong mọi ngành và toàn bộ đời sống là **thế giới quan triết học**.
-
-### Vì sao triết học là *hạt nhân lý luận* của thế giới quan (tr. 30–31)
-
-Sách đưa bốn lý do — đây là dạng câu hỏi ôn tập kinh điển:
-
-1. **Thứ nhất:** bản thân triết học chính *là* một thế giới quan.
-2. **Thứ hai:** trong mọi thế giới quan khác (của các khoa học cụ thể, của các dân tộc, các thời đại...),
-   triết học bao giờ cũng là **thành phần quan trọng, đóng vai trò nhân tố cốt lõi**.
-3. **Thứ ba:** triết học bao giờ cũng **ảnh hưởng và chi phối** các thế giới quan khác, dù người ta có
-   tự giác hay không.
-4. **Thứ tư:** thế giới quan triết học **quy định** mọi thế giới quan và quan niệm khác.
-
-> [!example] Góc QTKD — "triết lý kinh doanh" chính là thế giới quan của một tổ chức
-> Định nghĩa "hệ thống quan điểm định hướng hành động, thiếu nó thì không có phương hướng" mô tả gần
-> như nguyên văn vai trò của **tầm nhìn – sứ mệnh – giá trị cốt lõi** trong doanh nghiệp.
+> [!example] Tình huống — Johnson & Johnson năm 1982
+> Năm 1943, chủ tịch Johnson & Johnson viết bản *Our Credo* một trang, xếp thứ tự trách nhiệm: trước hết với bác sĩ, y tá, bệnh nhân, người dùng sản phẩm; cổ đông xếp cuối. Cuối tháng 9/1982, bảy người ở vùng Chicago chết vì uống viên nang Tylenol bị kẻ lạ bơm xyanua sau khi thuốc đã lên kệ. CEO James Burke vẫn cho thu hồi khoảng 31 triệu lọ trên toàn nước Mỹ (khoảng 100 triệu USD) và tung ra bao bì niêm phong ba lớp. Thị phần Tylenol rơi từ khoảng 37% xuống khoảng 7%, rồi hồi phục gần hết trong khoảng một năm. Burke kể ông dựa vào Credo để quyết định.
 >
-> - Một công ty **không có triết lý kinh doanh rõ** thì mỗi phòng ban ra quyết định theo một "thế giới
->   quan" riêng: sales muốn giảm giá lấy số, thương hiệu muốn giữ giá cao, tài chính muốn siết chi — không
->   có hạt nhân chung để phân xử. Đúng cảnh "thiếu thế giới quan, không có phương hướng".
-> - Trật tự **tri thức → niềm tin → lý tưởng** cũng đúng cho văn hoá doanh nghiệp: một khẩu hiệu ("khách
->   hàng là số một") chỉ trở thành **niềm tin** của nhân viên khi đã được **thực tiễn kiểm nghiệm** — tức
->   khi họ thấy công ty thật sự bênh khách hàng kể cả lúc tốn tiền. Dán slogan lên tường mà thực tiễn làm
->   ngược lại thì nó không bao giờ thành niềm tin, đúng như sách nói.
+> *(Nguồn: Johnson & Johnson, "Our Credo"; tường thuật của The New York Times (1982); tình huống giảng dạy của Harvard Business School. Số liệu làm tròn.)*
 
-> [!warning] Đây là loại suy để nhớ, không phải đồng nhất
-> "Thế giới quan" trong sách là phạm trù triết học về toàn bộ thế giới; "triết lý kinh doanh" chỉ là một
-> quan niệm hẹp về một tổ chức. Dùng phép so sánh để hiểu, đừng đem thuật ngữ triết học ra "chứng minh"
-> cho quyết định kinh doanh.
+**Giáo trình nói gì.** Con người muốn hiểu mọi thứ nhưng tri thức thời nào cũng *"có hạn"*, nên *"buộc phải xác định những quan điểm về toàn bộ thế giới làm cơ sở để định hướng cho nhận thức và hành động của mình. Đó chính là thế giới quan"* (tr. 27). Chữ *Weltanschauung* lần đầu được Kant dùng trong *Phê phán năng lực phán đoán* (1790) (tr. 28).
+
+> [!quote] Thế giới quan (tr. 28–29)
+> Khái niệm *thế giới quan*, hiểu một cách ngắn gọn, là hệ thống quan điểm của con người về thế giới. Có thể định nghĩa: *Thế giới quan là khái niệm triết học chỉ hệ thống các tri thức, quan điểm, tình cảm, niềm tin, lý tưởng xác định về thế giới và về vị trí của con người (bao hàm cả cá nhân, xã hội và nhân loại) trong thế giới đó. Thế giới quan quy định các nguyên tắc, thái độ, giá trị trong định hướng nhận thức và hoạt động thực tiễn của con người.*
+
+Thế giới quan *"thường được coi là bao hàm trong nó nhân sinh quan"* — quan niệm *"về đời sống với các nguyên tắc, thái độ và định hướng giá trị"* (tr. 29).
+
+> [!quote] Thành phần của thế giới quan (tr. 29)
+> Những thành phần chủ yếu của thế giới quan là tri thức, niềm tin và lý tưởng; trong đó tri thức là cơ sở trực tiếp hình thành thế giới quan, nhưng tri thức chỉ gia nhập thế giới quan khi đã được kiểm nghiệm ít nhiều trong thực tiễn và trở thành niềm tin. Lý tưởng là trình độ phát triển cao nhất của thế giới quan. Với tính cách là hệ quan điểm chỉ dẫn tư duy và hành động, thế giới quan là phương thức để con người chiếm lĩnh hiện thực, thiếu thế giới quan, con người không có phương hướng hành động.
+
+**Phân loại.** Sách nêu **ba hình thức chủ yếu**: thế giới quan **tôn giáo**, **khoa học**, **triết học**; *"Ngoài ba hình thức chủ yếu này"* còn thế giới quan **huyền thoại** (*Thần thoại Hy Lạp*); theo căn cứ khác thì phân theo **thời đại, dân tộc, tộc người**, hoặc thế giới quan **kinh nghiệm**, **thông thường** (tr. 29–30). *"Thế giới quan chung nhất, phổ biến nhất"*, dùng *"một cách ý thức hoặc không ý thức"* trong mọi ngành khoa học và đời sống, là thế giới quan triết học (tr. 30).
+
+> [!quote] Bốn lý do triết học là hạt nhân (tr. 30)
+> Nói triết học là hạt nhân của thế giới quan, bởi: *Thứ nhất*, bản thân triết học chính là thế giới quan. *Thứ hai*, trong các thế giới quan khác như thế giới quan của các khoa học cụ thể, thế giới quan của các dân tộc, hay các thời đại... triết học bao giờ cũng là thành phần quan trọng, đóng vai trò là nhân tố cốt lõi. *Thứ ba*, với các loại thế giới quan tôn giáo, thế giới quan kinh nghiệm hay thế giới quan thông thường..., triết học bao giờ cũng có ảnh hưởng và chi phối, dù có thể không tự giác. *Thứ tư*, thế giới quan triết học như thế nào sẽ quy định các thế giới quan và các quan niệm khác như thế.
+
+Thế giới quan duy vật biện chứng là *"đỉnh cao"*; nó *"bao gồm tri thức khoa học, niềm tin khoa học và lý tưởng cách mạng"* (tr. 30–31). Thế giới quan tôn giáo *"cũng là thế giới quan chung nhất"*, nhưng *"không được ứng dụng trong khoa học"* (tr. 31). Với người ghét triết học, sách dẫn Ăngghen:
+
+> [!quote] Ăngghen: ai phỉ báng triết học (dẫn tr. 32–33)
+> "Những ai phỉ báng triết học nhiều nhất lại chính là những kẻ nô lệ của những tàn tích thông tục hóa, tồi tệ nhất của những học thuyết triết học tồi tệ nhất... Dù những nhà khoa học tự nhiên có làm gì đi nữa thì họ cũng vẫn bị triết học chi phối. Vấn đề chỉ ở chỗ họ muốn bị chi phối bởi một thứ triết học tồi tệ hợp mốt, hay họ muốn được hướng dẫn bởi một hình thức tư duy lý luận dựa trên sự hiểu biết về lịch sử tư tưởng và những thành tựu của nó".
+>
+> — C. Mác và Ph. Ăngghen, *Toàn tập*, t.20, tr.692–693.
+
+**Định nghĩa.** Thế giới quan là cái bao trùm; nhân sinh quan nằm trong nó (tr. 29); triết học là **hạt nhân lý luận** của nó (tr. 30).
+
+**Chuỗi lập luận.** (1) Phải hành động trước khi biết hết → cần thế giới quan (tr. 27). (2) Tri thức thành thế giới quan khi qua thực tiễn và thành niềm tin (tr. 29). (3) Chung nhất là thế giới quan triết học; nó là hạt nhân vì bốn lẽ (tr. 30). (4) Vậy *"Vấn đề chỉ là thứ triết học nào sẽ chi phối con người"* (tr. 32).
+
+**Soi lại tình huống** — một **phép loại suy** (Credo chỉ là quan niệm của một tổ chức). *Tri thức → niềm tin*: năm 1943 Credo là chữ trên giấy; năm 1982 nó **được kiểm nghiệm trong thực tiễn** với giá 100 triệu USD, và từ đó mới thành niềm tin. *Lý tưởng*: Credo đặt thứ tự giá trị — khi phải hy sinh thì hy sinh gì. *Hạt nhân triết học*: bên dưới là một quan niệm đạo đức về trách nhiệm, chi phối *"dù có thể không tự giác"*.
+
+**Ý nghĩa phương pháp luận.** Sách nêu **hai** lẽ thế giới quan *"đặc biệt quan trọng"* (tr. 31): *thứ nhất*, vấn đề triết học đặt ra *"trước hết là những vấn đề thuộc thế giới quan"*; *thứ hai*, *"thế giới quan đúng đắn là tiền đề quan trọng để xác lập phương thức tư duy hợp lý và nhân sinh quan tích cực"*. Thành cách làm: viết ra những niềm tin đang thật sự dẫn dắt mình, rồi hỏi niềm tin nào đã qua thực tiễn kiểm nghiệm, niềm tin nào chỉ là câu nghe quen.
 
 ---
 
 ## 5. Vấn đề cơ bản của triết học — hai mặt
 
-Trước khi giải quyết mọi vấn đề cụ thể, triết học buộc phải giải quyết một vấn đề nền tảng làm **điểm
-xuất phát**. Sách dẫn Ph. Ăngghen:
-
-> [!quote] Ph. Ăngghen, dẫn tr. 33
-> "Vấn đề cơ bản lớn của mọi triết học, đặc biệt là của triết học hiện đại, là vấn đề **quan hệ giữa
-> tư duy với tồn tại**."
-
-Nói cách khác: **mối quan hệ giữa vật chất và ý thức**. Sách lưu ý một điểm hiện đại (tr. 34): dù khoa
-học phát hiện thêm bao nhiêu đối tượng lạ — *linh cảm, vô thức, hạt Quark, hạt Strangelet, trường
-(Sphere)...* — thì tất cả **vẫn không nằm ngoài hai phạm trù vật chất và ý thức**. Nên vấn đề cơ bản
-không hề lỗi thời.
-
-Vấn đề này có **hai mặt**, trả lời hai câu hỏi (tr. 34–35):
-
-```
-┌─ MẶT THỨ NHẤT (bản thể luận) ─────────────────────────────────────┐
-│  Giữa ý thức và vật chất, cái nào CÓ TRƯỚC, cái nào QUYẾT ĐỊNH?   │
-│  → chia thành CHỦ NGHĨA DUY VẬT và CHỦ NGHĨA DUY TÂM              │
-├─ MẶT THỨ HAI (nhận thức luận) ────────────────────────────────────┤
-│  Con người CÓ KHẢ NĂNG NHẬN THỨC được thế giới hay không?         │
-│  → chia thành THUYẾT KHẢ TRI và THUYẾT BẤT KHẢ TRI                │
-└───────────────────────────────────────────────────────────────────┘
-```
-
-Cách trả lời hai câu hỏi này **quy định lập trường** của một nhà triết học và xác định các trường phái
-lớn của triết học (tr. 35).
-
-> [!example] Góc QTKD — "cái nào quyết định cái nào" là câu hỏi mở đầu của mọi phân tích kinh doanh
-> Mặt thứ nhất — *cái gì có trước, cái gì quyết định* — nghe trừu tượng, nhưng nó là đúng câu hỏi mà một
-> nhà quản trị phải hỏi trước khi làm gì:
+> [!example] Tình huống — Cháu bé sốt ba ngày
+> Bé Na, 6 tuổi, ở Hà Nội, sốt cao ba ngày. Bà nội bảo: "Con bé bị vía, gọi thầy về cúng." Mẹ Na đưa con đi viện; xét nghiệm kháng nguyên NS1 dương tính — sốt xuất huyết Dengue. Na khỏi sau một tuần; bà vẫn cho rằng nhờ cả "lễ giải". Ông nội, kỹ sư về hưu, thì nói: "Muỗi vằn đẻ ở chậu nước sau nhà. Biết nó từ đâu ra thì chặn được."
 >
-> - Sản phẩm quyết định thị trường, hay **thị trường (thực tại khách quan) quyết định sản phẩm**? Cách trả
->   lời "xuất phát từ thực tại khách quan" (nhu cầu có thật của khách) là tinh thần **duy vật**; cách
->   "tôi thích sản phẩm này nên thị trường phải mua" là tinh thần **duy tâm chủ quan** (xem §6).
-> - Đây là gốc của tranh luận **product-driven vs market-driven**: bắt đầu từ ý tưởng trong đầu, hay bắt
->   đầu từ dữ liệu nhu cầu bên ngoài?
+> *(Tình huống giả định; thông tin y khoa theo hướng dẫn của Bộ Y tế về sốt xuất huyết Dengue.)*
+
+**Giáo trình nói gì.**
+
+> [!quote] Vấn đề cơ bản của triết học (tr. 33)
+> Triết học, khác với một số loại hình nhận thức khác, trước khi giải quyết các vấn đề cụ thể của mình, nó buộc phải giải quyết một vấn đề có ý nghĩa nền tảng và là điểm xuất phát để giải quyết tất cả những vấn đề còn lại - vấn đề về mối quan hệ giữa vật chất với ý thức. Đây chính là *vấn đề cơ bản* của triết học. Ph. Ăngghen viết: "Vấn đề cơ bản lớn của mọi triết học, đặc biệt là của triết học hiện đại, là vấn đề quan hệ giữa tư duy với tồn tại".
 >
-> Mặt thứ hai — *có nhận thức được không* — chính là câu hỏi "**thị trường có đoán được không, nghiên cứu
-> thị trường có đáng tin không**" ở §7.
+> — Lời Ăngghen: C. Mác và Ph. Ăngghen, *Toàn tập*, t.21, tr.403.
+
+Vì sao không lỗi thời: mọi hiện tượng *"hoặc là hiện tượng vật chất ... hoặc là hiện tượng thuộc tinh thần, ý thức"*; cả *"linh hồn, đấng siêu nhiên, linh cảm, vô thức, ... hạt Quark, hạt Strangelet, hay trường (Sphere)..."* cũng *"vẫn không phải là hiện tượng gì khác nằm ngoài vật chất và ý thức"* (tr. 33–34). Qua cách giải quyết vấn đề này, *"lập trường, thế giới quan của các học thuyết và của các triết gia cũng được xác định"* (tr. 34).
+
+> [!quote] Hai mặt của vấn đề cơ bản (tr. 34–35)
+> Vấn đề cơ bản của triết học có hai mặt, trả lời hai câu hỏi lớn.
+>
+> *Mặt thứ nhất*: Giữa ý thức và vật chất thì cái nào có trước, cái nào có sau, cái nào quyết định cái nào? Nói cách khác, khi tìm ra nguyên nhân cuối cùng của hiện tượng, sự vật, hay sự vận động đang cần phải giải thích, thì nguyên nhân vật chất hay nguyên nhân tinh thần đóng vai trò là cái quyết định.
+>
+> *Mặt thứ hai*: Con người có khả năng nhận thức được thế giới hay không? Nói cách khác, khi khám phá sự vật và hiện tượng, con người có dám tin rằng mình sẽ nhận thức được sự vật và hiện tượng hay không?
+>
+> Cách trả lời hai câu hỏi trên quy định lập trường của nhà triết học và của trường phái triết học, xác định việc hình thành các trường phái lớn của triết học.
+
+**Định nghĩa.** Vấn đề cơ bản là **quan hệ vật chất – ý thức** (tồn tại – tư duy), có hai mặt:
+
+| | Mặt thứ nhất | Mặt thứ hai |
+| --- | --- | --- |
+| Câu hỏi | cái nào có trước, quyết định? | có nhận thức được thế giới không? |
+| Chia ra | duy vật / duy tâm (mục 6) | khả tri / bất khả tri (mục 7) |
+| Tên thông dụng *(ngoài đoạn sách)* | mặt bản thể luận | mặt nhận thức luận |
+
+**Chuỗi lập luận** — vì sao là "cơ bản": (1) mọi hiện tượng chỉ có thể là vật chất hoặc ý thức (tr. 33–34); (2) nên mọi vấn đề triết học cụ thể đều phải xuất phát từ quan hệ giữa hai loại ấy (tr. 33); (3) cách trả lời hai mặt quy định lập trường và chia các trường phái (tr. 34–35); (4) *"Bất kỳ trường phái triết học nào cũng không thể lảng tránh"* — kể cả trường phái tuyên bố bỏ qua nó cũng đã ngầm trả lời (tr. 34).
+
+**Soi lại tình huống — bé Na.** *Mặt thứ nhất*: bà tìm nguyên nhân cuối cùng **tinh thần** (vía), mẹ và bác sĩ tìm nguyên nhân **vật chất** (virus) — dẫn tới hai cách hành động: cúng hay xét nghiệm. *Mặt thứ hai*: ông nội còn tin con người **biết được và chặn được** nguyên nhân ấy; người bảo "bệnh tật may rủi, không biết đâu mà lần" thì trả lời khác ở mặt này. Lập trường lộ ra qua lời giải thích cuối cùng: bà vẫn đưa cháu đi viện, nhưng quy kết quả cho lễ cúng.
+
+**Ý nghĩa phương pháp luận.** Sách không có mục riêng. Rút ra: trước một tranh luận bế tắc, hỏi hai bên chấp nhận nguyên nhân cuối cùng nào, và có tin câu hỏi giải được bằng tìm hiểu không.
+
+> [!warning] Hai mặt độc lập với nhau
+> Mặt thứ nhất hỏi **cái gì quyết định**; mặt thứ hai hỏi **có biết được không**. Sách nói *"tuyệt đại đa số"* triết gia, **cả duy vật lẫn duy tâm**, đều khẳng định nhận thức được thế giới (tr. 39). Không thể suy "duy tâm thì bất khả tri". Và "vật chất quyết định" không có nghĩa ý thức vô can — vai trò của ý thức là chủ đề [Bài 4](bai_04_y_thuc_va_quan_he_vat_chat_y_thuc.md).
 
 ---
 
 ## 6. Chủ nghĩa duy vật và chủ nghĩa duy tâm
 
-Trả lời **mặt thứ nhất** chia các nhà triết học thành hai trường phái lớn (tr. 35):
+> [!example] Tình huống — Samuel Johnson đá hòn đá
+> Năm 1710, George Berkeley, một mục sư người Ireland (sau là giám mục), viết *Luận về các nguyên lý của tri thức con người*: tồn tại là được tri giác (*esse est percipi*); ngoài các cảm giác, không có "vật chất" nào đứng sau. Ngày 6/8/1763, ra khỏi nhà thờ ở London, nhà văn Samuel Johnson và James Boswell bàn về học thuyết này; Boswell nhận xét nó khó bác dù ai cũng thấy không thể đúng. Johnson đá mạnh vào một hòn đá lớn đến bật lại và nói: "Tôi bác bỏ nó như thế này."
+>
+> *(Nguồn: Boswell, The Life of Samuel Johnson (1791), mục ngày 6/8/1763; Berkeley, A Treatise Concerning the Principles of Human Knowledge (1710).)*
 
-> [!quote] Giáo trình, tr. 35
-> **Duy vật:** vật chất, giới tự nhiên là cái **có trước** và **quyết định** ý thức. Nguyên nhân tận
-> cùng của mọi vận động là **nguyên nhân vật chất**.
-> **Duy tâm:** ý thức, tinh thần, ý niệm, cảm giác là cái **có trước** giới tự nhiên. Nguyên nhân tận
-> cùng là **nguyên nhân tinh thần**.
+**Giáo trình nói gì.**
 
-### Ba hình thức của chủ nghĩa duy vật (tr. 35–37)
+> [!quote] Duy vật và duy tâm (tr. 35)
+> Việc giải quyết mặt thứ nhất của vấn đề cơ bản của triết học đã chia các nhà triết học thành hai trường phái lớn. Những người cho rằng vật chất, giới tự nhiên là cái có trước và quyết định ý thức của con người được gọi là các nhà duy vật. Học thuyết của họ hợp thành các môn phái khác nhau của chủ nghĩa duy vật, giải thích mọi hiện tượng của thế giới này bằng các nguyên nhân vật chất - nguyên nhân tận cùng của mọi vận động của thế giới này là nguyên nhân vật chất. Ngược lại, những người cho rằng ý thức, tinh thần, ý niệm, cảm giác là cái có trước giới tự nhiên, được gọi là các nhà duy tâm. Các học thuyết của họ hợp thành các phái khác nhau của chủ nghĩa duy tâm, chủ trương giải thích toàn bộ thế giới này bằng các nguyên nhân tư tưởng, tinh thần - nguyên nhân tận cùng của mọi vận động của thế giới này là nguyên nhân tinh thần.
 
-| Hình thức | Thời kỳ | Đặc điểm | Đánh giá của sách |
+Chủ nghĩa duy vật có **ba hình thức cơ bản** (tr. 35–37):
+
+| Hình thức | Khi nào | Đặc điểm | Đánh giá của sách |
 | --- | --- | --- | --- |
-| **Duy vật chất phác** | cổ đại | quy vật chất về một hay vài **dạng cụ thể** (nước, lửa, nguyên tử...); trực quan, ngây thơ | **về cơ bản là đúng** vì lấy chính giới tự nhiên giải thích thế giới, không viện tới thần linh |
-| **Duy vật siêu hình** | thế kỷ XV–XVIII (điển hình XVII–XVIII) | chịu ảnh hưởng cơ học cổ điển, nhìn thế giới như **cỗ máy** gồm các bộ phận biệt lập, tĩnh | không phản ánh đúng toàn cục, nhưng **có công đẩy lùi thế giới quan duy tâm, tôn giáo** |
-| **Duy vật biện chứng** | C. Mác & Ph. Ăngghen dựng những năm 40 thế kỷ XIX, Lênin phát triển | kế thừa tinh hoa trước đó + thành tựu khoa học đương thời | **đỉnh cao**: vừa phản ánh hiện thực đúng như nó tồn tại, vừa là công cụ cải tạo hiện thực |
+| **Chất phác** | cổ đại | *"đồng nhất vật chất với một hay một số chất cụ thể"*; *"trực quan, ngây thơ, chất phác"* | *"về cơ bản là đúng"* vì lấy giới tự nhiên giải thích thế giới, *"không viện đến thần linh, thượng đế"* (tr. 36) |
+| **Siêu hình** | thế kỷ XV – XVIII, điển hình XVII, XVIII | nhìn thế giới *"như một cỗ máy khổng lồ"*, các bộ phận *"biệt lập và tĩnh tại"* | không đúng *"trong toàn cục"* nhưng *"góp phần không nhỏ vào việc đẩy lùi thế giới quan duy tâm và tôn giáo"* (tr. 36) |
+| **Biện chứng** | Mác, Ăngghen xây dựng *"vào những năm 40 của thế kỷ XIX"*, Lênin phát triển | kế thừa tinh hoa trước đó, dùng thành tựu khoa học đương thời | *"đỉnh cao"*; vừa phản ánh đúng hiện thực, vừa là *"công cụ hữu hiệu"* để cải tạo nó (tr. 37) |
 
-### Hai phái của chủ nghĩa duy tâm (tr. 37–38)
-
-- **Duy tâm chủ quan:** thừa nhận tính thứ nhất của **ý thức con người**; phủ nhận sự tồn tại khách
-  quan của hiện thực — "mọi sự vật, hiện tượng chỉ là **phức hợp những cảm giác**" của cá nhân.
-- **Duy tâm khách quan:** thừa nhận tính thứ nhất của ý thức nhưng coi đó là **thứ tinh thần khách quan**
-  có trước và độc lập với con người — gọi bằng nhiều tên: *ý niệm, tinh thần tuyệt đối, lý tính thế giới*.
-
-> [!note] Mở rộng — nhị nguyên luận (tr. 38)
-> Ngoài hai lập trường trên, có nhà triết học giải thích thế giới bằng **cả hai bản nguyên** vật chất và
-> tinh thần song song — gọi là **nhị nguyên luận**, điển hình **Descartes (Đêcáctơ)**. Sách kết luận:
-> nhị nguyên luận "**xét đến cùng vẫn thuộc về chủ nghĩa duy tâm**", vì đã thừa nhận tinh thần tồn tại
-> độc lập không sinh ra từ vật chất. Chỉ có **hai** lập trường cơ bản, và *"lịch sử triết học cũng chủ
-> yếu là lịch sử đấu tranh của hai trường phái duy vật và duy tâm"* (tr. 39).
-
-> [!warning] Đừng lẫn "duy tâm" với "phi lý / ngớ ngẩn"
-> Sách nói rõ (tr. 38): chủ nghĩa duy tâm triết học là "sản phẩm của tư duy lý tính", nhiều nhà duy tâm
-> là những bộ óc lớn (Hegel). Sai lầm của họ, về nhận thức luận, là **tuyệt đối hoá, thần thánh hoá một
-> mặt** của quá trình nhận thức — không phải thiếu trí tuệ.
-
-> [!example] Góc QTKD — duy tâm chủ quan trong phòng họp: "thị trường phải theo ý tôi"
-> Định nghĩa duy tâm chủ quan — *"mọi sự vật chỉ là phức hợp cảm giác của tôi"* — mô tả chính xác một
-> kiểu sai lầm quản trị: lấy **cảm nhận cá nhân của người ra quyết định** thay cho thực tại khách quan.
+> [!quote] Hai phái của chủ nghĩa duy tâm (tr. 37)
+> \- *Chủ nghĩa duy tâm*: Chủ nghĩa duy tâm gồm có hai phái: chủ nghĩa duy tâm chủ quan và chủ nghĩa duy tâm khách quan.
 >
-> | Biểu hiện "duy tâm chủ quan" trong kinh doanh | Cách "duy vật" sửa lại |
-> | --- | --- |
-> | "Tôi thấy sản phẩm đẹp nên khách sẽ thích" | đo tỷ lệ chuyển đổi thật trên khách thật |
-> | "Đối thủ này chẳng là gì" (vì tôi tin thế) | phân tích số liệu thị phần, năng lực đối thủ |
-> | "Nhân viên chắc hài lòng" | khảo sát, tỷ lệ nghỉ việc |
+> \+ *Chủ nghĩa duy tâm chủ quan* thừa nhận tính thứ nhất của ý thức con người. Trong khi phủ nhận sự tồn tại khách quan của hiện thực, chủ nghĩa duy tâm chủ quan khẳng định mọi sự vật, hiện tượng chỉ là phức hợp của những cảm giác.
 >
-> Tinh thần duy vật trong quản trị không phải là chối bỏ trực giác, mà là **xuất phát từ thực tại có thật
-> bên ngoài mong muốn của mình**. "Duy vật biện chứng" (§8) còn đi xa hơn: thực tại đó luôn **vận động**,
-> nên số liệu quý trước chưa chắc đúng quý này.
+> \+ *Chủ nghĩa duy tâm khách quan* cũng thừa nhận tính thứ nhất của ý thức nhưng coi đó là thứ tinh thần khách quan có trước và tồn tại độc lập với con người. Thực thể tinh thần khách quan này thường được gọi bằng những cái tên khác nhau như ý niệm, tinh thần tuyệt đối, lý tính thế giới, v.v..
+
+Duy tâm **triết học** khác duy tâm **tôn giáo**: trong tôn giáo *"lòng tin là cơ sở chủ yếu"*, còn duy tâm triết học *"là sản phẩm của tư duy lý tính"* (tr. 38). Duy tâm có **hai nguồn gốc** (tr. 38): *nhận thức* — *"tuyệt đối hóa, thần thánh hóa một mặt, một đặc tính nào đó của quá trình nhận thức"*; *xã hội* — *"địa vị thống trị của lao động trí óc đối với lao động chân tay"*, và giai cấp thống trị dùng duy tâm làm nền tảng lý luận. Thừa nhận một bản nguyên là *nhất nguyên luận* (tr. 38–39); thừa nhận cả hai:
+
+> [!quote] Nhị nguyên luận (tr. 39)
+> *Trường phái nhị nguyên luận:* Trong lịch sử triết học cũng có những nhà triết học giải thích thế giới bằng cả hai bản nguyên vật chất và tinh thần, xem vật chất và tinh thần là hai bản nguyên có thể cùng quyết định nguồn gốc và sự vận động của thế giới. Học thuyết triết học như vậy được gọi là nhị nguyên luận, điển hình là Descartes (Đêcáctơ). Những người theo thuyết nhị nguyên luận thường là những người trong trường hợp giải quyết một vấn đề nào đó, ở vào một thời điểm nhất định là người duy vật, nhưng vào một thời điểm khác, và khi giải quyết một vấn đề khác lại là người duy tâm. Song, xét đến cùng nhị nguyên luận thuộc về chủ nghĩa duy tâm.
+
+Kết luận: *"lịch sử triết học cũng chủ yếu là lịch sử đấu tranh của hai trường phái duy vật và duy tâm"* (tr. 39).
+
+**Định nghĩa.** Duy vật: vật chất **có trước và quyết định** ý thức. Duy tâm: ý thức, tinh thần **có trước** giới tự nhiên.
+
+**Chuỗi lập luận.** (1) Mặt thứ nhất chỉ có hai lời đáp nhất quán (tr. 35). (2) Duy vật đi qua ba hình thức gắn với trình độ khoa học từng thời: trực quan → cơ học → biện chứng (tr. 35–37). (3) Duy tâm chia hai phái tuỳ "tinh thần có trước" là của **con người** hay là thực thể **khách quan** (tr. 37). (4) Duy tâm không do thiếu trí tuệ: nó tuyệt đối hoá một mặt của nhận thức và có nguồn gốc xã hội (tr. 38). (5) Nhị nguyên hay dao động, xét đến cùng thuộc duy tâm (tr. 39).
+
+**Soi lại tình huống.** *Berkeley* là duy tâm chủ quan đúng chữ sách — mọi vật *"chỉ là phức hợp của những cảm giác"* (ngoài giáo trình: ông cho rằng Thượng đế luôn tri giác mọi vật, nên có chỗ nghiêng sang duy tâm khách quan). Ông lấy một sự thật — ta chỉ tiếp xúc thế giới qua cảm giác — rồi **tuyệt đối hoá** thành "chỉ có cảm giác": đúng nguồn gốc nhận thức sách nêu. Cú đá của Johnson là phản ứng duy vật tự phát, nhưng về lý lẽ chưa bác được Berkeley ("cứng", "đau chân" cũng là cảm giác); phải bác bằng lý luận về vật chất ([Bài 3](bai_03_vat_chat_va_cac_phuong_thuc_ton_tai.md)) và thực tiễn ([Bài 8](bai_08_ly_luan_nhan_thuc.md)).
+
+**Ý nghĩa phương pháp luận.** Sách không có mục riêng; nguyên tắc "xuất phát từ thực tế khách quan" được rút ra ở [Bài 4](bai_04_y_thuc_va_quan_he_vat_chat_y_thuc.md). Ở đây: trước một lập luận duy tâm thuyết phục, tìm xem nó **tuyệt đối hoá mặt nào** của nhận thức.
+
+> [!warning] Duy vật không phải ham vật chất
+> Trong lời nói hằng ngày, "duy vật" là coi trọng tiền bạc, "duy tâm" là thiếu thực tế. Trong triết học, hai chữ chỉ **câu trả lời cho mặt thứ nhất**. Duy tâm triết học là *"sản phẩm của tư duy lý tính"* (tr. 38); Hegel là nhà duy tâm khách quan và là một bộ óc lớn của lịch sử triết học.
+
+> [!note] Mở rộng — Triết học tâm trí hôm nay
+> *(Ngoài giáo trình — khoa học hiện đại.)* Phương Tây bàn vấn đề này trong **triết học tâm trí**.
+>
+> - **Descartes** (*Suy niệm*, 1641) — ví dụ nhị nguyên của sách (tr. 39); khó khăn: hai thực thể khác hẳn bản chất tác động lên nhau thế nào?
+> - **Vật lý luận** (trạng thái tâm trí là trạng thái của não) chiếm ưu thế: khảo sát PhilPapers 2020, khoảng một nửa giới triết học chọn hoặc nghiêng về nó, khoảng một phần ba không.
+> - **David Chalmers** (1995) nêu "vấn đề khó": giải thích hết cơ chế thần kinh vẫn còn câu hỏi vì sao có *trải nghiệm chủ quan*.
+> - Vấn đề cơ bản vì thế không lỗi thời (tr. 33–34). Duy vật biện chứng gần vật lý luận, nhưng nhấn mạnh nguồn gốc **xã hội** của ý thức (Bài 4).
 
 ---
 
 ## 7. Khả tri và bất khả tri — con người có nhận thức được thế giới không
 
-Trả lời **mặt thứ hai** (tr. 39–42):
-
-> [!quote] Giáo trình, tr. 40
-> **Thuyết khả tri** (*Gnosticism*): khẳng định con người **có thể** nhận thức được bản chất sự vật.
-> Cảm giác, biểu tượng, quan niệm... về nguyên tắc là **phù hợp** với bản thân sự vật.
-> **Thuyết bất khả tri** (*Agnosticism*): con người **không thể** hiểu được bản chất đối tượng; cái ta
-> biết chỉ là "hình thức bề ngoài", "bị cắt xén", không đáng tin tuyệt đối.
-
-Sách lưu ý: **tuyệt đại đa số** các nhà triết học (cả duy vật lẫn duy tâm) đều **khẳng định** khả năng
-nhận thức thế giới (tr. 39–40). Bất khả tri là thiểu số.
-
-Các mốc cần nhớ (tr. 41):
-
-- Thuật ngữ *bất khả tri* do **T.H. Huxley (Hắcxli)** đưa ra năm **1869**.
-- Hai đại biểu điển hình: **D. Hume (Hium)** và **I. Kant**.
-- Liên quan là trào lưu **hoài nghi luận** (từ Hy Lạp cổ đại): nghi ngờ khả năng đạt tới chân lý khách
-  quan. Ở thời Phục hưng, hoài nghi luận có **vai trò tích cực** — chống lại hệ tư tưởng và quyền uy
-  của Giáo hội trung cổ.
-
-> [!note] Mở rộng — "vật tự nó" của Kant (tr. 42)
-> Kant cho rằng con người không thể biết **"vật tự nó"** (*Ding an sich*) — bản chất ẩn giấu của đối
-> tượng, nằm ngoài kinh nghiệm cảm giác. Ph. Ăngghen bác lại bằng một lập luận **thực tiễn** rất mạnh,
-> cần nhớ:
+> [!example] Tình huống — Virus lạ đầu năm 2020
+> Cuối 12/2019, Vũ Hán ghi nhận những ca viêm phổi không rõ nguyên nhân. Ngày 11/1/2020, trình tự gen một coronavirus mới được công bố. Ngày 14/1, WHO còn viết chưa có bằng chứng rõ về lây từ người sang người; ngày 20/1, Trung Quốc xác nhận có lây. Ngày 7/2/2020, Viện Vệ sinh Dịch tễ Trung ương (Hà Nội) công bố nuôi cấy, phân lập thành công virus. Ngày 2/12/2020, Anh cấp phép vaccine Pfizer–BioNTech, thiết kế từ chính trình tự gen tháng Một.
 >
-> > [!quote] Ph. Ăngghen, dẫn tr. 42
-> > "Nếu chúng ta có thể chứng minh được tính chính xác của quan điểm của chúng ta về một hiện tượng tự
-> > nhiên nào đó, **bằng cách tự chúng ta làm ra hiện tượng ấy**, tạo ra nó từ những điều kiện của nó...
-> > thì sẽ không còn có cái 'vật tự nó' không thể nắm được của Cantơ nữa."
+> *(Nguồn: WHO, dòng thời gian COVID-19; Viện Vệ sinh Dịch tễ Trung ương (7/2/2020); MHRA (2/12/2020).)*
 
-Kết luận của khả tri luận (tr. 43): nhận thức là **một quá trình không ngừng đi sâu**, nhờ đó **"vật tự
-nó" dần biến thành "vật cho ta"**. Cái chưa biết hôm nay không phải cái *không thể biết*, chỉ là cái
-*chưa biết*.
+**Giáo trình nói gì.** Đây là *"kết quả của cách giải quyết mặt thứ hai"*; với câu hỏi "Con người có thể nhận thức được thế giới hay không?", *"tuyệt đại đa số các nhà triết học (cả các nhà duy vật và các nhà duy tâm) trả lời một cách khẳng định"* (tr. 39–40).
 
-> [!example] Góc QTKD — "thị trường không đoán được" là một dạng bất khả tri
-> Phản xạ *"thị trường biến động khôn lường, nghiên cứu làm gì cho tốn, cứ làm rồi tính"* chính là lập
-> trường **bất khả tri** áp vào kinh doanh: coi bản chất nhu cầu khách hàng là cái **không thể biết**.
+> [!quote] Khả tri và bất khả tri (tr. 40)
+> Học thuyết triết học khẳng định khả năng nhận thức của con người được gọi là *Thuyết khả tri (Gnosticism, Thuyết có thể biết)*. Thuyết khả tri khẳng định về nguyên tắc con người có thể hiểu được bản chất của sự vật. Nói cách khác, cảm giác, biểu tượng, quan niệm và nói chung ý thức mà con người có được về sự vật về nguyên tắc là phù hợp với bản thân sự vật.
 >
-> Lập trường **khả tri** thì ngược lại, và nó khớp lạ thường với tinh thần **khởi nghiệp tinh gọn (lean
-> startup)**:
+> Học thuyết triết học phủ nhận khả năng nhận thức của con người được gọi là *Thuyết bất khả tri (Agnosticism, Thuyết không thể biết)*. Theo thuyết này, về nguyên tắc, con người không thể hiểu được bản chất của đối tượng. Kết quả nhận thức mà loài người có được chỉ là hình thức bề ngoài, hạn hẹp và cắt xén về đối tượng. Các hình ảnh, tính chất, đặc điểm... của đối tượng mà các giác quan của con người thu nhận được trong quá trình nhận thức, cho dù có tính xác thực, cũng không cho phép con người đồng nhất chúng với đối tượng. Đó không phải là cái tuyệt đối tin cậy.
+
+Bất khả tri *"chỉ phủ nhận khả năng vô hạn của nhận thức"*, không phủ nhận thực tại siêu nhiên hay thực tại được cảm giác (tr. 40). Thuật ngữ do **T.H. Huxley** đưa ra năm **1869**; *"Đại biểu điển hình"* là **Hume** và **Kant** (tr. 41). *Hoài nghi luận* từ Hy Lạp cổ đại *"nâng sự hoài nghi lên thành nguyên tắc"*; *"Tuy cực đoan về mặt nhận thức"*, thời phục hưng nó giữ *"vai trò quan trọng"* chống quyền uy Giáo hội (tr. 41). Hume tuyệt đối hoá kinh nghiệm; Kant, với thuyết *vật tự nó* (*Ding an sich*), *"đã tuyệt đối hóa sự bí ẩn của đối tượng được nhận thức"* (tr. 41–42). Bất khả tri bị **Feuerbach và Hegel** phê phán gay gắt; Ăngghen khẳng định *"Không có một ranh giới nào của vật tự nó mà nhận thức của con người không thể vượt qua được"* (tr. 42).
+
+> [!quote] Ăngghen bác vật tự nó (dẫn tr. 42–43)
+> "Nếu chúng ta có thể chứng minh được tính chính xác của quan điểm của chúng ta về một hiện tượng tự nhiên nào đó, bằng cách tự chúng ta làm ra hiện tượng ấy, bằng cách tạo ra nó từ những điều kiện của nó, và hơn nữa, còn bắt nó phải phục vụ mục đích của chúng ta, thì sẽ không còn có cái "vật tự nó" không thể nắm được của Cantơ nữa".
 >
-> ```
-> "vật tự nó"  →  "vật cho ta"          nhu cầu khách (ẩn số)  →  hiểu dần qua thử nghiệm
-> Ăngghen: hiểu bằng cách TỰ LÀM RA      Lean: build → measure → learn
-> hiện tượng, tạo ra nó từ điều kiện     làm MVP, đo phản ứng thật, học, lặp lại
-> ```
+> — C. Mác và Ph. Ăngghen, *Toàn tập*, t.21, tr.406.
+
+Kết luận của khả tri luận: nhận thức là *"một quá trình không ngừng đi sâu khám phá bản chất sự vật"*, qua đó *"vật tự nó sẽ buộc phải biến thành "Vật cho ta""* (tr. 43).
+
+**Định nghĩa.**
+
+| | Khả tri | Bất khả tri | Hoài nghi luận |
+| --- | --- | --- | --- |
+| Lời đáp | **về nguyên tắc** nhận thức được bản chất | **về nguyên tắc** không nhận thức được bản chất | nghi ngờ **thành nguyên tắc** |
+| Đại biểu | *"tuyệt đại đa số"* | Hume, Kant | Hy Lạp cổ đại |
+
+**Chuỗi lập luận — lời đáp của Ăngghen.** (1) Bất khả tri: ta chỉ có hình ảnh trong giác quan, không so được với "vật tự nó" (tr. 40, 42). (2) Ăngghen chuyển câu hỏi từ **nhìn** sang **làm**: hiểu đúng thì **tạo ra** được hiện tượng từ điều kiện của nó. (3) Và **bắt nó phục vụ** mục đích của ta — điều không thể nếu hiểu biết chỉ là bề ngoài (tr. 42–43). (4) Mỗi lần làm được, một mảng "vật tự nó" thành "vật cho ta"; ranh giới bị đẩy lùi (tr. 43). (5) "Chưa biết" khác "không thể biết". Vai trò của thực tiễn được học kỹ ở [Bài 8](bai_08_ly_luan_nhan_thuc.md).
+
+**Soi lại tình huống — SARS-CoV-2.** Tháng 12/2019, nguyên nhân là thực tại có thật nhưng **chưa biết**. Hiểu biết đầu tiên *"hạn hẹp và cắt xén"* (14/1) nhưng **sửa được** (20/1) — chỗ khả tri khác bất khả tri. Tiêu chí Ăngghen khớp từng vế: *"tự chúng ta làm ra hiện tượng ấy"* — nuôi cấy virus (7/2); *"bắt nó phải phục vụ mục đích của chúng ta"* — làm sinh phẩm xét nghiệm, thiết kế vaccine. Nguồn gốc chính xác của virus còn tranh luận — theo khả tri luận, đó là "chưa biết".
+
+**Ý nghĩa phương pháp luận.** Sách không có mục riêng. Rút ra: muốn kiểm một hiểu biết, **làm thử** — nó có tạo ra kết quả dự kiến không? Nghe "chuyện này không ai biết được", hỏi: không thể biết **về nguyên tắc**, hay chỉ **chưa** biết?
+
+> [!warning] Hoài nghi không phải bất khả tri
+> Khoa học vận hành bằng hoài nghi — kiểm lại nhận định ngày 14/1 là hoài nghi **phục vụ** nhận thức, nằm trong lập trường khả tri. Bất khả tri khẳng định một **giới hạn nguyên tắc** mà nhận thức không bao giờ vượt qua (tr. 40, 42). Khả tri cũng không có nghĩa "đã biết hết": nhận thức là quá trình *"không ngừng đi sâu"* (tr. 43).
+
+> [!note] Mở rộng — Hume, Kant và lời đáp
+> *(Ngoài giáo trình — nguồn gốc tư tưởng và đối thoại.)*
 >
-> Ăngghen bác Kant bằng **thực tiễn** ("tự ta làm ra hiện tượng ấy"); người làm sản phẩm bác sự "không
-> đoán được" bằng cách **tung bản thử và đo phản ứng thật** thay vì tranh cãi trong phòng họp. Khách hàng
-> ban đầu là "vật tự nó" — qua từng vòng thử nghiệm, họ thành "vật cho ta". Nhận thức thị trường là **quá
-> trình không ngừng đi sâu**, không phải một báo cáo làm một lần rồi xong.
+> - **Hume** (1739–1740): ta thấy lửa rồi thấy nóng, nhưng không bao giờ **thấy** cái "tất yếu" nối hai thứ; nhân quả đến từ **thói quen**.
+> - **Kant** (*Phê phán lý tính thuần tuý*, 1781) cứu khoa học khỏi Hume bằng cách coi nhân quả, không gian, thời gian là hình thức của chủ thể — đúng chắc chắn cho **hiện tượng**; cái giá là "vật tự nó" không biết được, chừa chỗ cho đức tin (khớp tr. 42).
+> - **Ăngghen** (1886) đáp bằng alizarin — chất nhuộm từng chỉ lấy từ cây thiên thảo, rồi được tổng hợp từ nhựa than đá — và sao Hải Vương, tìm thấy năm 1846 đúng vị trí Le Verrier tính.
+> - Người bênh Kant đáp: làm chủ hiện tượng chưa phải biết vật "tự nó" — cuộc đối thoại còn mở.
 
 ---
 
 ## 8. Biện chứng và siêu hình — hai phương pháp tư duy
 
-Đây là **cặp khái niệm quan trọng nhất của bài**, vì cả Chương 2 (phép biện chứng duy vật) đứng trên
-nó. Sách nói rõ: trong triết học mácxít, *biện chứng* và *siêu hình* trước hết chỉ **hai phương pháp
-tư duy đối lập nhau** (tr. 43).
-
-### Phương pháp siêu hình (tr. 43–44)
-
-> [!quote] Giáo trình, tr. 43–44
-> **Phương pháp siêu hình** nhận thức đối tượng ở trạng thái **cô lập, tách rời** khỏi các quan hệ; coi
-> các mặt đối lập có một **ranh giới tuyệt đối**; nhận thức đối tượng ở trạng thái **tĩnh**, chỉ thừa
-> nhận biến đổi về **số lượng**, coi nguyên nhân biến đổi nằm **bên ngoài** đối tượng.
-
-Sách công bằng: phương pháp này **có cội nguồn hợp lý** từ cơ học cổ điển và **có công lớn** trong phạm
-vi đó — muốn nghiên cứu một vật, trước hết phải tách nó ra khỏi liên hệ, xét ở trạng thái không đổi
-(tr. 44). Nó chỉ **sai khi bị mở rộng** sang các vấn đề về vận động và liên hệ. Ph. Ăngghen phê phán:
-
-> [!quote] Ph. Ăngghen, dẫn tr. 44
-> Phương pháp siêu hình "chỉ nhìn thấy những sự vật riêng biệt mà không nhìn thấy mối liên hệ qua lại
-> giữa những sự vật ấy, chỉ nhìn thấy sự tồn tại... mà không nhìn thấy sự phát sinh và tiêu vong...,
-> **chỉ nhìn thấy cây mà không thấy rừng**."
-
-### Phương pháp biện chứng (tr. 45–46)
-
-> [!quote] Giáo trình, tr. 45
-> **Phương pháp biện chứng** nhận thức đối tượng trong các **mối liên hệ phổ biến** vốn có của nó, trong
-> sự **vận động, biến đổi** không ngừng, nằm trong khuynh hướng phát triển. Nguồn gốc của vận động là
-> **sự đấu tranh giữa các mặt đối lập của mâu thuẫn nội tại** trong bản thân sự vật.
-
-Điểm sắc nhất, dễ ra đề: tư duy biện chứng **thừa nhận một chỉnh thể "vừa là nó lại vừa không phải là
-nó"**, thừa nhận cái khẳng định và cái phủ định *vừa loại trừ nhau vừa gắn bó với nhau* (tr. 46) — khác
-hẳn tư duy siêu hình dựa trên những "phản đề tuyệt đối không thể dung nhau" (hoặc tồn tại, hoặc không).
-
-> [!example] Góc QTKD — tư duy hệ thống (systems thinking) chính là tư duy biện chứng
-> Cặp siêu hình/biện chứng là công cụ phân tích kinh doanh thực dụng nhất trong bài này:
+> [!example] Tình huống — Hà Nội săn chuột năm 1902
+> Đầu thế kỷ XX, chính quyền thuộc địa Pháp xây cống ngầm cho khu phố Tây ở Hà Nội; cống trở thành nơi chuột sinh sôi, trong khi dịch hạch đang lan ở châu Á. Năm 1902, chiến dịch diệt chuột bắt đầu; có ngày hơn 20.000 con bị giết. Rồi chính quyền chuyển sang **thưởng tiền theo số đuôi chuột** nộp lại. Ít lâu sau, chuột cụt đuôi chạy khắp phố: người bắt chặt đuôi rồi thả chuột cho chúng tiếp tục đẻ; có tin đồn có người nuôi chuột ở ngoại thành để lấy đuôi. Chương trình thưởng bị huỷ, và dịch hạch vẫn bùng ra ở Hà Nội.
 >
-> | | Nhìn **siêu hình** (tĩnh, cô lập) | Nhìn **biện chứng** (động, liên hệ) |
-> | --- | --- | --- |
-> | Đối thủ | "họ đang yếu, không đáng lo" | họ đang thay đổi; mâu thuẫn nội tại có thể bùng phát thành đối thủ mạnh |
-> | SWOT | bảng chụp một thời điểm rồi để đó | điểm mạnh hôm nay có thể thành điểm yếu ngày mai (quy mô lớn → chậm đổi mới) |
-> | Phòng ban | tối ưu từng phòng riêng lẻ | tối ưu sales có thể phá vỡ vận hành — các phần **ràng buộc lẫn nhau** |
-> | Nhân sự giỏi | "giữ nguyên vì đang tốt" | con người phát triển/chán nản theo thời gian; đứng yên là thụt lùi |
+> *(Nguồn: Michael G. Vann, "Of Rats, Rice, and Race: The Great Hanoi Rat Massacre", French Colonial History 4 (2003); Vann và Clarke, The Great Hanoi Rat Hunt (2019).)*
+
+**Giáo trình nói gì.** *"Nghĩa xuất phát của từ "biện chứng" là nghệ thuật tranh luận để tìm chân lý bằng cách phát hiện mâu thuẫn trong cách lập luận (Socrates dùng). Nghĩa ban đầu của từ "siêu hình" là dùng để chỉ triết học, với tư cách là khoa học siêu cảm tính, phi thực nghiệm (Aristotle dùng)"*; trong triết học mácxít, chúng *"trước hết để chỉ hai phương pháp tư duy chung nhất đối lập nhau"* (tr. 43).
+
+> [!quote] Phương pháp siêu hình (tr. 43–44)
+> Phương pháp siêu hình nhận thức đối tượng ở trạng thái cô lập, tách rời đối tượng ra khỏi các quan hệ được xem xét và coi các mặt đối lập với nhau có một ranh giới tuyệt đối.
 >
-> Câu "**chỉ thấy cây mà không thấy rừng**" của Ăngghen là lời cảnh báo kinh điển chống lối phân tích cục
-> bộ. "Mâu thuẫn nội tại là nguồn gốc vận động" cũng chính là ý **mọi tổ chức đang tăng trưởng đều mang
-> sẵn mầm vấn đề của giai đoạn sau** (mở rộng nhanh ↔ mất kiểm soát chất lượng) — đề tài Chương 2 sẽ đào sâu.
+> Phương pháp siêu hình nhận thức đối tượng ở trạng thái tĩnh; đồng nhất đối tượng với trạng thái tĩnh nhất thời đó. Thừa nhận sự biến đổi chỉ là sự biến đổi về số lượng, về các hiện tượng bề ngoài. Nguyên nhân của sự biến đổi được coi là nằm ở bên ngoài đối tượng.
+
+Sách công bằng: siêu hình *"có cội nguồn hợp lý từ trong khoa học cơ học cổ điển"*, nhưng *"chỉ có tác dụng trong một phạm vi nhất định"* vì hiện thực *"không rời rạc và không ngưng đọng"* (tr. 44). Ăngghen: nó *"chỉ nhìn thấy những sự vật riêng biệt mà không nhìn thấy mối liên hệ qua lại giữa những sự vật ấy, ... chỉ nhìn thấy cây mà không thấy rừng"* (*Toàn tập*, t.20, tr.37; dẫn tr. 44–45).
+
+> [!quote] Phương pháp biện chứng (tr. 45)
+> Phương pháp biện chứng nhận thức đối tượng trong các mối liên hệ phổ biến vốn có của nó. Đối tượng và các thành phần của đối tượng luôn trong sự lệ thuộc, ảnh hưởng, ràng buộc và quy định lẫn nhau.
+>
+> Phương pháp biện chứng nhận thức đối tượng ở trạng thái luôn vận động biến đổi, nằm trong khuynh hướng phổ quát là phát triển. Quá trình vận động này thay đổi cả về lượng và chất của các sự vật, hiện tượng. Nguồn gốc của sự vận động, thay đổi đó là sự đấu tranh giữa các mặt đối lập của mâu thuẫn nội tại trong bản thân sự vật, hiện tượng.
+
+Tư duy siêu hình dựa trên *"những phản đề tuyệt đối không thể dung nhau được"*; tư duy biện chứng thì *"bên cạnh cái "hoặc là... hoặc là" thì còn có cả "cái này lẫn cái kia" nữa"* (Ăngghen, t.20, tr.696; dẫn tr. 45–46), thừa nhận *"một chỉnh thể trong lúc vừa là nó lại vừa không phải là nó"*, và là *"phương pháp luận tối ưu của mọi khoa học"* (tr. 46).
+
+**Định nghĩa.**
+
+| Tiêu chí | Siêu hình | Biện chứng |
+| --- | --- | --- |
+| Liên hệ | cô lập; mặt đối lập có **ranh giới tuyệt đối** | **liên hệ phổ biến**; ràng buộc, quy định lẫn nhau |
+| Trạng thái | **tĩnh** | **vận động**, khuynh hướng phát triển |
+| Biến đổi | chỉ **số lượng**, bề ngoài | cả **lượng và chất** |
+| Nguồn gốc biến đổi | **bên ngoài** | **mâu thuẫn nội tại** |
+
+**Chuỗi lập luận.** (1) Muốn biết một vật, trước hết tách nó ra, xét ở trạng thái đứng yên — gốc hợp lý của siêu hình (tr. 44). (2) Nhưng hiện thực không rời rạc, không ngưng đọng; mang cách nhìn ấy sang vấn đề vận động, liên hệ thì thấy cây mà không thấy rừng (tr. 44–45). (3) Biện chứng xét đối tượng trong liên hệ, vận động, với nguồn gốc ở mâu thuẫn bên trong (tr. 45). (4) Vì *"phản ánh hiện thực đúng như nó tồn tại"*, biện chứng là phương pháp luận tối ưu (tr. 46).
+
+**Soi lại tình huống — chuột Hà Nội.** *Cô lập*: "số chuột" bị xét tách khỏi hành vi người bắt chuột, vốn cũng phản ứng với chính sách. *Tĩnh*: bầy chuột bị coi là một lượng cố định, quên rằng chuột sinh sản. *Chỉ thấy lượng, bề ngoài*: thước đo là **số đuôi**, không phải **nguy cơ dịch** — thưởng theo dấu hiệu thì người ta sản xuất dấu hiệu. *Nguyên nhân bên ngoài*: chuột bị coi là "kẻ xâm nhập", trong khi gốc nằm trong chính hệ thống cống ngầm. Đếm chuột vẫn là thao tác cần (cội nguồn hợp lý); sai là dựng cả chính sách trên đó.
+
+**Ý nghĩa phương pháp luận.** Sách gọi phương pháp biện chứng là *"công cụ hữu hiệu giúp con người nhận thức và cải tạo thế giới"* (tr. 46); chi tiết ở [Bài 5](bai_05_hai_nguyen_ly_cua_phep_bien_chung.md), [Bài 6](bai_06_ba_quy_luat_co_ban.md). Thành cách làm: trước khi đặt một chỉ tiêu, hỏi bốn câu theo bảng trên.
+
+> [!warning] Siêu hình ở đây không phải huyền bí
+> Tiếng Việt thường ngày dùng "siêu hình" cho tâm linh, huyền bí; chữ *metaphysics* lại chỉ môn siêu hình học. Trong giáo trình, "phương pháp siêu hình" là **một cách tư duy**: cô lập, tĩnh, chỉ thấy lượng, nguyên nhân bên ngoài (tr. 43–44). Và nó không sai ở mọi chỗ: có *"cội nguồn hợp lý"*, *"có công lớn"* trong cơ học cổ điển (tr. 44).
 
 ---
 
 ## 9. Ba hình thức của phép biện chứng trong lịch sử
 
-Song song ba hình thức của chủ nghĩa duy vật (§6), phép biện chứng cũng qua **ba hình thức** (tr. 46–47):
+**Giáo trình nói gì.** *"Cùng với sự phát triển của tư duy con người, phương pháp biện chứng đã trải qua ba giai đoạn phát triển, được thể hiện trong triết học với ba hình thức lịch sử: phép biện chứng tự phát, phép biện chứng duy tâm và phép biện chứng duy vật"* (tr. 46).
 
-| # | Hình thức | Đại biểu | Hạn chế / bước tiến |
-| --- | --- | --- | --- |
-| 1 | **Biện chứng tự phát** (cổ đại) | các nhà biện chứng Đông & Tây cổ đại | thấy vạn vật vận động, sinh hoá vô tận, nhưng chỉ là **trực kiến**, chưa có khoa học minh chứng |
-| 2 | **Biện chứng duy tâm** | triết học cổ điển Đức, khởi đầu **Kant**, hoàn thiện **Hegel** | lần đầu trình bày biện chứng thành hệ thống — nhưng **biện chứng bắt đầu từ tinh thần và kết thúc ở tinh thần** (biện chứng của ý niệm) |
-| 3 | **Biện chứng duy vật** | **C. Mác & Ph. Ăngghen** dựng, Lênin phát triển | gạt bỏ tính thần bí của Hegel, **kế thừa hạt nhân hợp lý**, đặt trên nền duy vật → hình thức hoàn bị nhất |
+| Hình thức | Đại biểu (theo sách) | Đặc điểm và giới hạn |
+| --- | --- | --- |
+| **Tự phát** | *"Các nhà biện chứng cả phương Đông và phương Tây thời cổ đại"* | thấy vạn vật *"sinh thành, biến hóa vô cùng vô tận"*, nhưng *"chỉ là trực kiến, chưa có các kết quả của nghiên cứu và thực nghiệm khoa học minh chứng"* (tr. 46–47) |
+| **Duy tâm** | *"người khởi đầu là Kant và người hoàn thiện là Hegel"* | *"lần đầu tiên"* trình bày *"một cách có hệ thống"*; nhưng *"biện chứng bắt đầu từ tinh thần và kết thúc cũng ở tinh thần"* (tr. 47) |
+| **Duy vật** | Mác, Ăngghen; sau đó Lênin *"và các nhà triết học hậu thế"* | *"gạt bỏ tính thần bí, tư biện"*, *"kế thừa những hạt nhân hợp lý"*; *"học thuyết về mối liên hệ phổ biến và về sự phát triển dưới hình thức hoàn bị nhất"* (tr. 47) |
 
-Công lao then chốt của C. Mác và Ph. Ăngghen mà sách nhấn (tr. 47): tạo được **sự thống nhất giữa chủ
-nghĩa duy vật với phép biện chứng** — làm cho *phép biện chứng trở thành phép biện chứng duy vật* và
-*chủ nghĩa duy vật trở thành chủ nghĩa duy vật biện chứng*. Hai nửa ghép lại thành **chủ nghĩa duy vật
-biện chứng** — đúng tên Chương 2.
+Công lao lớn hơn của Mác – Ăngghen: *"làm cho phép biện chứng trở thành phép biện chứng duy vật và chủ nghĩa duy vật trở thành chủ nghĩa duy vật biện chứng"* (tr. 47) — **cả hai** đều được cải tạo, không phải ghép hai mảnh có sẵn.
 
-```
-   duy vật (siêu hình)  +  biện chứng (duy tâm, của Hegel)
-                    │
-            C. Mác & Ph. Ăngghen ghép lại trên nền duy vật
-                    ↓
-            CHỦ NGHĨA DUY VẬT BIỆN CHỨNG   → Chương 2
-```
+**Định nghĩa.** Ba hình thức phân biệt bằng hai câu hỏi: đã **có hệ thống** chưa? và đứng trên nền **duy vật** hay **duy tâm**?
+
+**Chuỗi lập luận.** (1) Cổ đại **thấy** vạn vật biến hoá bằng trực kiến (tr. 46–47). (2) Cổ điển Đức biến trực kiến thành **hệ thống**, nhưng trong vận động của tinh thần (tr. 47). (3) Còn chủ nghĩa duy vật thế kỷ XVII – XVIII lại siêu hình (mục 6). (4) Mác – Ăngghen giữ hạt nhân hợp lý của Hegel, bỏ vỏ thần bí, đặt lên nền duy vật (tr. 47).
+
+**Ví dụ** *(ngoài giáo trình)*. Anaximander (thế kỷ VI TCN) đoán con người sinh ra từ một loài giống cá — trực kiến; Hegel có hệ thống phát triển tinh vi nhưng, vì chỉ tinh thần mới có lịch sử, lại bác bỏ sự biến đổi của các loài (*Encyclopädie*, §249); phải đến Darwin (1859) tiến hoá mới thành quá trình của vật chất sống, có cơ chế và bằng chứng.
+
+**Ý nghĩa phương pháp luận.** Sách không tách mục; ý nghĩa nằm ở chữ *"kế thừa những hạt nhân hợp lý"*: không vứt một di sản vì nó "duy tâm", không chép nguyên vì nó "vĩ đại" — chính là "phủ định biện chứng" ở [Bài 6](bai_06_ba_quy_luat_co_ban.md).
+
+> [!note] Mở rộng — Biện chứng cổ đại Đông, Tây
+> *(Ngoài giáo trình — nguồn gốc tư tưởng.)*
+>
+> - **Heraclitus** (khoảng 535–475 TCN): "không thể tắm hai lần trong cùng một dòng sông"; thế giới là "ngọn lửa sống mãi, bùng cháy theo độ và tắt theo độ". Hegel nói ông đã đưa mọi mệnh đề của Heraclitus vào *Khoa học Lôgic*.
+> - **Parmenides** (đầu thế kỷ V TCN): "cái có thì có", biến đổi là ảo giác; Zeno dùng nghịch lý Achilles và rùa để bảo vệ ông. Đây là dạng sơ khai của cặp biện chứng – siêu hình.
+> - **Lão Tử**: "hữu vô tương sinh" (*Đạo Đức Kinh*, ch. 2). **Kinh Dịch**: "cùng tắc biến, biến tắc thông, thông tắc cửu"; âm dương nương nhau, chuyển hoá nhau.
+> - Biện chứng phương Đông nhấn mạnh **cân bằng, quay vòng**; phép biện chứng duy vật nhấn mạnh **phát triển đi lên**.
 
 ---
 
 ## 10. Từ điển thuật ngữ
 
-| Thuật ngữ | Nghĩa gọn (theo sách) |
-| --- | --- |
-| **Triết học** | hệ thống quan điểm lý luận chung nhất về thế giới và vị trí con người trong đó; khoa học về các quy luật chung nhất của tự nhiên, xã hội, tư duy (tr. 22) |
-| **Hình thái ý thức xã hội** | một hình thức phản ánh đời sống xã hội (triết học là một trong số đó) |
-| **Thế giới quan** | hệ thống tri thức, quan điểm, tình cảm, niềm tin, lý tưởng về thế giới và vị trí con người trong đó (tr. 28) |
-| **Nhân sinh quan** | quan niệm của con người về đời sống — bộ phận nằm trong thế giới quan (tr. 29) |
-| **Vấn đề cơ bản của triết học** | quan hệ giữa tư duy và tồn tại (vật chất và ý thức); có hai mặt (tr. 33) |
-| **Chủ nghĩa duy vật** | vật chất có trước, quyết định ý thức (tr. 35) |
-| **Chủ nghĩa duy tâm** | ý thức/tinh thần có trước, quyết định vật chất (tr. 35) |
-| **Duy tâm chủ quan / khách quan** | ý thức có trước là ý thức *con người* / là thứ *tinh thần khách quan* độc lập với con người (tr. 37) |
-| **Nhị nguyên luận** | giải thích thế giới bằng cả hai bản nguyên; xét cùng vẫn thuộc duy tâm (tr. 38) |
-| **Thuyết khả tri / bất khả tri** | con người *có thể* / *không thể* nhận thức bản chất sự vật (tr. 40) |
-| **"Vật tự nó" / "vật cho ta"** | bản chất ẩn (Kant) / cái đã được nhận thức chiếm lĩnh (tr. 43) |
-| **Phương pháp siêu hình** | nhận thức đối tượng ở trạng thái cô lập, tĩnh (tr. 43) |
-| **Phương pháp biện chứng** | nhận thức đối tượng trong liên hệ phổ biến và vận động (tr. 45) |
-| **Chủ nghĩa duy vật biện chứng** | sự thống nhất giữa chủ nghĩa duy vật và phép biện chứng (tr. 47) |
+| Thuật ngữ | Nghĩa gọn (theo sách) | Dễ lẫn với |
+| --- | --- | --- |
+| **Nguồn gốc nhận thức / xã hội** | tư duy trừu tượng, khái quát / dư thừa, trí óc tách chân tay, giai cấp, nhà nước (tr. 15–17) | |
+| **Triết học** | hệ thống quan điểm lý luận chung nhất về thế giới, con người, tư duy (tr. 22) | triết lý sống; khoa học cụ thể |
+| **Đối tượng của triết học** | quan hệ phổ biến, quy luật chung nhất (tr. 23); với Mác thêm quan hệ tồn tại – tư duy (tr. 26) | |
+| **Thế giới quan / nhân sinh quan** | hệ thống tri thức, quan điểm, tình cảm, niềm tin, lý tưởng về thế giới và vị trí con người / quan niệm về đời sống (tr. 28–29) | |
+| **Vấn đề cơ bản** | quan hệ vật chất – ý thức; hai mặt (tr. 33–35) | vấn đề quan trọng nhất của đời sống |
+| **Duy vật / duy tâm** | vật chất / ý thức có trước, quyết định (tr. 35) | |
+| **Nhất nguyên / nhị nguyên** | một / hai bản nguyên; nhị nguyên xét cùng thuộc duy tâm (tr. 38–39) | |
+| **Khả tri / bất khả tri / hoài nghi luận** | nhận thức được / không được bản chất / hoài nghi thành nguyên tắc (tr. 40–41) | |
+| **Vật tự nó / vật cho ta** | đối tượng như nó vốn có (Kant) / cái đã được nhận thức (tr. 42–43) | hiện tượng / bản chất |
+| **Siêu hình / biện chứng** | cô lập, tĩnh / liên hệ, vận động, mâu thuẫn nội tại (tr. 43–45) | |
+| **Ba hình thức phép biện chứng** | tự phát, duy tâm, duy vật (tr. 46–47) | ba hình thức của chủ nghĩa duy vật |
 
 ---
 
 ## 11. Câu hỏi tự kiểm tra
 
-Tự trả lời trước khi xem lại bài. (Câu hỏi ôn tập chính thức của cả Chương 1 nằm ở tr. 116 trong sách,
-bao trùm cả bài 2.)
+Mỗi câu là một tình huống: chỉ ra các khái niệm của bài trong đó, rồi rút ra cách nhìn. Không kèm lời giải.
 
-1. Nêu **hai nguồn gốc** của triết học. Vì sao nói triết học "không ra đời trong xã hội mông muội"?
-2. Chép lại **định nghĩa triết học** gắn với chủ nghĩa Mác – Lênin (tr. 22). Vì sao "không phải mọi
-   triết học đều là khoa học"?
-3. Đối tượng của triết học đã thay đổi thế nào từ cổ đại → trung cổ → Mác? "Khoa học của mọi khoa học"
-   nghĩa là gì và vì sao tham vọng đó phá sản?
-4. **Thế giới quan** là gì? Trình bày trật tự *tri thức → niềm tin → lý tưởng*. Nêu **bốn lý do** vì
-   sao triết học là *hạt nhân lý luận* của thế giới quan.
-5. Vấn đề cơ bản của triết học là gì? Nêu **hai mặt** và trường phái tương ứng với mỗi mặt.
-6. Phân biệt **duy vật / duy tâm**; kể **ba hình thức** của chủ nghĩa duy vật và **hai phái** của chủ
-   nghĩa duy tâm. Nhị nguyên luận xét đến cùng thuộc trường phái nào? Vì sao?
-7. **Khả tri** khác **bất khả tri** ở điểm nào? Ph. Ăngghen bác "vật tự nó" của Kant bằng lập luận gì?
-8. So sánh **phương pháp siêu hình** và **phương pháp biện chứng** theo ba tiêu chí: liên hệ, trạng
-   thái (tĩnh/động), nguồn gốc vận động. Giải thích câu "chỉ thấy cây mà không thấy rừng".
-9. Kể **ba hình thức** của phép biện chứng trong lịch sử. Công lao của C. Mác và Ph. Ăngghen là gì?
+1. **Bộ lạc và mùa mưa.** Một bộ lạc giải thích mưa muộn bằng cơn giận của thần; vài trăm năm sau, khi làng đã có chợ và người chuyên làm thầy dạy, có người hỏi "mưa nắng có theo một trật tự chung không". Chỉ ra hai nguồn gốc của chuyển biến. Vì sao sách nói hai nguồn gốc chỉ phân chia *"tương đối"*?
+2. **Kỹ sư "không cần triết học".** "Tôi chỉ tin số liệu, triết học vô dụng." Câu này có phải một quan điểm triết học không? Phân tích bằng bốn lý do tr. 30 và lời Ăngghen (dẫn tr. 32–33).
+3. **Khẩu hiệu trên tường.** Nhà hàng ghi "Khách hàng là thượng đế", nhưng nhân viên bị phạt khi đổi món cho khách. Theo tr. 29, khẩu hiệu ấy đã thành bộ phận "thế giới quan" của tổ chức chưa? Cần gì để nó trở thành?
+4. **Mất ngủ.** Một người cho rằng mất ngủ do "suy nghĩ tiêu cực tạo ra mọi thứ"; người kia đi khám, phát hiện cường giáp, nhưng nói thêm "cơ thể phức tạp lắm, không bao giờ hiểu nổi". Mỗi người trả lời mặt thứ nhất và mặt thứ hai thế nào?
+5. **Thế giới mô phỏng.** "Biết đâu ta đang sống trong một mô phỏng máy tính." Lập luận này gần duy tâm chủ quan, duy tâm khách quan hay bất khả tri? Tiêu chí của Ăngghen (dẫn tr. 42–43) trả lời được đến đâu?
+6. **Chỉ tiêu bệnh viện.** Bệnh viện thưởng khoa có "thời gian nằm viện trung bình" ngắn nhất; một năm sau, tỷ lệ tái nhập viện tăng vọt. Phân tích bằng bốn tiêu chí siêu hình / biện chứng. Phần nào của cách làm cũ vẫn có "cội nguồn hợp lý"?
 
 ---
 
 ## Tóm tắt một trang
 
 ```
-BÀI 1 — TRIẾT HỌC VÀ VẤN ĐỀ CƠ BẢN                          (C1–I, tr. 12–47)
-═══════════════════════════════════════════════════════════════════════════════
-NGUỒN GỐC (tk VIII–VI TCN, Đông & Tây)
-   • nhận thức: tư duy trừu tượng + năng lực khái quát
-   • xã hội:    sản xuất phát triển → phân công LĐ (trí óc tách chân tay)
-                → tư hữu, giai cấp, nhà nước → tầng lớp trí thức
-   ⚠ ra đời trong xã hội có giai cấp → triết học MANG TÍNH GIAI CẤP ("tính đảng")
-
-ĐỊNH NGHĨA (tr. 22)  hệ thống quan điểm lý luận chung nhất về thế giới và vị trí
-   con người; khoa học về quy luật chung nhất của tự nhiên–xã hội–tư duy.
-   ⚠ không phải mọi triết học đều là khoa học.
-
-ĐỐI TƯỢNG co lại theo lịch sử:
-   "khoa học của mọi KH" (cổ đại) → "nữ tì thần học" (trung cổ) → Mác xác định
-   LẠI: chỉ giữ quy luật CHUNG NHẤT. Điểm mạnh của Mác = biết DỪNG ĐÚNG CHỖ.
-
-THẾ GIỚI QUAN = hệ tri thức–quan điểm–niềm tin–lý tưởng định hướng hành động.
-   tri thức →(thực tiễn kiểm nghiệm)→ niềm tin → lý tưởng.
-   Triết học là HẠT NHÂN LÝ LUẬN của thế giới quan (4 lý do).
-
-VẤN ĐỀ CƠ BẢN = quan hệ VẬT CHẤT ↔ Ý THỨC (Ăngghen)
-   Mặt 1: cái nào có trước/quyết định?  → DUY VẬT | DUY TÂM
-   Mặt 2: có nhận thức được không?      → KHẢ TRI | BẤT KHẢ TRI
-
-   DUY VẬT:  chất phác(cổ) → siêu hình(XVII–XVIII) → BIỆN CHỨNG(Mác) ★đỉnh
-   DUY TÂM:  chủ quan (chỉ là cảm giác của tôi) | khách quan (tinh thần độc lập)
-             nhị nguyên (Descartes) → xét cùng vẫn là DUY TÂM
-   KHẢ TRI thắng thế; Ăngghen bác Kant bằng THỰC TIỄN: "vật tự nó" → "vật cho ta"
-
-PHƯƠNG PHÁP
-   SIÊU HÌNH: cô lập, tĩnh, ranh giới tuyệt đối — "thấy cây không thấy rừng"
-   BIỆN CHỨNG: liên hệ phổ biến, vận động, mâu thuẫn nội tại là nguồn gốc
-   3 hình thức biện chứng: tự phát(cổ) → duy tâm(Hegel) → DUY VẬT(Mác)
-
-   duy vật + biện chứng  ─Mác ghép trên nền duy vật→  CHỦ NGHĨA DUY VẬT BIỆN CHỨNG
-                                                       → Chương 2
-QTKD: khái quát dữ liệu→chiến lược · triết lý KD = thế giới quan tổ chức ·
-   thị trường quyết định sản phẩm (duy vật) · lean = "vật tự nó→vật cho ta" ·
-   systems thinking = tư duy biện chứng
-═══════════════════════════════════════════════════════════════════════════════
+BÀI 1 — TRIẾT HỌC VÀ VẤN ĐỀ CƠ BẢN CỦA TRIẾT HỌC                     (C1 - I, tr. 12-47)
+════════════════════════════════════════════════════════════════════════════════════════
+1. KHÁI LƯỢC (tr. 12-33)
+   ra đời thế kỷ VIII - VI TCN, Đông & Tây; 2 nguồn gốc (tương đối):
+     nhận thức (tư duy trừu tượng) · xã hội (dư thừa, giai cấp) -> TÍNH GIAI CẤP
+   khái niệm (tr. 22): hệ thống quan điểm lý luận chung nhất; (Mác - Lênin) khoa học
+     về quy luật chung nhất · không phải mọi triết học là khoa học
+   đối tượng: "khoa học của các khoa học" -> "nữ tì của thần học" -> khoa học tách ra
+     -> Mác: quan hệ tồn tại - tư duy + quy luật chung nhất
+   thế giới quan: tri thức -(thực tiễn)-> niềm tin -> lý tưởng; triết học = HẠT NHÂN (4)
+2. VẤN ĐỀ CƠ BẢN = VẬT CHẤT - Ý THỨC (tr. 33-43)
+   mặt 1 -> DUY VẬT (chất phác · siêu hình · biện chứng) | DUY TÂM (chủ quan · khách quan)
+            nhị nguyên -> xét đến cùng duy tâm
+   mặt 2 -> KHẢ TRI | BẤT KHẢ TRI (Hume, Kant); "vật tự nó" -> "vật cho ta" (Ăngghen)
+3. BIỆN CHỨNG / SIÊU HÌNH (tr. 43-47)
+   siêu hình: cô lập · tĩnh · chỉ lượng · nguyên nhân ngoài
+   biện chứng: liên hệ · vận động · lượng & chất · mâu thuẫn nội tại
+   tự phát -> duy tâm (Kant, Hegel) -> duy vật (Mác - Ăngghen)
+════════════════════════════════════════════════════════════════════════════════════════
 ```
 
 ---
 
 ## Nguồn
 
-- **Giáo trình Triết học Mác – Lênin** (dành cho bậc đại học hệ không chuyên lý luận chính trị), Bộ
-  Giáo dục và Đào tạo, NXB Chính trị Quốc gia Sự thật, Hà Nội, 2021 — **Chương 1, mục I** (tr. 12–47).
-  [File gốc PDF](../tai_lieu/Giao-trinh-Triet-hoc-Mac-Lenin.pdf).
-- Trích dẫn kinh điển trong bài đều theo bản dẫn của giáo trình: C. Mác và Ph. Ăngghen, *Toàn tập*
-  (NXB Chính trị Quốc gia); V.I. Lênin, *Toàn tập*.
-- **Góc QTKD** là phần biên soạn thêm, không có trong sách — dùng làm phép loại suy để nhớ, không phải
-  nội dung thi.
+- **Giáo trình Triết học Mác – Lênin** (hệ không chuyên), Bộ GD&ĐT, NXB Chính trị Quốc gia Sự thật, 2021 — **Chương 1, mục I** (tr. 12–47). [File gốc PDF](../tai_lieu/Giao-trinh-Triet-hoc-Mac-Lenin.pdf) (trang PDF = trang in − 1).
+- Kinh điển theo bản dẫn của giáo trình: Mác – Ăngghen, *Toàn tập*, t.1 tr.156; t.20 tr.37, 692–693, 696; t.21 tr.403, 406 (dẫn tr. 15, 32–33, 33, 42–46).
+- Mở rộng (ngoài giáo trình): Descartes (1641), Chalmers (1995), PhilPapers (2020); Hume (1739–1740), Kant (1781), Ăngghen (1886); Heraclitus, Parmenides, Lão Tử, *Kinh Dịch*. Nguồn tình huống ghi dưới mỗi khối `[!example]`; chuyện ghi *(tình huống giả định)* là chuyện dựng.
 
 <!-- BAN-DO -->
 
@@ -586,21 +472,21 @@ QTKD: khái quát dữ liệu→chiến lược · triết lý KD = thế giới
 
 | # | Bài | Nguồn | Ưu tiên |
 | ---: | --- | --- | :---: |
-| **1** | **Triết học và vấn đề cơ bản của triết học** ← *bạn đang ở đây* | C1–I | 🎯 |
-| 2 | [Triết học Mác – Lênin và vai trò của nó](bai_02_triet_hoc_mac_lenin_va_vai_tro.md) | C1–II | 🎯 |
-| 3 | [Vật chất và các phương thức tồn tại](bai_03_vat_chat_va_cac_phuong_thuc_ton_tai.md) | C2–I | 🎯 |
-| 4 | [Ý thức và quan hệ vật chất – ý thức](bai_04_y_thuc_va_quan_he_vat_chat_y_thuc.md) | C2–I | 🎯 |
-| 5 | [Hai nguyên lý của phép biện chứng duy vật](bai_05_hai_nguyen_ly_cua_phep_bien_chung.md) | C2–II | 🎯 |
-| 6 | [Ba quy luật cơ bản của phép biện chứng](bai_06_ba_quy_luat_co_ban.md) | C2–II | 🎯⭐ |
-| 7 | [Sáu cặp phạm trù cơ bản](bai_07_sau_cap_pham_tru.md) | C2–II | 🎯 |
-| 8 | [Lý luận nhận thức](bai_08_ly_luan_nhan_thuc.md) | C2–III | 🎯 |
-| 9 | [Học thuyết hình thái kinh tế – xã hội](bai_09_hinh_thai_kinh_te_xa_hoi.md) | C3–I | 🎯 |
-| 10 | [Giai cấp và dân tộc](bai_10_giai_cap_va_dan_toc.md) | C3–II | 🔸 |
-| 11 | [Nhà nước và cách mạng xã hội](bai_11_nha_nuoc_va_cach_mang_xa_hoi.md) | C3–III | 🔸 |
-| 12 | [Ý thức xã hội](bai_12_y_thuc_xa_hoi.md) | C3–IV | 🔸 |
-| 13 | [Triết học về con người](bai_13_triet_hoc_ve_con_nguoi.md) | C3–V | 🔸 |
+| **1** | **Triết học và vấn đề cơ bản của triết học** ← *bạn đang ở đây* | C1–I | Vòng 1 |
+| 2 | [Triết học Mác – Lênin và vai trò của nó](bai_02_triet_hoc_mac_lenin_va_vai_tro.md) | C1–II | Vòng 1 |
+| 3 | [Vật chất và các phương thức tồn tại](bai_03_vat_chat_va_cac_phuong_thuc_ton_tai.md) | C2–I | Vòng 1 |
+| 4 | [Ý thức và quan hệ vật chất – ý thức](bai_04_y_thuc_va_quan_he_vat_chat_y_thuc.md) | C2–I | Vòng 1 |
+| 5 | [Hai nguyên lý của phép biện chứng duy vật](bai_05_hai_nguyen_ly_cua_phep_bien_chung.md) | C2–II | Vòng 1 |
+| 6 | [Ba quy luật cơ bản của phép biện chứng](bai_06_ba_quy_luat_co_ban.md) | C2–II | Vòng 1 |
+| 7 | [Sáu cặp phạm trù cơ bản](bai_07_sau_cap_pham_tru.md) | C2–II | Vòng 1 |
+| 8 | [Lý luận nhận thức](bai_08_ly_luan_nhan_thuc.md) | C2–III | Vòng 1 |
+| 9 | [Học thuyết hình thái kinh tế – xã hội](bai_09_hinh_thai_kinh_te_xa_hoi.md) | C3–I | Vòng 1 |
+| 10 | [Giai cấp và dân tộc](bai_10_giai_cap_va_dan_toc.md) | C3–II | Vòng 2 |
+| 11 | [Nhà nước và cách mạng xã hội](bai_11_nha_nuoc_va_cach_mang_xa_hoi.md) | C3–III | Vòng 2 |
+| 12 | [Ý thức xã hội](bai_12_y_thuc_xa_hoi.md) | C3–IV | Vòng 2 |
+| 13 | [Triết học về con người](bai_13_triet_hoc_ve_con_nguoi.md) | C3–V | Vòng 2 |
 
-🎯 vòng 1 — học kỹ · 🔸 vòng 2 — đọc hiểu · ⭐ trọng tâm thi
+Vòng 1 = học kỹ · Vòng 2 = đọc hiểu
 
 Chỉ mục môn học: [README.md](../README.md)
 
