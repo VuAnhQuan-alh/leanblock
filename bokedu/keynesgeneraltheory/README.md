@@ -33,11 +33,13 @@ Bộ bài học dựng **từ chính cuốn sách**, không viết theo trí nh�
 | `> [!warning]` | chỗ dễ hiểu sai, chỗ Keynes viết khó/gây tranh cãi, hoặc chỗ hậu thế đọc lệch ý ông |
 | `> [!info]` | ghi chú định hướng đầu mỗi bài |
 | `> [!example]` **Góc đời sống** | ví dụ đời thường để hiểu khái niệm trừu tượng — **không có trong sách** |
-| **Mở rộng** | kiến thức nền sách nói lướt, hoặc thuật ngữ (số nhân, IS–LM…) cần giải thích thêm |
+| **Phản biện & hậu Keynes** | Keynes sai/thiếu ở đâu, người sau (Hicks, Hansen, Friedman, Lucas, Minsky…) sửa thế nào — **không có trong sách** |
+| **Keynes nói gì · Định nghĩa · Chuỗi lập luận · Ví dụ số** | khuôn 4 bước cho mỗi khái niệm lõi (sau Góc đời sống, trước `[!warning]`); số tự dựng ghi *(số giả định)* |
+| `[sửa lỗi in]` | chỗ bản Gutenberg in sai (OCR), người soạn đã sửa |
 | **Nối môn** | liên hệ [Adam Smith](../adamsmitccccdt/README.md), [Ba người khổng lồ](../bigthreeeconomic/README.md), [EG43 Kinh tế Chính trị](../../houedu/eg43-kinhtechinhtri/README.md) — **không có trong sách** |
-| **Đối chiếu 2026** | sách viết năm 1936 — mục này soi lại bằng con mắt hôm nay |
+| **Đối chiếu 2026** | sách viết năm 1936 — mục này soi lại bằng con mắt hôm nay; mọi số liệu kèm (nguồn, ngày) |
 
-Công thức viết bằng LaTeX. Mở bằng **Obsidian** (hoặc VS Code + Markdown Preview Enhanced).
+Công thức viết dạng chữ thường trong khối mã (vd `k = 1/(1 − MPC)`). Mở bằng **Obsidian** (hoặc VS Code + Markdown Preview Enhanced).
 
 ---
 
@@ -74,9 +76,9 @@ QUYỂN V    Tiền công & giá cả     (vì sao giảm lương không chữa 
 QUYỂN VI   Ghi chú mở rộng        (chu kỳ, trọng thương, triết lý xã hội)         → bài 8
 ```
 
-| # | Bài | Nội dung sách | Chương | Vòng |
-| ---: | --- | --- | :---: | :---: |
-| 0 | [Nhập môn — 1936, Đại khủng hoảng và cuộc cách mạng Keynes](ly_thuyet/bai_00_nhap_mon.md) | Bối cảnh + bản đồ 6 Quyển | — | 1 |
+| # | Bài | Nội dung sách | Vòng |
+| ---: | --- | --- | :---: |
+| 0 | [Nhập môn — 1936, Đại khủng hoảng và cuộc cách mạng Keynes](ly_thuyet/bai_00_nhap_mon.md) | Bối cảnh + bản đồ 6 Quyển | 1 |
 | 1 | [Cầu hữu hiệu — cú lật đổ "cung tự tạo cầu"](ly_thuyet/bai_01_cau_huu_hieu.md) | QI, Ch 1–3 | 1 · trọng tâm |
 | 2 | [Bộ công cụ: đơn vị đo, kỳ vọng, tiết kiệm ≡ đầu tư](ly_thuyet/bai_02_dinh_nghia_cong_cu.md) | QII, Ch 4–7 | 2 |
 | 3 | [Khuynh hướng tiêu dùng và Số nhân chi tiêu](ly_thuyet/bai_03_tieu_dung_so_nhan.md) | QIII, Ch 8–10 | 1 · trọng tâm |
@@ -89,8 +91,8 @@ QUYỂN VI   Ghi chú mở rộng        (chu kỳ, trọng thương, triết l�
 Vòng 1 = học kỹ · Vòng 2 = đọc hiểu. Toàn khoá dựng từ **bản Anh** (kho không có bản dịch Việt).
 
 > [!note] Tiến độ
-> **Giáo án đã chốt (Bài 0–8).** Các bài sẽ dựng dần từ bản Anh Gutenberg, mỗi bài trích nguyên
-> văn + dịch, kèm Góc đời sống cho từng khái niệm khó.
+> **Hoàn thành toàn bộ Bài 0–8** (đủ 6 Quyển), đã đào sâu theo khuôn "Góc đời sống → Keynes nói gì →
+> Định nghĩa → Chuỗi lập luận → Ví dụ số" (2026-10). Mọi trích dẫn tiếng Anh khớp nguyên văn Gutenberg.
 
 ---
 
