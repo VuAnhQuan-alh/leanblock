@@ -1,9 +1,7 @@
 # Bài 1 — Đối tượng, phương pháp và chức năng của Kinh tế chính trị Mác – Lênin
 
 > [!info] Về bài này
-> Bài học dựng từ **Chương 1** (tr. 11–33) của *Giáo trình Kinh tế chính trị Mác – Lênin* (hệ không chuyên), Bộ Giáo dục và Đào tạo, **NXB Chính trị Quốc gia Sự thật, 2021** (chủ biên PGS.TS. Ngô Tuấn Nghĩa).
-> **Vòng 1.** Bài nhập môn: KTCT Mác – Lênin **ra đời thế nào**, **nghiên cứu cái gì** (đối tượng), **nhằm mục đích gì**, **bằng cách nào** (phương pháp), **để làm gì** (chức năng). Đây là "khung" để đọc các chương sau. Chương này ít công thức; bài học dùng **bảng so sánh, dòng thời gian** và một **nền kinh tế đồ chơi** để minh hoạ phương pháp trừu tượng hóa.
-> **Nên đọc trước (không bắt buộc):** [Triết – Bài 9: Hình thái kinh tế – xã hội](../../eg42-triethocmaclenin/ly_thuyet/bai_09_hinh_thai_kinh_te_xa_hoi.md) — đối tượng của KTCT gắn với **lực lượng sản xuất (LLSX)** và **kiến trúc thượng tầng (KTTT)**.
+> Bài học dựng từ **Chương 1** (tr. 11–33) của *Giáo trình Kinh tế chính trị Mác – Lênin* (hệ không chuyên), Bộ Giáo dục và Đào tạo, **NXB Chính trị Quốc gia Sự thật, 2021** (chủ biên PGS.TS. Ngô Tuấn Nghĩa). **Vòng 1.** Bài nhập môn: KTCT Mác – Lênin **ra đời thế nào**, **nghiên cứu cái gì** (đối tượng), **nhằm mục đích gì**, **bằng cách nào** (phương pháp), **để làm gì** (chức năng). Đây là "khung" để đọc các chương sau. Chương này ít công thức; bài học dùng **bảng so sánh, dòng thời gian** và một **nền kinh tế đồ chơi** để minh hoạ phương pháp trừu tượng hóa. **Nên đọc trước (không bắt buộc):** [Triết – Bài 9: Hình thái kinh tế – xã hội](../../eg42-triethocmaclenin/ly_thuyet/bai_09_hinh_thai_kinh_te_xa_hoi.md) — đối tượng của KTCT gắn với **lực lượng sản xuất (LLSX)** và **kiến trúc thượng tầng (KTTT)**.
 >
 > **Cách đọc các khối màu:** `[!quote]` trích nguyên văn giáo trình (kèm trang in) · `[!warning]` chỗ dễ nhầm · `[!note]` ghi chú / Mở rộng ngoài sách · `[!example]` Góc QTKD (biên soạn thêm, không có trong sách) · *(số giả định)* = số tự dựng để minh hoạ.
 
@@ -111,26 +109,19 @@ Sau Lênin, nhiều nhà kinh tế nghiên cứu theo cách tiếp cận của M
 Trọng thương tìm đối tượng ở **lưu thông**; trọng nông ở quan hệ kinh tế trong **nông nghiệp**; cổ điển ở **nền sản xuất** — chưa toàn diện nhưng có giá trị lịch sử (tr. 19). Ngay trước định nghĩa của Mác, sách đặt quan niệm của Smith làm điểm so sánh:
 
 > [!quote] Hộp 1.1 — Quan niệm của A. Smith (tr. 20)
-> Kinh tế chính trị là một ngành khoa học gắn với chính khách hay nhà lập pháp hướng tới hai mục tiêu:
-> *Thứ nhất*, tạo ra nguồn thu nhập dồi dào và sinh kế phong phú cho người dân, hay chính xác hơn là tạo điều kiện để người dân tự tạo ra thu nhập và sinh kế cho bản thân.
-> *Thứ hai*, tạo ra khả năng có được nguồn ngân sách đầy đủ cho nhà nước hay toàn bộ nhân dân để thực hiện nhiệm vụ công.
-> Kinh tế chính trị hướng tới làm cho cả người dân cũng như quốc gia trở nên giàu có.
-> *Nguồn:* A. Smith: *An Inguiry* [sic] *in to the Nature and Causes of the Wealth of Nations*, 1776.
+> Kinh tế chính trị là một ngành khoa học gắn với chính khách hay nhà lập pháp hướng tới hai mục tiêu: *Thứ nhất*, tạo ra nguồn thu nhập dồi dào và sinh kế phong phú cho người dân, hay chính xác hơn là tạo điều kiện để người dân tự tạo ra thu nhập và sinh kế cho bản thân. *Thứ hai*, tạo ra khả năng có được nguồn ngân sách đầy đủ cho nhà nước hay toàn bộ nhân dân để thực hiện nhiệm vụ công. Kinh tế chính trị hướng tới làm cho cả người dân cũng như quốc gia trở nên giàu có. *Nguồn:* A. Smith: *An Inguiry* [sic] *in to the Nature and Causes of the Wealth of Nations*, 1776.
 
 ### Định nghĩa của C. Mác và Ph. Ăngghen
 
 > [!quote] Đối tượng theo Mác – Ăngghen (tr. 20)
-> Kế thừa những thành tựu khoa học kinh tế chính trị của nhân loại, bằng cách tiếp cận duy vật về lịch sử, C. Mác và Ph. Ăngghen xác định:
-> Đối tượng nghiên cứu của kinh tế chính trị là các *quan hệ của sản xuất và trao đổi* trong phương thức sản xuất mà các quan hệ đó hình thành và phát triển.
+> Kế thừa những thành tựu khoa học kinh tế chính trị của nhân loại, bằng cách tiếp cận duy vật về lịch sử, C. Mác và Ph. Ăngghen xác định: Đối tượng nghiên cứu của kinh tế chính trị là các *quan hệ của sản xuất và trao đổi* trong phương thức sản xuất mà các quan hệ đó hình thành và phát triển.
 
 Lần đầu tiên đối tượng được xác định "một cách khoa học, toàn diện ở mức độ khái quát cao, thống nhất biện chứng giữa sản xuất và lưu thông" (tr. 20): trọng thương chỉ thấy lưu thông, cổ điển chủ yếu thấy sản xuất; Mác đặt **cả hai** trong một chỉnh thể. Smith hỏi "làm sao cho giàu" (tư vấn nhà lập pháp); Mác hỏi **quan hệ** nào đứng sau việc làm ra và chia nhau của cải.
 
 ### Nghĩa hẹp và nghĩa rộng
 
 > [!quote] Nghĩa hẹp, nghĩa rộng (tr. 21)
-> Theo nghĩa hẹp, kinh tế chính trị là khoa học kinh tế nghiên cứu quan hệ sản xuất và trao đổi trong một phương thức sản xuất nhất định. Cách tiếp cận này được C. Mác thể hiện rõ nhất trong bộ *Tư bản*. …
-> Theo nghĩa rộng, Ph. Ăngghen cho rằng: "Kinh tế chính trị, theo nghĩa rộng nhất, là khoa học về những quy luật chi phối sự sản xuất và trao đổi những tư liệu sinh hoạt vật chất trong xã hội loài người... Những điều kiện trong đó người ta sản xuất sản phẩm và trao đổi chúng, đều thay đổi tùy từng nước, và trong mỗi nước lại thay đổi tùy từng thế hệ. Bởi vậy, *không thể có cùng một môn kinh tế chính trị duy nhất* cho tất cả mọi nước và tất cả mọi thời đại lịch sử...; môn kinh tế chính trị, về thực chất là một môn khoa học có tính chất lịch sử...; nó nghiên cứu trước hết là những quy luật đặc thù của từng giai đoạn phát triển của sản xuất và của trao đổi, và chỉ sau khi nghiên cứu như thế xong xuôi rồi nó mới có thể xác định ra một vài quy luật hoàn toàn có tính chất chung, thích dụng, nói chung, cho sản xuất và trao đổi".
-> (Câu của Ăngghen: C. Mác và Ph. Ăngghen: *Toàn tập*, Nxb. Chính trị quốc gia, Hà Nội, 2002, t.20, tr.207-208; dẫn tr. 21.)
+> Theo nghĩa hẹp, kinh tế chính trị là khoa học kinh tế nghiên cứu quan hệ sản xuất và trao đổi trong một phương thức sản xuất nhất định. Cách tiếp cận này được C. Mác thể hiện rõ nhất trong bộ *Tư bản*. … Theo nghĩa rộng, Ph. Ăngghen cho rằng: "Kinh tế chính trị, theo nghĩa rộng nhất, là khoa học về những quy luật chi phối sự sản xuất và trao đổi những tư liệu sinh hoạt vật chất trong xã hội loài người... Những điều kiện trong đó người ta sản xuất sản phẩm và trao đổi chúng, đều thay đổi tùy từng nước, và trong mỗi nước lại thay đổi tùy từng thế hệ. Bởi vậy, *không thể có cùng một môn kinh tế chính trị duy nhất* cho tất cả mọi nước và tất cả mọi thời đại lịch sử...; môn kinh tế chính trị, về thực chất là một môn khoa học có tính chất lịch sử...; nó nghiên cứu trước hết là những quy luật đặc thù của từng giai đoạn phát triển của sản xuất và của trao đổi, và chỉ sau khi nghiên cứu như thế xong xuôi rồi nó mới có thể xác định ra một vài quy luật hoàn toàn có tính chất chung, thích dụng, nói chung, cho sản xuất và trao đổi". (Câu của Ăngghen: C. Mác và Ph. Ăngghen: *Toàn tập*, Nxb. Chính trị quốc gia, Hà Nội, 2002, t.20, tr.207-208; dẫn tr. 21.)
 
 Phần lược của nghĩa hẹp: theo Mác, đối tượng của *Tư bản* là quan hệ sản xuất và trao đổi của phương thức sản xuất TBCN, mục đích cuối cùng là "tìm ra quy luật vận động kinh tế của xã hội ấy" (tr. 21).
 
@@ -148,8 +139,7 @@ Phần lược của nghĩa hẹp: theo Mác, đối tượng của *Tư bản* 
 Đối tượng không phải quan hệ thuộc một lĩnh vực, một khía cạnh, mà là **chỉnh thể thống nhất** các quan hệ sản xuất và trao đổi — trong mỗi khâu và giữa các khâu của tái sản xuất xã hội, như sự thống nhất biện chứng của **sản xuất và thị trường** (tr. 22).
 
 > [!quote] V.I. Lênin, dẫn tr. 22
-> Kinh tế chính trị không nghiên cứu biểu hiện kỹ thuật của sự sản xuất và trao đổi mà là hệ thống các quan hệ xã hội của sản xuất và trao đổi. Về khía cạnh này, V.I. Lênin nhấn mạnh thêm: "Chính trị kinh tế học tuyệt nhiên không nghiên cứu "sự sản xuất", mà nghiên cứu những quan hệ xã hội giữa người với người trong sản xuất, nghiên cứu chế độ xã hội của sản xuất".
-> (Câu của Lênin: V.I. Lênin: *Toàn tập*, Nxb. Chính trị quốc gia, Hà Nội, 2005, t.3, tr.58.)
+> Kinh tế chính trị không nghiên cứu biểu hiện kỹ thuật của sự sản xuất và trao đổi mà là hệ thống các quan hệ xã hội của sản xuất và trao đổi. Về khía cạnh này, V.I. Lênin nhấn mạnh thêm: "Chính trị kinh tế học tuyệt nhiên không nghiên cứu "sự sản xuất", mà nghiên cứu những quan hệ xã hội giữa người với người trong sản xuất, nghiên cứu chế độ xã hội của sản xuất". (Câu của Lênin: V.I. Lênin: *Toàn tập*, Nxb. Chính trị quốc gia, Hà Nội, 2005, t.3, tr.58.)
 
 Sách nhận xét đây là sự **nhất quán** giữa Lênin với Mác, Ăngghen về đối tượng (tr. 22). Áp vào một nhà máy may *(minh hoạ của bài học)*:
 
@@ -165,8 +155,7 @@ Sách nhận xét đây là sự **nhất quán** giữa Lênin với Mác, Ăng
 Quan hệ sản xuất và trao đổi chịu tác động biện chứng **không chỉ** của trình độ LLSX mà **còn** của KTTT; vì vậy KTCT đặt chúng trong liên hệ với cả hai — nhưng **không** nghiên cứu yếu tố vật chất của LLSX, **cũng không** nghiên cứu biểu hiện cụ thể của KTTT (tr. 22–23).
 
 > [!quote] Đối tượng của KTCT Mác - Lênin (tr. 23)
-> Khái quát lại, *đối tượng nghiên cứu của kinh tế chính trị Mác - Lênin là các quan hệ xã hội của sản xuất và trao đổi mà các quan hệ này được đặt trong sự liên hệ biện chứng với trình độ phát triển của lực lượng sản xuất và kiến trúc thượng tầng tương ứng của phương thức sản xuất nhất định.*
-> Quan hệ xã hội của sản xuất và trao đổi biểu hiện ở những bộ phận như: quan hệ sở hữu; quan hệ quản lý; quan hệ phân phối, phân bổ nguồn lực; quan hệ xã hội trong lưu thông; quan hệ xã hội trong tiêu dùng; quan hệ xã hội trong quản trị phát triển quốc gia; quản trị phát triển địa phương; quan hệ giữa sản xuất và lưu thông; giữa sản xuất và thị trường...
+> Khái quát lại, *đối tượng nghiên cứu của kinh tế chính trị Mác - Lênin là các quan hệ xã hội của sản xuất và trao đổi mà các quan hệ này được đặt trong sự liên hệ biện chứng với trình độ phát triển của lực lượng sản xuất và kiến trúc thượng tầng tương ứng của phương thức sản xuất nhất định.* Quan hệ xã hội của sản xuất và trao đổi biểu hiện ở những bộ phận như: quan hệ sở hữu; quan hệ quản lý; quan hệ phân phối, phân bổ nguồn lực; quan hệ xã hội trong lưu thông; quan hệ xã hội trong tiêu dùng; quan hệ xã hội trong quản trị phát triển quốc gia; quản trị phát triển địa phương; quan hệ giữa sản xuất và lưu thông; giữa sản xuất và thị trường...
 
 ```
         KIẾN TRÚC THƯỢNG TẦNG (nhà nước, pháp luật, chính sách…)
@@ -203,8 +192,7 @@ Trước đây, trong các công trình KTCT thuộc hệ thống các nước x
 ## 3. Mục đích và quy luật kinh tế
 
 > [!quote] Mục đích nghiên cứu (tr. 24–25)
-> Mục đích nghiên cứu ở cấp độ cao nhất của kinh tế chính trị Mác - Lênin là nhằm phát hiện ra các quy luật chi phối quan hệ giữa người với người trong sản xuất và trao đổi. Từ đó, giúp cho các chủ thể trong xã hội vận dụng các quy luật ấy, tạo động lực để không ngừng sáng tạo, góp phần thúc đẩy văn minh và sự phát triển toàn diện của xã hội thông qua việc giải quyết các quan hệ lợi ích.
-> Mục đích xuyên suốt của kinh tế chính trị Mác - Lênin không chỉ hướng đến việc thúc đẩy sự giàu có, mà còn hướng tới cung cấp cơ sở khoa học góp phần thúc đẩy trình độ văn minh và phát triển toàn diện của xã hội. Kinh tế chính trị Mác - Lênin không phải là khoa học về kinh tế hàng hóa tư bản chủ nghĩa.
+> Mục đích nghiên cứu ở cấp độ cao nhất của kinh tế chính trị Mác - Lênin là nhằm phát hiện ra các quy luật chi phối quan hệ giữa người với người trong sản xuất và trao đổi. Từ đó, giúp cho các chủ thể trong xã hội vận dụng các quy luật ấy, tạo động lực để không ngừng sáng tạo, góp phần thúc đẩy văn minh và sự phát triển toàn diện của xã hội thông qua việc giải quyết các quan hệ lợi ích. Mục đích xuyên suốt của kinh tế chính trị Mác - Lênin không chỉ hướng đến việc thúc đẩy sự giàu có, mà còn hướng tới cung cấp cơ sở khoa học góp phần thúc đẩy trình độ văn minh và phát triển toàn diện của xã hội. Kinh tế chính trị Mác - Lênin không phải là khoa học về kinh tế hàng hóa tư bản chủ nghĩa.
 
 Ba nấc: **phát hiện quy luật** → **chủ thể vận dụng** → **giải quyết quan hệ lợi ích**. So với Hộp 1.1 ("làm cho … giàu có"), mục đích ở đây **rộng hơn** sự giàu có.
 
@@ -214,8 +202,7 @@ Ba nấc: **phát hiện quy luật** → **chủ thể vận dụng** → **gi�
 ### Quy luật kinh tế
 
 > [!quote] Quy luật kinh tế (tr. 25)
-> Các hiện tượng kinh tế đều bị chi phối bởi những lực lượng khách quan, đó là các quy luật kinh tế. Quy luật kinh tế là những mối liên hệ phản ánh bản chất, khách quan, lặp đi lặp lại của các hiện tượng và quá trình kinh tế trong nền sản xuất xã hội tương ứng với những trình độ phát triển nhất định của nền sản xuất xã hội ấy.
-> Tương tự như các quy luật xã hội khác, sự tác động và phát huy vai trò của quy luật kinh tế đối với sản xuất và trao đổi thông qua các hoạt động của con người trong xã hội với những động cơ lợi ích khác nhau.
+> Các hiện tượng kinh tế đều bị chi phối bởi những lực lượng khách quan, đó là các quy luật kinh tế. Quy luật kinh tế là những mối liên hệ phản ánh bản chất, khách quan, lặp đi lặp lại của các hiện tượng và quá trình kinh tế trong nền sản xuất xã hội tương ứng với những trình độ phát triển nhất định của nền sản xuất xã hội ấy. Tương tự như các quy luật xã hội khác, sự tác động và phát huy vai trò của quy luật kinh tế đối với sản xuất và trao đổi thông qua các hoạt động của con người trong xã hội với những động cơ lợi ích khác nhau.
 
 Bốn dấu hiệu, dùng để **kiểm** một nhận định *(phép thử là minh hoạ của bài học)*:
 
@@ -233,8 +220,7 @@ Khác quy luật tự nhiên, quy luật kinh tế tác động **thông qua ho�
 Chính sách kinh tế cũng tác động vào quan hệ lợi ích, nhưng "mang tính chủ quan" (tr. 25).
 
 > [!quote] Hộp 1.2 — Quy luật và chính sách (tr. 26)
-> Quy luật kinh tế tồn tại khách quan, không phụ thuộc vào ý chí của con người, con người không thể thủ tiêu quy luật kinh tế, nhưng có thể nhận thức và vận dụng quy luật kinh tế để phục vụ lợi ích của mình. Khi vận dụng không phù hợp, con người phải thay đổi hành vi của mình chứ không thay đổi được quy luật.
-> Chính sách kinh tế là sản phẩm chủ quan của con người được hình thành trên cơ sở vận dụng các quy luật kinh tế. Chính sách kinh tế vì thế có thể phù hợp, hoặc không phù hợp với quy luật kinh tế khách quan. Khi chính sách không phù hợp, chủ thể ban hành chính sách có thể ban hành chính sách khác để thay thế.
+> Quy luật kinh tế tồn tại khách quan, không phụ thuộc vào ý chí của con người, con người không thể thủ tiêu quy luật kinh tế, nhưng có thể nhận thức và vận dụng quy luật kinh tế để phục vụ lợi ích của mình. Khi vận dụng không phù hợp, con người phải thay đổi hành vi của mình chứ không thay đổi được quy luật. Chính sách kinh tế là sản phẩm chủ quan của con người được hình thành trên cơ sở vận dụng các quy luật kinh tế. Chính sách kinh tế vì thế có thể phù hợp, hoặc không phù hợp với quy luật kinh tế khách quan. Khi chính sách không phù hợp, chủ thể ban hành chính sách có thể ban hành chính sách khác để thay thế.
 
 ⭐ **Bảng phân biệt:**
 
@@ -380,8 +366,7 @@ Nhờ đó nhận thức các quá trình "tưởng như rất hỗn độn trê
 Vận dụng đúng quy luật — qua **hành vi cá nhân** hoặc **chính sách** — KTCT thực hiện chức năng **cải tạo thực tiễn**, giải quyết **hài hòa các quan hệ lợi ích** (tr. 30–31).
 
 > [!quote] Chức năng tư tưởng (tr. 31)
-> Kinh tế chính trị Mác - Lênin góp phần xây dựng nền tảng tư tưởng mới cho những người lao động tiến bộ, biết quý trọng thành quả lao động của bản thân và của xã hội; yêu chuộng tự do, hòa bình, củng cố niềm tin cho sự phấn đấu vì mục tiêu dân giàu, nước mạnh, dân chủ, công bằng, văn minh.
-> Kinh tế chính trị Mác - Lênin góp phần xây dựng lý tưởng khoa học cho những chủ thể có mong muốn xây dựng chế độ xã hội tốt đẹp, hướng tới giải phóng con người, xóa bỏ dần những áp bức, bất công giữa con người với con người.
+> Kinh tế chính trị Mác - Lênin góp phần xây dựng nền tảng tư tưởng mới cho những người lao động tiến bộ, biết quý trọng thành quả lao động của bản thân và của xã hội; yêu chuộng tự do, hòa bình, củng cố niềm tin cho sự phấn đấu vì mục tiêu dân giàu, nước mạnh, dân chủ, công bằng, văn minh. Kinh tế chính trị Mác - Lênin góp phần xây dựng lý tưởng khoa học cho những chủ thể có mong muốn xây dựng chế độ xã hội tốt đẹp, hướng tới giải phóng con người, xóa bỏ dần những áp bức, bất công giữa con người với con người.
 
 Chức năng tư tưởng có **hai vế** — đừng bỏ vế sau. Chữ "khoa học" trong "lý tưởng khoa học" phân biệt nó với các nhà XHCN không tưởng dựa trên "tình cảm cá nhân" (tr. 18).
 

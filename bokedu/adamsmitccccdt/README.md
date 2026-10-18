@@ -1,11 +1,8 @@
 # Của cải của các dân tộc — đọc thẳng Adam Smith
 
-Bộ bài học dựng **từ chính cuốn sách**, không viết theo trí nhớ. Đây là **nguồn gốc** —
-đọc thẳng Smith, khác với [Ba người khổng lồ](../bigthreeeconomic/README.md) (dạy Smith
-qua tóm tắt của Skousen).
+Bộ bài học dựng **từ chính cuốn sách**, không viết theo trí nhớ. Đây là **nguồn gốc** — đọc thẳng Smith, khác với [Ba người khổng lồ](../bigthreeeconomic/README.md) (dạy Smith qua tóm tắt của Skousen).
 
-**Sách gốc:** Adam Smith, ***An Inquiry into the Nature and Causes of the Wealth of
-Nations*** (1776). Kho giữ **hai bản**:
+**Sách gốc:** Adam Smith, ***An Inquiry into the Nature and Causes of the Wealth of Nations*** (1776). Kho giữ **hai bản**:
 
 | Tệp trong `tai_lieu/` | Là gì | Dùng để |
 | --- | --- | --- |
@@ -13,10 +10,7 @@ Nations*** (1776). Kho giữ **hai bản**:
 | `Wealth of Nations - Adam Smith (Gutenberg EN).txt` / `.epub` | Bản gốc tiếng Anh (Project Gutenberg #3300, phạm vi công cộng) | **Bù Quyển V** + trích nguyên văn + **kiểm lại số liệu** |
 
 > [!warning] Vì sao cần cả bản Anh?
-> Bản dịch Việt trong kho **thiếu hẳn Quyển V** (thu chi nhà nước, thuế, giáo dục, nợ công),
-> và ngay *Lời nhà xuất bản* tự nhận còn "sai sót, nhầm lẫn" — đã thấy lỗi đơn vị thật (chú
-> "1 ounce = 0,28 g", đúng phải ~28,35 g). Vì vậy **Bài 9–10 dựng từ bản Anh**, và **mọi con
-> số** đều đối chiếu bản Anh trước khi tin.
+> Bản dịch Việt trong kho **thiếu hẳn Quyển V** (thu chi nhà nước, thuế, giáo dục, nợ công), và ngay *Lời nhà xuất bản* tự nhận còn "sai sót, nhầm lẫn" — đã thấy lỗi đơn vị thật (chú "1 ounce = 0,28 g", đúng phải ~28,35 g). Vì vậy **Bài 9–10 dựng từ bản Anh**, và **mọi con số** đều đối chiếu bản Anh trước khi tin.
 
 ---
 
@@ -40,23 +34,15 @@ Công thức (nếu có) viết bằng LaTeX. Mở bằng **Obsidian** (hoặc V
 
 ## Vì sao học cuốn này
 
-Năm 1776, cùng năm với *Tuyên ngôn Độc lập Hoa Kỳ*, một giáo sư triết học Scotland xuất
-bản cuốn sách được coi là **tuyên ngôn của tự do kinh tế** và là **viên gạch nền của kinh
-tế học hiện đại**. Gần như mọi khái niệm bạn gặp trong sách giáo khoa kinh tế hôm nay —
-phân công lao động, cung–cầu, giá thị trường, tiền công, lợi nhuận, địa tô, thương mại tự
-do — đều có gốc ở đây.
+Năm 1776, cùng năm với *Tuyên ngôn Độc lập Hoa Kỳ*, một giáo sư triết học Scotland xuất bản cuốn sách được coi là **tuyên ngôn của tự do kinh tế** và là **viên gạch nền của kinh tế học hiện đại**. Gần như mọi khái niệm bạn gặp trong sách giáo khoa kinh tế hôm nay — phân công lao động, cung–cầu, giá thị trường, tiền công, lợi nhuận, địa tô, thương mại tự do — đều có gốc ở đây.
 
-Học cuốn này bổ trợ trực tiếp cho các môn trong kho: [Ba người khổng lồ](../bigthreeeconomic/README.md)
-(nhìn Smith qua Skousen — đọc để so tóm tắt có trung thực với nguyên tác không) và
-[EG43 — Kinh tế Chính trị Mác–Lênin](../../houedu/eg43-kinhtechinhtri/README.md) (học thuyết
-giá trị lao động của Smith chính là **điểm xuất phát** mà Marx kế thừa rồi xoay ngược).
+Học cuốn này bổ trợ trực tiếp cho các môn trong kho: [Ba người khổng lồ](../bigthreeeconomic/README.md) (nhìn Smith qua Skousen — đọc để so tóm tắt có trung thực với nguyên tác không) và [EG43 — Kinh tế Chính trị Mác–Lênin](../../houedu/eg43-kinhtechinhtri/README.md) (học thuyết giá trị lao động của Smith chính là **điểm xuất phát** mà Marx kế thừa rồi xoay ngược).
 
 ---
 
 ## Bản đồ khoá học
 
-Smith tự chia tác phẩm thành **5 Quyển** ngay trong *Đề cương của tác phẩm*. Khoá bám đúng
-bố cục đó — 5 Quyển → **10 bài + Bài 0**:
+Smith tự chia tác phẩm thành **5 Quyển** ngay trong *Đề cương của tác phẩm*. Khoá bám đúng bố cục đó — 5 Quyển → **10 bài + Bài 0**:
 
 ```
 QUYỂN I    năng suất & phân phối  (phân công LĐ, tiền, giá trị-giá cả, công, lãi, tô) → bài 1–4
@@ -83,8 +69,7 @@ QUYỂN V    thu chi nhà nước       (quốc phòng, tư pháp, giáo dục, 
 Vòng 1 = học kỹ · Vòng 2 = đọc hiểu. "VI+EN" = có cả bản dịch Việt và bản Anh; "EN" = chỉ có bản Anh.
 
 > [!note] Tiến độ
-> **Hoàn thành toàn bộ Bài 0–10** (đủ 5 Quyển). Bài 1–8 dựng từ bản dịch Việt + đối chiếu bản
-> Anh; Bài 9–10 dựng từ bản Anh (bản dịch Việt không có Quyển V).
+> **Hoàn thành toàn bộ Bài 0–10** (đủ 5 Quyển). Bài 1–8 dựng từ bản dịch Việt + đối chiếu bản Anh; Bài 9–10 dựng từ bản Anh (bản dịch Việt không có Quyển V).
 
 ---
 

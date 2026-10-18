@@ -1,9 +1,7 @@
 # Bài 6 — Cạnh tranh và độc quyền
 
 > [!info] Về bài này
-> Bài học dựng từ **Chương 4** (tr. 124–168) của *Giáo trình Kinh tế chính trị Mác – Lênin* (hệ không chuyên), Bộ Giáo dục và Đào tạo, **NXB Chính trị Quốc gia Sự thật, 2021** (chủ biên PGS.TS. Ngô Tuấn Nghĩa).
-> **Vòng 1.** Chương trình bày **lý luận của V.I. Lênin** về độc quyền và độc quyền nhà nước, theo ba chủ đề (tr. 124): (i) quan hệ cạnh tranh – độc quyền; (ii) đặc điểm kinh tế của độc quyền và độc quyền nhà nước; (iii) biểu hiện mới và giới hạn lịch sử của CNTB. Trọng tâm thi ⭐: **ba nguyên nhân** hình thành độc quyền, **năm đặc điểm** của độc quyền, **bốn nguyên nhân** và **ba đặc điểm** của độc quyền nhà nước, **vai trò và giới hạn** của CNTB.
-> **Nên đọc trước:** [Bài 5](bai_05_tich_luy_va_loi_nhuan_dia_to.md) (tích tụ, tập trung; lợi nhuận bình quân, giá cả sản xuất) và [Bài 3](bai_03_thi_truong_va_cac_chu_the.md) (quy luật cạnh tranh).
+> Bài học dựng từ **Chương 4** (tr. 124–168) của *Giáo trình Kinh tế chính trị Mác – Lênin* (hệ không chuyên), Bộ Giáo dục và Đào tạo, **NXB Chính trị Quốc gia Sự thật, 2021** (chủ biên PGS.TS. Ngô Tuấn Nghĩa). **Vòng 1.** Chương trình bày **lý luận của V.I. Lênin** về độc quyền và độc quyền nhà nước, theo ba chủ đề (tr. 124): (i) quan hệ cạnh tranh – độc quyền; (ii) đặc điểm kinh tế của độc quyền và độc quyền nhà nước; (iii) biểu hiện mới và giới hạn lịch sử của CNTB. Trọng tâm thi ⭐: **ba nguyên nhân** hình thành độc quyền, **năm đặc điểm** của độc quyền, **bốn nguyên nhân** và **ba đặc điểm** của độc quyền nhà nước, **vai trò và giới hạn** của CNTB. **Nên đọc trước:** [Bài 5](bai_05_tich_luy_va_loi_nhuan_dia_to.md) (tích tụ, tập trung; lợi nhuận bình quân, giá cả sản xuất) và [Bài 3](bai_03_thi_truong_va_cac_chu_the.md) (quy luật cạnh tranh).
 >
 > **Cách đọc các khối màu:** `[!quote]` trích nguyên văn giáo trình (kèm trang in) · `[!warning]` chỗ dễ nhầm · `[!note]` ghi chú / Mở rộng ngoài sách · `[!example]` Góc QTKD (biên soạn thêm, không có trong sách) · *(số giả định)* = số tự dựng để minh hoạ.
 
@@ -37,10 +35,7 @@ Bài 5 dừng ở thế giới **cạnh tranh tự do**: tư bản chảy tự d
 ### Khái niệm độc quyền
 
 > [!quote] Độc quyền (tr. 125)
-> Nghiên cứu chủ nghĩa tư bản tự do cạnh tranh, C. Mác đã dự báo rằng: "tự do cạnh tranh đẻ ra tập trung sản xuất và sự tập trung sản xuất này, khi phát triển tới một mức độ nhất định, lại dẫn tới độc quyền"¹.
-> *Độc quyền là sự liên minh giữa các doanh nghiệp lớn, có khả năng thâu tóm việc sản xuất và tiêu thụ một số loại hàng hóa, có khả năng định ra giá cả độc quyền, nhằm thu lợi nhuận độc quyền cao.*
-> Trong nền kinh tế thị trường, độc quyền có thể được hình thành một cách tự nhiên, cũng có thể được hình thành bởi ý chí của nhà nước tạo ra các tổ chức độc quyền.
-> (¹ V.I. Lênin: *Toàn tập*, Sđd, t.27, tr.402; dẫn tr. 125.)
+> Nghiên cứu chủ nghĩa tư bản tự do cạnh tranh, C. Mác đã dự báo rằng: "tự do cạnh tranh đẻ ra tập trung sản xuất và sự tập trung sản xuất này, khi phát triển tới một mức độ nhất định, lại dẫn tới độc quyền"¹. *Độc quyền là sự liên minh giữa các doanh nghiệp lớn, có khả năng thâu tóm việc sản xuất và tiêu thụ một số loại hàng hóa, có khả năng định ra giá cả độc quyền, nhằm thu lợi nhuận độc quyền cao.* Trong nền kinh tế thị trường, độc quyền có thể được hình thành một cách tự nhiên, cũng có thể được hình thành bởi ý chí của nhà nước tạo ra các tổ chức độc quyền. (¹ V.I. Lênin: *Toàn tập*, Sđd, t.27, tr.402; dẫn tr. 125.)
 
 Bốn vế cần nắm: **chủ thể** là liên minh doanh nghiệp lớn (sản phẩm của tích tụ, tập trung); **thâu tóm** cả sản xuất lẫn tiêu thụ; phạm vi là **"một số loại hàng hóa"**, không phải cả nền kinh tế; **mục đích** là giá cả và lợi nhuận độc quyền. Câu cuối mở hai con đường: độc quyền **tự nhiên** và do **ý chí nhà nước** — mầm của mục 2. Hộp 4.1 (tr. 127) dẫn định nghĩa của P. Samuelson, nhấn vào **hành vi** các hãng thoả thuận giá, sản lượng, chia thị trường — gần dạng cartel.
 
@@ -50,10 +45,7 @@ Bốn vế cần nắm: **chủ thể** là liên minh doanh nghiệp lớn (s�
 ### Ba nguyên nhân hình thành độc quyền (tr. 125–127)
 
 > [!quote] Ba nguyên nhân (tr. 125–127)
-> Từ cuối thế kỷ XIX đầu thế kỷ XX, trong nền kinh tế thị trường các nước tư bản chủ nghĩa đã xuất hiện các tổ chức độc quyền. Các tổ chức độc quyền xuất hiện do những nguyên nhân chủ yếu sau:
-> *Một là*, do sự phát triển của lực lượng sản xuất. (tr. 125)
-> *Hai là*, do cạnh tranh. (tr. 126)
-> *Ba là*, do khủng hoảng và sự phát triển của hệ thống tín dụng. (tr. 127)
+> Từ cuối thế kỷ XIX đầu thế kỷ XX, trong nền kinh tế thị trường các nước tư bản chủ nghĩa đã xuất hiện các tổ chức độc quyền. Các tổ chức độc quyền xuất hiện do những nguyên nhân chủ yếu sau: *Một là*, do sự phát triển của lực lượng sản xuất. (tr. 125) *Hai là*, do cạnh tranh. (tr. 126) *Ba là*, do khủng hoảng và sự phát triển của hệ thống tín dụng. (tr. 127)
 
 **① Lực lượng sản xuất phát triển** (tr. 125–126). Tiến bộ khoa học – kỹ thuật buộc doanh nghiệp ứng dụng kỹ thuật mới → cần **vốn lớn** mà nhiều doanh nghiệp không đáp ứng nổi → phải đẩy nhanh tích tụ, tập trung. Cuối thế kỷ XIX có lò luyện kim mới, động cơ điêzen, máy phát điện, xe hơi, tàu hoả… vừa làm ra **ngành mới đòi quy mô lớn**, vừa tăng năng suất, tăng khả năng tích lũy. Cùng các quy luật giá trị thặng dư, tích lũy, tích tụ, tập trung, cơ cấu kinh tế chuyển theo hướng **tập trung sản xuất quy mô lớn**.
 
@@ -78,8 +70,7 @@ Bốn nguồn: công nhân **trong** và **ngoài** độc quyền; `m` của **
 ### Giá cả độc quyền
 
 > [!quote] Giá cả độc quyền (tr. 128)
-> Giá cả độc quyền là giá cả do các tổ chức độc quyền áp đặt trong mua và bán hàng hóa. Do chiếm được vị trí độc quyền về sản xuất và tiêu thụ hàng hóa nên các tổ chức độc quyền áp đặt được giá cả độc quyền.
-> Các tổ chức độc quyền luôn áp đặt giá cả cao khi bán và giá cả thấp khi mua. Như vậy, giá cả độc quyền gồm có giá cả độc quyền cao (khi bán) và giá cả độc quyền thấp (khi mua).
+> Giá cả độc quyền là giá cả do các tổ chức độc quyền áp đặt trong mua và bán hàng hóa. Do chiếm được vị trí độc quyền về sản xuất và tiêu thụ hàng hóa nên các tổ chức độc quyền áp đặt được giá cả độc quyền. Các tổ chức độc quyền luôn áp đặt giá cả cao khi bán và giá cả thấp khi mua. Như vậy, giá cả độc quyền gồm có giá cả độc quyền cao (khi bán) và giá cả độc quyền thấp (khi mua).
 
 **Vì sao áp đặt được.** Ở bài 5, giá bị kéo về giá cả sản xuất nhờ tư bản **tự do di chuyển**; độc quyền **chặn** mắt xích ấy (nắm nguyên liệu, công nghệ, kênh phân phối, vốn lớn), nên giá không bị kéo xuống.
 
@@ -133,10 +124,7 @@ Kết luận: giá độc quyền **không tạo giá trị mới**, chỉ **ph�
 ### Bốn nguyên nhân (tr. 129–130)
 
 > [!quote] Bốn nguyên nhân (tr. 129–130)
-> *Một là*, tích tụ và tập trung vốn càng lớn thì tích tụ và tập trung sản xuất càng cao, sinh ra những cơ cấu kinh tế to lớn đòi hỏi phải có sự điều tiết về sản xuất và phân phối từ một trung tâm. (tr. 129)
-> *Hai là*, sự phát triển của phân công lao động xã hội làm xuất hiện một số ngành mới có vai trò quan trọng trong phát triển kinh tế - xã hội, nhưng các tổ chức độc quyền tư nhân không thể hoặc không muốn đầu tư, do vốn đầu tư lớn, thu hồi vốn chậm và ít lợi nhuận, … (tr. 130)
-> *Ba là*, sự thống trị của độc quyền tư nhân đã làm gia tăng sự phân hóa giàu - nghèo, làm sâu sắc thêm sự mâu thuẫn giai cấp trong xã hội. (tr. 130)
-> *Bốn là*, cùng với xu hướng quốc tế hóa đời sống kinh tế, sự bành trướng của các liên minh độc quyền quốc tế vấp phải những hàng rào quốc gia, dân tộc và xung đột lợi ích với các đối thủ trên thị trường thế giới. (tr. 130)
+> *Một là*, tích tụ và tập trung vốn càng lớn thì tích tụ và tập trung sản xuất càng cao, sinh ra những cơ cấu kinh tế to lớn đòi hỏi phải có sự điều tiết về sản xuất và phân phối từ một trung tâm. (tr. 129) *Hai là*, sự phát triển của phân công lao động xã hội làm xuất hiện một số ngành mới có vai trò quan trọng trong phát triển kinh tế - xã hội, nhưng các tổ chức độc quyền tư nhân không thể hoặc không muốn đầu tư, do vốn đầu tư lớn, thu hồi vốn chậm và ít lợi nhuận, … (tr. 130) *Ba là*, sự thống trị của độc quyền tư nhân đã làm gia tăng sự phân hóa giàu - nghèo, làm sâu sắc thêm sự mâu thuẫn giai cấp trong xã hội. (tr. 130) *Bốn là*, cùng với xu hướng quốc tế hóa đời sống kinh tế, sự bành trướng của các liên minh độc quyền quốc tế vấp phải những hàng rào quốc gia, dân tộc và xung đột lợi ích với các đối thủ trên thị trường thế giới. (tr. 130)
 
 | # | Vấn đề | Nhà nước phải làm gì (theo sách) |
 | --- | --- | --- |
@@ -152,9 +140,7 @@ Ngoài ra, **chủ nghĩa thực dân mới** và **cách mạng khoa học và 
 ### Bản chất
 
 > [!quote] Bản chất (tr. 131)
-> Độc quyền nhà nước trong chủ nghĩa tư bản hình thành nhằm phục vụ lợi ích của các tổ chức độc quyền tư nhân và tiếp tục duy trì, phát triển chủ nghĩa tư bản.
-> …
-> Trong cơ cấu của độc quyền nhà nước trong chủ nghĩa tư bản, nhà nước đã trở thành một tập thể tư bản khổng lồ. Nhà nước cũng là chủ sở hữu những doanh nghiệp, là nhà tư bản tập thể, và nhà nước ấy càng chuyển nhiều lực lượng sản xuất thành tài sản của mình bao nhiêu thì lại càng biến thành nhà tư bản tập thể thực sự bấy nhiêu.
+> Độc quyền nhà nước trong chủ nghĩa tư bản hình thành nhằm phục vụ lợi ích của các tổ chức độc quyền tư nhân và tiếp tục duy trì, phát triển chủ nghĩa tư bản. … Trong cơ cấu của độc quyền nhà nước trong chủ nghĩa tư bản, nhà nước đã trở thành một tập thể tư bản khổng lồ. Nhà nước cũng là chủ sở hữu những doanh nghiệp, là nhà tư bản tập thể, và nhà nước ấy càng chuyển nhiều lực lượng sản xuất thành tài sản của mình bao nhiêu thì lại càng biến thành nhà tư bản tập thể thực sự bấy nhiêu.
 
 Đoạn lược (cùng trang): độc quyền tư nhân và nhà nước kết hợp **trong một cơ chế thống nhất**, bộ máy nhà nước **ngày càng phụ thuộc** vào độc quyền. Độc quyền nhà nước là **hình thức vận động mới** của QHSX TBCN, nhờ đó CNTB **vẫn thích nghi và tiếp tục phát triển** (tr. 132).
 
@@ -175,12 +161,7 @@ Ngoài ra, **chủ nghĩa thực dân mới** và **cách mạng khoa học và 
 Tác động của độc quyền, **dù ở trình độ độc quyền tư nhân hay độc quyền nhà nước**, có cả mặt tích cực và tiêu cực (tr. 132).
 
 > [!quote] Tác động tích cực và tiêu cực (tr. 132–134)
-> *Thứ nhất*, độc quyền tạo ra khả năng to lớn trong việc nghiên cứu và triển khai các hoạt động khoa học - kỹ thuật, thúc đẩy sự tiến bộ kỹ thuật. (tr. 132)
-> *Thứ hai*, độc quyền có thể làm tăng năng suất lao động, nâng cao năng lực cạnh tranh của bản thân tổ chức độc quyền. (tr. 133)
-> *Thứ ba*, độc quyền tạo được sức mạnh kinh tế góp phần thúc đẩy nền kinh tế phát triển theo hướng sản xuất lớn hiện đại. (tr. 133)
-> *Một là*, độc quyền xuất hiện làm cho cạnh tranh không hoàn hảo gây thiệt hại cho người tiêu dùng và xã hội. (tr. 133)
-> *Hai là*, độc quyền có thể kìm hãm sự tiến bộ kỹ thuật, theo đó kìm hãm sự phát triển kinh tế - xã hội. (tr. 134)
-> *Ba là*, khi độc quyền nhà nước bị chi phối bởi nhóm lợi ích cục bộ hoặc khi độc quyền tư nhân chi phối các quan hệ kinh tế - xã hội sẽ gây ra hiện tượng làm tăng sự phân hóa giàu - nghèo. (tr. 134)
+> *Thứ nhất*, độc quyền tạo ra khả năng to lớn trong việc nghiên cứu và triển khai các hoạt động khoa học - kỹ thuật, thúc đẩy sự tiến bộ kỹ thuật. (tr. 132) *Thứ hai*, độc quyền có thể làm tăng năng suất lao động, nâng cao năng lực cạnh tranh của bản thân tổ chức độc quyền. (tr. 133) *Thứ ba*, độc quyền tạo được sức mạnh kinh tế góp phần thúc đẩy nền kinh tế phát triển theo hướng sản xuất lớn hiện đại. (tr. 133) *Một là*, độc quyền xuất hiện làm cho cạnh tranh không hoàn hảo gây thiệt hại cho người tiêu dùng và xã hội. (tr. 133) *Hai là*, độc quyền có thể kìm hãm sự tiến bộ kỹ thuật, theo đó kìm hãm sự phát triển kinh tế - xã hội. (tr. 134) *Ba là*, khi độc quyền nhà nước bị chi phối bởi nhóm lợi ích cục bộ hoặc khi độc quyền tư nhân chi phối các quan hệ kinh tế - xã hội sẽ gây ra hiện tượng làm tăng sự phân hóa giàu - nghèo. (tr. 134)
 
 Mỗi mặt tích cực có "bóng" tiêu cực tương ứng — cơ chế theo sách:
 
@@ -204,11 +185,7 @@ Hiệu quả sản xuất có thật (chi phí −20%), nhưng người mua vẫ
 ### Cạnh tranh trong trạng thái độc quyền (tr. 135–136)
 
 > [!quote] Độc quyền không thủ tiêu cạnh tranh (tr. 135–136)
-> Độc quyền sinh ra từ cạnh tranh tự do. Nhưng sự xuất hiện của độc quyền không thủ tiêu cạnh tranh. Trái lại, độc quyền làm cho cạnh tranh trở nên đa dạng, gay gắt hơn.
-> …
-> *Một là*, cạnh tranh giữa các tổ chức độc quyền với các doanh nghiệp ngoài độc quyền. (tr. 135)
-> *Hai là*, cạnh tranh giữa các tổ chức độc quyền với nhau. (tr. 135)
-> *Ba là*, cạnh tranh trong nội bộ các tổ chức độc quyền. (tr. 136)
+> Độc quyền sinh ra từ cạnh tranh tự do. Nhưng sự xuất hiện của độc quyền không thủ tiêu cạnh tranh. Trái lại, độc quyền làm cho cạnh tranh trở nên đa dạng, gay gắt hơn. … *Một là*, cạnh tranh giữa các tổ chức độc quyền với các doanh nghiệp ngoài độc quyền. (tr. 135) *Hai là*, cạnh tranh giữa các tổ chức độc quyền với nhau. (tr. 135) *Ba là*, cạnh tranh trong nội bộ các tổ chức độc quyền. (tr. 136)
 
 | Loại | Thủ đoạn / hình thức (theo sách) | Kết cục |
 | --- | --- | --- |
@@ -238,11 +215,7 @@ Kết luận của sách: cạnh tranh và độc quyền **luôn song hành** (
 Tổng kết thực tiễn các nước tư bản phát triển nhất cuối thế kỷ XIX – đầu thế kỷ XX, Lênin khái quát **năm đặc điểm** (tr. 136).
 
 > [!quote] Năm đặc điểm — tên mục theo sách (tr. 136–143)
-> a) *Các tổ chức độc quyền có quy mô tích tụ và tập trung tư bản lớn* (tr. 136)
-> b) *Sức mạnh của các tổ chức độc quyền do tư bản tài chính và hệ thống tài phiệt chi phối* (tr. 138)
-> c) *Xuất khẩu tư bản trở thành phổ biến* (tr. 141)
-> d) *Cạnh tranh để phân chia thị trường thế giới là tất yếu giữa các tập đoàn độc quyền* (tr. 142)
-> đ) *Lôi kéo, thúc đẩy các chính phủ vào việc phân định khu vực lãnh thổ ảnh hưởng là cách thức để bảo vệ lợi ích độc quyền* (tr. 143)
+> a) *Các tổ chức độc quyền có quy mô tích tụ và tập trung tư bản lớn* (tr. 136) b) *Sức mạnh của các tổ chức độc quyền do tư bản tài chính và hệ thống tài phiệt chi phối* (tr. 138) c) *Xuất khẩu tư bản trở thành phổ biến* (tr. 141) d) *Cạnh tranh để phân chia thị trường thế giới là tất yếu giữa các tập đoàn độc quyền* (tr. 142) đ) *Lôi kéo, thúc đẩy các chính phủ vào việc phân định khu vực lãnh thổ ảnh hưởng là cách thức để bảo vệ lợi ích độc quyền* (tr. 143)
 
 > [!warning] Tên đặc điểm: dùng chữ của giáo trình
 > Tài liệu khác hay dùng tên ngắn kiểu Lênin 1916; giáo trình 2021 nhấn khác: d) **"cạnh tranh… là tất yếu"**, đ) **"lôi kéo, thúc đẩy các chính phủ"**. Đi thi viết theo tên giáo trình.
@@ -279,11 +252,7 @@ Mỗi bậc **tước thêm một quyền độc lập**: cartel chỉ ràng bu�
 Ngân hàng cũng tích tụ, tập trung: ngân hàng nhỏ không đủ tiềm lực phục vụ công nghiệp lớn → sáp nhập hoặc phá sản → **độc quyền ngân hàng** (tr. 138–139). Ngân hàng chuyển từ **trung gian** thanh toán, tín dụng thành kẻ có quyền lực **"vạn năng"** (tr. 139). Rồi hai chiều xâm nhập: ngân hàng **"cử" đại diện** vào ban quản lý công nghiệp hoặc đầu tư trực tiếp; công nghiệp **mua cổ phần** ngân hàng lớn để chi phối (tr. 139–140).
 
 > [!quote] Tư bản tài chính và chế độ tham dự (tr. 140)
-> Quá trình độc quyền hóa trong công nghiệp và ngân hàng có quan hệ chặt chẽ với nhau làm nảy sinh một loại hình tư bản mới, gọi là *tư bản tài chính*.
-> V.I. Lênin viết: "... tư bản tài chính là kết quả của sự hợp nhất giữa tư bản ngân hàng của một số ít ngân hàng độc quyền lớn nhất, với tư bản của những liên minh độc quyền các nhà công nghiệp"¹.
-> …
-> Các tài phiệt thực hiện sự thống trị của mình thông qua "chế độ tham dự". Thực chất của "chế độ tham dự" là một nhà tài chính lớn, hoặc một tập đoàn tài chính mua số cổ phiếu khống chế, chi phối một công ty lớn nhất - công ty gốc gọi là "công ty mẹ"; công ty này lại mua được cổ phiếu khống chế, thống trị các "công ty con"; "công ty con" đến lượt nó lại chi phối các "công ty cháu",...
-> (¹ V.I. Lênin: *Toàn tập*, Sđd, t.27, tr.489; dẫn tr. 140.)
+> Quá trình độc quyền hóa trong công nghiệp và ngân hàng có quan hệ chặt chẽ với nhau làm nảy sinh một loại hình tư bản mới, gọi là *tư bản tài chính*. V.I. Lênin viết: "... tư bản tài chính là kết quả của sự hợp nhất giữa tư bản ngân hàng của một số ít ngân hàng độc quyền lớn nhất, với tư bản của những liên minh độc quyền các nhà công nghiệp"¹. … Các tài phiệt thực hiện sự thống trị của mình thông qua "chế độ tham dự". Thực chất của "chế độ tham dự" là một nhà tài chính lớn, hoặc một tập đoàn tài chính mua số cổ phiếu khống chế, chi phối một công ty lớn nhất - công ty gốc gọi là "công ty mẹ"; công ty này lại mua được cổ phiếu khống chế, thống trị các "công ty con"; "công ty con" đến lượt nó lại chi phối các "công ty cháu",... (¹ V.I. Lênin: *Toàn tập*, Sđd, t.27, tr.489; dẫn tr. 140.)
 
 Tài phiệt (đầu sỏ, trùm tài chính) là "một nhóm nhỏ những nhà tư bản kếch xù chi phối toàn bộ đời sống kinh tế, chính trị của toàn xã hội" (tr. 140); nhờ lối móc xích, **bằng một lượng tư bản nhỏ** khống chế **lượng tư bản lớn gấp nhiều lần**.
 
@@ -303,10 +272,7 @@ Tài phiệt còn đầu cơ chứng khoán, ruộng đất…; về chính tr�
 Với tập đoàn độc quyền, đưa tư bản ra nước ngoài tìm nơi có lợi nhất **trở thành phổ biến** (tr. 141).
 
 > [!quote] Xuất khẩu tư bản và hai hình thức (tr. 141–142)
-> Xuất khẩu tư bản là xuất khẩu giá trị ra nước ngoài (đầu tư tư bản ra nước ngoài) nhằm mục đích thu được giá trị thặng dư và các nguồn lợi nhuận khác ở các nước nhập khẩu tư bản.
-> …
-> *Đầu tư trực tiếp* là hình thức xuất khẩu tư bản để xây dựng những xí nghiệp mới hoặc mua lại những xí nghiệp đang hoạt động ở nước nhận đầu tư để trực tiếp kinh doanh thu lợi nhuận cao, biến nó thành một chi nhánh của "công ty mẹ" ở chính quốc. …
-> *Đầu tư gián tiếp* là hình thức đầu tư thông qua việc cho vay để thu lợi tức, mua cổ phần, cổ phiếu, trái phiếu, các giấy tờ có giá khác, quỹ đầu tư chứng khoán và thông qua các định chế tài chính trung gian khác mà nhà đầu tư không trực tiếp tham gia quản lý hoạt động đầu tư.
+> Xuất khẩu tư bản là xuất khẩu giá trị ra nước ngoài (đầu tư tư bản ra nước ngoài) nhằm mục đích thu được giá trị thặng dư và các nguồn lợi nhuận khác ở các nước nhập khẩu tư bản. … *Đầu tư trực tiếp* là hình thức xuất khẩu tư bản để xây dựng những xí nghiệp mới hoặc mua lại những xí nghiệp đang hoạt động ở nước nhận đầu tư để trực tiếp kinh doanh thu lợi nhuận cao, biến nó thành một chi nhánh của "công ty mẹ" ở chính quốc. … *Đầu tư gián tiếp* là hình thức đầu tư thông qua việc cho vay để thu lợi tức, mua cổ phần, cổ phiếu, trái phiếu, các giấy tờ có giá khác, quỹ đầu tư chứng khoán và thông qua các định chế tài chính trung gian khác mà nhà đầu tư không trực tiếp tham gia quản lý hoạt động đầu tư.
 
 | | **Đầu tư trực tiếp** | **Đầu tư gián tiếp** |
 | --- | --- | --- |
@@ -344,9 +310,7 @@ Lênin: "Chủ nghĩa tư bản phát triển càng cao, nguyên liệu càng th
 Độc quyền tư nhân một mặt thúc đẩy kinh tế TBCN, mặt khác kìm hãm và đe doạ ổn định chế độ chính trị; LLSX phát triển đẩy độc quyền lên trạng thái cao hơn — độc quyền nhà nước (tr. 144–145). Sách gọi ba điểm dưới đây là các **"đặc trưng kinh tế chủ yếu"** của độc quyền nhà nước (tr. 145).
 
 > [!quote] Ba đặc điểm — tên mục theo sách (tr. 145–148)
-> a) *Sự kết hợp về nhân sự giữa tổ chức độc quyền và nhà nước* (tr. 145)
-> b) *Sự hình thành, phát triển sở hữu nhà nước* (tr. 146)
-> c) *Độc quyền nhà nước trở thành công cụ để nhà nước điều tiết nền kinh tế* (tr. 148)
+> a) *Sự kết hợp về nhân sự giữa tổ chức độc quyền và nhà nước* (tr. 145) b) *Sự hình thành, phát triển sở hữu nhà nước* (tr. 146) c) *Độc quyền nhà nước trở thành công cụ để nhà nước điều tiết nền kinh tế* (tr. 148)
 
 ### a) Kết hợp về nhân sự (tr. 145–146)
 
@@ -400,10 +364,7 @@ Mục III (tr. 149–160) đi lại **từng đặc điểm** của mục II:
 ### a) Tích tụ và tập trung (tr. 149–152)
 
 > [!quote] Biểu hiện mới về tập trung (tr. 149–150)
-> Ngày nay, đặc điểm tập trung sản xuất và các tổ chức độc quyền có những biểu hiện mới, đó là *sự xuất hiện các công ty độc quyền xuyên quốc gia bên cạnh sự phát triển của các xí nghiệp vừa và nhỏ.* (tr. 149)
-> …
-> *Concern:* Là tổ chức độc quyền đa ngành, gồm hàng trăm xí nghiệp có quan hệ với những ngành khác nhau và được phân bố ở nhiều nước. … (tr. 150)
-> *Conglomerate:* Là sự kết hợp của hàng chục hãng vừa và nhỏ không có sự liên quan trực tiếp về sản xuất hoặc dịch vụ cho sản xuất. Mục đích chủ yếu của các conglomerate là thu lợi nhuận từ kinh doanh chứng khoán. (tr. 150)
+> Ngày nay, đặc điểm tập trung sản xuất và các tổ chức độc quyền có những biểu hiện mới, đó là *sự xuất hiện các công ty độc quyền xuyên quốc gia bên cạnh sự phát triển của các xí nghiệp vừa và nhỏ.* (tr. 149) … *Concern:* Là tổ chức độc quyền đa ngành, gồm hàng trăm xí nghiệp có quan hệ với những ngành khác nhau và được phân bố ở nhiều nước. … (tr. 150) *Conglomerate:* Là sự kết hợp của hàng chục hãng vừa và nhỏ không có sự liên quan trực tiếp về sản xuất hoặc dịch vụ cho sản xuất. Mục đích chủ yếu của các conglomerate là thu lợi nhuận từ kinh doanh chứng khoán. (tr. 150)
 
 Liên kết diễn ra **theo cả hai chiều** dọc và ngang, trong và ngoài nước (tr. 150).
 

@@ -449,8 +449,7 @@ Bài này khép vòng: mọi quy luật xã hội rốt cuộc diễn ra **qua h
 | 12 | [Ý thức xã hội](bai_12_y_thuc_xa_hoi.md) | C3–IV | Vòng 2 |
 | **13** | **Triết học về con người** ← *bạn đang ở đây* | C3–V | Vòng 2 |
 
-Vòng 1 = học kỹ · Vòng 2 = đọc hiểu
-Hết khoá.
+Vòng 1 = học kỹ · Vòng 2 = đọc hiểu Hết khoá.
 
 Chỉ mục môn học: [README.md](../README.md)
 

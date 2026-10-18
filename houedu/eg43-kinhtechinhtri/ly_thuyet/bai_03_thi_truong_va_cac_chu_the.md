@@ -1,9 +1,7 @@
 # Bài 3 — Thị trường và vai trò các chủ thể
 
 > [!info] Về bài này
-> Bài học dựng từ **Chương 2, mục II–III** (tr. 56–83) của *Giáo trình Kinh tế chính trị Mác – Lênin* (hệ không chuyên), Bộ Giáo dục và Đào tạo, **NXB Chính trị Quốc gia Sự thật, 2021** (chủ biên PGS.TS. Ngô Tuấn Nghĩa).
-> **Vòng 1.** Từ hàng hóa – tiền tệ ([bài 2](bai_02_hang_hoa_va_tien_te.md)) sang **thị trường**, **cơ chế thị trường**, **nền kinh tế thị trường**, **bốn quy luật** (giá trị, cung – cầu, lưu thông tiền tệ, cạnh tranh) và **bốn chủ thể**. Công thức `M = P·Q/V` và bản mở rộng có tín dụng — mỗi công thức có ví dụ số.
-> **Nên đọc trước:** [Bài 2](bai_02_hang_hoa_va_tien_te.md) (giá trị, thời gian lao động xã hội cần thiết, chức năng của tiền).
+> Bài học dựng từ **Chương 2, mục II–III** (tr. 56–83) của *Giáo trình Kinh tế chính trị Mác – Lênin* (hệ không chuyên), Bộ Giáo dục và Đào tạo, **NXB Chính trị Quốc gia Sự thật, 2021** (chủ biên PGS.TS. Ngô Tuấn Nghĩa). **Vòng 1.** Từ hàng hóa – tiền tệ ([bài 2](bai_02_hang_hoa_va_tien_te.md)) sang **thị trường**, **cơ chế thị trường**, **nền kinh tế thị trường**, **bốn quy luật** (giá trị, cung – cầu, lưu thông tiền tệ, cạnh tranh) và **bốn chủ thể**. Công thức `M = P·Q/V` và bản mở rộng có tín dụng — mỗi công thức có ví dụ số. **Nên đọc trước:** [Bài 2](bai_02_hang_hoa_va_tien_te.md) (giá trị, thời gian lao động xã hội cần thiết, chức năng của tiền).
 >
 > **Cách đọc các khối màu:** `[!quote]` trích nguyên văn giáo trình (kèm trang in) · `[!warning]` chỗ dễ nhầm · `[!note]` ghi chú / Mở rộng ngoài sách · `[!example]` Góc QTKD (biên soạn thêm, không có trong sách) · *(số giả định)* = số tự dựng để minh hoạ.
 
@@ -63,12 +61,7 @@ Một thị trường nằm cùng lúc trong nhiều ô: thị trường xi măn
 ### Ba vai trò của thị trường (tr. 59–60)
 
 > [!quote] Ba vai trò của thị trường (tr. 59–60)
-> *Một là*, thị trường thực hiện giá trị hàng hóa, là điều kiện, môi trường cho sản xuất phát triển.
-> …
-> Thị trường là cầu nối giữa sản xuất với tiêu dùng. Thị trường đặt ra các nhu cầu cho sản xuất cũng như nhu cầu cho tiêu dùng. Vì vậy, thị trường có vai trò thông tin, định hướng cho mọi nhu cầu sản xuất kinh doanh.
-> *Hai là*, thị trường kích thích sự sáng tạo của mọi thành viên trong xã hội, tạo ra cách thức phân bổ nguồn lực hiệu quả trong nền kinh tế.
-> …
-> *Ba là*, thị trường gắn kết nền kinh tế thành một chỉnh thể, gắn kết nền kinh tế quốc gia với nền kinh tế thế giới.
+> *Một là*, thị trường thực hiện giá trị hàng hóa, là điều kiện, môi trường cho sản xuất phát triển. … Thị trường là cầu nối giữa sản xuất với tiêu dùng. Thị trường đặt ra các nhu cầu cho sản xuất cũng như nhu cầu cho tiêu dùng. Vì vậy, thị trường có vai trò thông tin, định hướng cho mọi nhu cầu sản xuất kinh doanh. *Hai là*, thị trường kích thích sự sáng tạo của mọi thành viên trong xã hội, tạo ra cách thức phân bổ nguồn lực hiệu quả trong nền kinh tế. … *Ba là*, thị trường gắn kết nền kinh tế thành một chỉnh thể, gắn kết nền kinh tế quốc gia với nền kinh tế thế giới.
 
 Cơ chế (tr. 59–60): **①** hàng không bán được thì lao động kết tinh chưa được xã hội thừa nhận; thị trường rộng thúc đẩy sản xuất. **②** sáng tạo được chấp nhận → hưởng lợi ích tương xứng; nguồn lực chảy về chủ thể dùng hiệu quả. **③** thị trường **không phụ thuộc địa giới hành chính**, liên thông ra thế giới.
 
@@ -85,8 +78,7 @@ Cơ chế (tr. 59–60): **①** hàng không bán được thì lao động k�
 ### Cơ chế thị trường
 
 > [!quote] Cơ chế thị trường (tr. 61)
-> *Cơ chế thị trường là hệ thống các quan hệ mang tính tự điều chỉnh tuân theo yêu cầu của các quy luật kinh tế.*
-> Cơ chế thị trường là phương thức cơ bản để phân phối và sử dụng các nguồn vốn, tài nguyên, công nghệ, sức lao động, thông tin, trí tuệ... trong nền kinh tế thị trường. Đây là một kiểu cơ chế vận hành nền kinh tế mang tính khách quan, do bản thân nền sản xuất hàng hóa hình thành. Cơ chế thị trường được A. Smith ví như là một "bàn tay vô hình" có khả năng tự điều chỉnh các quan hệ kinh tế.
+> *Cơ chế thị trường là hệ thống các quan hệ mang tính tự điều chỉnh tuân theo yêu cầu của các quy luật kinh tế.* Cơ chế thị trường là phương thức cơ bản để phân phối và sử dụng các nguồn vốn, tài nguyên, công nghệ, sức lao động, thông tin, trí tuệ... trong nền kinh tế thị trường. Đây là một kiểu cơ chế vận hành nền kinh tế mang tính khách quan, do bản thân nền sản xuất hàng hóa hình thành. Cơ chế thị trường được A. Smith ví như là một "bàn tay vô hình" có khả năng tự điều chỉnh các quan hệ kinh tế.
 
 Ba chữ khoá: **tự điều chỉnh**, **tuân theo quy luật** (mục 4), **khách quan**. Một vòng điển hình:
 
@@ -117,10 +109,7 @@ Hình thành **khách quan**: kinh tế tự nhiên, tự túc → kinh tế hà
 ### Bốn đặc trưng phổ biến (tr. 62)
 
 > [!quote] Bốn đặc trưng phổ biến (tr. 62)
-> *Thứ nhất*, có sự đa dạng của các chủ thể kinh tế, nhiều hình thức sở hữu. Các chủ thể kinh tế bình đẳng trước pháp luật.
-> *Thứ hai*, thị trường đóng vai trò quyết định trong việc phân bổ các nguồn lực xã hội thông qua hoạt động của các thị trường bộ phận như thị trường hàng hóa, thị trường dịch vụ, thị trường sức lao động, thị trường tài chính, thị trường bất động sản, thị trường khoa học - công nghệ...
-> *Thứ ba*, giá cả được hình thành theo nguyên tắc thị trường; cạnh tranh vừa là môi trường, vừa là động lực thúc đẩy hoạt động sản xuất kinh doanh; động lực trực tiếp của các chủ thể sản xuất kinh doanh là lợi nhuận và lợi ích kinh tế - xã hội khác; nhà nước là chủ thể thực hiện chức năng quản lý, chức năng kinh tế; thực hiện khắc phục những khuyết tật của thị trường, thúc đẩy những yếu tố tích cực, đảm bảo sự bình đẳng xã hội và sự ổn định của toàn bộ nền kinh tế.
-> *Thứ tư*, là nền kinh tế mở, thị trường trong nước quan hệ mật thiết với thị trường quốc tế.
+> *Thứ nhất*, có sự đa dạng của các chủ thể kinh tế, nhiều hình thức sở hữu. Các chủ thể kinh tế bình đẳng trước pháp luật. *Thứ hai*, thị trường đóng vai trò quyết định trong việc phân bổ các nguồn lực xã hội thông qua hoạt động của các thị trường bộ phận như thị trường hàng hóa, thị trường dịch vụ, thị trường sức lao động, thị trường tài chính, thị trường bất động sản, thị trường khoa học - công nghệ... *Thứ ba*, giá cả được hình thành theo nguyên tắc thị trường; cạnh tranh vừa là môi trường, vừa là động lực thúc đẩy hoạt động sản xuất kinh doanh; động lực trực tiếp của các chủ thể sản xuất kinh doanh là lợi nhuận và lợi ích kinh tế - xã hội khác; nhà nước là chủ thể thực hiện chức năng quản lý, chức năng kinh tế; thực hiện khắc phục những khuyết tật của thị trường, thúc đẩy những yếu tố tích cực, đảm bảo sự bình đẳng xã hội và sự ổn định của toàn bộ nền kinh tế. *Thứ tư*, là nền kinh tế mở, thị trường trong nước quan hệ mật thiết với thị trường quốc tế.
 
 Mẹo nhớ: **ai** tham gia (thứ nhất) · **nguồn lực** chia thế nào (thứ hai) · **vận hành** bằng gì (thứ ba) · **phạm vi** (thứ tư).
 
@@ -146,22 +135,14 @@ Cặp phân tích **hay ra thi** (câu hỏi ôn tập, tr. 83), và là lý do 
 ### Ba ưu thế (tr. 63–65)
 
 > [!quote] Ba ưu thế (tr. 63–64)
-> *Một là*, nền kinh tế thị trường luôn tạo ra động lực cho sự sáng tạo các chủ thể kinh tế.
-> …
-> *Hai là*, nền kinh tế thị trường luôn phát huy tốt nhất tiềm năng của mọi chủ thể, các vùng, miền cũng như lợi thế quốc gia.
-> …
-> *Ba là*, nền kinh tế thị trường luôn tạo ra các phương thức để thỏa mãn tối đa nhu cầu của con người, từ đó thúc đẩy sự tiến bộ, văn minh của xã hội.
+> *Một là*, nền kinh tế thị trường luôn tạo ra động lực cho sự sáng tạo các chủ thể kinh tế. … *Hai là*, nền kinh tế thị trường luôn phát huy tốt nhất tiềm năng của mọi chủ thể, các vùng, miền cũng như lợi thế quốc gia. … *Ba là*, nền kinh tế thị trường luôn tạo ra các phương thức để thỏa mãn tối đa nhu cầu của con người, từ đó thúc đẩy sự tiến bộ, văn minh của xã hội.
 
 Theo sách: ① kích thích sáng tạo, hoạt động tự do → tăng năng suất; mở đường cho **mô hình kinh doanh mới** (tr. 63–64). ② **Hiệu quả hơn hẳn** kinh tế tự cấp tự túc hay **kế hoạch hóa** (tr. 64). ③ Khớp **khối lượng, cơ cấu sản xuất** với **khối lượng, cơ cấu nhu cầu** (tr. 64–65). Ba ưu thế ứng với ba vai trò của thị trường ở mục 1.
 
 ### Ba khuyết tật (tr. 65–66)
 
 > [!quote] Ba khuyết tật (tr. 65–66)
-> *Một là*, trong nền kinh tế thị trường luôn tiềm ẩn những rủi ro khủng hoảng.
-> …
-> *Hai là*, nền kinh tế thị trường không tự khắc phục được xu hướng cạn kiệt tài nguyên không thể tái tạo, suy thoái môi trường tự nhiên, môi trường xã hội.
-> … Cũng vì mục tiêu lợi nhuận, các chủ thể hoạt động sản xuất kinh doanh có thể không tham gia vào các lĩnh vực thiết yếu cho nền kinh tế nhưng có lợi nhuận kỳ vọng thấp, rủi ro cao, quy mô đầu tư lớn, thời gian thu hồi vốn dài. Tự bản thân nền kinh tế thị trường không thể khắc phục được các khuyết tật này.
-> *Ba là*, nền kinh tế thị trường không tự khắc phục được hiện tượng phân hóa sâu sắc trong xã hội.
+> *Một là*, trong nền kinh tế thị trường luôn tiềm ẩn những rủi ro khủng hoảng. … *Hai là*, nền kinh tế thị trường không tự khắc phục được xu hướng cạn kiệt tài nguyên không thể tái tạo, suy thoái môi trường tự nhiên, môi trường xã hội. … Cũng vì mục tiêu lợi nhuận, các chủ thể hoạt động sản xuất kinh doanh có thể không tham gia vào các lĩnh vực thiết yếu cho nền kinh tế nhưng có lợi nhuận kỳ vọng thấp, rủi ro cao, quy mô đầu tư lớn, thời gian thu hồi vốn dài. Tự bản thân nền kinh tế thị trường không thể khắc phục được các khuyết tật này. *Ba là*, nền kinh tế thị trường không tự khắc phục được hiện tượng phân hóa sâu sắc trong xã hội.
 
 **① Khủng hoảng** cục bộ hoặc tổng thể, **rất khó dự báo thời điểm** (tr. 65): người sản xuất quyết định riêng lẻ theo tín hiệu giá, có thể **cùng lúc** đổ xô vào một ngành.
 
@@ -207,8 +188,7 @@ Sách nêu **một số quy luật điển hình** trong rất nhiều quy luậ
 ### a) Quy luật giá trị — quy luật **cơ bản** của sản xuất hàng hóa
 
 > [!quote] Quy luật giá trị (tr. 67)
-> Quy luật giá trị là quy luật kinh tế cơ bản của sản xuất hàng hóa. Ở đâu có sản xuất và trao đổi hàng hóa thì ở đó có sự hoạt động của quy luật giá trị.
-> Quy luật giá trị yêu cầu việc sản xuất và trao đổi hàng hóa phải được tiến hành trên cơ sở của hao phí lao động xã hội cần thiết. Theo yêu cầu của quy luật giá trị, người sản xuất muốn bán được hàng hóa trên thị trường, muốn được xã hội thừa nhận sản phẩm thì lượng giá trị của một hàng hóa cá biệt phải phù hợp với thời gian lao động xã hội cần thiết. Vì vậy, họ phải luôn luôn tìm cách hạ thấp hao phí lao động cá biệt xuống nhỏ hơn hoặc bằng hao phí lao động xã hội cần thiết. Trong lĩnh vực trao đổi, phải tiến hành theo nguyên tắc ngang giá, lấy giá trị xã hội làm cơ sở, không dựa trên giá trị cá biệt.
+> Quy luật giá trị là quy luật kinh tế cơ bản của sản xuất hàng hóa. Ở đâu có sản xuất và trao đổi hàng hóa thì ở đó có sự hoạt động của quy luật giá trị. Quy luật giá trị yêu cầu việc sản xuất và trao đổi hàng hóa phải được tiến hành trên cơ sở của hao phí lao động xã hội cần thiết. Theo yêu cầu của quy luật giá trị, người sản xuất muốn bán được hàng hóa trên thị trường, muốn được xã hội thừa nhận sản phẩm thì lượng giá trị của một hàng hóa cá biệt phải phù hợp với thời gian lao động xã hội cần thiết. Vì vậy, họ phải luôn luôn tìm cách hạ thấp hao phí lao động cá biệt xuống nhỏ hơn hoặc bằng hao phí lao động xã hội cần thiết. Trong lĩnh vực trao đổi, phải tiến hành theo nguyên tắc ngang giá, lấy giá trị xã hội làm cơ sở, không dựa trên giá trị cá biệt.
 
 Hai lĩnh vực: **sản xuất** — hao phí cá biệt **≤** hao phí xã hội cần thiết; **trao đổi** — **ngang giá** theo **giá trị xã hội**, nên người làm chậm không được bán đắt hơn.
 
@@ -253,11 +233,7 @@ Bán theo giá trị thị trường 104 (giả sử cung = cầu), từng nhóm
 #### Ba tác động của quy luật giá trị (tr. 68–70)
 
 > [!quote] Ba tác động (tr. 68–69)
-> *Thứ nhất*, điều tiết sản xuất và lưu thông hàng hóa.
-> …
-> *Thứ hai*, kích thích cải tiến kỹ thuật, hợp lý hóa sản xuất nhằm tăng năng suất lao động.
-> …
-> *Thứ ba*, phân hóa những người sản xuất thành những người giàu, người nghèo một cách tự nhiên.
+> *Thứ nhất*, điều tiết sản xuất và lưu thông hàng hóa. … *Thứ hai*, kích thích cải tiến kỹ thuật, hợp lý hóa sản xuất nhằm tăng năng suất lao động. … *Thứ ba*, phân hóa những người sản xuất thành những người giàu, người nghèo một cách tự nhiên.
 
 **① Điều tiết** (tr. 68). *Sản xuất:* giá **bằng hoặc lớn hơn** giá trị thì nên tiếp tục, mở rộng; tư liệu sản xuất, sức lao động **tự phát dịch chuyển** vào ngành giá cao. *Lưu thông:* hàng chảy từ nơi giá thấp đến nơi giá cao → cân bằng cung – cầu giữa các vùng. *(số giả định)* Thanh long vùng trồng 10 nghìn đồng/kg, thành phố 25, vận chuyển 5 → thương lái lãi `25 − 10 − 5 = 10`; hàng chảy đi tới khi chênh lệch chỉ còn xấp xỉ chi phí vận chuyển.
 
@@ -278,8 +254,7 @@ Tóm lại, quy luật giá trị vừa đào thải cái lạc hậu, kích th�
 ### b) Quy luật cung – cầu
 
 > [!quote] Quy luật cung - cầu (tr. 70)
-> Quy luật cung - cầu là quy luật kinh tế điều tiết quan hệ giữa cung (bên bán) và cầu (bên mua) hàng hóa trên thị trường. Quy luật này đòi hỏi cung - cầu phải có sự thống nhất.
-> Trên thị trường, cung - cầu có mối quan hệ hữu cơ với nhau, thường xuyên tác động lẫn nhau và ảnh hưởng trực tiếp đến giá cả. Nếu cung lớn hơn cầu thì giá cả thấp hơn giá trị; ngược lại, nếu cung nhỏ hơn cầu thì giá cả cao hơn giá trị; nếu cung bằng cầu thì giá cả bằng với giá trị. Đây là sự tác động phức tạp theo nhiều hướng và nhiều mức độ khác nhau.
+> Quy luật cung - cầu là quy luật kinh tế điều tiết quan hệ giữa cung (bên bán) và cầu (bên mua) hàng hóa trên thị trường. Quy luật này đòi hỏi cung - cầu phải có sự thống nhất. Trên thị trường, cung - cầu có mối quan hệ hữu cơ với nhau, thường xuyên tác động lẫn nhau và ảnh hưởng trực tiếp đến giá cả. Nếu cung lớn hơn cầu thì giá cả thấp hơn giá trị; ngược lại, nếu cung nhỏ hơn cầu thì giá cả cao hơn giá trị; nếu cung bằng cầu thì giá cả bằng với giá trị. Đây là sự tác động phức tạp theo nhiều hướng và nhiều mức độ khác nhau.
 
 ```
 cung > cầu  →  giá cả  <  giá trị
@@ -307,16 +282,7 @@ cung = cầu  →  giá cả  =  giá trị
 ### c) Quy luật lưu thông tiền tệ — có **công thức**
 
 > [!quote] Quy luật lưu thông tiền tệ (tr. 71)
-> Quy luật lưu thông tiền tệ yêu cầu việc lưu thông tiền tệ phải căn cứ trên yêu cầu của lưu thông hàng hóa và dịch vụ.
-> Theo yêu cầu của quy luật, việc đưa số lượng tiền cần thiết cho lưu thông trong mỗi thời kỳ nhất định phải thống nhất với lưu thông hàng hóa. Việc không ăn khớp giữa lưu thông tiền tệ với lưu thông hàng hóa có thể dẫn tới trì trệ hoặc lạm phát.
-> Về nguyên lý, số lượng tiền cần thiết cho lưu thông hàng hóa ở mỗi thời kỳ nhất định được xác định bằng công thức tổng quát sau:
-> M = P.Q / V
-> Trong đó:
-> M là số lượng tiền cần thiết cho lưu thông trong một thời gian nhất định;
-> P là mức giá cả;
-> Q là khối lượng hàng hóa, dịch vụ đưa ra lưu thông;
-> V là số vòng lưu thông của đồng tiền.
-> Như vậy, khối lượng tiền cần thiết cho lưu thông tỷ lệ thuận với tổng số giá cả hàng hóa được đưa ra thị trường và tỷ lệ nghịch với tốc độ lưu thông của tiền tệ. Quy luật này có ý nghĩa chung cho các nền sản xuất hàng hóa.
+> Quy luật lưu thông tiền tệ yêu cầu việc lưu thông tiền tệ phải căn cứ trên yêu cầu của lưu thông hàng hóa và dịch vụ. Theo yêu cầu của quy luật, việc đưa số lượng tiền cần thiết cho lưu thông trong mỗi thời kỳ nhất định phải thống nhất với lưu thông hàng hóa. Việc không ăn khớp giữa lưu thông tiền tệ với lưu thông hàng hóa có thể dẫn tới trì trệ hoặc lạm phát. Về nguyên lý, số lượng tiền cần thiết cho lưu thông hàng hóa ở mỗi thời kỳ nhất định được xác định bằng công thức tổng quát sau: M = P.Q / V Trong đó: M là số lượng tiền cần thiết cho lưu thông trong một thời gian nhất định; P là mức giá cả; Q là khối lượng hàng hóa, dịch vụ đưa ra lưu thông; V là số vòng lưu thông của đồng tiền. Như vậy, khối lượng tiền cần thiết cho lưu thông tỷ lệ thuận với tổng số giá cả hàng hóa được đưa ra thị trường và tỷ lệ nghịch với tốc độ lưu thông của tiền tệ. Quy luật này có ý nghĩa chung cho các nền sản xuất hàng hóa.
 
 $$M = \dfrac{P \times Q}{V}$$
 
@@ -332,14 +298,7 @@ Nếu thanh toán nhanh hơn, V = 5:  M = 12.000 / 5 = 2.400 tỷ  (cần ít ti
 ```
 
 > [!quote] Công thức mở rộng (tr. 71–72)
-> Khi lưu thông hàng hóa phát triển, việc thanh toán không dùng tiền mặt trở nên phổ biến thì số lượng tiền cần thiết cho lưu thông được xác định như sau:
-> M = [P.Q - (G1 + G2) + G3] / V
-> Trong đó:
-> P.Q là tổng giá cả hàng hóa;
-> G1 là tổng giá cả hàng hóa bán chịu;
-> G2 là tổng giá cả hàng hóa khấu trừ cho nhau;
-> G3 là tổng giá cả hàng hóa đến kỳ thanh toán;
-> V là số vòng quay trung bình của tiền tệ.
+> Khi lưu thông hàng hóa phát triển, việc thanh toán không dùng tiền mặt trở nên phổ biến thì số lượng tiền cần thiết cho lưu thông được xác định như sau: M = [P.Q - (G1 + G2) + G3] / V Trong đó: P.Q là tổng giá cả hàng hóa; G1 là tổng giá cả hàng hóa bán chịu; G2 là tổng giá cả hàng hóa khấu trừ cho nhau; G3 là tổng giá cả hàng hóa đến kỳ thanh toán; V là số vòng quay trung bình của tiền tệ.
 
 $$M = \dfrac{P{\cdot}Q - (G_1 + G_2) + G_3}{V}$$
 
@@ -381,8 +340,7 @@ Tiền tăng **vượt** hàng mới lạm phát. **Trì trệ** là chiều ng�
 ### d) Quy luật cạnh tranh
 
 > [!quote] Quy luật cạnh tranh và cạnh tranh (tr. 72)
-> Quy luật cạnh tranh là quy luật kinh tế điều tiết một cách khách quan mối quan hệ ganh đua kinh tế giữa các chủ thể trong sản xuất và trao đổi hàng hóa. Quy luật cạnh tranh yêu cầu, khi đã tham gia thị trường, các chủ thể sản xuất kinh doanh, bên cạnh sự hợp tác, luôn phải chấp nhận cạnh tranh.
-> Cạnh tranh là sự ganh đua giữa những chủ thể kinh tế với nhau nhằm có được những ưu thế về sản xuất cũng như tiêu thụ và thông qua đó thu được lợi ích tối đa.
+> Quy luật cạnh tranh là quy luật kinh tế điều tiết một cách khách quan mối quan hệ ganh đua kinh tế giữa các chủ thể trong sản xuất và trao đổi hàng hóa. Quy luật cạnh tranh yêu cầu, khi đã tham gia thị trường, các chủ thể sản xuất kinh doanh, bên cạnh sự hợp tác, luôn phải chấp nhận cạnh tranh. Cạnh tranh là sự ganh đua giữa những chủ thể kinh tế với nhau nhằm có được những ưu thế về sản xuất cũng như tiêu thụ và thông qua đó thu được lợi ích tối đa.
 
 Sách đưa **hai** định nghĩa liền nhau — dễ lẫn:
 
@@ -397,8 +355,7 @@ Sách đưa **hai** định nghĩa liền nhau — dễ lẫn:
 **Cạnh tranh trong nội bộ ngành** (tr. 73): trong **cùng một ngành hàng hóa**, chủ thể cải tiến kỹ thuật, tăng năng suất để **hạ giá trị cá biệt**; kết quả **hình thành giá trị thị trường** — hàng có giá trị cá biệt khác nhau nhưng được trao đổi theo **giá trị mà thị trường chấp nhận**.
 
 > [!quote] C. Mác về giá trị thị trường (tr. 73–74)
-> Theo C. Mác, "Một mặt, phải coi giá trị thị trường là giá trị trung bình của những hàng hóa được sản xuất ra trong một khu vực sản xuất nào đó; mặt khác, lại phải coi giá trị thị trường là giá trị cá biệt của những hàng hóa được sản xuất ra trong những điều kiện trung bình của khu vực đó và chiếm một khối lượng lớn trong tổng số những sản phẩm của khu vực này".
-> (C. Mác và Ph. Ăngghen: *Toàn tập*, Sđd, t.25, ph.I, tr.271; dẫn tr. 73–74.)
+> Theo C. Mác, "Một mặt, phải coi giá trị thị trường là giá trị trung bình của những hàng hóa được sản xuất ra trong một khu vực sản xuất nào đó; mặt khác, lại phải coi giá trị thị trường là giá trị cá biệt của những hàng hóa được sản xuất ra trong những điều kiện trung bình của khu vực đó và chiếm một khối lượng lớn trong tổng số những sản phẩm của khu vực này". (C. Mác và Ph. Ăngghen: *Toàn tập*, Sđd, t.25, ph.I, tr.271; dẫn tr. 73–74.)
 
 Câu của Mác có **hai mặt**:
 
@@ -424,22 +381,8 @@ Hai cách gần trùng nhau khi phần lớn sản phẩm làm trong điều ki�
 #### Tác động của cạnh tranh (tr. 74–77)
 
 > [!quote] Tác động tích cực và tiêu cực (tr. 74–77)
-> + Những tác động tích cực của cạnh tranh
-> *Thứ nhất*, cạnh tranh thúc đẩy sự phát triển lực lượng sản xuất.
-> …
-> *Thứ hai*, cạnh tranh thúc đẩy sự phát triển nền kinh tế thị trường.
-> …
-> *Thứ ba*, cạnh tranh là cơ chế điều chỉnh linh hoạt trong việc phân bổ các nguồn lực.
-> …
-> *Thứ tư*, cạnh tranh thúc đẩy năng lực thỏa mãn nhu cầu của xã hội.
-> …
-> + Những tác động tiêu cực của cạnh tranh
-> Khi thực hiện cạnh tranh thiếu lành mạnh, cạnh tranh có thể dẫn tới các tác động tiêu cực như:
-> *Một là*, cạnh tranh không lành mạnh gây tổn hại đến môi trường kinh doanh.
-> …
-> *Hai là*, cạnh tranh không lành mạnh gây lãng phí nguồn lực xã hội.
-> …
-> *Ba là*, cạnh tranh không lành mạnh sẽ làm tổn hại phúc lợi của xã hội.
+> + Những tác động tích cực của cạnh tranh *Thứ nhất*, cạnh tranh thúc đẩy sự phát triển lực lượng sản xuất. … *Thứ hai*, cạnh tranh thúc đẩy sự phát triển nền kinh tế thị trường. … *Thứ ba*, cạnh tranh là cơ chế điều chỉnh linh hoạt trong việc phân bổ các nguồn lực. … *Thứ tư*, cạnh tranh thúc đẩy năng lực thỏa mãn nhu cầu của xã hội. …
+> + Những tác động tiêu cực của cạnh tranh Khi thực hiện cạnh tranh thiếu lành mạnh, cạnh tranh có thể dẫn tới các tác động tiêu cực như: *Một là*, cạnh tranh không lành mạnh gây tổn hại đến môi trường kinh doanh. … *Hai là*, cạnh tranh không lành mạnh gây lãng phí nguồn lực xã hội. … *Ba là*, cạnh tranh không lành mạnh sẽ làm tổn hại phúc lợi của xã hội.
 
 Cơ chế theo sách: tích cực — ① ứng dụng công nghệ mới, đổi mới tay nghề (tr. 74–75); ② cạnh tranh giành điều kiện thuận lợi → KTTT hoàn thiện hơn (tr. 75); ③ nguồn lực vào chủ thể dùng hiệu quả hơn (tr. 75); ④ chỉ hàng người tiêu dùng chọn mới bán được → đa dạng, chất lượng, giá hạ (tr. 75–76). Tiêu cực — ① thủ đoạn xấu xói mòn môi trường kinh doanh, đạo đức (tr. 76); ② chiếm giữ nguồn lực mà **không đưa vào sản xuất** (tr. 76–77); ③ xã hội mất cơ hội lựa chọn (tr. 77). **Hộp 2.5** (tr. 76, Samuelson): nhà lập kế hoạch giỏi nhất cũng không tìm ra giải pháp tốt hơn thị trường cạnh tranh.
 

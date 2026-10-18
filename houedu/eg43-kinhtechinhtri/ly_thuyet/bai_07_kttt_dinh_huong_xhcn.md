@@ -1,9 +1,7 @@
 # Bài 7 — Kinh tế thị trường định hướng xã hội chủ nghĩa ở Việt Nam
 
 > [!info] Về bài này
-> Bài học dựng từ **Chương 5** (tr. 169–223) của *Giáo trình Kinh tế chính trị Mác – Lênin* (hệ không chuyên), Bộ Giáo dục và Đào tạo, **NXB Chính trị Quốc gia Sự thật, 2021** (chủ biên PGS.TS. Ngô Tuấn Nghĩa).
-> **Vòng 2 — đọc hiểu; ba câu hỏi ôn tập cuối chương (tr. 222–223) hay ra thi.** Khái niệm, ba lý do tất yếu, năm đặc trưng, hoàn thiện thể chế, quan hệ lợi ích kinh tế và vai trò Nhà nước. Chương ít công thức; bài dùng bảng và số liệu thật.
-> **Nên đọc trước:** [Bài 3](bai_03_thi_truong_va_cac_chu_the.md) (kinh tế thị trường, vai trò nhà nước) và [Bài 5](bai_05_tich_luy_va_loi_nhuan_dia_to.md) (phân chia giá trị thặng dư — gốc của "quan hệ lợi ích").
+> Bài học dựng từ **Chương 5** (tr. 169–223) của *Giáo trình Kinh tế chính trị Mác – Lênin* (hệ không chuyên), Bộ Giáo dục và Đào tạo, **NXB Chính trị Quốc gia Sự thật, 2021** (chủ biên PGS.TS. Ngô Tuấn Nghĩa). **Vòng 2 — đọc hiểu; ba câu hỏi ôn tập cuối chương (tr. 222–223) hay ra thi.** Khái niệm, ba lý do tất yếu, năm đặc trưng, hoàn thiện thể chế, quan hệ lợi ích kinh tế và vai trò Nhà nước. Chương ít công thức; bài dùng bảng và số liệu thật. **Nên đọc trước:** [Bài 3](bai_03_thi_truong_va_cac_chu_the.md) (kinh tế thị trường, vai trò nhà nước) và [Bài 5](bai_05_tich_luy_va_loi_nhuan_dia_to.md) (phân chia giá trị thặng dư — gốc của "quan hệ lợi ích").
 >
 > **Cách đọc các khối màu:** `[!quote]` trích nguyên văn giáo trình (kèm trang in) · `[!warning]` chỗ dễ nhầm khi thi · `[!note]` ghi chú / Mở rộng ngoài sách · `[!example]` Góc QTKD (biên soạn thêm, không có trong sách) · *(số giả định)* = số tự dựng để minh hoạ.
 
@@ -63,15 +61,12 @@ Sáu bài trước mổ xẻ kinh tế thị trường **tư bản chủ nghĩa*
 | Đại hội XIII | khẳng định là mô hình kinh tế tổng quát trong thời kỳ quá độ |
 
 > [!note] Mở rộng — khoán 100 và khoán 10
-> (Ngoài giáo trình.) Năm 1986 lạm phát khoảng **774%** (Wikipedia tiếng Việt, mục "Đổi Mới", dẫn VOV). **Chỉ thị 100** (1981) khoán sản phẩm trong nông nghiệp; **Nghị quyết 10 (khoán 10, 1988)** thừa nhận **hộ nông dân là đơn vị kinh tế tự chủ**, đưa Việt Nam thành nước xuất khẩu gạo.
-> Khoán 10 không thêm ruộng, không thêm máy, chỉ đổi **quan hệ lợi ích** — làm nhiều hưởng nhiều. Sách thừa nhận lợi ích cá nhân "trong một thời gian rất dài… không được chú ý đúng mức" (tr. 202).
+> (Ngoài giáo trình.) Năm 1986 lạm phát khoảng **774%** (Wikipedia tiếng Việt, mục "Đổi Mới", dẫn VOV). **Chỉ thị 100** (1981) khoán sản phẩm trong nông nghiệp; **Nghị quyết 10 (khoán 10, 1988)** thừa nhận **hộ nông dân là đơn vị kinh tế tự chủ**, đưa Việt Nam thành nước xuất khẩu gạo. Khoán 10 không thêm ruộng, không thêm máy, chỉ đổi **quan hệ lợi ích** — làm nhiều hưởng nhiều. Sách thừa nhận lợi ích cá nhân "trong một thời gian rất dài… không được chú ý đúng mức" (tr. 202).
 
 ### Tính tất yếu khách quan — ba lý do
 
 > [!quote] Ba lý do tất yếu (tr. 173–176)
-> *Một là*, phát triển kinh tế thị trường định hướng xã hội chủ nghĩa là phù hợp với xu hướng phát triển khách quan của Việt Nam trong bối cảnh thế giới hiện nay. (tr. 173)
-> *Hai là*, do tính ưu việt của kinh tế thị trường trong thúc đẩy phát triển Việt Nam theo định hướng xã hội chủ nghĩa. (tr. 175)
-> *Ba là*, kinh tế thị trường định hướng xã hội chủ nghĩa phù hợp với nguyện vọng mong muốn dân giàu, nước mạnh, dân chủ, công bằng, văn minh của người dân Việt Nam. (tr. 176)
+> *Một là*, phát triển kinh tế thị trường định hướng xã hội chủ nghĩa là phù hợp với xu hướng phát triển khách quan của Việt Nam trong bối cảnh thế giới hiện nay. (tr. 173) *Hai là*, do tính ưu việt của kinh tế thị trường trong thúc đẩy phát triển Việt Nam theo định hướng xã hội chủ nghĩa. (tr. 175) *Ba là*, kinh tế thị trường định hướng xã hội chủ nghĩa phù hợp với nguyện vọng mong muốn dân giàu, nước mạnh, dân chủ, công bằng, văn minh của người dân Việt Nam. (tr. 176)
 
 **① Xu hướng khách quan (tr. 173–175).**
 
@@ -102,8 +97,7 @@ Sách trình bày đặc trưng "trên một số tiêu chí cơ bản" — đ�
 ### a) Về mục tiêu (tr. 178–179)
 
 > [!quote] Đặc trưng mục tiêu (tr. 178)
-> Kinh tế thị trường định hướng xã hội chủ nghĩa là hướng tới phát triển lực lượng sản xuất, xây dựng cơ sở vật chất - kỹ thuật của chủ nghĩa xã hội; nâng cao đời sống nhân dân, thực hiện "dân giàu, nước mạnh, dân chủ, công bằng, văn minh".
-> Đây là sự khác biệt về mục tiêu giữa kinh tế thị trường định hướng xã hội chủ nghĩa với kinh tế thị trường tư bản chủ nghĩa.
+> Kinh tế thị trường định hướng xã hội chủ nghĩa là hướng tới phát triển lực lượng sản xuất, xây dựng cơ sở vật chất - kỹ thuật của chủ nghĩa xã hội; nâng cao đời sống nhân dân, thực hiện "dân giàu, nước mạnh, dân chủ, công bằng, văn minh". Đây là sự khác biệt về mục tiêu giữa kinh tế thị trường định hướng xã hội chủ nghĩa với kinh tế thị trường tư bản chủ nghĩa.
 
 Mục tiêu đó bắt nguồn từ cơ sở kinh tế – xã hội của thời kỳ quá độ; đi đôi với phát triển LLSX là xây dựng **quan hệ sản xuất tiến bộ, phù hợp**. Việt Nam ở **chặng đầu** thời kỳ quá độ, LLSX còn yếu kém, nên dùng cơ chế thị trường để giải phóng sức sản xuất, thúc đẩy công nghiệp hóa, hiện đại hóa (tr. 178–179).
 
@@ -156,9 +150,7 @@ Mọi nền KTTT hiện đại đều cần Nhà nước điều tiết để kh
 ### d) Về quan hệ phân phối (tr. 184–185)
 
 > [!quote] Đặc trưng phân phối (tr. 184–185)
-> Kinh tế thị trường định hướng xã hội chủ nghĩa ở Việt Nam thực hiện phân phối công bằng các yếu tố sản xuất, tiếp cận và sử dụng các cơ hội và điều kiện phát triển của mọi chủ thể kinh tế (phân phối đầu vào) để tiến tới xây dựng xã hội mọi người đều giàu có, đồng thời phân phối kết quả làm ra (đầu ra) chủ yếu theo kết quả lao động, hiệu quả kinh tế, theo mức đóng góp vốn cùng các nguồn lực khác và thông qua hệ thống an sinh xã hội, phúc lợi xã hội.
-> …
-> Trong các hình thức phân phối đó, phân phối theo lao động và hiệu quả kinh tế, phân phối theo phúc lợi là những hình thức phân phối phản ánh định hướng xã hội chủ nghĩa của nền kinh tế thị trường.
+> Kinh tế thị trường định hướng xã hội chủ nghĩa ở Việt Nam thực hiện phân phối công bằng các yếu tố sản xuất, tiếp cận và sử dụng các cơ hội và điều kiện phát triển của mọi chủ thể kinh tế (phân phối đầu vào) để tiến tới xây dựng xã hội mọi người đều giàu có, đồng thời phân phối kết quả làm ra (đầu ra) chủ yếu theo kết quả lao động, hiệu quả kinh tế, theo mức đóng góp vốn cùng các nguồn lực khác và thông qua hệ thống an sinh xã hội, phúc lợi xã hội. … Trong các hình thức phân phối đó, phân phối theo lao động và hiệu quả kinh tế, phân phối theo phúc lợi là những hình thức phân phối phản ánh định hướng xã hội chủ nghĩa của nền kinh tế thị trường.
 
 Hai tầng phân phối, ba kênh đầu ra: **đầu vào** — công bằng về yếu tố sản xuất, cơ hội; **đầu ra** — ① theo lao động, hiệu quả; ② theo vốn, nguồn lực khác; ③ qua an sinh, phúc lợi. Quan hệ phân phối **bị quyết định bởi quan hệ sở hữu** về tư liệu sản xuất; nhiều thành phần thì tất yếu nhiều hình thức phân phối (tr. 184) — đúng nguyên lý ở [bài 5](bai_05_tich_luy_va_loi_nhuan_dia_to.md): sở hữu tư bản nhận lợi nhuận, lợi tức; sở hữu đất nhận địa tô.
 
@@ -215,16 +207,12 @@ Phần II của chương (tr. 187–196). Mạch: **thể chế là gì → th�
 ### Thể chế và thể chế kinh tế
 
 > [!quote] Thể chế, thể chế kinh tế (tr. 187)
-> Thể chế là những quy tắc, luật pháp, bộ máy quản lý và cơ chế vận hành nhằm điều chỉnh các hoạt động của con người trong một chế độ xã hội.
-> …
-> Thể chế kinh tế là hệ thống quy tắc, luật pháp, bộ máy quản lý và cơ chế vận hành nhằm điều chỉnh hành vi của các chủ thể kinh tế, các hành vi sản xuất kinh doanh và các quan hệ kinh tế.
+> Thể chế là những quy tắc, luật pháp, bộ máy quản lý và cơ chế vận hành nhằm điều chỉnh các hoạt động của con người trong một chế độ xã hội. … Thể chế kinh tế là hệ thống quy tắc, luật pháp, bộ máy quản lý và cơ chế vận hành nhằm điều chỉnh hành vi của các chủ thể kinh tế, các hành vi sản xuất kinh doanh và các quan hệ kinh tế.
 
 Cùng bốn thành tố, khác ở **đối tượng điều chỉnh**: hoạt động con người nói chung so với hành vi và quan hệ kinh tế.
 
 > [!quote] Bộ phận và thể chế KTTT (tr. 188)
-> Theo đó, các bộ phận cơ bản của thể chế kinh tế bao gồm: hệ thống pháp luật về kinh tế của nhà nước và các quy tắc xã hội được nhà nước thừa nhận; hệ thống các chủ thể thực hiện các hoạt động kinh tế; các cơ chế, phương pháp, thủ tục thực hiện các quy định và vận hành nền kinh tế.
-> …
-> Thể chế kinh tế thị trường định hướng xã hội chủ nghĩa là hệ thống đường lối, chủ trương chiến lược, hệ thống luật pháp, chính sách quy định xác lập cơ chế vận hành, điều chỉnh chức năng, hoạt động, mục tiêu, phương thức hoạt động, các quan hệ lợi ích của các tổ chức, các chủ thể kinh tế nhằm hướng tới xác lập đồng bộ các yếu tố thị trường, các loại thị trường hiện đại theo hướng góp phần thúc đẩy dân giàu, nước mạnh, dân chủ, công bằng, văn minh.
+> Theo đó, các bộ phận cơ bản của thể chế kinh tế bao gồm: hệ thống pháp luật về kinh tế của nhà nước và các quy tắc xã hội được nhà nước thừa nhận; hệ thống các chủ thể thực hiện các hoạt động kinh tế; các cơ chế, phương pháp, thủ tục thực hiện các quy định và vận hành nền kinh tế. … Thể chế kinh tế thị trường định hướng xã hội chủ nghĩa là hệ thống đường lối, chủ trương chiến lược, hệ thống luật pháp, chính sách quy định xác lập cơ chế vận hành, điều chỉnh chức năng, hoạt động, mục tiêu, phương thức hoạt động, các quan hệ lợi ích của các tổ chức, các chủ thể kinh tế nhằm hướng tới xác lập đồng bộ các yếu tố thị trường, các loại thị trường hiện đại theo hướng góp phần thúc đẩy dân giàu, nước mạnh, dân chủ, công bằng, văn minh.
 
 | Bộ phận (tr. 188) | Ẩn dụ trận bóng *(ngoài sách)* | Ví dụ |
 | --- | --- | --- |
@@ -240,9 +228,7 @@ Thể chế KTTT định hướng XHCN thêm tầng **đường lối, chủ tr�
 ### Vì sao phải hoàn thiện — ba lý do
 
 > [!quote] Ba lý do hoàn thiện (tr. 188–189)
-> *Thứ nhất*, do thể chế kinh tế thị trường định hướng xã hội chủ nghĩa còn chưa đồng bộ.
-> *Thứ hai*, hệ thống thể chế chưa đầy đủ.
-> *Thứ ba*, hệ thống thể chế còn kém hiệu lực, hiệu quả, thiếu các yếu tố thị trường và các loại thị trường.
+> *Thứ nhất*, do thể chế kinh tế thị trường định hướng xã hội chủ nghĩa còn chưa đồng bộ. *Thứ hai*, hệ thống thể chế chưa đầy đủ. *Thứ ba*, hệ thống thể chế còn kém hiệu lực, hiệu quả, thiếu các yếu tố thị trường và các loại thị trường.
 
 1. **Chưa đồng bộ** (tr. 188–189): thể chế mới hình thành nên hoàn thiện là "yêu cầu mang tính khách quan", để phát huy mặt tích cực, khắc phục khuyết tật của thị trường.
 2. **Chưa đầy đủ** (tr. 189): Nhà nước là tác giả của thể chế chính thức; năng lực quản lý của Nhà nước "thể hiện chủ yếu ở năng lực xây dựng và thực thi thể chế".
@@ -303,9 +289,7 @@ Phần III (tr. 196–220) nhằm giúp sinh viên "hình thành được kỹ n
 ### Lợi ích và lợi ích kinh tế
 
 > [!quote] Lợi ích, lợi ích kinh tế (tr. 197)
-> *Lợi ích là sự thỏa mãn nhu cầu của con người mà sự thỏa mãn nhu cầu này phải được nhận thức và đặt trong mối quan hệ xã hội ứng với trình độ phát triển nhất định của nền sản xuất xã hội đó.*
-> …
-> Lợi ích kinh tế là lợi ích vật chất, lợi ích thu được khi thực hiện các hoạt động kinh tế của con người.
+> *Lợi ích là sự thỏa mãn nhu cầu của con người mà sự thỏa mãn nhu cầu này phải được nhận thức và đặt trong mối quan hệ xã hội ứng với trình độ phát triển nhất định của nền sản xuất xã hội đó.* … Lợi ích kinh tế là lợi ích vật chất, lợi ích thu được khi thực hiện các hoạt động kinh tế của con người.
 
 Ba chữ then chốt của định nghĩa "lợi ích": **được nhận thức**, **đặt trong quan hệ xã hội**, **ứng với trình độ sản xuất** (năm 1985 lợi ích là tem phiếu; năm 2026 là lương, cổ phiếu, bảo hiểm). Tùy bối cảnh, lợi ích vật chất hay tinh thần có thể quyết định, nhưng xuyên suốt thì **lợi ích vật chất đóng vai trò quyết định** (tr. 197).
 
@@ -351,10 +335,7 @@ Mâu thuẫn nảy ra ở **khâu chia** một chiếc bánh cho trước; thố
 ### Bốn nhân tố ảnh hưởng (tr. 205–207)
 
 > [!quote] Bốn nhân tố (tr. 205–206)
-> *Thứ nhất, trình độ phát triển của lực lượng sản xuất.*
-> *Thứ hai, địa vị của chủ thể trong hệ thống quan hệ sản xuất xã hội.*
-> *Thứ ba, chính sách phân phối thu nhập của nhà nước.*
-> *Thứ tư, hội nhập kinh tế quốc tế.*
+> *Thứ nhất, trình độ phát triển của lực lượng sản xuất.* *Thứ hai, địa vị của chủ thể trong hệ thống quan hệ sản xuất xã hội.* *Thứ ba, chính sách phân phối thu nhập của nhà nước.* *Thứ tư, hội nhập kinh tế quốc tế.*
 
 | Nhân tố | Cơ chế (theo sách) |
 | --- | --- |
@@ -366,10 +347,7 @@ Mâu thuẫn nảy ra ở **khâu chia** một chiếc bánh cho trước; thố
 ### Bốn quan hệ lợi ích kinh tế cơ bản (tr. 207–213)
 
 > [!quote] Bốn quan hệ cơ bản (tr. 207–211)
-> *Một là*, quan hệ lợi ích giữa người lao động và người sử dụng lao động. (tr. 207)
-> *Hai là*, quan hệ lợi ích giữa những người sử dụng lao động. (tr. 209)
-> *Ba là*, quan hệ lợi ích giữa những người lao động. (tr. 210)
-> *Bốn là*, quan hệ giữa lợi ích cá nhân, lợi ích nhóm và lợi ích xã hội. (tr. 211)
+> *Một là*, quan hệ lợi ích giữa người lao động và người sử dụng lao động. (tr. 207) *Hai là*, quan hệ lợi ích giữa những người sử dụng lao động. (tr. 209) *Ba là*, quan hệ lợi ích giữa những người lao động. (tr. 210) *Bốn là*, quan hệ giữa lợi ích cá nhân, lợi ích nhóm và lợi ích xã hội. (tr. 211)
 
 | Quan hệ | Thống nhất | Mâu thuẫn | Tổ chức / điều hòa |
 | --- | --- | --- | --- |
@@ -392,9 +370,7 @@ Về ①, sách định danh: bản chất tiền lương "là giá cả của h
 ### Hai phương thức thực hiện lợi ích kinh tế (tr. 213–214)
 
 > [!quote] Hai phương thức (tr. 213)
-> *Thứ nhất*, thực hiện lợi ích kinh tế theo nguyên tắc thị trường.
-> …
-> *Thứ hai*, thực hiện lợi ích kinh tế theo chính sách của nhà nước và vai trò của các tổ chức xã hội.
+> *Thứ nhất*, thực hiện lợi ích kinh tế theo nguyên tắc thị trường. … *Thứ hai*, thực hiện lợi ích kinh tế theo chính sách của nhà nước và vai trò của các tổ chức xã hội.
 
 Phương thức thứ nhất phổ biến ở mọi KTTT, nhưng nếu chỉ dựa vào nó "tất yếu sẽ dẫn đến những hạn chế về mặt xã hội"; phương thức thứ hai nhằm "tạo sự bình đẳng và thúc đẩy tiến bộ xã hội" (tr. 214) — cầu nối sang mục 5.
 
@@ -409,17 +385,12 @@ Phương thức thứ nhất phổ biến ở mọi KTTT, nhưng nếu chỉ d�
 ## 5. Vai trò của Nhà nước bảo đảm hài hòa lợi ích
 
 > [!quote] Hài hòa lợi ích (tr. 214)
-> Hài hòa các lợi ích kinh tế là sự thống nhất biện chứng giữa lợi ích kinh tế của các chủ thể, trong đó mặt mâu thuẫn được hạn chế, tránh được va chạm, xung đột; mặt thống nhất được khuyến khích, tạo điều kiện phát triển cả chiều rộng và chiều sâu, từ đó tạo động lực thúc đẩy các hoạt động kinh tế, góp phần thực hiện tốt hơn các lợi ích kinh tế, đặc biệt là lợi ích xã hội.
-> …
-> Bảo đảm hài hòa các lợi ích kinh tế là sự can thiệp của nhà nước vào các quan hệ lợi ích kinh tế bằng các công cụ giáo dục, pháp luật, hành chính, kinh tế... nhằm gia tăng thu nhập cho các chủ thể kinh tế; hạn chế mâu thuẫn, tăng cường sự thống nhất; xử lý kịp thời khi có xung đột.
+> Hài hòa các lợi ích kinh tế là sự thống nhất biện chứng giữa lợi ích kinh tế của các chủ thể, trong đó mặt mâu thuẫn được hạn chế, tránh được va chạm, xung đột; mặt thống nhất được khuyến khích, tạo điều kiện phát triển cả chiều rộng và chiều sâu, từ đó tạo động lực thúc đẩy các hoạt động kinh tế, góp phần thực hiện tốt hơn các lợi ích kinh tế, đặc biệt là lợi ích xã hội. … Bảo đảm hài hòa các lợi ích kinh tế là sự can thiệp của nhà nước vào các quan hệ lợi ích kinh tế bằng các công cụ giáo dục, pháp luật, hành chính, kinh tế... nhằm gia tăng thu nhập cho các chủ thể kinh tế; hạn chế mâu thuẫn, tăng cường sự thống nhất; xử lý kịp thời khi có xung đột.
 
 Vì sao cần Nhà nước: "chỉ có kinh tế thị trường là không đủ vì các lợi ích kinh tế luôn vừa thống nhất, vừa mâu thuẫn với nhau" (tr. 214). Hài hòa **không** xóa mâu thuẫn (mâu thuẫn là khách quan) mà **hạn chế** mâu thuẫn, **khuyến khích** thống nhất. Sách nêu **bốn** hướng, đánh a) – d):
 
 > [!quote] Bốn hướng vai trò Nhà nước (tr. 214–220)
-> a) Bảo vệ lợi ích hợp pháp, tạo môi trường thuận lợi cho hoạt động tìm kiếm lợi ích của các chủ thể kinh tế (tr. 214)
-> b) Điều hòa lợi ích giữa cá nhân - doanh nghiệp - xã hội (tr. 216)
-> c) Kiểm soát, ngăn ngừa các quan hệ lợi ích có ảnh hưởng tiêu cực đối với sự phát triển xã hội (tr. 217)
-> d) Giải quyết những mâu thuẫn trong quan hệ lợi ích kinh tế (tr. 220)
+> a) Bảo vệ lợi ích hợp pháp, tạo môi trường thuận lợi cho hoạt động tìm kiếm lợi ích của các chủ thể kinh tế (tr. 214) b) Điều hòa lợi ích giữa cá nhân - doanh nghiệp - xã hội (tr. 216) c) Kiểm soát, ngăn ngừa các quan hệ lợi ích có ảnh hưởng tiêu cực đối với sự phát triển xã hội (tr. 217) d) Giải quyết những mâu thuẫn trong quan hệ lợi ích kinh tế (tr. 220)
 
 ### a) Bảo vệ lợi ích hợp pháp, tạo môi trường thuận lợi (tr. 214–216)
 
@@ -451,8 +422,7 @@ Thuần chức năng: C có thể dưới mức sống tối thiểu. Chia đề
 Mâu thuẫn là khách quan; không giải quyết sẽ ảnh hưởng trực tiếp động lực kinh tế, nên cơ quan chức năng phải thường xuyên phát hiện và chuẩn bị giải pháp.
 
 > [!quote] Nguyên tắc giải quyết mâu thuẫn (tr. 220)
-> Nguyên tắc giải quyết mâu thuẫn giữa các lợi ích kinh tế là phải có sự tham gia của các bên liên quan, có nhân nhượng và phải đặt lợi ích đất nước lên trên hết.
-> Ngăn ngừa là chính nhưng khi mâu thuẫn giữa các lợi ích kinh tế bùng phát có thể dẫn đến xung đột (đình công, bãi công...). Khi có xung đột giữa các chủ thể kinh tế, cần có sự tham gia hòa giải của các tổ chức xã hội có liên quan, đặc biệt là nhà nước.
+> Nguyên tắc giải quyết mâu thuẫn giữa các lợi ích kinh tế là phải có sự tham gia của các bên liên quan, có nhân nhượng và phải đặt lợi ích đất nước lên trên hết. Ngăn ngừa là chính nhưng khi mâu thuẫn giữa các lợi ích kinh tế bùng phát có thể dẫn đến xung đột (đình công, bãi công...). Khi có xung đột giữa các chủ thể kinh tế, cần có sự tham gia hòa giải của các tổ chức xã hội có liên quan, đặc biệt là nhà nước.
 
 > [!warning] Chỗ dễ sai
 > - Sách đánh **a) b) c) d)** — không có "đ)". Bốn hướng.

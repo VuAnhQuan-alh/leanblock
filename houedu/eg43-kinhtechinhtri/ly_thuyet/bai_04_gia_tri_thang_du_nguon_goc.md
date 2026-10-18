@@ -1,9 +1,7 @@
 # Bài 4 — Giá trị thặng dư: nguồn gốc
 
 > [!info] Về bài này
-> Bài học dựng từ **Chương 3, mục I** (tr. 85–103; hai đoạn kết của mục tràn sang đầu tr. 104) của *Giáo trình Kinh tế chính trị Mác – Lênin* (hệ không chuyên), Bộ Giáo dục và Đào tạo, **NXB Chính trị Quốc gia Sự thật, 2021** (chủ biên PGS.TS. Ngô Tuấn Nghĩa).
-> **Vòng 1 — trọng tâm thi ⭐.** Đây là **học thuyết giá trị thặng dư** — phát minh lớn của C. Mác, nền của cả bộ *Tư bản*. Câu hỏi trung tâm: **lợi nhuận từ đâu ra** khi mọi thứ trao đổi ngang giá? Chìa khóa là **hàng hóa sức lao động**.
-> **Nên đọc trước:** [Bài 2](bai_02_hang_hoa_va_tien_te.md) (hàng hóa, tính hai mặt của lao động, lượng giá trị). **Đọc tiếp:** [Bài 5](bai_05_tich_luy_va_loi_nhuan_dia_to.md) (nhà tư bản dùng `m` thế nào; `m` hiện ra thành lợi nhuận, lợi tức, địa tô).
+> Bài học dựng từ **Chương 3, mục I** (tr. 85–103; hai đoạn kết của mục tràn sang đầu tr. 104) của *Giáo trình Kinh tế chính trị Mác – Lênin* (hệ không chuyên), Bộ Giáo dục và Đào tạo, **NXB Chính trị Quốc gia Sự thật, 2021** (chủ biên PGS.TS. Ngô Tuấn Nghĩa). **Vòng 1 — trọng tâm thi ⭐.** Đây là **học thuyết giá trị thặng dư** — phát minh lớn của C. Mác, nền của cả bộ *Tư bản*. Câu hỏi trung tâm: **lợi nhuận từ đâu ra** khi mọi thứ trao đổi ngang giá? Chìa khóa là **hàng hóa sức lao động**. **Nên đọc trước:** [Bài 2](bai_02_hang_hoa_va_tien_te.md) (hàng hóa, tính hai mặt của lao động, lượng giá trị). **Đọc tiếp:** [Bài 5](bai_05_tich_luy_va_loi_nhuan_dia_to.md) (nhà tư bản dùng `m` thế nào; `m` hiện ra thành lợi nhuận, lợi tức, địa tô).
 >
 > **Cách đọc các khối màu:** `[!quote]` trích nguyên văn giáo trình (kèm trang in) · `[!warning]` chỗ dễ nhầm · `[!note]` ghi chú / Mở rộng ngoài sách · `[!example]` Góc QTKD (biên soạn thêm, không có trong sách) · *(số giả định)* = số tự dựng để minh hoạ.
 
@@ -42,10 +40,7 @@ Bỏ 100 triệu kinh doanh, cuối năm thu 120 triệu — **20 triệu kia �
 Để tìm công thức chung của tư bản, sách so sánh vai trò của tiền trong lưu thông hàng hóa giản đơn và trong nền sản xuất tư bản chủ nghĩa (tr. 85).
 
 > [!quote] Công thức chung của tư bản (tr. 85–86)
-> Tiền trong nền sản xuất hàng hóa giản đơn vận động trong quan hệ H-T-H.
-> Tiền trong nền sản xuất tư bản chủ nghĩa vận động trong quan hệ T-H-T.
-> Điểm khác nhau cơ bản giữa hai hình thức vận động nêu trên thể hiện ở mục đích của quá trình lưu thông. Mục đích trong lưu thông hàng hóa giản đơn là giá trị sử dụng. Mục đích trong lưu thông tư bản là giá trị lớn hơn vì nếu không thu được lượng giá trị lớn hơn thì sự lưu thông này không có ý nghĩa. Do vậy, tư bản vận động theo công thức: T-H-T' (đây là công thức chung của tư bản). Các hình thái tư bản đều vận động theo công thức này; trong đó T'= T + t (t>0).
-> Số tiền trội ra lớn hơn được gọi là *giá trị thặng dư*; số tiền ứng ra ban đầu với mục đích thu được giá trị thặng dư trở thành tư bản. Tiền biến thành tư bản khi được dùng để mang lại giá trị thặng dư. Tư bản là giá trị mang lại giá trị thặng dư.
+> Tiền trong nền sản xuất hàng hóa giản đơn vận động trong quan hệ H-T-H. Tiền trong nền sản xuất tư bản chủ nghĩa vận động trong quan hệ T-H-T. Điểm khác nhau cơ bản giữa hai hình thức vận động nêu trên thể hiện ở mục đích của quá trình lưu thông. Mục đích trong lưu thông hàng hóa giản đơn là giá trị sử dụng. Mục đích trong lưu thông tư bản là giá trị lớn hơn vì nếu không thu được lượng giá trị lớn hơn thì sự lưu thông này không có ý nghĩa. Do vậy, tư bản vận động theo công thức: T-H-T' (đây là công thức chung của tư bản). Các hình thái tư bản đều vận động theo công thức này; trong đó T'= T + t (t>0). Số tiền trội ra lớn hơn được gọi là *giá trị thặng dư*; số tiền ứng ra ban đầu với mục đích thu được giá trị thặng dư trở thành tư bản. Tiền biến thành tư bản khi được dùng để mang lại giá trị thặng dư. Tư bản là giá trị mang lại giá trị thặng dư.
 
 | | **Lưu thông hàng hóa giản đơn `H – T – H`** | **Lưu thông tư bản `T – H – T′`** |
 | --- | --- | --- |
@@ -62,8 +57,7 @@ Bỏ 100 triệu kinh doanh, cuối năm thu 120 triệu — **20 triệu kia �
 Nếu `t` đến từ chính hành vi **mua – bán**, thì lý thuyết giá trị (trao đổi ngang giá, [bài 2](bai_02_hang_hoa_va_tien_te.md)) sụp đổ. Sách lập luận:
 
 > [!quote] Lưu thông không tạo giá trị (tr. 86)
-> Vậy, nguồn gốc của giá trị thặng dư từ đâu mà có? Việc mua, bán hàng hóa thấp hơn hoặc bằng giá trị sẽ không có giá trị tăng thêm, nếu người mua hàng hóa để bán hàng hóa đó cao hơn giá trị thì chỉ được lợi xét về người bán, nhưng xét về người mua thì lại bị thiệt. Trong nền kinh tế thị trường, mỗi người đều đóng vai trò là người bán và đồng thời cũng là người mua. Do đó, nếu được lợi khi bán thì lại bị thiệt khi mua. Lưu thông (mua, bán thông thường) không tạo ra giá trị tăng thêm xét trên phạm vi xã hội.
-> Bí mật ở đây là nhà tư bản đã mua được một loại hàng hóa đặc biệt nào đó mà trong quá trình sử dụng loại hàng hóa này, giá trị của nó không những được bảo tồn mà còn tạo ra được giá trị mới lớn hơn giá trị bản thân nó. Đó là hàng hóa sức lao động.
+> Vậy, nguồn gốc của giá trị thặng dư từ đâu mà có? Việc mua, bán hàng hóa thấp hơn hoặc bằng giá trị sẽ không có giá trị tăng thêm, nếu người mua hàng hóa để bán hàng hóa đó cao hơn giá trị thì chỉ được lợi xét về người bán, nhưng xét về người mua thì lại bị thiệt. Trong nền kinh tế thị trường, mỗi người đều đóng vai trò là người bán và đồng thời cũng là người mua. Do đó, nếu được lợi khi bán thì lại bị thiệt khi mua. Lưu thông (mua, bán thông thường) không tạo ra giá trị tăng thêm xét trên phạm vi xã hội. Bí mật ở đây là nhà tư bản đã mua được một loại hàng hóa đặc biệt nào đó mà trong quá trình sử dụng loại hàng hóa này, giá trị của nó không những được bảo tồn mà còn tạo ra được giá trị mới lớn hơn giá trị bản thân nó. Đó là hàng hóa sức lao động.
 
 **Kiểm bằng số** *(số giả định)*: A, B, C mỗi người có hàng trị giá 100, ai cũng "bán đắt 10%": mỗi người lãi +10 khi bán, thiệt −10 khi mua → ròng **0**. Tổng giá trị vẫn là 300; nếu một người lừa được người khác thì chỉ là **phân phối lại**. Mác (*Tư bản*, Q.I, chương 4 — ngoài giáo trình): `m` không sinh ra trong lưu thông, cũng không ngoài lưu thông — mà **trong sản xuất**, nhờ một hàng hóa **mua trong lưu thông**.
 
@@ -83,8 +77,7 @@ Nếu `t` đến từ chính hành vi **mua – bán**, thì lý thuyết giá t
 Nhà tư bản không mua "lao động" (một **hoạt động**), mà mua **khả năng lao động** trong một thời gian. Sách dẫn Mác:
 
 > [!quote] Sức lao động — C. Mác (dẫn tr. 86)
-> C. Mác viết: "Sức lao động hay năng lực lao động là toàn bộ những năng lực thể chất và tinh thần tồn tại trong cơ thể, trong một con người đang sống, và được người đó đem ra vận dụng mỗi khi sản xuất ra một giá trị sử dụng nào đó".
-> (C. Mác và Ph. Ăngghen: *Toàn tập*, Sđd, t.23, tr.251; dẫn tr. 86.)
+> C. Mác viết: "Sức lao động hay năng lực lao động là toàn bộ những năng lực thể chất và tinh thần tồn tại trong cơ thể, trong một con người đang sống, và được người đó đem ra vận dụng mỗi khi sản xuất ra một giá trị sử dụng nào đó". (C. Mác và Ph. Ăngghen: *Toàn tập*, Sđd, t.23, tr.251; dẫn tr. 86.)
 
 | | **Sức lao động** | **Lao động** |
 | --- | --- | --- |
@@ -95,9 +88,7 @@ Nhà tư bản không mua "lao động" (một **hoạt động**), mà mua **kh
 ### b) Hai điều kiện để sức lao động thành hàng hóa
 
 > [!quote] Hai điều kiện (tr. 86–87)
-> \* *Hai điều kiện để sức lao động trở thành hàng hóa*
-> \- Người lao động được tự do về thân thể.
-> \- Người lao động không có đủ các tư liệu sản xuất cần thiết để tự kết hợp với sức lao động của mình tạo ra hàng hóa để bán, cho nên họ phải bán sức lao động.
+> \* *Hai điều kiện để sức lao động trở thành hàng hóa* \- Người lao động được tự do về thân thể. \- Người lao động không có đủ các tư liệu sản xuất cần thiết để tự kết hợp với sức lao động của mình tạo ra hàng hóa để bán, cho nên họ phải bán sức lao động.
 
 Phải đủ **cả hai**:
 
@@ -115,13 +106,7 @@ Phải đủ **cả hai**:
 Như mọi hàng hóa ([bài 2](bai_02_hang_hoa_va_tien_te.md)), hàng hóa sức lao động có hai thuộc tính: giá trị và giá trị sử dụng (tr. 87).
 
 > [!quote] Giá trị sức lao động (tr. 87)
-> \- *Giá trị của hàng hóa sức lao động cũng do số lượng lao động xã hội cần thiết để sản xuất và tái sản xuất ra sức lao động quyết định.*
-> …
-> Giá trị của hàng hóa sức lao động do các bộ phận sau đây hợp thành:
-> *Một là*, giá trị tư liệu sinh hoạt cần thiết (cả vật chất, tinh thần) để tái sản xuất ra sức lao động;
-> *Hai là*, phí tổn đào tạo người lao động;
-> *Ba là*, giá trị những tư liệu sinh hoạt cần thiết (vật chất và tinh thần) để nuôi con của người lao động.
-> Nếu đúng theo nguyên tắc ngang giá trong nền kinh tế thị trường thì giá cả của hàng hóa sức lao động phải phản ánh lượng giá trị nêu trên.
+> \- *Giá trị của hàng hóa sức lao động cũng do số lượng lao động xã hội cần thiết để sản xuất và tái sản xuất ra sức lao động quyết định.* … Giá trị của hàng hóa sức lao động do các bộ phận sau đây hợp thành: *Một là*, giá trị tư liệu sinh hoạt cần thiết (cả vật chất, tinh thần) để tái sản xuất ra sức lao động; *Hai là*, phí tổn đào tạo người lao động; *Ba là*, giá trị những tư liệu sinh hoạt cần thiết (vật chất và tinh thần) để nuôi con của người lao động. Nếu đúng theo nguyên tắc ngang giá trong nền kinh tế thị trường thì giá cả của hàng hóa sức lao động phải phản ánh lượng giá trị nêu trên.
 
 **Đo gián tiếp:** sức lao động được "tái sản xuất" khi người lao động ăn, ngủ, học, nuôi con, nên giá trị của nó được đo **gián tiếp** qua giá trị các tư liệu sinh hoạt ấy (tr. 87).
 
@@ -142,9 +127,7 @@ Sách thừa nhận trên thực tế tiền công rất khó phản ánh đủ 
 ### d) Hai thuộc tính — thuộc tính giá trị sử dụng (chìa khóa)
 
 > [!quote] Giá trị sử dụng đặc biệt (tr. 88)
-> \- *Giá trị sử dụng của hàng hóa sức lao động cũng nhằm mục đích thỏa mãn nhu cầu của người mua.*
-> Người mua hàng hóa sức lao động mong muốn thỏa mãn nhu cầu có được giá trị lớn hơn, giá trị tăng thêm. Giá trị sử dụng của hàng hóa sức lao động được thể hiện trong quá trình sử dụng sức lao động.
-> Hàng hóa sức lao động là loại hàng hóa đặc biệt, mang yếu tố tinh thần và lịch sử. Giá trị sử dụng của hàng hóa sức lao động có tính năng đặc biệt mà không hàng hóa thông thường nào có được, đó là trong khi sử dụng nó, không những giá trị của nó được bảo tồn mà còn tạo ra được lượng giá trị lớn hơn. Đây chính là chìa khóa chỉ rõ nguồn gốc của giá trị lớn hơn giá trị thặng dư nêu trên do hao phí sức lao động mà có.
+> \- *Giá trị sử dụng của hàng hóa sức lao động cũng nhằm mục đích thỏa mãn nhu cầu của người mua.* Người mua hàng hóa sức lao động mong muốn thỏa mãn nhu cầu có được giá trị lớn hơn, giá trị tăng thêm. Giá trị sử dụng của hàng hóa sức lao động được thể hiện trong quá trình sử dụng sức lao động. Hàng hóa sức lao động là loại hàng hóa đặc biệt, mang yếu tố tinh thần và lịch sử. Giá trị sử dụng của hàng hóa sức lao động có tính năng đặc biệt mà không hàng hóa thông thường nào có được, đó là trong khi sử dụng nó, không những giá trị của nó được bảo tồn mà còn tạo ra được lượng giá trị lớn hơn. Đây chính là chìa khóa chỉ rõ nguồn gốc của giá trị lớn hơn giá trị thặng dư nêu trên do hao phí sức lao động mà có.
 
 **Ví dụ tiếp nối** *(số giả định)*: mỗi giờ tạo 70.000 đồng giá trị mới; tháng 26 ngày × 8 giờ = 208 giờ → **14,56 triệu**. Nhà tư bản trả **đúng** 7,0 triệu, thu giá trị mới 14,56 triệu → chênh **7,56 triệu**. 100 giờ (7,0 triệu / 70.000) đã đủ bù giá trị sức lao động.
 
@@ -162,9 +145,7 @@ Sách thừa nhận trên thực tế tiền công rất khó phản ánh đủ 
 ### a) Thời gian lao động tất yếu và thặng dư
 
 > [!quote] Tất yếu và thặng dư (tr. 88)
-> Quá trình sản xuất giá trị thặng dư là sự thống nhất của quá trình tạo ra và làm tăng giá trị.
-> Để có được giá trị thặng dư, nền sản xuất xã hội phải đạt đến một trình độ nhất định. Trình độ đó phản ánh việc người lao động chỉ phải hao phí một phần thời gian lao động (trong thời gian lao động đã được thỏa thuận mua bán theo nguyên tắc ngang giá) là có thể bù đắp được giá trị hàng hóa sức lao động, bộ phận này là thời gian lao động tất yếu.
-> Ngoài thời gian tất yếu đó, vẫn trong nguyên tắc ngang giá đã thỏa thuận, người lao động phải làm việc trong sự quản lý của người mua hàng hóa sức lao động và sản phẩm làm ra thuộc sở hữu của nhà tư bản, thời gian đó là thời gian lao động thặng dư.
+> Quá trình sản xuất giá trị thặng dư là sự thống nhất của quá trình tạo ra và làm tăng giá trị. Để có được giá trị thặng dư, nền sản xuất xã hội phải đạt đến một trình độ nhất định. Trình độ đó phản ánh việc người lao động chỉ phải hao phí một phần thời gian lao động (trong thời gian lao động đã được thỏa thuận mua bán theo nguyên tắc ngang giá) là có thể bù đắp được giá trị hàng hóa sức lao động, bộ phận này là thời gian lao động tất yếu. Ngoài thời gian tất yếu đó, vẫn trong nguyên tắc ngang giá đã thỏa thuận, người lao động phải làm việc trong sự quản lý của người mua hàng hóa sức lao động và sản phẩm làm ra thuộc sở hữu của nhà tư bản, thời gian đó là thời gian lao động thặng dư.
 
 ```
 Ngày lao động (thỏa thuận mua bán ngang giá)
@@ -225,16 +206,10 @@ Sách bổ sung (tr. 91): ví dụ giả định chủ **thuần túy sở hữu
 Để khẳng định `m` do hao phí sức lao động, Mác phân tích vai trò tư liệu sản xuất qua hai thuật ngữ bất biến, khả biến (tr. 92).
 
 > [!quote] Tư bản bất biến (tr. 92)
-> *Bộ phận tư bản tồn tại dưới hình thái tư liệu sản xuất mà giá trị được lao động cụ thể của công nhân làm thuê bảo tồn và chuyển nguyên vẹn vào giá trị sản phẩm, tức là giá trị không biến đổi trong quá trình sản xuất, được C. Mác gọi là tư bản bất biến (ký hiệu là c).*
-> Tư bản bất biến không tạo ra giá trị thặng dư nhưng là điều kiện cần thiết để quá trình tạo ra giá trị thặng dư được diễn ra.
+> *Bộ phận tư bản tồn tại dưới hình thái tư liệu sản xuất mà giá trị được lao động cụ thể của công nhân làm thuê bảo tồn và chuyển nguyên vẹn vào giá trị sản phẩm, tức là giá trị không biến đổi trong quá trình sản xuất, được C. Mác gọi là tư bản bất biến (ký hiệu là c).* Tư bản bất biến không tạo ra giá trị thặng dư nhưng là điều kiện cần thiết để quá trình tạo ra giá trị thặng dư được diễn ra.
 
 > [!quote] Tư bản khả biến; công thức (tr. 93)
-> C. Mác kết luận: *Bộ phận tư bản tồn tại dưới hình thái sức lao động không tái hiện ra, nhưng thông qua lao động trừu tượng của công nhân làm thuê mà tăng lên, tức là biến đổi về số lượng trong quá trình sản xuất, được Mác gọi là tư bản khả biến (ký hiệu là v).*
-> Như vậy, đến đây, nếu gọi G là giá trị hàng hóa thì có thể công thức hóa về giá trị hàng hóa dưới dạng như sau:
-> G = c + (v+m)
-> Trong đó:
-> (v+m) là bộ phận giá trị mới của hàng hóa, do hao phí lao động tạo ra;
-> c là giá trị của những tư liệu sản xuất đã được tiêu dùng, là bộ phận lao động quá khứ đã được kết tinh trong máy móc, nguyên, nhiên, vật liệu. Bộ phận này được chuyển vào giá trị sản phẩm mới.
+> C. Mác kết luận: *Bộ phận tư bản tồn tại dưới hình thái sức lao động không tái hiện ra, nhưng thông qua lao động trừu tượng của công nhân làm thuê mà tăng lên, tức là biến đổi về số lượng trong quá trình sản xuất, được Mác gọi là tư bản khả biến (ký hiệu là v).* Như vậy, đến đây, nếu gọi G là giá trị hàng hóa thì có thể công thức hóa về giá trị hàng hóa dưới dạng như sau: G = c + (v+m) Trong đó: (v+m) là bộ phận giá trị mới của hàng hóa, do hao phí lao động tạo ra; c là giá trị của những tư liệu sản xuất đã được tiêu dùng, là bộ phận lao động quá khứ đã được kết tinh trong máy móc, nguyên, nhiên, vật liệu. Bộ phận này được chuyển vào giá trị sản phẩm mới.
 
 $$G = c + (v + m)$$
 
@@ -256,8 +231,7 @@ $$G = c + (v + m)$$
 ### b) Tiền công — bản chất và bề ngoài
 
 > [!quote] Tiền công (tr. 94)
-> Tiền công là giá cả của hàng hóa sức lao động. Đó là bộ phận của giá trị mới do chính hao phí sức lao động của người lao động làm thuê tạo ra, nhưng nó lại thường được hiểu là do người mua sức lao động trả cho người lao động làm thuê.
-> … Trái lại, nguồn gốc của tiền công chính là do hao phí sức lao động của người lao động làm thuê tự trả cho mình thông qua sổ sách của người mua hàng hóa sức lao động.
+> Tiền công là giá cả của hàng hóa sức lao động. Đó là bộ phận của giá trị mới do chính hao phí sức lao động của người lao động làm thuê tạo ra, nhưng nó lại thường được hiểu là do người mua sức lao động trả cho người lao động làm thuê. … Trái lại, nguồn gốc của tiền công chính là do hao phí sức lao động của người lao động làm thuê tự trả cho mình thông qua sổ sách của người mua hàng hóa sức lao động.
 
 | | **Bản chất** | **Bề ngoài (hiện tượng)** |
 | --- | --- | --- |
@@ -283,19 +257,7 @@ Sách khuyên: nếu thuê lao động thì đối xử thật trách nhiệm v�
 Nhà tư bản muốn **nhiều** giá trị thặng dư nên cần thước đo về lượng; sách đặt hai phạm trù này trong phần **2. Bản chất** (tr. 99–100).
 
 > [!quote] Tỷ suất và khối lượng (tr. 100)
-> *Tỷ suất giá trị thặng dư là tỷ lệ phần trăm giữa giá trị thặng dư và tư bản khả biến để sản xuất ra giá trị thặng dư đó.*
-> Công thức tính tỷ suất giá trị thặng dư là:
-> m' = m/v x 100%
-> …
-> Tỷ suất giá trị thặng dư cũng có thể tính theo tỷ lệ phần trăm giữa thời gian lao động thặng dư (t') và thời gian lao động tất yếu (t).
-> m' = t'/t x 100%
-> *Khối lượng giá trị thặng dư là lượng giá trị thặng dư bằng tiền mà nhà tư bản thu được.* Công thức tính khối lượng giá trị thặng dư là:
-> M = m'. V
-> Trong đó:
-> M là khối lượng giá trị thặng dư;
-> m' là tỷ suất giá trị thặng dư;
-> V là tổng tư bản khả biến.
-> Tỷ suất giá trị thặng dư phản ánh trình độ khai thác sức lao động làm thuê; khối lượng giá trị thặng dư phản ánh quy mô giá trị thặng dư mà chủ sở hữu tư liệu sản xuất thu được.
+> *Tỷ suất giá trị thặng dư là tỷ lệ phần trăm giữa giá trị thặng dư và tư bản khả biến để sản xuất ra giá trị thặng dư đó.* Công thức tính tỷ suất giá trị thặng dư là: m' = m/v x 100% … Tỷ suất giá trị thặng dư cũng có thể tính theo tỷ lệ phần trăm giữa thời gian lao động thặng dư (t') và thời gian lao động tất yếu (t). m' = t'/t x 100% *Khối lượng giá trị thặng dư là lượng giá trị thặng dư bằng tiền mà nhà tư bản thu được.* Công thức tính khối lượng giá trị thặng dư là: M = m'. V Trong đó: M là khối lượng giá trị thặng dư; m' là tỷ suất giá trị thặng dư; V là tổng tư bản khả biến. Tỷ suất giá trị thặng dư phản ánh trình độ khai thác sức lao động làm thuê; khối lượng giá trị thặng dư phản ánh quy mô giá trị thặng dư mà chủ sở hữu tư liệu sản xuất thu được.
 
 $$m' = \dfrac{m}{v} \times 100\% = \dfrac{t'}{t} \times 100\% \qquad ; \qquad M = m' \cdot V$$
 
@@ -336,8 +298,7 @@ A khai thác **nặng hơn**, B thu **khối lượng** gấp 16 lần nhờ quy
 Khép phần nguồn gốc, sách khái quát (in nghiêng): nguồn gốc của giá trị thặng dư là do hao phí lao động tạo ra (tr. 98).
 
 > [!quote] Bản chất kinh tế – xã hội (tr. 98–99)
-> Như vậy, nghiên cứu về nguồn gốc của giá trị thặng dư trên đây cho chúng ta thấy, giá trị thặng dư là kết quả của sự hao phí sức lao động trong sự thống nhất của quá trình tạo ra và làm tăng giá trị.
-> Quá trình đó được diễn ra trong quan hệ xã hội giữa người mua hàng hóa sức lao động với người bán hàng hóa sức lao động. Do đó, nếu giả định xã hội chỉ có hai giai cấp, là giai cấp tư sản và giai cấp công nhân, thì giá trị thặng dư trong nền kinh tế thị trường tư bản chủ nghĩa mang *bản chất kinh tế - xã hội là quan hệ giai cấp*; trong đó, giai cấp các nhà tư bản làm giàu dựa trên cơ sở thuê mướn lao động của giai cấp công nhân. Ở đó, mục đích của nhà tư bản là giá trị thặng dư, người lao động làm thuê phải bán sức lao động cho nhà tư bản ấy.
+> Như vậy, nghiên cứu về nguồn gốc của giá trị thặng dư trên đây cho chúng ta thấy, giá trị thặng dư là kết quả của sự hao phí sức lao động trong sự thống nhất của quá trình tạo ra và làm tăng giá trị. Quá trình đó được diễn ra trong quan hệ xã hội giữa người mua hàng hóa sức lao động với người bán hàng hóa sức lao động. Do đó, nếu giả định xã hội chỉ có hai giai cấp, là giai cấp tư sản và giai cấp công nhân, thì giá trị thặng dư trong nền kinh tế thị trường tư bản chủ nghĩa mang *bản chất kinh tế - xã hội là quan hệ giai cấp*; trong đó, giai cấp các nhà tư bản làm giàu dựa trên cơ sở thuê mướn lao động của giai cấp công nhân. Ở đó, mục đích của nhà tư bản là giá trị thặng dư, người lao động làm thuê phải bán sức lao động cho nhà tư bản ấy.
 
 ⭐ **Bóc lột mà vẫn ngang giá** (tr. 99): Mác gọi đó là **quan hệ bóc lột** dù nhà tư bản trả **đúng giá trị** sức lao động (ví dụ kéo sợi). Tính khoa học: qua hợp đồng ngang giá, `m` vẫn được tạo ra **bằng lao động sống**, không do máy móc. Ngày nay quan hệ đó **rất tinh vi**, dưới hình thức **văn minh hơn** thế kỷ XIX.
 
@@ -357,9 +318,7 @@ Khép phần nguồn gốc, sách khái quát (in nghiêng): nguồn gốc của
 ### a) Giá trị thặng dư tuyệt đối
 
 > [!quote] Giá trị thặng dư tuyệt đối (tr. 101)
-> *Giá trị thặng dư tuyệt đối là giá trị thặng dư thu được do kéo dài ngày lao động vượt quá thời gian lao động tất yếu, trong khi năng suất lao động, giá trị sức lao động và thời gian lao động tất yếu không thay đổi.*
-> …
-> Để có nhiều giá trị thặng dư, người mua hàng hóa sức lao động phải tìm mọi cách để kéo dài ngày lao động và tăng cường độ lao động.
+> *Giá trị thặng dư tuyệt đối là giá trị thặng dư thu được do kéo dài ngày lao động vượt quá thời gian lao động tất yếu, trong khi năng suất lao động, giá trị sức lao động và thời gian lao động tất yếu không thay đổi.* … Để có nhiều giá trị thặng dư, người mua hàng hóa sức lao động phải tìm mọi cách để kéo dài ngày lao động và tăng cường độ lao động.
 
 **Ví dụ của sách** (tr. 101): ngày lao động 8 giờ, tất yếu 4 giờ, thặng dư 4 giờ, `m′ = 100%`. Kéo dài thêm 2 giờ, mọi điều kiện không đổi → thặng dư từ 4 lên 6 giờ:
 
@@ -386,9 +345,7 @@ $$m' = \dfrac{6 \text{ giờ}}{4 \text{ giờ}} \times 100\% = 150\%$$
 ### b) Giá trị thặng dư tương đối
 
 > [!quote] Giá trị thặng dư tương đối (tr. 102)
-> *Giá trị thặng dư tương đối là giá trị thặng dư thu được nhờ rút ngắn thời gian lao động tất yếu; do đó kéo dài thời gian lao động thặng dư trong khi độ dài ngày lao động không thay đổi hoặc thậm chí rút ngắn.*
-> …
-> Để hạ thấp giá trị sức lao động thì phải giảm giá trị các tư liệu sinh hoạt và dịch vụ cần thiết để tái sản xuất sức lao động, do đó phải tăng năng suất lao động trong các ngành sản xuất ra tư liệu sinh hoạt và các ngành sản xuất ra tư liệu sản xuất để chế tạo ra tư liệu sinh hoạt đó.
+> *Giá trị thặng dư tương đối là giá trị thặng dư thu được nhờ rút ngắn thời gian lao động tất yếu; do đó kéo dài thời gian lao động thặng dư trong khi độ dài ngày lao động không thay đổi hoặc thậm chí rút ngắn.* … Để hạ thấp giá trị sức lao động thì phải giảm giá trị các tư liệu sinh hoạt và dịch vụ cần thiết để tái sản xuất sức lao động, do đó phải tăng năng suất lao động trong các ngành sản xuất ra tư liệu sinh hoạt và các ngành sản xuất ra tư liệu sản xuất để chế tạo ra tư liệu sinh hoạt đó.
 
 **Chuỗi nhân quả — đọc kỹ đoạn cuối quote:**
 
@@ -426,9 +383,7 @@ Công nhân **không nghèo đi về hiện vật** — 11,25 USD vẫn mua đ�
 ### c) Giá trị thặng dư siêu ngạch
 
 > [!quote] Giá trị thặng dư siêu ngạch (tr. 103)
-> Trong thực tế, việc cải tiến kỹ thuật, tăng năng suất lao động diễn ra trước hết ở một hoặc vài xí nghiệp riêng biệt, làm cho hàng hóa do các xí nghiệp ấy sản xuất ra có giá trị cá biệt thấp hơn giá trị xã hội, do đó, sẽ thu được một số giá trị thặng dư trội hơn so với các xí nghiệp khác. Phần giá trị thặng dư trội hơn đó là *giá trị thặng dư siêu ngạch.*
-> Xét trong từng trường hợp đơn vị sản xuất cá biệt, giá trị thặng dư siêu ngạch là một hiện tượng tạm thời, xuất hiện rồi mất đi, nhưng xét toàn bộ xã hội tư bản thì giá trị thặng dư siêu ngạch lại là hiện tượng tồn tại thường xuyên.
-> Giá trị thặng dư siêu ngạch là động lực mạnh nhất thúc đẩy các nhà tư bản ra sức cải tiến kỹ thuật, tăng năng suất lao động. Hoạt động riêng lẻ đó của từng nhà tư bản đã dẫn đến kết quả làm tăng năng suất lao động xã hội, hình thành giá trị thặng dư tương đối, thúc đẩy lực lượng sản xuất phát triển. Vì vậy, giá trị thặng dư siêu ngạch là hình thái biến tướng của giá trị thặng dư tương đối.
+> Trong thực tế, việc cải tiến kỹ thuật, tăng năng suất lao động diễn ra trước hết ở một hoặc vài xí nghiệp riêng biệt, làm cho hàng hóa do các xí nghiệp ấy sản xuất ra có giá trị cá biệt thấp hơn giá trị xã hội, do đó, sẽ thu được một số giá trị thặng dư trội hơn so với các xí nghiệp khác. Phần giá trị thặng dư trội hơn đó là *giá trị thặng dư siêu ngạch.* Xét trong từng trường hợp đơn vị sản xuất cá biệt, giá trị thặng dư siêu ngạch là một hiện tượng tạm thời, xuất hiện rồi mất đi, nhưng xét toàn bộ xã hội tư bản thì giá trị thặng dư siêu ngạch lại là hiện tượng tồn tại thường xuyên. Giá trị thặng dư siêu ngạch là động lực mạnh nhất thúc đẩy các nhà tư bản ra sức cải tiến kỹ thuật, tăng năng suất lao động. Hoạt động riêng lẻ đó của từng nhà tư bản đã dẫn đến kết quả làm tăng năng suất lao động xã hội, hình thành giá trị thặng dư tương đối, thúc đẩy lực lượng sản xuất phát triển. Vì vậy, giá trị thặng dư siêu ngạch là hình thái biến tướng của giá trị thặng dư tương đối.
 
 **Ví dụ số** *(số giả định)*: ngành dệt khăn; giá trị xã hội 1 khăn = 8 USD (`c` = 6 USD/khăn; lao động xã hội cần thiết nửa giờ, mỗi giờ tạo 4 USD giá trị mới). Mỗi xí nghiệp thuê 1 công nhân, ngày 8 giờ, tiền công `v` = 16 USD (tức `t` = 4 giờ).
 
@@ -503,12 +458,7 @@ T – H ────┤          … SX … H′ – T′
 ### b) Chu chuyển của tư bản
 
 > [!quote] Chu chuyển của tư bản (tr. 96–97)
-> *Chu chuyển của tư bản là tuần hoàn của tư bản được xét với tư cách là quá trình định kỳ, thường xuyên lặp đi lặp lại và đổi mới theo thời gian.*
-> Chu chuyển của tư bản được đo lường bằng thời gian chu chuyển hoặc tốc độ chu chuyển.
-> Thời gian chu chuyển của tư bản là khoảng thời gian mà một tư bản kể từ khi được ứng ra dưới một hình thái nhất định cho đến khi quay trở về dưới hình thái đó cùng với giá trị thặng dư. Thời gian chu chuyển của tư bản bao gồm thời gian sản xuất và thời gian lưu thông.
-> Tốc độ chu chuyển của tư bản là số lần mà một tư bản được ứng ra dưới một hình thái nhất định quay trở về dưới hình thái đó cùng với giá trị thặng dư tính trong một đơn vị thời gian nhất định. Thông thường, tốc độ chu chuyển được tính bằng số vòng chu chuyển của tư bản trong thời gian 1 năm.
-> Nếu ký hiệu số vòng chu chuyển của tư bản là n, thời gian của một năm là CH, thời gian một vòng chu chuyển là ch, thì tốc độ chu chuyển của từng bộ phận tư bản được tính như sau:
-> n = CH/ch
+> *Chu chuyển của tư bản là tuần hoàn của tư bản được xét với tư cách là quá trình định kỳ, thường xuyên lặp đi lặp lại và đổi mới theo thời gian.* Chu chuyển của tư bản được đo lường bằng thời gian chu chuyển hoặc tốc độ chu chuyển. Thời gian chu chuyển của tư bản là khoảng thời gian mà một tư bản kể từ khi được ứng ra dưới một hình thái nhất định cho đến khi quay trở về dưới hình thái đó cùng với giá trị thặng dư. Thời gian chu chuyển của tư bản bao gồm thời gian sản xuất và thời gian lưu thông. Tốc độ chu chuyển của tư bản là số lần mà một tư bản được ứng ra dưới một hình thái nhất định quay trở về dưới hình thái đó cùng với giá trị thặng dư tính trong một đơn vị thời gian nhất định. Thông thường, tốc độ chu chuyển được tính bằng số vòng chu chuyển của tư bản trong thời gian 1 năm. Nếu ký hiệu số vòng chu chuyển của tư bản là n, thời gian của một năm là CH, thời gian một vòng chu chuyển là ch, thì tốc độ chu chuyển của từng bộ phận tư bản được tính như sau: n = CH/ch
 
 $$n = \dfrac{CH}{ch}$$
 
@@ -519,10 +469,7 @@ Cùng quy trình, hiệu quả vẫn khác nhau **do chu chuyển khác nhau** (
 ### c) Tư bản cố định và tư bản lưu động
 
 > [!quote] Cố định và lưu động (tr. 97–98)
-> Xét theo phương thức chu chuyển giá trị của tư bản sản xuất vào giá trị sản phẩm, tư bản được chia thành các bộ phận: tư bản cố định và tư bản lưu động.
-> *Tư bản cố định là bộ phận tư bản sản xuất tồn tại dưới hình thái tư liệu lao động tham gia toàn bộ vào quá trình sản xuất nhưng giá trị của nó chỉ chuyển dần từng phần vào giá trị sản phẩm theo mức độ hao mòn.*
-> Hao mòn của tư bản cố định bao gồm hao mòn hữu hình (sự mất mát về giá trị sử dụng và giá trị) do sử dụng và tác động của tự nhiên gây ra, và hao mòn vô hình (sự mất giá thuần túy) do sự tăng lên của năng suất lao động sản xuất tư liệu lao động và sự xuất hiện của những thế hệ tư liệu lao động mới có năng suất cao hơn.
-> *Tư bản lưu động là bộ phận tư bản sản xuất tồn tại dưới hình thái sức lao động, nguyên, nhiên, vật liệu, vật liệu phụ, giá trị của nó được chuyển một lần, toàn phần vào giá trị sản phẩm khi kết thúc từng quá trình sản xuất.*
+> Xét theo phương thức chu chuyển giá trị của tư bản sản xuất vào giá trị sản phẩm, tư bản được chia thành các bộ phận: tư bản cố định và tư bản lưu động. *Tư bản cố định là bộ phận tư bản sản xuất tồn tại dưới hình thái tư liệu lao động tham gia toàn bộ vào quá trình sản xuất nhưng giá trị của nó chỉ chuyển dần từng phần vào giá trị sản phẩm theo mức độ hao mòn.* Hao mòn của tư bản cố định bao gồm hao mòn hữu hình (sự mất mát về giá trị sử dụng và giá trị) do sử dụng và tác động của tự nhiên gây ra, và hao mòn vô hình (sự mất giá thuần túy) do sự tăng lên của năng suất lao động sản xuất tư liệu lao động và sự xuất hiện của những thế hệ tư liệu lao động mới có năng suất cao hơn. *Tư bản lưu động là bộ phận tư bản sản xuất tồn tại dưới hình thái sức lao động, nguyên, nhiên, vật liệu, vật liệu phụ, giá trị của nó được chuyển một lần, toàn phần vào giá trị sản phẩm khi kết thúc từng quá trình sản xuất.*
 
 | | **Tư bản cố định** | **Tư bản lưu động** |
 | --- | --- | --- |

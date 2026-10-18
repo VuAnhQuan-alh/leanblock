@@ -1,8 +1,7 @@
 # Bài 2 — Hàng hóa và tiền tệ
 
 > [!info] Về bài này
-> Bài học dựng từ **Chương 2, mục I** (tr. 35–56) của *Giáo trình Kinh tế chính trị Mác – Lênin* (hệ không chuyên), Bộ Giáo dục và Đào tạo, **NXB Chính trị Quốc gia Sự thật, 2021** (chủ biên PGS.TS. Ngô Tuấn Nghĩa).
-> **Vòng 1.** **Học thuyết giá trị** — nền móng của *Tư bản*: sản xuất hàng hóa → hai thuộc tính → tính hai mặt của lao động → lượng giá trị → tiền tệ → dịch vụ và yếu tố khác hàng hóa thông thường. Cần cho [bài 4](bai_04_gia_tri_thang_du_nguon_goc.md). **Nên đọc trước:** [Bài 1](bai_01_doi_tuong_phuong_phap_chuc_nang.md).
+> Bài học dựng từ **Chương 2, mục I** (tr. 35–56) của *Giáo trình Kinh tế chính trị Mác – Lênin* (hệ không chuyên), Bộ Giáo dục và Đào tạo, **NXB Chính trị Quốc gia Sự thật, 2021** (chủ biên PGS.TS. Ngô Tuấn Nghĩa). **Vòng 1.** **Học thuyết giá trị** — nền móng của *Tư bản*: sản xuất hàng hóa → hai thuộc tính → tính hai mặt của lao động → lượng giá trị → tiền tệ → dịch vụ và yếu tố khác hàng hóa thông thường. Cần cho [bài 4](bai_04_gia_tri_thang_du_nguon_goc.md). **Nên đọc trước:** [Bài 1](bai_01_doi_tuong_phuong_phap_chuc_nang.md).
 >
 > **Cách đọc các khối màu:** `[!quote]` nguyên văn giáo trình (trang in) · `[!warning]` chỗ dễ nhầm · `[!note]` Mở rộng ngoài sách · `[!example]` Góc QTKD (biên soạn thêm) · *(số giả định)* = số tự dựng.
 
@@ -42,10 +41,7 @@ Chữ then chốt là **mục đích**: cùng bao gạo, để ăn là sản ph�
 ### Hai điều kiện ra đời
 
 > [!quote] Hai điều kiện (tr. 36)
-> *Một là, phân công lao động xã hội.*
-> Phân công lao động xã hội là sự phân chia lao động trong xã hội thành các ngành, các lĩnh vực sản xuất khác nhau, tạo nên sự chuyên môn hóa của những người sản xuất thành những ngành, nghề khác nhau. …
-> *Hai là, sự tách biệt về mặt kinh tế của các chủ thể sản xuất.*
-> … Sự tách biệt về mặt kinh tế giữa những người sản xuất là điều kiện đủ để nền sản xuất hàng hóa ra đời và phát triển.
+> *Một là, phân công lao động xã hội.* Phân công lao động xã hội là sự phân chia lao động trong xã hội thành các ngành, các lĩnh vực sản xuất khác nhau, tạo nên sự chuyên môn hóa của những người sản xuất thành những ngành, nghề khác nhau. … *Hai là, sự tách biệt về mặt kinh tế của các chủ thể sản xuất.* … Sự tách biệt về mặt kinh tế giữa những người sản xuất là điều kiện đủ để nền sản xuất hàng hóa ra đời và phát triển.
 
 **Cơ chế từng bước:**
 
@@ -77,17 +73,14 @@ Khi còn hai điều kiện, **không thể dùng ý chí chủ quan** xóa bỏ
 ### Khái niệm hàng hóa
 
 > [!quote] Hàng hóa (tr. 37)
-> *Hàng hóa là sản phẩm của lao động, có thể thỏa mãn nhu cầu nào đó của con người thông qua trao đổi, mua bán.*
-> Sản phẩm của lao động là hàng hóa khi được đưa ra nhằm mục đích trao đổi, mua bán trên thị trường. Hàng hóa có thể ở dạng vật thể hoặc phi vật thể.
+> *Hàng hóa là sản phẩm của lao động, có thể thỏa mãn nhu cầu nào đó của con người thông qua trao đổi, mua bán.* Sản phẩm của lao động là hàng hóa khi được đưa ra nhằm mục đích trao đổi, mua bán trên thị trường. Hàng hóa có thể ở dạng vật thể hoặc phi vật thể.
 
 Ba dấu hiệu, thiếu một là không phải hàng hóa: sản phẩm **của lao động** (không khí tự nhiên thì không), **thỏa mãn nhu cầu** (hàng hỏng thì không), **qua trao đổi, mua bán** (rau nhà trồng để ăn thì không).
 
 ### Thuộc tính thứ nhất: giá trị sử dụng
 
 > [!quote] Giá trị sử dụng (tr. 37)
-> *Giá trị sử dụng của hàng hóa là công dụng của sản phẩm, có thể thỏa mãn nhu cầu nào đó của con người.*
-> Nhu cầu đó có thể là nhu cầu vật chất hoặc nhu cầu tinh thần; có thể là nhu cầu cho tiêu dùng cá nhân, có thể là nhu cầu cho sản xuất.
-> Giá trị sử dụng chỉ được thực hiện trong việc sử dụng hay tiêu dùng. …
+> *Giá trị sử dụng của hàng hóa là công dụng của sản phẩm, có thể thỏa mãn nhu cầu nào đó của con người.* Nhu cầu đó có thể là nhu cầu vật chất hoặc nhu cầu tinh thần; có thể là nhu cầu cho tiêu dùng cá nhân, có thể là nhu cầu cho sản xuất. Giá trị sử dụng chỉ được thực hiện trong việc sử dụng hay tiêu dùng. …
 
 Sách thêm: khoa học – công nghệ giúp **phát hiện thêm** giá trị sử dụng (tr. 37) — dầu mỏ từng chỉ để thắp đèn, nay làm nhựa, dược phẩm; và giá trị sử dụng của hàng hóa là giá trị sử dụng **nhằm đáp ứng yêu cầu của người mua** (tr. 38).
 
@@ -107,8 +100,7 @@ Giá trị không nhìn thấy, không sờ được; muốn nhận ra nó phả
 *(số giả định)* 1 rìu = 20 kg thóc: rèn rìu tốn **10 giờ** lao động xã hội, trồng 20 kg thóc cũng tốn **10 giờ** — "10 giờ" là cái chung. Nếu rèn rìu chỉ còn 5 giờ, tỷ lệ có xu hướng thành 1 rìu = 10 kg thóc.
 
 > [!quote] Giá trị (tr. 39)
-> *Vậy, giá trị là lao động xã hội của người sản xuất hàng hóa kết tinh trong hàng hóa.*
-> Giá trị hàng hóa biểu hiện mối quan hệ kinh tế giữa những người sản xuất, trao đổi hàng hóa và là phạm trù có tính lịch sử. Khi nào có sản xuất và trao đổi hàng hóa, khi đó có phạm trù giá trị hàng hóa. Giá trị trao đổi là hình thức biểu hiện ra bên ngoài của giá trị; giá trị là nội dung, là cơ sở của trao đổi. Khi trao đổi người ta ngầm so sánh lao động đã hao phí ẩn giấu trong hàng hóa với nhau.
+> *Vậy, giá trị là lao động xã hội của người sản xuất hàng hóa kết tinh trong hàng hóa.* Giá trị hàng hóa biểu hiện mối quan hệ kinh tế giữa những người sản xuất, trao đổi hàng hóa và là phạm trù có tính lịch sử. Khi nào có sản xuất và trao đổi hàng hóa, khi đó có phạm trù giá trị hàng hóa. Giá trị trao đổi là hình thức biểu hiện ra bên ngoài của giá trị; giá trị là nội dung, là cơ sở của trao đổi. Khi trao đổi người ta ngầm so sánh lao động đã hao phí ẩn giấu trong hàng hóa với nhau.
 
 Phân biệt chặt ba khái niệm hay lẫn:
 
@@ -149,11 +141,7 @@ Hai thuộc tính **thống nhất** mà **mâu thuẫn**: người bán cần g
 Vì sao hàng hóa có **hai** thuộc tính? Mác trả lời: vì lao động của người sản xuất hàng hóa có **tính hai mặt** — mặt *cụ thể* và mặt *trừu tượng* (tr. 40). Không phải hai loại lao động, mà là **một** hoạt động lao động nhìn từ hai phía.
 
 > [!quote] Lao động cụ thể và trừu tượng (tr. 40–41)
-> Lao động cụ thể là lao động có ích dưới một hình thức cụ thể của những nghề nghiệp chuyên môn nhất định.
-> Mỗi lao động cụ thể có mục đích, đối tượng lao động, công cụ, phương pháp lao động riêng và kết quả riêng. Lao động cụ thể tạo ra giá trị sử dụng của hàng hóa.
-> …
-> Lao động trừu tượng là lao động xã hội của người sản xuất hàng hóa không kể đến hình thức cụ thể của nó; đó là sự hao phí sức lao động nói chung của người sản xuất hàng hóa về cơ bắp, thần kinh, trí óc.
-> Lao động trừu tượng tạo ra giá trị của hàng hóa.
+> Lao động cụ thể là lao động có ích dưới một hình thức cụ thể của những nghề nghiệp chuyên môn nhất định. Mỗi lao động cụ thể có mục đích, đối tượng lao động, công cụ, phương pháp lao động riêng và kết quả riêng. Lao động cụ thể tạo ra giá trị sử dụng của hàng hóa. … Lao động trừu tượng là lao động xã hội của người sản xuất hàng hóa không kể đến hình thức cụ thể của nó; đó là sự hao phí sức lao động nói chung của người sản xuất hàng hóa về cơ bắp, thần kinh, trí óc. Lao động trừu tượng tạo ra giá trị của hàng hóa.
 
 Ví dụ: thợ may 8 giờ ra **chiếc áo**, thợ mộc 8 giờ ra **cái bàn** — mặt **cụ thể** khác hẳn; nhưng cả hai đều **tiêu hao 8 giờ sức lực** — ở mặt **trừu tượng** họ so được với nhau, và mặt này tạo ra **giá trị**.
 
@@ -195,8 +183,7 @@ Phát hiện tính hai mặt giúp Mác **vượt lên** D. Ricardo — người
 **Lượng** giá trị là **lượng lao động** đã hao phí, đo bằng **thời gian lao động** (tr. 42). Nhưng nếu tính theo từng người thì kẻ vụng làm ra hàng "đắt" hơn — vô lý.
 
 > [!quote] Thời gian lao động xã hội cần thiết (tr. 42–43)
-> Lượng lao động đã hao phí được tính bằng thời gian lao động. Thời gian lao động này phải được xã hội chấp nhận, không phải là thời gian lao động của đơn vị sản xuất cá biệt, mà là thời gian lao động xã hội cần thiết.
-> *Thời gian lao động xã hội cần thiết là thời gian đòi hỏi để sản xuất ra một giá trị sử dụng nào đó trong những điều kiện bình thường của xã hội với trình độ thành thạo trung bình, cường độ lao động trung bình.*
+> Lượng lao động đã hao phí được tính bằng thời gian lao động. Thời gian lao động này phải được xã hội chấp nhận, không phải là thời gian lao động của đơn vị sản xuất cá biệt, mà là thời gian lao động xã hội cần thiết. *Thời gian lao động xã hội cần thiết là thời gian đòi hỏi để sản xuất ra một giá trị sử dụng nào đó trong những điều kiện bình thường của xã hội với trình độ thành thạo trung bình, cường độ lao động trung bình.*
 
 **Ví dụ số — tính bằng bình quân gia quyền** *(số giả định; cách tính bình quân gia quyền là cách minh hoạ phổ biến, sách chỉ nêu định nghĩa)*. Ba nhóm cùng sản xuất vải:
 
@@ -226,11 +213,7 @@ Lượng giá trị một đơn vị hàng hóa = **hao phí lao động quá kh
 #### Nhân tố một: năng suất lao động
 
 > [!quote] Năng suất lao động (tr. 43–44)
-> *Một là*, năng suất lao động.
-> *Năng suất lao động là năng lực sản xuất của người lao động, được tính bằng số lượng sản phẩm sản xuất ra trong một đơn vị thời gian hay số lượng thời gian hao phí để sản xuất ra một đơn vị sản phẩm.*
-> Năng suất lao động tăng lên sẽ làm giảm lượng thời gian hao phí lao động cần thiết trong một đơn vị hàng hóa. Do vậy, năng suất lao động tăng lên sẽ làm cho lượng giá trị trong một đơn vị hàng hóa giảm xuống. "Như vậy là đại lượng giá trị của một hàng hóa thay đổi theo tỷ lệ thuận với lượng lao động thể hiện trong hàng hóa đó và tỷ lệ nghịch với sức sản xuất của lao động đó".
-> …
-> Các nhân tố ảnh hưởng đến năng suất lao động gồm: i) trình độ khéo léo trung bình của người lao động; ii) mức độ phát triển của khoa học và trình độ áp dụng khoa học vào quy trình công nghệ; iii) sự kết hợp xã hội của quá trình sản xuất; iv) quy mô và hiệu suất của tư liệu sản xuất; v) các điều kiện tự nhiên.
+> *Một là*, năng suất lao động. *Năng suất lao động là năng lực sản xuất của người lao động, được tính bằng số lượng sản phẩm sản xuất ra trong một đơn vị thời gian hay số lượng thời gian hao phí để sản xuất ra một đơn vị sản phẩm.* Năng suất lao động tăng lên sẽ làm giảm lượng thời gian hao phí lao động cần thiết trong một đơn vị hàng hóa. Do vậy, năng suất lao động tăng lên sẽ làm cho lượng giá trị trong một đơn vị hàng hóa giảm xuống. "Như vậy là đại lượng giá trị của một hàng hóa thay đổi theo tỷ lệ thuận với lượng lao động thể hiện trong hàng hóa đó và tỷ lệ nghịch với sức sản xuất của lao động đó". … Các nhân tố ảnh hưởng đến năng suất lao động gồm: i) trình độ khéo léo trung bình của người lao động; ii) mức độ phát triển của khoa học và trình độ áp dụng khoa học vào quy trình công nghệ; iii) sự kết hợp xã hội của quá trình sản xuất; iv) quy mô và hiệu suất của tư liệu sản xuất; v) các điều kiện tự nhiên.
 
 (Câu của C. Mác: *Toàn tập*, Sđd, t.23, tr.69; dẫn tr. 44.)
 
@@ -239,8 +222,7 @@ Hai cách đo năng suất là **nghịch đảo** nhau (2 sản phẩm/giờ �
 #### Trong nhân tố một: chú ý cường độ lao động
 
 > [!quote] Cường độ lao động (tr. 44–45)
-> *Cường độ lao động là mức độ khẩn trương, tích cực của hoạt động lao động trong sản xuất.*
-> Tăng cường độ lao động là tăng mức độ khẩn trương, tích cực của hoạt động lao động. Trong chừng mực xét riêng vai trò của cường độ lao động, việc tăng cường độ lao động làm cho tổng số sản phẩm tăng lên. Tổng lượng giá trị của tất cả hàng hóa gộp lại tăng lên. Song, lượng thời gian lao động xã hội cần thiết hao phí để sản xuất ra một đơn vị hàng hóa không thay đổi; vì tăng cường độ lao động chỉ nhấn mạnh tăng mức độ khẩn trương, tích cực của hoạt động lao động thay vì lười biếng mà sản xuất ra số lượng hàng hóa ít hơn.
+> *Cường độ lao động là mức độ khẩn trương, tích cực của hoạt động lao động trong sản xuất.* Tăng cường độ lao động là tăng mức độ khẩn trương, tích cực của hoạt động lao động. Trong chừng mực xét riêng vai trò của cường độ lao động, việc tăng cường độ lao động làm cho tổng số sản phẩm tăng lên. Tổng lượng giá trị của tất cả hàng hóa gộp lại tăng lên. Song, lượng thời gian lao động xã hội cần thiết hao phí để sản xuất ra một đơn vị hàng hóa không thay đổi; vì tăng cường độ lao động chỉ nhấn mạnh tăng mức độ khẩn trương, tích cực của hoạt động lao động thay vì lười biếng mà sản xuất ra số lượng hàng hóa ít hơn.
 
 Cường độ chịu ảnh hưởng của sức khỏe, tâm lý, tay nghề, tổ chức, kỷ luật lao động (tr. 45).
 
@@ -268,11 +250,7 @@ Cường độ chịu ảnh hưởng của sức khỏe, tâm lý, tay nghề, t
 #### Nhân tố hai: tính chất phức tạp của lao động
 
 > [!quote] Lao động giản đơn và phức tạp (tr. 45–46)
-> *Hai là*, tính chất phức tạp của lao động.
-> Căn cứ vào mức độ phức tạp của lao động mà chia thành lao động giản đơn và lao động phức tạp.
-> Lao động giản đơn là lao động không đòi hỏi có quá trình đào tạo một cách hệ thống, chuyên sâu về chuyên môn, kỹ năng, nghiệp vụ cũng có thể thao tác được.
-> Lao động phức tạp là những hoạt động lao động yêu cầu phải trải qua một quá trình đào tạo về kỹ năng, nghiệp vụ theo yêu cầu của những nghề nghiệp chuyên môn nhất định.
-> Trong cùng một đơn vị thời gian lao động như nhau, lao động phức tạp tạo ra nhiều giá trị hơn so với lao động giản đơn. Lao động phức tạp là lao động giản đơn được nhân bội lên. …
+> *Hai là*, tính chất phức tạp của lao động. Căn cứ vào mức độ phức tạp của lao động mà chia thành lao động giản đơn và lao động phức tạp. Lao động giản đơn là lao động không đòi hỏi có quá trình đào tạo một cách hệ thống, chuyên sâu về chuyên môn, kỹ năng, nghiệp vụ cũng có thể thao tác được. Lao động phức tạp là những hoạt động lao động yêu cầu phải trải qua một quá trình đào tạo về kỹ năng, nghiệp vụ theo yêu cầu của những nghề nghiệp chuyên môn nhất định. Trong cùng một đơn vị thời gian lao động như nhau, lao động phức tạp tạo ra nhiều giá trị hơn so với lao động giản đơn. Lao động phức tạp là lao động giản đơn được nhân bội lên. …
 
 Sách nói đây là cơ sở để nhà quản trị và người lao động xác định **mức thù lao** phù hợp (tr. 46). **Bội số** *(số giả định)*: 1 giờ của kỹ sư thiết kế tương đương **3 giờ** lao động giản đơn → 8 giờ của kỹ sư tạo lượng giá trị bằng `8 × 3 = 24` giờ lao động giản đơn. Vì sao? *(theo Mác, ngoài giáo trình)* Để có lao động phức tạp, xã hội đã hao phí thêm lao động **đào tạo**; khi trao đổi, mọi lao động phức tạp được **quy về** bội số lao động giản đơn, tự phát qua thị trường.
 
@@ -291,8 +269,7 @@ Sách nói đây là cơ sở để nhà quản trị và người lao động x
 Giá trị chỉ **bộc lộ** trong trao đổi qua các **hình thái biểu hiện**; lịch sử phát triển của chúng "cũng chính là lịch sử hình thành tiền tệ" (tr. 46).
 
 > [!quote] Hình thái giản đơn (tr. 46–47)
-> Ví dụ, có phương trình trao đổi như sau: 1A = 2B.
-> Ở đây, giá trị ẩn chứa trong hàng hóa A được biểu hiện ra ở hàng hóa B; với thuộc tính tự nhiên của mình, hàng hóa B trở thành hiện thân của giá trị của hàng hóa A. Sở dĩ như vậy là vì bản thân hàng hóa B cũng có giá trị. Giá trị sử dụng của hàng hóa A được dùng để biểu hiện giá trị của hàng hóa B được gọi là hình thái vật ngang giá.
+> Ví dụ, có phương trình trao đổi như sau: 1A = 2B. Ở đây, giá trị ẩn chứa trong hàng hóa A được biểu hiện ra ở hàng hóa B; với thuộc tính tự nhiên của mình, hàng hóa B trở thành hiện thân của giá trị của hàng hóa A. Sở dĩ như vậy là vì bản thân hàng hóa B cũng có giá trị. Giá trị sử dụng của hàng hóa A được dùng để biểu hiện giá trị của hàng hóa B được gọi là hình thái vật ngang giá.
 
 > [!warning] Sách in đảo A/B
 > Theo chính câu trước của sách ("giá trị… A được biểu hiện ra ở hàng hóa B"), **B** mới là **vật ngang giá**: giá trị sử dụng của **B** biểu hiện giá trị của **A**. Theo *Tư bản* (Q.I, chương 1): A ở **hình thái giá trị tương đối**, B ở **hình thái ngang giá**. Khi thi, viết theo logic đúng này.
@@ -319,8 +296,7 @@ Mỗi bước sinh ra từ hạn chế của bước trước: sản xuất phá
 > (Ngoài giáo trình; *Tư bản*, Q.I, chương 1, mục 3, ví dụ "20 vuông vải = 1 cái áo".) Trong `xA = yB`, A **chủ động** biểu hiện giá trị của mình (hình thái **tương đối**), B **bị động** làm chất liệu biểu hiện (hình thái **ngang giá**). Hình thái ngang giá có ba đặc điểm:
 > 1. **Giá trị sử dụng** (thân chiếc áo) thành hình thức biểu hiện của cái đối lập với nó — **giá trị**.
 > 2. **Lao động cụ thể** (nghề may) thành hình thức biểu hiện của **lao động trừu tượng**.
-> 3. **Lao động tư nhân** thành hình thức của **lao động xã hội** trực tiếp.
-> Khi ngang giá cố định vào vàng, ba đặc điểm dính vào kim loại → người ta tưởng vàng **tự nhiên** có quyền mua mọi thứ. Mác gọi đó là **tính bái vật** của tiền: quan hệ **người với người** hiện ra như thuộc tính của một **vật** — vì vậy sách viết tiền phản ánh "mối quan hệ giữa những người sản xuất và trao đổi hàng hóa" (tr. 48).
+> 3. **Lao động tư nhân** thành hình thức của **lao động xã hội** trực tiếp. Khi ngang giá cố định vào vàng, ba đặc điểm dính vào kim loại → người ta tưởng vàng **tự nhiên** có quyền mua mọi thứ. Mác gọi đó là **tính bái vật** của tiền: quan hệ **người với người** hiện ra như thuộc tính của một **vật** — vì vậy sách viết tiền phản ánh "mối quan hệ giữa những người sản xuất và trao đổi hàng hóa" (tr. 48).
 
 ### Bản chất của tiền
 
@@ -337,9 +313,7 @@ Tiền "đặc biệt" vì giá trị sử dụng riêng của nó là **làm v�
 ### b) Năm chức năng của tiền
 
 > [!quote] Thước đo giá trị và giá cả (tr. 49–50)
-> Tiền dùng để đo lường và biểu hiện giá trị của các hàng hóa khác. Muốn đo lường giá trị của các hàng hóa, bản thân tiền phải có giá trị. Để thực hiện chức năng đo lường giá trị, không nhất thiết phải là tiền mặt mà chỉ cần so sánh với một lượng vàng nhất định một cách tưởng tượng. …
-> *Giá trị hàng hóa được biểu hiện bằng tiền gọi là giá cả hàng hóa.*
-> Như vậy, giá cả hàng hóa là hình thức biểu hiện bằng tiền của giá trị hàng hóa. Giá trị là cơ sở của giá cả. Trong khi các điều kiện khác không thay đổi, nếu giá trị của hàng hóa càng lớn thì giá cả của hàng hóa càng cao và ngược lại. Giá cả của hàng hóa có thể lên xuống do tác động bởi nhiều yếu tố như: giá trị của hàng hóa, giá trị của tiền, ảnh hưởng của quan hệ cung - cầu.
+> Tiền dùng để đo lường và biểu hiện giá trị của các hàng hóa khác. Muốn đo lường giá trị của các hàng hóa, bản thân tiền phải có giá trị. Để thực hiện chức năng đo lường giá trị, không nhất thiết phải là tiền mặt mà chỉ cần so sánh với một lượng vàng nhất định một cách tưởng tượng. … *Giá trị hàng hóa được biểu hiện bằng tiền gọi là giá cả hàng hóa.* Như vậy, giá cả hàng hóa là hình thức biểu hiện bằng tiền của giá trị hàng hóa. Giá trị là cơ sở của giá cả. Trong khi các điều kiện khác không thay đổi, nếu giá trị của hàng hóa càng lớn thì giá cả của hàng hóa càng cao và ngược lại. Giá cả của hàng hóa có thể lên xuống do tác động bởi nhiều yếu tố như: giá trị của hàng hóa, giá trị của tiền, ảnh hưởng của quan hệ cung - cầu.
 
 **Ví dụ số — chức năng 1** *(số giả định, tiếp ví dụ trên: 1A = 6 giờ, 1 gr vàng = 60 giờ)*. `Giá cả A = giá trị A / giá trị 1 gr vàng = 6/60 = 0,1 gr`.
 
@@ -353,10 +327,8 @@ Tiền "đặc biệt" vì giá trị sử dụng riêng của nó là **làm v�
 Dòng ba: giá cả **gấp đôi** mà giá trị A **không đổi** — gốc lý luận của lạm phát.
 
 > [!quote] Lưu thông và cất trữ (tr. 50)
-> Khi thực hiện chức năng phương tiện lưu thông, tiền được dùng làm môi giới cho quá trình trao đổi hàng hóa.
-> Để thực hiện chức năng làm phương tiện lưu thông, yêu cầu phải có tiền mặt (tiền đúc bằng kim loại, tiền giấy). Trong thực hiện chức năng phương tiện lưu thông, tiền không nhất thiết phải có đủ giá trị. Đây là cơ sở cho các quốc gia công nhận và phát hành các loại tiền giấy khác nhau. … đồng thời làm cho hành vi mua, hành vi bán tách rời về không gian và thời gian. Do đó, có thể tiềm ẩn khả năng khủng hoảng.
-> - *Phương tiện cất trữ*
-> Thực hiện phương tiện cất trữ, tiền rút ra khỏi quá trình lưu thông để đi vào cất trữ. Thực hiện phương tiện cất trữ, tiền phải có đủ giá trị như tiền vàng, tiền bạc. …
+> Khi thực hiện chức năng phương tiện lưu thông, tiền được dùng làm môi giới cho quá trình trao đổi hàng hóa. Để thực hiện chức năng làm phương tiện lưu thông, yêu cầu phải có tiền mặt (tiền đúc bằng kim loại, tiền giấy). Trong thực hiện chức năng phương tiện lưu thông, tiền không nhất thiết phải có đủ giá trị. Đây là cơ sở cho các quốc gia công nhận và phát hành các loại tiền giấy khác nhau. … đồng thời làm cho hành vi mua, hành vi bán tách rời về không gian và thời gian. Do đó, có thể tiềm ẩn khả năng khủng hoảng.
+> - *Phương tiện cất trữ* Thực hiện phương tiện cất trữ, tiền rút ra khỏi quá trình lưu thông để đi vào cất trữ. Thực hiện phương tiện cất trữ, tiền phải có đủ giá trị như tiền vàng, tiền bạc. …
 
 **Cơ chế khủng hoảng tiềm ẩn:** trao đổi trực tiếp `H – H` thì bán đồng thời là mua. Có tiền xen vào, trao đổi tách thành `H – T` (bán) và `T – H` (mua); người bán cầm tiền có thể **chưa mua ngay** → người sản xuất tiếp theo không bán được → chuỗi đứt (tr. 50).
 
@@ -374,10 +346,8 @@ Sách: phát hành tiền giấy quá nhiều dẫn đến lạm phát; nhà nư
 **Chức năng 3 — cất trữ tự điều tiết** *(số giả định, tiền vàng)*: sản xuất giảm, `P·Q` còn 1.000, `V = 4` → chỉ cần `M = 250`; **50** tiền vàng thừa rút vào cất trữ, sản xuất phục hồi thì quay lại lưu thông (tr. 50). Vì vậy tiền cất trữ phải **đủ giá trị**.
 
 > [!quote] Thanh toán và tiền tệ thế giới (tr. 51)
-> Trong trường hợp tiền được dùng để trả nợ, trả tiền mua chịu hàng hóa... thì tiền làm phương tiện thanh toán. … Chức năng phương tiện thanh toán của tiền gắn liền với chế độ tín dụng thương mại, tức là mua bán thông qua chế độ tín dụng.
-> Ngày nay việc thanh toán không dùng tiền mặt phát triển mạnh mẽ. Người ta có thể sử dụng tiền ghi sổ, hoặc tiền trong tài khoản ngân hàng, tiền điện tử, bitcoin...
-> - *Tiền tệ thế giới*
-> Khi trao đổi hàng hóa mở rộng ra ngoài biên giới quốc gia, tiền làm chức năng tiền tệ thế giới. … Để thực hiện chức năng này, tiền phải có đủ giá trị, phải là tiền vàng hoặc những đồng tiền được công nhận là phương tiện thanh toán quốc tế.
+> Trong trường hợp tiền được dùng để trả nợ, trả tiền mua chịu hàng hóa... thì tiền làm phương tiện thanh toán. … Chức năng phương tiện thanh toán của tiền gắn liền với chế độ tín dụng thương mại, tức là mua bán thông qua chế độ tín dụng. Ngày nay việc thanh toán không dùng tiền mặt phát triển mạnh mẽ. Người ta có thể sử dụng tiền ghi sổ, hoặc tiền trong tài khoản ngân hàng, tiền điện tử, bitcoin...
+> - *Tiền tệ thế giới* Khi trao đổi hàng hóa mở rộng ra ngoài biên giới quốc gia, tiền làm chức năng tiền tệ thế giới. … Để thực hiện chức năng này, tiền phải có đủ giá trị, phải là tiền vàng hoặc những đồng tiền được công nhận là phương tiện thanh toán quốc tế.
 
 *(số giả định)* **Chức năng 4:** A nợ B 100, B nợ C 100, C nợ A 100 → khấu trừ cho nhau (G2), không cần tiền mặt. **Chức năng 5:** nhập máy 1 triệu USD, tỷ giá 26.000 đồng/USD → cần 26 tỷ đồng đổi sang USD.
 
@@ -398,8 +368,7 @@ Sách: phát hành tiền giấy quá nhiều dẫn đến lạm phát; nhà nư
 > - Với **lưu thông**, sách đã nói tiền "không nhất thiết phải có đủ giá trị" (tr. 50): tiền giấy là **ký hiệu giá trị**.
 > - Giá trị đại diện đó được giữ bằng lượng phát hành khớp `M = P·Q/V` (tr. 71–72) và sức sản xuất **thật** đứng sau đồng tiền; in quá thì mất giá.
 > - Với **cất trữ** và **tiền tệ thế giới**, người ta vẫn tìm thứ "đủ giá trị": ngân hàng trung ương vẫn giữ vàng dự trữ (mục 7).
-> - Tiền số ngân hàng trung ương (ECB đưa euro kỹ thuật số sang giai đoạn tiếp theo ngày 30/10/2025) hay stablecoin neo 1:1 vào USD (đạo luật GENIUS, Mỹ, 18/7/2025) chỉ đổi **hình thức** lưu thông, thanh toán; bitcoin biến động mạnh nên khó làm **thước đo giá trị**.
-> Tiền pháp định tách thước đo giá trị khỏi kim loại, nhưng vẫn là đại diện của giá trị do lao động xã hội tạo ra.
+> - Tiền số ngân hàng trung ương (ECB đưa euro kỹ thuật số sang giai đoạn tiếp theo ngày 30/10/2025) hay stablecoin neo 1:1 vào USD (đạo luật GENIUS, Mỹ, 18/7/2025) chỉ đổi **hình thức** lưu thông, thanh toán; bitcoin biến động mạnh nên khó làm **thước đo giá trị**. Tiền pháp định tách thước đo giá trị khỏi kim loại, nhưng vẫn là đại diện của giá trị do lao động xã hội tạo ra.
 
 > [!example] Góc QTKD — giá cả và quản trị tiền
 > **Giá cả = giá trị / giá trị của tiền, ± cung – cầu.** Định giá lấy chi phí làm neo; lạm phát làm giá danh nghĩa tăng dù giá trị không đổi — nên so doanh thu **thực**. Năm chức năng ánh xạ vào tài chính doanh nghiệp: kế toán · dòng tiền · quỹ dự phòng · công nợ, tín dụng thương mại · rủi ro tỷ giá.
@@ -413,10 +382,7 @@ Mục 4 của giáo trình **làm rõ thêm** "một số khía cạnh mà sinh 
 ### a) Dịch vụ
 
 > [!quote] Dịch vụ (tr. 51–52)
-> Dịch vụ là một loại hàng hóa, nhưng đó là loại hàng hóa vô hình.
-> Để có được các loại dịch vụ, người ta cũng phải hao phí sức lao động và mục đích của việc cung ứng dịch vụ cũng nhằm thỏa mãn nhu cầu của người có nhu cầu về loại hình dịch vụ đó. Giá trị của dịch vụ cũng là lao động xã hội tạo ra dịch vụ. Giá trị sử dụng của dịch vụ không phải là phục vụ trực tiếp người cung ứng dịch vụ.
-> …
-> Khác với hàng hóa thông thường, dịch vụ là hàng hóa không thể cất trữ. Việc sản xuất và tiêu dùng dịch vụ được diễn ra đồng thời.
+> Dịch vụ là một loại hàng hóa, nhưng đó là loại hàng hóa vô hình. Để có được các loại dịch vụ, người ta cũng phải hao phí sức lao động và mục đích của việc cung ứng dịch vụ cũng nhằm thỏa mãn nhu cầu của người có nhu cầu về loại hình dịch vụ đó. Giá trị của dịch vụ cũng là lao động xã hội tạo ra dịch vụ. Giá trị sử dụng của dịch vụ không phải là phục vụ trực tiếp người cung ứng dịch vụ. … Khác với hàng hóa thông thường, dịch vụ là hàng hóa không thể cất trữ. Việc sản xuất và tiêu dùng dịch vụ được diễn ra đồng thời.
 
 Một buổi cắt tóc có **lao động**, có **công dụng**, được **mua bán** → là hàng hóa; giá trị sử dụng thuộc **khách**, không phải thợ. Nhưng không thể cắt tóc trước rồi "để kho"; cắt và được cắt diễn ra **cùng lúc**. Sách bác bỏ ngộ nhận "Mác chỉ biết hàng hóa vật thể": theo Mác, dịch vụ cho sản xuất thuộc khu vực hàng hóa cho sản xuất, dịch vụ cho tiêu dùng thuộc phạm trù hàng hóa cho tiêu dùng; "về tổng quát, thực chất dịch vụ cũng là một kiểu hàng hóa" (tr. 52).
 
@@ -427,8 +393,7 @@ Nền sản xuất ngày nay mua bán nhiều yếu tố **có giá trị sử d
 **① Quyền sử dụng đất**
 
 > [!quote] Quyền sử dụng đất (tr. 53–54)
-> Quyền sử dụng đất có giá trị sử dụng, có giá cả nhưng không do hao phí lao động tạo ra theo cách như các hàng hóa thông thường. …
-> Xét về bản chất, số lượng tiền đó chính là hệ quả của việc tiền từ túi chủ thể này chuyển sang túi chủ thể khác. … Xét trên phạm vi toàn xã hội, không thể có một xã hội giàu có nếu chỉ mua bán quyền sử dụng đất.
+> Quyền sử dụng đất có giá trị sử dụng, có giá cả nhưng không do hao phí lao động tạo ra theo cách như các hàng hóa thông thường. … Xét về bản chất, số lượng tiền đó chính là hệ quả của việc tiền từ túi chủ thể này chuyển sang túi chủ thể khác. … Xét trên phạm vi toàn xã hội, không thể có một xã hội giàu có nếu chỉ mua bán quyền sử dụng đất.
 
 Giá cả quyền sử dụng đất chịu tác động của giá trị của tiền, cung cầu, đầu cơ, khan hiếm, đô thị hóa…; tiền ở đây là **phương tiện thanh toán**, không phải thước đo giá trị; nhiều người "chưa phân biệt được giá trị và của cải" (tr. 53–54). *(số giả định)* Ông X mua quyền sử dụng lô đất 2 tỷ, năm sau bán cho bà Y 3 tỷ: ông X "giàu thêm" 1 tỷ, bà Y bớt tương ứng; xã hội không thêm mét vuông đất hay sản phẩm nào — **giá trị** mới bằng 0, 1 tỷ chỉ là **của cải chuyển túi**. Cơ chế giá đất (`giá đất = địa tô / lãi suất`) ở [bài 5](bai_05_tich_luy_va_loi_nhuan_dia_to.md).
 
@@ -437,8 +402,7 @@ Giá cả quyền sử dụng đất chịu tác động của giá trị của 
 **④ Chứng khoán, chứng quyền và một số giấy tờ có giá**
 
 > [!quote] Chứng khoán, chứng quyền (tr. 55–56)
-> Chứng khoán, chứng quyền, các loại giấy tờ có giá khác cũng có một số đặc trưng như hàng hóa, mang lại thu nhập cho người mua bán. … C. Mác gọi những hàng hóa này là tư bản giả, để phân biệt với tư bản tham gia quá trình sản xuất, trao đổi hàng hóa thực trong nền kinh tế.
-> Để có thể được mua bán các loại chứng khoán, chứng quyền hoặc giấy tờ có giá đó phải dựa trên cơ sở sự tồn tại của một tổ chức sản xuất kinh doanh có thực. … Do đó, chứng khoán, chứng quyền là loại yếu tố phái sinh, nó có tính hàng hóa, bản thân chúng không phải là hàng hóa như hàng hóa thông thường.
+> Chứng khoán, chứng quyền, các loại giấy tờ có giá khác cũng có một số đặc trưng như hàng hóa, mang lại thu nhập cho người mua bán. … C. Mác gọi những hàng hóa này là tư bản giả, để phân biệt với tư bản tham gia quá trình sản xuất, trao đổi hàng hóa thực trong nền kinh tế. Để có thể được mua bán các loại chứng khoán, chứng quyền hoặc giấy tờ có giá đó phải dựa trên cơ sở sự tồn tại của một tổ chức sản xuất kinh doanh có thực. … Do đó, chứng khoán, chứng quyền là loại yếu tố phái sinh, nó có tính hàng hóa, bản thân chúng không phải là hàng hóa như hàng hóa thông thường.
 
 Giàu lên sau mỗi giao dịch thực chất là **tiền chuyển túi**; giá chứng khoán phản ánh **lợi ích kỳ vọng**; toàn xã hội không thể giàu chỉ bằng buôn bán chứng khoán (tr. 56).
 

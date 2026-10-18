@@ -1,9 +1,7 @@
 # Bài 8 — Công nghiệp hóa, hiện đại hóa và hội nhập kinh tế quốc tế
 
 > [!info] Về bài này
-> Bài học dựng từ **Chương 6** (tr. 224–286) của *Giáo trình Kinh tế chính trị Mác – Lênin* (hệ không chuyên), Bộ Giáo dục và Đào tạo, **NXB Chính trị Quốc gia Sự thật, 2021** (chủ biên PGS.TS. Ngô Tuấn Nghĩa).
-> **Vòng 2 — bài kết của khoá.** Hai phần (tr. 225): **I. CNH-HĐH ở Việt Nam** (cách mạng công nghiệp, ba mô hình, tính tất yếu, nội dung, thích ứng CMCN lần thứ tư) và **II. Hội nhập kinh tế quốc tế** (khái niệm, tất yếu, nội dung, tác động, sáu phương hướng, nền kinh tế độc lập, tự chủ). Chương không có công thức; bài dùng bảng, mốc thời gian, số liệu thật và ví dụ *(số giả định)*.
-> **Nên đọc trước:** [Bài 7](bai_07_kttt_dinh_huong_xhcn.md) (KTTT định hướng XHCN) và [Bài 6](bai_06_canh_tranh_va_doc_quyen.md) (xuất khẩu tư bản, công ty xuyên quốc gia).
+> Bài học dựng từ **Chương 6** (tr. 224–286) của *Giáo trình Kinh tế chính trị Mác – Lênin* (hệ không chuyên), Bộ Giáo dục và Đào tạo, **NXB Chính trị Quốc gia Sự thật, 2021** (chủ biên PGS.TS. Ngô Tuấn Nghĩa). **Vòng 2 — bài kết của khoá.** Hai phần (tr. 225): **I. CNH-HĐH ở Việt Nam** (cách mạng công nghiệp, ba mô hình, tính tất yếu, nội dung, thích ứng CMCN lần thứ tư) và **II. Hội nhập kinh tế quốc tế** (khái niệm, tất yếu, nội dung, tác động, sáu phương hướng, nền kinh tế độc lập, tự chủ). Chương không có công thức; bài dùng bảng, mốc thời gian, số liệu thật và ví dụ *(số giả định)*. **Nên đọc trước:** [Bài 7](bai_07_kttt_dinh_huong_xhcn.md) (KTTT định hướng XHCN) và [Bài 6](bai_06_canh_tranh_va_doc_quyen.md) (xuất khẩu tư bản, công ty xuyên quốc gia).
 >
 > **Cách đọc các khối màu:** `[!quote]` trích nguyên văn giáo trình (kèm trang in) · `[!warning]` chỗ dễ nhầm khi thi · `[!note]` ghi chú / Mở rộng ngoài sách · `[!example]` Góc QTKD (biên soạn thêm, không có trong sách) · *(số giả định)* = số tự dựng để minh hoạ.
 
@@ -110,9 +108,7 @@ Chú ý: "thủ công **là chính**" → "**chủ yếu** bằng máy móc" —
 NICs nhanh gấp khoảng ba lần mô hình cổ điển (`60/20 = 3`, `80/30 ≈ 2,7`) vì nước đi sau **không phải phát minh lại** — "lợi thế của những nước đi sau" (tr. 232).
 
 > [!quote] Ba con đường (tr. 245)
-> *Một là,* thông qua đầu tư nghiên cứu, chế tạo và hoàn thiện dần dần trình độ công nghệ từ trình độ thấp đến trình độ cao, con đường này thường diễn ra trong thời gian dài, và tổn thất nhiều trong quá trình thử nghiệm.
-> *Hai là,* tiếp nhận chuyển giao công nghệ hiện đại từ nước phát triển hơn, con đường này một mặt đòi hỏi phải có nhiều vốn và ngoại tệ, mặt khác luôn luôn chịu sự phụ thuộc vào nước ngoài.
-> *Ba là,* xây dựng chiến lược phát triển khoa học - công nghệ nhiều tầng, kết hợp cả công nghệ truyền thống và công nghệ hiện đại. Kết hợp vừa nghiên cứu chế tạo vừa tiếp nhận chuyển giao công nghệ từ các nước phát triển hơn, con đường vừa cơ bản, lâu dài và vững chắc; vừa đảm bảo đi tắt và bám đuổi theo các nước phát triển hơn.
+> *Một là,* thông qua đầu tư nghiên cứu, chế tạo và hoàn thiện dần dần trình độ công nghệ từ trình độ thấp đến trình độ cao, con đường này thường diễn ra trong thời gian dài, và tổn thất nhiều trong quá trình thử nghiệm. *Hai là,* tiếp nhận chuyển giao công nghệ hiện đại từ nước phát triển hơn, con đường này một mặt đòi hỏi phải có nhiều vốn và ngoại tệ, mặt khác luôn luôn chịu sự phụ thuộc vào nước ngoài. *Ba là,* xây dựng chiến lược phát triển khoa học - công nghệ nhiều tầng, kết hợp cả công nghệ truyền thống và công nghệ hiện đại. Kết hợp vừa nghiên cứu chế tạo vừa tiếp nhận chuyển giao công nghệ từ các nước phát triển hơn, con đường vừa cơ bản, lâu dài và vững chắc; vừa đảm bảo đi tắt và bám đuổi theo các nước phát triển hơn.
 
 Nhật Bản và NICs đi **con đường thứ ba** (tr. 245).
 
@@ -141,9 +137,7 @@ Nhật Bản và NICs đi **con đường thứ ba** (tr. 245).
 > Không viết gọn thành "các hoạt động kinh tế – xã hội". Ba thành tố **sản xuất kinh doanh, dịch vụ, quản lý** là chỗ phân biệt CNH-HĐH với CNH: hiện đại hóa chạm cả **quản lý**.
 
 > [!quote] Lý do khách quan (tr. 246–247)
-> *Một là,* lý luận và thực tiễn cho thấy, công nghiệp hóa là quy luật phổ biến của sự phát triển lực lượng sản xuất xã hội mà mọi quốc gia đều trải qua dù ở các quốc gia phát triển sớm hay các quốc gia đi sau.
-> …
-> *Hai là,* đối với các nước có nền kinh tế kém phát triển quá độ lên chủ nghĩa xã hội như nước ta, xây dựng cơ sở vật chất - kỹ thuật cho chủ nghĩa xã hội phải thực hiện từ đầu thông qua công nghiệp hóa, hiện đại hóa.
+> *Một là,* lý luận và thực tiễn cho thấy, công nghiệp hóa là quy luật phổ biến của sự phát triển lực lượng sản xuất xã hội mà mọi quốc gia đều trải qua dù ở các quốc gia phát triển sớm hay các quốc gia đi sau. … *Hai là,* đối với các nước có nền kinh tế kém phát triển quá độ lên chủ nghĩa xã hội như nước ta, xây dựng cơ sở vật chất - kỹ thuật cho chủ nghĩa xã hội phải thực hiện từ đầu thông qua công nghiệp hóa, hiện đại hóa.
 
 Lập luận nối hai lý do (tr. 246–247): mỗi phương thức sản xuất có một **cơ sở vật chất – kỹ thuật** tương ứng; nó là tiêu chuẩn đánh giá mức hiện đại và điều kiện quyết định năng suất; cơ sở vật chất – kỹ thuật của CNXH "phải là nền kinh tế hiện đại: có cơ cấu kinh tế hợp lý, có trình độ xã hội hóa cao dựa trên trình độ khoa học và công nghệ hiện đại" (tr. 247). Chữ **"từ đầu"**: Việt Nam không thừa hưởng cơ sở vật chất của một CNTB phát triển. Sách liệt kê thêm tác dụng (tr. 247–248): nâng dần **tính độc lập, tự chủ**, củng cố liên minh công – nông – trí thức, tăng tiềm lực quốc phòng; kết luận CNH-HĐH là "nhân tố quyết định sự thắng lợi của con đường đi lên chủ nghĩa xã hội" (tr. 248).
 
@@ -177,8 +171,7 @@ Hai là — 4 NHIỆM VỤ (tr. 249–259)
 Nước kém phát triển: trọng tâm là **cơ khí hóa**, nhưng ngành có điều kiện thì ứng dụng ngay công nghệ mới (tr. 250). Ưu tiên ngành **sản xuất tư liệu sản xuất** (máy cái):
 
 > [!quote] Ưu tiên máy cái (tr. 250)
-> Khi nghiên cứu lý luận về tái sản xuất trong chủ nghĩa tư bản, V.I. Lênin đã rút ra quy luật: cần phải ưu tiên phát triển sản xuất tư liệu sản xuất để chế tạo ra tư liệu sản xuất. Nếu thực hiện được điều này, thì cũng chính là quá trình xây dựng nền kinh tế có tính độc lập, tự chủ cao.
-> (Chú thích của sách: Xem V.I. Lênin: *Toàn tập*, Sđd, t.45, tr.XVIII.)
+> Khi nghiên cứu lý luận về tái sản xuất trong chủ nghĩa tư bản, V.I. Lênin đã rút ra quy luật: cần phải ưu tiên phát triển sản xuất tư liệu sản xuất để chế tạo ra tư liệu sản xuất. Nếu thực hiện được điều này, thì cũng chính là quá trình xây dựng nền kinh tế có tính độc lập, tự chủ cao. (Chú thích của sách: Xem V.I. Lênin: *Toàn tập*, Sđd, t.45, tr.XVIII.)
 
 Kèm điều kiện: lựa chọn phù hợp trình độ, "không chủ quan, nóng vội cũng như không trì hoãn"; phát triển cả công nghiệp nhẹ, hàng tiêu dùng, thực phẩm và **CNH-HĐH nông nghiệp, nông thôn**; ứng dụng đồng bộ, cân đối (tr. 251).
 
@@ -207,8 +200,7 @@ Sách diễn giải: hàm lượng lao động **cơ bắp giảm** vô cùng nh
 ### (2) Chuyển dịch cơ cấu kinh tế
 
 > [!quote] Cơ cấu kinh tế (tr. 253–254)
-> Cơ cấu kinh tế là mối quan hệ tỷ lệ giữa các ngành, các vùng và các thành phần kinh tế. Cơ cấu kinh tế cũng chính là tổng thể cơ cấu các ngành, cơ cấu các vùng và cơ cấu các thành phần kinh tế.
-> Trong hệ thống cơ cấu kinh tế, cơ cấu ngành kinh tế (công nghiệp - nông nghiệp - dịch vụ) giữ vị trí quan trọng nhất, vì nó phản ánh trình độ phát triển của nền kinh tế và kết quả của quá trình thực hiện công nghiệp hóa, hiện đại hóa. Chuyển dịch cơ cấu ngành kinh tế theo hướng hiện đại, hiệu quả chính là quá trình tăng tỷ trọng của ngành công nghiệp và dịch vụ, giảm tỷ trọng của ngành nông nghiệp trong GDP.
+> Cơ cấu kinh tế là mối quan hệ tỷ lệ giữa các ngành, các vùng và các thành phần kinh tế. Cơ cấu kinh tế cũng chính là tổng thể cơ cấu các ngành, cơ cấu các vùng và cơ cấu các thành phần kinh tế. Trong hệ thống cơ cấu kinh tế, cơ cấu ngành kinh tế (công nghiệp - nông nghiệp - dịch vụ) giữ vị trí quan trọng nhất, vì nó phản ánh trình độ phát triển của nền kinh tế và kết quả của quá trình thực hiện công nghiệp hóa, hiện đại hóa. Chuyển dịch cơ cấu ngành kinh tế theo hướng hiện đại, hiệu quả chính là quá trình tăng tỷ trọng của ngành công nghiệp và dịch vụ, giảm tỷ trọng của ngành nông nghiệp trong GDP.
 
 Cơ cấu hợp lý phải đáp ứng **ba yêu cầu** (tr. 254): khai thác hiệu quả nguồn lực trong và ngoài nước; cho phép ứng dụng KH-CN mới; phù hợp xu thế toàn cầu hóa, hội nhập.
 
@@ -235,11 +227,7 @@ Thường xuyên hoàn thiện **quan hệ sở hữu, phân phối, quản lý*
 Nhiệm vụ (4) — câu ôn tập số 2 của sách (tr. 286). **Ba** nội dung; nội dung thứ ba gồm **bốn** nhiệm vụ.
 
 > [!quote] Ba nội dung thích ứng (tr. 255–256)
-> *Thứ nhất,* hoàn thiện thể chế, xây dựng nền kinh tế dựa trên nền tảng đổi mới, sáng tạo.
-> …
-> *Thứ hai,* nắm bắt và đẩy mạnh việc ứng dụng những thành tựu của cuộc Cách mạng công nghiệp lần thứ tư.
-> …
-> *Thứ ba,* chuẩn bị các điều kiện cần thiết để ứng phó với những tác động tiêu cực của cuộc Cách mạng công nghiệp lần thứ tư; trong đó cần thực hiện các nhiệm vụ:
+> *Thứ nhất,* hoàn thiện thể chế, xây dựng nền kinh tế dựa trên nền tảng đổi mới, sáng tạo. … *Thứ hai,* nắm bắt và đẩy mạnh việc ứng dụng những thành tựu của cuộc Cách mạng công nghiệp lần thứ tư. … *Thứ ba,* chuẩn bị các điều kiện cần thiết để ứng phó với những tác động tiêu cực của cuộc Cách mạng công nghiệp lần thứ tư; trong đó cần thực hiện các nhiệm vụ:
 
 - **Thứ nhất** (tr. 255–256): xây **hệ thống đổi mới sáng tạo quốc gia**; khung pháp lý, vốn con người; đổi mới sáng tạo trong **doanh nghiệp**; phát huy trường đại học, viện, kết nối mạng lưới tri thức toàn cầu.
 - **Thứ hai** (tr. 256): huy động nguồn lực Nhà nước, toàn dân, quốc tế; doanh nghiệp xây dây chuyền **tự động hóa**, **tin học hóa quản lý**, kỹ năng mới, **chuỗi cung ứng thông minh**, **an ninh mạng**.
@@ -275,14 +263,12 @@ Hai vế cân nhau: **chia sẻ lợi ích** (được) và **tuân thủ chuẩ
 **Tính tất yếu — hai lý do.** *Thứ nhất*, do xu thế khách quan của toàn cầu hóa kinh tế (tr. 260–261):
 
 > [!quote] Toàn cầu hóa (tr. 260)
-> Toàn cầu hóa là quá trình tạo ra liên kết và sự phụ thuộc lẫn nhau ngày càng tăng giữa các quốc gia trên quy mô toàn cầu.
-> Toàn cầu hóa diễn ra trên nhiều phương diện: kinh tế, chính trị, văn hóa, xã hội, v.v., trong đó, toàn cầu hóa kinh tế là xu thế nổi trội nhất, vừa là trung tâm vừa là cơ sở và cũng là động lực thúc đẩy toàn cầu hóa các lĩnh vực khác. Toàn cầu hóa kinh tế là sự gia tăng nhanh chóng các hoạt động kinh tế vượt qua mọi biên giới quốc gia, khu vực, tạo ra sự phụ thuộc lẫn nhau giữa các nền kinh tế trong sự vận động và phát triển hướng tới một nền kinh tế thế giới thống nhất.
+> Toàn cầu hóa là quá trình tạo ra liên kết và sự phụ thuộc lẫn nhau ngày càng tăng giữa các quốc gia trên quy mô toàn cầu. Toàn cầu hóa diễn ra trên nhiều phương diện: kinh tế, chính trị, văn hóa, xã hội, v.v., trong đó, toàn cầu hóa kinh tế là xu thế nổi trội nhất, vừa là trung tâm vừa là cơ sở và cũng là động lực thúc đẩy toàn cầu hóa các lĩnh vực khác. Toàn cầu hóa kinh tế là sự gia tăng nhanh chóng các hoạt động kinh tế vượt qua mọi biên giới quốc gia, khu vực, tạo ra sự phụ thuộc lẫn nhau giữa các nền kinh tế trong sự vận động và phát triển hướng tới một nền kinh tế thế giới thống nhất.
 
 Toàn cầu hóa lôi mọi nước vào phân công lao động quốc tế, nên "nếu không hội nhập kinh tế quốc tế, các nước không thể tự đảm bảo được các điều kiện cần thiết cho sản xuất trong nước" (tr. 261). Sách đặt Hộp 6.3 để cân hai mặt:
 
 > [!quote] Hộp 6.3 — Stiglitz (tr. 261)
-> Toàn cầu hóa không tốt, không xấu. Nó có sức mạnh để đem lại vô số điều tốt. Với các nước Đông Á, đã thu được nhiều lợi ích. Nhưng ở phần lớn các nơi khác, toàn cầu hóa không đem lại lợi ích tương xứng.
-> (Nguồn sách dẫn: Joseph E. Stiglitz, *Toàn cầu hóa và những mặt trái*, Nxb. Trẻ, Thành phố Hồ Chí Minh, 2008, tr.5, 28.)
+> Toàn cầu hóa không tốt, không xấu. Nó có sức mạnh để đem lại vô số điều tốt. Với các nước Đông Á, đã thu được nhiều lợi ích. Nhưng ở phần lớn các nơi khác, toàn cầu hóa không đem lại lợi ích tương xứng. (Nguồn sách dẫn: Joseph E. Stiglitz, *Toàn cầu hóa và những mặt trái*, Nxb. Trẻ, Thành phố Hồ Chí Minh, 2008, tr.5, 28.)
 
 *Thứ hai*, hội nhập là **phương thức phát triển phổ biến**, nhất là với nước đang và kém phát triển: tiếp cận tài chính, KH-CN, kinh nghiệm; rút ngắn, tránh **tụt hậu**; thu hút vốn, tạo việc làm (tr. 262). Lưu ý của sách: CNTB hiện đại muốn biến toàn cầu hóa thành "tự do hóa kinh tế và áp đặt chính trị theo quỹ đạo tư bản chủ nghĩa", gây rủi ro nợ nước ngoài, bất bình đẳng thương mại — nên cần "chiến lược hợp lý" (tr. 262–263).
 
@@ -292,11 +278,7 @@ Toàn cầu hóa lôi mọi nước vào phân công lao động quốc tế, n�
 **Nội dung — hai vế:**
 
 > [!quote] Nội dung hội nhập (tr. 263–264)
-> *Thứ nhất,* chuẩn bị các điều kiện để thực hiện hội nhập hiệu quả, thành công.
-> Hội nhập là tất yếu, tuy nhiên, đối với Việt Nam, hội nhập không phải bằng mọi giá. Quá trình hội nhập phải được cân nhắc với lộ trình và cách thức tối ưu. …
-> *Thứ hai,* thực hiện đa dạng các hình thức, các mức độ hội nhập kinh tế quốc tế.
-> … Theo đó, tiến trình hội nhập kinh tế quốc tế được chia thành các mức độ cơ bản từ thấp đến cao là: Thỏa thuận thương mại ưu đãi (PTA), Khu vực mậu dịch tự do (FTA), Liên minh thuế quan (CU), Thị trường chung (hay thị trường duy nhất), Liên minh kinh tế - tiền tệ...
-> Xét về hình thức, hội nhập kinh tế quốc tế là toàn bộ các hoạt động kinh tế đối ngoại của một nước gồm nhiều hình thức đa dạng như: ngoại thương, đầu tư quốc tế, hợp tác quốc tế, dịch vụ thu ngoại tệ...
+> *Thứ nhất,* chuẩn bị các điều kiện để thực hiện hội nhập hiệu quả, thành công. Hội nhập là tất yếu, tuy nhiên, đối với Việt Nam, hội nhập không phải bằng mọi giá. Quá trình hội nhập phải được cân nhắc với lộ trình và cách thức tối ưu. … *Thứ hai,* thực hiện đa dạng các hình thức, các mức độ hội nhập kinh tế quốc tế. … Theo đó, tiến trình hội nhập kinh tế quốc tế được chia thành các mức độ cơ bản từ thấp đến cao là: Thỏa thuận thương mại ưu đãi (PTA), Khu vực mậu dịch tự do (FTA), Liên minh thuế quan (CU), Thị trường chung (hay thị trường duy nhất), Liên minh kinh tế - tiền tệ... Xét về hình thức, hội nhập kinh tế quốc tế là toàn bộ các hoạt động kinh tế đối ngoại của một nước gồm nhiều hình thức đa dạng như: ngoại thương, đầu tư quốc tế, hợp tác quốc tế, dịch vụ thu ngoại tệ...
 
 Điều kiện chủ yếu (tr. 263): sẵn sàng về tư duy, sự tham gia của toàn xã hội, thể chế hiệu lực, nhân lực am hiểu môi trường quốc tế, **năng lực sản xuất thực**. Năm mức độ — sách chỉ nêu tên; nội dung từng nấc là **ngoài giáo trình** (phân loại của B. Balassa, 1961):
 
@@ -412,8 +394,7 @@ Sách dẫn Chiến lược 2021–2030: "Xây dựng nền kinh tế tự chủ
 CNH-HĐH quay lại như biện pháp **thứ hai** — hai phần của chương khép thành vòng: công nghiệp hóa để tự chủ, tự chủ để hội nhập hiệu quả, hội nhập để lấy nguồn lực công nghiệp hóa.
 
 > [!quote] Quan hệ biện chứng (tr. 282)
-> Giữa độc lập, tự chủ và hội nhập quốc tế có mối quan hệ biện chứng; vừa tạo tiền đề cho nhau và phát huy lẫn nhau, vừa thống nhất với nhau trong việc thực hiện mục tiêu cơ bản của cách mạng và lợi ích căn bản của đất nước của dân tộc, trước hết là mục tiêu phát triển và an ninh.
-> Giữ vững độc lập, tự chủ, phát huy sức mạnh bên trong là nền tảng của sự nghiệp xây dựng và bảo vệ Tổ quốc Việt Nam xã hội chủ nghĩa. Song, độc lập, tự chủ không có nghĩa là biệt lập, "đóng cửa" với thế giới, vì điều đó không phù hợp với xu thế khách quan của thời đại, sẽ không thể phát triển và tất yếu làm suy yếu độc lập, tự chủ. Giữ vững độc lập, tự chủ phải đi đôi với chủ động, tích cực hội nhập quốc tế. Có giữ vững độc lập, tự chủ thì mới có thể đẩy mạnh hội nhập quốc tế, vì không giữ được độc lập, tự chủ thì quá trình hội nhập sẽ chuyển hóa thành "hòa tan", mục tiêu phát triển và an ninh đều không đạt được.
+> Giữa độc lập, tự chủ và hội nhập quốc tế có mối quan hệ biện chứng; vừa tạo tiền đề cho nhau và phát huy lẫn nhau, vừa thống nhất với nhau trong việc thực hiện mục tiêu cơ bản của cách mạng và lợi ích căn bản của đất nước của dân tộc, trước hết là mục tiêu phát triển và an ninh. Giữ vững độc lập, tự chủ, phát huy sức mạnh bên trong là nền tảng của sự nghiệp xây dựng và bảo vệ Tổ quốc Việt Nam xã hội chủ nghĩa. Song, độc lập, tự chủ không có nghĩa là biệt lập, "đóng cửa" với thế giới, vì điều đó không phù hợp với xu thế khách quan của thời đại, sẽ không thể phát triển và tất yếu làm suy yếu độc lập, tự chủ. Giữ vững độc lập, tự chủ phải đi đôi với chủ động, tích cực hội nhập quốc tế. Có giữ vững độc lập, tự chủ thì mới có thể đẩy mạnh hội nhập quốc tế, vì không giữ được độc lập, tự chủ thì quá trình hội nhập sẽ chuyển hóa thành "hòa tan", mục tiêu phát triển và an ninh đều không đạt được.
 
 Thêm từ sách (tr. 283–284): "Hội nhập quá nhanh, quá rộng trong khi năng lực tự chủ còn yếu thì không thể có hiệu quả"; hội nhập tạo thách thức mới — tùy thuộc thành **lệ thuộc**, phân hóa xã hội, **lợi ích nhóm**; nhưng cũng "không thể tuyệt đối hóa độc lập, tự chủ và quan niệm về độc lập, tự chủ là bất biến".
 
@@ -539,8 +520,7 @@ HỘI NHẬP = gắn kết + CHIA SẺ LỢI ÍCH + TUÂN THỦ CHUẨN MỰC (t
 | 7 | [Kinh tế thị trường định hướng XHCN ở Việt Nam](bai_07_kttt_dinh_huong_xhcn.md) | C5 | Vòng 2 |
 | **8** | **Công nghiệp hóa, hiện đại hóa và hội nhập kinh tế** ← *bạn đang ở đây* | C6 | Vòng 2 |
 
-Vòng 1 = học kỹ · Vòng 2 = đọc hiểu · trọng tâm = trọng tâm thi
-Hết khoá — chúc bạn ôn thi tốt! 🎓
+Vòng 1 = học kỹ · Vòng 2 = đọc hiểu · trọng tâm = trọng tâm thi Hết khoá — chúc bạn ôn thi tốt! 🎓
 
 Chỉ mục môn học: [README.md](../README.md)
 

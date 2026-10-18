@@ -1,9 +1,7 @@
 # Bài 5 — Tích lũy tư bản; lợi nhuận – lợi tức – địa tô
 
 > [!info] Về bài này
-> Bài học dựng từ **Chương 3, mục II–III** (tr. 104–123) của *Giáo trình Kinh tế chính trị Mác – Lênin* (hệ không chuyên), Bộ Giáo dục và Đào tạo, **NXB Chính trị Quốc gia Sự thật, 2021** (chủ biên PGS.TS. Ngô Tuấn Nghĩa).
-> **Vòng 1 — trọng tâm thi ⭐.** Nối tiếp [bài 4](bai_04_gia_tri_thang_du_nguon_goc.md): nhà tư bản **dùng** giá trị thặng dư thế nào (**tích lũy**), và giá trị thặng dư **biểu hiện ra bề mặt** thành **lợi nhuận, lợi tức, địa tô** ra sao. Nhiều công thức (`k, p, p′, p̄′, p̄, GCSX, z′`, giá cả ruộng đất) — mỗi công thức có ví dụ số.
-> **Nên đọc trước:** [Bài 4](bai_04_gia_tri_thang_du_nguon_goc.md) (`c, v, m, m′`, chu chuyển tư bản).
+> Bài học dựng từ **Chương 3, mục II–III** (tr. 104–123) của *Giáo trình Kinh tế chính trị Mác – Lênin* (hệ không chuyên), Bộ Giáo dục và Đào tạo, **NXB Chính trị Quốc gia Sự thật, 2021** (chủ biên PGS.TS. Ngô Tuấn Nghĩa). **Vòng 1 — trọng tâm thi ⭐.** Nối tiếp [bài 4](bai_04_gia_tri_thang_du_nguon_goc.md): nhà tư bản **dùng** giá trị thặng dư thế nào (**tích lũy**), và giá trị thặng dư **biểu hiện ra bề mặt** thành **lợi nhuận, lợi tức, địa tô** ra sao. Nhiều công thức (`k, p, p′, p̄′, p̄, GCSX, z′`, giá cả ruộng đất) — mỗi công thức có ví dụ số. **Nên đọc trước:** [Bài 4](bai_04_gia_tri_thang_du_nguon_goc.md) (`c, v, m, m′`, chu chuyển tư bản).
 >
 > **Cách đọc các khối màu:** `[!quote]` trích nguyên văn giáo trình (kèm trang in) · `[!warning]` chỗ dễ nhầm · `[!note]` ghi chú / Mở rộng ngoài sách · `[!example]` Góc QTKD (biên soạn thêm, không có trong sách) · *(số giả định)* = số tự dựng để minh hoạ.
 
@@ -45,9 +43,7 @@ Quá trình sản xuất lặp đi lặp lại không ngừng gọi là **tái s
 ### Định nghĩa và bản chất
 
 > [!quote] Tích lũy tư bản (tr. 105)
-> Để thực hiện tái sản xuất mở rộng, nhà tư bản phải biến một bộ phận giá trị thặng dư thành tư bản phụ thêm. Sự chuyển hóa một phần *giá trị thặng dư thành tư bản gọi là tích lũy tư bản.*
-> Bản chất của tích lũy tư bản là quá trình tái sản xuất mở rộng tư bản chủ nghĩa thông qua việc chuyển hóa giá trị thặng dư thành tư bản phụ thêm để tiếp tục mở rộng sản xuất kinh doanh thông qua mua thêm hàng hóa sức lao động, mở mang nhà xưởng, mua thêm nguyên - vật liệu, trang bị thêm máy móc, thiết bị... Nghĩa là, nhà tư bản không sử dụng hết giá trị thặng dư thu được cho tiêu dùng cá nhân mà biến nó thành tư bản phụ thêm. …
-> Thực chất, nguồn gốc duy nhất của tích lũy tư bản là giá trị thặng dư. Nhờ có tích lũy tư bản, quan hệ sản xuất tư bản chủ nghĩa không những trở thành thống trị, mà còn không ngừng mở rộng sự thống trị đó.
+> Để thực hiện tái sản xuất mở rộng, nhà tư bản phải biến một bộ phận giá trị thặng dư thành tư bản phụ thêm. Sự chuyển hóa một phần *giá trị thặng dư thành tư bản gọi là tích lũy tư bản.* Bản chất của tích lũy tư bản là quá trình tái sản xuất mở rộng tư bản chủ nghĩa thông qua việc chuyển hóa giá trị thặng dư thành tư bản phụ thêm để tiếp tục mở rộng sản xuất kinh doanh thông qua mua thêm hàng hóa sức lao động, mở mang nhà xưởng, mua thêm nguyên - vật liệu, trang bị thêm máy móc, thiết bị... Nghĩa là, nhà tư bản không sử dụng hết giá trị thặng dư thu được cho tiêu dùng cá nhân mà biến nó thành tư bản phụ thêm. … Thực chất, nguồn gốc duy nhất của tích lũy tư bản là giá trị thặng dư. Nhờ có tích lũy tư bản, quan hệ sản xuất tư bản chủ nghĩa không những trở thành thống trị, mà còn không ngừng mở rộng sự thống trị đó.
 
 Vòng tự mở rộng: công nhân làm ra `m` → `m` thành tư bản mới (`Δc + Δv`) → tư bản mới thuê thêm công nhân. Nguồn gốc là lao động không công, không phải "tiết kiệm của nhà tư bản".
 
@@ -86,14 +82,7 @@ Quy mô tích lũy  =  (tỷ lệ tích lũy)  ×  (khối lượng m)
 ```
 
 > [!quote] Bốn nhân tố (tr. 106–107)
-> *Thứ nhất*, trình độ khai thác sức lao động.
-> Tỷ suất giá trị thặng dư tăng sẽ tạo tiền đề để tăng quy mô giá trị thặng dư. …
-> *Thứ hai*, năng suất lao động xã hội.
-> Năng suất lao động tăng làm cho giá trị tư liệu sinh hoạt giảm xuống, giá trị sức lao động giảm giúp cho nhà tư bản thu được nhiều giá trị thặng dư hơn, góp phần tăng quy mô tích lũy.
-> *Thứ ba*, sử dụng hiệu quả máy móc.
-> C. Mác gọi việc này là chênh lệch giữa tư bản sử dụng và tư bản tiêu dùng. …
-> *Thứ tư*, đại lượng tư bản ứng trước.
-> Thị trường thuận lợi, hàng hóa luôn bán được, tư bản ứng trước càng lớn sẽ là tiền đề cho tăng quy mô tích lũy.
+> *Thứ nhất*, trình độ khai thác sức lao động. Tỷ suất giá trị thặng dư tăng sẽ tạo tiền đề để tăng quy mô giá trị thặng dư. … *Thứ hai*, năng suất lao động xã hội. Năng suất lao động tăng làm cho giá trị tư liệu sinh hoạt giảm xuống, giá trị sức lao động giảm giúp cho nhà tư bản thu được nhiều giá trị thặng dư hơn, góp phần tăng quy mô tích lũy. *Thứ ba*, sử dụng hiệu quả máy móc. C. Mác gọi việc này là chênh lệch giữa tư bản sử dụng và tư bản tiêu dùng. … *Thứ tư*, đại lượng tư bản ứng trước. Thị trường thuận lợi, hàng hóa luôn bán được, tư bản ứng trước càng lớn sẽ là tiền đề cho tăng quy mô tích lũy.
 
 Ví dụ cho từng nhân tố:
 
@@ -112,10 +101,7 @@ Theo C. Mác, tích lũy dẫn tới các hệ quả kinh tế mang tính quy lu
 **① Tích lũy tư bản làm tăng cấu tạo hữu cơ của tư bản.**
 
 > [!quote] Cấu tạo hữu cơ (tr. 107)
-> *Cấu tạo hữu cơ của tư bản là cấu tạo giá trị được quyết định bởi cấu tạo kỹ thuật và phản ánh sự biến đổi của cấu tạo kỹ thuật của tư bản* (ký hiệu là c/v).
-> …
-> Nếu quan sát qua hình thái hiện vật thì mối quan hệ tỷ lệ giữa số lượng tư liệu sản xuất và số lượng sức lao động được coi là cấu tạo kỹ thuật.
-> Cấu tạo kỹ thuật này, nếu quan sát qua hình thái giá trị phản ánh ở mối quan hệ tỷ lệ giữa tư bản bất biến với tư bản khả biến. Tỷ lệ giá trị này được gọi là cấu tạo hữu cơ.
+> *Cấu tạo hữu cơ của tư bản là cấu tạo giá trị được quyết định bởi cấu tạo kỹ thuật và phản ánh sự biến đổi của cấu tạo kỹ thuật của tư bản* (ký hiệu là c/v). … Nếu quan sát qua hình thái hiện vật thì mối quan hệ tỷ lệ giữa số lượng tư liệu sản xuất và số lượng sức lao động được coi là cấu tạo kỹ thuật. Cấu tạo kỹ thuật này, nếu quan sát qua hình thái giá trị phản ánh ở mối quan hệ tỷ lệ giữa tư bản bất biến với tư bản khả biến. Tỷ lệ giá trị này được gọi là cấu tạo hữu cơ.
 
 Cấu tạo hữu cơ luôn có xu hướng tăng vì cấu tạo kỹ thuật cũng tăng về lượng (tr. 108). Cạnh tranh buộc nhà tư bản dùng phần tích lũy mua **máy tốt hơn**, nên `Δc` tăng nhanh hơn `Δv`.
 
@@ -130,8 +116,7 @@ Cấu tạo hữu cơ luôn có xu hướng tăng vì cấu tạo kỹ thuật c
 **② Tích lũy tư bản làm tăng tích tụ và tập trung tư bản.**
 
 > [!quote] Tích tụ và tập trung (tr. 108)
-> Tích tụ tư bản là sự tăng thêm quy mô của tư bản cá biệt bằng cách tư bản hóa giá trị thặng dư. Tích tụ tư bản làm tăng quy mô tư bản cá biệt đồng thời làm tăng quy mô tư bản xã hội do giá trị thặng dư được biến thành tư bản phụ thêm. Tích tụ tư bản là kết quả trực tiếp của tích lũy tư bản.
-> Tập trung tư bản là sự tăng lên của quy mô tư bản cá biệt mà không làm tăng quy mô tư bản xã hội do hợp nhất các tư bản cá biệt vào một chỉnh thể tạo thành một tư bản cá biệt lớn hơn. Tập trung tư bản có thể được thực hiện thông qua sáp nhập các tư bản cá biệt với nhau.
+> Tích tụ tư bản là sự tăng thêm quy mô của tư bản cá biệt bằng cách tư bản hóa giá trị thặng dư. Tích tụ tư bản làm tăng quy mô tư bản cá biệt đồng thời làm tăng quy mô tư bản xã hội do giá trị thặng dư được biến thành tư bản phụ thêm. Tích tụ tư bản là kết quả trực tiếp của tích lũy tư bản. Tập trung tư bản là sự tăng lên của quy mô tư bản cá biệt mà không làm tăng quy mô tư bản xã hội do hợp nhất các tư bản cá biệt vào một chỉnh thể tạo thành một tư bản cá biệt lớn hơn. Tập trung tư bản có thể được thực hiện thông qua sáp nhập các tư bản cá biệt với nhau.
 
 | | **Tích tụ tư bản** | **Tập trung tư bản** |
 | --- | --- | --- |
@@ -166,10 +151,7 @@ Mục III đổi góc nhìn từ **bản chất** sang **bề mặt**: nghiên c
 ### a) Chi phí sản xuất `k`
 
 > [!quote] Chi phí sản xuất (tr. 111)
-> *Chi phí sản xuất tư bản chủ nghĩa là phần giá trị của hàng hóa, bù lại giá cả của những tư liệu sản xuất đã tiêu dùng và giá cả của sức lao động đã được sử dụng để sản xuất ra hàng hóa ấy. Đó là chi phí mà nhà tư bản đã bỏ ra để sản xuất ra hàng hóa.*
-> Chi phí sản xuất được ký hiệu là k.
-> Về mặt lượng: k = c + v.
-> Khi xuất hiện phạm trù chi phí sản xuất thì giá trị hàng hóa G = c + (v+m) sẽ biểu hiện thành: G = k + m.
+> *Chi phí sản xuất tư bản chủ nghĩa là phần giá trị của hàng hóa, bù lại giá cả của những tư liệu sản xuất đã tiêu dùng và giá cả của sức lao động đã được sử dụng để sản xuất ra hàng hóa ấy. Đó là chi phí mà nhà tư bản đã bỏ ra để sản xuất ra hàng hóa.* Chi phí sản xuất được ký hiệu là k. Về mặt lượng: k = c + v. Khi xuất hiện phạm trù chi phí sản xuất thì giá trị hàng hóa G = c + (v+m) sẽ biểu hiện thành: G = k + m.
 
 Chú ý chữ **"đã tiêu dùng"**: `c` trong `k` chỉ là phần tư liệu sản xuất **đã chuyển vào** sản phẩm, không phải toàn bộ tiền mua máy.
 
@@ -198,16 +180,12 @@ Chi phí sản xuất có vai trò bù đắp tư bản về giá trị và hi�
 ### b) Bản chất lợi nhuận `p`
 
 > [!quote] Lợi nhuận (tr. 111)
-> Trong thực tế sản xuất kinh doanh, giữa giá trị hàng hóa và chi phí sản xuất có một khoản chênh lệch. Do đó sau khi bán hàng hóa (bán ngang giá), nhà tư bản không những bù đắp đủ số chi phí đã ứng ra mà còn thu được số chênh lệch bằng giá trị thặng dư. Số chênh lệch này C. Mác gọi là *lợi nhuận* (ký hiệu là p).
-> Khi đó giá trị hàng hóa được viết là: G = k + p
-> Từ đó p = G - k.
+> Trong thực tế sản xuất kinh doanh, giữa giá trị hàng hóa và chi phí sản xuất có một khoản chênh lệch. Do đó sau khi bán hàng hóa (bán ngang giá), nhà tư bản không những bù đắp đủ số chi phí đã ứng ra mà còn thu được số chênh lệch bằng giá trị thặng dư. Số chênh lệch này C. Mác gọi là *lợi nhuận* (ký hiệu là p). Khi đó giá trị hàng hóa được viết là: G = k + p Từ đó p = G - k.
 
 Người ta chỉ quan tâm khoản chênh lệch giữa giá trị bán được và chi phí, không quan tâm nguồn gốc sâu xa của nó là giá trị thặng dư; nhà tư bản còn quan niệm lợi nhuận do **tư bản ứng trước** sinh ra (tr. 111–112).
 
 > [!quote] C. Mác khái quát (tr. 112)
-> C. Mác khái quát: "Giá trị thặng dư, được quan niệm là con đẻ của toàn bộ tư bản ứng trước, mang hình thái chuyển hóa là *lợi nhuận*".
-> Điều đó có nghĩa, lợi nhuận chẳng qua chỉ là hình thái biểu hiện của giá trị thặng dư trên bề mặt nền kinh tế thị trường.
-> (Câu của Mác: C. Mác và Ph. Ăngghen: *Toàn tập*, Sđd, t.25, ph.I, tr.65; dẫn tr. 112.)
+> C. Mác khái quát: "Giá trị thặng dư, được quan niệm là con đẻ của toàn bộ tư bản ứng trước, mang hình thái chuyển hóa là *lợi nhuận*". Điều đó có nghĩa, lợi nhuận chẳng qua chỉ là hình thái biểu hiện của giá trị thặng dư trên bề mặt nền kinh tế thị trường. (Câu của Mác: C. Mác và Ph. Ăngghen: *Toàn tập*, Sđd, t.25, ph.I, tr.65; dẫn tr. 112.)
 
 **Cơ chế "che giấu":** chỉ `v` tạo ra `m` → `k` gộp `c` và `v` thành "chi phí" → `m` bị đo so với toàn bộ tư bản, như thể máy cũng "đẻ" ra lãi → `m` hiện ra thành `p`.
 
@@ -235,10 +213,7 @@ Hộp 3.1 của sách dẫn P. Samuelson: lợi nhuận là thu nhập thặng d
 Lợi nhuận tuyệt đối chỉ phản ánh quy mô, chưa phản ánh mức độ hiệu quả kinh doanh, nên cần số đo tương đối là tỷ suất lợi nhuận (tr. 113).
 
 > [!quote] Tỷ suất lợi nhuận (tr. 113)
-> *Tỷ suất lợi nhuận là tỷ lệ phần trăm giữa lợi nhuận và toàn bộ giá trị của tư bản ứng trước* (ký hiệu là p').
-> Tỷ suất lợi nhuận được tính theo công thức:
-> p' = p/(c+v) x 100%
-> Tỷ suất lợi nhuận phản ánh mức doanh lợi đầu tư tư bản.
+> *Tỷ suất lợi nhuận là tỷ lệ phần trăm giữa lợi nhuận và toàn bộ giá trị của tư bản ứng trước* (ký hiệu là p'). Tỷ suất lợi nhuận được tính theo công thức: p' = p/(c+v) x 100% Tỷ suất lợi nhuận phản ánh mức doanh lợi đầu tư tư bản.
 
 $$p' = \dfrac{p}{c + v} \times 100\%$$
 
@@ -271,10 +246,7 @@ Công thức suy ra (ngoài sách): `p′ = m′ / (1 + c/v)`. Với ví dụ: `
 ### Bốn nhân tố ảnh hưởng tới tỷ suất lợi nhuận (tr. 114)
 
 > [!quote] Bốn nhân tố ảnh hưởng `p′` (tr. 114)
-> *Thứ nhất*, tỷ suất giá trị thặng dư. Sự gia tăng của tỷ suất giá trị thặng dư sẽ có tác động trực tiếp làm tăng tỷ suất lợi nhuận.
-> *Thứ hai*, cấu tạo hữu cơ của tư bản (c/v). Cấu tạo hữu cơ của tư bản tác động tới chi phí sản xuất, do đó tác động tới lợi nhuận và tỷ suất lợi nhuận.
-> *Thứ ba*, tốc độ chu chuyển của tư bản. Nếu tốc độ chu chuyển của tư bản càng lớn thì tỷ lệ giá trị thặng dư hằng năm tăng lên, do đó, tỷ suất lợi nhuận tăng.
-> *Thứ tư*, tiết kiệm tư bản bất biến. Trong điều kiện tư bản khả biến không đổi, nếu giá trị thặng dư giữ nguyên, tiết kiệm tư bản bất biến làm tăng tỷ suất lợi nhuận.
+> *Thứ nhất*, tỷ suất giá trị thặng dư. Sự gia tăng của tỷ suất giá trị thặng dư sẽ có tác động trực tiếp làm tăng tỷ suất lợi nhuận. *Thứ hai*, cấu tạo hữu cơ của tư bản (c/v). Cấu tạo hữu cơ của tư bản tác động tới chi phí sản xuất, do đó tác động tới lợi nhuận và tỷ suất lợi nhuận. *Thứ ba*, tốc độ chu chuyển của tư bản. Nếu tốc độ chu chuyển của tư bản càng lớn thì tỷ lệ giá trị thặng dư hằng năm tăng lên, do đó, tỷ suất lợi nhuận tăng. *Thứ tư*, tiết kiệm tư bản bất biến. Trong điều kiện tư bản khả biến không đổi, nếu giá trị thặng dư giữ nguyên, tiết kiệm tư bản bất biến làm tăng tỷ suất lợi nhuận.
 
 *(số giả định)* Gốc: `K = 80c + 20v = 100`, `m′ = 100%`, `c` chuyển hết, quay 1 vòng/năm → `m = 20`, `p′ = 20%`.
 
@@ -298,9 +270,7 @@ Công thức suy ra (ngoài sách): `p′ = m′ / (1 + c/v)`. Với ví dụ: `
 > | --- | ---: | ---: | ---: |
 > | `p′` | 20% | 10% | 5% |
 >
-> **Tỷ suất giảm nhưng khối lượng lợi nhuận có thể tăng:** tư bản 1.000 với `c/v = 4` cho `p = 200`; tư bản 3.000 với `c/v = 9` cho `p = 300`. Nhà tư bản nhỏ bị ép nhất → thúc đẩy tập trung.
-> **Chỉ là "xu hướng"** vì có nhân tố chống lại (chương 14): tăng mức bóc lột, hạ tiền công dưới giá trị, tư bản bất biến rẻ đi, nhân khẩu thừa tương đối, ngoại thương, tăng tư bản cổ phần. Nếu `c/v = 9` mà `m′` lên 200% thì `p′ = 200%/10 = 20%` — xu hướng bị triệt tiêu.
-> **Tranh luận:** định lý Okishio (1961) cho rằng kỹ thuật mới làm giảm chi phí, với tiền công thực tế không đổi, không làm giảm tỷ suất lợi nhuận cân bằng.
+> **Tỷ suất giảm nhưng khối lượng lợi nhuận có thể tăng:** tư bản 1.000 với `c/v = 4` cho `p = 200`; tư bản 3.000 với `c/v = 9` cho `p = 300`. Nhà tư bản nhỏ bị ép nhất → thúc đẩy tập trung. **Chỉ là "xu hướng"** vì có nhân tố chống lại (chương 14): tăng mức bóc lột, hạ tiền công dưới giá trị, tư bản bất biến rẻ đi, nhân khẩu thừa tương đối, ngoại thương, tăng tư bản cổ phần. Nếu `c/v = 9` mà `m′` lên 200% thì `p′ = 200%/10 = 20%` — xu hướng bị triệt tiêu. **Tranh luận:** định lý Okishio (1961) cho rằng kỹ thuật mới làm giảm chi phí, với tiền công thực tế không đổi, không làm giảm tỷ suất lợi nhuận cân bằng.
 
 ### Lợi nhuận bình quân — do cạnh tranh **giữa các ngành**
 
@@ -325,13 +295,7 @@ p′ da (40%) > p′ cơ khí (20%)
 ```
 
 > [!quote] `p̄′`, `p̄`, giá cả sản xuất (tr. 116)
-> Tỷ suất lợi nhuận bình quân được tính bằng số bình quân gia quyền của các tỷ suất lợi nhuận như sau:
-> p̄' = Σp / Σ(c+v) x 100%
-> Trong nền kinh tế thị trường cạnh tranh giữa các ngành tất yếu dẫn tới hình thành lợi nhuận bình quân.
-> *Lợi nhuận bình quân là số lợi nhuận bằng nhau của những tư bản như nhau đầu tư vào các ngành khác nhau.*
-> Nếu ký hiệu giá trị tư bản ứng trước là K thì lợi nhuận bình quân được tính như sau:
-> p̄ = p̄' x K
-> Khi lợi nhuận chuyển hóa thành lợi nhuận bình quân thì giá trị của hàng hóa chuyển hóa thành giá cả sản xuất. Giá cả sản xuất được tính như sau: GCSX = k + p̄
+> Tỷ suất lợi nhuận bình quân được tính bằng số bình quân gia quyền của các tỷ suất lợi nhuận như sau: p̄' = Σp / Σ(c+v) x 100% Trong nền kinh tế thị trường cạnh tranh giữa các ngành tất yếu dẫn tới hình thành lợi nhuận bình quân. *Lợi nhuận bình quân là số lợi nhuận bằng nhau của những tư bản như nhau đầu tư vào các ngành khác nhau.* Nếu ký hiệu giá trị tư bản ứng trước là K thì lợi nhuận bình quân được tính như sau: p̄ = p̄' x K Khi lợi nhuận chuyển hóa thành lợi nhuận bình quân thì giá trị của hàng hóa chuyển hóa thành giá cả sản xuất. Giá cả sản xuất được tính như sau: GCSX = k + p̄
 
 $$\bar{p}' = \dfrac{\sum p}{\sum (c + v)} \times 100\% \qquad ; \qquad \bar{p} = \bar{p}' \times K \qquad ; \qquad GCSX = k + \bar{p}$$
 
@@ -381,10 +345,7 @@ Ba hình thức còn lại đều là **những phần của giá trị thặng 
 ### a) Lợi nhuận thương nghiệp (tr. 117)
 
 > [!quote] Lợi nhuận thương nghiệp (tr. 117)
-> Trong nền kinh tế thị trường tư bản chủ nghĩa, do sự phân công lao động xã hội, xuất hiện bộ phận chuyên môn hóa việc lưu thông hàng hóa. Bộ phận này gọi là tư bản thương nghiệp.
-> Lợi nhuận thương nghiệp là số chênh lệch giữa giá bán và giá mua hàng hóa. Nguồn gốc của lợi nhuận thương nghiệp chính là một phần của giá trị thặng dư mà nhà tư bản sản xuất trả cho nhà tư bản thương nghiệp do nhà tư bản thương nghiệp đã giúp cho việc tiêu thụ hàng hóa.
-> Cách thức thực hiện là nhà tư bản sản xuất bán hàng hóa cho nhà tư bản thương nghiệp với giá cả cao hơn chi phí sản xuất để đến lượt nhà tư bản thương nghiệp bán hàng hóa đúng giá trị của hàng hóa.
-> Khi đó lợi nhuận thương nghiệp là phần chênh lệch giữa giá mua và giá bán, song giá bán không nhất thiết phải cao hơn giá trị. Vẻ bề ngoài này làm cho người ta nhầm tưởng việc mua bán đã tạo ra lợi nhuận cho nhà tư bản thương nghiệp. Trái lại, lợi nhuận thương nghiệp thực chất là một phần của giá trị thặng dư.
+> Trong nền kinh tế thị trường tư bản chủ nghĩa, do sự phân công lao động xã hội, xuất hiện bộ phận chuyên môn hóa việc lưu thông hàng hóa. Bộ phận này gọi là tư bản thương nghiệp. Lợi nhuận thương nghiệp là số chênh lệch giữa giá bán và giá mua hàng hóa. Nguồn gốc của lợi nhuận thương nghiệp chính là một phần của giá trị thặng dư mà nhà tư bản sản xuất trả cho nhà tư bản thương nghiệp do nhà tư bản thương nghiệp đã giúp cho việc tiêu thụ hàng hóa. Cách thức thực hiện là nhà tư bản sản xuất bán hàng hóa cho nhà tư bản thương nghiệp với giá cả cao hơn chi phí sản xuất để đến lượt nhà tư bản thương nghiệp bán hàng hóa đúng giá trị của hàng hóa. Khi đó lợi nhuận thương nghiệp là phần chênh lệch giữa giá mua và giá bán, song giá bán không nhất thiết phải cao hơn giá trị. Vẻ bề ngoài này làm cho người ta nhầm tưởng việc mua bán đã tạo ra lợi nhuận cho nhà tư bản thương nghiệp. Trái lại, lợi nhuận thương nghiệp thực chất là một phần của giá trị thặng dư.
 
 **Ví dụ số** — số của C. Mác, *Tư bản*, Q.III, chương 17 *(ngoài giáo trình; `c` chuyển hết, vốn thương nghiệp quay vòng đủ để mua hết lô hàng)*:
 
@@ -411,18 +372,10 @@ Có chủ thể thừa tiền nhàn rỗi, có chủ thể cần tiền mở r�
 > *Vậy, lợi tức là một phần của lợi nhuận bình quân mà người đi vay (tư bản đi vay) phải trả cho người cho vay (tư bản cho vay) vì đã sử dụng lượng tiền nhàn rỗi của người cho vay.* Đây là quan hệ kinh tế phản ánh quan hệ lợi ích giữa người đi vay với người cho vay. Song về thực chất, lợi tức đó là một phần của giá trị thặng dư mà người đi vay đã thu được thông qua sử dụng tiền vay đó.
 
 > [!quote] Đặc điểm tư bản cho vay (tr. 118–119)
-> *Thứ nhất*, quyền sử dụng tách khỏi quyền sở hữu.
-> Chủ thể sở hữu tư bản không phải là chủ thể sử dụng, chủ thể sử dụng tư bản chỉ được sử dụng trong một thời hạn nhất định và không có quyền sở hữu.
-> *Thứ hai*, tư bản cho vay là hàng hóa đặc biệt.
-> Người bán không mất quyền sở hữu, người mua chỉ được quyền sử dụng trong một thời gian. Sau khi sử dụng, tư bản cho vay không mất giá trị sử dụng và giá trị mà được bảo tồn, thậm chí còn tăng thêm.
-> Giá cả của tư bản cho vay được quyết định bởi giá trị sử dụng của nó là khả năng thu được lợi nhuận bình quân, do đó không những không được quyết định bởi giá trị, mà còn thấp hơn nhiều so với giá trị.
-> *Thứ ba*, tư bản cho vay là hình thái tư bản phiến diện nhất, song cũng được sùng bái nhất.
-> Tư bản cho vay vận động theo công thức T - T', tạo ra ảo tưởng là tiền đẻ ra tiền không phản ánh rõ nguồn gốc của lợi tức cho vay.
+> *Thứ nhất*, quyền sử dụng tách khỏi quyền sở hữu. Chủ thể sở hữu tư bản không phải là chủ thể sử dụng, chủ thể sử dụng tư bản chỉ được sử dụng trong một thời hạn nhất định và không có quyền sở hữu. *Thứ hai*, tư bản cho vay là hàng hóa đặc biệt. Người bán không mất quyền sở hữu, người mua chỉ được quyền sử dụng trong một thời gian. Sau khi sử dụng, tư bản cho vay không mất giá trị sử dụng và giá trị mà được bảo tồn, thậm chí còn tăng thêm. Giá cả của tư bản cho vay được quyết định bởi giá trị sử dụng của nó là khả năng thu được lợi nhuận bình quân, do đó không những không được quyết định bởi giá trị, mà còn thấp hơn nhiều so với giá trị. *Thứ ba*, tư bản cho vay là hình thái tư bản phiến diện nhất, song cũng được sùng bái nhất. Tư bản cho vay vận động theo công thức T - T', tạo ra ảo tưởng là tiền đẻ ra tiền không phản ánh rõ nguồn gốc của lợi tức cho vay.
 
 > [!quote] Tỷ suất lợi tức (tr. 119)
-> *Tỷ suất lợi tức là tỷ lệ phần trăm giữa lợi tức và tư bản cho vay.* Nếu ký hiệu tỷ suất lợi tức là z', cho vay là TBCV, thì công thức tính tỷ suất lợi tức như sau:
-> z' = z/TBCV x 100%
-> Tỷ suất lợi tức chịu ảnh hưởng của các nhân tố chủ yếu là tỷ suất lợi nhuận bình quân và tình hình cung cầu về tư bản cho vay.
+> *Tỷ suất lợi tức là tỷ lệ phần trăm giữa lợi tức và tư bản cho vay.* Nếu ký hiệu tỷ suất lợi tức là z', cho vay là TBCV, thì công thức tính tỷ suất lợi tức như sau: z' = z/TBCV x 100% Tỷ suất lợi tức chịu ảnh hưởng của các nhân tố chủ yếu là tỷ suất lợi nhuận bình quân và tình hình cung cầu về tư bản cho vay.
 
 $$z' = \dfrac{z}{TBCV} \times 100\%$$
 
@@ -501,8 +454,7 @@ Nông sản không bị kéo xuống 120 như ngành da ở bảng ba ngành vì
 **Giá cả ruộng đất.** Đất không do lao động tạo ra nên **không có giá trị** (bài 2), nhưng có giá cả vì mang lại địa tô đều đặn. Địa tô là một căn cứ tính giá ruộng đất khi bán quyền sử dụng đất (tr. 121).
 
 > [!quote] Giá cả ruộng đất (tr. 121)
-> Về nguyên lý, giá cả ruộng đất được tính trên cơ sở so sánh với tỷ lệ lãi suất ngân hàng, theo công thức:
-> Giá cả đất đai = Địa tô / Tỷ suất lợi tức nhận gửi của ngân hàng
+> Về nguyên lý, giá cả ruộng đất được tính trên cơ sở so sánh với tỷ lệ lãi suất ngân hàng, theo công thức: Giá cả đất đai = Địa tô / Tỷ suất lợi tức nhận gửi của ngân hàng
 
 $$\text{Giá cả đất đai} = \dfrac{\text{Địa tô}}{\text{Tỷ suất lợi tức nhận gửi của ngân hàng}}$$
 

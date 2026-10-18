@@ -1,12 +1,8 @@
 # Lý thuyết tổng quát — đọc thẳng Keynes
 
-Bộ bài học dựng **từ chính cuốn sách**, không viết theo trí nhớ. Đây là **nguồn gốc** —
-đọc thẳng Keynes 1936, cuốn khai sinh ngành **kinh tế học vĩ mô**. Bổ trợ cho
-[Của cải của các dân tộc (Adam Smith)](../adamsmitccccdt/README.md) — Keynes chính là người
-**lật ngược** nhiều kết luận của Smith mà bạn đã học ở đó.
+Bộ bài học dựng **từ chính cuốn sách**, không viết theo trí nhớ. Đây là **nguồn gốc** — đọc thẳng Keynes 1936, cuốn khai sinh ngành **kinh tế học vĩ mô**. Bổ trợ cho [Của cải của các dân tộc (Adam Smith)](../adamsmitccccdt/README.md) — Keynes chính là người **lật ngược** nhiều kết luận của Smith mà bạn đã học ở đó.
 
-**Sách gốc:** John Maynard Keynes, ***The General Theory of Employment, Interest and Money***
-(1936). Kho giữ **một bản** (không có bản dịch tiếng Việt trong kho):
+**Sách gốc:** John Maynard Keynes, ***The General Theory of Employment, Interest and Money*** (1936). Kho giữ **một bản** (không có bản dịch tiếng Việt trong kho):
 
 | Tệp trong `tai_lieu/` | Là gì | Dùng để |
 | --- | --- | --- |
@@ -14,13 +10,9 @@ Bộ bài học dựng **từ chính cuốn sách**, không viết theo trí nh�
 | `The General Theory - Keynes (Gutenberg AU).html` | Bản HTML gốc, giữ nguyên để đối chiếu | Kiểm chứng khi nghi ngờ bản text |
 
 > [!warning] Ba điều đã kiểm về bản nguồn
-> 1. **Chỉ có bản tiếng Anh** — kho không có bản dịch Việt của Keynes. Mọi câu dịch trong khoá
->    là **do người soạn dịch**, luôn kèm nguyên văn Anh trong `> [!quote]` để bạn tự đối chiếu.
-> 2. Bản Gutenberg AU **chèn thêm một "GENERAL INTRODUCTION" do người biên tập viết năm 2003** —
->    *không phải* văn Keynes. Bản `.txt` trong kho **đã lược bỏ** phần đó; văn bắt đầu từ đúng
->    **Lời tựa** của chính Keynes.
-> 3. Bản etext này **bỏ tiêu đề 6 Quyển** (chỉ ghi "BOOK I"…). Tên Quyển trong khoá lấy từ mục
->    lục gốc Macmillan (đối chiếu History of Economic Thought), không bịa.
+> 1. **Chỉ có bản tiếng Anh** — kho không có bản dịch Việt của Keynes. Mọi câu dịch trong khoá là **do người soạn dịch**, luôn kèm nguyên văn Anh trong `> [!quote]` để bạn tự đối chiếu.
+> 2. Bản Gutenberg AU **chèn thêm một "GENERAL INTRODUCTION" do người biên tập viết năm 2003** — *không phải* văn Keynes. Bản `.txt` trong kho **đã lược bỏ** phần đó; văn bắt đầu từ đúng **Lời tựa** của chính Keynes.
+> 3. Bản etext này **bỏ tiêu đề 6 Quyển** (chỉ ghi "BOOK I"…). Tên Quyển trong khoá lấy từ mục lục gốc Macmillan (đối chiếu History of Economic Thought), không bịa.
 
 ---
 
@@ -45,21 +37,11 @@ Công thức viết dạng chữ thường trong khối mã (vd `k = 1/(1 − MP
 
 ## Vì sao học cuốn này
 
-Năm 1936, giữa lòng **Đại khủng hoảng** (thất nghiệp Mỹ có lúc 25%), một nhà kinh tế Cambridge
-xuất bản cuốn sách bác thẳng niềm tin cốt lõi của kinh tế học đương thời: rằng thị trường tự
-do luôn tự đưa mình về **toàn dụng nhân công**. Keynes hỏi một câu đơn giản mà cả một trường
-phái không trả lời nổi: *nếu thị trường tự chữa, vì sao hàng triệu người thất nghiệp năm này
-qua năm khác?*
+Năm 1936, giữa lòng **Đại khủng hoảng** (thất nghiệp Mỹ có lúc 25%), một nhà kinh tế Cambridge xuất bản cuốn sách bác thẳng niềm tin cốt lõi của kinh tế học đương thời: rằng thị trường tự do luôn tự đưa mình về **toàn dụng nhân công**. Keynes hỏi một câu đơn giản mà cả một trường phái không trả lời nổi: *nếu thị trường tự chữa, vì sao hàng triệu người thất nghiệp năm này qua năm khác?*
 
-Cuốn sách khai sinh ngành **kinh tế học vĩ mô** và bộ khái niệm mà hôm nay ai học kinh tế cũng
-gặp — **cầu hữu hiệu, số nhân chi tiêu, khuynh hướng tiêu dùng, hiệu suất biên của vốn, ưa
-thích thanh khoản, bẫy thanh khoản**. Mọi gói kích cầu, mọi lần ngân hàng trung ương hạ lãi
-suất trong khủng hoảng đều là con cháu của cuốn này.
+Cuốn sách khai sinh ngành **kinh tế học vĩ mô** và bộ khái niệm mà hôm nay ai học kinh tế cũng gặp — **cầu hữu hiệu, số nhân chi tiêu, khuynh hướng tiêu dùng, hiệu suất biên của vốn, ưa thích thanh khoản, bẫy thanh khoản**. Mọi gói kích cầu, mọi lần ngân hàng trung ương hạ lãi suất trong khủng hoảng đều là con cháu của cuốn này.
 
-Học cuốn này để **khép vòng** với [Adam Smith](../adamsmitccccdt/README.md): Smith dạy "bàn tay
-vô hình" và "tiết kiệm là đức"; Keynes chỉ ra cả hai có thể **phản tác dụng** khi nền kinh tế
-kẹt trong suy thoái. Đọc xong hai cuốn, bạn nắm được **hai cực** của tranh luận kinh tế suốt
-250 năm.
+Học cuốn này để **khép vòng** với [Adam Smith](../adamsmitccccdt/README.md): Smith dạy "bàn tay vô hình" và "tiết kiệm là đức"; Keynes chỉ ra cả hai có thể **phản tác dụng** khi nền kinh tế kẹt trong suy thoái. Đọc xong hai cuốn, bạn nắm được **hai cực** của tranh luận kinh tế suốt 250 năm.
 
 ---
 
@@ -91,8 +73,7 @@ QUYỂN VI   Ghi chú mở rộng        (chu kỳ, trọng thương, triết l�
 Vòng 1 = học kỹ · Vòng 2 = đọc hiểu. Toàn khoá dựng từ **bản Anh** (kho không có bản dịch Việt).
 
 > [!note] Tiến độ
-> **Hoàn thành toàn bộ Bài 0–8** (đủ 6 Quyển), đã đào sâu theo khuôn "Góc đời sống → Keynes nói gì →
-> Định nghĩa → Chuỗi lập luận → Ví dụ số" (2026-10). Mọi trích dẫn tiếng Anh khớp nguyên văn Gutenberg.
+> **Hoàn thành toàn bộ Bài 0–8** (đủ 6 Quyển), đã đào sâu theo khuôn "Góc đời sống → Keynes nói gì → Định nghĩa → Chuỗi lập luận → Ví dụ số" (2026-10). Mọi trích dẫn tiếng Anh khớp nguyên văn Gutenberg.
 
 ---
 
